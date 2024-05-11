@@ -1,2 +1,3 @@
-# neolatdracor
+# NeoLatDraCor
+
 Neo-Latin Drama Corpus

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Neo-Latin Drama Corpus</title>
+        <title type="acronym">NeoLatDraCor</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>DraCor</publisher>
+        <idno type="URI" xml:base="https://dracor.org/">u</idno>
+        <idno type="repo">https://github.com/dracor-org/neolatdracor</idno>
+      </publicationStmt>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+       <p>
+         This repository contains texts of Neo-Latin plays.
+       </p>
+      </projectDesc>
+    </encodingDesc>
+  </teiHeader>
+</teiCorpus>
