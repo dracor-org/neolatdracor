@@ -2,7 +2,7 @@
 
 ## General Information
 Neo-Latin Drama Corpus, dramatic texts in [TEI P5](https://tei-c.org/guidelines/p5/) format. Licenced under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).  
-Edited by Julia Jennifer Beine (Ruhr University Bochum), maintained by Ingo Börner (University of Potsdam), Frank Fischer (Free University Berlin), and Carsten Milling (University of Potsdam). The texts in the Neo-Latin Drama Corpus were encoded and contributed by different working groups. Legal responsibility lies with the editors of the subcorpora. The responsiblities and corpus details are documented below.
+Edited by Julia Jennifer Beine (Ruhr University Bochum), maintained by Ingo Börner (University of Potsdam), Frank Fischer (Freie Universität Berlin), and Carsten Milling (University of Potsdam). The texts in the Neo-Latin Drama Corpus were encoded and contributed by different working groups. Legal responsibility lies with the editors of the subcorpora. The responsiblities and corpus details are documented below.
 
 ## Contributing Working Groups
 (in alphabetical order)
@@ -20,13 +20,6 @@ text selection in alphabetical order: tba
 number of texts: tba  
 status: dormant  
 website: [JesDraCor](https://github.com/alexander-winkler/jesdracor)
-### Joannes Luccarus Corpus
-editor(s): Neven Jovanović (University of Zagreb)  
-encoder(s): Neven Jovanović (University of Zagreb)    
-text selection in alphabetical order: Stanislaus Kostka drama sacrum (1709)  
-number of texts: 1  
-status: work in progress  
-website: [Edition](https://zenodo.org/doi/10.5281/zenodo.7495178)  
 ### Macropedius Drama Corpus
 editor(s): Julia Jennifer Beine (Ruhr University Bochum)  
 encoders: Leon Fabian Gleser, Steffen Gutbier, Joshua Mährmann, Paula van Bonn, Rabea Klara Sülz, Carina Christensen, Kassandra Marie Stangel, Christina Charalampidou (all Ruhr University Bochum); Daina-Sophia Münch (Free University Berlin)  
