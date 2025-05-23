@@ -6,7 +6,10 @@
          <titleStmt>
             <title type="main">Iudicium Paridis</title>
             <author>
-               <persName xml:lang="eng">Jakob Locher</persName>
+               <persName>
+                  <forename>Jakob</forename>
+                  <surname>Locher</surname>
+               </persName>
                <idno type="wikidata">Q126967</idno>
                <idno type="pnd">118780247</idno>
             </author>
@@ -119,9 +122,9 @@
       </profileDesc>
    </teiHeader>
    <standOff>
-      <listRelation>
+      <!--<listRelation>
          <relation name="wikidata" active="https://dracor.org/entity/neolat000002"/>
-      </listRelation>
+      </listRelation>-->
       <listEvent>
          <event type="print" when="1504">
             <desc/>
