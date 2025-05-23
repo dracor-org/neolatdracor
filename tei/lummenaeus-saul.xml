@@ -1,12 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xml:id="neolatXXXXXX"
-     xml:lang="lat"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="neolat000003" xml:lang="lat">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="work">Saul tragoedia sacra</title>
+            <title type="main">Saul tragoedia sacra</title>
             <author>
                <persName xml:lang="eng">Jacobus Cornelius Lummenaeus à Marca</persName>
                <idno type="wikidata">Q112481178</idno>
@@ -27,6 +23,7 @@
             <respStmt>
                <resp>Converted to TEI by</resp>
                <persName>Kateřina Bobková-Valentová</persName>
+               <persName>Ingo Börner</persName>
             </respStmt>
             <funder>
                <orgName>Dutch Research Council (NWO)</orgName>
@@ -47,52 +44,39 @@
          <sourceDesc>
             <bibl type="digitalSource">
                <name>/</name>
+               <bibl type="originalSource">Jacobus Cornelius Lummenaeus a Marca: Saul tragoedia sacra. In: Musae lacrymantes, sive Pleias tragica, id est septem tragoediae sacrae. Bustum Sodomae, Abimelech, Iephte, Sampson, Saul, Amnon, Sedechias. Douai: Johannes de Fampoux 1628. pp. 121–156. https://books.google.nl/books?id=3Wg-AAAAcAAJ.</bibl>
             </bibl>
-            <bibl type="originalSource">Jacobus Cornelius Lummenaeus a Marca: Saul tragoedia sacra. In: Musae lacrymantes, sive Pleias tragica, id est septem tragoediae sacrae. Bustum Sodomae, Abimelech, Iephte, Sampson, Saul, Amnon, Sedechias. Douai: Johannes de Fampoux 1628. pp. 121–156. https://books.google.nl/books?id=3Wg-AAAAcAAJ.</bibl>
+            
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person sex=""
-                       role=""
-                       xml:id="achimas">
+               <person sex="MALE" xml:id="achimas">
                   <persName>ACHIMAS</persName>
                </person>
-               <person sex=""
-                       role=""
-                       xml:id="achimas-arm">
-                  <persName>ACHIMAS ARM.</persName>
-               </person>
-               <person sex=""
-                       role=""
-                       xml:id="david">
+               
+               <person sex="MALE" xml:id="david">
                   <persName>DAVID.</persName>
                </person>
-               <person sex=""
-                       role=""
-                       xml:id="manto">
+               <person sex="MALE" role="" xml:id="manto">
                   <persName>MANTO.</persName>
                </person>
-               <person sex=""
-                       role=""
-                       xml:id="nvnc">
+               <person sex="MALE" role="" xml:id="nvnc">
                   <persName>NVNC.</persName>
                </person>
-               <person sex=""
-                       role=""
-                       xml:id="savl">
+               <person sex="MALE" role="" xml:id="savl">
                   <persName>SAVL.</persName>
                </person>
-               <person sex=""
-                       role=""
-                       xml:id="unknown">
+               <person sex="" role="" xml:id="unknown">
                   <persName>Unknown</persName>
                </person>
-               <person sex=""
-                       role=""
-                       xml:id="vmbra-sam">
-                  <persName>VMBRA SAM.</persName>
+               
+               <personGrp xml:id="chorus">
+                  <name>Chorus</name>
+               </personGrp>
+               <person xml:id="samuel" sex="MALE">
+                  <persName>SAMVEL.</persName>
                </person>
             </listPerson>
          </particDesc>
@@ -110,10 +94,8 @@
       </profileDesc>
    </teiHeader>
    <standOff>
-      <listRelation/>
       <listEvent>
-         <event type="print"
-                when="1628">
+         <event type="print" when="1628">
             <desc/>
          </event>
       </listEvent>
@@ -179,7 +161,8 @@
 <lb/>L. CARD. SANSEVERINVS.
 </p>
          </div>
-         <argument>
+         <div>
+            <argument>
             <pb n="R 3"/>
             <pb n="123"/>
             <head>ARGVMENTVM.</head>
@@ -193,38 +176,41 @@
             <p>gressus, &amp; propriâ manu transuerberatus</p>
             <p>occumbit. 1. Reg. 31.</p>
          </argument>
-         <div type="Dramatis_Personae"/>
-         <head>PERSONARVM NOMINA.</head>
-         <castItem>
-            <role>SAMVEL.</role>
-         </castItem>
-         <castItem>
-            <role>DAVID.</role>
-         </castItem>
-         <castItem>
-            <role>SAVL.</role>
-         </castItem>
-         <castItem>
-            <role>PYTHONISSA.</role>
-         </castItem>
-         <castItem>
-            <role>ACHIMAS </role>
-            <roleDesc>ARMIGER.</roleDesc>
-         </castItem>
-         <castItem>
-            <role>NVNCIVS.</role>
-         </castItem>
-         <castItem>
-            <role>CHORVS.</role>
-         </castItem>
+         </div>
+         <div type="Dramatis_Personae">
+            <castList>
+               <head>PERSONARVM NOMINA.</head>
+               <castItem>
+                  <role>SAMVEL.</role>
+               </castItem>
+               <castItem>
+                  <role>DAVID.</role>
+               </castItem>
+               <castItem>
+                  <role>SAVL.</role>
+               </castItem>
+               <castItem>
+                  <role>PYTHONISSA.</role>
+               </castItem>
+               <castItem>
+                  <role>ACHIMAS </role>
+                  <roleDesc>ARMIGER.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role>NVNCIVS.</role>
+               </castItem>
+               <castItem>
+                  <role>CHORVS.</role>
+               </castItem>
+            </castList>
+         </div>
       </front>
       <body>
-         <div type="act"
-              n="1">
+         <div type="act" n="1">
             <pb n="124"/>
             <head>ACTVS PRIMVS.</head>
             <stage>SAMVEL.</stage>
-            <sp who="#unknown">
+            <sp who="#samuel">
                <l>EX quo tonanti Numini, &amp; sceptro meo</l>
                <l>Populus rebellis, purpuram eripuit mihi;</l>
                <l>Tunc, cùm ambiêre gentico more, aurëo</l>
@@ -303,10 +289,9 @@
                <l>Et tolle tecum monstra &amp; aeternùm vale.</l>
             </sp>
          </div>
-         <div type="scene"
-              n="chorus">
+         <div type="scene" n="chorus">
             <head>CHORVS.</head>
-            <sp who="#unknown">
+            <sp who="#chorus">
                <l>Sic, sic abiuit, nec videbit amplius</l>
                <pb n="127"/>
                <l n="75">Regem impiatum: cuncta decoxit miser</l>
@@ -378,11 +363,10 @@
                <l>Et vibrat hastam; currite, inuadit, furit.</l>
             </sp>
          </div>
-         <div type="act"
-              n="2">
+         <div type="act" n="2">
             <head>ACTVS SECVNDVS.</head>
             <stage>SAVL.</stage>
-            <sp who="#unknown">
+            <sp who="#savl">
                <l n="140">ERupit; ergò semper illudet mihi</l>
                <l>Galeatus ille, pectore imbelli, lepus,</l>
                <l>Oreadumque alumnus, aut montis iugo,</l>
@@ -462,10 +446,9 @@
                <l>Sceptrum gubernet, aureo nutu regat.</l>
             </sp>
          </div>
-         <div type="scene"
-              n="chorus">
+         <div type="scene" n="chorus">
             <head>CHORVS.</head>
-            <sp who="#unknown">
+            <sp who="#chorus">
                <l>Heu! quàm vario carpitur aestu,</l>
                <l>Qui solicito natus in ostro,</l>
                <l>Et purpureae deditus aulae,</l>
@@ -578,11 +561,10 @@
                <l>Semperque istis excidet ausis.</l>
             </sp>
          </div>
-         <div type="act"
-              n="3">
+         <div type="act" n="3">
             <head>ACTVS TERTIVS.</head>
             <stage>DAVID.</stage>
-            <sp who="#unknown">
+            <sp who="#david">
                <l>QVamdiu cauernas montium, &amp; valles sequor,</l>
                <l>Et illa tesquorum aspera, inculta, horrida,</l>
                <l>Suspiriosas anxius noctes traho,</l>
@@ -642,10 +624,9 @@
                <l n="370">Pacem rogamus, exulat bello salus.</l>
             </sp>
          </div>
-         <div type="scene"
-              n="chorus">
+         <div type="scene" n="chorus">
             <head>CHORVS.</head>
-            <sp who="#unknown">
+            <sp who="#chorus">
                <l>O qui sidera torques!</l>
                <l>O qui lumina caeli</l>
                <l>Certo nomine signas!</l>
@@ -796,14 +777,13 @@
                <l>Säul peßime Regum!</l>
             </sp>
          </div>
-         <div type="act"
-              n="4">
+         <div type="act" n="4">
             <pb n="144"/>
             <head>ACTVS QVARTVS.</head>
             <stage>SAVL, ACHIMAS ARMIGER,</stage>
             <stage>MANTO VENEFICA, VMBRA</stage>
             <stage>SAMVELIS.</stage>
-            <sp who="#unknown">
+            <sp who="#savl">
                <l>PVgnamus iterum: finis alterius mali,</l>
                <l>Gradus futuri est; excidit tandem Dauid,</l>
                <l>Et alia Martis tessera in castris viget,</l>
@@ -886,13 +866,7 @@
                <l>Quae nuda pedibus, nuda anhelo pectore,</l>
                <l>Illis Deorum Manium summis litet.</l>
             </sp>
-            <sp who="#achimas-arm">
-               <speaker>ACHIMAS ARM.</speaker>
-               <l n="590">Etiam licebit; me duce, inuenies modum.</l>
-               <l>Quà florida Endor rure Galilaeo iacet,</l>
-               <l>Propter Näimae moenia, abducto latet</l>
-               <l>Pithonis antro; si libet, sterno viam.</l>
-            </sp>
+            <sp who="#achimas"><speaker>ACHIMAS ARM.</speaker><l n="590">Etiam licebit; me duce, inuenies modum.</l><l>Quà florida Endor rure Galilaeo iacet,</l><l>Propter Näimae moenia, abducto latet</l><l>Pithonis antro; si libet, sterno viam.</l></sp>
             <sp who="#savl">
                <speaker>SAVL.</speaker>
                <l n="595">Vitam dedisti, viuimus Achima, moras</l>
@@ -913,13 +887,24 @@
                <speaker>SAVL.</speaker>
                <l>Absiste, tacitos inter, haec latent, focos,</l>
                <l>Et nemò nostris sannio illudet sacris.</l>
-               <l part=""
-                  cert="unknown">
-                  <speaker>MANTO.</speaker>Differre liceat. <speaker>SAVL.</speaker>Quid mihi nectis moras?</l>
-               <l n="610"
-                  part=""
-                  cert="unknown">
-                  <speaker>MANTO.</speaker>State igitur, at quem postulas? <speaker>SAVL.</speaker>Samuel senex</l>
+            </sp>
+               <sp who="#manto">
+                  <speaker>MANTO.</speaker>
+                  <l part="I">Differre liceat.</l>
+               </sp> 
+            <sp who="#savl">
+                  <speaker>SAVL.</speaker>
+               <l part="M">Quid mihi nectis moras?</l>
+            </sp>
+            
+            <sp who="#manto">
+               <speaker>MANTO.</speaker>
+               <l n="610" part="M">
+                  State igitur, at quem postulas?</l>
+            </sp>
+               <sp who="#savl">
+               <speaker>SAVL.</speaker>
+                  <l part="F">Samuel senex</l>
                <l>Hîc me reuisat; Samuel veniat rogo.</l>
                <pb n="V 2"/>
                <pb n="148"/>
@@ -940,72 +925,104 @@
                <l>Iterum Samuel induat artus.</l>
                <l n="625">Tellus dehiscit; cur mihi imponis Ducum</l>
                <l>Magnanime rector? purpuram agnosco tuam</l>
-               <l part=""
-                  cert="unknown">Istâ in lacernâ; video! <speaker>SAVL.</speaker>Quid spectas? refer.</l>
+               <l part="I">Istâ in lacernâ; video!</l>
+               </sp>
+            <sp who="#savl">
+               <speaker>SAVL.</speaker>
+               <l part="F">Quid spectas? refer.</l>
             </sp>
             <sp who="#manto">
                <speaker>MANTO.</speaker>
-               <l part=""
-                  cert="unknown">Luctari ad auras<speaker>. SAVL.</speaker>Attamen quales vides?</l>
-               <l n="630"
-                  part=""
-                  cert="unknown">Quali ore &amp; habitu? <speaker>MANT.</speaker>Floridum specto senem,</l>
+               <l part="I">Luctari ad auras.</l></sp>
+            <sp who="#savl">
+            <speaker>SAVL.</speaker><l part="M">Attamen quales vides?</l>
+               <l n="630" part="F">Quali ore &amp; habitu?</l>
+            </sp>
+            <sp who="#manto">
+                  <speaker>MANT.</speaker>
+               <l>Floridum specto senem,</l>
                <l>Et palliatum, multa canicies comis,</l>
                <l>Hebraeo in ore mistus apparet rigor</l>
             </sp>
             <sp who="#savl">
                <speaker>SAVL.</speaker>
-               <l part=""
-                  cert="unknown">
-                  <speaker>VMBRA SAM.</speaker>Quid mihi quietem interpolas? <speaker>SAVL.</speaker>Supplex rogo,</l>
+               <l part="" cert="unknown"> <!-- here text is missing -->
+               </l>
+            </sp>
+              <sp who="#samuel"><speaker>VMBRA SAM.</speaker><l>Quid mihi quietem interpolas?</l></sp>
+            <sp who="#savl">
+                 <speaker>SAVL.</speaker>
+               <l>Supplex rogo,</l>
                <l n="635">Admitte genibus supplicem; ô Regum parens!</l>
-               <l part=""
-                  cert="unknown">
-                  <speaker>VMBRA SAM.</speaker>Regum tyranne! quid times? <speaker>SAVL.</speaker>Timeo nimis,</l>
-               <l part=""
-                  cert="unknown">Et Barbari castra occupant. <speaker>VMBRA SAM.</speaker>Cras iungimur,</l>
-               <l part=""
-                  cert="unknown">Decreta mors est. <speaker>MANT.</speaker>Palluit, cecidit, iacet.</l>
+               <l part="" cert="unknown">
+               </l>
+            </sp>
+            <sp who="#samuel"><speaker>VMBRA SAM.</speaker><l>Regum tyranne! quid times?</l></sp>
+            <sp who="#savl">
+            <speaker>SAVL.</speaker>
+               <l>Timeo nimis,</l>
+               <l part="I">Et Barbari castra occupant.</l>        
+            </sp>
+            <sp who="#samuel"><speaker>VMBRA SAM.</speaker><l part="M">Cras iungimur,</l><l part="M">Decreta mors est.</l></sp>
+            <sp who="#manto">
+               <speaker>MANT.</speaker>
+               <l part="F">Palluit, cecidit, iacet.</l>
                <pb n="149"/>
             </sp>
-            <sp who="#vmbra-sam">
-               <speaker>VMBRA SAM.</speaker>
-               <l n="640">Et mille lateri spicula haerebunt tuo,</l>
-               <l>Et sanguinantem, pectore in sicam inuolans</l>
-               <l>Funere notabis inclyto rupem asperam,</l>
-               <l>Et tota quondam Gelboa arescet tibi.</l>
+            <sp who="#samuel"><speaker>VMBRA SAM.</speaker><l n="640">Et mille lateri spicula haerebunt tuo,</l><l>Et sanguinantem, pectore in sicam inuolans</l><l>Funere notabis inclyto rupem asperam,</l><l>Et tota quondam Gelboa arescet tibi.</l></sp>
+            <sp who="#manto">
+               <speaker>MANTO.</speaker>
+               <l n="645" part="" cert="unknown">Artus, tremiscit.</l>
+            </sp>
+               <sp who="#savl">
+               <speaker>SAVL.</speaker>
+                  <l part="F">Samuel! vbi est tamen?</l>
             </sp>
             <sp who="#manto">
                <speaker>MANTO.</speaker>
-               <l n="645"
-                  part=""
-                  cert="unknown">Artus, tremiscit. <speaker>SAVL.</speaker>Samuel! vbi est tamen?</l>
+            </sp>
+            
+            <sp who="#savl">
+               <speaker>SAVL.</speaker>
+               <l part="I">Ne redeat iterùm.</l>
             </sp>
             <sp who="#manto">
-               <speaker>MANTO.</speaker>
+               <speaker>MANT.</speaker>
+               <l>Taenaro vinctus sedet,</l>
+               <l part="I">Orco ligatus.</l>
+            </sp>
+            <sp who="#savl">   
+               <speaker>SAVL.</speaker>
+               <l n="650" part="F">An satis vinctus tamen?</l>
+            </sp>
+            <sp who="#manto">     
+                  <speaker>MANTO.</speaker> 
+               <l part="I">Desine timoris, desine.</l> 
             </sp>
             <sp who="#savl">
                <speaker>SAVL.</speaker>
-               <l part=""
-                  cert="unknown">Ne redeat iterùm. <speaker>MANT.</speaker>Taenaro vinctus sedet,</l>
-               <l part=""
-                  cert="unknown">Orco ligatus. <speaker>SAVL.</speaker>An satis vinctus tamen?</l>
-               <l n="650"
-                  part=""
-                  cert="unknown">
-                  <speaker>MANTO</speaker>. Desine timoris, desine. <speaker>SAVL.</speaker>Haud possum satis</l>
+               <l part="F">Haud possum satis</l>
                <l>Consistere animo; Samuel iterum venit;</l>
                <l>Audio fragorem, Samuel iterum tonat,</l>
                <l>Rursum minatur Samuel; specto senem,</l>
-               <l part=""
-                  cert="unknown">Excußit iterum pallium. <speaker>MANT.</speaker>Mentem aduoca:</l>
-               <l n="655">Nam qui timent, sibi ista fingunt somnia,</l>
-               <l part=""
-                  cert="unknown">Redijt sub vmbras Samuel. <speaker>SAVL.</speaker>Redijt? sequar.</l>
+               <l part="I">Excußit iterum pallium.</l>
             </sp>
+            <sp who="#manto">
+               <speaker>MANT.</speaker>
+               <l part="F">Mentem aduoca:</l>
+               <l n="655">Nam qui timent, sibi ista fingunt somnia,</l>
+               <l part="I">Redijt sub vmbras Samuel.</l>
+            </sp>
+            <!-- Text lost? -->
+            <sp who="#savl">
+               <speaker>SAVL.</speaker>
+               <l>Redijt? sequar.</l>
+            </sp>
+            <!-- Text lost -->
             <sp who="#achimas">
                <speaker>ACHIMAS</speaker>
             </sp>
+            
             <sp who="#manto">
                <speaker>MANTO.</speaker>
                <l>Liba, saginam vitulae, &amp; ô similam, &amp; merum,</l>
@@ -1016,10 +1033,9 @@
                <pb n="150"/>
             </sp>
          </div>
-         <div type="scene"
-              n="chorus">
+         <div type="scene" n="chorus">
             <head>CHORVS.</head>
-            <sp who="#unknown">
+            <sp who="#chorus">
                <l>Quónam cruentus ille</l>
                <l>Noctem minante coelo,</l>
                <l n="665">Et luce tam malignâ?</l>
@@ -1095,11 +1111,10 @@
                <l>Nec difficilem lugeat Aten.</l>
             </sp>
          </div>
-         <div type="act"
-              n="5">
+         <div type="act" n="5">
             <head>ACTVS QVINTVS</head>
             <stage>DAVID, NVNCIVS.</stage>
-            <sp who="#unknown">
+            <sp who="#david">
                <l>VIcimus Idumen; quid mihi rursum iubes</l>
                <l n="735">Aeterne Sabaoth? quod mihi mandas iter?</l>
                <pb n="153"/>
@@ -1109,45 +1124,77 @@
                <l>Quis iste? quò praecipitat? horrescit, stupet,</l>
                <l n="740">Pallet; quis iterum turbat? an rursùm mouet</l>
                <l>Amalech, &amp; icta Lerna se busto leuat?</l>
-               <l part=""
-                  cert="unknown">Quid nuncias? <speaker>NVNC.</speaker>Dira omnia. <speaker>DAVID.</speaker>Ah! dira omnia?</l>
-               <l part=""
-                  cert="unknown">Iterum perîmus? <speaker>NVNC.</speaker>Perijt! <speaker>DAVID.</speaker>An totus perî?</l>
-               <l part=""
-                  cert="unknown">
-                  <speaker>NVNC.</speaker>Totus perît. <speaker>DAVID.</speaker>Tremiscit; absolue ocyus.</l>
-               <l n="745"
-                  part=""
-                  cert="unknown">
-                  <speaker>NVNC.</speaker>Saul! <speaker>DAVID.</speaker>Quid ille? <speaker>NVNC.</speaker>Gelböae dorso iacet,</l>
-               <l part=""
-                  cert="unknown">Truncus, lacer, distractus. <speaker>DAVID.</speaker>Ah! miser! miser!</l>
+               <l part="I">Quid nuncias?</l>
+            </sp>
+            <sp who="#nvnc">
+               <speaker>NVNC.</speaker><l part="M">Dira omnia.</l></sp>
+            <sp who="#david">   
+               <speaker>DAVID.</speaker>
+               <l>Ah! dira omnia?</l>
+               
+               <l part="I">Iterum perîmus?</l></sp>
+            
+            <sp who="#nvnc"><speaker>NVNC.</speaker>
+               <l part="F">Perijt!</l></sp>
+            <sp who="#david">
+            <speaker>DAVID.</speaker>
+               <l part="I">An totus perî?</l>
+            </sp>
+            <sp who="#nvnc">
+                  <speaker>NVNC.</speaker><l part="F">Totus perît.</l></sp>
+            <sp who="#david">
+            <speaker>DAVID.</speaker>
+               <l n="745" part="I">Tremiscit; absolue ocyus.</l>
+            </sp>
+            <sp who="#nvnc">
+                  <speaker>NVNC.</speaker><l>Saul!</l></sp>
+            <sp who="#david">
+               <speaker>DAVID.</speaker><l part="I">Quid ille?</l></sp>
+            <sp who="#nvnc">
+            <speaker>NVNC.</speaker>
+               <l part="F">Gelböae dorso iacet,</l>
+               <l part="I">Truncus, lacer, distractus.</l>
+               </sp>
+            <sp who="#david">
+               <speaker>DAVID.</speaker>
+               <l>Ah! miser! miser!</l>
             </sp>
             <sp who="#nvnc">
                <speaker>NVNC.</speaker>
-               <l part=""
-                  cert="unknown">Spirantem, anhelum. <speaker>DAVID.</speaker>Tota mors illum tamen?</l>
-               <l part=""
-                  cert="unknown">
-                  <speaker>NVNC.</speaker>Totum recepit frigus, &amp; Ionathas quoque</l>
-               <l n="750"
-                  part=""
-                  cert="unknown">Accubuit illi. <speaker>DAVID.</speaker>Ionathas? abominor.</l>
+               <l part="" cert="unknown">Spirantem, anhelum.</l></sp>
+            
+            <sp who="#david"><speaker>DAVID.</speaker>
+               <l>Tota mors illum tamen?</l></sp>
+               <sp who="#nvnc">
+                  <speaker>NVNC.</speaker><l>Totum recepit frigus, &amp; Ionathas quoque</l>
+               <l n="750" part="I">Accubuit illi.</l>
+               </sp>
+            <sp who="#david">
+               <speaker>DAVID.</speaker>
+               <l>Ionathas? abominor.</l>
                <l>An caesus illic Ionathas plangit solum?</l>
-               <l part=""
-                  cert="unknown">
-                  <speaker>NVNC.</speaker>Et cuncta soboles regia. <speaker>DAVID.</speaker>Ah! Ionathas meus</l>
+            </sp>
+               <sp who="#nvnc">
+                  <speaker>NVNC.</speaker>
+                  <l part="I">Et cuncta soboles regia.</l></sp>
+            <sp who="#david">
+            <speaker>DAVID.</speaker>
+               <l part="F">Ah! Ionathas meus</l>
                <l>Occubuit? heu me! Ionatha! an certum est tamen?</l>
-               <l part=""
-                  cert="unknown">Et cecidit illic Ionathas? <speaker>NVNC.</speaker>Certum est nimis.</l>
+               <l part="I">Et cecidit illic Ionathas?</l></sp>
+            <sp who="#nvnc">
+               <speaker>NVNC.</speaker>
+               <l part="F">Certum est nimis.</l>
                <l n="755">Et ecce regnì spolia collapsi fero,</l>
                <l>Armillam, &amp; aurêam regiae frontis notam,</l>
                <l>Säulis olim decora, cùm fatum tulit.</l>
             </sp>
             <sp who="#david">
                <speaker>DAVID.</speaker>
-               <l part=""
-                  cert="unknown">Vnde illa &amp; vnde rapta? <speaker>NVNC.</speaker>Palpabat miser</l>
+               <l part="I">Vnde illa &amp; vnde rapta?</l></sp>
+            <sp who="#nvnc">
+               <speaker>NVNC.</speaker>
+               <l part="F">Palpabat miser</l>
                <l n="760">Princeps, &amp; aegrum lancinans ferro latus,</l>
                <l>Non poterat animam vellere, immersam fibris:</l>
                <l>Et tu, inquit, &amp; tu quisquis es, iuua manum,</l>
@@ -1158,11 +1205,16 @@
                <l n="765">Feci (iuuat fecisse) &amp; oppetijt statim,</l>
                <l>Nec illa caedes languida, aut iners fuit;</l>
                <l>Ecce ista certi pignoris supplent locum.</l>
-               <l part=""
-                  cert="unknown">
-                  <speaker>DAVID.</speaker>Quis tu? vel vnde? refer. <speaker>NVNC.</speaker>Idumaeus pater</l>
-               <l part=""
-                  cert="unknown">Me genuit, Amalech nutrit. <speaker>DAVID.</speaker>An nondum iacet</l>
+            </sp>
+            <sp who="#david">
+                  <speaker>DAVID.</speaker><l part="I">Quis tu? vel vnde? refer.</l></sp>
+            <sp who="#nvnc">
+            <speaker>NVNC.</speaker>
+               <l part="F">Idumaeus pater</l>
+               <l part="I">Me genuit, Amalech nutrit.</l></sp>
+            <sp who="#david">
+            <speaker>DAVID.</speaker>
+               <l>An nondum iacet</l>
                <l n="770">Amalech? &amp; hydrum hunc fouit? &amp; latebram quoque</l>
                <l>Inuenit iste, cùm meus paßim mucro</l>
                <l>Feriret omnes? impium, infandum caput!</l>
