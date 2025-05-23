@@ -59,17 +59,14 @@
                <person sex="MALE" xml:id="david">
                   <persName>DAVID.</persName>
                </person>
-               <person sex="MALE" role="" xml:id="manto">
+               <person sex="MALE" xml:id="manto">
                   <persName>MANTO.</persName>
                </person>
-               <person sex="MALE" role="" xml:id="nvnc">
+               <person sex="MALE" xml:id="nvnc">
                   <persName>NVNC.</persName>
                </person>
-               <person sex="MALE" role="" xml:id="savl">
+               <person sex="MALE" xml:id="savl">
                   <persName>SAVL.</persName>
-               </person>
-               <person sex="" role="" xml:id="unknown">
-                  <persName>Unknown</persName>
                </person>
                
                <personGrp xml:id="chorus">
@@ -954,7 +951,7 @@
                  <speaker>SAVL.</speaker>
                <l>Supplex rogo,</l>
                <l n="635">Admitte genibus supplicem; ô Regum parens!</l>
-               <l part="" cert="unknown">
+               <l part="X" cert="unknown">
                </l>
             </sp>
             <sp who="#samuel"><speaker>VMBRA SAM.</speaker><l>Regum tyranne! quid times?</l></sp>
