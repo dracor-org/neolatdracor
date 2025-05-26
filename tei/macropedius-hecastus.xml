@@ -61,9 +61,9 @@
                <bibl type="originalSource">
                   <author>Georgius Macropedius</author> : <title>Hecastus</title>. In: <author>Henk
                      Giebels</author> , <author>Frans Slits</author>: <title level="m">Georgius
-                        Macropedius 1487 - 1558. Leven en werken van een Brabantse humanist</title> .
-                  <pubPlace>Tilburg</pubPlace> : <publisher>Stichting Zuidelijk Historisch Contact
-                     Tilburg</publisher>
+                     Macropedius 1487 - 1558. Leven en werken van een Brabantse humanist</title> .
+                     <pubPlace>Tilburg</pubPlace> : <publisher>Stichting Zuidelijk Historisch
+                     Contact Tilburg</publisher>
                   <date>2005</date> , <biblScope unit="CD-ROM">De komedies van Macropedius. Latijnse
                      tekst van Omnes Fabulae Comicae</biblScope>
                </bibl>
@@ -190,18 +190,14 @@
             <docTitle>
                <titlePart type="main">HECASTUS</titlePart>
                <titlePart type="desc">
-                  <l>MACROPEDII, FABU</l>
-                  <l>LA NON MINUS PIA QUAM IUCUN-</l>
-                  <l>da, in qua facinorosus quisque mortalium subitaria</l>
-                  <l>morte praeoccupatus, tanquam in speculo quo-</l>
-                  <l>dam contemplari poterit, quemadmodum</l>
-                  <l>per Christum post veram suorum cri-</l>
-                  <l>minum poenitudinem ad beatam</l>
-                  <l>adeoque laetam mortem perveniat.</l>
-               </titlePart>
+                  <lb/>MACROPEDII, FABU <lb/>LA NON MINUS PIA QUAM IUCUN- <lb/>da, in qua
+                  facinorosus quisque mortalium subitaria <lb/>morte praeoccupatus, tanquam in
+                  speculo quo- <lb/>dam contemplari poterit, quemadmodum <lb/>per Christum post
+                  veram suorum cri- <lb/>minum poenitudinem ad beatam <lb/>adeoque laetam mortem
+                  perveniat. </titlePart>
             </docTitle>
             <epigraph>
-               <gap reason="figure"></gap>
+               <gap reason="figure"/>
             </epigraph>
             <docImprint>
                <pubPlace>ULTRAIECTI.</pubPlace>
@@ -212,12 +208,8 @@
             <pb n="fol. b1v"/>
             <opener>
                <salute>
-                  <l>MODESTISSIMO IU-</l>
-                  <l>XTA AC DOCTISSIMO VIRO D.</l>
-                  <l>Godofrido Montano Endhoviensi Decano</l>
-                  <l>dignissimo, Georgius Macropedius.</l>
-                  <l>S. D.</l>
-               </salute>
+                  <lb/>MODESTISSIMO IU- <lb/>XTA AC DOCTISSIMO VIRO D. <lb/>Godofrido Montano
+                  Endhoviensi Decano <lb/>dignissimo, Georgius Macropedius. <lb/>S. D. </salute>
             </opener>
             <p>QUandoquidem tibi vir ornatissime iamdudum nostra placere ludicra, D. &amp; fratre
                nostro Arnoldo communi amico referente, cognovi, etiam tibi serium quiddam
@@ -237,9 +229,7 @@
          </div>
          <div type="preface">
             <head>
-               <l>AD CANDIDUM LECTO-</l>
-               <l>rem in Hecastum praefatio.</l>
-            </head>
+               <lb/>AD CANDIDUM LECTO- <lb/>rem in Hecastum praefatio. </head>
             <p>CUm ni fallor ante annos abhinc decem Hecastum nostram edidissem, &amp; paulo post
                praelo mandassem, fuere multi quibus (fabulae scopo recte considerato) per omnia
                placuit, fuere, quibus in ea nonnulla offenderunt, fuere quoque quibus omnino
@@ -301,9 +291,7 @@
          <pb n="fol. b4r"/>
          <castList>
             <head>
-               <l>PERSONAE DRAMATIS,</l>
-               <l>seu fabulae interlocutores.</l>
-            </head>
+               <lb/>PERSONAE DRAMATIS, <lb/>seu fabulae interlocutores.</head>
             <castItem>
                <role>Hecastus,</role>
                <roleDesc>maritus.</roleDesc>
@@ -344,8 +332,14 @@
                <roleDesc>legatus</roleDesc>
             </castItem>
             <castItem><role>Puer legati</role></castItem>
-            <castItem><role>Daemones cum .2. amicis</role></castItem>
-            <castItem><role>Syngenes cum 2. cognatis</role></castItem>
+            <castItem>
+               <role>Daemones</role>
+               <roleDesc>cum .2. amicis</roleDesc>
+            </castItem>
+            <castItem>
+               <role>Syngenes</role>
+               <roleDesc>cum 2. cognatis</roleDesc>
+            </castItem>
             <castItem>
                <role>Mors</role>
                <roleDesc>larva teterrima.</roleDesc>
@@ -383,8 +377,8 @@
          </castList>
          <argument>
             <head>
-               <l>PERIOCHE SEU AR-</l>
-               <l>gumentum.</l>
+               <lb/>PERIOCHE SEU AR-
+               <lb/>gumentum.
             </head>
             <l>COnvivium sibi atque amiculis suis</l>
             <l>Opiparum Hecastus apparans, pleuritide</l>
@@ -404,8 +398,8 @@
       <body>
          <div type="prologue">
             <head>
-               <l>PROLOGUS IN HE-</l>
-               <l>castum.</l>
+               <lb/>PROLOGUS IN HE-
+               <lb/>castum.
             </head>
             <sp who="#prologus">
                <l>QUotquot theatro nostro adestis, tum viri</l>
@@ -496,7 +490,7 @@
          <div n="chorus" type="scene">
             <head>CHORUS.</head>
             <stage>Versu Sapphico.</stage>
-            <gap reason="figure"></gap>
+            <gap reason="figure"/>
             <pb n="fol. b6v"/>
             <sp who="#chorus">
                <l>FAede peccator, resipisce tandem,</l>
@@ -992,7 +986,7 @@
                <head>CHORUS.</head>
                <stage>Iambici dimetri.</stage>
                <stage>Ex capite secundo Sapientiae Salomonis.</stage>
-               <gap reason="figure"></gap>
+               <gap reason="figure"/>
                <sp who="#chorus">
                   <l>NIhil sodales tandem erit</l>
                   <l>Caro nostra quam extinctus cinis,</l>
@@ -2109,7 +2103,7 @@
                <head>CHORUS.</head>
                <stage>Dimetri.</stage>
                <stage>Ex Ecclesiastico, Psalmis &amp; Apocalypsi.</stage>
-               <gap reason="figure"></gap>
+               <gap reason="figure"/>
                <sp who="#chorus">
                   <l>O Mors, quàm amara est memoria</l>
                   <l>Tui, viro sano, cui</l>
@@ -2808,7 +2802,7 @@
             <div n="8" type="scene">
                <head>CHORUS.</head>
                <stage>Trochaici dimetri.</stage>
-               <gap reason="figure"></gap>
+               <gap reason="figure"/>
                <sp who="#chorus">
                   <l n="1040">DEfluentis instar undae</l>
                   <l>Universi cum dolore</l>
@@ -3180,7 +3174,7 @@
             <div n="5" type="scene">
                <head>CHORUS.</head>
                <stage>Carmine trochaico.</stage>
-               <gap reason="figure"></gap>
+               <gap reason="figure"/>
                <sp who="#chorus">
                   <l>MOrte iustus si occupetur,</l>
                   <l n="1210">Neutiquam tristabitur.</l>
@@ -4775,7 +4769,7 @@
             </div>
             <div n="13" type="scene">
                <head>ACTUS quinti. SCAE. decimatertia. Trimetri.</head>
-               <head>Hieronymus, Grex.</head>
+               <stage>Hieronymus, Grex.</stage>
                <sp who="#hieronymus">
                   <l>QUis planctus iste inordinatus mulier est?</l>
                   <l>Quis liberi &amp; reliqui viri, quis planctus hic.</l>
