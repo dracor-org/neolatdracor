@@ -50,7 +50,7 @@
                <bibl type="originalSource">Jakob Locher: Iudicium Paridis ludi cuiusdam instar
                   carmine lucule[n]ter descriptum, ac nuper exactiori cura a superfluis, &amp;
                   erroribus antea co[m]missis prorsus emendatum. Secutus uero est autor Fulgentii
-                  Mythologia[m]. Ed. by Ulrich Rhaetus Faber. Vienna: Werlen 1520.
+                  Mythologia[m]. Ed. by Ulrich Rhaetus Faber. Vienna: Werlen [1523/1524].
                   https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00004866-9.</bibl>
             </bibl>
          </sourceDesc>
@@ -85,11 +85,11 @@
                <person sex="FEMALE" xml:id="venus">
                   <persName>Venus</persName>
                </person>
-               <person sex="MALE" xml:id="digladians_1">
-                  <persName>Digladiantes</persName>
+               <person sex="MALE" xml:id="bithus">
+                  <persName>Bithus</persName>
                </person>
-               <person sex="MALE" xml:id="digladians_2">
-                  <persName>Digladiantes</persName>
+               <person sex="MALE" xml:id="bacchius">
+                  <persName>Bacchius</persName>
                </person>
                <person sex="FEMALE" xml:id="helena">
                   <persName>Helena</persName>
@@ -97,15 +97,40 @@
                <person sex="MALE" xml:id="cupido">
                   <persName>Cupido</persName>
                </person>
+               <person sex="FEMALE" xml:id="rustica_mulier">
+                  <persName>Rustica mulier</persName>
+               </person>
+               <person sex="FEMALE" xml:id="altera_rustica">
+                  <persName>Altera rustica</persName>
+               </person>
+               <person sex="FEMALE" xml:id="tertia_villana_rustica">
+                  <persName>Tertia Villana rustica</persName>
+               </person>
+               <personGrp sex="MALE" xml:id="pastores">
+                  <persName>Pastores</persName>
+               </personGrp>
                <person sex="MALE" xml:id="menelaus">
                   <persName>Menelaus</persName>
                </person>
                <person sex="MALE" xml:id="agamemnon">
                   <persName>Agamemnon</persName>
                </person>
-               <personGrp sex="UNKNOWN" xml:id="chorea">
-                  <persName>Chorea</persName>
-               </personGrp>
+               <person sex="MALE" xml:id="praeco">
+                  <persName>Praeco</persName>
+               </person>
+               <person sex="UNKNOWN" xml:id="vite_voluptarie_commendatio">
+                  <persName>Voluptatis commendatio per Venerem</persName>
+               </person>
+               <person sex="UNKNOWN" xml:id="commendatio_vite_active">
+                  <persName>Vita quae in virtutum actione sonstitit quam actiuam uocamus commendatur
+                     Iunoni</persName>
+               </person>
+               <person sex="UNKNOWN" xml:id="commendatio_vite_contemplative">
+                  <persName>Contemplatiue uitae laus per Palladem</persName>
+               </person>
+               <person sex="UNKNOWN" xml:id="actor">
+                  <persName>Actor</persName>
+               </person>
             </listPerson>
          </particDesc>
          <textClass>
@@ -123,10 +148,10 @@
    </teiHeader>
    <standOff>
       <listEvent>
-         <event type="print" when="1504">
+         <event type="print" when="1502">
             <desc/>
          </event>
-         <event type="premiere" when="1504">
+         <event type="premiere" when="1502">
             <desc/>
          </event>
       </listEvent>
@@ -144,16 +169,16 @@
             <argument>
                <head>Huldrichus Fabri Lectoribus quasi argumentum libelli complectens
                   loquitur.</head>
-               <p>Quid Venus, &amp; Iuno coniunx, arcisque Minerua</p>
-               <p>Excultrix ualeat, seu tribus una deis,</p>
-               <p>Inde genus triplex hominum tibi panditur apto</p>
-               <p>Carmine Lector ades, dogmata sacra tene.</p>
-               <p>Ecce breui disces quae sint mortalibus omni</p>
-               <p>Tempor, quue minus nunc fugienda procul</p>
-               <p>Quisquis amat celsae uirtutis culmina, semper</p>
-               <p>Illecebras temnet corporis, atque scelus.</p>
-               <p>Hoc sentit Philomusus, ad hoc iam musa Poetae</p>
-               <p>Docta canit, dubitas? mox lege certus eris.</p>
+               <l>Quid Venus, &amp; Iuno coniunx, arcisque Minerua</l>
+               <l>Excultrix ualeat, seu tribus una deis,</l>
+               <l>Inde genus triplex hominum tibi panditur apto</l>
+               <l>Carmine Lector ades, dogmata sacra tene.</l>
+               <l>Ecce breui disces quae sint mortalibus omni</l>
+               <l>Tempor, quue minus nunc fugienda procul</l>
+               <l>Quisquis amat celsae uirtutis culmina, semper</l>
+               <l>Illecebras temnet corporis, atque scelus.</l>
+               <l>Hoc sentit Philomusus, ad hoc iam musa Poetae</l>
+               <l>Docta canit, dubitas? mox lege certus eris.</l>
             </argument>
          </titlePage>
       </front>
@@ -492,7 +517,7 @@
                <pb n="B iii"/>
             </sp>
             <stage>Digladiantes duo pro serto Veneris.</stage>
-            <sp who="#digladians_1">
+            <sp who="#bithus">
                <l>DA ramo uiridi sertum contexerat alma</l>
                <l>Cypria, quod tollat iam pugil indomitus,</l>
                <l>Iupiter assensit/ nostros spectabit &amp; actus,</l>
@@ -504,7 +529,7 @@
                <l n="(285)">Accipe nunc ensis capulum/ contende uicissim/</l>
                <l>Sertum indipisci quod dabit alma Venus.</l>
             </sp>
-            <sp who="#digladians_2">
+            <sp who="#bacchius">
                <l>Non ego iam uereor tecum pugnare tonantis</l>
                <l>Impiger ad nutum, qui mea facta probat.</l>
                <l>Intrepidus nunqum fugi certamina quae sunt</l>
@@ -602,19 +627,25 @@
                <l>Vt facias matris iussa petita meae.</l>
             </sp>
             <stage>Paris cum Helena discedit, Chorea fit interim ad tybias.</stage>
-            <sp who="#chorea">
+            <sp who="#rustica_mulier">
                <l>IVssit pulchra Venus facilem saltare choream.</l>
                <l>Nos modo Vilianas, pastoriasque nurus.</l>
                <l>Adsumus in gyrum, pedibus saltare citatis</l>
                <l n="(370)">Vobiscum cupimus, ite, salite palam.</l>
+            </sp>
+            <sp who="#altera_rustica">
                <l>Opilionis amor lasciuaque uerba uocarunt</l>
                <l>Me dudum ad saltus/ mollisonosque choros</l>
                <l>Pareo mandatis Veneris, saltare cupisco</l>
                <l>Nunc cum Villano, qui meus ignis erit.</l>
+            </sp>
+            <sp who="#tertia_villana_rustica">
                <l n="(375)">Quanqum rugarum sulco sim foeda senili</l>
                <l>Ex oculis lippis &amp; fluit usque mador.</l>
                <l>Vobiscum tamen hanc cupio ductare choream,</l>
                <l>Ad quam corripuit me Cytherea Venus.</l>
+            </sp>
+            <sp who="#pastores">
                <l>Non erit ingratum nobis pastoribus aptos</l>
                <l n="(380)">Cum uetulis saltare choros, gyroque reflexo,</l>
                <l>Ad sonitum cytharae uarios intendere motus,</l>
@@ -685,7 +716,10 @@
                <l>Quid mora confessum detinet auspicium,</l>
                <l>Adsis preco celer, Priamoque indicito bellum,</l>
                <l>Et Paridi iacito telaque nostra procul.</l>
-               <pb n="C ii"/>
+            </sp>
+            <pb n="C ii"/>
+            <stage>Praeco Troianis bellum indicit.</stage>
+            <sp who="#praeco">
                <l>Iliadum reges audite ferocia iussa</l>
                <l n="(440)">Quae commendauit fortis Atrida mihi.</l>
                <l>Praelia Graecorum uobis denuncio iusta</l>
@@ -696,6 +730,9 @@
                <l>Criminis &amp; meritum sentiet exitium.</l>
                <l>Graecorum stet saluus honor, uos iure uetusto</l>
                <l>Admonui, liticen classica dira sonet.</l>
+            </sp>
+            <stage>Voluptatis commendatio per Venerem.</stage>
+            <sp who="#vite_voluptarie_commendatio">
                <l>Blanda uoluptatis modico sermone referre</l>
                <l n="(450)">Quis bona, mellitulas delitiasque potest?</l>
                <l>Inter tres hominum uitas, mihi sola uoluptas</l>
@@ -722,6 +759,10 @@
                <l>In cineres tandem spes moritura redit.</l>
                <l>Dum potes illecebris indulge, cura nec acris</l>
                <l>Te rapiat, placeat haec tibi uita magis.</l>
+            </sp>
+            <stage>Vita quae in virtutum actione sonstitit quam actiuam uocamus commendatur
+               Iunoni.</stage>
+            <sp who="#commendatio_vite_active">
                <l n="(475)">Vita uoluptatis Veneri sacrata procaci</l>
                <l>Est laudata uago carmine/ nec merito</l>
                <l>Non famam celebrem, non cantica sacra merentur</l>
@@ -755,6 +796,9 @@
                <l>Dona senectutis, praesidiumque parat.</l>
                <l n="(505)">Diligat actiuam uitam studiosa iuuentus</l>
                <l>Quae nullum tardum, nec sinit esse rudem.</l>
+            </sp>
+            <stage>Contemplatiue uitae laus per Palladem.</stage>
+            <sp who="#commendatio_vite_contemplative">
                <l>Frustra spurcitiam laudat malesana uoluptas</l>
                <l>Qua duce magnificum quicquid in orbe perit.</l>
                <l>Incautos iuueues fallaci decipit hamo</l>
@@ -769,6 +813,9 @@
                <l>Munera, regnorum quid ualet altus honor</l>
                <l>Quid Plutonis opes, quid laudat noxia fata</l>
                <l n="(520)">Ad sophiam iuuenem uertite corda precor.</l>
+            </sp>
+            <stage>Pallas.</stage>
+            <sp who="#pallas">
                <l>En ego coelestis refero spectacula uitae</l>
                <l>Ad nitidumque polum lumina clara leuo</l>
                <l>Contemplatiuam magnis extollite uitam</l>
@@ -785,6 +832,9 @@
                <l>Vitam lacte suo philosophia cibat.</l>
                <l n="(535)">Haec melior cunctis rebus, securior usque</l>
                <l>Huic iuuenes casti, uosque litate senes.</l>
+            </sp>
+            <stage>Actoris conclusio.</stage>
+            <sp who="#actor">
                <l>Actio nostra bonum finem sortita laboris.</l>
                <l>Nunc exanclati munera digna petit.</l>
                <l>Munera digna petit, quis saxeus ista negabit</l>
@@ -795,8 +845,8 @@
                <l>Absint inuidiae noxia tela procul.</l>
                <l n="(545)">Saepius auscultans ex illo scammate ludos</l>
                <l>Spectabit populus, ite, ualete diu.</l>
-               <stage>FINIS.</stage>
             </sp>
+            <stage>FINIS.</stage>
          </div>
       </body>
       <back>
