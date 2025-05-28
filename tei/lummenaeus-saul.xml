@@ -7,7 +7,14 @@
             <title type="main">Saul</title>
             <title type="sub">Tragoedia sacra</title>
             <author>
-               <persName xml:lang="lat">Iacobus Cornelius Lummenaeus a Marca</persName>
+               <persName xml:lang="lat">
+                  <forename>Iacobus Cornelius</forename>
+                  <surname>Lummenaeus a Marca</surname>
+               </persName>
+               <persName xml:lang="eng">
+                  <forename>Jacobus Cornelius</forename>
+                  <surname>Lummenaeus à Marca</surname>
+               </persName>
                <idno type="wikidata">Q112481178</idno>
                <idno type="pnd">131814397</idno>
             </author>
@@ -170,7 +177,7 @@
                   <lb/>T. Amantissimus <lb/>L. CARD. SANSEVERINVS. </signed>
             </closer>
          </div>
-         <argument>
+         <div type="argument">
             <pb n="R 3"/>
             <pb n="123"/>
             <head>ARGVMENTVM.</head>
@@ -180,7 +187,7 @@
                sublapsis, con¬ <lb/>sulto magico oraculo, &amp; redhibiti SAMVE¬ <lb/>LIS spectro
                deterritus, in Gelböae porrò <lb/>montibus, cum Palaestinis laeuo Marte con¬
                <lb/>gressus, &amp; propriâ manu transuerberatus <lb/>occumbit. 1. Reg. 31. </p>
-         </argument>
+         </div>
          <castList>
             <head>PERSONARVM NOMINA.</head>
             <castItem>
