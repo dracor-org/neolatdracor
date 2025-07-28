@@ -16,8 +16,8 @@ const rows = [];
 const projects = {};
 
 const head =
-  '| Author | Title | Printed | Written | Project | Current formats | TEI |\n' +
-  '| ------ | ----- | ------- | ------- | ------- | --------------- | --- |'
+  '| Author | Title | Printed | Written | Project | Current formats | TEI | DraCor ID |\n' +
+  '| ------ | ----- | ------- | ------- | ------- | --------------- | --- | --------- |'
 rows.push(head);
 
 records.forEach(entry => {
@@ -62,7 +62,7 @@ records.forEach(entry => {
     }
   }
 
-  const row = `| ${authorCell} | ${entry.title} | ${entry.yearPrinted || ''} | ${entry.yearWritten || ''} | ${projectCell} | ${statusCell} | ${teiLink} |`;
+  const row = `| ${authorCell} | ${entry.title} | ${entry.yearPrinted || ''} | ${entry.yearWritten || ''} | ${projectCell} | ${statusCell} | ${teiLink} | ${entry.id} |`;
   rows.push(row);
 });
 
