@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "dependencies": {
+    "csv-parse": "^5.6.0",
+    "github-slugger": "^2.0.0",
+    "yaml": "^2.8.0"
+  },
+  "scripts": {
+    "yaml": "node scripts/spreadsheet-to-yaml.js",
+    "overview": "node scripts/update-overview.js",
+    "validate-yaml": "yq -o=json '.' meta.yaml  > meta.json && check-jsonschema --schemafile meta.schema.json meta.json"
+  }
+}
