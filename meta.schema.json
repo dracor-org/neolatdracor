@@ -1,0 +1,154 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "NeoLatDraCor Metadata",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": { "type": "string" },
+      "name": { "type": "string" },
+      "title": { "type": "string" },
+      "subtitle": { "type": "string" },
+      "qid": {
+        "type": ["string", "null"]
+      },
+      "authors": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "oneOf": [
+            { "required": ["name"] },
+            { "required": ["forename", "surname"] }
+          ],
+          "properties": {
+            "name": { "type": "string" },
+            "forename": { "type": "string" },
+            "surname": { "type": "string" },
+            "qid": { "type": ["string", "null"] }
+          }
+        }
+      },
+      "yearPrinted": {
+        "type": ["string", "null"]
+      },
+      "yearWritten": {
+        "type": ["string", "null"]
+      },
+      "premiered": {
+        "type": ["string", "null"]
+      },
+      "verse": { "type": "boolean" },
+      "genre": { "type": ["string", "null"] },
+      "genreQid": {
+        "type": ["string", "null"]
+      },
+      "region": {
+        "type": ["string", "null"]
+      },
+      "regionQid": {
+        "type": ["string", "null"]
+      },
+      "project": { "type": ["string", "null"] },
+      "status": { "type": "string" },
+      "availability": {
+        "type": "object",
+        "properties": {
+          "status": {
+            "type": ["string", "null"]
+          },
+          "notes": {
+            "type": ["string", "null"]
+          }
+        },
+        "required": ["status"]
+      },
+      "licenseNotes": { "type": ["string", "null"] },
+      "manuscript": {
+        "type": ["object", "null"],
+        "properties": {
+          "title": { "type": "string" },
+          "date": { "type": ["string", "null"] },
+          "copyright": { "type": ["string", "null"] },
+          "url": { "type": ["string", "null"] }
+        },
+        "required": ["title", "date", "copyright"]
+      },
+      "sourceTextEdition": {
+        "type": ["object", "null"],
+        "properties": {
+          "title": { "type": "string" },
+          "editor": { "type": ["string", "null"] },
+          "year": { "type": ["string", "null"] },
+          "copyright": { "type": ["string", "null"] },
+          "url": { "type": ["string", "null"] }
+        },
+        "required": ["title", "editor", "year", "copyright", "url"]
+      },
+      "criticalEdition": {
+        "type": ["object", "null"],
+        "properties": {
+          "title": { "type": "string" },
+          "editor": { "type": ["string", "null"] },
+          "year": { "type": ["string", "null"] },
+          "copyright": { "type": ["string", "null"] },
+          "url": { "type": ["string", "null"] }
+        },
+        "required": ["title", "editor", "year", "copyright", "url"]
+      },
+      "digitalSource": {
+        "type": ["object", "null"],
+        "properties": {
+          "title": { "type": "string" },
+          "editor": { "type": ["string", "null"] },
+          "copyright": { "type": ["string", "null"] },
+          "url": { "type": ["string", "null"] }
+        },
+        "required": ["title", "editor", "copyright", "url"]
+      },
+      "transcription": {
+        "type": ["object", "null"],
+        "properties": {
+          "by": { "type": ["string", "null"] },
+          "supervisor": { "type": ["string", "null"] },
+          "software": { "type": "string" }
+        }
+      },
+      "funding": {
+        "type": "object",
+        "properties": {
+          "organization": { "type": ["string", "null"] },
+          "line": { "type": ["string", "null"] }
+        }
+      },
+      "acknowledgements": {
+        "type": "string"
+      },
+      "institution": {
+        "type": "string"
+      },
+      "complete": {
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "id",
+      "name",
+      "title",
+      "qid",
+      "authors",
+      "yearPrinted",
+      "yearWritten",
+      "premiered",
+      "verse",
+      "genre",
+      "genreQid",
+      "region",
+      "regionQid",
+      "project",
+      "status",
+      "availability",
+      "licenseNotes",
+      "complete"
+    ]
+  }
+}

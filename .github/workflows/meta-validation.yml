@@ -1,0 +1,29 @@
+name: Validate meta data
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "meta.yaml"
+  push:
+    branches: [main]
+    paths:
+      - "meta.yaml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate-meta-data:
+    runs-on: ubuntu-latest
+    name: Validate meta data file
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: mikefarah/yq@f03c9dc599c37bfcaf533427211d05e51e6fee64 # v4.47.1
+        with:
+          cmd: yq -o=json '.' meta.yaml > meta.json
+      - name: Validate meta data
+        uses: cardinalby/schema-validator-action@2166123eb256fa40baef7e22ab1379708425efc7 # v3
+        with:
+          file: meta.json
+          schema: meta.schema.json
