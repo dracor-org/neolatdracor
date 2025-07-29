@@ -11,7 +11,6 @@ function print(text) {
   text = text.replace(/\s+$/, '');
   if (
     text === '' || text === '/'
-    || text.match(/INFORMATION NEEDED/)
     || text.match(/IF APPLICABLE/)
   ) {
     return null;
