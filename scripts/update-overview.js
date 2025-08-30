@@ -8,7 +8,7 @@ const readmeFile = 'README.md';
 const readme = readFileSync(readmeFile, 'utf8');
 
 const yaml = readFileSync('meta.yaml', 'utf8')
-const records = parse(yaml);
+const records = parse(yaml).filter(r => r._includeInOverview);
 
 // console.log(records);
 
