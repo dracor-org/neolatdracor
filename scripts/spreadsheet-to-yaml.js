@@ -41,7 +41,7 @@ const input = readFileSync(csvFile, 'utf8');
 const records = parse(input, {
   columns: true,
   skip_empty_lines: true,
-}).filter(r => r['Include into overview'] === 'yes');
+});
 
 const ids = [];
 const data = [];
@@ -168,7 +168,7 @@ records.forEach(r => {
 
   const entry = {
     id,
-    name: names[id],
+    name: names[id] || r['DraCor filename'],
     title: r['Work main title'].trim(),
     subtitle: print(r['Work subtitle']) || undefined,
     qid: r['Work Wikidata ID'].match(/^Q/)
@@ -201,7 +201,12 @@ records.forEach(r => {
 
   if (funding.line || funding.organization) entry.funding = funding;
 
+  if (entry.name === '') {
+    entry.name = `${authors[0].surname}-${entry.title.replace(/ +/g, '-')}`.toLowerCase()
+  }
+
   entry.complete = !!r['Metadata finally checked'].match(/yes/);
+  entry._includeInOverview = r['Include into overview'] === 'yes';
   entry._includeDocx = includeDocx;
 
   data.push(entry);
