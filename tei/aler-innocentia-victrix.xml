@@ -1,0 +1,3150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="neolatXXXXXX"
+     xml:lang="lat"
+     xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Innocentia victrix sive Genovefa</title>
+            <author>
+               <persName xml:lang="lat">Paul Aler</persName>
+               <idno type="wikidata">Q552883</idno>
+               <idno type="pnd">128976292</idno>
+            </author>
+            <editor>Jan Bloemendal</editor>
+            <respStmt>
+               <resp>Transcribed by</resp>
+               <persName>Jan Bloemendal</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted to TEI by</resp>
+               <persName>Magdaléna Jacková</persName>
+               <persName>Julia Jennifer Beine</persName>
+            </respStmt>
+            <funder>
+               <orgName>Dutch Research Council (NWO)</orgName>
+               <name>NWO Open Competition SSH</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Huygens Institute</authority>
+            <publisher xml:id="dracor">DraCor</publisher>
+            <idno type="URL">https://dracor.org</idno>
+            <availability>
+               <licence>
+                  <ab>CC0 1.0</ab>
+                  <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <name>TransLatin</name>
+               <idno type="URL">https://github.com/HuygensING/translatin/blob/main/datasource/transcriptionsOrig/docx/Aler-Innocentia.docx</idno>
+               <availability status="free"/>
+               <bibl type="originalSource">Paul Aler: Innocentia victrix sive Genovefa. Cologne: Johann Alstorff 1706. https://play.google.com/books/reader?id=CtBEAAAAcAAJ.</bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person sex=""
+                       role=""
+                       xml:id="1">
+                  <persName>1.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="2">
+                  <persName>2.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="2us">
+                  <persName>2us</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="ach">
+                  <persName>Ach.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="achil">
+                  <persName>Achil.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="achilles">
+                  <persName>Achilles</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="aeolus">
+                  <persName>Aeolus.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="angeli">
+                  <persName>Angeli</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="beati">
+                  <persName>Beati</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="ben">
+                  <persName>Ben.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="benon">
+                  <persName>Benon.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="benoni">
+                  <persName>Benoni.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="calumn">
+                  <persName>Calumn.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="char">
+                  <persName>Char.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="charil">
+                  <persName>Charil.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="chor">
+                  <persName>Chor.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="chorus">
+                  <persName>Chorus.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="christ">
+                  <persName>Christ.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="christus">
+                  <persName>Christus.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="consc">
+                  <persName>Consc.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="conscient">
+                  <persName>Conscient.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="dux-i">
+                  <persName>Dux I.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="dux-ii">
+                  <persName>Dux II.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="fil-1">
+                  <persName>Fil. 1.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="fil-1-gol">
+                  <persName>Fil. 1. Gol.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="fil-2">
+                  <persName>Fil. 2.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="genii-caelestes">
+                  <persName>Genii Caelestes.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="genov">
+                  <persName>Genov.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="genov-&amp;-benon">
+                  <persName>Genov. &amp; Benon.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="genov-&amp;-benoni">
+                  <persName>Genov. &amp; Benoni</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="genovef">
+                  <persName>Genovef.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="genovefa">
+                  <persName>Genovefa.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="genoν">
+                  <persName>Genoν.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="genοv">
+                  <persName>Genοv.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="geov">
+                  <persName>Geov.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="gol">
+                  <persName>Gol.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="golind">
+                  <persName>Golind.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="golo">
+                  <persName>Golo.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="golo,">
+                  <persName>Golo,</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="graecus">
+                  <persName>Graecus.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="hect">
+                  <persName>Hect.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="hector">
+                  <persName>Hector.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="i">
+                  <persName>I.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="ii">
+                  <persName>II.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="juno">
+                  <persName>Juno.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="just">
+                  <persName>Just.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="just-div">
+                  <persName>Just. div.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="justit">
+                  <persName>Justit.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="justit-div">
+                  <persName>Justit. div.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="justitia">
+                  <persName>Justitia.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="justitia-div">
+                  <persName>Justitia div.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="lind">
+                  <persName>Lind.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="lindus">
+                  <persName>Lindus.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="mil-graec">
+                  <persName>Mil. Graec.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="miles-graec">
+                  <persName>Miles Graec.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="miles-troj">
+                  <persName>Miles Troj.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="milites-omnes">
+                  <persName>Milites omnes.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="miser">
+                  <persName>Miser.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="misericordia">
+                  <persName>Misericordia.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="nunc">
+                  <persName>Nunc.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="omn">
+                  <persName>Omn.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="omnes">
+                  <persName>Omnes.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="paril">
+                  <persName>Paril.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="phil">
+                  <persName>Phil.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="philind">
+                  <persName>Philind.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="rinald">
+                  <persName>Rinald.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="senat">
+                  <persName>Senat.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="senator-i">
+                  <persName>Senator I.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="sigef">
+                  <persName>Sigef.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="sigefr">
+                  <persName>Sigefr.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="sigefrid">
+                  <persName>Sigefrid.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="sigefridus">
+                  <persName>Sigefridus</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="trojan">
+                  <persName>Trojan.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="unknown">
+                  <persName>Unknown</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="venat">
+                  <persName>Venat.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="venat-ii">
+                  <persName>Venat. II.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="venator-i">
+                  <persName>Venator I.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="venus">
+                  <persName>Venus</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="vmbra">
+                  <persName>Vmbra.</persName>
+               </person>
+               <person sex=""
+                       role=""
+                       xml:id="vmbra-droganis">
+                  <persName>Vmbra Droganis.</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <textClass>
+            <keywords>
+               <term type="genreTitle">tragedy</term>
+            </keywords>
+            <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+         </textClass>
+         <creation>
+            <region>
+               <ref target="https://www.wikidata.org/wiki/Q12548">Holy Roman Empire</ref>
+            </region>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <standOff>
+      <listRelation>
+         <relation name="wikidata"
+                   active="https://dracor.org/entity/neolatXXXXXX"/>
+      </listRelation>
+      <listEvent>
+         <event type="print"
+                when="1706">
+            <desc/>
+         </event>
+      </listEvent>
+   </standOff>
+   <text>
+      <front>
+         <titlePage>
+            <docTitle>
+               <titlePart>
+                  <lb/>INNOCENTIA VICTRIX
+<lb/>SIVE
+<lb/>GENOVEFA.
+<lb/>EMINENTISSIMO, ET SERENISSIMO PRINCIPI
+<lb/>AC DOMINO, DOMINO
+<lb/>CHRISTIANO
+<lb/>AUGUSTO
+<lb/>S.R.E. Cardinali, Primatûs Regni Hun-
+<lb/>gariae, &amp; Archi-Episcopatûs Strgon. Coadjutori, Episco
+<lb/>po Jauriniensi, Duci Saxoniae, Juliae, Cliviae, Motium
+<lb/>Angariae, &amp; Westphaliae, Landgravio Thuringiae, Marg-
+<lb/>gravio Misniae, Super. &amp; Infer. Lusatiae Comiti, Principi
+<lb/>Hennebergensi, Metropol. Electro. Ecclesiae Colon.
+<lb/>Praeposito &amp; Thesaurario, &amp;c. S.C.M. Consi-
+<lb/>liario intimo &amp; ad tractum Rheni Infer.
+<lb/>Plenipotentiario &amp;c. &amp;c.
+<lb/>à
+<lb/>Collegio S. J. Colon. dedicata,
+<lb/>à
+<lb/>Studiosâ Juventute Gymnasii trium Coronarum theatro data,
+<lb/>Authore P. Paulo Aler Societatis JESU,
+<lb/>Gymnasii trium Coronarum Regente.
+</titlePart>
+            </docTitle>/imprint_start<lb/>Coloniae Agripinae. Typis IOANNIS AESTOPER Anno 1706
+/imprint_end/</titlePage>
+         <div type="dedication">
+            <sp who="#unknown">
+               <p>
+                  <lb/>EMINENTISSIME ET SERENISSIME PRINCEPS,
+<lb/>DOMINE, DOMINE CLEMENTISSIME
+<lb/>Dum Tuo honori ludit Juventus nostra, prudèns à Tuis laudibus abstinet, bene conscia, quod vanus sit conatus,velle laudere Eum, qui supra laudem est, &amp; Cujus vel ipsum Nomen est instar elogii, quódque, dum vel profertur, vel scribitur, Panegyricum facit, CHRISTIANUS AUGUSTUS. Neque pauculis his pagellis describi poterant Tua praeconia, qui Ipse integrum es virtutum Pincipalium Volumen. Qualis, ac quantus sis, suo nuper suffragio, toti mundo declaravit, qui Unus omnem, cúmque irrefragabilem habet calculum supremus Christi in terris Vicarius CLEMENS XI. quando Te, se uno minorem, Suis parem, aliorum verò omnium fecit EMINENTlSSIMUM. Gratulamur Tibi, ac proni veneramur PURPURAM Tuam, DeúmqueTer Opt. Max, precabimur, ut Te Ecclesia, Imperio, nobis, quam diutisimè servet incolumem. Unum hoc votum adjungimus: vive in terrâ CHRISTIANE AUGUSTE
+<lb/>DoneC te Ipso, &amp; terris MaIor effICIarIs.
+<lb/>Ità vovet,
+<lb/>Eminentissimae Serenitati Tuae
+<lb/>Devotissimum Collegium S. J.
+<lb/>Coloniae
+</p>
+            </sp>
+         </div>
+         <castList>
+            <p>PERSONAE DRAMATIS.</p>
+            <castItem>
+               <role>Sigefridus, </role>
+               <roleDesc>Comes Palatinus</roleDesc>.</castItem>
+            <castItem>
+               <role>Genovefa, </role>
+               <roleDesc>Brabantiae Ducis filia</roleDesc>.</castItem>
+            <castItem>
+               <role>Benoni, </role>
+               <roleDesc>filius Genovefae</roleDesc>.</castItem>
+            <castItem>
+               <role>Golo, </role>
+               <roleDesc>Minister primarius Sigefridi</roleDesc>.</castItem>
+            <castItem>
+               <role>Duo Ephebi Genovefae</role>.</castItem>
+            <castItem>
+               <role>Duo Venatores.</role>
+            </castItem>
+         </castList>
+         <div type="argument">
+            <head>ARGUMENTUM DRAMATIS.</head>
+            <sp who="#unknown">
+               <p>Sigefridus, Comes Palatinus, postquam Genovefa, Brabantiae Ducis Filia, ejus Conjux, aliquot annis sterilis, post votum B. Virgini fatum, concepisset, cum Rege Galliae contra Mauros abivit. Interea Golo, Sigefridi Minister primarius, solicitare ausus castissimam conjugem, &amp; repulsam passus, ut scelus suum velaret, Genovefam commissi cum Drogane coquo adulterii apud Sigefridum per literas accusat. Credulus Princeps similiter per literas jubet, Matrem, ùt primùm enixa fuerit, cum sobole, supplicio afficiendam. Cura deinde necis committitur duobus Venatoribus, qui Herae suae innocentiam miserati, eandem &amp; infantem vitâ donant, exsectam obvii canis linguam, patratae caedis indicem, ad Golonem referentes. Redux postliminio Princeps, dum fortè in eâdem silvâ, in quam Genovefa libera dimissa fuerat, venatur, &amp; Conjugem, &amp; filium vivos post septem omnino annos reperit. Videri potest Frecherus de orig. Palat.</p>
+               <p>Nos, ut servaremus unitatem temporis, &amp; suus etiam locus esset Poësi, Oeconomiam Dramatis (servatâ quidem Historiae substantiâ, non tamen circumstantiis aliquibus) sequentem confecimus.</p>
+            </sp>
+         </div>
+      </front>
+      <body>
+         <div type="prologue">
+            <sp who="#unknown">
+               <l>
+                  <pb n="1"/>
+               </l>
+               <head>Prolusio rei totius musica</head>
+               <stage>Exhibet justitiam divinam pro causâ Innocentiae cum Calumniâ confligentem, deque eâ triumphantem.</stage>
+               <stage>Personae. Calumnia cum Geniis suis, Justitia divina cum suis, Innocentia, Personae mutae.</stage>
+               <stage>Exhibitio. Theatrum est Infernus ex quo damnati incondite, &amp; confusè canunt his verbis:</stage>
+               <l>Heu! Nos insensati: lassati sumus in via iniquitatis. Ergo erravimus. Quid nobis profuit superbia? Transierunt omnia. <stage>Ex Sapient. c. 5.</stage>Pereat dies, pereat nox. Quis poterit habitare cum igne devorante; cum ardoribus sempiternis. <stage>Ex Isai. c. 33.</stage>In terrâ miseriae, ubi nullus ordo; sed sempiternus horror inhabitat.<stage>Ex Jobi. c. 10.</stage>
+               </l>
+               <stage>Post cantum prodit mendax calumnia ex inferno, cum Geniis</stage>
+               <stage>suis, &amp; canit.</stage>
+               <stage>Recitativè.</stage>
+               <l>
+                  <foreign>Wer mit Nahmen mich will nennen/</foreign>
+               </l>
+               <l>
+                  <foreign>Schawe an mein Liberey;</foreign>
+               </l>
+               <l>
+                  <foreign>Auss den Wapffen thut man kennen/</foreign>
+               </l>
+               <l>
+                  <foreign>Wo von dan mein Stamm=haus sey</foreign>
+               </l>
+               <l>
+                  <foreign>In der Hoͤll bin ich erzogen,</foreign>
+               </l>
+               <l>
+                  <foreign>Hoffart meine Mutter ist.</foreign>
+               </l>
+               <l>
+                  <foreign>Auss derselben hab gesogen</foreign>
+               </l>
+               <l>
+                  <foreign>Neid und Zorn/ Hass und List.</foreign>
+               </l>
+               <l>
+                  <pb n="2"/>
+               </l>
+               <l>
+                  <stage>Aria.</stage>
+                  <foreign>Mein Handthierung ist beliegen/</foreign>
+               </l>
+               <l>
+                  <foreign>Schänden/ schmähen/ und betriegen:</foreign>
+               </l>
+               <l>
+                  <foreign>Ich die Unschuld nicht kan leyden/</foreign>
+               </l>
+               <l>
+                  <foreign>Muss ihr stets die Ehr abschneiden/</foreign>
+               </l>
+               <l>
+                  <foreign>Tring sie in die hochste Noth/</foreign>
+               </l>
+               <l>
+                  <foreign>Stürtz sie endlich in den Todt.</foreign>
+               </l>
+               <l>
+                  <foreign>Genovefa hats erfahren</foreign>
+               </l>
+               <l>
+                  <foreign>Ungefähr vor sieben Jahren:</foreign>
+               </l>
+               <l>
+                  <foreign>War unschuldig; doch hat müssen</foreign>
+               </l>
+               <l>
+                  <foreign>Meine Lugen=Laster büssen:</foreign>
+               </l>
+               <l>
+                  <foreign>Und mit ihrem keuschen Blut</foreign>
+               </l>
+               <l>
+                  <foreign>Kühlen meinen gaylen Muth.</foreign>
+               </l>
+               <l>
+                  <foreign>In der Welt allein regiere/</foreign>
+               </l>
+               <l>
+                  <foreign>Uber all’ ich dominire.</foreign>
+               </l>
+               <l>
+                  <foreign>Was thu dann auff Erden schweben?</foreign>
+               </l>
+               <l>
+                  <foreign>In die Lufft mich will erheben.</foreign>
+               </l>
+               <l>
+                  <foreign>Wagen her! ... ich steige drauff/</foreign>
+               </l>
+               <l>
+                  <foreign>Und zum Himmel fahr hinauff</foreign>.</l>
+            </sp>
+            <sp who="#justitia-div">
+               <speaker>Justitia div.</speaker>
+               <l>
+                  <stage>recitativè.</stage>
+               </l>
+               <l>Soll ich leyden/ dass obsiege</l>
+               <l>Lügen/ und Ehr=Schänderey?</l>
+               <l>Dass die Unschuld underlige/</l>
+               <l>Und ein Spott der Hoffart sey?</l>
+            </sp>
+            <sp who="#calumn">
+               <speaker>Calumn.</speaker>
+               <l part=""
+                  cert="unknown">Zum Himmel auff!</l>
+            </sp>
+            <sp who="#just">
+               <speaker>Just.</speaker>
+               <l part=""
+                  cert="unknown">Halt ein den Lauff:</l>
+               <l>Die Straff ist schon vorhanden.</l>
+               <l>Blitz/ Donner fall! in einem Knall</l>
+               <l>Das Boͤsswicht mach zu schanden.</l>
+               <stage>Tonat, &amp; calumnia cum curru praeceps ex</stage>
+            </sp>
+            <stage>aëre dejicitur.</stage>
+            <sp who="#justitia">
+               <speaker>Justitia.</speaker>
+               <l>Ehr, Schänderey zu Bodem ligt:</l>
+               <l>Victoriam last singen:</l>
+               <l>Die Unschuld hat nun obgesigt:</l>
+               <l>Triumphe last erklingen.</l>
+            </sp>
+            <stage>Saltus.</stage>
+         </div>
+         <div type="act"
+              n="1">
+            <div type="scene"
+                 n="1">
+               <sp who="#unknown">
+                  <l>
+                     <pb n="3"/>
+                  </l>
+                  <head>ACTUS I</head>
+                  <stage>Hinc Sigefridus redux à suis cum plausu excipitur; indè</stage>
+                  <stage>Genovefa in eremo exhibetur.</stage>
+                  <head>SCENA I.</head>
+                  <stage>Sigefridus, devictis Mauris, redux; jam proximus aulae suae, cum Milite suo triumphum ob reportatam victoriam celebrat.</stage>
+               </sp>
+               <stage>Personae. Sigefridus cum Ducibus &amp; Milite suo.</stage>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l>Tandem evolutas post tot annorum vices,</l>
+                  <l>Et dubia Martis studia, Christiadum gregi</l>
+                  <l>Semper pavendus hostis adverso solum</l>
+                  <l>Cecidit ore, quique palmarum insolens</l>
+                  <l>Nos fastuoso subditos pressit pede,</l>
+                  <l>Mordere frenos didicit, &amp; jugum pati.</l>
+                  <l>Nihil timendum est ampliùs: caesus jacet,</l>
+                  <l>Aut vincla Maurus induit; paucos vagus</l>
+                  <l>Subduxit error ensibus: restat nihil.</l>
+               </sp>
+               <sp who="#dux-i">
+                  <speaker>Dux I.</speaker>
+                  <l>Quisquis decorum gloriâ, &amp; suo Ducem</l>
+                  <l>Hosti pavendum poscit, &amp; palmis gravem;</l>
+                  <l part="">Videat Sifridum.</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l part=""
+                     cert="unknown">Militem hic videat meum,</l>
+                  <l>Cujus manu, ferrôque Maurorum Duces</l>
+                  <l>Natant voluti sanguine, &amp; suo fluunt</l>
+                  <l>Cruore, Ducibus mixta congeries gregum.</l>
+               </sp>
+               <sp who="#dux-ii">
+                  <speaker>Dux II.</speaker>
+                  <l>Haec tota laus est Principis; nostrum nihil.</l>
+                  <l>Testamur oculos: vidimus fortem Ducem,</l>
+                  <l>Seu quando nostras pressit hostilis phalanx,</l>
+                  <l>Rueretque in acies, stare securum metûs,</l>
+                  <l>Atque obstinatum vincere, aut certum mori.</l>
+                  <l>Seu quando nostrae, vocis imperio tuae,</l>
+                  <l>Ivêre contrà, sternere hostiles manus:</l>
+                  <l>Te martiales invehi primum globos,</l>
+                  <l>Nullo impeditum vulnere, aut certo necis</l>
+                  <l>Metu inferendae, frangere obstantes moras:</l>
+                  <l>
+                     <pb n="4"/>
+                  </l>
+                  <l>Tum dissolutos hostium nimbos dare,</l>
+                  <l>Tuo furori pervios: qualis jugo</l>
+                  <l>Delapsus amnis, quando contraria viam</l>
+                  <l>Moles recludit, stat quidem; &amp; motum premens</l>
+                  <l>Justum furorem murmure ostendit suo:</l>
+                  <l>Exinde vires auget, &amp; novo impetu</l>
+                  <l>Molem lacessens, rumpit obstantem aggerem,</l>
+                  <l>Totisque campis, finium victor, furit,</l>
+                  <l>Majore parvam strage compensans moram.</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l>Vidi sequentem Militem, quando calens</l>
+                  <l>Per dissipatos ordines virtus ruit,</l>
+                  <l>Et calle aperto fecit ingentem viam,</l>
+                  <l>Feriendo utrimque: qualis effracto aggere</l>
+                  <l>Undam unda sequitur, quasque praeteriit moras</l>
+                  <l>Prioris ira, sternit exemplo pari</l>
+                  <l>Furor sequentis. Agite! cùm par sit mea</l>
+                  <l>Laus &amp; meorum, voce concordi sonent</l>
+                  <l part="">Utrumque laudes.</l>
+               </sp>
+               <sp who="#milites-omnes">
+                  <speaker>Milites omnes.</speaker>
+                  <l part=""
+                     cert="unknown">Una Sigefridum sonet.</l>
+               </sp>
+               <stage>Cantus cum Tubis.</stage>
+               <sp who="#sigefrid">
+                  <speaker>Sigefrid.</speaker>
+                  <l>
+                     <stage>Solus.</stage>Huc Martiae Laurus! est parta jam pax:</l>
+                  <l>Nos stamus, pugnamus,</l>
+                  <l>Hostemque fugamus.</l>
+                  <l>Hic laesus aut jacet,</l>
+                  <l>Vel mortuus tacet.</l>
+                  <l>Extinctus est Maurus &amp; bellica fax.</l>
+                  <stage>Idem repetunt omnes Milites.</stage>
+                  <stage>Milites repetunt:</stage>
+                  <l>Et jam remensi spatia longinquae viae</l>
+                  <l>Pulvere decoro sordidi, &amp; spoliis graves</l>
+                  <l>Iterum tenemus patriae optatae plagas.</l>
+                  <l>Golinde! siquidem gesta felici manu,</l>
+                  <l>Faustoque Marte praelia triumphum petunt,</l>
+                  <l>I prae, meisque subditis nostri refer</l>
+                  <l>Palmas Gradivi, quaeque prostratus dedit</l>
+                  <l>Trophaea Maurus: debitos nostrae parent</l>
+                  <l part="">Virtuti honores.</l>
+               </sp>
+               <sp who="#golind">
+                  <speaker>Golind.</speaker>
+                  <l part=""
+                     cert="unknown">Jussa non segnis feram.</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l>Equidem fatebor, esse laudandum magis</l>
+                  <l>Meruisse palmas, quàm triumphali comas</l>
+                  <l>Lauro virere: vestra quid tamen Duces</l>
+                  <l>Generosa poscant acta, pensandum est magis.</l>
+                  <l>
+                     <pb n="5"/>
+                  </l>
+                  <l>Et ipsa trahere de suo calcar solet</l>
+                  <l>Honore virtus; sumit &amp; animus novas</l>
+                  <l>E laude vires. Pergite invicti Duces:</l>
+                  <l>Relicta quondam tecta visuntur propè.</l>
+               </sp>
+            </div>
+            <div type="scene"
+                 n="2">
+               <head>SCENA II.</head>
+               <stage>Genovefa, doloris vehementiâ penè obruta, caelitus recicatur.</stage>
+               <stage>Personae. Genovefa, &amp; caelestes Genii.</stage>
+               <stage>Genovefa suo dolori tristi citharâ praeludit, tum canit; estque Musica per totum.</stage>
+               <stage>Aria.</stage>
+               <sp who="#unknown">
+                  <l>Fliesset ohne unterlass:</l>
+                  <l>Leydt und Schmertzen/ Peyn des Hertzen</l>
+                  <l>Trucken mich ohn Ziel/ und Mass.</l>
+                  <l>2. O ihr Sternen/ nah' und fernen/</l>
+                  <l>Sonn und Mohn schawt diese Qual:</l>
+                  <l>Nit mehr scheynet/ sonder weynet;</l>
+                  <l>Weynet auch ihr Berg und Thal.</l>
+               </sp>
+               <stage>Recitativè.</stage>
+               <sp who="#unknown">
+                  <l>Es lauffet nun das achte Jahr/</l>
+                  <l>Dass in der Einoͤd schwebe:</l>
+                  <l>In Hunger/ Durst/ in Lebens=Gfahr/</l>
+                  <l>Ohn Trost/ und Hulff ich lebe.</l>
+                  <l>GOtt weyss dass ich unschuldig bin:</l>
+                  <l>Kein Untrew mich anklaget;</l>
+                  <l>Dannoch ist Ehr/ und Nahmen hin/</l>
+                  <l>Drumb Creutz/ und Leyd mich plaget.</l>
+                  <l>Benoni mir den Schmertz vermehrt.</l>
+                  <l>Ach! hätt dich nie gebohren!</l>
+                  <l>Hätt ich dich nie von GOtt begehrt/</l>
+                  <l>Nie alles hätt verlohren.</l>
+               </sp>
+               <stage>Aria.</stage>
+               <sp who="#unknown">
+                  <l>Bin allzeit nass von Zähren:</l>
+                  <l>Unzahlbar wird der Thränen Hauff/</l>
+                  <l>Sie täglich sich vermehren</l>
+                  <l>
+                     <pb n="6"/>
+                  </l>
+                  <l>2. Von Leidt bin müd/ und ohn Geblüdt:</l>
+                  <l>Die Kräfften seynd erlegen:</l>
+                  <l>Zur Erd mich lenk/ zu Bodem senck/</l>
+                  <l>Kein Glied kan ich mehr regen.</l>
+                  <stage>Genovefa fällt in Ohnmacht.</stage>
+               </sp>
+               <stage>Dum Genovefa extra se jacet, aperitur caelum; Genti caelestes visuntur in aëre, in caelo chorus eorum, qui, dum viverent, à mendacibus calumniantibus innocentes passi fuerunt.</stage>
+               <sp who="#angeli">
+                  <speaker>Angeli</speaker>
+                  <l>
+                     <stage>ex aëre.</stage>
+                  </l>
+                  <l>Genovefa, Lass die Schmertzen</l>
+                  <l>Fahren/ und nicht trawrig sey:</l>
+                  <l>Stäts sich frewen soll von Hertzen/</l>
+                  <l>Der sich weiss von Sünden frey.</l>
+                  <l>Aria. Kein Elend je lang wehret/</l>
+                  <l>So der Unschuldig leidt:</l>
+                  <l>In Eyl es sich verzehret/</l>
+                  <l>Und daurt ein kleine Zeit.</l>
+                  <l>2. Es folgt noch kurtzen Tagen</l>
+                  <l>Ein lange Ewigkeit:</l>
+                  <l>Alsdann sich alles Klagen</l>
+                  <l>Verkehrt in Froͤligkeit.</l>
+               </sp>
+               <sp who="#beati">
+                  <speaker>Beati</speaker>
+                  <l>
+                     <stage>ex caelo.</stage>
+                  </l>
+               </sp>
+               <stage>Aria.</stage>
+               <sp who="#unknown">
+                  <l>Alleluja last uns singen/</l>
+                  <l>Unsre Stimmen last erklingen:</l>
+                  <l>Leydt in Frewdt sich hat verkehrt/</l>
+                  <l>So von nun an ewig wehrt.</l>
+               </sp>
+               <sp who="#genii-caelestes">
+                  <speaker>Genii Caelestes.</speaker>
+                  <l>
+                     <stage>Aria.</stage>
+                  </l>
+                  <l>Genovefa, hast im Leben</l>
+                  <l>Zwar verlohren Ehr unb Guth:</l>
+                  <l>GOtt wird alles wieder geben/</l>
+                  <l>Eh' der Tag sich enden thut.</l>
+                  <l>2. Hast mit deinem Kind gelitten.</l>
+                  <l>Creutz unb Leydt ein lange Zeit</l>
+                  <l>Wider Hoͤll und Welt gestritten:</l>
+                  <l>Heut sich enden wird dein Leidt.</l>
+                  <l>
+                     <pb n="7"/>
+                  </l>
+                  <stage>Disparent Genii caelestes, &amp; Beati in caelo.</stage>
+                  <stage>Redit ad se Genovefa, &amp; canit: Recitativè.</stage>
+                  <l>Wo bin ich?... Waß hab ich gesehn?...</l>
+                  <l>Waß ghoͤrt?.. das Leidt soll heut vergehn:</l>
+                  <l>Waß verlohren hab im Leben/</l>
+                  <l>Ehr und Nahmen/ Haab und Guth/</l>
+                  <l>Wird Gott alles wieder geben/</l>
+                  <l>Eh' der Tag sich enden thut.</l>
+                  <l>GOtt hat geredt: Heut reyssen werd</l>
+                  <l>Zum Vatterland von dieser Erd.</l>
+               </sp>
+               <stage>Aria.</stage>
+               <sp who="#unknown">
+                  <l>Verschwunden seynd die Schmertzen.</l>
+                  <l>O Gott! zu dir geht mein Begir/</l>
+                  <l>Und Seufftzer meines Hertzens.</l>
+                  <l>2. Zuvor war matt/ von Thränen satt/</l>
+                  <l>Von Trübsal gantz zerschlagen.</l>
+                  <l>Das Leyd ist hin; mein Hertz und Sinn</l>
+                  <l>Nun sebt in Frewden=Tagen.</l>
+               </sp>
+            </div>
+            <div type="scene"
+                 n="3">
+               <head>SCENA III.</head>
+               <stage>Benoni, territus à Satyris, accurrit ad Matrem; ab hac animatus, jungit se eorum choro, cúmque iis jocatur.</stage>
+               <stage>Personae. Benoni. Genovefa; Satyri, Personae mutae.</stage>
+               <sp who="#benoni">
+                  <speaker>Benoni.</speaker>
+                  <l>Mutter/ Mutter! sie mich beissen.</l>
+               </sp>
+               <sp who="#genov">
+                  <speaker>Genov.</speaker>
+                  <l part=""
+                     cert="unknown">Wer mein Kind?</l>
+               </sp>
+               <sp who="#ben">
+                  <speaker>Ben.</speaker>
+                  <l part=""
+                     cert="unknown">die grausam Thier.</l>
+                  <l>Sih'/ da seynd sie; mich zerreissen</l>
+                  <l>Willen sie/ und dich mit mir.</l>
+                  <l>Mit den Hoͤrner sie uns drewen.</l>
+               </sp>
+               <sp who="#genoν">
+                  <speaker>Genoν.</speaker>
+                  <l>Sie uns grüssen: bleib nur stehn/</l>
+                  <l>Ohne Sorgen/ ohne Schewen.</l>
+                  <l>Dir nichts Ubels wird geschehen;</l>
+                  <l>
+                     <pb n="(8)"/>
+                  </l>
+                  <l>Dan den Frommen sie nicht schaden.</l>
+               </sp>
+               <sp who="#ben">
+                  <speaker>Ben.</speaker>
+                  <l part=""
+                     cert="unknown">Bin ich fromb?</l>
+               </sp>
+               <sp who="#genov">
+                  <speaker>Genov.</speaker>
+                  <l part=""
+                     cert="unknown">ja/ du bist fromb</l>
+               </sp>
+               <sp who="#ben">
+                  <speaker>Ben.</speaker>
+                  <l>Schaw/ sie uns zu sich einladen.</l>
+               </sp>
+               <sp who="#genov">
+                  <speaker>Genov.</speaker>
+                  <l part=""
+                     cert="unknown">Geh' ohn Forcht.</l>
+               </sp>
+               <sp who="#ben">
+                  <speaker>Ben.</speaker>
+                  <l part=""
+                     cert="unknown">Du mit mir komm.</l>
+               </sp>
+               <sp who="#genov">
+                  <speaker>Genov</speaker>
+                  <l>
+                     <foreign>.</foreign>Ich will hie das Spiel ansehen:</l>
+                  <l>Geh' du hin/ und spiele mit.</l>
+               </sp>
+               <sp who="#ben">
+                  <speaker>Ben.</speaker>
+                  <l>Soll nichts Ubels mir geschehen?</l>
+               </sp>
+               <sp who="#genov">
+                  <speaker>Genov.</speaker>
+                  <l>Nein/ mein Kind: dir foͤrchte nit.</l>
+                  <stage>Fit Saltus Satyrorum; qui deinde Benoni silvestribus fructibus donant &amp;c.</stage>
+               </sp>
+               <stage>Post Saltum.</stage>
+               <sp who="#genovefa">
+                  <speaker>Genovefa.</speaker>
+                  <l/>
+                  <l>Nun komm/ mein Sohn/ lass betten gehn/</l>
+                  <l>Daß Gott am End uns bey woͤll stehn.</l>
+               </sp>
+            </div>
+            <div type="scene"
+                 n="4">
+               <head>SCENA IV.</head>
+               <stage>Sigefridus redux à suis festivo plausu excipitur.</stage>
+               <stage>Personae. Golo, praecipuus Sigefridi Minister, Senatores, Cives: Sigefridus cum suo milite.</stage>
+               <sp who="#golo,">
+                  <speaker>Golo,</speaker>
+                  <l>Prodite turba, quisquis immunes lares</l>
+                  <l>Pavore Mauri; conjugem quisquis suam,</l>
+                  <l>Prolemque &amp; aras numinum, &amp; proprium caput,</l>
+                  <l>Vitamque dirae gaudet ereptam neci:</l>
+                  <l>Redit Sifridus, cujus heroâ manu</l>
+                  <l>Dux Barbarorum fusus adverso solum</l>
+                  <l>Petivit ore; pariter &amp; quisquis comes</l>
+                  <l>Fuerat Tyranni, cecidit &amp; lethi comes.</l>
+                  <l>Occurre Civis Principi, &amp; laetis sonis</l>
+                  <l>Perenne merito carmen Heroi cane.</l>
+               </sp>
+               <sp who="#senator-i">
+                  <speaker>Senator I.</speaker>
+                  <l>Sed ecce miles, cui mucro lauru viret</l>
+                  <l>Supremus hastae, gaudii plenus venit.</l>
+                  <l>Et ipse Princeps, quantus è campo solet</l>
+                  <l>Redire victor hoste prostrato, venit.</l>
+                  <l>Agite ministra turba, festivo sonet</l>
+                  <l>Lux ista plausu: Principem plaudes decent.</l>
+                  <l>
+                     <pb n="9"/>
+                  </l>
+               </sp>
+               <stage>Cantus.</stage>
+               <sp who="#unknown">
+                  <l>Eja tubae resonate,</l>
+                  <l>Plectra melos excitate:</l>
+                  <l>Triumphales date plausus,</l>
+                  <l>Celebrate fortes ausus:</l>
+                  <l>Jacet hostis, victoria!</l>
+                  <l>Victorem decet gloria,</l>
+                  <l>Et gloriam potentia.</l>
+                  <l>Jo, jo victoria!</l>
+                  <l>Vis Maurorum jam est fracta,</l>
+                  <l>Per Sifridum est subacta:</l>
+                  <l>Furor hostis est prostratus,</l>
+                  <l>Fastus, livor exarmatus.</l>
+                  <l>Jo, jo victoria!</l>
+                  <l>Jo, so victoria!</l>
+                  <l>Sigefridus Mauros pressit.</l>
+                  <l>Non furori Martis cessit:</l>
+                  <l>Vis Perduelles subjugavit.</l>
+                  <l>Ense, dextrâ triumphavit.</l>
+               </sp>
+               <sp who="#sigefridus">
+                  <speaker>Sigefridus</speaker>
+                  <l>Salvete cara turba, quam tanti est mihi</l>
+                  <l>Solvisse longo barbarae gentis metu.</l>
+                  <l>Jacet peremptus hostis, &amp; stratus solo</l>
+                  <l>Robur meorum funere probavit suo.</l>
+                  <l>Jam Marte pulso, jussa feralis tuba</l>
+                  <l>Cohibere sonitum, murmur ingratum premit.</l>
+                  <l>Et pax secundis vecta quadrigis redit.</l>
+               </sp>
+               <sp who="#golo">
+                  <speaker>Golo.</speaker>
+                  <l>Magnanime Princeps Martis impavidum genua,</l>
+                  <l>Si venia laribus, curiae, tectis foret,</l>
+                  <l>Conjugibus, aris, liberis; sensus suos</l>
+                  <l>Sono hoc probarent: civium vivat pater;</l>
+                  <l>Domitor Tyranni, gentis assertor suae,</l>
+                  <l>Patriae labantis columen aeternum regat.</l>
+               </sp>
+               <sp who="#senat">
+                  <speaker>Senat.</speaker>
+                  <l>Exul Gradivus, hostium fusi greges,</l>
+                  <l>Reparata pacis federa, sereni dies,</l>
+                  <l>Tranquillitatis otia, exclusi metus,</l>
+                  <l>Salvi penates, munùs est Princeps tuum.</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l>Prohibete laudes: gloria haec una est satis.</l>
+                  <l>Servâsse patriam, liberos, Christi fidem,</l>
+                  <l>Pro quâ vel hostem caedere, aut cadere, reor</l>
+                  <l>Aequè esse pulchrum. Vicimus; sed hoc decus</l>
+                  <l>Debetur omne militi: per vos jacet</l>
+                  <l part="">Juratus hostis numinis.</l>
+               </sp>
+               <sp who="#dux-i">
+                  <speaker>Dux I.</speaker>
+                  <l part=""
+                     cert="unknown">sed te Duce</l>
+                  <l>Gemit peremptus. Vidimus quando stetit</l>
+                  <l>Oppositus armis hostis, atque aeris sono.</l>
+                  <l>
+                     <pb n="10"/>
+                  </l>
+                  <l>Vicina signis signa conferrent manum;</l>
+                  <l>Te ruere primum, Parthicâ qualis solet</l>
+                  <l>Sagitta ferri dexterâ, aut qualis cadit</l>
+                  <l>Excussa caelo stella, cùm stringens polum,</l>
+                  <l>Rectam citatis ignibus rumpit viam.</l>
+               </sp>
+               <sp who="#golo">
+                  <speaker>Golo.</speaker>
+                  <l>Petamus Aulam: stat ibi certantem Hectori</l>
+                  <l>Datura Achillem scena: Sifridi manum</l>
+                  <l>Referet Achilles; Hector at Maurum dabit.</l>
+               </sp>
+            </div>
+            <div type="scene"
+                 n="5">
+               <head>SCENA V.</head>
+               <stage>Expeditio Sigefridi contra Maurorum Regem exhibetur in Achille Trojam petente; &amp; Hectorem, Trojanorum Ducem, detriumphante.</stage>
+               <stage>Pars I. Dum Achilles Trojam proficiscitur, Aeolus rogatu Veneris, mare perturbat: sed Juno, ab Achille implorata, jubet Aeolum ventos compescere: interim Achilles iter suum salvus prosequitur.</stage>
+               <stage>Personae. Achilles cum sociis suis, Venus, Aeolus, Juno.</stage>
+               <stage>Scena est musica per totum.</stage>
+               <sp who="#achil">
+                  <speaker>Achil.</speaker>
+                  <l>Fort Gesellen/ dan die Wellen</l>
+                  <l>Legen sich: nun schifft geschwind:</l>
+                  <l>Ohn Gefahren last uns fahren;</l>
+                  <l>Auff dem Meer seynd keine Wind.</l>
+                  <l>Nicht verweylet/ sonder eylet/</l>
+                  <l>Fahrt nach Troja immer fort/</l>
+                  <l>Eh' die Wellen sich verstellen/</l>
+                  <l>Treibt die Schifflein all an Bordt.</l>
+               </sp>
+               <sp who="#venus">
+                  <speaker>Venus</speaker>
+                  <l>
+                     <stage>in aëre.</stage>
+                  </l>
+                  <l>Was ist zu schaffen auff dem Meer?</l>
+                  <l>Ist der Achilles in der Wehr?</l>
+                  <l>Und nach Troja in der Still</l>
+                  <l>Mit den Schiffer säglen will?</l>
+                  <l>
+                     <pb n="11"/>
+                  </l>
+                  <l>Sich an selbe Stadt zu reiben/</l>
+                  <l>Die Einwohner zu entleyben.</l>
+                  <l>Gott der Geister/ dem die Wind</l>
+                  <l>Mussen folgen/ komm geschwind:</l>
+                  <l>Und ruffe sie auss Orient/</l>
+                  <l>Auss Norden/ Sudt/ und Occident.</l>
+                  <l>Lass sie das Meer Verstoͤren/</l>
+                  <l>Mit Wuthen nicht auffhoͤren/</l>
+                  <l>Bis dass die Schifflein all zur Stund</l>
+                  <l>Mit dem Achille gehn zu Grund.</l>
+               </sp>
+               <sp who="#aeolus">
+                  <speaker>Aeolus.</speaker>
+                  <l>Kompt ihr Winde dan zusamen/</l>
+                  <l>Wie auch heischet mit dem Nahmen:</l>
+                  <l>Euch nit saumet/ kompt geschwind/</l>
+                  <l>Ost= und Sud= West= und Nord=Wind.</l>
+                  <l>Durchlaufft das Wasser hin und her/</l>
+                  <l>In Unruh bringt das gantze Meer.</l>
+                  <l>Nun tobet/ und brausset:</l>
+                  <l>Nun Wütet/ und sausset:</l>
+                  <l>Stürmet/ blaset/ grimmet/ raset</l>
+                  <l>Und die Schiff kehrt umb und umb.</l>
+               </sp>
+               <sp who="#achil">
+                  <speaker>Achil.</speaker>
+                  <l>Warumb Venus, der Goͤttinnen</l>
+                  <l>Und der Goͤtter Schand und Spott/</l>
+                  <l>Voller Gifft als boͤse Spinnen/</l>
+                  <l>Reitzts du auff der Winden Gott?</l>
+               </sp>
+               <sp who="#aeolus">
+                  <speaker>Aeolus.</speaker>
+                  <l>Nun wütet mehr/ und blaset/</l>
+                  <l>Tobet und raset.</l>
+                  <l>Gausset/ und brausset:</l>
+                  <l>Zerstoͤret/ nit auffhoͤret.</l>
+                  <l>Fahrt immer fort zu toben.</l>
+                  <l>Die Schiff kehrt umb und oben:</l>
+                  <l>In einem Knall verderbt sie all.</l>
+               </sp>
+               <sp who="#achil">
+                  <speaker>Achil.</speaker>
+                  <l>O Weh! betrübte Wellen</l>
+                  <l>Erwecken diess’ Gesellen.</l>
+                  <l>Wie grausam ist der Winden Heer/</l>
+                  <l>Er wütet/ raset/ nah und feer.</l>
+                  <l>O Juno! dich wollest erbarmen/</l>
+                  <l>Und kommen zu Hülff uns Armen.</l>
+                  <l>
+                     <pb n="12"/>
+                  </l>
+               </sp>
+               <sp who="#juno">
+                  <speaker>Juno.</speaker>
+                  <l>Wer stoͤret das Wasser/ und meister will seyn?</l>
+                  <l>Gott Aeole zähme der Winden Willmuth/</l>
+                  <l>Und straffe ihr Wüten/ sonst thut es kein guth.</l>
+                  <l>Du weist ja/ das Erde und Wasser ist mein.</l>
+                  <l>Ihr Winde schweigt still/ obschon ewr seynd vil:</l>
+                  <l>Seid friedsam ihr Wellen/ nit solt euch verstellen:</l>
+                  <l>Das Meer sich nit wege</l>
+                  <l>Der Wind sich nicht rege:</l>
+                  <l>Juno befilchts.</l>
+               </sp>
+               <sp who="#achilles">
+                  <speaker>Achilles</speaker>
+                  <l>
+                     <foreign>.</foreign>O Juno! Frewd des Hertzen/</l>
+                  <l>Wie lieblich scheinest du/</l>
+                  <l>Und legst den Streit.</l>
+                  <l>Vertreibest alle Schmertzen/</l>
+                  <l>Gibst wieberumb die Ruh.</l>
+                  <l>Und nimbst das Leydt.</l>
+                  <l>Das Meer jetz nicht mehr tobet/</l>
+                  <l>Die Wellen halten ein:</l>
+                  <l>Der Wind hoͤrt auff.</l>
+                  <l>Achilles dich jetz lobet:</l>
+                  <l>Sich frewdt das Schiffle mein/</l>
+                  <l>Und hält seyn Lauff.</l>
+               </sp>
+               <stage>Pars II. Monomachia Achillis, &amp; Hectoris exhibetur.</stage>
+               <sp who="#hector">
+                  <speaker>Hector.</speaker>
+                  <l>Ad arma! ad arma! ad arma!</l>
+               </sp>
+               <sp who="#achil">
+                  <speaker>Achil.</speaker>
+                  <l>Ad arma! ad arma! ad arma!</l>
+               </sp>
+               <sp who="#hect">
+                  <speaker>Hect.</speaker>
+                  <l>Achilles, Wilstu fechten?</l>
+                  <l>Sieh' Hector steht zum Streit.</l>
+               </sp>
+               <sp who="#achil">
+                  <speaker>Achil.</speaker>
+                  <l>Zur Lincken/ und zur Rechten</l>
+                  <l>Achilles ist bereit.</l>
+               </sp>
+               <sp who="#hect">
+                  <speaker>Hect.</speaker>
+                  <l>Trojaner Lob zu mehren/</l>
+                  <l>Hab einen Heldenmuth:</l>
+               </sp>
+               <sp who="#achil">
+                  <speaker>Achil.</speaker>
+                  <l>Mir zu der Griechen Ehren</l>
+                  <l>Auffwallet schon bas Bluth.</l>
+               </sp>
+               <sp who="#hect">
+                  <speaker>Hect.</speaker>
+                  <l>Die Griechen mich nit schrecken;</l>
+                  <l>Mit ihrer grosser Gwalt.</l>
+               </sp>
+               <sp who="#achil">
+                  <speaker>Achil.</speaker>
+                  <l>Sie mich zum Streit aufwecken/</l>
+                  <l>Dich werd erlegen bald.</l>
+                  <l>
+                     <pb n="13"/>
+                  </l>
+               </sp>
+               <sp who="#hect">
+                  <speaker>Hect.</speaker>
+                  <l>Wan ich dich werd auffreiben/</l>
+                  <l>So ligt der Griechen Ehr.</l>
+               </sp>
+               <sp who="#ach">
+                  <speaker>Ach.</speaker>
+                  <l>Wan ich dich werd entleiben/</l>
+                  <l>Kein Lob hat Troja mehr.</l>
+               </sp>
+               <sp who="#hect">
+                  <speaker>Hect.</speaker>
+                  <l>Mit dieser Hand und Degen</l>
+                  <l>Zu Bodem steche ich.</l>
+               </sp>
+               <sp who="#ach">
+                  <speaker>Ach.</speaker>
+                  <l>Dich werde ich erlegen;</l>
+                  <l>Mein Helden=Muth schützt mich</l>
+               </sp>
+               <sp who="#miles-graec">
+                  <speaker>Miles Graec.</speaker>
+                  <l>Nur mit der Zung ihr streitet:</l>
+                  <l>Zeigt/ dass ihr Helden seyt.</l>
+               </sp>
+               <sp who="#miles-troj">
+                  <speaker>Miles Troj.</speaker>
+                  <l>Zeigt dass euchs Gluck begleitet,</l>
+                  <l>Und fertig seht zum Streit.</l>
+               </sp>
+               <sp who="#omn">
+                  <speaker>Omn.</speaker>
+                  <l>Zeigt/ dass ihr Helden seyt/</l>
+                  <l>Und fertig steht zum Streit.</l>
+               </sp>
+               <sp who="#trojan">
+                  <speaker>Trojan.</speaker>
+                  <l>Das Glück woll dich begleiten/</l>
+                  <l>O Hector, starcker Held.</l>
+               </sp>
+               <sp who="#graecus">
+                  <speaker>Graecus.</speaker>
+                  <l>Das Glück woͤll mit dir streiten/¨</l>
+                  <l>Und steh’ dir bey im Feldt.</l>
+               </sp>
+               <sp who="#trojan">
+                  <speaker>Trojan.</speaker>
+                  <l>Apollo mit dir streite/</l>
+                  <l>Und Venus steh dir bey.</l>
+               </sp>
+               <sp who="#graecus">
+                  <speaker>Graecus.</speaker>
+                  <l>Gott Mulciber dich leyte</l>
+                  <l>Und Pallas bey dir sey.</l>
+               </sp>
+               <stage>Pugnant; inflantur tubae.</stage>
+               <sp who="#miles-troj">
+                  <speaker>Miles Troj.</speaker>
+                  <l>Fahrt fort/ fahrt fort zu streiten/</l>
+                  <l>Biss einer obgesigt:</l>
+               </sp>
+               <sp who="#mil-graec">
+                  <speaker>Mil. Graec.</speaker>
+                  <l>Nit weichet von der Seyten</l>
+                  <l>Biss einer underligt.</l>
+               </sp>
+               <sp who="#omnes">
+                  <speaker>Omnes.</speaker>
+                  <l>Biss einer obgesigt/</l>
+                  <l>Biss einer underligt.</l>
+               </sp>
+               <stage>Pugnant iterum: Hector vincitur.</stage>
+               <sp who="#mil-graec">
+                  <speaker>Mil. Graec.</speaker>
+                  <l>Hector ist zwar im Degen</l>
+                  <l>Ein sehr erfahrner Held,</l>
+                  <l>Doch ist ihm überlegen</l>
+                  <l>Achilles in dem Feld.</l>
+               </sp>
+               <sp who="#omnes">
+                  <speaker>Omnes.</speaker>
+                  <l>Achilles mit der Goͤtter Kunst</l>
+                  <l>In Streit und fechten hat die Kunst.</l>
+               </sp>
+            </div>
+         </div>
+         <div type="act"
+              n="2">
+            <div type="scene"
+                 n="1">
+               <sp who="#unknown">
+                  <l>
+                     <pb n="14"/>
+                  </l>
+                  <head>ACTUS II.</head>
+                  <stage>Sigefridus, re examinatâ, deprehendit innocentem fuisse Genovefam.</stage>
+                  <head>SCENA I.</head>
+                  <stage>Sigefridus variis affectibus agitatur: accipit literas, à Genovefâ moriturâ scriptas; concipit suspicionem in Golonem &amp;c.</stage>
+               </sp>
+               <stage>Personae. Sigefridus, Golo, Ephebus Genovefae.</stage>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l>Jam caesa Eleusis falce septenâ jacet.</l>
+                  <l>Pressusque totidem Bacchus in prelis gemit,</l>
+                  <l>Continuus ùt me Martis incerti labor</l>
+                  <l>Detinuit inter mortis, &amp; vitae mala.</l>
+                  <l>Nunc hoste domito gloriâ, &amp; laude inclytus,</l>
+                  <l>Rursum penates teneo, &amp; optatam domum.</l>
+                  <l>Sed! sed!.... loquelam mutus includit dolor.</l>
+                  <l>Sed! sed! loquelam strangulat rursum dolor, ...</l>
+                  <l>Vix ipse tantum, vix adhuc credo scelus ...</l>
+                  <l>Haec facere Conjux potuit? ... haec consore mei</l>
+                  <l part="">Genovefa thalamii</l>
+               </sp>
+               <sp who="#golo">
+                  <speaker>Golo.</speaker>
+                  <l part=""
+                     cert="unknown">Cura quae mentem gravat,</l>
+                  <l>Magnanime Princeps? aut quis attonitus pavor</l>
+                  <l part="">Stupefecit artus?</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l part=""
+                     cert="unknown">Crimen! heu crimen meum</l>
+                  <l part="">Genovefa periit.</l>
+               </sp>
+               <sp who="#golo">
+                  <speaker>Golo.</speaker>
+                  <l part=""
+                     cert="unknown">Scelere sed periit suo.</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l part=""
+                     cert="unknown">Genovefa!</l>
+               </sp>
+               <sp who="#golo">
+                  <speaker>Golo.</speaker>
+                  <l part=""
+                     cert="unknown">Non Genovefa; sed foedum sui</l>
+                  <l>Probrum mariti, dedecus clarae domûs,</l>
+                  <l>Nefanda pellex, jura quae fregit thori,</l>
+                  <l>Et conjugalem scelere maculavit fidem.</l>
+                  <l>Si non perisset, illa quae merito solet</l>
+                  <l>Punire letho scelera Sifridi manus.</l>
+                  <l>Eruere venis spiritum, atque imo dare</l>
+                  <l>Deberet orco victimam, infamem lupam.</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l>Et quid patravit sceleris in cunis puer?</l>
+                  <l>
+                     <pb n="15"/>
+                  </l>
+               </sp>
+               <sp who="#golo">
+                  <speaker>Golo.</speaker>
+                  <l>Fuisse spursum, sceleris hoc erat satis.</l>
+                  <l>Maneant sepulti noctis aeternae lacu,</l>
+                  <l>Quorum vel umbra nominis foedat, tibi</l>
+                  <l>Quas nuper hostis laureas victus dedit.</l>
+                  <l>Si Rege natus jura violâsset thori,</l>
+                  <l>Et procus, &amp; infans spurius, &amp; pellex nece</l>
+                  <l>Deberet unâ cadere: nunc quando datae</l>
+                  <l>Oblita fidei. miscuit claram domum</l>
+                  <l>Atris culinae sordibus consors thori,</l>
+                  <l>Ad sempiternum nominis aviti probrum,</l>
+                  <l>Vitae supersit? scelere promeritas suo</l>
+                  <l>Poenas dedisse perfidam, hoc caelum probat.</l>
+               </sp>
+               <stage>Philindus Ephebus Genovefae prodit.</stage>
+               <sp who="#unknown">
+                  <l>Serene Princeps! has mihi chartas dedit</l>
+                  <l>Moritura thalami socia, quas reduci darem</l>
+                  <l part="">Tibi legendas.</l>
+               </sp>
+               <sp who="#sigef">
+                  <speaker>Sigef.</speaker>
+                  <l part=""
+                     cert="unknown">Conjugis nosco manum.</l>
+               </sp>
+               <sp who="#golo">
+                  <speaker>Golo.</speaker>
+                  <l>Quaecunque sacri pacta violavit thori,</l>
+                  <l part="">Hanc jure Lenam dixeris.</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l part=""
+                     cert="unknown">Chartas lego.</l>
+                  <l>
+                     <foreign>Mein Herz! muss also sterben ich?</foreign>
+                  </l>
+                  <l>
+                     <foreign>Da niemal hab erzürnet dich:</foreign>
+                  </l>
+                  <l>
+                     <foreign>Hab allzeit trew gehalten dir/</foreign>
+                  </l>
+                  <l>
+                     <foreign>Und halten werd/ das glaube mir.</foreign>
+                  </l>
+               </sp>
+               <sp who="#golo">
+                  <speaker>Golo.</speaker>
+                  <l>Haec feminarum est indoles: fraudes parant,</l>
+                  <l>Et mentiuntur; &amp; tamen sibi fidem</l>
+                  <l>Volunt haberi; maximè quando Venus</l>
+                  <l part="">Obsedit Animum.</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l part=""
+                     cert="unknown">Ceteras notas lego.</l>
+                  <l>
+                     <foreign>Wan ich nit wer gewessen trew;</foreign>
+                  </l>
+                  <l>
+                     <foreign>Hett dein gehorchet ohne Schew;</foreign>
+                  </l>
+                  <l>
+                     <foreign>Der mich ersucht hat nicht in Ehr/</foreign>
+                  </l>
+                  <l>
+                     <foreign>Nie in diss Unglück grathen wer.</foreign>
+                  </l>
+                  <l>Suspicio fraudis oritur: alienum scelus</l>
+                  <l>Genovefa? culpae nescia, exitio luit.</l>
+               </sp>
+               <sp who="#golo">
+                  <speaker>Golo.</speaker>
+                  <l>Haec est suprema feminarum malitia;</l>
+                  <l>Natura mentem queis dedit pronam malo,</l>
+                  <l>Atque ad nocendum pectus instruxit dolis,</l>
+                  <l>Ut innocenti crimen affingant suum.</l>
+                  <l>Sic purus olim sceleris Hippolytus suae</l>
+                  <l>Crimen novercae morte non meritâ luit.</l>
+                  <l>
+                     <pb n="16"/>
+                  </l>
+                  <l>Quas forma laudat feminas. Helenas puta.</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l>Etiam Susannas oris exornat decus;</l>
+                  <l>Et quod negârunt crimen oblatum Procis,</l>
+                  <l>Absque Daniele, morte non nocuâ expiant.</l>
+                  <l>Hebraea testis; cujus in vultu decor,</l>
+                  <l>Et in ore Charites; &amp; tamen animo nives</l>
+                  <l>Casti pudoris tenuit, &amp; thalami fidem.</l>
+                  <l>Illam verendi vertice in cano senes</l>
+                  <l>Malè prostitutae Veneris accusant ream,</l>
+                  <l>Licet innocentem: namque quod crimen parant</l>
+                  <l>Inferre castae Conjugi, &amp; frustra petunt</l>
+                  <l>Precibus, minisque, fraude confictâ, malè</l>
+                  <l>In innocentis feminae torquent caput.</l>
+               </sp>
+               <sp who="#golo">
+                  <speaker>Golo.</speaker>
+                  <l>Haec ipsa res est; tangit &amp; nostrum scelus.<stage>Dicit intrà se.</stage>
+                  </l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l>Absolvo chartam.</l>
+                  <l>
+                     <foreign>Doch ware lieber sterben mir/</foreign>
+                  </l>
+                  <l>
+                     <foreign>Und halten/ was versprochen dir/</foreign>
+                  </l>
+                  <l>
+                     <foreign>Als leben und Untrew begehn;</foreign>
+                  </l>
+                  <l>
+                     <foreign>Weil diss nicht kont’ bey Gott bestehn.</foreign>
+                  </l>
+                  <l>
+                     <foreign>Ade, mein Herz! ade, mein Hertz!</foreign>
+                  </l>
+                  <l>
+                     <foreign>Auffhoͤren muss fur Leyd und Schmertz.</foreign>
+                  </l>
+                  <l>
+                     <foreign>Wilstu nicht seyn der Liebster mein/</foreign>
+                  </l>
+                  <l>
+                     <foreign>So bleibt doch Genovefa dein.</foreign>
+                  </l>
+                  <l>Movetur animus, proprium agnoscens scelus,</l>
+                  <l>Thalamique sociam crimine absolvit suo.</l>
+                  <l>Sifride! demens, barbare, execrabilis!</l>
+                  <l>Quae me leaena? quis styge evomuit Draco?</l>
+                  <l>Ego parricidas Conjugem castam, &amp; piam</l>
+                  <l>Ego, ego peremi, &amp; letho inanditam dedi:</l>
+                  <l>Ego innocentis carnifex Nati Pater.</l>
+                  <l>Quis Colchus hoc. aut quis vagis campis Geta</l>
+                  <l>Commisit, aut quae Caspias bibens aquas</l>
+                  <l>Gens legis expers ausa, vel sparsus Scythes!</l>
+                  <l>Non ipse tinxit sanguine puerili impias</l>
+                  <l>Busiris aras; parva nec suis ferox</l>
+                  <l>Epulanda posuit membra Diomedes equis.</l>
+                  <l>Nil profuturo quid juvat Princeps, mala</l>
+                  <l>
+                     <pb n="17"/>
+                  </l>
+                  <l>Gravare questu? quin procul vanum ejice</l>
+                  <l>Animo dolorem: quod viro placuit semel.</l>
+                  <l>Hoc displicere postea, haud illum decet.</l>
+                  <l>Hac dote regnum est sorte privatâ amplius,</l>
+                  <l>Errare non posse; error in vulgus cadit.</l>
+                  <l>Quodcunque statuunt Principes, aequum puta,</l>
+                  <l>Fixûmque semper: norina regnandi unica, est</l>
+                  <l part="">Una his voluntas.</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr</speaker>
+                  <l part=""
+                     cert="unknown">. Jussa properasti nimis.</l>
+               </sp>
+               <sp who="#golo">
+                  <speaker>Golo.</speaker>
+                  <l>Obsequia servum lenta condemnant reum.</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l>Quid suspicabor? ... Conjugis nostrae procus</l>
+                  <l>Quicunque demum is fuerit, est author necis,</l>
+                  <l>Fictoque proprium scelere velavit scelus.</l>
+               </sp>
+               <stage>Abit Sigefr.</stage>
+               <sp who="#golo">
+                  <speaker>Golo.</speaker>
+                  <l>Actum est; perimus: sceleris ut poenas luam</l>
+                  <l>Suspicio satis est: Principum quando haec semel</l>
+                  <l>Obsedit animos, crescit atque iram parit.</l>
+                  <l>Scintilla qualis parva quae latuit diu</l>
+                  <l>Cinoco doloso. quando spirantes Noti</l>
+                  <l>Juvatur aurâ gliscit, &amp; vires capit:</l>
+                  <l>Tum factus ignis latiûs serpens furit</l>
+                  <l>Partes in omnes, quoque prohibetur magis,</l>
+                  <l>Magìs ferocit, ipsa praesidia occupans.</l>
+               </sp>
+            </div>
+            <div type="scene"
+                 n="2">
+               <head>SCENA II.</head>
+               <stage>Sigefridus ex Charilo, &amp; Philindo, Genovefae Ephebis, discit rationem vivendi Genovefae in suâ absentiâ, deprehendit innocentem fuisse Genovefam; reum verò Golonem suspicatur.</stage>
+               <stage>Personae. Sigefridus, Charilus, &amp; Philindus Ephebi.</stage>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l>Ades Philinde, túque Genovefae comes</l>
+                  <l>Charile fidelis, fare, quam socia thori</l>
+                  <l>Absente vitam Conjuge exegit suo?</l>
+               </sp>
+               <sp who="#charil">
+                  <speaker>Charil.</speaker>
+                  <l>Studio pudoris semper intentam sui.</l>
+               </sp>
+               <sp who="#sigefrid">
+                  <speaker>Sigefrid.</speaker>
+                  <l>Quisnam virorum venit ad eandem frequens?</l>
+               </sp>
+               <sp who="#charil">
+                  <speaker>Charil.</speaker>
+                  <l part=""
+                     cert="unknown">Praeter Golonem nemo vel semel.</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l part=""
+                     cert="unknown">Coquus.</l>
+                  <l part="">Nunquam Droganes adfuit?</l>
+               </sp>
+               <sp who="#char">
+                  <speaker>Char.</speaker>
+                  <l part=""
+                     cert="unknown">Nunquam: coquum</l>
+                  <l>
+                     <pb n="18"/>
+                  </l>
+                  <l>Genovefa nè vidit quidem, aut ipsam coquus,</l>
+                  <l part="">Aut aliquis alius.</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l part=""
+                     cert="unknown">Quam fidem dicto facis?</l>
+               </sp>
+               <sp who="#charil">
+                  <speaker>Charil.</speaker>
+                  <l>Mecum Philindus, vicibus alternis, fores</l>
+                  <l>Vigil occupavit, sive sol medium rotis</l>
+                  <l>Lustraret orbem, sive nocturnos soror</l>
+                  <l part="">Ageret jugales.</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l part=""
+                     cert="unknown">Solus accessum Golo</l>
+                  <l part="">Habuit frequentem?</l>
+               </sp>
+               <sp who="#phil">
+                  <speaker>Phil.</speaker>
+                  <l part=""
+                     cert="unknown">Solus invisit quidem</l>
+                  <l>Mense, à recessu Principis, primo frequens,</l>
+                  <l part="">At deinde nunquam.</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l part=""
+                     cert="unknown">Nulla Genovefae tibi</l>
+                  <l>Audita vox est? nulla Golonis fuit?</l>
+               </sp>
+               <sp who="#phil">
+                  <speaker>Phil.</speaker>
+                  <l>Utriusque nulla: sed tamen vice ultimâ,</l>
+                  <l>Quam Golo praesens adfuit, tandem audii</l>
+                  <l>Heram loquentem voce consuetâ altiùs:</l>
+                  <l>Quid hoc? salaces corpore à casto amove,</l>
+                  <l>Tactus, adulter: etiam in amplexus ruis?</l>
+                  <l>Properate famuli; Charile, Philinde, ocius</l>
+                  <l>Huc in cubile; ferte suppetias Herae</l>
+                  <l>Periclitanti. Poste mox vulso, simul</l>
+                  <l>Irruit uterque: solus occurrit Golo.</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l part=""
+                     cert="unknown">Quae forma vultûs?</l>
+               </sp>
+               <sp who="#charil">
+                  <speaker>Charil.</speaker>
+                  <l part=""
+                     cert="unknown">Totus in vultu cruor,</l>
+                  <l>Furorque totus: ipse volvebat minas</l>
+                  <l>Secum ipse saevus grande nescio quid parans.</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l part=""
+                     cert="unknown">Etiam locutus aliquid?</l>
+               </sp>
+               <sp who="#phil">
+                  <speaker>Phil.</speaker>
+                  <l part=""
+                     cert="unknown">Hae voces erant.</l>
+                  <l>Patiar repulsam? dedecus inultus feram?</l>
+                  <l>Regeremus ipsi crimen atque ultro impiam</l>
+                  <l>Venerem arguemus: scelere condemus scelus.</l>
+                  <l>Secreta quando est culpa, quis testis sciet?</l>
+                  <l>Haec fatus abiit, nulla Genovefae ampliùs</l>
+                  <l>Obsequia praestans, vulnus arcanum sinu</l>
+                  <l>Premere profundo visus. Interea diu</l>
+                  <l>Magno expetitam stemmati consors thori</l>
+                  <l>Enixa prolem est: vix suos Mater nova</l>
+                  <l>Puerperarum mote complerat dies,</l>
+                  <l>Meminisse acerbum est: ecce decretum sibi</l>
+                  <l>Caraeque soboli mortis accepit diem,</l>
+                  <l>Judice Sifrido: solus applausit Golo;</l>
+                  <l>Prostravit alios sortis indignae dolor.</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l>Quo tristis animo nuncium accepit necis?</l>
+                  <l>
+                     <pb n="19"/>
+                  </l>
+               </sp>
+               <sp who="#charil">
+                  <speaker>Charil.</speaker>
+                  <l>Quo nemo vitae interrito, &amp; pleno spei,</l>
+                  <l>Superisque simili: lumina attollens polo,</l>
+                  <l>Veniam precatur Cot jugi, capto dolis.</l>
+                  <l part="">Dein Goloni.</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l part=""
+                     cert="unknown">Caedis est author Golo:</l>
+                  <l>Juro per astra, perque lucentes faces,</l>
+                  <l part="">Dabit ultionem.</l>
+               </sp>
+               <sp who="#charil">
+                  <speaker>Charil</speaker>
+                  <l part=""
+                     cert="unknown">Genua tum flectit solo,</l>
+                  <l>Intaminatae numen in testem vocans</l>
+                  <l>Integritatis; innocens, moriar tamen,</l>
+                  <l>Ait libenter: sic meus Conjux jubet.</l>
+                  <l>Viva imperanti parui, nunc &amp; mori</l>
+                  <l part="">Pareo jubenti.</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l part=""
+                     cert="unknown">Hîc, ò utinam, utinam semel</l>
+                  <l>Non paruisses! viveres, &amp; ego miser</l>
+                  <l part="">Seris carerem lacrymis.</l>
+               </sp>
+               <sp who="#charil">
+                  <speaker>Charil.</speaker>
+                  <l part=""
+                     cert="unknown">Haec dum mori</l>
+                  <l>Parata fatur, cardinis postem movet</l>
+                  <l>Geminus Satelles, atque supremum vocat</l>
+                  <l>Lethi ad theatrum: dederat hoc jussum Golo.</l>
+                  <l>Mox illa sumens brachiis dulcem sui</l>
+                  <l>Sarcinulam amoris, ibat humanâ altior</l>
+                  <l>Virtute Princeps: candidae fulgent genae,</l>
+                  <l>Magísque solito splendet extremus decor,</l>
+                  <l>Ut esse Phoebi gratius lumen solet</l>
+                  <l>Jamjam cadentis, astra cùm repetunt vices,</l>
+                  <l>Premiturque dubius nocte vicinâ dies.</l>
+               </sp>
+               <sp who="#philind">
+                  <speaker>Philind.</speaker>
+                  <l>Stupet omne vulgus: hos movet formae decus;</l>
+                  <l>Hos genus avitum; lubricae hos rerum vices;</l>
+                  <l>Movet animus omnes purus, ac vitae integer,</l>
+                  <l>Dumque innocentem Matris ex ulnis vident</l>
+                  <l>Partum doloris pendulum, cuncti tremunt?</l>
+                  <l>Miserentur, ac mirantur exemplum insolens,</l>
+                  <l>Nec temperare lactymis sicci queunt.</l>
+               </sp>
+               <sp who="#paril">
+                  <speaker>Paril.</speaker>
+                  <l>Nec plura scimus. Urbis egressam fores</l>
+                  <l>Lethi ad theatrum, teste secluso procul,</l>
+                  <l>Duxit Rinaldus, &amp; neci Lictor dedit.</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l>Quae monstra scelerum pandit hic tandem dies?.</l>
+                  <l>Jam capio. seriem criminum est orsus Golo,</l>
+                  <l>Mendacio, &amp; calumniâ; ut scelus suum</l>
+                  <l>Tegeret nefandus Conjugis nostrae procus,</l>
+                  <l>Violasse sacri jura Genovefam thori</l>
+                  <l>
+                     <pb n="20"/>
+                  </l>
+                  <l>Calumniator finxit, &amp; fraude impiâ,</l>
+                  <l>Decreta mortis manibus extorsit meis.</l>
+                  <l>Per astra juro, debitas poenas dabit.</l>
+                  <l>Lentum est, dabit, dat; hoc quoque est lentum; dedit.</l>
+                  <l>Sic statuit animus, parta jam, parta ultio est.</l>
+               </sp>
+            </div>
+            <div type="scene"
+                 n="3">
+               <head>SCENA III.</head>
+               <stage>Golo agitatur primò stimulis conscientiae, deinde infestatur umbra occisi Droganis, tum penè desperat: denique in somno videt se accusari coram tribunali divinae justitiae, evigilans decernit, se detecturum crimen suum Sigefrido.</stage>
+               <stage>Personae. Golo, Conscientia, Umbra Coqui Droganis, Justitia divina &amp;c.</stage>
+               <sp who="#golo">
+                  <speaker>Golo.</speaker>
+                  <l>Quis me recessus? quis locus profugum teget?</l>
+                  <l>Ubi me recondam? quave tellure obruam?</l>
+                  <l>Scelus in aperto est. merge lucentem diem</l>
+                  <l>Invise Titan, tuque tenebrosum chaos</l>
+                  <l>Involve mundum; redde inaspectam fugam.</l>
+                  <l>Genovefa! serò facinus agnosco meum.</l>
+                  <l>Ego te peremi, labis ignaram, &amp; datae</l>
+                  <l>Fidei tenacem. Falsa confinxi, &amp; nefas;</l>
+                  <l>Quod ipse demens pectore insano hauseram,</l>
+                  <l>Luit Droganes: nata vix proles luit:</l>
+                  <l>Et casta Conjux crimine incesti jacet.</l>
+                  <l>Quis Nilus, aut quis Tagus, aut quis turbidâ</l>
+                  <l>Violentus undâ Rhenus hunc animum satis</l>
+                  <l>Abluere noxâ poterit: in nostrum caput</l>
+                  <l>Si plena Tethys gelida transfundat vada,</l>
+                  <l>Haerebit altum facinus. In quas impius</l>
+                  <l>Terras recedes? Ortum, an occasum petes?</l>
+                  <l>Ubique notus perdidi exilii locum;</l>
+                  <l>
+                     <pb n="21"/>
+                  </l>
+                  <l>Vindexque caelum, atque ultor in nostros metus</l>
+                  <l>Comurat orbis: fremuit à tergo sonus?</l>
+                  <l>Adesse culpae suadet ultorem pavor.</l>
+               </sp>
+               <sp who="#conscient">
+                  <speaker>Conscient.</speaker>
+                  <l>Sic te decebat tremere, cùm dextrâ mihi</l>
+                  <l>Lethifera nuper vulnera haec saevus dares.</l>
+               </sp>
+               <sp who="#golo">
+                  <speaker>Golo.</speaker>
+                  <l part=""
+                     cert="unknown">Egóne?</l>
+               </sp>
+               <sp who="#consc">
+                  <speaker>Consc.</speaker>
+                  <l part=""
+                     cert="unknown">dubitas?</l>
+               </sp>
+               <sp who="#golo">
+                  <speaker>Golo.</speaker>
+                  <l part=""
+                     cert="unknown">ego tibi has plagas dedi?</l>
+               </sp>
+               <sp who="#consc">
+                  <speaker>Consc.</speaker>
+                  <l part=""
+                     cert="unknown">Improbe, dedisti.</l>
+               </sp>
+               <sp who="#golo">
+                  <speaker>Golo.</speaker>
+                  <l part=""
+                     cert="unknown">Quaenam es?</l>
+               </sp>
+               <sp who="#consc">
+                  <speaker>Consc.</speaker>
+                  <l part=""
+                     cert="unknown">ò pudor! tuam</l>
+                  <l>Non nôsse temet Conscientiam ampliùs?</l>
+               </sp>
+               <sp who="#golo">
+                  <speaker>Golo.</speaker>
+                  <l>Túne mea Conscientia? ô monstrum insolens!</l>
+               </sp>
+               <sp who="#consc">
+                  <speaker>Consc.</speaker>
+                  <l>Id credo: casta namque, pudibunda, innocens,</l>
+                  <l>Rectique semper conscia tibi mens eram,</l>
+                  <l>Quando animus insons nuper innocuos adhuc</l>
+                  <l>Regebat artus: Tua sed infamis mihi</l>
+                  <l>Istud libido rapuit excellens decus.</l>
+               </sp>
+               <sp who="#golo">
+                  <speaker>Golo.</speaker>
+                  <l part=""
+                     cert="unknown">O tetra facies mentis!</l>
+               </sp>
+               <sp who="#consc">
+                  <speaker>Consc.</speaker>
+                  <l part=""
+                     cert="unknown">at mentis tuae.</l>
+                  <l>Age nunc, ut optas, tabe funestâ horridos</l>
+                  <l part="">Tuere vultus.</l>
+               </sp>
+               <sp who="#golo">
+                  <speaker>Golo.</speaker>
+                  <l part=""
+                     cert="unknown">Morior aspectu truci.</l>
+               </sp>
+               <sp who="#consc">
+                  <speaker>Consc.</speaker>
+                  <l>Quid? itane Veneris gaudia optatae expaves?</l>
+               </sp>
+               <sp who="#golo">
+                  <speaker>Golo.</speaker>
+                  <l>Vah! quàm nefando pollui mentem probro!</l>
+               </sp>
+               <sp who="#consc">
+                  <speaker>Consc.</speaker>
+                  <l>Scelerate! non fers propriae mentis nefas?</l>
+               </sp>
+               <sp who="#golo">
+                  <speaker>Golo.</speaker>
+                  <l>O magne Rector! merge portentum hoc stygi,</l>
+               </sp>
+               <sp who="#consc">
+                  <speaker>Consc.</speaker>
+                  <l>Merget, sed unà merget hoc tetrum caput.</l>
+               </sp>
+               <sp who="#gol">
+                  <speaker>Gol.</speaker>
+                  <l>O summe Genitor! potiùs orcini canis</l>
+                  <l>Rictus pavendos liceat, aut foedam luem</l>
+                  <l>Cocyti inertis cernere, aut Lernae mala.</l>
+               </sp>
+               <sp who="#consc">
+                  <speaker>Consc.</speaker>
+                  <l>Et illa cernes; me nec effugies tamen.</l>
+               </sp>
+               <sp who="#golo">
+                  <speaker>Golo.</speaker>
+                  <l>Ferox hyaena, cede; Garamantas pete.</l>
+               </sp>
+               <sp who="#consc">
+                  <speaker>Consc.</speaker>
+                  <l>Egóne cedam? Latere non cedam tuo.</l>
+                  <l>Sedes? sedebo: graderis? en gradior simul.</l>
+                  <l>Fugis? volatu praepetem anteibo fugam.</l>
+               </sp>
+               <sp who="#vmbra-droganis">
+                  <speaker>Vmbra Droganis.</speaker>
+                  <l>Sta, sta, sceleste! carnis occisum tuo</l>
+                  <l>Scelere Droganem? vindices caedis meae</l>
+                  <l part="">Poenas reposco.</l>
+               </sp>
+               <sp who="#golo">
+                  <speaker>Golo.</speaker>
+                  <l part=""
+                     cert="unknown">Fugio, nec fugio tamen.</l>
+                  <l>Undique tenemur Vmbra. Siste, nil prodest fuga!</l>
+               </sp>
+               <stage>conjicit se in sedem.</stage>
+               <sp who="#just-div">
+                  <speaker>Just. div.</speaker>
+                  <l>Modicam quietem sinite. dum scenam paro.</l>
+               </sp>
+               <sp who="#golo">
+                  <speaker>Golo.</speaker>
+                  <l>Dehisce tellus; Tartari ad finem ultimum ...</l>
+                  <l>
+                     <pb n="22"/>
+                  </l>
+                  <l>Mansurus ibo: recipe me coecum chaos.</l>
+               </sp>
+               <sp who="#justit-div">
+                  <speaker>Justit. div.</speaker>
+                  <l>Regnator orbis, cujus ad nutum pavent</l>
+                  <l>Tellus &amp; astra, vindicem poscit manum</l>
+                  <l>Fusus Droganis sanguis, &amp; justum rogat</l>
+                  <l part="">Tribunal Umbra.</l>
+               </sp>
+               <sp who="#vmbra">
+                  <speaker>Vmbra.</speaker>
+                  <l part=""
+                     cert="unknown">Vindica nostrum Deus</l>
+                  <l part="">Ultor cruorem.</l>
+               </sp>
+               <sp who="#conscient">
+                  <speaker>Conscient.</speaker>
+                  <l part=""
+                     cert="unknown">Vulnera haec poenam exigunt.</l>
+                  <l>Mundi Redemptor perditi, atque hominum salus,</l>
+               </sp>
+               <sp who="#misericordia">
+                  <speaker>Misericordia.</speaker>
+                  <l part=""
+                     cert="unknown">Miserere.</l>
+               </sp>
+               <sp who="#justit">
+                  <speaker>Justit.</speaker>
+                  <l part=""
+                     cert="unknown">Judex aeque, scelerumque arbiter,</l>
+                  <l part="">Feri nocentem.</l>
+               </sp>
+               <sp who="#miser">
+                  <speaker>Miser.</speaker>
+                  <l part=""
+                     cert="unknown">Meruit aeternum quidem</l>
+                  <l>Perire Golo; meruit incestum scelus;</l>
+                  <l>Caedes Droganis meruit; at supplex modò</l>
+                  <l>Veniam precatur, &amp; suum damnat scelus.</l>
+               </sp>
+               <sp who="#justit">
+                  <speaker>Justit.</speaker>
+                  <l part=""
+                     cert="unknown">At serò damnat.</l>
+               </sp>
+               <sp who="#miser">
+                  <speaker>Miser.</speaker>
+                  <l part=""
+                     cert="unknown">Crimen admissum dolet.</l>
+                  <l>Quem poenitet peccasse, hic innocens propè est.</l>
+               </sp>
+               <sp who="#christ">
+                  <speaker>Christ.</speaker>
+                  <l>Probo dolorem, scelera non laudo tamen.</l>
+               </sp>
+               <sp who="#miser">
+                  <speaker>Miser.</speaker>
+                  <l>Non antecedit scelera, sed sequitur dolor.</l>
+               </sp>
+               <sp who="#justit">
+                  <speaker>Justit.</speaker>
+                  <l part=""
+                     cert="unknown">Et poena sequitur.</l>
+               </sp>
+               <sp who="#miser">
+                  <speaker>Miser.</speaker>
+                  <l part=""
+                     cert="unknown">Qui dolet, poena est sibi.</l>
+                  <l>Liceat precari, pedibus advolvor tuis.</l>
+                  <l>Per illa, Christe. flagra. adhuc stillantibus</l>
+                  <l>Cruenta guttis, oro; per spinas tuo</l>
+                  <l>Tinctas cruore, &amp; capitis attactu sacras.</l>
+                  <l>Rogo, miserere: per cicatrices pedum,</l>
+                  <l>Et sacra manuum vulnera, &amp; apertos sinus</l>
+                  <l>Miserantis animi parce deflenti scelus.</l>
+               </sp>
+               <sp who="#christus">
+                  <speaker>Christus.</speaker>
+                  <l>Desine precari: genua de solo leva.</l>
+                  <l>Sic statuo: poenas criminum Golo dabit;</l>
+                  <l>Sed mitigatas. Diva; quae trutinâ pari</l>
+                  <l>Quaecunque facta ponderas, trado tibi</l>
+                  <l>Vivum Golonem a statue supplicia reo</l>
+                  <l>Ferenda in orbe; mente si sanà ferat</l>
+                  <l>Poenam irrogatam, sceleris adiuissi immemor,</l>
+                  <l>Culpas remittam criminum. Quòd si ferox,</l>
+                  <l>Et jam malorum pertinax, tegat scelus,</l>
+                  <l>Plectam aeviternis Tartaro crimen rogis.</l>
+               </sp>
+               <sp who="#justit">
+                  <speaker>Justit.</speaker>
+                  <l>Accipio causam: nunc tibi ordiar Golo,</l>
+                  <l>Telam implicatam mortis, horrificam necem.</l>
+                  <l>Ità meruisti. Genera poenarum vide:</l>
+                  <l>
+                     <pb n="23"/>
+                  </l>
+                  <l>Funes, catenas. flagra, plumbatas, cruces,</l>
+                  <l>Enses, catastas, forcipes, ignes, rotas.</l>
+               </sp>
+               <sp who="#golo">
+                  <speaker>Golo.</speaker>
+                  <l>Vigilo? vel oculos dubius illudit sopor?</l>
+                  <l>Quae monstra vidi? coeca tenebrarum loca,</l>
+                  <l>Erebique tristes vivus evasi rogos.</l>
+                  <l>Tremende Judex, mortis ac vitae arbitet,</l>
+                  <l>Habes fatentem: cuncta, quae jubes, feram.</l>
+                  <l>Equidem pavesco, somnii memor moi,</l>
+                  <l>Visisque poenis terreor; feram tamen.</l>
+                  <l>Nunc ure, Christe, nunc seca: manus tua</l>
+                  <l>Plectet nocentem: caede, sum totus nocens</l>
+                  <l>Quocunque fulmen miseris, tanges scelus.</l>
+                  <l>Eamus anime, camus &amp; structam dolo</l>
+                  <l>Mendacis oris machinam, atque astu malo</l>
+                  <l>Pandamus ultro Principi, &amp; justa impiae</l>
+                  <l>Fraudis feramns pretia, promeritam necem.</l>
+               </sp>
+            </div>
+            <div type="scene"
+                 n="4">
+               <head>SCENA IV.</head>
+               <stage>Genovefa gaudet in Deo, Jesu suo: &amp;c. tum audit Filiolum suum orantem &amp;c.</stage>
+               <stage>Scena tota est musica.</stage>
+               <stage>Genov.</stage>
+               <sp who="#unknown">
+                  <l>Lag in Qual und hoͤchster Noth,</l>
+                  <l>Angst sich eintrung biss zum Hertzen/</l>
+                  <l>Ware mehr dan halber todt.</l>
+                  <l>2. Nun ist hin all Leydt/ und Klagen;</l>
+                  <l>Weit verjagt ist alle Pein:</l>
+                  <l>Frewd und Trost an statt de Plagen</l>
+                  <l>Haben mich genohmen ein.</l>
+                  <l>3. Diese Frewd auss JEsu Seiten</l>
+                  <l>Fliesset in mein Hertz hinein?</l>
+                  <l>Wan mich Leydt/ und Angst bestreiten/</l>
+                  <l>Troͤstet JEsus mich allein.</l>
+                  <l>
+                     <pb n="24"/>
+                  </l>
+                  <l>4. Wan ich JEsum thu’ umbhälsen</l>
+                  <l>Küssen seine Wangen beyd;</l>
+                  <l>Fliest mir/ gleich auss einem Felsen</l>
+                  <l>Brunn und Bach der Gässigkeit.</l>
+                  <l>5. Ey dan last hinfüro schallen</l>
+                  <l>Alle Frewd und Froͤlichkeit:</l>
+                  <l>Meinem JEsu wirds gefallen/</l>
+                  <l>Ade Schmertz und Trawrigkeit.</l>
+                  <l>Aber wo ist underdessen/</l>
+                  <l>Gangen hin mein liebes Kind ... Geneovefa quaerit filium, eúmque</l>
+                  <l>Were seiner bald vergessen/ .... tandem invenit dormientem.</l>
+                  <l>Hie ligt er/ und schläfft gelind.</l>
+               </sp>
+               <stage>Aria.</stage>
+               <sp who="#unknown">
+                  <l>Schlaff bis Abend/ schlaff biss morgen:</l>
+                  <l>Las die Wässer unden saussen/</l>
+                  <l>Und die Blätter oben braussen.</l>
+                  <l>Lass die Thierlein umb dich springen/</l>
+                  <l>Und die Voͤglein drunder singen.</l>
+                  <l>Schaff mein Kindlein/ schlaff ohn Sorgen/</l>
+                  <l>Schlaff biss abend/ schlaff bis morgen.</l>
+                  <l>Post cantum evigilat Benoni, ad quem</l>
+               </sp>
+               <sp who="#genovefa">
+                  <speaker>Genovefa.</speaker>
+                  <l>Auff Benoni! komm und bette</l>
+                  <l>Wie von mir gelehret bist/</l>
+                  <l>Dass uns Gott vom Ubel rette/</l>
+                  <l>Jetzund und zu aller Frist.</l>
+               </sp>
+               <sp who="#benon">
+                  <speaker>Benon.</speaker>
+                  <l>In Nahmen des Vatters/ und des Sohns/ und des Heiligen Geistes/ Amen</l>
+                  <l>Vatter Unser/ der du bist in den Himmelen/ geheiliget werde dein Nahm.</l>
+               </sp>
+               <sp who="#genov">
+                  <speaker>Genov.</speaker>
+                  <l>
+                     <stage>Aria.</stage>1. O Vatter! weit erhoben</l>
+                  <l>In deinem hochsten Thron:</l>
+                  <l>Wir Kinder dich stäts loben/</l>
+                  <l>Mit Geist/ und deinem Sohn.</l>
+                  <l>2. Dein Nahm all Stund und Uhren</l>
+                  <l>Ich wolt von Hertzen mein/</l>
+                  <l>Dass alle Creaturen</l>
+                  <l>Recht lobten ins gemein.</l>
+                  <l>
+                     <pb n="25"/>
+                  </l>
+               </sp>
+               <sp who="#benoni">
+                  <speaker>Benoni.</speaker>
+                  <l>Zukomme dein Reich; dein Will geschehe/ wie im Himmel also auch auff Erden.</l>
+               </sp>
+               <sp who="#genov">
+                  <speaker>Genov.</speaker>
+                  <l>
+                     <stage>Aria.</stage>1. Ach nur das Reich daroben/</l>
+                  <l>Den schoͤnen Pallast dein/</l>
+                  <l>Räum uns/ die wir dich loben/</l>
+                  <l>Nach diesem Leben ein.</l>
+                  <l>Diss wünschen wir von Hertzen/</l>
+                  <l>Gestrenger HErr und Gott/</l>
+                  <l>Dass keiner woͤll verschertzen</l>
+                  <l>Dein Will/ und dein Gebott.</l>
+               </sp>
+               <sp who="#ben">
+                  <speaker>Ben.</speaker>
+                  <l>Unser täglich Brodt gib uns heut.</l>
+               </sp>
+               <sp who="#genov-&amp;-benoni">
+                  <speaker>Genov. &amp; Benoni</speaker>
+                  <l>
+                     <stage>simul. Aria.</stage>
+                  </l>
+                  <l>Wir bitten unterdessen</l>
+                  <l>Auff dieser Himmelsreitz/</l>
+                  <l>Kein Tranck/ kein lecker Essen/</l>
+                  <l>Gnug ist ein schlechte Speiss.</l>
+               </sp>
+               <sp who="#benoni">
+                  <speaker>Benoni.</speaker>
+                  <l>Vergib uns unsere Schuld/ als wir vergeben unseren Schuldigeren.</l>
+               </sp>
+               <sp who="#genov">
+                  <speaker>Genov.</speaker>
+                  <l>
+                     <stage>Aria</stage>1. Ja HErr/ ich meyns von Hertzen/</l>
+                  <l>Meim Feind vergebe ich;</l>
+                  <l>Ich widerhols ohn Schertzen/</l>
+                  <l>Werd niemal rechen mich.</l>
+                  <l>2. Drumb woͤlst du auch vergeben</l>
+                  <l>Mir meine Sünd/ und Schuld:</l>
+                  <l>Die Fehler meines Lebens</l>
+                  <l>Wolst tragen mit Geduldt.</l>
+               </sp>
+               <sp who="#benoni">
+                  <speaker>Benoni.</speaker>
+                  <l>Und führ uns nicht in Versuchung/ sonderen erloͤse uns von dem Ubel. Amen.</l>
+               </sp>
+               <sp who="#genov">
+                  <speaker>Genov.</speaker>
+                  <l>
+                     <stage>Aria.</stage>1. Der Sathan offt durch Ehren</l>
+                  <l>Zur Welt mich wider ladt:</l>
+                  <l>Versuchung thut sich mehren/</l>
+                  <l>Du hilff mit Rath und That.</l>
+                  <l>2. Für hellen List/ und Flammen</l>
+                  <l>Für Seel/ und Leibs=Gefahr/</l>
+                  <l>Bewahr uns beyd zu sammen</l>
+                  <l>Vom Ubel immerdar.</l>
+                  <l>
+                     <pb n="26"/>
+                  </l>
+               </sp>
+               <sp who="#benoni">
+                  <speaker>Benoni.</speaker>
+                  <l>In Nahmen des Vatters und des Sohns/ und des Heiligen Geistes/ Amen.</l>
+               </sp>
+               <sp who="#genov">
+                  <speaker>Genov.</speaker>
+                  <l>Benoni hat gar schoͤn gebett/</l>
+                  <l>Dass Gott uns beyd vom Ubel rett.</l>
+               </sp>
+               <sp who="#benoni">
+                  <speaker>Benoni.</speaker>
+                  <l>Amen, Amen, Amen. Amen.</l>
+               </sp>
+               <sp who="#genov-&amp;-benon">
+                  <speaker>Genov. &amp; Benon.</speaker>
+                  <l>
+                     <stage>simul.</stage>Amen, Amen, Amen, Amen.</l>
+               </sp>
+            </div>
+            <div type="scene"
+                 n="5">
+               <head>SCENA V.</head>
+               <stage>Golo manifestat crimen suum Sigefrido, qui implacabili irâ successus jubet eundem à quatuor equis discerpi, frustra deprecantibus Golonis filiis.</stage>
+               <stage>Personae. Golo, Sigefridus, &amp; duo Filii Golonis.</stage>
+               <stage>Golo prodit nigris indutus, acinacem &amp; gladium habens in manu; &amp; ex collo pendentem funem.</stage>
+               <stage>Personae. Golo, Sigefridus, Filii Golonis.</stage>
+               <sp who="#golo">
+                  <speaker>Golo.</speaker>
+                  <l>Generose Princeps; contine justum precor</l>
+                  <l>Animo furorem, donec exstructam impiae</l>
+                  <l>Pertexo fraudis machinam, &amp; nostrum scelus.</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l part=""
+                     cert="unknown">Quis ille cultus corporis?</l>
+               </sp>
+               <sp who="#golo">
+                  <speaker>Golo.</speaker>
+                  <l part=""
+                     cert="unknown">Qualis decet</l>
+                  <l>Reum nefandi sceleris, addictum neci.</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l part=""
+                     cert="unknown">Tandem fateris?</l>
+               </sp>
+               <sp who="#golo">
+                  <speaker>Golo.</speaker>
+                  <l part=""
+                     cert="unknown">Facinus agnosco impium.</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l part=""
+                     cert="unknown">Sua quemque produnt scelera, nec latuit bene</l>
+                  <l>Quodcunque caelo teste patratum est nefas.</l>
+               </sp>
+               <sp who="#golo">
+                  <speaker>Golo.</speaker>
+                  <l>Ego Genovefam ad stupra, &amp; illicitos thoros</l>
+                  <l>Tentavi adulter. Dixit: abscede impiè,</l>
+                  <l>Proterve; citiùs ignibus junges aquas,</l>
+                  <l>Et placida Nautis antè promittet vada</l>
+                  <l>
+                     <pb n="27"/>
+                  </l>
+                  <l>Inimica syrtis; antè praebebunt lupi</l>
+                  <l>Amica damis ora, quàm mitem geram</l>
+                  <l>Animum Goloni. Precibus adjunxi minas;</l>
+                  <l>At illa, qualis undique intractabilis</l>
+                  <l>Resistit undis petra, &amp; instantes aquas</l>
+                  <l>Procul remittit, verba sic sprevit mea.</l>
+                  <l>Tunc, ne Sifrido crimen aperiret dies</l>
+                  <l>Olim reverso, scelere velavi scelus.</l>
+                  <l>Sacra violâsse jura Genovefam thori</l>
+                  <l>Mentitus, arte perfidâ extorsi citae</l>
+                  <l part="">Decreta mortis.</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l part=""
+                     cert="unknown">Haec videt lucis parens,</l>
+                  <l>Nec redit in ortus, aut remetitur diem?</l>
+                  <l>Genovefa nostra periit? infanti quoque</l>
+                  <l>Decreta mors est; facta quis tam tristia</l>
+                  <l>Sortibus unquam? viderat primum diem,</l>
+                  <l>Uterique tardas solverat elausi moras,</l>
+                  <l>Et jam perimitur, Facinus ignotum, efferum;</l>
+                  <l>Natura majus ferre quo nullum potest.</l>
+               </sp>
+               <sp who="#golo">
+                  <speaker>Golo.</speaker>
+                  <l>Nihil recuso; dira tormenta ingere:</l>
+                  <l>Merui; cruentis scelera suppliciis preme.</l>
+                  <l>Plagae locum metire: cur cessas? feri.</l>
+                  <l>Nec destino unum vulneri nostro locum,</l>
+                  <l>Totus nocens sum, non potest in me tua</l>
+                  <l>Errare dextra; quà voles, mortem exige.</l>
+                  <l>Effringe corpus, corque tot scelerum capax</l>
+                  <l>Evelle, totis viscerum nuda sinus:</l>
+                  <l>Disrumpe fibras, mille per partes eant</l>
+                  <l>Distracta membris membra; in hoc jugulum rue,</l>
+                  <l>Fractumque crebris ictibus guttur sonet:</l>
+                  <l part="">Minora meritis patiat.</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l part=""
+                     cert="unknown">Egon’ ut manus</l>
+                  <l>Puras nocentis polluam attactu ferae?</l>
+                  <l>Carnificis hoc est munus: huic poenam dabis.</l>
+                  <l>Abripite famuli monstrum, &amp; avectum foras</l>
+                  <l>Vivum sonipedes quatuor in partes trahant.</l>
+               </sp>
+               <sp who="#fil-1-gol">
+                  <speaker>Fil. 1. Gol.</speaker>
+                  <l>Miserere Patris, supplices nati rogant.</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l part=""
+                     cert="unknown">Abripite monstrum.</l>
+               </sp>
+               <sp who="#fil-2">
+                  <speaker>Fil. 2.</speaker>
+                  <l part=""
+                     cert="unknown">pedibus advolvor tuis.</l>
+               </sp>
+               <sp who="#fil-1">
+                  <speaker>Fil. 1.</speaker>
+                  <l part=""
+                     cert="unknown">Per genus avitum parce.</l>
+               </sp>
+               <sp who="#2">
+                  <speaker>2.</speaker>
+                  <l part=""
+                     cert="unknown">per sacras manus.</l>
+               </sp>
+               <sp who="#1">
+                  <speaker>1.</speaker>
+                  <l part=""
+                     cert="unknown">Per ista Princeps genua.</l>
+               </sp>
+               <sp who="#2">
+                  <speaker>2</speaker>
+                  <l part=""
+                     cert="unknown">si sanguis placet,</l>
+                  <l>
+                     <pb n="28"/>
+                  </l>
+                  <l>Hunc funde; meliùs sanguis infantûm sapit</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l>Cum Patre, &amp; soboles cadet.</l>
+                  <l>Domusque tota: sternam, &amp; evertam omnia.</l>
+               </sp>
+            </div>
+            <div type="scene"
+                 n="6">
+               <head>SCENA VI.</head>
+               <stage>Duo Venatores, qui Genovefae pepercerunt, decernunt, tegere hoc factum &amp;c.</stage>
+               <stage>Personae. Lindus &amp; Rinaldus Venatores.</stage>
+               <sp who="#venator-i">
+                  <speaker>Venator I.</speaker>
+                  <l>Rinalde! dubio nostra res posita est loco:</l>
+                  <l>Nam fortè Pinceps caedis exquiret modum?</l>
+               </sp>
+               <sp who="#ii">
+                  <speaker>II.</speaker>
+                  <l>Ingenia facilem prompta reperiunt viam.</l>
+                  <l>Fingemus iterum mortis illatae modum:</l>
+               </sp>
+               <sp who="#i">
+                  <speaker>I.</speaker>
+                  <l>At si deinde, fama quam jussae necis</l>
+                  <l>Perisse fatis hactenus passim tulit,</l>
+                  <l>Vivam reperiat Dominus? an nostrum putas</l>
+                  <l part="">Silentium probabit?</l>
+               </sp>
+               <sp who="#2us">
+                  <speaker>2us</speaker>
+                  <l part=""
+                     cert="unknown">hoc certum est, diu</l>
+                  <l>Periisse Dominam, belluas inter feras,</l>
+                  <l>Curâ pusillae sobolis; indignâ sui</l>
+                  <l>Irâ mariti, nominis sui probro.</l>
+                  <l>Siti, fameque, &amp; mille consumptam malis,</l>
+               </sp>
+               <sp who="#i">
+                  <speaker>I.</speaker>
+                  <l>Ergo perempta maneat, &amp; ficto dolo</l>
+                  <l>Exsecta pergat lingua testari necem,</l>
+               </sp>
+            </div>
+            <div type="scene"
+                 n="7">
+               <head>SCENA VII.</head>
+               <stage>Sigefridus luget mortem Genovefae, &amp; jubet exequias parari.</stage>
+               <stage>Personae. Sigefridus solus.</stage>
+               <sp who="#unknown">
+                  <l>O socia nostri sanguinis, castâ fide</l>
+                  <l>Servans thorum! sic erimen alienum luis?</l>
+                  <l>Insons, pudica ... Quid gemam, aut primùm querar?</l>
+                  <l>Ego te peremi: jussa peccârunt mea.</l>
+                  <l>Cur animam in istâ luce detineam ampliùs,</l>
+                  <l>Morerque nihil est: cuncta jam amisi bona.</l>
+                  <l>
+                     <pb n="29"/>
+                  </l>
+                  <l>Ite, ite properè, moesta famulantum manus,</l>
+                  <l>Parare lessum; conjugi inferias dabo,</l>
+                  <l>Ac tota lacrymis frena laxabo meis.</l>
+                  <l>Tum sponte moriar: gravia namque urgent mala,</l>
+                  <l>Tantisque portum quaerere aerumnis jubent.</l>
+               </sp>
+            </div>
+            <div type="scene"
+                 n="8">
+               <head>SCENA VIII.</head>
+               <stage>Nuncius refert supplicium Golonis.</stage>
+               <stage>Personae. Nuncius, Chorus.</stage>
+               <sp who="#nunc">
+                  <speaker>Nunc.</speaker>
+                  <l>Peracta scena est: digna criminibus dedit</l>
+                  <l part="">Supplicia Golo</l>
+               </sp>
+               <sp who="#chor">
+                  <speaker>Chor.</speaker>
+                  <l part=""
+                     cert="unknown">Nihil in occulto est diu:</l>
+                  <l>Quin testis animus, &amp; suum incusans Scelus,</l>
+                  <l>Semperque pavidus vindicis poenae metu,</l>
+                  <l>Tandem seipsum prodere &amp; crimen solet.</l>
+                  <l part="">Quo gerere mortis periit?</l>
+               </sp>
+               <sp who="#nunc">
+                  <speaker>Nunc.</speaker>
+                  <l part=""
+                     cert="unknown">Horrorem incutit</l>
+                  <l>Imago scenae. Corpus in multas equi</l>
+                  <l>Rapuêre partes. Tortor ùt primum Rei</l>
+                  <l>Artus Golonis vinculo austrinxit jugis,</l>
+                  <l>Sensêre pecudes facinus, &amp; cursu cito,</l>
+                  <l>Stimulante Domino, quà furor jussit, ruunt,</l>
+                  <l>Omnisque, vulsi corporis partem tulit.</l>
+                  <l>Et illa, per quae Golo distractus loca est,</l>
+                  <l>Longum cruenta tramitem signat nota.</l>
+               </sp>
+               <sp who="#chor">
+                  <speaker>Chor.</speaker>
+                  <l>Nunc ite, quotquot premitis insontes dolis,</l>
+                  <l>Mendaciis, calumniis, injuriis:</l>
+                  <l>Fraus nulla semper tegitur; &amp; scelus, licet</l>
+                  <l>Nullo patrarum teste, tam latuit bene,</l>
+                  <l>Ut non latebris serus evolvat dies.</l>
+                  <l>Et poena quamvis tarda sed sequitur tamen,</l>
+                  <l>Longamque gravior plaga compensat moram.</l>
+               </sp>
+            </div>
+         </div>
+         <div type="act"
+              n="3">
+            <div type="scene"
+                 n="1">
+               <sp who="#unknown">
+                  <l>
+                     <pb n="30"/>
+                  </l>
+                  <head>SCENA I.</head>
+               </sp>
+               <stage>Sigefridus cum aulâ suâ celebrat exequias occisae Genovefae. Musica per totum.</stage>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l>
+                     <stage>solus.</stage>Eja turba! pone cultum,</l>
+                  <l>Luctuosum sume vultum;</l>
+                  <l>Genovefam plangimus.</l>
+                  <l>Genovefae fata flemus.</l>
+                  <l>Sigefrido condolemus;</l>
+                  <l>Moesta plectra tangimus.</l>
+               </sp>
+               <stage>Sigefridus &amp; Chorus concertant.</stage>
+               <sp who="#unknown">
+                  <l>Genovefa sicut una</l>
+                  <l>Luxit inter astra, Luna:</l>
+                  <l>Illa Pallas gloriosa,</l>
+                  <l>Et Diana gratiosa,</l>
+                  <l>Fronte blanda, comis ore,</l>
+                  <l>Mente pura, casta more:</l>
+                  <l>Cara terris, grata caelis</l>
+                  <l>Sigefrido ter fidelis.</l>
+                  <l>Luna haec disparuit.</l>
+                  <l>Pallas haec expalluit,</l>
+                  <l>Haec Diana evanuit.</l>
+               </sp>
+               <sp who="#sigef">
+                  <speaker>Sigef.</speaker>
+                  <l>
+                     <stage>solus.</stage>Ergo Lunam flete stellae,</l>
+                  <l>Pallademque vos puellae:</l>
+                  <l>Vos Dianam flete Nymphae,</l>
+                  <l>Vosque rivi, vosque lymphae:</l>
+                  <l>Flete calles, flete valles,</l>
+                  <l>Prata fontes, antra, montes:</l>
+                  <l>Genovefam plangite,</l>
+                  <l>Naeniamque pangite.</l>
+               </sp>
+               <sp who="#chorus">
+                  <speaker>Chorus.</speaker>
+                  <l>Genovefae fata flemus,</l>
+                  <l>Plectra chordis admovemus:</l>
+                  <l>Ergo tristes ite luctus,</l>
+                  <l>Et dolorum millę fluctus.</l>
+                  <l>Moesta fundant lumina</l>
+                  <l>Lacrymarum flumina.</l>
+               </sp>
+            </div>
+            <div type="scene"
+                 n="2">
+               <sp who="#unknown">
+                  <l>
+                     <pb n="31"/>
+                  </l>
+                  <head>SCENA II.</head>
+                  <stage>Duo Venatores interrogati à Sigefrido, fingunt modum, quo Genovefam, &amp; Infantem occiderint.</stage>
+               </sp>
+               <stage>Personae. Sigefridus, &amp; duo Venatores, Lindus, &amp; Rinaldus.</stage>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l>Nunc agite; Linde, tuve fatalis comes</l>
+                  <l>Rinalde casûs, caedis enarra modum.</l>
+               </sp>
+               <sp who="#rinald">
+                  <speaker>Rinald.</speaker>
+                  <l>Fari jubes, tacere quae suadet dolor,</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l>Effare: gaudet animus aerumnas meus</l>
+               </sp>
+               <sp who="#lindus">
+                  <speaker>Lindus.</speaker>
+                  <l part=""
+                     cert="unknown">Tacere liceat.</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l part=""
+                     cert="unknown">Qui tacet jussus loqui,</l>
+                  <l part="">Imposita solvit jussa.</l>
+               </sp>
+               <sp who="#lind">
+                  <speaker>Lind.</speaker>
+                  <l part=""
+                     cert="unknown">Quid cuiquam licet,</l>
+                  <l part="">Si non licet tacere.</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l part=""
+                     cert="unknown">Quid nectis moras?</l>
+                  <l>Effare, ne te cogat ad voces dolor.</l>
+               </sp>
+               <sp who="#lind">
+                  <speaker>Lind.</speaker>
+                  <l>Coacta verba placidus accipias precor.</l>
+                  <l>Est procul ab urbe lucus, arboribus niger:</l>
+                  <l>Has inter abies exerens frequens caput.</l>
+                  <l>Virente semper alligat trunco nemus.</l>
+                  <l>Illuc necanda ducitur consors thori.</l>
+               </sp>
+               <sp who="#rinald">
+                  <speaker>Rinald</speaker>
+                  <l>Ut lassa Silvam tenuit, &amp; caedis locum:</l>
+                  <l>Mortem paramus; illa sic fando rogat:</l>
+                  <l>Brevem moram largire, dum Nato parens</l>
+                  <l>Munus supremum reddo, &amp; amplexu ultimo</l>
+                  <l>Avidos dolores satio; tum Natum osculans.</l>
+                  <l>O dulce pignus, certa progenies Patris,</l>
+                  <l>Spes, inquit, una generis, &amp; avitae domûs,</l>
+                  <l>Veterisque soboles sanguinis, nimiùm inclyti,</l>
+                  <l>Patrique similis, morere, sic genitor jubet.</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l part=""
+                     cert="unknown">Quid deinde?</l>
+               </sp>
+               <sp who="#lind">
+                  <speaker>Lind.</speaker>
+                  <l part=""
+                     cert="unknown">Pueri flentis in guttur mucro</l>
+                  <l>Adigitur, ille tinctus è jugulo redit,</l>
+                  <l part="">Puero jacente.</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l part=""
+                     cert="unknown">Quò meas lacrymas feram?</l>
+                  <l>
+                     <pb n="32"/>
+                  </l>
+                  <l part="">Ubi me recondam?</l>
+               </sp>
+               <sp who="#lind">
+                  <speaker>Lind.</speaker>
+                  <l part=""
+                     cert="unknown">Genua tum flexit Parens.</l>
+                  <l>Isthaec profata: morior, at rutilo diem</l>
+                  <l>Curru volantem testor, innocua cado.</l>
+                  <l>Vitae ante actae candor hoc probat: hinc mori</l>
+                  <l>Non timeo; doleo Conjugem iratum; mori</l>
+                  <l>Communis est res; Conjuge offenso mori.</l>
+                  <l>Hoc est, quod horret animus; at vincam tamen.</l>
+                  <l part="">Tum nivea praebet colla</l>
+               </sp>
+               <sp who="#rinald">
+                  <speaker>Rinald.</speaker>
+                  <l part=""
+                     cert="unknown">Percussa amputo.</l>
+                  <l>Invitus, atque pavidus, &amp; ad ictum piget.</l>
+                  <l>Subitus receptâ morte prorumpit cruor,</l>
+                  <l>Capitéque vulso truncus in pronum ruit.</l>
+               </sp>
+               <sp who="#lind">
+                  <speaker>Lind.</speaker>
+                  <l>Exscindo linguam gutturi: hanc jussit sibi</l>
+                  <l>Referre Golo, caedis exactae indicem.</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l>O Golo, Golo! ... tale quis vidit nefas ...</l>
+                  <l>Ego hoc patravi, Quos miser planctus dabo?</l>
+                  <l>Questúsque quos? quae verba sufficient mihi?</l>
+               </sp>
+            </div>
+            <div type="scene"
+                 n="3">
+               <head>SCENA III.</head>
+               <stage>Genovefa, se morituram rata, filium, priùs mysteria fidei edoctum, Deo commendat, seque ad mortem parat.</stage>
+               <stage>Personae. Genovefa, &amp; Benoni Filius.</stage>
+               <stage>Scena tota est Musica.</stage>
+               <sp who="#genovef">
+                  <speaker>Genovef.</speaker>
+                  <l>Komm Benoni, komm mein Kind/</l>
+                  <l>Und mir sage auff geschwind/</l>
+                  <l>Was du wissen must am meist.</l>
+               </sp>
+               <sp who="#benoni">
+                  <speaker>Benoni.</speaker>
+                  <l>Wie viel Goͤtter seynd mein Sohn?</l>
+                  <l>Ein Gott ist/ und drey Persohn:</l>
+                  <l>Vatter/ Sohn/ und heilger Geist.</l>
+               </sp>
+               <sp who="#genοv">
+                  <speaker>Genοv.</speaker>
+                  <l>
+                     <stage>Aria I.</stage>Der Vatter Gott/ und alles ist:</l>
+                  <l>Allein er ist von keinem.</l>
+                  <l>Der Sohn auch Gott/ und alles ist/</l>
+                  <l>Et ist allein von einem.</l>
+                  <l>
+                     <pb n="33"/>
+                  </l>
+                  <l>2. Der Geist von beyde/ beyden gleich/</l>
+                  <l>Wie beyde ausserlesen:</l>
+                  <l>Schoͤn/ mächtig/ guthig/ eben reich/</l>
+                  <l>Im selben Stand und Wesen.</l>
+                  <l>3. Gott Vatter hatt erschaffen alls/</l>
+                  <l>Was ob= und unden schwebet:</l>
+                  <l>Was auff der Erd/ was ebenfals</l>
+                  <l>In Lufft/ und Wasser lebet.</l>
+                  <l>4. Der Sohn ist worden Mensch für uns</l>
+                  <l>Für uns ist er gestorben;</l>
+                  <l>Hat wiedrumb uns des Vatters Gunst/</l>
+                  <l>Und Gnad des Geists erworben:</l>
+               </sp>
+               <stage>Recitativè.</stage>
+               <sp who="#unknown">
+                  <l part="">Wo ist dann Gott?</l>
+               </sp>
+               <sp who="#benon">
+                  <speaker>Benon.</speaker>
+                  <l part=""
+                     cert="unknown">Ist überall.</l>
+               </sp>
+               <sp who="#genov">
+                  <speaker>Genov.</speaker>
+                  <l>Hast wohl geantwort: überall.</l>
+               </sp>
+               <sp who="#benon">
+                  <speaker>Benon.</speaker>
+                  <l>Wo ist das Mutter/ überall?</l>
+               </sp>
+               <sp who="#genov">
+                  <speaker>Genov.</speaker>
+                  <l>Auff gantzer Erd und Himmels Saal.</l>
+               </sp>
+               <stage>ARIA.</stage>
+               <sp who="#unknown">
+                  <l>Ausser diesem Busch seynd Wälder</l>
+                  <l>Mehr/ und groͤsser: weite Felder:</l>
+                  <l>Breite Wässer/ Berg und Land/</l>
+                  <l>Vieh und Menschen allerhand.</l>
+                  <l>Diese Kauffen und verkauffen;</l>
+                  <l>Werben/ schalten/ handlen/ walten.</l>
+                  <l>Andre hier/ und dorten leben/</l>
+                  <l>In Häuser klein/ in Palläst gross/</l>
+                  <l>Im Elend/ oder Wollust-Schoss;</l>
+                  <l>In der Armuth/ oder Pracht/</l>
+                  <l>In Betrangnuss oder Macht.</l>
+               </sp>
+               <sp who="#benon">
+                  <speaker>Benon.</speaker>
+                  <l>Warumb seynd wir dan hie allein/</l>
+                  <l>Und gehn nicht auch zu der Gemeind?</l>
+               </sp>
+               <sp who="#genov">
+                  <speaker>Genov.</speaker>
+                  <l>Benoni fragt mich bald zu viel.</l>
+                  <l>Dass wir hie seynd/ ist Gottes Will.</l>
+                  <l>Er wird nach dieser kurzer Zeit/</l>
+                  <l>Nach diesem Elend/ Noth/ und Leyd/</l>
+                  <l>Erfrewen uns in Ewigkeit.</l>
+                  <l>
+                     <pb n="34"/>
+                  </l>
+                  <l>Nur diss allein vonnoͤthen ist/</l>
+                  <l>Dass überall/ zu jeder Frist/</l>
+                  <l>Gott liebe auss gantzem Hertzen.</l>
+                  <l>Und wan vielleicht solt sterben ich/</l>
+                  <l>Lass nicht darumb betrüben dich:</l>
+                  <l>Nur liebe Gott/ halt sein Gebott/</l>
+                  <l>Sein Gnad sols nie verschertzen.</l>
+                  <l>Auch solstu/ weil erbetten dich/</l>
+                  <l>Mariam lieben inniglich.</l>
+                  <l>O Mutter! Lass Benoni mein</l>
+                  <l>Dir allzeit anbefohlen seyn.</l>
+                  <l>Wan dan soltest späth/ ob bald</l>
+                  <l>Du verlassen diesen Wald/</l>
+                  <l>Und man würdet auss dir fragen/</l>
+                  <l>Wer du seys/ wo von dan</l>
+                  <l>Unbekent du kommes an?</l>
+                  <l>Solstu ihen also sagen:</l>
+                  <l>Dass du seys von Adel gut/</l>
+                  <l>Hoch von Stammen/ gross von Blut:</l>
+                  <l>Eh= und ehrlich seys gebohren,</l>
+                  <l>Von den Eltren ausserkohren;</l>
+                  <l>Graff Sifrid dein Vatter sey;</l>
+                  <l>Diss man solle glauben frey.</l>
+                  <l>Nun geh’ zur Hoͤhl Benoni mein/</l>
+                  <l>Bald wird dein Mutter bey dir seyn.</l>
+                  <l>Abit Benoni, &amp; Genovefa manet sola.</l>
+               </sp>
+               <stage>ARIA.</stage>
+               <sp who="#genov">
+                  <speaker>Genov.</speaker>
+                  <l>Die Seel’ ist schon entflogen/</l>
+                  <l>Die Kräfften nehmen ab.</l>
+                  <l>Die Sonn hat sich gebogen/</l>
+                  <l>Und geht mit mir zum Grab.</l>
+                  <l>Darumb zu tausend Jahren</l>
+                  <l>Ade verlogne Welt/</l>
+                  <l>Dich lass ich gern fahren:</l>
+                  <l>Nichts hast/ so mir gefält.</l>
+                  <l>
+                     <pb n="35"/>
+                  </l>
+                  <l>Gelt/ Ehr/ und Prach auff Erden/</l>
+                  <l>Lust/ Frewd hab lang verspott:</l>
+                  <l>Ich acht sie für Beschwerden/</l>
+                  <l>Und halts bey meinem Gott.</l>
+                  <l>In JEsu Hertz/ und Wunden</l>
+                  <l>Ist mein Ergesslichkeit!</l>
+                  <l>Wan ihn umbhältz/ zur Stunden</l>
+                  <l>Verschwind all Peyn/ und Leydt.</l>
+                  <l>Ich glaub/ O hoͤchste Weissheit/</l>
+                  <l>Was du geredet/ fast:</l>
+                  <l>Ich glaub/ O hoͤchste Warheit/</l>
+                  <l>Weil dus geredet/ hast.</l>
+                  <l>Ich hoff dein Gnad auff Erden,</l>
+                  <l>Hernach dass soll bey dir</l>
+                  <l>Ein Erb des Himmels werden/</l>
+                  <l>Weil du’s versprochen mir.</l>
+                  <l>Dich lieb ich über alles.</l>
+                  <l>Nur weil all liebens werth.</l>
+                  <l>Unendlich mehr gefalles</l>
+                  <l>Als was auff gantzer Erdt.</l>
+                  <l>Diss mich allein thut schmertzen/</l>
+                  <l>Dass je gesündigt ich:</l>
+                  <l>Doch grewt es mich von Hertzen/</l>
+                  <l>Nur weil erzürnet dich.</l>
+                  <l>Hinfür will eh’ verderben/</l>
+                  <l>Will alle Peyn aussstehn:</l>
+                  <l>Ja tausentmahl will sterben/</l>
+                  <l>Als mehr ein Sünd begehn.</l>
+                  <l>Drumb durch dein milt Gemüthe/</l>
+                  <l>Ich/ Jesu/ bitt von dir:</l>
+                  <l>Gedencke deiner Güte/</l>
+                  <l>Die Sünd vergebe mir.</l>
+                  <l>Von Hertzen auch verzeyhe</l>
+                  <l>Dem/ so beleydigt mich;</l>
+                  <l>Du ihm/ und mir verleyhe</l>
+                  <l>Dein Gnad/ das bitte ich.</l>
+                  <l>
+                     <pb n="36"/>
+                  </l>
+                  <l>Zur Hoͤhl ich widerkehre/</l>
+                  <l>Da wart ich auff den Todt.</l>
+                  <l>Mir Jesus (diss begehre)</l>
+                  <l>Steh’ bey in letzter Noth.</l>
+               </sp>
+            </div>
+            <div type="scene"
+                 n="4">
+               <head>SCENA IV.</head>
+               <stage>Sigefridus venatur in silvâ, in quâ latet Genovefa.</stage>
+               <stage>Personae. Sigefridus, &amp; Venatores. Scena tota est Musica.</stage>
+               <sp who="#venator-i">
+                  <speaker>Venator I.</speaker>
+                  <l>Zu jagen alles ist bereit!</l>
+                  <l>Die Päss seynd all wohl versehn/</l>
+               </sp>
+               <sp who="#venat-ii">
+                  <speaker>Venat. II.</speaker>
+                  <l>Die Garn seynd all wohl aussgebreit:</l>
+                  <l>Nun last die Hund abgehn.</l>
+                  <stage>Fit venatio.</stage>
+               </sp>
+               <stage>Post venationem.</stage>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l>Hoͤrt auff/ es ist schon Abend=spath/</l>
+                  <l>Die Hunde rufft zu samen.</l>
+               </sp>
+               <stage>Convocantur canes &amp;c.</stage>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l>Ein jeder was gefangen hatt/</l>
+                  <l>Brings her/ und nents mit Nahmen.</l>
+                  <l>Doch alles soll sich reymen feyn/</l>
+                  <l>Ders beste reymt soll meister seyn. &amp;c. &amp;c.</l>
+               </sp>
+            </div>
+            <div type="scene"
+                 n="5">
+               <head>SCENA ultima.</head>
+               <stage>Inventa Genovefa adducitur ad Sigefridum, &amp; tandem agnoscitur &amp;c. fiunt varii affectus; adducitur filius &amp;c. Laudatur Deus &amp;c.</stage>
+               <stage>Musica usque ad finem.</stage>
+               <stage>Personae. Sigefridus, Genovefa, Benoni, Venatores &amp;c.</stage>
+               <sp who="#venator-i">
+                  <speaker>Venator I.</speaker>
+                  <l>Ich gfangen hab ein Wunder=Thier/</l>
+                  <l>Zu deinem Dienst ichs bringe dir.</l>
+                  <l>
+                     <pb n="37"/>
+                  </l>
+               </sp>
+               <sp who="#genovef">
+                  <speaker>Genovef.</speaker>
+                  <l part=""
+                     cert="unknown">Sifride?</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l part=""
+                     cert="unknown">Woher kenstu mich?</l>
+               </sp>
+               <sp who="#genov">
+                  <speaker>Genov.</speaker>
+                  <l>Doch niemal hab erzürnet dich:</l>
+                  <l>Hab allzeit trew gehalten dir/</l>
+                  <l>Und halten werd/ das glaube mir.</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l>Wass seltzam Reden hoͤre ich:</l>
+                  <l>Doch niemal hab gesehen dich.</l>
+               </sp>
+               <sp who="#genov">
+                  <speaker>Genov.</speaker>
+                  <l>Mein Ehe=Herr! wan nach langer Frist</l>
+                  <l>Dein Zorn noch nicht gestillet ist/</l>
+                  <l>Buss ihen noch: den Halss ich reich/</l>
+                  <l>Obschon unschuldig bin/ zum Streich.</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l>Wass hoͤr ich? Genovefa bist?</l>
+                  <l>Die gstorben ist vor langer Frist. fugit, ratus esse spectrum.</l>
+               </sp>
+               <sp who="#genov">
+                  <speaker>Genov.</speaker>
+                  <l>Kehr wieder/ Sigefride mein/</l>
+                  <l>Es lebt noch Genovefa dein.</l>
+               </sp>
+               <stage>Sigefridus ad Venatorem.</stage>
+               <sp who="#unknown">
+                  <l>Hat Golo nicht befohlen dir/</l>
+                  <l>Wie du auch hast erzehlet mir/</l>
+                  <l>Dass Genovefan toͤdten solst/</l>
+                  <l>Wie auch geschehn in diesem Holtz.</l>
+               </sp>
+               <sp who="#venat">
+                  <speaker>Venat.</speaker>
+                  <l>Mein Herr/ ich hab verschoͤnet ihr/</l>
+                  <l>Und dass nit soltest zürnen mir/</l>
+                  <l>Weil dein Befehl zu toͤdten war/</l>
+                  <l>Hab ichs verschwiegen all die Jahr.</l>
+               </sp>
+               <sp who="#genov">
+                  <speaker>Genov.</speaker>
+                  <l>
+                     <stage>ad eundem Venatorem.</stage>
+                  </l>
+                  <l>Du hast geschenckt das Leben mir/</l>
+                  <l>Drumb lieben dich werd eben</l>
+                  <l>Als mich: werd allzeit dienen dir/</l>
+                  <l>So lang auff Erd werd leben.</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l>Genovefa! Frewd und Schmertz</l>
+                  <l>Uberschwemmen mir das Hertz.</l>
+                  <l>Genovefa! solst du’s seyn/</l>
+                  <l>Oder ists der Schatten dein.</l>
+               </sp>
+               <sp who="#genov">
+                  <speaker>Genov.</speaker>
+                  <l>Sigefride! glaubs mir frey’/</l>
+                  <l>Dass ich Genovefa sey.</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l>O! wass für ein Tyrann bin ich!</l>
+                  <l>Wie gottlos habe gehausset!</l>
+                  <l>Befohlen hab zu toͤdten dich/</l>
+                  <l>Wan dran gedenck, mich grauset.</l>
+                  <l>
+                     <pb n="38"/>
+                  </l>
+                  <l part="">Ein Moͤrder bin.</l>
+               </sp>
+               <sp who="#genov">
+                  <speaker>Genov.</speaker>
+                  <l part=""
+                     cert="unknown">Schlags auss dem Sinn.</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l>Mein eygnes Bluth/ und Leben:</l>
+                  <l>Die Liebste mein/ trew, keusch/ und rein/</l>
+                  <l>Dem Todt hab übergeben.</l>
+               </sp>
+               <sp who="#genov">
+                  <speaker>Genov.</speaker>
+                  <l>Doch lebe ich: was kränckest dich?</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l>
+                     <foreign>Für Leidt ich muss erstummen ...</foreign>
+                  </l>
+                  <l>
+                     <foreign>Bin freylich werth/ mich Fewr/ und Schwerdt</foreign>
+                  </l>
+                  <l>
+                     <foreign>Reib auff in gleicher Summen.</foreign>
+                  </l>
+                  <l>
+                     <foreign>Fall auff die Erd: nimb du diss Schwert ...</foreign>porrigit illi gladium.</l>
+                  <l>
+                     <foreign>Das Haupt zum Schlag thu neigen ...</foreign>
+                  </l>
+               </sp>
+               <sp who="#genov">
+                  <speaker>Genov.</speaker>
+                  <l>Das seye ferr: steh auff mein Herr.<stage>Genovefa abjicit gladium.</stage>
+                  </l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l>Die That nicht kan verschweigen.</l>
+               </sp>
+               <sp who="#genov">
+                  <speaker>Genov.</speaker>
+                  <l>Unschuldig bist; Golonis List</l>
+                  <l>Das Laster hat begangen.</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l>Er hat auch schon der Schandthat Lohn/</l>
+                  <l>Wie er verdient/ empfangen.</l>
+                  <l>Diss bit ich nu/ dass lassest zu/</l>
+                  <l>Weil mir versags die Füsse;</l>
+                  <l>Das küss’ dein Handt/ zur Liebes Pfandt/</l>
+               </sp>
+               <sp who="#genov">
+                  <speaker>Genov.</speaker>
+                  <l>
+                     <foreign>Gib/ dass auch deine küsse ...</foreign>osculantur mutoò manum.</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l>O schoͤne Zeit! hin ist das Leidt/</l>
+                  <l>Mein Hertz für Frewd thut springen.</l>
+                  <l>Simul. Nun lass uns beyd/ in Froͤlichkeit</l>
+                  <l>Mit Stimm/ und Mund erklingen.</l>
+               </sp>
+               <stage>Aria.</stage>
+               <sp who="#unknown">
+                  <l>1. Der Winter ist fürbey/</l>
+                  <l>Die Lufft ist Wolcken frey;</l>
+                  <l>Die Froͤlings=Zeit vertreibt das Leidt/</l>
+                  <l>Und kehret all Schmertzen.</l>
+                  <l>In Frewden und Schertzen.</l>
+                  <l>2. Was verlohren/ ausserkohren/</l>
+                  <l>Hab das Pfand/ in meiner Hand ... Dant sibi mutuò manum.</l>
+                  <l>So ergetzt mein Sinn/ und Hertz.</l>
+                  <l>Drumb lasst singen/ drumb last klingen</l>
+                  <l>Unsre Stimme zu dieser Stundt:</l>
+                  <l>
+                     <pb n="39"/>
+                  </l>
+                  <l>Gott/ so droben/ last uns loben</l>
+                  <l>Jederzeit mit Hertz und Mund.</l>
+               </sp>
+               <sp who="#sigefridus">
+                  <speaker>Sigefridus</speaker>
+                  <l>
+                     <stage>, Solus.</stage>Die Frewde unermessen/</l>
+                  <l>So überschütt mein Sinn/</l>
+                  <l>Hett mich schier thun vergessen</l>
+                  <l>Wo’s Kind sey kommen hin.</l>
+               </sp>
+               <sp who="#geov">
+                  <speaker>Geov.</speaker>
+                  <l>Er lebet noch frisch/ und gesund.</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l>O newe Frewd! O froͤlich Stundt.</l>
+               </sp>
+               <sp who="#genov">
+                  <speaker>Genov.</speaker>
+                  <l>Benoni!</l>
+               </sp>
+               <sp who="#ben">
+                  <speaker>Ben.</speaker>
+                  <l>Mutter!</l>
+               </sp>
+               <sp who="#genov">
+                  <speaker>Genov.</speaker>
+                  <l>Komm geschwindt.<stage>fugit</stage>
+                  </l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l>Er foͤrcht mich billig.</l>
+               </sp>
+               <sp who="#genov">
+                  <speaker>Genov.</speaker>
+                  <l>Komm mein Kindt.</l>
+                  <l>Kein Leuth er jemal hat gesehn/</l>
+                  <l>Drumb foͤrchtet er ... mein Sohn bleib stehn:</l>
+                  <l>Und diesen Leuthen sage frey/</l>
+                  <l>Wer seys/ und wer dein Vatter sey.</l>
+               </sp>
+               <sp who="#benoni">
+                  <speaker>Benoni.</speaker>
+                  <l>Ich bin von Adel guth/</l>
+                  <l>Von Stammen/ und von Bluth</l>
+                  <l>Eh= und ehrlich bin gebohren/</l>
+                  <l>Von den Eltren ausserkohren:</l>
+                  <l>Graff Sigfrid mein Vatter ist/</l>
+                  <l>Und du meine Mutter bist.</l>
+               </sp>
+               <sp who="#sigefr">
+                  <speaker>Sigefr.</speaker>
+                  <l>Diss ist mein Sohn/ ich seh’ es schon/</l>
+                  <l>Des Gsichts und Leibs Figuren/</l>
+                  <l>Die Glieder zart/ der schoͤner Art</l>
+                  <l>Von keinem Koch herrühren.</l>
+                  <l>Komm süsser Trost/ ins Vatters-Schooss ... amplectitur filium.</l>
+                  <l>O newe Lust des Hertzen!</l>
+                  <l>Vermehrst die Frewd/ bringst Froͤlichkeit/</l>
+                  <l>Vertreibest allen Schmertzen.</l>
+               </sp>
+            </div>
+         </div>
+         <div type="epilogue">
+            <head>Sigefr. &amp; Genov. Epilogus.</head>
+            <stage>Simul.</stage>
+            <sp who="#unknown">
+               <l>Wie heischet auch mit Nahmen:</l>
+               <l>So wohnt in diesem Wald.</l>
+               <l>Hiehin kompt also bald.</l>
+               <l>Den hoͤchsten Gott daroben/</l>
+               <l>Uns heisset alle loben/</l>
+               <l>Mit Hertzen/ und mit Mundt</l>
+               <l>Jetzt und zu jeder Stundt.</l>
+               <l>
+                  <pb n="40"/>
+               </l>
+            </sp>
+            <sp who="#omnes">
+               <speaker>Omnes.</speaker>
+               <l>Ehrschänderey zu Boden ligt</l>
+               <l>Victoriam last singen:</l>
+               <l>Die Unschuld nun hat obgesigt</l>
+               <l>Triumphe Last erklingen.</l>
+               <l>Last sagen Dankck dem hoͤchsten Gott,</l>
+               <l>Weil er uns beygestanden.</l>
+               <l>Dieweil er unsre Feynd zum Spott</l>
+               <l>Gemacht hat/ und zu Schanden.</l>
+            </sp>
+            <stage>FINIS.</stage>
+         </div>
+      </body>
+   </text>
+</TEI>
