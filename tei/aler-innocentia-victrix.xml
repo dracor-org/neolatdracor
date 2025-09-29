@@ -188,7 +188,7 @@
          </creation>
       </profileDesc>
    </teiHeader>
-   <standOff>      
+   <standOff>
       <listEvent>
          <event type="print" when="1706">
             <desc/>
@@ -260,12 +260,12 @@
                <role>Golo,</role>
                <roleDesc>Minister primarius Sigefridi.</roleDesc>
             </castItem>
-            <castItem>
-               <role>Duo Ephebi Genovefae.</role>
-            </castItem>
-            <castItem>
-               <role>Duo Venatores.</role>
-            </castItem>
+            <castGroup>
+               <roleDesc>Duo Ephebi Genovefae.</roleDesc>
+            </castGroup>
+            <castGroup>
+               <roleDesc>Duo Venatores.</roleDesc>
+            </castGroup>
          </castList>
          <argument>
             <head>ARGUMENTUM DRAMATIS.</head>
@@ -822,236 +822,240 @@
                   <p>Expeditio Sigefridi contra Maurorum Regem exhi<lb break="no"/>betur in Achille
                      Trojam petente; &amp; Hectorem, <lb/>Trojanorum Ducem, detriumphante.</p>
                </argument>
-               <argument>
-                  <p>Pars I. Dum Achilles Trojam proficiscitur, Aeolus rogatu <lb/>Veneris, mare
-                     perturbat: sed Juno, ab Achille implorata, <lb/>jubet Aeolum ventos compescere:
-                     interim Achilles <lb/>iter suum salvus prosequitur.</p>
-               </argument>
-               <stage>Personae. Achilles cum sociis suis, Venus, Aeolus, <lb/>Juno.</stage>
-               <stage>Scena est musica per totum.</stage>
-               <sp who="#achilles">
-                  <speaker>Achil.</speaker>
-                  <l xml:lang="ger">Fort Gesellen/ dan die Wellen</l>
-                  <l rend="indent" xml:lang="ger">Legen sich: nun schifft geschwind:</l>
-                  <l xml:lang="ger">Ohn Gefahren last uns fahren;</l>
-                  <l rend="indent" xml:lang="ger">Auff dem Meer seynd keine Wind.</l>
-                  <l xml:lang="ger">Nicht verweylet/ sonder eylet/</l>
-                  <l rend="indent" xml:lang="ger">Fahrt nach Troja immer fort/</l>
-                  <l xml:lang="ger">Eh' die Wellen sich verstellen/</l>
-                  <l rend="indent" xml:lang="ger">Treibt die Schifflein all an Bordt.</l>
-               </sp>
-               <sp who="#venus">
-                  <speaker>Venus </speaker>
-                  <stage>in aëre.</stage>
-                  <l xml:lang="ger">Was ist zu schaffen auff dem Meer?</l>
-                  <l xml:lang="ger">Ist der Achilles in der Wehr?</l>
-                  <l rend="indent" xml:lang="ger">Und nach Troja in der Still</l>
-                  <l rend="indent" xml:lang="ger">Mit den Schiffer säglen will?</l>
-                  <pb n="11"/>
-                  <l xml:lang="ger">Sich an selbe Stadt zu reiben/</l>
-                  <l rend="indent" xml:lang="ger">Die Einwohner zu entleiben.</l>
-                  <l rend="indent" xml:lang="ger">Gott der Geister/ dem die Wind</l>
-                  <l rend="indent" xml:lang="ger">Mussen folgen/ komm geschwind:</l>
-                  <l xml:lang="ger">Und ruffe sie auß Orient/</l>
-                  <l xml:lang="ger">Auß Norden/ Sudt/ und Occident.</l>
-                  <l rend="indent" xml:lang="ger">Laß sie das Meer Verstören/</l>
-                  <l rend="indent" xml:lang="ger">Mit Wüthen nicht auffhören/</l>
-                  <l xml:lang="ger">Biß daß die Schifflein all zur Stund</l>
-                  <l xml:lang="ger">Mit dem Achille gehn zu Grund.</l>
-               </sp>
-               <sp who="#aeolus">
-                  <speaker>Aeolus.</speaker>
-                  <l xml:lang="ger">Kompt ihr Winde dan zusamen/</l>
-                  <l xml:lang="ger">Wie auch heischet mit dem Nahmen:</l>
-                  <l rend="indent" xml:lang="ger">Euch nit saumet/ kompt geschwind/</l>
-                  <l rend="indent" xml:lang="ger">Ost= und Sud= West= und Nord=Wind.</l>
-                  <l xml:lang="ger">Durchlaufft das Wasser hin und her/</l>
-                  <l xml:lang="ger">In Unruh bringt das gantze Meer.</l>
-                  <l rend="indent" xml:lang="ger">Nun tobet/ und brausset:</l>
-                  <l rend="indent" xml:lang="ger">Nun Wütet/ und sausset:</l>
-                  <l xml:lang="ger">Stürmet/ blaset/ grimmet/ raset</l>
-                  <l rend="indent" xml:lang="ger">Und die Schiff kehrt umb und umb.</l>
-               </sp>
-               <sp who="#achilles">
-                  <speaker>Achil.</speaker>
-                  <l xml:lang="ger">Warumb Venus, der Göttinnen</l>
-                  <l rend="indent" xml:lang="ger">Und der Götter Schand und Spott/</l>
-                  <l xml:lang="ger">Voller Gifft als böse Spinnen/</l>
-                  <l rend="indent" xml:lang="ger">Reitzts du auff der Winden Gott?</l>
-               </sp>
-               <sp who="#aeolus">
-                  <speaker>Aeolus.</speaker>
-                  <l xml:lang="ger">Nun wütet mehr/ und blaset/</l>
-                  <l rend="indent" xml:lang="ger">Tobet und raset.</l>
-                  <l rend="indent" xml:lang="ger">Sausset/ und brausset:</l>
-                  <l xml:lang="ger">Zerstöret/ nit auffhöret.</l>
-                  <l xml:lang="ger">Fahrt immer fort zu toben.</l>
-                  <l xml:lang="ger">Die Schiff kehrt umb und oben:</l>
-                  <l rend="indent" xml:lang="ger">In einem Knall verderbt sie all.</l>
-               </sp>
-               <sp who="#achilles">
-                  <speaker>Achil.</speaker>
-                  <l rend="indent" xml:lang="ger">O Weh! betrübte Wellen</l>
-                  <l rend="indent" xml:lang="ger">Erwecken dieß’ Gesellen.</l>
-                  <l rend="indent" xml:lang="ger">Wie grausam ist der Winden Heer/</l>
-                  <l rend="indent" xml:lang="ger">Er wütet/ raset/ nah' und feer.</l>
-                  <l xml:lang="ger">O Juno! dich wollest erbarmen/</l>
-                  <l xml:lang="ger">Und kommen zu Hülff uns Armen.</l>
-               </sp>
-               <pb n="12"/>
-               <sp who="#juno">
-                  <speaker>Juno.</speaker>
-                  <l xml:lang="ger">Wer störet das Wasser/ und meister will seyn?</l>
-                  <l xml:lang="ger">Gott Aeole zähme der Winden Willmuth/</l>
-                  <l xml:lang="ger">Und straffe ihr Wüten/ sonst thut es kein guth.</l>
-                  <l xml:lang="ger">Du weist ja/ daß Erde und Wasser ist mein.</l>
-                  <l xml:lang="ger">Ihr Winde schweigt still/ obschon ewr seynd vil:</l>
-                  <l xml:lang="ger">Seid friedsam ihr Wellen/ nit solt euch verstellen:</l>
-                  <l rend="indent" xml:lang="ger">Das Meer sich nit wege</l>
-                  <l rend="indent" xml:lang="ger">Der Wind sich nicht rege:</l>
-                  <l rend="indent" xml:lang="ger">Juno befilchts.</l>
-               </sp>
-               <sp who="#achilles">
-                  <speaker>Achilles</speaker>
-                  <l xml:lang="ger">O Juno! Frewd des Hertzen/</l>
-                  <l rend="indent" xml:lang="ger">Wie lieblich scheinest du/</l>
-                  <l rend="indent" xml:lang="ger">Und legst den Streit.</l>
-                  <l xml:lang="ger">Vertreibest alle Schmertzen/</l>
-                  <l xml:lang="ger">Gibst wieberumb die Ruh.</l>
-                  <l rend="indent" xml:lang="ger">Und nimbst das Leydt.</l>
-                  <l xml:lang="ger">Das Meer jetz nicht mehr tobet/</l>
-                  <l rend="indent" xml:lang="ger">Die Wellen halten ein:</l>
-                  <l rend="indent" xml:lang="ger">Der Wind hört auff.</l>
-                  <l xml:lang="ger">Achilles dich jetz lobet:</l>
-                  <l rend="indent" xml:lang="ger">Sich frewdt das Schiffle mein/</l>
-                  <l rend="indent" xml:lang="ger">Und hält seyn Lauff.</l>
-               </sp>
-               <argument>
-                  <p>Pars II. Monomachia Achillis, &amp; Hectoris exhibetur.</p>
-               </argument>
-               <sp who="#hector">
-                  <speaker>Hector.</speaker>
-                  <l>Ad arma! ad arma! ad arma!</l>
-               </sp>
-               <sp who="#achilles">
-                  <speaker>Achil.</speaker>
-                  <l>Ad arma! ad arma! ad arma!</l>
-               </sp>
-               <sp who="#hector">
-                  <speaker>Hect.</speaker>
-                  <l xml:lang="ger">Achilles, Wilstu fechten?</l>
-                  <l rend="indent" xml:lang="ger">Sieh' Hector steht zum Streit.</l>
-               </sp>
-               <sp who="#achilles">
-                  <speaker>Achil.</speaker>
-                  <l xml:lang="ger">Zur Lincken/ und zur Rechten</l>
-                  <l rend="indent" xml:lang="ger">Achilles ist bereit.</l>
-               </sp>
-               <sp who="#hector">
-                  <speaker>Hect.</speaker>
-                  <l xml:lang="ger">Trojaner Lob zu mehren/</l>
-                  <l rend="indent" xml:lang="ger">Hab einen Heldenmuth:</l>
-               </sp>
-               <sp who="#achilles">
-                  <speaker>Achil.</speaker>
-                  <l xml:lang="ger">Mir zu der Griechen Ehren</l>
-                  <l rend="indent" xml:lang="ger">Auffwallet schon das Bluth.</l>
-               </sp>
-               <sp who="#hector">
-                  <speaker>Hect.</speaker>
-                  <l xml:lang="ger">Die Griechen mich nit schrecken;</l>
-                  <l rend="indent" xml:lang="ger">Mit ihrer grosser Gwalt.</l>
-               </sp>
-               <sp who="#achilles">
-                  <speaker>Achil.</speaker>
-                  <l xml:lang="ger">Sie mich zum Streit aufwecken/</l>
-                  <l rend="indent" xml:lang="ger">Dich werd erlegen bald.</l>
-               </sp>
-               <pb n="13"/>
-               <sp who="#hector">
-                  <speaker>Hect.</speaker>
-                  <l xml:lang="ger">Wan ich dich werd auffreiben/</l>
-                  <l rend="indent" xml:lang="ger">So ligt der Griechen Ehr.</l>
-               </sp>
-               <sp who="#achilles">
-                  <speaker>Ach.</speaker>
-                  <l xml:lang="ger">Wan ich dich werd entleiben/</l>
-                  <l rend="indent" xml:lang="ger">Kein Lob hat Troja mehr.</l>
-               </sp>
-               <sp who="#hector">
-                  <speaker>Hect.</speaker>
-                  <l xml:lang="ger">Mit dieser Hand und Degen</l>
-                  <l rend="indent" xml:lang="ger">Zu Bodem steche ich.</l>
-               </sp>
-               <sp who="#achilles">
-                  <speaker>Ach.</speaker>
-                  <l xml:lang="ger">Dich werde ich erlegen;</l>
-                  <l rend="indent" xml:lang="ger">Mein Helden=Muth schützt mich</l>
-               </sp>
-               <sp who="#miles_graecus">
-                  <speaker>Miles Graec.</speaker>
-                  <l xml:lang="ger">Nur mit der Zung ihr streitet:</l>
-                  <l rend="indent" xml:lang="ger">Zeigt/ daß ihr Helden seyt.</l>
-               </sp>
-               <sp who="#miles_trojanus">
-                  <speaker>Miles Troj.</speaker>
-                  <l xml:lang="ger">Zeigt daß euchs Glück begleitet,</l>
-                  <l rend="indent" xml:lang="ger">Und fertig seht zum Streit.</l>
-               </sp>
-               <sp who="#miles_graecus #miles_trojanus">
-                  <speaker>Omn.</speaker>
-                  <l xml:lang="ger">Zeigt/ daß ihr Helden seyt/</l>
-                  <l rend="indent" xml:lang="ger">Und fertig steht zum Streit.</l>
-               </sp>
-               <sp who="#miles_trojanus">
-                  <speaker>Trojan.</speaker>
-                  <l xml:lang="ger">Das Glück wöll dich begleiten/</l>
-                  <l rend="indent" xml:lang="ger">O Hector, starcker Held.</l>
-               </sp>
-               <sp who="#miles_graecus">
-                  <speaker>Graecus.</speaker>
-                  <l xml:lang="ger">Das Glück wöll mit dir streiten/¨</l>
-                  <l rend="indent" xml:lang="ger">Und steh’ dir bey im Feldt.</l>
-               </sp>
-               <sp who="#miles_trojanus">
-                  <speaker>Trojan.</speaker>
-                  <l xml:lang="ger">Apollo mit dir streite/</l>
-                  <l rend="indent" xml:lang="ger">Und Venus steh dir bey.</l>
-               </sp>
-               <sp who="#miles_graecus">
-                  <speaker>Graecus.</speaker>
-                  <l xml:lang="ger">Gott Mulciber dich leyte</l>
-                  <l rend="indent" xml:lang="ger">Und Pallas bey dir sey.</l>
-               </sp>
-               <stage>Pugnant; inflantur tubae.</stage>
-               <sp who="#miles_trojanus">
-                  <speaker>Miles Troj.</speaker>
-                  <l xml:lang="ger">Fahrt fort/ fahrt fort zu streiten/</l>
-                  <l rend="indent" xml:lang="ger">Biß einer obgesigt:</l>
-               </sp>
-               <sp who="#miles_graecus">
-                  <speaker>Mil. Graec.</speaker>
-                  <l xml:lang="ger">Nit weichet von der Seyten</l>
-                  <l rend="indent" xml:lang="ger">Biß einer underligt.</l>
-               </sp>
-               <sp who="#miles_graecus #miles_trojanus">
-                  <speaker>Omnes.</speaker>
-                  <l xml:lang="ger">Biß einer obgesigt/</l>
-                  <l xml:lang="ger">Biß einer underligt.</l>
-               </sp>
-               <stage>Pugnant iterum: Hector vincitur.</stage>
-               <sp who="#miles_graecus">
-                  <speaker>Mil. Graec.</speaker>
-                  <l xml:lang="ger">Hector ist zwar im Degen</l>
-                  <l rend="indent" xml:lang="ger">Ein sehr erfahrner Held;</l>
-                  <l xml:lang="ger">Doch ist ihm überlegen</l>
-                  <l rend="indent" xml:lang="ger">Achilles in dem Feld.</l>
-               </sp>
-               <sp who="#miles_graecus #miles_trojanus">
-                  <speaker>Omnes.</speaker>
-                  <l xml:lang="ger">Achilles mit der Götter Kunst</l>
-                  <l rend="indent" xml:lang="ger">In Streit und fechten hat die Kunst.</l>
-               </sp>
+               <div>
+                  <argument>
+                     <p>Pars I. Dum Achilles Trojam proficiscitur, Aeolus rogatu <lb/>Veneris, mare
+                        perturbat: sed Juno, ab Achille implorata, <lb/>jubet Aeolum ventos
+                        compescere: interim Achilles <lb/>iter suum salvus prosequitur.</p>
+                  </argument>
+                  <stage>Personae. Achilles cum sociis suis, Venus, Aeolus, <lb/>Juno.</stage>
+                  <stage>Scena est musica per totum.</stage>
+                  <sp who="#achilles">
+                     <speaker>Achil.</speaker>
+                     <l xml:lang="ger">Fort Gesellen/ dan die Wellen</l>
+                     <l rend="indent" xml:lang="ger">Legen sich: nun schifft geschwind:</l>
+                     <l xml:lang="ger">Ohn Gefahren last uns fahren;</l>
+                     <l rend="indent" xml:lang="ger">Auff dem Meer seynd keine Wind.</l>
+                     <l xml:lang="ger">Nicht verweylet/ sonder eylet/</l>
+                     <l rend="indent" xml:lang="ger">Fahrt nach Troja immer fort/</l>
+                     <l xml:lang="ger">Eh' die Wellen sich verstellen/</l>
+                     <l rend="indent" xml:lang="ger">Treibt die Schifflein all an Bordt.</l>
+                  </sp>
+                  <sp who="#venus">
+                     <speaker>Venus </speaker>
+                     <stage>in aëre.</stage>
+                     <l xml:lang="ger">Was ist zu schaffen auff dem Meer?</l>
+                     <l xml:lang="ger">Ist der Achilles in der Wehr?</l>
+                     <l rend="indent" xml:lang="ger">Und nach Troja in der Still</l>
+                     <l rend="indent" xml:lang="ger">Mit den Schiffer säglen will?</l>
+                     <pb n="11"/>
+                     <l xml:lang="ger">Sich an selbe Stadt zu reiben/</l>
+                     <l rend="indent" xml:lang="ger">Die Einwohner zu entleiben.</l>
+                     <l rend="indent" xml:lang="ger">Gott der Geister/ dem die Wind</l>
+                     <l rend="indent" xml:lang="ger">Mussen folgen/ komm geschwind:</l>
+                     <l xml:lang="ger">Und ruffe sie auß Orient/</l>
+                     <l xml:lang="ger">Auß Norden/ Sudt/ und Occident.</l>
+                     <l rend="indent" xml:lang="ger">Laß sie das Meer Verstören/</l>
+                     <l rend="indent" xml:lang="ger">Mit Wüthen nicht auffhören/</l>
+                     <l xml:lang="ger">Biß daß die Schifflein all zur Stund</l>
+                     <l xml:lang="ger">Mit dem Achille gehn zu Grund.</l>
+                  </sp>
+                  <sp who="#aeolus">
+                     <speaker>Aeolus.</speaker>
+                     <l xml:lang="ger">Kompt ihr Winde dan zusamen/</l>
+                     <l xml:lang="ger">Wie auch heischet mit dem Nahmen:</l>
+                     <l rend="indent" xml:lang="ger">Euch nit saumet/ kompt geschwind/</l>
+                     <l rend="indent" xml:lang="ger">Ost= und Sud= West= und Nord=Wind.</l>
+                     <l xml:lang="ger">Durchlaufft das Wasser hin und her/</l>
+                     <l xml:lang="ger">In Unruh bringt das gantze Meer.</l>
+                     <l rend="indent" xml:lang="ger">Nun tobet/ und brausset:</l>
+                     <l rend="indent" xml:lang="ger">Nun Wütet/ und sausset:</l>
+                     <l xml:lang="ger">Stürmet/ blaset/ grimmet/ raset</l>
+                     <l rend="indent" xml:lang="ger">Und die Schiff kehrt umb und umb.</l>
+                  </sp>
+                  <sp who="#achilles">
+                     <speaker>Achil.</speaker>
+                     <l xml:lang="ger">Warumb Venus, der Göttinnen</l>
+                     <l rend="indent" xml:lang="ger">Und der Götter Schand und Spott/</l>
+                     <l xml:lang="ger">Voller Gifft als böse Spinnen/</l>
+                     <l rend="indent" xml:lang="ger">Reitzts du auff der Winden Gott?</l>
+                  </sp>
+                  <sp who="#aeolus">
+                     <speaker>Aeolus.</speaker>
+                     <l xml:lang="ger">Nun wütet mehr/ und blaset/</l>
+                     <l rend="indent" xml:lang="ger">Tobet und raset.</l>
+                     <l rend="indent" xml:lang="ger">Sausset/ und brausset:</l>
+                     <l xml:lang="ger">Zerstöret/ nit auffhöret.</l>
+                     <l xml:lang="ger">Fahrt immer fort zu toben.</l>
+                     <l xml:lang="ger">Die Schiff kehrt umb und oben:</l>
+                     <l rend="indent" xml:lang="ger">In einem Knall verderbt sie all.</l>
+                  </sp>
+                  <sp who="#achilles">
+                     <speaker>Achil.</speaker>
+                     <l rend="indent" xml:lang="ger">O Weh! betrübte Wellen</l>
+                     <l rend="indent" xml:lang="ger">Erwecken dieß’ Gesellen.</l>
+                     <l rend="indent" xml:lang="ger">Wie grausam ist der Winden Heer/</l>
+                     <l rend="indent" xml:lang="ger">Er wütet/ raset/ nah' und feer.</l>
+                     <l xml:lang="ger">O Juno! dich wollest erbarmen/</l>
+                     <l xml:lang="ger">Und kommen zu Hülff uns Armen.</l>
+                  </sp>
+                  <pb n="12"/>
+                  <sp who="#juno">
+                     <speaker>Juno.</speaker>
+                     <l xml:lang="ger">Wer störet das Wasser/ und meister will seyn?</l>
+                     <l xml:lang="ger">Gott Aeole zähme der Winden Willmuth/</l>
+                     <l xml:lang="ger">Und straffe ihr Wüten/ sonst thut es kein guth.</l>
+                     <l xml:lang="ger">Du weist ja/ daß Erde und Wasser ist mein.</l>
+                     <l xml:lang="ger">Ihr Winde schweigt still/ obschon ewr seynd vil:</l>
+                     <l xml:lang="ger">Seid friedsam ihr Wellen/ nit solt euch verstellen:</l>
+                     <l rend="indent" xml:lang="ger">Das Meer sich nit wege</l>
+                     <l rend="indent" xml:lang="ger">Der Wind sich nicht rege:</l>
+                     <l rend="indent" xml:lang="ger">Juno befilchts.</l>
+                  </sp>
+                  <sp who="#achilles">
+                     <speaker>Achilles</speaker>
+                     <l xml:lang="ger">O Juno! Frewd des Hertzen/</l>
+                     <l rend="indent" xml:lang="ger">Wie lieblich scheinest du/</l>
+                     <l rend="indent" xml:lang="ger">Und legst den Streit.</l>
+                     <l xml:lang="ger">Vertreibest alle Schmertzen/</l>
+                     <l xml:lang="ger">Gibst wieberumb die Ruh.</l>
+                     <l rend="indent" xml:lang="ger">Und nimbst das Leydt.</l>
+                     <l xml:lang="ger">Das Meer jetz nicht mehr tobet/</l>
+                     <l rend="indent" xml:lang="ger">Die Wellen halten ein:</l>
+                     <l rend="indent" xml:lang="ger">Der Wind hört auff.</l>
+                     <l xml:lang="ger">Achilles dich jetz lobet:</l>
+                     <l rend="indent" xml:lang="ger">Sich frewdt das Schiffle mein/</l>
+                     <l rend="indent" xml:lang="ger">Und hält seyn Lauff.</l>
+                  </sp>
+               </div>
+               <div>
+                  <argument>
+                     <p>Pars II. Monomachia Achillis, &amp; Hectoris exhibetur.</p>
+                  </argument>
+                  <sp who="#hector">
+                     <speaker>Hector.</speaker>
+                     <l>Ad arma! ad arma! ad arma!</l>
+                  </sp>
+                  <sp who="#achilles">
+                     <speaker>Achil.</speaker>
+                     <l>Ad arma! ad arma! ad arma!</l>
+                  </sp>
+                  <sp who="#hector">
+                     <speaker>Hect.</speaker>
+                     <l xml:lang="ger">Achilles, Wilstu fechten?</l>
+                     <l rend="indent" xml:lang="ger">Sieh' Hector steht zum Streit.</l>
+                  </sp>
+                  <sp who="#achilles">
+                     <speaker>Achil.</speaker>
+                     <l xml:lang="ger">Zur Lincken/ und zur Rechten</l>
+                     <l rend="indent" xml:lang="ger">Achilles ist bereit.</l>
+                  </sp>
+                  <sp who="#hector">
+                     <speaker>Hect.</speaker>
+                     <l xml:lang="ger">Trojaner Lob zu mehren/</l>
+                     <l rend="indent" xml:lang="ger">Hab einen Heldenmuth:</l>
+                  </sp>
+                  <sp who="#achilles">
+                     <speaker>Achil.</speaker>
+                     <l xml:lang="ger">Mir zu der Griechen Ehren</l>
+                     <l rend="indent" xml:lang="ger">Auffwallet schon das Bluth.</l>
+                  </sp>
+                  <sp who="#hector">
+                     <speaker>Hect.</speaker>
+                     <l xml:lang="ger">Die Griechen mich nit schrecken;</l>
+                     <l rend="indent" xml:lang="ger">Mit ihrer grosser Gwalt.</l>
+                  </sp>
+                  <sp who="#achilles">
+                     <speaker>Achil.</speaker>
+                     <l xml:lang="ger">Sie mich zum Streit aufwecken/</l>
+                     <l rend="indent" xml:lang="ger">Dich werd erlegen bald.</l>
+                  </sp>
+                  <pb n="13"/>
+                  <sp who="#hector">
+                     <speaker>Hect.</speaker>
+                     <l xml:lang="ger">Wan ich dich werd auffreiben/</l>
+                     <l rend="indent" xml:lang="ger">So ligt der Griechen Ehr.</l>
+                  </sp>
+                  <sp who="#achilles">
+                     <speaker>Ach.</speaker>
+                     <l xml:lang="ger">Wan ich dich werd entleiben/</l>
+                     <l rend="indent" xml:lang="ger">Kein Lob hat Troja mehr.</l>
+                  </sp>
+                  <sp who="#hector">
+                     <speaker>Hect.</speaker>
+                     <l xml:lang="ger">Mit dieser Hand und Degen</l>
+                     <l rend="indent" xml:lang="ger">Zu Bodem steche ich.</l>
+                  </sp>
+                  <sp who="#achilles">
+                     <speaker>Ach.</speaker>
+                     <l xml:lang="ger">Dich werde ich erlegen;</l>
+                     <l rend="indent" xml:lang="ger">Mein Helden=Muth schützt mich</l>
+                  </sp>
+                  <sp who="#miles_graecus">
+                     <speaker>Miles Graec.</speaker>
+                     <l xml:lang="ger">Nur mit der Zung ihr streitet:</l>
+                     <l rend="indent" xml:lang="ger">Zeigt/ daß ihr Helden seyt.</l>
+                  </sp>
+                  <sp who="#miles_trojanus">
+                     <speaker>Miles Troj.</speaker>
+                     <l xml:lang="ger">Zeigt daß euchs Glück begleitet,</l>
+                     <l rend="indent" xml:lang="ger">Und fertig seht zum Streit.</l>
+                  </sp>
+                  <sp who="#miles_graecus #miles_trojanus">
+                     <speaker>Omn.</speaker>
+                     <l xml:lang="ger">Zeigt/ daß ihr Helden seyt/</l>
+                     <l rend="indent" xml:lang="ger">Und fertig steht zum Streit.</l>
+                  </sp>
+                  <sp who="#miles_trojanus">
+                     <speaker>Trojan.</speaker>
+                     <l xml:lang="ger">Das Glück wöll dich begleiten/</l>
+                     <l rend="indent" xml:lang="ger">O Hector, starcker Held.</l>
+                  </sp>
+                  <sp who="#miles_graecus">
+                     <speaker>Graecus.</speaker>
+                     <l xml:lang="ger">Das Glück wöll mit dir streiten/¨</l>
+                     <l rend="indent" xml:lang="ger">Und steh’ dir bey im Feldt.</l>
+                  </sp>
+                  <sp who="#miles_trojanus">
+                     <speaker>Trojan.</speaker>
+                     <l xml:lang="ger">Apollo mit dir streite/</l>
+                     <l rend="indent" xml:lang="ger">Und Venus steh dir bey.</l>
+                  </sp>
+                  <sp who="#miles_graecus">
+                     <speaker>Graecus.</speaker>
+                     <l xml:lang="ger">Gott Mulciber dich leyte</l>
+                     <l rend="indent" xml:lang="ger">Und Pallas bey dir sey.</l>
+                  </sp>
+                  <stage>Pugnant; inflantur tubae.</stage>
+                  <sp who="#miles_trojanus">
+                     <speaker>Miles Troj.</speaker>
+                     <l xml:lang="ger">Fahrt fort/ fahrt fort zu streiten/</l>
+                     <l rend="indent" xml:lang="ger">Biß einer obgesigt:</l>
+                  </sp>
+                  <sp who="#miles_graecus">
+                     <speaker>Mil. Graec.</speaker>
+                     <l xml:lang="ger">Nit weichet von der Seyten</l>
+                     <l rend="indent" xml:lang="ger">Biß einer underligt.</l>
+                  </sp>
+                  <sp who="#miles_graecus #miles_trojanus">
+                     <speaker>Omnes.</speaker>
+                     <l xml:lang="ger">Biß einer obgesigt/</l>
+                     <l xml:lang="ger">Biß einer underligt.</l>
+                  </sp>
+                  <stage>Pugnant iterum: Hector vincitur.</stage>
+                  <sp who="#miles_graecus">
+                     <speaker>Mil. Graec.</speaker>
+                     <l xml:lang="ger">Hector ist zwar im Degen</l>
+                     <l rend="indent" xml:lang="ger">Ein sehr erfahrner Held;</l>
+                     <l xml:lang="ger">Doch ist ihm überlegen</l>
+                     <l rend="indent" xml:lang="ger">Achilles in dem Feld.</l>
+                  </sp>
+                  <sp who="#miles_graecus #miles_trojanus">
+                     <speaker>Omnes.</speaker>
+                     <l xml:lang="ger">Achilles mit der Götter Kunst</l>
+                     <l rend="indent" xml:lang="ger">In Streit und fechten hat die Kunst.</l>
+                  </sp>
+               </div>
             </div>
          </div>
          <div type="act" n="2">
