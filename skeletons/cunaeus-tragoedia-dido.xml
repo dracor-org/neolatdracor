@@ -1,0 +1,53 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="neolat000054"
+     xml:lang="lat">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tragoedia Dido</title>
+            <author>
+               <persName xml:lang="lat">
+                  <forename>Petrus</forename>
+                  <surname>Cunaeus</surname>
+               </persName>
+               <idno type="wikidata">Q24085</idno>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="dracor">DraCor</publisher>
+            <idno type="URL">https://dracor.org</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <name>TransLatin</name>
+               <idno type="URL">https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Cunaeus-Dido.docx</idno>
+            </bibl>
+            <bibl type="originalSource">
+               <title>Tragoedia Dido P. Cunaei. Ed. C.L. Heesakkers. In: Humanistica Lovaniensia 33 (1984), pp. 145-197.</title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="genreTitle">tragedy</term>
+            </keywords>
+            <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <standOff>
+      <listEvent>
+         <event type="print" when="not before 1600, not after 1610">
+            <desc/>
+         </event>
+      </listEvent>
+   </standOff>
+   <text>
+      <front/>
+      <body/>
+   </text>
+</TEI>

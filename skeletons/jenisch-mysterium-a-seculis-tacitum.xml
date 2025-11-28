@@ -1,0 +1,56 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="neolat000083"
+     xml:lang="lat">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mysterium a seculis tacitum lingva incorrupta sacramentalis merces silentii</title>
+            <author>
+               <persName xml:lang="lat">
+                  <forename>Antonius</forename>
+                  <surname>Jenisch</surname>
+               </persName>
+               <idno type="wikidata">Q94938160</idno>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="dracor">DraCor</publisher>
+            <idno type="URL">https://dracor.org</idno>
+            <availability>
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <name>Theatrum Neolatinum</name>
+            </bibl>
+            <bibl type="originalSource">
+               <title>Kateřina Bobková-Valentová – Alena Bočková – Magdaléna Jacková – Martin Bažil – Eva Pauerová – Jan Zdichynec – Zdeněk Žalud: Sv. Jan Nepomucký na jezuitských školních scénách. Praha: Academia, 2015. (= Theatrum Neolatinum. Latinské divadlo v českých zemích, 1.), p. 354-465.</title>
+               <idno type="URL">https://www.theatrum-neolatinum.cz/en/hry/Mysterium/mysterium.html</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="genreTitle">School drama</term>
+            </keywords>
+            <classCode scheme="http://www.wikidata.org/entity/">Q130719081</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <standOff>
+      <listEvent>
+         <event type="print" when="1732">
+            <desc/>
+         </event>
+         <event type="print" when="1732">
+            <desc/>
+         </event>
+      </listEvent>
+   </standOff>
+   <text>
+      <front/>
+      <body/>
+   </text>
+</TEI>

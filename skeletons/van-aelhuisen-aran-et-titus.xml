@@ -1,0 +1,54 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="neolat000157"
+     xml:lang="lat">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Aran et Titus</title>
+            <title type="sub">Mutua vindicatio</title>
+            <author>
+               <persName xml:lang="lat">
+                  <forename>J.</forename>
+                  <surname>van Aelhuisen</surname>
+               </persName>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="dracor">DraCor</publisher>
+            <idno type="URL">https://dracor.org</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <name>Census Nederlands Toneel (Ceneton)</name>
+               <idno type="URL">https://www.hum2.leidenuniv.nl/Dutch/Ceneton/AelhuisenAranEtTitusJanVos1658.html</idno>
+            </bibl>
+            <bibl type="originalSource">
+               <title>Aran &amp; Titus. Mutua vindicatio, interprete schola Thielana. Thiela: Gosuinus à Duyn 1658.</title>
+               <idno type="URL">https://www.hum2.leidenuniv.nl/Dutch/Ceneton/Facsimiles/AelhuisenAranEtTitusJanVos1658/index.htm</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="genreTitle">tragedy</term>
+            </keywords>
+            <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <standOff>
+      <listEvent>
+         <event type="print" when="1658">
+            <desc/>
+         </event>
+      </listEvent>
+   </standOff>
+   <text>
+      <front/>
+      <body/>
+   </text>
+</TEI>

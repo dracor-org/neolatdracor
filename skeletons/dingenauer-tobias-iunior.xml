@@ -1,0 +1,59 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="neolat000057"
+     xml:lang="lat">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tobias Iunior</title>
+            <author>
+               <persName xml:lang="lat">
+                  <forename>Georgius</forename>
+                  <surname>Dingenauer</surname>
+               </persName>
+               <idno type="wikidata">Q125401769</idno>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="dracor">DraCor</publisher>
+            <idno type="URL">https://dracor.org</idno>
+            <availability>
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <name>Theatrum Neolatinum</name>
+            </bibl>
+            <bibl type="originalSource">
+               <title>Magdaléna Jacková, Markéta Klosová, Martin Bažil, Alena Bočková, Kateřina Bobková-Valentová, Eva Popelková (eds,), Latinské biblické drama v českých zemích, Praha 2025, in print, (= Theatrum Neolatinum, Latinské divadlo v českých zemích,  3)</title>
+               <idno type="URL">https://www.theatrum-neolatinum.cz/en/biblicke.html</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="genreTitle">Jesuit drama</term>
+            </keywords>
+            <classCode scheme="http://www.wikidata.org/entity/">Q6188035</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <standOff>
+      <listEvent>
+         <event type="print" when="1616">
+            <desc/>
+         </event>
+         <event type="print" when="1616-02-08">
+            <desc/>
+         </event>
+         <event type="print" when="not before 1615, not after 1616">
+            <desc/>
+         </event>
+      </listEvent>
+   </standOff>
+   <text>
+      <front/>
+      <body/>
+   </text>
+</TEI>

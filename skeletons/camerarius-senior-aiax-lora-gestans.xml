@@ -1,0 +1,56 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="neolat000040"
+     xml:lang="lat">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Aiax lora gestans</title>
+            <title type="sub">Interpretatio ad uerbum</title>
+            <author>
+               <persName xml:lang="lat">
+                  <forename>Ioachim</forename>
+                  <surname>Camerarius Senior</surname>
+               </persName>
+               <idno type="wikidata">Q64361</idno>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="dracor">DraCor</publisher>
+            <idno type="URL">https://dracor.org</idno>
+            <availability>
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <name>Ioachim Camerarius: Aiax lora gestans. Interpretatio ad uerbum. In: Commentatio explicationum omnium tragoediarum Sophoclis, cum exemplo duplicis conversionis, Ioachimi Camerarii Pabepergensis. Basel: Ioannes Oporinus 1556. pp. 107–174.</name>
+               <idno type="URL">https://viewer.onb.ac.at/107D434D/111</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="genreTitle">tragedy</term>
+            </keywords>
+            <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <standOff>
+      <listEvent>
+         <event type="print" when="1556">
+            <desc/>
+         </event>
+      </listEvent>
+      <listRelation>
+         <relation name="wikidata"
+                   active="https://dracor.org/entity/neolat000040"
+                   passive="http://www.wikidata.org/entity/Q412341"/>
+      </listRelation>
+   </standOff>
+   <text>
+      <front/>
+      <body/>
+   </text>
+</TEI>

@@ -1,0 +1,55 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="neolat000062"
+     xml:lang="lat">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Pedantius</title>
+            <title type="sub">Comoedia</title>
+            <author>
+               <persName xml:lang="lat">
+                  <forename>Eduardus</forename>
+                  <surname>Forsett</surname>
+               </persName>
+               <idno type="wikidata">Q5342960</idno>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="dracor">DraCor</publisher>
+            <idno type="URL">https://dracor.org</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <name>TransLatin</name>
+               <idno type="URL">https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Forsett-Pedantius.docx</idno>
+            </bibl>
+            <bibl type="originalSource">
+               <title>INFORMATION NEEDED</title>
+               <idno type="URL">https://philological.cal.bham.ac.uk/forsett/</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="genreTitle">comedy</term>
+            </keywords>
+            <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <standOff>
+      <listEvent>
+         <event type="print" when="1631">
+            <desc/>
+         </event>
+      </listEvent>
+   </standOff>
+   <text>
+      <front/>
+      <body/>
+   </text>
+</TEI>
