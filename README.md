@@ -2,8 +2,8 @@
 
 ## General Information
 
-Neo-Latin Drama Corpus, dramatic texts in [TEI P5](https://tei-c.org/guidelines/p5/) format. Licenced under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).  
-Edited by Julia Jennifer Beine (Julius-Maximilians-Universität Würzburg), maintained by Ingo Börner (University of Potsdam) and Carsten Milling (University of Potsdam). The texts in the Neo-Latin Drama Corpus were encoded and contributed by different working groups. Legal responsibility lies with the editors of the subcorpora. The responsiblities and corpus details are documented below.
+Neo-Latin Drama Corpus, dramatic texts in [TEI P5](https://tei-c.org/guidelines/p5/) format. Licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).  
+Edited by Julia Jennifer Beine (University of Würzburg), maintained by Ingo Börner (University of Potsdam) and Carsten Milling (University of Potsdam). The texts in the Neo-Latin Drama Corpus were encoded and contributed by different working groups. Legal responsibility lies with the editors of the subcorpora. The responsibilities and corpus details are documented below. More information on the NeoLatDraCor project may be found in the [NeoLatDraCor Wiki](https://github.com/dracor-org/neolatdracor/wiki).
 
 ## Contributing Working Groups
 
@@ -14,7 +14,7 @@ editor(s): Thomas Baier, Joachim Hamm, Ulrich Schlegelmilch (all Julius-Maximili
 encoder(s): tba  
 text selection in alphabetical order: Aiax lora gestans (1556), Electra (1556)  
 number of texts: 2  
-status: work in progress  
+status: dormant  
 website: [Camerarius digital](http://www.camerarius.de)
 
 ### From Stage to Page. Neo-Latin School Drama in the Early Modern Southern Low Countries and its Manuscript Tradition
@@ -64,12 +64,12 @@ encoder(s): tba
 team members: Jan Bloemendal, Dinah Wouters, Andrea Peverelli (all Huygens Institute, Royal Netherlands Academy of Arts and Sciences)  
 text selection in alphabetical order: See the overview below.   
 number of texts: ca. 100  
-status: dormant  
+status: work in progress  
 website: [TransLatin](https://translatin.nl/)
 
 ## Overview of Neo-Latin Dramas
 
-This is an overview of Neo-Latin dramas which may be incorporated into
+This is an overview of Neo-Latin dramas that may be incorporated into
 NeoLatDraCor. Some dramas are related to the research of the
 [NeoLatDraCor working groups](#contributing-working-groups), as indicated by
 the “Project” column.
