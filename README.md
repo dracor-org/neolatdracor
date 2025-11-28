@@ -10,7 +10,7 @@ Edited by Julia Jennifer Beine (University of Würzburg), maintained by Ingo Bö
 (in alphabetical order)
 
 ### Camerarius digital
-editor(s): Thomas Baier, Joachim Hamm, Ulrich Schlegelmilch (all Julius-Maximilians-Universität Würzburg)  
+editor(s): Thomas Baier, Joachim Hamm, Ulrich Schlegelmilch (all University of Würzburg)  
 encoder(s): tba  
 text selection in alphabetical order: Aiax lora gestans (1556), Electra (1556)  
 number of texts: 2  
@@ -43,7 +43,7 @@ status: work in progress
 website: tba
 
 ### Macropedius Drama Corpus
-editor(s): Julia Jennifer Beine (Julius-Maximilians-Universität Würzburg)  
+editor(s): Julia Jennifer Beine (University of Würzburg)  
 encoders: Timo Bremer, Christina Charalampidou, Carina Christensen, Leon Fabian Gleser, Miriam Göbel, Steffen Gutbier, Joshua Mährmann, Kassandra Marie Stangel, Nina Straub, Rabea Klara Sülz, Mareike Urbanek, Paula van Bonn (all Ruhr University Bochum); Daina-Sophia Münch (Freie Universität Berlin)  
 text selection in alphabetical order: Adamus (1552), Aluta (1553), Andrisca (1553), Asotus (1552), Bassarus (1553), Hecastus (1552), Hypomone seu patientia (1554), Iesus scholasticus (1556), Iosephus (1553), Lazarus mendicus (1552), Petriscus (1553), Rebelles (1553)  
 number of texts: 12  
