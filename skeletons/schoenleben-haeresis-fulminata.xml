@@ -1,0 +1,56 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="neolat000149"
+     xml:lang="lat">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Haeresis Fulminata Anastasius Tyrannus Orientis Haereticus</title>
+            <author>
+               <persName xml:lang="lat">
+                  <forename>Joannes Ludouicus</forename>
+                  <surname>Schönleben</surname>
+               </persName>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="dracor">DraCor</publisher>
+            <idno type="URL">https://dracor.org</idno>
+            <availability>
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <name>Janez Ludvik Schönleben: Haeresis fulminata - Strela udari krivoverca [Johann Ludwig Schönleben: Haeresis fulminata - Lightning Strikes the Heretic]</name>
+               <idno type="URL">tba</idno>
+            </bibl>
+            <bibl type="originalSource">
+               <title>Jesuit College Ljubljana</title>
+               <idno type="URL">INFORMATION NEEDED</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="genreTitle">tragedy</term>
+            </keywords>
+            <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <standOff>
+      <listEvent>
+         <event type="print" when="not before 1651-05-02, not after 1651-05-03">
+            <desc/>
+         </event>
+         <event type="print" when="1651">
+            <desc/>
+         </event>
+      </listEvent>
+   </standOff>
+   <text>
+      <front/>
+      <body/>
+   </text>
+</TEI>
