@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="neolat000002" xml:lang="lat">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<TEI xml:id="neolat000002" xml:lang="lat" xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:xi="http://www.w3.org/2001/XInclude">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -30,26 +32,33 @@
             <publisher xml:id="dracor">DraCor</publisher>
             <idno type="URL">https://dracor.org</idno>
             <availability>
-               <licence>
-                  <ab>CC0 1.0</ab>
-                  <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
-               </licence>
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0
+                  1.0</licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
             <bibl type="digitalSource">
-               <name>TransLatin Project</name>
-               <idno type="URL">https://translatin.nl/</idno>
-               <ref target="https://github.com/HuygensING/translatin">TransLatin GitHub
-                  Repository</ref>
-               <bibl type="originalSource"><title>Iacobi Philomusi Locher oratoris et poetae
-                     praeclari,Iudicium Paridis ludi cuiusdam instar carmine lucule[n]ter
-                     descriptum, ac nuper exactiori cura a superfluis, &amp; erroribus antea
-                     co[m]missis prorsus emendatum. Secutus uero est autor Fulgentii
-                     Mythologia[m]</title> . Ed. by <editor>Ulrich Rhaetus Faber</editor> .
-                     <pubPlace>Vienna</pubPlace> : <publisher>Werlen</publisher>
-                  <date>[1523/1524]</date>.
-                  https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00004866-9.</bibl>
+               <ref
+                  target="https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Locher-Iudicium.docx"
+                  >TransLatin</ref>
+               <availability status="free">
+                  <p>In the public domain.</p>
+               </availability>
+               <bibl type="digitalSource">
+                  <ref target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00004866-9"
+                     >Münchener DigitalisierungsZentrum (MDZ)</ref>
+                  <availability>
+                     <licence target="https://creativecommons.org/publicdomain/mark/1.0/">PDM
+                        1.0</licence>
+                  </availability>
+                  <bibl type="originalSource"><title>Iacobi Philomusi Locher oratoris et poetae
+                        praeclari,Iudicium Paridis ludi cuiusdam instar carmine lucule[n]ter
+                        descriptum, ac nuper exactiori cura a superfluis, &amp; erroribus antea
+                        co[m]missis prorsus emendatum. Secutus uero est autor Fulgentii
+                        Mythologia[m]</title> . Ed. by <editor>Ulrich Rhaetus Faber</editor> .
+                        <pubPlace>Vienna</pubPlace> : <publisher>Werlen</publisher>
+                     <date>[1523/1524]</date> . </bibl>
+               </bibl>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -59,13 +68,16 @@
                <person xml:id="prologus" sex="MALE" role="prologus">
                   <persName>Prologus</persName>
                </person>
-               <person xml:id="iupiter" sex="MALE" role="deus" ana="https://www.wikidata.org/wiki/Q4649">
+               <person xml:id="iupiter" sex="MALE" role="deus"
+                  ana="https://www.wikidata.org/wiki/Q4649">
                   <persName>Iupiter</persName>
                </person>
-               <person xml:id="discordia" sex="FEMALE" role="dea" ana="https://www.wikidata.org/wiki/Q3030152">
+               <person xml:id="discordia" sex="FEMALE" role="dea"
+                  ana="https://www.wikidata.org/wiki/Q3030152">
                   <persName>Discordia</persName>
                </person>
-               <person xml:id="mercurius" sex="MALE" role="deus" ana="https://www.wikidata.org/wiki/Q1150">
+               <person xml:id="mercurius" sex="MALE" role="deus"
+                  ana="https://www.wikidata.org/wiki/Q1150">
                   <persName>Mercurius</persName>
                </person>
                <person xml:id="paris" sex="MALE" ana="https://www.wikidata.org/wiki/Q167646">
@@ -74,13 +86,16 @@
                <person xml:id="ganymedes" sex="MALE" ana="https://www.wikidata.org/wiki/Q131588">
                   <persName>Ganymedes</persName>
                </person>
-               <person xml:id="pallas" sex="FEMALE" role="dea" ana="https://www.wikidata.org/wiki/Q37122">
+               <person xml:id="pallas" sex="FEMALE" role="dea"
+                  ana="https://www.wikidata.org/wiki/Q37122">
                   <persName>Pallas</persName>
                </person>
-               <person xml:id="iuno" sex="FEMALE" role="dea" ana="https://www.wikidata.org/wiki/Q125046">
+               <person xml:id="iuno" sex="FEMALE" role="dea"
+                  ana="https://www.wikidata.org/wiki/Q125046">
                   <persName>Iuno</persName>
                </person>
-               <person xml:id="venus" sex="FEMALE" role="dea" ana="https://www.wikidata.org/wiki/Q47652">
+               <person xml:id="venus" sex="FEMALE" role="dea"
+                  ana="https://www.wikidata.org/wiki/Q47652">
                   <persName>Venus</persName>
                </person>
                <person xml:id="bithus" sex="MALE">
@@ -92,7 +107,8 @@
                <person xml:id="helena" sex="FEMALE" ana="https://www.wikidata.org/wiki/Q164061">
                   <persName>Helena</persName>
                </person>
-               <person xml:id="cupido" sex="MALE" role="deus" ana="https://www.wikidata.org/wiki/Q5011">
+               <person xml:id="cupido" sex="MALE" role="deus"
+                  ana="https://www.wikidata.org/wiki/Q5011">
                   <persName>Cupido</persName>
                </person>
                <person xml:id="rustica_mulier" sex="FEMALE" role="rustica">
@@ -157,8 +173,10 @@
             <docTitle>
                <titlePart>
                   <lb/>IACOBI PHILO<lb break="no"/>MVSI LOCHER ORATORIS ET <lb/>Poetae praeclari,
-                  Iudicium Paridis ludi <lb/>cuiusdam instar carmine luculenter de<lb break="no"/>scriptum, ac nuper exactiori cura a <lb/>superfluis, &amp; erroribus antea
-                     com<lb break="no"/>missis prorsus emendatum. <lb/>Secutus uero est autor Ful<lb break="no"/>gentii Mythologiam.</titlePart>
+                  Iudicium Paridis ludi <lb/>cuiusdam instar carmine luculenter de<lb break="no"
+                  />scriptum, ac nuper exactiori cura a <lb/>superfluis, &amp; erroribus antea
+                     com<lb break="no"/>missis prorsus emendatum. <lb/>Secutus uero est autor Ful<lb
+                     break="no"/>gentii Mythologiam.</titlePart>
             </docTitle>
             <argument>
                <head>Huldrichus Fabri Lectoribus quasi argumentum libelli complectens

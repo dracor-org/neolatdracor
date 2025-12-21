@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="neolat000003" xml:lang="lat">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<TEI xml:id="neolat000003" xml:lang="lat" xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:xi="http://www.w3.org/2001/XInclude">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -35,26 +37,31 @@
             <publisher xml:id="dracor">DraCor</publisher>
             <idno type="URL">https://dracor.org</idno>
             <availability>
-               <licence>
-                  <ab>CC0 1.0</ab>
-                  <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
-               </licence>
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0
+                  1.0</licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
             <bibl type="digitalSource">
-               <name>TransLatin Project</name>
-               <idno type="URL">https://translatin.nl/</idno>
-               <ref target="https://github.com/HuygensING/translatin">TransLatin GitHub
-                  Repository</ref>
-               <bibl type="originalSource"><author>Jacobus Cornelius Lummenaeus a Marca</author> :
-                     <title type="main">Saul</title> . <title type="sub">Tragoedia sacra</title> .
-                  In: <title>Musae lacrymantes, sive Pleias tragica, id est septem tragoediae
-                     sacrae. Bustum Sodomae, Abimelech, Iephte, Sampson, Saul, Amnon,
-                     Sedechias</title> . <pubPlace>Douai</pubPlace> : <publisher>Johannes de
-                     Fampoux</publisher>
-                  <date>1628</date> . <biblScope>pp. 120–156</biblScope> .
-                  https://books.google.nl/books?id=3Wg-AAAAcAAJ.</bibl>
+               <ref
+                  target="https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Lummenaeus-Saul.docx"
+                  >TransLatin</ref>
+               <availability status="free">
+                  <p>In the public domain.</p>
+               </availability>
+               <bibl type="digitalSource">
+                  <ref target="https://books.google.nl/books?id=3Wg-AAAAcAAJ">Google Books</ref>
+                  <availability status="free">
+                     <p>In the public domain.</p>
+                  </availability>
+                  <bibl type="originalSource"><author>Jacobus Cornelius Lummenaeus a Marca</author>
+                     : <title type="main">Saul</title> . <title type="sub">Tragoedia sacra</title> .
+                     In: <title>Musae lacrymantes, sive Pleias tragica, id est septem tragoediae
+                        sacrae. Bustum Sodomae, Abimelech, Iephte, Sampson, Saul, Amnon,
+                        Sedechias</title> . <pubPlace>Douai</pubPlace> : <publisher>Johannes de
+                        Fampoux</publisher>
+                     <date>1628</date> . <biblScope>pp. 120–156</biblScope> . </bibl>
+               </bibl>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -173,8 +180,10 @@
             <pb n="123"/>
             <head>ARGVMENTVM.</head>
             <p>
-               <lb/>SAVL, post rapinam AMALECH, à Deo <lb/>proiectus, à SAMVELE destitutus, amen<lb break="no"/>tiâ laborat, DAVIDIS caedem machinatur. <lb/>Denique rebus in deterius
-               sublapsis, con<lb break="no"/>sulto magico oraculo, &amp; redhibiti SAMVE<lb break="no"/>LIS spectro deterritus, in Gelböae porrò <lb/>montibus, cum
+               <lb/>SAVL, post rapinam AMALECH, à Deo <lb/>proiectus, à SAMVELE destitutus, amen<lb
+                  break="no"/>tiâ laborat, DAVIDIS caedem machinatur. <lb/>Denique rebus in deterius
+               sublapsis, con<lb break="no"/>sulto magico oraculo, &amp; redhibiti SAMVE<lb
+                  break="no"/>LIS spectro deterritus, in Gelböae porrò <lb/>montibus, cum
                Palaestinis laeuo Marte con<lb break="no"/>gressus, &amp; propriâ manu
                transuerberatus <lb/>occumbit. 1. Reg. 31.</p>
          </div>
