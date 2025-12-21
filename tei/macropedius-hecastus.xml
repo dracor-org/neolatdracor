@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xml:id="neolat000001" xmlns="http://www.tei-c.org/ns/1.0" xml:lang="lat">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="neolat000001" xml:lang="lat">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -53,8 +53,7 @@
          <sourceDesc>
             <bibl type="digitalSource">
                <name>Census Nederlands Toneel (Ceneton)</name>
-               <idno type="URL"
-                  >https://www.let.leidenuniv.nl/Dutch/Ceneton/MacropediusHecastus1552.html</idno>
+               <idno type="URL">https://www.let.leidenuniv.nl/Dutch/Ceneton/MacropediusHecastus1552.html</idno>
                <availability status="free">
                   <p>The editions in the website edited by Antonius Harmsen (Leiden University) are
                      public domain. See https://www.let.leidenuniv.nl/Dutch/Canonisations.html</p>
@@ -180,8 +179,7 @@
          </event>
       </listEvent>
       <listRelation>
-         <relation name="wikidata" active="https://dracor.org/entity/neolat000001"
-            passive="http://www.wikidata.org/entity/Q1592867"/>
+         <relation name="wikidata" active="https://dracor.org/entity/neolat000001" passive="http://www.wikidata.org/entity/Q1592867"/>
       </listRelation>
    </standOff>
    <text>
@@ -191,8 +189,7 @@
             <docTitle>
                <titlePart type="main">HECASTUS</titlePart>
                <titlePart type="desc">
-                  <lb/>MACROPEDII, FABU<lb break="no"/>LA NON MINUS PIA QUAM IUCUN<lb break="no"
-                  />da, in qua facinorosus quisque mortalium subitaria<lb/> morte praeoccupatus,
+                  <lb/>MACROPEDII, FABU<lb break="no"/>LA NON MINUS PIA QUAM IUCUN<lb break="no"/>da, in qua facinorosus quisque mortalium subitaria<lb/> morte praeoccupatus,
                   tanquam in speculo quo<lb break="no"/>dam contemplari poterit, quemadmodum<lb/>
                   per Christum post veram suorum cri<lb break="no"/>minum poenitudinem ad
                   beatam<lb/> adeoque laetam mortem perveniat.</titlePart>
@@ -217,19 +214,15 @@
                fratre no<lb break="no"/>stro Arnoldo communi amico referente, cognovi,<lb/> etiam
                tibi serium quiddam lucubrationum nostrarum di<lb break="no"/>care statui. Ad quod me
                pariter non modo probo<lb break="no"/>rum parentum tuorum amica familiaritas, &amp;
-               in no<lb break="no"/>stros collata beneficia, verum etiam tua fratrumque tuo<lb
-                  break="no"/>rum (cum sub nostris in re litteraria militaretis ca<lb break="no"
-               />stris) proba indoles &amp; honesta conversatio pluri<lb break="no"/>mum
+               in no<lb break="no"/>stros collata beneficia, verum etiam tua fratrumque tuo<lb break="no"/>rum (cum sub nostris in re litteraria militaretis ca<lb break="no"/>stris) proba indoles &amp; honesta conversatio pluri<lb break="no"/>mum
                extimulavit. Accipe igitur hanc Hecastum fabu<lb break="no"/>lam nostram pietate
                honestam, anni praecedentis aestate<lb/> non sine magno spectantium plausu à nostris
-               tyrunculis<lb/> actam, &amp; iam tandem hortantibus amicis aeditam. Et si qui<lb
-                  break="no"/>dem eam probaveris (id quod futurum spero), candidis<lb/> communica
+               tyrunculis<lb/> actam, &amp; iam tandem hortantibus amicis aeditam. Et si qui<lb break="no"/>dem eam probaveris (id quod futurum spero), candidis<lb/> communica
                &amp; à Zoilorum dentibus (modo citra conten<lb break="no"/>tionem fieri possit)
                subinde vindica, sinautem <foreign xml:lang="grc">ὡς τὸν<lb/> ἔπὶ φακῇ
                   μῦθον</foreign> improbaveris, aut tuo nomine indi<lb break="no"/>gnam iudicaveris,
                sic temeritatis me argue, ut nihi<lb break="no"/>lominus amicum erga te animum
-               tametsi in vili mu<lb break="no"/>nusculo modestus agnoscas. Vale vir gravissime,<pb
-                  n="fol. b2r"/> &amp; me tui amantissimum iudica.</p>
+               tametsi in vili mu<lb break="no"/>nusculo modestus agnoscas. Vale vir gravissime,<pb n="fol. b2r"/> &amp; me tui amantissimum iudica.</p>
             <dateline>Ex Traiecto<lb/> pridie Calendas Aprilis. Anno à Christo nato.
                1539.</dateline>
          </div>
@@ -237,14 +230,11 @@
             <head>
                <lb/>AD CANDIDUM LECTO<lb break="no"/>rem in Hecastum praefatio.</head>
             <p>CUm ni fallor ante annos abhinc decem He<lb break="no"/>castum nostram edidissem,
-               &amp; paulo post<lb/> praelo mandassem, fuere multi quibus (fabulae sco<lb break="no"
-               />po recte considerato) per omnia placuit, fuere,<lb/> quibus in ea nonnulla
-               offenderunt, fuere quoque<lb/> quibus omnino displicuit, ob hoc praecipue, quod er<lb
-                  break="no"/>roribus quibusdam nostri temporis connivere &amp;<lb/> suffragari
+               &amp; paulo post<lb/> praelo mandassem, fuere multi quibus (fabulae sco<lb break="no"/>po recte considerato) per omnia placuit, fuere,<lb/> quibus in ea nonnulla
+               offenderunt, fuere quoque<lb/> quibus omnino displicuit, ob hoc praecipue, quod er<lb break="no"/>roribus quibusdam nostri temporis connivere &amp;<lb/> suffragari
                videretur. In primis illi, quod citra poe<lb break="no"/>nitentiae opera
                (satisfactionem dicimus) &amp; eccle<lb break="no"/>siae sacramenta, per solam in
-               Christum fidem &amp;<lb/> cordis contritionem, condonationem criminum do<lb
-                  break="no"/>cere vel asserere videretur. Et quod quisque certo<lb/> se fore
+               Christum fidem &amp;<lb/> cordis contritionem, condonationem criminum do<lb break="no"/>cere vel asserere videretur. Et quod quisque certo<lb/> se fore
                servandum credere teneretur. Id quod ne<lb break="no"/>quaquam nec mente concepi nec
                unquam docere volui, li<lb break="no"/>cet quibusdam fortassis fabulae scopum non
                exacte<lb/> considerantibus prima (quod aiunt) fronte sic vi<lb break="no"/>deri
@@ -252,9 +242,7 @@
                observassent, secus for<lb break="no"/>tassis iudicaturi fuissent. Volui siquidem
                   praeci<pb n="fol. b2v"/>pue in fabula ostendere, quo pacto post scelera<lb/>
                postque flagitia subitanea morte occupatus seu<lb/> praeventus quispiam, cum ad
-               extrema pervenerit<lb/> nec canonicae paenitentiae locus vel tempus reli<lb
-                  break="no"/>quum sit, ne pusillanimitate &amp; desperatione fra<lb break="no"
-               />ctus pereat, tractandus sit. Cuiusmodi homini<lb/> pro mea quidem sententia) cum
+               extrema pervenerit<lb/> nec canonicae paenitentiae locus vel tempus reli<lb break="no"/>quum sit, ne pusillanimitate &amp; desperatione fra<lb break="no"/>ctus pereat, tractandus sit. Cuiusmodi homini<lb/> pro mea quidem sententia) cum
                iam iam mori<lb break="no"/>turus sit, non carnis afflictio, non alia
                paenitentiae<lb/> opera, sed <foreign xml:lang="grc">μετάνοια</foreign> seu
                detestatio peccati, &amp; ple<lb break="no"/>na fiducia iam fide in Christum pro
@@ -266,20 +254,15 @@
                peccatorum detestatio,<lb/> verum etiam sacramentalis confessio, sacerdotis<lb/>
                absolutio, gemitus, luctus, ieiunium, carnis mace<lb break="no"/>ratio, eleemosynae,
                &amp; id genus alia tum peniten<lb break="no"/>tiae, tum pietatis opera proximo
-               exhibenda requi<lb break="no"/>rantur. Oro praeterea pium lectorem, ne in qui<lb
-                  break="no"/>busdam fabulae locis suspicionem fortassis ali<lb break="no"/>quam
+               exhibenda requi<lb break="no"/>rantur. Oro praeterea pium lectorem, ne in qui<lb break="no"/>busdam fabulae locis suspicionem fortassis ali<lb break="no"/>quam
                moturis, existimet me velle affirmare vel<lb/> sentire, quod hominem quemlibet
-               christianum ne<lb break="no"/>cessario credere oporteat in numero salvandorum<pb
-                  n="fol. b3r"/> se esse, aut de sua salute certum esse, cum multae<lb/> scripturae
+               christianum ne<lb break="no"/>cessario credere oporteat in numero salvandorum<pb n="fol. b3r"/> se esse, aut de sua salute certum esse, cum multae<lb/> scripturae
                nos doceant nihil tutius esse, quam sub spe<lb/> semper timere. Nihilominus si certus
                erat Pau<lb break="no"/>lus, quod neque mors, neque vita, neque creatura aliqua<lb/>
                se cum alijs pijs &amp; fidelibus separare posset a cha<lb break="no"/>ritate Dei
                patris, quae est in Christo Iesu domino<lb/> nostro, ut colligit ex precedentibus ad
-               Roma. ca. 8.<lb/> Et manifestius eodem capite Ipse spiritus testi<lb break="no"
-               />monium reddit spiritui nostro quod sumus filij Dei,<lb/> cum caeteris quae
-               prosequitur. Si divus Petrus<lb/> certa promissione credentes dicit gavisuros leti<lb
-                  break="no"/>tia inenarrabili, &amp;c. Si Ioannes in evangelio di<lb break="no"
-               />cit. Qui verbum meum audit, &amp; credit ei qui me<lb/> misit, habet vitam
+               Roma. ca. 8.<lb/> Et manifestius eodem capite Ipse spiritus testi<lb break="no"/>monium reddit spiritui nostro quod sumus filij Dei,<lb/> cum caeteris quae
+               prosequitur. Si divus Petrus<lb/> certa promissione credentes dicit gavisuros leti<lb break="no"/>tia inenarrabili, &amp;c. Si Ioannes in evangelio di<lb break="no"/>cit. Qui verbum meum audit, &amp; credit ei qui me<lb/> misit, habet vitam
                aeternam, &amp; in iudicium non ve<lb break="no"/>nit, sed transijt de morte in
                vitam, Et manifestius<lb/> in Epistola. Charissimi nunc filij Dei sumus, &amp;<lb/>
                nondum apparuit quid erimus. Scimus autem &amp;c.<lb/> Si (inquam) hi suo tempore
@@ -290,16 +273,13 @@
                martyrum &amp; con<lb break="no"/>fessorum greges de salute sua certos &amp;
                securos<lb/> dubitet expirasse? An non secura mens Stephano<pb n="fol. b3v"/> qui
                vidit caelos apertos? An non secura mens An<lb break="no"/>tonio, qui mortem laetus
-               aspexit? An non secura<lb/> mens Ambrosio &amp; Martino, quorum alter inter<lb
-                  break="no"/>rogatus se mortem non timere dicebat quod bonum<lb/> dominum haberet,
+               aspexit? An non secura<lb/> mens Ambrosio &amp; Martino, quorum alter inter<lb break="no"/>rogatus se mortem non timere dicebat quod bonum<lb/> dominum haberet,
                &amp; alter iam iam moriturus<lb/> astanti sibi humani generis hosti dicebat,
                Quid<lb/> hic astas cruenta bestia, Nihil in me funeste repe<lb break="no"/>ries.
                Abrahae me sinus recipiet? Taceo de multis<lb/> alijs, de quorum tum in vita tum in
-               morte secu<lb break="no"/>ritate prolixum esset recensere historias. Cum igi<lb
-                  break="no"/>tur non abbreviata fit manus Domini, sed adhuc<lb/> suis caelestis
+               morte secu<lb break="no"/>ritate prolixum esset recensere historias. Cum igi<lb break="no"/>tur non abbreviata fit manus Domini, sed adhuc<lb/> suis caelestis
                gratiae &amp; consolationis munera im<lb break="no"/>pertiatur, quonam merito alienum
-               à religione Chri<lb break="no"/>stiana iudicabitur, si dicatur adhuc nostri tempo<lb
-                  break="no"/>ris quispiam (qualem Hecastum finximus) subinde<lb/> inveniri, qui
+               à religione Chri<lb break="no"/>stiana iudicabitur, si dicatur adhuc nostri tempo<lb break="no"/>ris quispiam (qualem Hecastum finximus) subinde<lb/> inveniri, qui
                divino spiritu suae conscientiae red<lb break="no"/>dente testimonium, spem sibi
                certam suae salutis<lb/> promittat? Haec prolixius quam destinaram optime<lb/> lector
                prosecutus sum, ut de Hecasto mentem<lb/> meam cognoscas, etsi qua inter
@@ -1896,8 +1876,7 @@
                </sp>
                <sp who="#nomodidascalus">
                   <speaker>No.</speaker>
-                  <l>Et esse dixi, &amp; sum quidem <foreign xml:lang="grc"
-                     >παντοκράτορος</foreign></l>
+                  <l>Et esse dixi, &amp; sum quidem <foreign xml:lang="grc">παντοκράτορος</foreign></l>
                   <l n="630">Et imperatoris minister maximi.</l>
                   <l>An non Deus rex regum &amp; omnium ubi libet</l>
                   <pb n="fol. d5v"/>
@@ -4874,8 +4853,7 @@
                   <l>Et absque pompa inutili exequias pias</l>
                   <l n="2010" part="I">Patri paremus mortuo.</l>
                </sp>
-               <sp
-                  who="#hieronymus #epicuria #philocrates #philomathes #syngenes #cognatus_primus #cognatus_secundus #daemones #amicus_primus #amicus_secundus">
+               <sp who="#hieronymus #epicuria #philocrates #philomathes #syngenes #cognatus_primus #cognatus_secundus #daemones #amicus_primus #amicus_secundus">
                   <speaker>Gr.</speaker>
                   <l part="F">Optime mones.</l>
                   <l>Congratulemur mortuo, &amp; domino Deo</l>
@@ -4935,8 +4913,7 @@
                   <l>Ut quod gulae paratum erat, sumamus hoc</l>
                   <l>Frugaliter non absque honesto gaudio</l>
                </sp>
-               <sp
-                  who="#hieronymus #epicuria #philocrates #philomathes #syngenes #cognatus_primus #cognatus_secundus #daemones #amicus_primus #amicus_secundus">
+               <sp who="#hieronymus #epicuria #philocrates #philomathes #syngenes #cognatus_primus #cognatus_secundus #daemones #amicus_primus #amicus_secundus">
                   <speaker>Gr.</speaker>
                   <l part="I">Sequimur, praei.</l>
                </sp>

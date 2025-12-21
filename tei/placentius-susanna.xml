@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xml:id="neolat000004" xml:lang="lat" xmlns="http://www.tei-c.org/ns/1.0"
-   xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="neolat000004" xml:lang="lat">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,8 +46,7 @@
                <idno type="URL">https://translatin.nl/</idno>
                <ref target="https://github.com/HuygensING/translatin">TransLatin GitHub
                   Repository</ref>
-               <bibl type="originalSource"><author>Johannes Leo Placentius</author> : <title
-                     type="main">Susanna</title> . In: <title>Susanna per Plancentium euangelisten
+               <bibl type="originalSource"><author>Johannes Leo Placentius</author> : <title type="main">Susanna</title> . In: <title>Susanna per Plancentium euangelisten
                      lusa. Eusebii Candidi Elegia, in uanam breuemque humanæ uitæ gloriolam. Item
                      Ode Sapphica eiusdem Eusebij, in mortis recordationem. Item Plausus luctificæ
                      mortis, ad modum Dialogi, extemporaliter ad eodem Eusebio lusus</title> .
@@ -128,8 +126,7 @@
          <titlePage>
             <docTitle>
                <titlePart type="main">
-                  <lb/>SVSAN<lb break="no"/>NA PER PLA<lb break="no"/>CENTIVM EVAN<lb break="no"
-                  />gelisten lusa.</titlePart>
+                  <lb/>SVSAN<lb break="no"/>NA PER PLA<lb break="no"/>CENTIVM EVAN<lb break="no"/>gelisten lusa.</titlePart>
                <titlePart type="sub">
                   <lb/>EVSEBII CANDII <lb/>Elegia, in unam breuemque humanae <lb/>uitae gloriolam
                   <lb/>ITEM ode Sapphica ejusdem eusebii, in mortis re<lb break="no"/>Cordationem
