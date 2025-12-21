@@ -11,7 +11,7 @@
         <idno type="URI" xml:base="https://dracor.org/">neolat</idno>
         <idno type="repo">https://github.com/dracor-org/neolatdracor</idno>
         <availability>
-          <licence target="https://creativecommons.org/publicdomain/zero/1.0/"> CC0 1.0 </licence>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
         </availability>
       </publicationStmt>
     </fileDesc>
@@ -20,10 +20,10 @@
         <p>
           Neo-Latin Drama Corpus, dramatic texts in
           <ref target="https://tei-c.org/guidelines/p5/">TEI P5</ref> format.
-          Licenced under
+          Licensed under
           <ref target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</ref>.
-          Edited by Julia Jennifer Beine (Julius-Maximilians-Universität Würzburg), maintained by
-          Ingo Börner and Carsten Milling (both University of Potsdam). The texts in the
+          Edited by Julia Jennifer Beine (University of Würzburg), maintained by
+          Carsten Milling and Ingo Börner (both University of Potsdam). The texts in the
           Neo-Latin Drama Corpus were encoded and contributed by different
           working groups. For a full corpus description, the contributing
           working groups, and responsible editors, please consult the
@@ -34,6 +34,7 @@
     </encodingDesc>
     <revisionDesc>
       <change when="2024" status="draft"/>
+      <change when="2025" status="draft"/>
     </revisionDesc>
   </teiHeader>
 </teiCorpus>
