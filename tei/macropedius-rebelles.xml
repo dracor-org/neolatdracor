@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="neolat000005" xml:lang="lat">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<TEI xml:id="neolat000005" xml:lang="lat" xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -35,10 +36,8 @@
             <publisher xml:id="dracor">DraCor</publisher>
             <idno type="URL">https://dracor.org</idno>
             <availability>
-               <licence>
-                  <ab>CC0 1.0</ab>
-                  <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
-               </licence>
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0
+                  1.0</licence>
                <p>Copyright of the critical edition (c) Stichting Zuidelijk Historisch Contact
                   Tilburg. Cf. <title>Henk Giebels, Frans Slits: Georgius Macropedius 1487 - 1558.
                      Leven en werken van een Brabantse humanist. Tilburg: Stichting Zuidelijk
@@ -51,8 +50,9 @@
          </publicationStmt>
          <sourceDesc>
             <bibl type="digitalSource">
-               <name>Census Nederlands Toneel (Ceneton)</name>
-               <idno type="URL">https://www.let.leidenuniv.nl/Dutch/Ceneton/MacropediusRebelles1553.html</idno>
+               <ref
+                  target="https://www.let.leidenuniv.nl/Dutch/Ceneton/MacropediusRebelles1553.html"
+                  >Census Nederlands Toneel (Ceneton)</ref>
                <availability status="free">
                   <p>The editions in the website edited by Antonius Harmsen (Leiden University) are
                      public domain. See https://www.let.leidenuniv.nl/Dutch/Canonisations.html</p>
@@ -64,8 +64,7 @@
                      <pubPlace>Tilburg</pubPlace> : <publisher>Stichting Zuidelijk Historisch
                      Contact Tilburg</publisher>
                   <date>2005</date> , <biblScope unit="CD-ROM">De komedies van Macropedius. Latijnse
-                     tekst van Omnes Fabulae Comicae</biblScope>
-               </bibl>
+                     tekst van Omnes Fabulae Comicae</biblScope> . </bibl>
             </bibl>
          </sourceDesc>
       </fileDesc>

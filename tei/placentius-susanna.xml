@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="neolat000004" xml:lang="lat">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<TEI xml:id="neolat000004" xml:lang="lat" xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:xi="http://www.w3.org/2001/XInclude">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,26 +31,34 @@
             <publisher xml:id="dracor">DraCor</publisher>
             <idno type="URL">https://dracor.org</idno>
             <availability>
-               <licence>
-                  <ab>CC0 1.0</ab>
-                  <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
-               </licence>
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0
+                  1.0</licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
             <bibl type="digitalSource">
-               <name>TransLatin Project</name>
-               <idno type="URL">https://translatin.nl/</idno>
-               <ref target="https://github.com/HuygensING/translatin">TransLatin GitHub
-                  Repository</ref>
-               <bibl type="originalSource"><author>Johannes Leo Placentius</author> : <title type="main">Susanna</title> . In: <title>Susanna per Plancentium euangelisten
-                     lusa. Eusebii Candidi Elegia, in uanam breuemque humanæ uitæ gloriolam. Item
-                     Ode Sapphica eiusdem Eusebij, in mortis recordationem. Item Plausus luctificæ
-                     mortis, ad modum Dialogi, extemporaliter ad eodem Eusebio lusus</title> .
-                     <pubPlace>Antwerp</pubPlace> : <publisher>Mich[iel] Hillen van
-                     Hoochstraten</publisher>
-                  <date>1534</date> .
-                  https://books.google.de/books?id=zZgzjJruqfwC&amp;hl=de&amp;source=gbs_navlinks_s.</bibl>
+               <ref
+                  target="https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Placentius-Susanna.docx"
+                  >TransLatin</ref>
+               <availability status="free">
+                  <p>In the public domain.</p>
+               </availability>
+               <bibl type="digitalSource">
+                  <ref
+                     target="https://books.google.de/books?id=zZgzjJruqfwC&amp;hl=de&amp;source=gbs_navlinks_s"
+                     >Google Boooks</ref>
+                  <availability status="free">
+                     <p>In the public domain.</p>
+                  </availability>
+                  <bibl type="originalSource"><author>Johannes Leo Placentius</author> : <title
+                        type="main">Susanna</title> . In: <title>Susanna per Plancentium
+                        euangelisten lusa. Eusebii Candidi Elegia, in uanam breuemque humanæ uitæ
+                        gloriolam. Item Ode Sapphica eiusdem Eusebij, in mortis recordationem. Item
+                        Plausus luctificæ mortis, ad modum Dialogi, extemporaliter ad eodem Eusebio
+                        lusus</title> . <pubPlace>Antwerp</pubPlace> : <publisher>Mich[iel] Hillen
+                        van Hoochstraten</publisher>
+                     <date>1534</date> . </bibl>
+               </bibl>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -91,7 +101,8 @@
                <personGrp sex="UNKNOWN" role="spectator" xml:id="populus">
                   <persName>Populus</persName>
                </personGrp>
-               <person sex="MALE" role="propheta" xml:id="daniel" ana="https://www.wikidata.org/wiki/Q171724">
+               <person sex="MALE" role="propheta" xml:id="daniel"
+                  ana="https://www.wikidata.org/wiki/Q171724">
                   <persName>Daniel</persName>
                </person>
             </listPerson>
@@ -121,7 +132,8 @@
          <titlePage>
             <docTitle>
                <titlePart type="main">
-                  <lb/>SVSAN<lb break="no"/>NA PER PLA<lb break="no"/>CENTIVM EVAN<lb break="no"/>gelisten lusa.</titlePart>
+                  <lb/>SVSAN<lb break="no"/>NA PER PLA<lb break="no"/>CENTIVM EVAN<lb break="no"
+                  />gelisten lusa.</titlePart>
                <titlePart type="sub">
                   <lb/>EVSEBII CANDII <lb/>Elegia, in unam breuemque humanae <lb/>uitae gloriolam
                   <lb/>ITEM ode Sapphica ejusdem eusebii, in mortis re<lb break="no"/>Cordationem
