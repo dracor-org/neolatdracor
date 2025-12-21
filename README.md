@@ -3,7 +3,7 @@
 ## General Information
 
 Neo-Latin Drama Corpus, dramatic texts in [TEI P5](https://tei-c.org/guidelines/p5/) format. Licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).  
-Edited by Julia Jennifer Beine (University of Würzburg), maintained by Ingo Börner (University of Potsdam) and Carsten Milling (University of Potsdam). The texts in the Neo-Latin Drama Corpus were encoded and contributed by different working groups. Legal responsibility lies with the editors of the subcorpora. The responsibilities and corpus details are documented below. More information on the NeoLatDraCor project may be found in the [NeoLatDraCor Wiki](https://github.com/dracor-org/neolatdracor/wiki).
+Edited by Julia Jennifer Beine (University of Würzburg), maintained by Carsten Milling and Ingo Börner (both University of Potsdam). The texts in the Neo-Latin Drama Corpus were encoded and contributed by different working groups. Legal responsibility lies with the editors of the subcorpora. The responsibilities and corpus details are documented below. More information on the NeoLatDraCor project may be found in the [NeoLatDraCor Wiki](https://github.com/dracor-org/neolatdracor/wiki).
 
 ## Contributing Working Groups
 
