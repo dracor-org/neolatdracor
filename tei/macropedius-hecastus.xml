@@ -102,34 +102,34 @@
                <person xml:id="daetrus" sex="MALE" role="coquus">
                   <persName>Daetrus</persName>
                </person>
-               <person xml:id="ancilla_a" sex="FEMALE" role="ancilla">
+               <person xml:id="ancilla-a" sex="FEMALE" role="ancilla">
                   <persName>ancilla a/puella</persName>
                </person>
-               <person xml:id="ancilla_b" sex="FEMALE" role="ancilla">
+               <person xml:id="ancilla-b" sex="FEMALE" role="ancilla">
                   <persName>ancilla b/puella</persName>
                </person>
                <person xml:id="nomodidascalus" sex="MALE" role="legatus">
                   <persName>Nomodidascalus</persName>
                </person>
-               <person xml:id="puer_legati" sex="MALE" role="puer">
+               <person xml:id="puer-legati" sex="MALE" role="puer">
                   <persName>puer legati/puer</persName>
                </person>
                <person xml:id="daemones" sex="MALE">
                   <persName>Daemones</persName>
                </person>
-               <person xml:id="amicus_primus" sex="MALE">
+               <person xml:id="amicus-primus" sex="MALE">
                   <persName>amicus primus</persName>
                </person>
-               <person xml:id="amicus_secundus" sex="MALE">
+               <person xml:id="amicus-secundus" sex="MALE">
                   <persName>amicus secundus</persName>
                </person>
                <person xml:id="syngenes" sex="MALE">
                   <persName>Syngenes</persName>
                </person>
-               <person xml:id="cognatus_primus" sex="MALE">
+               <person xml:id="cognatus-primus" sex="MALE">
                   <persName>cognatus primus</persName>
                </person>
-               <person xml:id="cognatus_secundus" sex="MALE">
+               <person xml:id="cognatus-secundus" sex="MALE">
                   <persName>cognatus secundus</persName>
                </person>
                <person xml:id="mors" sex="FEMALE" ana="https://www.wikidata.org/wiki/Q161936">
@@ -1336,7 +1336,7 @@
                   <l part="F">Puella, vade, &amp; evoca</l>
                   <l part="I">Nostra ex familia quempiam.</l>
                </sp>
-               <sp who="#ancilla_a #ancilla_b">
+               <sp who="#ancilla-a #ancilla-b">
                   <speaker>Pu.</speaker>
                   <l part="F">Evocavero.</l>
                </sp>
@@ -1345,7 +1345,7 @@
                   <l>Quem mittam in aedeis Daemonis, si fors queat</l>
                   <l n="410" part="I">Post pocula inde educier.</l>
                </sp>
-               <sp who="#ancilla_a #ancilla_b">
+               <sp who="#ancilla-a #ancilla-b">
                   <speaker>Pu.</speaker>
                   <l part="F">vocavero,</l>
                   <l part="I">Aliud ne dici praecipis?</l>
@@ -1357,7 +1357,7 @@
                   <l>(Si forte causa postulet) qui vesperi</l>
                   <l>Sint ordinanda fercula in convivio.</l>
                </sp>
-               <sp who="#ancilla_a #ancilla_b">
+               <sp who="#ancilla-a #ancilla-b">
                   <speaker>Pu.</speaker>
                   <l n="415" part="I">Facesso.</l>
                </sp>
@@ -1445,7 +1445,7 @@
                   <l>Puella sterne mensam in edito domus triclinio,</l>
                   <l>Ut hospitem excipiamus hunc cum honore summo &amp; gaudio.</l>
                </sp>
-               <sp who="#ancilla_a #ancilla_b">
+               <sp who="#ancilla-a #ancilla-b">
                   <speaker>Pue.</speaker>
                   <l>Operam dabo, quo splendidè sint apparata quaelibet.</l>
                </sp>
@@ -1453,7 +1453,7 @@
                   <speaker>Ep.</speaker>
                   <l n="445">Niteant parietes byssinis, hyacinthinis, holosericisque Tapetibus.</l>
                </sp>
-               <sp who="#ancilla_a #ancilla_b">
+               <sp who="#ancilla-a #ancilla-b">
                   <speaker>Pu.</speaker>
                   <l part="I">Faxo libens.</l>
                </sp>
@@ -1462,7 +1462,7 @@
                   <l part="F">Fac mensa &amp; auro splendeat</l>
                   <l part="I">Radiante, gemmatisque poculis.</l>
                </sp>
-               <sp who="#ancilla_a #ancilla_b">
+               <sp who="#ancilla-a #ancilla-b">
                   <speaker>Pu.</speaker>
                   <l part="M">Licet.</l>
                </sp>
@@ -1471,7 +1471,7 @@
                   <l part="F">Loca singula</l>
                   <l part="I">Styrace, thure, &amp; galbano suffita sint.</l>
                </sp>
-               <sp who="#ancilla_a #ancilla_b">
+               <sp who="#ancilla-a #ancilla-b">
                   <speaker>Pu.</speaker>
                   <l part="F">suffita erunt.</l>
                </sp>
@@ -1479,7 +1479,7 @@
                   <speaker>Epi.</speaker>
                   <l part="I">At celeriter.</l>
                </sp>
-               <sp who="#ancilla_a #ancilla_b">
+               <sp who="#ancilla-a #ancilla-b">
                   <speaker>Pu.</speaker>
                   <l part="M">Celerrimè.</l>
                </sp>
@@ -1574,7 +1574,7 @@
                   <l part="F">Is mihi modo conveniendus est.</l>
                   <l>Profer puer diploma divinaeque legis codices.</l>
                </sp>
-               <sp who="#puer_legati">
+               <sp who="#puer-legati">
                   <speaker>Pu.</speaker>
                   <l>Hem tibi domine diploma, divinaeque legis codices.</l>
                </sp>
@@ -2077,7 +2077,7 @@
                   <l part="F">sequere ilico</l>
                   <l part="I">Tu quoque puer cape sarcinam. migremus.</l>
                </sp>
-               <sp who="#puer_legati">
+               <sp who="#puer-legati">
                   <speaker>Pu.</speaker>
                   <l part="F">hem.</l>
                </sp>
@@ -2178,11 +2178,11 @@
                   <l>EAmus &amp; videamus ut Hecastus vetus</l>
                   <l part="I">Valeat amicus.</l>
                </sp>
-               <sp who="#amicus_primus #amicus_secundus">
+               <sp who="#amicus-primus #amicus-secundus">
                   <speaker>Am.</speaker>
                   <l part="M">eamus.</l>
                </sp>
-               <sp who="#amicus_primus #amicus_secundus">
+               <sp who="#amicus-primus #amicus-secundus">
                   <speaker>Ami.</speaker>
                   <l part="F">eccum is obviu’st</l>
                </sp>
@@ -2245,12 +2245,12 @@
                   <l n="805">Sed iam mihi id (quid hi queant nescio) tibi</l>
                   <l part="I">Praestare non est integrum.</l>
                </sp>
-               <sp who="#amicus_primus #amicus_secundus">
+               <sp who="#amicus-primus #amicus-secundus">
                   <speaker>Ami.</speaker>
                   <l part="F">mihi quoque</l>
                   <l>Non modo vacat, quod &amp; alijs condixerim.</l>
                </sp>
-               <sp who="#amicus_primus #amicus_secundus">
+               <sp who="#amicus-primus #amicus-secundus">
                   <speaker>Am.</speaker>
                   <l>Nec mihi per occupationes plurimas.</l>
                </sp>
@@ -2297,11 +2297,11 @@
                   <speaker>Syn.</speaker>
                   <l>Cognate, non te deseremus, fidito.</l>
                </sp>
-               <sp who="#cognatus_primus #cognatus_secundus">
+               <sp who="#cognatus-primus #cognatus-secundus">
                   <speaker>Cog.</speaker>
                   <l part="I">Non deseram te.</l>
                </sp>
-               <sp who="#cognatus_primus #cognatus_secundus">
+               <sp who="#cognatus-primus #cognatus-secundus">
                   <speaker>Cogn.</speaker>
                   <l part="F">Hecaste non te deseram.</l>
                   <l>Tametsi ad Indos me vel ultra duxeris.</l>
@@ -2337,11 +2337,11 @@
                   <l>Tuam atque rem domesticam, ut tibi proximi,</l>
                   <l part="I">Tuebimur.</l>
                </sp>
-               <sp who="#cognatus_primus #cognatus_secundus">
+               <sp who="#cognatus-primus #cognatus-secundus">
                   <speaker>Cog.</speaker>
                   <l part="M">tuebimur.</l>
                </sp>
-               <sp who="#cognatus_primus #cognatus_secundus">
+               <sp who="#cognatus-primus #cognatus-secundus">
                   <speaker>Cog.</speaker>
                   <l part="F">Tuebimur.</l>
                </sp>
@@ -2350,11 +2350,11 @@
                   <l>Nihilominus ubi te paratum scierimus,</l>
                   <l n="855">Adusque portam prosequemur ampliter.</l>
                </sp>
-               <sp who="#cognatus_primus #cognatus_secundus">
+               <sp who="#cognatus-primus #cognatus-secundus">
                   <speaker>Cog.</speaker>
                   <l part="I">Te prosequemur.</l>
                </sp>
-               <sp who="#cognatus_primus #cognatus_secundus">
+               <sp who="#cognatus-primus #cognatus-secundus">
                   <speaker>Cog.</speaker>
                   <l part="F">Prosequemur insimul</l>
                   <pb n="fol. e2v"/>
@@ -2688,11 +2688,11 @@
                   <l part="F">Vel has</l>
                   <l>Quaeso puellas linque mihi solatio.</l>
                </sp>
-               <sp who="#ancilla_a #ancilla_b">
+               <sp who="#ancilla-a #ancilla-b">
                   <speaker>Anc.</speaker>
                   <l n="995">Ne rogo sinas nos domina morti tradier.</l>
                </sp>
-               <sp who="#ancilla_a #ancilla_b">
+               <sp who="#ancilla-a #ancilla-b">
                   <speaker>Anc.</speaker>
                   <l>Ne morte nos domina sinas occumbere.</l>
                </sp>
@@ -2877,7 +2877,7 @@
                   <speaker>He.</speaker>
                   <l n="1070">Valete proximi, valete amiculi.</l>
                </sp>
-               <sp who="#syngenes #cognatus_primus #cognatus_secundus">
+               <sp who="#syngenes #cognatus-primus #cognatus-secundus">
                   <speaker>Prox.</speaker>
                   <l>Nos itáne Hecaste deseres? longum vale.</l>
                </sp>
@@ -2885,7 +2885,7 @@
                   <speaker>He.</speaker>
                   <l part="I">Desertus ita vos desero.</l>
                </sp>
-               <sp who="#syngenes #cognatus_primus #cognatus_secundus">
+               <sp who="#syngenes #cognatus-primus #cognatus-secundus">
                   <speaker>Prox.</speaker>
                   <l part="F">Comitabimur</l>
                   <l part="I">Te ad usque portam.</l>
@@ -2894,7 +2894,7 @@
                   <speaker>Hec.</speaker>
                   <l part="F">Onerosum id est solatium.</l>
                </sp>
-               <sp who="#daemones #amicus_primus #amicus_secundus">
+               <sp who="#daemones #amicus-primus #amicus-secundus">
                   <speaker>Ami.</speaker>
                   <l part="I">Concedimus.</l>
                </sp>
@@ -2918,11 +2918,11 @@
                   <speaker>He.</speaker>
                   <l part="M">Atat.</l>
                </sp>
-               <sp who="#daemones #amicus_primus #amicus_secundus">
+               <sp who="#daemones #amicus-primus #amicus-secundus">
                   <speaker>Ami.</speaker>
                   <l part="F">Quid est quod loquimini?</l>
                </sp>
-               <sp who="#daemones #amicus_primus #amicus_secundus">
+               <sp who="#daemones #amicus-primus #amicus-secundus">
                   <speaker>Ami.</speaker>
                   <l part="I">Num mortem adesse dicitis?</l>
                </sp>
@@ -2933,7 +2933,7 @@
                   <l>Figura tam execranda ut atrum daemona</l>
                   <l part="I">Putetis obvium.</l>
                </sp>
-               <sp who="#syngenes #cognatus_primus #cognatus_secundus">
+               <sp who="#syngenes #cognatus-primus #cognatus-secundus">
                   <speaker>Prox.</speaker>
                   <l part="F">An fuga est consultior?</l>
                </sp>
@@ -2941,11 +2941,11 @@
                   <speaker>Ser.</speaker>
                   <l part="I">Si sapitis.</l>
                </sp>
-               <sp who="#daemones #amicus_primus #amicus_secundus">
+               <sp who="#daemones #amicus-primus #amicus-secundus">
                   <speaker>Ami.</speaker>
                   <l part="M">En.</l>
                </sp>
-               <sp who="#syngenes #cognatus_primus #cognatus_secundus">
+               <sp who="#syngenes #cognatus-primus #cognatus-secundus">
                   <speaker>Prox.</speaker>
                   <l part="M">Papae.</l>
                </sp>
@@ -4570,11 +4570,11 @@
                <sp who="#philoponus">
                   <l n="1865">HEu heu tribules, flete Hecastum mortuum.</l>
                </sp>
-               <sp who="#syngenes #cognatus_primus #cognatus_secundus">
+               <sp who="#syngenes #cognatus-primus #cognatus-secundus">
                   <speaker>Cogna.</speaker>
                   <l part="I">Quid ais? Hecastus mortuus?</l>
                </sp>
-               <sp who="#daemones #amicus_primus #amicus_secundus">
+               <sp who="#daemones #amicus-primus #amicus-secundus">
                   <speaker>Ami.</speaker>
                   <l part="F">Quid clamitas?</l>
                </sp>
@@ -4583,19 +4583,19 @@
                   <l>Hecastus est mortuus, &amp; huic saligno mox</l>
                   <l part="I">Loculo inferendus est.</l>
                </sp>
-               <sp who="#daemones #amicus_primus #amicus_secundus">
+               <sp who="#daemones #amicus-primus #amicus-secundus">
                   <speaker>Ami.</speaker>
                   <l part="F">Hecastus mortuus?</l>
                   <l>Eheu mi Hecaste, doleo quòd te amisimus</l>
                   <l n="1870">Virum integrum, &amp; in omnibus amicum strenuum.</l>
                </sp>
-               <sp who="#syngenes #cognatus_primus #cognatus_secundus">
+               <sp who="#syngenes #cognatus-primus #cognatus-secundus">
                   <speaker>Cog.</speaker>
                   <l>Quis contineat à lachrymis, tanto viro</l>
                   <l>Tam nobili, tam divite, &amp; iuventa florido</l>
                   <l part="I">Suis adempto.</l>
                </sp>
-               <sp who="#daemones #amicus_primus #amicus_secundus">
+               <sp who="#daemones #amicus-primus #amicus-secundus">
                   <speaker>Ami.</speaker>
                   <l part="F">Et morte tam subitanea.</l>
                   <l part="I">Ubi uxor est? ubi liberi?</l>
@@ -4607,7 +4607,7 @@
                   <l>Eccos, simul familia tota proruit,</l>
                   <l part="I">Suffusa lachrymis, valete.</l>
                </sp>
-               <sp who="#syngenes #cognatus_primus #cognatus_secundus">
+               <sp who="#syngenes #cognatus-primus #cognatus-secundus">
                   <speaker>Cog.</speaker>
                   <l part="F">Proh dolor.</l>
                   <l>Tibi dent Dij cognata nostra Epicuria &amp;</l>
@@ -4620,14 +4620,14 @@
                   <l>Viro optimo infelix mulier. Heu me, viro</l>
                   <l part="I">Meo optimo viduata sum.</l>
                </sp>
-               <sp who="#daemones #amicus_primus #amicus_secundus">
+               <sp who="#daemones #amicus-primus #amicus-secundus">
                   <speaker>Am.</speaker>
                   <l part="F">Nos quoque viro</l>
                   <l>idissimo. Iam quique pullis vestibus</l>
                   <l>Studebimus operirier, quô post die ab</l>
                   <l n="1885">Hinc tertio digne exequamur funera.</l>
                </sp>
-               <sp who="#syngenes #cognatus_primus #cognatus_secundus">
+               <sp who="#syngenes #cognatus-primus #cognatus-secundus">
                   <speaker>Cog.</speaker>
                   <l>Dignissime exequias viro apparabimus,</l>
                   <l>Non aureo parcemus uni aut alteri.</l>
@@ -4651,12 +4651,12 @@
                   <l>Aut sempiterna flumina, ut cordis mei</l>
                   <l n="1895" part="I">Ter maximos queam dolores prodere.</l>
                </sp>
-               <sp who="#ancilla_a #ancilla_b">
+               <sp who="#ancilla-a #ancilla-b">
                   <speaker>Anc.</speaker>
                   <l part="F">Heu,</l>
                   <l part="I">Te ploro Hecaste mortuum.</l>
                </sp>
-               <sp who="#ancilla_a #ancilla_b">
+               <sp who="#ancilla-a #ancilla-b">
                   <speaker>Anc.</speaker>
                   <l part="F">Heu, quis non fleat</l>
                   <l>Te amice Hecaste mortuum? quis non fleat?</l>
@@ -4674,7 +4674,7 @@
                <head>SCAENA interiectitia. 12.</head>
                <stage>Trimetri.</stage>
                <stage>Ancillae .2. Famuli .2. Epicuria.</stage>
-               <sp who="#ancilla_a">
+               <sp who="#ancilla-a">
                   <speaker>An.a.</speaker>
                   <l>HEra ingredere, defectio ne spiratus</l>
                   <l>Te turbet, &amp; turbetur omnis familia.</l>
@@ -4684,7 +4684,7 @@
                   <speaker>Ep.</speaker>
                   <l part="F">Heu.</l>
                </sp>
-               <sp who="#ancilla_a">
+               <sp who="#ancilla-a">
                   <speaker>An.a.</speaker>
                   <l>Heus famuli heram reducite à cadavere,</l>
                   <l>Dolore ne deficiat, aut lapsam solo</l>
@@ -4696,12 +4696,12 @@
                   <speaker>Fa.</speaker>
                   <l part="M">Hem.</l>
                </sp>
-               <sp who="#ancilla_b">
+               <sp who="#ancilla-b">
                   <speaker>An.b.</speaker>
                   <l part="F">Nos lugeamus mortuum.</l>
                   <l part="I">Heus socia Hecastum lugeamus.</l>
                </sp>
-               <sp who="#ancilla_a">
+               <sp who="#ancilla-a">
                   <speaker>An.a.</speaker>
                   <l part="F">Sic decet</l>
                   <pb n="fol. h1v"/>
@@ -4711,11 +4711,11 @@
                   <l n="1915">Quid Hecaste mi. Mi Hecaste quid</l>
                   <l part="I">Heu heu dolor.</l>
                </sp>
-               <sp who="#ancilla_b">
+               <sp who="#ancilla-b">
                   <speaker>Anc.b.</speaker>
                   <l part="F">Proh proh dolor.</l>
                </sp>
-               <sp who="#ancilla_a">
+               <sp who="#ancilla-a">
                   <speaker>An.a.</speaker>
                   <l>Quid est amice quòd relictis omnibus</l>
                   <l>Charis tibi toto iaces sic corpore</l>
@@ -4741,27 +4741,27 @@
                   <pb n="fol. h2r"/>
                   <l>Plangamus ultra maesta palmis pectora.</l>
                </sp>
-               <sp who="#ancilla_b">
+               <sp who="#ancilla-b">
                   <speaker>An.b.</speaker>
                   <l part="I">Decet, heu dolor.</l>
                </sp>
-               <sp who="#ancilla_a">
+               <sp who="#ancilla-a">
                   <speaker>An.a.</speaker>
                   <l part="F">Proh proh dolor.</l>
                </sp>
-               <sp who="#ancilla_b">
+               <sp who="#ancilla-b">
                   <speaker>An.b.</speaker>
                   <l n="1940" part="I">Proh proh dolor.</l>
                </sp>
-               <sp who="#ancilla_a">
+               <sp who="#ancilla-a">
                   <speaker>An.a.</speaker>
                   <l part="F">Proh proh dolor.</l>
                </sp>
-               <sp who="#ancilla_b">
+               <sp who="#ancilla-b">
                   <speaker>An.b.</speaker>
                   <l part="I">Proh proh dolor.</l>
                </sp>
-               <sp who="#ancilla_a">
+               <sp who="#ancilla-a">
                   <speaker>An.a.</speaker>
                   <l part="F">Quid Hecaste te</l>
                   <l>Quaeso impulit mortem aggredi subitaneam.</l>
@@ -4825,7 +4825,7 @@
                   <speaker>Hie.</speaker>
                   <l>Sperabitis fide atque poenitentia.</l>
                </sp>
-               <sp who="#syngenes #cognatus_primus #cognatus_secundus">
+               <sp who="#syngenes #cognatus-primus #cognatus-secundus">
                   <speaker>Cog.</speaker>
                   <l part="I">Sperabimus ne &amp; nos?</l>
                </sp>
@@ -4833,7 +4833,7 @@
                   <speaker>Hie.</speaker>
                   <l part="F">Item sperabitis.</l>
                </sp>
-               <sp who="#daemones #amicus_primus #amicus_secundus">
+               <sp who="#daemones #amicus-primus #amicus-secundus">
                   <speaker>Am.</speaker>
                   <l part="I">Nos itidem?</l>
                </sp>
@@ -4873,7 +4873,7 @@
                   <l n="2010" part="I">Patri paremus mortuo.</l>
                </sp>
                <sp
-                  who="#hieronymus #epicuria #philocrates #philomathes #syngenes #cognatus_primus #cognatus_secundus #daemones #amicus_primus #amicus_secundus">
+                  who="#hieronymus #epicuria #philocrates #philomathes #syngenes #cognatus-primus #cognatus-secundus #daemones #amicus-primus #amicus-secundus">
                   <speaker>Gr.</speaker>
                   <l part="F">Optime mones.</l>
                   <l>Congratulemur mortuo, &amp; domino Deo</l>
@@ -4934,7 +4934,7 @@
                   <l>Frugaliter non absque honesto gaudio</l>
                </sp>
                <sp
-                  who="#hieronymus #epicuria #philocrates #philomathes #syngenes #cognatus_primus #cognatus_secundus #daemones #amicus_primus #amicus_secundus">
+                  who="#hieronymus #epicuria #philocrates #philomathes #syngenes #cognatus-primus #cognatus-secundus #daemones #amicus-primus #amicus-secundus">
                   <speaker>Gr.</speaker>
                   <l part="I">Sequimur, praei.</l>
                </sp>

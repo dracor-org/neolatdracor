@@ -15,6 +15,7 @@
                <idno type="pnd">118780247</idno>
             </author>
             <editor>Ulrich Rhaetus Faber</editor>
+            <editor>Jan Bloemendal</editor>
             <respStmt>
                <resp>Transcribed under the supervision of</resp>
                <persName>Jan Bloemendal</persName>
@@ -111,13 +112,13 @@
                   ana="https://www.wikidata.org/wiki/Q5011">
                   <persName>Cupido</persName>
                </person>
-               <person xml:id="rustica_mulier" sex="FEMALE" role="rustica">
+               <person xml:id="rustica-mulier" sex="FEMALE" role="rustica">
                   <persName>Rustica mulier</persName>
                </person>
-               <person xml:id="altera_rustica" sex="FEMALE" role="rustica">
+               <person xml:id="altera-rustica" sex="FEMALE" role="rustica">
                   <persName>Altera rustica</persName>
                </person>
-               <person xml:id="tertia_villana_rustica" sex="FEMALE" role="rustica">
+               <person xml:id="tertia-villana-rustica" sex="FEMALE" role="rustica">
                   <persName>Tertia Villana rustica</persName>
                </person>
                <personGrp xml:id="pastores" sex="MALE" role="pastor">
@@ -132,14 +133,14 @@
                <person xml:id="praeco" sex="MALE" role="praeco">
                   <persName>Praeco</persName>
                </person>
-               <person xml:id="vite_voluptarie_commendatio" sex="UNKNOWN">
+               <person xml:id="vite-voluptarie-commendatio" sex="UNKNOWN">
                   <persName>Voluptatis commendatio per Venerem</persName>
                </person>
-               <person xml:id="commendatio_vite_active" sex="UNKNOWN">
+               <person xml:id="commendatio-vite-active" sex="UNKNOWN">
                   <persName>Vita quae in uirtutum actione sonstitit quam actiuam uocamus commendatur
                      Iunoni</persName>
                </person>
-               <person xml:id="commendatio_vite_contemplative" sex="UNKNOWN">
+               <person xml:id="commendatio-vite-contemplative" sex="UNKNOWN">
                   <persName>Contemplatiue uitae laus per Palladem</persName>
                </person>
                <person xml:id="actor" sex="UNKNOWN">
@@ -639,19 +640,19 @@
                <l>Vt facias matris iussa petita meae.</l>
             </sp>
             <stage>Paris cum Helena discedit, Chorea fit interim ad tybias.</stage>
-            <sp who="#rustica_mulier">
+            <sp who="#rustica-mulier">
                <l>IVssit pulchra Venus facilem saltare choream.</l>
                <l>Nos modo Vilianas, pastoriasque nurus.</l>
                <l>Adsumus in gyrum, pedibus saltare citatis</l>
                <l n="(370)">Vobiscum cupimus, ite, salite palam.</l>
             </sp>
-            <sp who="#altera_rustica">
+            <sp who="#altera-rustica">
                <l>Opilionis amor lasciuaque uerba uocarunt</l>
                <l>Me dudum ad saltus/ mollisonosque choros</l>
                <l>Pareo mandatis Veneris, saltare cupisco</l>
                <l>Nunc cum Villano, qui meus ignis erit.</l>
             </sp>
-            <sp who="#tertia_villana_rustica">
+            <sp who="#tertia-villana-rustica">
                <l n="(375)">Quanqum rugarum sulco sim foeda senili</l>
                <l>Ex oculis lippis &amp; fluit usque mador.</l>
                <l>Vobiscum tamen hanc cupio ductare choream,</l>
@@ -744,7 +745,7 @@
                <l>Admonui, liticen classica dira sonet.</l>
             </sp>
             <stage>Voluptatis commendatio per Venerem.</stage>
-            <sp who="#vite_voluptarie_commendatio">
+            <sp who="#vite-voluptarie-commendatio">
                <l>Blanda uoluptatis modico sermone referre</l>
                <l n="(450)">Quis bona, mellitulas delitiasque potest?</l>
                <l>Inter tres hominum uitas, mihi sola uoluptas</l>
@@ -774,7 +775,7 @@
             </sp>
             <stage>Vita quae in uirtutum actione sonstitit quam actiuam uocamus commendatur
                Iunoni.</stage>
-            <sp who="#commendatio_vite_active">
+            <sp who="#commendatio-vite-active">
                <l n="(475)">Vita uoluptatis Veneri sacrata procaci</l>
                <l>Est laudata uago carmine/ nec merito</l>
                <l>Non famam celebrem, non cantica sacra merentur</l>
@@ -810,7 +811,7 @@
                <l>Quae nullum tardum, nec sinit esse rudem.</l>
             </sp>
             <stage>Contemplatiue uitae laus per Palladem.</stage>
-            <sp who="#commendatio_vite_contemplative">
+            <sp who="#commendatio-vite-contemplative">
                <l>Frustra spurcitiam laudat malesana uoluptas</l>
                <l>Qua duce magnificum quicquid in orbe perit.</l>
                <l>Incautos iuueues fallaci decipit hamo</l>

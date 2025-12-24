@@ -14,6 +14,7 @@
                <idno type="wikidata">Q1243416</idno>
                <idno type="pnd">119790009</idno>
             </author>
+            <editor>Jan Bloemendal</editor>
             <respStmt>
                <resp>Transcribed by</resp>
                <persName>Jan Bloemendal</persName>
@@ -95,7 +96,7 @@
                <person sex="MALE" role="pater" xml:id="helchias">
                   <persName>Helchias</persName>
                </person>
-               <personGrp sex="MALE" role="carnifex" xml:id="carnifices_duo">
+               <personGrp sex="MALE" role="carnifex" xml:id="carnifices-duo">
                   <persName>Carnifices duo</persName>
                </personGrp>
                <personGrp sex="UNKNOWN" role="spectator" xml:id="populus">
@@ -1258,7 +1259,7 @@
                <speaker>Cri.</speaker>
                <l part="I">Cum adolescente lacteo.</l>
             </sp>
-            <sp>
+            <sp who="#susanna">
                <speaker>Sus.</speaker>
                <l part="F">Dii vostrum auxilium.</l>
             </sp>
@@ -1409,7 +1410,7 @@
             <sp who="#crito">
                <l part="I">Carnifices.</l>
             </sp>
-            <sp who="#carnifices_duo">
+            <sp who="#carnifices-duo">
                <speaker>Car.</speaker>
                <l part="M">Adsumus.</l>
             </sp>
@@ -1417,7 +1418,7 @@
                <speaker>Chr.</speaker>
                <l part="F">Lorarii omnes.</l>
             </sp>
-            <sp who="#carnifices_duo">
+            <sp who="#carnifices-duo">
                <speaker>Car.</speaker>
                <l part="I">Quid est?</l>
             </sp>
@@ -1426,7 +1427,7 @@
                <l part="F">Quotquot praeestis</l>
                <l part="I">usquam lumbifragiis, facite adsitis.</l>
             </sp>
-            <sp who="#carnifices_duo">
+            <sp who="#carnifices-duo">
                <speaker>Car.</speaker>
                <l part="F">Furiae.</l>
             </sp>
@@ -1434,7 +1435,7 @@
                <speaker>Chr.</speaker>
                <l part="I">Carnifices inquam?</l>
             </sp>
-            <sp who="#carnifices_duo">
+            <sp who="#carnifices-duo">
                <speaker>Car.</speaker>
                <l part="F">Quid est inquam?</l>
             </sp>
@@ -1443,7 +1444,7 @@
                <l>Expedite, producite Susannam filiam</l>
                <l part="I">Helchiae, nuptam Ioachimo.</l>
             </sp>
-            <sp who="#carnifices_duo">
+            <sp who="#carnifices-duo">
                <speaker>Car.</speaker>
                <l part="F">Quid</l>
                <l>hoc monstri est? Nihil nobis commune est cum</l>
@@ -1682,7 +1683,7 @@
                <speaker>Cri.</speaker>
                <l part="I">Au au obsecro.</l>
             </sp>
-            <sp who="#carnifices_duo">
+            <sp who="#carnifices-duo">
                <speaker>Car.</speaker>
                <l part="F">Extremum dixistis,</l>
                <l part="I">nihil audimus.</l>
@@ -1691,7 +1692,7 @@
                <speaker>Chr.</speaker>
                <l part="M">Perimus.</l>
             </sp>
-            <sp who="#carnifices_duo">
+            <sp who="#carnifices-duo">
                <speaker>Car.</speaker>
                <l part="F">Hoc illud est.</l>
             </sp>
@@ -1710,7 +1711,7 @@
                <l>rigidos a nobis metus deterge.</l>
             </sp>
             <stage>Carnifices</stage>
-            <sp who="#carnifices_duo">
+            <sp who="#carnifices-duo">
                <l>Extra castella suis locis plectentur mali</l>
                <l>Spectatores boni, nihil est quod exspectetis.</l>
                <l>Bene vobis sit cum Susanna; congratulemini</l>

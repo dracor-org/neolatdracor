@@ -122,10 +122,10 @@
                <person xml:id="pompus" sex="MALE" role="nuncius">
                   <persName>Pompus</persName>
                </person>
-               <person xml:id="lorarius_a" sex="MALE" role="lorarius">
+               <person xml:id="lorarius-a" sex="MALE" role="lorarius">
                   <persName>Lorarius a</persName>
                </person>
-               <person xml:id="lorarius_b" sex="MALE" role="lorarius">
+               <person xml:id="lorarius-b" sex="MALE" role="lorarius">
                   <persName>Lorarius b</persName>
                </person>
                <person xml:id="lorcoballus" sex="MALE" role="diabolus">
@@ -2454,7 +2454,7 @@
                <head>ACTUS IIII. SCAENA IX.</head>
                <stage>Senarij ut superiores.</stage>
                <stage>Lorarij duo. Bromius. Dyscolus. Clopicus. Villanus.</stage>
-               <sp who="#lorarius_a #lorarius_b">
+               <sp who="#lorarius-a #lorarius-b">
                   <l>NEc ipse Caupo innoxius, quia conscium</l>
                   <l n="690">Se criminis testatur ultro, ut auribus</l>
                   <l>Audivimus nostris, &amp; obdit se ostio.</l>
@@ -2466,7 +2466,7 @@
                   <l part="F">hem, quid importunus es?</l>
                   <l part="I">Quis es?</l>
                </sp>
-               <sp who="#lorarius_a #lorarius_b">
+               <sp who="#lorarius-a #lorarius-b">
                   <speaker>Lo.</speaker>
                   <l part="M">Aperi ostium.</l>
                </sp>
@@ -2474,7 +2474,7 @@
                   <speaker>Bro.</speaker>
                   <l part="M">licet.</l>
                </sp>
-               <sp who="#lorarius_a #lorarius_b">
+               <sp who="#lorarius-a #lorarius-b">
                   <speaker>Lo.</speaker>
                   <l part="F">quos hospites</l>
                   <l n="695" part="I">Habes?</l>
@@ -2483,7 +2483,7 @@
                   <speaker>Bro.</speaker>
                   <l part="M">duos iuvenes.</l>
                </sp>
-               <sp who="#lorarius_a #lorarius_b">
+               <sp who="#lorarius-a #lorarius-b">
                   <speaker>Lor.</speaker>
                   <l part="F">probos an improbos</l>
                   <l part="I">Rogo.</l>
@@ -2492,7 +2492,7 @@
                   <speaker>Brom.</speaker>
                   <l part="M">Improbos haud comperi.</l>
                </sp>
-               <sp who="#lorarius_a #lorarius_b">
+               <sp who="#lorarius-a #lorarius-b">
                   <speaker>Lora.</speaker>
                   <l part="F">sistite gradum,</l>
                   <pb n="p. 39"/>
@@ -2502,7 +2502,7 @@
                   <speaker>Dys.</speaker>
                   <l part="I">Quamobrem?</l>
                </sp>
-               <sp who="#lorarius_a #lorarius_b">
+               <sp who="#lorarius-a #lorarius-b">
                   <speaker>Lor.</speaker>
                   <l part="M">haud modo fandi locus.</l>
                </sp>
@@ -2511,7 +2511,7 @@
                   <l part="F">non ibimus,</l>
                   <l part="I">Gladio magis decernimus.</l>
                </sp>
-               <sp who="#lorarius_a #lorarius_b">
+               <sp who="#lorarius-a #lorarius-b">
                   <speaker>Lora.</speaker>
                   <l part="F">simus viri.</l>
                </sp>
@@ -2519,7 +2519,7 @@
                   <speaker>Clo.</speaker>
                   <l n="700">Cruente lictor me enecas, nos dedimus.</l>
                </sp>
-               <sp who="#lorarius_a #lorarius_b">
+               <sp who="#lorarius-a #lorarius-b">
                   <speaker>Lorar.</speaker>
                   <l part="I">Huc, huc manus post terga in has manicas.</l>
                </sp>
@@ -2527,7 +2527,7 @@
                   <speaker>Clo.</speaker>
                   <l part="F">eheu.</l>
                </sp>
-               <sp who="#lorarius_a #lorarius_b">
+               <sp who="#lorarius-a #lorarius-b">
                   <speaker>Lor.</speaker>
                   <l>Concedite huc. Causam tuam vide, Bromi,</l>
                   <l>Exactius iam examinandam iudici.</l>
@@ -2837,7 +2837,7 @@
                <head>ACTUS V. SCAENA III.</head>
                <stage>Tetrametri catalectici vel septenarij.</stage>
                <stage>Lorarij II. Captivi II. Iudex.</stage>
-               <sp who="#lorarius_a #lorarius_b">
+               <sp who="#lorarius-a #lorarius-b">
                   <l>IUdex tremende obnoxios furto hos duos malignos</l>
                   <l n="800">Adducimus, ut sententia mortis in eos prolata</l>
                   <l>Qua iudicati sunt, neci tradantur extimae atque</l>
@@ -2858,7 +2858,7 @@
                   <l>Sententia damnamus &amp; crucis ultimo plectendos</l>
                   <l part="I">Pronuntiamus supplicio.</l>
                </sp>
-               <sp who="#lorarius_a #lorarius_b">
+               <sp who="#lorarius-a #lorarius-b">
                   <speaker>Lor.</speaker>
                   <l part="M">Paremus.</l>
                </sp>
@@ -2867,7 +2867,7 @@
                   <l part="F">Exsequuntor.</l>
                   <l part="I">Clangat tuba.</l>
                </sp>
-               <sp who="#lorarius_a #lorarius_b">
+               <sp who="#lorarius-a #lorarius-b">
                   <speaker>Lor.</speaker>
                   <l part="F">Heus uterque se commendet omnipotenti.</l>
                </sp>
@@ -2951,7 +2951,7 @@
                   <l>Curate, caveteque, ne similis</l>
                   <l>Vos poena praeoccupet incautos.</l>
                </sp>
-               <sp who="#lorarius_a #lorarius_b">
+               <sp who="#lorarius-a #lorarius-b">
                   <speaker>Lor.</speaker>
                   <l n="860">Satis est querelatum &amp; contionatum.</l>
                   <l>Ad cunctipotentem vertite vel</l>
@@ -2968,7 +2968,7 @@
                   <l>Sinite adveniat, si forte mihi</l>
                   <l>Aliqua est speranda salus, sinite.</l>
                </sp>
-               <sp who="#lorarius_a #lorarius_b">
+               <sp who="#lorarius-a #lorarius-b">
                   <speaker>Lor.</speaker>
                   <l>Sinimus, neque enim cupimus vestrae</l>
                   <l>Obstare saluti, si qua fuat.</l>
