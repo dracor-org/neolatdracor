@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://dracor.org/schema.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
-<TEI xml:id="neolat000007" xml:lang="lat" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI type="dracor" xml:id="neolat000007" xml:lang="lat" xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -8,7 +7,7 @@
             <author>
                <persName xml:lang="lat">Paul Aler</persName>
                <idno type="wikidata">Q552883</idno>
-               <idno type="pnd">128976292</idno>
+               <idno type="gnd">128976292</idno>
             </author>
             <editor>Jan Bloemendal</editor>
             <respStmt>
@@ -188,7 +187,7 @@
    <standOff>
       <listEvent>
          <event type="print" when="1706">
-            <desc/>
+            <desc>first print</desc>
          </event>
       </listEvent>
    </standOff>
