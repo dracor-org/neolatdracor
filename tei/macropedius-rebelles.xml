@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://dracor.org/schema.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
-<TEI xml:id="neolat000005" xml:lang="lat" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI type="dracor" xml:id="neolat000005" xml:lang="lat" xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -12,7 +11,7 @@
                   <surname>Macropedius</surname>
                </persName>
                <idno type="wikidata">Q710836</idno>
-               <idno type="pnd">860694216</idno>
+               <idno type="gnd">860694216</idno>
             </author>
             <editor>Henk Giebels</editor>
             <editor>Frans Slits</editor>
@@ -158,7 +157,7 @@
    <standOff>
       <listEvent>
          <event type="print" when="1553">
-            <desc/>
+            <desc>first print 1535, differences between the 1535 and 1553 versions unknown</desc>
          </event>
       </listEvent>
    </standOff>
@@ -167,21 +166,21 @@
          <pb n="1"/>
          <docTitle>
             <titlePart type="main">REBELLES</titlePart>
-            <titlePart type="desc"><lb/>MACROPEDII FABULA <lb/>LONGE IUCUNDISSIMA, <lb/>rudibus
-               adhuc &amp; tenellis Traiectinae scholae auditoribus nuncupata.</titlePart>
+            <titlePart type="desc">MACROPEDII FABULA LONGE IUCUNDISSIMA, rudibus adhuc &amp;
+               tenellis Traiectinae scholae auditoribus nuncupata.</titlePart>
          </docTitle>
          <div type="preface">
-            <head><lb/>AD TRAIECTINAM IUVEN-<lb break="no"/>tutem, Macropedius.</head>
-            <p><lb/>ACcipite quotquot virtutis &amp; bonarum litterarum <lb/>studiosi estis pueri
-               mei, accipite inquam Rebelles <lb/>fabulam nostram, olim vobis dicatam, &amp; iam
-               denuo <lb/>vobis recognitam, plusculisque in locis emendatam, &amp; <lb/>(ut
-               absolutior esset) ducentis ferme versibus auctam. <lb/>Legite (si placet) nostra,
-               &amp; in re ludicra non tam <lb/>aurium voluptatem &amp; animi oblectationem, quàm
-               <lb/>morum probitatem &amp; bonarum litterarum eruditionem <lb/>vaenamini.</p>
+            <head>AD TRAIECTINAM IUVENtutem, Macropedius.</head>
+            <p>ACcipite quotquot virtutis &amp; bonarum litterarum studiosi estis pueri mei,
+               accipite inquam Rebelles fabulam nostram, olim vobis dicatam, &amp; iam denuo vobis
+               recognitam, plusculisque in locis emendatam, &amp; (ut absolutior esset) ducentis
+               ferme versibus auctam. Legite (si placet) nostra, &amp; in re ludicra non tam aurium
+               voluptatem &amp; animi oblectationem, quàm morum probitatem &amp; bonarum litterarum
+               eruditionem vaenamini.</p>
          </div>
          <div type="argument">
             <pb n="2"/>
-            <head><lb/>PERIOCHE SEU <lb/>ARGUMENTUM IN <lb/>Rebelles.</head>
+            <head>PERIOCHE SEU ARGUMENTUM IN Rebelles.</head>
             <l>DIdascalum matrum per indulgentiam</l>
             <l>Spernunt rebellantes scholastici duo.</l>
             <l>Hinc lusibus luxu ac dolo re perdita in</l>
@@ -856,7 +855,7 @@
                   <l>Pol ulmei iamdudum uterque essemus &amp; instar scabrae ovis</l>
                   <l>Perlividi. Ast hoc tempore has nates semel subduximus.</l>
                   <l>Si liceat id crebro, quid optabilius aut iucundius?</l>
-                  <l n="250"> Non puto quod is nos audeat veritus parentes caedere.</l>
+                  <l n="250">Non puto quod is nos audeat veritus parentes caedere.</l>
                   <l>Sedeamus hic parumper, &amp; linquamus has curantibus</l>
                   <l part="I">Curas graveis.</l>
                </sp>
@@ -905,7 +904,7 @@
                </sp>
                <sp who="#clopicus">
                   <speaker>Clop.</speaker>
-                  <l> Primus, secundus, tertius: Primus, secundus, tertius:</l>
+                  <l>Primus, secundus, tertius: Primus, secundus, tertius:</l>
                </sp>
                <pb n="15"/>
                <sp who="#clopicus">
@@ -1251,7 +1250,7 @@
                   <speaker>Dys.</speaker>
                   <l part="F">nostros libros</l>
                   <l>Dum evolvimus didascalus supervenit,</l>
-                  <l n="345"> Dicitque contendisse nos &amp; percitos</l>
+                  <l n="345">Dicitque contendisse nos &amp; percitos</l>
                   <l part="I">Ira invicem pugnasse.</l>
                </sp>
                <sp who="#cacolalia">
@@ -1601,7 +1600,7 @@
                      <l>NIhil est profecto saevius,</l>
                      <l>Nihil impudentius, nihil</l>
                      <l>Magis improbum muliere mala,</l>
-                     <l n="475"> Si occasionem nacta sit.</l>
+                     <l n="475">Si occasionem nacta sit.</l>
                   </lg>
                   <lg>
                      <l>Ignis, mare, fera belua,</l>
@@ -3210,7 +3209,7 @@
                </sp>
                <sp who="#aristippus">
                   <speaker>Didasca.</speaker>
-                  <l> Hunc animum &amp; has promissiones supplices</l>
+                  <l>Hunc animum &amp; has promissiones supplices</l>
                   <l>Mox pariter exhibebitis parentibus,</l>
                   <l>Ut quos dolore affecit ante licentia,</l>
                   <l>Nunc recreet condigna poenitentia.</l>
@@ -3511,7 +3510,7 @@
                   <l n="1095">Laude te summum evehimus patronum,</l>
                   <l>Qui leonina rabie repressam*</l>
                   <l>Eruis mentem è baratro ferino</l>
-                  <l> Daemonis atri.</l>
+                  <l>Daemonis atri.</l>
                </sp>
                <sp who="#clopicus">
                   <speaker>Clo.</speaker>
