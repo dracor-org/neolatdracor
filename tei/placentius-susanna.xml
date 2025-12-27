@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://dracor.org/schema.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
-<TEI xml:id="neolat000004" xml:lang="lat" xmlns="http://www.tei-c.org/ns/1.0"
+<TEI type="dracor" xml:id="neolat000004" xml:lang="lat" xmlns="http://www.tei-c.org/ns/1.0"
    xmlns:xi="http://www.w3.org/2001/XInclude">
    <teiHeader>
       <fileDesc>
@@ -12,7 +11,7 @@
                   <surname>Placentius</surname>
                </persName>
                <idno type="wikidata">Q1243416</idno>
-               <idno type="pnd">119790009</idno>
+               <idno type="gnd">119790009</idno>
             </author>
             <editor>Jan Bloemendal</editor>
             <respStmt>
@@ -66,43 +65,43 @@
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person sex="MALE" role="advocatus" xml:id="crito">
+               <person xml:id="crito" sex="MALE" role="advocatus">
                   <persName>Crito</persName>
                </person>
-               <person sex="MALE" role="famulus" xml:id="petulus">
+               <person xml:id="petulus" sex="MALE" role="famulus">
                   <persName>Petulus</persName>
                </person>
-               <person sex="MALE" role="famulus" xml:id="hislio">
+               <person xml:id="hislio" sex="MALE" role="famulus">
                   <persName>Hislio</persName>
                </person>
-               <person sex="MALE" role="iudex" xml:id="chrisalus">
+               <person xml:id="chrisalus" sex="MALE" role="iudex">
                   <persName>Chrisalus</persName>
                </person>
-               <person sex="MALE" role="maritus" xml:id="ioachimus">
+               <person xml:id="ioachimus" sex="MALE" role="maritus">
                   <persName>Ioachimus</persName>
                </person>
-               <person sex="FEMALE" xml:id="susanna" ana="https://www.wikidata.org/wiki/Q756861">
+               <person xml:id="susanna" sex="FEMALE" ana="https://www.wikidata.org/wiki/Q756861">
                   <persName>Susanna</persName>
                </person>
-               <person sex="FEMALE" role="pedisequa" xml:id="maura">
+               <person xml:id="maura" sex="FEMALE" role="pedisequa">
                   <persName>Maura</persName>
                </person>
-               <person sex="FEMALE" role="pedisequa" xml:id="livia">
+               <person xml:id="livia" sex="FEMALE" role="pedisequa">
                   <persName>Livia</persName>
                </person>
-               <person sex="MALE" role="famulus" xml:id="charinus">
+               <person xml:id="charinus" sex="MALE" role="famulus">
                   <persName>Charinus</persName>
                </person>
-               <person sex="MALE" role="pater" xml:id="helchias">
+               <person xml:id="helchias" sex="MALE" role="pater">
                   <persName>Helchias</persName>
                </person>
-               <personGrp sex="MALE" role="carnifex" xml:id="carnifices-duo">
+               <personGrp xml:id="carnifices-duo" sex="MALE" role="carnifex">
                   <persName>Carnifices duo</persName>
                </personGrp>
-               <personGrp sex="UNKNOWN" role="spectator" xml:id="populus">
+               <personGrp xml:id="populus" sex="UNKNOWN" role="spectator">
                   <persName>Populus</persName>
                </personGrp>
-               <person sex="MALE" role="propheta" xml:id="daniel"
+               <person xml:id="daniel" sex="MALE" role="propheta"
                   ana="https://www.wikidata.org/wiki/Q171724">
                   <persName>Daniel</persName>
                </person>
@@ -124,7 +123,7 @@
    <standOff>
       <listEvent>
          <event type="print" when="1534">
-            <desc/>
+            <desc>first print 1532, differences between the 1532 and 1534 versions unknown</desc>
          </event>
       </listEvent>
    </standOff>
@@ -132,18 +131,14 @@
       <front>
          <titlePage>
             <docTitle>
-               <titlePart type="main">
-                  <lb/>SVSAN<lb break="no"/>NA PER PLA<lb break="no"/>CENTIVM EVAN<lb break="no"
-                  />gelisten lusa.</titlePart>
-               <titlePart type="sub">
-                  <lb/>EVSEBII CANDII <lb/>Elegia, in unam breuemque humanae <lb/>uitae gloriolam
-                  <lb/>ITEM ode Sapphica ejusdem eusebii, in mortis re<lb break="no"/>Cordationem
-                  <lb/>ITEM plausus luctificae Mortis, ad<lb break="no"/>modum Dialogi,
-                  extemporaliter <lb/>ad eodem Eusebio lusus.</titlePart>
+               <titlePart type="main"> SVSANNA PER PLACENTIVM EVANgelisten lusa.</titlePart>
+               <titlePart type="sub"> EVSEBII CANDII Elegia, in unam breuemque humanae uitae
+                  gloriolam ITEM ode Sapphica ejusdem eusebii, in mortis reCordationem ITEM plausus
+                  luctificae Mortis, admodum Dialogi, extemporaliter ad eodem Eusebio
+                  lusus.</titlePart>
             </docTitle>
             <docImprint>
-               <date>
-                  <lb/>An. 1534</date>
+               <date> An. 1534</date>
             </docImprint>
          </titlePage>
          <div type="preface">
@@ -224,7 +219,7 @@
             </castItem>
          </castList>
          <div type="argument">
-            <head>ARGUMENTUM,<lb/>sub iambis hyponactiis</head>
+            <head>ARGUMENTUM, sub iambis hyponactiis</head>
             <l>Senes duo multo omnium impiissimi</l>
             <l>ira, libidine, avaritia, gula, omnibus</l>
             <l>breviter malis foeti, vegeti impliciti oppido</l>
@@ -252,7 +247,7 @@
       </front>
       <body>
          <div type="act" n="1">
-            <head>ACTUS<lb/>PRIMUS</head>
+            <head>ACTUS PRIMUS</head>
             <stage>Crito iureconsultus et Petulus servus</stage>
             <sp who="#crito">
                <l>Sexcentae pestes, podagrae, pleureses malae</l>
@@ -841,7 +836,7 @@
             </sp>
          </div>
          <div type="act" n="2">
-            <head>ACTUS SE<lb/>CUNDUS</head>
+            <head>ACTUS SECUNDUS</head>
             <stage>Crito. Chrisalus senes.</stage>
             <sp who="#crito">
                <l>Annos computo, reperio me hodie primum vixisse</l>
@@ -1027,8 +1022,8 @@
             </sp>
          </div>
          <div type="act" n="3">
-            <head>TERTIUS<lb/>ACTUS</head>
-            <stage>Crito, Chrisalus senes. Susanna,<lb/>Maura, et Charinus servus.</stage>
+            <head>TERTIUS ACTUS</head>
+            <stage>Crito, Chrisalus senes. Susanna, Maura, et Charinus servus.</stage>
             <sp who="#crito">
                <l>Obfirmata sunt mihi corde omnia interea</l>
                <l>utrimque plurima, victoriam audio visam dicere</l>
@@ -1373,7 +1368,7 @@
             </sp>
          </div>
          <div type="act" n="4">
-            <head>QUARTUS<lb/>ACTUS</head>
+            <head>QUARTUS ACTUS</head>
             <stage>Ioachimus et Helchias</stage>
             <sp who="#ioachimus">
                <l>Aiunt? Quid aiunt, perisse animam? Susannam?</l>
@@ -1405,8 +1400,7 @@
                <l>Vae misero mihi, anxietas ea coepta est,</l>
                <l>Quae mihi proxime mortem derivet.</l>
             </sp>
-            <stage>Crito, Chrisalus, carni<lb/>fices, Susanna, Ioachimus, Daniël,<lb/>et
-               populus.</stage>
+            <stage>Crito, Chrisalus, carnifices, Susanna, Ioachimus, Daniël, et populus.</stage>
             <sp who="#crito">
                <l part="I">Carnifices.</l>
             </sp>
@@ -1589,9 +1583,9 @@
             </sp>
          </div>
          <div type="act" n="5">
-            <head>QUINTUS<lb/>ACTUS.</head>
-            <stage>Daniël, Susanna, Crito,<lb/>Chrisalus, carnifices<lb/>populus,
-               Ioachimus<lb/>Helchias.</stage>
+            <head>QUINTUS ACTUS.</head>
+            <stage>Daniël, Susanna, Crito, Chrisalus, carnifices populus, Ioachimus
+               Helchias.</stage>
             <sp who="#daniel">
                <l>Apage sis, dierum malorum inveterate, huc</l>
                <l>spectata est vecordia tua, ut quo iure quaque</l>
