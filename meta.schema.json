@@ -75,7 +75,7 @@
         "properties": {
           "by": { "type": ["string", "null"] },
           "supervisor": { "type": ["string", "null"] },
-          "software": { "type": "string" }
+          "software": { "type": ["string", "null"] }
         }
       },
       "funding": {
@@ -89,7 +89,7 @@
         "type": "string"
       },
       "institution": {
-        "type": "string"
+        "type": ["string", "null"]
       },
       "complete": {
         "type": "boolean"
