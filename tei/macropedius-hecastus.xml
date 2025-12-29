@@ -113,28 +113,30 @@
                <person xml:id="puer-legati" sex="MALE" role="puer">
                   <persName>puer legati/puer</persName>
                </person>
-               <person xml:id="daemones" sex="MALE">
+               <person xml:id="daemones" sex="MALE" role="amicus">
                   <persName>Daemones</persName>
                </person>
-               <person xml:id="amicus-primus" sex="MALE">
+               <person xml:id="amicus-primus" sex="MALE" role="amicus">
                   <persName>amicus primus</persName>
                </person>
-               <person xml:id="amicus-secundus" sex="MALE">
+               <person xml:id="amicus-secundus" sex="MALE" role="amicus">
                   <persName>amicus secundus</persName>
                </person>
-               <person xml:id="syngenes" sex="MALE">
+               <person xml:id="syngenes" sex="MALE" role="cognatus">
                   <persName>Syngenes</persName>
                </person>
-               <person xml:id="cognatus-primus" sex="MALE">
+               <person xml:id="cognatus-primus" sex="MALE" role="cognatus">
                   <persName>cognatus primus</persName>
                </person>
-               <person xml:id="cognatus-secundus" sex="MALE">
+               <person xml:id="cognatus-secundus" sex="MALE" role="cognatus">
                   <persName>cognatus secundus</persName>
                </person>
-               <person xml:id="mors" sex="FEMALE" ana="https://www.wikidata.org/wiki/Q161936">
+               <person xml:id="mors" sex="FEMALE" role="allegoria"
+                  ana="https://www.wikidata.org/wiki/Q161936">
                   <persName>Mors</persName>
                </person>
-               <person xml:id="sathan" sex="MALE" ana="https://www.wikidata.org/wiki/Q35230">
+               <person xml:id="sathan" sex="MALE" role="diabolus"
+                  ana="https://www.wikidata.org/wiki/Q35230">
                   <persName>Sathan/Satan</persName>
                </person>
                <person xml:id="acolytus" sex="MALE">
@@ -143,13 +145,16 @@
                <person xml:id="hieronymus" sex="MALE" role="pastor">
                   <persName>Hieronymus/sacerdos</persName>
                </person>
-               <person xml:id="virtus" sex="FEMALE" ana="https://www.wikidata.org/wiki/Q157811">
+               <person xml:id="virtus" sex="FEMALE" role="allegoria"
+                  ana="https://www.wikidata.org/wiki/Q157811">
                   <persName>Virtus</persName>
                </person>
-               <person xml:id="fides" sex="FEMALE" ana="https://www.wikidata.org/wiki/Q5410500">
+               <person xml:id="fides" sex="FEMALE" role="allegoria"
+                  ana="https://www.wikidata.org/wiki/Q5410500">
                   <persName>Fides</persName>
                </person>
-               <person xml:id="plutus" sex="MALE" ana="https://www.wikidata.org/wiki/Q200535">
+               <person xml:id="plutus" sex="MALE" role="allegoria"
+                  ana="https://www.wikidata.org/wiki/Q200535">
                   <persName>Plutus</persName>
                </person>
                <personGrp xml:id="grex" sex="UNKNOWN" role="grex">
@@ -4155,7 +4160,8 @@
                      <speaker>Ph.</speaker>
                      <l part="F">Loqueris probe</l>
                      <l n="1725">Mentique consentanea, &amp; consentiam</l>
-                     <l>Nisi antiphωnae, hymni precesque caeterae</l>
+                     <l>Nisi antiph<foreign xml:lang="grc">ω</foreign>nae, hymni precesque
+                        caeterae</l>
                      <l>Tam insalsa sint &amp; barbara, ut mihi nauseam</l>
                      <l>Cantata pariant, atque doctis sordeant.</l>
                   </sp>
