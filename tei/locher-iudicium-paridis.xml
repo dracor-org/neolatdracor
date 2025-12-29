@@ -120,7 +120,7 @@
                <person xml:id="tertia-villana-rustica" sex="FEMALE" role="rustica">
                   <persName>Tertia Villana rustica</persName>
                </person>
-               <personGrp xml:id="pastores" sex="MALE" role="pastor">
+               <personGrp xml:id="pastores" sex="MALE" role="pastor-shepherd">
                   <persName>Pastores</persName>
                </personGrp>
                <person xml:id="menelaus" sex="MALE" ana="https://www.wikidata.org/wiki/Q171839">
@@ -132,17 +132,17 @@
                <person xml:id="praeco" sex="MALE" role="praeco">
                   <persName>Praeco</persName>
                </person>
-               <person xml:id="vite-voluptarie-commendatio" sex="UNKNOWN">
+               <person xml:id="vite-voluptarie-commendatio" sex="UNKNOWN" role="allegoria">
                   <persName>Voluptatis commendatio per Venerem</persName>
                </person>
-               <person xml:id="commendatio-vite-active" sex="UNKNOWN">
+               <person xml:id="commendatio-vite-active" sex="UNKNOWN" role="allegoria">
                   <persName>Vita quae in uirtutum actione sonstitit quam actiuam uocamus commendatur
                      Iunoni</persName>
                </person>
-               <person xml:id="commendatio-vite-contemplative" sex="UNKNOWN">
+               <person xml:id="commendatio-vite-contemplative" sex="UNKNOWN" role="allegoria">
                   <persName>Contemplatiue uitae laus per Palladem</persName>
                </person>
-               <person xml:id="actor" sex="UNKNOWN">
+               <person xml:id="actor" sex="UNKNOWN" role="actor">
                   <persName>Actor</persName>
                </person>
             </listPerson>
