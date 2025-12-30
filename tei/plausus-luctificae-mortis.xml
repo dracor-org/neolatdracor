@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI type="dracor" xml:id="neolat000042" xml:lang="la" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Plausus luctificae Mortis</title>
+            <author>
+               <persName xml:lang="la">Eusebius Candidus</persName>
+            </author>
+            <editor>Jan Blomendal</editor>
+            <respStmt>
+               <resp>Transcribed by</resp>
+               <persName>Jan Bloemendal</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted to TEI by</resp>
+               <persName>Julia Jennifer Beine</persName>
+            </respStmt>
+            <funder/>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="dracor">DraCor</publisher>
+            <idno type="URL">https://dracor.org</idno>
+            <availability>
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <name>TransLatin</name>
+               <idno type="URL">https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Placentius-Plausus.docx</idno>
+               <availability status="free"/>
+               <bibl type="originalSource">Eusebius Candidus: Plausus luctificae Mortis. In: Susanna per Placentium euangelisten lusa. Eusebii Candidi Elegia, in uanam breuemque; humanae uitae gloriolam. Item Ode Sapphica eiusdem Eusebii, in mortis recordationem. Item Plausus luctificae Mortis, ad modum Dialogi, extemporaliter ab eodem Eusebio lusus. [Antwerpen:] Martinus Caesar 1534. https://books.google.nl/books?id=VD44U0886h0C.</bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="unknown">
+                  <persName>Unknown</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <textClass>
+            <keywords>
+               <term type="genreTitle">comedy</term>
+            </keywords>
+            <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+         </textClass>
+         <creation>
+            <region>
+               <ref target="https://www.wikidata.org/wiki/Q476033">Low Countries</ref>
+            </region>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <standOff>
+      <listRelation>
+         <relation name="wikidata" active="https://dracor.org/entity/neolat000042"/>
+      </listRelation>
+      <listEvent>
+         <event type="print"
+                when="1532">
+            <desc/>
+         </event>
+      </listEvent>
+   </standOff>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart>
+               <lb/>PLAVSVS
+<lb/>LVCTIFICAE MORTIS
+<lb/>AD MODVM DIALOGI EXTEM-
+<lb/>poraliter ab Eusebio Candido lusus. Ad quem quique mortales inuitantur omnnes, cuius
+<lb/>cuius sint conditionis: quibusque
+<lb/>singulis Mors ipsa
+<lb/>respondet.
+</titlePart>
+         </docTitle>
+         <div type="prologue">
+            <sp who="#unknown">
+               <p>Luctificae Mortis plausum bene cernite cuncti.</p>
+               <p>Dum res laeta, mori et uiuentes discite, nanque</p>
+               <p>Omnes ex aequo tandem huc properare necessum.</p>
+            </sp>
+         </div>
+      </front>
+      <body>
+         <div type="act"
+              n="1">
+            <stage>Hic inducitur adolescens quaerens, &amp; mors vel philosophus respondens.</stage>
+            <sp who="#unknown">
+               <l part=""
+                  cert="unknown">Vita quid est hominis? Fumus super aera missus.</l>
+               <l n="5"
+                  part=""
+                  cert="unknown">Vita quid est hominis? Via mortis, dura laborum</l>
+               <l>Colluuies, uita est hominis uia longa doloris</l>
+               <l part=""
+                  cert="unknown">Perpetui. Vita quid est hominis? cruciatus et error.</l>
+               <l part=""
+                  cert="unknown">Vita quid est hominis? uestitus gramine multo,</l>
+               <l>Floribus et uariis campus, quem parua pruina</l>
+               <l n="10">Expoliat, sic uitam hominum mors impia tollit.</l>
+               <l>Quamlibet illa alacris, uegeta, aut opulentaue felix,</l>
+               <l>Icta cadet modica crede aegritudine mortis.</l>
+               <l>Et quamuis superes auro vel murice Croesum,</l>
+               <l>Longaeuum aut annis uiuendo Nestora uincas,</l>
+               <l n="15">Omnia mors aequat, uitae meta ultima mors est.</l>
+            </sp>
+            <stage>Imperator</stage>
+            <sp who="#unknown">
+               <l part=""
+                  cert="unknown">Quid fers? Induperator ego, et moderamina rerum</l>
+               <l part=""
+                  cert="unknown">Gesto manu. Domuit mors impia sceptra potentum</l>
+            </sp>
+            <stage>Rex Rhomanus.</stage>
+            <sp who="#unknown">
+               <l part=""
+                  cert="unknown">Quid fers? En ego Rhomulidum rex. Mors manet omnes.</l>
+            </sp>
+            <stage>PAPA</stage>
+            <sp who="#unknown">
+               <l>En ego pontificum primus, signansque resignans.</l>
+               <l n="20"
+                  part=""
+                  cert="unknown">Et coelos orcique locos. Mors te manet ergo.</l>
+            </sp>
+            <stage>Cardinalis.</stage>
+            <sp who="#unknown">
+               <l>Cardineo fulgens ego honore, et episcopus ecce</l>
+               <l>Mors manet ecce omnes, phrygeus quos pilleus ornat.</l>
+            </sp>
+            <stage>Episcopus</stage>
+            <sp who="#unknown">
+               <l>Insula splendidior uestit mea tempora, latum</l>
+               <l>Possideo imperium, multi mea iura tremiscunt.</l>
+               <l n="25">Me ditant fraudis docti, producere lites</l>
+               <l>Experti, aucupium docti nummorum, et auerni</l>
+               <l>Causidici, rixatores, rabulaeque forenses.</l>
+               <l>Hos ego respicio, nihil attendens animarum.</l>
+               <l>Ecclesiae mihi commissae populi ue salutem.</l>
+               <l n="30">Sed satis est duros loculo infarcisse Iabores</l>
+               <l>Agricolum, et magnis placuisse heroibus orbis.</l>
+               <l>Non tamen effugies mortis mala spicula durae.</l>
+            </sp>
+            <stage>Ecclesiae praelatus.</stage>
+            <sp who="#unknown">
+               <l>Ecclesiae praelatus ego multis uenerandus</l>
+               <l>Muneribus sacris, prouentibus officiorum.</l>
+               <l n="35">Comptior est uestis, poppina frequentior aede</l>
+               <l>Sacra, et psalmorum cantus mihi rarior ipso</l>
+               <l>Talorum crepitu, Veneris quoque uoce sonora.</l>
+               <l>Morte cades, annos speras ubi uiuere plures.</l>
+            </sp>
+            <stage>Canonicus</stage>
+            <sp who="#unknown">
+               <l part=""
+                  cert="unknown">En ego melotam gesto. Mors saeua propinquat.</l>
+            </sp>
+            <stage>Pastor</stage>
+            <sp who="#unknown">
+               <l n="40">En parochus quoque pastor ego, mihi dulce falernum</l>
+               <l>Notius aede sacra: scortum mihi charius ipsa</l>
+               <l part=""
+                  cert="unknown">Est animae cura populi. Mors te manet ergo.</l>
+            </sp>
+            <stage>Abbas</stage>
+            <sp who="#unknown">
+               <l>En abbas uenio, Veneris quoque uentris amicus.</l>
+               <l>Coenobij rara est mihi cura, frequentior aula</l>
+               <l n="45"
+                  part=""
+                  cert="unknown">Magnorum heroum. Chorea saltabis eadem.</l>
+            </sp>
+            <stage>Prior</stage>
+            <sp who="#unknown">
+               <l>En prior, ornatus longa et splendente cuculla,</l>
+               <l>Falce cades mortis. Mors aufert nomina honoris.</l>
+            </sp>
+            <stage>Pater vestalium</stage>
+            <sp who="#unknown">
+               <l>Nympharum pater ecce ego sum uentrosior, offis</l>
+               <l part=""
+                  cert="unknown">Pinguibus emacerans corpus. Mors te manet ipsa.</l>
+            </sp>
+            <stage>Vestalis nympha</stage>
+            <sp who="#unknown">
+               <l n="50">En monialis ego, Vestae servire parata.</l>
+               <l>Non te Vesta potest mortis subducere castris.</l>
+            </sp>
+            <stage>Legatus</stage>
+            <sp who="#unknown">
+               <l>Legatus uenio culparum uincla resoluens</l>
+               <l>Omnia pro auro, obiens coelum uendo, infera claudo,</l>
+               <l>Et quicquid patres sanxerunt, munere soluo.</l>
+               <l n="55">Iuribus a mortis non te legatio soluet.</l>
+            </sp>
+            <stage>Dominus doctor</stage>
+            <sp who="#unknown">
+               <l>Quid fers? Ecce sophus, diuina humanaque iura</l>
+               <l>Calleo, et a populo doctor Rabbique salutor.</l>
+               <l>Te manet expectans mors ultima linea rerum.</l>
+            </sp>
+            <stage>Medicus</stage>
+            <sp who="#unknown">
+               <l>En ego sum medicus, uitam producere gnarus,</l>
+               <l n="60">Venis lustratis morborum nomina dico.</l>
+               <l>Non poteris durae mortis uitare sagittas.</l>
+            </sp>
+            <stage>Astronomus</stage>
+            <sp who="#unknown">
+               <l>En ego stellarum motus et sydera noui,</l>
+               <l>Et fati genus omne scio praedicere coeli.</l>
+               <l>Non potis es mortis durae praescire sagittas.</l>
+            </sp>
+            <stage>Curtisanus</stage>
+            <sp who="#unknown">
+               <l n="65">En me Rhoma potens multis suffarsit onustum</l>
+               <l>Muneribus sacris, prouentibus, officiisque.</l>
+               <l>Non potes his mortis fugiens euadere tela.</l>
+            </sp>
+            <stage>Aduocatus</stage>
+            <sp who="#unknown">
+               <l>Causarum patronus ego, producere doctus</l>
+               <l>Lites, et loculos lingua uacuare loquaci.</l>
+               <l n="70">Non te lingua loquax mortis subducet ab ictu.</l>
+            </sp>
+            <stage>Iudex</stage>
+            <sp who="#unknown">
+               <l>Iustitiae iudex quia sum, sub plebe salutor.</l>
+               <l>Vertice me nudo populus ueneratur adorans.</l>
+               <l>Auri sacra fames peruertere saepe coegit</l>
+               <l part=""
+                  cert="unknown">Iustitiam. Mors te manet aequans omnia falce.</l>
+            </sp>
+            <stage>Praetor</stage>
+            <sp who="#unknown">
+               <l n="75">Praetor ego populi, me praeter nemo quid audet.</l>
+               <l>Accensor causis, per me stant omnia, nanque</l>
+               <l>Et dono et adimo uitam, cum rebus honorem.</l>
+               <l>Munere conspecto, quod iniquum est iure triumphat.</l>
+               <l>Emitto coruos, censura damno columbas.</l>
+               <l n="80">Hinc metuendus ero superis ereboque profundo.</l>
+               <l>Te manet expectans Erebus Plutoque cruentus.</l>
+            </sp>
+            <stage>Consul</stage>
+            <sp who="#unknown">
+               <l>Polleo consiliis, Consul dicorque salutor.</l>
+               <l>Munere conspecto, quod iniquum est consulo rectum,</l>
+               <l>Quod rectum est, flecto, nihil est quod nesciat auri</l>
+               <l>
+                  <foreign>85</foreign>Sacra fames, hinc ditor et undique fio opulentus.</l>
+               <l>Sed eris aeternum miser et mors impia tollet.</l>
+            </sp>
+            <stage>Causidicus</stage>
+            <sp who="#unknown">
+               <l>Causidicus ego sum, causas narrare peritus.</l>
+               <l>Accior in causas, sed spes ubi fulserit auri</l>
+               <l>Ad fraudes docta sollers utor bene lingua.</l>
+               <l n="90">Muto, commuto, iura inflecto atque reflecto.</l>
+               <l>Et nihil est quod non astu peruincere possim.</l>
+               <l>Mors aequa expectat properans te fulmine diro.</l>
+               <l>Nec poteris astu mortis praeuertere tela.</l>
+            </sp>
+            <stage>Scabinus</stage>
+            <sp who="#unknown">
+               <l>Ecce scabinus ego: scabo bursas, prorogo causas.</l>
+               <l n="95">Senatorque uocor, uulgus me poplite curuo,</l>
+               <l>Muneribusque datis ueneratur, fronte retecta.</l>
+               <l>Nil mortem meditor loculos quando impleo nummis</l>
+               <l>Et dito haeredes nummis, ui, fraude receptis.</l>
+               <l>Iustitiam nummis, pro sanguine, munere, uendo.</l>
+               <l n="100">Quod rectum est curuo, quod curuum est munere rectum</l>
+               <l>Efficio, per me prorsus stant omnia iura.</l>
+               <l>Non poteris durae mortis transire sagittas.</l>
+            </sp>
+            <stage>Ludimagister</stage>
+            <sp who="#unknown">
+               <l>En ego peruigili cura aeternoque labore,</l>
+               <l>Excolui iuuenum ingenia, et praecepta Mineruae</l>
+               <l n="105">Tradens consenui, cathedraeque piget sine fructu.</l>
+               <l>Quid dabitur fructus, tanti quae dona laboris.</l>
+               <l>Omnia mors aequans, uitae ultima meta laboris.</l>
+            </sp>
+            <stage>Miles auratus</stage>
+            <sp who="#unknown">
+               <l>Miles ego auratus, fulgenti murice et auro</l>
+               <l part=""
+                  cert="unknown">Splendidus in populo. Mors te manet omnia perdens.</l>
+            </sp>
+            <stage>Miles armatus.</stage>
+            <sp who="#unknown">
+               <l n="110">Miles ego armatus, qui bella ferocia gessi.</l>
+               <l>Nullius occursum expaui, quam durus et audax.</l>
+               <l>Ergo immunis ero. Mors te intrepida ipsa necabit.</l>
+            </sp>
+            <stage>Mercator</stage>
+            <sp who="#unknown">
+               <l>En ego mercator diues, maria omnia lustro</l>
+               <l part=""
+                  cert="unknown">Et terras, ut res crescant. Mors te metet ipsa.</l>
+            </sp>
+            <stage>Fuckardus</stage>
+            <sp who="#unknown">
+               <l n="115">En ego fuckardus, loculos gesto aeris onustos,</l>
+               <l>Omnia per mundum coëmens, uendo atque reuendo.</l>
+               <l>Heroës me sollicitant, atque aera requirunt.</l>
+               <l>Haud est me lato quisquam modo ditior orbe.</l>
+               <l>Mortis ego iura et frameas nihil ergo tremisco.</l>
+               <l n="120">Morte cades, mors te rebus spoliabit opimis.</l>
+            </sp>
+            <stage>Quaestor</stage>
+            <sp who="#unknown">
+               <l>Quaestor ego, loculos suffersi arcasque capaces</l>
+               <l>Est mihi praenitidis fundata pecunia uillis.</l>
+               <l>Hac diues redimam durae discrimina mortis.</l>
+               <l>Te mors praeripiet nullo exorabilis auro.</l>
+            </sp>
+            <stage>Nauclerus</stage>
+            <sp who="#unknown">
+               <l n="125">En ego nauclerus spaciosa per aequora uectus,</l>
+               <l>Non timui maris aut uenti discrimina mille.</l>
+               <l>Cymba tamen mortis capiet te quaeque uorantis.</l>
+            </sp>
+            <stage>Agricola</stage>
+            <sp who="#unknown">
+               <l>Agricola en ego sum, praeduro saepe labore,</l>
+               <l>Et uigili exhaustus cura, sudore perenni,</l>
+               <l n="130">Victum pertenuem quaerens, sine fraude doloque</l>
+               <l>Omnia pertentans, miseram ut traducere possim</l>
+               <l>Vitam, nec mundo me est infelicior alter.</l>
+               <l>Mors tamen eduri fiet tibi meta laboris.</l>
+            </sp>
+            <stage>Orator</stage>
+            <sp who="#unknown">
+               <l>Heroum interpres uenio, fraudique peritus.</l>
+               <l n="135">Bellorum strepitus compono, et bella reduco,</l>
+               <l>Meque petunt reges, populus miratur adorans.</l>
+               <l>Nulla abiget fraudi linguae ue peritia mortem.</l>
+            </sp>
+            <stage>Princeps belli</stage>
+            <sp who="#unknown">
+               <l>Fulmen ego belli, reges et regna subegi.</l>
+               <l>Victor ego ex omni praeduro quamlibet ecce</l>
+               <l n="140">Marte fui, uitae hinc timeo discrimina nulla.</l>
+               <l>Te mors confodiet cauda trigonis aquosi,</l>
+               <l>Atque eris exanimis moriens uno ictu homo bullae.</l>
+            </sp>
+            <stage>Diues</stage>
+            <sp who="#unknown">
+               <l>Sum rerum felix, foecunda est prolis et uxor,</l>
+               <l>Plena domus, laetum pecus, et cellaria piena</l>
+               <l n="145"
+                  part=""
+                  cert="unknown">Nil igitur metuo. Quid ais? mors te impia tollet.</l>
+            </sp>
+            <stage>Pauper.</stage>
+            <sp who="#unknown">
+               <l>Iro ego pauperior, Codroque tenuior omni,</l>
+               <l>Despicior cunctis, nemo est qui subleuet heu heu.</l>
+               <l>Hinc parcet ueniens mors: nam nihil auferet a me.</l>
+               <l>Non sic euades, ditem cum paupere tollit.</l>
+            </sp>
+            <stage>Foenerator</stage>
+            <sp who="#unknown">
+               <l n="150">Vt loculi intumeant auro, ui, fraude, doloque</l>
+               <l>Foenore nunc quaestum facio. furtoque rapinaque,</l>
+               <l>Vt proles ditem, passim dicarque beatus,</l>
+               <l>Per fas perque nefas corradens omnia quaero.</l>
+               <l>Mors ueniens furtim praedabitur, omnia tollens.</l>
+            </sp>
+            <stage>Adolescens.</stage>
+            <sp who="#unknown">
+               <l n="155">Sum iuuenis, forma spectabilis, indole gaudens</l>
+               <l>Maturusque aeui, nullus praestantior alter,</l>
+               <l>Moribus egregiis populo laudatus ab omni.</l>
+               <l>Pallida, difformis mors auferet omnia raptim.</l>
+            </sp>
+            <stage>Puella</stage>
+            <sp who="#unknown">
+               <l>P. Ecce puellarum pulcherrima, mortis iniquae</l>
+               <l n="160">Spicula nil meditor, iuuenilibus et fruor annis,</l>
+               <l>Meque proci expectant compti, facieque uenusti.</l>
+               <l>Stulta, quid in uana spe iactas? Mors metet omnes</l>
+               <l>Difformes, pulchrosque simul cum paupere dites.</l>
+            </sp>
+            <stage>Nuncius</stage>
+            <sp who="#unknown">
+               <l>P. Nuncius ecce ego sum, qui nuncia perfero pernix.</l>
+               <l n="165">Sed retrospectans post terga, pape audio quidnam?</l>
+               <l>Me tuba terrificans mortis uocat. Heu moriendum est.</l>
+            </sp>
+         </div>
+         <div type="epilogue">
+            <head>PERORATIO.</head>
+            <sp who="#unknown">
+               <l>Mortales igitur memores modo uiuite laeti</l>
+               <l>Instar uenturi furis, discrimine nullo</l>
+               <l>Cunctos rapturi passim ditesque inopesque.</l>
+               <l n="170">Stultus et insipiens uita qui sperat in ista,</l>
+               <l>Instar quae fumi perit, et cito desinit esse.</l>
+               <l>Fac igitur tota uirtuti incumbito mente,</l>
+               <l>Quae nescit mortem, sed scandii ad ardua coeli,</l>
+               <l>Quo nos a fatis ducat rex Iuppiter. Amen.</l>
+               <l>Plaudite nunc, animum cuncti retinete fauentes.</l>
+            </sp>
+            <stage>FINIS</stage>
+         </div>
+      </body>
+      <back>
+         <p>ANTVERPIAE</p>
+         <p>MARTINVS CAESAR</p>
+         <p>excudebat An. M.D.XXXIIII.</p>
+         <p>Mensis Decembris die sexto.</p>
+      </back>
+   </text>
+</TEI>
