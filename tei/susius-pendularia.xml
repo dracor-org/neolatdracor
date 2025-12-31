@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xml:id="neolat000154" xml:lang="lat" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI type="dracor" xml:id="neolat000154" xml:lang="lat" xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Drama comicum Pendularia</title>
+            <title type="sub">Drama comicum</title>
+            <title type="main">Pendularia</title>
             <author>
                <persName xml:lang="lat">Nicolaus Susius</persName>
                <idno type="wikidata">Q110215354</idno>
@@ -24,10 +25,8 @@
             <publisher xml:id="dracor">DraCor</publisher>
             <idno type="URL">https://dracor.org</idno>
             <availability>
-               <licence>
-                  <ab>CC0 1.0</ab>
-                  <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
-               </licence>
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0
+                  1.0</licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -52,8 +51,7 @@
                         pulcritudine B. Mariae Virg. Disceptatio quodlibetica, Poemata: Elegiae
                         Marianae, Lusus Anacreontei, Drama comicum.</title>
                      <pubPlace>Antwerpen</pubPlace>: <publisher>Heirs of Martinus Nutius</publisher>
-                     <date>1620</date>. <biblScope>pp. 241–275</biblScope>.
-                  </bibl>
+                     <date>1620</date>. <biblScope>pp. 241–275</biblScope>. </bibl>
                </bibl>
             </bibl>
          </sourceDesc>
@@ -2612,13 +2610,13 @@
       <back>
          <div type="epistle">
             <head>SVMMA PRIVILEGII.</head>
-            <p>ALBERTVS &amp; ISABELLA CLARA EVAGENIA, Archiduces Austriae,
-               Duces Burgundiae, Brabantiae, &amp;c. Serenissimi Belgarum
-               Principes, diplomate suo sanxerunt, ne quis Opuscula postuma R. P. Nicolai Susii
-               Soc. IESV praeter Martini Nutij Typographi voluntatem in Belgio
-               intra duodecennium imprimat, aut alibi impressa in has Inferioris Germaniae ditiones importet, venaliáue exponat. Qui secùs faxit,
-               confiscatione librorum &amp; aliis poenis grauioribus mulctabitur, vti latius patet in litteris datis Bruxellae ann. 1619. 3.
-               Octobris.</p>
+            <p>ALBERTVS &amp; ISABELLA CLARA EVAGENIA, Archiduces Austriae, Duces Burgundiae,
+               Brabantiae, &amp;c. Serenissimi Belgarum Principes, diplomate suo sanxerunt, ne quis
+               Opuscula postuma R. P. Nicolai Susii Soc. IESV praeter Martini Nutij Typographi
+               voluntatem in Belgio intra duodecennium imprimat, aut alibi impressa in has
+               Inferioris Germaniae ditiones importet, venaliáue exponat. Qui secùs faxit,
+               confiscatione librorum &amp; aliis poenis grauioribus mulctabitur, vti latius patet
+               in litteris datis Bruxellae ann. 1619. 3. Octobris.</p>
             <closer><signed>Signat I. Cools.</signed></closer>
          </div>
       </back>
