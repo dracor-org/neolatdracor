@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xml:id="neolat000006"
-     xml:lang="lat"
-     xmlns="http://www.tei-c.org/ns/1.0">
+<TEI type="dracor" xml:id="neolat000006" xml:lang="la" xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Felicitas tragoedia</title>
+            <title type="main">Felicitas</title>
+            <title type="sub">Tragoedia</title>
             <author>
-               <persName xml:lang="lat">Nicolaus Caussinus</persName>
+               <persName xml:lang="la">
+                  <forename>Nicolaus</forename>
+                  <surname>Caussinus</surname>
+               </persName>
                <idno type="wikidata">Q3340181</idno>
-               <idno type="pnd">118668846</idno>
+               <idno type="gnd">118668846</idno>
             </author>
             <respStmt>
                <resp>Transcribed by</resp>
@@ -23,13 +25,8 @@
                <resp>Converted to TEI by</resp>
                <persName>Kateřina Bobková-Valentová</persName>
             </respStmt>
-            <funder>
-               <orgName>Dutch Research Council (NWO)</orgName>
-               <name>NWO Open Competition SSH</name>
-            </funder>
          </titleStmt>
          <publicationStmt>
-            <authority>Huygens Institute</authority>
             <publisher xml:id="dracor">DraCor</publisher>
             <idno type="URL">https://dracor.org</idno>
             <availability>
@@ -41,54 +38,55 @@
          </publicationStmt>
          <sourceDesc>
             <bibl type="digitalSource">
-               <name>TransLatin Project</name>
-               <idno type="URL">https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Caussin-Felicitas.docx</idno>
-               <availability status="free"/>
-               <bibl type="originalSource">Nicolas Caussin: Felicitas. In: Tragoediae Sacrae. Cologne: Johann Kinckius 1621. pp. 175–261. https://books.google.com/books?id=RG4UAAAAQAAJ.</bibl>
+               <ref
+                  target="https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Caussin-Felicitas.docx"
+                  >TransLatin</ref>
+               <availability status="free">
+                  <p>In the public domain.</p>
+               </availability>
+               <bibl type="digitalSource">
+                  <ref target="https://books.google.com/books?id=RG4UAAAAQAAJ">Google Books</ref>
+                  <availability status="free">
+                     <p>In the public domain.</p>
+                  </availability>
+                  <bibl type="originalSource"><author>Nicolas Caussin</author> :
+                        <title>Felicitas</title> . In: <title>Tragoediae Sacrae</title> .
+                        <pubPlace>Cologne</pubPlace> : <publisher>Johann Kinckius</publisher>
+                     <date>1621</date>. <biblScope>pp. 175–261</biblScope>.</bibl>
+               </bibl>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person sex=""
-                       role=""
-                       xml:id="avr">
-                  <persName>AVR.</persName>
+               <person xml:id="anicetus" sex="MALE" role="pontifex">
+                  <persName>ANICETVS</persName>
                </person>
-               <person sex=""
-                       role=""
-                       xml:id="avrel">
-                  <persName>AVREL.</persName>
+               <person xml:id="apollo" sex="MALE">
+                  <persName>APOLLO</persName>
                </person>
-               <person sex=""
-                       role=""
-                       xml:id="fel">
-                  <persName>FEL.</persName>
+               <person xml:id="aurelius" sex="MALE" role="imperator"
+                  ana="https://www.wikidata.org/wiki/Q1430">
+                  <persName>M. AURELIUS</persName>
                </person>
-               <person sex=""
-                       role=""
-                       xml:id="felic">
-                  <persName>FELIC.</persName>
+               <person xml:id="crispus" sex="MALE" role="nobilis">
+                  <persName>CRISPVS</persName>
                </person>
-               <person sex=""
-                       role=""
-                       xml:id="ianv">
-                  <persName>IANV.</persName>
+               <person xml:id="evagrius" sex="MALE" role="sacerdos">
+                  <persName>EVAGRIVS</persName>
                </person>
-               <person sex=""
-                       role=""
-                       xml:id="mar">
-                  <persName>MAR.</persName>
+               <person xml:id="felicitas" sex="FEMALE" ana="https://www.wikidata.org/wiki/Q257960">
+                  <persName>FELICITAS</persName>
                </person>
-               <person sex=""
-                       role=""
-                       xml:id="mart">
-                  <persName>MART.</persName>
+               <person xml:id="ianuarius" sex="MALE">
+                  <persName>IANVARIVS</persName>
                </person>
-               <person sex=""
-                       role=""
-                       xml:id="unknown">
+               <person xml:id="martialis" sex="MALE">
+                  <persName>MARTIALIS</persName>
+               </person>
+               <person xml:id="pontifex-idolorum" sex="MALE" role="pontifex"/>
+               <person xml:id="unknown">
                   <persName>Unknown</persName>
                </person>
             </listPerson>
@@ -107,2556 +105,803 @@
       </profileDesc>
    </teiHeader>
    <standOff>
-      <listRelation>
-         <relation name="wikidata"
-                   active="https://dracor.org/entity/neolatXXXXXX"/>
-      </listRelation>
       <listEvent>
-         <event type="print"
-                when="1621">
-            <desc/>
+         <event type="print" when="1620">
+            <desc>first edition</desc>
          </event>
       </listEvent>
    </standOff>
    <text>
       <front>
-         <titlePage>
-            <lb/>TRAGOE=
-<lb/>DIAE SACRAE
-<lb/>AVTHORE
-<lb/>P. NICOLAO CAVSSINO
-<lb/>TRECENSI, SOCIETATIS
-<lb/>IESV PRESBYTERO.
-<lb/>COLONIAE AGRIPPINAE,
-<lb/>Apud IOANNEM KINCHIVM
-<lb/>sub Monocerote.
-<lb/>ANNO M.DC.XXI.
-</titlePage>
          <docTitle>
-            <titlePart>
-               <lb/>FELICITAS TRAGOEDIA.
-<div type="argument">
-                  <head>ARGVMENTVM.</head>
-                  <lb/>MVLIEREM fortem damus in hac Tragoedia. Haec est Felicitas, quae à S. Chrysologo appellatur
-<lb/>Mater luminum, fons dierum, quae septenario corusco germinis sui toto orbe splendet. Felix quae meruit portare tot virtuum pignora, quot illa arca praeceptorum &amp; vt illa volumina sacrata gestauit:
-<lb/>verbo, ita haec doceret exemplo.
-<lb/>Passi sunt Martyres sub M. Aurelio Antonino, &amp; Praeside Publio, matre singulos nauiter hortante. Discurrebat enim, vt ait os illud aureum, laetior inter confossa cadauera, quàm inter cunabula chara filiorum, quia internis oculis tot cernebat brauia, quot vulnera: quot tormenta, tot praemia: quot victimas, tot coronas. Ipsa deinde cùm sua membra praemisisset coelo, interiectis aliquot mensibus, agonem martyrij consummauit.
-<head>Oeconomia Tragoediae.</head>
-                  <head>ACTVS PRIMVS.</head>
-                  <lb/>ANiceto summo Pontifici procellam crudelitatis, quae in Christianos toto iam orbe detonuerat, cum Euagrio grauissimè deplorunti, afferuntur per Crispum nobilem Palatinum à S. Felicitate iam cum filijs captiuâ literae, quibus ille suauissimo caritatis sensu delibutus, Martyres se inuisurum pollicetur. Interim Pontifex idolorum, &amp; Apollo Procus acerbissimâ iracundiâ in Felicitatem commoti, tum quòd ritus Ethnicorum Pontificum damnaret, tùm quòd Virginibus castimoniam suaderet, apud M. Aurelium Imperatorem Martyrum caedem versuto consilio machinantur.
-<head>ACTVS SECVNDVS.</head>
-                  <lb/>Aurelius Imperator, vt erat leni ingenio, rem mollioribus consilijs adortus, sibi Felicitate sisti iubet,
-<lb/>cui constantiâ frustrà per blanditias tentatâ, tres natu minores filios aduocat, quos à matre anteà corroboratos, cùm varijs verborum lenocinijs à Christianis sacris auocare conatus esset, mox reluctantes cum delicato nobilium grege in aulam interiorem mittit. Quatuor deinde reliquos natu maiores inter pompae &amp; ludorum, qui tùm exhibebantur, celebritatem deliciis &amp; muneribus peruertere nititur: recusantibus, fratres ait iam sacrificasse: quod illi confictum scelus dum execrantur, repentè Germani in eorum complexum aduolant, omnesque vnà in carcerem remittuntur.
-<head>ACTVS TERTIVS.</head>
-                  <lb/>IMperatori de Martyrum supplicto deliberanti Pontifex &amp; Apollonius crudelissimi consilij faces ingerunt. Ille Publio vrbis Praefecto rem disceptandam tradit; qui &amp; suo ingenio saeuus &amp; aliorum consilijs stimulatus, Felicitatem in forum Martis produci, ibique thus adolere praecipit: Sed dum illa oraret, tactâ de coelo Martis statuâ funesti daemones exiliunt. Publius commotior factus, illustrem matronam ad palum alligari, &amp; à militibus vexari iubet. Mox eius septem filios parentu hortatu in fide constantes acerbissimè torqueri, &amp; cruentari sub ipsius matris oculis imperat, vulneribus deinde deformatos retrudit in carcerem.
-<head>ACTVS QVARTVS.</head>
-                  <lb/>Ontifice idolorum, &amp; Apollonio, lingua flabello inuidia flammam ventilantibus, capitalis ab Imperatore fertur in Martyres sententia, resque Publio, &amp; caeteris iudicibus transigenda committitur. Anicetus summus Pontifex noctu Martyres inuisit in carcere, quos iam gloriosis, vulneribus illustres, &amp; proximae morti destinatos suauissimè deosculatus ad constantiam hortatur. Carcer interim magno splendore collustratur, &amp; coelesti voce Martyres ad supremam necessitatem animantur. Crispus dum inter amplexus Martyrum diuturnas moras trahit, à Publio deprehenditur, &amp; in vincula conijcitur.
-<head>ACTVS QVINTVS.</head>
-                  <lb/>Eptem fratres vno animo, diuersis verò supplicijs gloriosissimum agonem claudunt. Et primùm quidem Publius Ianuarium septem fratrum natu maximum ad seaccersitum cruciari iterum iubet, donec inter plumbatas paulatim exhauriat spiritum. Mox illato iuuenis corpore adhuc spirante. Felicem, &amp; Philippum frustrà mortis impedentis metu terrere conatur; ambo enim ex demortui fratris complexibus alacritres ad supplicium deuolant, &amp; fustuario mactantur. Matri deinde tria filiorum cadauera obijciuntur, quae summâ suauitate complexa, quartum nomine Syluanum praecipitio interficiendum dimittit ad necem. His funeribus interueniens M. Aurelius matrem suauissimis verbis mulcet, vt tres natu minores adhuc superstites è mortis faucibus eripiat: Verùm hortante matre iuuenes securibus percussi illustrissimum certamen sub ipsius conspectu conficiunt, &amp; mox ex caelesti nube conspicuae demortuorum animae parentem suauissimè consolantur. Illa Imperatoris iussu catenis iniectis martyrio, quod aliquo post tempore consummauit, destinatur.
-<castList>
-                     <head>PERSONAE.</head>
-                     <lb/>
-                     <role>ANGELVS.</role>
-                     <lb/>
-                     <role>ANICETVS</role>
-                     <roleDesc>summus Pontifex.</roleDesc>
-                     <lb/>
-                     <role>EVAGRIVS</role>
-                     <roleDesc>Sacerdos.</roleDesc>
-                     <lb/>
-                     <role>FELICITAS.</role>
-                     <lb/>
-                     <role>IANVARIVS.</role>
-                     <lb/>
-                     <role>FELIX.</role>
-                     <lb/>
-                     <role>PHILIPPVS.</role>
-                     <lb/>
-                     <role>SILVANVS,</role>
-                     <roleDesc>filij S. Felicitatis.</roleDesc>
-                     <lb/>
-                     <role>ALEXANDER.</role>
-                     <lb/>
-                     <role>VITALIS.</role>
-                     <lb/>
-                     <role>MARTIALIS.</role>
-                     <lb/>
-                     <role>M. AVRELIVS</role>
-                     <roleDesc>Antoninus Imper.</roleDesc>
-                     <lb/>
-                     <role>PONTIFEX idolorum</role>
-                     <roleDesc>.</roleDesc>
-                     <lb/>
-                     <role>PVBLIVS</role>
-                     <roleDesc>Praefectus.</roleDesc>
-                     <lb/>
-                     <role>APOLLONIVS</role>
-                     <roleDesc>Consiliarius Imp.</roleDesc>
-                     <lb/>
-                     <role>APOLLO</role>
-                     <roleDesc>Procus hostis Christian.</roleDesc>
-                     <lb/>
-                     <role>CRISPVS</role>
-                     <roleDesc>Nobilis occultus Christianus.</roleDesc>
-                     <lb/>
-                     <role>CHORVS.</role>
-                  </castList>
-                  <head>ARGVMENTVM HEROICO VERSV REDDITVM.</head>
-                  <lb/>MAgnanimos canimus iuuenes, &amp; prodiga vitae
-<lb/>Pectora, quae pietas ardens euexit Olympo.
-<lb/>Dum commota acies Erebi de sedibus imis
-<lb/>Infundunt sese terris, &amp; turbine mundum
-<lb/>Fumantem piceo perflant, immane sub auras
-<lb/>Extulit Alecto caput, ac foecunda cerastis
-<lb/>Tempora, &amp; horrificos incussit nubibus ignes.
-<lb/>Tum fremere in sanctos toto Mars impius orbe,
-<lb/>Tum caedem &amp; ceadis crudeles voluere poenas,
-<lb/>Omniaque ingenti secum agglomerare ruinâ
-<lb/>Vnus in exilium miseris non sufficit orbis,
-<lb/>Noricia in gladios, gladijque in vulnera desunt.
-<lb/>Hos inter motus, media inter fulmina surgunt
-<lb/>Septeni fratres, vnius pignora lecti,
-<lb/>Nec genus indecores, nec magna lucis egeni.
-<lb/>Hos non Attalico moles operosa metallo,
-<lb/>Non aulae blanditus honos, traductaque longis
-<lb/>Nobilitas atauis, non mellea pocula Circes,
-<lb/>Non vita tardauit amor: dura omnia circum
-<lb/>Exhausêre animas, cùm nondum prima iuuenta
-<lb/>Pingeret aspersas dulci lanugine malas.
-<lb/>Astitit in letho mater, sua viscera vidit
-<lb/>Discerpi exultans, natorum corpora septem
-<lb/>Obtulit in mortes, &amp; tunc peperisse putauit.
-<lb/>Qualis Olympiacae quem dulcis Gloria palmae
-<lb/>Sollicitat, stimulosque agitat sub pectore virtus,
-<lb/>Per plagas pretiosa animae dispendia tendit:
-<lb/>In decus, hinc trunco persistit corpore firmus,
-<lb/>Et vitam &amp; laudem non vno in vulnere linquit.
-<lb/>Talis vbi exhausit caelestis semina flammae
-<lb/>Heroina, graues animo stat voluere casus,
-<lb/>Et vitam aetherea pro Relligione pacisci.
-<lb/>Scinditur in partes per septem funera viuax,
-<lb/>Heu septem in natis nunquam totiesque sepulta
-<lb/>Fortunata parens, si quid mea carmina possunt,
-<lb/>Audiat hoc aether, responset vocibus aether.
-<lb/>Dum musa atroci toties incincta cothurno
-<lb/>Tantorum annales feruet sudare laborum.
-<lb/>Da faciles inuicta vias, &amp; carmina defer,
-<lb/>Qua fulgent natorum ignes, coeloque recepti,
-<lb/>Auspice te mites ducunt per sydera pompas.
-</div>
-               <lb/>FELICITAS TRAGOEDIA
-</titlePart>
+            <titlePart type="main">FELICITAS</titlePart>
+            <titlePart type="sub">TRAGOEDIA.</titlePart>
          </docTitle>
-      </front>
-      <body>
-         <div type="act"
-              n="1">
-            <head>ACTVS PRIMVS.</head>
-            <stage>ANICETVS PONTIFEX. EVAGRIVS COMES PONtificis, Crispus nobilis Christianus.</stage>
-            <div type="argument">
-               <p>Pontifex luget Ecclesiae cruciatus, opem à Deo flagitat, nuncios accipit de S. Felicitatis carcere.</p>
-               <p>SVpreme regum, lucis aeterna pater</p>
-               <p>Qui templa coeli, &amp; syderum ardentes globos,</p>
-               <p>Radijsque cinctam iugibus Phoebi rotam</p>
-               <p>Potente dextra voluis, haec lentus vides?</p>
-               <p>Lentusque pateris? foederis sancti immemor</p>
-               <p>Nurum beatam despicis sponsam poli,</p>
-               <p>Quam sibi marita filius iunxit face?</p>
-               <p>Aspicis vt antro Ditis emissus furit</p>
-               <p>Turbo malorum, &amp; fatum ineluctabile</p>
-               <p>Nodos sequaces in nouas poenas trahit?</p>
-               <p>In nostra ludit funera ingenium ferox.</p>
-               <p>Nerui, flagella, taurea, sartagines,</p>
-               <p>Cippi, columbar, culei, flammae cruces,</p>
-               <p>Catasta, eculeus, vngula, pontus, fera</p>
-               <p>Sunt leuia, ni iam parturit segetem nouam</p>
-               <p>Tartarea diris pestibus foelix plaga.</p>
-               <p>Nostro cruentus sanguine exundat Tybris,</p>
-               <p>Lacerata foedè membra praetexunt solum.</p>
-               <p>Et digna coelo corpora heu! canibus iacent</p>
-               <p>Obiecta praeda, sed feri indulgent canes,</p>
-               <p>Et praedam adorant, quam truces laniant viri.</p>
-               <p>Sator verende cerne sacrilegam manum:</p>
-               <p>Nostra impiatam caede fer miseris opem.</p>
-               <p>Tandem furores impios, tandem Excetrae</p>
-               <p>Rabiem retunde. &amp; regna fortuna aetheris:</p>
-               <p>Nam picta solus fraena moderaris poli,</p>
-               <p>Te pulchri ocelli syderum irradiant, tibi</p>
-               <p>Pennata coelo militat diuùm cohors:</p>
-               <p>Te sempiternum gloriae cingit decus,</p>
-               <p>Ditatque cultu floreo ridens honos.</p>
-               <p>Te te scelesti, &amp; fulmen excussum polo</p>
-               <p>Tandem pauebunt, cùm rubris cinctus rogis</p>
-               <p>Metes phalangas aereflorentes truci.</p>
-               <p>Olim sequaces Barbari Nili rotae</p>
-               <p>Alta sepulta vortice vltoris sili</p>
-               <p>Sensêre tergo regna vertentem manum.</p>
-               <p>Et nunc malorum discute instantes globos,</p>
-               <p>Et redde lucis aureae vultum tuis.</p>
-               <p>
-                  <speaker>EVAG</speaker>. Parens verende, proximum coelo caput,</p>
-               <p>Solare curas, pectoris vulnus doma.</p>
-               <p>Optatus albis veniet euectus rotis</p>
-               <p>Dies, dolorum meta, &amp; auspicium boni</p>
-               <p>Dulce insequentis: fata si vatum manent</p>
-               <p>Immota, veniet inclytum terris caput,</p>
-               <p>Princeps pudici mite praesidium chori,</p>
-               <p>Qui Christianis ritè perfusus sacris,</p>
-               <p>Graeci furoris franget indomitas faces,</p>
-               <p>Totamque gremio colliget Christi domum.</p>
-               <p>Sic post feroces Africi ingentis minas,</p>
-               <p>Post nigra coeli praelia, &amp; nimbes graues,</p>
-               <p>Diffusa longis brachia extendit plagis,</p>
-               <p>Pictos honores illigans Iris polo.</p>
-               <p>Sic quandò missus feruet ex venis cruor,</p>
-               <p>Bullitque toto largius riuo fluens,</p>
-               <p>Si forte Iaspin sedula admouit manus,</p>
-               <p>Repentè sistit sanguis &amp; sidit dolor.</p>
-               <p>Sed ecce Crispus nubilo moestus stupet.</p>
-               <p>
-                  <speaker>ANICETVS</speaker>. Effare iuuenis, quod nouum portas scelus?</p>
-               <p>
-                  <speaker>CRISPVS.</speaker>Occidimus omnes, saeua tempestas minas</p>
-               <p>
-                  <milestone unit="speech"/>Intentat. <speaker>ANI</speaker>. <milestone unit="speech"/>Eheu quis nouus serpit furor?</p>
-               <p>
-                  <speaker>CRISPVS.</speaker>Lassata nondum cladibus nostris hydra</p>
-               <p>Sitit cruorem, faucibus siccis hians.</p>
-               <p>
-                  <speaker>A</speaker>
-                  <speaker>N</speaker>
-                  <speaker>ICET</speaker>. Effare tandem, quod nouum fulmen tonat?</p>
-               <p>
-                  <speaker>CRISPVS.</speaker>Carcere tenetur impio Felicitas.</p>
-               <p>
-                  <speaker>ANIC.</speaker>Felicitas? ô feminae pectus! bene est:</p>
-               <p>Haec mox verendos martyres coelo dabit.</p>
-               <p>
-                  <speaker>CRISPVS.</speaker>Animosa proles matris egregia latus</p>
-               <p>
-                  <milestone unit="speech"/>Stipat. <milestone unit="speech"/>
-                  <speaker>ANIC.</speaker>beatus martyrum coetus pio</p>
-               <p>Ibis per astra praepes euectus iugo</p>
-               <p>
-                  <speaker>CRISPVS.</speaker>Nunc exaratas ocyus per me tibi</p>
-               <p>Mittunt tabellas, &amp; tuam implorant opem.</p>
-               <p>
-                  <speaker>ANICET.</speaker>O Christe nondum nostra mergetur ratis!</p>
-               <p>Generosa mater masculum superas decus.</p>
-               <p>O lecta iuuenum pectora! ô germen sacrum.</p>
-               <p>Dulces tabellae, vos pijs lachrymis rigo.</p>
-               <p>Ibo, ibo, visam carceris nigras domos.</p>
-               <p>
-                  <speaker>CRIS.</speaker>Sed ecce prodit famulus impurios louis,</p>
-               <p>Et machinatur monstra furiosus noua,</p>
-               <p>Excede praesul, solus hic quicquid paras</p>
-               <p>Inter furores, aure suspensa legam.</p>
-               <stage>PONTIFEX IDOLORVM; APOLLO PROCVS Erinnae Christianae Virginis,</stage>
-               <p>Machinantur S. Felicitatis interitum.</p>
-               <p>GAlilaea soboles, vomica recutiti gregis.</p>
-               <p>Inuisa diuis saeculi labes tui,</p>
-               <p>Etiamne bella caelitum misces choris?</p>
-               <p>Lerna Chelydre, flamma numerosi mali,</p>
-               <p>Multiplicatis pullulas ceruicibus;</p>
-               <p>Enecta crescis, orescis in clades tuas.</p>
-               <p>Si fulminantis dextra sic cessat louis,</p>
-               <p>Mouebo dira monstra tartarea plaga,</p>
-               <p>Totumque sede Taenarum euellam sua,</p>
-               <p>Vt te ruinis opprimat: num debui</p>
-               <p>Mactare ad aras gentis infandae greges,</p>
-               <p>Miscere natis impios artus patrum,</p>
-               <p>Largo cruore, spargere incestas dapes.</p>
-               <p>Si feriantur in malis tantis Dei,</p>
-               <p>En culter, ecce sica de sacris calens;</p>
-               <p>Qua cupida fodiat gentis Hebraeae latus.</p>
-               <p>Artus cruore perlitos scindam suo,</p>
-               <p>Rimabor exta, visceribus inhians sacris,</p>
-               <p>Flammisque tradam cupita scelerosae luis,</p>
-               <p>Et vstulata membra diripiam foco.</p>
-               <p>Vt hac Latini gaudeant praeda canes.</p>
-               <p>
-                  <speaker>CRISPYS</speaker>. Animum aestuantem fluctibus varijs rege.</p>
-               <p>Consilia rarò dubia promouit furor.</p>
-               <p>
-                  <speaker>APOL.PRO</speaker>
-                  <speaker>C</speaker>
-                  <speaker>.</speaker>Bene est, tenetur praeda nexilibus plagis,</p>
-               <p>Mactanda diuis hostia in casses ruit.</p>
-               <p>Ego vt supinae mentis extinctas faces</p>
-               <p>Marcere patiari sorbeam crudum scelus.</p>
-               <p>Despectus, exspes vilis, irrisus, vagus,</p>
-               <p>Hiante semper gutture includam famem?</p>
-               <p>Nempe illa casta, quam mihi spondet Venus</p>
-               <p>Petita quondam forma nobilibus procis,</p>
-               <p>Felicitatis hausit afflatam luem;</p>
-               <p>Et sub magistra desipit maius nefas.</p>
-               <p>Repudia thalamis nunciat?namque aetheris</p>
-               <p>Flagrare primis ignibus coepit rudis,</p>
-               <p>Exosa terras quaerit in coelo procos.</p>
-               <p>Nempe illi amores credo sollicitant deos.</p>
-               <p>Ego probrosis lectus insidijs? ego.</p>
-               <p>Per fraudulentos qualis &amp; quantus petor</p>
-               <p>Ventosum amoris nomen, &amp; spectrum fugax</p>
-               <p>Quas &amp; quàm atroces fabula in scenas agor!</p>
-               <p>Adeone credit mentis extritum decus</p>
-               <p>Erinna, credit vindices flammas agi</p>
-               <p>Per fletum inanem spirat aeternùm dolor,</p>
-               <p>Vindictam, &amp; iras non capit cordis salum.</p>
-               <p>I, verte caecis, verte fumantem ignibus</p>
-               <p>Lectum iugalem, perque sacrificas preces</p>
-               <p>Immitte sicam, victima haec Veneri cadat</p>
-               <p>Opulenta furtis, talis hymenaeus iuuat</p>
-               <p>Rabidum dolorem! nigra lucebit face.</p>
-               <p>Megaera thalamis, sanguinis rore ebrios,</p>
-               <p>Postes Erynnis perluet. Quò te rapis?</p>
-               <p>Quid illa meruit? facinus alienum fuit.</p>
-               <p>Erinna viuat, viuat &amp; victrix mei.</p>
-               <p>Vt illa viuat scilicet? casta, integra.</p>
-               <p>Et spolia nostri appensa riuali thoro</p>
-               <p>Ostentet? amens, ebrius &amp; vacuus tui,</p>
-               <p>Adeone ferri lenta torpescit sitis?</p>
-               <p>Morietur. O dij? nesciat dextra hoc nefas,</p>
-               <p>Felicitatis scilicet totam hanc tibi</p>
-               <p>Telam doloris artifex neuit manus.</p>
-               <p>Actum est, petatur, quà iubet dulcis furor.</p>
-               <p>Per latera septem liberûm in matrem impiam</p>
-               <p>Ferrum exigatur: non leuem ludum apparo.</p>
-               <p>
-                  <speaker>PONT.</speaker>O dulce gentis lumen, &amp; columen tuae!</p>
-               <p>O qui deorum numen aeternum colis!</p>
-               <p>Da fidum amoris pignus hanc dextram tui,</p>
-               <p>Hac Christianos dextera perge, opprime.</p>
-               <p>
-                  <speaker>APOLLO.</speaker>Sed mansuetas Caesar hic aures habet.</p>
-               <p>
-                  <speaker>PONT.</speaker>Est incitandus.</p>
-               <p>
-                  <speaker>APOLLO.</speaker>Non leues iras capit,</p>
-               <p>Statimque pectus frangitur clementia.</p>
-               <p>
-                  <speaker>PONT.</speaker>At est verendi numinis cultor pius,</p>
-               <p>Regnique vindex. &amp; suae plebis pater,</p>
-               <p>Nostras querelas audiet; certè audiet,</p>
-               <p>Si cura regni tangit &amp; superum decus.</p>
-               <p>
-                  <speaker>APOLL.</speaker>Adeamus, ecce prome verborum faces.</p>
-               <p>Quascunque poteris, te louis numen regit:</p>
-               <p>Ego arte quicquid potero perficiam mea.</p>
-               <stage>MARCVS AVRELIVS IMP. APOLLO, PONTIFEX,</stage>
-               <p>Suadent Imperatori Christianorum caedem.</p>
-               <p>
-                  <speaker>M.AVR.</speaker>HOnesta regnum seruitus, blandum malum.</p>
-               <p>„Quem fors ad arces gemmeo vexit iugo.</p>
-               <p>„Terrisque pro se Iuppiter numen dedit,</p>
-               <p>„Aurea feroci sceptra moderatur manu;</p>
-               <p>„Lucet smaragdis, purpurae irradiat face,</p>
-               <p>„Et iura dicit, imperat, seruit tamen.</p>
-               <p>Aetnaa sic nos pondera imperij premunt.</p>
-               <p>Si me Gelonis fata fecissent ducem,</p>
-               <p>Aut fors habenas gentis Arsacidum daret,</p>
-               <p>Hoc esse regem crederent ciues mei,</p>
-               <p>Si mihi tiaras barbara pictus manu</p>
-               <p>Ebrias amomo lamberet in orbem comas;</p>
-               <p>Si mihi superbum cingeret miles latus,</p>
-               <p>Saeuisque ferri texeret radijs diem.</p>
-               <p>„Non est Quirini luxus Imperij nota.</p>
-               <p>„Decore certet pauo gemmanti nitens,</p>
-               <p>Pictosque honores diuitis cauda explicet:</p>
-               <p>Virtute par est Martium niti genus;</p>
-               <p>Testor verendi numen aeternum Iouis,</p>
-               <p>Qui cuncta regno regna grauiori premit,</p>
-               <p>Haec prima spirat cura visceribus meis.</p>
-               <p>
-                  <speaker>APOLLON.</speaker>Magnanime Caesar, gentis &amp; votum tuae,</p>
-               <p>Si quando terras Iupiter spectat, poli</p>
-               <p>Sedens in arce, te videt numen pium,</p>
-               <p>Tantoque gaudet principe, &amp; lentus bibit</p>
-               <p>Diuûm liquorem, Iupiter coelo imperat,</p>
-               <p>Marcusque terras sub Iouis nutu regit.</p>
-               <p>
-                  <speaker>PONT.</speaker>Commune mundi lumen, &amp; caeli decus,</p>
-               <p>Sat multa nomen posteris tradent tuum,</p>
-               <p>Quod rumor alba gemmeus penna vehet:</p>
-               <p>Sed sola pietas inserit coelo viros.</p>
-               <p>
-                  <speaker>AVREL.</speaker>Me prima tangit cura coelicolae Iouis,</p>
-               <p>
-                  <speaker>PONT.</speaker>Tangit (fatemur) sacra Pontificum cohors.</p>
-               <p>Tuo se in ostro pascit, &amp; per te viget</p>
-               <p>Cultus deorum, &amp; sacra maiestas louis:</p>
-               <p>Sed Christiani gentis inuisae probra</p>
-               <p>Grassantur in te, &amp; iura Romulidum patris.</p>
-               <p>
-                  <speaker>AVREL.</speaker>Sunt comprimendi fortiter.</p>
-               <p>
-                  <speaker>PONT.</speaker>Rectè imperas.</p>
-               <p>Tenentur, ecce poena iam sceleri patet.</p>
-               <p>
-                  <speaker>AVREL.</speaker>Cùm puniuntur, morte pubescent sua</p>
-               <p>
-                  <speaker>APOLLON.</speaker>At flamma pubem comprimet, ne se efferat.</p>
-               <p>
-                  <speaker>AVREL.</speaker>Si flamma &amp; ensis, quis locus clementiae?</p>
-               <p>
-                  <speaker>APOLLON.</speaker>Hostes Deorum non manet clementia.</p>
-               <p>
-                  <milestone unit="speech"/>Sunt Christiani. <speaker>AVREL.</speaker>
-                  <milestone unit="speech"/>Sunt tamen, credo, viri.</p>
-               <p>
-                  <speaker>PONT.</speaker>Sed foediores tigribus, &amp; vrsis viri.</p>
-               <p>
-                  <speaker>AVREL.</speaker>Saeuire in vrsos &amp; tigres non est meum.</p>
-               <p>
-                  <speaker>PONT.</speaker>Diuos tueri munus est, munus: tuum.</p>
-               <p>„ <speaker>AVREL.</speaker>Dij mente gaudent integra, non sanguine.</p>
-               <p>
-                  <speaker>APOL</speaker>Cruor impiorum maximum est epulum Iouis.</p>
-               <p>
-                  <speaker>AVREL.</speaker>Seruare puras Pontifex debet manus.</p>
-               <p>
-                  <speaker>APOLL.</speaker>Sacrare diti Pontifex debet reos.</p>
-               <p>
-                  <speaker>AVREL.</speaker>Cum poena prodest multò supplicijs reos.</p>
-               <p>
-                  <speaker>PON.T.</speaker>
-                  <milestone unit="speech"/>Haec poena prodest. <speaker>AVREL.</speaker>
-                  <milestone unit="speech"/>Christianorum gregi,</p>
-               <p>Qui morte crescunt, excetra sontis caput.</p>
-               <p>
-                  <speaker>APOLL.</speaker>
-                  <milestone unit="speech"/>Nemo reuixit mortuus. <speaker>AVREL.</speaker>
-                  <milestone unit="speech"/>sed mortuus</p>
-               <p>Cinis, vt videtis, segete pubescit noua.</p>
-               <p>
-                  <speaker>APOLLO.</speaker>Ferro domari, &amp; facibus hic tandem potest.</p>
-               <p>„<speaker>AVREL.</speaker>Violenta nunquam profuerunt iussa, sed</p>
-               <p>
-                  <milestone unit="speech"/>„Moderata durant. <speaker>PONT.</speaker>
-                  <milestone unit="speech"/>Quis modus geti impiae,</p>
-               <p>Quae iura diuûm crimine incestat fero?</p>
-               <p>„<speaker>AVR.</speaker>Mitis potestas fortior ferro &amp; face.</p>
-               <p>
-                  <speaker>APOLLO.</speaker>Sed mite semper nutrit imperium scelus.</p>
-               <p>
-                  <speaker>AVREL.</speaker>Sanat diaeta, quod nequit Chirurgia.</p>
-               <p>
-                  <speaker>PONT.</speaker>Ferro secetur tabidi membri lues.</p>
-               <p>
-                  <speaker>AVREL.</speaker>
-                  <milestone unit="speech"/>Possum mederi <speaker>PONT.</speaker>
-                  <milestone unit="speech"/>facibus &amp; ferro potes.</p>
-               <p>
-                  <speaker>AVREL.</speaker>Sed qui tenentur? foeminae &amp; pueri rudes.</p>
-               <p>
-                  <speaker>APOLL.</speaker>Si negliguntur, latiùs serpit malum.</p>
-               <p>
-                  <speaker>AVREL.</speaker>Hoc sexus, aetas, hoc ratio mitis vetat:</p>
-               <p>
-                  <speaker>APOL.</speaker>Quod sexus, atque aetas vetat, leges iubent.</p>
-               <p>
-                  <speaker>AVREL.</speaker>Foeminea tandem poena quid laudis parit?</p>
-               <p>
-                  <speaker>APOL.</speaker>Laus magna sonti victima fieri deo.</p>
-               <p>
-                  <speaker>ANR.</speaker>In tenera saeuire ingenia, non est pium.</p>
-               <p>
-                  <speaker>PONT.</speaker>Spernere deorum numen, est plane impium.</p>
-               <p>
-                  <speaker>AVREL.</speaker>Ad sana referent consilia mentem suam.</p>
-               <p>
-                  <speaker>APOL.</speaker>Quid sanitatis in mera vesania?</p>
-               <p>„<speaker>AVR.</speaker>Mens foeminarum lubricos motus habet.</p>
-               <p>
-                  <speaker>PONT.</speaker>Nil peruicaci foemina obstinatius.</p>
-               <p>
-                  <speaker>AVR.</speaker>Nequeo parentem, liberos seruem pius.</p>
-               <p>
-                  <speaker>APOL.</speaker>Sed corui (vt aiunt pessimi ouum pessimum.</p>
-               <p>
-                  <speaker>AVR.</speaker>
-                  <milestone unit="speech"/>At lenientur. <speaker>PONT.</speaker>
-                  <milestone unit="speech"/>saga ni technis suis</p>
-               <p>Iam liberorum finxit ingenium ferox:</p>
-               <p>
-                  <speaker>AVR.</speaker>Extrema summo poena seruetur loco.</p>
-               <p>Stat mansuetis aggredi mentem artibus,</p>
-               <p>Flecti recusant? frangere licebit probè.</p>
-               <p>
-                  <speaker>CR</speaker>
-                  <speaker>IS</speaker>
-                  <speaker>P.</speaker>Heu dira sitis, dira innocui</p>
-               <p>Sanguinis ardet corde cupido.</p>
-               <p>O flecte truces animos, rerum.</p>
-               <p>Genitor, sancti miserere Gregis.</p>/chorus/<head>CHORVS</head>
-               <p>CELEBRAT</p>
-               <p>Ecclesiae Romanae triumphos sub SS. Petri &amp; Pauli auspicijs.</p>
-               <p>IMmerge Titan oceano caput,</p>
-               <p>Et conde flammas aetherea facis,</p>
-               <p>Foecunda lucis lux nitescit,</p>
-               <p>Et gemino sobolescit astro.</p>
-               <p>En mite Petri lumen, &amp; aureus</p>
-               <p>Fraterna Paulus lumina duplicans:</p>
-               <p>Per templa coeli fornicata</p>
-               <p>Aurifluo spatiatur igne.</p>
-               <p>Viui pyropi sydereae domus,</p>
-               <p>Afflate vestro pectora lumine,</p>
-               <p>Quando canora fila netes</p>
-               <p>Musa mouet meliore plectro.</p>
-               <p>Queis te coronis sancte senex beem?</p>
-               <p>Nam Ponti arenas, &amp; vaga sydera,</p>
-               <p>Hyblaeque flores delicata</p>
-               <p>Innumeris superas trophaeis.</p>
-               <p>Tu quicquid ambit Nereus, &amp; iugi</p>
-               <p>Quicquid rotatu sol videt igneus,</p>
-               <p>Tu pauperis Cymba magister</p>
-               <p>Imperio moderaris vno.</p>
-               <p>Aequalis astris Roma Deûm domus</p>
-               <p>Per te Tonantis molle subit iugum,</p>
-               <p>Et foeta sertis laureatis</p>
-               <p>Terga tuis pedibus supinat:</p>
-               <p>Tecum curules flammigeras agit,</p>
-               <p>Auctus beatis Paulus adoreis,</p>
-               <p>Tecum catenati labores</p>
-               <p>Astra viro pariter dedêre.</p>
-               <p>Non pullulabunt tot noua guttura,</p>
-               <p>Lernae Chelydro, quot scelerum truces</p>
-               <p>Fregit cateruas, impotenti</p>
-               <p>Dum rapidus tonat ille nimbo.</p>
-               <p>En toto mundi machina sedibus</p>
-               <p>Conuulsa, Christo bella mouet Nero,</p>
-               <p>Ad arma, cessantes ad arma</p>
-               <p>Caesar agit furiatus oestris.</p>
-               <p>Inuise diuis Gorgoneum caput,</p>
-               <p>Quid machinaris tela Cyclopea,</p>
-               <p>Frustraque ludis, &amp; caducos</p>
-               <p>Ingeminas per inane bombos?</p>
-               <p>Non plena coecis pestibus atria</p>
-               <p>Iniurioso turbine proruent</p>
-               <p>Stantem columnam, quam frequenti</p>
-               <p>Praesidio Dominus coronat.</p>
-               <p>Vestri cruoris flumine perlita,</p>
-               <p>Nunc purpuratis fulget honoribus,</p>
-               <p>Et vincit astrorum nitorem,</p>
-               <p>Ingenuis radiata flammis.</p>
-               <p>O ter beatus sanguinis hic liquor</p>
-               <p>Submurmuranti qui rigat alueo</p>
-               <p>Diuinum agellum, &amp; prata coeli</p>
-               <p>Centuplici beat vsque flore.</p>
-               <p>Saluete coeli gemmea sydera.</p>
-               <p>Huc &amp; volucri ferte gradum rota,</p>
-               <p>Dum terra vestris in triumphis.</p>
-               <p>Tota fremit, resonatque coelum.</p>
-               <p>Candida dum puro decurrent sydera lapsu,</p>
-               <p>Atque senescentes reparabunt cornua lunae,</p>
-               <p>Roma sub auspicijs Christi se tollet in astra,</p>
-               <p>Pacatumque reget sanctis virtutibus orbem.</p>
-               <p>Frigida dum solitis niuibus se vestiet aura,</p>
-               <p>Dum verni fundent florum decora inclyta soles,</p>
-               <p>Florebit pietas coeli victricibus armis,</p>
-               <p>Perque profanatas mittet sua iura phalanges.</p>/act=2/<head>ACTVS SECVNDI</head>
-               <head>PERIOCHE.</head>
-               <p>Landitijs tentare fidem, &amp; peruertere mentes</p>
-               <p>Nititur egregias Caesar, ceu lubricus errat</p>
-               <p>Florigeras per opes, saeuitque venenifer anguis.</p>
-               <p>Scilicet, ò Iuuenes, stat dura per omnia vitam,</p>
-               <p>Proijcere, &amp; tristes informi occumbere letho.</p>
-               <p>Quis furor abreptos per coeca pericula, voluit?</p>
-               <p>Heu vbi vernantes primae lanuginis anni,</p>
-               <p>Et magnae decora alta domus! dum feruida currit</p>
-               <p>Aetas, &amp; pleno pandit se copia cornu,</p>
-               <p>Carpite delicias, fugit irreparabile tempus,</p>
-               <p>Et serus manes vrget dolor, omnia nempe</p>
-               <p>Sunt aliena, tui sed quicquid carpseris aeui</p>
-               <p>Per ludos, epulas, &amp; amatae dulcia vitae,</p>
-               <p>Dixeris esse tuum. Contrà stant robore firmo</p>
-               <p>Magnanimi iuuenes, matris generosa propago.</p>
-               <p>Contemptorem animum vitae pectusque fidele</p>
-               <p>Obtendunt clypeum, fortes, tela omnia contra.</p>
-               <p>Vrget amor coeli inuictus, sanctaeque recursat</p>
-               <p>Matris honos, signatque suum iam Gloria callem.</p>
-               <p>Caesar vbi infractos ingenti pectore cernit,</p>
-               <p>Tum vinclis omnes onerat, coecoque sub antri</p>
-               <p>Horrore includit densa caligine mersos.</p>
-               <p>Nil agis, ò Caesar, lucis nunquam indiga latè</p>
-               <p>Regnat, &amp; in vinclis dominatur libera virtus</p>
-               <p>Ipsa sui similis, magno vicina Tonanti.</p>
-               <head>ACTVS SECVNDVS.</head>
-               <stage>MARCVS AVRELIVS, FELICITAS</stage>
-               <p>Caussam dicit apud Imperatorem.</p>
-               <p>„<speaker>AVRE.</speaker>TEntanda primùm cuncta, dum molli gradu</p>
-               <p>„Serpit venenum, membra qui scindit sua,</p>
-               <p>„Et non medetur vulneri, stultè facit.</p>
-               <p>O foeminarum sydus,ô Felicitas,</p>
-               <p>Explebis omen nominis, tantùm tibi</p>
-               <p>Dent quae mereris coelites plena manu.</p>
-               <p>Quid non meretur mentis excelsae decus,</p>
-               <p>Et expolita frontis assurgens honos,</p>
-               <p>Rosisque mixta labra, &amp; hyblaeis fauis?</p>
-               <p>Cur te cruentis conficit stimulis dolor?</p>
-               <p>Marcere pateris purpura extinctam facem,</p>
-               <p>Exosa thalamum; &amp; iura consortis thori,</p>
-               <p>Expers honoris, nominis, vitae, tui</p>
-               <p>Fruere deorum munere, fruere, dum potes,</p>
-               <p>Vitaeque honores carpe, quos offert Deus.</p>
-               <p>„<speaker>FEL.</speaker>Est, Imperator, munus infidum decor,</p>
-               <p>„Et commodatum, non datum mortalibus.</p>
-               <p>„Non sic feracis hortuli pictum decus</p>
-               <p>„Saeuus diei fulgor extinguit, citâ</p>
-               <p>„Medio sub axe cùm furit Phoebus rotâ,</p>
-               <p>„Vt illa rapitur temporis spolium breue,</p>
-               <p>„Diesque veniens corpori demit diem.</p>
-               <p>„Sed forma mentis est decus verum, &amp; decor.</p>
-               <p>„<speaker>AVR.</speaker>
-                  <milestone unit="speech"/>Quae forma? <speaker>FEL.</speaker>
-                  <milestone unit="speech"/>Virtus est Dei viuus color.</p>
-               <p>
-                  <speaker>AVR.</speaker>Sed Christiani numen euertunt Dei.</p>
-               <p>
-                  <speaker>FEL.</speaker>Non fragile colimus daemonum excordes genus,</p>
-               <p>Quos stulta pingit, &amp; fabricat hominum manus.</p>
-               <p>
-                  <speaker>AVR.</speaker>Quid ergo colitis impium cruciarium?</p>
-               <p>
-                  <speaker>FEL.</speaker>Rerum parentem, cuncta qui nutu regit,</p>
-               <p>Patrisque summi filium supplex colo,</p>
-               <p>„Hunc, qui refringens nube corporea Deum,</p>
-               <p>„Paruosque in artus lapsus è patris sinu</p>
-               <p>„Attemperauit inditum terris polum:</p>
-               <p>Dein misertus numini insertum genus,</p>
-               <p>Suo expiauit sanguine humanam luem;</p>
-               <p>Piacularis victima, &amp; victor, Deus</p>
-               <p>
-                  <milestone unit="speech"/>Impensus homini. <speaker>AVREL.</speaker>nempe compones Ioui</p>
-               <p>Illum parentis filium pauperculae?</p>
-               <p>
-                  <speaker>FEL.</speaker>Qui sceptra donat regibus regum potens.</p>
-               <p>
-                  <speaker>AVR.</speaker>Qui sceptra donet? nil habet praetor crucos.</p>
-               <p>
-                  <speaker>FEL.</speaker>Cruces amamus optimas scalas poli.</p>
-               <p>
-                  <speaker>AVR.</speaker>Haec stulta verpi somnia; &amp; nugas canunt,</p>
-               <p>Qui mente multos credula pingunt polos.</p>
-               <p>Et sefuturos autumant coelo loues,</p>
-               <p>Cùm iam miselli desinunt esse in viris.</p>
-               <p>
-                  <speaker>FEL</speaker>
-                  <speaker>.</speaker>Sunt sana verba, somnijs nulla est fides.</p>
-               <p>
-                  <speaker>AVR</speaker>
-                  <speaker>.</speaker>Vis alta sapere; desipis Felicitas.</p>
-               <p>
-                  <speaker>F</speaker>
-                  <speaker>E</speaker>
-                  <speaker>L.</speaker>Haec Imperator sapio, quae sapere addecet.</p>
-               <p>
-                  <speaker>AVREL.</speaker>Tu sola prudens corculum sancti Iouis.</p>
-               <p>
-                  <speaker>F</speaker>
-                  <speaker>E</speaker>
-                  <speaker>L.</speaker>Deo volente sapio, quod tu non sapis.</p>
-               <p>
-                  <speaker>AVRE</speaker>
-                  <speaker>L</speaker>
-                  <speaker>.</speaker>Hoc sapere dicunt foeminam stirpe inclytam,</p>
-               <p>Et iura diuùm spernere, &amp; regum forum,</p>
-               <p>Et clara auorum lumina, &amp; titulos domus,</p>
-               <p>Infanticidas percitos diris sequi.</p>
-               <p>
-                  <speaker>FEL.</speaker>Infanticidas non sequor, cultum tibi</p>
-               <p>Caesar rependi, sed supra reges colo</p>
-               <p>Summum parentem coelitum, cuius pauor</p>
-               <p>Coeli columnas numine immisso quatit.</p>
-               <p>
-                  <speaker>AVR.</speaker>Animosa loqueris, sed rota, &amp; forrum, &amp; faces</p>
-               <p>Istas retundent mentis elata minas.</p>
-               <p>FEL Propone ferrum, laminas, tela &amp; faces.</p>
-               <p>Non me mouebis, nam Dei fulcit manus.</p>
-               <p>
-                  <speaker>AVR.</speaker>O misera vita taedia! ô mentem efferam!</p>
-               <p>Est criminosus, quisquis hanc lucem fugit.</p>
-               <p>„<speaker>FEL.</speaker>Qui morte crimen effugit, satis est pius.</p>
-               <p>
-                  <speaker>AVR.</speaker>Moriere vecors si cupis, sed non semel.</p>
-               <p>„<speaker>FEL.</speaker>Lex vniuersi me semel iussit mori.</p>
-               <p>
-                  <speaker>AVR.</speaker>Ego te necare mortibus septem queo,</p>
-               <p>Quas vniuersas cùm feres, viues tamen.</p>
-               <p>
-                  <speaker>FEL.</speaker>Meos necabis liberos peperi Deo.</p>
-               <p>
-                  <speaker>AVR.</speaker>Tuos necabo liberos, sed qua nece?</p>
-               <p>
-                  <speaker>FE</speaker>
-                  <speaker>L.</speaker>Tormenta Caesar perferent, si sint Dei.</p>
-               <p>Et si Dei iam non erunt, non sunt mei.</p>
-               <p>
-                  <speaker>AVR.</speaker>Mandate tenebris carceris tantum scelus.</p>
-               <p>Insana, mox te compedes reddent tibi.</p>
-               <stage>FELICITAS, ALEXAND. VITALIS, MARTIALIS.</stage>
-               <p>Mater tres iuniores filios animat.</p>
-               <p>CAsta parentis lumen, ac thalami vnicum</p>
-               <p>Vidui leuamen, pectori affusos date</p>
-               <p>Nostro lacertos, cingitè amplexu pio</p>
-               <p>Et hinc, &amp; illinc: sufficiet vna omnibus</p>
-               <p>Materna ceruix, Sic iuuat coelum peti,</p>
-               <p>Hoc onere leuius teritur ad Superos via.</p>
-               <p>Vt vos lubens amplector, &amp; vestro in sinu</p>
-               <p>Liquescit animus gaudio venit dies</p>
-               <p>Sancto petitus ambitu, &amp; longa prece</p>
-               <p>Expressus astris: venit innubis dies,</p>
-               <p>Qui vos beatos martyres sistat polo.</p>
-               <p>Quae vestra mens? an verear, an sperem? haud scio.</p>
-               <p>Si me Deumque proditis, quid vos moror?</p>
-               <p>Quò vota tendo credula, atque annos graues,</p>
-               <p>Vitae aestuantis mulceo blanda fide?</p>
-               <p>Descendam ad vmbras pura, castifica, integra,</p>
-               <p>Nec sol pudoris fiet hic testis mei.</p>
-               <p>At si per altum pulueris nimbum, &amp; notas</p>
-               <p>Audacis animae tenditis coelo viam,</p>
-               <p>Vestrasque lauros sanguine intinctas sacro</p>
-               <p>Prarfertis: ite, iungite vnanimem gradum,</p>
-               <p>Sequar &amp; praeibo: viuere hoc solo iuuat</p>
-               <p>Et esse matrem, martyrum vt fiam parens.</p>
-               <p>O Martialis pectoris quondam mei</p>
-               <p>Dulcis voluptas, mixtus &amp; curis amor.</p>
-               <p>Effare; mortis socius ad matrem venis!</p>
-               <p>MAR. O luce, mater, aetheris iucundior,</p>
-               <p>Ibo lubenter, quò sator diuûm vocat,</p>
-               <p>Et nulla tellus, nulla degenerem dies</p>
-               <p>Tuum videbit filium <speaker>FEL.</speaker>Macte ô puer</p>
-               <p>Sic augurabar mente, sed me aetas tua</p>
-               <p>Mouet fatebor, nate quid possit, vides,</p>
-               <p>Poena pararis nescium poenae caput,</p>
-               <p>Nondum per annos obtigit quidquam pati:</p>
-               <p>At magna Christi debiles fulcit manus.</p>
-               <p>
-                  <speaker>MAR.</speaker>Si Marte nostro, mater, hoc nobis foret</p>
-               <p>Bellum gerendum; nonnihil certè mihi,</p>
-               <p>Et tibi timerem, sed nihil Christo auspice</p>
-               <p>
-                  <milestone unit="speech"/>Video timendum. <speaker>FE</speaker>
-                  <speaker>L</speaker>
-                  <speaker>.</speaker>
-                  <milestone unit="speech"/>Tu sapis mi floscule.</p>
-               <p>
-                  <milestone unit="speech"/>Et tu sequeris? <speaker>ALEX.</speaker>
-                  <milestone unit="speech"/>Animus ebullit suo</p>
-               <p>Ardore totus, sed tamen maior tuis?</p>
-               <p>Incensa flammis, martyrij gliscit sitis.</p>
-               <p>Per tela &amp; enses, per rogos, perque vngulas</p>
-               <p>Mortem subibo, nec tuum mater genus</p>
-               <p>
-                  <milestone unit="speech"/>Vnquam negabo <speaker>FEL.</speaker>
-                  <milestone unit="speech"/>Fortis ad fortes venis.</p>
-               <p>Vitalis, ibis fratribus consors tuis.</p>
-               <p>
-                  <speaker>VITAL.</speaker>Ibo, ibo mater: nullus Acherontis! rigor</p>
-               <p>Hac me parente faciet indignum, scio.</p>
-               <p>Non si tyrannus misceat terram inferis.</p>
-               <p>Et quidquid atrox, pestilens, tetrum, efferum,</p>
-               <p>In corpus armet, sede diuulsam sua</p>
-               <p>Hanc dissipabit, quam Deus mentem dedit.</p>
-               <p>
-                  <speaker>FEL.</speaker>O digna Christo pectora! ô Iuuenes probi!</p>
-               <p>„Vnum cauete, pessimum est fraudis genus,</p>
-               <p>„Cùm mansuetos induit vultus sibi.</p>
-               <p>Si blandiatur, melleis si verbulis</p>
-               <p>Mentes inescans Caesar oppugnet fidem,</p>
-               <p>Tunc est timendus, perfidas fraudes viri</p>
-               <p>Respuite fortes, anguis in prato latet.</p>
-               <p>Infracta vide pectora, &amp; surda ad minas,</p>
-               <p>Quae molliori guttulâ sensim oblitâ</p>
-               <p>Vires resoluunt, mentis &amp; celsae decus.</p>
-               <p>Sed vos nec aurum, nec voluptatis doli,</p>
-               <p>Nec bracteatus purpurae insignis decor,</p>
-               <p>
-                  <milestone unit="speech"/>De sede moueat. <speaker>VIT.</speaker>
-                  <milestone unit="speech"/>Fascium fumos leues,</p>
-               <p>Ostrumque fallax sub tuis signis, parens,</p>
-               <p>Temnere sueti, pergimus coeli viam</p>
-               <p>
-                  <speaker>FEL.</speaker>Et vestra magnus arma fortunet: Deus.</p>
-               <p>Certate filij fortiter. grande est decus,</p>
-               <p>„Quod est parandum Sanguinis pretio facit</p>
-               <p>„Venale coelum Christus, hoc primus fores</p>
-               <p>„Reclusit aethrae, signat hac nobis iter.</p>
-               <p>Valete mentis dulce delicium meae.</p>
-               <p>O sancta pubes, decora genialis thori.</p>
-               <p>Dissuauiari me iuuat sacras manus,</p>
-               <p>Quas laureatas coelitum praestet fauor</p>
-               <p>Ite, ite fortes. Christe tu rerum potens</p>
-               <p>Cuncta intueris, accipe in gremio tuo,</p>
-               <p>Quos tibi repono liberos,  peperi tibi.</p>
-               <stage>M.AVREL. ALEX. VITAL. MARTIALIS.</stage>
-               <p>Tres filij iuniores blanditijs tentantur ab Imperatore.</p>
-               <p>
-                  <speaker>AVREL.</speaker>VT vos in vlnis laetus amplector meis</p>
-               <p>Generosa pubes, Martiae gentis decus.</p>
-               <p>O Martialis debitum Marti caput.</p>
-               <p>Germen pudica Cypriae eductum manu.</p>
-               <p>Ah! fugis vt agnus lacte depulsus recens,</p>
-               <p>Massyla saeuis quem minis terret iuba.</p>
-               <p>Quem me putatis? non ego tortor ferus</p>
-               <p>Tristi flagello cinctus, &amp; ferro &amp; face.</p>
-               <p>
-                  <speaker>MART.</speaker>Ego te (Imperator) quod Deus iussit, colo,</p>
-               <p>Longos per annos sceptra fortunet tibi,</p>
-               <p>Lucemque mentis coelitum tribuat pater.</p>
-               <p>
-                  <speaker>AVREL.</speaker>Et vos fideli pectore amplector lubens,</p>
-               <p>Dignosque honores sanguine; &amp; meritis dabo.</p>
-               <p>
-                  <speaker>ALEX.</speaker>Tuos honores aulici captent canes,</p>
-               <p>Quos versat atrox lubricae sortis rota.</p>
-               <p>Turpes, egenos, desides, vacuos sui:</p>
-               <p>Nos sorte vili viuimus, celsa tamen</p>
-               <p>
-                  <speaker>AVR.</speaker>Non sorte vestra viuitis, ves addecet</p>
-               <p>Pubem ferocem, Romulae gentis decus,</p>
-               <p>Spirare Martem, &amp; laureas dignas patrum.</p>
-               <p>
-                  <speaker>VITAL.</speaker>Magni Imperator pectoris iuuenes sumus,</p>
-               <p>Et digna coelo sapimus, &amp; superum choro,</p>
-               <p>Hoc quicquid ambit Phoebus aeterna face,</p>
-               <p>Illustre flammis Nereo promens caput,</p>
-               <p>Non implet altos mentis excelsae sinus.</p>
-               <p>
-                  <speaker>AVR.</speaker>Vnde ergo cordis marcuit grandis vigor:</p>
-               <p>Non vos in armis Bistones portant equi,</p>
-               <p>Non emicantes stellulis fraeni iuuant,</p>
-               <p>Nec laena dulci murice ardens, nec decor</p>
-               <p>Tot gemmularum, quas ferax Ganges vomit.</p>
-               <p>„<speaker>ALEX.</speaker>Haec sparsa fuco congerit regum manus,</p>
-               <p>„Sortisque raptant volucris, incertae vices.</p>
-               <p>„Nos coelo honores quaerimus dignos Deo.</p>
-               <p>
-                  <speaker>AVR.</speaker>Vos desidetis inter impuros canes,</p>
-               <p>Qui sorditati, sordidia tetri, impij</p>
-               <p>Quaerunt latebras, nec iubar solis ferunt.</p>
-               <p>„<speaker>VITAL.</speaker>Non otiosa fertur in coelum via.</p>
-               <p>„Animosa virtus, si iubes ferrum exeri,</p>
-               <p>Age verte in hostes numinis. Quale vuida</p>
-               <p>Nube irretortum fulgur in terras ruit,</p>
-               <p>Per tela, &amp; ignes obuium pectus feram</p>
-               <p>
-                  <milestone unit="speech"/>Capacis animae. <speaker>AVR.</speaker>
-                  <milestone unit="speech"/>Pergite vt fortes decet.</p>
-               <p>
-                  <speaker>MART.</speaker>Nos militamus maximo regi.</p>
-               <p>
-                  <speaker>AVREL.</speaker>O pudor!</p>
-               <p>Vos militatis impio cruciario.</p>
-               <p>
-                  <speaker>VITAL.</speaker>Hic sceptra coeli temperat cruciarius.</p>
-               <p>
-                  <speaker>AVREL.</speaker>Hoc te erudiuit mater insana ad scelus.</p>
-               <p>
-                  <speaker>ALEX.</speaker>Scelus hoc videtur tibi, mihi sapientia.</p>
-               <p>
-                  <speaker>AVR.</speaker>Atqui videtur omnibus stultum, impium.</p>
-               <p>
-                  <speaker>VITAL.</speaker>Sed queis videtur impijs, stultis, feris?</p>
-               <p>
-                  <speaker>AVREL.</speaker>O stulta capita, quas ego vobis cruces?</p>
-               <p>
-                  <speaker>MART.</speaker>Stulti videmur, sed tamen sapimus Deo.</p>
-               <p>
-                  <speaker>AVREL.</speaker>Audite iuuenes, mittite hoc stolidum nefas,</p>
-               <p>Per sceptra iuro per decus summum imperij,</p>
-               <p>Et vos amabo vt filios partem mei,</p>
-               <p>Fasces, curules, laureas impertiar;</p>
-               <p>Exuite tantum saxeam mentem precor:</p>
-               <p>Qui pollicetur, Caesar est, Caesar dabit.</p>
-               <p>„<speaker>ALEX.</speaker>Simulachra sunt hac leuia gloriolae leuis,</p>
-               <p>„Pretiosa mundi retia, aurata cruces.</p>
-               <p>„Aeterna sed nos praemia in coelo manent:</p>
-               <p>„Qui pollicetur, Christus est, Christus dabit.</p>
-               <p>
-                  <speaker>AVREL.</speaker>Vt fascinauit perditos verpi furor?</p>
-               <p>
-                  <speaker>MART.</speaker>Non fascinauit, sed bonam mentem dedit.</p>
-               <p>
-                  <speaker>AVR.</speaker>Quàm stulta stultos opprimet sapientia?</p>
-               <p>
-                  <speaker>VIT.</speaker>Propone mortes, vnicum votum est mori.</p>
-               <p>
-                  <speaker>AVR.</speaker>Sed lenta mortis taedia, atque artus graues,</p>
-               <p>Et membra membris dissita, extendent necem.</p>
-               <p>Tollite scelesta capita, in aulam abducite.</p>
-               <stage>M. AVREL. IANVA. FELIX, PHILIPPVS, SYLVANVS,</stage>
-               <p>Quatuor natu maiores frustrà ab Imperatore muneribus pelliciuntur.</p>
-               <p>
-                  <speaker>AVREL.</speaker>ADeste, lecta Martiae gentis manus</p>
-               <p>Albis nitentem Phosphorum bigis colit;</p>
-               <p>Gemma beatus candida currit dies,</p>
-               <p>Quo me iugales gemmeo tollent iugo,</p>
-               <p>Mecumque paribus ibitis vecti rotis</p>
-               <p>Dum carpit altum fama per lauros iter.</p>
-               <p>
-                  <speaker>IANV</speaker>
-                  <speaker>.</speaker>Si sacra Caesar praeparas festo die,</p>
-               <p>Vides opinor victimas, quas ocyus</p>
-               <p>Aris nefandis mucro mactabit Popae.</p>
-               <p>
-                  <speaker>AVR.</speaker>Bona verba quaeso, quid fodis pectus meum?</p>
-               <p>
-                  <speaker>FEL.</speaker>Testor pudicas solis aeterni faces,</p>
-               <p>Qui celsa puris templa perstringit rotis,</p>
-               <p>Tuas ad aras fortiter caesus cadam.</p>
-               <p>Ne me profanem thure Romulei Iouis.</p>
-               <p>Eant stigosi quòo volent Lemures eant,</p>
-               <p>Perpluta strigibus capita nocturnis dij,</p>
-               <p>Ego parenti coelitum obstrinxi fidem</p>
-               <p>
-                  <speaker>AVR.</speaker>Cùm laeta floret aula vernanti die,</p>
-               <p>Vos cogitatis funera, &amp; laeuas striges.</p>
-               <p>
-                  <speaker>PHIL.</speaker>Tu laeta censes gaudia &amp; dulces iocos</p>
-               <p>Tot victimarum, queis coronatus decor</p>
-               <p>„Proludit orco, &amp; funeris pompa sui</p>
-               <p>„De Veneris igne mortis incendit rogos.</p>
-               <p>„Heu laeta laeta quàm cito volitant gradu!</p>
-               <p>„Haec laeta mors est, mortis expertem mori.</p>
-               <p>
-                  <speaker>AVR.</speaker>Malè ominaris.</p>
-               <p>
-                  <speaker>S</speaker>
-                  <speaker>Y</speaker>
-                  <speaker>L.</speaker>Omen hoc maneat meos.</p>
-               <p>Saeuire ferro Caesar, haud verbis decet.</p>
-               <p>En nudo pectus vulneris magni capax,</p>
-               <p>Exprome ferrum, parte qua posci; feri.</p>
-               <p>„Sic est agendum, verba diripiunt noti:</p>
-               <p>„Melius cruoris riuulo pingam fidem.</p>
-               <p>
-                  <speaker>AVR.</speaker>Quod vos miselli taedium lucis tenet?</p>
-               <p>Dum currit aetas feruido velox pede,</p>
-               <p>Viretque pubes flore purpureo decens,</p>
-               <p>Carpite deorum munera, &amp; genio sacros</p>
-               <p>Mactate honores, mentis incussa metus.</p>
-               <p>Obliuioso mergite obtusos mero.</p>
-               <p>
-                  <speaker>IANV.</speaker>Haec, Imperator, filio suade tuo,</p>
-               <p>Sed Christianis non licent.</p>
-               <p>
-                  <speaker>AVR.</speaker>Cur non licent?</p>
-               <p>
-                  <speaker>FELIX.</speaker>Hoc belluarum viuere est more, &amp; modo.</p>
-               <p>
-                  <speaker>AVREL.</speaker>Hanc belluarum nescius vitam vocas.</p>
-               <p>
-                  <speaker>P</speaker>
-                  <speaker>H</speaker>
-                  <speaker>IL</speaker>
-                  <speaker>.</speaker>Seruire ventri, bellua numen voco.</p>
-               <p>
-                  <speaker>AVR.</speaker>Vos saltem amoris sumite hoc pignus mei.</p>
-               <p>En militaris baltheus diuûm labor,</p>
-               <p>Quem nuper auro docta discreuit manus,</p>
-               <p>Et per retortos flexa maeandros acus</p>
-               <p>Excelsa pinxit facta Romani louis.</p>
-               <p>En &amp; monile coelitum flammis rubens</p>
-               <p>Stellata promit decora, &amp; auriseris diem</p>
-               <p>Facibus lacessit, talis Harmeniam decor</p>
-               <p>Ambiuit, altos virgo cùm pressit thoros</p>
-               <p>Cadmi potentis: talis Atridae domus,</p>
-               <p>Tali reluxit annulus Gygis face.</p>
-               <p>
-                  <speaker>FEL.</speaker>Tu nos inescus, hamas est donum impium.</p>
-               <p>Vis experiri Christianus quid potest?</p>
-               <p>Distringe ferrum, ludicris nil est opus.</p>
-               <p>
-                  <speaker>AVR.</speaker>Emolliêre, fronte non casta furis.</p>
-               <p>Sed iam dederunt conscij fratres manus,</p>
-               <p>Luduntque in aula, proximi epulantur Ioui.</p>
-               <p>Et vos feroci spernitis collo iugum.</p>
-               <p>
-                  <speaker>IANV.</speaker>O si dederunt, vindicem norint Deum</p>
-               <p>Matrisque diras optimae, &amp; furias truces.</p>
-               <p>O Martialis! lumen afflictae domus,</p>
-               <p>Hoc te impiasti scelere: vbi mentis vigor?</p>
-               <p>Vbi prisca virtus: indoles vbinam aurea?</p>
-               <p>
-                  <speaker>FELIX.</speaker>Infausta capita proditis sanctum decus,</p>
-               <p>Christi cruorem proditis, Christi fidem,</p>
-               <p>Felicitatis filij &amp; fratres mei!</p>
-               <p>I, verte iura, verte natura omnia,</p>
-               <p>Exuito fratres, exuunt fratres Deum.</p>
-               <p>
-                  <speaker>MART.</speaker>Fugi vt procella taenaro afflatam luem,</p>
-               <p>Ego execrandi facinoris culpa vaco.</p>
-               <p>Testor nitentis aureos vultus poli,</p>
-               <p>O Ianuari, iunge complexus pios.</p>
-               <p>
-                  <speaker>IANV.</speaker>O dulce pondus: matris ô misera salus,</p>
-               <p>Lumenque fratrum Martialis, sanus es.</p>
-               <p>
-                  <speaker>MART.</speaker>At tu tyranne, quando per summum nefas:</p>
-               <p>Intaminatum rapere moliris decus,</p>
-               <p>Et me sacrato dirimere è fratrum choro,</p>
-               <p>Poenas supremo iudici meritas dabis.</p>
-               <p>
-                  <speaker>AVR.</speaker>Scelerata capita, monstra tartareae domus.</p>
-               <p>Vobis scelestas comprimam linguae minas.</p>
-               <p>Onerate ferro, in carcerem compingite.</p>/chorus/<head>CHORVS.</head>
-               <p>Questus Ecclesiae militantis, quam coelestis chorus blandissimè consolatur.</p>
-               <p>Eu fero nondum satiata ludo,</p>
-               <p>Semper &amp; casti sitiens cruoris,</p>
-               <p>In meum saeuit caput impiata</p>
-               <p>Bellua Lerna.</p>
-               <p>Et meum temnit decus, &amp; minaci</p>
-               <p>Semper insultat petulans flagello:</p>
-               <p>Exul in terris agor, &amp; beatas</p>
-               <p>Postulo sedes.</p>
-               <p>Quis mihi pennas dabit, &amp; volatù</p>
-               <p>Praepeti scindam grauidata nimbis</p>
-               <p>Templa, mortales fugiamque visus</p>
-               <p>Ocyor Euris?</p>
-               <p>Non peto Rhesi celeres quadrigas,</p>
-               <p>Tu iube tantùm Sator alme mundi.</p>
-               <p>Deseram terras, liquidoque pinguam</p>
-               <p>Aera tractu.</p>
-               <p>Heu dolor totis furit in medullis,</p>
-               <p>Imbre manantes oculi liquescunt,</p>
-               <p>Cùm patrem rerum, superosque rides</p>
-               <p>Ferrea proles.</p>
-               <p>Dum profanato crepat ore probra,</p>
-               <p>Impius tendo vigiles ocellos</p>
-               <p>Ad polum, spero, nec auara mentem</p>
-               <p>Somnia ludunt</p>
-               <p>Et mihi lenes vaga per medullas</p>
-               <p>Flamma desaeuit, fluit igne pectus,</p>
-               <p>Talis egestos glomerat vapores</p>
-               <p>Lemnia fornax.</p>
-               <speaker>Chorus coelestis.</speaker>
-               <p>O stelliferi sydus amoris,</p>
-               <p>O digna cohors axe beato,</p>
-               <p>Viuite terris, viuite laeti,</p>
-               <p>Oraque fletu madidata pio</p>
-               <p>Lucis purior aura serenet.</p>
-               <p>Optata dies veniet breuibus</p>
-               <p>Emissa rotis, viuite laeti.</p>
-               <p>Vestros cernunt astra labores,</p>
-               <p>Vestris reddent praemia curis.</p>
-               <p>Viuite terris, viuite laeti.</p>
-               <p>Vos templa manent aeterna polo.</p>
-               <p>Vbi pura rotis crystalla secat</p>
-               <p>Sel flammiferis pulcher habenis.</p>
-               <p>Coelique nitet lucidus ordo.</p>
-               <speaker>Ecclesia militans.</speaker>
-               <p>Ecce coelestis mihi vox per auras</p>
-               <p>Aduolat lenti pretium doloris,</p>
-               <p>Gaudio pectus micat, &amp; serenant</p>
-               <p>Lumina frontem.</p>
-               <p>O Dei proles, amor, &amp; voluptas,</p>
-               <p>Tu potes nostrum satiare pectus,</p>
-               <p>Corculum coeli, mea diua vultus</p>
-               <p>Pande serenos.</p>
-               <p>Lucidum coeli decus, ô beata,</p>
-               <p>Quam decor vestit radiatus auro,</p>
-               <p>Huc ades longis toties petita</p>
-               <p>Gloria votis.</p>
-               <p>Diua quid vultus tegis, &amp; micantes</p>
-               <p>Syderum flammas inimica condis?</p>
-               <p>Te Deus nobis genuit sororem</p>
-               <p>Ne tege vultus.</p>
-               <p>Ah! fugit denso volucris rotatu,</p>
-               <p>Et volat torta similis sagitta,</p>
-               <p>Quam celer Maurus comitem ruenti</p>
-               <p>Addidit aura.</p>
-               <p>Non licet diuae radijs potiri,</p>
-               <p>Sparsa dum nubes oculos oberrat:</p>
-               <p>Mentis obtutu video, nec vmbrâ</p>
-               <p>Fallor inani.</p>
-               <p>I, dolor, ventis equita proteruis,</p>
-               <p>Non ego coeli genus hîc manobo:</p>
-               <p>Altior terris ego sum, polosque.</p>
-               <p>Pectore claudo.</p>/act=3/<head>ACTVS TERTII SYNOPSIS.</head>
-               <p>CArnificum horrendas acies, &amp; tristia caedis</p>
-               <p>Vulnera, &amp; informes riuis stillantibus artus</p>
-               <p>Mens incussa pauet. Proh Romae dedecus ingens!</p>
-               <p>Proh! scelerum labes, nostrique imfamia saecli!</p>
-               <p>Sistitur ad palum infamem clarissima mater,</p>
-               <p>Sistitur infelix, manibus post terga reuinctis,</p>
-               <p>Verberaque inter carnificum, &amp; ludibria turbae!</p>
-               <p>Mox casti subeunt luuenes ante ora parentis,</p>
-               <p>Nudantur costae virgis, it grandine saeua</p>
-               <p>Plagarum nimbûs, lauit ater corpora sanguis.</p>
-               <p>Mens tamen inconcussa manet, perque ardua surgit</p>
-               <p>Ad superos grandi virtus interrita cliuo.</p>
-               <p>Quales cum vastis nudi Cyclopes in antris</p>
-               <p>Exercent crudum chalybem fornacis anhelae:</p>
-               <p>Illi inter sese magnis conatibus vrgent</p>
-               <p>Enixi: tundunt, versantque per omnia massam</p>
-               <p>Ardentem absistit scintillis acribus ignis.</p>
-               <p>Immugit specus, &amp; responsant omnia syluae.</p>
-               <p>Sic illi exagitant sanctorum corpora crebris</p>
-               <p>Verberibus, diri resonant clangoribus ictus,</p>
-               <p>Vix laceros artus tabo tegit horrida pellis.</p>
-               <p>Quaeritur heu miseris tam pulchro in corpore corpus.</p>
-               <p>Sed virtus atrox per mortua viscera regnat,</p>
-               <p>Et toto exiliunt coelestes corpore flammae,</p>
-               <p>Queis Deus, vt viuant, de coelo alimenta ministrat.</p>
-               <head>ACTVS TERTIVS.</head>
-               <stage>MARCVS AVRELIVS, APOLLONIVS, PONTIFEX Idolorum, Publius Praefectus,</stage>
-               <p>Consilium ineunt de tormentis martyrum.</p>
-               <p>
-                  <speaker>M. AVREL.</speaker>O Dura gentis pectora! ô summum nefas!</p>
-               <p>Mallem aestuosas prosequi syrtes prece,</p>
-               <p>Cùm saeuit ater fluctus, &amp; nigra Aeoli</p>
-               <p>Rupêre claustra colla iactantes Noti:</p>
-               <p>Mallem sonora Thracijs fidibus lyra</p>
-               <p>Mulcere sensus acris indociles ferae,</p>
-               <p>
-                  <milestone unit="speech"/>Quàm Christianos. <speaker>PONT.</speaker>
-                  <milestone unit="speech"/>Nempe sic rabie fera</p>
-               <p>Instincta molles Tigris in citharas furit.</p>
-               <p>„Ad facinus itur per gradus, sed qui Deos</p>
-               <p>„Libauit ausu, iam tenet summum gradum.</p>
-               <p>„Fidem, pudorem, numen, &amp; mentem bonam</p>
-               <p>„Demersit, ac vix naufragae superest rati.</p>
-               <p>
-                  <speaker>APOL.</speaker>At praesecanda est, antequam lernae nigris</p>
-               <p>Emissa ab antris latius serpat lues.</p>
-               <p>„Dum flamma tenui gliscit accrescens pede,</p>
-               <p>„Mersare quisquis negligit lymphis malum,</p>
-               <p>„Quàm frustrà adultas luget in tectum faces,</p>
-               <p>Tentare morbum remedijs olim pijs</p>
-               <p>Erat necesse, nil diaeta profuit,</p>
-               <p>Exprome cultros oppido &amp; cauteria.</p>
-               <p>
-                  <speaker>PONT.</speaker>Si colere cunctis expedit cruciarium,</p>
-               <p>Sunt diruenda fana supremi Iouis,</p>
-               <p>Demolienda funditus Vestae sacra,</p>
-               <p>Ponemus alta templa Verporum gregi,</p>
-               <p>Thura offeremus, &amp; Quirinorum chori</p>
-               <p>Recutita discent sabbata &amp; nugas leues.</p>
-               <p>
-                  <speaker>AVR.</speaker>Malè ominaris, omen auertat Deus,</p>
-               <p>Ego furentis sopiam flammas mali.</p>
-               <p>
-                  <speaker>APOL.</speaker>Ni praedometur, in dies crescet scelus,</p>
-               <p>Quis non libenter huic Deo se mancipet,</p>
-               <p>Qui foeda nebulonum capita sistat polo?</p>
-               <p>Si spes dolosi fulserit nummi, obuium</p>
-               <p>Per ferrum, &amp; ignes impotens penetrat sitis.</p>
-               <p>Promissa quid non templa suadebunt poli?</p>
-               <p>„Diuinitatis auida gens mortalium,</p>
-               <p>Proinde adultis pestibus ferrum incute.</p>
-               <p>
-                  <speaker>AVR.</speaker>Felicitatem destino immiti foro.</p>
-               <p>Sed timeo, ne mox plebis ignescat furor,</p>
-               <p>Si fors videbit foeminam genere inclytam</p>
-               <p>Palo alligari, victimam infausta necis.</p>
-               <p>
-                  <speaker>APOL.</speaker>Tu si ferocem comprimi populum cupis,</p>
-               <p>Procera ferro capita prudenii mete</p>
-               <p>
-                  <speaker>AVREL.</speaker>Satis est monere: Publius partes agat.</p>
-               <stage>PVBLIVS TRIBVNVS, FELICITAS.</stage>
-               <p>Felicitas deiectis coelitùs idolis, ad palum alligata torquetur.</p>
-               <p>PEr sceptra iuro Caesaris, per dexteram</p>
-               <p>Istam timendam barbaris, &amp; per caput,</p>
-               <p>Geniumque Diui: sanguinis fluctu ebrius</p>
-               <p>Voluetur hodie languida Phoebus rota,</p>
-               <p>Ipsae pauebunt noctis auersae faces.</p>
-               <p>Nimis tonamus, stringimus scopulos nimis,</p>
-               <p>In capita scelerum fulmen excussum ruat.</p>
-               <p>Actum est, peribunt, triste lucifugûm scelus.</p>
-               <p>Ferro amputabo, laeua si serpit lues</p>
-               <p>Latius in astra per suas viuax neces</p>
-               <p>Ardente lapsu syderum oppressam tegam.</p>
-               <p>Proferte palum forcipes, gladios, rotas,</p>
-               <p>Ahena, flammas, scarpiones, taureas,</p>
-               <p>Experiar an sint ferrei, an silice editi:</p>
-               <p>Proiecta ditis victima, nefastum caput,</p>
-               <p>Quas tibi Megaera ventilat cordi faces</p>
-               <p>Perque odia casta lucis auersam trahit?</p>
-               <p>Adeo obseratum credis infernum Iouem,</p>
-               <p>Vt vi reuellas prona te ad Orcum via,</p>
-               <p>Ne metue, rapiet, fortè cùm noles mori.</p>
-               <p>Tu respuisti Caesaris dona &amp; minas:</p>
-               <p>Iam non minari, non placet donis agi,</p>
-               <p>In te parantur monstra supplicij noua.</p>
-               <p>
-                  <speaker>FELIC.</speaker>Etiam minaris.</p>
-               <p>Non tamen frustra minor.</p>
-               <p>
-                  <speaker>PVB.</speaker>Iam latera fodiam, thura ni dederis Ioui,</p>
-               <p>Et expiaris criminis labem tui.</p>
-               <p>
-                  <speaker>FEL.</speaker>At me impiarem, thura si ferrem Ioui.</p>
-               <p>
-                  <speaker>PVB.</speaker>Et peruicaces foeminas vici, ocyus.</p>
-               <p>
-                  <milestone unit="speech"/>Da thura, vel te. <speaker>FEL.</speaker>
-                  <milestone unit="speech"/>iamdiu excessit timor.</p>
-               <p>
-                  <speaker>FEL.</speaker>Exequere, quid me territas iterum minis?</p>
-               <p>Te fulminantis magna de coelo manus,</p>
-               <p>Tuumque diuum fictilem merget rogo.</p>
-               <p>Vides vt ille cecidit illisus solo.</p>
-               <p>
-                  <speaker>PVB.</speaker>O nigra Cocyti vada, &amp; noctes pigrae,</p>
-               <p>Et cùm Cerastis atra furiarum cohors,</p>
-               <p>Rupistis alto clausa tenebrarum situ</p>
-               <p>Antra impotenti carmine, &amp; technis strigis.</p>
-               <p>O saga saga daemoni addictum caput,</p>
-               <p>Grassaris, vt soles, nefandis artibus.</p>
-               <p>
-                  <speaker>FELIC.</speaker>Sum famula Christi principis, non sum maga.</p>
-               <p>
-                  <speaker>PVB.</speaker>Nudate colla sericis, &amp; tundite.</p>
-               <p>
-                  <speaker>FELIC.</speaker>Nudate; at olim vestiet radijs Deus.</p>
-               <p>
-                  <speaker>PVB.</speaker>Vincite palo contumacem foeminam.</p>
-               <p>Emollietur, fortiter contundite.</p>
-               <p>
-                  <speaker>FEL.</speaker>Et verba spreui, &amp; fortiter plagas feram</p>
-               <p>
-                  <speaker>PVBL.</speaker>Te mansuetam verbera efficient fera.</p>
-               <p>
-                  <speaker>FEL.</speaker>O Christe, Christe.</p>
-               <p>
-                  <speaker>PVB.</speaker>--- Liberet te furcifer.</p>
-               <p>
-                  <speaker>FEL.</speaker>
-                  <stage>Haec ad palum.</stage>O qui nitenti gemmeam lucem rota</p>
-               <p>Signas, &amp; auctus exeris radijs comas,</p>
-               <p>Ocelle mundi respice in clades meas.</p>
-               <p>Supreme regum Christe spes Coeii, &amp; soli,</p>
-               <p>Quò decoloris tessit aetatis rigor</p>
-               <p>Et saecla meliùs aureo currunt pede.</p>
-               <p>Miserere nostri frange conatus truces.</p>
-               <p>Testor beatos coelites, testor viros</p>
-               <p>Non probra vitae, non decora gentis meae</p>
-               <p>Per me inquinata Praesidi sistunt ream.</p>
-               <p>Romana mater, stirpe, famâ nobilis,</p>
-               <p>Palo alligata, pereo, quòd Christum colo</p>
-               <p>
-                  <speaker>PVB.</speaker>Insana capita, gentis Ausoniae probrum,</p>
-               <p>Calcatis etiam Caesarem, &amp; numen Iouis?</p>
-               <p>Tergo luetis, vos ego, nulla est mora.</p>
-               <stage>PVBLIVS, FELICITAS, cum quatuor ex filijs maioribus</stage>
-               <p>In conspectu matris palo alligatae sollicitantur minis ad impietatem.</p>
-               <p>
-                  <speaker>IANVAR.</speaker>CRudele facinus! Haeccine est clementia?</p>
-               <p>Hac mansueti principis leges iubent?</p>
-               <p>O dira facta! saeculi crimen nouum.</p>
-               <p>Cur impiasti filios matris cruce?</p>
-               <p>Cur verberasti ferreo aspectu impie?</p>
-               <p>O sancta genitrix, liberos complectere,</p>
-               <p>Frustrà catenae liuidos artus premunt</p>
-               <p>Nescit teneri, regnat in vinclis amor.</p>
-               <p>Complectere animo, brachijs quos non potes.</p>
-               <p>Socios coronae martyres ne respue.</p>
-               <p>
-                  <speaker>FEL.</speaker>Adeste filij, dure genitricis labor.</p>
-               <p>„Quos in catenis parturio, tanti est Deo</p>
-               <p>„Sacrare natos, vincula haec clamant fidem.</p>
-               <p>„Estote fortes, regium est Christo pati.</p>
-               <p>
-                  <speaker>PVB</speaker>. Exolue matrem compede, infelix puer,</p>
-               <p>Da thura diuis, ni facis, frustra es pius.</p>
-               <p>
-                  <speaker>IANV.</speaker>Vt me nefandis taminem sacris iubes.</p>
-               <p>Et igne ditis polluam incestas manus?</p>
-               <p>Age, scinde potius pectus exitijs graue.</p>
-               <p>
-                  <speaker>PVB.</speaker>Morieris vna morte, sed lentè tamen.</p>
-               <p>Felix beati nominis serua decus,</p>
-               <p>Da thura paruo thure felices litant.</p>
-               <p>
-                  <speaker>FELIX.</speaker>Mitis tyranne mel veneno diluis.</p>
-               <p>Iubesne matrem temnere, &amp; castam fidem,</p>
-               <p>Scelerare dextram victimis feralibus?</p>
-               <p>Haec dextra soli militat fidens Deo,</p>
-               <p>Si foeda digitis thura libarit Iouis,</p>
-               <p>Ardente tostam protinus mergam rogo:</p>
-               <p>Interque prunas funere attonitas nouo,</p>
-               <p>Suis fruetur laeta supplicijs manus.</p>
-               <p>
-                  <speaker>PHIL.</speaker>Impure cultor daemonis, dirum caput</p>
-               <p>Etiamne palmam frangere in manibus paras?</p>
-               <p>Etiamne serpis? qualis in prato rubens</p>
-               <p>Crudele frontis gloria, gyros agit</p>
-               <p>Anguis retortos, perque florentes toros</p>
-               <p>Herbarum atroci virus eructat dolo.</p>
-               <p>Ego parentis socius, &amp; fratrum, tuos</p>
-               <p>Detestor vsque fictiles diuos.</p>
-               <p>
-                  <speaker>PVB.</speaker>Furor</p>
-               <p>Rapit vnus omnes, obuij letho, ruunt</p>
-               <p>In flammam &amp; enses, peruicax Orci genus!</p>
-               <p>
-                  <speaker>SYL.</speaker>I, sparge thure, sparge sceleratos lares,</p>
-               <p>Liba cruorem liberum casto loui.</p>
-               <p>Adure prunis corporum impuras dapes,</p>
-               <p>Et taminata nare nidorem ebibe.</p>
-               <p>Me mensa Christi, templa me Christi manent.</p>
-               <p>
-                  <speaker>FEL.</speaker>O sancta Iuuenum pectora, ò fortes viri.</p>
-               <p>Vos esse matris filios constans fides</p>
-               <p>Probat.</p>
-               <p>
-                  <speaker>PVB.</speaker>Scelesta, incendis etiam liberos?</p>
-               <p>Excipite plagis strenuè ingratum caput,</p>
-               <p>Exerite gladios, latera fodite, occidite.</p>
-               <p>Diuulsa membris membra canibus spargitt.</p>
-               <p>
-                  <speaker>FEL.</speaker>Vtinam ferires, praestò sum.</p>
-               <p>
-                  <speaker>PVB.</speaker>Crudi impij</p>
-               <p>Nil vos parentis miseret, estis liberi?</p>
-               <p>Non iste tigres acer exercet furor.</p>
-               <p>Norunt Leones dulce spelaeum patris,</p>
-               <p>Et cùm supremum cardinem vitae premit</p>
-               <p>Decliuis aetas, apparant victum seni.</p>
-               <p>Quemcumque syluis dexter asportat labor.</p>
-               <p>Vos impiat: vulnera haud matris mouent?</p>
-               <p>
-                  <speaker>FEL.</speaker>Frustra es misericors bone vir, esto quod decet</p>
-               <p>Adeste nati. lachrymis nil est opus.</p>
-               <p>Desideratum matris hoc corpusculum</p>
-               <p>Pijs lacertis cingite, ô pugiles Dei,</p>
-               <p>Cur ora lauit fletus? obtestor polos,</p>
-               <p>Non vos relictos patiar: at si quid cinis</p>
-               <p>Clausus sepulchro spirat &amp; manes amant.</p>
-               <p>Quos vita fouit: assa vitali die</p>
-               <p>Fouebo natos semper effusos sinu.</p>
-               <p>Adero praeibo, coelitum monstrans iter</p>
-               <p>Qualis loquacem peruolat hirundo domum,</p>
-               <p>Paruoque dulces diuidit praedas lari:</p>
-               <p>Mox &amp; volatu gestiens agmen nouo</p>
-               <p>Educit astris timida, &amp; in cunctis volat.</p>
-               <p>Sic vos reuisam, nutriam, cernam, alloquar.</p>
-               <p>Solabor aegrae mentis insomnes metus,</p>
-               <p>Viuoque vultu noctis implebo vices,</p>
-               <p>Donec beatos inferam mecum polo.</p>
-               <p>
-                  <speaker>PVB.</speaker>Insana mortem cogitas? sed longè abest.</p>
-               <p>Vocata fugiet, quam fugis vitam, dabo.</p>
-               <p>Si grata fuerit vita, tum cogam mori.</p>
-               <p>An sis leaena, an mater, experiar. Citò</p>
-               <p>Nudate corpus liberûm, virgas date,</p>
-               <p>Laniate plagis fodite, caedite, vellite,</p>
-               <p>Carnisque frusta &amp; virulentum sanguinem</p>
-               <p>Porrigite matri, si cupit; nam ista dape</p>
-               <p>Explere statui, quae dapes spernit Iouis.</p>
-               <p>
-                  <speaker>FEL.</speaker>Euisceratae matris ô pia viscera,</p>
-               <p>Nati, pudici gloria &amp; lumen sinus,</p>
-               <p>Estote fortes, per meus taedas rogo,</p>
-               <p>Per &amp; catenas, per patris manes rogo,</p>
-               <p>„Estote fortes: arduum virtus iter</p>
-               <p>„Per dura tendit, vincere &amp; tundi solet.</p>
-               <p>Quicquid minarum nunc tonat, totum est leue.</p>
-               <p>„Parat coronas, dum parat vobis cruces,</p>
-               <p>„In astra fusus ducit heroes cruor.</p>
-               <p>
-                  <speaker>SYL.</speaker>Confide mater, liberos fortes habes.</p>
-               <p>Sulcare virgis latera carnifices parant:</p>
-               <p>En latera. pectus fodere discerptum volunt?</p>
-               <p>En pectus &amp; si colla poscunt: offero.</p>
-               <p>
-                  <speaker>FEL.</speaker>Syluane macte, crede te, fili, Deo.</p>
-               <p>
-                  <speaker>PVB.</speaker>Si liberarit surcifer pueros cruce.</p>
-               <p>
-                  <speaker>PHIL.</speaker>An te te amoris conscium nostri caput</p>
-               <p>Frater relinquam? qui manent casus meos,</p>
-               <p>Et me manebunt, quidquid est atrox ego</p>
-               <p>Subibo, sancti dum comes fiam gregis.</p>
-               <p>
-                  <speaker>FEL.</speaker>Generose Iuuenis loqueris vt nostros decet.</p>
-               <p>
-                  <speaker>PVB.</speaker>Insana mulier loquitur vt stultos decet.</p>
-               <p>
-                  <speaker>FELIX</speaker>Ahena flammis si paras vndantia,</p>
-               <p>Si scorpiones, si rapaces vngulus,</p>
-               <p>Si quidquid atrox, asperum, tristi, efferum,</p>
-               <p>Molire, Felix corpore excipiet suo</p>
-               <p>
-                  <speaker>FEL.</speaker>O macte Felix, macte mi Felix precor.</p>
-               <p>
-                  <speaker>PVB.</speaker>O macte poenis furcifer, macte, impero.</p>
-               <p>
-                  <speaker>IANV.</speaker>Animosa fratrum turba primùm me addecet</p>
-               <p>Subire quidquid dira portendit manus.</p>
-               <p>O si ferirent fulmina hoc vnum caput,</p>
-               <p>Meisque plagis vestra constaret salus!</p>
-               <p>Sed cur coronas fortibus dulces negem?</p>
-               <p>Taceo, ruamus, quà Dei numen vocat.</p>
-               <stage>ALEXANDER, VITALIS, MARTIALIS,</stage>
-               <p>Iuniores matrem alligatam, fratresque verberibus contusos intuentur, &amp; simile certamen ineunt.</p>
-               <p>O Cruda facta, dire carnificum furor</p>
-               <p>Quis innocentis sanguinem totum ebibit?</p>
-               <p>O chara genitrix, scilicet mortis fore</p>
-               <p>Tu Martialem dixeras socium tua.</p>
-               <p>Et ecce spretus viuit, immunis tuos</p>
-               <p>Cernit dolores, cernit, &amp; fruitur polo.</p>
-               <p>Mitis tyranne sic truces cessant rotat</p>
-               <p>
-                  <speaker>FEL.</speaker>Agnosco filij pectus, &amp; mites fauos.</p>
-               <p>O nate, arenam Martyrum tangis pede.</p>
-               <p>Quorsum parentis optima incusas fidem?</p>
-               <p>Non te reliqui, testor ô fidum caput</p>
-               <p>Meas catenas, nobilem mundum Dei,</p>
-               <p>Haec vna matrem cura sollicitat piam.</p>
-               <p>Quod te tuosque parturit fratres polo.</p>
-               <p>Nunc agite nati; gloria nempe inclyta</p>
-               <p>Satis ampla seges est, &amp; tyrannum cernitis</p>
-               <p>Fratrum madentem sanguine.</p>
-               <p>
-                  <speaker>ALEX.</speaker>O dirum caput,</p>
-               <p>O generis humani luem, monstrum horridum.</p>
-               <p>Te saeua Thetys expuit, te Caucasus</p>
-               <p>Inter Leaenas pauit eiectum salo,</p>
-               <p>Vt tu natares dirus! in fratrum nece.</p>
-               <p>Taboque sparsos manderes artus virum.</p>
-               <p>
-                  <speaker>VIT.</speaker>O sancta fratrum corporal! ô luuenes pij!</p>
-               <p>Sic me relicto, teritis in coelum viam?</p>
-               <p>Desertus ego sum, langueoque inglorius,</p>
-               <p>Dum vos beata carpitis palmam manus.</p>
-               <p>O turba foelix martyrum, plagas date</p>
-               <p>Exosculari, &amp; imbre lachrymarum graui</p>
-               <p>Abluere, frater sum, hoc mihi quisquam neget?</p>
-               <p>Ignaue, plagas lambere informes cupus?</p>
-               <p>Morare, nam mox, si lubet, lambes tuas.</p>
-               <p>
-                  <speaker>MART.</speaker>Non est minandum carnifex, gladium exere,</p>
-               <p>Quidquid minaris, Martyrum accendit sitim.</p>
-               <p>Abrumpe molem, qua tuum pectus tumet,</p>
-               <p>En nudo corpus, qua voles ferrum incute.</p>
-               <p>
-                  <speaker>PVB.</speaker>Tu mansuesces vilis vlmorum seges.</p>
-               <p>„AN Tolerate luuenes, insident spinis rosae.</p>
-               <p>„O quàm decorum &amp; dulce pro Christo pati!</p>
-               <p>„Quot exaratum plagis hoc corpus rubet,</p>
-               <p>„Tot ora laudant robur inuictum Dei.</p>
-               <p>
-                  <speaker>ALEX.</speaker>Non si per artus Hydra foecundum meos</p>
-               <p>Texat volumen, decoloremque ebibat</p>
-               <p>Venis cruorem, franget indomitas faces</p>
-               <p>Mentis seuerae: perge si potes incute</p>
-               <p>Mundi ruentis pondus in pueri caput,</p>
-               <p>Ridebo moles irritas Christo duce.</p>
-               <p>
-                  <speaker>VIT.</speaker>Exprome dirus quidquid instigat furor,</p>
-               <p>Eripere mentem non potes, vitam potes.</p>
-               <p>O sancta genitrix, oro sacrifico faue,</p>
-               <p>Ecce auspicatam currimus lethi viam.</p>
-               <p>Sub te magistra dulce supplicium mori.</p>
-               <p>
-                  <speaker>PVB.</speaker>I, latera tunde, lictor, &amp; virgis doma.</p>
-               <p>FELICITAS canit palo alligata.</p>
-               <p>
-                  <speaker>FEL.</speaker>CVrrite fortes, currite laeti,</p>
-               <p>Pueri Matris nobile germen.</p>
-               <p>Currite Christo luuenes sancti,</p>
-               <p>Hic certamina vestra beabit.</p>
-               <p>Hic aureolis inclyta lauris,</p>
-               <p>Cinget tempora diues honore.</p>
-               <p>Currite fortes, currite laeti,</p>
-               <p>Pueri, castae pignora taeda</p>
-               <p>Vos è nubibus arduus aureis</p>
-               <p>Spectat volucri sydere raptus,</p>
-               <p>Grex martyrij laude superbus,</p>
-               <p>Texitque pias gloria lauros.</p>
-               <p>Currite fortes, currite laeti,</p>
-               <p>Nam praecipiti sors cuncta pede</p>
-               <p>Agitat volucri commissa rotae:</p>
-               <p>Sed perpetua fronde virebunt,</p>
-               <p>Quas sancta parat gloria lauri.</p>
-               <p>
-                  <speaker>PVB.</speaker>Quae tibi leaena admouit vbera? Quae Tigris</p>
-               <p>Hoc lacte saeuo finxit ingenium ferox:</p>
-               <p>In liberorum caede rides impia.</p>
-               <p>
-                  <speaker>FEL.</speaker>Nescis tyranne, vera quid pietas iubet.</p>
-               <p>MART Bellua cruoris impia flagrans siti,</p>
-               <p>En tibi tepentes sanguinis riui fluunt.</p>
-               <p>Satiare tandem, si vlla te satias capit,</p>
-               <p>Vel frusta carnis mande qua rabie soles.</p>
-               <p>
-                  <speaker>FEL.</speaker>O Martialis Martyrum est haec purpura,</p>
-               <p>Quam comparasti: macte virtute ò puer.</p>
-               <p>PVB. Auferte. rapite, in carceris nigri specum</p>
-               <p>Scelerata capita, dum trucem ludum apparo.</p>/chorus/<head>CHORVS.</head>
-               <p>Ecclesia militans Martyrum constantiam celebrat.</p>
-               <p>Sancti Iuuenes inclyta pectora,</p>
-               <p>Haec me bella iuuant, currite fortiter,</p>
-               <p>Nec vos sacrilegus sollicitet furor</p>
-               <p>Recto tramite deuios.</p>
-               <p>Libastis radios luminis aurei,</p>
-               <p>Et nunc aetherea corda flagrant siti:</p>
-               <p>Foelices nimiùm, quos amor Entheus</p>
-               <p>In molli gremio fauet.</p>
-               <p>Quid prosunt Erebi monstra voracia?</p>
-               <p>Quid dirae facies &amp; scelerum faces?</p>
-               <p>Rident occiduis arma furoribus,</p>
-               <p>Quos ambit clypeo fides.</p>
-               <p>Axis stelliferi Pleias amabilis,</p>
-               <p>Sancto conspicui lumine Martyres,</p>
-               <p>Per me flammigeris curribus ibitis</p>
-               <p>Coeli templa per aurea.</p>
-               <p>Nascentes placido lumine videram</p>
-               <p>Intactos Iuuenes, imbreque lacteo</p>
-               <p>Foui primitias sidereae domus</p>
-               <p>Dulci germine flosculos.</p>
-               <p>Et nunc sancta cohors, propositi tenax</p>
-               <p>Irridet fragili flamina turbine.</p>
-               <p>Atque immota manet, dum furit in nefas</p>
-               <p>Et pestes vomit impius.</p>
-               <p>Splendet purpureis sparsa cruoribus,</p>
-               <p>Et corpus vacuo corpore dissitum</p>
-               <p>Christi iungit amor, viuida mortuis</p>
-               <p>Sic mens flagrat in artubus.</p>
-               <p>Haec est ad superos strata rosis viae,</p>
-               <p>Hanc Christus secuit sanguinis orbitam,</p>
-               <p>Qua surgunt animae, &amp; curribus arduas</p>
-               <p>Tentant igniferis domos.</p>
-               <p>Hâc taedam roseo lumine praefero,</p>
-               <p>Cunas egregijs mentibus aetheris</p>
-               <p>Celsi templa noto, quae iubar aureum</p>
-               <p>Puris vestit honoribus.</p>
-               <p>O coelo luuenes debita pectora,</p>
-               <p>Quos augusta tegit purpura Martyrum,</p>
-               <p>Vobis purpureas laeta parat rosas</p>
-               <p>Cornu gloria diuite.</p>/act=4/<head>ACTVS QVARTI</head>
-               <head>
-                  <speaker>PRAELVSIO</speaker>.</head>
-               <p>STant addicti aris Iuuenes feralibus, inque</p>
-               <p>Pectora iam cultros mergit popa, nec tamen horror</p>
-               <p>Incussit mortis, nec pallor in ora cucurrit.</p>
-               <p>At pater aeterni pia cui custodia templi</p>
-               <p>Credita, &amp; immensi diuinae clauis honores</p>
-               <p>Ingentes voluens aegro sub pectore curas</p>
-               <p>Pergit iter, tacitae per amica silentià noctis,</p>
-               <p>Inuisitque pios, illi ceu sydus Olympo</p>
-               <p>Allapsum excipiunt, stat circum maxima mater</p>
-               <p>Osculaque in patris Iuuenum globus emicat ardens.</p>
-               <p>Quos postquam vnanimes ardere, in praelia vidit,</p>
-               <p>Incipit, &amp; dulci sanctos affatur amore:</p>
-               <p>Pergite magnanimi Iuuenes, quà gloria surgens</p>
-               <p>Monstrat iter liquidum pennis, &amp; pectora vobis</p>
-               <p>Fingite digna Deo. Per tot discrimina rerum</p>
-               <p>Tendimus ad superos, vbi dulcis meta laborum</p>
-               <p>Atque immota quies, magni stet prodiga virtus</p>
-               <p>Sanguinis, &amp; coeli secet imperterrita callem.</p>
-               <p>Sors melior de clade venit, de vulnere spirat</p>
-               <p>Gloria, sanguineo ferturque ad sydera curru.</p>
-               <p>Talia dicentem dudum stupet inclyta pubes,</p>
-               <p>Et flammam ingentem laudis sub pectore versat.</p>
-               <p>Stat casus renouare omnes, stat caeca pericla</p>
-               <p>Tentare, atque animas tanta pro laude pacisci.</p>
-               <head>ACTVS QVARTVS.</head>
-               <stage>AVRELIVS PVBLIVS, APOLLONIVS, PONTIFEX,</stage>
-               <p>De extremis ferunt sententiam.</p>
-               <p>Efringe fulmen impetus, quo te rapis?</p>
-               <p>Pretium furoris non leue infoelix tulit,</p>
-               <p>Suoque damno sapere didicerunt rei.</p>
-               <p>Quos praesidere voluit imperijs Deus,</p>
-               <p>Non hos in vsus militum incinxit globis,</p>
-               <p>Sacra vt potestas praepes in poenas foret.</p>
-               <p>Oculata nobis sceptra coelestes iubent</p>
-               <p>Affabricari. Perspicax nunquam satis</p>
-               <p>Scrutatur oculus lubricas rerum vices,</p>
-               <p>Quando exerendus hominis in iugulum mucro.</p>
-               <p>
-                  <speaker>PVB.</speaker>Tentata per me cuncta, sed frustra tamen.</p>
-               <p>Tormenta rident, gestiunt laceri ictibus.</p>
-               <p>Scelerata mater filios animat, suo</p>
-               <p>Pubentque damno semper ad pestes nouas.</p>
-               <p>
-                  <speaker>AVREL.</speaker>Humana Publi corpora oderunt pati,</p>
-               <p>Caduntque plagis, fallor, aut sunt ferrei,</p>
-               <p>Aut maior agit, &amp; armat inuictos Deus.</p>
-               <p>Vnde ista dira vulnerum crescit sitis?</p>
-               <p>
-                  <speaker>APOL.</speaker>Diuinitatem qui sibi fingunt polo,</p>
-               <p>Per ferrum, &amp; ignes perditi in mortem ruunt.</p>
-               <p>Sed esto, foelix gladius inueniet viam.</p>
-               <p>Nimis per vrbes serpit Hebraeus furor,</p>
-               <p>Confudit astra, fecit &amp; coelum nocens.</p>
-               <p>Nam paruulorum clamat ad superos cruor,</p>
-               <p>Quos luce cassos, dulcis exortes poli,</p>
-               <p>Primoque raptos vbere, assatos focis,</p>
-               <p>In frusta scindunt, &amp; sibi apponunt dapem</p>
-               <p>Regesta prolis viscera in ventrem patres.</p>
-               <p>Dein libido sortis incertum sequens</p>
-               <p>Per coeca noctis errat, haud coeco gradu.</p>
-               <p>Ambage ludit Veneris incesta ferox,</p>
-               <p>Totumque versat sanguinis fas &amp; nefas.</p>
-               <p>
-                  <speaker>AVR.</speaker>O digna poenis capita! praestabat tamen</p>
-               <p>Non experiri, pectora irritat dolor:</p>
-               <p>Qui mansuetè saeuit, hic melius facit.</p>
-               <p>
-                  <speaker>APOL.</speaker>Differre poenam noxijs iam non licet,</p>
-               <p>Periclitatur fama Romani fori.</p>
-               <p>Si spolia laudis referat imbelle hoc genus.</p>
-               <p>
-                  <speaker>PONT.</speaker>Et laesa queritur fancta maiestas</p>
-               <p>Deûm,</p>
-               <p>Me monstra terrent, monstra supplicij noua.</p>
-               <p>Vidi rotantem flammeos orbes louem,</p>
-               <p>Vidi frementem cuspide Odrysium patrem,</p>
-               <p>Toruosque vultus horrui Phoebus iubet</p>
-               <p>Placare diuos victimae sontis nece</p>
-               <p>
-                  <speaker>APOL.</speaker>Per laeta molli fertur impietas iugo</p>
-               <p>Spectante Roma, Gentium Dominam premit.</p>
-               <p>Et conticesces in scelere? cunctabere,</p>
-               <p>Hebraea donec turba te gladio petat,</p>
-               <p>Aut hoc reuellat axe Cyclopum faces,</p>
-               <p>Tentetque summi templa viduata aetheris</p>
-               <p>
-                  <speaker>AVREL.</speaker>Per astra iuro &amp; templa syderei poli,</p>
-               <p>Nemo feretur impius me Iudice,</p>
-               <p>Ite, expiate noxiam labem soli.</p>
-               <p>Si casa rursus pullulet ditis seges,</p>
-               <p>Et ter resurgat, ter seuerum vindicem</p>
-               <p>Me sentier, ego colla numerosi mali</p>
-               <p>Scindam, &amp; recisa victimas superis dabo.</p>
-               <p>
-                  <speaker>PVB.</speaker>Iubesne matrem, &amp; liberos interfici</p>
-               <p>
-                  <speaker>AVREL.</speaker>Occide primùm liberos, &amp; sanguine</p>
-               <p>Tot filiorum pasce maternum scelus.</p>
-               <p>Quod si cruenta mater istorum nece</p>
-               <p>Satiata nondum saeuiat, tu spiritus</p>
-               <p>Truces retunde, &amp; morte ferali doma.</p>
-               <p>
-                  <speaker>PVB.</speaker>Tuum est iubere: gloria obsequij mea est.</p>
-               <stage>PONTIFEX, APOLLO, CRISPVS.</stage>
-               <p>Ethnicorum iactantia in poenis Martyrum.</p>
-               <p>
-                  <speaker>PONT.</speaker>HAEc thura summo grata succedent loui,</p>
-               <p>Spirabit aër lenius tantis sacris,</p>
-               <p>Phoebusque crine gemmeo texet diem,</p>
-               <p>Et Parca vitae fila nectens aurea,</p>
-               <p>Meliora secla diuidet mortalibus.</p>
-               <p>Habet, peractum est, vicimus, votum attigi.</p>
-               <p>Tam pulchra ceruix concidet iussu meo.</p>
-               <p>Haec illa mulier liberûm numero tumens,</p>
-               <p>Quae vicit alba multiplex Strophae genus,</p>
-               <p>Viduata cernet tecta natorum grege.</p>
-               <p>Foecunda Niobe qualis in poenas fuit,</p>
-               <p>Quando per aceruos liberum infremuit minax,</p>
-               <p>Stridore vasto sparsa telorum seges,</p>
-               <p>Bissena vidit corpora efferri domo,</p>
-               <p>Bissena sensit viscera abrumpi sibi,</p>
-               <p>Stetitque viuax in suos fletus lapis.</p>
-               <p>Sic illa fiat, fallor, hoc lentum nimis,</p>
-               <p>Non sic abibunt odia, per apertum ruat</p>
-               <p>Vindicta callem, nobili palma ferox.</p>
-               <p>Illa illa tandem lerna furialis mali</p>
-               <p>Reddat cruorem, debitum munus stygi,</p>
-               <p>Affusa septem mortuis animam expuat.</p>
-               <p>Benè est, reuixi, placuit hoc poenae genus,</p>
-               <p>Bis viuit ille, qui malis vitam eripit.</p>
-               <p>
-                  <speaker>APOL.</speaker>Non posco fieri Iupiter, sordet polus,</p>
-               <p>Quando dolori victima haec nostro litat.</p>
-               <p>I, sequere mucro, sequere foelicem impetum,</p>
-               <p>Et per cateruas funerum praeceps vola,</p>
-               <p>Nempe (hoc fatendum) languida Phoebus manu</p>
-               <p>Sparsit sagittas mortibus senis graues</p>
-               <p>In sena puberûm capita: matri dedit</p>
-               <p>Veniam haud petenti, latiùs noster furor</p>
-               <p>Ex asse ludit.</p>
-               <p>
-                  <speaker>CRISP.</speaker>Heu innocentes vrna sacrilegum mouet.</p>
-               <p>Victrice laeta fertur impietas rota</p>
-               <p>Per prona sanctorum capita: Magne arbiter,</p>
-               <p>Qui spatia liquidi pura decurris poli,</p>
-               <p>Intende vindex lumen in tantum scelus.</p>
-               <stage>ANICETVS, EVAGRIVS, CRISPVS,</stage>
-               <p>Martyres in carcere inuisunt.</p>
-               <p>
-                  <speaker>Anicetus</speaker>.</p>
-               <p>COnsurge foelix anime, &amp; aërias domos,</p>
-               <p>Et fornicata perpetis regna aetheris</p>
-               <p>Velox vt ales praepeti cursu seca.</p>
-               <p>„O ter beatum, Christe, qui seruit tibi,</p>
-               <p>„Qui pura mentis incolens sacraria</p>
-               <p>„Humana cuncta despicit coelo altior,</p>
-               <p>„Et semper auctus luce propioris poli,</p>
-               <p>„Mentem saginat fruge vitali beans.</p>
-               <p>Huic sordet aurum, &amp; purpura fallax nitor</p>
-               <p>Huic vilis anima nam lucro apponit mori,</p>
-               <p>„Huic est egestus, quicquid est praeter Deum.</p>
-               <p>O si suprema solueret vitam dies</p>
-               <p>Compage rupta corporis: foelix forem;</p>
-               <p>Foelix solutus onere membrorum graui,</p>
-               <p>Ad clara coeli templa remearem celer.</p>
-               <p>Sed prorogari si velit vitam arbiter,</p>
-               <p>Qui fila vitae ducit, atque aeui gradus,</p>
-               <p>Feram lubenter. quod dabit viuam meis.</p>
-               <p>Et dura quamuis patiar; euincam tamen.</p>
-               <p>
-                  <speaker>EVAG.</speaker>Inter procellas aureum sydus nites</p>
-               <p>Venerande praesul, saeuiant venti licet,</p>
-               <p>Dum fluctuantem dirigis Christi ratem,</p>
-               <p>Non haurietur gurgite insani maris.</p>
-               <p>Nunc affluentes gaudijs cumulas tuos,</p>
-               <p>Dum visis atri carceris clausos specu.</p>
-               <p>En en beatus Martyrum carcer, quibus</p>
-               <p>Supplicia diris carnifex vrget modis.</p>
-               <p>Sed saeuus hospes ferreo poste excubat,</p>
-               <p>Seruatque vinctos, limine excludet ferus,</p>
-               <p>Aut te profunda nocte demersum obruet.</p>
-               <p>Per te verendum capitis augusti decus,</p>
-               <p>Per dulce si quid praesul ex nobis fuit,</p>
-               <p>Quo te tuorum tam malè oblitus rapis?</p>
-               <p>Si te (quod omen magnus auertat Deus)</p>
-               <p>Atroce cruda fata praecerpunt manu,</p>
-               <p>Quis dissipatam colliget Christi domum!</p>
-               <p>Quis efferatum precibus auertet scelus?</p>
-               <p>Quis tot dolorum franget instantes globos?</p>
-               <p>
-                  <speaker>CRISPVS.</speaker>Morare praesul. quò gradum tendis? rogo,</p>
-               <p>Morare, feruet militum excussus furor,</p>
-               <p>Laxisque habenis volitat in summum nefas.</p>
-               <p>Si pergis vltrà pergis in certam necem.</p>
-               <p>
-                  <speaker>ANICET.</speaker>Quid me dolori redditis? Sinite ocyùs</p>
-               <p>Ibo, ibo, nostrae Christus est auspex viae.</p>
-               <p>
-                  <speaker>SATEL.</speaker>Quò vester ausus proripit coecos furor?</p>
-               <p>Manete Verpi, sistite, aut vincla inferam.</p>
-               <p>
-                  <speaker>CRISP.</speaker>Compesce motus efferos animum doma,</p>
-               <p>Non fraude, non vi non nefandis artibus</p>
-               <p>Hac claustra duri carceris solui volo.</p>
-               <p>
-                  <speaker>SATEL.</speaker>O Christiani, inuisa gens coelo, &amp; solo:</p>
-               <p>Decipitis; ite protinus, facessite.</p>
-               <p>
-                  <speaker>CRISP.</speaker>Videre per te liceat extremum reos.</p>
-               <p>
-                  <speaker>SATEL.</speaker>Tentatis etiam soluere immunes reos?</p>
-               <p>
-                  <speaker>CRISP</speaker>
-                  <speaker>.</speaker>Non tanta rebus perditis audacia.</p>
-               <p>Tu si videndi copiam dederis, sat est,</p>
-               <p>Permitte miseros satiet extremus dolor,</p>
-               <p>Parata merces, lachrymas numinis emam.</p>
-               <stage>ANICETVS, FELICITAS EIVSQVE FILII.</stage>
-               <p>Summus Pontifex eos in carcere consolatur.</p>
-               <p>
-                  <speaker>FELIC.</speaker>PRaesul verende, proximum Christo caput,</p>
-               <p>Quis te per arma, per relucentes globos,</p>
-               <p>Per vim, per ignes, detulit sydus nouum,</p>
-               <p>Columenque vinctis, vt dolorum particeps</p>
-               <p>Fieres meorum? testor augustum caput,</p>
-               <p>Tuique vultus lumen, &amp; sanctum decus,</p>
-               <p>Tu me beasti cerne dilectum gregem,</p>
-               <p>Iuuenesque sanctos. spiritu afflati tuo</p>
-               <p>Animosa firmant pectora, &amp; mentis faces</p>
-               <p>Gliscente reparant igne melioris poli.</p>
-               <p>Iam sacra vouit turba primitias Deo,</p>
-               <p>Quod restat, ecce currimus Christo auspice,</p>
-               <p>Sed tu labores precibus egregios iuua.</p>
-               <p>
-                  <speaker>ANIC.</speaker>O Christe regum domitor, &amp; coeli arbiter,</p>
-               <p>Miserere nostri, cerne dilectam domum,</p>
-               <p>Quam tu cruore perlitàm firmas tuo.</p>
-               <p>Afflicta nondum teritur haec arbos solo,</p>
-               <p>Quae tanta florum decora tam laetè parit.</p>
-               <p>O Grex beate, lucidum coeli decus,</p>
-               <p>Vt te libenter teneo in amplexu meo.</p>
-               <p>
-                  <speaker>IANV.</speaker>Venerande praesul, aequa maiestas polo,</p>
-               <p>Quodcumque lucis affluit, donum est tuum,</p>
-               <p>Tu nos labantes precibus auxisti pater,</p>
-               <p>Nam vota flammae vortices vincunt tua,</p>
-               <p>Dulcesque medijs ventilant Zephyros focis,</p>
-               <p>Minas tyranni fregimus sub te auspice,</p>
-               <p>Et nunc supremi turbinis frange impetum.</p>
-               <p>
-                  <speaker>ANIC.</speaker>Vbi ergo fratrum lecta reliquorum manus?</p>
-               <p>
-                  <speaker>FEL.</speaker>Adsunt.</p>
-               <p>
-                  <speaker>ANIC.</speaker>Beati queis tenella aetatula</p>
-               <p>Nectit corollas. Martyrum insignes notis.</p>
-               <p>Ocelle fratrum, matris augustae decus,</p>
-               <p>Cui praeter annos, praeter humanam fidem,</p>
-               <p>Generosus ardet igneae mentis calor,</p>
-               <p>Tu viuere simul incipis Christo, &amp; mori.</p>
-               <p>O macte fili, dulce delicium poli,</p>
-               <p>Palmamque prehende fortiter, quam offert Deus.</p>
-               <p>
-                  <speaker>MART.</speaker>O quàm decorum stare pro causa Dei!</p>
-               <p>„Si mihi liceret centies nasci &amp; mori,</p>
-               <p>„Christo liberet centies nasci &amp; mori.</p>
-               <p>„Est liberalis conditor mundi Deus,</p>
-               <p>„Cui reddere animam, quam dedit, dulce est lucrum.</p>
-               <p>Curramus ergo fortiter, primam Deus</p>
-               <p>Fortunat aciem Martyrum, restat mori.</p>
-               <stage>Angel. ex nube.</stage>Pergite magnanimi Iuuenes vos inclyta coelo<p>Palma manet, sedes hic vobis satam quietas</p>
-               <p>Ostendunt, texuntque piam per dura salutem</p>
-               <p>Funera, sic crescit pulchro de vulnere virtus.</p>
-               <p>
-                  <speaker>ANIC.</speaker>Facunde coeli pusio quò te rapis?</p>
-               <p>Quid ora primis clara perspersus rosis</p>
-               <p>Maiorque Eoo nubibus condis caput!</p>
-               <p>Morare tellus parturit coelo nouos</p>
-               <p>Hodie colonos, quos tui currus vehant.</p>
-               <p>Ostate Iuuenes patrijs virtutibus,</p>
-               <p>Ne laeua mentem pestis incestet piam.</p>
-               <p>Humana cuncta parua sunt, sed spernere</p>
-               <p>Non parua res est. quos fugax ludit bonum</p>
-               <p>Et bracteatis illitus rebus decor,</p>
-               <p>Hi decora fama ludicra, &amp; fluxus opes</p>
-               <p>Sudore pariunt irrito, &amp; parto incubant.</p>
-               <p>Qualis genistis instruens bombix opus,</p>
-               <p>Diducta filo viscera excernit leui,</p>
-               <p>Et tot fluentes colligens ouo sinus,</p>
-               <p>Se ipse cludit opibus implicitum suis,</p>
-               <p>Sibi sepulchrum corpore exeso parat:</p>
-               <p>Sic gazam auaro corde sudatam impia</p>
-               <p>In damna condunt. Luce nos pura editos</p>
-               <p>Afflauit aethra, quaerimus regna aetheris,</p>
-               <p>Non indecoro puluere &amp; sudoribus,</p>
-               <p>Quos rapida secum temporis tollit rota,</p>
-               <p>Sed coeli honores fecit aeternos Deus.</p>
-               <p>O qui feroces contudit Nili minas,</p>
-               <p>Regisque mersit copias rubro mari,</p>
-               <p>Vestros labores ritè fortunet Deus.</p>
-               <p>Det militare coelitus det vincere,</p>
-               <p>Et vos trophaeis augent plena manu.</p>
-               <stage>CRISPVS, SYLVANVS, PRAE FECTVS.</stage>
-               <p>Crispus capitur.</p>
-               <p>
-                  <speaker>CRISP.</speaker>Heu beati carceris linquo fores,</p>
-               <p>Lentusque torpor conscios tardat pedes.</p>
-               <p>Reuocabo gressum.</p>
-               <p>
-                  <speaker>SYLVA.</speaker>Crispe mi quid vis tibi?</p>
-               <p>
-                  <speaker>CRISP.</speaker>Heu me relinquis perditum, dum laureas</p>
-               <p>Ambis beatas, immemor prorsus mei.</p>
-               <p>Tecum viresco pube vernanti puer</p>
-               <p>Fui laborum conscius quondam tibi,</p>
-               <p>Dulcisque lusus, studia praetextae simul</p>
-               <p>Agitata nobis flore primaeuo diu</p>
-               <p>Fixêre pectus, mutuae flammae capax.</p>
-               <p>Et me relinquis, nec tibi videor tuis</p>
-               <p>Dignus triumphis.</p>
-               <p>
-                  <speaker>SYLV.</speaker>Crispe quid ais? Crispule</p>
-               <p>Tener, meorum prima lux sodalium,</p>
-               <p>Te mente tota, pectore amplector pari,</p>
-               <p>Tecum paratus viuere, &amp; tecum mori.</p>
-               <p>
-                  <speaker>PVB.</speaker>Quis parricida carcere eduxit reos?</p>
-               <p>Per sancta turo numina vltricis Deae,</p>
-               <p>Huic irrogabo debitas sceleri neces.</p>
-               <p>Syluane fare, quid rei tecum gerit.</p>
-               <p>
-                  <milestone unit="speech"/>Es Christianus? <speaker>CRISP.</speaker>
-                  <milestone unit="speech"/>Sum.</p>
-               <p>
-                  <speaker>PVB.</speaker>.… Fateris furcifer,</p>
-               <p>Net tibi ruborem commouet tantum scelus?</p>
-               <p>
-                  <speaker>CRISP.</speaker>Cur me puderet sanguinis, cur me mei?</p>
-               <p>
-                  <speaker>PVB.</speaker>Sed te pigebit carceri addictum caput.</p>
-               <p>Inijcite vincla protinus nefario,</p>
-               <p>Tenete, rapite, facinoris poenas dabit.</p>
-               <p>
-                  <speaker>CRISP.</speaker>O sancta vincla, suauiter vos osculor</p>
-               <p>Dulces catenae, rem mihi gratissimam, Publi, dedisti.</p>
-               <p>
-                  <speaker>PVB.</speaker>Mergite hanc tenebris luem,</p>
-               <p>Et comparate supplicia, quae molior.</p>/chorus/<head>CHORVS</head>
-               <p>Deplorat sanctorum cruciatus, &amp; coelestibus auxilijs animatur.</p>
-               <p>Caput puris radiate flammis,</p>
-               <p>Phoebe qui curru veheris per astra,</p>
-               <p>Conde flammatum iubar, &amp; volantes</p>
-               <p>Merge quadrigas.</p>
-               <p>Lugeat tellus tenebris amicta,</p>
-               <p>Et pijs coelum lachrymis liquescat,</p>
-               <p>Lugeant montes, querulo ferantur</p>
-               <p>Flumina lapsu.</p>
-               <p>Lugeat marmor Sypili beatum,</p>
-               <p>Et comae dulces nemorum, susurros</p>
-               <p>Triste deducant, Notus &amp; madentes</p>
-               <p>Ventilet alas.</p>
-               <p>Proh scelus tantum Deus an videbit?</p>
-               <p>Caedibus gaudens rabies triumphat,</p>
-               <p>Et volat palma petilans cruenta</p>
-               <p>Sanguine nostro.</p>
-               <speaker>Chorus coelestis.</speaker>
-               <p>Gloria.</p>
-               <p>Soluite luctus luuenes casti,</p>
-               <p>Soluite longis satiata malis</p>
-               <p>Pectora, veni demissa polo</p>
-               <p>Currus volucri turbine raptac</p>
-               <p>Textas rutilo flore corona,</p>
-               <p>Palmaeque decus nobile fructu,</p>
-               <p>Fero Martyribus dona beatis.</p>
-               <p>
-                  <speaker>ANG I.</speaker>Laniare potest corpora ferrum,</p>
-               <p>Sed mens remanet conscia recti.</p>
-               <p>Immota suis sedibus ardet;</p>
-               <p>Temnit rabiem. Marte caduco</p>
-               <p>Dum caeca furit, iactatque minas.</p>
-               <p>
-                  <speaker>ANG II</speaker>
-                  <speaker>.</speaker>Venient mecum Iuuenes sancti,</p>
-               <p>Mecum celeri nubila curru,</p>
-               <p>Mecum sydereae templa plagae</p>
-               <p>Scindent superis comites gregibus.</p>
-               <speaker>Chorus.</speaker>
-               <p>Dulce delicium poli.</p>
-               <p>Et solatiolum meae</p>
-               <p>Mentis, Gloria quò fugis!</p>
-               <p>Mane, quò properas soror:</p>
-               <p>Cur te te mihi surripis,</p>
-               <p>Mane, quò properas soror</p>
-               <p>Currus turbine concita?</p>
-               <p>Tu licèt rapida potens</p>
-               <p>Coeli templa seces rota,</p>
-               <p>Et condas nebulis caput,</p>
-               <p>Te tamen video soror,</p>
-               <p>Et vrges magis ac magis.</p>
-               <p>Mane, quò properas soror?</p>
-               <p>Vt pingue coeli defluis</p>
-               <p>Exundat vber imbribus</p>
-               <p>Multoque Christus nectare</p>
-               <p>Perfundit ora depluus.</p>
-               <p>O dulce germen aetheris</p>
-               <p>Animula dulcis, eia quid</p>
-               <p>Moraris? alas explica,</p>
-               <p>Sinusque pande peruios.</p>
-               <p>Deuota numen accipo.</p>
-               <p>Mane, quo properas sorore</p>
-               <p>O si te liceat frui!</p>
-               <p>Non me Maenalij sues,</p>
-               <p>Non terror Nemeae, &amp; grauis</p>
-               <p>Lernae bellua centuplex</p>
-               <p>Mentis deijcies gradu.</p>
-               <p>Non me fusa globis flamma voracibus,</p>
-               <p>Non me stricta seges Martia terreat.</p>
-               <p>In me cuncta crepent tela Cyclopea,</p>
-               <p>Conuulsisque ruas machina sedibus,</p>
-               <p>Spectabo impauidus sydera labier.</p>/act=5/<head>ACTVS QVINTI PERIOCHE.</head>
-               <p>ATtigimus metam, perfecto latus honore</p>
-               <p>It sacer ad superos coetus, cognataque lustrat</p>
-               <p>Sydera, &amp; aeternis collucet in ignibus ignis.</p>
-               <p>At tu (magna parens) quid vilia marmora quaeris?</p>
-               <p>Queis sanctos tumulare artus, &amp; funera septem</p>
-               <p>Claudere festinas, surgat licet ardua moles</p>
-               <p>Pyramidum, &amp; circum gemmarum lucidus ordo;</p>
-               <p>Non capit hoc tantum marmor decus: Inclyta coelo</p>
-               <p>Corpora fulgebunt, stellarum vincet honore,</p>
-               <p>Gratia membrorum reparatae ad lumina vitae.</p>
-               <p>Nos tantùm exiguos functis libamus honores,</p>
-               <p>Atque humili sanctorum aras veneramur acerra.</p>
-               <p>O fortunatidum curret maximus aether.</p>
-               <p>Et foetam implebit genitali semine terram:</p>
-               <p>Aequora dum verrent caudis immania Ceti,</p>
-               <p>Et luci, &amp; tenebris medium sol diuidet orbem,</p>
-               <p>Vester honos terris, terris decoru alta manebunt,</p>
-               <p>Quae non labentes anni rubigine soluant.</p>
-               <head>ACTVS QVINTVS.</head>
-               <stage>PVBLIVS, IANVARIVS, CHORVS.</stage>
-               <p>Ianuarij certamen.</p>
-               <p>
-                  <speaker>PVB.</speaker>QVid segnis anime restitas? Quid fluctuas?</p>
-               <p>Exprome tetra supplicia, dira, horrida,</p>
-               <p>Macta scelestos, tot necis plagis feri,</p>
-               <p>Quot membra spirant corporis, videat parens</p>
-               <p>Sparsum cruorem, dissitos artus, suis</p>
-               <p>Auulsa truncis capita, laniatas manus,</p>
-               <p>Et functa septem mortibus, viuat suo</p>
-               <p>Letho superstes: quid moror frustrà pius:</p>
-               <p>Horrescit animus, corda mitescunt fera,</p>
-               <p>Dum video luuenem, moueor, immotus tamen.</p>
-               <p>Tune ille superas indolis quandam ardua</p>
-               <p>Ad magna natus decora Romulei Iouis?</p>
-               <p>At nunc pudendus, vilis &amp; dispar tui.</p>
-               <p>Vt tetra facies, diraque illuuies sacros</p>
-               <p>Turpant honores, quod loquor, lucro datur.</p>
-               <p>Aduerte mentem, dum potes, serus dolor.</p>
-               <p>„Manes sepultos vrget: At lentas ferus</p>
-               <p>Occludis aures, fateor, heu! miseret tui,</p>
-               <p>Miserentur omnes, durus es solus tibi.</p>
-               <p>O flecte mentem, dum potes, flecte ô puer;</p>
-               <p>Prompta est volenti semper ad superos via.</p>
-               <p>Epulare diuis, esto, tu facies metu,</p>
-               <p>Veniam meretur facinus expressum metu.</p>
-               <p>
-                  <speaker>IANV.</speaker>Crudele sapit hac lenitas Publi, mone</p>
-               <p>Quod Christianos deceat. &amp; castam fidem.</p>
-               <p>Parere possum, debeo, nutus sequor,</p>
-               <p>Ad iussa flecti cereus. Recta impera.</p>
-               <p>Casum flagellis cernis Ausonium genus,</p>
-               <p>Quod mos Quirini, &amp; Porciae leges vetant,</p>
-               <p>Non quod verendos Caesares laesit, Deum</p>
-               <p>Teque ipse Caesar testor hoc numquam meam</p>
-               <p>Fidem inquinauit, supplicia dira exigis,</p>
-               <p>Quòd Christianus numen aeternum colam.</p>
-               <p>Sed esto, mentem nulla mutabit dies,</p>
-               <p>Non si trecentas compares vni cruces,</p>
-               <p>Et quicquid atrox stygia molitur manus:</p>
-               <p>Manebo semper vnus, &amp; similis mei,</p>
-               <p>Nec decora fratrum, dulce nec matris caput</p>
-               <p>Scelere impiabo Quam dedit vitam Deus,</p>
-               <p>Deo refundam: Victimis istis lito.</p>
-               <p>
-                  <speaker>PVR.</speaker>Vt te te aniles fabula ludunt, miser</p>
-               <p>Prodigere vitam scelere pro tanto potes.</p>
-               <p>
-                  <speaker>IANV.</speaker>Obtundis aures ludicris, ferrum exere.</p>
-               <p>
-                  <speaker>PVR.</speaker>Crudele pectus, te nihil miseret tui.</p>
-               <p>
-                  <speaker>IAN.</speaker>Crudelis esto, si miseret, &amp; eris pius.</p>
-               <p>
-                  <speaker>PVB.</speaker>Occludis aures, quod iubet Caesar, feram.</p>
-               <p>Tu vim intulisti, capite te damnat reum,</p>
-               <p>Iubetque virgis plumbeis caedi ad necem.</p>
-               <p>
-                  <speaker>IANV.</speaker>Haec mansuetus Caesar, haec princeps pius.</p>
-               <p>Esto rependam, quòd iubet, Publi expedi,</p>
-               <p>Parere possum, fortiter pessum pati,</p>
-               <p>Facere scelestè nescio, morior lubens,</p>
-               <p>Lubens honorum cardinem extremum premo.</p>
-               <p>Nec me iuuentus flore primaeuo decens,</p>
-               <p>Nec alta reuocant decora magnifica domus.</p>
-               <p>Maturus ęui est, qui potest Christo mori.</p>
-               <p>Quicunque coelo nascitur, vixit satis.</p>
-               <p>Da Christe famulo robur in poenas nouum.</p>
-               <p>Da mentem ineluctabilem, da te mihi.</p>
-               <p>Eamus ergo, praestò sum, miles veni.</p>
-               <p>
-                  <speaker>Chorus</speaker>.</p>
-               <p>I pede fausto Iuuenis sancte,</p>
-               <p>I pede fausto, quò tua virtus</p>
-               <p>Generosa vocat; carnis vt igni</p>
-               <p>Flammata sacro pectora feruent.</p>
-               <p>Cernis vt altae fax egregia</p>
-               <p>Mentis nebulas discutit omnes.</p>
-               <p>I pede fausto Iuuenis sancte,</p>
-               <p>I pede fausto, quò tua virtus</p>
-               <p>Generosa vocat, te laeta cohors</p>
-               <p>Fratrum meritò tota sequetur.</p>
-               <p>
-                  <speaker>IAN.</speaker>Obsecro, parenti redde supremum mei</p>
-               <p>Monumentum amoris: annuli gemmam vides,</p>
-               <p>Vbi liliato virgo consurgens thoro</p>
-               <p>Miti corona syderum irradiat caput.</p>
-               <p>Hos (nempè) amores, mater has curas dedit.</p>
-               <p>Cùm prima risit gratia amorum, mihi</p>
-               <p>Sensim per vdum traxit aetatis, Dei</p>
-               <p>Sanctos honores, indidit sensus pios:</p>
-               <p>Gessitque matris, &amp; magistrorum vices.</p>
-               <p>Nunc sancta reddo munera, &amp; matris memor</p>
-               <p>Ad destinatum pergo supplicijs locum.</p>
-               <p>
-                  <speaker>Chorus</speaker>.</p>
-               <p>I pede fausto venerande puer,</p>
-               <p>I pede fausto, tu prima feres</p>
-               <p>Praemia mortis, praemia laudis,</p>
-               <p>I pede fausto venerande puer.</p>
-               <p>
-                  <speaker>IANV.</speaker>Verte &amp; reuerte carnifex, tunde, ebibe</p>
-               <stage>Haec ex postscenio.</stage>Nostrum cruorem, totus in plagas feror.<p>O Christe! ô Christe! ô Christe!</p>
-               <stage>PVB. FELIX, PHILIPPVS,</stage>
-               <p>Fratri moribundo per martyrium aggregantur.</p>
-               <p>
-                  <speaker>PVB</speaker>
-                  <speaker>.</speaker>EXanimis efflat spiritum Iuuenis ferar.</p>
-               <p>Cessate, fratres caeteros producite,</p>
-               <p>Cernite cadauer fratris, hic poenas luens</p>
-               <p>Pretium furoris dedecus mortis tulit.</p>
-               <p>Nunc sapere oportet, curritis metam vltimam,</p>
-               <p>Non est tonandum fulmen excussum ruit.</p>
-               <p>Sed vestra virtus ignea, &amp; formae decor</p>
-               <p>Meliora spondent, sapite dum praestò est salus.</p>
-               <p>
-                  <speaker>FEL.</speaker>Vis vt te adorem bellua exitijs madens:</p>
-               <p>Quae taminasti templa sydereae plagae?</p>
-               <p>Germane frater sanguine, &amp; meritis parens,</p>
-               <p>Da, veste tergam vulnera, &amp; sacro lauem</p>
-               <p>Perfusa tabo. Magna pars nostri stetit</p>
-               <p>Sinu sub isto, magna pars nostri praeit</p>
-               <p>Iam tecum in astra. Perge, moribundam erige</p>
-               <p>Ceruicem, &amp; oculis vltimas castis faces</p>
-               <p>Infunde nostro pectori: quò te rapis:</p>
-               <p>Viuacis animae si quis expirat calor,</p>
-               <p>Premam labellis non leuem partem mei.</p>
-               <p>
-                  <speaker>PHIL.</speaker>O prima nostri fax chori frater: tuum</p>
-               <p>Aspice Philippum, lumine extremo aspice.</p>
-               <p>Philippe viuis pondus ingratum solo?</p>
-               <p>Et fratris oculos vrget aeternus sopor.</p>
-               <p>Generose miles, fata vicisti aspera.</p>
-               <p>O Dextra foelix millies te exosculor</p>
-               <p>O laureatum coelitùs Christo caput.</p>
-               <p>O Ianuari, loquere supremùm mihi.</p>
-               <p>
-                  <speaker>IAN.</speaker> Vici tyrannum, vt cernitis, Christo duce.<stage>Hęc moribundus.</stage>
-               </p>
-               <p>In me videte, quàm potens Christi manus.</p>
-               <p>Certate iuuenes optimi, matre auspice.</p>
-               <p>Complexum in astris nulla praescindet dies.</p>
-               <p>
-                  <speaker>PVB.</speaker>Hic, vt videtis, spiritum execrabilem</p>
-               <p>Exhausit; at vos Caesar incolumes cupit,</p>
-               <p>Seruate vitam Caesari, vobis, Deis.</p>
-               <p>
-                  <speaker>PHIL.</speaker>Blandiris etiam, membra dum laniat, Nero,</p>
-               <p>Tu bella misces bella coelituum choro.</p>
-               <p>Vis experiri, quid animus noster potest?</p>
-               <p>Penetrale cordis vulnere ingenti fode,</p>
-               <p>Scrutare latebras viscerum, velle, eripe,</p>
-               <p>Diuulsa truncis membra per partes seca.</p>
-               <p>Effoeminatum forsitan censes gregem,</p>
-               <p>Qui vitae emamus dedecus vitâ breui?</p>
-               <p>Heu perge, perge. vernat hic sanguis tibi</p>
-               <p>Sorbendus auidis faucibus, perge, obsecro.</p>
-               <p>
-                  <speaker>PVE.</speaker>Ite, &amp; scelestos fustibus lentè obrutos</p>
-               <p>Tundite, supremum spiritum dum exhauriant.</p>
-               <p>
-                  <speaker>FELIX</speaker>Philippe frater, restat actus fabulae</p>
-               <p>Extremus, hîc est elaborandus mihi</p>
-               <p>Et tibi, ruamus fortiter, quò nos vocat</p>
-               <p>Generosa mater, fratris &amp; manes pij.</p>
-               <p>
-                  <speaker>PHIL.</speaker>O dulce amorum conscium pectus mihi,</p>
-               <p>Moriamur vnà fortiter, dulce est mori.</p>
-               <p>Calcare fratris optimi vestigia</p>
-               <p>Ardeo: ruamus ad necem Christo duce.</p>
-               <p>Suprema verba martyrum.</p>
-               <p>
-                  <speaker>FELIX</speaker>CHriste patris summi, mundi coelestis origo,</p>
-               <p>Quo duce sydereis incensa palatia flammis,</p>
-               <p>Quo freta voluuntur, terraque hac mole quiescunt</p>
-               <p>Quo primùm veniente excessit decolor aetas,</p>
-               <p>Impiaque incestam soluerunt saecula noctem.</p>
-               <p>En tibi deferimus purae libamina mentis,</p>
-               <p>Nunquam degeneres, &amp; magnae lucis egeni.</p>
-               <p>Luctantes animos genitor tu corpore solue,</p>
-               <p>Coeli pande vias, &amp; nos rape in omnia tecum.</p>
-               <p>
-                  <speaker>PHILIP.</speaker>Audite astrorum ignes, &amp; vaga murmura Ponti,</p>
-               <p>Et moles operosa soli: tuque inclyta Roma.</p>
-               <p>Inclyta bellorum spolijs, magis inclyta Roma.</p>
-               <p>Si coeli sequerere vias. Labentibus annis</p>
-               <p>Optatum veniet tempus, quo ferrea proles</p>
-               <p>Desinet, &amp; sanctis mitescet legibus orbis.</p>
-               <p>Hoc precor, hanc animam tam fausta in saecula fundo.</p>
-               <p>Non tristes diras, &amp; Auerna sonantia flammis</p>
-               <p>Imprecor in patriam, sed simplex hostia libo</p>
-               <p>Sanguinis hoc quodcunque est: testor te mea Roma,</p>
-               <p>Saeua parens, dilecta tamen, fluit haec tibi vena,</p>
-               <p>Et me cura tui àd manes comitabitur imos.</p>
-               <stage>PVBLIVS, FELICITAS.</stage>
-               <p>Obtruduntur illi tria filiorum corpora, &amp; in eius conspectu quartus mittitur ad necem.</p>
-               <p>
-                  <speaker>PUB.</speaker>AGe nunc triumpha filij regnant tui.</p>
-               <p>Agnoscis istos? exitum inueniunt minae.</p>
-               <p>
-                  <speaker>FEL.</speaker>Agnosco nostra viscera, &amp; teneo sinu.</p>
-               <p>Foelix corona martyrum! vos lugeam?</p>
-               <p>Lugere iniquum est, queis mori votum fuit:</p>
-               <p>Non flere durum est, saxa luxerunt prius.</p>
-               <p>Humanitatis lachrymas dare quis vetat?</p>
-               <p>Me prima matrem fecit haec fratrum trias,</p>
-               <p>Me fracta primis verba praetentans modis,</p>
-               <p>Matrem vocauit, &amp; per aetatis gradus</p>
-               <p>Haec se iuuentus aurea explicuit mihi,</p>
-               <p>Vt veris ortu solis ad teneras faces</p>
-               <p>Sinus hiulcos mollis expandit rosa.</p>
-               <p>Nunc orbitatis vulnus est primum meae,</p>
-               <p>Sed expetitum. Quae ora? cui primùm eluam</p>
-               <p>Aspersa tabo? frontis offundit notas,</p>
-               <p>Miscetque vultus vulnerum impactus cruor.</p>
-               <p>Errare nescit caritas: septem mihi</p>
-               <p>Vnus fuêre, fecerat &amp; vnos amor.</p>
-               <p>Durate solùm funere in tanto manus,</p>
-               <p>Nondum litatum est: heu quibus plagis fluunt</p>
-               <p>Concisa membra, numerem ego, numerem ocyus,</p>
-               <p>Non sunt pudendae. Martyrum illę sunt opes,</p>
-               <p>Illi lapilli, vulnus est quicquid premo,</p>
-               <p>Quod fuerat olim corpus, in vulnus coit:</p>
-               <p>Tantum refossis artubus factum est iter</p>
-               <p>Ingentis animę Misera quid primùm querar?</p>
-               <p>Vobis superstes viuo, primùm istud queror.</p>
-               <p>Heu nec supremo licuit affatu frui,</p>
-               <p>Nec osculari proximae addictos neci:</p>
-               <p>Non licuit oculos claudere exitijs graues.</p>
-               <p>Ah! si supremos halitus oris sacri</p>
-               <p>Legere fuisset licitum, &amp; animam exugere,</p>
-               <p>In vos vicissim spiritum efflassem meum</p>
-               <p>Succumbe natura, quid agis? vincat Deus.</p>
-               <p>Iam prima pompae fercula emisi polo.</p>
-               <p>O dulce pondus! ò capita: frontes, coma,</p>
-               <p>O digna ceruix syderibus, ò syderum</p>
-               <p>Radiata flammis lumina ergo vos sopor</p>
-               <p>Vrget beatus, molliter decumbite,</p>
-               <p>Vos Christus olim lumine afflabit nouo.</p>
-               <p>
-                  <speaker>PVB.</speaker>Tu prima luges funera. ô Felicitas,</p>
-               <p>Nondum laboris cernis annales tui¬</p>
-               <p>
-                  <speaker>FEL.</speaker>Semper minaris, &amp; tonas, &amp; fulminas.</p>
-               <p>Non habeo pectus istud aerumnis rude.</p>
-               <p>Exprome, quidquid spirat indomitus furor:</p>
-               <p>Hodie sacrabo Martyres septem polo.</p>
-               <stage>SYLVANVS</stage>.<p>Heu cerno fratrum corpora, &amp; crudam necem,</p>
-               <p>Video cruore perlitos artus suo</p>
-               <p>Vultusque dulces pallida morte obsitos,</p>
-               <p>Et viuo terris, gentis opprobrium meae.</p>
-               <p>Miser quid egi? quod nouum admisi scelus?</p>
-               <p>Vt me relicto templa penetrarent poli?</p>
-               <p>Heu vitae inertis dedecus, quo te rapis?</p>
-               <p>Syluane frater Martyrum, calcas solum.</p>
-               <p>Iuuenes beati si quid egi, ignoscite,</p>
-               <p>Vestros videtis squalidum fratrem ad pedes,</p>
-               <p>Qui longa vitae taedia, &amp; nexus graues</p>
-               <p>Animae perosus, mortis explorat vias</p>
-               <p>
-                  <speaker>FEL</speaker>
-                  <speaker>.</speaker>Syluane fili dignus es fratrum choro.</p>
-               <p>Quid te relictum quereris? en ordo tuus.</p>
-               <p>Progredere fili, sequere Germanos, tibi</p>
-               <p>Suo cruore semitam astrorum notant.</p>
-               <p>Hac itur; ista scanditur coelum via.</p>
-               <p>Perge, euocaris, hic habet vocem cruor.</p>
-               <p>
-                  <speaker>PVB.</speaker>Ite, &amp; scelestum ex arce praecipitem date</p>
-               <p>Luctatus aegris spiritus conatibus</p>
-               <p>
-                  <milestone unit="speech"/>Impura linquat corpora. <speaker>FEL.</speaker>
-                  <milestone unit="speech"/>O nate. <speaker>SYL.</speaker>
-                  <milestone unit="speech"/>O parens.</p>
-               <p>Iam sum beatus, fratribus dignus comes,</p>
-               <p>
-                  <milestone unit="speech"/>In astra rapior. <speaker>FEL</speaker>. <milestone unit="speech"/>Nate da matri osculum,</p>
-               <p>Ori insidentem spiritum tecum rape.</p>
-               <p>Animula dulcis, patris efigies tui,</p>
-               <p>I, vince mortem, vince tartareos canes.</p>
-               <p>Suprema Oratio Martyris.</p>
-               <p>
-                  <speaker>SYL</speaker>
-                  <speaker>.</speaker>VOs aeterna acies, &amp; ineluctabile numen</p>
-               <p>Testor, sacrilegae non me periuria mentis</p>
-               <p>His onerant vinclis, &amp; acerbo funere mergunt.</p>
-               <p>Mens sancta, &amp; magni sub patris lumen itura.</p>
-               <p>(Spero equidem) vitam largo cum sanguine fundo.</p>
-               <p>Hauriat hos latices Caesar, scrutetur euntis</p>
-               <p>Relliquias animae. magni sat sanguinis istud</p>
-               <p>Pectus habet, Christi aeterno quod reddat amori.</p>
-               <stage>M. AVREL. FELIC. ALEXAND. VITAL.</stage>
-               <p>Imperator hortatur Felicitatem, vt tres ex filijs reliquos seruet; sed frustrà: nam generosa constantia martyrium obeunt.</p>
-               <p>
-                  <speaker>AVR.</speaker>VBI mater? vbi tandem illa natorum grege</p>
-               <p>Animosa mulier? haeccine est foecunditas?</p>
-               <p>Auferte Iuuenum corpora, &amp; producite</p>
-               <p>
-                  <milestone unit="speech"/>Ternos minores. <speaker>FEL.</speaker>
-                  <milestone unit="speech"/>Efferam, sinite, efferam.</p>
-               <p>Satis superque virium, dulce est onus</p>
-               <p>Sua ferre tumulo viscera.</p>
-               <p>
-                  <speaker>MART.</speaker>- Obsecro indica</p>
-               <p>
-                  <milestone unit="speech"/>Genitrix, vbi fratres mei? <speaker>F.</speaker>
-                  <milestone unit="speech"/>Tuto in loco,</p>
-               <p>
-                  <milestone unit="speech"/>Fili. <speaker>ALEX.</speaker>
-                  <milestone unit="speech"/>Beati nempè iam coelum tenent.</p>
-               <p>Et nos relicti gemimus inuisum diem.</p>
-               <p>
-                  <speaker>AVREL.</speaker>O misera, testor aureum lumen poli.</p>
-               <p>Me vulnerasti, non ferus sum &amp; ferreus.</p>
-               <p>Vt me dolores non cruentarint tui.</p>
-               <p>Felicitas dulce est sapere, quod perditum est,</p>
-               <p>Omitte, custodi hasce relliquias domus.</p>
-               <p>Ego iusta reddam mortuis summum decus.</p>
-               <p>Vtinam refracto ditis adamante ocyus</p>
-               <p>In templa lucis surgerent, illos sinu</p>
-               <p>Nostro fouerem, gloriaque auctos noua</p>
-               <p>In astra cunctos paribus eueherem rotis.</p>
-               <p>At qui supersunt regia excipiam domo.</p>
-               <p>Nutrix fouebit aula generosos duces,</p>
-               <p>Nostroque crescent murice ad summus opes.</p>
-               <p>Largire mea lux, istud extremum, rogo</p>
-               <p>Satis superque funerum, mentem doma,</p>
-               <p>Medicina miseris velle sanari fuit.</p>
-               <p>
-                  <speaker>FELIC.</speaker>Tu mansuescis Caesar, at crudeliter.</p>
-               <p>Quid orbitatem feminae afflictus gemis?</p>
-               <p>Quam tu intulisti? nec tamen possum queri.</p>
-               <p>Enixa Christo liberos, Christo dedi.</p>
-               <p>„Haec est beata, dulcis haec foecunditas,</p>
-               <p>„Coelo creare liberos &amp; reddere.</p>
-               <p>Ad templa coeli quatuor natos parens</p>
-               <p>Praemisi &amp; illi me beatorum ex choro</p>
-               <p>Nunc intuentur, &amp; poli sternunt iter.</p>
-               <p>Lenit dolorem hoc dulce solamen meum,</p>
-               <p>Quod non scelesti, criminosi, maximo</p>
-               <p>Non infideles principi, mortem oppetunt,</p>
-               <p>Scis Imperator, nec meam incusas fidem.</p>
-               <p>
-                  <speaker>AVREL.</speaker>O quae libido mortis! ô dementia.</p>
-               <p>Non hic leaenas vrget in sobolem furor.</p>
-               <p>At vos parentis sinite cerebrosum caput.</p>
-               <p>Parete monitis dulcis est vita, &amp; breuis</p>
-               <p>Ne gestientes gloriae prima face</p>
-               <p>Subite nigri Tartari tristes domos.</p>
-               <p>
-                  <speaker>ALEX.</speaker>Etiam patere verbulis pectus putas?</p>
-               <p>Miser quid egi genere non dignum meo,</p>
-               <p>Vt Caesar animos molliat blanda prece,</p>
-               <p>Speretque pectus posse blanditijs capi?</p>
-               <p>Ad verba surdus, surdior sum ad verbera.</p>
-               <p>Exequere Caesar, quid nouas nectis moras?</p>
-               <p>Exequere Caesar, conde me in fratrum sinum.</p>
-               <p>O ter beati martyres digni polo,</p>
-               <p>Suscipite fratrem, conscium vobis caput,</p>
-               <p>Qui genere vester est, erit vester fide</p>
-               <p>Animi innocentes syderum puras domos</p>
-               <p>Incolitis, albis martyrum mixti choris.</p>
-               <p>Spectate vestrae obsecro relliquias domus,</p>
-               <p>Spectate vestrum sanguinem, vestrum decus,</p>
-               <p>Felicitatis viscera, &amp; castas opes.</p>
-               <p>Germani adeste, numen intrepidus sequor,</p>
-               <p>Quacunque ducit, vestrum in amplexum euolo.</p>
-               <p>
-                  <speaker>AVREL.</speaker>Qua dira lucis odia, quae vesania?</p>
-               <p>
-                  <speaker>VITAL.</speaker>Non fractus in me si ruat mundus, (parens)</p>
-               <p>Non si cauernis Taenarus nutet fremens.</p>
-               <p>Non si caterua pestium obsideat latus,</p>
-               <p>Mutabo mentem, quam mihi Christus dedit.</p>
-               <p>
-                  <speaker>AVR.</speaker>Ite, &amp; securi peruicaces caedite</p>
-               <p>
-                  <speaker>ALEX.</speaker>O laeta mortis nuntia! ô niueum diem!</p>
-               <p>
-                  <speaker>VITAL.</speaker>Haec vox ad aures mellea emana meas</p>
-               <p>
-                  <speaker>FEL.</speaker>Ite parentis solatiolum,</p>
-               <p>Ite beati iuuenes, sacri</p>
-               <p>Pignora lecti, calcate gradu</p>
-               <p>Tartara sorti, vos laeta cohors</p>
-               <p>Fratrum aureolis cincta coronis</p>
-               <p>Ad templa poli radiata vocat.</p>
-               <p>
-                  <speaker>VITAL</speaker>O Christe pueros numine afflatus pio,</p>
-               <p>Largire mentis robur inuicta tuis.</p>
-               <p>Tibi innocentes victimae morimur, tibi</p>
-               <p>Vitam sacramus, genitor hanc mentem excipe,</p>
-               <p>Quam tu dedisti, iunge nos fratrum globo</p>
-               <p>
-                  <speaker>FEL</speaker>Valere dulces liberi, nunc sum parens,</p>
-               <p>Vos matre digni liberi, &amp; digni Deo.</p>
-               <p>Lugete matres pignora instabilis thori.</p>
-               <p>Quaecunque coecus messuit turbo necis</p>
-               <p>Vitae fugacis vberi applicito: Mihi</p>
-               <p>Date date gestem textiles manibus rosas,</p>
-               <p>Queis hos coronem filios: non est mori.</p>
-               <p>Quod facitis hodie. spondeo, non est mori.</p>
-               <p>O nostri amores, ni mori est nasci polo.</p>
-               <p>Valete iuuenes optimi, quid fratribus</p>
-               <p>Referetis? adero. restat hoc nobis onus.</p>
-               <p>Adero, praeite, mox sequar. prima impigrè</p>
-               <p>Certare coepi, praemium referam vltima.</p>
-               <p>
-                  <speaker>MART.</speaker>Egone terra filius, cur me parens</p>
-               <p>Terris relinquunt? rapiam &amp; ad superos iter.</p>
-               <stage>AVREL. MARTIAL. FELICIT.</stage>
-               <p>Martialis vltimi ex filijs martyrium.</p>
+         <div type="argument">
+            <div>
+               <head>ARGVMENTVM.</head>
+               <p>MVLIEREM fortem damus in hac Tragoedia. Haec est Felicitas, quae à S. Chrysologo
+                  appellatur <quote>Mater luminum, fons dierum, quae septenario corusco germinis sui
+                     toto orbe splendet. Felix quae meruit portare tot virtutum pignora, quot illa
+                     arca praeceptorum volumina sacrata gestauit: &amp; vt illa verbo, ita haec
+                     doceret exemplo.</quote> Passi sunt Martyres sub M. Aurelio Antonino, &amp;
+                  Praeside Publio, matre singulos nauiter hortante. Discurrebat enim, vt ait os
+                  illud aureum, laetior inter confossa cadauera, quàm inter cunabula chara filiorum,
+                  quia internis oculis tot cernebat brauia, quot vulnera: quot tormenta, tot
+                  praemia: quot victimas, tot coronas. <quote>Ipsa deinde cùm sua membra
+                     praemisisset coelo, interiectis aliquot mensibus, agonem martyrij
+                     consummauit.</quote></p>
             </div>
-            <sp who="#avr">
-               <speaker>AVR.</speaker>
-               <l>HIc restat vnus liberorum de grege,</l>
-               <l>Haec vna superest tabula naufragij tui.</l>
-               <l>Hanc tu misella dum potes, complectere.</l>
-               <l>Animula dulcis, mite delicium poli,</l>
-               <l>Hominum voluptas, atque amor coelestium,</l>
-               <l>Manare cernis omnium fletu genas,</l>
-               <l>Filiole, morti mundus illachrymat tuae;</l>
-               <l>Mouere tantis lachrymis, da te tibi,</l>
-               <l>Ah vis micantem flore primo aetatulam</l>
-               <l>Decutere coeci turbinis vasto impetu.</l>
-               <l>Miserere fili, dum potes, da te mihi.</l>
-               <l>Afferte vestes imbre sarreno graues.</l>
-               <l>Afferte, puerum vestiam nostra manu</l>
-               <l>Quid peruicaces tendis in fatum manus?</l>
-            </sp>
+            <pb n="167"/>
+            <div>
+               <head>Oeconomia Tragoediae.</head>
+               <head>ACTVS PRIMVS.</head>
+               <p>ANiceto summo Pontifici procellam crudelitatis, quae in Christianos toto iam orbe
+                  detonuerat, cum Euagrio grauissimè deploranti, afferuntur per Crispum nobilem
+                  Palatinum à S. Felicitate iam cum filijs captiuâ literae, quibus ille suauissimo
+                  caritatis sensu delibutus, Martyres se inuisurum pollicetur. Interim Pontifex
+                  idolorum, &amp; Apollo Procus acerbissimâ iracundiâ in Felicitatem commoti, tum
+                  quòd ritus Ethnicorum Pontificum damnaret, tùm quòd Virginibus castimoniam
+                  suaderet, apud M. Aurelium Imperatorem Martyrum caedem versuto consilio
+                  machinantur.</p>
+               <div>
+                  <head>ACTVS SECVNDVS.</head>
+                  <p>M. Aurelius Imperator, vt erat leni ingenio, rem mollioribus consilijs adortus,
+                     sibi Felicitate sisti iubet, cui’ constantiâ frustrà per blanditias tentatâ,
+                        <pb n="168"/>tres natu minores filios aduocat, quos à matre anteà
+                     corroboratos, cùm varijs verborum lenocinijs à Christianis sacris auocare
+                     conatus esset, mox reluctantes cum delicato nobilium grege in aulam interiorem
+                     mittit. Quatuor deinde reliquos natu maiores inter pompae &amp; ludorum, qui
+                     tùm exhibebantur, celebritatem delicijis &amp; muneribus peruertere nititur:
+                     recusantibus, fratres ait iam sacrificasse: quod illi confictum scelus dum
+                     execrantur, repentè Germani in eorum complexum aduolant, omnesque vnà in
+                     carcerem remittuntur.</p>
+               </div>
+               <div>
+                  <head>ACTVS TERTIVS.</head>
+                  <p>IMperatori de Martyrum supplicio deliberanti Pontifex &amp; Apollonius
+                     crudelissimi consilij faces ingerunt. Ille Publio vrbis Praefecto rem
+                     disceptandam tradit; qui &amp; suo ingenio saeuus &amp; aliorum consilijs
+                     stimulatus, Felicitatem in forum Martis produci, ibique thus adolere praecipit:
+                     Sed dum illa oraret, tactâ de coelo Martis statuâ funesti daemones exiliunt.
+                     Publius commotior factus, illustrem matronam ad palum alligari, &amp; à
+                     militibus vexari iubet. <pb n="169"/>Mox eius septem filios parentu hortatu in
+                     fide constantes acerbissimè torqueri, &amp; cruentari sub ipsius matris oculis
+                     imperat, vulneribus deinde deformatos retrudit in carcerem.</p>
+               </div>
+               <div>
+                  <head>ACTVS QVARTVS.</head>
+                  <p>POntifice idolorum, &amp; Apollonio, lingua flabello inuidia flammam
+                     ventilantibus, capitalis ab Imperatore fertur in Martyres sententia, resque
+                     Publio, &amp; caeteris iudicibus transigenda committitur. Anicetus summus
+                     Pontifex noctu Martyres inuisit in carcere, quos iam gloriosis, vulneribus
+                     illustres, &amp; proximae morti destinatos suauissimè deosculatus ad
+                     constantiam hortatur. Carcer interim magno splendore collustratur, &amp;
+                     coelesti voce Martyres ad supremam necessitatem animantur. Crispus dum inter
+                     amplexus Martyrum diuturnas moras trahit, à Publio deprehenditur, &amp; in
+                     vincula conijcitur.</p>
+               </div>
+               <div>
+                  <head>ACTVS QVINTVS.</head>
+                  <p>SEptem fratres vno animo, diuersis verò supplicijs gloriosissimum agonem
+                        claud<pb n="170"/>unt. Et primùm quidem Publius Ianuarium septem fratrum
+                     natu maximum ad sea ccersitum cruciari iterum iubet, donec inter plumbatas
+                     paulatim exhauriat spiritum. Mox illato iuuenis corpore adhuc spirante,
+                     Felicem, &amp; Philippum frustrà mortis impedentis metu terrere conatur; ambo
+                     enim ex demortui fratris complexibus alacriores ad supplicium deuolant, &amp;
+                     fustuario mactantur. Matri deinde tria filiorum cadauera obijciuntur, quae
+                     summâ suauitate complexa, quartum nomine Syluanum praecipitio interficiendum
+                     dimittit ad necem. His funeribus interueniens M. Aurelius matrem suauissimis
+                     verbis mulcet, vt tres natu minores adhuc superstites è mortis faucibus
+                     eripiat: Verùm hortante matre iuuenes securibus percussi illustrissimum
+                     certamen sub ipsius conspectu conficiunt, &amp; mox ex caelesti nube conspicuae
+                     demortuorum animae parentem suauissimè consolantur. Illa Imperatoris iussu
+                     catenis iniectis martyrio, quod aliquo post tempore consummauit,
+                     destinatur.</p>
+               </div>
+            </div>
          </div>
-         <div type="scene"
-              n="chorus">
-            <head>CHORVS</head>
-            <stage>Palatinae Iuuentutis.</stage>
-            <sp who="#unknown">
-               <l>Flecte puer. pectora flecte.</l>
-               <l>Rigidamque doma numine mentem.</l>
-               <l>O carpe puer dulcia vitae</l>
-               <l>Praemia, cur te proripis orco,</l>
-               <l>Heu funestae victima mortis?</l>
-               <l>Labitur astris rapidum tempus,</l>
-               <l>Et mors miseris properata venit:</l>
-               <l>Miserere mei, miserere tui.</l>
-               <l>Foelix nimiùm, foelix quisquis</l>
-               <l>Aliena videt damna incolumis.</l>
-               <l>O parce puer. parce tenello</l>
-               <l>Vitae flori, crudele sapis</l>
-            </sp>
-            <sp who="#fel">
-               <speaker>FEL.</speaker>
-               <l>O Martialis lumen afflicta domus</l>
-               <l>Miserere matris nate, miserere, obsecro,</l>
-               <l>Emancipatum Caesari subdes caput:</l>
-               <l>Non es tuus, non es meus, sacer es Deo.</l>
-               <l>Fili tuere candidum coeli globum,</l>
-               <l>Tuere puras solis ardentis faces,</l>
-               <l>Tuere terram, &amp; spatia praetexti maris,</l>
-               <l>Qui cuncta iussu torquet, &amp; flexus agens</l>
-               <l>Aeuum in retortos ducit aeternum gradus:</l>
-               <l>Hîc te creauit, corporis molle hoc lutum</l>
-               <l>Compage vinxit ossium, hic vitam dedit.</l>
-               <l>Te dulce pondus mensibus denis tuli</l>
-               <l>Clausum sub aluo: visceribus auctum meis.</l>
-               <l>Eductum in auras lacte nutriui affatim,</l>
-               <l>Gessique matris semper, &amp; gerula vices,</l>
-               <l>Et nunc repende gratiam matri puer:</l>
-               <l>Per sancta iura nominis fili mei</l>
-               <l>Miserere, fratres sequere generosus tuos:</l>
-               <l>En tibi beati martyres tendunt manus.</l>
-            </sp>
-            <sp who="#mar">
-               <speaker>MAR.</speaker>
-               <l>Quid me querelis mater exanimas tuis?</l>
-               <l>Ne Christo amicum nec mihi castas opes</l>
-               <l>Prodere tyranno, regnet ęternum fides:</l>
-               <l>Aetate vixi fratribus cunctis minor</l>
-               <l>Sed mente pura similis, &amp; similis fide.</l>
-               <l>Nec te, nec illos mentiar, non si meos</l>
-               <l>Totus per artus spiret Aetnaeus vapor</l>
-               <l>Sed tu meorum carnifex fratrum, rogo,</l>
-               <l>Vis experiri quid valeo? flammas iube</l>
-               <l>Costis aheni subijci, ferrum exere.</l>
-               <l>Adure, torre, scinde, lania, diuide,</l>
-               <l>Seruire nequeo turpiter, possum mori.</l>
-            </sp>
-            <sp who="#avrel">
-               <speaker>AVREL.</speaker>
-               <l>O impudentem pectoris dementiam.</l>
-               <l>Collum securi subijcite, videat parent,</l>
-               <l>Natique si velit cruorem exsorbeat.</l>
-            </sp>
-            <sp who="#mart">
-               <speaker>MART.</speaker>
-               <l>O me beatum, mater, ô laetum diem!</l>
-               <l>Accede lictor, praestò sum ferrum explica:</l>
-               <l>Rex summe regum Christe, me sisto tibi.</l>
-               <l>Meos labores aspice, &amp; praesens ades,</l>
-               <l>Largire mentis arduae celsum decus,</l>
-               <l>Et me refertum luce coelesti foue.</l>
-               <l>Da terere fratrum fortiter celsos gradus.</l>
-               <l>Da me solutum corporis nexu graui</l>
-               <l>Secare nubes aureas, da praepetem</l>
-               <l>Ferri per astra, qua mei fratres micant.</l>
-            </sp>
-            <sp who="#felic">
-               <speaker>FELIC.</speaker>
-               <l>Age fortiter, age Martialis fortiter.</l>
-            </sp>
-            <sp who="#avrel">
-               <speaker>AVREL.</speaker>
-               <l>Rapite, tenete peruicacem foeminam,</l>
-               <l>Quo se furore proripit: compescite.</l>
-               <l>Insana, tumulum filijs septem expedi;</l>
-               <l>Agnoscis istos liberos. Felicitas?</l>
-            </sp>
-            <stage>Obtruduntur illi capita.</stage>
-            <sp who="#fel">
-               <speaker>FEL</speaker>
-               <l>Agnosco, specto, laetor, ac exosculor</l>
-               <l>Vitalis ille est, hic Alexander meus.</l>
-               <l>Hoc Martialis spirat excisum caput.</l>
-               <l>Et se parenti nobile in palma refert:</l>
-               <l>Has parte lacera membra Syluani iacent.</l>
-               <l>Quae pars sit haec filij, haud scio, pars est tamen.</l>
-               <l>Sed quota parenti portio in lustus redit?</l>
-               <l>Tulêre scopuli maximam partem mei.</l>
-               <l>Meo cruora perlita rupes fluunt</l>
-               <l>Date membra reddam filio, &amp; me mihi.</l>
-               <l>O effluentis prodigus vena cruor!</l>
-               <l>O sacrum amoris pignus! ò roseum decus!</l>
-               <l>Iuuenes beati vincimus Christo auspice:</l>
-               <l>O Martialis floscule intacti gregis,</l>
-               <l>Animula dulcis, debitum coelo caput,</l>
-               <l>Rabies tyranni funditus per te occidit.</l>
-               <l>Actum est, cadendo surgimus supra polos.</l>
-               <l>Coeli per artus liberûm explicui viam.</l>
-               <l>Supreme regum Christe, tibi grates ago,</l>
-               <l>Foecunda per te germinat nostra orbitas,</l>
-               <l>Quae lata septem liberos coelo dedit.</l>
-               <l>Hos parturiui casta per castas faces,</l>
-               <l>Et educaui pedibus affusos tuis.</l>
-               <l>Penè inter aras, inter aethereos choros</l>
-               <l>Nunc laureatis Martyrum sertis nitent,</l>
-               <l>Et tuta feci iura regnantis Dei.</l>
-               <l>Quid restat: vt me filijs socies meis,</l>
-               <l>Vides vt aegra langueo, &amp; totis amor</l>
-               <l>Spirat medullis, nec iam anima compos sui</l>
-               <l>Summis labellis haereat, tentas iter,</l>
-               <l>Si fortè captet regna syderei poli.</l>
-               <l>Manes tenelli, Pleias aetherea domus,</l>
-               <l>Qua conglobata gemmulis septem micas,</l>
-               <l>Fratrum corona martyrum: ò tantùm precor</l>
-               <l>Tuere coelo matris illuuiem tuae,</l>
-               <l>Et tandem ad astra me pijs precibus voca.</l>
-               <l>Ianuarij anima ex nube.</l>
-            </sp>
-            <sp who="#ianv">
-               <speaker>IANV.</speaker>
-               <l>O Praestans animi genitrix, absiste precando,</l>
-               <l>Magnum vicit iter pietas tua, funera septem</l>
-               <l>Natorum explicuit coelo palmasque locauit.</l>
-               <l>Viuimus (ô mater) templo meliore recepti,</l>
-               <l>Non parui manes per te supera alta tenemus</l>
-               <l>Sydereis volucres flammis, ostroque decori.</l>
-               <l>Fortunata parens viuunt tua nomina terris,</l>
-               <l>Fortunata parens surgunt tua germina coelo.</l>
-               <l>Tu curas solare graues, &amp; taedia vitae:</l>
-               <l>Nam te octaua manet septenis insita palma,</l>
-               <l>Cùm tu emensa situs &amp; nigri carceris vmbras,</l>
-               <l>Mens sancta, &amp; magnis non precox addita diuis</l>
-               <l>Sanguine purpureum signabis ad aethera callem.</l>
-            </sp>
-            <sp who="#fel">
-               <speaker>FEL.</speaker>
-               <l>O sol beate, quantus, &amp; qualis micas:</l>
-               <l>Vt impotenti gaudio pectus fluit.</l>
-               <l>In astra nati, in astra vos foelix sequor</l>
-            </sp>
-            <sp who="#avrel">
-               <speaker>AVREL.</speaker>
-               <l>Quid pollicetur astra sibi vecors caput?</l>
-               <l>Quid sibi futuram proximam mortem putat?</l>
-               <l>Sed mille mortes perferet, viuet tamen.</l>
-               <l>Onerate ferro luridos artus graui,</l>
-               <l>Poedore longo carceris consumite.</l>
-               <stage>FINIS.</stage>
-               <l/>
-            </sp>
+         <pb n="171"/>
+         <castList>
+            <head>PERSONAE.</head>
+            <castItem>
+               <role>ANGELVS.</role>
+            </castItem>
+            <castItem>
+               <role>ANICETVS</role>
+               <roleDesc>summus Pontifex.</roleDesc>
+            </castItem>
+            <castItem>
+               <role>EVAGRIVS</role>
+               <roleDesc>Sacerdos.</roleDesc>
+            </castItem>
+            <castItem>
+               <role>FELICITAS.</role>
+            </castItem>
+            <castGroup>
+               <castItem>
+                  <role>IANVARIVS.</role>
+               </castItem>
+               <castItem>
+                  <role>FELIX.</role>
+               </castItem>
+               <castItem>
+                  <role>PHILIPPVS.</role>
+               </castItem>
+               <castItem>
+                  <role>SILVANVS,</role>
+               </castItem>
+               <castItem>
+                  <role>ALEXANDER.</role>
+               </castItem>
+               <castItem>
+                  <role>VITALIS.</role>
+               </castItem>
+               <castItem>
+                  <role>MARTIALIS.</role>
+               </castItem>
+               <roleDesc>filij S. Felicitatis.</roleDesc>
+            </castGroup>
+            <castItem>
+               <role>M. AVRELIVS</role>
+               <roleDesc>Antoninus Imper.</roleDesc>
+            </castItem>
+            <castItem>
+               <role>PONTIFEX</role>
+               <roleDesc>idolorum.</roleDesc>
+            </castItem>
+            <castItem>
+               <role>PVBLIVS</role>
+               <roleDesc>Praefectus.</roleDesc>
+            </castItem>
+            <castItem>
+               <role>APOLLONIVS</role>
+               <roleDesc>Consiliarius Imp.</roleDesc>
+            </castItem>
+            <castItem>
+               <role>APOLLO</role>
+               <roleDesc>Procus hostis Christian.</roleDesc>
+            </castItem>
+            <castItem>
+               <role>CRISPVS</role>
+               <roleDesc>Nobilis occultus Christianus.</roleDesc>
+            </castItem>
+            <castItem>
+               <role>CHORVS.</role>
+            </castItem>
+         </castList>
+         <div type="argument">
+            <head>ARGVMENTVM HEROICO VERSV REDDITVM.</head>
+            <l>MAgnanimos canimus iuuenes, &amp; prodiga vitae</l>
+            <l>Pectora, quae pietas ardens euexit Olympo.</l>
+            <l>Dum commota acies Erebi de sedibus imis</l>
+            <l>Infundunt sese terris, &amp; turbine mundum</l>
+            <l>Fumantem piceo perflant, immane sub auras</l>
+            <l>Extulit Alecto caput, ac foecunda cerastis</l>
+            <l>Tempora, &amp; horrificos incussit nubibus ignes.</l>
+            <l>Tum fremere in sanctos toto Mars impius orbe,</l>
+            <l>Tum caedem &amp; ceadis crudeles voluere poenas,</l>
+            <l>Omniaque ingenti secum agglomerare ruinâ</l>
+            <l>Vnus in exilium miseris non sufficit orbis,</l>
+            <l>Noricia in gladios, gladijque in vulnera desunt.</l>
+            <l>Hos inter motus, media inter fulmina surgunt</l>
+            <l>Septeni fratres, vnius pignora lecti,</l>
+            <l>Nec genus indecores, nec magna lucis egeni.</l>
+            <l>Hos non Attalico moles operosa metallo,</l>
+            <l>Non aulae blanditus honos, traductaque longis</l>
+            <l>Nobilitas atauis, non mellea pocula Circes,</l>
+            <l>Non vita tardauit amor: dura omnia circum</l>
+            <l>Exhausêre animas, cùm nondum prima iuuenta</l>
+            <l>Pingeret aspersas dulci lanugine malas.</l>
+            <l>Astitit in letho mater, sua viscera vidit</l>
+            <l>Discerpi exultans, natorum corpora septem</l>
+            <l>Obtulit in mortes, &amp; tunc peperisse putauit.</l>
+            <l>Qualis Olympiacae quem dulcis gloria palmae</l>
+            <l>Sollicitat, stimulosque agitat sub pectore virtus,</l>
+            <l>Per plagas pretiosa animae dispendia tendit</l>
+            <l>In decus, hinc trunco persistit corpore firmus,</l>
+            <l>Et vitam &amp; laudem non vno in vulnere linquit.</l>
+            <l>Talis vbi exhausit caelestis semina flammae</l>
+            <l>Heroina, graues animo stat voluere casus,</l>
+            <l>Et vitam aetherea pro Relligione pacisci.</l>
+            <l>Scinditur in partes per septem funera viuax,</l>
+            <l>Heu septem in natis nunquam totiesque sepulta</l>
+            <l>Fortunata parens, si quid mea carmina possunt,</l>
+            <l>Audiat hoc aether, responset vocibus aether.</l>
+            <l>Dum musa atroci toties incincta cothurno</l>
+            <l>Tantorum annales feruet sudare laborum.</l>
+            <l>Da faciles inuicta vias, &amp; carmina defer,</l>
+            <l>Qua fulgent natorum ignes, coeloque recepti,</l>
+            <l>Auspice te mites ducunt per sydera pompas.</l>
+         </div>
+      </front>
+      <pb n="175"/>
+      <body>
+         <head>FELICITAS</head>
+         <head>TRAGOEDIA.</head>
+         <div type="act" n="1">
+            <head>ACTVS PRIMVS.</head>
+            <div type="scene" n="1">
+               <stage>ANICETVS PONTIFEX. EVAGRIVS COMES PONtificis, Crispus nobilis
+                  Christianus.</stage>
+               <argument>
+                  <p>Pontifex luget Ecclesiae cruciatus, opem à Deo flagitat, nuncios accipit de S.
+                     Felicitatis ca<corr>r</corr>cere.</p>
+               </argument>
+               <sp who="#anicetus">
+                  <l>SVpreme regum, lucis aeterna pater</l>
+                  <l>Qui templa coeli, &amp; syderum ardentes globos,</l>
+                  <l>Radijsque cinctam iugibus Phoebi rotam</l>
+                  <l>Potente dextra voluis, haec lentus vides?</l>
+                  <l>Lentusque pateris? foederis sancti immemor</l>
+                  <l>Nurum beatam despicis sponsam poli,</l>
+                  <l>Quam sibi marita filius iunxit face?</l>
+                  <pb n="176"/>
+                  <l>Aspicis vt antro Ditis emissus furit</l>
+                  <l>Turbo malorum, &amp; fatum ineluctabile</l>
+                  <l>Nodos sequaces in nouas poenas trahit?</l>
+                  <l>In nostra ludit funera ingenium ferox.</l>
+                  <l>Nerui, flagella, taurea, sartagines,</l>
+                  <l>Cippi, columbar, culei, flammae cruces,</l>
+                  <l>Catasta, eculeus, vngula, pontus, fera</l>
+                  <l>Sunt leuia, ni iam parturit segetem nouam</l>
+                  <l>Tartarea diris pestibus foelix plaga.</l>
+                  <l>Nostro cruentus sanguine exundat Tybris,</l>
+                  <l>Lacerata foedè membra praetexunt solum.</l>
+                  <l>Et digna coelo corpora heu! canibus iacent</l>
+                  <l>Obiecta praeda, sed feri indulgent canes,</l>
+                  <l>Et praedam adorant, quam truces laniant viri.</l>
+                  <l>Sator verende cerne sacrilegam manum:</l>
+                  <l>Nostra impiatam caede fer miseris opem.</l>
+                  <l>Tandem furores impios, tandem Excetrae</l>
+                  <l>Rabiem retunde. &amp; regna fortuna aetheris:</l>
+                  <l>Nam picta solus fraena moderaris poli,</l>
+                  <l>Te pulchri ocelli syderum irradiant, tibi</l>
+                  <l>Pennata coelo militat diuùm cohors:</l>
+                  <l>Te sempiternum gloriae cingit decus,</l>
+                  <l>Ditatque cultu floreo ridens honos.</l>
+                  <l>Te te scelesti, &amp; fulmen excussum polo</l>
+                  <l>Tandem pauebunt, cùm rubris cinctus rogis</l>
+                  <l>Metes phalangas aereflorentes truci.</l>
+                  <l>Olim sequaces Barbari Nili rotae</l>
+                  <pb n="177"/>
+                  <l>Alta sepulta vortice vltoris sili</l>
+                  <l>Sensêre tergo regna vertentem manum.</l>
+                  <l>Et nunc malorum discute instantes globos,</l>
+                  <l>Et redde lucis aureae vultum tuis.</l>
+               </sp>
+               <sp who="#evagrius">
+                  <speaker>EVAG.</speaker>
+                  <l>Parens verende, proximum coelo caput,</l>
+                  <l>Solare curas, pectoris vulnus doma.</l>
+                  <l>Optatus albis veniet euectus rotis</l>
+                  <l>Dies, dolorum meta, &amp; auspicium boni</l>
+                  <l>Dulce insequentis: fata si vatum manent</l>
+                  <l>Immota, veniet inclytum terris caput,</l>
+                  <l>Princeps pudici mite praesidium chori,</l>
+                  <l>Qui Christianis ritè perfusus sacris,</l>
+                  <l>Graeci furoris franget indomitas faces,</l>
+                  <l>Totamque gremio colliget Christi domum.</l>
+                  <l>Sic post feroces Africi ingentis minas,</l>
+                  <l>Post nigra coeli praelia, &amp; nimbes graues,</l>
+                  <l>Diffusa longis brachia extendit plagis,</l>
+                  <l>Pictos honores illigans Iris polo.</l>
+                  <l>Sic quandò missus feruet ex venis cruor,</l>
+                  <l>Bullitque toto largius riuo fluens,</l>
+                  <l>Si forte Iaspin sedula admouit manus,</l>
+                  <l>Repentè sistit sanguis &amp; sidit dolor.</l>
+                  <l>Sed ecce Crispus nubilo moestus stupet.</l>
+               </sp>
+               <sp who="#anicetus">
+                  <speaker>ANICETVS.</speaker>
+                  <l>Effare iuuenis, quod nouum portas scelus?</l>
+               </sp>
+               <sp who="#crispus">
+                  <speaker>CRISPVS.</speaker>
+                  <l>Occidimus omnes, saeua tempestas minas</l>
+                  <l part="I">Intentat.</l>
+               </sp>
+               <sp who="#anicetus">
+                  <speaker>ANI.</speaker>
+                  <l part="F">Eheu quis nouus serpit furor?</l>
+               </sp>
+               <pb n="178"/>
+               <sp who="#crispus">
+                  <speaker>CRISPVS.</speaker>
+                  <l>Lassata nondum cladibus nostris hydra</l>
+                  <l>Sitit cruorem, faucibus siccis hians.</l>
+               </sp>
+               <sp who="#anicetus">
+                  <speaker>ANICET.</speaker>
+                  <l>Effare tandem, quod nouum fulmen tonat?</l>
+               </sp>
+               <sp who="#crispus">
+                  <speaker>CRISPVS.</speaker>
+                  <l>Carcere tenetur impio Felicitas.</l>
+               </sp>
+               <sp who="#anicetus">
+                  <speaker>ANIC.</speaker>
+                  <l>Felicitas? ô feminae pectus! bene est:</l>
+                  <l>Haec mox verendos martyres coelo dabit.</l>
+               </sp>
+               <sp who="#crispus">
+                  <speaker>CRISPVS.</speaker>
+                  <l>Animosa proles matris egregia latus</l>
+                  <l part="I">Stipat.</l>
+               </sp>
+               <sp who="#anicetus">
+                  <speaker>ANIC.</speaker>
+                  <l part="F">beatus martyrum coetus pio</l>
+                  <l>Ibis per astra praepes euectus iugo</l>
+               </sp>
+               <sp who="#crispus">
+                  <speaker>CRISPVS.</speaker>
+                  <l>Nunc exaratas ocyus per me tibi</l>
+                  <l>Mittunt tabellas, &amp; tuam implorant opem.</l>
+               </sp>
+               <sp who="#anicetus">
+                  <speaker>ANICET.</speaker>
+                  <l>O Christe nondum nostra mergetur ratis!</l>
+                  <l>Generosa mater masculum superas decus.</l>
+                  <l>O lecta iuuenum pectora! ô germen sacrum.</l>
+                  <l>Dulces tabellae, vos pijs lachrymis rigo.</l>
+                  <l>Ibo, ibo, visam carceris nigras domos.</l>
+               </sp>
+               <sp who="#crispus">
+                  <speaker>CRIS.</speaker>
+                  <l>Sed ecce prodit famulus impurios louis,</l>
+                  <l>Et machinatur monstra furiosus noua,</l>
+                  <l>Excede praesul, solus hic quicquid paras</l>
+                  <l>Inter furores, aure suspensa legam.</l>
+               </sp>
+            </div>
+            <pb n="179"/>
+            <div type="scene" n="2">
+               <stage>PONTIFEX IDOLORVM; APOLLO PROCVS Erinnae Christianae Virginis,</stage>
+               <argument>
+                  <p>Machinantur S. Felicitatis interitum.</p>
+               </argument>
+               <sp who="#pontifex-idolorum">
+                  <l>GAlilaea soboles, vomica recutiti gregis.</l>
+                  <l>Inuisa diuis saeculi labes tui,</l>
+                  <l>Etiamne bella caelitum misces choris?</l>
+                  <l>Lerna Chelydre, flamma numerosi mali,</l>
+                  <l>Multiplicatis pullulas ceruicibus;</l>
+                  <l>Enecta crescis, orescis in clades tuas.</l>
+                  <l>Si fulminantis dextra sic cessat louis,</l>
+                  <l>Mouebo dira monstra tartarea plaga,</l>
+                  <l>Totumque sede Taenarum euellam sua,</l>
+                  <l>Vt te ruinis opprimat: num debui</l>
+                  <l>Mactare ad aras gentis infandae greges,</l>
+                  <l>Miscere natis impios artus patrum,</l>
+                  <l>Largo cruore, spargere incestas dapes.</l>
+                  <l>Si feriantur in malis tantis Dei,</l>
+                  <l>En culter, ecce sica de sacris calens;</l>
+                  <l>Qua cupida fodiat gentis Hebraeae latus.</l>
+                  <l>Artus cruore perlitos scindam suo,</l>
+                  <l>Rimabor exta, visceribus inhians sacris,</l>
+                  <l>Flammisque tradam cupita scelerosae luis,</l>
+                  <l>Et vstulata membra diripiam foco.</l>
+                  <pb n="180"/>
+                  <l>Vt hac Latini gaudeant praeda canes.</l>
+               </sp>
+               <sp who="#crispus">
+                  <speaker>CRISPYS.</speaker>
+                  <l>Animum aestuantem fluctibus varijs rege.</l>
+                  <l>Consilia rarò dubia promouit furor.</l>
+               </sp>
+               <sp who="#apollo">
+                  <speaker>APOL.PROC.</speaker>
+                  <l>Bene est, tenetur praeda nexilibus plagis,</l>
+                  <l>Mactanda diuis hostia in casses ruit.</l>
+                  <l>Ego vt supinae mentis extinctas faces</l>
+                  <l>Marcere patiari sorbeam crudum scelus.</l>
+                  <l>Despectus, exspes vilis, irrisus, vagus,</l>
+                  <l>Hiante semper gutture includam famem?</l>
+                  <l>Nempe illa casta, quam mihi spondet Venus</l>
+                  <l>Petita quondam forma nobilibus procis,</l>
+                  <l>Felicitatis hausit afflatam luem;</l>
+                  <l>Et sub magistra desipit maius nefas.</l>
+                  <l>Repudia thalamis nunciat?namque aetheris</l>
+                  <l>Flagrare primis ignibus coepit rudis,</l>
+                  <l>Exosa terras quaerit in coelo procos.</l>
+                  <l>Nempe illi amores credo sollicitant deos.</l>
+                  <l>Ego probrosis lectus insidijs? ego.</l>
+                  <l>Per fraudulentos qualis &amp; quantus petor</l>
+                  <l>Ventosum amoris nomen, &amp; spectrum fugax</l>
+                  <l>Quas &amp; quàm atroces fabula in scenas agor!</l>
+                  <l>Adeone credit mentis extritum decus</l>
+                  <l>Erinna, credit vindices flammas agi</l>
+                  <l>Per fletum inanem spirat aeternùm dolor,</l>
+                  <l>Vindictam, &amp; iras non capit cordis salum.</l>
+                  <l>I, verte caecis, verte fumantem ignibus</l>
+                  <pb n="181"/>
+                  <l>Lectum iugalem, perque sacrificas preces</l>
+                  <l>Immitte sicam, victima haec Veneri cadat</l>
+                  <l>Opulenta furtis, talis hymenaeus iuuat</l>
+                  <l>Rabidum dolorem! nigra lucebit face.</l>
+                  <l>Megaera thalamis, sanguinis rore ebrios,</l>
+                  <l>Postes Erynnis perluet. Quò te rapis?</l>
+                  <l>Quid illa meruit? facinus alienum fuit.</l>
+                  <l>Erinna viuat, viuat &amp; victrix mei.</l>
+                  <l>Vt illa viuat scilicet? casta, integra.</l>
+                  <l>Et spolia nostri appensa riuali thoro</l>
+                  <l>Ostentet? amens, ebrius &amp; vacuus tui,</l>
+                  <l>Adeone ferri lenta torpescit sitis?</l>
+                  <l>Morietur. O dij? nesciat dextra hoc nefas,</l>
+                  <l>Felicitatis scilicet totam hanc tibi</l>
+                  <l>Telam doloris artifex neuit manus.</l>
+                  <l>Actum est, petatur, quà iubet dulcis furor.</l>
+                  <l>Per latera septem liberûm in matrem impiam</l>
+                  <l>Ferrum exigatur: non leuem ludum apparo.</l>
+               </sp>
+               <sp who="#pontifex-idolorum">
+                  <speaker>PONT.</speaker>
+                  <l>O dulce gentis lumen, &amp; columen tuae!</l>
+                  <l>O qui deorum numen aeternum colis!</l>
+                  <l>Da fidum amoris pignus hanc dextram tui,</l>
+                  <l>Hac Christianos dextera perge, opprime.</l>
+               </sp>
+               <sp who="#apollo">
+                  <speaker>APOLLO.</speaker>
+                  <l>Sed mansuetas Caesar hic aures habet.</l>
+               </sp>
+               <sp who="#pontifex-idolorum">
+                  <speaker>PONT.</speaker>
+                  <l>Est incitandus.</l>
+               </sp>
+               <sp who="#apollo">
+                  <speaker>APOLLO.</speaker>
+                  <l>Non leues iras capit,</l>
+                  <l>Statimque pectus frangitur clementia.</l>
+               </sp>
+               <pb n="182"/>
+               <sp who="pontifex-idolorum">
+                  <speaker>PONT.</speaker>
+                  <l>At est verendi numinis cultor pius,</l>
+                  <l>Regnique vindex. &amp; suae plebis pater,</l>
+                  <l>Nostras querelas audiet; certè audiet,</l>
+                  <l>Si cura regni tangit &amp; superum decus.</l>
+               </sp>
+               <sp who="#apollo">
+                  <speaker>APOLL.</speaker>
+                  <l>Adeamus, ecce prome verborum faces.</l>
+                  <l>Quascunque poteris, te louis numen regit:</l>
+                  <l>Ego arte quicquid potero perficiam mea.</l>
+               </sp>
+            </div>
+            <div type="scene" n="3">
+               <stage>MARCVS AVRELIVS IMP. APOLLO, PONTIFEX,</stage>
+               <argument>
+                  <p>Suadent Imperatori Christianorum caedem.</p>
+               </argument>
+               <sp who="#aurelius">
+                  <speaker>M.AVR.</speaker>
+                  <l>HOnesta regnum seruitus, blandum malum.</l>
+                  <l><hi>Quem fors ad arces gemmeo vexit iugo.</hi></l>
+                  <l><hi>Terrisque pro se Iuppiter numen dedit,</hi></l>
+                  <l><hi>Aurea feroci sceptra moderatur manu;</hi></l>
+                  <l><hi>Lucet smaragdis, purpurae irradiat face,</hi></l>
+                  <l><hi>Et iura dicit, imperat, seruit tamen.</hi></l>
+                  <l>Aetnaa sic nos pondera imperij premunt.</l>
+                  <l>Si me Gelonis fata fecissent ducem,</l>
+                  <l>Aut fors habenas gentis Arsacidum daret,</l>
+                  <l>Hoc esse regem crederent ciues mei,</l>
+                  <l>Si mihi tiaras barbara pictus manu</l>
+                  <l>Ebrias amomo lamberet in orbem comas;</l>
+                  <pb n="183"/>
+                  <l>Si mihi superbum cingeret miles latus,</l>
+                  <l>Saeuisque ferri texeret radijs diem.</l>
+                  <l><hi>Non est Quirini luxus Imperij nota.</hi></l>
+                  <l><hi>Decore certet pauo gemmanti nitens,</hi></l>
+                  <l>Pictosque honores diuitis cauda explicet:</l>
+                  <l>Virtute par est Martium niti genus;</l>
+                  <l>Testor verendi numen aeternum Iouis,</l>
+                  <l>Qui cuncta regno regna grauiori premit,</l>
+                  <l>Haec prima spirat cura visceribus meis.</l>
+               </sp>
+               <sp who="#apollo">
+                  <speaker>APOLLON.</speaker>
+                  <l>Magnanime Caesar, gentis &amp; votum tuae,</l>
+                  <l>Si quando terras Iupiter spectat, poli</l>
+                  <l>Sedens in arce, te videt numen pium,</l>
+                  <l>Tantoque gaudet principe, &amp; lentus bibit</l>
+                  <l>Diuûm liquorem, Iupiter coelo imperat,</l>
+                  <l>Marcusque terras sub Iouis nutu regit.</l>
+               </sp>
+               <sp who="#pontifex-idolorum">
+                  <speaker>PONT.</speaker>
+                  <l>Commune mundi lumen, &amp; caeli decus,</l>
+                  <l>Sat multa nomen posteris tradent tuum,</l>
+                  <l>Quod rumor alba gemmeus penna vehet:</l>
+                  <l>Sed sola pietas inserit coelo viros.</l>
+               </sp>
+               <sp who="#aurelius">
+                  <speaker>AVREL.</speaker>
+                  <l>Me prima tangit cura coelicolae Iouis,</l>
+               </sp>
+               <sp who="#pontifex-idolorum">
+                  <speaker>PONT.</speaker>
+                  <l>Tangit (fatemur) sacra Pontificum cohors.</l>
+                  <l>Tuo se in ostro pascit, &amp; per te viget</l>
+                  <l>Cultus deorum, &amp; sacra maiestas louis:</l>
+                  <l>Sed Christiani gentis inuisae probra</l>
+                  <l>Grassantur in te, &amp; iura Romulidum patris.</l>
+               </sp>
+               <sp who="#aurelius">
+                  <speaker>AVREL.</speaker>
+                  <l>Sunt comprimendi fortiter.</l>
+               </sp>
+               <pb n="184"/>
+               <sp who="#pontifex-idolorum">
+                  <speaker>PONT.</speaker>
+                  <l>Rectè imperas.</l>
+                  <l>Tenentur, ecce poena iam sceleri patet.</l>
+               </sp>
+               <sp who="#aurelius">
+                  <speaker>AVREL.</speaker>
+                  <l>Cùm puniuntur, morte pubescent sua</l>
+               </sp>
+               <sp who="#apollo">
+                  <speaker>APOLLON.</speaker>
+                  <l>At flamma pubem comprimet, ne se efferat.</l>
+               </sp>
+               <sp who="#aurelius">
+                  <speaker>AVREL.</speaker>
+                  <l>Si flamma &amp; ensis, quis locus clementiae?</l>
+               </sp>
+               <sp who="#apollo">
+                  <speaker>APOLLON.</speaker>
+                  <l>Hostes Deorum non manet clementia.</l>
+                  <l part="I">Sunt Christiani.</l>
+                  <sp who="#aurelius">
+                     <speaker>AVREL.</speaker>
+                     <l part="F">Sunt tamen, credo, viri.</l>
+                  </sp>
+                  <sp who="#pontifex-idolorum">
+                     <speaker>PONT.</speaker>
+                     <l>Sed foediores tigribus, &amp; vrsis viri.</l>
+                  </sp>
+                  <sp who="#aurelius">
+                     <speaker>AVREL.</speaker>
+                     <l>Saeuire in vrsos &amp; tigres non est meum.</l>
+                  </sp>
+                  <sp who="#pontifex-idolorum">
+                     <speaker>PONT.</speaker>
+                     <l>Diuos tueri munus est, munus: tuum.</l>
+                  </sp>
+                  <sp who="#aurelius">
+                     <speaker><hi>AVREL.</hi></speaker>
+                     <l><hi>Dij mente gaudent integra, non sanguine.</hi></l>
+                  </sp>
+                  <sp who="#apollo">
+                     <speaker>APOL</speaker>
+                     <l>Cruor impiorum maximum est epulum Iouis.</l>
+                  </sp>
+                  <sp who="#aurelius">
+                     <speaker>AVREL.</speaker>
+                     <l>Seruare puras Pontifex debet manus.</l>
+                  </sp>
+                  <sp who="#apollo">
+                     <speaker>APOLL.</speaker>
+                     <l>Sacrare diti Pontifex debet reos.</l>
+                  </sp>
+                  <sp who="#aurelius">
+                     <speaker>AVREL.</speaker>
+                     <l>Cum poena prodest multò supplicijs reos.</l>
+                  </sp>
+                  <sp who="#pontifex-idolorum">
+                     <speaker>PON.T.</speaker>
+                     <l part="I">Haec poena prodest.</l>
+                  </sp>
+                  <sp who="#aurelius">
+                     <speaker>AVREL.</speaker>
+                     <l part="F">Christianorum gregi,</l>
+                     <l>Qui morte crescunt, excetra sontis caput.</l>
+                  </sp>
+                  <pb n="185"/>
+                  <sp who="#apollo">
+                     <speaker>APOLL.</speaker>
+                     <l part="I">Nemo reuixit mortuus.</l>
+                  </sp>
+                  <sp who="#aurelius">
+                     <speaker>AVREL.</speaker>
+                     <l part="F">sed mortuus</l>
+                     <l>Cinis, vt videtis, segete pubescit noua.</l>
+                  </sp>
+                  <sp who="#apollo">
+                     <speaker>APOLLO.</speaker>
+                     <l>Ferro domari, &amp; facibus hic tandem potest.</l>
+                  </sp>
+                  <sp who="#aurelius">
+                     <speaker><hi>AVREL.</hi></speaker>
+                     <l><hi>Violenta nunquam profuerunt iussa, sed</hi></l>
+                  </sp>
+                  <l part="I"><hi>Moderata durant.</hi></l>
+               </sp>
+               <sp who="#pontifex-idolorum">
+                  <speaker>PONT.</speaker>
+                  <l part="F">Quis modus geti impiae,</l>
+                  <l>Quae iura diuûm crimine incestat fero?</l>
+               </sp>
+               <sp who="#aurelius">
+                  <speaker><hi>AVR.</hi></speaker>
+                  <l><hi>Mitis potestas fortior ferro &amp; face.</hi></l>
+               </sp>
+               <sp who="#apollo">
+                  <speaker>APOLLO.</speaker>
+                  <l>Sed mite semper nutrit imperium scelus.</l>
+               </sp>
+               <sp who="#aurelius">
+                  <speaker>AVREL.</speaker>
+                  <l>Sanat diaeta, quod nequit Chirurgia.</l>
+               </sp>
+               <sp who="#pontifex-idolorum">
+                  <speaker>PONT.</speaker>
+                  <l>Ferro secetur tabidi membri lues.</l>
+               </sp>
+               <sp who="#aurelius">
+                  <speaker>AVREL.</speaker>
+                  <l part="I">Possum mederi</l>
+               </sp>
+               <sp who="#pontifex-idolorum">
+                  <speaker>PONT.</speaker>
+                  <l part="F">facibus &amp; ferro potes.</l>
+               </sp>
+               <sp who="#aurelius">
+                  <speaker>AVREL.</speaker>
+                  <l>Sed qui tenentur? foeminae &amp; pueri rudes.</l>
+               </sp>
+               <sp who="#apollo">
+                  <speaker>APOLL.</speaker>
+                  <l>Si negliguntur, latiùs serpit malum.</l>
+               </sp>
+               <sp who="#aurelius">
+                  <speaker>AVREL.</speaker>
+                  <l>Hoc sexus, aetas, hoc ratio mitis vetat:</l>
+               </sp>
+               <sp who="#apollo">
+                  <speaker>APOL.</speaker>
+                  <l>Quod sexus, atque aetas vetat, leges iubent.</l>
+               </sp>
+               <sp who="#aurelius">
+                  <speaker>AVREL.</speaker>
+                  <l>Foeminea tandem poena quid laudis parit?</l>
+               </sp>
+               <sp who="#apollo">
+                  <speaker>APOL.</speaker>
+                  <l>Laus magna sonti victima fieri deo.</l>
+               </sp>
+               <sp who="#aurelius">
+                  <speaker>AVR.</speaker>
+                  <l>In tenera saeuire ingenia, non est pium.</l>
+               </sp>
+               <pb n="186"/>
+               <sp who="#pontifex-idolorum">
+                  <speaker>PONT.</speaker>
+                  <l>Spernere deorum numen, est plane impium.</l>
+               </sp>
+               <sp who="#aurelius">
+                  <speaker>AVREL.</speaker>
+                  <l>Ad sana referent consilia mentem suam.</l>
+               </sp>
+               <sp who="#apollo">
+                  <speaker>APOL.</speaker>
+                  <l>Quid sanitatis in mera vesania?</l>
+               </sp>
+               <sp who="#aurelius">
+                  <speaker><hi>AVR.</hi></speaker>
+                  <l><hi>Mens foeminarum lubricos motus habet.</hi></l>
+               </sp>
+               <sp who="#pontifex-idolorum">
+                  <speaker>PONT.</speaker>
+                  <l>Nil peruicaci foemina obstinatius.</l>
+               </sp>
+               <sp who="#aurelius">
+                  <speaker>AVR.</speaker>
+                  <l>Nequeo parentem, liberos seruem pius.</l>
+               </sp>
+               <sp who="#apollo">
+                  <speaker>APOL.</speaker>
+                  <l>Sed corui (vt aiunt pessimi ouum pessimum.</l>
+               </sp>
+               <sp who="#aurelius">
+                  <speaker>AVR.</speaker>
+                  <l part="I">At lenientur.</l>
+               </sp>
+               <sp who="#pontifex-idolorum">
+                  <speaker>PONT.</speaker>
+                  <l part="F">saga ni technis suis</l>
+                  <l>Iam liberorum finxit ingenium ferox:</l>
+               </sp>
+               <sp who="#aurelius">
+                  <speaker>AVR.</speaker>
+                  <l>Extrema summo poena seruetur loco.</l>
+                  <l>Stat mansuetis aggredi mentem artibus,</l>
+                  <l>Flecti recusant? frangere licebit probè.</l>
+               </sp>
+               <sp who="#crispus">
+                  <speaker>CRISP.</speaker>
+                  <l>Heu dira sitis, dira innocui</l>
+                  <l>Sanguinis ardet corde cupido.</l>
+                  <l>O flecte truces animos, rerum.</l>
+                  <l>Genitor, sancti miserere Gregis.</l>
+               </sp>
+            </div>
+            <div type="scene" n="4">
+               <head>CHORVS</head>
+               <argument>
+                  <p>CELEBRAT</p>
+                  <p>Ecclesiae Romanae triumphos sub SS. Petri &amp; Pauli auspicijs.</p>
+               </argument>
+               <l>IMmerge Titan oceano caput,</l>
+               <l>Et conde flammas aetherea facis,</l>
+               <l rend="indent">Foecunda lucis lux nitescit,</l>
+               <pb n="187"/>
+               <l rend="indent">Et gemino sobolescit astro.</l>
+               <l>En mite Petri lumen, &amp; aureus</l>
+               <l>Fraterna Paulus lumina duplicans:</l>
+               <l rend="indent">Per templa coeli fornicata</l>
+               <l rend="indent">Aurifluo spatiatur igne.</l>
+               <l>Viui pyropi sydereae domus,</l>
+               <l>Afflate vestro pectora lumine,</l>
+               <l rend="indent">Quando canora fila netes</l>
+               <l rend="indent">Musa mouet meliore plectro.</l>
+               <l>Queis te coronis sancte senex beem?</l>
+               <l>Nam Ponti arenas, &amp; vaga sydera,</l>
+               <l rend="indent">Hyblaeque flores delicata</l>
+               <l rend="indent">Innumeris superas trophaeis.</l>
+               <l>Tu quicquid ambit Nereus, &amp; iugi</l>
+               <l>Quicquid rotatu sol videt igneus,</l>
+               <l rend="indent">Tu pauperis Cymba magister</l>
+               <l rend="indent">Imperio moderaris vno.</l>
+               <l>Aequalis astris Roma Deûm domus</l>
+               <l>Per te Tonantis molle subit iugum,</l>
+               <l rend="indent">Et foeta sertis laureatis</l>
+               <l rend="indent">Terga tuis pedibus supinat:</l>
+               <l>Tecum curules flammigeras agit,</l>
+               <l>Auctus beatis Paulus adoreis,</l>
+               <l rend="indent">Tecum catenati labores</l>
+               <l rend="indent">Astra viro pariter dedêre.</l>
+               <l>Non pullulabunt tot noua guttura,</l>
+               <l>Lernae Chelydro, quot scelerum truces</l>
+               <l rend="indent">Fregit cateruas, impotenti</l>
+               <l rend="indent">Dum rapidus tonat ille nimbo.</l>
+               <l>En toto mundi machina sedibus</l>
+               <pb n="188"/>
+               <l>Conuulsa, Christo bella mouet Nero,</l>
+               <l rend="indent">Ad arma, cessantes ad arma</l>
+               <l rend="indent">Caesar agit furiatus oestris.</l>
+               <l>Inuise diuis Gorgoneum caput,</l>
+               <l>Quid machinaris tela Cyclopea,</l>
+               <l rend="indent">Frustraque ludis, &amp; caducos</l>
+               <l rend="indent">Ingeminas per inane bombos?</l>
+               <l>Non plena coecis pestibus atria</l>
+               <l>Iniurioso turbine proruent</l>
+               <l rend="indent">Stantem columnam, quam frequenti</l>
+               <l rend="indent">Praesidio Dominus coronat.</l>
+               <l>Vestri cruoris flumine perlita,</l>
+               <l>Nunc purpuratis fulget honoribus,</l>
+               <l rend="indent">Et vincit astrorum nitorem,</l>
+               <l rend="indent">Ingenuis radiata flammis.</l>
+               <l>O ter beatus sanguinis hic liquor</l>
+               <l>Submurmuranti qui rigat alueo</l>
+               <l rend="indent">Diuinum agellum, &amp; prata coeli</l>
+               <l rend="indent">Centuplici beat vsque flore.</l>
+               <l>Saluete coeli gemmea sydera.</l>
+               <l>Huc &amp; volucri ferte gradum rota,</l>
+               <l rend="indent">Dum terra vestris in triumphis.</l>
+               <l rend="indent">Tota fremit, resonatque coelum.</l>
+               <l>Candida dum puro decurrent sydera lapsu,</l>
+               <l>Atque senescentes reparabunt cornua lunae,</l>
+               <l>Roma sub auspicijs Christi se tollet in astra,</l>
+               <l>Pacatumque reget sanctis virtutibus orbem.</l>
+               <pb n="189"/>
+               <l>Frigida dum solitis niuibus se vestiet aura,</l>
+               <l>Dum verni fundent florum decora inclyta soles,</l>
+               <l>Florebit pietas coeli victricibus armis,</l>
+               <l>Perque profanatas mittet sua iura phalanges.</l>
+            </div>
          </div>
       </body>
    </text>
