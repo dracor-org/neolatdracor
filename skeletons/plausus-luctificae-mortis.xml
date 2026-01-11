@@ -1,0 +1,53 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="neolat000042"
+     xml:lang="lat">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Plausus luctificae Mortis</title>
+            <author>
+               <persName xml:lang="lat">
+                  <forename>Eusebius</forename>
+                  <surname>Candidus</surname>
+               </persName>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="dracor">DraCor</publisher>
+            <idno type="URL">https://dracor.org</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <name>TransLatin</name>
+               <idno type="URL">https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Placentius-Plausus.docx</idno>
+            </bibl>
+            <bibl type="originalSource">
+               <title>Eusebius Candidus: Plausus luctificae Mortis. In: Susanna per Placentium euangelisten lusa. Eusebii Candidi Elegia, in uanam breuemque; humanae uitae gloriolam. Item Ode Sapphica eiusdem Eusebii, in mortis recordationem. Item Plausus luctificae Mortis, ad modum Dialogi, extemporaliter ab eodem Eusebio lusus. [Antwerpen:] Martinus Caesar 1534.</title>
+               <idno type="URL">https://books.google.nl/books?id=VD44U0886h0C</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="genreTitle">comedy</term>
+            </keywords>
+            <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <standOff>
+      <listEvent>
+         <event type="print" when="1534">
+            <desc/>
+         </event>
+      </listEvent>
+   </standOff>
+   <text>
+      <front/>
+      <body/>
+   </text>
+</TEI>
