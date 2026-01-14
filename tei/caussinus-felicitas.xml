@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Felicitas</title>
+            <title>Felicitas</title>
             <title type="sub">Tragoedia</title>
             <author>
                <persName xml:lang="la">
@@ -30,10 +30,8 @@
             <publisher xml:id="dracor">DraCor</publisher>
             <idno type="URL">https://dracor.org</idno>
             <availability>
-               <licence>
-                  <ab>CC0 1.0</ab>
-                  <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
-               </licence>
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0
+                  1.0</licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -44,16 +42,18 @@
                <availability status="free">
                   <p>In the public domain.</p>
                </availability>
-               <bibl type="digitalSource">
-                  <ref target="https://books.google.com/books?id=RG4UAAAAQAAJ">Google Books</ref>
-                  <availability status="free">
-                     <p>In the public domain.</p>
-                  </availability>
-                  <bibl type="originalSource"><author>Nicolas Caussin</author> :
-                        <title>Felicitas</title> . In: <title>Tragoediae Sacrae</title> .
-                        <pubPlace>Cologne</pubPlace> : <publisher>Johann Kinckius</publisher>
-                     <date>1621</date>. <biblScope>pp. 175–261</biblScope>.</bibl>
-               </bibl>
+               <bibl type="originalSource"><author>Nicolas Caussin</author> :
+                     <title>Felicitas</title> . In: <title>Tragoediae Sacrae</title> .
+                     <pubPlace>Cologne</pubPlace> : <publisher>Johann Kinckius</publisher>
+                  <date>1621</date>. <biblScope>pp. 175–261</biblScope>.</bibl>
+               <relatedItem type="digitalCopyUsed">
+                  <bibl>
+                     <ref target="https://books.google.com/books?id=RG4UAAAAQAAJ">Google Books</ref>
+                     <availability status="free">
+                        <p>In the public domain.</p>
+                     </availability>
+                  </bibl>
+               </relatedItem>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -324,10 +324,10 @@
             <div type="scene" n="1">
                <stage>ANICETVS PONTIFEX. EVAGRIVS COMES PONtificis, Crispus nobilis
                   Christianus.</stage>
-               <argument>
-                  <p>Pontifex luget Ecclesiae cruciatus, opem à Deo flagitat, nuncios accipit de S.
-                     Felicitatis ca<corr>r</corr>cere.</p>
-               </argument>
+               <ab type="argument">
+                  <ab type="p">Pontifex luget Ecclesiae cruciatus, opem à Deo flagitat, nuncios
+                     accipit de S. Felicitatis ca<corr>r</corr>cere.</ab>
+               </ab>
                <sp who="#anicetus">
                   <l>SVpreme regum, lucis aeterna pater</l>
                   <l>Qui templa coeli, &amp; syderum ardentes globos,</l>
@@ -458,9 +458,9 @@
             <pb n="179"/>
             <div type="scene" n="2">
                <stage>PONTIFEX IDOLORVM; APOLLO PROCVS Erinnae Christianae Virginis,</stage>
-               <argument>
-                  <p>Machinantur S. Felicitatis interitum.</p>
-               </argument>
+               <ab type="argument">
+                  <ab type="p">Machinantur S. Felicitatis interitum.</ab>
+               </ab>
                <sp who="#pontifex-idolorum">
                   <l>GAlilaea soboles, vomica recutiti gregis.</l>
                   <l>Inuisa diuis saeculi labes tui,</l>
@@ -556,7 +556,7 @@
                   <l>Statimque pectus frangitur clementia.</l>
                </sp>
                <pb n="182"/>
-               <sp who="pontifex-idolorum">
+               <sp who="#pontifex-idolorum">
                   <speaker>PONT.</speaker>
                   <l>At est verendi numinis cultor pius,</l>
                   <l>Regnique vindex. &amp; suae plebis pater,</l>
@@ -572,9 +572,9 @@
             </div>
             <div type="scene" n="3">
                <stage>MARCVS AVRELIVS IMP. APOLLO, PONTIFEX,</stage>
-               <argument>
-                  <p>Suadent Imperatori Christianorum caedem.</p>
-               </argument>
+               <ab type="argument">
+                  <ab type="p">Suadent Imperatori Christianorum caedem.</ab>
+               </ab>
                <sp who="#aurelius">
                   <speaker>M.AVR.</speaker>
                   <l>HOnesta regnum seruitus, blandum malum.</l>
@@ -654,69 +654,69 @@
                   <speaker>APOLLON.</speaker>
                   <l>Hostes Deorum non manet clementia.</l>
                   <l part="I">Sunt Christiani.</l>
-                  <sp who="#aurelius">
-                     <speaker>AVREL.</speaker>
-                     <l part="F">Sunt tamen, credo, viri.</l>
-                  </sp>
-                  <sp who="#pontifex-idolorum">
-                     <speaker>PONT.</speaker>
-                     <l>Sed foediores tigribus, &amp; vrsis viri.</l>
-                  </sp>
-                  <sp who="#aurelius">
-                     <speaker>AVREL.</speaker>
-                     <l>Saeuire in vrsos &amp; tigres non est meum.</l>
-                  </sp>
-                  <sp who="#pontifex-idolorum">
-                     <speaker>PONT.</speaker>
-                     <l>Diuos tueri munus est, munus: tuum.</l>
-                  </sp>
-                  <sp who="#aurelius">
-                     <speaker><hi>AVREL.</hi></speaker>
-                     <l><hi>Dij mente gaudent integra, non sanguine.</hi></l>
-                  </sp>
-                  <sp who="#apollo">
-                     <speaker>APOL</speaker>
-                     <l>Cruor impiorum maximum est epulum Iouis.</l>
-                  </sp>
-                  <sp who="#aurelius">
-                     <speaker>AVREL.</speaker>
-                     <l>Seruare puras Pontifex debet manus.</l>
-                  </sp>
-                  <sp who="#apollo">
-                     <speaker>APOLL.</speaker>
-                     <l>Sacrare diti Pontifex debet reos.</l>
-                  </sp>
-                  <sp who="#aurelius">
-                     <speaker>AVREL.</speaker>
-                     <l>Cum poena prodest multò supplicijs reos.</l>
-                  </sp>
-                  <sp who="#pontifex-idolorum">
-                     <speaker>PON.T.</speaker>
-                     <l part="I">Haec poena prodest.</l>
-                  </sp>
-                  <sp who="#aurelius">
-                     <speaker>AVREL.</speaker>
-                     <l part="F">Christianorum gregi,</l>
-                     <l>Qui morte crescunt, excetra sontis caput.</l>
-                  </sp>
-                  <pb n="185"/>
-                  <sp who="#apollo">
-                     <speaker>APOLL.</speaker>
-                     <l part="I">Nemo reuixit mortuus.</l>
-                  </sp>
-                  <sp who="#aurelius">
-                     <speaker>AVREL.</speaker>
-                     <l part="F">sed mortuus</l>
-                     <l>Cinis, vt videtis, segete pubescit noua.</l>
-                  </sp>
-                  <sp who="#apollo">
-                     <speaker>APOLLO.</speaker>
-                     <l>Ferro domari, &amp; facibus hic tandem potest.</l>
-                  </sp>
-                  <sp who="#aurelius">
-                     <speaker><hi>AVREL.</hi></speaker>
-                     <l><hi>Violenta nunquam profuerunt iussa, sed</hi></l>
-                  </sp>
+               </sp>
+               <sp who="#aurelius">
+                  <speaker>AVREL.</speaker>
+                  <l part="F">Sunt tamen, credo, viri.</l>
+               </sp>
+               <sp who="#pontifex-idolorum">
+                  <speaker>PONT.</speaker>
+                  <l>Sed foediores tigribus, &amp; vrsis viri.</l>
+               </sp>
+               <sp who="#aurelius">
+                  <speaker>AVREL.</speaker>
+                  <l>Saeuire in vrsos &amp; tigres non est meum.</l>
+               </sp>
+               <sp who="#pontifex-idolorum">
+                  <speaker>PONT.</speaker>
+                  <l>Diuos tueri munus est, munus: tuum.</l>
+               </sp>
+               <sp who="#aurelius">
+                  <speaker><hi>AVREL.</hi></speaker>
+                  <l><hi>Dij mente gaudent integra, non sanguine.</hi></l>
+               </sp>
+               <sp who="#apollo">
+                  <speaker>APOL</speaker>
+                  <l>Cruor impiorum maximum est epulum Iouis.</l>
+               </sp>
+               <sp who="#aurelius">
+                  <speaker>AVREL.</speaker>
+                  <l>Seruare puras Pontifex debet manus.</l>
+               </sp>
+               <sp who="#apollo">
+                  <speaker>APOLL.</speaker>
+                  <l>Sacrare diti Pontifex debet reos.</l>
+               </sp>
+               <sp who="#aurelius">
+                  <speaker>AVREL.</speaker>
+                  <l>Cum poena prodest multò supplicijs reos.</l>
+               </sp>
+               <sp who="#pontifex-idolorum">
+                  <speaker>PON.T.</speaker>
+                  <l part="I">Haec poena prodest.</l>
+               </sp>
+               <sp who="#aurelius">
+                  <speaker>AVREL.</speaker>
+                  <l part="F">Christianorum gregi,</l>
+                  <l>Qui morte crescunt, excetra sontis caput.</l>
+               </sp>
+               <pb n="185"/>
+               <sp who="#apollo">
+                  <speaker>APOLL.</speaker>
+                  <l part="I">Nemo reuixit mortuus.</l>
+               </sp>
+               <sp who="#aurelius">
+                  <speaker>AVREL.</speaker>
+                  <l part="F">sed mortuus</l>
+                  <l>Cinis, vt videtis, segete pubescit noua.</l>
+               </sp>
+               <sp who="#apollo">
+                  <speaker>APOLLO.</speaker>
+                  <l>Ferro domari, &amp; facibus hic tandem potest.</l>
+               </sp>
+               <sp who="#aurelius">
+                  <speaker><hi>AVREL.</hi></speaker>
+                  <l><hi>Violenta nunquam profuerunt iussa, sed</hi></l>
                   <l part="I"><hi>Moderata durant.</hi></l>
                </sp>
                <sp who="#pontifex-idolorum">
