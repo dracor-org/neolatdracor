@@ -24,7 +24,8 @@
             "name": { "type": "string" },
             "forename": { "type": "string" },
             "surname": { "type": "string" },
-            "qid": { "type": ["string", "null"] }
+            "qid": { "type": ["string", "null"] },
+            "gnd": { "type": ["string", "null"] }
           }
         }
       },
