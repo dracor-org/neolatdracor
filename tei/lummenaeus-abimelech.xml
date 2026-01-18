@@ -3,11 +3,15 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Abimelech. Tragoedia sacra</title>
+            <title>Abimelech</title>
+            <title type="sub">Tragoedia sacra</title>
             <author>
-               <persName xml:lang="la">Jacobus Cornelius Lummenaeus a Marca</persName>
+               <persName xml:lang="la">
+                  <forename>Jacobus Cornelius</forename>
+                  <surname>Lummenaeus a Marca</surname>
+               </persName>
                <idno type="wikidata">Q112481178</idno>
-               <idno type="pnd">131814397</idno>
+               <idno type="gnd">131814397</idno>
             </author>
             <editor>Jan Bloemendal</editor>
             <respStmt>
@@ -24,28 +28,53 @@
             <publisher xml:id="dracor">DraCor</publisher>
             <idno type="URL">https://dracor.org</idno>
             <availability>
-               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0
+                  1.0</licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
             <bibl type="digitalSource">
                <name>TransLatin</name>
-               <idno type="URL">https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Lummenaeus-Abimelech.docx</idno>
+               <idno type="URL"
+                  >https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Lummenaeus-Abimelech.docx</idno>
                <availability status="free">
                   <p>In the public domain.</p>
                </availability>
-               <bibl type="originalSource">Jacobus Cornelius Lummenaeus a Marca: Abimelech. Tragoedia sacra. In: Musae lacrymantes, sive Pleias tragica, id est septem tragoediae sacrae. Bustum Sodomae, Abimelech, Iephte, Sampson, Saul, Amnon, Sedechias. Douai: Johannes de Fampoux 1628. pp. 32–61. https://books.google.nl/books?id=3Wg-AAAAcAAJ.</bibl>
+               <bibl type="originalSource"><author>Jacobus Cornelius Lummenaeus a Marca</author> :
+                     <title>Sampson. Tragoedia sacra</title> . In: <title>Musae lacrymantes, sive
+                     Pleias tragica, id est septem tragoediae sacrae. Bustum Sodomae, Abimelech,
+                     Iephte, Sampson, Saul, Amnon, Sedechias</title> . <pubPlace>Douai</pubPlace> :
+                     <publisher>Johannes de Fampoux</publisher>
+                  <date>1628</date> . <biblScope>pp. 32–61</biblScope>.</bibl>
+               <relatedItem>
+                  <bibl>
+                     <ref target="https://books.google.nl/books?id=3Wg-AAAAcAAJ">Google Books</ref>
+                     <availability status="free">
+                        <p>In the public domain.</p>
+                     </availability>
+                  </bibl>
+               </relatedItem>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person xml:id="chor">
-                  <persName>CHOR.</persName>
+               <person xml:id="abimelechus" sex="MALE" ana="https://www.wikidata.org/wiki/Q480279">
+                  <persName>ABIMELECHVS</persName>
                </person>
-               <person xml:id="nvn">
-                  <persName>NVN.</persName>
+               <personGrp xml:id="chorus" sex="UNKNOWN">
+                  <persName>CHORVS</persName>
+               </personGrp>
+               <person xml:id="iotanes" sex="MALE" ana="https://www.wikidata.org/wiki/Q6294444">
+                  <persName>IOTANES/IOTHANES</persName>
+               </person>
+               <person xml:id="nuncius" sex="MALE">
+                  <persName>NVNCIVS</persName>
+               </person>
+               <person xml:id="umbra-gedeonis" sex="MALE"
+                  ana="https://www.wikidata.org/wiki/Q176125">
+                  <persName>VMBRA GEDEONIS</persName>
                </person>
                <person xml:id="unknown">
                   <persName>Unknown</persName>
@@ -56,23 +85,22 @@
             <keywords>
                <term type="genreTitle">tragedy</term>
             </keywords>
-            <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+            <classCode scheme="http://www.wikidata.org/entity/">Q622783</classCode>
          </textClass>
          <creation>
             <region>
-               <ref target="https://www.wikidata.org/wiki/Q476033">Low Countries</ref>
+               <ref target="https://www.wikidata.org/wiki/Q476033">Spanish Netherlands</ref>
             </region>
          </creation>
       </profileDesc>
    </teiHeader>
    <standOff>
-      <listRelation>
-         <relation name="wikidata" active="https://dracor.org/entity/neolat000092"/>
-      </listRelation>
       <listEvent>
-         <event type="print"
-                when="1628">
-            <desc/>
+         <event type="print" when="1628">
+            <desc>first print 1622, slightly revised in the 1628 edition (see Gruijters, R.J.
+               (2010): An eloquent enigma. The dramas of Jacobus Cornelius Lummenaeus à Marca (c.
+               1580 - c. 1628) and their contexts [Thesis, fully internal, Universiteit van
+               Amsterdam]. Eigen Beheer. p. 226, 235.)</desc>
          </event>
       </listEvent>
    </standOff>
@@ -80,85 +108,53 @@
       <front>
          <titlePage>
             <docTitle>
-               <titlePart>
-                  <lb/>ABIMELECH
-<lb/>TRAGOEDIA SACRA.
-</titlePart>
+               <titlePart type="main">ABIMELECH</titlePart>
+               <titlePart type="sub">TRAGOEDIA SACRA.</titlePart>
             </docTitle>
          </titlePage>
-         <p>
-            <pb n="33"/>
-         </p>
+         <pb n="33"/>
          <div type="dedication">
-            <sp who="#unknown">
-               <p>
-                  <l>AMPLISSIMO</l>
-                  <l>ET</l>
-                  <l>R.DO ADMODVM DOMINO</l>
-                  <l>D. PHILIPPO CAVERELLIO</l>
-                  <l>ABBATI VEDASTINO,</l>
-                  <l>MONASTERIORVM EXEMPTORVM</l>
-                  <l>PER BELGIVM VISITATORI MERITISS.</l>
-                  <l>IACOBVS CORN. LVMMENAEVS A MARCA,</l>
-                  <l>Rel. Sacerdos Benedictino-Blandiniensis, C. D. Q.</l>
-                  <l>ARthesiae Pater, <foreign>ἁμι, ἄβροχος ἄγκυρα Mούσων</foreign>,</l>
-                  <l>Pieridum columen, Pieridumque decus.</l>
-                  <l>Perlege, sed facilis, nostrae lugubria Musae,</l>
-                  <l>Quae iacet ante tuos inuidiosa pedes.</l>
-                  <l>Sanguineamque aciem, &amp; feralia lumina voluit,</l>
-                  <l>Heu mihi! quàm multis praefica funeribus!</l>
-                  <l>Septem inter denos, exanguia pectora, fratres,</l>
-                  <l>Indignis lalemum docta sonare modis.</l>
-                  <l>Eheu! quos gelidi truncatos marmore saxi,</l>
-                  <l>ABIMELECH iussit Manibus ire sacros,</l>
-                  <l>ABIMELECH Gedeone satus, trux, saeuus, &amp; asper,</l>
-                  <l>Et nimiâ pueros ambitione necans.</l>
-                  <l>Felix, si nunquam gessisset purpuram, &amp; ostrum,</l>
-                  <l>Et, quod fraterno sanguine tinxit, ebur!</l>
-               </p>
-            </sp>
+            <salute>AMPLISSIMO ET R.DO ADMODVM DOMINO D. PHILIPPO CAVERELLIO ABBATI VEDASTINO,
+               MONASTERIORVM EXEMPTORVM PER BELGIVM VISITATORI MERITISS. IACOBVS CORN. LVMMENAEVS A
+               MARCA, Rel. Sacerdos Benedictino-Blandiniensis, C. D. Q.</salute>
+            <l>ARthesiae Pater, <foreign>ἁμι, ἄβροχος ἄγκυρα Mούσων</foreign>,</l>
+            <l rend="indent">Pieridum columen, Pieridumque decus.</l>
+            <l>Perlege, sed facilis, nostrae lugubria Musae,</l>
+            <l rend="indent">Quae iacet ante tuos inuidiosa pedes.</l>
+            <l>Sanguineamque aciem, &amp; feralia lumina voluit,</l>
+            <l rend="indent">Heu mihi! quàm multis praefica funeribus!</l>
+            <l>Septem inter denos, exanguia pectora, fratres,</l>
+            <l rend="indent">Indignis lalemum docta sonare modis.</l>
+            <l>Eheu! quos gelidi truncatos marmore saxi,</l>
+            <l rend="indent">ABIMELECH iussit Manibus ire sacros,</l>
+            <l>ABIMELECH Gedeone satus, trux, saeuus, &amp; asper,</l>
+            <l rend="indent">Et nimiâ pueros ambitione necans.</l>
+            <l>Felix, si nunquam gessisset purpuram, &amp; ostrum,</l>
+            <l rend="indent">Et, quod fraterno sanguine tinxit, ebur!</l>
          </div>
          <pb n="34"/>
          <div type="epistle">
-            <sp who="#unknown">
-               <p>
-                  <lb/>REVERENDO PATRI
-<lb/>IACOBO CORNELIO
-<lb/>LVMMENAEO A MARCA
-<lb/>M. CARDINALIS BARBERINVS.
-<lb/>NVNC
-<lb/>VRBANVS VIII
-<lb/>PONT. MAX.
-<lb/>ACcepi libens ABIMELECHVM TRAGOE¬
-<lb/>DIAM tuam, scriptoris enim est opus, cuius
-<lb/>eruditionem &amp; doctrinam fama vulgauit, mihi¬
-<lb/>que defertur in eo luculentum amoris ergà me tui
-<lb/>testimonium. Quas debeo, gratias ago, tuumque
-<lb/>ad Vrbem praestolor aduentum. Gratißimus
-<lb/>erit adspectus Viri, quem amo &amp; aestimo. Vti¬
-<lb/>nam sit occasio gratiae referendae. Interim pro
-<lb/>comperto habeas, si quâ in re, operâ meâ, tibi
-<lb/>sit opus, eam non defuturam. Vale, datum
-<lb/>ROMAE, Prid. Id. Iunij, 1622.
-</p>
-            </sp>
+            <salute>REVERENDO PATRI IACOBO CORNELIO LVMMENAEO A MARCA M. CARDINALIS BARBERINVS. NVNC
+               VRBANVS VIII PONT. MAX.</salute>
+            <p>ACcepi libens ABIMELECHVM TRAGOEDIAM tuam, scriptoris enim est opus, cuius
+               eruditionem &amp; doctrinam fama vulgauit, mihique defertur in eo luculentum amoris
+               ergà me tui testimonium. Quas debeo, gratias ago, tuumque ad Vrbem praestolor
+               aduentum. Gratißimus erit adspectus Viri, quem amo &amp; aestimo. Vtinam sit occasio
+               gratiae referendae. Interim pro comperto habeas, si quâ in re, operâ meâ, tibi sit
+               opus, eam non defuturam.</p>
+            <closer><salute>Vale,</salute>
+               <dateline>datum <name type="place">ROMAE</name>, <date>Prid. Id. Iunij,
+                  1622</date>.</dateline></closer>
          </div>
          <pb n="35"/>
          <div type="argument">
             <head>ARGVMENTVM.</head>
-            <sp who="#unknown">
-               <p>ABIMELECHVS Hierobaali Gedeonis</p>
-               <p>ex pellice filius, à funere optimi paren¬</p>
-               <p>tis, regnandi libidine instinctus, fratres sep¬</p>
-               <p>tuaginta, legitimo toro natos vno excep¬</p>
-               <p>to lotane puero (qui clanculùm subductus</p>
-               <p>fuit) ad saxi crepidinem caedit. Solus impe¬</p>
-               <p>rat, &amp; tyrannidem exercet. Denique in me¬</p>
-               <p>dio cursu fortunae &amp; gloriae, ad muros The¬</p>
-               <p>bes ciuitatis, molari lapide opprimiturà foe¬</p>
-               <p>minâ, &amp; moritur, Deo &amp; fraternis Mani¬</p>
-               <p>bus obnoxius. Iudic. 9.</p>
-            </sp>
+            <p>ABIMELECHVS Hierobaali Gedeonis ex pellice filius, à funere optimi parentis, regnandi
+               libidine instinctus, fratres septuaginta, legitimo toro natos vno excepto lotane
+               puero (qui clanculùm subductus fuit) ad saxi crepidinem caedit. Solus imperat, &amp;
+               tyrannidem exercet. Denique in medio cursu fortunae &amp; gloriae, ad muros Thebes
+               ciuitatis, molari lapide opprimiturà foeminâ, &amp; moritur, Deo &amp; fraternis
+               Manibus obnoxius. <ref>Iudic. 9.</ref></p>
          </div>
          <castList>
             <head>PERSONARVM NOMINA.</head>
@@ -169,7 +165,7 @@
                <role>ABIMELECHVS.</role>
             </castItem>
             <castItem>
-               <role>IOTANES </role>
+               <role>IOTANES</role>
                <roleDesc>PVER.</roleDesc>
             </castItem>
             <castItem>
@@ -181,14 +177,11 @@
          </castList>
       </front>
       <body>
-         <l>
-            <pb n="36"/>
-         </l>
-         <div type="act"
-              n="1">
+         <pb n="36"/>
+         <div type="act" n="1">
             <head>ACTVS PRIMVS.</head>
             <stage>VMBRA GEDEONIS.</stage>
-            <sp who="#unknown">
+            <sp who="#umbra-gedeonis">
                <l>QVis me silentem turbat, &amp; crudus nimis</l>
                <l>Interpolatos vellicat Manes meos?</l>
                <l>Abimeleche! pestis, exitium, lues,</l>
@@ -211,9 +204,7 @@
                <l n="20">Generoso honesto pectus incoctum gerens,</l>
                <l>Iugulum subactae pellicis nato dabit?</l>
                <l>Auerte pietas laribus exitium meis.</l>
-               <l>
-                  <pb n="37"/>
-               </l>
+               <pb n="37"/>
                <l>Quis ergò credet femoris hunc pullum inclyti,</l>
                <l>Qui spirat illum sanguinem, &amp; bibet quoque,</l>
                <l n="25">Tantique sceleris barbarum exemplum parat?</l>
@@ -241,9 +232,7 @@
                <l>Eritne tamen, &amp; poterit hoc durus latro,</l>
                <l>Quod Phoebus oculis cernere horrescet suis,</l>
                <l>Cùm nube tetrâ merget auratum caput?</l>
-               <l>
-                  <pb n="38"/>
-               </l>
+               <pb n="38"/>
                <l n="50">Quod moesta nigro Luna praetereat libens</l>
                <l>Obnupta peplo, lampade obtusâ silens?</l>
                <l>Nam quis videre posset, aut fixos semel</l>
@@ -271,13 +260,11 @@
                <l>Expiret äer nubilo, quantum capit,</l>
                <l n="75">Et tota moles ignea in sontem cadat.</l>
                <l>Heu! sanguinantem Nemesis excußit sinum,</l>
-               <l>
-                  <pb n="39"/>
-               </l>
+               <pb n="39"/>
                <l>Et tonuit aether; ô Deus! Sadäi Deus!</l>
             </sp>
             <stage>CHORVS.</stage>
-            <sp who="#unknown">
+            <sp who="#chorus">
                <l>Scilicet, actum est; Ioasiades</l>
                <l>Gedeon, tanti nominis heros,</l>
                <l n="80">Inter mutas pallidus vmbras</l>
@@ -302,9 +289,7 @@
                <l>Tunc commissos Marte ambiguo</l>
                <l n="100">Vidit trepidum sternere campum,</l>
                <l>Vidit liquidos sanguine riuos,</l>
-               <l>
-                  <pb n="40"/>
-               </l>
+               <pb n="40"/>
                <l>Et caesa virûm corpora volui.</l>
                <l>O sic iterum buccina clangat!</l>
                <l>O sic iterum Panicus horror</l>
@@ -332,9 +317,7 @@
                <l>Quod Baali Numine sacrum,</l>
                <l>Tantùm riguo sanguine gaudet,</l>
                <l>Et lita tabo tempora spargi,</l>
-               <l>
-                  <pb n="41"/>
-               </l>
+               <pb n="41"/>
                <l>Quantùm steriles imbribus horti,</l>
                <l n="130">Quos rara cauo nubila tingunt!</l>
                <l>O quem patriae margine siluae,</l>
@@ -356,16 +339,13 @@
                <l>Quocumque ferat mobilis error.</l>
             </sp>
          </div>
-         <div type="act"
-              n="2">
+         <div type="act" n="2">
             <head>ACTVS SECVNDVS</head>
             <stage>ABIMELECHVS.</stage>
-            <sp who="#unknown">
+            <sp who="#abimelechus">
                <l>ETiam moraris anime? cur lentus stupes</l>
                <l>Abimeleche? cur adhuc vacant manus?</l>
-               <l>
-                  <pb n="42"/>
-               </l>
+               <pb n="42"/>
                <l n="150">Quó libet, eundum est: quod licet, segnes agunt:</l>
                <l>Et quisquis intrà compedes istas sedet,</l>
                <l>Nunquam trophaeum statuet: audacem impetum</l>
@@ -393,9 +373,7 @@
                <l>Et ponè bello inutiles fratrum greges.</l>
                <l n="175">Miscebo caedes, funera, implebo manus,</l>
                <l>Et meus in omnes ibit armatus furor.</l>
-               <l>
-                  <pb n="43"/>
-               </l>
+               <pb n="43"/>
                <l>Sic agere fixum est: non capit regnum duos,</l>
                <l>Nec sellâ in vnâ commodè gemini sedent:</l>
                <l>Et ille rector siderum, coeli decor,</l>
@@ -423,9 +401,7 @@
                <l>Saeuire in omnes cupio, nec facile mihi</l>
                <l>Pectus moueri lacrymis, aures rigent,</l>
                <l>Nec me querela mollium in partes aget.</l>
-               <l>
-                  <pb n="44"/>
-               </l>
+               <pb n="44"/>
                <l>Bibam ipse potius sanguinem, &amp; ferae bibunt,</l>
                <l n="205">Quas in minorem suscitat praedam furor.</l>
                <l>Tractabo capita, &amp; exprimam tabi luem,</l>
@@ -437,7 +413,7 @@
                <l>Et qui facinorum praemia in dextrâ gerunt.</l>
             </sp>
             <stage>CHORVS.</stage>
-            <sp who="#unknown">
+            <sp who="#chorus">
                <l>Ergò potuit callida Sichem</l>
                <l>Talem nobis gignere pullum,</l>
                <l n="215">Qui viroso saeuior hydro</l>
@@ -454,9 +430,7 @@
                <l>Nimiumque tuo sanguine ludet,</l>
                <l>Quâ te inueniet cumque latêbrâ.</l>
                <l>Quis tam rigidos montibus vrsos,</l>
-               <l>
-                  <pb n="45"/>
-               </l>
+               <pb n="45"/>
                <l>Rasóque feras aequore tygres,</l>
                <l n="230">Vidit laceram sparcere praedam,</l>
                <l>Vidit laceras mandere costas,</l>
@@ -484,9 +458,7 @@
                <l>Et se pleno Numine pauit,</l>
                <l>Non satis animos strinxit hiantes,</l>
                <l n="255">Supraque Deum remigat amens.</l>
-               <l>
-                  <pb n="46"/>
-               </l>
+               <pb n="46"/>
                <l>Foelix, foelix, cùm se propriâ</l>
                <l>Fouit in vmbrâ, tantumque suis</l>
                <l>Lusit in alis, tantúmque suo</l>
@@ -514,9 +486,7 @@
                <l n="280">Olim veteri legimus aeuo,</l>
                <l>Quos terra cauo mersit hiatu,</l>
                <l>Aut de caelo fulmine tactos,</l>
-               <l>
-                  <pb n="47"/>
-               </l>
+               <pb n="47"/>
                <l>Tostos liquidis corpora flammis,</l>
                <l>Coram populo protinus hausit</l>
                <l n="285">Subitò, subitò concitus vltor</l>
@@ -544,16 +514,13 @@
                <l>Potumque iterum decreta Deo</l>
                <l>Vltio merget, trepidique legent</l>
                <l>Exempla nimis cruda nepotes.</l>
-               <l>
-                  <pb n="48"/>
-               </l>
             </sp>
          </div>
-         <div type="act"
-              n="3">
+         <pb n="48"/>
+         <div type="act" n="3">
             <head>ACTVS TERTIVS.</head>
             <stage>IOTHANES.</stage>
-            <sp who="#unknown">
+            <sp who="#iotanes">
                <l n="310">HOrrore quatior, frigus in venis riget,</l>
                <l>Heu! inter ossa currit exanguis tremor,</l>
                <l>Rectaeque steterunt, hispidae, horrentes comae.</l>
@@ -577,9 +544,7 @@
                <l n="330">Stratos! Abimelechus, heu fratrum latro!</l>
                <l>Caesim necauit! nempe adhuc stillant manus</l>
                <l>Presso cruore, nempe adhuc ferrrum madet</l>
-               <l>
-                  <pb n="49"/>
-               </l>
+               <pb n="49"/>
                <l>Tabo perunctum! memini &amp; horresco nimis,</l>
                <l>Cùm duxit agmenluridum, &amp; campo incubans</l>
                <l n="335">Feralis error, cuncta stringebat metu,</l>
@@ -607,9 +572,7 @@
                <l>Abimelechus: scilicet nondum satis</l>
                <l>Multum cruoris fudit, &amp; nondum satis</l>
                <l>Bibit cruentus heluo, &amp; venas quoque</l>
-               <l>
-                  <pb n="50"/>
-               </l>
+               <pb n="50"/>
                <l n="360">Sitit recentes: scilicet Iothan potest</l>
                <l>Sedare rabiem, scilicet lupum potest</l>
                <l>Lenire fuso sanguine, &amp; tutò nequit</l>
@@ -622,7 +585,7 @@
                <l>Et tortor ignis, mille discerpant modis.</l>
             </sp>
             <stage>CHORVS.</stage>
-            <sp who="#unknown">
+            <sp who="#chorus">
                <l n="370">Demessa ferro capita, vicino iacent</l>
                <l>Tumulata saxo; sic tuus Iether fuit</l>
                <l>Inuictè Gedeon, turba natorum fuit,</l>
@@ -638,9 +601,7 @@
                <l>Quae blanda serunt oscula, labris.</l>
                <l>Quid Cäini refero furias,</l>
                <l>Qui se macerans rebus opimis</l>
-               <l>
-                  <pb n="51"/>
-               </l>
+               <pb n="51"/>
                <l n="385">Mitis Abeli, liuida tendens</l>
                <l>Viscera tabo non prius atros</l>
                <l>Expuit hydros, quam spinoso</l>
@@ -668,9 +629,7 @@
                <l>Puerum longos damnat in annos,</l>
                <l n="410">Et vulnus alens pectore crudo,</l>
                <l>Intestino carpitur aestu.</l>
-               <l>
-                  <pb n="52"/>
-               </l>
+               <pb n="52"/>
                <l>Et tu poteras optime Ioseph,</l>
                <l>Quamuis totus candidus esses,</l>
                <l>Liuore premi, cùm te lacero</l>
@@ -698,9 +657,7 @@
                <l>Crudelitatis, ferream strinxit manum</l>
                <l>Per densa fratrum funera, &amp; letho tulit</l>
                <l>Turbam innocentem; solus est Iothan super,</l>
-               <l>
-                  <pb n="53"/>
-               </l>
+               <pb n="53"/>
                <l>Et solus alibi latuit, &amp; solus fuit,</l>
                <l n="440">Qui callido astu barbarum elusit scelus.</l>
                <l>Seruate solum Numina, &amp; viuat puer</l>
@@ -712,11 +669,10 @@
                <l>Propera, propera, propera, propera.</l>
             </sp>
          </div>
-         <div type="act"
-              n="4">
+         <div type="act" n="4">
             <head>ACTVS QVARTVS.</head>
             <stage>ABIMELECHVS.</stage>
-            <sp who="#unknown">
+            <sp who="#abimelechus">
                <l>QVò me vocas Bellona? quod mandas scelus?</l>
                <l>Aut quale monstrat labarum in castris furor?</l>
                <l n="450">Quò me tubarum stridor, &amp; litui truces</l>
@@ -730,9 +686,7 @@
                <l>Aut qualis aegrum Salmanam ferro tulit,</l>
                <l>Vultu coruscans igneo, instinctus Deo.</l>
                <l n="460">Viuesne Abimeleche? regnare arduum,</l>
-               <l>
-                  <pb n="54"/>
-               </l>
+               <pb n="54"/>
                <l>Viuere molestum, cùm tibi semper Deus</l>
                <l>Minatur aliquis; nempe &amp; ocurrit mihi</l>
                <l>Armatus ille semper &amp; semper quoque</l>
@@ -760,9 +714,7 @@
                <l n="485">Mensamque super, &amp; vina bellatum est ibi,</l>
                <l>Vinctusque Abimelechus; hoc segnes agunt,</l>
                <l>Fortes ad arma, ludit vbi venis calor.</l>
-               <l>
-                  <pb n="55"/>
-               </l>
+               <pb n="55"/>
                <l>Largusque läcchus pectora hoc oestro rapit.</l>
                <l>At nulla temulentia in castris valet,</l>
                <l n="490">Nec vini, at vdi sanguinis sitiens mucro</l>
@@ -780,7 +732,7 @@
                <l>Arma, arma, ad arma milites, Sichem vocat.</l>
             </sp>
             <stage>CHORVS.</stage>
-            <sp who="#unknown">
+            <sp who="#chorus">
                <l>Tandem fleuit barbara Sichem,</l>
                <l>Claro gemitu testata nefas,</l>
                <l n="505">Et te miserum dixit lëther!</l>
@@ -791,9 +743,7 @@
                <l n="510">At nunc Gäal omnia turbat,</l>
                <l>Et te, ô Zebul, agmine cingit,</l>
                <l>Murosque tuos ardua Sichem,</l>
-               <l>
-                  <pb n="56"/>
-               </l>
+               <pb n="56"/>
                <l>Non iniußis occupat armis.</l>
                <l>Ergò reperit perfidus hostem,</l>
                <l n="515">Et Sichemijs exulat agris</l>
@@ -821,9 +771,7 @@
                <l>Iußit geminum reddere siluas.</l>
                <l>Fuge, quà campos auia cingunt,</l>
                <l>Quà fata sinunt, quà fata negant,</l>
-               <l>
-                  <pb n="57"/>
-               </l>
+               <pb n="57"/>
                <l n="540">Quacumque patet, quacumque latet</l>
                <l>Semita nigris abdita taxis.</l>
                <l>Fuge, quid demens respicis? Heu! Heu!</l>
@@ -851,9 +799,7 @@
                <l>Quamuis oculis semper riguis</l>
                <l n="565">Lenire velit Numina, &amp; vdo</l>
                <l>Lecti gremio, Coniugum in vlnis</l>
-               <l>
-                  <pb n="58"/>
-               </l>
+               <pb n="58"/>
                <l>Lumina vexet.</l>
                <l>Tum, si folijs fortè citatis</l>
                <l>Mouit lucum turbidus Auster,</l>
@@ -880,117 +826,93 @@
                <l n="590">Quod Diuini pectoris vrnâ</l>
                <l>More citati fluminis, vndat,</l>
                <l>Libat pietas, &amp; quod nebulae</l>
-               <l>
-                  <pb n="59"/>
-               </l>
+               <pb n="59"/>
                <l>Cumque recondunt, subigit meritis</l>
                <l>Ignea virtus.</l>
             </sp>
          </div>
-         <div type="act"
-              n="5">
+         <div type="act" n="5">
             <head>ACTVS QVINTVS</head>
             <stage>NVNCIVS, CHORVS.</stage>
-            <sp who="#unknown">
+            <sp who="#nuncius">
                <l n="595">VAstata Sichem lurido busto sedet,</l>
                <l>Et lapsa ab alto ciuitas traxit minas</l>
                <l>Murorum hiantes, omnia in fundo iacent,</l>
                <l>Adeóque tota Sichima in Sichem latet.</l>
                <l>Abimelechus miscuit flammas prior,</l>
                <l n="600">Trux, asper, atrox; scilicet poenas dedit</l>
-               <l part="">Fratrum peremptor.</l>
+               <l part="I">Fratrum peremptor.</l>
             </sp>
-            <sp who="#chor">
+            <sp who="#chorus">
                <speaker>CHOR.</speaker>
-               <l part=""
-                  cert="unknown">Nunquid à castris venit</l>
+               <l part="F">Nunquid à castris venit</l>
                <l>Mercurius iste? fare, quid portas noui?</l>
                <l>Saeuitne Abimelechus? an Thebas ruit?</l>
                <l>An geminat itèrum funera? incendit faces,</l>
-               <l n="605"
-                  part="">Inflammat vrbes?</l>
+               <l n="605" part="I">Inflammat vrbes?</l>
             </sp>
-            <sp who="#nvn">
+            <sp who="#nuncius">
                <speaker>NVN.</speaker>
-               <l n="605"
-                  part=""
-                  cert="unknown">Scilicet nuper fuit</l>
-               <l part="">Abimelechus.</l>
+               <l n="605" part="F">Scilicet nuper fuit</l>
+               <l part="I">Abimelechus.</l>
             </sp>
-            <sp who="#chor">
+            <sp who="#chorus">
                <speaker>CHOR.</speaker>
-               <l part=""
-                  cert="unknown">Nunc vbi tendit tamen?</l>
-               <l part="">Vbi castra ponit?</l>
+               <l part="F">Nunc vbi tendit tamen?</l>
+               <l part="I">Vbi castra ponit?</l>
             </sp>
-            <sp who="#nvn">
+            <sp who="#nuncius">
                <speaker>NVN.</speaker>
-               <l part=""
-                  cert="unknown">Ponit ad Lethen miser,</l>
-               <l part="">Et ripâ in illâ tendit.</l>
+               <l part="F">Ponit ad Lethen miser,</l>
+               <l part="I">Et ripâ in illâ tendit.</l>
             </sp>
-            <sp who="#chor">
+            <sp who="#chorus">
                <speaker>CHOR.</speaker>
-               <l part=""
-                  cert="unknown">Vbi fratres sedent?</l>
-               <l part="">Abimelechus?</l>
+               <l part="F">Vbi fratres sedent?</l>
+               <l part="I">Abimelechus?</l>
             </sp>
-            <sp who="#nvn">
+            <sp who="#nuncius">
                <speaker>NVN.</speaker>
-               <l part=""
-                  cert="unknown">Morte crudeli iacet,</l>
-               <l n="610"
-                  part="">Lethoque acerbo.</l>
+               <l part="F">Morte crudeli iacet,</l>
+               <l n="610" part="I">Lethoque acerbo.</l>
             </sp>
-            <sp who="#chor">
+            <sp who="#chorus">
                <speaker>CHOR.</speaker>
-               <l n="610"
-                  part=""
-                  cert="unknown">Nempe crudelis fuit.</l>
-               <l>
-                  <pb n="60"/>
-               </l>
+               <l n="610" part="F">Nempe crudelis fuit.</l>
             </sp>
-            <sp who="#nvn">
+            <pb n="60"/>
+            <sp who="#nuncius">
                <speaker>NVN.</speaker>
-               <l part=""
-                  cert="unknown">Iacet cruentus.</l>
+               <l part="I">Iacet cruentus.</l>
             </sp>
-            <sp who="#chor">
+            <sp who="#chorus">
                <speaker>CHOR.</speaker>
-               <l part=""
-                  cert="unknown">Nempe, quod biberat, vomit.</l>
+               <l part="F">Nempe, quod biberat, vomit.</l>
                <l>At quis ferocem beluam inuasit? Refer.</l>
             </sp>
-            <sp who="#nvn">
+            <sp who="#nuncius">
                <speaker>NVN.</speaker>
-               <l part=""
-                  cert="unknown">Et strauit illum mulier.</l>
+               <l part="I">Et strauit illum mulier.</l>
             </sp>
-            <sp who="#chor">
+            <sp who="#chorus">
                <speaker>CHOR.</speaker>
-               <l part=""
-                  cert="unknown">An Iahel manus</l>
+               <l part="F">An Iahel manus</l>
                <l>Armauit iterum? nunquid &amp; nobis quoque</l>
-               <l n="615"
-                  part="">Robur ministrat Nemesis?</l>
+               <l n="615" part="I">Robur ministrat Nemesis?</l>
             </sp>
-            <sp who="#nvn">
+            <sp who="#nuncius">
                <speaker>NVN.</speaker>
-               <l n="615"
-                  part=""
-                  cert="unknown">Et saxo iacet</l>
-               <l part="">Ictus cerêbrum.</l>
+               <l n="615" part="F">Et saxo iacet</l>
+               <l part="I">Ictus cerêbrum.</l>
             </sp>
-            <sp who="#chor">
+            <sp who="#chorus">
                <speaker>CHOR.</speaker>
-               <l part=""
-                  cert="unknown">Nempe &amp; hoc saxum fuit,</l>
+               <l part="F">Nempe &amp; hoc saxum fuit,</l>
                <l>Quod fluxit olim sanguine, &amp; tabum bibit.</l>
                <l>O iusta semper Numina! at totum refer,</l>
                <l>Et sanguinantem purpuram totam explica.</l>
             </sp>
-            <sp who="#nvn">
+            <sp who="#nuncius">
                <speaker>NVN.</speaker>
                <l n="620">Vix ipse credo facinus &amp; vidi tamen,</l>
                <l>Et quanquam ocellis metiar famam meis,</l>
@@ -1010,20 +932,17 @@
                <l n="635">Lethale nimiùm, tolerat, hoc tantùm dolet,</l>
                <l>Quod foeminae illam gloriam debet, miser,</l>
                <l>Et adhuc superbus; ergò fortunae satur,</l>
-               <l>
-                  <pb n="61"/>
-               </l>
+               <pb n="61"/>
                <l>Vitaeque mox cadentis, armigerum vocat,</l>
                <l>Et ipse monstrans pectoris nudi sinum,</l>
                <l n="640">Iubet ferire militem, &amp; subitò rigens,</l>
                <l>Et torta hiulcans lumina, adspirans minas,</l>
                <l>Morte inuocatâ, pronus in vulnus cadit,</l>
-               <l part="">Et sic iuuat perire.</l>
+               <l part="I">Et sic iuuat perire.</l>
             </sp>
-            <sp who="#chor">
+            <sp who="#chorus">
                <speaker>CHOR.</speaker>
-               <l part=""
-                  cert="unknown">Sic tandem luit</l>
+               <l part="F">Sic tandem luit</l>
                <l>Abimelechus, sic Deus noxam exigit.</l>
                <l n="645">Gaudete Ciues occidit sternax aper,</l>
                <l>Et ille nobis vltimus missus venit,</l>
