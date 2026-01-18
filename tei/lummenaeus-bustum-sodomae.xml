@@ -3,9 +3,13 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Bustum Sodomae. Tragoedia sacra</title>
+            <title>Bustum Sodomae</title>
+            <title type="sub">Tragoedia sacra</title>
             <author>
-               <persName xml:lang="la">Jacobus Cornelius Lummenaeus a Marca</persName>
+               <persName xml:lang="la">
+                  <forename>Jacobus Cornelius</forename>
+                  <surname>Lummenaeus a Marca</surname>
+               </persName>
                <idno type="wikidata">Q112481178</idno>
                <idno type="pnd">131814397</idno>
             </author>
@@ -24,31 +28,44 @@
             <publisher xml:id="dracor">DraCor</publisher>
             <idno type="URL">https://dracor.org</idno>
             <availability>
-               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0
+                  1.0</licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
             <bibl type="digitalSource">
                <name>TransLatin</name>
-               <idno type="URL">https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Lummenaeus-Bustum.docx</idno>
+               <idno type="URL"
+                  >https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Lummenaeus-Bustum.docx</idno>
                <availability status="free">
                   <p>In the public domain.</p>
                </availability>
-               <bibl type="originalSource">Jacobus Cornelius Lummenaeus a Marca: Bustum Sodomae. Tragoedia sacra. In: Musae lacrymantes, sive Pleias tragica, id est septem tragoediae sacrae. Bustum Sodomae, Abimelech, Iephte, Sampson, Saul, Amnon, Sedechias. Douai: Johannes de Fampoux 1628. pp. no page number–51. https://books.google.nl/books?id=3Wg-AAAAcAAJ.</bibl>
+               <bibl type="originalSource"><author>Jacobus Cornelius Lummenaeus a Marca</author> :
+                     <title>Sampson. Tragoedia sacra</title> . In: <title>Musae lacrymantes, sive
+                     Pleias tragica, id est septem tragoediae sacrae. Bustum Sodomae, Abimelech,
+                     Iephte, Sampson, Saul, Amnon, Sedechias</title> . <pubPlace>Douai</pubPlace> :
+                     <publisher>Johannes de Fampoux</publisher>
+                  <date>1628</date> . <biblScope>pp. no page number–51</biblScope>.</bibl>
+               <relatedItem type="digitalCopyUsed">
+                  <bibl>
+                     <ref target="https://books.google.nl/books?id=3Wg-AAAAcAAJ">Google Books</ref>
+                     <availability status="free">
+                        <p>In the public domain.</p>
+                     </availability>
+                  </bibl>
+               </relatedItem>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person xml:id="abr">
-                  <persName>ABR.</persName>
+               <person xml:id="nemesis-divina" sex="FEMALE"
+                  ana="https://www.wikidata.org/wiki/Q185747">
+                  <persName>NEMESIS DIVINA</persName>
                </person>
-               <person xml:id="abrah">
-                  <persName>ABRAH.</persName>
-               </person>
-               <person xml:id="ang">
-                  <persName>ANG.</persName>
+               <person xml:id="abrahamus" sex="MALE" ana="https://www.wikidata.org/wiki/Q9181">
+                  <persName>ABRAHAMVS.</persName>
                </person>
                <person xml:id="angelus">
                   <persName>ANGELUS.</persName>
@@ -56,22 +73,16 @@
                <person xml:id="angelus-sar">
                   <persName>ANGELUS. SAR.</persName>
                </person>
-               <person xml:id="iph">
-                  <persName>IPH.</persName>
-               </person>
-               <person xml:id="iphilla">
+               <personGrp xml:id="chorus" sex="UNKNOWN">
+                  <persName>CHORVS</persName>
+               </personGrp>
+               <person xml:id="iphilla" sex="FEMALE" ana="https://www.wikidata.org/wiki/Q2575060">
                   <persName>IPHILLA.</persName>
                </person>
-               <person xml:id="lot">
-                  <persName>LOT.</persName>
+               <person xml:id="lotus" sex="MALE" ana="https://www.wikidata.org/wiki/Q40574">
+                  <persName>LOTVS.</persName>
                </person>
-               <person xml:id="sa">
-                  <persName>SA.</persName>
-               </person>
-               <person xml:id="sar">
-                  <persName>SAR.</persName>
-               </person>
-               <person xml:id="sara">
+               <person xml:id="sara" sex="FEMALE" ana="https://www.wikidata.org/wiki/Q194808">
                   <persName>SARA.</persName>
                </person>
                <person xml:id="unknown">
@@ -83,23 +94,22 @@
             <keywords>
                <term type="genreTitle">tragedy</term>
             </keywords>
-            <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+            <classCode scheme="http://www.wikidata.org/entity/">Q622783</classCode>
          </textClass>
          <creation>
             <region>
-               <ref target="https://www.wikidata.org/wiki/Q476033">Low Countries</ref>
+               <ref target="https://www.wikidata.org/wiki/Q476033">Spanish Netherlands</ref>
             </region>
          </creation>
       </profileDesc>
    </teiHeader>
    <standOff>
-      <listRelation>
-         <relation name="wikidata" active="https://dracor.org/entity/neolat000094"/>
-      </listRelation>
       <listEvent>
-         <event type="print"
-                when="1628">
-            <desc/>
+         <event type="print" when="1628">
+            <desc>first print 1615, slightly revised in the 1628 edition (see Gruijters, R.J.
+               (2010): An eloquent enigma. The dramas of Jacobus Cornelius Lummenaeus à Marca (c.
+               1580 - c. 1628) and their contexts [Thesis, fully internal, Universiteit van
+               Amsterdam]. Eigen Beheer. p. 226, 231.)</desc>
          </event>
       </listEvent>
    </standOff>
@@ -107,19 +117,12 @@
       <front>
          <div type="argument">
             <head>ARGVMENTVM.</head>
-            <sp who="#unknown">
-               <p>OFfensus Deus scelere Sodomitarum,</p>
-               <p>destinat ANGELOS ad ABRAHAMVM,</p>
-               <p>qui hospitio apud illum excepti &amp; liberaliter</p>
-               <p>habiti, SODOMAE excidium denunciant. Inde</p>
-               <p>Sodomam diuertentes, &amp; LOTI humani¬</p>
-               <p>tate refecti, Sodomitis stuprum &amp; violen¬</p>
-               <p>tiam interminantibus, LOTVM cum suis,</p>
-               <p>vicinae stragis immunem statuunt, &amp; porrò</p>
-               <p>SODOMA cum alijs opidis, loco &amp; nequi¬</p>
-               <p>tiâ confinibus, sulfure, &amp; incendio vasta¬</p>
-               <p>tur. Genes. 19.</p>
-            </sp>
+            <p>OFfensus Deus scelere Sodomitarum, destinat ANGELOS ad ABRAHAMVM, qui hospitio apud
+               illum excepti &amp; liberaliter habiti, SODOMAE excidium denunciant. Inde Sodomam
+               diuertentes, &amp; LOTI humanitate refecti, Sodomitis stuprum &amp; violentiam
+               interminantibus, LOTVM cum suis, vicinae stragis immunem statuunt, &amp; porrò SODOMA
+               cum alijs opidis, loco &amp; nequitiâ confinibus, sulfure, &amp; incendio vastatur.
+                  <ref>Genes. 19.</ref></p>
          </div>
          <castList>
             <head>PERSONARVM NOMINA.</head>
@@ -147,11 +150,10 @@
          </castList>
       </front>
       <body>
-         <div type="act"
-              n="1">
+         <div type="act" n="1">
             <head>ACTVS PRIMVS</head>
             <stage>DIVINA NEMESIS.</stage>
-            <sp who="#unknown">
+            <sp who="#nemesis-divina">
                <l>QVicumque scelerum monstra vipereo sinu,</l>
                <l>Et nutrit hydros noxiam Inferni luem,</l>
                <l>Criminibus vrget funera, &amp; nunquam boni</l>
@@ -173,9 +175,7 @@
                <l>Aut pertinaces exigit noxas Deus,</l>
                <l n="20">Supplicia pendes; dira tum armabit meam</l>
                <l>Fulgêtra dextrâm, &amp; lapsa flagranti impetu</l>
-               <l>
-                  <pb n="2"/>
-               </l>
+               <pb n="2"/>
                <l>Vastabo trepidos vndique à fundo lares.</l>
                <l>Non me cadentûm gemitus &amp; paßim obrutae</l>
                <l>Lamenta turbae, nulla me vota aut preces,</l>
@@ -203,9 +203,7 @@
                <l>Timidi magister pecoris adspiciet procul</l>
                <l>Serpere fauillas, &amp; grauem nebulâ diem,</l>
                <l>Tonantis irae fulmina, horrendas faces,</l>
-               <l>
-                  <pb n="3"/>
-               </l>
+               <pb n="3"/>
                <l>Corripiet agilem tramite ambiguo fugam,</l>
                <l n="50">Nec flectet oculos: at prece &amp; votis Deum</l>
                <l>Pro se fatigans, Sodomam haud quaeret magis:</l>
@@ -233,15 +231,13 @@
                <l>Rubente nebulâ, luridam caudam trahit.</l>
                <l>Agnosco, diras facibus instructae manus</l>
                <l n="75">Eumenides adsunt; Sodoma! iam praegnans malum est,</l>
-               <l>
-                  <pb n="4"/>
-               </l>
+               <pb n="4"/>
                <l>Et quà pudendum flamma purgârit nefas,</l>
                <l>Lethaea viui sulfuris stabunt vada,</l>
                <l>Et olentis Erebi grande fumabit chaos.</l>
             </sp>
             <stage>CHORVS.</stage>
-            <sp who="#unknown">
+            <sp who="#chorus">
                <l>Heu! quod nulla voluptas,</l>
                <l n="80">Rebus nata secundis,</l>
                <l>Froeno temperat aestum!.</l>
@@ -263,9 +259,7 @@
                <l>Fleuit amores: facilè externum</l>
                <l>Marcida sugunt ocia virus,</l>
                <l>Haustâque semel labe veneni</l>
-               <l>
-                  <pb n="5"/>
-               </l>
+               <pb n="5"/>
                <l n="100">Animus caeco carpitur igni,</l>
                <l>Et defixo saucius oestro</l>
                <l>Flectere dociles nescit habenas.</l>
@@ -293,9 +287,7 @@
                <l>More, citatas proripit vndas.</l>
                <l n="125">Extrà Sodomam nulla voluptas,</l>
                <l>Tantùm vt calidâ temperet irâ,</l>
-               <l>
-                  <pb n="6"/>
-               </l>
+               <pb n="6"/>
                <l>Qui vaga torquens sidera, terret</l>
                <l>Iracundo fulmine Gentes.</l>
                <l>Et nunc librat mißile telum,</l>
@@ -323,9 +315,7 @@
                <l>Hîc, in riguâ valle, sub illâ</l>
                <l>Rupe, sub istis montibus, eheu!</l>
                <l>Ignea current flumina, &amp; alto</l>
-               <l>
-                  <pb n="7"/>
-               </l>
+               <pb n="7"/>
                <l>Sulfure stagnans inamoena palus,</l>
                <l n="155">Latè cultos obruet agros.</l>
                <l>Tunc, vt vastam viderit vrbem,</l>
@@ -337,11 +327,10 @@
                <l>Indice prodet.</l>
             </sp>
          </div>
-         <div type="act"
-              n="2">
+         <div type="act" n="2">
             <head>ACTVS SECVNDVS</head>
             <stage>ABRAHAM, ANGELI.</stage>
-            <sp who="#unknown">
+            <sp who="#abrahamus">
                <l>EX quo reliqui patrios Hurae lares</l>
                <l>Chaldaea latè iugera, Aßyrias opes,</l>
                <l n="165">Semper benignus sequitur à tergo Deus,</l>
@@ -355,9 +344,7 @@
                <l>Et heu! pudendam segnis inuidiam tori.</l>
                <l>Et me illud olim conficit thalami probrum,</l>
                <l n="175">Fastidiumque; nempe dum nullus meam</l>
-               <l>
-                  <pb n="8"/>
-               </l>
+               <pb n="8"/>
                <l>Haeres flagellet aream, sanguis tuus</l>
                <l>Saré, meusque, Gargara haec frustrà meto,</l>
                <l>Frustrà vda quercus melle &amp; ambrosiâ scatet,</l>
@@ -385,9 +372,7 @@
                <l n="200">Natosque natorum &amp; nepotes posthumos,</l>
                <l>Examina ampli generis &amp; stabilem domum.</l>
                <l>Coniunx fefellit, nempe cui foetos sinus</l>
-               <l>
-                  <pb n="9"/>
-               </l>
+               <pb n="9"/>
                <l>Obstruxit ille, cuius arbitrio fluunt</l>
                <l>Mortalis aeui spatia, &amp; humanae vices,</l>
                <l n="205">Qui prole laetâ complet aut viduat torum,</l>
@@ -417,12 +402,10 @@
             <sp who="#angelus">
                <speaker>ANGELUS.</speaker>
                <l>Quid stamus etiam? mandat hîc requiem Deus.</l>
-               <l>
-                  <pb n="10"/>
-               </l>
             </sp>
+            <pb n="10"/>
             <stage>CHORVS.</stage>
-            <sp who="#unknown">
+            <sp who="#chorus">
                <l>Turbatur intrò, Sara laetitiae vacat,</l>
                <l n="230">Iuxtà senex accumbit aequali toro,</l>
                <l>Interque laetos hospites libat merum;</l>
@@ -447,9 +430,7 @@
                <l n="250">Non tot miseros vndique Manes,</l>
                <l>Semperque boni conscius animi</l>
                <l>Mentem patrijs inseret astris.</l>
-               <l>
-                  <pb n="11"/>
-               </l>
+               <pb n="11"/>
                <l>Illic vigiles condet ocellos,</l>
                <l>Et terrenis foecibus exstans,</l>
                <l n="255">Ignea penitus lumina figet</l>
@@ -477,19 +458,16 @@
                <l>Lotumque tuum compede soluis,</l>
                <l>Quo nec spirat iustior alter,</l>
                <l>Nec magis aequis carus Superis.</l>
-               <l>
-                  <pb n="12"/>
-               </l>
+               <pb n="12"/>
                <l n="280">Eheu! Sodomae tutela meae,</l>
                <l>Si fors Sodomis parcere vellent</l>
                <l>Aemula prauae Numina Gentis.</l>
             </sp>
          </div>
-         <div type="act"
-              n="3">
+         <div type="act" n="3">
             <head>ACTVS TERTIVS.</head>
             <stage>SARA, ABRAHAM.</stage>
-            <sp who="#unknown">
+            <sp who="#sara">
                <l>ERgóne iterum viuimus Abrâm,</l>
                <l>Et connubij copula nostri</l>
                <l n="285">Solido Diûum munere vernat?</l>
@@ -508,9 +486,7 @@
                <l>Si promissum fallere nolunt,</l>
                <l>Qui nos tanto munere donant!</l>
                <l n="300">O quandò iterum pascimus istos?</l>
-               <l>
-                  <pb n="13"/>
-               </l>
+               <pb n="13"/>
                <l>Quandò amplexus inter amicos,</l>
                <l>Stringimus aulae limine fessos?</l>
                <l>Venient olim, venient, &amp; tu</l>
@@ -538,9 +514,7 @@
                <l n="325">Quodcumque doles Abraham, cordis</l>
                <l>Strictura mei est, quodcumque iubes</l>
                <l>Plangere, reperis ecce vacantem.</l>
-               <l>
-                  <pb n="14"/>
-               </l>
+               <pb n="14"/>
                <l>Quicquid pateris, diuide mecum,</l>
                <l>Vnà melius fortè feremus.</l>
                <l n="330">En solicitâ prodijt aulâ,</l>
@@ -553,7 +527,7 @@
                <l>Cur ista frons tam nubila &amp; rugas trahit?</l>
                <l>Aut quam reliquit hospes offensam Deus?</l>
             </sp>
-            <sp who="#abrah">
+            <sp who="#abrahamus">
                <speaker>ABRAH.</speaker>
                <l>Quid te fatigas mulier? aliunde est labor.</l>
             </sp>
@@ -563,92 +537,74 @@
                <l>Fidas in aures: gliscit occultum malum,</l>
                <l>Vt mole preßâ sedit introrsùm nimis.</l>
             </sp>
-            <sp who="#abrah">
+            <sp who="#abrahamus">
                <speaker>ABRAH.</speaker>
-               <l part=""
-                  cert="unknown">Heu Sodoma!</l>
+               <l part="I">Heu Sodoma!</l>
             </sp>
             <sp who="#sara">
                <speaker>SARA.</speaker>
-               <l part=""
-                  cert="unknown">Cur deplangis? an Loto doles?</l>
+               <l part="F">Cur deplangis? an Loto doles?</l>
             </sp>
-            <sp who="#abrah">
+            <sp who="#abrahamus">
                <speaker>ABRAH.</speaker>
-               <l part=""
-                  cert="unknown">Heu Sodoma!</l>
+               <l part="I">Heu Sodoma!</l>
             </sp>
-            <sp who="#sa">
+            <sp who="#sara">
                <speaker>SA.</speaker>
-               <l part=""
-                  cert="unknown">Quid turbaris?</l>
+               <l part="M">Quid turbaris?</l>
             </sp>
-            <sp who="#abr">
+            <sp who="#abrahamus">
                <speaker>ABR.</speaker>
-               <l part=""
-                  cert="unknown">Heu Sodoma!</l>
+               <l part="M">Heu Sodoma!</l>
             </sp>
-            <sp who="#sa">
+            <sp who="#sara">
                <speaker>SA.</speaker>
-               <l part=""
-                  cert="unknown">Quid est?</l>
+               <l part="F">Quid est?</l>
             </sp>
-            <sp who="#abrah">
+            <sp who="#abrahamus">
                <speaker>ABRAH.</speaker>
-               <l n="345"
-                  part=""
-                  cert="unknown">Sodoma peribit!</l>
+               <l n="345" part="I">Sodoma peribit!</l>
             </sp>
-            <sp who="#sar">
+            <sp who="#sara">
                <speaker>SAR.</speaker>
-               <l n="345"
-                  part=""
-                  cert="unknown">Scilicet.</l>
+               <l n="345" part="M">Scilicet.</l>
             </sp>
-            <sp who="#abrah">
+            <sp who="#abrahamus">
                <speaker>ABRAH.</speaker>
-               <l n="345"
-                  part=""
-                  cert="unknown">Certum est nimis.</l>
+               <l n="345" part="F">Certum est nimis.</l>
             </sp>
             <sp who="#sara">
                <speaker>SARA.</speaker>
                <l>Parcius Abrâme, forsan ignoscet Deus,</l>
-               <l part="">Veniae profusus.</l>
+               <l part="I">Veniae profusus.</l>
             </sp>
-            <sp who="#abrah">
+            <sp who="#abrahamus">
                <speaker>ABRAH.</speaker>
-               <l part=""
-                  cert="unknown">Sodoma non stabit magis.</l>
+               <l part="F">Sodoma non stabit magis.</l>
             </sp>
             <sp who="#sara">
                <speaker>SARA.</speaker>
-               <l part=""
-                  cert="unknown">Quis nunciauit?</l>
+               <l part="I">Quis nunciauit?</l>
             </sp>
-            <sp who="#abrah">
+            <sp who="#abrahamus">
                <speaker>ABRAH.</speaker>
-               <l part=""
-                  cert="unknown"/>
+               <l part="M">Angelus.</l>
             </sp>
-            <sp who="#angelus-sar">
-               <speaker>ANGELUS. SAR.</speaker>
-               <l part=""
-                  cert="unknown">Parce ô Deus!</l>
-               <l part="">Sodoma peribit?</l>
-            </sp>
-            <sp who="#abrah">
-               <speaker>ABRAH.</speaker>
-               <l part=""
-                  cert="unknown">Sodoma!</l>
-            </sp>
-            <sp who="#sar">
+            <sp who="#sara">
                <speaker>SAR.</speaker>
-               <l part=""
-                  cert="unknown">Quid Lotus meus?</l>
+               <l part="F">Parce ô Deus!</l>
+               <l part="I">Sodoma peribit?</l>
+            </sp>
+            <sp who="#abrahamus">
+               <speaker>ABRAH.</speaker>
+               <l part="M">Sodoma!</l>
+            </sp>
+            <sp who="#sara">
+               <speaker>SAR.</speaker>
+               <l part="F">Quid Lotus meus?</l>
                <l n="350">Heu me! quid ille? seruat insontem Deus?</l>
             </sp>
-            <sp who="#abrah">
+            <sp who="#abrahamus">
                <speaker>ABRAH.</speaker>
                <l>Non vapulabit iustus, &amp; recti tenax,</l>
                <l>Interque flammas medius atque inter faces</l>
@@ -657,22 +613,19 @@
             <sp who="#sara">
                <speaker>SARA.</speaker>
                <l>Heu! heu! sed illum liberet saltem Deus,</l>
-               <l>
-                  <pb n="15"/>
-               </l>
+               <pb n="15"/>
                <l n="355">Interque auaros vendicet nobis rogos</l>
-               <l part="">O si ille viuat!</l>
+               <l part="I">O si ille viuat!</l>
             </sp>
-            <sp who="#abrah">
+            <sp who="#abrahamus">
                <speaker>ABRAH.</speaker>
-               <l part=""
-                  cert="unknown">Parce nunc isto metu.</l>
+               <l part="F">Parce nunc isto metu.</l>
             </sp>
             <sp who="#sara">
                <speaker>SARA.</speaker>
                <l>Sed timeo, semper pendet infoelix timor.</l>
             </sp>
-            <sp who="#abrah">
+            <sp who="#abrahamus">
                <speaker>ABRAH.</speaker>
                <l>Quicumque vitae purus obseruat Deum,</l>
                <l>Seruabit illum promptus in laeuis Deus,</l>
@@ -690,7 +643,7 @@
                <l>At, si quid vltrà liceat, atque aurem Deus</l>
                <l>Inclinat istis, Sodoma ne tanto luat.</l>
             </sp>
-            <sp who="#abrah">
+            <sp who="#abrahamus">
                <speaker>ABRAH.</speaker>
                <l n="350">O misera! sic decreuit aeternùm Deus,</l>
                <l>Et iam rubentem dexteram strinxit quoque,</l>
@@ -698,15 +651,13 @@
                <l>Curare Lotum desine, immunis manet.</l>
             </sp>
             <stage>CHORVS.</stage>
-            <sp who="#unknown">
+            <sp who="#chorus">
                <l>Nemo tam Diuos habuit secundos,</l>
                <l n="355">Semper vt poßit sibi polliceri</l>
                <l>Lenè currentis spatium iuuentae.</l>
                <l>Laeta miscentur tragicis, &amp; vdae,</l>
                <l>Occupant risum, lacrymae, dolorque</l>
-               <l>
-                  <pb n="16"/>
-               </l>
+               <pb n="16"/>
                <l>Gaudio fidus comes, imminentes.</l>
                <l n="360">Ducit Erynnes.</l>
                <l>Nulla tam pura est animi voluptas,</l>
@@ -733,10 +684,8 @@
                <l>Talis in scitâ facie notatur</l>
                <l>Naeuus &amp; bellum minuit leporem:</l>
                <l>Sic &amp; in coelo speculum Dianae</l>
-               <l>385 Vernus infuscat vapor, &amp; nitentes</l>
-               <l>
-                  <pb n="17"/>
-               </l>
+               <l n="385">Vernus infuscat vapor, &amp; nitentes</l>
+               <pb n="17"/>
                <l>Condit introrsum radios, silenti</l>
                <l>Pallida in vmbrâ.</l>
                <l>O mihi semper liceat tueri</l>
@@ -764,9 +713,7 @@
                <l n="410">Sodoma! infoelix Sodoma! ô tuorum</l>
                <l>Ciuium quondam generosa Mater!</l>
                <l>Sodoma! heu tanto peritura damno!</l>
-               <l>
-                  <pb n="18"/>
-               </l>
+               <pb n="18"/>
                <l>Iam tuos specto cineres, &amp; illud</l>
                <l>Triste mirâclum Patriae cadentis,</l>
                <l n="415">Heu manum nimbo grauidam, tonantis</l>
@@ -794,9 +741,7 @@
                <l>Exitu fastos memores notabit.</l>
                <l>Ludite ô stulti Iuuenes, &amp; inter</l>
                <l>Lilia &amp; campi violas, cupitos</l>
-               <l>
-                  <pb n="19"/>
-               </l>
+               <pb n="19"/>
                <l n="440">Stringite amplexus, tonuit seuerum</l>
                <l>Numen, &amp; caecas gradiens per vmbras</l>
                <l>Coget Inferno scelera, &amp; nocentes:</l>
@@ -814,20 +759,17 @@
                <l>Perdidit Vrbem.</l>
             </sp>
          </div>
-         <div type="act"
-              n="4">
+         <div type="act" n="4">
             <head>ACTVS QVARTVS.</head>
             <stage>LOTVS, ANGELI.</stage>
-            <sp who="#unknown">
+            <sp who="#lotus">
                <l n="455">INcaesta semper Sodoma! quid primum querar?</l>
                <l>Et quid deinde? mutus est omnis dolor,</l>
                <l>Quicumque magno victus incubuit malo:</l>
                <l>Et sic iuuat tacere; non possum tamen,</l>
                <l>Et feruida indignatio luctum exprimit,</l>
                <l n="460">Bilem refundit: saepè lenimen fuit</l>
-               <l>
-                  <pb n="20"/>
-               </l>
+               <pb n="20"/>
                <l>Vulgare, quicquid pectoris claudit sinus.</l>
                <l>Sentio mephitim, sentio; heu scelus! scelus!</l>
                <l>Quò te pedes nefanda? quò rapit furor?</l>
@@ -855,9 +797,7 @@
                <l n="485">Quam nulla satis incendia &amp; flammae doment.</l>
                <l>Vel vda Tethys mergat Oceano satis,</l>
                <l>Flammis tamen perire, vel dignam salo.</l>
-               <l>
-                  <pb n="21"/>
-               </l>
+               <pb n="21"/>
                <l>Specto ruentem nubilo condi diem,</l>
                <l>Totumque fusco syrmate induci polum,</l>
                <l n="490">Et inter ista, nescio, quid luridum</l>
@@ -885,9 +825,7 @@
                <l>Fugere, manere taedium; ô Diuum Pater</l>
                <l>Nutu labantem dirige, auxilio tege,</l>
                <l>Atque eripe istis! taedet ah! Sodomae nimis,</l>
-               <l>
-                  <pb n="22"/>
-               </l>
+               <pb n="22"/>
                <l n="515">Taedet meorum Ciuium, &amp; perij quoque,</l>
                <l>Dum metuo, ne cubile sordescat meum,</l>
                <l>Et fortè labes aliqua commaculet torum,</l>
@@ -910,7 +848,7 @@
                <l>Et nota probitas, &amp;, quod excellit, Deus.</l>
             </sp>
             <stage>CHORVS.</stage>
-            <sp who="#unknown">
+            <sp who="#chorus">
                <l>Audax Terrigenûm genus,</l>
                <l>Seu cùm frugibus imminet,</l>
                <l>Lectae frugibus arboris,</l>
@@ -919,9 +857,7 @@
                <l>Seruans herbida pascua,</l>
                <l>Euae credidit auribus</l>
                <l>Primae vota superbiae,</l>
-               <l>
-                  <pb n="23"/>
-               </l>
+               <pb n="23"/>
                <l n="540">Semper ludere callidus,</l>
                <l>Semper laedere promptulus,</l>
                <l>Virus fundere blaesulum,</l>
@@ -949,9 +885,7 @@
                <l>Iam ferro hauserat ilia,</l>
                <l n="565">Tacto sanguine luridus,</l>
                <l>Pastus liuida viscera,</l>
-               <l>
-                  <pb n="24"/>
-               </l>
+               <pb n="24"/>
                <l>Cùm coelo micat aureo,</l>
                <l>Et miscet tonitru Deus</l>
                <l>Verbis grande sonantibus:</l>
@@ -979,9 +913,7 @@
                <l>Nec plura addere sustinet.</l>
                <l>Ille obmutuit, anxius</l>
                <l>Tanti criminis, &amp; fugae.</l>
-               <l>
-                  <pb n="25"/>
-               </l>
+               <pb n="25"/>
                <l>Desperat tamen vndique,</l>
                <l n="595">Non dignus veniâ frui.</l>
                <l>Restant omnia posteris,</l>
@@ -1009,9 +941,7 @@
                <l>Terram ducere nubilo;</l>
                <l>His iungit comites Notum, et</l>
                <l n="620">Crebrum fluctibus Africum,</l>
-               <l>
-                  <pb n="26"/>
-               </l>
+               <pb n="26"/>
                <l>Et foeto scelerum hispidos</l>
                <l>Mundo destinat alites.</l>
                <l>Illi peruolitant citò</l>
@@ -1039,9 +969,7 @@
                <l n="645">Et Prognen gemitu vocans,</l>
                <l>Clausit luctisonum vale.</l>
                <l>Vix nubem grauidam Deus</l>
-               <l>
-                  <pb n="27"/>
-               </l>
+               <pb n="27"/>
                <l>Desiccauerat, &amp; suo</l>
                <l>Pontum litore strinxerat,</l>
                <l n="650">Vix collegerat impetum,</l>
@@ -1069,9 +997,7 @@
                <l>Spißi nubila gurgitis,</l>
                <l>Torquet purpureo sinu,</l>
                <l>Voluit caeruleo sinu;</l>
-               <l>
-                  <pb n="28"/>
-               </l>
+               <pb n="28"/>
                <l n="675">Nec toto Oceano satis,</l>
                <l>Nec purget satis ignibus</l>
                <l>Nostri crimina saeculi.</l>
@@ -1099,9 +1025,7 @@
                <l>Nec se cupido differet Erebo,</l>
                <l n="700">Iustum arbitrium lassa tueri.</l>
                <l>O si fisso monte liceret</l>
-               <l>
-                  <pb n="29"/>
-               </l>
+               <pb n="29"/>
                <l>Scindere latebram, quâ se penitus</l>
                <l>Mergere posset!</l>
                <l>Nusquam effugimus, cùm caeruleo</l>
@@ -1117,11 +1041,10 @@
                <l>Dignum fulmine, vel mari.</l>
             </sp>
          </div>
-         <div type="act"
-              n="5">
+         <div type="act" n="5">
             <head>ACTVS QVINTVS.</head>
             <stage>LOTVS, IPHILLA, ANGELI.</stage>
-            <sp who="#unknown">
+            <sp who="#lotus">
                <l n="715">FEralis axe pallet Eöo dies,</l>
                <l>Et lassa tepido sidera incumbunt salo,</l>
                <l>Et tu peribis Sodoma! quid rides meos</l>
@@ -1131,9 +1054,7 @@
                <l>Et tu cineribus condita, ô bustum! ô dolor!</l>
                <l>Immanis irae sulfur &amp; flammam indues,</l>
                <l>Tot decora Gentis lurido inuoluens situ,</l>
-               <l>
-                  <pb n="30"/>
-               </l>
+               <pb n="30"/>
                <l>Regumque turres; nempe maturum est malum,</l>
                <l n="725">Et sentio atrum fulmen, &amp; mistum putri</l>
                <l>Sulfure bitumen, naribus capto meis.</l>
@@ -1159,79 +1080,61 @@
                <l>Damnata meretrix! non erit Sodomae locus,</l>
                <l>Non erit, &amp; alto sulfure obducet palus</l>
                <l>Vicina latè iugera, hoc tantùm, hoc erit.</l>
-               <l part="">Quò tu malorum conscia?</l>
+               <l part="I">Quò tu malorum conscia?</l>
             </sp>
             <sp who="#iphilla">
                <speaker>IPHILLA.</speaker>
-               <l part=""
-                  cert="unknown">O Lote!</l>
+               <l part="M">O Lote!</l>
             </sp>
-            <sp who="#lot">
+            <sp who="#lotus">
                <speaker>LOT.</speaker>
-               <l part=""
-                  cert="unknown">O Deus!</l>
+               <l part="F">O Deus!</l>
             </sp>
             <sp who="#iphilla">
                <speaker>IPHILLA.</speaker>
-               <l n="750"
-                  part=""
-                  cert="unknown">O Deus</l>
+               <l n="750" part="I">O Deus</l>
             </sp>
-            <sp who="#lot">
+            <sp who="#lotus">
                <speaker>LOT.</speaker>
-               <l n="750"
-                  part=""
-                  cert="unknown">Iphilla!</l>
+               <l n="750" part="M">Iphilla!</l>
             </sp>
-            <sp who="#iph">
+            <sp who="#iphilla">
                <speaker>IPH.</speaker>
-               <l n="750"
-                  part=""
-                  cert="unknown">Lote!</l>
+               <l n="750" part="M">Lote!</l>
             </sp>
-            <sp who="#lot">
+            <sp who="#lotus">
                <speaker>LOT.</speaker>
-               <l n="750"
-                  part=""
-                  cert="unknown">Nîl superat magis,</l>
-               <l>
-                  <pb n="31"/>
-               </l>
-               <l part="">Sodoma dehiscet!</l>
+               <l n="750" part="F">Nîl superat magis,</l>
+               <pb n="31"/>
+               <l part="I">Sodoma dehiscet!</l>
             </sp>
-            <sp who="#iph">
+            <sp who="#iphilla">
                <speaker>IPH.</speaker>
-               <l part=""
-                  cert="unknown">Saucias iterum.</l>
+               <l part="M">Saucias iterum.</l>
             </sp>
-            <sp who="#lot">
+            <sp who="#lotus">
                <speaker>LOT.</speaker>
-               <l part=""
-                  cert="unknown">Hoc erit.</l>
+               <l part="F">Hoc erit.</l>
             </sp>
             <sp who="#iphilla">
                <speaker>IPHILLA.</speaker>
-               <l part=""
-                  cert="unknown">Abominari liceat.</l>
+               <l part="I">Abominari liceat.</l>
             </sp>
-            <sp who="#lot">
+            <sp who="#lotus">
                <speaker>LOT.</speaker>
-               <l part=""
-                  cert="unknown">Hoc erit tamen.</l>
+               <l part="F">Hoc erit tamen.</l>
             </sp>
             <sp who="#iphilla">
                <speaker>IPHILLA.</speaker>
-               <l part=""
-                  cert="unknown">Ploremus oculi, Sodoma non viuet super!</l>
+               <l>Ploremus oculi, Sodoma non viuet super!</l>
                <l>Heu Sodoma! florens opibus &amp; florens viris,</l>
                <l n="755">Regina magnarum Vrbium! hei violae! hei rosae!</l>
                <l>Et quicquid olim floruit campis tuis</l>
-               <l part="">Formosa regio!</l>
+               <l part="I">Formosa regio!</l>
             </sp>
-            <sp who="#lot">
+            <sp who="#lotus">
                <speaker>LOT.</speaker>
-               <l part=""
-                  cert="unknown">Sodoma nunc lamias alet,</l>
+               <l part="F">Sodoma nunc lamias alet,</l>
                <l>Et quicquid opicas maeret inter alites.</l>
                <l>Heu! illa culti picta luxuries soli</l>
                <l n="760">Lentum bitumen voluet, &amp; si quid rogo</l>
@@ -1241,52 +1144,41 @@
             <sp who="#angelus">
                <speaker>ANGELUS.</speaker>
                <l>Quid statis etiam languidi? impendet malum.</l>
-               <l part="">Properate, rapite, trahite, nunc ferio.</l>
+               <l part="I">Properate, rapite, trahite, nunc ferio.</l>
             </sp>
-            <sp who="#iph">
+            <sp who="#iphilla">
                <speaker>IPH.</speaker>
-               <l part=""
-                  cert="unknown">Deus!</l>
+               <l part="F">Deus!</l>
             </sp>
-            <sp who="#lot">
+            <sp who="#lotus">
                <speaker>LOT.</speaker>
-               <l n="765"
-                  part=""
-                  cert="unknown">Parce, ô Deorum quisquis es.</l>
+               <l n="765" part="I">Parce, ô Deorum quisquis es.</l>
             </sp>
-            <sp who="#ang">
+            <sp who="#angelus">
                <speaker>ANG.</speaker>
-               <l n="765"
-                  part=""
-                  cert="unknown">Rapite fugam.</l>
+               <l n="765" part="F">Rapite fugam.</l>
                <l>Quid te fatigas Lote? nequicquam facis.</l>
                <l>Laxabo grauidam sulfure &amp; nimbo manum,</l>
                <l>Et stabit ignis Sodoma, si stabit tamen.</l>
             </sp>
-            <sp who="#lot">
+            <sp who="#lotus">
                <speaker>LOT.</speaker>
-               <l part=""
-                  cert="unknown">Quò fugere mandas?</l>
+               <l part="I">Quò fugere mandas?</l>
             </sp>
-            <sp who="#ang">
+            <sp who="#angelus">
                <speaker>ANG.</speaker>
-               <l part=""
-                  cert="unknown">Montis exeso specu</l>
-               <l n="770"
-                  part="">Arce perîclum.</l>
+               <l part="F">Montis exeso specu</l>
+               <l n="770" part="I">Arce perîclum.</l>
             </sp>
-            <sp who="#lot">
+            <sp who="#lotus">
                <speaker>LOT.</speaker>
-               <l n="770"
-                  part=""
-                  cert="unknown">Timeo spelaeo nimis.</l>
+               <l n="770" part="F">Timeo spelaeo nimis.</l>
                <l>Si fortè nostri placuit hospitij focus,</l>
-               <l part="">Concede Segor.</l>
+               <l part="I">Concede Segor.</l>
             </sp>
-            <sp who="#ang">
+            <sp who="#angelus">
                <speaker>ANG.</speaker>
-               <l part=""
-                  cert="unknown">Accipe, intactam dabo.</l>
+               <l part="F">Accipe, intactam dabo.</l>
                <l>At cùm sonantes flamma deuoluet rogos,</l>
                <l>Oculos tenete, mandat hoc vobis Deus.</l>
                <l n="775">Heu! fugite manibus fulmen exilijt meis,</l>
