@@ -48,19 +48,21 @@
                <availability status="free">
                   <p>In the public domain.</p>
                </availability>
-               <bibl type="digitalSource">
-                  <ref target="https://books.google.nl/books?id=3Wg-AAAAcAAJ">Google Books</ref>
-                  <availability status="free">
-                     <p>In the public domain.</p>
-                  </availability>
-                  <bibl type="originalSource"><author>Jacobus Cornelius Lummenaeus a Marca</author>
-                     : <title type="main">Saul</title> . <title type="sub">Tragoedia sacra</title> .
-                     In: <title>Musae lacrymantes, sive Pleias tragica, id est septem tragoediae
-                        sacrae. Bustum Sodomae, Abimelech, Iephte, Sampson, Saul, Amnon,
-                        Sedechias</title> . <pubPlace>Douai</pubPlace> : <publisher>Johannes de
-                        Fampoux</publisher>
-                     <date>1628</date> . <biblScope>pp. 120–156</biblScope> . </bibl>
-               </bibl>
+               <bibl type="originalSource"><author>Jacobus Cornelius Lummenaeus a Marca</author> :
+                     <title type="main">Saul</title> . <title type="sub">Tragoedia sacra</title> .
+                  In: <title>Musae lacrymantes, sive Pleias tragica, id est septem tragoediae
+                     sacrae. Bustum Sodomae, Abimelech, Iephte, Sampson, Saul, Amnon,
+                     Sedechias</title> . <pubPlace>Douai</pubPlace> : <publisher>Johannes de
+                     Fampoux</publisher>
+                  <date>1628</date> . <biblScope>pp. 120–156</biblScope> . </bibl>
+               <relatedItem type="digitalCopyUsed">
+                  <bibl>
+                     <ref target="https://books.google.nl/books?id=3Wg-AAAAcAAJ">Google Books</ref>
+                     <availability status="free">
+                        <p>In the public domain.</p>
+                     </availability>
+                  </bibl>
+               </relatedItem>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -68,25 +70,25 @@
          <particDesc>
             <listPerson>
                <person xml:id="samuel" sex="MALE" ana="https://www.wikidata.org/wiki/Q6577515">
-                  <persName>Samuel/Umbra Samuelis</persName>
+                  <persName>SAMVEL/VMBRA SAMVELIS</persName>
                </person>
                <personGrp xml:id="chorus" sex="UNKNOWN" role="chorus">
-                  <name>Chorus</name>
+                  <name>CHORVS</name>
                </personGrp>
                <person xml:id="saul" sex="MALE" ana="https://www.wikidata.org/wiki/Q28730">
-                  <persName>Saul</persName>
+                  <persName>SAVL</persName>
                </person>
                <person xml:id="david" sex="MALE" ana="https://www.wikidata.org/wiki/Q41370">
-                  <persName>David</persName>
+                  <persName>DAVID</persName>
                </person>
                <person xml:id="achimas" sex="MALE">
-                  <persName>Achimas</persName>
+                  <persName>ACHIMAS</persName>
                </person>
                <person xml:id="manto" sex="FEMALE" ana="https://www.wikidata.org/wiki/Q1391553">
-                  <persName>Manto</persName>
+                  <persName>MANTO/PYTHONISSA</persName>
                </person>
                <person xml:id="nuncius" sex="MALE" role="nuncius">
-                  <persName>Nuncius</persName>
+                  <persName>NVNCIVS</persName>
                </person>
             </listPerson>
          </particDesc>
@@ -94,11 +96,11 @@
             <keywords>
                <term type="genreTitle">tragedy</term>
             </keywords>
-            <classCode scheme="http://www.wikidata.org/entity/">Q476033</classCode>
+            <classCode scheme="http://www.wikidata.org/entity/">Q622783</classCode>
          </textClass>
          <creation>
             <region>
-               <ref target="https://www.wikidata.org/wiki/Q476033">Low Countries</ref>
+               <ref target="https://www.wikidata.org/wiki/Q476033">Spanish Netherlands</ref>
             </region>
          </creation>
       </profileDesc>
@@ -109,21 +111,21 @@
             <desc>first print 1621, slightly revised in the 1628 edition (see Gruijters, R.J.
                (2010): An eloquent enigma. The dramas of Jacobus Cornelius Lummenaeus à Marca (c.
                1580 - c. 1628) and their contexts [Thesis, fully internal, Universiteit van
-               Amsterdam]. Eigen Beheer. p. 226.)</desc>
+               Amsterdam]. Eigen Beheer. p. 226, 234.)</desc>
          </event>
       </listEvent>
    </standOff>
    <text>
       <front>
+         <pb n="120"/>
          <titlePage>
-            <pb n="120"/>
             <docTitle>
                <titlePart type="main">SAVL</titlePart>
                <titlePart type="sub">TRAGOEDIA SACRA.</titlePart>
             </docTitle>
          </titlePage>
+         <pb n="121"/>
          <div type="dedication">
-            <pb n="121"/>
             <opener>
                <salute>ILLVSTRISSIMO, ET EXCELLENTISSIMO DOMINO D. CLAVDIO DOIGNYEZ COMITI DE
                   COVPIGNY, COMARCHO DE MORCHOVE, &amp;c. CATHOLICAE MAIESTATI A CONSILIIS STATVVM,
@@ -131,21 +133,19 @@
                   IACOBVS CORN. LVMMENAEVS A MARCA, Religiosus Sacerdos Benedictino-Blandinensis ad
                   Gandanum.</salute>
             </opener>
-            <p>
-               <l>MVsarum Alcides, qui primo natus in ostro,</l>
-               <l>OGNYACVM claro sanguine stemma notas.</l>
-               <l>O cui riserunt inter cunabula Musae,</l>
-               <l>Et risit lepido Delius ore Pater!</l>
-               <l>Accipe in vmbrosâ meditata pöemata taxo,</l>
-               <l>Permessi gelidam fluminis ad scatebram.</l>
-               <l>Accipe iò flores tragicâ ferrugine tinctos,</l>
-               <l>Quos stipat calatho Melpomenaea tuo.</l>
-               <l>Heu quibus hoc tenerum perscriptum est omnibus <foreign xml:lang="grc">αἴ,
-                     αἴ;</foreign></l>
-               <l>Quis scit, an his violis, Anna perenna sedet?</l>
-            </p>
-            <pb n="122"/>
+            <l>MVsarum Alcides, qui primo natus in ostro,</l>
+            <l rend="indent">OGNYACVM claro sanguine stemma notas.</l>
+            <l>O cui riserunt inter cunabula Musae,</l>
+            <l rend="indent">Et risit lepido Delius ore Pater!</l>
+            <l>Accipe in vmbrosâ meditata pöemata taxo,</l>
+            <l rend="indent">Permessi gelidam fluminis ad scatebram.</l>
+            <l>Accipe iò flores tragicâ ferrugine tinctos,</l>
+            <l rend="indent">Quos stipat calatho Melpomenaea tuo.</l>
+            <l>Heu quibus hoc tenerum perscriptum est omnibus <foreign xml:lang="grc">αἴ,
+                  αἴ;</foreign></l>
+            <l rend="indent">Quis scit, an his violis, Anna perenna sedet?</l>
          </div>
+         <pb n="122"/>
          <div type="epistle">
             <opener>
                <salute>ADMODVM REVERENDO DOMINO D. IACOBO CORN. LVMMENAEO A MARCA, ORD. S. BENEDICTI
@@ -167,14 +167,14 @@
                <signed>T. Amantissimus L. CARD. SANSEVERINVS.</signed>
             </closer>
          </div>
+         <pb n="123"/>
          <div type="argument">
-            <pb n="123"/>
             <head>ARGVMENTVM.</head>
             <p>SAVL, post rapinam AMALECH, à Deo proiectus, à SAMVELE destitutus, amentiâ laborat,
                DAVIDIS caedem machinatur. Denique rebus in deterius sublapsis, consulto magico
                oraculo, &amp; redhibiti SAMVELIS spectro deterritus, in Gelböae porrò montibus, cum
-               Palaestinis laeuo Marte congressus, &amp; propriâ manu transuerberatus occumbit. 1.
-               Reg. 31.</p>
+               Palaestinis laeuo Marte congressus, &amp; propriâ manu transuerberatus occumbit.
+                  <ref>1. Reg. 31.</ref></p>
          </div>
          <castList>
             <head>PERSONARVM NOMINA.</head>
@@ -203,8 +203,8 @@
          </castList>
       </front>
       <body>
+         <pb n="124"/>
          <div type="act" n="1">
-            <pb n="124"/>
             <head>ACTVS PRIMVS.</head>
             <stage>SAMVEL.</stage>
             <sp who="#samuel">
@@ -761,8 +761,8 @@
                <l>Säul peßime Regum!</l>
             </sp>
          </div>
+         <pb n="144"/>
          <div type="act" n="4">
-            <pb n="144"/>
             <head>ACTVS QVARTVS.</head>
             <stage>SAVL, ACHIMAS ARMIGER, MANTO VENEFICA, VMBRA SAMVELIS.</stage>
             <sp who="#saul">
@@ -966,8 +966,8 @@
             <sp who="#manto">
                <speaker>MANT.</speaker>
                <l part="F">Palluit, cecidit, iacet.</l>
-               <pb n="149"/>
             </sp>
+            <pb n="149"/>
             <sp who="#samuel">
                <speaker>VMBRA SAM.</speaker>
                <l>Heu cùm sonantes Marspiter quatiet rotas,</l>
