@@ -1,0 +1,1185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI type="dracor" xml:id="neolat000097" xml:lang="la" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sampson</title>
+            <title type="sub">Tragoedia sacra</title>
+            <author>
+               <persName xml:lang="la">
+                  <forename>Jacobus Cornelius</forename>
+                  <surname>Lummenaeus a Marca</surname>
+               </persName>
+               <idno type="wikidata">Q112481178</idno>
+               <idno type="pnd">131814397</idno>
+            </author>
+            <editor>Jan Bloemendal</editor>
+            <respStmt>
+               <resp>Transcribed under the supervision of</resp>
+               <persName>Jan Bloemendal</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted to TEI by</resp>
+               <persName>Julia Jennifer Beine</persName>
+            </respStmt>
+            <funder/>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="dracor">DraCor</publisher>
+            <idno type="URL">https://dracor.org</idno>
+            <availability>
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0
+                  1.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <name>TransLatin</name>
+               <idno type="URL"
+                  >https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Lummenaeus-Sampson.docx</idno>
+               <availability status="free">
+                  <p>In the public domain.</p>
+               </availability>
+               <bibl type="originalSource"><author>Jacobus Cornelius Lummenaeus a Marca</author> :
+                     <title>Sampson. Tragoedia sacra</title> . In: <title>Musae lacrymantes, sive
+                     Pleias tragica, id est septem tragoediae sacrae. Bustum Sodomae, Abimelech,
+                     Iephte, Sampson, Saul, Amnon, Sedechias</title> . <pubPlace>Douai</pubPlace> :
+                     <publisher>Johannes de Fampoux</publisher>
+                  <date>1628</date> . <biblScope>pp. 90–119</biblScope>.</bibl>
+               <relatedItem>
+                  <!-- digital copy used -->
+                  <bibl>
+                     <ref target="https://books.google.com/books?id=3Wg-AAAAcAAJ">Google Books</ref>
+                     <availability status="free">
+                        <p>In the public domain.</p>
+                     </availability>
+                  </bibl>
+               </relatedItem>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="barsanes" sex="MALE">
+                  <persName>BARSANES/BARZANES</persName>
+               </person>
+               <personGrp xml:id="chorus" sex="UNKNOWN" role="chorus">
+                  <name>CHORVS</name>
+               </personGrp>
+               <person xml:id="dalila" sex="FEMALE" ana="https://www.wikidata.org/wiki/Q937827">
+                  <persName>DALILA</persName>
+               </person>
+               <person xml:id="sampson" sex="MALE" ana="https://www.wikidata.org/wiki/Q214648">
+                  <persName>SAMPSON</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <textClass>
+            <keywords>
+               <term type="genreTitle">tragedy</term>
+            </keywords>
+            <classCode scheme="http://www.wikidata.org/entity/">Q622783</classCode>
+         </textClass>
+         <creation>
+            <region>
+               <ref target="https://www.wikidata.org/wiki/Q476033">Spanish Netherlands</ref>
+            </region>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <standOff>
+      <listEvent>
+         <event type="print" when="1628">
+            <desc>first print 1625, slightly revised in the 1628 edition (see Gruijters, R.J.
+               (2010): An eloquent enigma. The dramas of Jacobus Cornelius Lummenaeus à Marca (c.
+               1580 - c. 1628) and their contexts [Thesis, fully internal, Universiteit van
+               Amsterdam]. Eigen Beheer. p. 226, 237.)</desc>
+         </event>
+      </listEvent>
+   </standOff>
+   <text>
+      <front>
+         <titlePage>
+            <docTitle>
+               <titlePart type="main">SAMPSON</titlePart>
+               <titlePart type="sub">TRAGOEDIA. SACRA.</titlePart>
+            </docTitle>
+         </titlePage>
+         <pb n="91"/>
+         <div type="dedication">
+            <salute>AMPLISSIMO ET R.DO ADMODVM DOMINO D. BERNARDO CAMPMANS DVNENSIS MONASTERII,
+               ORDINIS CISTERCIENSIS ABBATI LONGE MERITISSIMO. D. C. Q.</salute>
+            <l>FLandricus occiduas pontus quà stipat arenas,</l>
+            <l rend="indent">Praesidium coetus, deliciumque tui.</l>
+            <l>Militis Hebraei casus ex ordine disces,</l>
+            <l rend="indent">Si iuuat haec oculos pagina sacra tuos.</l>
+            <l>Hei mihi! quàm vellem tragico proscibere ludo,</l>
+            <l rend="indent">Quidquid in hoc actu Dalila saeua parat!</l>
+            <l>SAMPSONEM Veneris pullum (mirabile!) &amp; astum</l>
+            <l rend="indent">Pellicis Hethaeae scena cruenta dabit;</l>
+            <l>Tonsuram &amp; raros circùm caua tempora cirros,</l>
+            <l rend="indent">Pistrinum, neruos, vulnera, &amp; exitium.</l>
+            <l>Felix, qui streperi videt intrà aulaea theatri,</l>
+            <l rend="indent">Quidquid in hoc pullo syrmate ludit Amor.</l>
+         </div>
+         <pb n="92"/>
+         <div type="epistle">
+            <salute>ADMODVM R.DO PATRI IACOBO CORN. LVMMENAEO A MARCA.</salute>
+            <p>ADMODVM REVERENDE PATER, TRAGOEDIAM tuam sacram, è plaustro tragico ad ROMANAS nunc
+               prodeuntem scenas, &amp; mihi à vestrâ Paternitate humaniter dono missam, eo sum
+               animo amplexus, quo debent suscipi &amp; aestimari docti viri opera &amp; labores;
+               qui quidem labores cùm apud me, tum apud omnes, inuenient sibi meritò locum, suâ famâ
+               &amp; nomine dignum. Plurimas interim V. Paternit pro illis gratias ago, gratâque
+               semper memoriâ oblatum mihi munus seruabo, eritque illud mihi tui ergà me studij,
+               &amp; beneuolentiae indicium non vulgare.</p>
+            <closer><salute>Vale, teque Deus suâ gra¬ tiâ cumulet.</salute>
+               <dateline><name type="place">ROMAE</name>, <date>13. Iannuar. 1622</date>.</dateline>
+               <signed>Studiosiss. S. CARD. BVRGHESIVS.</signed></closer>
+         </div>
+         <pb n="93"/>
+         <div type="argument">
+            <head>ARGVMENTVM.</head>
+            <p>SAMPSON Nazaraeus, ex tribu Dan, filius Manüé, mystici roboris incomparabilis heros,
+               pellaciae mulierum non semel obnoxius, tandem in gremio Dalilae, somno &amp; lacte
+               Veneris sepultus, nouaculâ raditur, vincîtur, exoculatur, atque adeò in pistrinum
+               deditur, molâ &amp; perpetuâ seruitute condemnatus. <ref>Iudic. 16.</ref></p>
+         </div>
+         <castList>
+            <head>PERSONARVM NOMINA.</head>
+            <castItem>
+               <role>SAMPSON</role>
+            </castItem>
+            <castItem>
+               <role>DALILA</role>
+            </castItem>
+            <castItem>
+               <role>BARSANES </role>
+               <roleDesc>PRINC. PALAEST.</roleDesc>
+            </castItem>
+            <castItem>
+               <role>CHORVS.</role>
+            </castItem>
+         </castList>
+         <pb n="94"/>
+      </front>
+      <body>
+         <div type="act" n="1">
+            <head>ACTVS PRIMVS</head>
+            <stage>DALILA.</stage>
+            <sp who="#dalila">
+               <l>SAmpson! quid ille verpus? an spolium mei</l>
+               <l>Corporis habebit semper, &amp; thalamo iacens</l>
+               <l>Vncto supinus, vbera Hebraeus latro</l>
+               <l>Mulgebit ista? taedet! vt Veneris rosas</l>
+               <l n="5">Spargam ante porcum? scilicet rictu hispido,</l>
+               <l>Qui tot labellis dulcia expreßit meis,</l>
+               <l>Mellita tot süauia: vt nunquam est satur</l>
+               <l>Atque in medullis ardet, &amp; totam quoque</l>
+               <l>Sorbere vellet Dalilam, vaecors nimis,</l>
+               <l n="10">Cùm sidit inter genua captiuus mea,</l>
+               <l>Et sepè in vnâ fimbriâ mollis comae</l>
+               <l>Suspensus haeret, marcet, insanit, stupet:</l>
+               <l>Iterumque Gentis terror Hethaeae, lues</l>
+               <l>Patriae cadentis, cùm meum excußit sinum,</l>
+               <l n="15">Et more diri fulminis telum vibrans,</l>
+               <l>Ferrum coruscans, ante se turmas agit</l>
+               <l>Nimiùm fugaces: qualis in siluae iugis</l>
+               <l>Venator audax sequitur imbelles feras,</l>
+               <l>Et trepida vastat agmina: aut qualis, cauo</l>
+               <l n="20">Dum tonuit aether, sibilo in nemore vagus</l>
+               <l>Errat per vmbras Africus, pinos quatit,</l>
+               <pb n="95"/>
+               <l>Arbusta spoliat, frondibus sternit nemus.</l>
+               <l>Sic ille Martis ludio in campum venit,</l>
+               <l>Et caesa paßim corpora, &amp; galeas leues,</l>
+               <l n="25">Et scuta aceruo cumulat, &amp; stragem facit.</l>
+               <l>Nec, si leonum scymnus occurat, timet,</l>
+               <l>Et fulua carpit latera, crudelis nimis,</l>
+               <l>Et sanguine atro pastus, hirsutus, ferus.</l>
+               <l>Sic auspicatur nuptias, sic pellices</l>
+               <l n="30">Stringit puellus Veneris, &amp; tabo fluens,</l>
+               <l>Et sordidatus, nubilem inuadit torum,</l>
+               <l>Et ô! pudorem. Virginis comptae legit,</l>
+               <l>Quae Thamnatae olim vidua suspirans, feris</l>
+               <l>Damnata flammis, Coniugis noxam tulit,</l>
+               <l n="35">Et luridum, amens, pallida, ascendit rogum.</l>
+               <l>Sic ille cestum soluit indignus meum,</l>
+               <l>Vt semper aliquid Dalilae in gremio placet,</l>
+               <l>Quod non benigno Cynxiae nutu rapit.</l>
+               <l>Ergóne nunquam beluam in casses agam,</l>
+               <l n="40">Et nunquam in vlnis induet sicam meis?</l>
+               <l>Sic ille semper vberum premet sinus,</l>
+               <l>Et cùm sitim sedârit &amp; biberit satis,</l>
+               <l>Insulsus hoc &amp; illud imponet mihi,</l>
+               <l>Et sic inepto ducet incautam ioco?</l>
+               <l n="45">Nunc funibus vincire, nunc neruis iubet,</l>
+               <l>Nunc capitis hirtas figere in terram comas,</l>
+               <l>Et hoc &amp; illud; semper illudit tamen,</l>
+               <l>Et robore aucto maior ad pugnam redit.</l>
+               <pb n="96"/>
+               <l>Nuper probaui, cùm Palaestinos meos</l>
+               <l n="50">Iterumque &amp; iterum turbidâ exegit fugâ,</l>
+               <l>Et me trementem pallido impleuit metu.</l>
+               <l>Quàm multa tunc miscere oportet dulcia,</l>
+               <l>Et fingere &amp; mentiri, vt abijciat manu</l>
+               <l>Clauam &amp; sagittas! rideo, appello, voco</l>
+               <l n="55">Fratrem, parentem, corculum, iecur meum,</l>
+               <l>Vt tota sugat vbera, inuito, rogo:</l>
+               <l>Et virus immulgere bis coctum velim,</l>
+               <l>Et viperinum sanguinem &amp; Lernae caput,</l>
+               <l>Putris rubetae viscera, hippomanes malum.</l>
+               <l n="60">Quicumque Venerem torquet inuitam, nihil</l>
+               <l>Impunè consequetur: est magnus dolor</l>
+               <l>Laesi pudoris: forsan &amp; Sampson quoque</l>
+               <l>Reperiet olim Dalilam; &amp; labem &amp; stuprum,</l>
+               <l>Quaeque intulit, quaeque abstulit, soluet nimis,</l>
+               <l n="65">Et reddet aequam victimam damno meo.</l>
+               <l>Audite Superi, Dalila in partes vocat</l>
+            </sp>
+            <stage>CHORVS.</stage>
+            <sp who="#chorus">
+               <l>Sic, sic mulier perfida nostro</l>
+               <l>Callida tendit retia Marti?</l>
+               <l>Sic imparibus miscet in vlnis</l>
+               <l n="70">Oscula, myrtum; vulnera, myrrham;</l>
+               <l>Et tela, velut basia, mittit?</l>
+               <l>Sic &amp; leuium mater Amorum,</l>
+               <l>Et caerulei filia Ponti,</l>
+               <pb n="97"/>
+               <l>Permista suis toxica violis</l>
+               <l n="75">Spargit roseo, ludens, gremio</l>
+               <l>Et delicijs enecat aegros:</l>
+               <l>Quae tunc etiam crudelis erat,</l>
+               <l>Cùm decumanis fluctibus exstans</l>
+               <l>Stringeret vdâ caerula conchâ,</l>
+               <l n="80">Et cognatas raderet vndas.</l>
+               <l>Parcite Superi! parcite Superi!</l>
+               <l>Viuatque meus (si vota iuuant)</l>
+               <l>Longo &amp; longo tempore Sampson.</l>
+               <l>Heu! quod Dalilam perditus ardet,</l>
+               <l n="85">Et se tali credit amanti,</l>
+               <l>Et se nimiùm sternit in vlnis,</l>
+               <l>Et se nimiùm floribus ornat,</l>
+               <l>Quos sic etiam pungere nescit!</l>
+               <l>Non est mulier vulgare malum:</l>
+               <l n="90">Et cùm blandâ fronte renidet,</l>
+               <l>Et cùm paetis allicit oculis,</l>
+               <l>Et cùm exertis, mellea, labijs</l>
+               <l>Oscula pangit, dulce venenum est,</l>
+               <l>Quacumque tenes, induis hamum,</l>
+               <l n="95">Nec sine spinis lilia carpis</l>
+               <l>Et cur nimiùm credidit istis,</l>
+               <l>Captus studio pellicis Euae,</l>
+               <l>Inter verni roscida nemoris,</l>
+               <l>Nostri generis prouidus auctor?</l>
+               <l n="100">Nempe &amp; veteris Sethi soboles,</l>
+               <pb n="98"/>
+               <l>Heu! Heu! nimiùm cara propago!</l>
+               <l>Dedita veri Numinis aris,</l>
+               <l>Et paenè ipsis insita Diuis!</l>
+               <l>Non satis auidos clausit ocellos,</l>
+               <l n="105">Cùm se nudo corpore nymphae,</l>
+               <l>Caini fatuo semine natae,</l>
+               <l>Ad connubium molle pararent,</l>
+               <l>Gens compta nimis, gens pulchra nimis,</l>
+               <l>Et si caperis dulcibus istis,</l>
+               <l n="110">Lenire potens. omnia vultu.</l>
+               <l>Fugite ô pueri! sibilat inter</l>
+               <l>Florida serpens, &amp; sub violis</l>
+               <l>Lubricat herbas frigidus anguis,</l>
+               <l>Dirumque acuit scorpio telum.</l>
+               <l n="115">Sed non audit froena libido,</l>
+               <l>Et se semper proripit vltrà.</l>
+               <l>Tunc, vt coelo turbidus iuit,</l>
+               <l>Inter medios arduus imbres,</l>
+               <l>Qui certa manu fulmina librat,</l>
+               <l n="120">Cùm funesto lurida nimbo,</l>
+               <l>Fremerent totis, nubila, portis,</l>
+               <l>Risêre tamen, lusêre tamen,</l>
+               <l>Heu! heu! nimiùm perdita pubes,</l>
+               <l>Et sine lacrymis corpora mergunt.</l>
+               <l n="125">Quid, cùm Sodomam perculit vrbem</l>
+               <l>Tortor sacri criminis ignis?</l>
+               <l>Lothus nostri frater Abrami,</l>
+               <pb n="99"/>
+               <l>Tantoque nepos sanguine dignus,</l>
+               <l>Heu! ad nigras busti nebulas,</l>
+               <l n="130">Solus proprias inter alumnas,</l>
+               <l>Captus geminae pellicis astu.</l>
+               <l>Potuit vetitas ire sub vlnas,</l>
+               <l>Potuit Veneris ludere ludum,</l>
+               <l>Et tam diros gignere natos.</l>
+               <l n="135">Iudas noster patrius Heros,</l>
+               <l>O cui sceptrum nobile Gentis</l>
+               <l>Aurea quondam saecula debent!</l>
+               <l>Thamaram incauto deperit ausu,</l>
+               <l>Quae se nimium prurire dolens,</l>
+               <l n="140">Longùm sterili damnata toro</l>
+               <l>Intrà crocei flammea pepli,</l>
+               <l>Pulchros socero commodat artus.</l>
+               <l>Et tu poteras impie Zambri</l>
+               <l>Aegros etiam spernere Superos,</l>
+               <l n="145">Cùm te, Suri filia, Cosbe,</l>
+               <l>Obliqua tuens mollibus hircis</l>
+               <l>Alto penitus vulnere fixit;</l>
+               <l>Heu! cùm te auidos inter amores,</l>
+               <l>Per tota tuae viscera nuptae,</l>
+               <l n="150">Hausit gladio noster Phinëes,</l>
+               <l>Phinëes laesi Numinis vltor,</l>
+               <l>Et te mersum funere acerbo</l>
+               <l>Iußit trepidos visere Manes.</l>
+               <l>Cur non isto iacuit thalamo</l>
+               <pb n="100"/>
+               <l n="155">Dalila pellex? illa arguto</l>
+               <l>Non indocilis ducere nutu,</l>
+               <l>Fortia, nostros, pectora, Iuuenes,</l>
+               <l>Et damnato stringere lecto?</l>
+               <l>Et te potuit Nazaraee pugil,</l>
+               <l n="160">Passeris instar; fallere visco,</l>
+               <l>Qui cùm ramo sederit vncto,</l>
+               <l>Captus viridi pendet ab alno,</l>
+               <l>Et se totis implicat alis;</l>
+               <l>Tum remigio nescius vti</l>
+               <l n="165">Duri patitur taedia Mopsi,</l>
+               <l>Iunco, aut tenerâ carice vinctus.</l>
+               <l>Heu! plus alöes, quàm mellis habet,</l>
+               <l>Quae tibi fragiles inter myrtos</l>
+               <l>Condîta fauis vbera praebet!</l>
+               <l n="170">Quae te fatuo dulcibus illis,</l>
+               <l>Et te Veneris lactat cyatho,</l>
+               <l>Et sic miscet lene papauer,</l>
+               <l>Vt te somno captet hiantem,</l>
+               <l>Et barbarico vinciat ausu,</l>
+               <l n="175">Quem nemo aliàs vincere poßit.</l>
+               <l>Scilicet olim vertet amores,</l>
+               <l>Et fortè tuo ludet iugulo,</l>
+               <l>Et te longis ambiet hastis,</l>
+               <l>Et mille tibi spicula figet,</l>
+               <l n="180">Nimiùm, ah! nimiùm perdite Sampson!</l>
+            </sp>
+         </div>
+         <pb n="101"/>
+         <div type="act" n="2">
+            <head>ACTVS SECVNDVS.</head>
+            <stage>SAMPSON.</stage>
+            <sp who="#sampson">
+               <l>BEnè est, amamus iterum, &amp; hic olim fuit</l>
+               <l>Meae iuuentae lusus, &amp; me Thamnatae</l>
+               <l>Delecta Coniunx, fouit amplexu prior,</l>
+               <l>Sic pulchra satis, at garrula &amp; vaecors magis,</l>
+               <l n="185">Et paenè thalami in limine excedens toro,</l>
+               <l>Periura nymphè: scilicet magnum est scelus</l>
+               <l>Fallere maritos: attamen poenas dedit,</l>
+               <l>Quas non volebam, barbaro exemplo, nimis,</l>
+               <l>Et nimis acerbas; sic tamen visum est Deo,</l>
+               <l n="190">Vt lueret igni crimen, &amp; diro iacet</l>
+               <l>Tumulata busto; quis mihi tunc arduum</l>
+               <l>Pectus subibat Genius! ô quantum meos</l>
+               <l>Ibat per artus robur, &amp; gliscens dolor</l>
+               <l>Quàm magna campis damna patrauit tuis</l>
+               <l n="195">Hethaea tellus! moesta tunc flebat Ceres,</l>
+               <l>Combusto in agro tota fumabant sata,</l>
+               <l>Et facinus illud vulpium &amp; fuerat tuum</l>
+               <l>Inuicte Sampson, belüe vt fortes iuuant.</l>
+               <l>Tunc mille pugiles Marte congressos mihi,</l>
+               <l n="200">Stratos arenâ, genibus illisi meis</l>
+               <l>Et fregi, &amp; ô maxilla tunc iuuit manum,</l>
+               <l>Quae iussa latices fundere, extinxit sitim,</l>
+               <pb n="102"/>
+               <l>Et sic dehiscens fonte perpetuo scatet.</l>
+               <l>Quid cùm profundis Gasa me vidit iugis</l>
+               <l n="205">Fixisse portas vrbis, &amp; vectes quoque, &amp;</l>
+               <l>Postes ahenos? opidum inuasit tremor,</l>
+               <l>Et nemo, qui concurreret mecum, fuit,</l>
+               <l>Et nulla virtus gemina in Hethaeis stetit.</l>
+               <l>Nunc alia lucta est (quantus erumpit mihi</l>
+               <l n="210">Sudor per artus!) Dalila in campum vocat,</l>
+               <l>Et vincit etiam Dalila, heu! mulier virum!</l>
+               <l>Vt sola Veneris castra me abiectum vident.</l>
+               <l>Sic par &amp; impar ludo, sic molli iuuat</l>
+               <l>Thyrso feriri, serpit in venas dolor,</l>
+               <l n="215">Totisque lumbis virus incoctum sedet,</l>
+               <l>Et minuit vsque &amp; vsque consumptum iecur,</l>
+               <l>Vt nulla praeter Dalilam radit magis,</l>
+               <l>Et nulla praeter Dalilam integrat magis,</l>
+               <l>O cùm illa pandit vbera, intendit manum,</l>
+               <l n="220">Et garrit &amp; nugatur &amp; bellè facit</l>
+               <l>Omnia, &amp; in vno saepe gelasino mouet</l>
+               <l>Cor &amp; medullas! Gratiae in vultu sedent,</l>
+               <l>Genae renident, in quibus ludit Venus,</l>
+               <l>Et ore &amp; oculis blandus expirat lepor.</l>
+               <l n="225">O cùm illa flauae densa mollicies comae</l>
+               <l>Amaracum, &amp; sisymbria, &amp; rosas olet!</l>
+               <l>Quâ parte iuuenum pectora irretit magis:</l>
+               <l>Vt nîl decorem pellicis melius iuuat,</l>
+               <l>Quàm comptula illa silua &amp; intonsum nemus.</l>
+               <pb n="103"/>
+               <l n="230">O cùm iterum amoenum contrahit vultum! Fuge</l>
+               <l>Fuge, fuge Sampson, non fero, torquet caput,</l>
+               <l>Obliquat oculos, heu! genas rugis plicat,</l>
+               <l>Claudit sinum, minatur, exclamat, furit,</l>
+               <l>Et fulmen oculis, fulmen in linguâ gerit.</l>
+               <l n="235">Vel vt sit illa saeua tempestus minus,</l>
+               <l>Vultu improbo, &amp; fastidio longo graues</l>
+               <l>Suscitat amanti naenias, sensi nimis,</l>
+               <l>Et facilis illa est nausea, vt pili quoque</l>
+               <l>Turbauerim vmbram, ringitur, frendet. iubet</l>
+               <l n="240">Protinus abire, Cynthia in fumo latet.</l>
+               <l>Nec sic tamen seruire pertaesum est mihi:</l>
+               <l>Dum fortè, solidis mensibus, puri dies</l>
+               <l>Pauci nitebunt, caeteri in nebulis eant.</l>
+               <l>Vt rideat tantum semel, iugulet quoque,</l>
+               <l n="245">Aut me per ista viscera ad mortem trahat.</l>
+               <l>Sic, sic amabit, quisquis in Dalilam incidet,</l>
+               <l>Quem paeto ocello viderit tantùm semel</l>
+               <l>Dulcißima illa pellicum, Veneris soror.</l>
+               <l>Vt vidit illa, vt vidi, vt aspexi miser,</l>
+               <l n="250">Perij! quid autem somnio? vixi statim,</l>
+               <l>Et sidus illud dulce perstrinxit meos</l>
+               <l>Protinus ocellos! Dalilal ô sidus meum!</l>
+               <l>O siderum Regina! sic Sampson amat,</l>
+               <l>Et Dalilam intrà viscera &amp; fibras habet.</l>
+               <l n="255">Quod si negat, non viuo, non spiro magis,</l>
+               <l>Et Caucaso frigidior ad Manes eo.</l>
+            </sp>
+            <pb n="104"/>
+            <stage>CHORVS.</stage>
+            <sp who="#chorus">
+               <l>Foelix titulis Iudaea tuis</l>
+               <l>Inclyte Sampson!</l>
+               <l>O quem mirus nunciat Ales</l>
+               <l n="260">Ante innocuas viuere cunas,</l>
+               <l>Sacrum Domino, sacrumque nimis!</l>
+               <l>O cui tonsor nunquam vetito,</l>
+               <l>Mollia radat tempora, ferro!</l>
+               <l>Qui nec siceram, vinumque bibat,</l>
+               <l n="265">Et quod cerebro ludere poßit,</l>
+               <l>Laetum stolidi munus Iäcchi!</l>
+               <l>Tunc annosus Manüé memores</l>
+               <l>Libat honores, &amp; sacra Deo</l>
+               <l>Victima toto liquitur igni:</l>
+               <l n="270">Flammam medius corripit Ales,</l>
+               <l>Ales Miro nomine clarus,</l>
+               <l>Et per liquidam protinus aram</l>
+               <l>Rectâ ad patrium scandit Olympum,</l>
+               <l>Patremque tuum, matremque tuam,</l>
+               <l n="275">Monstro attonitos, risit hiantes.</l>
+               <l>O cui foetae matris in vlnis</l>
+               <l>Omnia coeli lumina plaudunt!</l>
+               <l>Porrò longis auctior annis,</l>
+               <l>Et tu meritis auctior ibas.</l>
+               <l n="280">Vix te iuuenem fecerat aetas,</l>
+               <l>Et tu poteras vincere scymnos,</l>
+               <pb n="105"/>
+               <l>Hirtasque feras carpere, saeuas</l>
+               <l>Iungere vulpes, &amp; taediferas,</l>
+               <l>Agmine longo, ducere in agros,</l>
+               <l n="285">Et sic grauidos vrere culmos,</l>
+               <l>Mille hostilis iugera glebae,</l>
+               <l>Flauae Cereris dulces thalamos,</l>
+               <l>Atque Hethaeae Gargara Gentis.</l>
+               <l>O cui rictus inter olenteis,</l>
+               <l n="290">Mellita fauos vena propinat!</l>
+               <l>O cui leni bullit scatebrâ</l>
+               <l>Maxilla feri conscia Martis,</l>
+               <l>Nimiùm liquidis garrula riuis!</l>
+               <l>Stabat Iuuenis caedere lassus,</l>
+               <l n="295">Et fessa toro membra reponens,</l>
+               <l>Quaerebat aquas; heu! quid faceret?</l>
+               <l>Da Pater, inquit, sedare sitim,</l>
+               <l>Et mihi latices arida fundat.</l>
+               <l>Dixerat &amp; iam murmure claro</l>
+               <l n="300">Vidit tumidum crescere fontem,</l>
+               <l>Et mandibulae putris hiatu</l>
+               <l>Latè gelidas serpere lymphas.</l>
+               <l>Quid, cùm portas, totasque seras,</l>
+               <l>Et tot vectes, &amp; tot postes</l>
+               <l n="305">Transtulit humeris, monte locauit,</l>
+               <l>Et concubiae noctis in vmbrâ</l>
+               <l>Gazam immodicis terruit ausis?</l>
+               <l>Et quae tandem gloria restat,</l>
+               <pb n="106"/>
+               <l>Si te nunquam Dalila pellex,</l>
+               <l n="310">Garrula pellex, Dalila patriae</l>
+               <l>Fax vna meae! si te nunquam</l>
+               <l>Dalila! pellex Dalila! nunquam</l>
+               <l>Dalila pellex, inclyte Sampson,</l>
+               <l>Inclyte Sampson!</l>
+            </sp>
+         </div>
+         <div type="act" n="3">
+            <head>ACTVS TERTIVS</head>
+            <stage>DALILA, SAMPSON.</stage>
+            <sp who="#dalila">
+               <l n="315">FRustrà laboras Dalila, &amp; frustrà es nimis,</l>
+               <l>Nec scopulus ille flectitur, spreuit tuos</l>
+               <l>Sampson amores; &amp; modò amplexum premat,</l>
+               <l>Inuita rapiat basia, inuadat sinum,</l>
+               <l>Et nunc ab oculis pendeat vaecors meis,</l>
+               <l n="320">Nunc à capillo &amp; fimbriâ mollis comae,</l>
+               <l>Nunc rideat, nunc ganniat, ludat quoque,</l>
+               <l>Et mentiatur, Dalila est cordi parùm,</l>
+               <l>Et sic amores; ô tace, lupus venit,</l>
+               <l>Suspirat, ardet, rursus intendam dolos.</l>
+               <l n="325" part="I">Vt vidit, vt procurrit!</l>
+            </sp>
+            <sp who="#sampson">
+               <speaker>SAMP.</speaker>
+               <l n="325" part="F">O carum caput!</l>
+               <l>O cara Dalilé! quo fugis? mane, mane;</l>
+               <l>Quò te pedes mea vita? non audit, stupet;</l>
+               <l>Quò te pedes amica? responde mihi;</l>
+               <l>Etiam minatur; quid me ita occidis quoque?</l>
+               <l n="330" part="I">O cara! cara!</l>
+            </sp>
+            <sp who="#dalila">
+               <speaker>DAL.</speaker>
+               <l n="330" part="M">Scilicet.</l>
+            </sp>
+            <sp who="#sampson">
+               <speaker>SAMP.</speaker>
+               <l n="330" part="F">Cara ô nimis!</l>
+               <pb n="107"/>
+               <l part="I">O cara Dalile!</l>
+            </sp>
+            <sp who="#dalila">
+               <speaker>DAL.</speaker>
+               <l part="F" cert="unknown">Nempe quâ probas fide?</l>
+            </sp>
+            <sp who="#sampson">
+               <speaker>SAMP.</speaker>
+               <l part="I">Quam fallo nunquam.</l>
+            </sp>
+            <sp who="#dalila">
+               <speaker>DAL.</speaker>
+               <l part="F">Scilicet nunquam fidem</l>
+               <l>Sampson fefellit, ille, qui toties mihi</l>
+               <l>Illudere audax; sed piget tecum loqui.</l>
+            </sp>
+            <sp who="#sampson">
+               <speaker>SAMP.</speaker>
+               <l n="335">Ne pigeat, oro, Dalila; erupit, mane,</l>
+               <l>O redde te iterum! ni facis, sicam inuolo,</l>
+               <l part="I">Haurio cruorem.</l>
+            </sp>
+            <sp who="#dalila">
+               <speaker>DAL.</speaker>
+               <l part="F">Iugulet &amp; sicam premat,</l>
+               <l part="I">Hoc est, quod opto.</l>
+            </sp>
+            <sp who="#sampson">
+               <speaker>SAMP.</speaker>
+               <l part="F">Dalila in vitâ tenet,</l>
+               <l>Ni faceret illa, incumberem ferro statim.</l>
+            </sp>
+            <sp who="#dalila">
+               <speaker>DAL.</speaker>
+               <l n="340" part="I">O vellet vtinam!</l>
+            </sp>
+            <sp who="#sampson">
+               <speaker>SAMP.</speaker>
+               <l n="340" part="F">Dalilal ô carum iecur!</l>
+               <l>Dalila! quid obstas Dalila? heu! manda, iube.</l>
+            </sp>
+            <sp who="#dalila">
+               <speaker>DAL.</speaker>
+               <l>Sicut iuvebam nuper, &amp; Sampson quoque</l>
+               <l>Parebat, iterum iubeo, num pares mihi?</l>
+               <l>An frangis iterum vincula &amp; neruos? comam</l>
+               <l n="345">Humo reuellis, robore ingenti minax?</l>
+               <l>Si vinxeris me; scilicet; si licijs</l>
+               <l>Crinem implicaris; scilicet; nosti satis,</l>
+               <l>Et refricare taedet; vt celes mihi,</l>
+               <l>Quo robur illud spiret à neruo tuum,</l>
+               <l n="350">Quo sit reductum musculo, aut vinctum fibrâ?</l>
+               <l>Non sic amamus: Dalila pugnabit tibi?</l>
+               <l>Impinget vngues Dalila? aut animam fibris</l>
+               <l>Euellet? aut haec spithama molem istam obruet?</l>
+               <l>Et sic times tu Dalilam? ô vaecors nimis,</l>
+               <l n="355" part="I">Qui sic amas &amp; ludis!</l>
+            </sp>
+            <sp who="#sampson">
+               <speaker>SAMP.</speaker>
+               <l n="355" part="F">Indulge mihi,</l>
+               <l part="I">Si postulas, nunc indico.</l>
+            </sp>
+            <sp who="#dalila">
+               <speaker>DAL.</speaker>
+               <l part="F">Ridet quoque,</l>
+               <l part="I">Mentitur vltrò.</l>
+            </sp>
+            <sp who="#sampson">
+               <speaker>SAMP.</speaker>
+               <l part="F">Dalila! vt liceat mihi</l>
+               <pb n="108"/>
+               <l>Tantùm inter vlnas serpere, excutio libens,</l>
+               <l>Quicquid profundo pectoris sinu latet.</l>
+            </sp>
+            <sp who="#dalila">
+               <speaker>DAL.</speaker>
+               <l n="360">Licet, sub illo tegmine &amp; molli comâ</l>
+               <l>Siluae recentis, blandus vbi vernat tepor,</l>
+               <l>Et cum susurris fontium, alituum genus</l>
+               <l>Mellito anhelat gutture, &amp; geminat melos.</l>
+               <l>En totam aperio spondulam, an gratâ satis</l>
+               <l n="365" part="I">VInâ recumbis?</l>
+            </sp>
+            <sp who="#sampson">
+               <speaker>SAMP.</speaker>
+               <l n="365" part="M">Dalila!</l>
+            </sp>
+            <sp who="#dalila">
+               <speaker>DAL.</speaker>
+               <l n="365" part="F">An magis placet</l>
+               <l part="I">Aliquid?</l>
+            </sp>
+            <sp who="#sampson">
+               <speaker>SAMP.</speaker>
+               <l part="M">Amica Dalila!</l>
+            </sp>
+            <sp who="#dalila">
+               <speaker>DAL.</speaker>
+               <l part="F">An rident tibi</l>
+               <l part="I">Haec dulcia? haec iucunda?</l>
+            </sp>
+            <sp who="#sampson">
+               <speaker>SAMP.</speaker>
+               <l part="F">Non possunt magis.</l>
+            </sp>
+            <sp who="#dalila">
+               <speaker>DAL.</speaker>
+               <l part="I">Dic igitur.</l>
+            </sp>
+            <sp who="#sampson">
+               <speaker>SAMP.</speaker>
+               <l part="F">O quàm dulcis hîc spirat crocus,</l>
+               <l>Et quanta violis gratia! ô liceat mihi</l>
+               <l n="370" part="I">Redimire totam Dalilam!</l>
+            </sp>
+            <sp who="#dalila">
+               <speaker>DAL.</speaker>
+               <l n="370" part="F">At prius refer,</l>
+               <l>Vnde illud, vnde robur? aut vbi latet?</l>
+            </sp>
+            <sp who="#sampson">
+               <speaker>SAMP.</speaker>
+               <l>Viuimus amica Dalila, hos legi tibi</l>
+               <l>Ridenti in herbâ flosculos, munus cape.</l>
+            </sp>
+            <sp who="#dalila">
+               <speaker>DAL.</speaker>
+               <l>Equidem libenter, sed mihi nodum explica,</l>
+               <l n="375" part="I">Et roboris mysterium.</l>
+            </sp>
+            <sp who="#sampson">
+               <speaker>SAMP.</speaker>
+               <l n="375" part="F">Non est tamen</l>
+               <l>Instantis horae; Dalila, hoc ridet tibi,</l>
+               <l>Vbi inter vda lilia inserpunt rosae?</l>
+               <l>An quod amarantho nexili sertum nitet?</l>
+            </sp>
+            <sp who="#dalila">
+               <speaker>DAL.</speaker>
+               <l part="I">Postea placebunt ista.</l>
+            </sp>
+            <sp who="#sampson">
+               <speaker>SAMP.</speaker>
+               <l part="F">Sed vernum id magis.</l>
+            </sp>
+            <sp who="#dalila">
+               <speaker>DAL.</speaker>
+               <l n="380">At ego referri cupio, quod verum est magis.</l>
+            </sp>
+            <sp who="#sampson">
+               <speaker>SAMP.</speaker>
+               <l part="I">Ergo tacere non licet?</l>
+            </sp>
+            <sp who="#dalila">
+               <speaker>DAL.</speaker>
+               <l part="F">Licet loqui.</l>
+            </sp>
+            <sp who="#sampson">
+               <speaker>SAMP.</speaker>
+               <l>Nunc dico, sed cur, obsecro, obnixè petis,</l>
+               <l part="I">Quod non licet vulgare?</l>
+            </sp>
+            <sp who="#dalila">
+               <speaker>DAL.</speaker>
+               <l part="F">Nec mihi licet</l>
+               <l part="I">Praebere semper vbera.</l>
+            </sp>
+            <sp who="#sampson">
+               <speaker>SAMP.</speaker>
+               <l part="F">O mane, mane,</l>
+               <pb n="109"/>
+               <l n="385">Quò proripis te Dalila? Heu! mane, loquar;</l>
+               <l part="I">Si mihi.</l>
+            </sp>
+            <sp who="#dalila">
+               <speaker>DAL.</speaker>
+               <l part="M">Quid ergò? si tibi:</l>
+            </sp>
+            <sp who="#sampson">
+               <speaker>SAMP.</speaker>
+               <l part="F">Iube rogo</l>
+               <l>Silere Domina, non licet totum loqui.</l>
+            </sp>
+            <sp who="#dalila">
+               <speaker>DAL.</speaker>
+               <l>Iterum vacillat; frigidum, insanum caput!</l>
+            </sp>
+            <sp who="#sampson">
+               <speaker>SAMP.</speaker>
+               <l part="I">Domina! hera! quid me postulas?</l>
+            </sp>
+            <sp who="#dalila">
+               <speaker>DAL.</speaker>
+               <l part="F">Etiam rogas?</l>
+            </sp>
+            <sp who="#sampson">
+               <speaker>SAMP.</speaker>
+               <l n="390">Etiam iubes, quod maximè pugnat Deo?</l>
+            </sp>
+            <sp who="#dalila">
+               <speaker>DAL.</speaker>
+               <l part="I">Sampson, iò longùm vale.</l>
+            </sp>
+            <sp who="#sampson">
+               <speaker>SAMP.</speaker>
+               <l part="F">Totum explico,</l>
+               <l>Si mihi capillum; non satis memini tamen.</l>
+            </sp>
+            <sp who="#dalila">
+               <speaker>DAL.</speaker>
+               <l>si tibi capillum, si capillum; quid? refer.</l>
+            </sp>
+            <sp who="#sampson">
+               <speaker>SAMP.</speaker>
+               <l>Si mihi capilli fimbrias; quis vellicat</l>
+               <l n="395">Iterum me ad aures? quis Deus fraenum inijcit?</l>
+            </sp>
+            <sp who="#dalila">
+               <speaker>DAL.</speaker>
+               <l>Insanit iste, &amp; rursus intricat magis.</l>
+               <l>Si tibi capilli fimbrias; quid denique?</l>
+            </sp>
+            <sp who="#sampson">
+               <speaker>SAMP.</speaker>
+               <l>Si mihi capilli fimbrias tonsor manu</l>
+               <l>Stringens, per omne duxerit ferrum caput.</l>
+            </sp>
+            <sp who="#dalila">
+               <speaker>DAL.</speaker>
+               <l n="400">Haeret, nec iterum meminit, &amp; Lethen bibit.</l>
+               <l>Quid, cùm per omne duxerit ferrum caput?</l>
+            </sp>
+            <sp who="#sampson">
+               <speaker>SAMP.</speaker>
+               <l>Si vinculis impedior, vt, flebo, puer,</l>
+               <l>Inultus vt, flebo, puer; totum tenes</l>
+               <l>Et nemo praeter Angelos sciuit prior,</l>
+               <l n="405">Et quos ab alto Genius instruxit meus.</l>
+            </sp>
+            <sp who="#dalila">
+               <speaker>DAL.</speaker>
+               <l part="I">An credere etiam liceat?</l>
+            </sp>
+            <sp who="#sampson">
+               <speaker>SAMP.</speaker>
+               <l part="F">Heu! verum est nimis.</l>
+               <l>Totum tenes ô garrula, &amp; totum tenes.</l>
+            </sp>
+            <sp who="#dalila">
+               <speaker>DAL.</speaker>
+               <l>Et tu meum lenimen, amplexum cape,</l>
+               <l>Et dulce amoris suauium; vt libeat quoque</l>
+               <l n="410">Dormire, lenis serpit hoc gremio sopor,</l>
+               <l>Et molliâ inter brachia obrepet quies.</l>
+               <pb n="110"/>
+               <l>Stertüit; agendum est; nunc mihi tonsor caput</l>
+               <l>Derade, somno languidum; bellè; hoc habet.</l>
+            </sp>
+            <stage>CHORVS.</stage>
+            <sp who="#chorus">
+               <l>Heu! heu! heu! Heu! perdite Sampson!</l>
+               <l n="415">Loquar? an sileam? perdite nimiùm,</l>
+               <l>Perdite Sampson!</l>
+               <l>Heu! quod Dalilae credidit vnquam,</l>
+               <l>Et periurae virus Amantis</l>
+               <l>Bibulo toties vbere suxit!</l>
+               <l n="420">Heu! Heu! inter lilia acanthum</l>
+               <l>Repperit, inter florida spinas!</l>
+               <l>Heu! cùm roseo iacuit gremio</l>
+               <l>Somno &amp; Veneris lacte sepultus!</l>
+               <l>Heu! cùm strinxit Dalila ferrum,</l>
+               <l n="425">Et paenè intrà viscera radens,</l>
+               <l>Nimis arcano vertice lusit!</l>
+               <l>Heul cùm totus pallidus iuit,</l>
+               <l>Et tot manicas induit! Heu! Heu!</l>
+               <l>Heu! heu! nimiùm rasilis Heros!</l>
+               <l n="430">Tantum potuit foemina pellex,</l>
+               <l>Captansque sinu tonsile spolium,</l>
+               <l>Septemgeminos ordine crines,</l>
+               <l>Hispida circùm tempora, fregit.</l>
+               <l>Simul absoluit, simul, heu! gremio</l>
+               <l n="435">Turbat inertem, simul exclamat,</l>
+               <l>Atque immodicis vocibus instat:</l>
+               <pb n="111"/>
+               <l>Propera, propera, propera Sampson,</l>
+               <l>Heu! fuge Sampson, heu! fuge Sampson,</l>
+               <l>Protinus instat barbarus hostis.</l>
+               <l n="440">Et vera nimis dixerat, adsunt</l>
+               <l>Vndique &amp; adsunt vndique, &amp; adsunt;</l>
+               <l>Nec tunc etiam cominùs instant,</l>
+               <l>Nec continuò vincula promunt,</l>
+               <l>Nec satis illum languere putant,</l>
+               <l n="445">Qui sic latos surgit in humeros,</l>
+               <l>Et sic frontem contrahit hirtam,</l>
+               <l>Et sic oculos torquet hiantes.</l>
+               <l>Mox, vt tonsam vidêre comam,</l>
+               <l>Et damnosae pellicis ausum,</l>
+               <l n="450">Rapiunt pugilem, pigrum, egelidum,</l>
+               <l>Nec iam validum rumpere neruos.</l>
+               <l>Stringunt nimiùm vincula, &amp; illos,</l>
+               <l>Quamuis cupidè soluere vellet,</l>
+               <l>Nunquam poterit soluere nodos.</l>
+               <l n="455">Vt sensit, iò palluit amens,</l>
+               <l>Et nuda manu tempora palpans,</l>
+               <l>Desperato robore fleuit.</l>
+               <l>Ergò liquido turbida coelo</l>
+               <l>Lumina tendens (nam dura manus</l>
+               <l n="460">Vincla terebant) ô parce Deus!</l>
+               <l>O parce Pater! dixit, &amp; haustas</l>
+               <l>Redde in solido corpore vires:</l>
+               <l>Aut me rapido fulmine ad vmbras</l>
+               <pb n="112"/>
+               <l>Adige, &amp; meritis exime noxis.</l>
+               <l n="465">Risit vaecors Dalila, &amp; vsto</l>
+               <l>Haurire iubet lumina ferro.</l>
+               <l>Tum, sicut erat nuda papillas,</l>
+               <l>Totoque gerens lilia cesto,</l>
+               <l>Armata rudi forfice dextrâm,</l>
+               <l n="470">Prima intrepidos inuolat oculos,</l>
+               <l>Et prima virum vulnere sternit,</l>
+               <l>Auspex tanti foemina facti.</l>
+               <l>Heu! quandò iterùm fruticante comâ,</l>
+               <l>Et quandò iterum licia rumpet?</l>
+               <l n="475">Heu! quandò iterum iunget vulpes,</l>
+               <l>Et densabit funera, &amp; hirto</l>
+               <l>Stabunt rigidi vertice crines?</l>
+               <l>Crescent illi, crescent vires,</l>
+               <l>Et vigor olli toto sensim</l>
+               <l n="480">Pectore gliscens, induet artus,</l>
+               <l>Et concurrens omnibus vnus</l>
+               <l>Stabit valido corpore Sampson,</l>
+               <l>Et tibi iugulum Dalila franget,</l>
+               <l>Quae sic fidum prodis Amantem,</l>
+               <l n="485">Monstrum horrendum, crudele nimis,</l>
+               <l>Monstrum heroo sanguine ludens,</l>
+               <l>Et quod liceat, verè nimiùm,</l>
+               <l>Dicere monstrum.</l>
+            </sp>
+         </div>
+         <pb n="113"/>
+         <div type="act" n="4">
+            <head>ACTVS QVARTVS.</head>
+            <stage>BARZANES PALAESTINVS</stage>
+            <stage>PRINCEPS.</stage>
+            <sp who="#barsanes">
+               <l>VIcimus &amp; ille Marspiter gelidus sedet,</l>
+               <l n="490">Qui nos sine hastâ &amp; ense non fudit semel,</l>
+               <l>Et sideratos egit: vt câldo &amp; gelu</l>
+               <l>Compôsta nubes, fulminis telum quatit,</l>
+               <l>Et in praeustos rupium scopulos tonat.</l>
+               <l>Vidi, vt ruebat agmina, vrgebat manu,</l>
+               <l n="495">Spirabat oculis sanguinem, vultu minas,</l>
+               <l>Vt ibat ingens, varico nixus gradu,</l>
+               <l>Et nisi fuisset Dalila, inuictus nimis,</l>
+               <l>Frater gygantum, Gentis Hethaeae dolor:</l>
+               <l>Nunc idem, ïò ludibrium, addictus molae,</l>
+               <l n="500">Damnatus oculis sannio, infelix, miser.</l>
+               <l>Sic ad triumphum foeminae Sampson venit,</l>
+               <l>Et solus omne ferculum pompae fuit,</l>
+               <l>Victima cruentae pellicis, Veneris probrum.</l>
+               <l>Sic capite nostro luditur, quandò tuos</l>
+               <l n="505">Fortuna Manes patimur, vt tota in vitro</l>
+               <l>Suspensa nutas, &amp; leuem torques rotam.</l>
+               <l>Sic, sic ab illo pugile mutatur pugil,</l>
+               <l>Sampsone ab illo maximo, Sampson minor,</l>
+               <l>Cùm passus illud rasilis damnum comae,</l>
+               <pb n="114"/>
+               <l n="510">Amisit omne robur, &amp; fleuit miser,</l>
+               <l>Fleuit sine oculis, &amp; cauos implens sinus</l>
+               <l>Lacrymis obortis, sanguinem expreßit simul.</l>
+               <l>Tunc vel mouere Dalilam poterat quoque,</l>
+               <l>Si non aheno triplici, &amp; ferro impium</l>
+               <l n="515">Durasset illa pectus, &amp; ferro &amp; rudi</l>
+               <l>Durior aheno; nempe, vt hoc totum placet,</l>
+               <l>Quod vinctus intrà compedes. Sampson sedet,</l>
+               <l>Populator ille patriae crudus meae:</l>
+               <l>Non sic pröinde Dalila arridet mihi,</l>
+               <l n="520">Nouaculam odi, &amp; forfices, odi dolos,</l>
+               <l>Odi profanam pellicem, vt factum probo.</l>
+               <l>Gratare Dagon, vicimus, Sampson tuis</l>
+               <l>Dicatur aris victima, &amp; tatam tibi</l>
+               <l>Debet saginam; debuit comas prius,</l>
+               <l n="525">Et illa opima spolia suspendi tibi.</l>
+               <l>Omentum, &amp; adipem, &amp; viscera adijciam quoque,</l>
+               <l>Vt ille sacer est totus, &amp; salsâ molâ</l>
+               <l>Dignus, cruentus, impius, latro, scelus.</l>
+               <l>Nunc ergò tutò laeta florebunt sata,</l>
+               <l n="530">Nec vsta meßis torrido horrebit situ,</l>
+               <l>Nec hausta flammis flebit exitium Ceres,</l>
+               <l>Nec fama iam terrebit, heu! Sampson venit,</l>
+               <l>Hîc furit &amp; illic, heu! vbique masculâ</l>
+               <l>Virtute saeuus; hîc fugat, fundit, ruit;</l>
+               <l n="535">Hîc vrit, illic caedit, hîc vellit seras,</l>
+               <l>Portas in humeris gestat, in scopulo locat.</l>
+               <pb n="115"/>
+               <l>Vt semper aliquid ille patrabat manu</l>
+               <l>Immane, dirum, immite, crudele, asperum,</l>
+               <l>Et vindice isto, Manibus nostris erat,</l>
+               <l n="540">Gradus futuri, finis alterius mali.</l>
+               <l>Scilicet habebit nunc suas vices quoque</l>
+               <l>Hethaea virtus; scilicet Sampson genu</l>
+               <l>Nixus, sub isto acinace, inflectet caput,</l>
+               <l>Sampson ad aras sanguinem debet mihi,</l>
+               <l n="545">Nec parcet iste acinacis; testor Deos.</l>
+            </sp>
+            <stage>CHORVS.</stage>
+            <sp who="#chorus">
+               <l>Rerum perpetuas vices</l>
+               <l>Naturae integrat orbita.</l>
+               <l>Post longas hyemes, gelu</l>
+               <l>Bis cocto nimis asperas,</l>
+               <l n="550">Campi germina pullulant,</l>
+               <l>Vernis tacta Fauonijs.</l>
+               <l>Tum se prata nitentia</l>
+               <l>Pictis floribus induunt,</l>
+               <l>Et ducunt sylüae comas.</l>
+               <l n="555">Tum Limonides herbidis</l>
+               <l>Nymphae subsiliunt toris,</l>
+               <l>Ad Iardis vitreum caput.</l>
+               <l>O quà prodigus vbera</l>
+               <l>Dispensat gemino alueo,</l>
+               <l n="560">Et spondâ irriguâ cubat</l>
+               <l>Densas inter arundines</l>
+               <pb n="116"/>
+               <l>Glaucus Iardiadum pater!</l>
+               <l>At cur perpetuâ sedet</l>
+               <l>Brumâ vinctus &amp; entheo</l>
+               <l n="565">Nuper vertice tonsilis</l>
+               <l>Sampson, non reparat pilos?</l>
+               <l>Heu! Heu! inclyte maxime,</l>
+               <l>Quamdiu in tenebris sedes?</l>
+               <l>Heu! heu! Dalila! iò scelus!</l>
+               <l n="570">Heu! quod sic Nazaraeïo</l>
+               <l>Illusit pugili, caua</l>
+               <l>Circùm tempora rasitans!</l>
+               <l>Heu! heu! Dalila! Dalila!</l>
+               <l>Crudelißima pellicum,</l>
+               <l n="575">Quas sol aurëus adspicit,</l>
+               <l>Obliquos rapiens equos!</l>
+               <l>Heu! cur sic penitus iacent,</l>
+               <l>Nec crescunt satis antiae?</l>
+               <l>Heu! Heu! Crescite, crescite,</l>
+               <l n="580">Et tandem redeant tibi</l>
+               <l>Sampson, hei pater! hei miser!</l>
+               <l>Et tandem redeant tibi</l>
+               <l>Vires, &amp; tibi rasiles,</l>
+               <l>Posthac crimine perfido,</l>
+               <l n="585">Nemo diripiat comas.</l>
+            </sp>
+         </div>
+         <pb n="117"/>
+         <div type="act" n="5">
+            <head>ACTVS QVINTVS.</head>
+            <stage>SAMPSON, DALILA.</stage>
+            <sp who="#sampson">
+               <l>QVicumque pullus Veneris, &amp; vaecors nimis</l>
+               <l>Lusum impudicum ludit, &amp; castris meret</l>
+               <l>Tuis Cupido, nec leuem metuit fidem</l>
+               <l>Periurae Amantis, lubrico indulgens toro:</l>
+               <l n="590">Me videat &amp; te Dalila! Heu! heu vincula,</l>
+               <l>Et vincula ista! nempe sic nurus amant,</l>
+               <l part="I">Sic suauiantur improbae!</l>
+            </sp>
+            <sp who="#dalila">
+               <speaker>DAL.</speaker>
+               <l part="F">Hé rasum caput!</l>
+            </sp>
+            <sp who="#sampson">
+               <speaker>SAMP.</speaker>
+               <l>An fallor? an me stringet iterum Dalila?</l>
+               <l>Et radet intrà viscera &amp; viuam cutem?</l>
+               <l n="595">Dic puer, an iterum forfices pellex habet:</l>
+               <l part="I">An promit iterum vincula?</l>
+            </sp>
+            <sp who="#dalila">
+               <speaker>DAL.</speaker>
+               <l part="F">Hé rasum caput!</l>
+            </sp>
+            <sp who="#sampson">
+               <speaker>SAMP.</speaker>
+               <l>Rasum! sed illud criminis factum tui</l>
+               <l>Incesta, detestabilis, probrum, scelus.</l>
+            </sp>
+            <sp who="#dalila">
+               <speaker>DAL.</speaker>
+               <l>Iurgatur etiam ludio, &amp; neruo pedes</l>
+               <l n="600">Constrictus ampullatur, &amp; scenam quatit.</l>
+            </sp>
+            <sp who="#sampson">
+               <speaker>SAMP.</speaker>
+               <l>Sic laedit iterum, &amp; vulnus infligunt nouum</l>
+               <l>Ludibria ista, cuspidis dirae modo:</l>
+               <l>Immite tantum nihil, vt hostile est probrum,</l>
+               <l part="I">Et nîl magis crudele.</l>
+            </sp>
+            <sp who="#dalila">
+               <speaker>DAL.</speaker>
+               <l part="F">Quid mussat puer?</l>
+            </sp>
+            <sp who="#sampson">
+               <speaker>SAMP.</speaker>
+               <l n="605">At qui viros cecîdit; hoc mulier viro?</l>
+               <l part="I">At quae virum totondit.</l>
+            </sp>
+            <sp who="#sampson">
+               <speaker>SAMP.</speaker>
+               <l part="F">Egregiam manum,</l>
+               <pb n="118"/>
+               <l>Quae spolia legit ista, quae cirros tulit.</l>
+            </sp>
+            <sp who="#dalila">
+               <speaker>DAL.</speaker>
+               <l>Quae vinculis te strinxit, inuictum nimis</l>
+               <l>Scilicet, &amp; istas fascias suris tuis</l>
+               <l n="610" part="I">Accommodauit.</l>
+            </sp>
+            <sp who="#sampson">
+               <speaker>SAMP.</speaker>
+               <l n="610" part="F">Dalila! ô factum benè!</l>
+               <l>Scilicet! &amp; illo crimine armillas habet</l>
+               <l part="I">Damnosa meretrix.</l>
+            </sp>
+            <sp who="#dalila">
+               <speaker>DAL.</speaker>
+               <l part="F">Vt tu haberes compedes.</l>
+            </sp>
+            <sp who="#sampson">
+               <speaker>SAMP.</speaker>
+               <l part="I">Scelesta!</l>
+            </sp>
+            <sp who="#dalila">
+               <speaker>DAL.</speaker>
+               <l part="F">Quid vis optime? an rursum petis</l>
+               <l part="I">Vbera?</l>
+            </sp>
+            <sp who="#sampson">
+               <speaker>SAMP.</speaker>
+               <l part="M">Scelesta!</l>
+            </sp>
+            <sp who="#dalila">
+               <speaker>DAL.</speaker>
+               <l part="F">Concipe, emulge, vides</l>
+               <l n="615">Vt candicant sororiae? an totus stupes?</l>
+            </sp>
+            <sp who="#sampson">
+               <speaker>SAMP.</speaker>
+               <l part="I">Crudelis!</l>
+            </sp>
+            <sp who="#dalila">
+               <speaker>DAL.</speaker>
+               <l part="F">Egóne haec dulcia, &amp; crudam vocas?</l>
+            </sp>
+            <sp who="#sampson">
+               <speaker>SAMP.</speaker>
+               <l part="I">Crudelis!</l>
+            </sp>
+            <sp who="#dalila">
+               <speaker>DAL.</speaker>
+               <l part="F">Egone haec mellea, &amp; linguam tenes?</l>
+            </sp>
+            <sp who="#sampson">
+               <speaker>SAMP.</speaker>
+               <l>Mellita nempe &amp; dulcia; ô scelus! scelus!</l>
+               <l>Nolo vbera, heu! nolo vbera, &amp; nolo vbera,</l>
+               <l n="620" part="I">Reconde pestem.</l>
+            </sp>
+            <sp who="#dalila">
+               <speaker>DAL.</speaker>
+               <l n="620" part="M">Iam propino.</l>
+            </sp>
+            <sp who="#sampson">
+               <speaker>SAMP.</speaker>
+               <l n="620" part="F">Conspuam.</l>
+               <l part="I">Vt ridet etiam perfida!</l>
+            </sp>
+            <sp who="#dalila">
+               <speaker>DAL.</speaker>
+               <l part="F">Vt ridet meus</l>
+               <l part="I">Sampson!</l>
+            </sp>
+            <sp who="#sampson">
+               <speaker>SAMP.</speaker>
+               <l part="M">Quid iterum vulneras?</l>
+            </sp>
+            <sp who="#dalila">
+               <speaker>DAL.</speaker>
+               <l part="F">Habe, hoc habe.</l>
+               <l>I, iunge vulpes, laeta nunc floret seges,</l>
+               <l>Immitte vinctas beluas, iacta faces.</l>
+            </sp>
+            <sp who="#sampson">
+               <speaker>SAMP</speaker>
+               <l n="625" part="I">O si liceretI</l>
+            </sp>
+            <sp who="#dalila">
+               <speaker>DAL.</speaker>
+               <l n="625" part="F">Corripe armatâ manu</l>
+               <l>Spicula, trilicem baltheum, &amp; conum indue,</l>
+               <l>Scutumque laeuâ, dexterâ ferrum quate,</l>
+               <l>Hîc hostis, illîc hostis, an spectas satis?</l>
+               <l>Hinc, inde, &amp; illinc irruunt, nondum inuolas?</l>
+               <l n="630">Da tela, scande contrà, &amp; Hethaeos rue.</l>
+            </sp>
+            <sp who="#sampson">
+               <speaker>SAMP</speaker>
+               <l part="I">Perfida!</l>
+            </sp>
+            <sp who="#dalila">
+               <speaker>DAL.</speaker>
+               <l part="F">Furit, bacchatur, hos animos tibi</l>
+               <l>Pistrinum, &amp; illos pectoris motus tui?</l>
+               <l>Dedisce pugilem, foeminae mundum cape,</l>
+               <pb n="119"/>
+               <l>Vt vitta raso vertici melius sedet.</l>
+            </sp>
+            <sp who="#sampson">
+               <speaker>SAMP.</speaker>
+               <l n="635">Excede pestis; foeminam vt sic induat</l>
+               <l part="I">Sampson?</l>
+            </sp>
+            <sp who="#dalila">
+               <speaker>DAL.</speaker>
+               <l part="F">Et asinae mobiles villos quoque,</l>
+               <l>Vt habitus iste congruit molae magis.</l>
+            </sp>
+            <sp who="#sampson">
+               <speaker>SAMP.</speaker>
+               <l>Ergo nec esse liceat infausto mihi,</l>
+               <l>Nisi hic molestus scalper incidat fibras,</l>
+               <l n="640">Et radat iterum Dalila! ô dirum caput,</l>
+               <l>Quod nulla rabies fulminet coelos satis!</l>
+               <l>Belua! leaena! tygris! harpyae soror!</l>
+               <l>Furia! Megaerae gemina! Auerni filia!</l>
+               <l>Hyaena! lamia! pestis! exitium! lues!</l>
+               <l n="645">Serpens! echidna! vipera! indomitum malum!</l>
+            </sp>
+            <stage>FINIS.</stage>
+         </div>
+      </body>
+   </text>
+</TEI>
