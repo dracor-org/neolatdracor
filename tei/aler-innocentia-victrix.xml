@@ -39,17 +39,20 @@
                <availability status="free">
                   <p>In the public domain.</p>
                </availability>
-               <bibl type="digitalSource">
-                  <ref target="https://play.google.com/books/reader?id=CtBEAAAAcAAJ">Google
-                     Books</ref>
-                  <availability status="free">
-                     <p>In the public domain.</p>
-                  </availability>
-                  <bibl type="originalSource"><author>Paul Aler</author>: <title>Innocentia victrix
-                        sive Genovefa</title>. <pubPlace>Cologne</pubPlace>: <publisher>Johann
-                        Alstorff</publisher>
-                     <date>1706</date>. </bibl>
-               </bibl>
+               <bibl type="originalSource"><author>Paul Aler</author>: <title>Innocentia victrix
+                     sive Genovefa</title>. <pubPlace>Cologne</pubPlace>: <publisher>Johann
+                     Alstorff</publisher>
+                  <date>1706</date>. </bibl>
+               <relatedItem>
+                  <!-- digital copy used -->
+                  <bibl>
+                     <ref target="https://play.google.com/books/reader?id=CtBEAAAAcAAJ">Google
+                        Books</ref>
+                     <availability status="free">
+                        <p>In the public domain.</p>
+                     </availability>
+                  </bibl>
+               </relatedItem>
             </bibl>
          </sourceDesc>
       </fileDesc>

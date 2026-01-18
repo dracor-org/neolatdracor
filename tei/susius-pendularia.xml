@@ -40,22 +40,24 @@
                <availability status="free">
                   <p>In the public domain.</p>
                </availability>
-               <bibl type="digitalSource">
-                  <name>Google Books</name>
-                  <idno type="URL">https://books.google.nl/books?id=Ad4TAAAAQAAJ</idno>
-                  <availability status="free">
-                     <p>In the public domain.</p>
-                  </availability>
-                  <bibl type="originalSource">
-                     <author>Nicolaus Susius</author>: <title type="main">Drama comicum
-                        Pendularia</title>. In: <title type="main">Nicolai Susii e Societate Iesu
-                        Opuscula litteraria:</title>
-                     <title type="desc">Lima Ciceroniana, siue De stylo liber singularis, De
-                        pulcritudine B. Mariae Virg. Disceptatio quodlibetica, Poemata: Elegiae
-                        Marianae, Lusus Anacreontei, Drama comicum.</title>
-                     <pubPlace>Antwerpen</pubPlace>: <publisher>Heirs of Martinus Nutius</publisher>
-                     <date>1620</date>. <biblScope>pp. 241–275</biblScope>. </bibl>
-               </bibl>
+               <bibl type="originalSource">
+                  <author>Nicolaus Susius</author>: <title type="main">Drama comicum
+                     Pendularia</title>. In: <title type="main">Nicolai Susii e Societate Iesu
+                     Opuscula litteraria:</title>
+                  <title type="desc">Lima Ciceroniana, siue De stylo liber singularis, De
+                     pulcritudine B. Mariae Virg. Disceptatio quodlibetica, Poemata: Elegiae
+                     Marianae, Lusus Anacreontei, Drama comicum.</title>
+                  <pubPlace>Antwerpen</pubPlace>: <publisher>Heirs of Martinus Nutius</publisher>
+                  <date>1620</date>. <biblScope>pp. 241–275</biblScope>. </bibl>
+               <relatedItem>
+                  <!-- digital copy used -->
+                  <bibl>
+                     <ref target="https://books.google.com/books?id=Ad4TAAAAQAAJ">Google Books</ref>
+                     <availability status="free">
+                        <p>In the public domain.</p>
+                     </availability>
+                  </bibl>
+               </relatedItem>
             </bibl>
          </sourceDesc>
       </fileDesc>

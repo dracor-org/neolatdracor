@@ -43,21 +43,23 @@
                <availability status="free">
                   <p>In the public domain.</p>
                </availability>
-               <bibl type="digitalSource">
-                  <ref target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00004866-9"
-                     >Münchener DigitalisierungsZentrum (MDZ)</ref>
-                  <availability>
-                     <licence target="https://creativecommons.org/publicdomain/mark/1.0/">PDM
-                        1.0</licence>
-                  </availability>
-                  <bibl type="originalSource"><title>Iacobi Philomusi Locher oratoris et poetae
-                        praeclari,Iudicium Paridis ludi cuiusdam instar carmine lucule[n]ter
-                        descriptum, ac nuper exactiori cura a superfluis, &amp; erroribus antea
-                        co[m]missis prorsus emendatum. Secutus uero est autor Fulgentii
-                        Mythologia[m]</title> . Ed. by <editor>Ulrich Rhaetus Faber</editor> .
-                        <pubPlace>Vienna</pubPlace> : <publisher>Werlen</publisher> . [no
-                     date].</bibl>
-               </bibl>
+               <bibl type="originalSource"><title>Iacobi Philomusi Locher oratoris et poetae
+                     praeclari,Iudicium Paridis ludi cuiusdam instar carmine lucule[n]ter
+                     descriptum, ac nuper exactiori cura a superfluis, &amp; erroribus antea
+                     co[m]missis prorsus emendatum. Secutus uero est autor Fulgentii
+                     Mythologia[m]</title> . Ed. by <editor>Ulrich Rhaetus Faber</editor> .
+                     <pubPlace>Vienna</pubPlace> : <publisher>Werlen</publisher> . [no date].</bibl>
+               <relatedItem>
+                  <!-- digital copy used -->
+                  <bibl>
+                     <ref target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00004866-9"
+                        >Münchener DigitalisierungsZentrum (MDZ)</ref>
+                     <availability>
+                        <licence target="https://creativecommons.org/publicdomain/mark/1.0/">PDM
+                           1.0</licence>
+                     </availability>
+                  </bibl>
+               </relatedItem>
             </bibl>
          </sourceDesc>
       </fileDesc>
