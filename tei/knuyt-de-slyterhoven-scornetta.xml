@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI type="dracor" xml:id="neolat000088" xml:lang="lat" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI type="dracor" xml:id="neolat000088" xml:lang="la" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title type="main">Comoedia salebrosa atque lepidissima cui titulus
                     Scornetta</title>
                 <author>
-                    <persName xml:lang="lat">
+                    <persName xml:lang="la">
                         <forename>Hermannus</forename>
                         <surname>Knuyt de Slyterhoven</surname>
                     </persName>
@@ -41,33 +41,41 @@
                     </availability>
                     <note>The TransLatin version collates Bolte’s edition with the first print from
                         1497.</note>
-                    <bibl type="digitalSource">
-                        <ref
-                            target="https://archive.org/details/zeitschriftfrve07beckgoog/page/233/mode/1up?view=theater"
-                            >archive.org</ref>
-                        <availability status="free">
-                            <p>In the public domain.</p>
-                        </availability>
-                        <bibl type="originalSource"><author>Johannes Bolte</author> :<title
-                                level="a"> Zwei Humanistenkomödien aus Italien</title>. In: <title
-                                level="j">Zeitschrift für vergleichende Litteraturgeschichte und
-                                Renaissance-Litteratur NF</title>
-                            <biblScope unit="volume">1</biblScope> (<date>1887/88</date>).
-                                <biblScope>pp. 232–244</biblScope> . </bibl>
-                        <bibl type="digitalSource">
+                    <bibl type="originalSource"><title>Hermanni Knuyt de Slyterhouen Comoedia
+                            salebrosa atque lepidissima cui titulus Scornetta [Prelim: Elegia ad
+                            Nicolaum Stael.]</title> . <pubPlace>Bologna</pubPlace> :
+                            <publisher>Hieronimus de Baenedictis</publisher>
+                        <date>1497</date>. </bibl>
+                    <relatedItem>
+                        <!-- digital copy used -->
+                        <bibl>
                             <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k1280094x">Gallica
                                 (BNF)</ref>
                             <availability status="free">
                                 <p>In the public domain.</p>
                             </availability>
-                            <bibl type="originalSource"><title>Hermanni Knuyt de Slyterhouen
-                                    Comoedia salebrosa atque lepidissima cui titulus Scornetta
-                                    [Prelim: Elegia ad Nicolaum Stael.]</title> .
-                                    <pubPlace>Bologna</pubPlace> : <publisher>Hieronimus de
-                                    Baenedictis</publisher>
-                                <date>1497</date>. </bibl>
                         </bibl>
-                    </bibl>
+                    </relatedItem>
+                    <relatedItem>
+                        <!-- edition collated with the the first print -->
+                        <listBibl>
+                            <!-- digital copy used -->
+                            <bibl>
+                                <ref
+                                    target="https://archive.org/details/zeitschriftfrve07beckgoog/page/233/mode/1up?view=theater"
+                                    >archive.org</ref>
+                                <availability status="free">
+                                    <p>In the public domain.</p>
+                                </availability>
+                            </bibl>
+                            <bibl><author>Johannes Bolte</author> :<title level="a"> Zwei
+                                    Humanistenkomödien aus Italien</title>. In: <title level="j"
+                                    >Zeitschrift für vergleichende Litteraturgeschichte und
+                                    Renaissance-Litteratur NF</title>
+                                <biblScope unit="volume">1</biblScope> (<date>1887/88</date>).
+                                    <biblScope>pp. 232–244</biblScope> . </bibl>
+                        </listBibl>
+                    </relatedItem>
                 </bibl>
             </sourceDesc>
         </fileDesc>
