@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI type="dracor" xml:id="neolat000002" xml:lang="la" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="dracor" xml:id="neolat000002" xml:lang="la">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Iudicium Paridis</title>
+            <title>Iudicium Paridis</title>
             <author>
                <persName xml:lang="la">
                   <forename>Iacobus</forename>
@@ -37,9 +37,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl type="digitalSource">
-               <ref
-                  target="https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Locher-Iudicium.docx"
-                  >TransLatin</ref>
+               <ref target="https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Locher-Iudicium.docx">TransLatin</ref>
                <availability status="free">
                   <p>In the public domain.</p>
                </availability>
@@ -52,8 +50,7 @@
                <relatedItem>
                   <!-- digital copy used -->
                   <bibl>
-                     <ref target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00004866-9"
-                        >Münchener DigitalisierungsZentrum (MDZ)</ref>
+                     <ref target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00004866-9">Münchener DigitalisierungsZentrum (MDZ)</ref>
                      <availability>
                         <licence target="https://creativecommons.org/publicdomain/mark/1.0/">PDM
                            1.0</licence>
@@ -69,16 +66,13 @@
                <person xml:id="prologus" sex="MALE" role="prologus">
                   <persName>Prologus</persName>
                </person>
-               <person xml:id="iupiter" sex="MALE" role="deus"
-                  ana="https://www.wikidata.org/wiki/Q4649">
+               <person xml:id="iupiter" sex="MALE" role="deus" ana="https://www.wikidata.org/wiki/Q4649">
                   <persName>Iupiter</persName>
                </person>
-               <person xml:id="discordia" sex="FEMALE" role="dea"
-                  ana="https://www.wikidata.org/wiki/Q3030152">
+               <person xml:id="discordia" sex="FEMALE" role="dea" ana="https://www.wikidata.org/wiki/Q3030152">
                   <persName>Discordia</persName>
                </person>
-               <person xml:id="mercurius" sex="MALE" role="deus"
-                  ana="https://www.wikidata.org/wiki/Q1150">
+               <person xml:id="mercurius" sex="MALE" role="deus" ana="https://www.wikidata.org/wiki/Q1150">
                   <persName>Mercurius</persName>
                </person>
                <person xml:id="paris" sex="MALE" ana="https://www.wikidata.org/wiki/Q167646">
@@ -87,16 +81,13 @@
                <person xml:id="ganymedes" sex="MALE" ana="https://www.wikidata.org/wiki/Q131588">
                   <persName>Ganymedes</persName>
                </person>
-               <person xml:id="pallas" sex="FEMALE" role="dea"
-                  ana="https://www.wikidata.org/wiki/Q37122">
+               <person xml:id="pallas" sex="FEMALE" role="dea" ana="https://www.wikidata.org/wiki/Q37122">
                   <persName>Pallas</persName>
                </person>
-               <person xml:id="iuno" sex="FEMALE" role="dea"
-                  ana="https://www.wikidata.org/wiki/Q125046">
+               <person xml:id="iuno" sex="FEMALE" role="dea" ana="https://www.wikidata.org/wiki/Q125046">
                   <persName>Iuno</persName>
                </person>
-               <person xml:id="venus" sex="FEMALE" role="dea"
-                  ana="https://www.wikidata.org/wiki/Q47652">
+               <person xml:id="venus" sex="FEMALE" role="dea" ana="https://www.wikidata.org/wiki/Q47652">
                   <persName>Venus</persName>
                </person>
                <person xml:id="bithus" sex="MALE">
@@ -108,8 +99,7 @@
                <person xml:id="helena" sex="FEMALE" ana="https://www.wikidata.org/wiki/Q164061">
                   <persName>Helena</persName>
                </person>
-               <person xml:id="cupido" sex="MALE" role="deus"
-                  ana="https://www.wikidata.org/wiki/Q5011">
+               <person xml:id="cupido" sex="MALE" role="deus" ana="https://www.wikidata.org/wiki/Q5011">
                   <persName>Cupido</persName>
                </person>
                <person xml:id="rustica-mulier" sex="FEMALE" role="rustica">

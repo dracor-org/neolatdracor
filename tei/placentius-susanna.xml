@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI type="dracor" xml:id="neolat000004" xml:lang="la" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="dracor" xml:id="neolat000004" xml:lang="la">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Susanna</title>
+            <title>Susanna</title>
             <author>
                <persName xml:lang="la">
                   <forename>Johannes Leo</forename>
@@ -36,14 +36,11 @@
          </publicationStmt>
          <sourceDesc>
             <bibl type="digitalSource">
-               <ref
-                  target="https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Placentius-Susanna.docx"
-                  >TransLatin</ref>
+               <ref target="https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Placentius-Susanna.docx">TransLatin</ref>
                <availability status="free">
                   <p>In the public domain.</p>
                </availability>
-               <bibl type="originalSource"><author>Johannes Leo Placentius</author> : <title
-                     type="main">Susanna</title> . In: <title>Susanna per Plancentium euangelisten
+               <bibl type="originalSource"><author>Johannes Leo Placentius</author> : <title type="main">Susanna</title> . In: <title>Susanna per Plancentium euangelisten
                      lusa. Eusebii Candidi Elegia, in uanam breuemque humanæ uitæ gloriolam. Item
                      Ode Sapphica eiusdem Eusebij, in mortis recordationem. Item Plausus luctificæ
                      mortis, ad modum Dialogi, extemporaliter ad eodem Eusebio lusus</title> .
@@ -102,8 +99,7 @@
                <personGrp xml:id="populus" sex="UNKNOWN" role="spectator">
                   <persName>Populus</persName>
                </personGrp>
-               <person xml:id="daniel" sex="MALE" role="propheta"
-                  ana="https://www.wikidata.org/wiki/Q171724">
+               <person xml:id="daniel" sex="MALE" role="propheta" ana="https://www.wikidata.org/wiki/Q171724">
                   <persName>Daniel</persName>
                </person>
             </listPerson>

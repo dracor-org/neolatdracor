@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI type="dracor" xml:id="neolat000003" xml:lang="la" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="dracor" xml:id="neolat000003" xml:lang="la">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Saul</title>
+            <title>Saul</title>
             <title type="sub">Tragoedia sacra</title>
             <author>
                <persName xml:lang="la">
@@ -42,9 +42,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl type="digitalSource">
-               <ref
-                  target="https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Lummenaeus-Saul.docx"
-                  >TransLatin</ref>
+               <ref target="https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Lummenaeus-Saul.docx">TransLatin</ref>
                <availability status="free">
                   <p>In the public domain.</p>
                </availability>

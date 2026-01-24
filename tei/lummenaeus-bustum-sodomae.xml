@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI type="dracor" xml:id="neolat000094" xml:lang="la" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="dracor" xml:id="neolat000094" xml:lang="la">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -35,8 +35,7 @@
          <sourceDesc>
             <bibl type="digitalSource">
                <name>TransLatin</name>
-               <idno type="URL"
-                  >https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Lummenaeus-Bustum.docx</idno>
+               <idno type="URL">https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Lummenaeus-Bustum.docx</idno>
                <availability status="free">
                   <p>In the public domain.</p>
                </availability>
@@ -61,15 +60,13 @@
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person xml:id="nemesis-divina" sex="FEMALE"
-                  ana="https://www.wikidata.org/wiki/Q185747">
+               <person xml:id="nemesis-divina" sex="FEMALE" ana="https://www.wikidata.org/wiki/Q185747">
                   <persName>NEMESIS DIVINA</persName>
                </person>
                <person xml:id="abrahamus" sex="MALE" ana="https://www.wikidata.org/wiki/Q9181">
                   <persName>ABRAHAMVS</persName>
                </person>
-               <person xml:id="angelus" sex="UNKNOWN" ana="https://www.wikidata.org/wiki/Q235113"
-                  role="angelus">
+               <person xml:id="angelus" sex="UNKNOWN" ana="https://www.wikidata.org/wiki/Q235113" role="angelus">
                   <persName>ANGELVS</persName>
                </person>
                <personGrp xml:id="chorus" sex="UNKNOWN" role="chorus">
