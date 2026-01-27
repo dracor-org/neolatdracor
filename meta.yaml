@@ -19,15 +19,15 @@
   region: Holy Roman Empire
   regionQid: Q12548
   project: Camerarius digital
-  status: TXT
-  availability:
-    status: free
-  licenceNotes: In the public domain.
+  status: TXT  
+  licenceNotes: In the public domain, CC0 1.0 possible.
   source:
     title: Camerarius digital
     editor: Jochen Schultheiß
     url: https://segmentation-experiments2.informatik.uni-wuerzburg.de/resources/pdf/cam_b_oc0630.txt
     type: TXT
+    availability:
+      status: free
     source:
       title: "Ioachim Camerarius: Aiax lora gestans. Interpretatio ad uerbum. In:
         Commentatio explicationum omnium tragoediarum Sophoclis, cum exemplo
@@ -36,6 +36,9 @@
       year: "1556"
       url: https://viewer.onb.ac.at/107D434D/111
       type: print
+      availability:
+        licence: No Copyright - Non-Commercial Use Only (until 2029-11-02T22:00)
+        licenceUrl: https://rightsstatements.org/vocab/NoC-NC/1.0/
   complete: true
   _includeInOverview: true
   _includeDocx: false
@@ -59,14 +62,14 @@
   regionQid: Q12548
   project: Camerarius digital
   status: TXT
-  availability:
-    status: free
-  licenceNotes: In the public domain.
+  licenceNotes: In the public domain, CC0 1.0 possible.
   source:
     title: Camerarius digital
     editor: Jochen Schultheiß
     url: https://segmentation-experiments2.informatik.uni-wuerzburg.de/resources/pdf/cam_b_oc0632.txt
     type: TXT
+    availability:
+      status: free
     source:
       title: "Ioachim Camerarius: Electra. Interpretatio libera. In: Commentatio
         explicationum omnium tragoediarum Sophoclis, cum exemplo duplicis
@@ -75,6 +78,9 @@
       year: "1556"
       url: https://viewer.onb.ac.at/107D434D/261
       type: print
+      availability:
+        licence: No Copyright - Non-Commercial Use Only (until 2029-11-02T22:00)
+        licenceUrl: https://rightsstatements.org/vocab/NoC-NC/1.0/
   complete: true
   _includeInOverview: true
   _includeDocx: false
@@ -85,6 +91,7 @@
   qid: null
   authors:
     - name: Anonymus
+      qid: null
       gnd: null
   yearPrinted: null
   yearWritten: "1670"
@@ -96,8 +103,6 @@
   regionQid: Q2360973
   project: Ljubljana Jesuit Drama
   status: JPG/TIFF (manuscript; printed perioche)
-  availability:
-    status: null
   licenceNotes: INFORMATION NEEDED
   transcription:
     by: INFORMATION NEEDED / TO BE ADDED
@@ -108,6 +113,8 @@
     copyright: OeStA/HHStA
     url: INFORMATION NEEDED
     type: manuscript
+    availability:
+      note: INFORMATION NEEDED
   complete: false
   _includeInOverview: true
   _includeDocx: false
@@ -117,6 +124,7 @@
   qid: null
   authors:
     - name: Anonymus
+      qid: null
       gnd: null
   yearPrinted: null
   yearWritten: "1649"
@@ -128,8 +136,6 @@
   regionQid: Q2360973
   project: Ljubljana Jesuit Drama
   status: JPG/TIFF (manuscript)
-  availability:
-    status: null
   licenceNotes: INFORMATION NEEDED
   transcription:
     by: INFORMATION NEEDED / TO BE ADDED
@@ -140,6 +146,8 @@
     copyright: OeStA/HHStA
     url: INFORMATION NEEDED
     type: manuscript
+    availability:
+      note: INFORMATION NEEDED
   complete: false
   _includeInOverview: true
   _includeDocx: false
@@ -150,6 +158,7 @@
   qid: null
   authors:
     - name: Anonymus
+      qid: null
       gnd: null
   yearPrinted: null
   yearWritten: not before 1628, not after 1673
@@ -161,8 +170,6 @@
   regionQid: Q2360973
   project: Ljubljana Jesuit Drama
   status: JPG/TIFF (manuscript)
-  availability:
-    status: null
   licenceNotes: INFORMATION NEEDED
   transcription:
     by: INFORMATION NEEDED / TO BE ADDED
@@ -173,6 +180,8 @@
     copyright: OeStA/HHStA
     url: INFORMATION NEEDED
     type: manuscript
+    availability:
+      note: INFORMATION NEEDED
   complete: false
   _includeInOverview: true
   _includeDocx: false
@@ -182,6 +191,7 @@
   qid: null
   authors:
     - name: Anonymus
+      qid: null
       gnd: null
   yearPrinted: null
   yearWritten: "1654"
@@ -193,8 +203,6 @@
   regionQid: Q2360973
   project: Ljubljana Jesuit Drama
   status: JPG/TIFF (manuscript)
-  availability:
-    status: null
   licenceNotes: INFORMATION NEEDED
   transcription:
     by: INFORMATION NEEDED / TO BE ADDED
@@ -205,6 +213,8 @@
     copyright: OeStA/HHStA
     url: INFORMATION NEEDED
     type: manuscript
+    availability:
+      note: INFORMATION NEEDED
   complete: false
   _includeInOverview: true
   _includeDocx: false
@@ -215,6 +225,7 @@
   qid: null
   authors:
     - name: Anonymus
+      qid: null
       gnd: null
   yearPrinted: null
   yearWritten: "1653"
@@ -226,8 +237,6 @@
   regionQid: Q2360973
   project: Ljubljana Jesuit Drama
   status: JPG/TIFF (manuscript)
-  availability:
-    status: null
   licenceNotes: INFORMATION NEEDED
   transcription:
     by: INFORMATION NEEDED / TO BE ADDED
@@ -238,6 +247,8 @@
     copyright: OeStA/HHStA
     url: INFORMATION NEEDED
     type: manuscript
+    availability:
+      note: INFORMATION NEEDED
   complete: false
   _includeInOverview: true
   _includeDocx: false
@@ -248,6 +259,7 @@
   qid: null
   authors:
     - name: Anonymus
+      qid: null
       gnd: null
   yearPrinted: null
   yearWritten: "1659"
@@ -259,8 +271,6 @@
   regionQid: Q2360973
   project: Ljubljana Jesuit Drama
   status: JPG/TIFF (manuscript)
-  availability:
-    status: null
   licenceNotes: INFORMATION NEEDED
   transcription:
     by: INFORMATION NEEDED / TO BE ADDED
@@ -271,6 +281,8 @@
     copyright: OeStA/HHStA
     url: INFORMATION NEEDED
     type: manuscript
+    availability:
+      note: INFORMATION NEEDED
   complete: false
   _includeInOverview: true
   _includeDocx: false
@@ -280,6 +292,7 @@
   qid: null
   authors:
     - name: Anonymus
+      qid: null
       gnd: null
   yearPrinted: null
   yearWritten: "1654"
@@ -291,8 +304,6 @@
   regionQid: Q2360973
   project: Ljubljana Jesuit Drama
   status: JPG/TIFF (manuscript)
-  availability:
-    status: null
   licenceNotes: INFORMATION NEEDED
   transcription:
     by: INFORMATION NEEDED / TO BE ADDED
@@ -303,6 +314,8 @@
     copyright: OeStA/HHStA
     url: INFORMATION NEEDED
     type: manuscript
+    availability:
+      note: INFORMATION NEEDED
   complete: false
   _includeInOverview: true
   _includeDocx: false
@@ -312,6 +325,7 @@
   qid: null
   authors:
     - name: Anonymus
+      qid: null
       gnd: null
   yearPrinted: null
   yearWritten: "1655"
@@ -323,8 +337,6 @@
   regionQid: Q2360973
   project: Ljubljana Jesuit Drama
   status: JPG/TIFF (manuscript)
-  availability:
-    status: null
   licenceNotes: INFORMATION NEEDED
   transcription:
     by: INFORMATION NEEDED / TO BE ADDED
@@ -335,6 +347,8 @@
     copyright: OeStA/HHStA
     url: INFORMATION NEEDED
     type: manuscript
+    availability:
+      note: INFORMATION NEEDED
   complete: false
   _includeInOverview: true
   _includeDocx: false
@@ -344,6 +358,7 @@
   qid: null
   authors:
     - name: Anonymus
+      qid: null
       gnd: null
   yearPrinted: null
   yearWritten: "1659"
@@ -355,8 +370,6 @@
   regionQid: Q2360973
   project: Ljubljana Jesuit Drama
   status: JPG/TIFF (manuscript)
-  availability:
-    status: null
   licenceNotes: INFORMATION NEEDED
   transcription:
     by: INFORMATION NEEDED / TO BE ADDED
@@ -367,6 +380,8 @@
     copyright: OeStA/HHStA
     url: INFORMATION NEEDED
     type: manuscript
+    availability:
+      note: INFORMATION NEEDED
   complete: false
   _includeInOverview: true
   _includeDocx: false
@@ -379,6 +394,7 @@
   qid: null
   authors:
     - name: Anonymus
+      qid: null
       gnd: null
   yearPrinted: null
   yearWritten: "1659"
@@ -390,8 +406,6 @@
   regionQid: Q2360973
   project: Ljubljana Jesuit Drama
   status: JPG/TIFF (manuscript)
-  availability:
-    status: null
   licenceNotes: INFORMATION NEEDED
   transcription:
     by: INFORMATION NEEDED / TO BE ADDED
@@ -402,6 +416,8 @@
     copyright: OeStA/HHStA
     url: INFORMATION NEEDED
     type: manuscript
+    availability:
+      note: INFORMATION NEEDED
   complete: false
   _includeInOverview: true
   _includeDocx: false
@@ -413,6 +429,7 @@
   qid: null
   authors:
     - name: Anonymus
+      qid: null
       gnd: null
   yearPrinted: null
   yearWritten: "1684"
@@ -424,8 +441,6 @@
   regionQid: Q2360973
   project: Ljubljana Jesuit Drama
   status: JPG/TIFF (manuscript; printed perioche)
-  availability:
-    status: null
   licenceNotes: INFORMATION NEEDED
   transcription:
     by: INFORMATION NEEDED / TO BE ADDED
@@ -436,6 +451,8 @@
     copyright: SKL - Seminary Library Ljubljana
     url: INFORMATION NEEDED
     type: manuscript
+    availability:
+      note: INFORMATION NEEDED
   complete: false
   _includeInOverview: true
   _includeDocx: false
@@ -445,6 +462,7 @@
   qid: null
   authors:
     - name: Anonymus
+      qid: null
       gnd: null
   yearPrinted: null
   yearWritten: "1654"
@@ -456,8 +474,6 @@
   regionQid: Q2360973
   project: Ljubljana Jesuit Drama
   status: JPG/TIFF (manuscript)
-  availability:
-    status: null
   licenceNotes: INFORMATION NEEDED
   transcription:
     by: INFORMATION NEEDED / TO BE ADDED
@@ -468,6 +484,8 @@
     copyright: OeStA/HHStA
     url: INFORMATION NEEDED
     type: manuscript
+    availability:
+      note: INFORMATION NEEDED
   complete: false
   _includeInOverview: true
   _includeDocx: false
@@ -477,6 +495,7 @@
   qid: null
   authors:
     - name: Anonymus
+      qid: null
       gnd: null
   yearPrinted: null
   yearWritten: "1642"
@@ -488,8 +507,6 @@
   regionQid: Q2360973
   project: Ljubljana Jesuit Drama
   status: JPG/TIFF (manuscript; printed perioche)
-  availability:
-    status: null
   licenceNotes: INFORMATION NEEDED
   transcription:
     by: INFORMATION NEEDED / TO BE ADDED
@@ -500,6 +517,8 @@
     copyright: OeStA/HHStA
     url: INFORMATION NEEDED
     type: manuscript
+    availability:
+      note: INFORMATION NEEDED
   complete: false
   _includeInOverview: true
   _includeDocx: false
@@ -510,6 +529,7 @@
   qid: null
   authors:
     - name: Anonymus
+      qid: null
       gnd: null
   yearPrinted: null
   yearWritten: "1653"
@@ -521,8 +541,6 @@
   regionQid: Q2360973
   project: Ljubljana Jesuit Drama
   status: JPG/TIFF (manuscript; printed perioche)
-  availability:
-    status: null
   licenceNotes: INFORMATION NEEDED
   transcription:
     by: INFORMATION NEEDED / TO BE ADDED
@@ -533,6 +551,8 @@
     copyright: OeStA/HHStA
     url: INFORMATION NEEDED
     type: manuscript
+    availability:
+      note: INFORMATION NEEDED
   complete: false
   _includeInOverview: true
   _includeDocx: false
@@ -543,6 +563,7 @@
   qid: null
   authors:
     - name: Anonymus
+      qid: null
       gnd: null
   yearPrinted: null
   yearWritten: "1656"
@@ -554,8 +575,6 @@
   regionQid: Q2360973
   project: Ljubljana Jesuit Drama
   status: JPG/TIFF (manuscript)
-  availability:
-    status: null
   licenceNotes: INFORMATION NEEDED
   transcription:
     by: INFORMATION NEEDED / TO BE ADDED
@@ -566,6 +585,8 @@
     copyright: OeStA/HHStA
     url: INFORMATION NEEDED
     type: manuscript
+    availability:
+      note: INFORMATION NEEDED
   complete: false
   _includeInOverview: true
   _includeDocx: false
@@ -576,6 +597,7 @@
   qid: null
   authors:
     - name: Anonymus
+      qid: null
       gnd: null
   yearPrinted: null
   yearWritten: "1659"
@@ -587,8 +609,6 @@
   regionQid: Q2360973
   project: Ljubljana Jesuit Drama
   status: JPG/TIFF (manuscript)
-  availability:
-    status: null
   licenceNotes: INFORMATION NEEDED
   transcription:
     by: INFORMATION NEEDED / TO BE ADDED
@@ -599,6 +619,8 @@
     copyright: OeStA/HHStA
     url: INFORMATION NEEDED
     type: manuscript
+    availability:
+      note: INFORMATION NEEDED
   complete: false
   _includeInOverview: true
   _includeDocx: false
@@ -609,6 +631,7 @@
   qid: null
   authors:
     - name: Anonymus
+      qid: null
       gnd: null
   yearPrinted: null
   yearWritten: "1654"
@@ -620,8 +643,6 @@
   regionQid: Q2360973
   project: Ljubljana Jesuit Drama
   status: JPG/TIFF (manuscript)
-  availability:
-    status: null
   licenceNotes: INFORMATION NEEDED
   transcription:
     by: INFORMATION NEEDED / TO BE ADDED
@@ -632,6 +653,8 @@
     copyright: OeStA/HHStA
     url: INFORMATION NEEDED
     type: manuscript
+    availability:
+      note: INFORMATION NEEDED
   complete: false
   _includeInOverview: true
   _includeDocx: false
@@ -641,6 +664,7 @@
   qid: null
   authors:
     - name: Anonymus
+      qid: null
       gnd: null
   yearPrinted: null
   yearWritten: "1649"
@@ -652,8 +676,6 @@
   regionQid: Q2360973
   project: Ljubljana Jesuit Drama
   status: JPG/TIFF (manuscript)
-  availability:
-    status: null
   licenceNotes: INFORMATION NEEDED
   transcription:
     by: INFORMATION NEEDED / TO BE ADDED
@@ -664,6 +686,8 @@
     copyright: OeStA/HHStA
     url: INFORMATION NEEDED
     type: manuscript
+    availability:
+      note: INFORMATION NEEDED
   complete: false
   _includeInOverview: true
   _includeDocx: false
@@ -673,6 +697,7 @@
   qid: null
   authors:
     - name: Anonymus
+      qid: null
       gnd: null
   yearPrinted: null
   yearWritten: "1723"
@@ -684,8 +709,6 @@
   regionQid: Q2360973
   project: Ljubljana Jesuit Drama
   status: JPG/TIFF (manuscript)
-  availability:
-    status: null
   licenceNotes: INFORMATION NEEDED
   transcription:
     by: INFORMATION NEEDED / TO BE ADDED
@@ -696,6 +719,8 @@
     copyright: ARS - Archives of the Republic of Slovenia
     url: INFORMATION NEEDED
     type: manuscript
+    availability:
+      note: INFORMATION NEEDED
   complete: false
   _includeInOverview: true
   _includeDocx: false
@@ -705,6 +730,7 @@
   qid: null
   authors:
     - name: Anonymus
+      qid: null
       gnd: null
   yearPrinted: null
   yearWritten: "1646"
@@ -716,8 +742,6 @@
   regionQid: Q2360973
   project: Ljubljana Jesuit Drama
   status: JPG/TIFF (manuscript; printed perioche)
-  availability:
-    status: null
   licenceNotes: INFORMATION NEEDED
   transcription:
     by: INFORMATION NEEDED / TO BE ADDED
@@ -728,6 +752,8 @@
     copyright: OeStA/HHStA
     url: INFORMATION NEEDED
     type: manuscript
+    availability:
+      note: INFORMATION NEEDED
   complete: false
   _includeInOverview: true
   _includeDocx: false
@@ -737,6 +763,7 @@
   qid: null
   authors:
     - name: Anonymus
+      qid: null
       gnd: null
   yearPrinted: null
   yearWritten: "1658"
@@ -748,8 +775,6 @@
   regionQid: Q2360973
   project: Ljubljana Jesuit Drama
   status: JPG/TIFF (manuscript)
-  availability:
-    status: null
   licenceNotes: INFORMATION NEEDED
   transcription:
     by: INFORMATION NEEDED / TO BE ADDED
@@ -760,6 +785,8 @@
     copyright: OeStA/HHStA
     url: INFORMATION NEEDED
     type: manuscript
+    availability:
+      note: INFORMATION NEEDED
   complete: false
   _includeInOverview: true
   _includeDocx: false
@@ -769,6 +796,7 @@
   qid: null
   authors:
     - name: Anonymus
+      qid: null
       gnd: null
   yearPrinted: null
   yearWritten: "1656"
@@ -780,8 +808,6 @@
   regionQid: Q2360973
   project: Ljubljana Jesuit Drama
   status: JPG/TIFF (manuscript)
-  availability:
-    status: null
   licenceNotes: INFORMATION NEEDED
   transcription:
     by: INFORMATION NEEDED / TO BE ADDED
@@ -792,6 +818,8 @@
     copyright: OeStA/HHStA
     url: INFORMATION NEEDED
     type: manuscript
+    availability:
+      note: INFORMATION NEEDED
   complete: false
   _includeInOverview: true
   _includeDocx: false
@@ -814,8 +842,6 @@
   regionQid: Q2360973
   project: Ljubljana Jesuit Drama
   status: JPG/TIFF (manuscript)
-  availability:
-    status: null
   licenceNotes: INFORMATION NEEDED
   transcription:
     by: INFORMATION NEEDED / TO BE ADDED
@@ -826,6 +852,8 @@
     copyright: OeStA/HHStA
     url: INFORMATION NEEDED
     type: manuscript
+    availability:
+      note: INFORMATION NEEDED
   complete: false
   _includeInOverview: true
   _includeDocx: false
@@ -848,8 +876,6 @@
   regionQid: Q2360973
   project: Ljubljana Jesuit Drama
   status: JPG/TIFF (manuscript)
-  availability:
-    status: null
   licenceNotes: INFORMATION NEEDED
   transcription:
     by: INFORMATION NEEDED / TO BE ADDED
@@ -860,6 +886,8 @@
     copyright: OeStA/HHStA
     url: INFORMATION NEEDED
     type: manuscript
+    availability:
+      note: INFORMATION NEEDED
   complete: false
   _includeInOverview: true
   _includeDocx: false
@@ -882,8 +910,6 @@
   regionQid: Q2360973
   project: Ljubljana Jesuit Drama
   status: JPG/TIFF (manuscript)
-  availability:
-    status: null
   licenceNotes: INFORMATION NEEDED
   transcription:
     by: INFORMATION NEEDED / TO BE ADDED
@@ -894,6 +920,8 @@
     copyright: OeStA/HHStA
     url: INFORMATION NEEDED
     type: manuscript
+    availability:
+      note: INFORMATION NEEDED
   complete: false
   _includeInOverview: true
   _includeDocx: false
@@ -916,8 +944,6 @@
   regionQid: Q2360973
   project: Ljubljana Jesuit Drama
   status: JPG/TIFF (manuscript)
-  availability:
-    status: null
   licenceNotes: INFORMATION NEEDED
   transcription:
     by: INFORMATION NEEDED / TO BE ADDED
@@ -928,6 +954,8 @@
     copyright: OeStA/HHStA
     url: INFORMATION NEEDED
     type: manuscript
+    availability:
+      note: INFORMATION NEEDED
   complete: false
   _includeInOverview: true
   _includeDocx: false
@@ -951,8 +979,6 @@
   regionQid: Q2360973
   project: Ljubljana Jesuit Drama
   status: JPG/TIFF (manuscript; printed perioche)
-  availability:
-    status: null
   licenceNotes: INFORMATION NEEDED
   transcription:
     by: INFORMATION NEEDED / TO BE ADDED
@@ -963,6 +989,8 @@
     copyright: OeStA/HHStA
     url: INFORMATION NEEDED
     type: manuscript
+    availability:
+      note: INFORMATION NEEDED
   complete: false
   _includeInOverview: true
   _includeDocx: false
@@ -985,8 +1013,6 @@
   regionQid: Q2360973
   project: Ljubljana Jesuit Drama
   status: JPG/TIFF (manuscript)
-  availability:
-    status: null
   licenceNotes: INFORMATION NEEDED
   transcription:
     by: INFORMATION NEEDED / TO BE ADDED
@@ -1008,6 +1034,8 @@
       copyright: OeStA/HHStA
       url: INFORMATION NEEDED
       type: manuscript
+      availability:
+        note: INFORMATION NEEDED
   complete: false
   _includeInOverview: true
   _includeDocx: false
@@ -1025,15 +1053,13 @@
   yearWritten: null
   premiered: null
   form: verse
-  genre: Christian drama
-  genreQid: Q5110327
+  genre: Bible play
+  genreQid: Q856327
   region: Low Countries
   regionQid: Q476033
   project: Macropedius Drama Corpus
   status: text
-  availability:
-    status: free
-  licenceNotes: Public domain, permission granted by editors
+  licenceNotes: Public domain, permission granted by editors, CC0 1.0 possible.
   transcription:
     by: null
     supervisor: null
@@ -1048,7 +1074,10 @@
     title: Census Nederlands Toneel (Ceneton)
     editor: Ton Harmsen
     url: https://www.let.leidenuniv.nl/Dutch/Ceneton/MacropediusAdamus1552.html
-    type: TXT
+    type: HTML
+    availability:
+      status: free
+      note: In the public domain.      
     source:
       title: "Georgius Macropedius: Adamus. In: Henk Giebels, Frans Slits: Georgius
         Macropedius 1487 - 1558. Leven en werken van een Brabantse humanist.
@@ -1059,10 +1088,8 @@
       year: "2005"
       type: critical edition
       source:
-        title: "Adamus Macropedii Fabula Christianae pietatis plaena. Utrecht: Harmannus
-          Borculous 1552."
-        year: "1552"
-        url: https://www.let.leidenuniv.nl/Dutch/Ceneton/Facsimiles/MacropediusAdamus1552/index.htm
+        title: "Adamus Macropedii Fabula Christianae pietatis plaena. Utrecht: Harmannus Borculous 1552."
+        year: "1552"        
         type: print
   complete: true
   _includeInOverview: true
@@ -1087,9 +1114,7 @@
   regionQid: Q476033
   project: Macropedius Drama Corpus
   status: text
-  availability:
-    status: free
-  licenceNotes: Public domain, permission granted by editors
+  licenceNotes: Public domain, permission granted by editors, CC0 1.0 possible.
   transcription:
     by: null
     supervisor: null
@@ -1104,7 +1129,10 @@
     title: Census Nederlands Toneel (Ceneton)
     editor: Ton Harmsen
     url: https://www.hum2.leidenuniv.nl/Dutch/Ceneton/MacropediusAluta1553.html
-    type: TXT
+    type: HTML
+    availability:
+      status: free
+      note: In the public domain.    
     source:
       title: "Georgius Macropedius: Andrisca. In: Henk Giebels, Frans Slits: Georgius
         Macropedius 1487 - 1558. Leven en werken van een Brabantse humanist.
@@ -1115,11 +1143,8 @@
       year: "2005"
       type: critical edition
       source:
-        title: "Aluta Macropedii fabula admodum iucunda & lepida, denuo recognita, &
-          Traiectinae iuuentuti denuo nuncupata. In: Comicarum fabularum Georgii
-          Macropedii tomus secundus. Utrecht: Harmannus Borculous 1553."
+        title: "Aluta Macropedii fabula admodum iucunda & lepida, denuo recognita, & Traiectinae iuuentuti denuo nuncupata. In: Comicarum fabularum Georgii Macropedii tomus secundus. Utrecht: Harmannus Borculous 1553."
         year: "1553"
-        url: https://www.hum2.leidenuniv.nl/Dutch/Ceneton/Facsimiles/MacropediusAluta1553/index.htm
         type: print
   complete: true
   _includeInOverview: true
@@ -1144,9 +1169,7 @@
   regionQid: Q476033
   project: Macropedius Drama Corpus
   status: text
-  availability:
-    status: free
-  licenceNotes: Public domain, permission granted by editors
+  licenceNotes: Public domain, permission granted by editors, CC0 1.0 possible.
   transcription:
     by: null
     supervisor: null
@@ -1161,7 +1184,10 @@
     title: Census Nederlands Toneel (Ceneton)
     editor: Ton Harmsen
     url: https://www.let.leidenuniv.nl/Dutch/Ceneton/MacropediusAndrisca1553.html
-    type: TXT
+    type: HTML
+    availability:
+      status: free
+      note: In the public domain.    
     source:
       title: "Georgius Macropedius: Andrisca. In: Henk Giebels, Frans Slits: Georgius
         Macropedius 1487 - 1558. Leven en werken van een Brabantse humanist.
@@ -1170,12 +1196,10 @@
         Comicae."
       editor: Henk Giebels; Frans Slits
       year: "2005"
-      type: critical edition
+      type: critical edition      
       source:
-        title: "Georgii Macropedii Andrisca fabula lepidissima. Utrecht: Harmannus
-          Borculous 1553."
+        title: "Georgii Macropedii Andrisca fabula lepidissima. Utrecht: Harmannus Borculous 1553."
         year: "1553"
-        url: https://www.let.leidenuniv.nl/Dutch/Ceneton/Facsimiles/MacropediusAndrisca1553/index.htm
         type: print
   complete: true
   _includeInOverview: true
@@ -1193,15 +1217,13 @@
   yearWritten: null
   premiered: null
   form: verse
-  genre: Christian drama
-  genreQid: Q5110327
+  genre: Bible play
+  genreQid: Q856327
   region: Low Countries
   regionQid: Q476033
   project: Macropedius Drama Corpus
   status: text
-  availability:
-    status: free
-  licenceNotes: Public domain, permission granted by editors
+  licenceNotes: Public domain, permission granted by editors, CC0 1.0 possible.
   transcription:
     by: null
     supervisor: null
@@ -1216,7 +1238,10 @@
     title: Census Nederlands Toneel (Ceneton)
     editor: Ton Harmsen
     url: https://www.let.leidenuniv.nl/Dutch/Ceneton/MacropediusAsotus1552.html
-    type: TXT
+    type: HTML
+    availability:
+      status: free
+      note: In the public domain.  
     source:
       title: "Georgius Macropedius: Asotus. In: Henk Giebels, Frans Slits: Georgius
         Macropedius 1487 - 1558. Leven en werken van een Brabantse humanist.
@@ -1226,6 +1251,9 @@
       editor: Henk Giebels; Frans Slits
       year: "2005"
       type: critical edition
+      availability:
+        status: free
+      note: In the public domain.    
       source:
         title: "Georgius Macropedius: Asotus. In: Omnes Georgii Macropedii fabulae
           comicae, denuo recognitae, & iusto ordine (prout editae sunt) in duas
@@ -1234,7 +1262,6 @@
           simplici tenore quisque possit citra laborem versicos modulari.
           Utrecht: Harmannus Borculous 1552."
         year: "1552"
-        url: https://www.let.leidenuniv.nl/Dutch/Ceneton/Facsimiles/MacropediusAsotus1552/index.htm
         type: print
   complete: true
   _includeInOverview: true
@@ -1259,9 +1286,7 @@
   regionQid: Q476033
   project: Macropedius Drama Corpus
   status: text
-  availability:
-    status: free
-  licenceNotes: Public domain, permission granted by editors
+  licenceNotes: Public domain, permission granted by editors, CC0 1.0 possible.
   transcription:
     by: null
     supervisor: null
@@ -1276,7 +1301,10 @@
     title: Census Nederlands Toneel (Ceneton)
     editor: Ton Harmsen
     url: https://www.let.leidenuniv.nl/Dutch/Ceneton/MacropediusBassarus1553.html
-    type: TXT
+    type: HTML
+    availability:
+      status: free
+      note: In the public domain.
     source:
       title: "Georgius Macropedius: Bassarus. In: Henk Giebels, Frans Slits: Georgius
         Macropedius 1487 - 1558. Leven en werken van een Brabantse humanist.
@@ -1286,11 +1314,13 @@
       editor: Henk Giebels; Frans Slits
       year: "2005"
       type: critical edition
+      availability:
+        status: free
+      note: In the public domain.    
       source:
         title: "Georgii Macropedii Bassarus, fabula festivissima. Utrecht: Harmannus
           Borculous 1553."
         year: "1553"
-        url: https://www.let.leidenuniv.nl/Dutch/Ceneton/Facsimiles/MacropediusBassarus1553/index.htm
         type: print
   complete: true
   _includeInOverview: true
@@ -1315,9 +1345,7 @@
   regionQid: Q476033
   project: Macropedius Drama Corpus
   status: tei, published
-  availability:
-    status: free
-  licenceNotes: Public domain, permission granted by editors
+  licenceNotes: Public domain, permission granted by editors, CC0 1.0 possible.
   transcription:
     by: null
     supervisor: null
@@ -1333,7 +1361,10 @@
     title: Census Nederlands Toneel (Ceneton)
     editor: Ton Harmsen
     url: https://www.let.leidenuniv.nl/Dutch/Ceneton/MacropediusHecastus1552.html
-    type: TXT
+    type: HTML
+    availability:
+      status: free
+      note: In the public domain.    
     source:
       title: "Georgius Macropedius: Hecastus. In: Henk Giebels, Frans Slits: Georgius
         Macropedius 1487 - 1558. Leven en werken van een Brabantse humanist.
@@ -1350,13 +1381,12 @@
           veram suorum criminum poenitudinem ad beatam adeoque laetam mortem
           perveniat. Utrecht: Harmannus Borculous 1552."
         year: "1552"
-        url: https://www.let.leidenuniv.nl/Dutch/Ceneton/Facsimiles/MacropediusHecastus1552/index.htm
         type: print
   complete: true
   _includeInOverview: true
   _includeDocx: false
 - id: neolat000105
-  name: macropedius-hypomone-seu-patientia
+  name: macropedius-hypomone
   title: Hypomone, seu patientia
   subtitle: Fabula sacra
   qid: null
@@ -1369,15 +1399,13 @@
   yearWritten: null
   premiered: null
   form: verse
-  genre: Christian drama
-  genreQid: Q5110327
+  genre: Bible play
+  genreQid: Q856327
   region: Low Countries
   regionQid: Q476033
   project: Macropedius Drama Corpus
   status: text
-  availability:
-    status: free
-  licenceNotes: Public domain, permission granted by editors
+  licenceNotes: Public domain, permission granted by editors, CC0 1.0 possible.
   transcription:
     by: null
     supervisor: null
@@ -1392,7 +1420,10 @@
     title: Census Nederlands Toneel (Ceneton)
     editor: Ton Harmsen
     url: https://www.let.leidenuniv.nl/Dutch/Ceneton/MacropediusHypomone1554.html
-    type: TXT
+    type: HTML
+    availability:
+      status: free
+      note: In the public domain.  
     source:
       title: "Georgius Macropedius: Hypomone. In: Henk Giebels, Frans Slits: Georgius
         Macropedius 1487 - 1558. Leven en werken van een Brabantse humanist.
@@ -1406,7 +1437,6 @@
         title: "Hypomone, seu patientia Macropedii. Fabula sacra. Utrecht: Harmannus
           Borculous [1554]."
         year: "1554"
-        url: https://www.let.leidenuniv.nl/Dutch/Ceneton/Facsimiles/MacropediusHypomone1554/index.htm
         type: print
   complete: true
   _includeInOverview: true
@@ -1424,15 +1454,13 @@
   yearWritten: null
   premiered: null
   form: verse
-  genre: Christian drama
-  genreQid: Q5110327
+  genre: Bible play
+  genreQid: Q856327
   region: Low Countries
   regionQid: Q476033
   project: Macropedius Drama Corpus
   status: text
-  availability:
-    status: free
-  licenceNotes: Public domain, permission granted by editors
+  licenceNotes: Public domain, permission granted by editors, CC0 1.0 possible.
   transcription:
     by: null
     supervisor: null
@@ -1447,7 +1475,10 @@
     title: Census Nederlands Toneel (Ceneton)
     editor: Ton Harmsen
     url: https://www.let.leidenuniv.nl/Dutch/Ceneton/MacropediusJesus1556.html
-    type: TXT
+    type: HTML
+    availability:
+      status: free
+      note: In the public domain.  
     source:
       title: "Georgius Macropedius: Iesus Scholasticus. In: Henk Giebels, Frans Slits:
         Georgius Macropedius 1487 - 1558. Leven en werken van een Brabantse
@@ -1461,7 +1492,6 @@
         title: "Iesus Scholasticus Georgij Macropedij. Utrecht: Harmannus Borculous
           1556."
         year: "1556"
-        url: https://www.let.leidenuniv.nl/Dutch/Ceneton/Facsimiles/MacropediusJesus1556/index.htm
         type: print
   complete: true
   _includeInOverview: true
@@ -1480,15 +1510,13 @@
   yearWritten: null
   premiered: null
   form: verse
-  genre: Christian drama
-  genreQid: Q5110327
+  genre: Bible play
+  genreQid: Q856327
   region: Low Countries
   regionQid: Q476033
   project: Macropedius Drama Corpus
   status: text
-  availability:
-    status: free
-  licenceNotes: Public domain, permission granted by editors
+  licenceNotes: Public domain, permission granted by editors, CC0 1.0 possible.
   transcription:
     by: null
     supervisor: null
@@ -1503,7 +1531,10 @@
     title: Census Nederlands Toneel (Ceneton)
     editor: Ton Harmsen
     url: https://www.let.leidenuniv.nl/Dutch/Ceneton/MacropediusIosephus1553.html
-    type: TXT
+    type: HTML
+    availability:
+      status: free
+      note: In the public domain.  
     source:
       title: "Georgius Macropedius: Iosephus. In: Henk Giebels, Frans Slits: Georgius
         Macropedius 1487 - 1558. Leven en werken van een Brabantse humanist.
@@ -1522,7 +1553,6 @@
           quisque possit citra laborem versicos modulari. Utrecht: Harmannus
           Borculous 1553."
         year: "1553"
-        url: https://www.let.leidenuniv.nl/Dutch/Ceneton/Facsimiles/MacropediusIosephus1553/index.htm
         type: print
   complete: true
   _includeInOverview: true
@@ -1540,15 +1570,13 @@
   yearWritten: null
   premiered: null
   form: verse
-  genre: Christian drama
-  genreQid: Q5110327
+  genre: Bible play
+  genreQid: Q856327
   region: Low Countries
   regionQid: Q476033
   project: Macropedius Drama Corpus
   status: text
-  availability:
-    status: free
-  licenceNotes: Public domain, permission granted by editors
+  licenceNotes: Public domain, permission granted by editors, CC0 1.0 possible.
   transcription:
     by: null
     supervisor: null
@@ -1563,7 +1591,10 @@
     title: Census Nederlands Toneel (Ceneton)
     editor: Ton Harmsen
     url: https://www.let.leidenuniv.nl/Dutch/Ceneton/MacropediusLazarus1552.html
-    type: TXT
+    type: HTML
+    availability:
+      status: free
+      note: In the public domain.  
     source:
       title: "Georgius Macropedius: Lazarus. In: Henk Giebels, Frans Slits: Georgius
         Macropedius 1487 - 1558. Leven en werken van een Brabantse humanist.
@@ -1581,7 +1612,6 @@
           simplici tenore quisque possit citra laborem versicos modulari.
           Utrecht: Harmannus Borculous 1552."
         year: "1552"
-        url: https://www.let.leidenuniv.nl/Dutch/Ceneton/Facsimiles/MacropediusLazarus1552/index.htm
         type: print
   complete: true
   _includeInOverview: true
@@ -1606,9 +1636,7 @@
   regionQid: Q476033
   project: Macropedius Drama Corpus
   status: text
-  availability:
-    status: free
-  licenceNotes: Public domain, permission granted by editors
+  licenceNotes: Public domain, permission granted by editors, CC0 1.0 possible.
   transcription:
     by: null
     supervisor: null
@@ -1623,7 +1651,10 @@
     title: Census Nederlands Toneel (Ceneton)
     editor: Ton Harmsen
     url: https://www.let.leidenuniv.nl/Dutch/Ceneton/MacropediusPetriscus1553.html
-    type: TXT
+    type: HTML
+    availability:
+      status: free
+      note: In the public domain.  
     source:
       title: "Georgius Macropedius: Petriscus. In: Henk Giebels, Frans Slits: Georgius
         Macropedius 1487 - 1558. Leven en werken van een Brabantse humanist.
@@ -1637,7 +1668,6 @@
         title: "Petriscus Georgii Macropedii fabula iucundissima. Utrecht: Harmannus
           Borculous 1553."
         year: "1553"
-        url: https://www.let.leidenuniv.nl/Dutch/Ceneton/Facsimiles/MacropediusPetriscus1553/index.htm
         type: print
   complete: true
   _includeInOverview: true
@@ -1662,9 +1692,7 @@
   regionQid: Q476033
   project: Macropedius Drama Corpus
   status: tei, published
-  availability:
-    status: free
-  licenceNotes: Public domain, permission granted by editors
+  licenceNotes: Public domain, permission granted by editors, CC0 1.0 possible.
   transcription:
     by: null
     supervisor: null
@@ -1680,7 +1708,10 @@
     title: Census Nederlands Toneel (Ceneton)
     editor: Ton Harmsen
     url: https://www.let.leidenuniv.nl/Dutch/Ceneton/MacropediusRebelles1553.html
-    type: TXT
+    type: HTML
+    availability:
+      status: free
+      note: In the public domain.  
     source:
       title: "Georgius Macropedius: Rebelles. In: Henk Giebels, Frans Slits: Georgius
         Macropedius 1487 - 1558. Leven en werken van een Brabantse humanist.
@@ -1694,7 +1725,6 @@
         title: Rebelles Macropedii fabula longe iucundissima, rudibus adhuc et tenellis
           Traiectinae scholae auditoribus nuncupata. Utrecht 1553.
         year: "1553"
-        url: https://www.let.leidenuniv.nl/Dutch/Ceneton/Facsimiles/MacropediusRebelles1553/index.htm
         type: print
   complete: true
   _includeInOverview: true
@@ -1723,8 +1753,6 @@
     with publisher - Licence CC0 1.0
   acknowledgements: Permission for this publication under CC0 1.0 granted by the Theatrum Neolatinum team in consultation
     with the publisher (https://creativecommons.org/publicdomain/zero/1.0/deed.de).
-  availability:
-    status: null
   transcription:
     by: Zuzana Adamaitis
     supervisor: Markéta Klosová
@@ -1775,8 +1803,6 @@
     with publisher - Licence CC0 1.0
   acknowledgements: Permission for this publication under CC0 1.0 granted by the Theatrum Neolatinum team in consultation
     with the publisher (https://creativecommons.org/publicdomain/zero/1.0/deed.de).
-  availability:
-    status: null
   transcription:
     by: null
     supervisor: Magdaléna Jacková
@@ -1825,8 +1851,6 @@
   regionQid: Q185573
   project: Theatrum Neolatinum
   status: text, tei
-  availability:
-    status: null
   licenceNotes: Permission granted by Theatrum Neolatinum team in consultation
     with publisher - Licence CC0 1.0
   acknowledgements: Permission for this publication under CC0 1.0 granted by the Theatrum Neolatinum team in consultation
@@ -1884,8 +1908,6 @@
   regionQid: Q185573
   project: Theatrum Neolatinum
   status: .pdf
-  availability:
-    status: null
   licenceNotes: Permission granted by Theatrum Neolatinum team in consultation
     with publisher - Licence CC0 1.0
   acknowledgements: Permission for this publication under CC0 1.0 granted by the Theatrum Neolatinum team in consultation
@@ -1935,8 +1957,6 @@
   regionQid: Q185573
   project: Theatrum Neolatinum
   status: .pdf
-  availability:
-    status: null
   licenceNotes: Permission granted by Theatrum Neolatinum team in consultation
     with publisher - Licence CC0 1.0
   acknowledgements: Permission for this publication under CC0 1.0 granted by the Theatrum Neolatinum team in consultation
@@ -1989,8 +2009,6 @@
   regionQid: Q185573
   project: Theatrum Neolatinum
   status: .pdf
-  availability:
-    status: null
   licenceNotes: Permission granted by Theatrum Neolatinum team in consultation
     with publisher - Licence CC0 1.0
   acknowledgements: Permission for this publication under CC0 1.0 granted by the Theatrum Neolatinum team in consultation
@@ -2041,8 +2059,6 @@
   regionQid: Q185573
   project: Theatrum Neolatinum
   status: text, tei
-  availability:
-    status: null
   licenceNotes: Permission granted by Theatrum Neolatinum team in consultation
     with publisher - Licence CC0 1.0
   acknowledgements: Permission for this publication under CC0 1.0 granted by the Theatrum Neolatinum team in consultation
@@ -2086,8 +2102,6 @@
   regionQid: Q185573
   project: Theatrum Neolatinum
   status: .pdf, tei
-  availability:
-    status: null
   licenceNotes: Permission granted by Theatrum Neolatinum team in consultation
     with publisher - Licence CC0 1.0
   acknowledgements: Permission for this publication under CC0 1.0 granted by the Theatrum Neolatinum team in consultation
@@ -2136,8 +2150,6 @@
   regionQid: Q185573
   project: Theatrum Neolatinum
   status: .pdf
-  availability:
-    status: null
   licenceNotes: Permission granted by Theatrum Neolatinum team in consultation
     with publisher - Licence CC0 1.0
   acknowledgements: Permission for this publication under CC0 1.0 granted by the Theatrum Neolatinum team in consultation
@@ -2188,8 +2200,6 @@
   regionQid: Q185573
   project: Theatrum Neolatinum
   status: .pdf
-  availability:
-    status: null
   licenceNotes: Permission granted by Theatrum Neolatinum team in consultation
     with publisher - Licence CC0 1.0
   acknowledgements: Permission for this publication under CC0 1.0 granted by the Theatrum Neolatinum team in consultation
@@ -2241,8 +2251,6 @@
   regionQid: Q185573
   project: Theatrum Neolatinum
   status: .pdf
-  availability:
-    status: null
   licenceNotes: Permission granted by Theatrum Neolatinum team in consultation
     with publisher - Licence CC0 1.0
   acknowledgements: Permission for this publication under CC0 1.0 granted by the Theatrum Neolatinum team in consultation
@@ -2296,8 +2304,6 @@
   regionQid: Q185573
   project: Theatrum Neolatinum
   status: text, tei
-  availability:
-    status: null
   licenceNotes: Permission granted by Theatrum Neolatinum team in consultation
     with publisher - Licence CC0 1.0
   acknowledgements: Permission for this publication under CC0 1.0 granted by the Theatrum Neolatinum team in consultation
@@ -2348,8 +2354,6 @@
   regionQid: Q185573
   project: Theatrum Neolatinum
   status: text, tei
-  availability:
-    status: null
   licenceNotes: Permission granted by Theatrum Neolatinum team in consultation
     with publisher - Licence CC0 1.0
   acknowledgements: Permission for this publication under CC0 1.0 granted by the Theatrum Neolatinum team in consultation
@@ -2398,8 +2402,6 @@
   regionQid: Q185573
   project: Theatrum Neolatinum
   status: .pdf
-  availability:
-    status: null
   licenceNotes: Permission granted by Theatrum Neolatinum team in consultation
     with publisher - Licence CC0 1.0
   acknowledgements: Permission for this publication under CC0 1.0 granted by the Theatrum Neolatinum team in consultation
@@ -2452,8 +2454,6 @@
   regionQid: Q185573
   project: Theatrum Neolatinum
   status: .pdf
-  availability:
-    status: null
   licenceNotes: Permission granted by Theatrum Neolatinum team in consultation
     with publisher - Licence CC0 1.0
   acknowledgements: Permission for this publication under CC0 1.0 granted by the Theatrum Neolatinum team in consultation
@@ -2505,8 +2505,6 @@
   regionQid: Q185573
   project: Theatrum Neolatinum
   status: .pdf
-  availability:
-    status: null
   licenceNotes: Permission granted by Theatrum Neolatinum team in consultation
     with publisher - Licence CC0 1.0
   acknowledgements: Permission for this publication under CC0 1.0 granted by the Theatrum Neolatinum team in consultation
@@ -6613,8 +6611,6 @@
   regionQid: Q476033
   project: null
   status: text
-  availability:
-    status: free
   licenceNotes: Public domain, permission granted by Ceneton editor
   transcription:
     by: null
@@ -6626,7 +6622,10 @@
     title: Census Nederlands Toneel (Ceneton)
     editor: P. Koning; Ton Harmsen
     url: https://www.hum2.leidenuniv.nl/Dutch/Ceneton/EndenPhiledonius1657.html
-    type: TXT
+    type: HTML
+    availability:
+      status: free
+      note: In the public domain.
     source:
       title: "Philedonius. Tonnelspel: Slaande op de woorden des Wijzemans: In alle
         uwe werken gedenk uwe uitersten, en ghy zult in der eeuwigheit niet
@@ -6658,8 +6657,6 @@
   regionQid: Q476033
   project: null
   status: text
-  availability:
-    status: free
   licenceNotes: Public domain
   transcription:
     by: null
@@ -6670,7 +6667,10 @@
   source:
     title: Census Nederlands Toneel (Ceneton)
     url: https://www.hum2.leidenuniv.nl/Dutch/Ceneton/GnapheusHypocrisis1544.html
-    type: TXT
+    type: HTML
+    availability:
+      status: free
+      note: In the public domain.
     source:
       title: Hypocrisis. De Hypocrisis falsa religione, ficta disciplina et supplicio,
         deque Psyches calamitate, et restituta illi per veram poenitentiam
@@ -6703,8 +6703,6 @@
   regionQid: Q476033
   project: null
   status: text
-  availability:
-    status: free
   licenceNotes: Public domain, permission granted by Ceneton editor
   transcription:
     by: null
@@ -6716,7 +6714,10 @@
     title: Census Nederlands Toneel (Ceneton)
     editor: Paula Koning; Ton Harmsen
     url: https://www.hum2.leidenuniv.nl/Dutch/Ceneton/GrotiusAdamusExul1601.html
-    type: TXT
+    type: HTML
+    availability:
+      status: free
+      note: In the public domain.
     source:
       title: "Hugonis Grotii Sacra; in quibus Adamus exul. Tragoedia,aliorumque
         eiusdem generis carminum Cumulus. Hagen: Albertus Henricus 1601."
@@ -6745,8 +6746,6 @@
   regionQid: Q476033
   project: null
   status: text
-  availability:
-    status: free
   licenceNotes: Public domain, permission granted by Ceneton editor
   transcription:
     by: null
@@ -6758,7 +6757,10 @@
     title: Census Nederlands Toneel (Ceneton)
     editor: G. C. van Uitert; Ton Harmsen
     url: https://www.hum2.leidenuniv.nl/Dutch/Ceneton/GrotiusEuripidesPhoenissae1630.html
-    type: TXT
+    type: HTML
+    availability:
+      status: free
+      note: In the public domain.
     source:
       title: "Euripidis tragoedia Phoenissae, Emendata ex manuscriptis, Latina facta
         ab Hugone Grotio. Paris: Jacobus Ruart 1630."
@@ -6787,8 +6789,6 @@
   regionQid: Q476033
   project: null
   status: text
-  availability:
-    status: free
   licenceNotes: Public domain, permission granted by Ceneton editor
   transcription:
     by: null
@@ -6800,7 +6800,10 @@
     title: Census Nederlands Toneel (Ceneton)
     editor: Ton Harmsen
     url: https://www.hum2.leidenuniv.nl/Dutch/Ceneton/GrotiusChristusPatiens1608.html
-    type: TXT
+    type: HTML
+    availability:
+      status: free
+      note: In the public domain.
     source:
       title: "Hugonis Grotii Tragoedia Christus patiens. Leiden: Thomas Basson 1608."
       year: "1608"
@@ -6828,8 +6831,6 @@
   regionQid: Q476033
   project: null
   status: text
-  availability:
-    status: free
   licenceNotes: Public domain, permission granted by Ceneton editor
   transcription:
     by: null
@@ -6841,7 +6842,10 @@
     title: Census Nederlands Toneel (Ceneton)
     editor: Ton Harmsen
     url: https://www.hum2.leidenuniv.nl/Dutch/Ceneton/GrotiusSophompaneas1635.html
-    type: TXT
+    type: HTML
+    availability:
+      status: free
+      note: In the public domain.
     source:
       title: "Hugonis Grotii tragoedia Sophompaneas. Accesserunt, Tragoedia ejusdem
         Christus Patiens, et sacri argumenti alia, Ex editione anni M D CXVII
@@ -6871,8 +6875,6 @@
   regionQid: Q476033
   project: null
   status: text
-  availability:
-    status: free
   licenceNotes: Public domain, permission granted by Ceneton editor
   transcription:
     by: null
@@ -6883,7 +6885,10 @@
   source:
     title: Census Nederlands Toneel (Ceneton)
     url: https://www.hum2.leidenuniv.nl/Dutch/Ceneton/HeinsiusAuriacus1602.html
-    type: TXT
+    type: HTML
+    availability:
+      status: free
+      note: In the public domain.
     source:
       title: "Danielis Heinsii Auriacus Sive libertas saucia. Accedunt eiusdem Iambi.
         Partim morales, partim ad amicos, partim amicorum causâ scripti. Leiden:
@@ -6914,8 +6919,6 @@
   regionQid: Q476033
   project: null
   status: text
-  availability:
-    status: free
   licenceNotes: Public domain, permission granted by Ceneton editor
   transcription:
     by: null
@@ -6926,7 +6929,10 @@
   source:
     title: Census Nederlands Toneel (Ceneton)
     url: https://www.hum2.leidenuniv.nl/Dutch/Ceneton/HeinsiusHerodes1632.html
-    type: TXT
+    type: HTML
+    availability:
+      status: free
+      note: In the public domain.
     source:
       title: "Danielis Heinsii Herodes infanticida. Tragoedia. Leiden: Ex Officinâ
         Elzeviriana 1632."
@@ -6993,8 +6999,6 @@
   regionQid: Q476033
   project: null
   status: text
-  availability:
-    status: free
   licenceNotes: Public domain, permission granted by Ceneton editor
   transcription:
     by: null
@@ -7005,7 +7009,10 @@
   source:
     title: Census Nederlands Toneel (Ceneton)
     url: https://www.let.leidenuniv.nl/Dutch/Ceneton/Molanus69Salomon1550ca.html
-    type: TXT
+    type: HTML
+    availability:
+      status: free
+      note: In the public domain.
     source:
       title: "Johannes Molanus: Judicium Salomonis. Diest [1550]."
       date: "1550"
@@ -7033,8 +7040,6 @@
   regionQid: Q476033
   project: null
   status: text
-  availability:
-    status: free
   licenceNotes: Public domain, permission granted by Ceneton editor
   transcription:
     by: null
@@ -7045,7 +7050,10 @@
   source:
     title: Census Nederlands Toneel (Ceneton)
     url: https://www.hum2.leidenuniv.nl/Dutch/Ceneton/ErasmusIphigenia1506.html
-    type: TXT
+    type: HTML
+    availability:
+      status: free
+      note: In the public domain.
     source:
       title: "Roterodamus, Erasmus: Euripidis Iphigenia. In: Euripidis Tragici poetae
         nobilissimi Hecuba et Iphigenia. Latinae factae Erasmo Roterodamo
@@ -7078,8 +7086,6 @@
   regionQid: Q476033
   project: null
   status: text
-  availability:
-    status: free
   licenceNotes: Public domain, permission granted by Ceneton editor
   transcription:
     by: null
@@ -7091,7 +7097,10 @@
     title: Census Nederlands Toneel (Ceneton)
     editor: P. Koning; Ton Harmsen
     url: https://www.hum2.leidenuniv.nl/Dutch/Ceneton/AelhuisenAranEtTitusJanVos1658.html
-    type: TXT
+    type: HTML
+    availability:
+      status: free
+      note: In the public domain.
     source:
       title: "Aran & Titus. Mutua vindicatio, interprete schola Thielana. Thiela:
         Gosuinus à Duyn 1658."
@@ -7120,8 +7129,6 @@
   regionQid: Q476033
   project: null
   status: text
-  availability:
-    status: free
   licenceNotes: Public domain, permission granted by Ceneton editor
   transcription:
     by: null
@@ -7133,7 +7140,10 @@
     title: Census Nederlands Toneel (Ceneton)
     editor: Ton Harmsen
     url: https://www.hum2.leidenuniv.nl/Dutch/Ceneton/WinsemiusOedipusTyrannus1603.html
-    type: TXT
+    type: HTML
+    availability:
+      status: free
+      note: In the public domain.
     source:
       title: "Winsemius, Vitus: Oedipus tyrannus. In: ΣΟΦΟΚΛΕΟΥΣ ΑΙ ΕΠΤΑ ΤΡΑΓΩΔΙΑΕ.
         Sophoclis tragoediae septem. Unà cum omnibus Graecis scholiis, et Latina
@@ -7165,8 +7175,6 @@
   regionQid: Q476033
   project: null
   status: text
-  availability:
-    status: free
   licenceNotes: Public domain, permission granted by Ceneton editor
   transcription:
     by: null
@@ -7178,7 +7186,10 @@
     title: Census Nederlands Toneel (Ceneton)
     editor: G. C. van Uitert; Ton Harmsen
     url: https://www.let.leidenuniv.nl/Dutch/Ceneton/ZovitiusOvisPerdita1539.html
-    type: TXT
+    type: HTML
+    availability:
+      status: free
+      note: In the public domain.
     source:
       title: "Ovis perdita autore Iacobo Zovitio apud Braedanos Ludimagistro.
         Antwerpen: Martinus Caesar 1539."
@@ -7207,8 +7218,6 @@
   regionQid: Q476033
   project: null
   status: text
-  availability:
-    status: free
   licenceNotes: Public domain, permission granted by Ceneton editor
   transcription:
     by: null
@@ -7220,7 +7229,10 @@
     title: Census Nederlands Toneel (Ceneton)
     editor: Ton Harmsen
     url: https://www.hum2.leidenuniv.nl/Dutch/Ceneton/ZovitiusRuth1533.html
-    type: TXT
+    type: HTML
+    availability:
+      status: free
+      note: In the public domain.
     source:
       title: "Ruth. Authore Iacobo Zovitio Driescharo. Ludi Hoochstratani
         hypodidascalo. Zocitij Distichon ad invidium. Antwerpen: Michael

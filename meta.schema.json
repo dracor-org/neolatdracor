@@ -54,18 +54,6 @@
       },
       "project": { "type": ["string", "null"] },
       "status": { "type": "string" },
-      "availability": {
-        "type": "object",
-        "properties": {
-          "status": {
-            "type": ["string", "null"]
-          },
-          "notes": {
-            "type": ["string", "null"]
-          }
-        },
-        "required": ["status"]
-      },
       "licenceNotes": { "type": ["string", "null"] },
       "source": {
         "$ref": "#/definitions/source",
@@ -112,7 +100,6 @@
       "regionQid",
       "project",
       "status",
-      "availability",
       "licenceNotes",
       "complete"
     ]
@@ -144,9 +131,12 @@
           ]
         },
         "copyright": { "type": "string" },
-        "availability": {
+        "availability": { 
           "type": "object",
           "properties": {
+            "status": { 
+              "type": ["string", "null"] 
+            },
             "licence": { "type": "string" },
             "licenceUrl": { "type": "string" },
             "note": { "type": "string" }
