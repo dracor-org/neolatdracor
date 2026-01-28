@@ -2538,7 +2538,7 @@
   _includeDocx: false
 - id: neolat000009
   name: alberti-philodoxeos-fabula
-  title: Philodoxeos Fabula
+  title: Philodoxeos fabula
   qid: null
   authors:
     - forename: Leo Baptista
@@ -2546,38 +2546,41 @@
       qid: Q182046
       gnd: "11850147X"
   yearPrinted: "1501"
-  yearWritten: null
+  yearWritten: "1424"
   premiered: null
   form: prose
   genre: comedy
   genreQid: Q40831
-  region: INFORMATION NEEDED
-  regionQid: null
+  region: Republic of Florence
+  regionQid: Q148540
   project: TransLatin
-  status: .docx, tei (basic)
-  availability:
-    status: free
-  licenceNotes: null
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
-  institution: Huygens Institute
+  status: DOCX, TEI (basic)
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   source:
     title: TransLatin
     editor: Jan Bloemendal
-    url: https://github.com/HuygensING/translatin/blob/main/datasource/transcriptionsOrig/docx/Alberti-Philodoxus.docx
+    url: https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Alberti-Philodoxus.docx
     type: DOCX
+    note: Commit 17eb746e9fc8b8e3326bd2c415035c30ddda5add
+    availability:
+      status: free
     source:
-      title: "Leon Batt. Alberti, Opere vulgare, per la più parte inedite e tratte
-        dagli autographi, annotate e illustrate dal dott. Anicio Bonucci, vol. 1
-        (Florence: Galilei, 1843). pp. cxxvii-clxv"
-      editor: Anicio Bonucci
-      year: "1843"
+      title: Google Books
       url: https://books.google.com/books?id=CApZAAAAYAAJ
-      type: print
-  complete: false
-  _includeInOverview: false
-  _includeDocx: false
+      type: PDF
+      availability:
+        status: free
+        note: In the public domain.
+        source:
+          title: "Philodoxios Leonis Baptistae Alberti fabula iam sub Lepidi antiqui Comici nomine pervagata. 
+            In: Leon Batt. Alberti, Opere vulgare, per la più parte inedite e tratte dagli autographi, 
+            annotate e illustrate dal dott. Anicio Bonucci. Vol. 1. Florence: Galilei 1843. pp. CXXVII-CLXVI."
+          editor: Anicio Bonucci
+          year: "1843"
+          type: print
+  complete: true
+  _includeInOverview: true
+  _includeDocx: true
 - id: neolat000007
   name: aler-innocentia-victrix
   title: Innocentia victrix sive Genovefa
@@ -2596,25 +2599,27 @@
   region: Holy Roman Empire
   regionQid: Q12548
   project: TransLatin
-  status: .docx, tei (basic)
-  availability:
-    status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
-  institution: Huygens Institute
+  status: DOCX, TEI (basic)
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   source:
     title: TransLatin
     editor: Jan Bloemendal
-    url: https://github.com/HuygensING/translatin/blob/main/datasource/transcriptionsOrig/docx/Aler-Innocentia.docx
+    url: https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Aler-Innocentia.docx
     type: DOCX
+    note: Commit 17eb746e9fc8b8e3326bd2c415035c30ddda5add, older version used, needs checking
+    availability:
+      status: free
     source:
-      title: "Paul Aler: Innocentia victrix sive Genovefa. Cologne: Johann Alstorff
-        1706."
-      year: "1706"
+      title: Google Books
       url: https://play.google.com/books/reader?id=CtBEAAAAcAAJ
-      type: print
+      type: PDF
+      availability:
+        status: free
+        note: In the public domain.
+      source:
+        title: "Paul Aler: Innocentia victrix sive Genovefa. Cologne: Johann Alstorff 1706."
+        year: "1706"
+        type: print
   complete: true
   _includeInOverview: true
   _includeDocx: false
@@ -2634,27 +2639,32 @@
   form: verse
   genre: tragedy
   genreQid: Q80930
-  region: INFORMATION NEEDED
-  regionQid: null
+  region: Holy Roman Empire
+  regionQid: Q12548
   project: TransLatin
-  status: .docx, tei (basic)
-  availability:
-    status: free
-  licenceNotes: null
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
-  institution: Huygens Institute
+  status: DOCX, TEI (basic)
+  licenceNotes: possible licence conflict
   source:
     title: TransLatin
     editor: Jan Bloemendal
-    url: https://github.com/HuygensING/translatin/blob/main/datasource/transcriptionsOrig/docx/Balde-Iephtias.docx
+    url: hhttps://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Balde-Iephtias.docx
     type: DOCX
+    note: Commit 17eb746e9fc8b8e3326bd2c415035c30ddda5add
+    availability:
+      status: free
     source:
-      title: Coloniae Ubiorum, Apud Ioannem Busaeum
+      title: Mateo
+      editor: Susanne Mussmann
       url: mateo.uni-mannheim.de/camena/bald4/baldepoemata4.html
-      type: print
-  complete: false
+      type: HTML
+      availability:
+        licence: CC BY-SA 3.0
+        licenceUrl: http://creativecommons.org/licenses/by-sa/3.0/legalcode
+      source:
+        title: "Iacobus Balde: Iephtias Tragoedia. Celsissimo S.R.I. Principi ac Domino D. Ioanni Weichardo Principi ab Auersperg. Cologne: Joannes Busaeus 1660."
+        year: "1660"
+        type: print
+  complete: true
   _includeInOverview: false
   _includeDocx: false
 - id: neolat000036
@@ -2672,33 +2682,30 @@
   form: prose
   genre: dialogue
   genreQid: Q3025978
-  region: INFORMATION NEEDED
-  regionQid: null
+  region: Low Countries
+  regionQid: Q476033
   project: TransLatin
-  status: .docx, tei (basic)
-  availability:
-    status: free
-  licenceNotes: null
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
-  institution: Huygens Institute
+  status: DOCX, TEI (basic)
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   source:
     title: TransLatin
     editor: Jan Bloemendal
-    url: https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Barlandus-Dialogus.docx
+    url: https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Barlandus-Dialogus.docx
     type: DOCX
+    note: Commit 17eb746e9fc8b8e3326bd2c415035c30ddda5add
+    availability:
+      status: free
     source:
-      title: "Étienne Daxhelet, Adrien Barlandus humaniste Belge 1486-1638: Sa Vie,
-        Son Oeuvre, Sa Personnalité, Humanistica Lovaniensia, 6 (Leuven:
-        Uystpruyst, 1938), Repr. Nendeln, Liechtenstein: Kraus Reprint Ltd.,
-        1967). pp. 218-220."
+      title: "Adrianus Barlandus: Dialogus recitatus in Ecyram Terentij publice exhibitam Louanij, 
+        Anno restitutae salutatis MDXXIIII. In: Étienne Daxhelet: Adrien Barlandus humaniste Belge 1486-1638: 
+        Sa Vie, Son Oeuvre, Sa Personnalité. In: Humanistica Lovaniensia 6 (1938). pp. 218-220. 
+        Repr. Nendeln, Liechtenstein: Kraus Reprint Ltd. 1967."
       editor: Étienne Daxhelet
       year: "1938"
       type: critical edition
-  complete: false
-  _includeInOverview: false
-  _includeDocx: false
+  complete: true
+  _includeInOverview: true
+  _includeDocx: true
 - id: neolat000038
   name: brechtus-euripus
   title: Euripus
@@ -2718,29 +2725,32 @@
   region: Holy Roman Empire
   regionQid: Q12548
   project: TransLatin
-  status: .docx, tei (basic)
-  availability:
-    status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
-  institution: Huygens Institute
+  status: DOCX, TEI (basic)
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   source:
     title: TransLatin
     editor: Jan Bloemendal
-    url: https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Brechtus-Euripus.docx
+    url: https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Brechtus-Euripus.docx
     type: DOCX
+    note: Commit 17eb746e9fc8b8e3326bd2c415035c30ddda5add
+    availability:
+      status: free
     source:
-      title: "Euripus. Tragoedia Christiana nova, authore F. Livino Brechto
-        Antverpiensi e familia franciscana Louaniensi. Ad Reuerendissimum in
-        Christo |Patrem, et illustrissimum Principem, D. Georgium ab Austria,
-        Episcopum Leodiens. Ducem Bullonens. Comitem Lossens. etc. Leuven:
-        Martinus Rotarius; Petrus Phalesius 1549."
-      year: "1549"
+      title: Google Books
       url: https://books.google.com/books?id=Nua_TBRwCikC
-      type: print
-  complete: false
+      type: PDF
+      availability:
+        status: free
+        note: In the public domain.
+      source:
+        title: "Euripus. Tragoedia Christiana nova, authore F. Livino Brechto
+          Antverpiensi e familia franciscana Louaniensi. Ad Reuerendissimum in
+          Christo |Patrem, et illustrissimum Principem, D. Georgium ab Austria,
+          Episcopum Leodiens. Ducem Bullonens. Comitem Lossens. etc. Leuven:
+          Martinus Rotarius; Petrus Phalesius 1549."
+        year: "1549"
+        type: print
+  complete: true
   _includeInOverview: true
   _includeDocx: true
 - id: neolat000039
@@ -2761,26 +2771,29 @@
   region: Holy Roman Empire
   regionQid: Q12548
   project: TransLatin
-  status: .docx, tei (basic)
-  availability:
-    status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
-  institution: Huygens Institute
+  status: DOCX, TEI (basic)
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   source:
     title: TransLatin
     editor: Jan Bloemendal
-    url: https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Beza-Abrahamus.docx
+    url: https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Beza-Abrahamus.docx
     type: DOCX
+    note: Commit 17eb746e9fc8b8e3326bd2c415035c30ddda5add
+    availability:
+      status: free
     source:
-      title: "Abrahamus sacrificans. Tragoedia ante plures annos a D. Th. Beza Gallicè
-        edita nunc verò Latina facta, Per Iacobum Brunonem. Cum appendice
-        Epigrammatum. Amsterdam: Laurentius Iacobus 1599."
-      year: "1599"
+      title: Google Books
       url: https://books.google.com/books?id=maxlAAAAcAAJ
-      type: print
+      type: PDF
+      availability:
+        status: free
+        note: In the public domain.
+      source:
+        title: "Abrahamus sacrificans. Tragoedia ante plures annos a D. Th. Beza Gallicè
+          edita nunc verò Latina facta, Per Iacobum Brunonem. Cum appendice
+          Epigrammatum. Amsterdam: Laurentius Iacobus 1599."
+        year: "1599"
+        type: print
   complete: true
   _includeInOverview: true
   _includeDocx: true
@@ -2802,35 +2815,39 @@
   region: Low Countries
   regionQid: Q476033
   project: TransLatin
-  status: .docx, tei (basic)
-  availability:
-    status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
-  institution: Huygens Institute
+  status: DOCX, TEI (basic)
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   source:
     title: TransLatin
     editor: Jan Bloemendal
-    url: https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Placentius-Plausus.docx
+    url: https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Placentius-Plausus.docx
     type: DOCX
+    note: Commit 17eb746e9fc8b8e3326bd2c415035c30ddda5add
+    availability:
+      status: free
     source:
-      title: "Eusebius Candidus: Plausus luctificae Mortis. In: Susanna per Placentium
-        euangelisten lusa. Eusebii Candidi Elegia, in uanam breuemque; humanae
-        uitae gloriolam. Item Ode Sapphica eiusdem Eusebii, in mortis
-        recordationem. Item Plausus luctificae Mortis, ad modum Dialogi,
-        extemporaliter ab eodem Eusebio lusus. [Antwerpen:] Martinus Caesar
-        1534."
-      year: "1534"
+      title: Google Books
       url: https://books.google.com/books?id=VD44U0886h0C
-      type: print
+      type: PDF
+      availability:
+        status: free
+        note: In the public domain.
+      source:
+        title: "Eusebius Candidus: Plausus luctificae Mortis. In: Susanna per Placentium
+          euangelisten lusa. Eusebii Candidi Elegia, in uanam breuemque; humanae
+          uitae gloriolam. Item Ode Sapphica eiusdem Eusebii, in mortis
+          recordationem. Item Plausus luctificae Mortis, ad modum Dialogi,
+          extemporaliter ab eodem Eusebio lusus. [Antwerp:] Martinus Caesar
+          1534."
+        year: "1534"
+        type: print
   complete: true
   _includeInOverview: true
   _includeDocx: true
 - id: neolat000006
   name: caussinus-felicitas
   title: Felicitas
+  subtitle: Tragoedia sacra
   qid: null
   authors:
     - forename: Nicolaus
@@ -2846,31 +2863,35 @@
   region: Kingdom of France
   regionQid: Q70972
   project: TransLatin
-  status: .docx, tei (basic)
-  availability:
-    status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
-  transcription:
-    by: Jan Bloemendal
-    supervisor: null
-  institution: Huygens Institute
+  status: DOCX, TEI (basic)
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   source:
     title: TransLatin
     editor: Jan Bloemendal
-    url: https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Caussin-Felicitas.docx
+    url: https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Caussin-Felicitas.docx
     type: DOCX
+    note: Commit 17eb746e9fc8b8e3326bd2c415035c30ddda5add
+    availability:
+      status: free
     source:
-      title: "Nicolas Caussin: Felicitas. In: Tragoediae Sacrae. Cologne: Johann
-        Kinckius 1621. pp. 175–261."
-      year: "1621"
+      title: Google Books
       url: https://play.google.com/books/reader?id=RG4UAAAAQAAJ
-      type: print
+      type: PDF
+      availability:
+        status: free
+        note: In the public domain.
+      source:
+        title: "Nicolas Caussin: Felicitas. In: Tragoediae Sacrae. Cologne: Johann
+          Kinckius 1621. pp. 165–261."
+        year: "1621"
+        type: print
   complete: true
   _includeInOverview: true
   _includeDocx: false
 - id: neolat000043
   name: caussinus-hermenigildus
   title: Hermenigildus
+  subtitle: Actio oratoria
   qid: null
   authors:
     - forename: Nicolaus
@@ -2886,30 +2907,35 @@
   region: Kingdom of France
   regionQid: Q70972
   project: TransLatin
-  status: .docx, tei (basic)
-  availability:
-    status: free
-  licenceNotes: null
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
-  institution: Huygens Institute
+  status: DOCX, TEI (basic)
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   source:
     title: TransLatin
     editor: Jan Bloemendal
-    url: https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Caussin-Hermenigildus.docx
+    url: https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Caussin-Hermenigildus.docx
     type: DOCX
+    note: Commit 17eb746e9fc8b8e3326bd2c415035c30ddda5add
+    availability:
+      status: free
     source:
-      title: INFORMATION NEEDED
-      year: INFORMATION NEEDED
+      title: Google Books
       url: https://play.google.com/books/reader?id=RG4UAAAAQAAJ
-      type: print
-  complete: false
-  _includeInOverview: false
-  _includeDocx: false
+      type: PDF
+      availability:
+        status: free
+        note: In the public domain.
+      source:
+        title: "Nicolas Caussin: Hermenigildus. In: Tragoediae Sacrae. Cologne: Johann
+          Kinckius 1621. pp. 335–414."
+        year: "1621"
+        type: print
+  complete: true
+  _includeInOverview: true
+  _includeDocx: true
 - id: neolat000044
   name: caussinus-nabuchodonosor
   title: Nabuchodonosor
+  subtitle: Tragoedia
   qid: null
   authors:
     - forename: Nicolaus
@@ -2925,30 +2951,35 @@
   region: Kingdom of France
   regionQid: Q70972
   project: TransLatin
-  status: .docx, tei (basic)
-  availability:
-    status: free
-  licenceNotes: null
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
-  institution: Huygens Institute
+  status: DOCX, TEI (basic)
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   source:
     title: TransLatin
     editor: Jan Bloemendal
-    url: https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Caussin-Nabuchodonosor.docx
+    url: https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Caussin-Nabuchodonosor.docx
     type: DOCX
+    note: Commit 17eb746e9fc8b8e3326bd2c415035c30ddda5add
+    availability:
+      status: free
     source:
-      title: INFORMATION NEEDED
-      year: INFORMATION NEEDED
+      title: Google Books
       url: https://play.google.com/books/reader?id=RG4UAAAAQAAJ
-      type: print
-  complete: false
-  _includeInOverview: false
-  _includeDocx: false
+      type: PDF
+      availability:
+        status: free
+        note: In the public domain.
+      source:
+        title: "Nicolas Caussin: Nabuchodonosor. In: Tragoediae Sacrae. Cologne: Johann
+          Kinckius 1621. pp. 92–164."
+        year: "1621"
+        type: print
+  complete: true
+  _includeInOverview: true
+  _includeDocx: true
 - id: neolat000045
   name: caussinus-solyma
   title: Solyma
+  subtitle: Tragoedia
   qid: null
   authors:
     - forename: Nicolaus
@@ -2964,30 +2995,35 @@
   region: Kingdom of France
   regionQid: Q70972
   project: TransLatin
-  status: .docx, tei (basic)
-  availability:
-    status: free
-  licenceNotes: null
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
-  institution: Huygens Institute
+  status: DOCX, TEI (basic)
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   source:
     title: TransLatin
     editor: Jan Bloemendal
-    url: https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Caussin-Solyma.docx
+    url: https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Caussin-Solyma.docx
     type: DOCX
+    note: Commit 17eb746e9fc8b8e3326bd2c415035c30ddda5add
+    availability:
+      status: free
     source:
-      title: INFORMATION NEEDED
-      year: INFORMATION NEEDED
+      title: Google Books
       url: https://play.google.com/books/reader?id=RG4UAAAAQAAJ
-      type: print
-  complete: false
-  _includeInOverview: false
-  _includeDocx: false
+      type: PDF
+      availability:
+        status: free
+        note: In the public domain.
+      source:
+        title: "Nicolas Caussin: Solyma. In: Tragoediae Sacrae. Cologne: Johann
+          Kinckius 1621. pp. 6-91."
+        year: "1621"
+        type: print
+  complete: true
+  _includeInOverview: true
+  _includeDocx: true
 - id: neolat000046
   name: caussinus-theodoricus
   title: Theodoricus
+  subtitle: Tragoedia
   qid: null
   authors:
     - forename: Nicolaus
@@ -3003,30 +3039,35 @@
   region: Kingdom of France
   regionQid: Q70972
   project: TransLatin
-  status: .docx, tei (basic)
-  availability:
-    status: free
-  licenceNotes: null
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
-  institution: Huygens Institute
+  status: DOCX, TEI (basic)
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   source:
     title: TransLatin
     editor: Jan Bloemendal
-    url: https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Caussin-Theodoricus.docx
+    url: https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Caussin-Theodoricus.docx
     type: DOCX
+    note: Commit 17eb746e9fc8b8e3326bd2c415035c30ddda5add
+    availability:
+      status: free
     source:
-      title: INFORMATION NEEDED
-      year: INFORMATION NEEDED
+      title: Google Books
       url: https://play.google.com/books/reader?id=RG4UAAAAQAAJ
-      type: print
+      type: PDF
+      availability:
+        status: free
+        note: In the public domain.
+      source:
+        title: "Nicolas Caussin: Theodoricus. In: Tragoediae Sacrae. Cologne: Johann
+          Kinckius 1621. pp. 262-334."
+        year: "1621"
+        type: print
   complete: true
-  _includeInOverview: false
-  _includeDocx: false
+  _includeInOverview: true
+  _includeDocx: true
 - id: neolat000047
-  name: cellotius-adrianus
-  title: Adrianus
+  name: cellotius-adrianus-martyr
+  title: S. Adrianus Martyr
+  subtitle: Tragoedia
   qid: null
   authors:
     - forename: Ludovicus
@@ -3039,34 +3080,36 @@
   form: verse
   genre: tragedy
   genreQid: Q80930
-  region: INFORMATION NEEDED
-  regionQid: null
+  region: Kingdom of France
+  regionQid: Q70972
   project: TransLatin
-  status: .docx, tei (basic)
-  availability:
-    status: free
-  licenceNotes: null
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
-  institution: Huygens Institute
+  status: DOCX, TEI (basic)
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   source:
     title: TransLatin
     editor: Jan Bloemendal
-    url: https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Cellotius-Adrianus.docx
+    url: https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Cellotius-Adrianus.docx
     type: DOCX
+    note: Commit 17eb746e9fc8b8e3326bd2c415035c30ddda5add
+    availability:
+      status: free
     source:
-      title: Opera poetica / LVDOVICI CELLOTII PARISIENSIS E SOCIET. IESV. OPERA
-        POETICA. PARISIIS. Apud SEBASTIANVM CRAMOISY, viâ Iacobaeâ, sub
-        Ciconiis. M. DC. XXX.
-      url: https://books.google.fr/books?id=ZLNxonJ82gcC
-      type: print
-  complete: false
-  _includeInOverview: false
-  _includeDocx: false
+      title: Google Books
+      url: https://books.google.com/books?id=ZLNxonJ82gcC
+      availability:
+        status: free
+        note: In the public domain.
+      source:
+        title: "Ludovicus Cellotius: S. Adrianus Martyr. In: Opera poetica. Paris: Sebastien Cramoisy 1630. pp. 1-100."
+        year: "1630"
+        type: print
+  complete: true
+  _includeInOverview: true
+  _includeDocx: true
 - id: neolat000048
   name: cellotius-chosroes
   title: Chosroes
+  subtitle: Tragoedia
   qid: null
   authors:
     - forename: Ludovicus
@@ -3079,34 +3122,36 @@
   form: verse
   genre: tragedy
   genreQid: Q80930
-  region: INFORMATION NEEDED
-  regionQid: null
+  region: Kingdom of France
+  regionQid: Q70972
   project: TransLatin
-  status: .docx, tei (basic)
-  availability:
-    status: free
-  licenceNotes: null
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
-  institution: Huygens Institute
+  status: DOCX, TEI (basic)
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   source:
     title: TransLatin
     editor: Jan Bloemendal
-    url: https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Cellotius-Chosroes.docx
+    url: https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Cellotius-Chosroes.docx
     type: DOCX
+    note: Commit 17eb746e9fc8b8e3326bd2c415035c30ddda5add
+    availability:
+      status: free
     source:
-      title: Opera poetica / LVDOVICI CELLOTII PARISIENSIS E SOCIET. IESV. OPERA
-        POETICA. PARISIIS. Apud SEBASTIANVM CRAMOISY, viâ Iacobaeâ, sub
-        Ciconiis. M. DC. XXX.
-      url: https://books.google.fr/books?id=ZLNxonJ82gcC
-      type: print
-  complete: false
-  _includeInOverview: false
-  _includeDocx: false
+      title: Google Books
+      url: https://books.google.com/books?id=ZLNxonJ82gcC
+      availability:
+        status: free
+        note: In the public domain.
+      source:
+        title: "Ludovicus Cellotius: Chosroes. In: Opera poetica. Paris: Sebastien Cramoisy 1630. pp. 238-318."
+        year: "1630"
+        type: print
+  complete: true
+  _includeInOverview: true
+  _includeDocx: true
 - id: neolat000049
   name: cellotius-reviviscentes
   title: Reviviscentes
+  subtitle: Tragicomoedia
   qid: null
   authors:
     - forename: Ludovicus
@@ -3119,34 +3164,36 @@
   form: verse
   genre: tragicomedy
   genreQid: Q192881
-  region: INFORMATION NEEDED
-  regionQid: null
+  region: Kingdom of France
+  regionQid: Q70972
   project: TransLatin
-  status: .docx, tei (basic)
-  availability:
-    status: free
-  licenceNotes: null
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
-  institution: Huygens Institute
+  status: DOCX, TEI (basic)
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   source:
     title: TransLatin
     editor: Jan Bloemendal
-    url: https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Cellotius-Reviviscentes.docx
+    url: https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Cellotius-Reviviscentes.docx
     type: DOCX
+    note: Commit 17eb746e9fc8b8e3326bd2c415035c30ddda5add
+    availability:
+      status: free
     source:
-      title: Opera poetica / LVDOVICI CELLOTII PARISIENSIS E SOCIET. IESV. OPERA
-        POETICA. PARISIIS. Apud SEBASTIANVM CRAMOISY, viâ Iacobaeâ, sub
-        Ciconiis. M. DC. XXX.
-      url: https://books.google.fr/books?id=ZLNxonJ82gcC
-      type: print
-  complete: false
-  _includeInOverview: false
-  _includeDocx: false
+      title: Google Books
+      url: https://books.google.com/books?id=ZLNxonJ82gcC
+      availability:
+        status: free
+        note: In the public domain.
+      source:
+        title: "Ludovicus Cellotius: Reviviscentes. In: Opera poetica. Paris: Sebastien Cramoisy 1630. pp. 319-430."
+        year: "1630"
+        type: print
+  complete: true
+  _includeInOverview: true
+  _includeDocx: true
 - id: neolat000050
   name: cellotius-sapor-admonitus
   title: Sapor admonitus
+  subtitle: Tragoedia
   qid: null
   authors:
     - forename: Ludovicus
@@ -3159,31 +3206,32 @@
   form: verse
   genre: tragedy
   genreQid: Q80930
-  region: INFORMATION NEEDED
-  regionQid: null
+  region: Kingdom of France
+  regionQid: Q70972
   project: TransLatin
-  status: .docx, tei (basic)
-  availability:
-    status: free
-  licenceNotes: null
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
-  institution: Huygens Institute
+  status: DOCX, TEI (basic)
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   source:
     title: TransLatin
     editor: Jan Bloemendal
-    url: https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Cellotius-Sapor.docx
+    url: https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Cellotius-Sapor.docx
     type: DOCX
+    note: Commit 17eb746e9fc8b8e3326bd2c415035c30ddda5add
+    availability:
+      status: free
     source:
-      title: Opera poetica / LVDOVICI CELLOTII PARISIENSIS E SOCIET. IESV. OPERA
-        POETICA. PARISIIS. Apud SEBASTIANVM CRAMOISY, viâ Iacobaeâ, sub
-        Ciconiis. M. DC. XXX.
-      url: https://books.google.fr/books?id=ZLNxonJ82gcC
-      type: print
-  complete: false
-  _includeInOverview: false
-  _includeDocx: false
+      title: Google Books
+      url: https://books.google.com/books?id=ZLNxonJ82gcC
+      availability:
+        status: free
+        note: In the public domain.
+      source:
+        title: "Ludovicus Cellotius: Sapor admonitus. In: Opera poetica. Paris: Sebastien Cramoisy 1630. pp. 101-237."
+        year: "1630"
+        type: print
+  complete: true
+  _includeInOverview: true
+  _includeDocx: true
 - id: neolat000051
   name: celtis-ludus-dianae
   title: Ludus Dianae
@@ -3202,14 +3250,8 @@
   region: INFORMATION NEEDED
   regionQid: null
   project: TransLatin
-  status: .docx, tei (basic)
-  availability:
-    status: free
+  status: DOCX, TEI (basic)
   licenceNotes: null
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
-  institution: Huygens Institute
   source:
     title: TransLatin
     editor: Jan Bloemendal
@@ -3248,13 +3290,10 @@
   region: INFORMATION NEEDED
   regionQid: null
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
   licenceNotes: null
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -3297,13 +3336,10 @@
   region: INFORMATION NEEDED
   regionQid: null
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
   licenceNotes: null
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -3337,13 +3373,10 @@
   region: INFORMATION NEEDED
   regionQid: null
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
   licenceNotes: Permission by editor needed
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -3379,13 +3412,10 @@
   region: null
   regionQid: null
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -3420,13 +3450,10 @@
   region: INFORMATION NEEDED
   regionQid: null
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
   licenceNotes: null
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -3458,7 +3485,7 @@
   region: INFORMATION NEEDED
   regionQid: null
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
   licenceNotes: Permission by editor needed
@@ -3498,13 +3525,10 @@
   region: Low Countries
   regionQid: Q476033
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -3541,10 +3565,10 @@
   region: Low Countries
   regionQid: Q476033
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   transcription:
     by: Bram Boers
     supervisor: Jan Bloemendal
@@ -3582,13 +3606,10 @@
   region: INFORMATION NEEDED
   regionQid: null
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
   licenceNotes: Permission by the editor and University of Birmingham needed
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
   acknowledgements: Copyright of the online critical edition (c) University of Birmingham
   institution: Huygens Institute
   source:
@@ -3624,13 +3645,10 @@
   region: Kingdom of England
   regionQid: Q179876
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
   licenceNotes: null
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -3664,13 +3682,10 @@
   region: INFORMATION NEEDED
   regionQid: null
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -3703,13 +3718,10 @@
   region: INFORMATION NEEDED
   regionQid: null
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
   licenceNotes: null
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -3746,13 +3758,10 @@
   region: INFORMATION NEEDED
   regionQid: null
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
   licenceNotes: null
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -3790,13 +3799,10 @@
   region: INFORMATION NEEDED
   regionQid: null
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
   licenceNotes: null
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -3834,13 +3840,10 @@
   region: Kingdom of England
   regionQid: Q179876
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -3874,10 +3877,10 @@
   region: Low Countries
   regionQid: Q476033
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   transcription:
     by: Bram Boers
     supervisor: Jan Bloemendal
@@ -3915,13 +3918,10 @@
   region: Low Countries
   regionQid: Q476033
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -3957,13 +3957,10 @@
   region: Low Countries
   regionQid: Q476033
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -3998,13 +3995,10 @@
   region: INFORMATION NEEDED
   regionQid: null
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
   licenceNotes: null
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -4037,13 +4031,10 @@
   region: Low Countries
   regionQid: Q476033
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -4081,13 +4072,10 @@
   region: INFORMATION NEEDED
   regionQid: null
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
   licenceNotes: null
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -4128,10 +4116,10 @@
   region: Kingdom of Italy
   regionQid: Q5343710
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   transcription:
     by: null
     supervisor: Jan Bloemendal
@@ -4177,13 +4165,10 @@
   region: INFORMATION NEEDED
   regionQid: null
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
   licenceNotes: null
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -4217,13 +4202,10 @@
   region: INFORMATION NEEDED
   regionQid: null
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
   licenceNotes: null
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -4259,7 +4241,7 @@
   status: tei, published
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   transcription:
     by: Bram Boers
     supervisor: Jan Bloemendal
@@ -4301,10 +4283,10 @@
   region: Low Countries
   regionQid: Q476033
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   transcription:
     by: INFORMATION NEEDED
     supervisor: Jan Blomendal
@@ -4344,10 +4326,10 @@
   region: Low Countries
   regionQid: Q476033
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   transcription:
     by: INFORMATION NEEDED
     supervisor: Jan Blomendal
@@ -4385,10 +4367,10 @@
   region: Low Countries
   regionQid: Q476033
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   transcription:
     by: Bram Boers
     supervisor: Jan Bloemendal
@@ -4428,13 +4410,10 @@
   region: Low Countries
   regionQid: Q476033
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -4469,13 +4448,10 @@
   region: Low Countries
   regionQid: Q476033
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -4512,13 +4488,10 @@
   region: Low Countries
   regionQid: Q476033
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -4558,7 +4531,7 @@
   status: tei, published
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   transcription:
     by: Bram Boers
     supervisor: Jan Bloemendal
@@ -4598,13 +4571,10 @@
   region: INFORMATION NEEDED
   regionQid: null
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -4636,10 +4606,10 @@
   region: null
   regionQid: null
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   transcription:
     by: Jan Bloemendal
     supervisor: null
@@ -4676,10 +4646,10 @@
   region: INFORMATION NEEDED
   regionQid: null
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   transcription:
     by: Jan Bloemendal
     supervisor: null
@@ -4714,13 +4684,10 @@
   region: INFORMATION NEEDED
   regionQid: null
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
   licenceNotes: null
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -4757,13 +4724,10 @@
   region: Low Countries
   regionQid: Q476033
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -4797,13 +4761,10 @@
   region: INFORMATION NEEDED
   regionQid: null
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
   licenceNotes: null
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -4835,13 +4796,10 @@
   region: INFORMATION NEEDED
   regionQid: null
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
   licenceNotes: null
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -4873,13 +4831,10 @@
   region: Low Countries
   regionQid: Q476033
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -4916,7 +4871,7 @@
   status: tei, published
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   transcription:
     by: Jan Bloemendal
     supervisor: null
@@ -4957,13 +4912,10 @@
   region: INFORMATION NEEDED
   regionQid: null
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
   licenceNotes: null
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -4995,13 +4947,10 @@
   region: INFORMATION NEEDED
   regionQid: null
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
   licenceNotes: null
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -5035,13 +4984,10 @@
   region: Holy Roman Empire
   regionQid: Q12548
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -5075,10 +5021,10 @@
   region: null
   regionQid: null
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   transcription:
     by: Jan Bloemendal
     supervisor: null
@@ -5116,13 +5062,10 @@
   region: INFORMATION NEEDED
   regionQid: null
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
   licenceNotes: Permission by the editor and University of Birmingham needed
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
   acknowledgements: Copyright of the online critical edition (c) University of Birmingham
   institution: Huygens Institute
   source:
@@ -5159,13 +5102,10 @@
   region: Kingdom of France
   regionQid: Q70972
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -5199,13 +5139,10 @@
   region: INFORMATION NEEDED
   regionQid: null
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
   licenceNotes: Check copyright
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -5237,10 +5174,10 @@
   region: Low Countries
   regionQid: Q476033
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   transcription:
     by: Jan Bloemendal
     supervisor: null
@@ -5281,10 +5218,10 @@
   region: Low Countries
   regionQid: Q476033
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   transcription:
     by: Jan Bloemendal
     supervisor: null
@@ -5325,10 +5262,10 @@
   region: Low Countries
   regionQid: Q476033
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   transcription:
     by: Jan Bloemendal
     supervisor: null
@@ -5367,10 +5304,10 @@
   region: Low Countries
   regionQid: Q476033
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   transcription:
     by: Jan Bloemendal
     supervisor: null
@@ -5411,10 +5348,10 @@
   region: Low Countries
   regionQid: Q476033
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   transcription:
     by: Jan Bloemendal
     supervisor: null
@@ -5454,10 +5391,10 @@
   region: Low Countries
   regionQid: Q476033
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   transcription:
     by: Jan Bloemendal
     supervisor: null
@@ -5495,10 +5432,10 @@
   region: Low Countries
   regionQid: Q476033
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   transcription:
     by: Jan Bloemendal
     supervisor: null
@@ -5537,10 +5474,10 @@
   region: Low Countries
   regionQid: Q476033
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   transcription:
     by: Jan Bloemendal
     supervisor: null
@@ -5579,10 +5516,10 @@
   region: Low Countries
   regionQid: Q476033
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   transcription:
     by: Jan Bloemendal
     supervisor: null
@@ -5621,10 +5558,10 @@
   region: Low Countries
   regionQid: Q476033
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   transcription:
     by: Jan Bloemendal
     supervisor: null
@@ -5663,10 +5600,10 @@
   region: Low Countries
   regionQid: Q476033
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   transcription:
     by: Jan Bloemendal
     supervisor: null
@@ -5707,10 +5644,10 @@
   region: Low Countries
   regionQid: Q476033
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   transcription:
     by: Jan Bloemendal
     supervisor: null
@@ -5750,10 +5687,10 @@
   region: Low Countries
   regionQid: Q476033
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   transcription:
     by: Jan Bloemendal
     supervisor: null
@@ -5792,10 +5729,10 @@
   region: Low Countries
   regionQid: Q476033
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   transcription:
     by: Jan Bloemendal
     supervisor: null
@@ -5835,10 +5772,10 @@
   region: Low Countries
   regionQid: Q476033
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   transcription:
     by: Jan Bloemendal
     supervisor: null
@@ -5877,10 +5814,10 @@
   region: Low Countries
   regionQid: Q476033
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   transcription:
     by: Jan Bloemendal
     supervisor: null
@@ -5920,10 +5857,10 @@
   region: Low Countries
   regionQid: Q476033
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   transcription:
     by: Jan Bloemendal
     supervisor: null
@@ -5964,10 +5901,10 @@
   region: Low Countries
   regionQid: Q476033
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   transcription:
     by: Jan Bloemendal
     supervisor: null
@@ -6006,13 +5943,10 @@
   region: INFORMATION NEEDED
   regionQid: null
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
   licenceNotes: null
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -6044,13 +5978,10 @@
   region: Holy Roman Empire
   regionQid: Q12548
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -6089,10 +6020,10 @@
   region: Holy Roman Empire
   regionQid: Q12548
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief who OCRed
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible who OCRed
     and transcribed the scan
   transcription:
     by: Jan Bloemendal
@@ -6132,13 +6063,10 @@
   region: Low Countries
   regionQid: Q476033
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -6174,7 +6102,7 @@
   region: INFORMATION NEEDED
   regionQid: null
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
   licenceNotes: null
@@ -6214,13 +6142,10 @@
   region: INFORMATION NEEDED
   regionQid: null
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
   licenceNotes: null
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -6254,13 +6179,10 @@
   region: INFORMATION NEEDED
   regionQid: null
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
   licenceNotes: null
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -6293,13 +6215,10 @@
   region: INFORMATION NEEDED
   regionQid: null
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -6333,13 +6252,10 @@
   region: INFORMATION NEEDED
   regionQid: null
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -6375,13 +6291,10 @@
   region: INFORMATION NEEDED
   regionQid: null
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -6414,13 +6327,10 @@
   region: INFORMATION NEEDED
   regionQid: null
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
   licenceNotes: Permission by editor needed
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -6454,13 +6364,10 @@
   region: INFORMATION NEEDED
   regionQid: null
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
   licenceNotes: null
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -6492,13 +6399,10 @@
   region: INFORMATION NEEDED
   regionQid: null
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
   licenceNotes: null
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -6531,13 +6435,10 @@
   region: INFORMATION NEEDED
   regionQid: null
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
   licenceNotes: null
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -6570,13 +6471,10 @@
   region: Low Countries
   regionQid: Q476033
   project: TransLatin
-  status: .docx, tei (basic)
+  status: DOCX, TEI (basic)
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Bloemendal
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   institution: Huygens Institute
   source:
     title: TransLatin
@@ -6963,7 +6861,7 @@
   status: .docx
   availability:
     status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   transcription:
     by: Jan Bloemendal
     supervisor: null
