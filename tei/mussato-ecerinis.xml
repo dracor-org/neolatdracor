@@ -6,7 +6,7 @@
          <titleStmt>
             <title>Ecerinis</title>
             <author>
-               <persName xml:id="Mussato">
+               <persName xml:id="mussato">
                   <forename>Albertino</forename>
                   <surname>Mussato</surname>
                </persName>
@@ -33,14 +33,11 @@
                <name>Albertino Mussato <emph>Ecerinis</emph></name>
                <idno type="URL">https://www.poetiditalia.it/texts/MUSSATO|ecer|001</idno>
                <availability status="free">
-                  <p>The editions published under the research project <emph>Musisque Deoque: A
-                        digital archive of Latin poetry, from its origins to the Italian
-                        Renaissance</emph> are distributed under the Creative Commons
-                     Attribution-ShareAlike 4.0 Unported License </p>
+                  <p>The editions published under the research project <emph>Musisque Deoque: A digital archive of Latin poetry, from its origins to the Italian Renaissance</emph> are distributed under the Creative Commons Attribution-ShareAlike 4.0 Unported License </p>
                </availability>
                <bibl type="originalSource">
-                  <title/>
-                  <!-- Not sure what to put here. The Poeti d'Italia XML doesn't list a printed edition. Should I add Poeti d'Italia as the original source even though it's not printed? Note that Poeti d'Italia is a series published as part of the MQDQ project-->
+                  <author>Albertino Mussato</author>: <title level="a">Ecerinis</title>. In: <title level="s">Ecerinide:Tragedia</title>. A cura di <editor>Luigi Padrin</editor>, con uno studio di Giosue Carducci. <pubPlace>Bologna</pubPlace>: <publisher>Ditta Nicola Zanichell</publisher>, <date>1900</date>.
+                  <biblScope unit="page" from="23" to="66">23-66</biblScope>.
                </bibl>
             </bibl>
          </sourceDesc>
@@ -48,31 +45,31 @@
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person xml:id="Ecerinus" sex="MALE" ana="https://www.wikidata.org/wiki/Q787178">
+               <person xml:id="ecerinus" sex="MALE" ana="https://www.wikidata.org/wiki/Q787178">
                   <persName>Ecerinus</persName>
                </person>
-               <person xml:id="Adelheita" sex="FEMALE">
+               <person xml:id="adelheita" sex="FEMALE">
                   <persName>Adelheita</persName>
                </person>
-               <person xml:id="Albricus" sex="MALE">
+               <person xml:id="albricus" sex="MALE">
                   <persName>Albricus</persName>
                </person>
-               <personGrp xml:id="Chorus" sex="Unknown" role="chorus">
+               <personGrp xml:id="chorus" sex="Unknown" role="chorus">
                   <name>Chorus</name>
                </personGrp>
-               <person xml:id="Nuntius" sex="MALE">
-                  <persName role="messenger">Nuntius</persName>
+               <person xml:id="nuntius" sex="MALE" role="messenger">
+                  <persName>Nuntius</persName>
                </person>
-               <person xml:id="Ziramons" sex="MALE">
+               <person xml:id="ziramons" sex="MALE">
                   <persName>Ziramons</persName>
                </person>
-               <person xml:id="FraterLucas" sex="MALE">
-                  <persName role="friar">Frater Lucas</persName>
+               <person xml:id="frater_lucas" sex="MALE" role="friar">
+                  <persName>Frater Lucas</persName>
                </person>
-               <person xml:id="Ansedisius" sex="MALE">
+               <person xml:id="ansedisius" sex="MALE">
                   <persName>Ansedisius</persName>
                </person>
-               <personGrp xml:id="Commilitones" sex="MALE" role="soldiers">
+               <personGrp xml:id="commilitones" sex="MALE" role="soldiers">
                   <name>Commilitones</name>
                </personGrp>
             </listPerson>
@@ -99,13 +96,18 @@
             <label>1314-1315 CE</label>
          </event>
       </listEvent>
+      <listChange>
+         <change when="2026-01-28">
+            <desc>Converted to DraCor TEI from Musisque Deoque XML by Nitya Chagti; act division based on Grund, 2011.</desc>
+         </change>
+      </listChange>
    </standOff>
    <text>
       <body>
          <div type="act" n="1">
             <div type="scene" n="1">
                <stage>Adelheita, Ecerinus, Albricus</stage>
-               <sp who="#Adelheita">
+               <sp who="#adelheita">
                   <milestone n="1" unit="line"/>
                   <l>Quadnam cruentum sidus Arcthoo potens</l>
                   <milestone n="2" unit="line"/>
@@ -141,13 +143,13 @@
                   <milestone n="17" unit="line"/>
                   <l>pavet animus, advenit horror et membra occupat.</l>
                </sp>
-               <sp who="#Ecerinus">
+               <sp who="#ecerinus">
                   <milestone n="18" unit="line"/>
                   <l>Effare, genetrix: grande quodcumque et ferum est</l>
                   <milestone n="19" unit="line"/>
                   <l part="I">audire iuvat.</l>
                </sp>
-               <sp who="#Adelheita">
+               <sp who="#adelheita">
                   <l part="F">Heu me nefandi criminis</l>
                   <milestone n="20" unit="line"/>
                   <l n="20">stupenda qualitas! Quasi ad vultum redit</l>
@@ -156,7 +158,7 @@
                   <milestone n="22" unit="line"/>
                   <l part="I">exangue corpus.</l>
                </sp>
-               <sp who="#Ecerinus">
+               <sp who="#ecerinus">
                   <l part="F">Erige labantem cito,</l>
                   <milestone n="23" unit="line"/>
                   <l>Albrice, matrem: illusit amentem timor.</l>
@@ -165,22 +167,22 @@
                   <milestone n="25" unit="line"/>
                   <l part="I" n="25">Facile resurget.</l>
                </sp>
-               <sp who="#Albricus">
+               <sp who="#albricus">
                   <l part="F">Pristinas vires habet.</l>
                </sp>
-               <sp who="#Ecerinus">
+               <sp who="#ecerinus">
                   <milestone n="26" unit="line"/>
                   <l part="I">Recolis?</l>
                </sp>
-               <sp who="#Adelheita">
+               <sp who="#adelheita">
                   <l part="F">Adelheita: Recolo, primogenite, primum tui</l>
                   <milestone n="27" unit="line"/>
                   <l part="I">natalis.</l>
                </sp>
-               <sp who="#Ecerinus">
+               <sp who="#ecerinus">
                   <l part="F">O mea mater, id pande otius.</l>
                </sp>
-               <sp who="#Adelheita">
+               <sp who="#adelheita">
                   <milestone n="28" unit="line"/>
                   <l>Cum prima noctis hora, communis quies,</l>
                   <milestone n="29" unit="line"/>
@@ -204,11 +206,11 @@
                   <milestone n="38" unit="line"/>
                   <l>et ecce pudor, adulterum ignotum ferens.</l>
                </sp>
-               <sp who="#Ecerinus">
+               <sp who="#ecerinus">
                   <milestone n="39" unit="line"/>
                   <l part="I">Qualis is adulter, mater?</l>
                </sp>
-               <sp who="#Adelheita">
+               <sp who="#adelheita">
                   <l part="F">Haud tauro minor.</l>
                   <milestone n="40" unit="line"/>
                   <l n="40">Hirsuta aduncis cornibus cervix riget,</l>
@@ -251,11 +253,11 @@
                   <milestone n="59" unit="line"/>
                   <l>Nec monstruoso, nate, sine partu venis.</l>
                </sp>
-               <sp who="#Ecerinus">
+               <sp who="#ecerinus">
                   <milestone n="60" unit="line"/>
                   <l part="I" n="60">Qualis?</l>
                </sp>
-               <sp who="#Adelheita">
+               <sp who="#adelheita">
                   <l part="F">Necis pronosticus ventrem levas</l>
                   <milestone n="61" unit="line"/>
                   <l>cruentus infans, fronte crudeli minax,</l>
@@ -286,7 +288,7 @@
                   <milestone n="74" unit="line"/>
                   <l>adulter idem verus Ecerini pater.</l>
                </sp>
-               <sp who="#Ecerinus">
+               <sp who="#ecerinus">
                   <milestone n="75" unit="line"/>
                   <l n="75">Quid poscis ultra, frater? An tanti pudet,</l>
                   <milestone n="76" unit="line"/>
@@ -324,7 +326,7 @@
                   <milestone n="90" unit="line"/>
                   <l n="90">patremque saeva voce Luciferum ciet.</l>
                </stage>
-               <sp who="#Ecerinus">
+               <sp who="#ecerinus">
                   <milestone n="91" unit="line"/>
                   <l>Depulse ab astris, mane iam lucens polis,</l>
                   <milestone n="92" unit="line"/>
@@ -373,7 +375,7 @@
             </div>
             <div type="scene" n="3">
                <stage>Chorus</stage>
-               <sp who="#Chorus">
+               <sp who="#chorus">
                   <milestone n="113" unit="line"/>
                   <l>Quis vos exagitat furor,</l>
                   <milestone n="114" unit="line"/>
@@ -480,7 +482,7 @@
          <div type="act" n="2">
             <div type="scene" n="1">
                <stage>Nuntius, Chorus</stage>
-               <sp who="#Nuntius">
+               <sp who="#nuntius">
                   <milestone n="163" unit="line"/>
                   <l>Excelse mundi rector, omnipotens Deus,</l>
                   <milestone n="164" unit="line"/>
@@ -498,14 +500,14 @@
                   <milestone n="170" unit="line"/>
                   <l part="I" n="170">Nefanda vidi.</l>
                </sp>
-               <sp who="#Chorus">
+               <sp who="#chorus">
                   <l part="F">Pande, quod series habet,</l>
                   <milestone n="171" unit="line"/>
                   <l>flatu remisso; siste, dum cedat frequens</l>
                   <milestone n="172" unit="line"/>
                   <l part="I">anhelitus.</l>
                </sp>
-               <sp who="#Nuntius">
+               <sp who="#nuntius">
                   <l part="F">Dicam aliquid ex gestis prius,</l>
                   <milestone n="173" unit="line"/>
                   <l>dedere quae praesentibus causas malis.</l>
@@ -568,7 +570,7 @@
                   <milestone n="202" unit="line"/>
                   <l>voces secutum et negligens facti fidem!</l>
                </sp>
-               <sp who="#Chorus">
+               <sp who="#chorus">
                   <milestone n="203" unit="line"/>
                   <l>Procede: redeas unde coepisti prius.</l>
                   <milestone n="204" unit="line"/>
@@ -576,7 +578,7 @@
                   <milestone n="205" unit="line"/>
                   <l part="I" n="205">Quae nova?</l>
                </sp>
-               <sp who="#Nuntius">
+               <sp who="#nuntius">
                   <l part="F">Nova audietis et finem statim.</l>
                   <milestone n="206" unit="line"/>
                   <l>Iam iam peregi exordia et causas cito</l>
@@ -626,7 +628,7 @@
             </div>
             <div type="scene" n="2">
                <stage>Chorus</stage>
-               <sp who="#Chorus">
+               <sp who="#chorus">
                   <milestone n="228" unit="line"/>
                   <l>Christe, qui caelis resides in altis</l>
                   <milestone n="229" unit="line"/>
@@ -739,7 +741,7 @@
          <div type="act" n="3">
             <div type="scene" n="1">
                <stage>Ecerinus, Albricus</stage>
-               <sp who="#Ecerinus">
+               <sp who="#ecerinus">
                   <milestone n="281" unit="line"/>
                   <l>Matris relatu, vera quem prodit fides,</l>
                   <milestone n="282" unit="line"/>
@@ -785,16 +787,16 @@
                   <milestone n="302" unit="line"/>
                   <l>flagrat tepenti sidere.</l>
                </sp>
-               <sp who="#Albricus">
+               <sp who="#albricus">
                   <milestone n="303" unit="line"/>
                   <l part="I">Inferus annuat pater.</l>
                </sp>
-               <sp who="#Ecerinus">
+               <sp who="#ecerinus">
                   <l part="F">Propere annuet.</l>
                   <milestone n="304" unit="line"/>
                   <l part="I">Et tu quid audes, frater?</l>
                </sp>
-               <sp who="#Albricus">
+               <sp who="#albricus">
                   <l part="F">Edissero statim.</l>
                   <milestone n="305" unit="line"/>
                   <l n="305">Tarvisium tyrannidi paret meae:</l>
@@ -811,7 +813,7 @@
                   <milestone n="311" unit="line"/>
                   <l part="I">absorbet.</l>
                </sp>
-               <sp who="#Ecerinus">
+               <sp who="#ecerinus">
                   <l part="F">O mi frater, o magno sate</l>
                   <milestone n="312" unit="line"/>
                   <l>Plutone, tantis ausibus vires ferat,</l>
@@ -837,33 +839,33 @@
             </div>
             <div type="scene" n="2">
                <stage>Ecerinus, Ziramons, Frater Lucas</stage>
-               <sp who="#Ecerinus">
+               <sp who="#ecerinus">
                   <milestone n="322" unit="line"/>
                   <l part="I">Ziramons?</l>
                </sp>
-               <sp who="#Ziramons">
+               <sp who="#ziramons">
                   <l part="M">Domine.</l>
                </sp>
-               <sp who="#Ecerinus">
+               <sp who="#ecerinus">
                   <l part="F">Dic age, quid est? propere indica.</l>
                   <milestone n="323" unit="line"/>
                   <l>Iacet Monaldi corpore abscisum caput,</l>
                   <milestone n="324" unit="line"/>
                   <l part="I">Nullo tuente?</l>
                </sp>
-               <sp who="#Ziramons">
+               <sp who="#ziramons">
                   <l part="F">Publico squalet foro</l>
                   <milestone n="325" unit="line"/>
                   <l n="325">putata cervix; nullus et caesum movet.</l>
                </sp>
-               <sp who="#Ecerinus">
+               <sp who="#ecerinus">
                   <milestone n="326" unit="line"/>
                   <l part="I">Quicquam rebelle constat?</l>
                </sp>
-               <sp who="#Ziramons">
+               <sp who="#ziramons">
                   <l part="F">Omnino nichil.</l>
                </sp>
-               <sp who="#Ecerinus">
+               <sp who="#ecerinus">
                   <milestone n="327" unit="line"/>
                   <l>Hem vicimus! Iamque omne fas licet et nefas.</l>
                   <milestone n="328" unit="line"/>
@@ -889,17 +891,17 @@
                </sp>
             </div>
             <div type="scene" n="3">
-               <sp who="#FraterLucas">
+               <sp who="#frater_lucas">
                   <milestone n="338" unit="line"/>
                   <l>Inclite Ecerine, parce, da fandi locum;</l>
                   <milestone n="339" unit="line"/>
                   <l>annue parumper, obsecro, ut tutus loquar.</l>
                </sp>
-               <sp who="#Ecerinus">
+               <sp who="#ecerinus">
                   <milestone n="340" unit="line"/>
                   <l part="I" n="340">340 Contexe.</l>
                </sp>
-               <sp who="#FraterLucas">
+               <sp who="#frater_lucas">
                   <l part="F">Mira res. Quid est quod te movet,</l>
                   <milestone n="341" unit="line"/>
                   <l>o homo? Homo es, nec est ut hoc unum neges.</l>
@@ -954,37 +956,37 @@
                   <milestone n="366" unit="line"/>
                   <l>quae consequi omnia sancta te faciet Fides.</l>
                </sp>
-               <sp who="#Ecerinus">
+               <sp who="#ecerinus">
                   <milestone n="367" unit="line"/>
                   <l>Videtne celsus ista quae facio Deus?</l>
                </sp>
-               <sp who="#FraterLucas">
+               <sp who="#frater_lucas">
                   <milestone n="368" unit="line"/>
                   <l part="I">Videt.</l>
                </sp>
-               <sp who="#Ecerinus">
+               <sp who="#ecerinus">
                   <l part="F">Retundet ipse cum prorsus volet?</l>
                </sp>
-               <sp who="#FraterLucas">
+               <sp who="#frater_lucas">
                   <milestone n="369" unit="line"/>
                   <l part="I">Quidni? retundet.</l>
                </sp>
-               <sp who="#Ecerinus">
+               <sp who="#ecerinus">
                   <l part="F">Ergo quid segnis facit?</l>
                </sp>
-               <sp who="#FraterLucas">
+               <sp who="#frater_lucas">
                   <milestone n="370" unit="line"/>
                   <l n="370">Expectat humilis, pertinax cedat furor</l>
                   <milestone n="371" unit="line"/>
                   <l>et ipse retrahas caedibus tantis manum.</l>
                </sp>
-               <sp who="#Ecerinus">
+               <sp who="#ecerinus">
                   <milestone n="372" unit="line"/>
                   <l>Unius igitur interit multos salus.</l>
                   <milestone n="373" unit="line"/>
                   <l>Quis hic Deus, cui carior multis fui?</l>
                </sp>
-               <sp who="#FraterLucas">
+               <sp who="#frater_lucas">
                   <milestone n="374" unit="line"/>
                   <l>Ecerine, crede, carior Saulus fuit,</l>
                   <milestone n="375" unit="line"/>
@@ -998,7 +1000,7 @@
                   <milestone n="379" unit="line"/>
                   <l>ad abluenda crimina elongat pius.</l>
                </sp>
-               <sp who="#Ecerinus">
+               <sp who="#ecerinus">
                   <milestone n="380" unit="line"/>
                   <l n="380">Me credo mundo, scelera ut ulciscar, datum,</l>
                   <milestone n="381" unit="line"/>
@@ -1039,17 +1041,17 @@
             </div>
             <div type="scene" n="4">
                <stage>Nuntius, Ecerinus, Ansedisius, Commilitones</stage>
-               <sp who="#Nuntius">
+               <sp who="#nuntius">
                   <milestone n="398" unit="line"/>
                   <l>Audi negandum, teste nisi certo, novum:</l>
                   <milestone n="399" unit="line"/>
                   <l>en, ipse vidi. Parce, dum verum loquar.</l>
                </sp>
-               <sp who="#Ecerinus">
+               <sp who="#ecerinus">
                   <milestone n="400" unit="line"/>
                   <l n="400">Evelle nugas, vane iactator, tuas.</l>
                </sp>
-               <sp who="#Nuntius">
+               <sp who="#nuntius">
                   <milestone n="401" unit="line"/>
                   <l>Progressa Venetis exulum fervens aquis</l>
                   <milestone n="402" unit="line"/>
@@ -1073,7 +1075,7 @@
                   <milestone n="411" unit="line"/>
                   <l>Capta Padua est, et exules illam tenent.</l>
                </sp>
-               <sp who="#Ecerinus">
+               <sp who="#ecerinus">
                   <milestone n="412" unit="line"/>
                   <l>Abscede, mendax serve: mulctatus pede</l>
                   <milestone n="413" unit="line"/>
@@ -1081,30 +1083,30 @@
                </sp>
             </div>
             <div type="scene" n="5">
-               <sp who="#Ecerinus">
+               <sp who="#ecerinus">
                   <milestone n="414" unit="line"/>
                   <l>Ast Ansedisius ecce venit hac. Hem, quid est?</l>
                </sp>
-               <sp who="#Ansedisius">
+               <sp who="#ansedisius">
                   <milestone n="415" unit="line"/>
                   <l n="415">Amissa Paduae civitas: hostes habent.</l>
                </sp>
-               <sp who="#Ecerinus">
+               <sp who="#ecerinus">
                   <milestone n="416" unit="line"/>
                   <l part="I">Amissa vi?</l>
                </sp>
-               <sp who="#Ansedisius">
+               <sp who="#ansedisius">
                   <l part="M" n="1">Vi amissa.</l>
                </sp>
-               <sp who="#Ecerinus">
+               <sp who="#ecerinus">
                   <l part="M" n="2">Qua?</l>
                </sp>
-               <sp who="#Ansedisius">
+               <sp who="#ansedisius">
                   <l part="F">Ferro fuga</l>
                   <milestone n="417" unit="line"/>
                   <l>et ignibus, vinci quibus et urbes solent.</l>
                </sp>
-               <sp who="#Ecerinus">
+               <sp who="#ecerinus">
                   <milestone n="418" unit="line"/>
                   <l>At te superstite, sola quem facies notat</l>
                   <milestone n="419" unit="line"/>
@@ -1116,7 +1118,7 @@
                   <milestone n="422" unit="line"/>
                   <l>Animos viriles casus infestus probat.</l>
                </sp>
-               <sp who="#Commilitones">
+               <sp who="#commilitones">
                   <milestone n="423" unit="line"/>
                   <l>Magnanime princeps, tolle consilium tuis</l>
                   <milestone n="424" unit="line"/>
@@ -1136,7 +1138,7 @@
                   <milestone n="431" unit="line"/>
                   <l>Fortuna vires ausibus nostris dabit.</l>
                </sp>
-               <sp who="#Chorus">
+               <sp who="#chorus">
                   <milestone n="432" unit="line"/>
                   <l>O fallax hominum praemeditatio</l>
                   <milestone n="433" unit="line"/>
@@ -1196,7 +1198,7 @@
          </div>
          <div type="act" n="4">
             <div type="scene" n="1">
-               <sp who="#Ecerinus">
+               <sp who="#ecerinus">
                   <milestone n="459" unit="line"/>
                   <l>Adversa vires fortibus praebet viris</l>
                   <milestone n="460" unit="line"/>
@@ -1213,7 +1215,7 @@
             </div>
             <div type="scene" n="2">
                <stage>Nuntius, Chorus</stage>
-               <sp who="#Nuntius">
+               <sp who="#nuntius">
                   <milestone n="465" unit="line"/>
                   <l n="465">Huc huc venite quisquis optatum velit</l>
                   <milestone n="466" unit="line"/>
@@ -1225,11 +1227,11 @@
                   <milestone n="469" unit="line"/>
                   <l>in vos ab alto iustus inspexit Deus.</l>
                </sp>
-               <sp who="#Chorus">
+               <sp who="#chorus">
                   <milestone n="470" unit="line"/>
                   <l n="470">Tanta ergo nova iam breviter expedias, bone.</l>
                </sp>
-               <sp who="#Nuntius">
+               <sp who="#nuntius">
                   <milestone n="471" unit="line"/>
                   <l>Iam iam occupata Brixia, Ecerinus ferox,</l>
                   <milestone n="472" unit="line"/>
@@ -1271,13 +1273,13 @@
                   <milestone n="490" unit="line"/>
                   <l n="490">infesta, quid agat anxius dudum stetit.</l>
                </sp>
-               <sp who="#Chorus">
+               <sp who="#chorus">
                   <milestone n="491" unit="line"/>
                   <l>Quid ille tantis viribus septus facit?</l>
                   <milestone n="492" unit="line"/>
                   <l part="I">Quis vultus aut actus?</l>
                </sp>
-               <sp who="#Nuntius">
+               <sp who="#nuntius">
                   <l part="F">Facit, ut alvo lupus</l>
                   <milestone n="493" unit="line"/>
                   <l>pleno repulsus, dentibus frendens, canes</l>
@@ -1286,11 +1288,11 @@
                   <milestone n="495" unit="line"/>
                   <l n="495">ex ore spumam mittit et orbes rotat.</l>
                </sp>
-               <sp who="#Chorus">
+               <sp who="#chorus">
                   <milestone n="496" unit="line"/>
                   <l part="I">Progredere et ultra.</l>
                </sp>
-               <sp who="#Nuntius">
+               <sp who="#nuntius">
                   <l part="F">Hinc inde seclusus, furens,</l>
                   <milestone n="497" unit="line"/>
                   <l>miscere in hostes impares horret manus.</l>
@@ -1341,7 +1343,7 @@
                   <milestone n="520" unit="line"/>
                   <l n="520">Positum cadaver tumba Suncini tenet.</l>
                </sp>
-               <sp who="#Chorus">
+               <sp who="#chorus">
                   <milestone n="521" unit="line"/>
                   <l>Vota solvamus pariter datori</l>
                   <milestone n="522" unit="line"/>
@@ -1380,7 +1382,7 @@
          <div type="act" n="5">
             <div type="scene" n="1">
                <stage>Nuntius, Chorus</stage>
-               <sp who="#Nuntius">
+               <sp who="#nuntius">
                   <milestone n="537" unit="line"/>
                   <l>A parte nulla tutus Albricus sui,</l>
                   <milestone n="538" unit="line"/>
@@ -1474,11 +1476,11 @@
                   <milestone n="582" unit="line"/>
                   <l>a caede gratas sponte subducens moras.</l>
                </sp>
-               <sp who="#Chorus">
+               <sp who="#chorus">
                   <milestone n="583" unit="line"/>
                   <l>Procede, nobis pande supplicii modos.</l>
                </sp>
-               <sp who="#Nuntius">
+               <sp who="#nuntius">
                   <milestone n="584" unit="line"/>
                   <l>Ardebat alta roboris magni strues.</l>
                   <milestone n="585" unit="line"/>
@@ -1516,23 +1518,23 @@
                   <milestone n="601" unit="line"/>
                   <l>una patenti subdit et gnatas rogo.</l>
                </sp>
-               <sp who="#Chorus">
+               <sp who="#chorus">
                   <milestone n="602" unit="line"/>
                   <l>Quo filiarum et coniugis vultu necem</l>
                   <milestone n="603" unit="line"/>
                   <l>Albricus, etsi non loqui poterat, tulit?</l>
                </sp>
-               <sp who="#Nuntius">
+               <sp who="#nuntius">
                   <milestone n="604" unit="line"/>
                   <l>Volvebat atrox, sicuti alludens, caput,</l>
                   <milestone n="605" unit="line"/>
                   <l n="605">ut parvipendat, nutibus pandens suis.</l>
                </sp>
-               <sp who="#Chorus">
+               <sp who="#chorus">
                   <milestone n="606" unit="line"/>
                   <l>Quis finis eius, fare, supremus fuit?</l>
                </sp>
-               <sp who="#Nuntius">
+               <sp who="#nuntius">
                   <milestone n="607" unit="line"/>
                   <l>Tum plura stantem tela certatim virum</l>
                   <milestone n="608" unit="line"/>
@@ -1552,7 +1554,7 @@
                   <milestone n="615" unit="line"/>
                   <l n="615">vulgus, per avidos illa distribuens canes.</l>
                </sp>
-               <sp who="#Chorus">
+               <sp who="#chorus">
                   <milestone n="616" unit="line"/>
                   <l>Haec perpetuo durat in aevo</l>
                   <milestone n="617" unit="line"/>
