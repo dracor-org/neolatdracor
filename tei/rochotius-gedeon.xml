@@ -1,0 +1,1341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="neolat000123" xml:lang="la" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Gedeon</title>
+            <title type="sub">comaedia nova, cum primis ad usum scholasticum et conditionem temporum accommodata</title>
+            <author>
+               <persName xml:lang="la">
+                  <forename>Andreas</forename>
+                  <surname>Rochotius</surname>
+               </persName>
+               <idno type="wikidata">Q55134115</idno>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>Elektronická edice</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName xml:id="Majda">Magdaléna Jacková</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted to TEI by</resp>
+               <persName>Jana Synovcová Borovičková</persName>
+               <persName>Boris Lehečka</persName>
+            </respStmt>
+            <funder>
+               <name>Czech Since Funcdation</name>
+               <idno type="RIV">22-03909S</idno>
+               <ref target="https://www.isvavai.cz/cep?s=jednoduche-vyhledavani&amp;ss=detail&amp;n=0&amp;h=GA22-03909S" rend="italic">Latin Biblical Drama in Czech Lands (16th cetntury)</ref>
+            </funder>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="dracor">DraCor</publisher>
+            <idno type="URL">https://dracor.org</idno>
+            <availability>
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <name>Theatrum Neolatinum</name>
+            </bibl>
+            <bibl type="originalSource">
+               <title>Magdaléna Jacková, Markéta Klosová, Martin Bažil, Alena Bočková, Kateřina Bobková-Valentová, Eva Popelková (eds.), Latinské biblické drama v českých zemích, Praha 2025, in print, (= Theatrum Neolatinum, Latinské divadlo v českých zemích, 3)</title>
+               <idno type="URL">https://www.theatrum-neolatinum.cz/en/biblicke.html</idno>
+            </bibl>
+            <listPerson>
+               <person xml:id="amalcita" sex="MALE">
+                  <persName>Amalcita</persName>
+               </person>
+               <person xml:id="ammonita" sex="MALE">
+                  <persName>Ammonita</persName>
+               </person>
+               <person xml:id="angelus" sex="MALE">
+                  <persName>Angelus</persName>
+               </person>
+               <person xml:id="assurus" sex="MALE">
+                  <persName>Assurus</persName>
+               </person>
+               <person xml:id="gedeon" sex="MALE">
+                  <persName>Gedeon</persName>
+               </person>
+               <person xml:id="chorus" sex="MALE">
+                  <persName>Chorus</persName>
+               </person>
+               <person xml:id="joas" sex="MALE">
+                  <persName>Joas</persName>
+               </person>
+               <person xml:id="manasses" sex="MALE">
+                  <persName>Manasses</persName>
+               </person>
+               <person xml:id="medus" sex="MALE">
+                  <persName>Medus</persName>
+               </person>
+               <person xml:id="phara" sex="MALE">
+                  <persName>Phara</persName>
+               </person>
+               <person xml:id="praeco" sex="MALE">
+                  <persName>Praeco</persName>
+               </person>
+               <person xml:id="propheta" sex="MALE">
+                  <persName>Propheta</persName>
+               </person>
+               <person sex="FEMALE" xml:id="storge">
+                  <persName>Storge</persName>
+               </person>
+               <person xml:id="angelus" sex="UNKNOWN">
+                  <persName>Angelus Prologus</persName>
+               </person>
+               <person xml:id="madianita" sex="UNKNOWN">
+                  <persName>Madianita</persName>
+               </person>
+               <person xml:id="assur" sex="UNKNOWN">
+                  <persName>Assur</persName>
+               </person>
+            </listPerson>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="genreTitle">comedy</term>
+            </keywords>
+            <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <standOff>
+      <listEvent>
+         <event type="print" when="1607">
+            <desc />
+         </event>
+      </listEvent>
+   </standOff>
+   <text>
+      <front>
+         <div>
+            <p>
+               <pb n="A1r" />Andreae Rochotii a Rochicerberga, L. P. Gedeon comaedia nova, cum primis ad usum scholasticum et conditionem temporum accommodata</p>
+         </div>
+         <div>
+            <head>Pro noVa CoMaeDIa</head>
+            <l n="1">Per Moravos nuper fuit acta tragaedia campos,</l>
+            <l rend="indent" n="2">Indigenae raptas cum quererentur opes.</l>
+            <l n="3">Nunc spe pacis ovans, pulso comaedia bello</l>
+            <l rend="indent" n="4">In plausus prodit, Marchiomanne, tuos.</l>
+            <l n="5">Gratia sit Superis, placido sit gratia regi,</l>
+            <l rend="indent" n="6">Sub quo terra ferax ocia pacis agit;</l>
+            <l n="7">Nec nil Rochocii labor hic et vena merentur,</l>
+            <l rend="indent" n="8">Illorum Gedeon munere victor adest.</l>
+            <l n="9">Quae si gratus habes, ut nulla tragaedia posthac</l>
+            <l n="10" rend="indent">Opto, tuos turbet, Marchiomanne, focos.</l>
+            <p>M. Iohan. Campanus Vodnan.</p>
+         </div>
+         <div>
+            <head>
+               <pb n="A1v" />Insignia Illustris ac Perantiquae Familiae Baronum a Zierotina</head>
+            <l n="1">Cur leo sublimi scopulo se glorius effert,</l>
+            <l n="2">Signa Zierotinae gentis avita gerens?</l>
+            <l n="3">Robore quadrupedes quod ut hic supereminet omnes,</l>
+            <l rend="indent2" n="4">Sic ea Marte, toga vincat et arte pares.</l>
+            <l n="5">Illustris longum o gens istis utere signis,</l>
+            <l rend="indent" n="6">Altius in coelum ut laude vehenda nova.</l>
+         </div>
+         <div>
+            <head>
+               <pb n="A2r" />Arte et Marte Illustrissimo et Magnifico juxta ac Doctissimo Baroni Domino Carolo a Zierotina, Rossicii, Drzevohosticii, Przerovii Domino ac haeredi, Amplissimo Mecaenati suo observantissimo gratiae et pacis Christi multiplicationem exoptat.</head>
+            <l n="1">Grande Zierotinae decus et fax lucida gentis,</l>
+            <l rend="indent" n="2">Marte, Baro, Claria, Carole, et arte potens!</l>
+            <l n="3">Posse putet quisquam fieri, pie, zoilus, heros,</l>
+            <l rend="indent" n="4">In factum hocce meum durus ut esse queas.</l>
+            <l n="5">Qui tibi comaedi selecta volumine sacro</l>
+            <l rend="indent" n="6">Ista dicent haud tetricae carmina frontis opus.</l>
+            <l n="7">Vile quidem donum, sed ab aequa mente profectum</l>
+            <l rend="indent" n="8">Nec studiis impar, Carole culte, tuis,</l>
+            <l n="9">Biblica cum primis te delectare theatra</l>
+            <l n="10" rend="indent">Novimus et socci seria verba sacri.</l>
+            <l n="11">Idem posse suos in fontes flumina labi</l>
+            <l rend="indent" n="12">Credat et adversis astra redire rotis.</l>
+            <l n="13">Et tamen in fontes ut flumina lapsa recurrant</l>
+            <l rend="indent" n="14">Et retro aversis astra ferantur equis,</l>
+            <l n="15">Non erit in sacros Caroli censura poetas</l>
+            <l rend="indent" n="16">Barbara nec rigidis contrahet ora minis.</l>
+            <l n="17">Non ea rusticitas illi aut inscitia rerum est</l>
+            <l rend="indent" n="18">Cordaque Cyclopicis asperiora feris,</l>
+            <l n="19">
+               <pb n="A2v" />Sed facilis candor solidisque exculta <emph xml:space="preserve" />Camaenis</l>
+            <l n="20" rend="indent">Pectora, quae tetricae nil feritatis alunt.</l>
+            <l n="21">Quae jocus et sacris capiat condita venustas</l>
+            <l rend="indent" n="22">Quaeque juvant risus, gratia blanda, lepos;</l>
+            <l n="23">Quae norunt, Martis qualis consensio et artis,</l>
+            <l rend="indent" n="24">Quorum clara sagax ausa palaestra probat,</l>
+            <l n="25">Indole quod frugi, vi promptos, pectore fortes</l>
+            <l rend="indent" n="26">Poscit, amet, decoret Mars studio arsque pari.</l>
+            <l n="27">Hastipotens Marti, hastipotens et praesidet arti</l>
+            <l rend="indent" n="28">Matre sine Elicio nata puella deo.</l>
+            <l n="29">Ergo dum Marti, truculentos qui impete Turcas</l>
+            <l n="30" rend="indent">Rursus agant, varios convocat illa viros,</l>
+            <l n="31">Me pietas, me, quae sedem sibi fixit in ulnis</l>
+            <l rend="indent" n="32">Pectoris, illa Dei filia grata, Fides</l>
+            <l n="33">Amramidum gaudente animo tractare poësin</l>
+            <l rend="indent" n="34">Movit, ut Israel fontibus hausta fluant,</l>
+            <l n="35">Ut populi manibus noctesque diesque terantur,</l>
+            <l rend="indent" n="36">Quae cecini hymnisona coelica facta cheli.</l>
+            <l n="37">Caetera magnatum proles, quae indocta, potentum</l>
+            <l rend="indent" n="38">Explodit sannis, faeta tumore, suis</l>
+            <l n="39">Judiciique expers, ceu non intelligat, odit</l>
+            <l n="40" rend="indent">Et strepitu, Musis quam sit amica, docet.</l>
+            <l n="41">Quippe dicam doctis impingit et arguit artes,</l>
+            <l rend="indent" n="42">Interiora asophos quarum asarota latent.</l>
+            <l n="43">
+               <pb n="A3r" />Sed quo nostrorum mores, qui turpia solum</l>
+            <l rend="indent" n="44">Tractare et Veneri jungere vina solent?</l>
+            <l n="45">Noster amor docti veluti divina patroni</l>
+            <l rend="indent" n="46">Munera, quos sacri codicis urget amor.</l>
+            <l n="47">Qualis Marcrabicis olim capitaneus oris</l>
+            <l rend="indent" n="48">Patruus ille tuus, Carole culte, fuit;</l>
+            <l n="49">Qualis es ipse aliis multis praestantior unus,</l>
+            <l n="50">Haec studia, has artes, qua decet arte colens;</l>
+            <l n="51">Qui misera tristes hac tempestate Camaenas</l>
+            <l rend="indent" n="52">Respicis atque tuum munus id esse putas,</l>
+            <l n="53">Cum Geticum docto moderaris Apolline Martem</l>
+            <l rend="indent" n="54">Totque inter turbas biblia sacra legis.</l>
+            <l n="55">Ergo tibi merito hoc sacrum consecro poema,</l>
+            <l rend="indent" n="56">Quod socco vinxit Thalia nostra suo.</l>
+            <l n="57">Sacrum argumentum duce de Gedeone potenti,</l>
+            <l rend="indent" n="58">Materies Nyobes fluctibus apta novis.</l>
+            <l n="59">Tu modo, qui raris superas virtutibus annos,</l>
+            <l n="60" rend="indent">Cui, nisi quod sacrum est, nil placuisse solet.</l>
+            <l n="61">Qui triviale nihil, sed pulchra, sed omnia sancta,</l>
+            <l rend="indent" n="62">O generis, volvis, gloria rara tui;</l>
+            <l n="63">Gallia quem docto mirata est ore loquentem,</l>
+            <l rend="indent" n="64">Quamvis sit doctis ipsa superba viris;</l>
+            <l n="65">Cujus divinam laudavit et Anglia Musam,</l>
+            <l rend="indent" n="66">Quam coluit gentis, docta puella, caput.</l>
+            <l n="67">
+               <pb n="A3v" />Nec minus obstupuit, gelidae quae subjacet Arcto</l>
+            <l rend="indent" n="68">Scotia, nec laudis signa minora dedit.</l>
+            <l n="69">Quem penes est unum nostro rarissimus aevo</l>
+            <l n="70" rend="indent">Candor et integrae religionis amor.</l>
+            <l n="71">Per genium, generose, tuum, per et omnia rara,</l>
+            <l rend="indent" n="72">Per, tibi qui favit munera tanta, Deum,</l>
+            <l n="73">Per, si quid juveni doctae indulsere Camaenae,</l>
+            <l rend="indent" n="74">Cum numeris aures detinuere tuas,</l>
+            <l n="75">Heros, quod solum hic, illustrisCarole, restat?</l>
+            <l rend="indent" n="76">Picta novi capias carmina vatis acu,</l>
+            <l n="77">Saltet et haec comicis pubis chorus undique soccis,</l>
+            <l rend="indent" n="78">Didita per mundum ut sit tua fama, fave.</l>
+            <p>Honori Illustrissimae Majestatis Tuae ab omni</p>
+            <p>officio deditissimus</p>
+            <p>Andreas Rochotius a Rochicerberga,</p>
+            <p>Laureatus poeta, scholae Prostanensis rector.</p>
+         </div>
+         <div>
+            <head>
+               <pb n="A4r" />Periocha comaediae ex libro Judicum, cap. 6. et 7.</head>
+            <l n="1">Forte Jerubali creto de stirpe Manassis,</l>
+            <l rend="indent" n="2">Missus ab aethereis sedibus Ales ait:</l>
+            <l n="3">„Cede ciere Medis <emph xml:space="preserve" />Mavortia bella protervis,</l>
+            <l rend="indent" n="4">Fortis et in castris aera merere novis.</l>
+            <l n="5">Cede, tui specimen populis vegrande patebit</l>
+            <l rend="indent" n="6">Roboris et dextrae Martis ad arma bonae.</l>
+            <l n="7">I, valida pollens redimes virtute propinquos</l>
+            <l rend="indent" n="8">Laetaque ab adversa parte trophaea feres.“</l>
+            <l n="9">Ille profecturus, quo victor ab hoste rediret,</l>
+            <l n="10" rend="indent">Coelitus exoptat mira notasque dari,</l>
+            <l n="11">Evocat et sparsas Hebri per rura cohortes</l>
+            <l rend="indent" n="12">Isacidumque tribus nobilis optat opem.</l>
+            <l n="13">Dux et ab Aligero consanguineisque creatus</l>
+            <l rend="indent" n="14">Fertur Amalcaeos protinus inque Medas,</l>
+            <l n="15">Jam prope septenis hos qui crudeliter annis</l>
+            <l rend="indent" n="16">Compulerant famulo subdere colla jugo.</l>
+            <l n="17">Haud mora perrumpunt Jordanem illa agmina junctis</l>
+            <l rend="indent" n="18">Lintribus, arborea pars rate sulcat aquas.</l>
+            <l n="19">Castra locant tepidas Charodi fontis ad undas</l>
+            <l n="20" rend="indent">Ancipitique diu praelia Marte cient.</l>
+            <l n="21">Bis poscunt omnes sensim transire, bis illis</l>
+            <l rend="indent" n="22">Abnegat occluso tramite Jova viam.</l>
+            <l n="23">
+               <pb n="A4v" />Dux sociis demum numeroso milite sectis</l>
+            <l rend="indent" n="24">In collem, sub quo sederat hostis, abit.</l>
+            <l n="25">Huc signis motis Jova duce et auspice Summo</l>
+            <l rend="indent" n="26">Clam venit inque alto vertice castra locat.</l>
+            <l n="27">Illi palantes clamoribus aethera rumpunt</l>
+            <l rend="indent" n="28">Et mataris versis in sua membra furunt.</l>
+            <l n="29">Pars vaga vertit humum seseque in tuta receptat,</l>
+            <l n="30">Pars bona fusa suo cominus ense cadit.</l>
+            <l n="31">Pars assignatae potitur telluris amore,</l>
+            <l rend="indent" n="32">Pars Jordani etiam littora nota petunt</l>
+            <l n="33">Sed trepido cursu Gedeonis ad ora retracti</l>
+            <l rend="indent" n="34">Flebile supplicium, quod meruere, luunt.</l>
+            <l n="35">Sic grave principium melior fortuna sequuta est,</l>
+            <l rend="indent" n="36">Nam plerumque ingens exitus orsa probat.</l>
+            <l n="37">Sic Gedeon miro portat stratagemate palmam</l>
+            <l rend="indent" n="38">Palantesque Medos enecat, inde fugat.</l>
+         </div>
+         <div>
+            <head>
+               <pb n="B1r" />Andreae Rochotii a Rochitzerberga, L.P., Gedeon comaedia ex 6. et 7. capituli libri Judicum.</head>
+         </div>
+      </front>
+      <body>
+         <div>
+            <head>Angelus Prologus</head>
+            <l n="1">Campis accelerans aliger huc aetheris ignei</l>
+            <l n="2">Magni progeniem degenerem mittor ad Isaci</l>
+            <l n="3">Illiusque regendis sola promissa nepotibus.</l>
+            <l n="4">Si servasset iners veridicam faederis orbitam.</l>
+            <l n="5">Quod vero άρματα nunc hostica, currus δρεπανεφορους</l>
+            <l n="6">Expavit, trepido serva jugo sub Madiania</l>
+            <l n="7">Arctae et quodquod onus conditionis gravius tulit.</l>
+            <l n="8">Caepit docta malis his Dominum agnoscere vix Deum</l>
+            <l n="9">Flocci et pendere ludibria mentita nefarios</l>
+            <l n="10">
+               <pb n="B1v" />Cultus Numinis et, sera licet, Patrem adiit suum.</l>
+            <l n="11">Mens humana modum nescia sed ponere rebus, heu,</l>
+            <l n="12">Extemplo nimiis ebria successibus intumet.</l>
+            <l n="13">Et quo plura homini contulit immensa benignitas,</l>
+            <l n="14">Quo quis commodior pluribus et munificentior</l>
+            <l n="15">Ad culmen properans, ut praeeat deterioribus,</l>
+            <l n="16">Secura altior occaecat eo corda ferocitas</l>
+            <l n="17">Fastu turgida vano, stimulat quippe superbia.</l>
+            <l n="18">Contra fraena ferox qualis equi saepe protervitas,</l>
+            <l n="19">Paulum si imperium sentiat impune remissius,</l>
+            <l n="20">Obluctatur atrox et dominum calce ferit suum.</l>
+            <l n="21">Contusus rigidis vixque lupos ore capit plagis</l>
+            <l n="22">Et diris domitus munia calcaribus arripit.</l>
+            <l n="23">Sic haec Isacidum posteritas impia, pervicax,</l>
+            <l n="24">Quod mollita sui dura animadversio paululum</l>
+            <l n="25">In pejora ruit, seque aliis ritibus implicat</l>
+            <l n="26">Asciscitque Deos insipientis sapientiae.</l>
+            <l n="27">Indulgens adeo corda Parens faeta ferocia</l>
+            <l n="28">Bello, peste, fame, continuo comprimit improbum.</l>
+            <l n="29">Sed rursus serie ne caderent obruta lubricae</l>
+            <l n="30">Sortis, belligeros orbe duces in valido excitat</l>
+            <l n="31">Qui solvant populi colla truci serva tyrannidi</l>
+            <l n="32">Ut contra tumidos arma choros nunc Madianica,</l>
+            <l n="33">Quorum me miseret conditionis miserae et gravis,</l>
+            <l n="34">Immisit. Statuens sed rapidis usque modum aestibus</l>
+            <l n="35">Irae, suppeditavit Gedeonem, facilis, ducem,</l>
+            <l n="36">Non e magnifica progenitum stirpe potentium,</l>
+            <l n="37">Sed vili sobolem patre satam, regibus imparem.</l>
+            <l n="38">Gens forsan propriis turgida ne viribus adnotet,</l>
+            <l n="39">Quod gestum est valida Cunctipotentis proprie manu;</l>
+            <l n="40">Ut damnosa etiam praesidia hostis Madianici</l>
+            <l n="41">
+               <pb n="B2r" />Se fregisse sciant non propriis viribus hactenus,</l>
+            <l n="42">Irae sed calidos vinditiis Numinis impetus.</l>
+            <l n="43">Porro ne Gedeon belliger hoc Martis in exitu</l>
+            <l n="44">Fretus praesidiis se quoque metirier audeat,</l>
+            <l n="45">Exilem numerum seliget exercitus agmine</l>
+            <l n="46">Optatumque feret praemia certaminis exitum.</l>
+            <l n="47">Atque ecce egreditur laeta ciens jam laribus parens,</l>
+            <l n="48">Titillant animum cui tacite nunc nova gaudia,</l>
+            <l n="49">Quae per somnia ei nocte revelata patent rata.</l>
+         </div>
+         <div type="act" n="I">
+            <div type="scene" n="I">
+               <head>Actus I. Scena I.</head>
+               <stage>
+                  <persName ref="#storge">Storge</persName>
+                  <emph rend="italic">mater,</emph>
+                  <persName ref="#joas">Joas</persName>
+                  <emph rend="italic">pater</emph>.</stage>
+               <sp who="#storge">
+                  <speaker>Storge</speaker>
+                  <l n="50">Evax, recenti cor fremit jam gaudio</l>
+                  <l n="51">Mentemque tacite vellicant solatia,</l>
+                  <l n="52">Vox ebullit sponte ipsis laeta faucibus,</l>
+                  <l n="53">Ultro ora verbis praevium praebent iter.</l>
+                  <l n="54">Nocturna sic me visa recreant territam</l>
+                  <l n="55">Solantur et laeta inquietam somnia.</l>
+                  <l n="56">At tu, corusci summe Dominator poli,</l>
+                  <l n="57">Concede maestis exitum hujus auguri,</l>
+                  <l n="58">Praesagit animus quod meus per somnia.</l>
+               </sp>
+               <sp who="#joas">
+                  <speaker>Joas</speaker>
+                  <l n="59">Quin ominare, chara consors, laetius</l>
+                  <l n="60">Et ista mentis exultantis gaudia</l>
+                  <l n="61">Secura pande, pansa mique edissere.</l>
+               </sp>
+               <sp who="#storge">
+                  <speaker>Storge</speaker>
+                  <l n="62">Utinam liceret! Sed recens ut ovatio,</l>
+                  <l n="63">Quoties recordor, cor recludit gaudio,</l>
+                  <l n="64">
+                     <pb n="B2v" />Quumque illa imago somnii laetissimi</l>
+                  <l n="65">Oberrat animi, pes suopte mi exilit.</l>
+                  <l n="66">Jam cuncta passim blanda straverat quies</l>
+                  <l n="67">Mutumque nox induxerat silentium,</l>
+                  <l n="68">Vidi leonum concito cursu gregem,</l>
+                  <l n="69">Ferum rugitu, formidabilem jubis,</l>
+                  <l n="70">Rabie cruenta, spumea, rabida, ungvibus</l>
+                  <l n="71">Saevum recurvis, praecipite ferri impetu</l>
+                  <l n="72">Imbellia in pecora vidua pastoribus.</l>
+                  <l n="73">Tum pavidi ovilis fida custodia canis,</l>
+                  <l n="74">Immissa nostri umbratilis sinu laris,</l>
+                  <l n="75">Feri latratus prospero conamine</l>
+                  <l n="76">Truces abegit in spelaei scrupeum</l>
+                  <l n="77">Declivis antrum, furvas nebulas evomens;</l>
+                  <l n="78">Unde expetentes iterum in infirmum pecus</l>
+                  <l n="79">Rabiem cruoris stimularat quando fames,</l>
+                  <l n="80">Trepidi timoris exanime adhuc memoria</l>
+                  <l n="81">Denuo reverti, dente laniant truci</l>
+                  <l n="82">Suas cruenti mutuo artus corporis</l>
+                  <l n="83">Propriaque pasti carne pascunt vultures.</l>
+               </sp>
+               <sp who="#joas">
+                  <speaker>Joas</speaker>
+                  <l n="84">Speciosa sunt haec blandaque auribus modo.</l>
+               </sp>
+               <sp who="#storge">
+                  <speaker>Storge</speaker>
+                  <l n="85">Servator orbis, unus et verus Deus,</l>
+                  <l n="86">Quorum experitur servitutem patria</l>
+                  <l n="87">Pecorumque raptus, vastitatem, incendia,</l>
+                  <l n="88">
+                     <pb n="B3r" />Id vertat omen perduelles in truces.</l>
+                  <l n="89">Utinam secundis audiam rumoribus</l>
+                  <l n="90">Haec contigisse bellico alicui duci</l>
+                  <l n="91" part="I">Nostra familia!</l>
+               </sp>
+               <sp who="#joas">
+                  <speaker>Joas</speaker>
+                  <l rend="indent" n="91" part="F">Veniet haud dubie potens</l>
+                  <l n="92">Manasses aliquis liberator semine,</l>
+                  <l n="93">Quem de tenebris erutum popularibus</l>
+                  <l n="94">Splendore, vulgo et separatum a deside</l>
+                  <l n="95">Gloria futuris merita seclis efferet.</l>
+               </sp>
+            </div>
+            <div type="scene" n="II">
+               <head>Actus I. Scena II.</head>
+               <stage>
+                  <persName ref="#chorus">Chorus</persName>.</stage>
+               <sp who="#chorus">
+                  <speaker>Chorus</speaker>
+                  <l n="96">Utinam Tonantis propitium Numen Dei</l>
+                  <l n="97">Irae timendae, sed tamen placabile,</l>
+                  <l n="98">Amore fervens atque idem irritabile</l>
+                  <l n="99">Non provocasset nostra ad iras has tribus;</l>
+                  <l n="100">Non hoc relicto Rege, Patrono, Patre,</l>
+                  <l n="101">Vitae datore Fonteque perennis boni</l>
+                  <l n="102">Ad saxa stultas muta fundisset preces,</l>
+                  <l n="103">Nefanda surdis vota lignis concinens.</l>
+                  <l n="104">Sensisset haud nunc hostici agminis minas,</l>
+                  <l n="105">Caedes, cruores, sterile sine cultu solum,</l>
+                  <l n="106">Timore trepido pectus aegrum saucia; </l>
+                  <l n="107">Nec misera miseris habita ludibrio modis</l>
+                  <l n="108">
+                     <pb n="B3v" />Jugum pateretur servitutis barbari,</l>
+                  <l n="109">Carie peresi simulachra qui caudicis</l>
+                  <l n="110">Colit nefando polluens ritu sacra.</l>
+                  <l n="111">Ideo in sinistris inedia se macerans</l>
+                  <l n="112">Jacet doloris magnitudine obruta,</l>
+                  <l n="113">Flumine perenni lachrimarum liquitur.</l>
+                  <l n="114">Ideo Tonantis sensit in se flagra, jam</l>
+                  <l n="115">Immota vultus maesta terrae lumina</l>
+                  <l n="116">Figit, procellae similis aut scopulo abnuit</l>
+                  <l n="117">Surdis amicorum auribus solamina.</l>
+                  <l n="118">Secreta secum expostulat, deflens tribum,</l>
+                  <l n="119">Patriam, penates patrios, quos prodidit,</l>
+                  <l n="120">Gentem secuta, cui modo contemnitur.</l>
+                  <l n="121">At misera tandem jam suis didicit malis,</l>
+                  <l n="122">Quam sit Jehovam svave non linqvere deum.</l>
+                  <l n="123">Infensa simulachra odit, aspectu frui</l>
+                  <l n="124">Non gaudet, altum gustans infortunium.</l>
+               </sp>
+            </div>
+            <div type="scene" n="III">
+               <head>Actus I. Scena III.</head>
+               <stage>
+                  <persName ref="#chorus">Chorus</persName>, <persName ref="#propheta">Propheta</persName>.</stage>
+               <sp who="#propheta">
+                  <speaker>Propheta</speaker>
+                  <l n="125">Antiquum herilis familiae peculium,</l>
+                  <l n="126">Quid sola stabas conquerens propter fores?</l>
+                  <l n="127">A Deo relinqvi, sola patria ut ferat?</l>
+               </sp>
+               <sp who="#chorus">
+                  <speaker>Chorus</speaker>
+                  <l n="128">Senex, minister Arbitri syderis,</l>
+                  <l n="129">
+                     <pb n="B4r" />Frugi propinquos, si quid evenerit tribu,</l>
+                  <l n="130">Aeque dolere suo decet ac incommodo.</l>
+                  <l n="131">Vis me doloris eo redegit, ut solo</l>
+                  <l n="132">Coeloque cogar evomere patriae mala.</l>
+               </sp>
+               <sp who="#propheta">
+                  <speaker>Propheta</speaker>
+                  <l n="133">Quid? Misera, nondum luctui statuit modum?</l>
+               </sp>
+               <sp who="#chorus">
+                  <speaker>Chorus</speaker>
+                  <l n="134">A fine tantum luctus, o bone vir, abest,</l>
+                  <l n="135">Ut haec doloris sola sint primordia,</l>
+               </sp>
+               <sp who="#propheta">
+                  <speaker>Propheta</speaker>
+                  <l n="136">O stulta, siquidem sic decet suis loqui,</l>
+                  <l n="137">Ut quid malorum comperit recentium.</l>
+               </sp>
+               <sp who="#chorus">
+                  <speaker>Chorus</speaker>
+                  <l n="138">Quid istud est? Ne pigeat effari, senex.</l>
+                  <l n="139">Amabo, me, minister, haud celaveris,</l>
+                  <l n="140">Nam si necesse est, spondeo silentium.</l>
+               </sp>
+               <sp who="#propheta">
+                  <speaker>Propheta</speaker>
+                  <l n="141">Sic inquit Dominus Jova, Deus tuus:</l>
+                  <l n="142">Te pressam variis eripui malis,</l>
+                  <l n="143">Solvens servitii vincula barbari,</l>
+                  <l n="144">Ut te nec Phariae rex tumidus plagae</l>
+                  <l n="145">Urgens falciferis terreat axibus,</l>
+                  <l n="146">Nec trux purpurei saevities freti</l>
+                  <l n="147">Undarum refluis obruat aestibus,</l>
+                  <l n="148">Nec deserta Arabum vomeris inscia</l>
+                  <l n="149">Nec portenta hominum mole Cyclopia</l>
+                  <l n="150">Nec diri arma prement Amonis hostica,</l>
+                  <l n="151">Cujus nunc retines tradita jugera.</l>
+                  <l n="152">Ut quid degeneris fers Mediae jugum</l>
+                  <l n="153">
+                     <pb n="B4v" />Et te sacrilegis ritibus implicas?</l>
+                  <l n="154">Pudet fateri, mentis aeternae capax</l>
+                  <l n="155">Homo, rationis particeps, mentis inopes</l>
+                  <l n="156">Truncos adorat, thura praebens mortuis.</l>
+               </sp>
+               <sp who="#chorus">
+                  <speaker>Chorus</speaker>
+                  <l n="157">Juste relicti, qui reliquimus, sumus.</l>
+                  <l n="158">Poenas subacti dedimus et fracti malis</l>
+                  <l n="159">Cum nunc Idumae, nunc Palestinae manus,</l>
+                  <l n="160">Nunc dirus Ammon, nunc Syrus contaminat</l>
+                  <l n="161">Haereditatem gentis et sortem Isaci.</l>
+                  <l n="162">At tu, benignus atque misericors Pater,</l>
+                  <l n="163">Justi furoris fraena compescas tui</l>
+                  <l n="164">Et abdicatis filiis culpa sua</l>
+                  <l n="165">Irae propitius liberatorem excita!</l>
+                  <l n="166">Satia te nostris tandem, Deus, cladibus.</l>
+                  <l n="167">Sed ecce, celeri nuntius properat gradu.</l>
+                  <l n="168">Ni fallit animus, missus venit coelitus</l>
+                  <l n="169">Ad Jerubalem, qui flagellat triticum.</l>
+                  <l n="170">Agnosco, sic est. Scire, quid ferat, juvat.</l>
+               </sp>
+            </div>
+         </div>
+         <div type="act" n="II">
+            <div type="scene" n="I">
+               <head>Actus II. Scena I.</head>
+               <stage>
+                  <persName ref="#angelus">Angelus</persName>, <persName ref="#gedeon">Gedeon</persName>.</stage>
+               <sp who="#angelus">
+                  <speaker>Angelus</speaker>
+                  <l n="171">Jehova tecum est, heros validis viribus!</l>
+               </sp>
+               <sp who="#gedeon">
+                  <speaker>Gedeon</speaker>
+                  <l n="172">Amabo, praesens si Jehova, mi Deus,</l>
+                  <l n="173">
+                     <pb n="C1r" />Cur tot malorum afflicta tempestatibus</l>
+                  <l n="174">Infelix patitur servitutem patria?</l>
+                  <l n="175">Cur calamitatis hujus – hei, miser, miser! –</l>
+                  <l n="176">Acerbitatem luctuosam sentio?</l>
+                  <l n="177">Ubi sunt, ubi illa, quae Dominus nostris palam</l>
+                  <l n="178">Miracla priscis praestitit parentibus,</l>
+                  <l n="179">Quum per rubentis gurgites tumidos freti</l>
+                  <l n="180">Praebere jussit tutum iter majoribus?</l>
+                  <l n="181">Dum illo jubente mobilis stupuit liquor</l>
+                  <l n="182">Cursu coacto et vitreus cristallino</l>
+                  <l n="183">Muro pependit pontus hinc et hinc, viam</l>
+                  <l n="184">Praebere jussus Isaci nepotibus?</l>
+                  <l n="185">Ut tendit undas unda, fluctus fluctui</l>
+                  <l n="186">Cedit sequenti, pellitur dies die,</l>
+                  <l n="187">Semper premuntur praeterita novis malis,</l>
+                  <l n="188">Dolor dolori luctui est luctus comes.</l>
+               </sp>
+               <sp who="#angelus">
+                  <speaker>Angelus</speaker>
+                  <l n="189">Gedeon, potenti pollens heros robore,</l>
+                  <l n="190">I, ductor, axes asperato falcibus</l>
+                  <l n="191">In perduelles Madiani trucis choros.</l>
+                  <l n="192">A servitutis liberatos asperae</l>
+                  <l n="193">Vinclis reduces Hebri victor posteros.</l>
+                  <l n="194">I, claritatis auctor Isaci, recens</l>
+                  <l n="195">Fusis fugatis hostibus victoria</l>
+                  <l n="196">Re, laude parta pauxillisque copiis</l>
+                  <l n="197">
+                     <pb n="C1v" />A stirpe totos demetes exercitus,</l>
+                  <l n="198">Contra tuam qui moliuntur abditam</l>
+                  <l n="199">Fraudem scelusque, perfidi, propaginem.</l>
+               </sp>
+               <sp who="#gedeon">
+                  <speaker>Gedeon</speaker>
+                  <l n="200">Magni Tonantis o minister aliger,</l>
+                  <l n="201">Cur verba perdis? Muneri namque hinc ego</l>
+                  <l n="202">Inefficax sum totus, ita profecto habet:</l>
+                  <l n="203">Qui nam facinus hoc tantum agredier moliar?</l>
+                  <l n="204">Non de potentum namque sum numero, gravis</l>
+                  <l n="205">Turba clientum subditisve turgidus,</l>
+                  <l n="206">Genitrice vili sed satus misellulus,</l>
+                  <l n="207">Minimus tribu de Manassis ignobili.</l>
+               </sp>
+               <sp who="#angelus">
+                  <speaker>Angelus</speaker>
+                  <l n="208">Avibus secundis perge, cuncta recte habent.</l>
+                  <l n="209">Perge, efficacem sortieris exitum.</l>
+                  <l n="210">Nec vim time, te neutiquam dimisero</l>
+                  <l n="211">Adoriare hostes! Comminisci haud alteram,</l>
+                  <l n="212">Qualis reperta est sponte, potuisses viam.</l>
+               </sp>
+               <sp who="#gedeon">
+                  <speaker>Gedeon</speaker>
+                  <l n="213">Id fiet. At si dederis, ita fore haec fidem</l>
+                  <l n="214">Signumque talem, quo te esse norim virum,</l>
+                  <l n="215">Votis abunde factum erit satis meis.</l>
+               </sp>
+               <sp who="#angelus">
+                  <speaker>Angelus</speaker>
+                  <l n="216">Mihine parum credis? Quid hic est scrupuli?</l>
+               </sp>
+               <sp who="#gedeon">
+                  <speaker>Gedeon</speaker>
+                  <l n="217">Credo, sed optarim offerre holocaustum Deo:</l>
+                  <l n="218">Nec effer ergo, quaeso, gressum hinc, quo adferam.</l>
+               </sp>
+               <sp who="#angelus">
+                  <speaker>Angelus</speaker>
+                  <l n="219">Probe elocutus, Gedeon, atque provide es</l>
+                  <l n="220">Et quando sic visum tibi, non abnuo.</l>
+               </sp>
+               <sp who="#gedeon">
+                  <pb n="C2r" />
+                  <speaker>Gedeon</speaker>
+                  <l n="221">Ego revertar protinus ubi fecero,</l>
+                  <l n="222">Quae destinavi, et quae volebam, ubi assequar.</l>
+               </sp>
+            </div>
+            <div type="scene" n="II">
+               <head>Actus II. Scena II.</head>
+               <stage>
+                  <persName ref="#chorus">Chorus</persName>, <persName ref="#gedeon">Gedeon</persName>.</stage>
+               <sp who="#chorus">
+                  <speaker>Chorus</speaker>
+                  <l n="223">Jure, ut videtur, plurimum hodie congeret</l>
+                  <l n="224">Deus bonorum in Gedeonem. Infortunii</l>
+                  <l n="225">Tui misertum est, o posteritas Isaci,</l>
+                  <l n="226">Misella quae Madiani jugum fers trucis,</l>
+                  <l n="227">Et ad trophaea fulta fato duceris.</l>
+                  <l n="228">Sed en, reducem cerno rursus nuntium,</l>
+                  <l n="229">Gressus ferentem ad nos anhelo spiritu.</l>
+                  <l n="230">Boni videtur fore recentis nuntius.</l>
+               </sp>
+               <sp who="#gedeon">
+                  <speaker>Gedeon</speaker>
+                  <l n="231">Quae statis hancne propter aram, amiculae?</l>
+                  <l n="232">Estne intus ille adhuc minister vir Dei?</l>
+                  <l n="233">Rapidus cita se an abripuit alio fuga?</l>
+                  <l n="234">Tellure si se non recondidit celer</l>
+                  <l n="235">Pennave liquidas aetheris fidit plagas,</l>
+                  <l n="236">Reduci stupenda mira praestabit mihi.</l>
+               </sp>
+               <sp who="#chorus">
+                  <speaker>Chorus</speaker>
+                  <l n="237">Ille expectat te: propere modo</l>
+                  <l n="238">Age, festina. Quae causa morae?</l>
+                  <l n="239">Praesto caetera cuncta, moraris</l>
+                  <l n="240">Illum ipse, gradu celeri propera.</l>
+               </sp>
+            </div>
+            <div type="scene" n="III">
+               <head>
+                  <pb n="C2v" />Actus II. Scena III.</head>
+               <stage>
+                  <persName ref="#gedeon">Gedeon</persName>, <persName ref="#angelus">Angelus</persName>.</stage>
+               <sp who="#gedeon">
+                  <speaker>Gedeon</speaker>
+                  <l n="241">Verbis ligatus testibus redeo diis</l>
+                  <l n="242">Et panis in quasillo hoc fero buccas</l>
+                  <l n="243">Testaque fusum jusculi pauxillulum.</l>
+               </sp>
+               <sp who="#angelus">
+                  <speaker>Angelus</speaker>
+                  <l n="244">Aris repone hanc carnem et panis buccas</l>
+                  <l n="245">Supraque funde jusculi scaturiginem</l>
+                  <l n="246">Dignum repente senties spectaculum</l>
+                  <l n="247">Signi expetiti cum vicissitudine</l>
+                  <l n="248">Oculos ad isthaec tolle et aspice!</l>
+                  <l n="249">Protendo sceptrum dextra tangoque hostiam,</l>
+                  <l n="250">Protendo veluti Gorgonis ad sectum caput.</l>
+               </sp>
+               <sp who="#gedeon">
+                  <speaker>Gedeon</speaker>
+                  <l n="251">O dii boni! O miraculum inopinum ac novum!</l>
+                  <l n="252">At at voracis flammea scaturigine</l>
+                  <l n="253">Aris dehiscit verticoso gurgite</l>
+                  <l n="254">Vulcanus! Ohe repostam impetu gravi</l>
+                  <l n="255">Torrens vorago ut devorarit hostiam!</l>
+                  <l n="256">Ohe tenebrae jam jam oboriuntur oculis!</l>
+               </sp>
+               <sp who="#angelus">
+                  <speaker>Angelus</speaker>
+                  <l n="257">Quid te pavoris arguit, timidissime?</l>
+                  <l n="258">Decor cur oris forma nec constat sua?</l>
+                  <l n="259">Cur corpus oculusque ita tuus contabuit?</l>
+               </sp>
+               <sp who="#gedeon">
+                  <speaker>Gedeon</speaker>
+                  <l n="260">Perii profecto, jam velut nusquam forem</l>
+                  <l n="261">Nec spes salutis ulla restat amplius.</l>
+               </sp>
+               <sp who="#angelus">
+                  <speaker>
+                     <pb n="C3r" />Angelus</speaker>
+                  <l n="262">Quinam? Profare quicquid est apertius?</l>
+               </sp>
+               <sp who="#gedeon">
+                  <speaker>Gedeon</speaker>
+                  <l n="263">Acies viderunt te, Tonantis Angelum,</l>
+                  <l n="264">Mori necesse est me miserrimum statim.</l>
+               </sp>
+               <sp who="#angelus">
+                  <speaker>Angelus</speaker>
+                  <l n="265">Bona verba: Gedeon, liberator patriae,</l>
+                  <l n="266">Tui misertum est Isacique posterum,</l>
+                  <l n="267">Fati prementis tibi instat haud terminus</l>
+               </sp>
+               <sp who="#gedeon">
+                  <speaker>Gedeon</speaker>
+                  <l n="268">Domine, in his scopulis sine aram tibi extruam,</l>
+                  <l n="269">Quae sortiatur nomen faederis tui.</l>
+               </sp>
+               <sp who="#angelus">
+                  <speaker>Angelus</speaker>
+                  <l n="270">Sit auspicatum, quicquid animo destinas.</l>
+                  <l n="271">At at te pacifer hinc Jova deus</l>
+                  <l n="272">Incolumem in tua tecta reducat</l>
+                  <l n="273">Quaeque agitas animo perficere</l>
+                  <l n="274">Det tibi, nam generosus</l>
+                  <l n="275">Mihi vir visus es, Gedeon.</l>
+               </sp>
+            </div>
+         </div>
+         <div type="act" n="III">
+            <div type="scene" n="I">
+               <head>Actus III. Scena I.</head>
+               <stage>
+                  <persName ref="#gedeon">Gedeon</persName>, <persName ref="#chorus">Chorus</persName>, <persName ref="#praeco">Praeco</persName>, <emph rend="italic">Exercitus</emph>.</stage>
+               <sp who="#gedeon">
+                  <speaker>Gedeon</speaker>
+                  <l n="276">Jehova, Numen propitium. pollens, potens,</l>
+                  <l n="277">Tuis amicis lenis et salutifer</l>
+                  <l n="278">En, ductor armis haud paratu et bellico</l>
+                  <l n="279">Fretus, Tui sed numinis fiducia</l>
+                  <l n="280">Nunc recta ad ipsam prodeo victoriam,</l>
+                  <l n="281">Fido, trophaeum qua feram illustrissimum.</l>
+                  <l n="282">
+                     <pb n="C3v" />Spes expetendi de hoste supplicii datur,</l>
+                  <l n="283">Nam quid pericli supererat plurimum,</l>
+                  <l n="284">Portus repertus fultus est Pahidione.</l>
+                  <l n="285">Post haec rudentes principes ligabimus,</l>
+                  <l n="286">Cursum tenentes castra ad hostis efferi.</l>
+                  <l n="287">Sed haec duelli cum facultas suppetat,</l>
+                  <l n="288">Unde inchoabo? Adhuc, amice, fluctuo.</l>
+                  <l n="289">Subdamne castris machinas hostilibus?</l>
+                  <l n="290">An ferro acuto rupta fodiam robora,</l>
+                  <l n="291">Agressus hostis Madianici copias?</l>
+                  <l n="292">Sed me moratur una res: quod si, miser,</l>
+                  <l n="293">Haud asper armis per dolum rem istam geram,</l>
+                  <l n="294">Risus peremptus ne exhiberem malevolis.</l>
+                  <l n="295">At usitatam praestat insistere viam</l>
+                  <l n="296">Praecone misso convocabo exercitus,</l>
+                  <l n="297">Aliunde partes qui tuerier meas</l>
+                  <l n="298">Ausint; manebo paulum, dum stabilia</l>
+                  <l n="299">Parata nobis praesidia sese offerent.</l>
+               </sp>
+               <sp who="#chorus">
+                  <speaker>Chorus</speaker>
+                  <l n="300">Arcana nobis quando credis pectoris,</l>
+                  <l n="301">Juvare cupimus te ac tueri publicum</l>
+                  <l n="302">Mortalium jus fasque. Quare svadeo,</l>
+                  <l n="303">Praecone misso convocato milites</l>
+                  <l n="304">Manassis, Assur et Nephtalin copiis.</l>
+               </sp>
+               <sp who="#gedeon">
+                  <speaker>Gedeon</speaker>
+                  <l n="305">Haec fixa perstant, modo queam illos perdere.</l>
+                  <l n="306">
+                     <pb n="C4r" />Sic eat, inanis omnis est machinatio,</l>
+                  <l n="307">Ab instituto quae refraenet. Verum age,</l>
+                  <l n="308">Opera fideli, praeco, utemur nunc tua.</l>
+                  <l n="309">Ad castra, tectam quae fidem desiderant,</l>
+                  <l n="310">Adduc cohortes. Non revela at hostibus</l>
+                  <l n="311">Consilia nostra, si sapis et es symmachus.</l>
+               </sp>
+               <sp who="#praeco">
+                  <speaker>Praeco</speaker>
+                  <l n="312">Abeo, impetratum mihi laborem ut exequar.</l>
+                  <l n="313">Dii rem secundent teque reddant sospitem!</l>
+               </sp>
+               <sp who="#gedeon">
+                  <speaker>Gedeon</speaker>
+                  <l n="314">Huc rursus ad nos post brevi revertere.</l>
+               </sp>
+               <sp who="#praeco">
+                  <speaker>Praeco</speaker>
+                  <l n="315">Adeste, adeste omnes animos advortite!</l>
+                  <l n="316">Edico cunctis civibus regni istius,</l>
+                  <l n="317">ob res stupendas Gedeonem ut sequamini</l>
+                  <l n="318">Ad culmen omnes praecipitis audaciae,</l>
+                  <l n="319">Praesente majus ne quod accidat nefas.</l>
+               </sp>
+               <sp who="#praeco">
+                  <speaker>Praeco</speaker>
+                  <l n="320">Advenio magno stipatus sat agmine.</l>
+                  <l n="321">Hic tibi deesse nolui. Sed expedi,</l>
+                  <l n="322">Ecquid requiras modo novae ex istis rei?</l>
+               </sp>
+               <sp who="#gedeon">
+                  <speaker>Gedeon</speaker>
+                  <l n="323">Adversus hostes ferri impetu mens avet,</l>
+                  <l n="324">Quibus supersunt regna, opes tyrannicae.</l>
+                  <l n="325">Quapropter huc accedite, exite hinc, solo</l>
+                  <l n="326">Prodite, currus asperate falcibus.</l>
+                  <l n="327">Ad culmen imus praecipitis audaciae.</l>
+               </sp>
+            </div>
+            <div type="scene" n="II">
+               <head>
+                  <pb n="C4v" />Actus III. Scena II.</head>
+               <stage>
+                  <persName ref="#angelus">Angelus</persName>, <persName ref="#gedeon">Gedeon</persName>, <persName ref="#praeco">Praeco</persName>.</stage>
+               <sp who="#angelus">
+                  <speaker>Angelus</speaker>
+                  <l n="328">Gedeon, voluntas summi sic tulit Dei,</l>
+                  <l n="329">Ut copioso hoc dimittantur agmine</l>
+                  <l n="330">Legiones aliquot, ne superba gens suis</l>
+                  <l n="331">Assignet armis, quod manu gestum est Dei.</l>
+               </sp>
+               <sp who="#gedeon">
+                  <speaker>Gedeon</speaker>
+                  <l n="332">I, praeco, haec numeroso exercitui nuncia,</l>
+                  <l n="333">Ut nempe ad aedes dirigat gressum suas,</l>
+                  <l n="334">Quicunque trepidum Martis horret impetum.</l>
+               </sp>
+               <sp who="#praeco">
+                  <speaker>Praeco</speaker>
+                  <l n="335">Id diligenter fiet: en, rumpo silentium.</l>
+                  <l n="336">Adeste, adeste, cuncti animos advertite!</l>
+                  <l n="337">Haec imperator voce dici maxima</l>
+                  <l n="338">Mandavit: humilis ut corda quorum pavor</l>
+                  <l n="339">Consternat, ense languido torpent manus</l>
+                  <l n="340">Gelidumque lentos frigus artus alligat,</l>
+                  <l n="341">Secedat, aedes dirigens gradum ad suas.</l>
+               </sp>
+               <sp who="#gedeon">
+                  <speaker>Gedeon</speaker>
+                  <l n="342">Votis ita est, en, factum jam satis meis.</l>
+                  <l n="343">Adhuc decem supersunt millium viri,</l>
+                  <l n="344">Ad absolutum nil nobis belli exitum</l>
+                  <l n="345">Deest parte ab omni, praeter animum muneris</l>
+                  <l n="346">Tanti capacem et prosperis rebus parem.</l>
+               </sp>
+               <sp who="#angelus">
+                  <speaker>Angelus</speaker>
+                  <l n="347">Ut video, amice, publicus te error tenet.</l>
+                  <l n="348">Nam mentis oculis limpide si cerneres</l>
+                  <l n="349">
+                     <pb n="D1r" />Benignitatem Numinis, numero haud ferox,</l>
+                  <l n="350">Armisque fretus militumque copiis</l>
+                  <l n="351">Se metireris exitu hujus praelii.</l>
+                  <l n="352">Quo pauciores habeas verum milites,</l>
+                  <l n="353">Eo futuram clariorem gloriam</l>
+                  <l n="354">Dei, secundos qui exitus pugnae dabit</l>
+                  <l n="355">Satis pusillo, quem eliget tibi, gregi;</l>
+                  <l n="356">Ut sciat Hebri gens pervicax, non viribus</l>
+                  <l n="357">Se floruisse propriis, sed vindicem</l>
+                  <l n="358">Coelestis irae. Quare legiones tuas</l>
+                  <l n="359">Compelle ad undas verticosi gurgitis.</l>
+                  <l n="360">Tibi ego turba hac pauculos elegero,</l>
+                  <l n="361">Tecum ferent qui prosperum armorum exitum.</l>
+               </sp>
+               <sp who="#gedeon">
+                  <speaker>Gedeon</speaker>
+                  <l n="362">Ego assevero id atque perfectum dabo.</l>
+               </sp>
+            </div>
+            <div type="scene" n="III">
+               <head>Actus III. Scena III.</head>
+               <stage>
+                  <persName ref="#gedeon">Gedeon</persName>, <persName ref="#angelus">Angelus</persName>.</stage>
+               <sp who="#gedeon">
+                  <speaker>Gedeon</speaker>
+                  <l n="363">Agite, his, cohortes, verticosis aestibus</l>
+                  <l n="364">Sorbete lymphas margine hac ex ordine.</l>
+               </sp>
+               <sp who="#angelus">
+                  <speaker>Angelus</speaker>
+                  <l n="365">Intentus animadverte, qui manibus suis</l>
+                  <l n="366">Lambens scatenti ingurgitat se flumine.</l>
+                  <l n="367">Hunc segregato copioso ab agmine.</l>
+                  <l n="368">Qui vero ad undae flectet genua marginem,</l>
+                  <l n="369">
+                     <pb n="D1v" />Jubeto ad aedem rursus acceleret gradum.</l>
+               </sp>
+               <sp who="#gedeon">
+                  <speaker>Gedeon</speaker>
+                  <l n="370">Expecto, quorsum tendat ista oratio?</l>
+               </sp>
+               <sp who="#angelus">
+                  <speaker>Angelus</speaker>
+                  <l n="371">Hi, quos seorsim segregasti milites,</l>
+                  <l n="372">Tecum trecenti ex hostibus victoriam</l>
+                  <l n="373">Referent, cruento demetentque praelio</l>
+                  <l n="374">Numerosum Medi robur omne perfidi.</l>
+               </sp>
+               <sp who="#gedeon">
+                  <speaker>Gedeon</speaker>
+                  <l n="375">Fatis laborem hunc debitum agnosco meis,</l>
+                  <l n="376">Per aspra semper quae petunt sublimia.</l>
+                  <l n="377">Sed quid moramur? Tandem, anime, age, accingere</l>
+                  <l n="378">Jam, quae necesse est perpetrare. Age, o manus</l>
+                  <l n="379">Mea misera, ensem cape, cape ac ad carceres</l>
+                  <l n="380">Progredere vitae tristis ac ne defice</l>
+                  <l n="381">Nec subeat animum multitudo haec hostium.</l>
+                  <l n="382">Tibi daturus est Deus victoriam.</l>
+                  <l n="383">Tu me, pusille grex, ducem sequitor tuum!</l>
+               </sp>
+            </div>
+            <div type="scene" n="IV">
+               <head>Actus III. Scena IV.</head>
+               <stage>
+                  <persName ref="#chorus">Chorus</persName>
+                  <emph rend="italic">.</emph>
+               </stage>
+               <l n="384">Quem vultu patrio Juppiter <emph xml:space="preserve" />aspicit,</l>
+               <l n="385">Optatos referet Martis is exitus.</l>
+               <l n="386">Non illum creperis horrida falcibus,</l>
+               <l n="387">Non ferrum atque Medi magna trucis manus</l>
+               <l n="388">Nec portenta Arabum mole Cyclopia,</l>
+               <l n="389">Non axes rigidi aut Ammonis impetus</l>
+               <l n="390">
+                  <pb n="D2r" />Invictum solida mente quatit. Neque</l>
+               <l n="391">Regnator Syriae mente vafer plagae,</l>
+               <l n="392">Si possessa soli climata totius</l>
+               <l n="393">Vastet, te impavidum concucient minae.</l>
+               <l n="394">Ductu hoc crine potens contigit aethera.</l>
+               <l n="395">Innixus populi et ductor Abras pii.</l>
+               <l n="396">Hoc te Mose pater promeritum tuae</l>
+               <l n="397">Subvexere tribus indocili jugum</l>
+               <l n="398">Collo suppositae; hoc robore Sisseras</l>
+               <l n="399">Confundit furias agminis hostici</l>
+               <l n="400">Tu tantum, o generis nobilis Isaci</l>
+               <l n="401">Rector, summe Deus, qui mare turbidum</l>
+               <l n="402">Componis, placidi qui maris aequora</l>
+               <l n="403">Cauri nubiferis flatibus excitas</l>
+               <l n="404">Et terrae stabilis dura tremoribus</l>
+               <l n="405">Fundamenta quatis, mobilis et poli</l>
+               <l n="406">Sistis praecipitem, cum libuit, fugam,</l>
+               <l n="407">Prolem haud degenerem respicito Isaci!</l>
+               <l n="408">Hebri dum populis Amonidum pecus</l>
+               <l n="409">Insultet miseris, gens tua pusio</l>
+               <l n="410">Sit infracta. Medos fac potius premat</l>
+               <l n="411">Diroque ipsa potens jura det Ammoni</l>
+               <l n="412">Et late horrificum nomen in ultimos</l>
+               <l n="413">Extendat populos, qua medius liquor</l>
+               <l n="414">
+                  <pb n="D2v" />Europam a Lybico littore dividit,</l>
+               <l n="415">Qua Nilus refluo prata rigat lacu,</l>
+               <l n="416">Jordanis vitreo gurgite qua rigat</l>
+               <l n="417">Convalles virides, pascua dividens</l>
+               <l n="418">Frondosa Isacidum flumine languido.</l>
+               <l n="419">At tu, progenies vera ducum, sacer</l>
+               <l n="420">Gedeon, hunc animum rebus in asperis</l>
+               <l n="421">Serva. Quodque facis, perfice sedulo,</l>
+               <l n="422">Hostis ne legio te Madianici</l>
+               <l n="423">Urgens falciferis terreat axibus</l>
+               <l n="424">Conturbentque animum praesidia Ammonis.</l>
+               <l n="425">Informes hyemes Juppiter advehit</l>
+               <l n="426">Atque idem removet. Si bene res habet,</l>
+               <l n="427">Trophaeum referes; passim etiam Deus</l>
+               <l n="428">Vili gente ducem suscitat optimum</l>
+               <l n="429">Nec semper jaculum dirigit hostium.</l>
+               <l n="430">Tu tantum crepero Martis in exitu</l>
+               <l n="431">Bello prospere in hoc esto, animosior</l>
+               <l n="432">Idem vela nimis languida contrahes.</l>
+            </div>
+         </div>
+         <div type="act" n="IV">
+            <div type="scene" n="I">
+               <head>Actus IV. Scena I.</head>
+               <stage>
+                  <persName ref="#gedeon">Gedeon</persName>, <persName ref="#phara">Phara</persName>
+                  <emph rend="italic">.</emph>
+               </stage>
+               <sp who="#gedeon">
+                  <speaker>Gedeon</speaker>
+                  <l n="433">Lux alma coelo reddita est. Phara, adesdum!</l>
+               </sp>
+               <sp who="#phara">
+                  <speaker>Phara</speaker>
+                  <l n="434">Adsum, imperator. Quid me vis? Edissere.</l>
+               </sp>
+               <sp who="#gedeon">
+                  <speaker>
+                     <pb n="D3r" />Gedeon</speaker>
+                  <l n="435">Castra hostici spectarier libet chori,</l>
+                  <l n="436">Ubi praeliandum belle est in acie cum hostibus,</l>
+                  <l n="437">Ubi inopinantes agressus, magnam ex iis</l>
+                  <l n="438">Partem concidam. Comitem se mi adjungito.</l>
+                  <l n="439">Vos, qui dispositi hic estis in praesidiis,</l>
+                  <l n="440">Sese intra castra continete strenue.</l>
+                  <l n="441">Quid hoc, pedes? Siccine agitis? Statin ̓ , pedes?</l>
+                  <l n="442">An nondum etiam? Quid? Vultin ̓ Herum subvertere?</l>
+                  <l n="443">Sine, videamus Medi copias trucis.</l>
+               </sp>
+               <sp who="#phara">
+                  <speaker>Phara</speaker>
+                  <l n="444" part="I">Inculta video hic omnia.</l>
+               </sp>
+               <sp who="#gedeon">
+                  <speaker>Gedeon</speaker>
+                  <l rend="indent" n="444" part="F">Gradum reprime.</l>
+                  <l n="445">Est explicata hic legio peditum per suas</l>
+                  <l n="446">Sternit cohortes, ferro ac aere splendida.</l>
+                  <l n="447">Turmae curules ecce curvis falcibus</l>
+                  <l n="448">Castra ante sitae. Funderunt se in cornua</l>
+                  <l n="449" part="I">Equites feroces.</l>
+               </sp>
+               <sp who="#phara">
+                  <speaker>Phara</speaker>
+                  <l rend="indent" n="449" part="F">Proh Juppiter! Hostium</l>
+                  <l n="450" part="I">Quanta est summa omnium?</l>
+               </sp>
+               <sp who="#gedeon">
+                  <speaker>Gedeon</speaker>
+                  <l rend="indent" n="450" part="F">Summa omnium ad</l>
+                  <l n="451">Sexcenta sexaginta et octo millia.</l>
+                  <l n="452">Ex his, qui ferre possunt arma, ad millium</l>
+                  <l n="453" part="I">Nongenta duo. </l>
+               </sp>
+               <sp who="#phara">
+                  <speaker>Phara</speaker>
+                  <l rend="indent" n="453" part="F">Amalcitarum st ̓ grege,</l>
+                  <l n="454">En, cum Medo unus in vicem nunc disserunt,</l>
+                  <l n="455" part="I">Ni fallor.</l>
+               </sp>
+               <sp who="#gedeon">
+                  <speaker>Gedeon</speaker>
+                  <l rend="indent" n="455" part="F">Huc me collocabo, audiam.</l>
+               </sp>
+            </div>
+            <div type="scene" n="II">
+               <head>
+                  <pb n="D3v" />Actus IV. Scena II.</head>
+               <stage>
+                  <persName ref="#amalcita">Amalcita</persName>, <persName ref="#medus">Medus</persName>, <persName ref="#ammonita">Ammonita</persName>, <emph rend="italic">Milites</emph>.</stage>
+               <sp who="#amalcita">
+                  <speaker>Amalcita</speaker>
+                  <l n="456">Ah me miserum! Recenti corda palpitant mihi metu,</l>
+                  <l n="457">Spes atque opes vitae meae jacent sepultae in pectore,</l>
+                  <l n="458">Mens horret, haeret, stricta ceu siet, vox ipsis faucibus</l>
+                  <l n="459">Nec ora verbis pervium timores ob praebent iter.</l>
+                  <l n="460">Nocturna sic me miserum territant stupentem insomnia</l>
+                  <l n="461">Animo meo male est, male maceror, male auguro, miser.</l>
+                  <l n="462">Caput dolet nec audio neque oculis perspicio satis.</l>
+                  <l n="463">Ne quis miserior est neque videtur nobis esse ullus hominum.</l>
+               </sp>
+               <sp who="#medus">
+                  <speaker>Medus</speaker>
+                  <l n="464" part="I">Benedictus Dominus! Quid novi hic homo ominatur?</l>
+               </sp>
+               <sp who="#ammonita">
+                  <speaker>Ammonita</speaker>
+                  <l rend="indent" n="464" part="F">Ego nescio,</l>
+                  <l n="465">Nam non vidi inquietum sic hic stomachari illum hoc in exercitu.</l>
+                  <l n="466">Quin ominare, si vis, amabo, laetius</l>
+                  <l n="467">Et ista mentis turbidae secure sperne insomnia</l>
+               </sp>
+               <sp who="#amalcita">
+                  <speaker>Amalcita</speaker>
+                  <l n="468">Utinam liceret! Sed metus cor vellicat formidine,</l>
+                  <l n="469">Quoties oberrat tristis mihi illius imago somnii</l>
+                  <l n="470">Heu me miserum! In quos casus, quam sortem referor, ego miser?</l>
+                  <l n="471" part="I">Ach! Ach! Heu mihi! Vae mihi! Quid querar, aut quo fugiam? Proh!</l>
+               </sp>
+               <sp who="#medus">
+                  <speaker>Medus</speaker>
+                  <l rend="indent3" n="471" part="F">Audistin , quid dicat?</l>
+               </sp>
+               <sp who="#ammonita">
+                  <speaker>Ammonita</speaker>
+                  <l rend="indent" n="472">Nimium subtiliat, in quantum audio.</l>
+               </sp>
+               <sp who="#amalcita">
+                  <speaker>Amalcita</speaker>
+                  <l n="473">Hoc somniavi somnium et vidi hoc noctis silentio</l>
+                  <l n="474">Magnum recenter de farina tostum libonem hordei</l>
+                  <l n="475">In nostra ferri recta praecipiti impetu tentoria,</l>
+                  <l n="476">Universa magnis funditus viribus convellere.</l>
+               </sp>
+               <sp who="#ammonita">
+                  <speaker>Ammonita</speaker>
+                  <l n="477">Hominum fidem! Fatalis quae imminet miseris calamitas?</l>
+                  <l n="478">Me hercle, summo res fore nostras auguror discrimine</l>
+                  <l n="479">Ex symachi istius nostri, quae retulit nunc, insomniis.</l>
+               </sp>
+               <sp who="#amalcita">
+                  <speaker>Amalcita</speaker>
+                  <l n="480">Gedeonis ensis demetet nostra colla. Vae, vae, mihi!</l>
+                  <l n="481">Omnem aciem rhedis et carris circumdabit, ne qua in fuga</l>
+                  <l n="482">Spes militi reliquatur Medi hoc in toto exercitu.</l>
+                  <l n="483">Id quod belli eventus velut aequus arbiter satis arguet.</l>
+               </sp>
+            </div>
+            <div type="scene" n="III">
+               <head>
+                  <pb n="D4r" />Actus IV. Scena III.</head>
+               <stage>
+                  <persName ref="#gedeon">Gedeon</persName>, <persName ref="#phara">Phara</persName>.</stage>
+               <sp who="#gedeon">
+                  <speaker>Gedeon</speaker>
+                  <l n="484" part="I">Audin ̓, Phara?</l>
+               </sp>
+               <sp who="#phara">
+                  <speaker>Phara</speaker>
+                  <l rend="indent" n="484" part="M">Ita est, here.</l>
+               </sp>
+               <sp who="#gedeon">
+                  <speaker>Gedeon</speaker>
+                  <l rend="indent" n="484" part="F">O tantum timorem subito exercitum</l>
+                  <l n="485" part="I">Omnem occupasse!</l>
+               </sp>
+               <sp who="#phara">
+                  <speaker>Phara</speaker>
+                  <l rend="indent" n="485" part="F">Scilicet. Nam non mediocriter omnium</l>
+                  <l n="486">Mentes animosque perturbavit pavor nominis tui.</l>
+               </sp>
+            </div>
+            <div type="scene" n="IV">
+               <head>Actus IV. Scena IV.</head>
+               <stage>
+                  <persName ref="#gedeon">Gedeon</persName>, <persName ref="#phara">Phara</persName>, <emph rend="italic">Milites</emph>.</stage>
+               <sp who="#gedeon">
+                  <speaker>Gedeon</speaker>
+                  <l n="487">Hola, hoschaho! Vos centuriones et tribuni militum,</l>
+                  <l n="488">Educite huc e castris copias, ut illico instruam.</l>
+                  <l n="489">Tu, praeco, signum da tuba et concilium propere convoca.</l>
+                  <l n="490">Volo periculum facere, quid virtus possit, quid metus.</l>
+                  <l n="491">Huc sedero, dum conveniant, quos convocare jusseram.</l>
+               </sp>
+            </div>
+         </div>
+         <div type="act" n="V">
+            <div type="scene" n="I">
+               <head>Actus V. Scena I.</head>
+               <stage>
+                  <persName ref="#phara">Phara</persName>, <persName ref="#gedeon">Gedeon</persName>, <emph rend="italic">Milites</emph>.</stage>
+               <sp who="#phara">
+                  <speaker>Phara</speaker>
+                  <l n="492">Adsunt tribuni et centuriones omnium ordinum, Gedeon.</l>
+               </sp>
+               <sp who="#gedeon">
+                  <speaker>Gedeon</speaker>
+                  <l n="493">Huc cuneos et turmas contra me omnes assistite!</l>
+                  <l n="494">Et quae res praecipuum incitamentum esse fortitudinis</l>
+                  <l n="495">Solet: ne fortuita cuneorum sit conglobatio,</l>
+                  <l n="496">Generatim huc consistite, ut e familiis et propinquitatibus</l>
+                  <l n="497">Possint cunei constitui. Vos Manassaei isthuc cum buccinis</l>
+                  <l n="498">Ardentibus, vos Abigezeritae cum hydriis hunc locum</l>
+                  <l n="499">Tenete, hoc Assurhaei intervallum, istud Zabulonitae impleant.</l>
+                  <l n="500">Stationem habeto prima acie, Manasse, cum tuo exercitu,</l>
+                  <l n="501">Vos, Asschuraei atque Abiherezitae, dextrum cornu explebitis.</l>
+                  <l n="502">Valemus legionariorum multitudine militum.</l>
+                  <l n="503">Cornu sinistro tu praeesto, Zabulo cum Nephtali,</l>
+                  <l n="504">Et ne ab latere neve a tergo perrumpant ordines, cave.</l>
+                  <l n="505">Vos caeteri invicem hanc novissimam stationem tuemini.</l>
+                  <l n="506">Si aut carptim aggrediendo nos circumagere aut confusa strue</l>
+                  <l n="507">
+                     <pb n="D4v" />Voluerint implicare, tum sensim laxate manipulos.</l>
+                  <l n="508">Cum primis ut phalangem dissipetis, in hoc contendite,</l>
+                  <l n="509">Nulla evidentior causa fuerit, quam isthaec, victoriae.</l>
+                  <l n="510">Confectis omnibus, nihil aliud restat, quam ut agminum</l>
+                  <l n="511">Oratione nostra rite animos instruam militum</l>
+                  <l n="512">Eosque belle ad virtutem et alacritatem pugnandi incitem.</l>
+                  <l n="513">Ac ut sciatis, qua ratione geratis vos in praelio,</l>
+                  <l n="514">Me respicitote, sicut ratio militaris postulat.</l>
+                  <l n="515">Quandoque clangam, vos una quoque clangitote buccinis,</l>
+                  <l n="516">Manu sinistra aptatote taedis adhibitis sic hydrias,</l>
+                  <l n="517">Clamando: „Jovae ensis Gedeonisque impetus in vos ruit“.</l>
+                  <l n="518">Perpendite jam, quo quisque vestrum vultu, si referatis hinc pedem</l>
+                  <l n="519">Ad castra, quae necessitatem pugnandi imponunt mihi,</l>
+                  <l n="520">Cum faederum ruptoribus Medis pugnam hanc capescere.</l>
+                  <l n="521">Quin quam Isaci presserint nepotes, quamque atrocibus</l>
+                  <l n="522">Damnis multarint nostros propinquos et fratres populi</l>
+                  <l n="523">Hebraei, quam superbe amicitiam nostram contempserint!</l>
+                  <l n="524">Quis omnium est in hoc exercitu, qui non resciverit?</l>
+                  <l n="525">Nullum mihi privatum intercedit cum Medo hoc negotium.</l>
+                  <l n="526">Quicquid sumus perpessi, quicquid egimus, quicquid ab eo</l>
+                  <l n="527">Damnorum tulimus, milites, id interest nostrum omnium.</l>
+                  <l n="528">Vexatos nos esse, dii sunt testes, qui belli exitum</l>
+                  <l n="529">Secundum jus fasque dabunt. Nam praeter spem nostram barbarus</l>
+                  <l n="530">Repente est hostis ex amico atque e socio adversarius.</l>
+                  <l n="531">Nos, qui patriam, qui amicos, qui socios defendere cupimus,</l>
+                  <l n="532">Mature ulciscendum censemus barbaros, ne quem impetum</l>
+                  <l n="533">In nostram gentem faciant. Satiusque omnino fore duximus,</l>
+                  <l n="534">Si caede fusi pascant horrida, quam nos, vultures.</l>
+                  <l n="535">Quapropter, o, si a dedecore nomen vindicare patriae</l>
+                  <l n="536">Vultis, agite sonitu armorum et tripudiis signum date,</l>
+                  <l n="537">Celeriter procurrite et hostem barbarosque armis excindite!</l>
+                  <l n="538">Facite phalangem, tollite barditum, ruite, tundite, agite!</l>
+                  <l n="539">Ego tuba dabo pugnae signum protinus, canam classicum.</l>
+               </sp>
+            </div>
+            <div type="scene" n="II">
+               <head>
+                  <pb n="E1r" />Actus V. Scena II.</head>
+               <stage>
+                  <persName ref="#gedeon">Gedeon</persName>, <persName ref="#manasses">Manasses</persName>, <emph rend="italic">Assur</emph>.</stage>
+               <sp who="#gedeon">
+                  <speaker>Gedeon</speaker>
+                  <l n="540">Ite, ruite, incensis hydrias taedis contundite!</l>
+                  <l n="541">Clamate: „Jovae ensis Gedeonisque impetus in vos ruit!“</l>
+                  <l n="542">Clangore coelum mugiat, fragor rauci aeris aethera</l>
+                  <l n="543">Pulset, recussum duplicent montes sonum, ruant tentoria.</l>
+                  <l n="544">Haec, milites Madiani, pugna est, quam poposcitis hodie!</l>
+                  <l n="545">Quis homo, quis deus est, quem possitis accusare, barbari?</l>
+                  <l n="546">Vestra haec protervitas, vestra haec est audacia. Quid carra retro,</l>
+                  <l n="547">Quid vallum spectatis? Nisi victorem, haec recipiunt neminem.</l>
+               </sp>
+               <sp who="#manasses">
+                  <speaker>Manasses</speaker>
+                  <l n="548">Proh, Jupiter! Virtute ut quisque et astu pro se nititur!</l>
+                  <l n="549">Ferit, feritur, pellitur, pellit, dilaniat, cruor</l>
+                  <l n="550">Permutat amnes, <emph xml:space="preserve" />ense in vicem langvido torpent manus.</l>
+               </sp>
+               <sp who="#gedeon">
+                  <speaker>Gedeon</speaker>
+                  <l n="551">Hem sic datur, si quis populum Dei premat. Hem tibi, hem, viden,</l>
+                  <l n="552">Ut diffugiant? Sequamini, legionarii, comprehendite,</l>
+                  <l n="553">Tergo fugientum vulnera inferte, fugam animis, occidite!</l>
+               </sp>
+               <sp who="#manasses">
+                  <speaker>Manasses</speaker>
+                  <l n="554">Gedeon, quam fortunatus hic illuxit hodie mihi dies!</l>
+               </sp>
+               <sp who="#gedeon">
+                  <speaker>Gedeon</speaker>
+                  <l n="555">Et mihi multo omnium fortunatissimus. Nam mihi velim</l>
+                  <l n="556">Credas, Manasses, non minorem haec res voluptatem recens,</l>
+                  <l n="557">Quam victoria fert ipsa; quod familiarem, quod symachum</l>
+                  <l n="558">Meum mihi restitutum video et servatum a manu hostium.</l>
+               </sp>
+               <sp who="#manasses">
+                  <speaker>Manasses</speaker>
+                  <l n="559">Nescis, ah nescis, tu, Gedeon, quibus fuerim in periculis!</l>
+               </sp>
+               <sp who="#gedeon">
+                  <speaker>Gedeon</speaker>
+                  <l n="560">Quid nesciam? Qui te scio fuisse inter barbaras, feras</l>
+                  <l n="561" part="I">Inter bestias!</l>
+               </sp>
+               <sp who="#manasses">
+                  <speaker>Manasses</speaker>
+                  <l rend="indent" n="561" part="F">Adeo in praecipiti stetit vita et fatum meum.</l>
+               </sp>
+               <sp who="#gedeon">
+                  <speaker>Gedeon</speaker>
+                  <l n="562">Tua calamitate nihil quicquam de voluptate hac mea</l>
+                  <l n="563" part="I">Et gratulatione diminuit Jehova.</l>
+               </sp>
+               <sp who="#manasses">
+                  <speaker>Manasses</speaker>
+                  <l rend="indent" n="563" part="F">Gaudeo</l>
+                  <l n="564">Et incolumitatem meam tibi esse gratam, gratias</l>
+                  <l n="565" part="I">Ago. Sed o spem, Gedeon, insperatam!</l>
+               </sp>
+               <sp who="#gedeon">
+                  <speaker>Gedeon</speaker>
+                  <l rend="indent" n="565" part="F">Quid rei aut spei est?</l>
+               </sp>
+               <sp who="#manasses">
+                  <speaker>Manasses</speaker>
+                  <l n="566" part="I">Assurem reduci video.</l>
+               </sp>
+               <sp who="#gedeon">
+                  <speaker>Gedeon</speaker>
+                  <l rend="indent" n="566" part="M">Ubinam?</l>
+               </sp>
+               <sp who="#manasses">
+                  <speaker>Manasses</speaker>
+                  <l rend="indent2" n="566" part="F">Recta hic reducitur via.</l>
+               </sp>
+               <sp who="#assurus">
+                  <speaker>Assurus</speaker>
+                  <l n="567">Dii magni! Ut ego laetus sum, ut laeticia differor et gaudio,</l>
+                  <l n="568">Quod hostibus victis triumphat Gedeon, milites ovent!</l>
+                  <l n="569">Nam hoc nisi sic esset, vitam ego meam cassa nuce non redimerem.</l>
+                  <l n="570">Sed videon ̓ Gedeonem cum Manasse? Ipsus est, certe ipsus est.</l>
+                  <l n="571">
+                     <pb n="E1v" />O Gedeon! O Manasses! Salvete, exoptatissimi!</l>
+               </sp>
+               <sp who="#gedeon">
+                  <speaker>Gedeon</speaker>
+                  <l n="572">Salvus sis! Salvum te redire totus gestio, Assure.</l>
+                  <l n="573">Nam ad summam laeticiam, quam capio ex hac victoria,</l>
+                  <l n="574">Accedit non minor haec, quod vos ambos incolumes recipio</l>
+                  <l n="575" part="I">Ubi autem Horaebus? Ubi Zoebus?</l>
+               </sp>
+               <sp who="#assurus">
+                  <speaker>Assurus</speaker>
+                  <l rend="indent" n="575" part="F">Ambo periere in fuga.</l>
+               </sp>
+               <sp who="#gedeon">
+                  <speaker>Gedeon</speaker>
+                  <l n="576" part="I">O factum bene!</l>
+               </sp>
+               <sp who="#manasses">
+                  <speaker>Manasses</speaker>
+                  <l rend="indent" n="576" part="F">Fatalis necessitas teneri non potest,</l>
+                  <l n="577">Nam sine pedibus est, quae pennas tantum et manus habet,</l>
+                  <l n="578">Cum porrigit manus, plantas quoque comprehendere non sinit.</l>
+               </sp>
+               <sp who="#gedeon">
+                  <speaker>Gedeon</speaker>
+                  <l n="579">Mutabiles sunt et breves humanarum rerum vices</l>
+                  <l n="580">Nec ulli simpliciter una eademque indulget faelicitas.</l>
+                  <l n="581">Insigne certe exemplum fragilitatis humanae ob oculos.</l>
+                  <l n="582">Versari cernimus, cum principes istos nunc cernimus.</l>
+                  <l n="583">Quare in secundis rebus nihil in quenquam consulere decet</l>
+                  <l n="584">Nec viribus immotis confidere, cum quid vesper vehat,</l>
+                  <l n="585">Incertum sit. Illi enim vere erunt tandem fortes, quorum robora</l>
+                  <l n="586">Nec sors adversa infringet, nec prospera flatu suo efferet.</l>
+                  <l n="587">Ego sane, quod ad me attinet, et humanae semper sum memor</l>
+                  <l n="588">Infirmitatis et vim pronoeae animo reputo; et</l>
+                  <l n="589">Omnia, quaecunque egimus, dextra peracta solius non nescio</l>
+                  <l n="590">Sed eamus intro et reportata ex hostibus victoria,</l>
+                  <l n="591">Laeti consummamus hunc diem et reliqua hujus anni tempora.</l>
+               </sp>
+               <sp who="#assurus">
+                  <speaker>Assurus</speaker>
+                  <l n="592">Spectatores, non est, quod expectetis frustra Gerebum,</l>
+                  <l n="593">Dum redeat huc cum Zoebicis auxiliis, uti contenderat.</l>
+                  <l n="594">Nam praelio ad Bethbaram nunciato, Medi et Amones,</l>
+                  <l n="595">Qui ad castra fusa venerant, domum caepere revertier</l>
+                  <l n="596">Fugiendo cum suis Zecbo et Gerebo principibus vagis.</l>
+                  <l n="597">Quos ubi, qui proximi Betbarim colunt, sensere exterritos,</l>
+                  <l n="598">Mox insecuti totum, e fugientibus occidere numerum</l>
+                  <l n="599">Una cum principibus, quorum utriusque caput cernitis.</l>
+                  <l n="600">Quod reliquum est, si placuimus et si est otium, plausum date.</l>
+               </sp>
+            </div>
+         </div>
+         <closer>Soli Deo Gloria</closer>
+      </body>
+   </text>
+</TEI>
