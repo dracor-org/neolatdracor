@@ -53,46 +53,46 @@
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person sex="MALE" xml:id="amalcita">
+               <person xml:id="amalcita" sex="MALE">
                   <persName>Amalcita</persName>
                </person>
-               <person sex="MALE" xml:id="ammonita">
+               <person xml:id="ammonita" sex="MALE">
                   <persName>Ammonita</persName>
                </person>
-               <person sex="MALE" xml:id="angelus">
+               <person xml:id="angelus" sex="MALE">
                   <persName>Angelus</persName>
                </person>
-               <person sex="MALE" xml:id="assurus">
+               <person xml:id="assurus" sex="MALE">
                   <persName>Assurus</persName>
                </person>
-               <person sex="MALE" xml:id="gedeon">
+               <person xml:id="gedeon" sex="MALE">
                   <persName>Gedeon</persName>
                </person>
-               <personGrp sex="MALE" xml:id="chorus">
+               <personGrp xml:id="chorus" sex="MALE">
                   <persName>Chorus</persName>
                </personGrp>
-               <person sex="MALE" xml:id="joas">
+               <person xml:id="joas" sex="MALE">
                   <persName>Joas</persName>
                </person>
-               <person sex="MALE" xml:id="manasses">
+               <person xml:id="manasses" sex="MALE">
                   <persName>Manasses</persName>
                </person>
-               <person sex="MALE" xml:id="medus">
+               <person xml:id="medus" sex="MALE">
                   <persName>Medus</persName>
                </person>
-               <person sex="MALE" xml:id="phara">
+               <person xml:id="phara" sex="MALE">
                   <persName>Phara</persName>
                </person>
-               <person sex="MALE" xml:id="praeco">
+               <person xml:id="praeco" sex="MALE">
                   <persName>Praeco</persName>
                </person>
-               <person sex="MALE" xml:id="propheta">
+               <person xml:id="propheta" sex="MALE">
                   <persName>Propheta</persName>
                </person>
-               <person sex="FEMALE" xml:id="storge">
+               <person xml:id="storge" sex="FEMALE">
                   <persName>Storge</persName>
                </person>
-               <person sex="UNKNOWN" xml:id="angelus-prologus">
+               <person xml:id="angelus-prologus" sex="UNKNOWN">
                   <persName>Angelus Prologus</persName>
                </person>
             </listPerson>
@@ -134,7 +134,9 @@
          </div>
          <pb n="A1v" />
          <div type="dedication">
-            <head>Insignia Illustris ac Perantiquae Familiae Baronum a Zierotina</head>
+            <opener>
+               <salute>Insignia Illustris ac Perantiquae Familiae Baronum a Zierotina</salute>
+            </opener>
             <l n="1">Cur leo sublimi scopulo se glorius effert,</l>
             <l n="2">Signa Zierotinae gentis avita gerens?</l>
             <l n="3">Robore quadrupedes quod ut hic supereminet omnes,</l>
@@ -144,7 +146,9 @@
          </div>
          <pb n="A2r" />
          <div type="dedication">
-            <head>Arte et Marte Illustrissimo et Magnifico juxta ac Doctissimo Baroni Domino Carolo a Zierotina, Rossicii, Drzevohosticii, Przerovii Domino ac haeredi, Amplissimo Mecaenati suo observantissimo gratiae et pacis Christi multiplicationem exoptat.</head>
+            <opener>
+               <salute>Arte et Marte Illustrissimo et Magnifico juxta ac Doctissimo Baroni Domino Carolo a Zierotina, Rossicii, Drzevohosticii, Przerovii Domino ac haeredi, Amplissimo Mecaenati suo observantissimo gratiae et pacis Christi multiplicationem exoptat.</salute>
+            </opener>
             <l n="1">Grande Zierotinae decus et fax lucida gentis,</l>
             <l n="2" rend="indent">Marte, Baro, Claria, Carole, et arte potens!</l>
             <l n="3">Posse putet quisquam fieri, pie, zoilus, heros,</l>
@@ -232,7 +236,7 @@
             <p>Laureatus poeta, scholae Prostanensis rector.</p>
          </div>
          <pb n="A4r" />
-         <div type="argumentum">
+         <div type="argument">
             <head>Periocha comaediae ex libro Judicum, cap. 6. et 7.</head>
             <l n="1">Forte Jerubali creto de stirpe Manassis,</l>
             <l n="2" rend="indent">Missus ab aethereis sedibus Ales ait:</l>
@@ -336,8 +340,8 @@
                <l n="49">Quae per somnia ei nocte revelata patent rata.</l>
             </sp>
          </div>
-         <div n="1" type="act">
-            <div n="1" type="scene">
+         <div type="act" n="1">
+            <div type="scene" n="1">
                <head>Actus I. Scena I.</head>
                <stage>
                   <persName ref="#storge">Storge</persName>
@@ -412,7 +416,7 @@
                   <l n="95">Gloria futuris merita seclis efferet.</l>
                </sp>
             </div>
-            <div n="2" type="scene">
+            <div type="scene" n="2">
                <head>Actus I. Scena II.</head>
                <stage>
                   <persName ref="#chorus">Chorus</persName>.</stage>
@@ -450,7 +454,7 @@
                   <l n="124">Non gaudet, altum gustans infortunium.</l>
                </sp>
             </div>
-            <div n="3" type="scene">
+            <div type="scene" n="3">
                <head>Actus I. Scena III.</head>
                <stage>
                   <persName ref="#chorus">Chorus</persName>, <persName ref="#propheta">Propheta</persName>.</stage>
@@ -528,8 +532,8 @@
                </sp>
             </div>
          </div>
-         <div n="2" type="act">
-            <div n="1" type="scene">
+         <div type="act" n="2">
+            <div type="scene" n="1">
                <head>Actus II. Scena I.</head>
                <stage>
                   <persName ref="#angelus">Angelus</persName>, <persName ref="#gedeon">Gedeon</persName>.</stage>
@@ -619,7 +623,7 @@
                   <l n="222">Quae destinavi, et quae volebam, ubi assequar.</l>
                </sp>
             </div>
-            <div n="2" type="scene">
+            <div type="scene" n="2">
                <head>Actus II. Scena II.</head>
                <stage>
                   <persName ref="#chorus">Chorus</persName>, <persName ref="#gedeon">Gedeon</persName>.</stage>
@@ -652,7 +656,7 @@
                </sp>
             </div>
             <pb n="C2v" />
-            <div n="3" type="scene">
+            <div type="scene" n="3">
                <head>Actus II. Scena III.</head>
                <stage>
                   <persName ref="#gedeon">Gedeon</persName>, <persName ref="#angelus">Angelus</persName>.</stage>
@@ -724,8 +728,8 @@
                </sp>
             </div>
          </div>
-         <div n="3" type="act">
-            <div n="1" type="scene">
+         <div type="act" n="3">
+            <div type="scene" n="1">
                <head>Actus III. Scena I.</head>
                <stage>
                   <persName ref="#gedeon">Gedeon</persName>, <persName ref="#chorus">Chorus</persName>, <persName ref="#praeco">Praeco</persName>, <emph rend="italic">Exercitus</emph>.</stage>
@@ -809,7 +813,7 @@
                </sp>
             </div>
             <pb n="C4v" />
-            <div n="2" type="scene">
+            <div type="scene" n="2">
                <head>Actus III. Scena II.</head>
                <stage>
                   <persName ref="#angelus">Angelus</persName>, <persName ref="#gedeon">Gedeon</persName>, <persName ref="#praeco">Praeco</persName>.</stage>
@@ -868,7 +872,7 @@
                   <l n="362">Ego assevero id atque perfectum dabo.</l>
                </sp>
             </div>
-            <div n="3" type="scene">
+            <div type="scene" n="3">
                <head>Actus III. Scena III.</head>
                <stage>
                   <persName ref="#gedeon">Gedeon</persName>, <persName ref="#angelus">Angelus</persName>.</stage>
@@ -910,7 +914,7 @@
                   <l n="383">Tu me, pusille grex, ducem sequitor tuum!</l>
                </sp>
             </div>
-            <div n="4" type="scene">
+            <div type="scene" n="4">
                <head>Actus III. Scena IV.</head>
                <stage>
                   <persName ref="#chorus">Chorus</persName>
@@ -969,8 +973,8 @@
                <l n="432">Idem vela nimis languida contrahes.</l>
             </div>
          </div>
-         <div n="4" type="act">
-            <div n="1" type="scene">
+         <div type="act" n="4">
+            <div type="scene" n="1">
                <head>Actus IV. Scena I.</head>
                <stage>
                   <persName ref="#gedeon">Gedeon</persName>, <persName ref="#phara">Phara</persName>
@@ -1034,7 +1038,7 @@
                </sp>
             </div>
             <pb n="D3v" />
-            <div n="2" type="scene">
+            <div type="scene" n="2">
                <head>Actus IV. Scena II.</head>
                <stage>
                   <persName ref="#amalcita">Amalcita</persName>, <persName ref="#medus">Medus</persName>, <persName ref="#ammonita">Ammonita</persName>, <emph rend="italic">Milites</emph>.</stage>
@@ -1097,7 +1101,7 @@
                </sp>
             </div>
             <pb n="D4r" />
-            <div n="3" type="scene">
+            <div type="scene" n="3">
                <head>Actus IV. Scena III.</head>
                <stage>
                   <persName ref="#gedeon">Gedeon</persName>, <persName ref="#phara">Phara</persName>.</stage>
@@ -1120,7 +1124,7 @@
                   <l n="486">Mentes animosque perturbavit pavor nominis tui.</l>
                </sp>
             </div>
-            <div n="4" type="scene">
+            <div type="scene" n="4">
                <head>Actus IV. Scena IV.</head>
                <stage>
                   <persName ref="#gedeon">Gedeon</persName>, <persName ref="#phara">Phara</persName>, <emph rend="italic">Milites</emph>.</stage>
@@ -1134,8 +1138,8 @@
                </sp>
             </div>
          </div>
-         <div n="5" type="act">
-            <div n="1" type="scene">
+         <div type="act" n="5">
+            <div type="scene" n="1">
                <head>Actus V. Scena I.</head>
                <stage>
                   <persName ref="#phara">Phara</persName>, <persName ref="#gedeon">Gedeon</persName>, <emph rend="italic">Milites</emph>.</stage>
@@ -1196,7 +1200,7 @@
                </sp>
             </div>
             <pb n="E1r" />
-            <div n="2" type="scene">
+            <div type="scene" n="2">
                <head>Actus V. Scena II.</head>
                <stage>
                   <persName ref="#gedeon">Gedeon</persName>, <persName ref="#manasses">Manasses</persName>, <emph rend="italic">Assur</emph>.</stage>
