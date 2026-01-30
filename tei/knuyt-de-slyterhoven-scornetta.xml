@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="dracor" xml:id="neolat000088" xml:lang="la">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Comoedia salebrosa atque lepidissima cui titulus
+                    Scornetta</title>
+                <author>
+                    <persName xml:lang="la">
+                        <forename>Hermannus</forename>
+                        <surname>Knuyt de Slyterhoven</surname>
+                    </persName>
+                    <idno type="gnd">138465797</idno>
+                </author>
+                <editor>Jan Bloemendal</editor>
+                <editor xml:id="bolte">Johannes Bolte</editor>
+                <respStmt>
+                    <resp>Converted to TEI by</resp>
+                    <persName>Julia Jennifer Beine</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0
+                        1.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <ref
+                        target="https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Knuyt-Scornetta.docx"
+                        >TransLatin</ref>
+                    <availability status="free">
+                        <p>In the public domain.</p>
+                    </availability>
+                    <note>The TransLatin version collates Bolte’s edition with the first print from
+                        1497.</note>
+                    <bibl type="originalSource"><title>Hermanni Knuyt de Slyterhouen Comoedia
+                            salebrosa atque lepidissima cui titulus Scornetta [Prelim: Elegia ad
+                            Nicolaum Stael.]</title> . <pubPlace>Bologna</pubPlace> :
+                            <publisher>Hieronimus de Baenedictis</publisher>
+                        <date>1497</date>. </bibl>
+                    <relatedItem>
+                        <!-- digital copy used -->
+                        <bibl>
+                            <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k1280094x">Gallica
+                                (BNF)</ref>
+                            <availability status="free">
+                                <p>In the public domain.</p>
+                            </availability>
+                        </bibl>
+                    </relatedItem>
+                    <relatedItem>
+                        <!-- edition collated with the the first print -->
+                        <listBibl>
+                            <!-- digital copy used -->
+                            <bibl>
+                                <ref
+                                    target="https://archive.org/details/zeitschriftfrve07beckgoog/page/233/mode/1up?view=theater"
+                                    >archive.org</ref>
+                                <availability status="free">
+                                    <p>In the public domain.</p>
+                                </availability>
+                            </bibl>
+                            <bibl><author>Johannes Bolte</author> :<title level="a"> Zwei
+                                    Humanistenkomödien aus Italien</title>. In: <title level="j"
+                                    >Zeitschrift für vergleichende Litteraturgeschichte und
+                                    Renaissance-Litteratur NF</title>
+                                <biblScope unit="volume">1</biblScope> (<date>1887/88</date>).
+                                    <biblScope>pp. 232–244</biblScope> . </bibl>
+                        </listBibl>
+                    </relatedItem>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="codrus" sex="MALE" role="servus">
+                        <persName>Codrus</persName>
+                    </person>
+                    <person xml:id="corydon" sex="MALE" role="pastor-shepherd">
+                        <persName>Corydon</persName>
+                    </person>
+                    <person xml:id="corynna" sex="FEMALE" role="domina">
+                        <persName>Corynna</persName>
+                    </person>
+                    <person xml:id="fertilitas-scornette" sex="FEMALE" role="allegoria">
+                        <persName>Fertilitas Scornette</persName>
+                    </person>
+                    <person xml:id="lolla" sex="FEMALE" role="serva">
+                        <persName>Lolla</persName>
+                    </person>
+                </listPerson>
+            </particDesc>
+            <textClass>
+                <keywords>
+                    <term type="genreTitle">comedy</term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+            </textClass>
+            <creation>
+                <region>
+                    <ref target="https://www.wikidata.org/wiki/Q5343710">Kingdom of Italy</ref>
+                </region>
+            </creation>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listEvent>
+            <event type="print" when="1497">
+                <desc>first print</desc>
+            </event>
+        </listEvent>
+    </standOff>
+    <text>
+        <front>
+            <pb n="Aia"/>
+            <div type="dedication">
+                <p>Illustr<corr resp="#bolte">i</corr>ssimi ac i<corr resp="#bolte"
+                    >n</corr>uictissimi Philippi ducis Burgundiae Brabantiae Comitisque Flandriae
+                    Hollandiae Zelandiae etc. Medico accuratissimo magistro Nicolao Stael: Hermanni
+                    Slyterhouen de Vyana germanae proui<corr resp="#bolte">n</corr>tiae Elegia.</p>
+                <l>Caesaris inuicti soboles diuina Philippus</l>
+                <l rend="indent">Te clinicum elegit. te duce dux regitur</l>
+                <l>Quem tuus incolumem genitor seruauerit olim</l>
+                <l rend="indent">Est tibi nunc curae uita salusque ducis</l>
+                <l n="5">Nestoreos princeps Burgundio compleat annos</l>
+                <l rend="indent">Sol1icitis operis consilioque <choice>
+                        <corr resp="#bolte">tuo</corr>
+                        <sic>tui</sic>
+                    </choice></l>
+                <l>Si lachesis sineret, memori cum nomine uita</l>
+                <l rend="indent">Immortalis ei te medicante foret</l>
+                <l>Hermicus Hispani memorat praeconia regis</l>
+                <l n="10" rend="indent">Vgerius Mauri splendida gesta canit,</l>
+                <l>Atque ego praeterii praeclaro dicere uersu</l>
+                <l rend="indent">Vel tua uel nostri magna trophea ducis</l>
+                <l>Nomina sunt plectro Phoebeo digna. poetae</l>
+                <l rend="indent">Parcito. qui obscenis uersibus addiderit</l>
+                <l n="15">Quis legeret quamuis calamo sint digna perito</l>
+                <l rend="indent">Nulla camoena placet carmen agreste iuuat</l>
+                <l>Quo cecini scaenam Scornettae, scaena placebit</l>
+                <l rend="indent">Accipe, ploena damus munera deliciis</l>
+                <l>Vndique iam tecum comoedia nostra uagetur</l>
+                <l n="20" rend="indent">Qua lecta legeris, quo uenit, ipse uenis</l>
+                <l>Nec decus. exigui ludicro carmine<choice>
+                        <corr resp="#bolte">uatis</corr>
+                        <sic>natis</sic>
+                    </choice></l>
+                <l rend="indent">Nec tibi uirtutes nec minuetur honos.</l>
+                <pb n="Aib"/>
+                <l>Saepe rosas uidi duris accrescere spinis</l>
+                <l rend="indent">Candida forma quibus saluus odorque fuit</l>
+                <l n="25">Vita nec est compar lasciuis nostra camoenis</l>
+                <l rend="indent">Scaena poposcit iners carmina mixta iocis</l>
+                <l>Non quo nauta uelit, ducuntur flamine puppes</l>
+                <l rend="indent">Vatis et ingenium, quod canit, urget opus.</l>
+            </div>
+            <div type="argument">
+                <head>Scornettae Argumentum.</head>
+                <l>Prandia Scornettae celebrat Blanchinus honore</l>
+                <l>Munifico. doctis simul hospitibus generosis</l>
+                <l>Post epulas sedet ante focum coqua uite sepulta</l>
+                <l>Immemor officii quadras abstergere opimas</l>
+                <l n="5">Ducit anus fusum, quia adest metuenda patrona</l>
+                <l>Qua prius absente et dormiuit et ocia duxit</l>
+                <l>Codrus amet Lollam sed Lolla repellit amantem</l>
+                <l>Inguine nam bursam uetulae exhaurire uolebat</l>
+                <l>Plus placuit Corydon quem dissimulabat amare</l>
+                <l n="10">Propter heram. tandemque patent, quos abdidit, ignes</l>
+                <l>Est miserata coquam delusa Corynna dolentem.</l>
+            </div>
+            <pb n="Aiia"/>
+            <div type="dedication">
+                <p>Ad clarissimum artium et medicinae doctorem Magistrum Nicolaum Stael Serenissimi
+                    Burgundiae ducis Philippi medicum solertissimum. Hermanni Knuyt de Slyterhouen
+                    Comoedia salebrosa atque lepidissima cui titulus Scornetta.</p>
+            </div>
+        </front>
+        <body>
+            <div type="act" n="1">
+                <sp who="#codrus">
+                    <speaker>Codrus</speaker>
+                    <stage>ad spectantes.</stage>
+                    <l>Salue turba senum salue formosa iuuentus.</l>
+                    <l>Quid monstri iacet ante focum? nimium moror. istinc</l>
+                    <l>Me procul eripiam. stigiis quae uenit ab undis</l>
+                    <l>Vmbra uidetur. ab hinc fugiam, solet umbra nocere:</l>
+                    <l n="5">Intrepidus redeo, melius rem nosse iuuabit</l>
+                    <l>Ne uidear profugus nullo conspectus ab hoste</l>
+                    <l>Nec metus afficiat me si noua uidero monstra</l>
+                    <l>Quis tamen impune moueat fera praelia mecum?</l>
+                    <l>Ecce armata manus cedem committere prona est.</l>
+                    <l n="10">Accedam propius. binis a pollice iunctis</l>
+                    <l>Signa dabo digitis et uerba precantia dicam.</l>
+                    <l>Lubrica si fuerit, mox umbra peribit in auras.</l>
+                    <stage>Preces <abbr>C</abbr><expan>Codri</expan>.</stage>
+                    <l>Tartareo sceptro qui regnum Pluto gubernas</l>
+                    <l>Me defende precor ne spiritus irruat in me</l>
+                    <l n="15">Qui procul a tetro cum fuste uagatur auerno.</l>
+                    <stage>Ad <abbr>spect</abbr><expan>spectantes</expan>.</stage>
+                    <l>Nescio quid uani me terruit. est coqua nostra</l>
+                    <l>Dormit anus. sordet. nimis est madefacta lyaeo,</l>
+                    <l>Experiar somnum propellere posse merumque:</l>
+                    <stage>Ad Lollam</stage>
+                    <l>Lolla sinu tepido tibi tempora lenta quiescunt?</l>
+                    <l n="20">Ante focum somnum capis? et stertis sine cura</l>
+                    <l>Immemor illorum, quae nunc conuiuia tantis</l>
+                    <pb n="Aiib"/>
+                    <l>Tanta uiris proprio Blanchinus fecit in agro</l>
+                    <l>Illa regenda forent tibi cura consilioque</l>
+                    <l>Vt foecunda uiris placeat Scornetta uocatis:</l>
+                    <stage>Ad <abbr>spec</abbr><expan>spectantes</expan>.</stage>
+                    <l n="25">Ni mirum si stertit anus, quia uite sepulta est</l>
+                    <l>Plus hodie bibit ipsa meri. quam fluminis undam</l>
+                    <l>Qui uos huc rapido cursu posuere, caballi:</l>
+                    <stage>Ad Lollam.</stage>
+                    <l>Lolla (oppressit anum sopor altus) bestia dormis?</l>
+                    <l>Surge expelle pigrum glis somnolenta soporem</l>
+                    <l n="30">Foetida nec celebrem turbam tu capra uereris?</l>
+                    <l>Quando tuus rauco fumat cum murmure culus?</l>
+                    <l>Lolla (nec audit anus) somnum depone merumque</l>
+                    <l>Est aliud quod restat opus tibi perficiendum</l>
+                    <l>Ebria quam totam somno consumere lucem</l>
+                    <l n="35">Vncta culina <choice>
+                            <corr resp="#bolte">foco</corr>
+                            <sic>foro</sic>
+                        </choice> nimis est. tu bellua surge</l>
+                    <l>Ambrosiis dapibus maculatas ablue quadras</l>
+                    <l>Splendida mensa suo grandi cultu est spoliata</l>
+                    <l>Pocula cum patenis epulae mantile repostum est.</l>
+                    <stage>Ad <abbr>aspec</abbr><expan>aspectantes</expan>.</stage>
+                    <l>Prandia conuiuis que spero grata fuere</l>
+                    <l n="40">Scornettae dederit uestri Blanchinus amore.</l>
+                    <stage>Ad Lollam.</stage>
+                    <l>Surge o uacca. hora est, pingues absterge patellas:</l>
+                    <stage>Ad <abbr>spec</abbr><expan>spectantes</expan>.</stage>
+                    <l>Saepe leui Zephyro Scornettae maxima pinus</l>
+                    <l>Non uerbis duro uix uerbere Lolla mouetur</l>
+                    <l>Forsitan in somno putat ipsa fouere priapum</l>
+                    <l n="45">Est antiqua licet, grossum tamen <choice>
+                            <corr resp="#bolte">inguen</corr>
+                            <sic>inguem</sic>
+                        </choice> adorat</l>
+                    <l>Haec uetula exuperat lasciuas igne puellas</l>
+                    <l>Si audisset meretrix de qua modo talia iacto</l>
+                    <pb n="Aiiia"/>
+                    <l>Est anus at fieret iuuenis me semper amaret</l>
+                    <l>Nec mihi sola patent sed sunt notissima ruri</l>
+                    <l n="50">Quae coniuncta uiro lusit sub brachia pini</l>
+                    <l>Cuius sydereos hinc possis cernere ramos</l>
+                    <l>Ecce coronatas aquilas pede quinque ferentes</l>
+                    <l>Vimina. Blanchino donatum a Caesare munus:</l>
+                    <stage>Ad Lollam.</stage>
+                    <l>Lolla o furca. poli medium sol transiit axem</l>
+                    <l n="55">Excute segnitiem. quoniam aduentare patronam</l>
+                    <l>Protenus audiui. uigil esto. porca labora:</l>
+                    <stage>Ad spectantes.</stage>
+                    <l>Iuppiter, o quantas habuerunt nomina uires:</l>
+                    <l>Cui modo somnus erat, somnum quam prona reliquit,</l>
+                    <l>Lumine fonte lauat, non dormitasse uidetur.</l>
+                    <l n="60">Iuppiter, o quantas habuerunt nomina uires:</l>
+                    <l>Quae prius in gremio positis dormiuit ocellis</l>
+                    <l>Nunc simulat dominae rerum custos uigil esse</l>
+                    <l>Iuppiter o quantas habuerunt nomina uires</l>
+                    <l>Ecce anus epoto nimis ora rubescit Iaccho</l>
+                    <l n="65">Tarda fuit quae nunc fusum cito pollice ductat:</l>
+                </sp>
+                <sp who="#lolla">
+                    <speaker>Lolla</speaker>
+                    <stage>ad Codrum.</stage>
+                    <l>Histrio, qui totas implesti uocibus edes</l>
+                    <l>Quid iactare tuo poteris de paupere lecto?</l>
+                    <stage>ad <abbr>spect</abbr><expan>spectantes</expan>.</stage>
+                    <l>Ne credas homini. ceu fumus ab igne calenti</l>
+                    <l>A labiis ueniunt dolus et mendacia Codri:</l>
+                </sp>
+                <sp who="#codrus">
+                    <speaker>Codrus</speaker>
+                    <stage>ad <abbr>spect</abbr><expan>spectantes</expan>.</stage>
+                    <l n="70">Iuppiter o quantas habuerunt nomina uires</l>
+                    <l>Quae modo deses erat manibus uigil omnia tentat</l>
+                    <l>Nouit anus dominam quo fallat ficta labore.</l>
+                    <l>Ad uetulam redeo, qua cum certamine longo</l>
+                    <pb n="Aiiib"/>
+                    <l>Contendam: mihi uix superest spes uicere posse</l>
+                    <l n="75">Sum iuuenis. nimis illa senex: etasque senilis</l>
+                    <l>Multa potest. anus est Venus improba uafra dicaxque,</l>
+                    <l>Ipse tamen pergam pro magnis maxima uerba</l>
+                    <l>Et pro fraude dolum reddam. ars detruditur arte:</l>
+                    <stage>Ad Lollam.</stage>
+                    <l>Salue Lolla salus mea salue uita beata.</l>
+                    <stage>Ad <abbr>spectan</abbr><expan>spectantes</expan>.</stage>
+                    <l n="80">Nil mihi respondet. surda est spernitue salutem</l>
+                    <l>Non renuit. surdescit. anus est sine dentibus albis</l>
+                    <l>Difficiles senibus sunt aures. ergo daturus</l>
+                    <l>Quam dederim repetam maiori uoce salutem.</l>
+                    <stage>Ad Lollam.</stage>
+                    <l>Salue Lolla meae uitae spes unica salue</l>
+                    <l n="85">Ah digitos nimium lassant tibi tradita pensa</l>
+                    <l>Atque habitas ruri ruris pastoribus hospes</l>
+                    <l>Dardanei regis tu magno digna cubili</l>
+                    <l>Troica pro fuso pregnanti insignia ducas</l>
+                    <l>O utinam noctem tecum consumerer unam</l>
+                    <l n="90">Delicias Paridis superaret mentula nostra:</l>
+                </sp>
+                <sp who="#lolla">
+                    <speaker>Lolla</speaker>
+                    <stage>ad Codrum.</stage>
+                    <l>Vade tuos clunes asino submitte cinede</l>
+                    <l>Impleat atque nates tua mentula: cuius. honesta</l>
+                    <l>Dicere turba uetat. puerum tu noscis Alexim.</l>
+                    <l>Horti nec pateat tibi nostri ualua reclusa</l>
+                    <l n="95">Hinc capiat flores florum qui nouit honorem</l>
+                    <l>Tu legis urticam, tibi rusuce lilia sordent:</l>
+                </sp>
+                <sp who="#codrus">
+                    <speaker><abbr>Codr</abbr><expan>Codrus</expan></speaker>
+                    <stage>ad Lollam.</stage>
+                    <l>Flos mihi purpureus placet et uacinia nigra</l>
+                    <l>Despicimus. tu asperge rosis mea linthea lecti,</l>
+                    <l>Ne relegam sparsas prohibe. mihi tangere saltem</l>
+                    <pb n="Aiiiia"/>
+                    <l n="100">Hoc permitte, precor. tangam si tangere phas est:</l>
+                </sp>
+                <sp who="#lolla">
+                    <speaker><abbr>Lol</abbr><expan>Lolla</expan></speaker>
+                    <stage>ad <abbr>Co</abbr><expan>Codrum</expan>.</stage>
+                    <l><choice>
+                            <corr resp="#bolte">Quae</corr>
+                            <sic>Quam</sic>
+                        </choice> tu bupho petis quamuis tibi tanta darentur</l>
+                    <l>Munera. non locus est ubi tu donata reponas</l>
+                    <l>Te breuior torus est. dum somno fallere noctem</l>
+                    <l>Quaeris: eum totum te solo curuus adimples:</l>
+                </sp>
+                <sp who="#codrus">
+                    <speaker><abbr>Co</abbr><expan>Codrus</expan></speaker>
+                    <stage>ad <abbr>Lol</abbr><expan>Lollam</expan>.</stage>
+                    <l n="105">Tu nescis annosa Venus? Veneri quia lecti</l>
+                    <l>Non placuit moles. placet illi lectulus. in quo</l>
+                    <l>Arctius alterius premat alter corpus amantis.</l>
+                    <l>Ipsa locum tantum non Lolla recusat amorem</l>
+                    <l>Si locus esset ait. locus est, si ludere uellem.</l>
+                    <l n="110">Est anus. atque placet uetulae uesica beatae.</l>
+                </sp>
+                <sp who="#lolla">
+                    <speaker><abbr>Lo</abbr><expan>Lolla</expan></speaker>
+                    <stage>ad <abbr>Co</abbr><expan>Codrum</expan>.</stage>
+                    <l>Quid populo iactas oculis in terga reductis?</l>
+                </sp>
+                <sp who="#codrus">
+                    <speaker><abbr>Co</abbr><expan>Codrus</expan></speaker>
+                    <stage>ad <abbr>Lol</abbr><expan>Lollam</expan>.</stage>
+                    <l>Auribus admotis propius recitabo, loquaci</l>
+                    <l>Nec referas uulgo, Codri quae carpis ab ore.</l>
+                    <stage>Ad seipsum.</stage>
+                    <l>Ah quid dixisti? digitis os comprime binis</l>
+                    <l n="115">Vera nocent, quandoque uiro mendacia prosunt.</l>
+                    <stage>Ad <abbr>spect</abbr><expan>spectantes</expan>.</stage>
+                    <l>Pollicitus sum anui, uobis narrata referre.</l>
+                    <stage>Ad Lollam.</stage>
+                    <l>Incipiam placidas dabis aures: parce furori</l>
+                    <l>Si mea Lolla tibi nimis aspera uerba uidentur:</l>
+                </sp>
+                <sp who="#lolla">
+                    <speaker><abbr>Lol</abbr><expan>Lolla</expan></speaker>
+                    <stage>ad <abbr>Co</abbr><expan>Codrum</expan>.</stage>
+                    <l>Dic age, si quid habes, patulas arreximus aures</l>
+                    <l n="120">Si minus aequa forent, nec me tua dicta mouebunt:</l>
+                </sp>
+                <sp who="#codrus">
+                    <speaker><abbr>Codr</abbr><expan>Codrus</expan></speaker>
+                    <stage>ad <abbr>spect</abbr><expan>spectantes</expan>.</stage>
+                    <l>Pollicitum uereor persoluere. garrula pica</l>
+                    <l>Est anus. aereae <choice>
+                            <corr resp="#bolte">uolucres</corr>
+                            <sic>nolucres</sic>
+                        </choice> cras omnia noscent:</l>
+                </sp>
+                <sp who="#lolla">
+                    <speaker><abbr>Lol</abbr><expan>Lolla</expan></speaker>
+                    <stage>ad <abbr>Co</abbr><expan>Codrus</expan></stage>
+                    <l>Da promissa mihi. me sola penes <choice>
+                            <corr resp="#bolte">remanebunt</corr>
+                            <sic>remanebnut</sic>
+                        </choice></l>
+                    <l>Nec referam nostrae (quamuis mihi chara) Corynnae</l>
+                </sp>
+                <sp who="#codrus">
+                    <speaker><abbr>Codr</abbr><expan>Codrus</expan></speaker>
+                    <stage>ad <corr resp="#bolte">Lollam</corr>.</stage>
+                    <l n="125">Si praesciret anus, mihi rumperet unguibus ora</l>
+                    <pb n="Aiiiib"/>
+                    <l>Quae dicam. uerbis aures ledentur aniles</l>
+                    <l>Ne cadat ipsa fides quae feci debita soluam</l>
+                    <l>Hoc scio uerba, graues ictus expecto minasque.</l>
+                    <l>Quisquis ades rogo uerba notes recitanda theatro.</l>
+                    <stage>Verba Codri.</stage>
+                    <l n="130">Aridus ecce perit qui quondam floruit hortus</l>
+                    <l>Nec redolent uiolae quibus omnia folia desint</l>
+                    <l>Atque rosis decus omne abiit. rubigine tacta</l>
+                    <l>Claustra iacent horti, quem tanti fecerit ipsa</l>
+                    <l>Valua patet longo <choice>
+                            <corr resp="#bolte">lacerantis</corr>
+                            <sic>lacerato</sic>
+                        </choice> temporis usu</l>
+                    <stage>Ad Lollam.</stage>
+                    <l n="135">Quid ferat, ex nudo campo qui semina quaerit?</l>
+                    <l>Quid legat ex horto qui poscit lilia uestro?</l>
+                </sp>
+                <sp who="#lolla">
+                    <speaker><abbr>Lol</abbr><expan>Lolla</expan></speaker>
+                    <stage>ad <abbr>Co</abbr><expan>Codrum</expan>.</stage>
+                    <l>Sum despecta tibi? qui tantum me cupiebas</l>
+                    <l>Posse frui. periit ne? ubi nunc tua tanta libido</l>
+                    <l>Te fortunatum finxisti dicere tandem</l>
+                    <l n="140">Cum foret amplexus tibi mecum furcifer unus:</l>
+                </sp>
+                <sp who="#codrus">
+                    <speaker><abbr>Codr</abbr><expan>Codrus</expan></speaker>
+                    <stage>ad spectantes.</stage>
+                    <l>Et rudis et simplex anus est quam saepe dolosam</l>
+                    <l>Pertimui:<stage>ad Lollam.</stage> non ipsa places mihi, porca, sed aera</l>
+                    <l>Quae nodosa tibi pera mille recondita seruat</l>
+                    <l>Haec nisi dixissem tumida tumido inguine bursa</l>
+                    <l n="145">Te spoliasse uelim. dixi quia dicere uoui</l>
+                    <l>Lucra sacro nunquam uolui praeponere uoto</l>
+                    <l>Quamuis iurato uix creditur istud egeno:</l>
+                </sp>
+                <sp who="#lolla">
+                    <speaker>Lolla</speaker>
+                    <stage>ad Codrum.</stage>
+                    <l>Me pedico uelis nummis spoliare priapo</l>
+                    <l>Hoc potius <choice>
+                            <corr resp="#bolte">to uel</corr>
+                            <sic>uel tu</sic>
+                        </choice> caderet tua mentula ferro</l>
+                    <l n="150">Hinc fuge leno procul uel te scelerate manebunt</l>
+                    <l>Verbera. quis grauiora potest dare femina nulli.</l>
+                    <pb n="Ava"/>
+                    <stage>Ad <abbr>specta</abbr><expan>spectantes</expan>.</stage>
+                    <l>Inguine cuncta mihi quod uix habet ille subulcus</l>
+                    <l>Tollere presumpsit depulsus cum inguine fugit</l>
+                    <l>Nunc expromo peram quam turgida bina recondunt</l>
+                    <l n="155">Vbera. grata uiro soboli gratissima nostrae</l>
+                    <l>Et numerem et uideam quam diues sim <choice>
+                            <corr resp="#bolte">aeris</corr>
+                            <sic>eris</sic>
+                        </choice> et auri</l>
+                    <l>Haec Corydon captet Corydon qui pectore grato</l>
+                    <l>Saepe sub <choice>
+                            <corr resp="#bolte">infami</corr>
+                            <sic>imphami</sic>
+                        </choice> pinu mea pectora pressit</l>
+                    <l>Atque reuisa iuuat depressa sub arbore tellus</l>
+                    <l n="160">Ista ferat Daphnis puer est mihi pulcra iuuentus</l>
+                    <l>His tibi florigeram cum geminis, Daphni, coronam,</l>
+                    <l>Germanos pueros qua cinctus tempora uinces,</l>
+                    <l>Istis quicquid, emam. mihi formam corporis addet,</l>
+                    <l>Culta tibi, Corydon, Corydon, tua Lolla placebit.</l>
+                    <stage>Ad <abbr>Co</abbr><expan>Codrum</expan> absentem.</stage>
+                    <l n="165">Caetera quae restant o Codre numismata tolle</l>
+                    <l>Findere quo possis ungues, mercaberis ensem,</l>
+                    <l>Ne nimium ledas culum, dum scalpere sudas.</l>
+                </sp>
+                <sp who="#codrus">
+                    <speaker>Codrus</speaker>
+                    <stage>in scaenam reuersus ad Lollam.</stage>
+                    <l>Nil hodie ruri tu porca peregeris. albos</l>
+                    <l>Custodis cineres cinerumque notata colore</l>
+                    <l n="170">Ha mala segnities: ha somne diurne. laborem</l>
+                    <l>Impedis et nobis quot dulcia premia tollis.</l>
+                    <stage>ad <abbr>spectan</abbr><expan>spectantes</expan>.</stage>
+                    <l>Ecce iterum somnus uetulam deuicit inertem.</l>
+                    <l>Exue desidiam, torpentem pelle soporem</l>
+                    <l>Aereus <choice>
+                            <corr resp="#bolte">exiguusque</corr>
+                            <sic>exignusque</sic>
+                        </choice> lebes fumosus in igne</l>
+                    <l n="175">Quem positum uideo. quae archana recondita seruat?</l>
+                    <stage>ad <abbr>specta</abbr><expan>spectantes</expan>.</stage>
+                    <l>Cognita sunt mihi, quid peto? flumin<corr resp="#bolte">i</corr>s unda
+                        redundat</l>
+                    <l>Quo nigra calfacto coruorum tegmina pennas</l>
+                    <pb n="Avb"/>
+                    <l>Aut niueis cygnis fuscos anus abluet ungues:</l>
+                </sp>
+                <sp who="#lolla">
+                    <speaker><abbr>Lol</abbr><expan>Lolla</expan></speaker>
+                    <stage>ad <abbr>Co</abbr><expan>Codrum</expan>.</stage>
+                    <l>Non habet ecce lebes aconita anguesque feroces</l>
+                    <l n="180">Nec uirides herbas deuoto carmine lectas</l>
+                    <l>Est aqua pura. quadras qua sorde lauabo linitas:</l>
+                </sp>
+                <sp who="#codrus">
+                    <speaker><abbr>Co</abbr><expan>Codrus</expan></speaker>
+                    <stage>ad <abbr>Lol</abbr><expan>Lollam</expan>.</stage>
+                    <l>Paruulus iste lebes tepido uix imbre repletus</l>
+                    <l>Sordidulas poterit ne tot emundare patellas?</l>
+                </sp>
+                <sp who="#lolla">
+                    <speaker><abbr>Lol</abbr><expan>Lolla</expan></speaker>
+                    <stage>ad <abbr>spe</abbr><expan>spectantes</expan>.</stage>
+                    <l>Rusticus est Codrus, naturam nescit aquarum</l>
+                    <l n="185">Quas habeo quadras tantilla labe notatas</l>
+                    <l>Felsineo Rheno non credit posse lauari</l>
+                    <l>Caesaris hic pateras emungeret amnis opimas,</l>
+                    <l>Exiguo fluuio noui amplas tollere sordes:</l>
+                </sp>
+                <sp who="#codrus">
+                    <speaker><abbr>Co</abbr><expan>Codrus</expan></speaker>
+                    <stage>ad <abbr>Lol</abbr><expan>Lollam</expan>.</stage>
+                    <l>O coqua surge. laua quadras. absterge patellas</l>
+                    <l n="190">Tempus abit. te expectat onus nimis uncta popina.</l>
+                    <l>Lolla opus expedias. tua nunc uentura patrona est:</l>
+                </sp>
+                <sp who="#lolla">
+                    <speaker><abbr>Lol</abbr><expan>Lolla</expan></speaker>
+                    <stage>ad <abbr>Co</abbr><expan>Codrum</expan>.</stage>
+                    <l>Tu nisi continuos turbaueris hirce labores</l>
+                    <l>Nostros. pregnanti complessem stamina fuso</l>
+                    <l>Et tibi donassem tris brachas si meruisses</l>
+                    <l n="195">Luxuriose quibus spaciosum strinxeris inguen</l>
+                    <l>Affore dicis heram cuius tu nomina nescis.</l>
+                    <l>Visa tibi nunquam est. uisam nec noris aselle:</l>
+                </sp>
+                <sp who="#codrus">
+                    <speaker><abbr>Co</abbr><expan>Codrus</expan></speaker>
+                    <stage>ad <abbr>Lol</abbr><expan>Lollam</expan>.</stage>
+                    <l>Saepe mihi uisa est agris notissima nostris</l>
+                    <l>Nomen amoris habet formosa Corynna uocatur:</l>
+                </sp>
+                <sp who="#lolla">
+                    <speaker><abbr>Lol</abbr><expan>Lolla</expan></speaker>
+                    <stage>ad <abbr>spe</abbr><expan>spectantes</expan>.</stage>
+                    <l n="200">Quas meminit laudes Codrus mea digna Corynna est</l>
+                    <l>Corporis atque <choice>
+                            <corr resp="#bolte">animi</corr>
+                            <sic>animo</sic>
+                        </choice> forma cum Pallade certet,</l>
+                    <l>Diis sua forma placet. riuales cuius amore</l>
+                    <l>Iuppiter accensus mortales maximus odit:</l>
+                </sp>
+                <pb n="Avia"/>
+                <sp who="#codrus">
+                    <speaker><abbr>Co</abbr><expan>Codrus</expan></speaker>
+                    <stage>ad <abbr>Lol</abbr><expan>Lollam</expan>.</stage>
+                    <l>Ecce Corynna uenit quam tanti feceris. olli</l>
+                    <l n="205">Assurgas. dominae reuerentia detur honosque.</l>
+                    <stage>Ad <abbr>specta</abbr><expan>spectantes</expan>.</stage>
+                    <l>Vix se uacca leuat. fricat ungue caputque natesque</l>
+                    <l>Officium faceret manibus pedibusque patronae</l>
+                    <l>Numina quae debet reuereri? si minus aula</l>
+                    <l>Aetherea dignam reueretur Lolla Corynnam:</l>
+                </sp>
+                <sp who="#corynna">
+                    <speaker>Corynna</speaker>
+                    <stage>ad Lollam.</stage>
+                    <l n="210">Bestia pigra sedes? immobile nempe uideris</l>
+                    <l>Saxum. atque a Lolla fiet reuerentia nulli?</l>
+                    <l>Nil agis. ecce iacent data ploeno uellere pensa</l>
+                    <l>Ante focum recubas rubicunda. uel ebria uites</l>
+                    <l>Abstuleris Baccho foecundas. uel calor ignis</l>
+                    <l n="215">Immodicusque labor sunt tanti causa ruboris.</l>
+                    <stage>Ad <abbr>spectan</abbr><expan>spectantes</expan>.</stage>
+                    <l>Non labor est dormiuit anus. sed Bacchus et ignis</l>
+                    <l>Est aliquid uetulas cum Baccho ducere uitam</l>
+                    <l>Bacchus amat uetulas Bacchus rapidos amat ignes</l>
+                    <l>Taediferis manibus quos tu <choice>
+                            <corr resp="#bolte">Venus</corr>
+                            <sic>Veuus</sic>
+                        </choice> improba gestas,</l>
+                    <l n="220">Haec anus ante focum petit ignes. ebria quicquid</l>
+                    <l>Ignis habere potest capit. at magis ille placeret</l>
+                    <l>Quo totiens caluit notae sub brachia pini</l>
+                    <l>Cuius frondosum contingit sydera culmen</l>
+                    <stage>Ad <abbr>Coryd</abbr><expan>Corydonem</expan> absentem.</stage>
+                    <l>Ah Corydon Corydon lentus nimis hinc procul erras</l>
+                    <l n="225">Cum grege dumosas per rupes gaudia captes</l>
+                    <l>Sola relicta domi tua nympha manetque doletque</l>
+                    <l>Te pecudes dum rura petis non Lolla sequatur?</l>
+                    <l>Perge domum, stulti est agros armenta nemusque</l>
+                    <l>Seu placidos amnes placidae preponere nymphae.</l>
+                    <pb n="Avib"/>
+                    <l n="230">Vosque greges niuei pastorem mittite uestrum,</l>
+                    <l>Pan curat ruri nullo custode capellas.</l>
+                    <stage>Ad Pana.</stage>
+                    <l>Pan deus agrestis, precibus simul annue nostris</l>
+                    <l>Vt ueniat. celer ad timidum rediturus ouile est.</l>
+                    <stage>Ad Amadryades.</stage>
+                    <l>Hunc quoque da, sacrum siluarum numen. adultos</l>
+                    <l n="235">Parcius inscindat frondator ab arbore ramos</l>
+                    <l>Quando amplectantur noua brachia palmitis ulmos</l>
+                    <l>O Corydon Corydon mox ad tua tecta redito,</l>
+                    <l>Aut regis assiduo sudantes uomere tauros</l>
+                    <l>Aut reparas tuguri siluestri culmina iunco</l>
+                    <l n="240">Tu fuge rura. ueni Corydon properabis. et ignes</l>
+                    <l>Fac referas tecum. quos cum grege nuper abisse</l>
+                    <l>Conqueritur. nil ante focum nisi Lolla reposcit</l>
+                    <l>Ignes absentis. deus ille reposcere cogit</l>
+                    <l>Laurigero capiti cuius sunt cornua laudi:</l>
+                </sp>
+                <sp who="#lolla">
+                    <speaker>Lolla</speaker>
+                    <stage>ad Corynnam.</stage>
+                    <l n="245">Arua colit Corydon Scornettae curuus arator</l>
+                    <l>Ter posito saxo quae nostra distat ab urbe,</l>
+                    <l>Phoebus ab aethereis qua parte emergitur oris.</l>
+                </sp>
+                <sp who="#fertilitas-scornette">
+                    <speaker>Fertilitas Scornette.</speaker>
+                    <l>Quantum Scornettae <choice>
+                            <corr resp="#bolte">Cereris</corr>
+                            <sic>ceceris</sic>
+                        </choice> quantumque lyaei</l>
+                    <l>Consequitur Blanchinus. opum Scornetta redundat</l>
+                    <l n="250">Dependet niueus pec<corr resp="#bolte">u</corr>dum grex culmine
+                        montis,</l>
+                    <l>Auster culta uidet sua iugera et ordine uites</l>
+                    <l>Cornigerae uaccae detondent pascua dente</l>
+                    <l>Eurus ubi spirat, placidus dilabitur amnis</l>
+                    <l><choice>
+                            <corr resp="#bolte">Quo</corr>
+                            <sic>Qno</sic>
+                        </choice> nitidos olim uidi colludere pisces</l>
+                    <l n="255">Dolia plena meri domino Scornetta quotannis</l>
+                    <pb n="Aviia"/>
+                    <l>Mittit, quot teretes digitos habet utraque palma</l>
+                    <l>Et segetis quantum ter iugera dena tulere</l>
+                    <l>Caseolos ficus simul addit poma nucesque</l>
+                    <l>Diuitias pingues pinguis promittit agellus:</l>
+                    <l n="260">Est populo Scornetta locus gratissimus omni</l>
+                    <l>Tristia propellit. fugat iras. gaudia confert,</l>
+                    <l>Cogit et inuitum moestum deponere uultum</l>
+                    <l>Dum iacet herbifero Corydon resupinus in agro</l>
+                    <l>Vimina curua piris flauas prospectat aristas</l>
+                    <l n="265"><choice>
+                            <corr resp="#bolte">Dum</corr>
+                            <sic>Dnm</sic>
+                        </choice> tauri audaces passim per prata <choice>
+                            <corr resp="#bolte">uagantur</corr>
+                            <sic>uagantnr</sic>
+                        </choice></l>
+                    <l>Lanigerumque pecus tenero metit ore salicta</l>
+                    <l>Immemor est nostri nostri quam saepius olim</l>
+                    <l>Fouit in amplexu. pecorum memor est et Amyntae</l>
+                    <l>Cuius constringit modo duris colla lacertis</l>
+                    <l n="270">Immemor est nostri. dabit illi munera sertum</l>
+                    <l>Capreolosque duos precium pro coniuge partum</l>
+                    <l>Immemor est nostri Corydon nec ero memor eius</l>
+                    <l>Est mihi despectus me credis amare cynedum?</l>
+                </sp>
+                <sp who="#codrus">
+                    <speaker><abbr>Codr</abbr><expan>Codrus</expan></speaker>
+                    <stage>ad <abbr>spectan</abbr><expan>spectantes</expan>.</stage>
+                    <l>Audet anus dominae tot nugas dicere. credis</l>
+                    <l n="275">Ipsa ne despiceret? dum nummos enumerabat</l>
+                    <l>Cui dare constituit tantos. notissima pellex</l>
+                    <l>Ignes dissimulat. quia uidit adesse Corynnam</l>
+                    <l>Quam reueretur. anus nimis ardet, frigida nunquam est:</l>
+                </sp>
+                <sp who="#lolla">
+                    <speaker>Lolla</speaker>
+                    <stage>ad Corynnam.</stage>
+                    <l>O utinam pinus subsecta iaceret. amores</l>
+                    <l>Quae nouit nostros. mihi qua pallesco reuisa</l>
+                    <l n="280">Atque foret nobis uitae foelicius omen!</l>
+                    <pb n="Aviib"/>
+                    <l>Si mihi uel frontem color auri tinxerit ora</l>
+                    <l>Non dederit Bacchus, sed sedula pensa ruborem</l>
+                    <l>Vina nocent fuso roseam frontem dedit ignis</l>
+                    <l n="285">Cum mihi sint curae. domus. ignis. in igne lebetes</l>
+                    <l>Ne pereat si quid superest mihi temporis. ecce</l>
+                    <l>Assiduis digitis trahimus data uellera. magnas</l>
+                    <l>Diuitias Croesi cupimus te uincere posse:</l>
+                </sp>
+                <sp who="#codrus">
+                    <speaker><abbr>Codr</abbr><expan>Codrus</expan></speaker>
+                    <stage>ad <abbr>spect</abbr><expan>spectantes</expan>.</stage>
+                    <l>Ludit anus uerbis matronam et falsa labore</l>
+                    <l n="290">Somnolenta diem penitus consumpsit. anhelat</l>
+                    <l>Nunc opus assiduum. praeter lucra quaerit honorem:</l>
+                </sp>
+                <sp who="#corynna">
+                    <speaker>Corynna</speaker>
+                    <stage>ad <abbr>spect</abbr><expan>spectantes</expan>.</stage>
+                    <l>Diis habeo grates immensas. numine quorum</l>
+                    <l>Est mea tota domus tam fidae credita seruae</l>
+                    <l>Saepius haec lanas cum nummis linthea fruges</l>
+                    <l n="295">Ista togas rapuit rapit altera <choice>
+                            <corr resp="#bolte">ligna</corr>
+                            <sic>lingna</sic>
+                        </choice> merumque</l>
+                    <l>Conterit illa dies somnis et deuouet odit</l>
+                    <l>Quae dominae poterint contingere lucra labore</l>
+                    <l>Sed mihi Lolla fauet quam praeter non datur ulla</l>
+                    <l>Serua fidelis herae. quae captet praemia digna est</l>
+                    <l n="300">Cum precio summas laudes haec sola meretur</l>
+                    <l>Quamuis sub pinu Corydon te nouerit olim</l>
+                    <l>Casta faces ueneris <choice>
+                            <corr resp="#bolte">derides</corr>
+                            <sic>deridet</sic>
+                        </choice>. Lolla pudica est</l>
+                    <l>Est aliquid uetulas cum uirgine ducere uitam</l>
+                    <l>Quis tamen est pastor? qui bubus rure relictis</l>
+                    <l n="305">Huc uenit. et forsan lupus edax rumpit <choice>
+                            <corr resp="#bolte">ouile</corr>
+                            <sic>onile</sic>
+                        </choice>:</l>
+                </sp>
+                <sp who="#codrus">
+                    <speaker>Codrus.</speaker>
+                    <l>Est Corydon, quem Lolla fouet, quem tu ipsa uocasti.</l>
+                </sp>
+                <sp who="#corydon">
+                    <speaker>Corydon</speaker>
+                    <stage>ad <abbr>aspect</abbr><expan>aspectantes</expan>.</stage>
+                    <l>Qui pedibus rapidis huc ueni pastor ab agro</l>
+                    <pb n="Aviiia"/>
+                    <l>Vnguibus amplectens, quod uimen ab arbore raptum est</l>
+                    <l>Et redimita sacra cuius sunt tempora lauro</l>
+                    <l n="310">Sum Corydon. uestris pastor notissimus aruis</l>
+                    <l>Et colo Scornettam Blanchino dulcia rura</l>
+                    <l>Magnas delicias. quae dat mihi commoda uitae</l>
+                    <l>Quot mihi sunt pecudes quot iugera semine culta</l>
+                    <l>Quot mihi per montes luctantur frontibus agni</l>
+                    <l n="315">Ordine quot uites longum est narrare. dolendam</l>
+                    <l>Quisquis ades, potius capias quam profero causam</l>
+                    <l>Huc Corydon quare uenit. mihi perdita nympha est</l>
+                    <l>Qua cum saepe faces sub pinea tegmina foui.</l>
+                    <l>Saepius Italides quamuis dixere puellae</l>
+                    <l n="320">Quam Corydon fouet, est anus. haud ego credulus illis</l>
+                    <l>Si uetus est speciosa tamen mea Lolla. <choice>
+                            <corr resp="#bolte">decoro</corr>
+                            <sic>decore</sic>
+                        </choice></l>
+                    <l>Cum stet in ornatu formosam Pallada uincet</l>
+                    <l>Per nemus arboreum per moles montes <choice>
+                            <corr resp="#bolte">harenas</corr>
+                            <sic>harenae</sic>
+                        </choice></l>
+                    <l>Denique per nostrae Scornettae prata cucurri</l>
+                    <l n="325">Quaerere. nec nympham inueni. quo quaerere pergam?</l>
+                </sp>
+                <sp who="#codrus">
+                    <speaker><abbr>Codr</abbr><expan>Codrus</expan></speaker>
+                    <stage>ad <abbr>spec</abbr><expan>spectantes</expan>.</stage>
+                    <l>Haec noua loripidem uidistin scandere tecta?</l>
+                    <l>Orba ne clauda senex tantam conscenderet arcem?</l>
+                </sp>
+                <sp who="#corydon">
+                    <speaker>Corydon</speaker>
+                    <stage>ad <abbr>spec</abbr><expan>spectantes</expan>.</stage>
+                    <l>Si tamen huc adiit mihi dicite. clauda uel orba</l>
+                    <l>Ipsa mihi placet et sine qua mihi uiuere durum est:</l>
+                </sp>
+                <sp who="#codrus">
+                    <speaker><abbr>Codr</abbr><expan>Codrus</expan></speaker>
+                    <stage>ad Lollam.</stage>
+                    <l n="330">Lolla. uenit Corydon quem saepe sub arbore panos</l>
+                    <l>Corpore fouisti. surge atque amplectere totum.</l>
+                    <stage>Ad Corydonem.</stage>
+                    <l>En iacet exanguis, Corydon, quam quaeris amicam</l>
+                    <l>Credo, tuum nomen sua pectora frigida fecit</l>
+                    <pb n="Aviiib"/>
+                    <l>Tu propera, madida buxo sua tempora sparge</l>
+                    <l n="335">Os simul admoueas ori. tua flamina funde</l>
+                    <l>Spiritus ut redeat, iam mortua Lolla reuiuat:</l>
+                </sp>
+                <sp who="#corydon">
+                    <speaker>Corydon</speaker>
+                    <stage>ad Lollam.</stage>
+                    <l>Lolla o nostra salus quid agis? mea Lolla resurge</l>
+                    <l>En Corydon. memor esto uiri. sub tegmine pini</l>
+                    <l>Saepius oppressa qui tecum lusit in herba</l>
+                    <l n="340">Quo prius audito cecidisti frigida nostro</l>
+                    <l>Nomine. nunc gelidae tibi pectora Lolla calescant.</l>
+                </sp>
+                <sp who="#codrus">
+                    <speaker><abbr>Codr</abbr><expan>Codrus</expan></speaker>
+                    <stage>ad Corynnam.</stage>
+                    <l>Exanimis non est <choice>
+                            <corr resp="#bolte">anus</corr>
+                            <sic>auus</sic>
+                        </choice> o ueneranda Corynna</l>
+                    <l>Sed timet ipsa <choice>
+                            <corr resp="#bolte">tuos</corr>
+                            <sic>tuns</sic>
+                        </choice> ictus, tua uerba minasque</l>
+                    <l>Nam tibi iactauit iurato numine castam</l>
+                    <l n="345">Esse suam uitam. miserere dolentis adito:</l>
+                </sp>
+                <sp who="#corynna">
+                    <speaker>Corynna</speaker>
+                    <stage>ad Lollam.</stage>
+                    <l>Si timor inuasit te. Lolla repelle timorem</l>
+                    <l>Parco tibi. surgas. pro fraude sat est doluisse:</l>
+                </sp>
+                <sp who="#lolla">
+                    <speaker>Lolla</speaker>
+                    <stage>ad <abbr>Corydo</abbr><expan>Corydonem</expan>.</stage>
+                    <l>O Corydon Coridon sine quo mihi nulla uoluptas</l>
+                    <l>Cur mihi distorquet tua longa absentia mentem</l>
+                    <l>Basia da nobis nunc nunc amplectere Lollam:</l>
+                </sp>
+                <sp who="#corydon">
+                    <speaker>Co<corr resp="#bolte">r</corr>ydon</speaker>
+                    <stage>ad Lollam.</stage>
+                    <l n="350">O mea nympha, salus, anima et mea uita, fruamur</l>
+                    <l>Deliciis nostris. mihi redde quot oscula sumis.</l>
+                </sp>
+                <sp who="#codrus">
+                    <speaker><abbr>Cod</abbr><expan>Codrus</expan></speaker>
+                    <stage>ad <abbr>S</abbr><expan>Spectantes</expan>.</stage>
+                    <l>Poene sepulta fuit nunc uiuit et ardet amore.</l>
+                </sp>
+                <sp who="#corynna">
+                    <speaker>Corynna</speaker>
+                    <stage>ad <abbr>Coryd</abbr><expan>Corydonem</expan> et Lollam.</stage>
+                    <l>Ite simul memores ueneris simul ite beati</l>
+                    <l n="355">Ite sub aeream pinum quae nouit amores</l>
+                    <l>Gratus ad huc erit ille thorus sub tegmen utrique.</l>
+                </sp>
+            </div>
+        </body>
+        <back>
+            <docImprint><pubPlace>Impressum Bononiae</pubPlace>
+                <publisher>per me Hieronimum de Baenedictis</publisher>. <date when="1497">Anno
+                    domini. MCCCC LXXXXVII.</date></docImprint>
+        </back>
+    </text>
+</TEI>
