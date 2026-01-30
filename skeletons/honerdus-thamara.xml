@@ -1,0 +1,54 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="neolat000080"
+     xml:lang="lat">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Thamara</title>
+            <title type="sub">tragoedia</title>
+            <author>
+               <persName xml:lang="lat">
+                  <forename>Rochus</forename>
+                  <surname>Honerdus</surname>
+               </persName>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="dracor">DraCor</publisher>
+            <idno type="URL">https://dracor.org</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <name>TransLatin</name>
+               <idno type="URL">https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Honerdus-Thamara.docx</idno>
+            </bibl>
+            <bibl type="originalSource">
+               <title>Rochi Honerdi. I. C. Et supremi in Hollandia consistori senatoris Thamara Tragoedia. Leiden: Ioannes Patius [1611].</title>
+               <idno type="URL">https://books.google.nl/books?id=eXQ603cHK6MC</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="genreTitle">tragedy</term>
+            </keywords>
+            <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <standOff>
+      <listEvent>
+         <event type="print" when="1611">
+            <desc/>
+         </event>
+      </listEvent>
+   </standOff>
+   <text>
+      <front/>
+      <body/>
+   </text>
+</TEI>

@@ -1,0 +1,57 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="neolat000037"
+     xml:lang="lat">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Amicitia usque ad aras necis non interrupta</title>
+            <author>
+               <persName xml:lang="lat">
+                  <forename>Adamus</forename>
+                  <surname>Besnecker</surname>
+               </persName>
+               <idno type="wikidata">Q112501998</idno>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="dracor">DraCor</publisher>
+            <idno type="URL">https://dracor.org</idno>
+            <availability>
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <name>Theatrum Neolatinum</name>
+               <idno type="URL">https://www.theatrum-neolatinum.cz/pdf/pallas/Amicitia/Amicitia_text.pdf</idno>
+            </bibl>
+            <bibl type="originalSource">
+               <title>Magdaléna Jacková: Nejmírnější Pallas. Hry určené gramatikálním třídám jezuitských gymnázií. Praha: Academia, 2016. (= Theatrum Neolatinum. Latinské divadlo v českých zemích, 2.), p. 340-393</title>
+               <idno type="URL">https://www.theatrum-neolatinum.cz/en/hry/Amicitia/amicitia.html</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="genreTitle">School drama</term>
+            </keywords>
+            <classCode scheme="http://www.wikidata.org/entity/">Q130719081</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <standOff>
+      <listEvent>
+         <event type="print" when="1720-06">
+            <desc/>
+         </event>
+         <event type="print" when="1720">
+            <desc/>
+         </event>
+      </listEvent>
+   </standOff>
+   <text>
+      <front/>
+      <body/>
+   </text>
+</TEI>

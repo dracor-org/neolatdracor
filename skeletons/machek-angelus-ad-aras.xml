@@ -1,0 +1,61 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="neolat000098"
+     xml:lang="lat">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Angelus ad aras D. Joannes Nepomucenus</title>
+            <author>
+               <persName xml:lang="lat">
+                  <forename>Antonius</forename>
+                  <surname>Machek</surname>
+               </persName>
+               <idno type="wikidata">Q95094516</idno>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="dracor">DraCor</publisher>
+            <idno type="URL">https://dracor.org</idno>
+            <availability>
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <name>Theatrum Neolatinum</name>
+            </bibl>
+            <bibl type="originalSource">
+               <title>Kateřina Bobková-Valentová – Alena Bočková – Magdaléna Jacková – Martin Bažil – Eva Pauerová – Jan Zdichynec – Zdeněk Žalud: Sv. Jan Nepomucký na jezuitských školních scénách. Praha: Academia, 2015. (= Theatrum Neolatinum. Latinské divadlo v českých zemích, 1.), p. 72-139.</title>
+               <idno type="URL">https://www.theatrum-neolatinum.cz/en/hry/Angelus_ad_aras/angelus.html</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="genreTitle">School drama</term>
+            </keywords>
+            <classCode scheme="http://www.wikidata.org/entity/">Q130719081</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <standOff>
+      <listEvent>
+         <event type="print" when="1729-05-27">
+            <desc/>
+         </event>
+         <event type="print" when="1729">
+            <desc/>
+         </event>
+      </listEvent>
+      <listRelation>
+         <relation name="wikidata"
+                   active="https://dracor.org/entity/neolat000098"
+                   passive="http://www.wikidata.org/entity/Q124785485"/>
+      </listRelation>
+   </standOff>
+   <text>
+      <front/>
+      <body/>
+   </text>
+</TEI>
