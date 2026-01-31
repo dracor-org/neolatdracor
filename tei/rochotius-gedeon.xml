@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="dracor" xml:id="neolat000123" xml:lang="la">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI type="dracor" xml:id="neolat000123" xml:lang="la" xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,7 +44,7 @@
                   <title>Magdaléna Jacková, Markéta Klosová, Martin Bažil, Alena Bočková, Kateřina Bobková-Valentová, Eva Popelková (eds.): Latinské biblické drama v českých zemích. Prague 2026. In print (Theatrum Neolatinum, Latinské divadlo v českých zemích 3).</title>
                   <idno type="URL">https://www.theatrum-neolatinum.cz/en/biblicke.html</idno>
                   <bibl type="originalSource">
-                     <title>Gedeon</title>, <title type="sub">comaedia nova, cum primis ad usum scholasticum et conditionem temporum accommodata</title>, <pubPlace>Pragae</pubPlace>: Typis <publisher>Schimanianis</publisher>, Anno Domini <date when="1606">M DC VI</date>;
+                     <title>Gedeon</title>, <title type="sub">Comaedia nova, cum primis ad usum scholasticum et conditionem temporum accommodata</title>, <pubPlace>Pragae</pubPlace>: Typis <publisher>Schimanianis</publisher>, Anno Domini <date when="1606">M DC VI</date>;
                      Biblioteka Uniwersytecka, Wrocław, sign. 395 683 (=4 N 431 adl. 2).</bibl>
                </bibl>
             </bibl>
@@ -168,7 +168,7 @@
             <l n="17">Non ea rusticitas illi aut inscitia rerum est</l>
             <l n="18" rend="indent">Cordaque Cyclopicis asperiora feris,</l>
             <pb n="A2v" />
-            <l n="19">Sed facilis candor solidisque exculta<emph xml:space="preserve" />Camaenis</l>
+            <l n="19">Sed facilis candor solidisque exculta Camaenis</l>
             <l n="20" rend="indent">Pectora, quae tetricae nil feritatis alunt.</l>
             <l n="21">Quae jocus et sacris capiat condita venustas</l>
             <l n="22" rend="indent">Quaeque juvant risus, gratia blanda, lepos;</l>
@@ -240,7 +240,7 @@
             <head>Periocha comaediae ex libro Judicum, cap. 6. et 7.</head>
             <l n="1">Forte Jerubali creto de stirpe Manassis,</l>
             <l n="2" rend="indent">Missus ab aethereis sedibus Ales ait:</l>
-            <l n="3">„Cede ciere Medis<emph xml:space="preserve" />Mavortia bella protervis,</l>
+            <l n="3">„Cede ciere Medis Mavortia bella protervis,</l>
             <l n="4" rend="indent">Fortis et in castris aera merere novis.</l>
             <l n="5">Cede, tui specimen populis vegrande patebit</l>
             <l n="6" rend="indent">Roboris et dextrae Martis ad arma bonae.</l>
@@ -282,6 +282,61 @@
          <div>
             <head>Andreae Rochotii a Rochitzerberga, L.P., Gedeon comaedia ex 6. et 7. capituli libri Judicum.</head>
          </div>
+         <castList>
+            <head>Dramatis personae.</head>
+            <castItem>
+               <role>Angelus</role>
+               <roleDesc>Prologus</roleDesc>
+            </castItem>
+            <castItem>
+               <role>Storge</role>
+               <roleDesc>, mater</roleDesc>
+            </castItem>
+            <castItem>
+               <role>Joas</role>
+               <roleDesc>, pater</roleDesc>
+            </castItem>
+            <castItem>
+               <role>Chorus</role>
+               <roleDesc>indigenarum</roleDesc>
+            </castItem>
+            <castItem>
+               <role>Propheta</role>
+            </castItem>
+            <castItem>
+               <role>Gedeon</role>
+               <roleDesc>, imperator</roleDesc>
+            </castItem>
+            <castItem>
+               <role>Phara</role>
+               <roleDesc>, apparitor Gedeonis</roleDesc>
+            </castItem>
+            <castItem>
+               <role>Praeco</role>
+               <roleDesc>exercitus</roleDesc>
+            </castItem>
+            <castItem>
+               <role>Amalcita</role>
+            </castItem>
+            <castItem>
+               <role>Madianita</role>
+            </castItem>
+            <castItem>
+               <role>Milites</role>
+            </castItem>
+            <castItem>
+               <role>Ammonita</role>
+            </castItem>
+            <castItem>
+               <role>Manasses</role>
+            </castItem>
+            <castItem>
+               <roleDesc>symachi</roleDesc>
+            </castItem>
+            <castItem>
+               <role>Assur</role>
+            </castItem>
+         </castList>
       </front>
       <body>
          <div type="prologue">
@@ -920,7 +975,7 @@
                   <persName ref="#chorus">Chorus</persName>
                   <emph rend="italic">.</emph>
                </stage>
-               <l n="384">Quem vultu patrio Juppiter<emph xml:space="preserve" />aspicit,</l>
+               <l n="384">Quem vultu patrio Juppiter aspicit,</l>
                <l n="385">Optatos referet Martis is exitus.</l>
                <l n="386">Non illum creperis horrida falcibus,</l>
                <l n="387">Non ferrum atque Medi magna trucis manus</l>
@@ -1219,7 +1274,7 @@
                   <speaker>Manasses</speaker>
                   <l n="548">Proh, Jupiter! Virtute ut quisque et astu pro se nititur!</l>
                   <l n="549">Ferit, feritur, pellitur, pellit, dilaniat, cruor</l>
-                  <l n="550">Permutat amnes,<emph xml:space="preserve" />ense in vicem langvido torpent manus.</l>
+                  <l n="550">Permutat amnes, ense in vicem langvido torpent manus.</l>
                </sp>
                <sp who="#gedeon">
                   <speaker>Gedeon</speaker>
