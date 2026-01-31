@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="dracor" xml:id="neolat000113" xml:lang="lat">
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="dracor" xml:id="neolat000113" xml:lang="la">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,7 +31,7 @@
          <sourceDesc>
             <bibl type="digitalSource">
                <name>Albertino Mussato <emph>Ecerinis</emph></name>
-               <ref target="https://www.poetiditalia.it/texts/MUSSATO|ecer|001">MQDQ Galaxy</idno>
+               <ref target="https://www.poetiditalia.it/texts/MUSSATO|ecer|001">MQDQ Galaxy</ref>
                <availability status="free">
                   <p>The editions published under the research project <emph>Musisque Deoque: A digital archive of Latin poetry, from its origins to the Italian Renaissance</emph> are distributed under the Creative Commons Attribution-ShareAlike 4.0 Unported License </p>
                </availability>
@@ -95,7 +95,7 @@
       </listEvent>
       <listChange>
          <change when="2026-01-28">
-            <desc>Converted to DraCor TEI from Musisque Deoque XML by Nitya Chagti; act division based on Gary R. Grund: "Albertino Mussato, <emph>Ecerinis</emph>." In <emph>Humanist Tragedies</emph>. Cambridge: Harvard University Press, 2011. 2-47.</desc>
+            <desc>Converted to DraCor TEI from Musisque Deoque XML by Nitya Chagti; act division based on Albertino Mussato: Ecerinis. In: Gary R. Grund (ed.): Humanist Tragedies. Cambridge: Harvard University Press, 2011. pp. 2-47.</desc>
          </change>
       </listChange>
    </standOff>
