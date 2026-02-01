@@ -95,7 +95,7 @@
       </listEvent>
       <listChange>
          <change when="2026-01-28">
-            <desc>Converted to DraCor TEI from Musisque Deoque XML by Nitya Chagti; act division based on Albertino Mussato: Ecerinis. In: Gary R. Grund (ed.): Humanist Tragedies. Cambridge: Harvard University Press, 2011. pp. 2-47.</desc>
+            <desc>Converted to DraCor TEI from Musisque Deoque XML by Nitya Chagti; stage directions restored from Padrin's edition; act division based on Albertino Mussato: Ecerinis. In: Gary R. Grund (ed.): Humanist Tragedies. Cambridge: Harvard University Press, 2011. pp. 2-47.</desc>
          </change>
       </listChange>
    </standOff>
@@ -106,7 +106,7 @@
                <stage>Adelheita, Ecerinus, Albricus</stage>
                <sp who="#adelheita">
                   <speaker>Adelheita</speaker>
-                  <l>Quadnam cruentum sidus Arcthoo potens</l>
+                  <l>Quodnam cruentum sidus Arcthoo potens</l>
                   <l>regnavit orbe, pestilens tantum michi,</l>
                   <l>gnati, nefando flebiles cum vos thoro</l>
                   <l>genui? Patris iam detegam falsi dolos</l>
@@ -418,7 +418,6 @@
                </sp>
             </div>
             <div type="scene" n="2">
-               <stage>Chorus</stage>
                <sp who="#chorus">
                   <speaker>Chorus</speaker>
                   <l>Christe, qui caelis resides in altis</l>
@@ -592,7 +591,7 @@
                </sp>
                <sp who="#ecerinus">
                   <speaker>Ecerinus</speaker>
-                  <l part="I" n="340">340 Contexe.</l>
+                  <l part="I" n="340">Contexe.</l>
                </sp>
                <sp who="#frater-lucas">
                   <speaker>Fr. Lucas</speaker>
@@ -718,7 +717,6 @@
             </div>
             <div type="scene" n="5">
                <sp who="#ecerinus">
-                  <speaker>Ecerinus</speaker>
                   <l>Ast Ansedisius ecce venit hac. Hem, quid est?</l>
                </sp>
                <sp who="#ansedisius">
