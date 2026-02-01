@@ -1,0 +1,1032 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="dracor" xml:id="neolat000113" xml:lang="la">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ecerinis</title>
+            <author>
+               <persName xml:lang="la">
+                  <forename>Albertinus</forename>
+                  <surname>Mussatus</surname>
+               </persName>
+               <idno type="wikidata">Q737321</idno>
+               <idno type="gnd">118785508</idno>
+            </author>
+            <editor>
+               <persName>Luigi Padrin</persName>
+            </editor>
+            <respStmt>
+               <resp>Converted to TEI by</resp>
+               <persName>Nitya Chagti</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="dracor">DraCor</publisher>
+            <idno type="URL">https://dracor.org</idno>
+            <availability>
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+               <p>Thanks to Martina Venuti from MQDQ Galaxy for authorizing this digitization</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <name>Albertino Mussato <emph>Ecerinis</emph></name>
+               <ref target="https://www.poetiditalia.it/texts/MUSSATO|ecer|001">MQDQ Galaxy</ref>
+               <availability status="free">
+                  <p>The editions published under the research project <emph>Musisque Deoque: A digital archive of Latin poetry, from its origins to the Italian Renaissance</emph> are distributed under the Creative Commons Attribution-ShareAlike 4.0 Unported License </p>
+               </availability>
+               <bibl type="originalSource">
+                  <author>Albertino Mussato</author>: <title level="a">Ecerinis</title>. In: <title level="m">Ecerinide:Tragedia</title>. A cura di <editor>Luigi Padrin</editor>, con uno studio di Giosue Carducci. <pubPlace>Bologna</pubPlace>: <publisher>Ditta Nicola Zanichell</publisher>, <date>1900</date>.
+                  <biblScope unit="page" from="23" to="66">23-66</biblScope>.
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="ecerinus" sex="MALE" ana="https://www.wikidata.org/wiki/Q787178">
+                  <persName>Ecerinus</persName>
+               </person>
+               <person xml:id="adelheita" sex="FEMALE">
+                  <persName>Adelheita</persName>
+               </person>
+               <person xml:id="albricus" sex="MALE">
+                  <persName>Albricus</persName>
+               </person>
+               <personGrp xml:id="chorus" sex="UNKNOWN" role="chorus">
+                  <name>Chorus</name>
+               </personGrp>
+               <person xml:id="nuntius" sex="MALE" role="nuncius">
+                  <persName>Nuntius</persName>
+               </person>
+               <person xml:id="ziramons" sex="MALE">
+                  <persName>Ziramons</persName>
+               </person>
+               <person xml:id="frater-lucas" sex="MALE" role="frater-friar">
+                  <persName>Frater Lucas</persName>
+               </person>
+               <person xml:id="ansedisius" sex="MALE">
+                  <persName>Ansedisius</persName>
+               </person>
+               <personGrp xml:id="commilitones" sex="MALE" role="miles">
+                  <name>Commilitones</name>
+               </personGrp>
+            </listPerson>
+         </particDesc>
+         <textClass>
+            <keywords>
+               <term type="genreTitle">Tragedy</term>
+            </keywords>
+            <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+         </textClass>
+         <creation>
+            <region>
+               <ref target="https://www.wikidata.org/wiki/Q617">Padua</ref>
+            </region>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <standOff>
+      <listEvent>
+         <event type="written" notBefore="1314" notAfter="1315">
+            <desc>1314-1315 CE</desc>
+         </event>
+      </listEvent>
+      <listChange>
+         <change when="2026-01-28">
+            <desc>Converted to DraCor TEI from Musisque Deoque XML by Nitya Chagti; stage directions restored from Padrin's edition; act division based on Albertino Mussato: Ecerinis. In: Gary R. Grund (ed.): Humanist Tragedies. Cambridge: Harvard University Press, 2011. pp. 2-47.</desc>
+         </change>
+      </listChange>
+   </standOff>
+   <text>
+      <body>
+         <div type="act" n="1">
+            <div type="scene" n="1">
+               <stage>Adelheita, Ecerinus, Albricus</stage>
+               <sp who="#adelheita">
+                  <speaker>Adelheita</speaker>
+                  <l>Quodnam cruentum sidus Arcthoo potens</l>
+                  <l>regnavit orbe, pestilens tantum michi,</l>
+                  <l>gnati, nefando flebiles cum vos thoro</l>
+                  <l>genui? Patris iam detegam falsi dolos</l>
+                  <l n="5">infausta mater. Non diu tellus nefas</l>
+                  <l>latere patitur; durat occultum nichil.</l>
+                  <l>Audite nullo tempore negandum genus,</l>
+                  <l>devota proles. Arx in excelso sedet</l>
+                  <l>antiqua colle, longa Romanum vocat</l>
+                  <l n="10">aetas: in altum porrigunt tectum trabes,</l>
+                  <l>premitque turrim contigua ad austrum domus,</l>
+                  <l>ventorum et omnis cladis aereae capax.</l>
+                  <l>Hoc accubans ipso Monachus olim loco</l>
+                  <l>parens eburno vester Ecerinus thoro est</l>
+                  <l n="15">dormire visus, cuius ad laevum latus</l>
+                  <l>supina iacui. Iam eloqui factum pudet,</l>
+                  <l>pavet animus, advenit horror et membra occupat.</l>
+               </sp>
+               <sp who="#ecerinus">
+                  <speaker>Ecerinus</speaker>
+                  <l>Effare, genetrix: grande quodcumque et ferum est</l>
+                  <l part="I">audire iuvat.</l>
+               </sp>
+               <sp who="#adelheita">
+                  <speaker>Adelheita</speaker>
+                  <l part="F">Heu me nefandi criminis</l>
+                  <l n="20">stupenda qualitas! Quasi ad vultum redit</l>
+                  <l>imago facti. Frigore solutum cadit</l>
+                  <l part="I">exangue corpus.</l>
+               </sp>
+               <sp who="#ecerinus">
+                  <speaker>Ecerinus</speaker>
+                  <l part="F">Erige labantem cito,</l>
+                  <l>Albrice, matrem: illusit amentem timor.</l>
+                  <l>Resperge faciem, Nuntius sincopim limphis leva.</l>
+                  <l part="I" n="25">Facile resurget.</l>
+               </sp>
+               <sp who="#albricus">
+                  <speaker>Albricus</speaker>
+                  <l part="F">Pristinas vires habet.</l>
+               </sp>
+               <sp who="#ecerinus">
+                  <speaker>Ecerinus</speaker>
+                  <l part="I">Recolis?</l>
+               </sp>
+               <sp who="#adelheita">
+                  <speaker>Adelheita</speaker>
+                  <l part="F">Recolo, primogenite, primum tui</l>
+                  <l part="I">natalis.</l>
+               </sp>
+               <sp who="#ecerinus">
+                  <speaker>Ecerinus</speaker>
+                  <l part="F">O mea mater, id pande otius.</l>
+               </sp>
+               <sp who="#adelheita">
+                  <speaker>Adelheita</speaker>
+                  <l>Cum prima noctis hora, communis quies,</l>
+                  <l>omni teneret ab opere abstractum genus,</l>
+                  <l n="30">et ecce ab imo terra mugitum dedit,</l>
+                  <l>crepuisset ut centrum et foret apertum chaos,</l>
+                  <l>altumque versa resonuit caelum vice:</l>
+                  <l>faciem aeris sulphureus invasit vapor,</l>
+                  <l>nubemque fecit. Tunc subito fulgur domum</l>
+                  <l n="35">lustravit ingens, fulminis ad instar, tono</l>
+                  <l>sequente: oletum sparsa per thalamum tulit</l>
+                  <l>fumosa nubes. Occupor tunc et premor,</l>
+                  <l>et ecce pudor, adulterum ignotum ferens.</l>
+               </sp>
+               <sp who="#ecerinus">
+                  <speaker>Ecerinus</speaker>
+                  <l part="I">Qualis is adulter, mater?</l>
+               </sp>
+               <sp who="#adelheita">
+                  <speaker>Adelheita</speaker>
+                  <l part="F">Haud tauro minor.</l>
+                  <l n="40">Hirsuta aduncis cornibus cervix riget,</l>
+                  <l>setis coronant hispidis illum iubae:</l>
+                  <l>sanguinea binis orbibus manat lues,</l>
+                  <l>ignemque nares flatibus crebris vomunt:</l>
+                  <l>favilla, patulis auribus surgens, salit</l>
+                  <l n="45">ab ore; spirans os quoque eructat levem</l>
+                  <l>flammam, perennis lambit et barbam focus.</l>
+                  <l>Votis potitus talis ut adulter suis</l>
+                  <l>implevit uterum Venere letali meum,</l>
+                  <l>cum strage cessit victor e thalamo, petens</l>
+                  <l n="50">telluris ima; cessit et tellus sibi.</l>
+                  <l>Sed heu recepta pertinax nimium Venus</l>
+                  <l>incaluit intus viscera exagitans statim;</l>
+                  <l>onusque sensit terribile venter tui,</l>
+                  <l>Ecerine, digna vereque propago patris.</l>
+                  <l n="55">Testor supernum numen adversum michi:</l>
+                  <l>quos egi abinde tunc gravida menses decem,</l>
+                  <l>lacrimae fuere angustiae gemitus dolor;</l>
+                  <l>interna gessit bella visceribus furor.</l>
+                  <l>Nec monstruoso, nate, sine partu venis.</l>
+               </sp>
+               <sp who="#ecerinus">
+                  <speaker>Ecerinus</speaker>
+                  <l part="I" n="60">Qualis?</l>
+               </sp>
+               <sp who="#adelheita">
+                  <speaker>Adelheita</speaker>
+                  <l part="F">Necis pronosticus ventrem levas</l>
+                  <l>cruentus infans, fronte crudeli minax,</l>
+                  <l>terribile visu atroxque portentum indicans.</l>
+                  <l>Tu, care fili Albrice, iam video tuos</l>
+                  <l>attendis ortus nosce. Si quicquam scio,</l>
+                  <l n="65">tu quoque scies: penitus dubia semper fui,</l>
+                  <l>quis te huic nefando corpori inseruit pater.</l>
+                  <l>A tempore quidem, nate, dicti criminis</l>
+                  <l>semper medullas ussit Aethnaeus calor,</l>
+                  <l>viscera malignus abinde torsit spiritus,</l>
+                  <l n="70">nec nostra curis pectora absolvit sopor.</l>
+                  <l>Cum me vigilia vana seu somni quies</l>
+                  <l>incerta tenuit, - vera ne prorsus negem</l>
+                  <l>aut falsa fatear - utitur eodem stupro</l>
+                  <l>adulter idem verus Ecerini pater.</l>
+               </sp>
+               <sp who="#ecerinus">
+                  <speaker>Ecerinus</speaker>
+                  <l n="75">Quid poscis ultra, frater? An tanti pudet,</l>
+                  <l>vesane, patris? abnegas divum genus?</l>
+                  <l>Diis gignimur. Nec stirpe tanta Romulus</l>
+                  <l>Remusque quondam Marte tolluntur suo.</l>
+                  <l>Hic maior est, latissimi regni deus,</l>
+                  <l n="80">rex ultionum, cuius imperio luunt</l>
+                  <l>poenas potentes principes reges duces.</l>
+                  <l>Erimus paterno iudices digni foro,</l>
+                  <l>si vendicemus operibus regnum patris,</l>
+                  <l>cui bella mortes exitia fraudes doli</l>
+                  <l n="85">perditio et omnis generis humani placent.</l>
+               </sp>
+            </div>
+            <div type="scene" n="2">
+               <stage>
+                  <l>Sic fatus ima parte secessit domus</l>
+                  <l>petens latebras, luce et exclusa caput</l>
+                  <l>tellure pronus sternit in faciem cadens</l>
+                  <l>tunditque solidam dentibus frendens humum</l>
+                  <l n="90">patremque saeva voce Luciferum ciet.</l>
+               </stage>
+               <sp who="#ecerinus">
+                  <speaker>Ecerinus</speaker>
+                  <l>Depulse ab astris, mane iam lucens polis,</l>
+                  <l>pater superbe, triste qui regnum tenes</l>
+                  <l>chaos profundi, cuius imperio luunt</l>
+                  <l>delicta manes, excipe ex imo specu,</l>
+                  <l n="95">Vulcane, dignas supplicis gnati preces:</l>
+                  <l>te certa et indubitata progenies vocat.</l>
+                  <l>Potiare me; experiare, si quicquam potest</l>
+                  <l>insita voluntas pectori flagrans meo.</l>
+                  <l>Paludis atrae lividam testor Stigem,</l>
+                  <l n="100">Christum negavi semper exosum michi</l>
+                  <l>odique semper nomen inimicum Crucis.</l>
+                  <l>Assint ministrae facinorum comites michi:</l>
+                  <l>suadeat Alecto scelera, Thesiphone explicet,</l>
+                  <l>Megaera in actus saeva prorumpat truces,</l>
+                  <l n="105">faveatque coeptis diva Persephone meis.</l>
+                  <l>Ingenia praedae quisque sollicitus paret,</l>
+                  <l>nec inferorum spiritus quisquam vacet;</l>
+                  <l>animos ad iras odia et invidias citent.</l>
+                  <l>Ensis cruenti detur officium michi:</l>
+                  <l n="110">ipse executor finiam lites merus:</l>
+                  <l>nullis tremescet sceleribus fidens manus.</l>
+                  <l>Annue, Sathan, et filium talem proba.</l>
+               </sp>
+            </div>
+            <div type="scene" n="3">
+               <sp who="#chorus">
+                  <speaker>Chorus</speaker>
+                  <l>Quis vos exagitat furor,</l>
+                  <l>o mortale hominum genus?</l>
+                  <l n="115">Quo vos ambitio vehit?</l>
+                  <l>Quonam scandere pergitis?</l>
+                  <l>Nescitis cupidi nimis</l>
+                  <l>quo discrimine quaeritis</l>
+                  <l>regni culmina lubrici:</l>
+                  <l n="120">diros expetitis metus,</l>
+                  <l>mortis continuas minas:</l>
+                  <l>mors est mixta tyrannidi,</l>
+                  <l>non est morte minor metus.</l>
+                  <l>Ast haec dicere quid valet?</l>
+                  <l n="125">Sic est: sic animus volat;</l>
+                  <l>tunc, cum grandia possidet,</l>
+                  <l>illis non penitus satur;</l>
+                  <l>cor maiora recogitat.</l>
+                  <l>Vos in iurgia, nobiles,</l>
+                  <l n="130">atrox invidiae scelus</l>
+                  <l>ardens elicit, inficit:</l>
+                  <l>numquam quis patitur parem.</l>
+                  <l>O quam multa potentium</l>
+                  <l>nos et scandala cordibus</l>
+                  <l n="135">plebs vilissima iungimus!</l>
+                  <l>Illos tollimus altius,</l>
+                  <l>hos deponimus infimos:</l>
+                  <l>leges iuraque condimus,</l>
+                  <l>post haec condita scindimus.</l>
+                  <l n="140">Nobis retia tendimus,</l>
+                  <l>mortale euxilium damus,</l>
+                  <l>falsum praesidium sumus.</l>
+                  <l>Haec demum iugulis luunt:</l>
+                  <l>nos secum miseri trahunt,</l>
+                  <l n="145">nos secum cadimus; cadunt,</l>
+                  <l>Sic semper rota volvitur,</l>
+                  <l>durat perpetuum nichil.</l>
+                  <l>En, cur Marchia nobilis</l>
+                  <l>haec Tarvisia sic fremit,</l>
+                  <l n="150">signis undique classicis</l>
+                  <l>clamor bellicus obstrepit,</l>
+                  <l>exardet furor excitus,</l>
+                  <l>gentes e requie trahit,</l>
+                  <l>cives otia deserunt?</l>
+                  <l n="155">Dirum pax peperit nefas.</l>
+                  <l>Bullit sanguinis impetus</l>
+                  <l>et certamina postulat,</l>
+                  <l>partes crimina detegunt,</l>
+                  <l>ferrum poscitur urbibus,</l>
+                  <l n="160">turbat iustitiae forum.</l>
+                  <l>Verona venit anxius,</l>
+                  <l>qui iam fert nova, nuntius.</l>
+               </sp>
+            </div>
+         </div>
+         <div type="act" n="2">
+            <div type="scene" n="1">
+               <stage>Nuntius, Chorus</stage>
+               <sp who="#nuntius">
+                  <speaker>Nuntius</speaker>
+                  <l>Excelse mundi rector, omnipotens Deus,</l>
+                  <l>altos abhinc tu forsitan caelos colis</l>
+                  <l n="165">nostro remotos aethere, et Marti sinis</l>
+                  <l>soli regendas climatis nostri plagas?</l>
+                  <l>O dira nobilium odia, o populi furor!</l>
+                  <l>Finis petitus litibus vestris adest;</l>
+                  <l>adest tyrannus, vestra quem rabies dedit.</l>
+                  <l part="I" n="170">Nefanda vidi.</l>
+               </sp>
+               <sp who="#chorus">
+                  <speaker>Chorus</speaker>
+                  <l part="F">Pande, quod series habet,</l>
+                  <l>flatu remisso; siste, dum cedat frequens</l>
+                  <l part="I">anhelitus.</l>
+               </sp>
+               <sp who="#nuntius">
+                  <speaker>Nuntius</speaker>
+                  <l part="F">Dicam aliquid ex gestis prius,</l>
+                  <l>dedere quae praesentibus causas malis.</l>
+                  <l>O, semper huius Marchiae clades vetus,</l>
+                  <l n="175">Verona, limen hostium et bellis iter,</l>
+                  <l>sedes tyranni; sive sit terrae situs</l>
+                  <l>belli capacis sive tale hominum genus</l>
+                  <l>natura ab ipsa tale producat solum.</l>
+                  <l>Intrinseca odia civium peperit nefas</l>
+                  <l n="180">in Marchia tunc, cum regimen urbis gerens</l>
+                  <l>Estensis Azo marchio eiectus fuit:</l>
+                  <l>favore falso fulta; non notus sagax</l>
+                  <l>Ecerinus erat, in ambitum flagrans suum.</l>
+                  <l>Hic coepta lis, hic Marchiae exitium fuit.</l>
+                  <l n="185">Nam pulsus inde Marchio iusta furens</l>
+                  <l>exarsit ira, cuius in partem Comes</l>
+                  <l>Bonifacius haerens iunxit ultrices manus.</l>
+                  <l>Braida cruentae sustulit caedis nefas,</l>
+                  <l>litem diremit sanguine effuso prius</l>
+                  <l n="190">campestre bellum, fusus et campis cruor.</l>
+                  <l>Dedere victi terga Monticuli fugae</l>
+                  <l>turpi recessu, scelere seducti suo,</l>
+                  <l>quos arce tuta sustulit Gardae lacus.</l>
+                  <l>Non ullus inde litibus finis fuit:</l>
+                  <l n="195">fortuna varios partibus casus dedit.</l>
+                  <l>Exertus hinc Ecerinus, et vires agens</l>
+                  <l>in iurgia Salinguerra Monticulis favens,</l>
+                  <l>exinde Comes et Marchio, iuncti simul,</l>
+                  <l>traxere saeva ad bella populorum manus</l>
+                  <l n="200">facile paratas. O, labans hominum genus,</l>
+                  <l>vulgus, et ad omne facinus in clades ruens,</l>
+                  <l>voces secutum et negligens facti fidem!</l>
+               </sp>
+               <sp who="#chorus">
+                  <speaker>Chorus</speaker>
+                  <l>Procede: redeas unde coepisti prius.</l>
+                  <l>Sermone cur nos anxios dudum tenes?</l>
+                  <l part="I" n="205">Quae nova?</l>
+               </sp>
+               <sp who="#nuntius">
+                  <speaker>Nuntius</speaker>
+                  <l part="F">Nova audietis et finem statim.</l>
+                  <l>Iam iam peregi exordia et causas cito</l>
+                  <l>saevae tyrannidis. Ita ut ancipites vices</l>
+                  <l>facileque verti Marchiae vidit statum,</l>
+                  <l>tunc fovit odia Ecerinus, exacuens dolo</l>
+                  <l n="210">partes amicas, litis et causas movet</l>
+                  <l>sedatque motas arbiter dirus latens.</l>
+                  <l>Sic sic repente, ut maior, augmentat statum,</l>
+                  <l>sicque eminentes clanculum calcat viros,</l>
+                  <l>dum restat ipse, magna qui solus potest.</l>
+                  <l n="215">Quidnam revolvo? Taliter serpens fera</l>
+                  <l>subiit tyrannis, sicque Veronam iugo</l>
+                  <l>dolis et astu traxit Ecerinus suo.</l>
+                  <l>Quid plura? Coepti colligo formam novi.</l>
+                  <l>Eversa terra nobilis pretio iacet</l>
+                  <l n="220">parens tyranno Padua: iam sceptrum tenet,</l>
+                  <l>agens superbas dirus Imperii vices</l>
+                  <l>Ecerinus. Ah quot exitia, populis minax,</l>
+                  <l>promittit atrox! carceres ignes cruces</l>
+                  <l>tormenta mortes exilia diras fames.</l>
+                  <l n="225">Sed, o maleficis digna permittens Deus</l>
+                  <l>supplicia, meriti nobiles primi luunt;</l>
+                  <l>qui vendidere, scelera iam expendunt sua.</l>
+               </sp>
+            </div>
+            <div type="scene" n="2">
+               <sp who="#chorus">
+                  <speaker>Chorus</speaker>
+                  <l>Christe, qui caelis resides in altis</l>
+                  <l>patris in dextris solio sedentis,</l>
+                  <l n="230">totus an summi illecebris Olympi</l>
+                  <l>gaudiis tantum frueris supernis,</l>
+                  <l>negligis quicquid geritur sub astris?</l>
+                  <l>Non tuas affert fremitus ad aures</l>
+                  <l>rumor humani generis per auras?</l>
+                  <l n="235">Sanguis Abel ad Dominum querelas</l>
+                  <l>pertulit, fratrem perhibens cruentum.</l>
+                  <l>Foeda Gomorrae Sodomaeque labes</l>
+                  <l>imbre divinam satiavit iram.</l>
+                  <l>Cur modo non sic, moderator aequi,</l>
+                  <l n="240">cernis errores hominum modernos?</l>
+                  <l>Praepotens nostro dominatur aevo</l>
+                  <l>saeva tyrannis,</l>
+                  <l>nulla quam mundo memoravit aetas.</l>
+                  <l>Bistonis cedit stabuli vetustas</l>
+                  <l n="245">nota seu torvi rabies Procustis,</l>
+                  <l>cedit et pravi feritas Neronis.</l>
+                  <l>Carceres edunt tenebris opacis</l>
+                  <l>morte vivaci gemitus iacentum;</l>
+                  <l>mors famis vinctis sitis et nefandae</l>
+                  <l n="250">donat extremum miseranda finem</l>
+                  <l>saepe petitum.</l>
+                  <l>Plebe cum tota populus subegit</l>
+                  <l>colla, devoti veluti iuvenci</l>
+                  <l>victimis sacras veniunt ad aras.</l>
+                  <l n="255">Invenit causas dominus patrandae</l>
+                  <l>caedis in cives sceleratus omnes:</l>
+                  <l>pervigil semper timet, et timetur.</l>
+                  <l>Iura naturae vitiis laborant,</l>
+                  <l>exulat nostris pietas ab oris,</l>
+                  <l n="260">regnat Herinis.</l>
+                  <l>Frater, ut saevo placet tyranno,</l>
+                  <l>fratris incumbit iugulo cruentus:</l>
+                  <l>proh dolor! patrem rogitat cremandum</l>
+                  <l>natus, ardentes subicitque flammas.</l>
+                  <l n="265">Ille tantorum scelerum superstes</l>
+                  <l>asperans saevas Ecerinus iras,</l>
+                  <l>prolis ut semen pereat futurae,</l>
+                  <l>censet infantum genital recidi,</l>
+                  <l>feminas sectis ululare mammis.</l>
+                  <l n="270">Stratus in cunis chorus innocentum</l>
+                  <l>luget indocto mutilatus ore;</l>
+                  <l>lumen in caecis tenebris requirit</l>
+                  <l>lumine cassus.</l>
+                  <l>Quid Deus tantos pateris furores,</l>
+                  <l n="275">quos soles et non iacularis ignes?</l>
+                  <l>Terra cur non sub pedibus dehiscit,</l>
+                  <l>hic ut infernas subeat tenebras</l>
+                  <l>anguis, humani generis peremptor?</l>
+                  <l>Te Patrem caeli populus redemptus</l>
+                  <l n="280">invocat supplex, iterum relapsus.</l>
+               </sp>
+            </div>
+         </div>
+         <div type="act" n="3">
+            <div type="scene" n="1">
+               <stage>Ecerinus, Albricus</stage>
+               <sp who="#ecerinus">
+                  <speaker>Ecerinus</speaker>
+                  <l>Matris relatu, vera quem prodit fides,</l>
+                  <l>Ditis cruenti semine egressi sumus,</l>
+                  <l>hoc digni patre; tale nos decuit genus.</l>
+                  <l>Sic fata forsan expetunt, quae non Deus</l>
+                  <l n="285">prohibere curans, esse sic ultro sinit;</l>
+                  <l>nam quisque liber arbiter in actus suos.</l>
+                  <l>Delicta poscunt gentium ultrices manus:</l>
+                  <l>ergo, ministri scismatis mundo dati,</l>
+                  <l>quid plus inanes ducimus frustra moras?</l>
+                  <l n="290">Capiamus urbes undique et late loca.</l>
+                  <l>Verona Vicentia Padua nutu meo</l>
+                  <l>iam subiacent: progrediar ulterius cito.</l>
+                  <l>Promissa Lombardia me dominum vocat:</l>
+                  <l>habere puto. Meos nec ibi sistam gradus.</l>
+                  <l n="295">Italia michi debetur. Haud equidem satis</l>
+                  <l>nec illa, Ad ortus signa referantur mea,</l>
+                  <l>meus unde cecidit Lucifer quondam pater,</l>
+                  <l>ubi vendicabo forsitan caelum potens.</l>
+                  <l>Numquam Typheus aut Encheladus olim Iovi</l>
+                  <l n="300">tantum intulere proelium aut ullus gigas.</l>
+                  <l>Convertam ad austrum signa, qua medius dies</l>
+                  <l>flagrat tepenti sidere.</l>
+               </sp>
+               <sp who="#albricus">
+                  <speaker>Albricus</speaker>
+                  <l part="I">Inferus annuat pater.</l>
+               </sp>
+               <sp who="#ecerinus">
+                  <speaker>Ecerinus</speaker>
+                  <l part="F">Propere annuet.</l>
+                  <l part="I">Et tu quid audes, frater?</l>
+               </sp>
+               <sp who="#albricus">
+                  <speaker>Albricus</speaker>
+                  <l part="F">Edissero statim.</l>
+                  <l n="305">Tarvisium tyrannidi paret meae:</l>
+                  <l>Feltro subacto, ad Iulii pergam Forum</l>
+                  <l>subigamque totas Arcthici gentes poli.</l>
+                  <l>Hoc quoque parum est. Non desinam. Restat michi</l>
+                  <l>vincenda triplex Gallia et sero videns</l>
+                  <l n="310">pars occidentis usque quo oceanus diem</l>
+                  <l part="I">absorbet.</l>
+               </sp>
+               <sp who="#ecerinus">
+                  <speaker>Ecerinus</speaker>
+                  <l part="F">O mi frater, o magno sate</l>
+                  <l>Plutone, tantis ausibus vires ferat,</l>
+                  <l>tellure rupta spiritus nocuos pater</l>
+                  <l>nobis faventes commodet; functi quibus</l>
+                  <l n="315">corpora trahamus et animas Orcho simul.</l>
+                  <l>I, dire frater, infimi proles dei,</l>
+                  <l>et bella mecum, pace sublata, move</l>
+                  <l>sub fraudis astu; finge te iratum michi:</l>
+                  <l>dolosa species haec ad interitum trahet</l>
+                  <l n="320">hinc inde multos transfugas. Absit fides</l>
+                  <l>pietasque nostris actibus semper procul.</l>
+               </sp>
+            </div>
+            <div type="scene" n="2">
+               <stage>Ecerinus, Ziramons, Frater Lucas</stage>
+               <sp who="#ecerinus">
+                  <speaker>Ecerinus</speaker>
+                  <l part="I">Ziramons?</l>
+               </sp>
+               <sp who="#ziramons">
+                  <speaker>Ziramons</speaker>
+                  <l part="M">Domine.</l>
+               </sp>
+               <sp who="#ecerinus">
+                  <speaker>Ecerinus</speaker>
+                  <l part="F">Dic age, quid est? propere indica.</l>
+                  <l>Iacet Monaldi corpore abscisum caput,</l>
+                  <l part="I">Nullo tuente?</l>
+               </sp>
+               <sp who="#ziramons">
+                  <speaker>Ziramons</speaker>
+                  <l part="F">Publico squalet foro</l>
+                  <l n="325">putata cervix; nullus et caesum movet.</l>
+               </sp>
+               <sp who="#ecerinus">
+                  <speaker>Ecerinus</speaker>
+                  <l part="I">Quicquam rebelle constat?</l>
+               </sp>
+               <sp who="#ziramons">
+                  <speaker>Ziramons</speaker>
+                  <l part="F">Omnino nichil.</l>
+               </sp>
+               <sp who="#ecerinus">
+                  <speaker>Ecerinus</speaker>
+                  <l>Hem vicimus! Iamque omne fas licet et nefas.</l>
+                  <l>Ferro tuenda civitas nostro vacat.</l>
+                  <l>Cum plebe pereat omne nobilium genus;</l>
+                  <l n="330">non sexus aetas ordo non ullus gradus</l>
+                  <l>a caede nostra liber aut expers eat.</l>
+                  <l>Vagetur ensis undique et largus cruor</l>
+                  <l>abundet atra tabe perfusus foro:</l>
+                  <l>hinc inde patulae corpora ostentent cruces;</l>
+                  <l n="335">subdantur ignes, illa qui flammis crement,</l>
+                  <l>stilletque sanies: fumus ad summos polos</l>
+                  <l>a me litatas victimas tales ferat.</l>
+               </sp>
+            </div>
+            <div type="scene" n="3">
+               <sp who="#frater-lucas">
+                  <speaker>Fr. Lucas</speaker>
+                  <l>Inclite Ecerine, parce, da fandi locum;</l>
+                  <l>annue parumper, obsecro, ut tutus loquar.</l>
+               </sp>
+               <sp who="#ecerinus">
+                  <speaker>Ecerinus</speaker>
+                  <l part="I" n="340">Contexe.</l>
+               </sp>
+               <sp who="#frater-lucas">
+                  <speaker>Fr. Lucas</speaker>
+                  <l part="F">Mira res. Quid est quod te movet,</l>
+                  <l>o homo? Homo es, nec est ut hoc unum neges.</l>
+                  <l>Mortalis ergo; nam omne, quod oritur, occidit.</l>
+                  <l>Servare seriem cuncta, si pensas, vides.</l>
+                  <l>Terra mare caelum et illa, quae substant eis,</l>
+                  <l n="345">gerunt statutas legibus certis vices.</l>
+                  <l>Quae pallet hieme, tempore aestatis viret,</l>
+                  <l>certasque certis mensibus fruges alit</l>
+                  <l>tellus. Procellis aestuat vastis mare,</l>
+                  <l>turbine remisso quod patitur ultro rates.</l>
+                  <l n="350">Caelum intueris orbibus motum suis;</l>
+                  <l>dtabiles perennis sustinet cardo polos;</l>
+                  <l>disposita sidera peragunt cursus vagos</l>
+                  <l>dub lege certa. Sed quis haec praepotens movet?</l>
+                  <l>Excelsus horum motor omnipotens Deus:</l>
+                  <l n="355">hic aequus aequa lance dispensat sua,</l>
+                  <l>quae fecit, opera: dictus hic ordo sacer</l>
+                  <l>iustitia. Iustus hanc coli voluit Deus</l>
+                  <l>a se creatis hominibus mortalibus.</l>
+                  <l>Hos esse tales edocent primo insitae</l>
+                  <l n="360">natura ab ipsa Caritas Spes et Fides.</l>
+                  <l>Has, crede, quisque pectori innatas habet,</l>
+                  <l>traducat error devius quemquam licet.</l>
+                  <l>Converte, quaeso, igitur ad has species boni,</l>
+                  <l>ut Caritas pia proximo parcat tuo,</l>
+                  <l n="365">speresque gratiam misericordis Dei;</l>
+                  <l>quae consequi omnia sancta te faciet Fides.</l>
+               </sp>
+               <sp who="#ecerinus">
+                  <speaker>Ecerinus</speaker>
+                  <l>Videtne celsus ista quae facio Deus?</l>
+               </sp>
+               <sp who="#frater-lucas">
+                  <speaker>Fr. Lucas</speaker>
+                  <l part="I">Videt.</l>
+               </sp>
+               <sp who="#ecerinus">
+                  <speaker>Ecerinus</speaker>
+                  <l part="F">Retundet ipse cum prorsus volet?</l>
+               </sp>
+               <sp who="#frater-lucas">
+                  <speaker>Fr. Lucas</speaker>
+                  <l part="I">Quidni? retundet.</l>
+               </sp>
+               <sp who="#ecerinus">
+                  <speaker>Ecerinus</speaker>
+                  <l part="F">Ergo quid segnis facit?</l>
+               </sp>
+               <sp who="#frater-lucas">
+                  <speaker>Fr. Lucas</speaker>
+                  <l n="370">Expectat humilis, pertinax cedat furor</l>
+                  <l>et ipse retrahas caedibus tantis manum.</l>
+               </sp>
+               <sp who="#ecerinus">
+                  <speaker>Ecerinus</speaker>
+                  <l>Unius igitur interit multos salus.</l>
+                  <l>Quis hic Deus, cui carior multis fui?</l>
+               </sp>
+               <sp who="#frater-lucas">
+                  <speaker>Fr. Lucas</speaker>
+                  <l>Ecerine, crede, carior Saulus fuit,</l>
+                  <l n="375">peccare postquam desiit. Mitis Deus</l>
+                  <l>redemptor animas ipse venatur suas</l>
+                  <l>errore falso devias pastor bonus;</l>
+                  <l>errore lapsos adiuvans vitam suis</l>
+                  <l>ad abluenda crimina elongat pius.</l>
+               </sp>
+               <sp who="#ecerinus">
+                  <speaker>Ecerinus</speaker>
+                  <l n="380">Me credo mundo, scelera ut ulciscar, datum,</l>
+                  <l>illo iubente. Plurimas quondam dedit</l>
+                  <l>vindex iniquis gentibus clades Deus,</l>
+                  <l>ceteraque meritis debita exitia suis.</l>
+                  <l>Diluvia culices grandines ignes fames,</l>
+                  <l n="385">ne mentiar, Scriptura testatur Vetus.</l>
+                  <l>Dedit et tyrannos urbibus, licuit quibus</l>
+                  <l>sine ordine, sine fine, strictis ensibus</l>
+                  <l>saevire largo sanguine in gentes vage.</l>
+                  <l>Nabuchodonosor, Aegyptius Pharao, Saul,</l>
+                  <l n="390">proles Philippi gloriosa Macedonis,</l>
+                  <l>hi pervetustae memoriae, nostrae quoque</l>
+                  <l>praelata mundo Caesarum egregia domus,</l>
+                  <l>felicis unde memoriae exortus Nero,</l>
+                  <l>polluere caedibus quot hi mundum suis?</l>
+                  <l n="395">Quantis cruoribus rubuit altum mare,</l>
+                  <l>illis iubentibus? Nec inspector Deus</l>
+                  <l>prohibere voluit, esse sic ultro sinens.</l>
+               </sp>
+            </div>
+            <div type="scene" n="4">
+               <stage>Nuntius, Ecerinus, Ansedisius, Commilitones</stage>
+               <sp who="#nuntius">
+                  <speaker>Nuntius</speaker>
+                  <l>Audi negandum, teste nisi certo, novum:</l>
+                  <l>en, ipse vidi. Parce, dum verum loquar.</l>
+               </sp>
+               <sp who="#ecerinus">
+                  <speaker>Ecerinus</speaker>
+                  <l n="400">Evelle nugas, vane iactator, tuas.</l>
+               </sp>
+               <sp who="#nuntius">
+                  <speaker>Nuntius</speaker>
+                  <l>Progressa Venetis exulum fervens aquis</l>
+                  <l>invasit agros magna Patavorum cohors</l>
+                  <l>Ferrariensiumque, quot plenae rates</l>
+                  <l>deferre poterant, totus et Venetus favor,</l>
+                  <l n="405">cruce praevia Papaeque legato duce.</l>
+                  <l>Districtualium subito victis locis,</l>
+                  <l>venere ad urbem. Currit ad pontem pedes;</l>
+                  <l>subiectus altas incremat portas focus</l>
+                  <l>undante fumo. Desuper nullus stetit,</l>
+                  <l n="410">omnisque cessit victa custodum manus.</l>
+                  <l>Capta Padua est, et exules illam tenent.</l>
+               </sp>
+               <sp who="#ecerinus">
+                  <speaker>Ecerinus</speaker>
+                  <l>Abscede, mendax serve: mulctatus pede</l>
+                  <l>praemium relatu tolle condignum tuo.</l>
+               </sp>
+            </div>
+            <div type="scene" n="5">
+               <sp who="#ecerinus">
+                  <l>Ast Ansedisius ecce venit hac. Hem, quid est?</l>
+               </sp>
+               <sp who="#ansedisius">
+                  <speaker>Ansedisius</speaker>
+                  <l n="415">Amissa Paduae civitas: hostes habent.</l>
+               </sp>
+               <sp who="#ecerinus">
+                  <speaker>Ecerinus</speaker>
+                  <l part="I">Amissa vi?</l>
+               </sp>
+               <sp who="#ansedisius">
+                  <speaker>Ansedisius</speaker>
+                  <l part="M" n="1">Vi amissa.</l>
+               </sp>
+               <sp who="#ecerinus">
+                  <speaker>Ecerinus</speaker>
+                  <l part="M" n="2">Qua?</l>
+               </sp>
+               <sp who="#ansedisius">
+                  <speaker>Ansedisius</speaker>
+                  <l part="F">Ferro fuga</l>
+                  <l>et ignibus, vinci quibus et urbes solent.</l>
+               </sp>
+               <sp who="#ecerinus">
+                  <speaker>Ecerinus</speaker>
+                  <l>At te superstite, sola quem facies notat</l>
+                  <l>illaesa noxium, sceleris index tui?</l>
+                  <l n="420">Secede, cui non poena sufficiat necis.</l>
+                  <l>Commilitones, nostra quid virtus petit?</l>
+                  <l>Animos viriles casus infestus probat.</l>
+               </sp>
+               <sp who="#commilitones">
+                  <speaker>Commilitones</speaker>
+                  <l>Magnanime princeps, tolle consilium tuis</l>
+                  <l>salubre votis. Subito Paduanos cape,</l>
+                  <l n="425">Verona vinctos teneat et carcer tuus:</l>
+                  <l>mortes minare rigidus et Paduam celer</l>
+                  <l>accede; muros milites cingant tui.</l>
+                  <l>Invade trepidos, tolle pendentes moras;</l>
+                  <l>terror suorum, noster et magnus vigor</l>
+                  <l n="430">sternent rebelles: victor optatum feres.</l>
+                  <l>Fortuna vires ausibus nostris dabit.</l>
+               </sp>
+               <sp who="#chorus">
+                  <speaker>Chorus</speaker>
+                  <l>O fallax hominum praemeditatio</l>
+                  <l>eventus dubii sortis et inscia</l>
+                  <l>venturae! instabiles nam variat vices</l>
+                  <l n="435">motus perpetuae continuus rotae.</l>
+                  <l>En atrox Ecerinus citus advolat.</l>
+                  <l>Assuetam Paduam colla iugo dare</l>
+                  <l>infestam reperit, iussaque spernere</l>
+                  <l>vallatam aspiciens, agmine circuit;</l>
+                  <l n="440">ad ripas acies fluminis admovet.</l>
+                  <l>Stat contra series ordine militum</l>
+                  <l>inspectans oculis ora tyrannica;</l>
+                  <l>infandas rabies ausibus exprobrat.</l>
+                  <l>Postquam nulla virum spes Paduae manet,</l>
+                  <l n="445">retro vertit equum castraque summovet;</l>
+                  <l>Veronam redit iram exacuens suam.</l>
+                  <l>Ad caedes properat concitus impias,</l>
+                  <l>captivos Patavos innocuos fame</l>
+                  <l>caecis carceribus conficit et siti,</l>
+                  <l n="450">et vitas adimit milibus undecim.</l>
+                  <l>Nullis plaustra vehunt agnita corpora:</l>
+                  <l>non natum genetrix, non mulier virum</l>
+                  <l>agnovere suos certave funera:</l>
+                  <l>communes lacrimae desuper omnibus.</l>
+                  <l n="455">Desunt praedia tot busta recondere,</l>
+                  <l>corrumpit sanies aethera desuper.</l>
+                  <l>Spectator queritur iudicii parum,</l>
+                  <l>dum restat Patavum quod reparet genus.</l>
+               </sp>
+            </div>
+         </div>
+         <div type="act" n="4">
+            <div type="scene" n="1">
+               <sp who="#ecerinus">
+                  <speaker>Ecerinus</speaker>
+                  <l>Adversa vires fortibus praebet viris</l>
+                  <l n="460">fortuna, viles opprimit; pugnat vigor</l>
+                  <l>adversus eius impetum. Restat suo</l>
+                  <l>vincenda Padua tempore. Abscedite retro.</l>
+                  <l>Lombarda signis appetit subdi meis</l>
+                  <l>gens tota ad infra Gallicis degens iugis.</l>
+               </sp>
+            </div>
+            <div type="scene" n="2">
+               <stage>Nuntius, Chorus</stage>
+               <sp who="#nuntius">
+                  <speaker>Nuntius</speaker>
+                  <l n="465">Huc huc venite quisquis optatum velit</l>
+                  <l>finem malorum scire et e summo datam</l>
+                  <l>caelo quietem, thure placetis Deum;</l>
+                  <l>iuvenes senes viduae, colite festum diem:</l>
+                  <l>in vos ab alto iustus inspexit Deus.</l>
+               </sp>
+               <sp who="#chorus">
+                  <speaker>Chorus</speaker>
+                  <l n="470">Tanta ergo nova iam breviter expedias, bone.</l>
+               </sp>
+               <sp who="#nuntius">
+                  <speaker>Nuntius</speaker>
+                  <l>Iam iam occupata Brixia, Ecerinus ferox,</l>
+                  <l>favore Cremonensium, rupta fide</l>
+                  <l>exclusit illos: Pellavicino quoque</l>
+                  <l>iam dudum amico mortis insidias tulit.</l>
+                  <l n="475">Spe ductus alta deinde nobilium, celer</l>
+                  <l>movit iter et fraude Mediolanum petit.</l>
+                  <l>Sed spe tyrannus ipse delusus sua</l>
+                  <l>in se paratas hostium sensit manus;</l>
+                  <l>sensit Cremonae Mantuae Ferrariae</l>
+                  <l n="480">unaque Bosi et Pellavicini fides</l>
+                  <l>in eius omnem sponte iuratas necem.</l>
+                  <l>Collata ad Aduae signa fixerunt vadum,</l>
+                  <l>a quo reverti constat Ecerinum loco.</l>
+                  <l>Nec segnis alia parte Martius gradum</l>
+                  <l n="485">distulit, et armis, plebe stipatus sua, -</l>
+                  <l>a Turris alto sanguine educens genus</l>
+                  <l>Martinus audax - egit ancipitem retro</l>
+                  <l>senem tyrannum. Dumque convertens iter</l>
+                  <l>ad flumen Aduam signa, quae ad pontem, videt</l>
+                  <l n="490">infesta, quid agat anxius dudum stetit.</l>
+               </sp>
+               <sp who="#chorus">
+                  <speaker>Chorus</speaker>
+                  <l>Quid ille tantis viribus septus facit?</l>
+                  <l part="I">Quis vultus aut actus?</l>
+               </sp>
+               <sp who="#nuntius">
+                  <speaker>Nuntius</speaker>
+                  <l part="F">Facit, ut alvo lupus</l>
+                  <l>pleno repulsus, dentibus frendens, canes</l>
+                  <l>circumlatrantes conspicit, multam ferox</l>
+                  <l n="495">ex ore spumam mittit et orbes rotat.</l>
+               </sp>
+               <sp who="#chorus">
+                  <speaker>Chorus</speaker>
+                  <l part="I">Progredere et ultra.</l>
+               </sp>
+               <sp who="#nuntius">
+                  <speaker>Nuntius</speaker>
+                  <l part="F">Hinc inde seclusus, furens,</l>
+                  <l>miscere in hostes impares horret manus.</l>
+                  <l>Pons occupatus transitum prorsus negat</l>
+                  <l>hinc inde et hostes parte conflictum parant</l>
+                  <l n="500">utraque, dignis concitant illum probris.</l>
+                  <l>Tragula sinistrum missa traiecit pedem</l>
+                  <l>cunctantis, a qua parte nitatur fugae.</l>
+                  <l>Commilitones expetit nomen loci.</l>
+                  <l>"Hic Adua fluvius hocque Caxani vadum."</l>
+                  <l n="505">"Heu Caxan Axan Baxan! Hoc letum michi</l>
+                  <l>fatale dixti, mater; hic finem fore.</l>
+                  <l>Quis fata revocet sensibus fidens suis?"</l>
+                  <l>Tunc concitatum calcaribus urgens equum</l>
+                  <l>viam per undas aperit et ripam occupat,</l>
+                  <l n="510">idem inchoatum ceteris pandens iter.</l>
+                  <l>Tunc ordo militum impiger contra stetit;</l>
+                  <l>caedit ruentes, terga quoque dantes viros,</l>
+                  <l>illum sequentes. Capitur Ecerinus statim</l>
+                  <l>frustra resistens: unus allidit caput,</l>
+                  <l n="515">fracto cerebro; quisquis is, dubio vacat.</l>
+                  <l>Abductus inde spernit oblatas dapes</l>
+                  <l>curas salutis atque vitales cibos</l>
+                  <l>acerque moritur fronte crudeli minax</l>
+                  <l>et patris umbras sponte Tartareas subit.</l>
+                  <l n="520">Positum cadaver tumba Suncini tenet.</l>
+               </sp>
+               <sp who="#chorus">
+                  <speaker>Chorus</speaker>
+                  <l>Vota solvamus pariter datori</l>
+                  <l>digna tantorum, iuvenes, bonorum:</l>
+                  <l>vos senes, vos et trepidae puellae,</l>
+                  <l>solvite vota.</l>
+                  <l n="525">Venit a summo pietas Olympo,</l>
+                  <l>quae malis finem posuit patratis;</l>
+                  <l>occidit saevi rabies tyranni</l>
+                  <l>paxque revixit.</l>
+                  <l>Pace nunc omnes pariter fruamur,</l>
+                  <l n="530">omnis et tutus revocetur exul,</l>
+                  <l>ad lares possit proprios reverti</l>
+                  <l>pace potitus.</l>
+                  <l>Supplices renes feriant habenis,</l>
+                  <l>ictibus crebris domitent reatus.</l>
+                  <l n="535">Annuat votis Deus, ut petitis,</l>
+                  <l>virgine natus.</l>
+               </sp>
+            </div>
+         </div>
+         <div type="act" n="5">
+            <div type="scene" n="1">
+               <stage>Nuntius, Chorus</stage>
+               <sp who="#nuntius">
+                  <speaker>Nuntius</speaker>
+                  <l>A parte nulla tutus Albricus sui,</l>
+                  <l>iam derelictis rebus, - ut fuerat parum</l>
+                  <l>credendus ulli, et creditus nullis fuit -</l>
+                  <l n="540">Zenonis arcem profugus in tutam fugit,</l>
+                  <l>consorte sociaque et sobolis omnis grege.</l>
+                  <l>Posuere castra circiter montem secus</l>
+                  <l>urbs ultiones expetens dignas triplex,</l>
+                  <l>Tarvisium Vicentia Padua: paribus</l>
+                  <l n="545">adiere votis altus Azo marchio</l>
+                  <l>reliquique secum Marchiae illustres viri.</l>
+                  <l>At spes ut illi nulla praesidii fuit</l>
+                  <l>serperet et intro seditio et urgens fames</l>
+                  <l>mortisque metus instans, capitur ultro locus.</l>
+                  <l n="550">O fulmini par hostis irati furor!</l>
+                  <l>Irrumpit agmen tecta sublimis domus.</l>
+                  <l>Hic rapti ab ubere matris infantis pedes</l>
+                  <l>carpit, tenellum robori allidens caput:</l>
+                  <l>fuso cerebro sparsus inscribit cruor</l>
+                  <l n="555">genetricis ora. Ecerinus occurrit novus</l>
+                  <l>gladium tenenti, quem puer patruum vocat</l>
+                  <l>triennis. Ille "patruus edocuit tuus</l>
+                  <l>tradere nepotibus simile munus suis"</l>
+                  <l>ait, et patentes gutturis venas secat.</l>
+                  <l n="560">Utque patulo immane populis constet scelus,</l>
+                  <l>affigit hastae squalidum longae caput:</l>
+                  <l>corrugat ora repens rigor et orbes rotat,</l>
+                  <l>manum ferentis sanguinis replet lues:</l>
+                  <l>aliusque tremulum dentibus mandit iecur.</l>
+                  <l n="565">Haec masculinae prolis Albrici horrida,</l>
+                  <l>sic dira et atrox triplicis strages fuit.</l>
+                  <l>Utque arce summa Albricus in populi manus</l>
+                  <l>venit, paranti falsa iam vulgo loqui</l>
+                  <l>ponitur apertae subditum frenum gulae,</l>
+                  <l n="570">ducto, ut suorum vivus inspectet neces.</l>
+                  <l>Et ecce, thalamo rapta de summo, feris</l>
+                  <l>abstracta turbis, uxor Albrici venit,</l>
+                  <l>caelo refusis lumina intendens comis:</l>
+                  <l>strictus revinctas funis arcebat manus.</l>
+                  <l n="575">Abinde quinque virgines tractae simul</l>
+                  <l>ante ora patrum crinibus fusis erant,</l>
+                  <l>devota proles ignibus. Circumstetit</l>
+                  <l>hos vulgus omnis exprobrans actus truces.</l>
+                  <l>Ut, ad cubile belluis pressis, stetit</l>
+                  <l n="580">circum rapaces turba venatrix lupos,</l>
+                  <l>patrata memorans damna et adducens canes,</l>
+                  <l>a caede gratas sponte subducens moras.</l>
+               </sp>
+               <sp who="#chorus">
+                  <speaker>Chorus</speaker>
+                  <l>Procede, nobis pande supplicii modos.</l>
+               </sp>
+               <sp who="#nuntius">
+                  <speaker>Nuntius</speaker>
+                  <l>Ardebat alta roboris magni strues.</l>
+                  <l n="585">Odore piceo subditae exudant faces</l>
+                  <l>pinguisque stipites alit olivae liquor,</l>
+                  <l>atramque nubem fumus ad caelum facit,</l>
+                  <l>fulgur superni murmurat ad instar toni,</l>
+                  <l>dabantque gemitus antra, ne quisquam neget</l>
+                  <l n="590">intro subesse numen inferni Iovis,</l>
+                  <l>erant caminis ora, quae flammas vomunt.</l>
+                  <l>O misera sors parentibus spectabilis!</l>
+                  <l>Ordo innocentum imponitur in ignem prius.</l>
+                  <l>Incendit urens ut puellares sinus</l>
+                  <l n="595">tetigitque flavas ardor infestus comas,</l>
+                  <l>retro resiliunt cassa quaerentes patrum</l>
+                  <l>praesidia: nocuis his sed amplexus negant.</l>
+                  <l>Ut vana spes per ambitus illas vage</l>
+                  <l>egit furentes, subito violentas manus</l>
+                  <l n="600">iniecit ardens lictor, et matrem trahens</l>
+                  <l>una patenti subdit et gnatas rogo.</l>
+               </sp>
+               <sp who="#chorus">
+                  <speaker>Chorus</speaker>
+                  <l>Quo filiarum et coniugis vultu necem</l>
+                  <l>Albricus, etsi non loqui poterat, tulit?</l>
+               </sp>
+               <sp who="#nuntius">
+                  <speaker>Nuntius</speaker>
+                  <l>Volvebat atrox, sicuti alludens, caput,</l>
+                  <l n="605">ut parvipendat, nutibus pandens suis.</l>
+               </sp>
+               <sp who="#chorus">
+                  <speaker>Chorus</speaker>
+                  <l>Quis finis eius, fare, supremus fuit?</l>
+               </sp>
+               <sp who="#nuntius">
+                  <speaker>Nuntius</speaker>
+                  <l>Tum plura stantem tela certatim virum</l>
+                  <l>petiere: pressit unus in dextrum latus</l>
+                  <l>gladium, sinistra parte qui fixus patet;</l>
+                  <l n="610">per utrumque vulnus largus effluxit cruor:</l>
+                  <l>effulminat spatulas alius ensem tenus.</l>
+                  <l>Cervice caesa, murmurat labens caput,</l>
+                  <l>stetitque titubans truncus ad casum diu,</l>
+                  <l>donec minutim membra dispersit frequens</l>
+                  <l n="615">vulgus, per avidos illa distribuens canes.</l>
+               </sp>
+               <sp who="#chorus">
+                  <speaker>Chorus</speaker>
+                  <l>Haec perpetuo durat in aevo</l>
+                  <l>regula iuris. Fidite, iusti:</l>
+                  <l>nec, si quando forsitan ullum</l>
+                  <l>quemquam nocuum sors extollat,</l>
+                  <l n="620">regula fallit. Consors operum</l>
+                  <l>meritum sequitur quisque suorum.</l>
+                  <l>Stat iudicii conscius aequi</l>
+                  <l>iudex rigidus, iudex placidus;</l>
+                  <l>donat iustos, damnat iniquos.</l>
+                  <l n="625">Haud hic stabilis desinit ordo:</l>
+                  <l>petit illecebras virtus superas,</l>
+                  <l>crimen tenebras expetit imas.</l>
+                  <l>Dum licet ergo moniti stabilem</l>
+                  <l>discite legem.</l>
+               </sp>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
