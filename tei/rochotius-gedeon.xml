@@ -18,12 +18,12 @@
             <edition>Elektronická edice</edition>
             <respStmt>
                <resp>Edited by</resp>
-               <persName>Magdaléna Jacková</persName>
+               <persName ref="https://orcid.org/0000-0002-8945-2622">Magdaléna Jacková</persName>
             </respStmt>
             <respStmt>
                <resp>Converted to TEI by</resp>
-               <persName>Jana Synovcová Borovičková</persName>
-               <persName>Boris Lehečka</persName>
+               <persName ref="https://orcid.org/0009-0004-0110-9670">Jana Synovcová Borovičková</persName>
+               <persName ref="https://orcid.org/0000-0003-4893-5537">Boris Lehečka</persName>
             </respStmt>
             <funder>
                <orgName>Czech Since Funcdation</orgName>
@@ -120,7 +120,8 @@
                <pb n="A1r" />Andreae Rochotii a Rochicerberga, L. P. </docAuthor>
             <docTitle>
                <titlePart type="main">Gedeon</titlePart>
-               <titlePart type="sub">comaedia nova, cum primis ad usum scholasticum et conditionem temporum accommodata</titlePart>
+               <titlePart type="sub">comaedia nova,</titlePart>
+               <titlePart type="desc">cum primis ad usum scholasticum et conditionem temporum accommodata</titlePart>
             </docTitle>
          </titlePage>
          <epigraph>
@@ -240,8 +241,7 @@
             <l n="77">Saltet et haec comicis pubis chorus undique soccis,</l>
             <l n="78" rend="indent">Didita per mundum ut sit tua fama, fave.</l>
             <closer>
-               <salute>
-                  <lb />Honori Illustrissimae Majestatis Tuae ab omni <lb />officio deditissimus <lb />Andreas Rochotius a Rochicerberga, Laureatus poeta, scholae Prostanensis rector.</salute>
+               <salute>Honori Illustrissimae Majestatis Tuae ab omni officio deditissimus Andreas Rochotius a Rochicerberga, Laureatus poeta, scholae Prostanensis rector.</salute>
             </closer>
          </div>
          <pb n="A4r" />
