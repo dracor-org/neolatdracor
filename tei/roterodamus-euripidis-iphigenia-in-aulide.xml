@@ -3,25 +3,25 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Iphigenia in Aulide</title>
+            <title>Euripidis Iphigenia in Aulide</title>
             <author>
                <persName xml:lang="la">Euripides</persName>
                <idno type="wikidata">Q48305</idno>
                <idno type="gnd">118531395</idno>
             </author>
-            <respStmt>
-               <resp>Translated by</resp>
-               <persName xml:lang="la" ref="https://www.wikidata.org/entity/Q43499
-                  https://d-nb.info/gnd/118530666">
+            <editor role="translator">
+               <persName xml:lang="la">
                   <forename>Desiderius Erasmus</forename>
                   <surname>Roterodamus</surname>
                </persName>
-            </respStmt>
+               <idno type="wikidata">Q43499</idno>
+               <idno type="gnd">118530666</idno>
+            </editor>
             <editor>Ton Harmsen</editor>
             <editor>Paula Koning</editor>
             <respStmt>
                <resp>Converted to TEI by</resp>
-               <persName>Julia Jennifer Beine</persName>
+               <persName ref="https://orcid.org/0000-0001-8979-8706">Julia Jennifer Beine</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
