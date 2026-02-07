@@ -1,0 +1,3330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI type="dracor" xml:id="neolat000167" xml:lang="la" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Sophoclis Oedipus tyrannus</title>
+            <author>
+               <persName xml:lang="la">Sophocles</persName>
+               <idno type="wikidata">Q7235</idno>
+               <idno type="gnd">118615688</idno>
+            </author>
+            <editor role="translator">
+               <persName xml:lang="la">
+                  <forename>Vitus</forename>
+                  <surname>Winsemius</surname>
+               </persName>
+               <idno type="wikidata">Q2512106</idno>
+               <idno type="gnd">124661076</idno>
+            </editor>
+            <editor>
+               <persName>Ton Harmsen</persName>
+            </editor>
+            <respStmt>
+               <resp>Converted to TEI by</resp>
+               <persName ref="https://orcid.org/0000-0001-8979-8706">Julia Jennifer Beine</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="dracor">DraCor</publisher>
+            <idno type="URL">https://dracor.org</idno>
+            <availability>
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0
+                  1.0</licence>
+               <p>Copyright of the online edition in the Ceneton project edited by Ton Harmsen (c)
+                  Leiden University. Thanks to Ton Harmsen for the authorisation of this
+                  digitisation.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <ref
+                  target="https://www.hum2.leidenuniv.nl/Dutch/Ceneton/WinsemiusOedipusTyrannus1603.html"
+                  >Census Nederlands Toneel (Ceneton)</ref>
+               <availability status="free">
+                  <p>The editions on the website edited by Antonius Harmsen (Leiden University) are
+                     public domain. See https://www.let.leidenuniv.nl/Dutch/Canonisations.html</p>
+               </availability>
+               <note>This is a bilingual translation. This file only contains the Latin translation.
+                  The line numbers follow the Greek original, not the Latin text. Typesetting errors
+                  have been corrected.</note>
+               <bibl type="originalSource"><author>Winsemius, Vitus</author>: <title type="main"
+                     >Sophoclis Oedipus tyrannus</title>. In: <title type="main">ΣΟΦΟΚΛΕΟΥΣ ΑΙ ΕΠΤΑ
+                     ΤΡΑΓΩΔΙΑΕ. SOPHOCLIS TRAGOEDIAE SEPTEM</title> . <title type="sub">Unà cum
+                     omnibus Graecis scholiis, &amp;amp;amp; Latina Viti Winsemij ad verbum
+                     Interpretatione. Quibus accesserunt Ioachimi Camerarij, necnon Henrici Stephani
+                     annotationes. Unà cum Indice sententiarum Sophoclearum.</title> .
+                     <pubPlace>[Geneva]</pubPlace>: <publisher>Paul Estienne</publisher>
+                  <date>1603</date>.</bibl>
+               <relatedItem>
+                  <!-- digital copy used -->
+                  <bibl>
+                     <ref
+                        target="https://www.hum2.leidenuniv.nl/Dutch/Ceneton/Facsimiles/WinsemiusOedipusTyrannus1603/index.htm"
+                        >Census Nederlands Toneel (Ceneton)</ref>
+                     <availability status="free">
+                        <p>The editions on the website edited by Antonius Harmsen (Leiden
+                           University) are public domain. See
+                           https://www.let.leidenuniv.nl/Dutch/Canonisations.html</p>
+                     </availability>
+                  </bibl>
+               </relatedItem>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="sacerdos" sex="MALE">
+                  <persName>Sacerdos</persName>
+               </person>
+               <person xml:id="oedipus" sex="MALE" ana="http://www.wikidata.org/entity/Q130890">
+                  <persName>Oedipus</persName>
+               </person>
+               <person xml:id="tiresias" sex="MALE" ana="http://www.wikidata.org/entity/Q656881">
+                  <persName>Tiresias</persName>
+               </person>
+               <person xml:id="nuncius" sex="MALE" role="nuncius">
+                  <persName>Nuncius</persName>
+               </person>
+               <person xml:id="iocaste" ana="http://www.wikidata.org/entity/Q131445">
+                  <persName>Iocaste</persName>
+               </person>
+               <person xml:id="creon" sex="MALE" ana="http://www.wikidata.org/entity/Q732066">
+                  <persName>Creon</persName>
+               </person>
+               <personGrp xml:id="chorus" sex="MALE" role="servus">
+                  <name>Chorus</name>
+               </personGrp>
+               <person xml:id="minister" sex="MALE" role="servus">
+                  <persName>Minister/Servus</persName>
+               </person>
+               <person xml:id="alius-nuncius" sex="MALE" role="nuncius">
+                  <persName>Alius nuncius / Nuncius</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <textClass>
+            <keywords>
+               <term type="genreTitle">tragedy</term>
+            </keywords>
+            <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+         </textClass>
+         <creation>
+            <region>
+               <ref target="http://www.wikidata.org/entity/Q476033">Low Countries</ref>
+            </region>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <standOff>
+      <listEvent>
+         <event type="print" when="1603">
+            <desc>first print 1597, differences between the 1597 and 1603 versions unknown</desc>
+         </event>
+      </listEvent>
+      <listChange>
+         <change when="2026-02-07">
+            <desc>Scene division based on Sophocles’ tragedy added by Julia Jennifer Beine.</desc>
+         </change>
+      </listChange>
+   </standOff>
+   <text>
+      <front>
+         <titlePage>
+            <docTitle>
+               <titlePart type="main"><foreign xml:lang="grc">ΣΟΦΟΚΛΕΟΥΣ ΑΙ ΕΠΤΑ
+                  ΤΡΑΓΩΔΙΑΕ</foreign>. SOPHOCLIS TRAGOEDIAE SEPTEM.</titlePart>
+               <titlePart type="desc">Unà cum omnibus Graecis scholiis, &amp;amp;amp; Latina Viti
+                  Winsemij ad verbum Interpretatione. Quibus accesserunt Ioachimi Camerarij, necnon
+                  Henrici Stephani annotationes. Unà cum Indice sententiarum
+                  Sophoclearum.</titlePart>
+            </docTitle>
+            <epigraph>
+               <gap reason="figure"/>
+               <p>Noli altum sapere</p>
+            </epigraph>
+            <docImprint>EXCUDEBAT <publisher>PAULUS STEPHANUS</publisher>. <docDate when="1603">ANNO
+                  MDCIII</docDate>.</docImprint>
+         </titlePage>
+         <pb n="257"/>
+         <div type="argument">
+            <head>ARGUMENTUM AUTORE ARISTOPHANE GRAM- matico.</head>
+            <l>LInquit Corinthum per probrum OEdipus, nothus</l>
+            <l>Polybi vocatus, Delphicumque oraculum</l>
+            <l>De patre consultum, &amp;amp; genere petit suo,</l>
+            <l>Ibique factus obviam angusta via</l>
+            <l n="5">Patri, interemit inscius ignotum miser.</l>
+            <l>Posthac solutis Sphingicis aenigmatis</l>
+            <l>Foedavit &amp;amp; matris suae cubilia.</l>
+            <l>At pestis &amp;amp; morbi Thebas vexant mali,</l>
+            <l>Tum missus ad oracula Creon Delphica,</l>
+            <l n="10">Pausam mali allatum &amp;amp; medelam pestilis,</l>
+            <l>Monetur à divinitus misso sono</l>
+            <l>Placent ut interfecti manes Laij</l>
+            <l>Acto paterna perpetratore ex humo.</l>
+            <l>Ex eo quis esset, ut rescivit Oedipus,</l>
+            <l n="15">Ipse sibi lumina manibus effodit suis.</l>
+            <l>At mater uxor fune vitam finiit.</l>
+         </div>
+         <pb n="258"/>
+         <div type="explanation">
+            <head>CUR HAEC FABULA INSCRIBITUR OEDIPUS TYRANNUS.</head>
+            <p>HAEC fabula, ad alterius differentiam, OEdipus Tyrannus inscribitur. Scitè autem
+               omnes eam fabulam Tyrannum descripserunt, uspote quae omnes Sophoclis poëses superet,
+               etiamsi eum victum fuisse à Philocle author sit Dicaearchus. Superiores verò hanc
+               tyranni nomine, propter rerum in ea declaratarum tempora, molestiasque quibus
+               affectus fuit OEdipus, inscripserunt. Mendicum enim ac caecum OEdipum Coloneum
+               Athenas venisse aiunt. Poëtis verò, qui Homerum sequuti sunt, peculiare quippam
+               usuvenit, qui Reges ante bellum Troianum Tyrannos appellaverunt. Hoc nomen tandem à
+               Graecis est usurpatum, Archilochi temporibus, ut Hippias Sophista testatur. Homerus
+               Echetum omnium sceleratisimum regem, non Tyrannum appellat, cujus haec sunt verba.
+                  <quote>In Echetum regem omnium hominum pessimum.</quote> Tyrannum autem à
+               Tyrrhenis dictum ferunt. Hi enim latrociniis regionen infestabant. Quidam à Tyro urbe
+               deductum tradunt. Dictus est autem Tyrannus ex verbi notatione, ex eo quod cruciaret
+               populos, iisque dolores inferret, dolosque adversus subjectos strueret. Constat autem
+               recentius esse Tyranni nomen: neque enim Homerus, neque Hesiodus, neque alius ullus
+               ex veteribus in suo carmine Tyranni mentionem facit. Aristoteles verò in Cumanorum
+               Rep. Tyrannos prius AEsymnetas appellatos fuisse ait. Erat enim illud nomen
+               plausibilius.</p>
+         </div>
+         <pb n="259"/>
+         <div type="additionalText">
+            <head>ALITER.</head>
+            <p>OEdipus Tyrannus ad differentiam OEdipi Colonei inscribitur. Praecipua fabulae capita
+               sunt, Cognitio propriorum malorum OEdipi, Oculorum caecitas, &amp;amp; Iocastes mors,
+               quae sibi laqueo vitam finivit.</p>
+         </div>
+         <div type="additionalText">
+            <head>Oraculum editum Laïo Thebano.</head>
+            <l>Laïe Labdacide sobolem me supplice poscis</l>
+            <l>Voce: tibi sed ego natum promitto petenti.</l>
+            <l>In fatis tamen est, dulcem illius tibi lucem</l>
+            <l>Ereptum ire manu. Pelopi sic Iuppiter olim</l>
+            <l>Annuit oranti, cuius natum rapuisses.</l>
+         </div>
+         <div type="additionalText">
+            <head>AEnigma Sphingis.</head>
+            <l>Nutrit humus bipidem, mox quadrupedem unius oris,</l>
+            <l>Et tripdem: varia contra ac animalia voce</l>
+            <l>Omnia sunt, Pelagi, coeli, telluris alumna:</l>
+            <l>Iamque ubi multiplici vadit pede, quò magis ire</l>
+            <l>Pergit, eò minus est per membra effoeta vigoris.</l>
+         </div>
+         <pb n="260"/>
+         <castList>
+            <head>PERSONAE HUIUS FABULAE.</head>
+            <castItem>
+               <role>OEDIPUS,</role>
+            </castItem>
+            <castItem>
+               <role>SACERDOS</role>
+               <roleDesc>senex Iovis,</roleDesc>
+            </castItem>
+            <castItem>
+               <role>CREON,</role>
+            </castItem>
+            <castItem>
+               <role>CHORUS</role>
+               <roleDesc>constat ex Thebanis senibus.</roleDesc>
+            </castItem>
+            <castItem>
+               <role>TIRESIAS,</role>
+            </castItem>
+            <castItem>
+               <role>IOCASTE,</role>
+            </castItem>
+            <castItem>
+               <role>NUNCIUS,</role>
+            </castItem>
+            <castItem>
+               <role>MINISTER </role>
+               <roleDesc>Polybi,</roleDesc>
+            </castItem>
+            <castItem>
+               <role>ALIUS NUNCIUS.</role>
+            </castItem>
+            <stage>Praefatur OEdipus. Continue</stage>
+         </castList>
+      </front>
+      <body>
+         <pb n="261"/>
+         <div type="title">
+            <head>SOPHOCLIS OEDIPUS TYRANNUS.</head>
+         </div>
+         <div type="scene" n="1" subtype="prologos">
+            <stage>IAMBI.</stage>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>O Nova Soboles antiqui Cadmi,</l>
+               <l>Quid hoc in loco consedistis,</l>
+               <l>Supplicibus ramis coronati?</l>
+               <l>Urbs verò tota thure incenso fumat,</l>
+               <l n="5">Precibusque ac gemitu omnia resonant:</l>
+               <pb n="262"/>
+               <l>Quae ego cùm iudicarem non ex alio nunciante mihi</l>
+               <l>Cognoscenda esse ipse huc prodij,</l>
+               <l>Ille omnium sermonibus celebratus OEdipus.</l>
+               <l>Sed tu ô senex dic: nam te dignum est</l>
+               <l n="10">Prae aliis ut dicas, quid est quòd hîc consedistis,</l>
+               <l>Utrum metus causa, an iniuria affecti? Cupio enim ex animo</l>
+               <l>Vobis opitulari. Nam certè durus essem</l>
+               <l>Si me iste consessus non commoveret.</l>
+            </sp>
+            <sp who="#sacerdos">
+               <speaker>Sac.</speaker>
+               <l>O Princeps patriae meae,</l>
+               <l n="15">Vides qualis turba consederit</l>
+               <pb n="263"/>
+               <l>Ad aras tuas, ex quibus aliqui non procul</l>
+               <l>Volare possunt, alij annis gravati sunt</l>
+               <l>Sacerdotes, Iovis ego sacerdos sum, haec iuvenum</l>
+               <l>Manus est. nam reliqua multitudo coronata</l>
+               <l n="20">In foro sedet, iuxta geminum Palladis</l>
+               <l>Delubrum, &amp; ad Ismeni aras fatidicas.*</l>
+               <pb n="264"/>
+               <l>Urbs enim, quemadmodum ipse vides, ingenti</l>
+               <l>Fluctu quassatur, nec levare caput</l>
+               <l>Amplius potest ex profundis procellis.</l>
+               <l n="25">Interierunt enim iam frugiferi folliculi terrae,</l>
+               <l>Interiit soboles armentorum, unà cum immaturis</l>
+               <l>Foetibus mulierum: febrili verò tabe</l>
+               <l>Grassans saevissima pestis populatur urbem,</l>
+               <l>A qua vastantur domus, &amp; ater</l>
+               <l n="30">Pluto gemitu luctuque ditescit.</l>
+               <pb n="265"/>
+               <l>Diis quidem nunc non aequantes te, ego</l>
+               <l>Et hi pueri sedemus hîc ad aram:</l>
+               <l>Sed inter homines eximium, in calamitate vitae,</l>
+               <l>Iudicantes, &amp; ad reconciliandum Deum,</l>
+               <l n="35">Qui liberasti urbem tuo adventu</l>
+               <l>A tributo saevae vatis, quod pendebamus,</l>
+               <l>Neque à nobis admonitus,</l>
+               <l>Vel edoctus, sed ope divina,</l>
+               <l>Diceris itaque &amp; iudicaris nobis restituisse vitam.</l>
+               <l n="40">Nunc verò ô praestantissimum OEdipi caput,</l>
+               <pb n="266"/>
+               <l>Te precamur omnes ad te conversi,</l>
+               <l>Ut auxilium aliquod invenias, sive divina</l>
+               <l>Voce admonitus, seu ab homine quopiam edoctus.</l>
+               <l>Video enim sapientibus viris etiam eventus</l>
+               <l n="45">Consiliorum quàm maximè respondere.</l>
+               <l>Age igitur, praestantissime Princeps, erige urbem,</l>
+               <l>Prospice, quemadmodum haec terra</l>
+               <l>Te servatorem vocat propter priorem virtutem,</l>
+               <l>Nam priorum rerum à te gestarum neutiquam meminisse poterimus</l>
+               <l n="50">Si à te erecti prius, postea corruemus,</l>
+               <l>Sed urbs in tuto ut collocetur vide.</l>
+               <pb n="267"/>
+               <l>Foelici enim auspicio rem nobis prius</l>
+               <l>Administrasti, fac ut &amp; nunc tui similis sis.</l>
+               <l>Nam si, ut facis, huic terrae dominaberis,</l>
+               <l n="55">Plenam viris quàm vacuam regere pulchrius est.</l>
+               <l>Quid enim vel arx est, vel navis,</l>
+               <l>Si vasta sit, nec à viris habitetur.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>O miseri pueri, Nota, non ignota mihi</l>
+               <l>Petitis, nimis enim scio quòd</l>
+               <l n="60">Graviter laboratis omnes: cumque vos dolore conficiamini,</l>
+               <l>Non tamen quisquam est, cui ista magis, quàm mihi doleant.</l>
+               <l>Nam vester dolor omnium in me unum redundat,</l>
+               <l>Me inquam solum, &amp; neminem haec cura exercet.</l>
+               <pb n="268"/>
+               <l>Anima enim mea &amp; urbis, &amp; meam, &amp; vestram vicem gemit,</l>
+               <l n="65">Neque me dormientem excitastis unquam:</l>
+               <l>Et quàm multas lacrymas profuderim scitis,</l>
+               <l>Quámque varias cogitando vias quaesiverim.</l>
+               <l>Quod verò unicum his malis remedium dispicere potui,</l>
+               <l>Eo usus sum: Nam filium Menoecei</l>
+               <l n="70">Creontem affinem meum ad Delphicum</l>
+               <l>Misi Apollinis oraculum, ut exquirat, quid nam</l>
+               <l>Faciam, dicamve, quo hanc urbem liberem.</l>
+               <l>Et cùm iuxta dies tempus dinumero,</l>
+               <l>Mora mihi molesta est nescienti quid agat: nam ultra</l>
+               <l n="75">Debitum iam tempus abest.</l>
+               <pb n="269"/>
+               <l>Qui cùm venerit, tunc verò ego admodum malus</l>
+               <l>Sim, si non exequar omnia quae praecipiat Deus.</l>
+            </sp>
+            <sp who="#sacerdos">
+               <speaker>Sac.</speaker>
+               <l>Rectè ut ais, nam hi mihi iam</l>
+               <l>Creontem advenire nunciant.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l n="80">O Apollo, utinam ille ita felici</l>
+               <l>Auspicio veniat, ut vultu laeto adest.</l>
+            </sp>
+            <sp who="#sacerdos">
+               <speaker>Sac.</speaker>
+               <l>Aspectu quidem hilaris apparet, quod nisi esset, non ita</l>
+               <l>Coronatus incederet Lauri frondibus.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Statim sciemus, tantùm enim abest, audire ut possit:</l>
+               <l n="85">O Rex affinis, fili Menoecei,</l>
+               <pb n="270"/>
+               <l>Quem nobis à Deo affers nuncium?</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l>Bonum: nam etiam ea quae gravia sunt, si rectè sint</l>
+               <l>Administrata, facilè in melius converti possunt.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Quid hoc sermonis est? neque enim fiduciam,</l>
+               <l n="90">Vel metum ex his dictis concipio.</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l>Si his praesentibus me vis dicere,</l>
+               <l>Paratus sum, sive intrò potius imus.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Dic omnibus praesentibus. Nam propter hos maiore</l>
+               <l>Cura conficior, quàm propriae salutis causa.</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l n="95">Dicam ea quae audivi à Deo:</l>
+               <pb n="271"/>
+               <l>Nam nos Apollo manifestè iussit</l>
+               <l>Piaculum quod in hac terra nutritur</l>
+               <l>Tollere, neque cum immedicabili malo conflictari.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Quae est expiatio? aud quid hoc aerumnae est?</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l n="100">Ut vel exilio multemus, vel caedem caede</l>
+               <l>Expiemus. Hic enim sanguis turbat civitatem.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Ad quemnam igitur pertinet haec calamitas, quam Apollo significat?</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l>Fuit nobis ô Rex, aliquando Laius gubernator</l>
+               <l>Huius terrae, priusquàm tu hanc regeres urbem.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l n="105">Scio, audivi enim, &amp; si ipsum nonquam vidi.</l>
+               <pb n="272"/>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l>Huius extincti nunc mandat apertè</l>
+               <l>Apollo, ut autores caedis puniamus.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Ubi nam illi sunt? aut ubi deprehendentur</l>
+               <l>Veteris sceleris vestigia inventu difficilia?</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l n="110">In hac terra, ut ipse aiebat: quod enim quaeritur,</l>
+               <l>Hoc inveniri potest: facile elabitur, si quid neglectum sit.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Sed dic mihi, utrum domi, an in agro Laius,</l>
+               <l>An verò in alia terra interfectus sit?</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l>Cùm ut aliquid inquirere profectus esset:</l>
+               <l n="115">Neque postquam abiit, domum amplius reversus est.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Nec nuncius, aut comes itineris</l>
+               <l>Quisquam vidit, unde aliquis inquirere possit?</l>
+               <pb n="273"/>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l>Perierunt omnes, uno excepto, qui cùm aufugisset metu,</l>
+               <l>Nihil à se visum nisi unum quiddam commemorare potuit.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l n="120">Quidnam id est? ex uno enim multa investigari possunt,</l>
+               <l>Cùm parvum initium spei oblatum est.</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l>A latronibus aiebat non paucis</l>
+               <l>Sed multis oppressum interiisse.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Quomodo latrones, si ille non pecunia</l>
+               <l n="125">Onustus iter faciebat, hoc ausi sunt?</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l>Fuit suspicio. Laïo verò pereunti</l>
+               <l>Nemo opem tulit in periculo.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Quid verò mali obstitit, cùm Rex ita</l>
+               <l>Miserè interiret, ut non fieret inquisitio?</l>
+               <pb n="274"/>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l n="130">Perplexa aenigmata Sphingis, ea, quae ante pedes erant</l>
+               <l>Curare nos cogebant, omissis incertis.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Sed ab initio rursum hanc rem exigam.</l>
+               <l>Rectè Apollo, rectè &amp; tu,</l>
+               <l>Pro Rege extincto hanc curam suscepistis,</l>
+               <l n="135">Quare &amp; ego vobis adiutor ero,</l>
+               <l>Ac propugnator pro hac terra &amp; divino oraculo.</l>
+               <l>Non enim pro remotioribus amicis,</l>
+               <l>Sed pro me ipso, hoc discutiam odium.</l>
+               <l>Nam qui illum oppressit, fortasse</l>
+               <l n="140">Etiam in me eodem modo impetum facere posset:</l>
+               <l>Dum igitur illi opitulor, mihi ipsi prosum.</l>
+               <pb n="275"/>
+               <l>Quare quàm celerrimè pueri ex hoc loco surgite,</l>
+               <l>Et sublatis his supplicibus ramis,</l>
+               <l>Aliqui ex vobis populum Cadmi huc congregent,</l>
+               <l n="145">Omnia experiemur: vel enim foelices</l>
+               <l>Deo duce erimus, vel corruemus.</l>
+            </sp>
+            <sp who="#sacerdos">
+               <speaker>Sac.</speaker>
+               <l>O filij surgamus: hanc enim ob causam</l>
+               <l>Huc venimus, quàm hic commemorat.</l>
+               <l>Et Phoebus qui hoc oraculum misit, simul</l>
+               <l n="150">Servator nobis adsit, morbumque depellat.</l>
+            </sp>
+         </div>
+         <div type="scene" n="2" subtype="parodos">
+            <stage>MONOSTROPHICA.</stage>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <l>O dulce Iovis oraculum, quale tandem</l>
+               <pb n="276"/>
+               <l>Ab opulento Pythico templo</l>
+               <l>Ad celebrem venisti Thebarum urbem:</l>
+               <l>Animo trepido perculsus sum,</l>
+               <l n="155">Metuque tremo.</l>
+               <l>O Apollo morbum depulsor, Delie, Paean,</l>
+               <pb n="277"/>
+               <l>Te religiose veneror.</l>
+               <l>Quid mihi vel nunc vel in posterum</l>
+               <l>Novae rei conficies?</l>
+               <l n="160">Dic mihi ô aureae filia</l>
+               <l>Spei, immortalis fama</l>
+               <l>Invocanti primùm te.</l>
+               <l>Teque invoco filia Iovis Minerva,</l>
+               <l>Et terrae praesidem sororem tuam</l>
+               <l n="165">Dianam, quae rotundo fori</l>
+               <l>Throno celebrem sedem habet,</l>
+               <l>Et Apollinem simul iaculatorem:</l>
+               <l>Vos tres malorum depulsores, apparete mihi,</l>
+               <pb n="278"/>
+               <l>Quando &amp; prioris cladis,</l>
+               <l>Quae urbem premebat, pepulistis</l>
+               <l>Ex terra noxium incendium,</l>
+               <l n="175">Adeste &amp; nunc, ô Dii,</l>
+               <l>Innumera enim fero mala.</l>
+               <l>Nam morbo laborat totus populus.</l>
+               <l>Neque est mihi consilij copia,</l>
+               <l>Quo quis opitulari queat.</l>
+               <l n="180">Nam fruges inclytae terrae</l>
+               <l>Intereunt. Neque in partu</l>
+               <pb n="279"/>
+               <l>Lucinae labores perferunt</l>
+               <l>Mulieres. Alium verò</l>
+               <l>Super alium videas</l>
+               <l n="185">Ceu volucrem avem,</l>
+               <l>Celerius indefesso igni,</l>
+               <l>Ruentem ad littus atri</l>
+               <l>Plutonis, qui ex orbe innumeri</l>
+               <l>Pereunt. Misera verò turba</l>
+               <l n="190">In campo cadaveribus pleno</l>
+               <l>Iacet indefleta: interque eos coniuges</l>
+               <pb n="280"/>
+               <l>Et canae matres</l>
+               <l>Ad aras in littore positas,</l>
+               <l>Hîc &amp; illic tristium malorum</l>
+               <l n="195">Deprecatrices, gemitus cient.</l>
+               <l>Invocatio Apollinis fervet, &amp; luctuosa vox</l>
+               <l>Simul consonat. Quamobrem ô aurea</l>
+               <l>Iovis filia, pulchro aspectu, fer nobis</l>
+               <l>Auxilium, Martemque pestiferum,</l>
+               <l n="200">Qui nunc absque armis &amp; scutis</l>
+               <l>Me vastat, ingenti clade opprimens,</l>
+               <pb n="281"/>
+               <l>In fugam actum cedere coge,</l>
+               <l>Atque ex hac terrae pelle, sive in magnum</l>
+               <l>Thalamum Amphitrites,</l>
+               <l n="205">Sive in Euxini scopulos,</l>
+               <l>Thraciique maris fluctus.</l>
+               <l>Nam si quid reliqui nox fecit,</l>
+               <l>Id insequens dies absumit.</l>
+               <l>Hunc igitur Martem, ô qui ignea fulgura</l>
+               <l n="210">Dispensas Iuppiter,</l>
+               <l>Tuo confice fulmine.</l>
+               <l>O Rex Lycee, utinam ab aureo</l>
+               <l>Arcu tuas sagittas</l>
+               <pb n="282"/>
+               <l>Invictas distribueres,</l>
+               <l>Ad opem ferendam directas.</l>
+               <l>Atque utinam Diana igneos</l>
+               <l>Spargat radios, quibus Lycios montes</l>
+               <l n="215">Percurrit. Te qui aurea mitra ornatus es,</l>
+               <l>Et idem cum hac terra nomen habes</l>
+               <l>Vinosum invoco Bacchum,</l>
+               <l>Maenadum ducem,</l>
+               <l>Ut venias &amp; comburas lucenti face</l>
+               <l n="220">Hunc ignominiosum ac pestiferum deum.</l>
+            </sp>
+         </div>
+         <pb n="283"/>
+         <div type="scene" n="3" subtype="epeisodion">
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Audio quid petas: si autem voles meo sermoni</l>
+               <l n="225">Auscultare, &amp; huic morbo succurrere,</l>
+               <l>Remedium consequêris &amp; levationem mali,</l>
+               <l>Quod ego, qui iam primùm hoc audio, dicam,</l>
+               <l>Quique à re ipsa alienus sum: Non enim diu</l>
+               <l>Investigarem, nisi aliqua indicia haberem.</l>
+               <l n="230">Nunc verò (nam &amp; ipse civium numerum ascitus sum)</l>
+               <l>Omnibus huius urbis civinus hoc denuncio:</l>
+               <l>Quicunque vidit à quo viro</l>
+               <l>Laius Labdacides interfectus est,</l>
+               <pb n="284"/>
+               <l>Huic ego impero ut rem omnem mihi indicet.</l>
+               <l n="235">Et si fortè, ne in crimen veniat metuit, libero</l>
+               <l>Eum metu de seipso: Nam aliud nihil patietur</l>
+               <l>Triste praeter quàm ut ex hac terra incolumis abeat.</l>
+               <l>Si autem quis alium novit peregrinum</l>
+               <l>Authorem caedis, ne taceat: nam praemium*</l>
+               <l n="240">Ego tribuam, &amp; gratia ipsi reposita erit.</l>
+               <l>Sin autem tacebitis &amp; aliquis vel amico</l>
+               <l>Metuens, vel sibi ipsi, non obediet huic sermoni,</l>
+               <l>Quid deinde facturus sim audite:</l>
+               <l>Eum ego virum edico, quicunque est, ne quis in terra</l>
+               <l n="245">Hac, cuius ego Rex sum,</l>
+               <l>Recipiat, neque in sermone,</l>
+               <l>Aut precationibus, aut sacrificiis</l>
+               <l>Quidquam cum eo commune habeat, neque sacram aquam illi attribuat.</l>
+               <l>Sed omnes à domo ipsum arceant: Nam ille homo nobis</l>
+               <pb n="285"/>
+               <l n="250">Piaculum est, quem admodum Dephicum</l>
+               <l>Apollinis oraculum mihi ostendit.</l>
+               <l>Hoc igitur modo decrevi &amp; divinam vocem,</l>
+               <l>Et illum mortuum defendere.</l>
+               <l>Execror autem caedis autorem, sive is</l>
+               <l n="255">Unus cùm esset latuit, sive à pluribus adiutus est,</l>
+               <l>Ut malus malè excommunicatus vitam exigat.</l>
+               <l>Et imprecor etiam meis aedibus, si</l>
+               <l>In illis me conscio delitescit,</l>
+               <l>Eadem, quae paulò antè precatus sum,</l>
+               <l n="260">Vobisque omnia ista, ut exequamini, committo,</l>
+               <l>Mea causa, &amp; Dei,</l>
+               <l>Et huius terrae, quae ita sterilis atque impiè perdita est.</l>
+               <l>Neque nos, &amp; si Deus id non praecepisset,</l>
+               <l>Hoc inexpiatum relinquere conveniebat,</l>
+               <pb n="286"/>
+               <l n="265">Cùm &amp; optimus vir &amp; rex interierit,</l>
+               <l>Sed inquirere dicebat. Nunc verò ego autor sum,</l>
+               <l>Qui &amp; regnum administro, quod ab illo priùs administratum est,</l>
+               <l>Et eius coniugem habeo consortem procreandae sobolis,</l>
+               <l>Et communes cum eo liberos, si non ille</l>
+               <l n="270">Infoelix in sobole procreanda fuisset, suscepissem.</l>
+               <l>Nunc in ipsius caput ingruit adversa fortuna:</l>
+               <l>Quapropter ego pro illo, ut pro meo parente</l>
+               <l>Enitar, &amp; omnia experiar,</l>
+               <l>Donec inquiram caedis autorem</l>
+               <l n="275">Filij Labdaci, ac Polydori,</l>
+               <l>Et deinceps Cadmi, atque antiqui Agenoris.</l>
+               <pb n="287"/>
+               <l>Et haec non obedientibus à diis imprecor,</l>
+               <l>Ne illis unquam terra fruges ferat,</l>
+               <l>Neve mulieres sobolem gignant, sed ut leto</l>
+               <l n="280">Tali moriantur, aut etiam tristiore.</l>
+               <l>Vobis autem caeteris civibus Thebanis precor, quicunque</l>
+               <l>Ista approbatis, ut sit adiutrix divina iustitia,</l>
+               <l>Et ut omnes vobis Dij semper faventes adsint,</l>
+            </sp>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <l>Quemadmodum me execratione obstrinxisti rex, ita dicam.</l>
+               <l n="285">Neque enim vel ipse occidi, vel caedis autorem</l>
+               <l>Indicare possum: sed haec quaestio ab eo qui proposuit,</l>
+               <l>Nempe ab Apolline explicari debebat, quisnam id fecisset.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Rectè dixisti, sed cogere Deos,</l>
+               <l>Si non ipsi velint, nemo potest.</l>
+               <pb n="288"/>
+            </sp>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <l n="290">Dicam secundum consilium, quod mihi de hac re in mentem venit.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Vel tertium si fuerit, ne reticueris.</l>
+            </sp>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <l>Scio Tiresiam eandem divinandi vim habere,</l>
+               <l>Quae Phoebo est, à quo si quis</l>
+               <l>Inquirat, rem exploret certissimè.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l n="295">Ne hoc quidem à me neglectum est,</l>
+               <l>Nam de sententia Creontis ad ipsum misi duos</l>
+               <l>Nuncios; quamobrem cur adhuc absit miror.</l>
+            </sp>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <l>Nam alij quidem sermones nihili &amp; inanes sunt.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Quinam? Omnes enim sermones considero.</l>
+            </sp>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <l n="300">Mortuum esse quidam viatores retulerunt.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Audivi &amp; ego, sed qui viderit, nondum apparuit.</l>
+               <pb n="289"/>
+            </sp>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <l>Atqui si fortè quid metuit,</l>
+               <l>Ubi has tuas imprecationes audierit, non aberit diutius.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Qui non metuit facinus committere, is verba minus menuet.</l>
+            </sp>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <l n="305">Sed adest qui redarguat: nam hi</l>
+               <l>Vatem huc adducunt</l>
+               <l>Qui solus ex hominibus vera dicere solet.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>O qui consideras omnia vates, &amp; quae addisci possunt,</l>
+               <l>Et arcana, coelestia, ac subterranea,</l>
+               <l>Et si non vides, attamen nosti quemadmodum haec urbs</l>
+               <l n="310">Gravi morbo infestetur, cui te auxiliatorem,</l>
+               <l>Et servatorem ô Rex solum speramus.</l>
+               <l>Nam Phoebus, si fortè nescis, cùm nuncios</l>
+               <l>Misissemus, responsum hoc remisit, liberationem</l>
+               <l>Hanc solam à morbo futuram esse,</l>
+               <l n="315">Si inquisitos Laij interfectores</l>
+               <l>Vel supplicio capitis, vel exilio puniamus.</l>
+               <pb n="290"/>
+               <l>Tu igitur ne celes nos, sive augurium</l>
+               <l>Seu aliud quidpiam divinationis habes:</l>
+               <l n="320">Libera quaeso te ipsum, urbemque, libera &amp; me,</l>
+               <l>Et libera mortuum isto piaculo:</l>
+               <l>In te enim omnes spes nobis sitae sunt: Nam hominem iuvare</l>
+               <l>Prout possis, praeclarissimus labor est.</l>
+            </sp>
+            <sp who="#tiresias">
+               <speaker>Tir.</speaker>
+               <l>Hei mihi, quàm grave est sapere. ubi</l>
+               <l n="325">Non expedit sapienti: haec enim cùm probè scirem,</l>
+               <l>Perij, neque huc venire debui.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Quid rei est, quòd ita tristis huc advenisti?</l>
+            </sp>
+            <sp who="#tiresias">
+               <speaker>Tir.</speaker>
+               <l>Dimitte me, facilè enim &amp; tu tuam,</l>
+               <l>Et ego meam feram fortunam, si mihi obtemperaveris.</l>
+               <pb n="291"/>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l n="330">Hoc neque iustum est, nec utile urbi,</l>
+               <l>Quae te enutrivit, &amp; eam oraculo destituis.</l>
+            </sp>
+            <sp who="#tiresias">
+               <speaker>Tir.</speaker>
+               <l>Video te haudquaquam opportunè loqui,</l>
+               <l>Quare &amp; mihi idem ne accidat, metuo.</l>
+            </sp>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <l>Ne per Deum, si scis, recuses. Quoniam</l>
+               <l>Omnes te supplices deprecamur.</l>
+            </sp>
+            <sp who="#tiresias">
+               <speaker>Tir.</speaker>
+               <l n="335">Omnes enim non sapitis, ego verò nequaquam</l>
+               <l>Ita loquar, tua ut aperiam mala.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Quid ais? cùm scias, non dices? an in animo habes</l>
+               <l>Nos prodere, ac perdere hanc urbem?</l>
+            </sp>
+            <sp who="#tiresias">
+               <speaker>Tir.</speaker>
+               <l n="340">Ego neque me, nec te molestia afficiam: quid ob hanc rem</l>
+               <l>Temere me accusas? non enim auscultabis mihi.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Sceleste an non (nam vel saxum</l>
+               <pb n="292"/>
+               <l>Irritare queas) aliquando dices?</l>
+               <l>Pergesque ita immitis ac praefractus esse?</l>
+            </sp>
+            <sp who="#tiresias">
+               <speaker>Tir.</speaker>
+               <l n="345">Iram accusas meam, sed eam quae tecum</l>
+               <l>Habitat non vides, me verò vituperas.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Quis enim non indignetur ista audiens,</l>
+               <l>Quemadmodum tu hanc urbem contumelia afficis?</l>
+            </sp>
+            <sp who="#tiresias">
+               <speaker>Tir.</speaker>
+               <l>Evenient enim haec, &amp; si ego taceam.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l n="350">Quae igitur eventura sunt, ea te mihi dicere oportet.</l>
+            </sp>
+            <sp who="#tiresias">
+               <speaker>Tir.</speaker>
+               <l>Non ulterius dicam, quamobrem tu</l>
+               <l>Si libet vel gravissimè irascere.</l>
+               <pb n="293"/>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Atqui nihil praetermittam, quemadmodum nunc iratus sum,</l>
+               <l>Quin ea quae sentio dicam. Tu enim videris mihi</l>
+               <l n="355">Adiutor facti huius esse, ac tantum non</l>
+               <l>Tuis manibus ipse caedem fecisse: si verò vidisti</l>
+               <l>Facinus perpetrari, &amp; hoc tuum solius esse dico.</l>
+            </sp>
+            <sp who="#tiresias">
+               <speaker>Tir.</speaker>
+               <l>Verum. At ego te dico illi edicto</l>
+               <l>Quod proposuisti ipsum obnoxium esse, nec tibi post hunc diem</l>
+               <l n="360">Fas esse alloqui vel hos cives vel me,</l>
+               <l>Ut qui impius sis, &amp; huius terrae piaculum.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Ita impudenter movisti</l>
+               <l>Hunc sermonem? an te poenas effugiturum putas?</l>
+            </sp>
+            <sp who="#tiresias">
+               <speaker>Tir.</speaker>
+               <l>Effugi, veritatem enim quae fortior est, alo.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l n="365">A quo edoctus ista dicis? non utique ab arte divinandi.</l>
+               <pb n="294"/>
+            </sp>
+            <sp who="#tiresias">
+               <speaker>Tir.</speaker>
+               <l>A te, nam tu me, ut dicerem, impulisti.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Quidnam? Dic rursum, ut meliùs audiam.</l>
+            </sp>
+            <sp who="#tiresias">
+               <speaker>Tir.</speaker>
+               <l>Non intellexisti antea? an tentandi causa quaeris?</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Non de re nota quaero, sed dic rursum.</l>
+            </sp>
+            <sp who="#tiresias">
+               <speaker>Tir.</speaker>
+               <l n="370">Te eius viri interfectorem esse dico, cuius interfectorem quaeris.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>At non impune bis convicium facies.</l>
+            </sp>
+            <sp who="#tiresias">
+               <speaker>Tir.</speaker>
+               <l>Dicam igitur &amp; alia, ut magis irascaris?</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Dic quantum voles, frustra quidem dixeris.</l>
+            </sp>
+            <sp who="#tiresias">
+               <speaker>Tir.</speaker>
+               <l>Nescientem te dico cum charissimis</l>
+               <l n="375">Turpissime consuetudinem habere, neque vides in quibus sis malis.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>An te impune haec semper dicturum esse existimas?</l>
+            </sp>
+            <sp who="#tiresias">
+               <speaker>Tir.</speaker>
+               <l>Existimo, si modò aliquid in veritate est roboris.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Est quidem, sed tibi non inest veritas. Quoniam</l>
+               <l>Tu &amp; auribus, &amp; mente, &amp; oculis caecus es.</l>
+               <pb n="295"/>
+            </sp>
+            <sp who="#tiresias">
+               <speaker>Tir.</speaker>
+               <l n="380">Tu miser mihi hoc exprobras, quod idem</l>
+               <l>Paulò post nemo non exprobrabit tibi.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Solae tenebrae te tuentur, alioqui effecissem,</l>
+               <l>Ut neque me, nec alium quenquam eorum, qui lucem intuetur amplius aspiceres.</l>
+            </sp>
+            <sp who="#tiresias">
+               <speaker>Tir.</speaker>
+               <l>Non est in fatis à te ut interficiar,</l>
+               <l n="385">Nam Apollini id curae erit.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Tuumne an Creontis hoc commentum est?</l>
+            </sp>
+            <sp who="#tiresias">
+               <speaker>Tir.</speaker>
+               <l>Non Creon tibi mali causa est, sed tu ipse.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>O divitiae, &amp; regnum, &amp; ars artem</l>
+               <l>Exuperans, in quadam vitae foelicitate,</l>
+               <l n="390">Quantum vobis invidiae subest?</l>
+               <l>Si quidem hoc regno, quod civitas mihi</l>
+               <l>Sponte sua non petenti dono detulit,</l>
+               <pb n="296"/>
+               <l>Creon ille, qui initio fidus amicus erat,</l>
+               <l>Clàm per insidias me deiicere studet,</l>
+               <l n="395">Subornato hoc praestigiatore, malefico,</l>
+               <l>Fraudulento, circumforaneo. qui nihil videt</l>
+               <l>Nisi lucrum, ad artem verò coecus est.</l>
+               <l>Age enim, dic mihi, Quomodo tu vates certus es?</l>
+               <l>Quare tunc cùm adesset Sphinx, quae carmina componebat,</l>
+               <l n="400">Non afferebas aliquod civibus remedium?</l>
+               <l>Et illud quidem aenigma interpretari</l>
+               <l>Non erat vulgaris viri, sed divinatione opus erat,</l>
+               <l>Quam neque tu auspicio cognitam protulisti,</l>
+               <l>Neque ab aliquo deo revelatam, sed ego adveniens,</l>
+               <l n="405">Ego inquam ille ignarus OEdipus compescui ipsam,</l>
+               <pb n="297"/>
+               <l>Acie mentis rem assecutus, non ab avibus edoctus,</l>
+               <l>Quem tu conaris eiicere, sperans ad thronum deinde</l>
+               <l>Creontis te proximum adstaturum esse.</l>
+               <l>Cum magno malo mihi videris &amp; tu, &amp; qui ista composuit,</l>
+               <l n="410">Regnaturus esse: &amp; nisi propter senium tibi parcerem,</l>
+               <l>Malo edoctus cognovisses ea quae agis.</l>
+            </sp>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <l>Nobis coniectantibus &amp; huius sermones</l>
+               <l>Per iram dicti, &amp; tui videntur.</l>
+               <l>Neque verò sic oportet, sed potius, quemadmodum divinum</l>
+               <l n="415">Oraculum optinè interpretemur, cogitandum est.</l>
+            </sp>
+            <sp who="#tiresias">
+               <speaker>Tir.</speaker>
+               <l>Et si regnum obtines, hoc tamen aequari oportet</l>
+               <l>Ex aequo ut dicas atque audias: hoc ius mihi tecum commune est.</l>
+               <l>Neque enim tibi servio, sed Apollini.</l>
+               <pb n="298"/>
+               <l>Nec patrocinio Creontis utar.</l>
+               <l n="420">Hoc verò tibi dico, quòd cùm caecitatem exprobres mihi,</l>
+               <l>Tuque oculis valeas, non tamen vides in quibus verseris malis,</l>
+               <l>Neque ubi, nec apud quos habites.</l>
+               <l>An nescis ex quibus natus sis? teque hostem</l>
+               <l>Tuis esse pariter, &amp; qui mortui sunt, &amp; qui adhuc vivunt?</l>
+               <l n="425">Et te undique impetentes maternae pariter ac paternae</l>
+               <l>Exigunt tandem ex hac terra horribiles dirae,</l>
+               <l>Qui nunc quidem rectè vides, paulò post caecus eris,</l>
+               <l>Et tuis questibus quis portus</l>
+               <l>Quisque mons non resonabit?</l>
+               <l n="430">Quum rescisces, quales nuptias domi</l>
+               <l>Infoeliciter occasione usus contraxeris,</l>
+               <pb n="299"/>
+               <l>Et reliquum malorum agmen, quod tibi adhuc ignotum est,</l>
+               <l>Quae in te pariter ac liberos tuos redundabunt.</l>
+               <l n="435">Iam, si libet, &amp; Creontem, &amp; os meum</l>
+               <l>Contumeliosè tracta. Te enim non erit</l>
+               <l>Alius homo sceleratior, qui peribit unquam.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>An hoc ferendum est, ut ista ex eo audiamus?</l>
+               <l>An non in malam rem hinc ibis? an non domum</l>
+               <l>Mox rursum ab his discedes aedibus?</l>
+            </sp>
+            <sp who="#tiresias">
+               <speaker>Tir.</speaker>
+               <l n="440">Non utique venissem ego, nisi tu vocasses.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Non enim sciebam te stulta haec locuturum esse,</l>
+               <l>Alioqui tardè te ad nos accersivissem.</l>
+            </sp>
+            <sp who="#tiresias">
+               <speaker>Tir.</speaker>
+               <l>Nos tibi quidem videmur stulti,</l>
+               <l>Tuis verò parentibus visi sapientes.</l>
+               <pb n="300"/>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l n="445">Quibus? mane, dic mihi quis me genuit?</l>
+            </sp>
+            <sp who="#tiresias">
+               <speaker>Tir.</speaker>
+               <l>Hic dies &amp; gignet te &amp; evertet.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Ut omnia valde obscura &amp; perplexa loqueris.</l>
+            </sp>
+            <sp who="#tiresias">
+               <speaker>Tir.</speaker>
+               <l>At tu optimus talium aenigmatum interpres es.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Haec mihi exprobras, quae laudem merentur.</l>
+            </sp>
+            <sp who="#tiresias">
+               <speaker>Tir.</speaker>
+               <l n="450">Ipsa utique fortuna te perdidit.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Verùm, quando urbem servavi, non curo.</l>
+            </sp>
+            <sp who="#tiresias">
+               <speaker>Tir.</speaker>
+               <l>Abeo igitur, &amp; tu puer duc me.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Ducat sanè, nam praesens tu res impedis,</l>
+               <l>Ac interturbas, quare amotus non perinde molestus eris.</l>
+            </sp>
+            <sp who="#tiresias">
+               <speaker>Tir.</speaker>
+               <l n="455">Abeo, postquam dixi ea propter quae huc veni, non tuum</l>
+               <l>Os veritus, non enim tu me occides.</l>
+               <l>Dico verò tibi, quòd ille vir quem iamdudum</l>
+               <pb n="301"/>
+               <l>Quaeris interminans, &amp; edicta proponens,</l>
+               <l>De caede Laij, ille inquam hîc est,</l>
+               <l n="460">Peregrinus falsò &amp; advena dictus, reipsa verò indigena,</l>
+               <l>Et Thebanus civis esse videbitur: nec gaudebit</l>
+               <l>Calamitate, caecus enim prae vidente factus,</l>
+               <l>Et mendicus pro divite in peregrinam</l>
+               <l>Terram baculo nixus abibit.</l>
+               <l n="465">Palam enim fiet, ipsum filiis suis</l>
+               <l>Fratrem esse, &amp; patrem simul, &amp; ex qua natus est</l>
+               <l>Eidem esse filium &amp; maritum. Patris verò</l>
+               <l>Adulterum &amp; occisorem. Iam si videtur intro</l>
+               <l>Abi, atque ista exquire. Et si me falsam deprehendes,</l>
+               <l n="470">Tum dicas me divinando nihil sapere.</l>
+            </sp>
+         </div>
+         <div type="scene" n="4" subtype="stasimon">
+            <stage>ANTISTROPHICA. strophe I.</stage>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <lg>
+                  <l>Quisnam ille est, de quo vaticinatrix</l>
+                  <pb n="302"/>
+                  <l>Delphica rupes loquitur,</l>
+                  <l>Qui omnium maximè infanda perpetravit,</l>
+                  <l>Cruentis manibus.</l>
+                  <l n="475">Tempus est, ut ille iam velocibus equis</l>
+                  <l>Celerius fugiat,</l>
+                  <l>Armatus enim in ipsum</l>
+                  <l>Impetum facit</l>
+                  <l>Igni &amp; fulgure,</l>
+                  <l>Iovis filius, saevumque</l>
+                  <l n="480">Simul ac inevitabile fatum sequitur.</l>
+               </lg>
+               <stage>Antistrophe 1.</stage>
+               <lg>
+                  <l>Nam incensa est à nivoso</l>
+                  <l>Iam recens fama Parnasso,</l>
+                  <l>Ut quisque illum occultantem se investiget,</l>
+                  <pb n="303"/>
+                  <l n="485">Qui latet in solis sylvis</l>
+                  <l>Antrisque ac rupibus, ut Taurus,</l>
+                  <l>Et miser, misero pede solitarius vagatur,</l>
+                  <l>Ex medio orbe prodita fugiens</l>
+                  <l n="490">Oracula, at illa viva circumvolitant.</l>
+               </lg>
+               <stage>Strophe 2.</stage>
+               <lg>
+                  <l>Horribilia verò movet</l>
+                  <l>Sapiens vates,</l>
+                  <l>Quae nequeunt credi, neque ut negari possint video.</l>
+                  <l>Quid igitur dicam, dubito,</l>
+                  <l n="495">Et spe ambigua pendeo,</l>
+                  <l>Neque statuere possum, hucne an illuc respiciam:</l>
+                  <pb n="304"/>
+                  <l>Quae enim inter Labdacidas</l>
+                  <l>Et filium Polybi contentio fuerit,</l>
+                  <l>Neque antehac unquam audivi,</l>
+                  <l n="500">Nec nunc intelligo.</l>
+                  <l>Quali igitur</l>
+                  <l>Indicio adducar ut huic peregrino</l>
+                  <l>Rumori credam contra OEdipodem?</l>
+                  <l>Fiamque adiutor Labdacidis</l>
+                  <l n="505">Ad inquirendum ignotae caedis autorem?</l>
+               </lg>
+               <stage>Antistrophe 2.</stage>
+               <lg>
+                  <l>Sed Iupiter &amp; Apollo</l>
+                  <l>Sapientes sunt, resque hominum norunt.</l>
+                  <l>Inter homines verò quòd vates</l>
+                  <pb n="305"/>
+                  <l>Plus aliis intelligant,</l>
+                  <l n="510">Non satis constat.</l>
+                  <l>Ingenia quidem alia aliis</l>
+                  <l>Praestantiora sunt hominum.</l>
+                  <l>Quapropter ego nisi prius audiero</l>
+                  <l>Firmiora argumenta, non temerè accusantibus regem</l>
+                  <l n="515">Assentiar. Nam hoc manifestum est,</l>
+                  <l>Quòd eum invasit alata puella,</l>
+                  <l>Et tunc sapientiam suam declaravit,</l>
+                  <l>Ac urbi reipsa profuit. Quamobrem</l>
+                  <l>Me iudice nunquam</l>
+                  <l n="520">Censebitur malus.</l>
+               </lg>
+            </sp>
+         </div>
+         <div type="scene" n="5" subtype="epeisodion">
+            <stage>IAMBI.</stage>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l>O cives, audivi Regem</l>
+               <pb n="306"/>
+               <l>Atrociter me accusare,</l>
+               <l>Adsum igitur id graviter ferens. Si enim in his malis</l>
+               <l>Praesentibus existimat aliquid à me</l>
+               <l n="525">Dictum factumve esse gravius</l>
+               <l>Non mihi vitae longioris desiderium est,</l>
+               <l>Sustinenti talem famam. Non enim levem</l>
+               <l>Maculam hic sermo inurit mihi,</l>
+               <l>Sed maximam, si quidem civis malus &amp; noxius urbi</l>
+               <l n="530">A te atque ab amicis vocabor.</l>
+            </sp>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <l>Sed hoc probrum fortasse</l>
+               <l>Ira expressit, neque seriò dictum est.</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l>Quisnam hoc asseveravit, quòd consilio meo</l>
+               <l>Persuasus vates, falsa responderit?</l>
+            </sp>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <l n="535">Dicta quidem haec sunt, sed quo animo nescio.</l>
+               <pb n="307"/>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l>An vultu vero, atque serio</l>
+               <l>Huius me criminis reum fecit?</l>
+            </sp>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <l>Nescio: Nam Principum facta non video.</l>
+               <l>Sed ipse iam ex domo huc prodit.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l n="540">Heus tu, quid huc venisti? eóne audaciae</l>
+               <l>Processisti, ut ausis ad mea tecta venire,</l>
+               <l>Cùm sis interfector huius viri manifestè,</l>
+               <l>Et praedo perspicuè regni mei?</l>
+               <l>Age dic mihi per Deum, timidum ne me, an stultum</l>
+               <l n="545">Existimabas esse, cùm id consilij caperes?</l>
+               <l>Aut me putabas non persensurum esse</l>
+               <l>Cùm insidiae struerentur, nec propulsaturum?</l>
+               <l>An non insanus est iste conatus tuus,</l>
+               <pb n="308"/>
+               <l>Absque populo &amp; amicis regnum captare</l>
+               <l n="550">Quod favore multitudinis &amp; opibus obtineri solet:</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l>Scis quid facias? Pro his, quae iam dixisti,</l>
+               <l>Vicissim audi, &amp; deinde recognita iudica.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Orator tu quidem vehemens es, sed ego auditor malus.</l>
+               <l>Nam te insensum gravemque deprehendi mihi.</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l n="555">Hoc ipsum primum audi, quod dicam.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Hoc ipsum ne mihi dicas, quòd non sis malus.</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l>Si quid boni putas pertinaciam esse</l>
+               <l>Absque mente, nimium quidem erras.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Si existimas te, cùm amicum iniuria afficias,</l>
+               <l n="560">Non daturum esse poenas, nimium etiam erras.</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l>Assentior tibi ista verè dici. Sed quaenam</l>
+               <l>Haec iniuria est, qua te affectum ais, dic mihi?</l>
+               <pb n="309"/>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Persuasisti, an non persuasisti, quòd oportet me</l>
+               <l>Ad praeclarum illum vatem mittere aliquem?</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l n="565">Et nunc quidem sentio idem.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Quàm diu est ex quo Laius?</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l>Quid fecit? nam non intelligo.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Interfectus periit?</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l>Longum &amp; antiquum tempus numerari posset.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l n="570">An tunc iste vates excercebat hanc artem?</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l>Eodem modo sapiens, &amp; pari honore fuit.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Mentionem ne tunc de me aliquam fecit?</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l>Non, quod quidem ego sciam, aut audiverim unquam.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>At nunquid tum autorem caedis inquirebatis?</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l n="575">Inquirebamus, quid ni? sed non audivimus.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Quare ergo tunc hic sapiens vates ista non dicebat?</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l>Non scio, de his verò quae nescio, tacere soleo.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Tantum utique sciebas, &amp; gratum facies, si dices.</l>
+               <pb n="310"/>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l>Quid hoc est? si enim sciam, non negabo.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l n="580">Quod nisi ille tecum congressus fuisset, nunquam me</l>
+               <l>Caedis Laij autorem esse dixisset.</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l>Utrum haec dicat, tu nosti, ego verò ex te</l>
+               <l>Quaerere cupio eadem, quae tu ex me quaeris.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Exquire, non enim unquam ego interfector deprehendar,</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l n="585">An non sororem meam habes uxorem?</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Non nego hoc quod interrogas.</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l>Regnumque aequaliter cum ea administras, &amp; aequaliter frueris terra?</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Quae, quatenus voluit omnia à me consecuta est.</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l>Non igitur ego ex aequo inter vos tertius ero.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l n="590">In hoc inquam male fidum apparet te esse amicum.</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l>Non, si me audies itidem, ut ego te.</l>
+               <l>Hoc enim primum expende, an tu quenquam existimas</l>
+               <l>Praeoptare regnum cum metu magis, quàm ut</l>
+               <l>Securè dormiat praeditus eadem potentia?</l>
+               <pb n="311"/>
+               <l n="595">Ego igitur non tali ingenio sum,</l>
+               <l>Regnare ut ipse malim, quam imperata facere.</l>
+               <l>Ita moderatissimus quisque affectus est.</l>
+               <l>Nunc enim à te omnia absque metu habeo:</l>
+               <l>Si verò ipse imperarem, multa vel invitus facere cogerer.</l>
+               <l n="600">Quomodo igitur regnum mihi dulcius esse potest,</l>
+               <l>Quàm imperium &amp; potentia absque molestia?</l>
+               <l>Non enim ita demens sum,</l>
+               <l>Ut non ea bona, quae lucro sint, magis amplectenda ducam.</l>
+               <l>Nunc omnibus delector, nunc me omnes amplectuntur,</l>
+               <pb n="312"/>
+               <l n="605">Nunc qui tuo patrocinio opus habent, me invocant,</l>
+               <l>Per me enim apud te assequuntur omnia.</l>
+               <l>Quomodo igitur his commodis amissis regnum appetam?</l>
+               <l>Mens mala nunquam rectè sapit.</l>
+               <l>Sed neque ego unquam hoc consilium amplexus sum:</l>
+               <l n="610">Neque cuiquam ea in re adiiutor esse velim.</l>
+               <l>Et firmum argumentum si quaeris, à Delphico oraculo</l>
+               <l>Rem exquire, utrum oraculum rectè renunciaverim.</l>
+               <l>Et si me cum vate deprehendes</l>
+               <l>Aliquid contulisse, non unius calculo convictum</l>
+               <l n="615">Occidas, sed meo tuoque simul.</l>
+               <l>Propter suspicionem verò incertam ne me privatim crimineris.</l>
+               <l>Non enim iustum est sive malos temere</l>
+               <pb n="313"/>
+               <l>Bonos iudicare, seu eos, qui boni sunt, malos.</l>
+               <l>Amicum enim bonum eiicere aequè grave crimen duco</l>
+               <l n="620">Ut propriam vitam prodere quae charissima est.</l>
+               <l>Sed tempus ista indicabit tutò.</l>
+               <l>Tempus enim virum bonum declarat solum,</l>
+               <l>Malum verò vel una die cognoveris.</l>
+            </sp>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <l>Rectè dixit, cavendum esse ne temerè ruas</l>
+               <l n="625">O Rex: nam subitò qui sapit, non tutò sapit.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Quando aliquis celeriter furtim insidias</l>
+               <l>Struit, tunc &amp; me celeriter consilium capere oportet.</l>
+               <l>Nam si quietus manebo, ille rem suam</l>
+               <l>Confecerit, ego verò excidero.</l>
+               <pb n="314"/>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l n="630">Quid igitur postulas, an me vis hac terra excedere?</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Minime, sed mori, non volo ut effugias.</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l>Quando ostendes, quae sit causa odii.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Non igitur cedes, neque concedes mihi?</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l>Non enim te rectè consulere video.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l n="635">Mihi utique rectè.</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l>Sed eodem modo &amp; me mihi consulere oportet.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Sed malus es.</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l>Quid si rem non intelligas?</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Attamen imperandum est.</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l n="640">Non, si malè imperes.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>O urbs, urbs.</l>
+               <pb n="315"/>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l>Etiam ad me urbs haec pertinet, non tantum ad te.</l>
+            </sp>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <l>Desinite reges: in tempore enim video</l>
+               <l>Ex aedibus Iocasten huc prodeuntem, cuius adventu</l>
+               <l n="645">Litem hanc dirimi aequum est.</l>
+            </sp>
+            <sp who="#iocaste">
+               <speaker>Ioca.</speaker>
+               <l>Quid hunc infoelices temere tumultum</l>
+               <l>Sermonibus excitastis, nec vos pudet, terra</l>
+               <l>Sic laborante, de privatis malis rixari?</l>
+               <l>Quin tu domum abis, tuque Creon ad tuas aedes te recipis:</l>
+               <l n="650">Et non ex levi dolore maius malum excitetis.</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l>Atrocia, ô soror, OEdipus maritus tuus</l>
+               <l>Adversus me molitur, ad alterum me horum condemnans,</l>
+               <l>Vel ut convictum me hac terra expellat, vel ut interficiat.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Confiteor, malè enim facere eum</l>
+               <l n="655">Deprehendi mihi, idque ex insidiis.</l>
+               <pb n="316"/>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l>Non bene sit mihi, sed devotus peream si quid</l>
+               <l>In te commisi eorum, de quibus me accusas.</l>
+            </sp>
+            <sp who="#iocaste">
+               <speaker>Ioca.</speaker>
+               <l>Crede huic per deum, marite,</l>
+               <l>Atque hoc iusiurandum deorum reverere,</l>
+               <l n="660">Meque adeo, &amp; hos praesentes cives,</l>
+               <stage>PERICOMMATA, strophe I.</stage>
+            </sp>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <l>Ausculta volens, remque expende,</l>
+               <l>O Rex, obsecro te.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Quid ergo postulas? an ut cedam?</l>
+            </sp>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <l>Eum qui antehac nunquam stultus habitus est,</l>
+               <l n="665">Et nunc sanctè iuravit,</l>
+               <l>Quaeso reverere.</l>
+               <stage>Systema I.</stage>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Scis igitur quid velis?</l>
+            </sp>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <l>Scio.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Dic quid est?</l>
+            </sp>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <l n="670">Amicum innocentem, ne ob causam</l>
+               <pb n="317"/>
+               <l>Dubiam cum ignominia eiicias.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Hoc scito, te cùm ista petis, mihi</l>
+               <l>Exitium moliri, aut fugam ex hac terra.</l>
+               <stage>Strophe 2.</stage>
+            </sp>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <l>Non per Deorum omnium</l>
+               <l n="675">Primum Solem hoc ago,</l>
+               <l>Aut destitutus ope Dei &amp; amicorum</l>
+               <l>Pessimo exitio peream,</l>
+               <l>Si hoc animo sum.</l>
+               <l>Sed mihi infelici</l>
+               <l n="680">Patriae calamitas excruciat animum,</l>
+               <l>Quodque malis prioribus</l>
+               <l>Haec à vobis accedent.</l>
+               <pb n="318"/>
+               <stage>Systema 2.</stage>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Ille igitur abeat, &amp; si me oportet omnino perire,</l>
+               <l n="685">Aut cum ignominia hac terra per vim expelli.</l>
+               <l>Tuum enim miserabile, non huius os revereor:</l>
+               <l>Nam hic ubicunque erit, odio à me habebitur.</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l>Durus es dum cedis, sed gravius esset, si irae</l>
+               <l n="690">Indulgeres. Nam talia ingenia</l>
+               <l>Sibi ipsis maximè molesta esse solent.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Quin igitur me dimittis, ac foras abis?</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l>Abibo.</l>
+               <l>Tibi quidem futurus alienus, inter hos verò aequali conditione.</l>
+               <stage>ANTISTROPHE I.</stage>
+            </sp>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <l n="695">Domina, quid hunc cunctaris</l>
+               <pb n="319"/>
+               <l>Ab his aedibus abducere?</l>
+            </sp>
+            <sp who="#iocaste">
+               <speaker>Ioc.</speaker>
+               <l>Praesertim cùm videam quae sit praesens dortuna.</l>
+            </sp>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <l>Incerta opinio sermonum</l>
+               <l>Orta est, mordetque animum</l>
+               <l n="700">Iniusta criminatio.</l>
+               <l>Antisystema I.</l>
+            </sp>
+            <sp who="#iocaste">
+               <speaker>Ioc.</speaker>
+               <l>Utriusque ab utroque?</l>
+            </sp>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <l>Utique.</l>
+            </sp>
+            <sp who="#iocaste">
+               <speaker>Ioc.</speaker>
+               <l>Et quid erat sermonis?</l>
+            </sp>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <l>Satis, mihi, satis, cùm terra ita afflicta sit,</l>
+               <l n="705">Videtur, ut hic desinam, ubi ipsi desierunt.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Vides quò progrediare, cùm vir bonus sis,</l>
+               <l>Me negligis, ac perturbas meum animum.</l>
+               <pb n="320"/>
+               <stage>Antistrophe 2.</stage>
+            </sp>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <l>Dixi antea, ô Rex,</l>
+               <l>Non semel, tum verò</l>
+               <l>Demens ac non intelligens</l>
+               <l n="710">Rerum utilium essem,</l>
+               <l>Si me à te seiungerem.</l>
+               <l>Nam tu charam patriam meam</l>
+               <l>AErumnis oppressam</l>
+               <l>Erexisti ac servasti,</l>
+               <l n="715">Et nunc boni Principis, si posses, officium praestares.</l>
+               <pb n="321"/>
+               <stage>Antisystema 2.</stage>
+            </sp>
+            <sp who="#iocaste">
+               <speaker>Ioc.</speaker>
+               <l>Per Deum dic mihi rex, quam ob causam</l>
+               <l>Tantam iram concepisti?</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l n="720">Dicam: nam te omnium maximè veneror,</l>
+               <l>De Creonte qualia contra me consilia ceperit.</l>
+            </sp>
+            <sp who="#iocaste">
+               <speaker>Ioc.</speaker>
+               <l>Dic, si modo iusta de causa ipsum in crimen vocas.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Interfectorem me Laij esse ait.</l>
+            </sp>
+            <sp who="#iocaste">
+               <speaker>Ioc.</speaker>
+               <l>Utrum ex se hoc dixit, an ex alio audivit?</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l n="725">Vatem illum maleficum subornavit,</l>
+               <l>Nam quantum potest, omnium ille ora laxat.</l>
+               <stage>IAMBI.</stage>
+            </sp>
+            <sp who="#iocaste">
+               <speaker>Ioc.</speaker>
+               <l>Omitte iam ea quae de te ais,</l>
+               <l>Meque audi, &amp; disce, quòd</l>
+               <l>Nemo mortalis divinandi artem rectè tenet,</l>
+               <l n="730">Cuius rei evidentia signa tibi ostendam.</l>
+               <l>Oraculum enim Laius olim accepit, de quo nihil dicam,</l>
+               <pb n="322"/>
+               <l>Nisi quod ab Apolline datum est, vel à ministris ipsius,</l>
+               <l>Quòd in fatis esset, ut ipse à filio interficeretur,</l>
+               <l>Qui ex me illoque natus esset,</l>
+               <l n="735">Et illum quidem, quem admodum fama ferebat, peregrini</l>
+               <l>Latrones interfecerunt, in eo loco ubi tres viae coeunt.</l>
+               <l>Filium verò cùm genuisset, nondum exacto</l>
+               <l>Triduo, fune per pedes traiecto</l>
+               <l>Dedit ministris exponendum in aviis montibus.</l>
+               <l n="740">Atque ibi Apollo neque id effecit,</l>
+               <l>Ut patrem ille interficere posset, aut Laius,</l>
+               <l>Quod graviter metuebat, ut filij manu caderet.</l>
+               <l>Et quidem haec definiebantur oraculis,</l>
+               <l>Quorum tu nihil cura. Nam quae Deus</l>
+               <l>Necessaria ducit, ea facilè ipse aperiet.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Quàm ô mulier ista audiens,</l>
+               <l n="745">Nunc animo fluctuo ac perturbor.</l>
+            </sp>
+            <sp who="#iocaste">
+               <speaker>Ioc.</speaker>
+               <l>Qua cura commotus ista dicis?</l>
+               <pb n="323"/>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Sic mihi visus sum ex te audire, quòd Laius</l>
+               <l n="750">In trivio interfectus sit.</l>
+            </sp>
+            <sp who="#iocaste">
+               <speaker>Ioc.</speaker>
+               <l>Ferebantur ista, neque adhuc ea fama desiit.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Et ubinam est locus ille, in quo ea calamitas accidit?</l>
+            </sp>
+            <sp who="#iocaste">
+               <speaker>Ioc.</speaker>
+               <l>In terra Phocensi est, &amp; via divisa</l>
+               <l>A Delphis atque Daulia eodem in loco coit.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l n="755">Quàm diu verò est, ex quo ista facta sunt?</l>
+            </sp>
+            <sp who="#iocaste">
+               <speaker>Ioc.</speaker>
+               <l>Paulò ante, quam in hac terra</l>
+               <l>Regnare coepisti, haec denunciata sunt urbi.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>O Iupiter, quid de me facere decrevisti?</l>
+            </sp>
+            <sp who="#iocaste">
+               <speaker>Ioc.</speaker>
+               <l>Quare haec cogitatio animo tuo subit?</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l n="760">Nondum quare, sed quae fuerit Laij statura</l>
+               <l>Dic mihi, &amp; quae illius aetas?</l>
+            </sp>
+            <sp who="#iocaste">
+               <speaker>Ioc.</speaker>
+               <l>Grandis erat, cui caput prima canicie pubescebat:</l>
+               <l>Forma autem tibi non admodum absimilis erat.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Hei mihi, meipsum, ut videtur, in horribiles</l>
+               <pb n="324"/>
+               <l n="765">Imprecationes iam conieci insciens.</l>
+            </sp>
+            <sp who="#iocaste">
+               <speaker>Ioca.</speaker>
+               <l>Quid ais? timeo enim, dum te intueor Rex.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Valde metuo, ne nimium viderit vates.</l>
+               <l>Ostendes verò rem magis, si unum adhuc dixeris.</l>
+            </sp>
+            <sp who="#iocaste">
+               <speaker>Ioca.</speaker>
+               <l>Atqui horreo quidem, quae verò quaeres, si sciam dicam.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l n="770">Utrum ibat cum parvo comitatu, an multos habebat</l>
+               <l>Satellites, ut Rex &amp; Magistratu praeditus?</l>
+            </sp>
+            <sp who="#iocaste">
+               <speaker>Ioca.</speaker>
+               <l>Omnes simul quinque fuerunt, inter eos autem erat</l>
+               <l>Et praeco, &amp; rheda Laium vehebat una.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Heu, heu, haec iam evidentia sunt, sed quis tandem</l>
+               <l n="775">Istos sermones renunciavit vobis?</l>
+            </sp>
+            <sp who="#iocaste">
+               <speaker>Ioca.</speaker>
+               <l>Famulus, qui solus evasit incolumis.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Utrum is iam praestò adest domi?</l>
+            </sp>
+            <sp who="#iocaste">
+               <speaker>Ioca.</speaker>
+               <l>Non: sed cùm illinc rediisset, postquam te regem</l>
+               <l>Factum videt, ac Laium interiisse,</l>
+               <l n="780">Apprehensa manu mea obsecravit,</l>
+               <l>Rus ut se ad pascendos greges ablegarem</l>
+               <pb n="325"/>
+               <l>Quàm rarissimè in urbe ut conspiceretur.</l>
+               <l>Et dimisi ego ipsum: nam dignus erat</l>
+               <l>Servus, qui maiore beneficio afficeretur.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l n="785">Fac quàm primum ad nos huc ut veniat.</l>
+            </sp>
+            <sp who="#iocaste">
+               <speaker>Ioca.</speaker>
+               <l>Licet, sed quamobrem hoc expetis?</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Timeo mea causa, ne nimis multa</l>
+               <l>Dicta mihi sint, quae nunc explorare volo.</l>
+            </sp>
+            <sp who="#iocaste">
+               <speaker>Ioca.</speaker>
+               <l>Sed veniet ille. At nunquid &amp; me oportet</l>
+               <l n="790">Scire ea, quae te animo excruciant?</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Non ignorabis, cùm eo spei</l>
+               <l>Pervenerim: cui enim potius</l>
+               <l>Ista narrrarem, quàm tibi, quando talis nobis fortuna contigit?</l>
+               <l>Pater mihi fuit Polybus Corinthius,</l>
+               <l n="795">Mater Merope Dorica: habebar verò</l>
+               <l>Vir primarius inter cives, donec hoc fortè</l>
+               <pb n="326"/>
+               <l>Mihi evenit, admiratione quidem dignum,</l>
+               <l>Attamen non dignum moribus meis.</l>
+               <l>Nam vir quidam in convivio valde ebrius</l>
+               <l n="800">Inter pocula me subdititium patris filium vocat.</l>
+               <l>Idque ego aegrè ferens, illo quidem die</l>
+               <l>Vix me continebam, postridie verò accedens*</l>
+               <l>Ad matrem ac patrem, rem inquiro: illi graviter hoc probrum ferentes</l>
+               <l>Succensebant illi, qui hunc sermonem sparserat.</l>
+               <l n="805">Atque ego &amp; si illis delectabar, attamen</l>
+               <l>Clam sermone isto angebar: altè enim in animum descenderat.</l>
+               <l>Proficiscor igitur clàm parentibus</l>
+               <l>Ad Pythicum oraculum, &amp; mihi Apollo de his quorum gratia veneram,</l>
+               <l>Respondet nihil, alia verò misera</l>
+               <l n="810">Et horrenda denunciat,</l>
+               <l>Nempe quod in fatis esset, ut cum matre concumberem,</l>
+               <l>Et sobolem infandam in lucem producerem,</l>
+               <l>Patremque occiderem, qui me genuisset.</l>
+               <pb n="327"/>
+               <l>Quae cùm audissem, terram Corinthiam</l>
+               <l n="815">Post id tempus iuxta astra metiri coepi.</l>
+               <l>Tandem fugi, ne mihi tristium</l>
+               <l>Oraculorum probra unquam evenirent.</l>
+               <l>Abiens verò in ea loca venio, in quibus</l>
+               <l>Tu regem periisse ais.</l>
+               <l n="820">Et tibi verum fatebor, cùm in itinere</l>
+               <l>Ad locum ubi tres viae coëunt, pervenissem,</l>
+               <l>Ibi mihi praeco, &amp; in rheda, quae à iumentis ducebatur,</l>
+               <l>Vir quidem talis, qualem tu describis,</l>
+               <l>Occurrunt, &amp; ex via me is qui praecedebat</l>
+               <l n="825">Atque ipse senex per vim pellunt,</l>
+               <l>Egoque illum qui me protrudebat aurigam</l>
+               <l>Ira concitus ferio: tunc me senex ut videt</l>
+               <l>Ad currum acccdentem propius, observans, medio</l>
+               <l>Capiti bis stimulum impegit meo,</l>
+               <pb n="328"/>
+               <l n="830">Neque parem poenam luit, sed breviter</l>
+               <l>Sceptro percussus ab hac manu, praeceps</l>
+               <l>Ex medio statim curru devolvitur,</l>
+               <l>Deinde comites omnes interficio. Si verò huic hospiti</l>
+               <l>Aliqua intercedit cum Laio cognatio,</l>
+               <l n="835">Quis hoc viro est miserior?</l>
+               <l>Quis aequè superis invisus homo vivit?</l>
+               <l>Quem neque peregrino fas est, nec civi cuiquam,</l>
+               <l>Domo recipere, vel sermone alloqui:</l>
+               <l>Sed ab aedibus pellor, atque has alius nemo,</l>
+               <l n="840">Verùm ego ipse diras mihi imprecatus sum,</l>
+               <l>Et thorum mortui manibus meis</l>
+               <l>Contamino, quibus ille concidit. quis est me sceleratior?</l>
+               <l>An non totus pollutus sum? iam si me fugere oportet,</l>
+               <l>Neque mihi exultanti meos videre fas erit,</l>
+               <pb n="329"/>
+               <l n="845">Neque in patriam redire, si modò non connubio me oportet</l>
+               <l>Matri iungi, &amp; occidere patrem</l>
+               <l>Polybum, qui me genuit, atque enutrivit.</l>
+               <l>An non, qui à crudeli fortuna haec nobis immitti</l>
+               <l>Iudicet, rectè sentiat?</l>
+               <l n="850">Ne utique, ne ô sancta Deorum pietas,*</l>
+               <l>Istum diem videam, sed ex hac vita</l>
+               <l>Discedam, priùs quàm tali videam</l>
+               <l>Calamitatis macula me pollutum.</l>
+            </sp>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <l n="855">Sunt haec quidem nobis molesta, donec verò</l>
+               <l>Ex illo rem inquisieris, ne desperes.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Et haec quidem spes mihi reliqua est,</l>
+               <l>Pastorem illum ut expectem solum.</l>
+            </sp>
+            <sp who="#iocaste">
+               <speaker>Ioca.</speaker>
+               <l>Ubi ille aderit quid tandem facere cogitas?</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Ego dicam; si enim dicet</l>
+               <pb n="330"/>
+               <l n="860">Eadem, quae tu: tunc ego liberatus ero hac calamitate.</l>
+            </sp>
+            <sp who="#iocaste">
+               <speaker>Ioca.</speaker>
+               <l>Quem igitur ex me praecipuum audisti sermonem?</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Ipsum retulisse aiebas, quòd à latronibus</l>
+               <l>Interfectus esset, quòd si eum adhuc</l>
+               <l>Numerum dicet, non ego occidi.</l>
+               <l n="865">Non enim vir unus idem est, quod multi.</l>
+               <l>Sin autem ab uno factum esse dicet, tunc manifestè,</l>
+               <l>Huius facinoris ego reus censebor.</l>
+            </sp>
+            <sp who="#iocaste">
+               <speaker>Ioca.</speaker>
+               <l>Atqui pro certo hunc sermonem habeto,</l>
+               <l>Neque ille potest mutare rursum.</l>
+               <l n="870">Nam tota civitas audivit, non ego sola.</l>
+               <l>Atque ut sanè aliquid deflectat à sermone priore,</l>
+               <l>Non tamen de caede Laij loquetur</l>
+               <l>Rectè ita quemadmodum Apollo</l>
+               <l>Retulit, à filio ipsum meo interfici oportere.</l>
+               <l n="875">Nam ille miser nequaquam</l>
+               <pb n="331"/>
+               <l>Interfecit, sed ipse prius interiit.</l>
+               <l>Quapropter ego divinationum causa neque huc</l>
+               <l>Me verterem neque illuc.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Rectè dicis, attamen mercenarium</l>
+               <l n="880">Mitte aliquem qui accersat: ne illud omiseris.</l>
+            </sp>
+            <sp who="#iocaste">
+               <speaker>Ioca.</speaker>
+               <l>Mittam, sed intrò in aedes eamus,</l>
+               <l>Nihil enim faciam, nisi quod tibi gratum esse intelligam.</l>
+            </sp>
+         </div>
+         <div type="scene" n="6" subtype="stasimon">
+            <stage>ANTISTROPHICA. strophe I.</stage>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <lg>
+                  <l>Utinam mihi fato contingat, ut retineam</l>
+                  <l>Venerandam sanctitatem sermonum,</l>
+                  <l n="885">Operumque omnium, quae leges</l>
+                  <l>Definierunt excelsae, quae coelitus</l>
+                  <l>Datae sunt, quarum</l>
+                  <l>Solus Deus pater est, neque eas</l>
+                  <pb n="332"/>
+                  <l>Mortalis hominum natura peperit.</l>
+                  <l n="890">Neque enim oblivione sopiuntur,</l>
+                  <l>Neque senescit.</l>
+               </lg>
+               <stage>Antistrophe I.</stage>
+               <lg>
+                  <l>Iniustitia peperit tyrannidem: iniustitia</l>
+                  <l>Ubi multa cumulavit temere,</l>
+                  <l>Importuna facta &amp; noxia,</l>
+                  <l n="895">Atque ad summum ubi evecta est, in praecipitem tandem</l>
+                  <l>Necessitate impellit,</l>
+                  <pb n="333"/>
+                  <l>Quando non incedit rectè pedibus.</l>
+                  <l>Ut verò hoc praeclarum urbis certamen,</l>
+                  <l n="900">Non dissolvat unquam, Deum precor.</l>
+                  <l>Deum enim semper praesidem habere volo.</l>
+               </lg>
+               <stage>Strophe 2.</stage>
+               <lg>
+                  <l>Qui vero contemptim facto dictove</l>
+                  <l>Sacra violat, nec ius reveretur,</l>
+                  <l>Nec Deorum sedes veneratur,</l>
+                  <l n="905">Is malo fato pereat,</l>
+                  <l>Si propter infoelices delicias</l>
+                  <pb n="334"/>
+                  <l>Iniusta captat lucra,</l>
+                  <l>Nec ab impiis factis abstinet,</l>
+                  <l n="910">Nec manus à non tangendis cohibet demens.</l>
+                  <l>Quis enim posthac hominum, si sic fiat,</l>
+                  <l>Ratione tela reprimet,</l>
+                  <l>Animaeque impetum coercebit,</l>
+                  <l>Si impia facta honorem obtinebunt?</l>
+                  <l n="915">Quid attinet me choros ducere?</l>
+               </lg>
+               <pb n="335"/>
+               <stage>Antistrophe 2.</stage>
+               <lg>
+                  <l>Non est ut ad sanctum posthac eam</l>
+                  <l>Terra umbilicum religionis causa,</l>
+                  <l>Neque ad delubrum quod est Abis,</l>
+                  <l n="920">Neque ad Olympiam, si non ista</l>
+                  <l>Palàm ostensa omnibus erunt hominibus.</l>
+                  <l>Sed tu qui imperas, siquidem ista audis,</l>
+                  <l>Iuppiter omnia regens, ne haec lateant</l>
+                  <l>Tuum immortale imperium.</l>
+                  <l n="925">Pro nihilo enim antiqua oracula Laio data</l>
+                  <pb n="336"/>
+                  <l>Iam ducunt, &amp; nequaquam</l>
+                  <l>Honor Apollini amplius tribuitur;</l>
+                  <l n="930">Intereunt verò divina.</l>
+               </lg>
+            </sp>
+         </div>
+         <div type="scene" n="7" subtype="epeisodion">
+            <stage>IAMBI.</stage>
+            <sp who="#iocaste">
+               <speaker>Ioca.</speaker>
+               <l>Principes terrae, decretum mihi est</l>
+               <l>Templa adire Deorum, acceptis his manu</l>
+               <l>Coronis &amp; thymiamatis,</l>
+               <l>Nimis enim animo perturbatur OEdipus</l>
+               <l n="935">Variis curis, neque ut virum decet</l>
+               <l>Cordatum, praesentia cum prioribus confert,</l>
+               <l>Sed pendet abote eius qui aliquem terrorem nunciat:</l>
+               <l>Quando igitur ego admonendo nihil proficio,</l>
+               <l>Ad te Apollo, tu enim proximus es,</l>
+               <pb n="337"/>
+               <l n="940">Cum hac precatione supplex confugio,</l>
+               <l>Ut nos liberes.</l>
+               <l>Omnes enim metuimus, cùm illum consternatum,</l>
+               <l>Ceu gubernatorem navis videmus.</l>
+            </sp>
+            <sp who="#nuncius">
+               <speaker>Nun.</speaker>
+               <l>Nunquid me hospites docere potestis, ubinam</l>
+               <l n="945">Regia domus OEdipi sit?</l>
+               <l>Praecipuè verò ubi ipse sit, si scitis, dicite.</l>
+            </sp>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <l>Haec tecta sunt, &amp; ipse, ô hospes, intus est.</l>
+               <l>Haec mulier mater illius est liberorum.</l>
+            </sp>
+            <sp who="#nuncius">
+               <speaker>Nun.</speaker>
+               <l>Precor illi ut foelix sit, &amp; apud foelices</l>
+               <l n="950">Semper degat, siquidem planè illius est coniunx.</l>
+            </sp>
+            <sp who="#iocaste">
+               <speaker>Ioca.</speaker>
+               <l>Eodem modo &amp; tu foelix sis, ô hospes. dignus enim es,</l>
+               <l>Ob hunc boni ominis sermonem. Sed dic, quamobrem</l>
+               <l>Huc veneris, &amp; quid feras.</l>
+               <pb n="338"/>
+            </sp>
+            <sp who="#nuncius">
+               <speaker>Nun.</speaker>
+               <l>Bona domui &amp; marito tuo.</l>
+            </sp>
+            <sp who="#iocaste">
+               <speaker>Ioca.</speaker>
+               <l n="955">Quaenam haec bona sunt, &amp; unde nobis advenis?</l>
+            </sp>
+            <sp who="#nuncius">
+               <speaker>Nun.</speaker>
+               <l>Ex Corintho, hoc verbum breviter eloquar,</l>
+               <l>Affero nuncium partim laetum, partim tristem.</l>
+            </sp>
+            <sp who="#iocaste">
+               <speaker>Ioca.</speaker>
+               <l>Quid verò est, quid hic sibi ambiguus sermo vult?</l>
+            </sp>
+            <sp who="#nuncius">
+               <speaker>Nun.</speaker>
+               <l>Regem ipsum populus terrae</l>
+               <l>Isthmia constituent, ut ferebatur illic.</l>
+            </sp>
+            <sp who="#iocaste">
+               <speaker>Ioca.</speaker>
+               <l>Quid? an non senex Polybus adhuc rerum potitur?</l>
+            </sp>
+            <sp who="#nuncius">
+               <speaker>Nun.</speaker>
+               <l>Non sane, nam mortuus ac sepultus est.</l>
+            </sp>
+            <sp who="#iocaste">
+               <speaker>Ioca.</speaker>
+               <l>Quid narras? an mortuus est Polybus?</l>
+            </sp>
+            <sp who="#nuncius">
+               <speaker>Nun.</speaker>
+               <l>Si non dico verum, non recuso mori.</l>
+            </sp>
+            <sp who="#iocaste">
+               <speaker>Ioca.</speaker>
+               <l n="965">Quid cessas famula Domino celeriter</l>
+               <l>Hoc dicere? ô divina oracula</l>
+               <l>Ubi nunc estis? Hunc virum iam olim metuens</l>
+               <l>Ne occideret OEdipus, in exilium abiit,</l>
+               <l>Qui nunc fato suo interiit, non ab hoc peremptus.</l>
+               <pb n="339"/>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l n="970">O charissimum Iocastae coniugis caput,</l>
+               <l>Quid me vocasti huc foras ex aedibus?</l>
+            </sp>
+            <sp who="#iocaste">
+               <speaker>Ioc.</speaker>
+               <l>Audi hunc virum, &amp; cùm audieris, cogita</l>
+               <l>Ubi maneant veneranda illa vaticinia.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Hic verò, quisnam est? aut quid affert mihi?</l>
+            </sp>
+            <sp who="#iocaste">
+               <speaker>Ioc.</speaker>
+               <l n="975">Ex Corintho patrem tuum Polybum nunciat</l>
+               <l>Non vivere amplius, sed mortuum esse.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Quid narras hospes? tu ipse rem mihi expone.</l>
+            </sp>
+            <sp who="#nuncius">
+               <speaker>Nun.</speaker>
+               <l>Si hoc primum certò me nunciare oportet,</l>
+               <l>Scito illum extinctum esse,</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l n="980">Utrum insidiis, an morbi commutatione?</l>
+            </sp>
+            <sp who="#nuncius">
+               <speaker>Nun.</speaker>
+               <l>Parva inclinatio sopit corpora senilia.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Morbo infoelix, ut videtur, consumptus est.</l>
+            </sp>
+            <sp who="#nuncius">
+               <speaker>Nun.</speaker>
+               <l>Et longo tempore, quod vivendo emensus est.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Heu, heu, quid adhuc spectamus</l>
+               <pb n="340"/>
+               <l n="985">Vaticinantes aras, &amp; in aëre</l>
+               <l>Clangentes aves, quibus autoribus ego</l>
+               <l>Occidere debui patrem meum, ille verò extinctus</l>
+               <l>Iam conditus est sub terra, egoque hîc sum,</l>
+               <l>Neque arma attigi, nisi fortè desiderio mei</l>
+               <l n="990">Contabuit: nam tunc quoque à me interfectus esset.</l>
+               <l>Secum igitur quae data sunt oracula auferens</l>
+               <l>Apud inferos iacet, neque ullo ex eis potitus est.</l>
+            </sp>
+            <sp who="#iocaste">
+               <speaker>Ioc.</speaker>
+               <l>An non ista tibi praedixi iam pridem?</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Dixisti, sed ego metu movebar,</l>
+            </sp>
+            <sp who="#iocaste">
+               <speaker>Ioc.</speaker>
+               <l n="995">Ne igitur nunc posthac quicquam eorum in animum inducas.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Et quomodo matris thalamum non me fugere oportet?</l>
+            </sp>
+            <sp who="#iocaste">
+               <speaker>Ioc.</speaker>
+               <l>Quid metuat homo, cui fortuna</l>
+               <l>Dominatur. Providentia nulla in re certa est.</l>
+               <l>Temerè vivere optimum est, ut quisque possit.</l>
+               <l n="1000">Tu verò matris nuptias non est ut vereare.</l>
+               <pb n="341"/>
+               <l>Multi enim homines vel per somnium</l>
+               <l>Cum matre concubuerunt. Sed haec si quis</l>
+               <l>Pro nihilo ducit, is facillimam vitam agit.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Recte haec à te dicta essent,</l>
+               <l n="1005">Si non viveret quae me genuit: sed quando</l>
+               <l>Illa adhuc vivit, omnino, &amp; si bene loqueris, tamen cavere necesse est.</l>
+            </sp>
+            <sp who="#iocaste">
+               <speaker>Ioc.</speaker>
+               <l>Atqui magnus oculus est, sepulchrum patris.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Magnus, intelligo, attamen dum vivit, metuendum est.</l>
+               <l>Nu. Cuius mulieris causa metuere te dicis?</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l n="1010">Meropes, ô senex, quae cum Polybo nupta fuit,</l>
+            </sp>
+            <sp who="#nuncius">
+               <speaker>Nun.</speaker>
+               <l>Quae causa vobis est, ut illam metuatis?</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Oraculum divinum horribile, ô hospes.</l>
+            </sp>
+            <sp who="#nuncius">
+               <speaker>Nun.</speaker>
+               <l>Utrum tale quod dici possit? an non fas est alium scire?*</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Imò maximè. Dixit enim me Apollo aliquando</l>
+               <l n="1015">Cum matre mea concubiturum esse, &amp; sanguinem</l>
+               <l>Paternum manibus meis hausturum.</l>
+               <pb n="342"/>
+               <l>Quamobrem iam olim à Corintho</l>
+               <l>Procul habitare coepi, &amp; si foeliciter. attamen</l>
+               <l>Parentum oculos intueri dulcissimum est.</l>
+            </sp>
+            <sp who="#nuncius">
+               <speaker>Nun.</speaker>
+               <l n="1020">At nunquid hoc metuens inde fuisti extorris?</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Hoc cavens ne patris occisor essem.</l>
+            </sp>
+            <sp who="#nuncius">
+               <speaker>Nun.</speaker>
+               <l>Quin igitur te hoc metu, Rex,</l>
+               <l>Quando bene tibi cupio, libero?</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Atqui gratiam quidem dignam reseram.</l>
+            </sp>
+            <sp who="#nuncius">
+               <speaker>Nun.</speaker>
+               <l n="1025">Et ob hanc quidem causam potissimum huc veni,</l>
+               <l>Ut meo adventu tibi aliquid benefacerem.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Sed nunquam tamen ad parentes meos eo.</l>
+            </sp>
+            <sp who="#nuncius">
+               <speaker>Nun.</speaker>
+               <l>O fili, manifestè apparet, te nescire quid agas.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Quomodo ô senex? per Deum doce me</l>
+            </sp>
+            <sp who="#nuncius">
+               <speaker>Nun.</speaker>
+               <l n="1030">Si ob hanc causam à domo refugis.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Metuo utique ne de me vera Apollo dixerit.</l>
+            </sp>
+            <sp who="#nuncius">
+               <speaker>Nun.</speaker>
+               <l>An metuis, ne quid piaculi à parentibus contrahas?</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Isthuc ipsum est, quod me semper sollicitum habet.</l>
+            </sp>
+            <sp who="#nuncius">
+               <speaker>Nun.</speaker>
+               <l>Atqui temere quidem metuis.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l n="1035">Quid temere, siquidem his parentibus natus sum?</l>
+               <pb n="343"/>
+            </sp>
+            <sp who="#nuncius">
+               <speaker>Nun.</speaker>
+               <l>Quia te Polybus nihil attingit genere.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Quid narras? an non Polybus me genuit?</l>
+            </sp>
+            <sp who="#nuncius">
+               <speaker>Nun.</speaker>
+               <l>Non magis te quàm me, sed aequè ut me ita &amp; te genuit.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>At quomodo is qui pater est, nullius pater esse potest?</l>
+            </sp>
+            <sp who="#nuncius">
+               <speaker>Nun.</speaker>
+               <l n="1040">Sed non te genuit ille, ut neque ego.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Quare igitur me filium nominabat?</l>
+            </sp>
+            <sp who="#nuncius">
+               <speaker>Nun.</speaker>
+               <l>Dono te olim à manibus meis accepit.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Et adeo dilexit quod ab aliena manu acceperat?</l>
+            </sp>
+            <sp who="#nuncius">
+               <speaker>Nun.</speaker>
+               <l>Inopia liberorum, hoc ut faceret, persuasit.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l n="1045">Tu autem utrum me emeras, an ex tuis liberis illi donasti?</l>
+            </sp>
+            <sp who="#nuncius">
+               <speaker>Nun.</speaker>
+               <l>Inveni te in sylvosis vallibus Cithaeronis.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Quam ob causam tu in ea loca venisti?</l>
+            </sp>
+            <sp who="#nuncius">
+               <speaker>Nun.</speaker>
+               <l>Montanis pascuis ibi praeeram.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Pastor itaque eras, &amp; pro servitio huc illuc errabas?</l>
+            </sp>
+            <sp who="#nuncius">
+               <speaker>Nun.</speaker>
+               <l n="1050">Tuus utique servator fui illo tempore.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Quid verò calamitatis mihi acciderat, cùm me servares?</l>
+               <pb n="344"/>
+            </sp>
+            <sp who="#nuncius">
+               <speaker>Nun.</speaker>
+               <l>Id articuli pedum tuorum indicare possunt.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Hei mihi, quid hoc vetus malum commemoras?</l>
+            </sp>
+            <sp who="#nuncius">
+               <speaker>Nun.</speaker>
+               <l>Solvebam te habentem perforatas pedum summitates.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l n="1055">Grave probrum fasciarum sustinui in cunis.</l>
+            </sp>
+            <sp who="#nuncius">
+               <speaker>Nun.</speaker>
+               <l>Ab hoc igitur casu nomen quod habes sortitus es.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Per Deum oro à patre an matre, dic mihi?</l>
+            </sp>
+            <sp who="#nuncius">
+               <speaker>Nun.</speaker>
+               <l>Non scio, sed qui te mihi dedit, is melius norit.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>An ab alio me accepisti, neque ipse invenisti?</l>
+            </sp>
+            <sp who="#nuncius">
+               <speaker>Nun.</speaker>
+               <l n="1060">Non, sed pastor alius te mihi praebuit.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Quisnam ille est? an memorare potes?</l>
+            </sp>
+            <sp who="#nuncius">
+               <speaker>Nun.</speaker>
+               <l>Quidam ex familia Laij dicebatur esse.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>An eius, qui olim huius terrae Rex fuit?</l>
+            </sp>
+            <sp who="#nuncius">
+               <speaker>Nun.</speaker>
+               <l>Maximè, eius viri hic fuit pastor.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Utrum ille adhuc vivit, ut ipsum videre possim?</l>
+            </sp>
+            <sp who="#nuncius">
+               <speaker>Nun.</speaker>
+               <l n="1065">Id vos populares huius terrae scire potestis.</l>
+               <pb n="345"/>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Si quis inter vos adstantes est,</l>
+               <l>Qui pastorem illum, quem hic memorat, novit,</l>
+               <l>Sive ruri, seu hîc in urbe aliquando conspexit,</l>
+               <l n="1070">Is indicet, nam nunc maximè id tempus postulat.</l>
+            </sp>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <l>Non puto de alio loqui, quàm de eo ipso, qui est ruri,</l>
+               <l>Quem &amp; prius requirebas,</l>
+               <l>Sed regina id omnium optimè dixerit.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Mulier, nosti ne illum quem iam</l>
+               <l n="1075">Venire iubebamus, utrum eum iste dicit?</l>
+            </sp>
+            <sp who="#iocaste">
+               <speaker>Ioc.</speaker>
+               <l>Quis verò sit, quem dixit? ne quid verearis,</l>
+               <l>Neque temere haec dicta memineris.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Non siet hoc modo, nam quando haec signa</l>
+               <l>Deprehendi, non desinam inquirere meum genus.</l>
+            </sp>
+            <sp who="#iocaste">
+               <speaker>Ioc.</speaker>
+               <l n="1080">Non per Deum, si quidem tua vita</l>
+               <l>Tibi curae est, inquiras, satis me esse afflictam.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Bonum animum habe, tu enim etsi ego à tertia inde usque</l>
+               <l>Matre tripliciter servus esse apparebo, nihilo deterior eris.</l>
+               <pb n="346"/>
+            </sp>
+            <sp who="#iocaste">
+               <speaker>Ioc.</speaker>
+               <l>Attamen obtempera quaeso mihi, ne facias.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l n="1085">Non faciam, quin ista exquiram certo.</l>
+            </sp>
+            <sp who="#iocaste">
+               <speaker>Ioc.</speaker>
+               <l>Atqui rectè sentiens, ea quae optima sunt tibi consulo.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Verùm haec optima iam olim mihi molesta fuerunt.</l>
+            </sp>
+            <sp who="#iocaste">
+               <speaker>Ioc.</speaker>
+               <l>Heu infoelix, utinam nunquam resciscas, qui sis.*</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Eat aliquis &amp; pastorem illum adducat mihi,</l>
+               <l n="1090">Hanc verò sinite superbire propter opulentiam generis sui.</l>
+            </sp>
+            <sp who="#iocaste">
+               <speaker>Ioc.</speaker>
+               <l>O te infoelicem, hoc enim solum habeo</l>
+               <l>Quod tibi dicam, &amp; nihil amplius.</l>
+            </sp>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <l>Quare tandem haec abiit, ingenti</l>
+               <l>Affecta dolore? metuo ne</l>
+               <l n="1095">Ex silentio hoc aliquid proferat mali.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Proferat, quae vult, meum tamen</l>
+               <l>Etsi humile est genus cognoscere volo.</l>
+               <l>Ipsam verò fortè, ut mulierem superbam,</l>
+               <l>Pudet ignobilitatis generis mei.</l>
+               <pb n="347"/>
+               <l n="1100">Ego autem me fortunae filium iudicans,</l>
+               <l>Quae mihi benefecit, nihil moror istam infamiam:</l>
+               <l>Hac enim matre natus sum, &amp; cognati</l>
+               <l>Menses me parvum ac magnum declararunt.</l>
+               <l>Quare cùm huc usque progressus sim, non discedam</l>
+               <l n="1105">Aliter, quàm cognito prius genere meo.</l>
+            </sp>
+         </div>
+         <div type="scene" n="8" subtype="stasimon">
+            <stage>ANTISTROPHICA.</stage>
+            <stage>Strophe 3.</stage>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <lg>
+                  <l>Si ego vates sum</l>
+                  <l>Animo non deerrans,</l>
+                  <l>Non per Iovem ignarus</l>
+                  <l>Eris, ô Cithaeron,</l>
+                  <l n="1110">Quin ante crastinam lucem</l>
+                  <l>OEdipi populum unde natus,</l>
+                  <l>Et alumnum,</l>
+                  <l>Et matrem indicaturus sis, ut Choro celebretur</l>
+                  <l>A nobis, &amp; in hoc gratum</l>
+                  <pb n="348"/>
+                  <l n="1115">Facturus es meo regi:</l>
+                  <l>O Phoebe auxiliator, ita tibi placet.</l>
+               </lg>
+               <stage>Antistrophe 2.</stage>
+               <lg>
+                  <l>Quis te fili, quis genuit</l>
+                  <l>Immortalium Deorum? An ne</l>
+                  <l>Cum Pane montano congressa</l>
+                  <l n="1120">Te aliqua Phoebi filia genuit?</l>
+                  <l>Huic enim montium rupes</l>
+                  <l>Omnes gratae sunt. An qui in monte Cyllene</l>
+                  <pb n="349"/>
+                  <l n="1125">Regnat Mercurius, sive Bacchus,</l>
+                  <l>Qui montium cacumina colit,</l>
+                  <l>Te suscepit ex aliqua Nympharum</l>
+                  <l>Degentium in Helicone, quibus cum frequenter ludit?</l>
+               </lg>
+            </sp>
+         </div>
+         <div type="scene" n="9" subtype="epeisodion">
+            <stage>IAMBI.</stage>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Si me oportet ante congressum</l>
+               <l n="1130">De senibus coniecturam facere, Pastorem illum videre videor,</l>
+               <l>Quem iampridem requirimus. nam longa senectus</l>
+               <l>Congruit, &amp; huic viro aequalis est:</l>
+               <l>Praesertim cùm, qui ducunt, ministros meos</l>
+               <l>Noverim. Tu melius me fortasse nosti,</l>
+               <l n="1135">Ut qui alicubi videris prius.</l>
+            </sp>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <l>Novi, nam Laij hic fuit</l>
+               <l>Ut quisquam alius fidelis pastor.</l>
+               <pb n="350"/>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Te primum rogo, Corinthie hospes,</l>
+               <l n="1140">An hunc dicis?</l>
+            </sp>
+            <sp who="#nuncius">
+               <speaker>Nun.</speaker>
+               <l>Hunc quidem quem intueris.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Heus tu senex, huc aspice, ac dic mihi</l>
+               <l>Ea quae te rogo Laij aliquando fuisti tu?</l>
+            </sp>
+            <sp who="#minister">
+               <speaker>Ser.</speaker>
+               <l>Eram servus non emptus sed domi educatus.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l n="1145">Quid exercebas? aut qualis tibi vita fuit?</l>
+            </sp>
+            <sp who="#minister">
+               <speaker>Ser.</speaker>
+               <l>Greges pavi, per praecipuum vitae meae tempus.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>In quibus locis praecipuè commorabare?</l>
+            </sp>
+            <sp who="#minister">
+               <speaker>Ser.</speaker>
+               <l>In Cithaerone &amp; vicinis locis.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Hunccine igitur virum novisti, aut vidisti alicubi?</l>
+            </sp>
+            <sp who="#minister">
+               <speaker>Ser.</speaker>
+               <l n="1150">Quid ille fecit? quem virum dicis?</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Hunc inquam qui praesto adest: an cum eo alicubi congressus es?</l>
+            </sp>
+            <sp who="#minister">
+               <speaker>Ser.</speaker>
+               <l>Non subito in memoriam revocare queo.</l>
+            </sp>
+            <sp who="#nuncius">
+               <speaker>Nun.</speaker>
+               <l>Nihil mirum est Domine, at ego facilè</l>
+               <l>Eorum quae exciderunt, ipsum admonebo: nam satis scio</l>
+               <l n="1155">Ipsum meminisse, quando in Cithaeronis locis,</l>
+               <l>Ut ille duobus gregibus praeerat, ego verò uni.</l>
+               <pb n="351"/>
+               <l>Conversatus sum cum hoc viro, per tres totos</l>
+               <l>Menses, à tempore veris, usque sub ortum Arcturi,</l>
+               <l>Cumque iam hyems immineret, ego in mea stabula</l>
+               <l n="1160">Pecora agebam, ipse verò in Laij septa.</l>
+               <l>Sunt ne haec ita ut dico facta, an non?</l>
+            </sp>
+            <sp who="#minister">
+               <speaker>Ser.</speaker>
+               <l>Vera dicis, &amp; si à longo tempore.</l>
+            </sp>
+            <sp who="#nuncius">
+               <speaker>Nun.</speaker>
+               <l>Age dic mihi, meministi etiam te mihi puerum quendam</l>
+               <l>Dedisse, quem ego ut meum alumnum educarem?</l>
+            </sp>
+            <sp who="#minister">
+               <speaker>Ser.</speaker>
+               <l n="1165">Quid est, quamobrem tu istam rem inquiris?</l>
+            </sp>
+            <sp who="#nuncius">
+               <speaker>Nun.</speaker>
+               <l>Hic ille est, ô amice, qui tunc infans erat.</l>
+            </sp>
+            <sp who="#minister">
+               <speaker>Ser.</speaker>
+               <l>Non in malam rem hinc ibis? non tacebis?</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Ah ne castiga, senex, hunc; nam ea quae tu dicis</l>
+               <l>Magis castigatione digna sunt, quàm quae ille iam dixit.</l>
+            </sp>
+            <sp who="#minister">
+               <speaker>Ser.</speaker>
+               <l n="1170">Quid ego optime Domine deliqui?</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Quia non respondes de puero, quem iste requirit.</l>
+            </sp>
+            <sp who="#minister">
+               <speaker>Ser.</speaker>
+               <l>Nescit enim quid dicat, &amp; temere ista movet.</l>
+               <pb n="352"/>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Tu cum bona gratia non dices, malo verò accepto dices.</l>
+            </sp>
+            <sp who="#minister">
+               <speaker>Ser.</speaker>
+               <l>Ne per Deum senem verberes.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l n="1175">Non aliquis quàm primum huius manus ligabit?</l>
+            </sp>
+            <sp who="#minister">
+               <speaker>Ser.</speaker>
+               <l>Infoelix ego: quamobrem? quid tandem est quod quaeris?</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Puerum ne huic dedisti, de quo iste quaerit?</l>
+            </sp>
+            <sp who="#minister">
+               <speaker>Ser.</speaker>
+               <l>Dedi: utinam illo die periissem.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>At hoc ipsum eveniet tibi, nisi quod aequum est dixeris.</l>
+            </sp>
+            <sp who="#minister">
+               <speaker>Ser.</speaker>
+               <l n="1180">Multo magis, si dico, pereo.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Hic homo, ut videtur, tantum moras nectit.</l>
+            </sp>
+            <sp who="#minister">
+               <speaker>Ser.</speaker>
+               <l>Non utique, nam dixi me dedisse olim.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Unde nactus, de tuis ne, an ab alio accepisti?</l>
+            </sp>
+            <sp who="#minister">
+               <speaker>Ser.</speaker>
+               <l>Non meus erat, sed ab alio accepi.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>A quo igitur ex civibus, &amp; ex qua domo?</l>
+            </sp>
+            <sp who="#minister">
+               <speaker>Ser.</speaker>
+               <l n="1185">O Domine, obsecro per Deum, ne quaere amplius.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Periisti, si haec à te iterum quaeram.</l>
+            </sp>
+            <sp who="#minister">
+               <speaker>Ser.</speaker>
+               <l>Erat quidam ex genere Laij.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Servus ne, an illius proles?</l>
+            </sp>
+            <sp who="#minister">
+               <speaker>Ser.</speaker>
+               <l n="1190">Hei mihi in eodem periculo versor, si dico.</l>
+               <pb n="353"/>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Et ego quidem, qui audio: attamen audiendum est.</l>
+            </sp>
+            <sp who="#minister">
+               <speaker>Ser.</speaker>
+               <l>Illius filius dicebatur esse: quae verò intus est</l>
+               <l>Domina hoc facillimè dixerit, ut se habeat.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>An ipsa tibi dedit?</l>
+            </sp>
+            <sp who="#minister">
+               <speaker>Ser.</speaker>
+               <l>O Rex dedit.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l n="1195">Quam ob causam?</l>
+            </sp>
+            <sp who="#minister">
+               <speaker>Ser.</speaker>
+               <l>Ut interficerem.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Eane, quae pepererat infoelix?</l>
+            </sp>
+            <sp who="#minister">
+               <speaker>Ser.</speaker>
+               <l>Metu mali oraculi.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l n="1200">Quale illud erat?</l>
+            </sp>
+            <sp who="#minister">
+               <speaker>Ser.</speaker>
+               <l>Dicebatur interfecturus esse parentes.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Quare igitur praebuisti huic seni?</l>
+            </sp>
+            <sp who="#minister">
+               <speaker>Ser.</speaker>
+               <l>Misericordia motus ô Domine, cùm sperarem fore, ut</l>
+               <l>In aliam terram deportaretur, unde ipse natus erat,</l>
+               <l n="1205">Ipse verò ad maxima mala servavit. Nam si tu is es,</l>
+               <l>Quem iste dicit, certè infoelici fato natus es.</l>
+               <pb n="354"/>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Hei, hei, iam tota res manifesta est.</l>
+               <l>O lux te iam extremum aspicio,</l>
+               <l>Qui natus sum ex quibus me non oportet, &amp; cum quibus</l>
+               <l n="1210">Non oportuit habito, &amp; quos non oportuit interfeci.</l>
+            </sp>
+         </div>
+         <div type="scene" n="10" subtype="stasimon">
+            <stage>MONOSTROPHICA.</stage>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <l>O genus hominum,</l>
+               <l>Ut te pro eo quod nihil est,</l>
+               <l>Dum vivis, duco.</l>
+               <l>Cui enim hominum unquam maior</l>
+               <l n="1215">Foelicitas obtigit,</l>
+               <l>Quàm quantam opinione obtinuit,</l>
+               <l>Et ea ipsa statim mutata est.</l>
+               <l>Tuo exemplo admonitus,</l>
+               <l>Tua fortuna, tua inquam ô infelix</l>
+               <l>OEdipe, mortalium neminem beatum iudico.</l>
+               <pb n="355"/>
+               <l n="1220">Nam tu nimium successu evectus,</l>
+               <l>Usus es magna foelicitate,</l>
+               <l>O Iuppiter, cùm occideres armatam unguibus</l>
+               <l>Puellam carmina edentem,</l>
+               <l>Et à caedibus terram nostram liberares,</l>
+               <l>Unde &amp; regium nomen sortitus es,</l>
+               <l>Ac honore summo potitus</l>
+               <l>In praeclara urbe regnasti.</l>
+               <l>Quantum verò nunc audimus, quis miserior?</l>
+               <l>Quis aequè in aerumnis &amp; horribili noxa</l>
+               <l n="1230">Demersus vicissitudine vitae?</l>
+               <l>O inclytum OEdipi caput,</l>
+               <l>Qui iisdem cum patre nuptiis</l>
+               <l>Potitus concidisti,</l>
+               <pb n="356"/>
+               <l>Quomodo te idem thorus, quomodo</l>
+               <l n="1235">Infoelix ferre potuit</l>
+               <l>Tacitè tam diu?</l>
+               <l>Deprehendit te invitum, quod omnia intuetus tempus,</l>
+               <l>Idque nefarias nuptias damnat,</l>
+               <l>Cùm sis eiusdem maritus &amp; filius.</l>
+               <l n="1240">O Laij proles,</l>
+               <l>Utinam te non aspicerem,</l>
+               <l>Te enim vehementer deploro</l>
+               <l>Lugubri voce.</l>
+               <l>Utque verum fatear, propter te, caput erexi,</l>
+               <l n="1245">Et propter eundem rursum inclinavi.</l>
+            </sp>
+         </div>
+         <div type="scene" n="11" subtype="exodos">
+            <pb n="357"/>
+            <sp who="#alius-nuncius">
+               <speaker>Nun.</speaker>
+               <l>O qui praecipuum in hac terra honorem obtinetis,</l>
+               <l>Quae facta audietis, quaeque videbitis? Et quanto</l>
+               <l>Dolore afficiemini, &amp; modo seriò adhuc</l>
+               <l n="1250">Labdacidarum familia vobis curae est.</l>
+               <l>Existimo enim neque Istrum nec Phasin</l>
+               <l>Abluere atque expiare posse facinora, quae in hac domo</l>
+               <l>Latent, quaeque mox in lucem proferentur,</l>
+               <l>Sponte, &amp; non sponte perpetrata: malorum verò</l>
+               <l n="1255">Ea quae sponte contrahuntur, maximè dolent.</l>
+            </sp>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <l>Nihil deest his, quae prius scimus, quin sint</l>
+               <l>Atrocissima. ad haec igitur quid tu commemoras?</l>
+            </sp>
+            <sp who="#alius-nuncius">
+               <speaker>Nun.</speaker>
+               <l>Ut paucissimis &amp; ego dicam, &amp; vos</l>
+               <l>Intelligatis, interiit divinum Iocastae caput.</l>
+            </sp>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <l n="1260">O multipliciter miseram. quo nam autore?</l>
+            </sp>
+            <sp who="#alius-nuncius">
+               <speaker>Nun.</speaker>
+               <l>Ipsa sibi conscivit letum, quodque in hac re</l>
+               <pb n="358"/>
+               <l>Tristissimum est, id abest: non enim res oculis cernitur.</l>
+               <l>Attamen quantum ego memoria teneo,</l>
+               <l>Audies illius miserae miserias.</l>
+               <l n="1265">Cùm enim ardens ira ingressa esset</l>
+               <l>Intra domum, statim ad connubialem</l>
+               <l>Thorum accessit, capillos utraque manu lanians,</l>
+               <l>Cúmque clausisset fores,</l>
+               <l>Vocat Laium iam olim mortuum,</l>
+               <l n="1270">Veteris coniugij memoriam repetens, quae illi causa</l>
+               <l>Mortis fuerit, se verò parentem relictam</l>
+               <l>Filio suo ad infoelicem liberorum procreationem.</l>
+               <l>Deplorabat itaque Thalamum, ubi ipsa infoelix, utrumque</l>
+               <l>Et ex marito maritos, &amp; ex liberis liberos peperisset.</l>
+               <l n="1275">Ut verò deinde mortua sit non scio.</l>
+               <l>Nam cum clamore OEdipus erupit, prae quo</l>
+               <pb n="359"/>
+               <l>Non licebat illius inspectare casum:</l>
+               <l>Sed in eum discurrentem oculi nostri defixi erant.</l>
+               <l>Obambulabat enim à nobis arma postulans,</l>
+               <l n="1280">Ac quaerens ubi infoelicem coniugem, matremque</l>
+               <l>Et suam &amp; liberorum suorum inveniret.</l>
+               <l>Dum ita furit, nescio quis Deorum indicat ei:</l>
+               <l>Nam nostrûm nemo, qui aderamus, id faciebat.</l>
+               <l>Horribiliter verò exclamans, quali ab aliquo ducente,</l>
+               <l n="1285">Irruit per geminas fores. imò ex fundo</l>
+               <l>Evulsis claustris, ac coniicit se intra Thalamum,</l>
+               <l>Ibi reginam ipsam pendentem vidimus,</l>
+               <l>Tortili suspendio implicitam, &amp; ipse</l>
+               <l>Ut eam intuitus est horribiliter infremuit miser,</l>
+               <l n="1290">Laxatque pendentem restim, &amp; humi</l>
+               <l>Se prosternit infoelix, ibi erat miserabile spectaculum.</l>
+               <l>Nam cùm avulsisset à vestibus aureas</l>
+               <pb n="360"/>
+               <l>Fibulas, quibus illa ornata erat,</l>
+               <l>Coepit iis arreptis oculorum orbes fodere,</l>
+               <l n="1295">Sic dicens, se non amplius intueri illam posse,</l>
+               <l>Neque mala sua, nec scelera quae perpetrasset,</l>
+               <l>Sed lumine orbatum posthac, neque quos fas non esset</l>
+               <l>Visurum esse, nec quibus indigeret, agniturum.</l>
+               <l>Talia iterum iterumque vociferando,</l>
+               <l n="1300">Elevabat palpebras, &amp; oculos laniabat: à cruore verò</l>
+               <l>Pupularum facies madefiebat: neque enim tantum stillabant</l>
+               <l>Sanguinis humentes guttae, sed simul ater</l>
+               <l>Cruor in modum imbris aut grandinis manabat.</l>
+               <l>Haecque non ab utroque tantum orta sunt mala,</l>
+               <l n="1305">Sed inter se calamitates viri ac mulieris simul commistae sunt.</l>
+               <l>Quaeque fuit prius foelicitas, ut fuit</l>
+               <l>Felicitas iustè, ea hoc die facta est</l>
+               <l>Gemitus, noxa, mors, probrum: &amp; malorum .</l>
+               <l>Quidquid nominari potest, non abest.</l>
+               <pb n="361"/>
+            </sp>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <l n="1310">In quo verò malo nunc miser versatur?</l>
+            </sp>
+            <sp who="#alius-nuncius">
+               <speaker>Nun.</speaker>
+               <l>Clamat, ut fores laxentur, &amp; ut aliquis</l>
+               <l>Omnibus Thebanis ostendat patris occisorem,</l>
+               <l>Et matris, addens impias &amp; infandas voces:</l>
+               <l>Et se exiturum hac terra ait, neque amplius</l>
+               <l n="1315">In aedibus mansurum ita devotum, ut se ipse devoverit.</l>
+               <l>Auxilio utique &amp; ductore aliquo</l>
+               <l>Indiget: nam hic morbus maior est, quàm ut ferri possit.</l>
+               <l>Ostendet verò ipse tibi, nam fores</l>
+               <l>Aperiuntur, &amp; spectaculum statim videbis</l>
+               <l>Tale, quod vel hostem ad misericordiam commovere queat.</l>
+               <stage>ANAPAESTI.</stage>
+            </sp>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <l>O tristem aspectu calamitatem.</l>
+               <l n="1320">O tristissimum spectaculum ex omnibus, quae ego</l>
+               <l>Unquam vidi. Quis te ô miser</l>
+               <l>Corripuit furor? quae in te irruit</l>
+               <pb n="362"/>
+               <l>Adversa fortuna, quae maiora maximis mala</l>
+               <l n="1325">Ad tuam infoelicitatem accumulavit?</l>
+               <l>Heu heu te infoelicem! Sed neque aspicere</l>
+               <l>Te possum, cùm multa quaerere cupiam,</l>
+               <l>Multa audire, multa item dicere,</l>
+               <l>Ita me perturbat tua calamitas.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l n="1330">Heu, heu,</l>
+               <l>Vae mihi misero, ubi nam</l>
+               <l>Sum infoelix? quò mihi vox</l>
+               <l>Dispergitur, impetu sublata?</l>
+               <l>O fortuna quo nam abiisti?</l>
+            </sp>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <l n="1335">Abiit in eventum tristem, nec auditu, nec visu facilem.</l>
+               <stage>PERICOMMATA. Strophe I.</stage>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>O tenebrae &amp; caligo abominabilis,</l>
+               <l>Opprimens, infanda,</l>
+               <l>Invicta, &amp; infinita, Hei mihi,</l>
+               <pb n="363"/>
+               <l n="1340">Hei mihi iterum, quàm saevus me subiit simul</l>
+               <l>Stimulus furoris, &amp; memoria malorum.</l>
+               <stage>Systema I.</stage>
+            </sp>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <lg>
+                  <l>Et quidem nihil mirum est in tantis aerumnis</l>
+                  <l>Dupliciter te lugere, &amp; duplicibus malis angi.</l>
+               </lg>
+               <stage>Antistrophe I.</stage>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <lg>
+                  <l>O amice, tu quidem meus</l>
+                  <l n="1345">Curator adhuc esse perseveras:</l>
+                  <l>Adhuc ades mihi,</l>
+                  <l>Et caecum curas, Heu, heu,</l>
+                  <l>Non enim me fallis, sed bene novi</l>
+                  <l>Tuam vocem, &amp; si lumine privatus.</l>
+               </lg>
+               <stage>Antisystema I.</stage>
+            </sp>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <lg>
+                  <l n="1350">Heu, quàm crudeliter saeviisti: quomodo potuisti sic</l>
+                  <l>Affligere oculos? quis te incitavit Deorum?</l>
+               </lg>
+               <stage>Strophe 2.</stage>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <lg>
+                  <l>Apollo ista, ô amici, Apollo</l>
+                  <pb n="364"/>
+                  <l>Mala confecit,</l>
+                  <l n="1355">Et hasce meas miserias,</l>
+                  <l>Sed oculos manu sua percussit</l>
+                  <l>Nemo, praeterquam ego ipse.</l>
+                  <l>Quid enim attinebat me videre,</l>
+                  <l>Cui nihil non tristissimum quod viderem erat?</l>
+               </lg>
+               <stage>Systema 2.</stage>
+            </sp>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <l n="1360">Est ita ut dicis.</l>
+               <stage>Strophe 3.</stage>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <lg>
+                  <l>Quid mihi quod videre, amare, aut alloqui,</l>
+                  <l>Aut cum voluptate audiri possim restat amici?</l>
+                  <l>Eiicite extorrem quàm primum me</l>
+                  <l>O amici, consceleratum valde,</l>
+                  <l n="1365">Et maximè execrabilem, atque etiam</l>
+                  <l>Diis &amp; omnibus hominibus invisissimum.</l>
+               </lg>
+               <stage>Systema 3.</stage>
+            </sp>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <lg>
+                  <l>Infoelix ob istum animum &amp; calamitatem pariter,</l>
+                  <pb n="365"/>
+                  <l>Utinam te nunquam cognovissem.</l>
+               </lg>
+               <stage>Antistrophe 3.</stage>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <lg>
+                  <l>Pereat quicunque is fuit, qui à pedibus meis</l>
+                  <l>Saeva vincula in sylvestribus pascuis</l>
+                  <l n="1370">Solvit, &amp; à morte me</l>
+                  <l>Liberavit, ac servavit: nihil ille mihi gratum</l>
+                  <l>Fecit: tunc enim cum minore poteram</l>
+                  <l>Et amicorum, &amp; meo dolore mori.</l>
+               </lg>
+               <stage>Antisystema 2.</stage>
+            </sp>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <l>Idem &amp; ego optarim.</l>
+               <stage>Antistrophe I.</stage>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <lg>
+                  <l n="1375">Tunc neque patrem interfecissem,</l>
+                  <l>Nec matrem duxissem uxorem.</l>
+                  <l>Nunc verò &amp; ipse miser sum, et contaminatorum filius,</l>
+                  <l>Et ex qua natus sum, ex eadem filios suscepi.</l>
+                  <pb n="366"/>
+                  <l>Denique si quod unquam atrox malum fuit,</l>
+                  <l n="1380">Id sortitus est OEdipus,</l>
+               </lg>
+               <stage>Antisystema 3.</stage>
+            </sp>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <lg>
+                  <l>Non video quomodo te dicam bene consuluisse,</l>
+                  <l>Cui melius erat non vivere, quàm caecum vivere.</l>
+               </lg>
+               <stage>IAMBI.</stage>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Quòd haec si non optimè facta sint,</l>
+               <l>Ne me doceas, neque consulas amplius:</l>
+               <l n="1385">Quibus enim oculis ego unquam aspicerem</l>
+               <l>Patrem meum apud inferos?</l>
+               <l>Aut miseram matrem? quorum duorum morte</l>
+               <l>Atrociora à me facta sunt facinora.</l>
+               <l>Sed liberorum aspectus dulcis erat,</l>
+               <l n="1390">Accrescentium, ut &amp; aspiciendi voluptas accresceret mihi</l>
+               <l>Non utique oculis meis aspicere possem</l>
+               <l>Hanc urbem, vel turres, vel Deorum</l>
+               <l>Simulacra, quibus infoelicissimus ego</l>
+               <pb n="367"/>
+               <l>Vir in hac urbe honestissimè enutritus</l>
+               <l n="1395">Meipsum privavi facto decreto,</l>
+               <l>Ut omnes pellerent impium illum, &amp; à Diis ipsis,*</l>
+               <l>Pollutum iudicatum, &amp; à genere Laij.</l>
+               <l>Hoc ego dedecus meum cùm ostenderim,</l>
+               <l>Rectis ne oculis hosce intueri poteram?</l>
+               <l n="1400">Minimè. Sed si aliquod etiam auditus</l>
+               <l>Et aurium septum esset, non possem facere</l>
+               <l>Quin &amp; ab ea parte obstruerem infoelix corpus,</l>
+               <l>Ut essem pariter oculis &amp; auribus captus.</l>
+               <l>Nam sensu carere in malis solatium est.</l>
+               <l n="1405">O Cithaeron, quare me accepisti, &amp; quare acceptum</l>
+               <l>Non statim interfecisti? ut nunquam palam fieret</l>
+               <l>Hominibus, unde natus essem.</l>
+               <l>O Polybe &amp; Corinthe, &amp; patria</l>
+               <pb n="368"/>
+               <l>Falso credita domus, Quale me</l>
+               <l n="1410">Sub pulchra specie purulentum malum enutriistis?</l>
+               <l>Nunc enim &amp; ipse malus, &amp; ex malis ortus deprehendor.</l>
+               <l>O via in trivium divisa, &amp; umbrosae sylvae,</l>
+               <l>Arbustumque, &amp; angustus in trivio locus,</l>
+               <l>Quae sanguinem, &amp; à manibus meis</l>
+               <l n="1415">Paternum bibistis, An adhuc meministis, qualia</l>
+               <l>Facinora ibi fecerim, &amp; inde huc veniens</l>
+               <l>Quae perpetrarim? O nuptiae nuptiae</l>
+               <l>Genuistis nos, &amp; postquam genuistis, rursum</l>
+               <l>Remittitis idem semen, atque exhibuistis</l>
+               <l n="1420">Patres, fratres, liberos, sanguinem cognatum,</l>
+               <l>Sponsas, uxores, matresque, &amp; quae</l>
+               <l>Turpissima inter homines censentur.</l>
+               <l>Sed neque pulchrum est dicere, ea quae factu turpia sunt.</l>
+               <l>Quàm primum, per Deum, me alicubi</l>
+               <l n="1425">Vel occultate, vel occidite, vel in mare</l>
+               <pb n="369"/>
+               <l>Abiicite, ubi non amplius aspiciatis.</l>
+               <l>Ite, iniicite manus in virum infoelicem.</l>
+               <l>Obtemperate, ne revereamini: nam mea mala</l>
+               <l>Praeter me nemo alius ferre potest.</l>
+            </sp>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <l n="1430">Sed Creon adest in tempore, qui de his quae petis</l>
+               <l>Commodè &amp; statuere potest, &amp; rem exequi.</l>
+               <l>Nam ille pro te solus iam huius terrae custos relictus est.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Hei mihi, quid iam dicemus adhuc?</l>
+               <l>Quae mihi apud illum iusta fides esse potest?</l>
+               <l n="1435">Quando iam antè erga eum omnino iniustus inventus sum.</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l>Non huc veni, te ut derideam,</l>
+               <l>Aut insultem tuis malis.</l>
+               <l>Sed si genus humanum non curatis, saltem</l>
+               <l>Omnia depascentem flammam</l>
+               <l>Solis reveremini, qui tale piaculum</l>
+               <l n="1440">Detexit, atque ostendit, quod neque terra</l>
+               <l>Nec imber coelestis, neque haec ipsa feret.</l>
+               <pb n="370"/>
+               <l>Sed quàm primum intra domum hunc auferte</l>
+               <l>Nam cognatos sanguine, maximè cognatorum mala</l>
+               <l n="1445">Solos videre ac cognoscere decet.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Per Deum, quando meam de te opinionem fellisti,</l>
+               <l>Et vir optimus venisti ad me sceleratissimum hominem,</l>
+               <l>Obtempera mihi, nam quod ad te attinet, non ad me, dicam.</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l>Quid est quod à me ita enixè petis?</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l n="1450">Eiice me ex hac terra quàm primum, ut sim ubi</l>
+               <l>Neminem hominum alloqui possim.</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l>Fecissem hoc utique, quod scias, nisi prius</l>
+               <l>A Deo quaerere libuisset quid sit faciendum.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Sed illius omnino iam patefactum est oraculum,</l>
+               <l n="1450">Ut parricida &amp; impius ego perdar.</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l>Ita haec dicta sunt: attamen ut praesens est</l>
+               <l>Rerum status, melius est quaerere, quid sit faciendum.</l>
+               <pb n="371"/>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Ita ne de infoelici homine Deum consulere decretum est?</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l n="1460">Tua enim fortuna facit ut Deo credatur.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Tibi verò mando, teque adhortor,</l>
+               <l>Ut eam, quae domi iacet, sepeliri cures.</l>
+               <l>Decet enim te tuis hoc officium praestare.</l>
+               <l>Me verò non est ut postulet haec urbs</l>
+               <l>Patria, viventem habere civem,</l>
+               <l n="1465">Sed sine me habitare in montibus, quo loco dicitur</l>
+               <l>Meus Cithaeron, quem mater mihi</l>
+               <l>Et pater constituerunt viventes proprium sepulchrum.</l>
+               <l>Ut sicut illi morti me destinaverunt, moriar.</l>
+               <l>Nam hoc satis certò scio, me neque morbo,</l>
+               <l n="1470">Nec alio modo interire potuisse: non enim unquam</l>
+               <l>A morte liberatus essem, si non ad aliquod magnum malum essem reservatus.</l>
+               <l>Sed nostra quidem fortuna eò quò vadit eat.</l>
+               <l>Liberorum verò meorum, qui mares sunt, eorum ne mihi Creon</l>
+               <pb n="372"/>
+               <l>Curam subiice, viri sunt: quibus non existimo</l>
+               <l n="1475">Quidquam defuturum esse ad vitam, ubicunque fuerint.</l>
+               <l>Meas verò miseras &amp; miserabiles virgines,</l>
+               <l>Quibus cibus mea de mensa nunquam defuit,</l>
+               <l>Cùm ego abessem, verùm quaecunque ego</l>
+               <l>Attingebam, eorum &amp; illae participes semper fuerunt,</l>
+               <l n="1480">Eas tuae commendo fidei: &amp; praecipuè te oro, ut manibus</l>
+               <l>Illas attingere me ita sinas, ac deplorare mala.</l>
+               <l>Vade ô Rex,</l>
+               <l>Vade fili optimorum parentum: nam si manibus attigero,</l>
+               <l>Putabo me illas tenere, ut cùm viderem.</l>
+               <l n="1485">Quid dico?</l>
+               <l>Nunquid audio charas filias</l>
+               <l>Lacrymantes, &amp; misertus Creon</l>
+               <l>Ad me misit amantissima pignora ex liberis meis?</l>
+               <l>Quid inquam dico?</l>
+               <pb n="373"/>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l n="1490">Rectè dicis, nam ego, qui haec tibi praebeo, adsum,</l>
+               <l>Cognito desiderio tuo, quo iampridem teneris.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Sis foelix, &amp; te ob hanc viam</l>
+               <l>Deus melius custodiat quàm me.</l>
+               <l>O filiae ubinam estis? huc adeste, accedite</l>
+               <l>Ad has fratris vestri manus,</l>
+               <l>Quae genitoris vestri oculos antea lucentes</l>
+               <l>Sic, ut nunc sunt, affecerunt.</l>
+               <l>Quàm ego vobis ô filiae re neque visa nec cognita</l>
+               <l>Prodij pater ex ea, qua ipse natus sum.</l>
+               <l n="1500">Vos deploro, nam videre non possum,</l>
+               <l>Expendens quàm tristem posthac vitam</l>
+               <l>Apud homines acturae sitis.</l>
+               <l>Ad quos enim civium congressus,</l>
+               <l>Ad quae festa ibitis: unde non pro spectandi voluptate</l>
+               <pb n="374"/>
+               <l n="1505">Cum lacrymis domum reversurae sitis?</l>
+               <l>Et ubi iam tempus nuptiis maturum aderit,</l>
+               <l>Quis ille erit, qui ita volet abiicere liberos,</l>
+               <l>Ut talia probra suscepturus sit, qualia meis</l>
+               <l>Vestrisque parentibus incumbunt dedecora?</l>
+               <l n="1510">Quid enim mali abest? Patrem pater vester</l>
+               <l>Occidit, ex matre liberos suscepit,</l>
+               <l>Unde ipse natus est, &amp; ex iisdem</l>
+               <l>Sustulit vos, ex quibus ipse prognatus est.</l>
+               <l>Haec vobis per probrum obiicientur. Quis igitur vos ducere volet?</l>
+               <l n="1515">Non erit, ô filiae: Sed vos</l>
+               <l>Steriles innuptasque contabescere oportebit.</l>
+               <l>Tu vero, ô fili Menoecei. quoniam solus pater</l>
+               <l>His relictus es, nos enim qui genuimus</l>
+               <l>Ambo periimus, ne istas neglectas patiaris,</l>
+               <l n="1520">Mendicas, absque viris, cognatas, huc illuc errantes,</l>
+               <l>Neve meis aerumnis eas aequaveris,</l>
+               <l>Sed miserere earum. Quae sit harum aetas vides,</l>
+               <pb n="375"/>
+               <l>Et ab omnibus destitutas esse vides, praeterquam quod ad te attinet.</l>
+               <l>Annue, ô generose, manumque porrige.</l>
+               <l n="1525">Vobis autem, ô filiae, si per aetatem intelligere possetis,</l>
+               <l>Multa praecepta traderem: nunc verò precemini Deum,</l>
+               <l>Ut vitam, quae vobis semper vivenda erit, meliorem</l>
+               <l>Quàm qualem pater exegit, concedat.</l>
+               <l>Trochaei.</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l>Satis est. Nam quò te luctus abripit?</l>
+               <l n="1530">Sed huc intra tectum vade.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Obtemperandum est, &amp; si nihil iucundum est.</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l>Omnia tempestiva pulchra sunt,</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Scis quid nunc velim?</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l>Ubi ex te dicente audiero, tunc sciam.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l n="1535">Ut me ab aedibus huius terrae releges.</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l>Hoc à me petis, quod Dei donum est.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Sed Diis sum maximè invisus.</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l>Consequêris igitur id statim.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Affirmasne hoc?</l>
+               <pb n="376"/>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l>Quod non sentio, non soleo dicere.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l n="1540">Aufer nunc me ex hoc loco.</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l>Abi iam, &amp; liberos dimitte.</l>
+            </sp>
+            <sp who="#oedipus">
+               <speaker>Oed.</speaker>
+               <l>Nequaquam has avellas à me.</l>
+            </sp>
+            <sp who="#creon">
+               <speaker>Cre.</speaker>
+               <l>Ne cupias omnia obtinere.</l>
+               <l>Nam quae hactenus obtinuisti, ea te non per totam vitam secuta sunt.</l>
+            </sp>
+            <sp who="#chorus">
+               <speaker>Cho.</speaker>
+               <l n="1545">O patriae meae Thebanae terrae cives, videtis, OEdipus iste,</l>
+               <l>Qui inclyta Sphingis aenigmata solvebat, &amp; praestantissimus vir erat,</l>
+               <l n="1545">Qui non favorem civium, nec fortunas respiciebat,</l>
+               <l>In quantam tempestatem horrendae calamitatis inciderit.</l>
+               <l>Quamobrem tu qui mortalis es, supremum illam diem specta,</l>
+               <l n="1550">Et memineris, ne quem unquam beatum praedices, priusquam</l>
+               <l>Extremam vitae metam absque calamitate transierit.</l>
+            </sp>
+         </div>
+      </body>
+   </text>
+</TEI>
