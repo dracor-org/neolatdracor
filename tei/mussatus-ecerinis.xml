@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ecerinis</title>
+            <title>Tragoedia Ecerinis</title>
             <author>
                <persName xml:lang="la">
                   <forename>Albertinus</forename>
@@ -15,6 +15,9 @@
             <editor>
                <persName>Luigi Padrin</persName>
             </editor>
+            <editor>
+               <persName>Tiziana Brolli</persName>
+            </editor>
             <respStmt>
                <resp>Converted to TEI by</resp>
                <persName ref="https://orcid.org/0009-0006-1356-3576">Nitya Chagti</persName>
@@ -24,8 +27,9 @@
             <publisher xml:id="dracor">DraCor</publisher>
             <idno type="URL">https://dracor.org</idno>
             <availability>
-               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
-               <p>Thanks to Martina Venuti from MQDQ Galaxy for authorizing this digitization</p>
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0
+                  1.0</licence>
+               <p>Thanks to Martina Venuti from MQDQ Galaxy for authorizing this digitisation.</p>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -33,11 +37,17 @@
                <name>Albertino Mussato <emph>Ecerinis</emph></name>
                <ref target="https://www.poetiditalia.it/texts/MUSSATO|ecer|001">MQDQ Galaxy</ref>
                <availability status="free">
-                  <p>The editions published under the research project <emph>Musisque Deoque: A digital archive of Latin poetry, from its origins to the Italian Renaissance</emph> are distributed under the Creative Commons Attribution-ShareAlike 4.0 Unported License </p>
+                  <p>The editions published under the research project <emph>Musisque Deoque: A
+                        digital archive of Latin poetry, from its origins to the Italian
+                        Renaissance</emph> are distributed under the Creative Commons
+                     Attribution-ShareAlike 4.0 Unported License </p>
                </availability>
                <bibl type="originalSource">
-                  <author>Albertino Mussato</author>: <title level="a">Ecerinis</title>. In: <title level="m">Ecerinide:Tragedia</title>. A cura di <editor>Luigi Padrin</editor>, con uno studio di Giosue Carducci. <pubPlace>Bologna</pubPlace>: <publisher>Ditta Nicola Zanichell</publisher>, <date>1900</date>.
-                  <biblScope unit="page" from="23" to="66">23-66</biblScope>.
+                  <author>Albertino Mussato</author>: <title level="a">Ecerinis</title>. In: <title
+                     level="m">Ecerinide: Tragedia</title>. A cura di <editor>Luigi Padrin</editor>,
+                  con uno studio di Giosue Carducci. <pubPlace>Bologna</pubPlace>: <publisher>Ditta
+                     Nicola Zanichell</publisher>
+                  <date>1900</date>. <biblScope unit="page" from="23" to="66">pp. 23-66</biblScope>.
                </bibl>
             </bibl>
          </sourceDesc>
@@ -95,7 +105,10 @@
       </listEvent>
       <listChange>
          <change when="2026-01-28">
-            <desc>Converted to DraCor TEI from Musisque Deoque XML by Nitya Chagti; stage directions restored from Padrin's edition; act division based on Albertino Mussato: Ecerinis. In: Gary R. Grund (ed.): Humanist Tragedies. Cambridge: Harvard University Press, 2011. pp. 2-47.</desc>
+            <desc>Converted to DraCor TEI from Musisque Deoque XML by Nitya Chagti; stage directions
+               restored from Padrin's edition; act division based on Albertino Mussato: Ecerinis.
+               In: Gary R. Grund (ed.): Humanist Tragedies. Cambridge: Harvard University Press,
+               2011. pp. 2-47.</desc>
          </change>
       </listChange>
    </standOff>

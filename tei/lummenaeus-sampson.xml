@@ -30,8 +30,8 @@
          </publicationStmt>
          <sourceDesc>
             <bibl type="digitalSource">
-               <name>TransLatin</name>
-               <idno type="URL">https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Lummenaeus-Sampson.docx</idno>
+               <ref target="https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Lummenaeus-Sampson.docx">TransLatin</ref>
+               <note>Commit ce637908e9700ffac95380b1a90188db95dd2f36</note>
                <availability status="free">
                   <p>In the public domain.</p>
                </availability>
@@ -74,11 +74,11 @@
             <keywords>
                <term type="genreTitle">tragedy</term>
             </keywords>
-            <classCode scheme="http://www.wikidata.org/entity/">Q622783</classCode>
+            <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
          </textClass>
          <creation>
             <region>
-               <ref target="https://www.wikidata.org/wiki/Q476033">Spanish Netherlands</ref>
+               <ref target="https://www.wikidata.org/wiki/Q476033">Low Countries</ref>
             </region>
          </creation>
       </profileDesc>

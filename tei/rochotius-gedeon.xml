@@ -4,13 +4,14 @@
       <fileDesc>
          <titleStmt>
             <title>Gedeon</title>
-            <title type="sub">Comaedia nova, cum primis ad usum scholasticum et conditionem temporum accommodata</title>
+            <title type="sub">Comaedia nova</title>
             <author>
                <persName xml:lang="la">
                   <forename>Andreas</forename>
                   <surname>Rochotius</surname>
                </persName>
                <idno type="wikidata">Q55134115</idno>
+               <idno type="gnd">115362835</idno>
             </author>
          </titleStmt>
          <editionStmt>
@@ -35,6 +36,8 @@
             <idno type="URL">https://dracor.org</idno>
             <availability>
                <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+               <p>Permission for this publication under CC0 1.0 granted by the Theatrum Neolatinum team in consultation
+                  with the publisher.</p>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -103,6 +106,11 @@
             </keywords>
             <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
          </textClass>
+         <creation>
+            <region>
+               <ref target="https://www.wikidata.org/wiki/Q185573">Czech lands</ref>
+            </region>
+         </creation>
       </profileDesc>
    </teiHeader>
    <standOff>

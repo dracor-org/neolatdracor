@@ -30,8 +30,10 @@
          </publicationStmt>
          <sourceDesc>
             <bibl type="digitalSource">
-               <name>TransLatin</name>
-               <idno type="URL">https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Lummenaeus-Bustum.docx</idno>
+               <ref
+                  target="https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Lummenaeus-Bustum.docx"
+                  >TransLatin</ref>
+               <note>Commit ce637908e9700ffac95380b1a90188db95dd2f36</note>
                <availability status="free">
                   <p>In the public domain.</p>
                </availability>
@@ -56,13 +58,15 @@
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person xml:id="nemesis-divina" sex="FEMALE" ana="https://www.wikidata.org/wiki/Q185747">
+               <person xml:id="nemesis-divina" sex="FEMALE"
+                  ana="https://www.wikidata.org/wiki/Q185747">
                   <persName>NEMESIS DIVINA</persName>
                </person>
                <person xml:id="abrahamus" sex="MALE" ana="https://www.wikidata.org/wiki/Q9181">
                   <persName>ABRAHAMVS</persName>
                </person>
-               <person xml:id="angelus" sex="UNKNOWN" ana="https://www.wikidata.org/wiki/Q235113" role="angelus">
+               <person xml:id="angelus" sex="UNKNOWN" ana="https://www.wikidata.org/wiki/Q235113"
+                  role="angelus">
                   <persName>ANGELVS</persName>
                </person>
                <personGrp xml:id="chorus" sex="UNKNOWN" role="chorus">
@@ -83,11 +87,11 @@
             <keywords>
                <term type="genreTitle">tragedy</term>
             </keywords>
-            <classCode scheme="http://www.wikidata.org/entity/">Q622783</classCode>
+            <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
          </textClass>
          <creation>
             <region>
-               <ref target="https://www.wikidata.org/wiki/Q476033">Spanish Netherlands</ref>
+               <ref target="https://www.wikidata.org/wiki/Q476033">Low Countries</ref>
             </region>
          </creation>
       </profileDesc>

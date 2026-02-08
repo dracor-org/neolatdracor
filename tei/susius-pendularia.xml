@@ -11,6 +11,7 @@
                   <surname>Susius</surname>
                </persName>
                <idno type="wikidata">Q110215354</idno>
+               <idno type="gnd">100633609</idno>
             </author>
             <editor ref="https://orcid.org/0000-0002-5768-9932">Jan Bloemendal</editor>         
             <respStmt>
@@ -29,8 +30,8 @@
          </publicationStmt>
          <sourceDesc>
             <bibl type="digitalSource">
-               <name>TransLatin</name>
-               <idno type="URL">https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Susius-Pendularia.docx</idno>
+               <ref target="https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Susius-Pendularia.docx">TransLatin</ref>
+               <note>Commit 349e051dbf222f494a37280ef0d7bc14c53069cb</note>
                <availability status="free">
                   <p>In the public domain.</p>
                </availability>
@@ -106,7 +107,7 @@
    <standOff>
       <listEvent>
          <event type="print" when="1620">
-            <desc/>
+            <desc>first print</desc>
          </event>
       </listEvent>
    </standOff>

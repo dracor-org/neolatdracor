@@ -20,7 +20,7 @@
   regionQid: Q12548
   project: Camerarius digital
   status: TXT  
-  licenceNotes: In the public domain, CC0 1.0 possible.
+  licenceNotes: In the public domain, CC0 1.0 possible
   source:
     title: Camerarius digital
     editor: Jochen Schultheiß
@@ -29,16 +29,19 @@
     availability:
       status: free
     source:
-      title: "Ioachim Camerarius: Aiax lora gestans. Interpretatio ad uerbum. In:
-        Commentatio explicationum omnium tragoediarum Sophoclis, cum exemplo
-        duplicis conversionis, Ioachimi Camerarii Pabepergensis. Basel: Ioannes
-        Oporinus 1556. pp. 107–174."
-      year: "1556"
+      title: Österreichische Nationalbibliothek (ÖNB)
       url: https://viewer.onb.ac.at/107D434D/111
-      type: print
+      type: PDF
       availability:
         licence: No Copyright - Non-Commercial Use Only (until 2029-11-02T22:00)
         licenceUrl: https://rightsstatements.org/vocab/NoC-NC/1.0/
+      source:
+        title: "Ioachim Camerarius: Aiax lora gestans. Interpretatio ad uerbum. In:
+          Commentatio explicationum omnium tragoediarum Sophoclis, cum exemplo
+          duplicis conversionis, Ioachimi Camerarii Pabepergensis. Basel: Ioannes
+          Oporinus 1556. pp. 107–174."
+        year: "1556"
+        type: print
   complete: true
   _includeInOverview: true
   _includeDocx: false
@@ -62,7 +65,7 @@
   regionQid: Q12548
   project: Camerarius digital
   status: TXT
-  licenceNotes: In the public domain, CC0 1.0 possible.
+  licenceNotes: In the public domain, CC0 1.0 possible
   source:
     title: Camerarius digital
     editor: Jochen Schultheiß
@@ -71,16 +74,19 @@
     availability:
       status: free
     source:
-      title: "Ioachim Camerarius: Electra. Interpretatio libera. In: Commentatio
-        explicationum omnium tragoediarum Sophoclis, cum exemplo duplicis
-        conversionis, Ioachimi Camerarii Pabepergensis. Basel: Ioannes Oporinus
-        1556. pp. 257–312."
-      year: "1556"
+      title: Österreichische Nationalbibliothek (ÖNB)
       url: https://viewer.onb.ac.at/107D434D/261
-      type: print
+      type: PDF
       availability:
         licence: No Copyright - Non-Commercial Use Only (until 2029-11-02T22:00)
         licenceUrl: https://rightsstatements.org/vocab/NoC-NC/1.0/
+      source:
+        title: "Ioachim Camerarius: Electra. Interpretatio libera. In: Commentatio
+          explicationum omnium tragoediarum Sophoclis, cum exemplo duplicis
+          conversionis, Ioachimi Camerarii Pabepergensis. Basel: Ioannes Oporinus
+          1556. pp. 257–312."
+        year: "1556"
+        type: print
   complete: true
   _includeInOverview: true
   _includeDocx: false
@@ -1346,9 +1352,6 @@
   project: Macropedius Drama Corpus
   status: tei, published
   licenceNotes: Public domain, permission granted by editors, CC0 1.0 possible.
-  transcription:
-    by: null
-    supervisor: null
   acknowledgements: "Copyright of the critical edition (c) Stichting Zuidelijk
     Historisch Contact Tilburg. Cf. Henk Giebels, Frans Slits: Georgius
     Macropedius 1487 - 1558. Leven en werken van een Brabantse humanist.
@@ -1364,7 +1367,8 @@
     type: HTML
     availability:
       status: free
-      note: In the public domain.    
+      note: The editions on the website edited by Antonius Harmsen (Leiden University) are
+        public domain. See https://www.let.leidenuniv.nl/Dutch/Canonisations.html.    
     source:
       title: "Georgius Macropedius: Hecastus. In: Henk Giebels, Frans Slits: Georgius
         Macropedius 1487 - 1558. Leven en werken van een Brabantse humanist.
@@ -1625,7 +1629,7 @@
     - forename: Georgius
       surname: Macropedius
       qid: Q710836
-      gnd: null
+      gnd: "124180043"
   yearPrinted: "1553"
   yearWritten: null
   premiered: null
@@ -1681,7 +1685,7 @@
     - forename: Georgius
       surname: Macropedius
       qid: Q710836
-      gnd: null
+      gnd: "124180043"
   yearPrinted: "1553"
   yearWritten: null
   premiered: null
@@ -1693,9 +1697,6 @@
   project: Macropedius Drama Corpus
   status: tei, published
   licenceNotes: Public domain, permission granted by editors, CC0 1.0 possible.
-  transcription:
-    by: null
-    supervisor: null
   acknowledgements: "Copyright of the critical edition (c) Stichting Zuidelijk
     Historisch Contact Tilburg. Cf. Henk Giebels, Frans Slits: Georgius
     Macropedius 1487 - 1558. Leven en werken van een Brabantse humanist.
@@ -1711,7 +1712,8 @@
     type: HTML
     availability:
       status: free
-      note: In the public domain.  
+      note: The editions on the website edited by Antonius Harmsen (Leiden University) are
+       public domain. See https://www.let.leidenuniv.nl/Dutch/Canonisations.html.  
     source:
       title: "Georgius Macropedius: Rebelles. In: Henk Giebels, Frans Slits: Georgius
         Macropedius 1487 - 1558. Leven en werken van een Brabantse humanist.
@@ -1759,10 +1761,10 @@
   source:
     title: Theatrum Neolatinum
     source:
-      title: Magdaléna Jacková, Markéta Klosová, Martin Bažil, Alena Bočková, Kateřina
-        Bobková-Valentová, Eva Popelková (eds.). Latinské biblické drama v
+      title: "Magdaléna Jacková, Markéta Klosová, Martin Bažil, Alena Bočková, Kateřina
+        Bobková-Valentová, Eva Popelková (eds): Latinské biblické drama v
         českých zemích. Prague 2026. In print (Theatrum Neolatinum. Latinské
-        divadlo v českých zemích  3).
+        divadlo v českých zemích  3)."
       editor: Markéta Klosová; Eva Popelková
       year: "2026"
       copyright: INFORMATION NEEDED
@@ -1798,7 +1800,7 @@
   region: Czech lands
   regionQid: Q185573
   project: Theatrum Neolatinum
-  status: .pdf
+  status: PDF
   licenceNotes: Permission granted by Theatrum Neolatinum team in consultation
     with publisher - Licence CC0 1.0
   acknowledgements: Permission for this publication under CC0 1.0 granted by the Theatrum Neolatinum team in consultation
@@ -1808,7 +1810,7 @@
     supervisor: Magdaléna Jacková
   source:
     title: Theatrum Neolatinum
-    url: https://www.theatrum-neolatinum.cz/pdf/pallas/Amicitia/Amicitia_text.pdf
+    url: https://www.theatrum-neolatinum.cz/pdf/pallas/Amicitia/Amicitia_textPDF
     type: PDF
     source:
       title: "Magdaléna Jacková: Nejmírnější Pallas. Hry určené gramatikálním třídám
@@ -1861,10 +1863,10 @@
   source:
     title: Theatrum Neolatinum
     source:
-      title: Magdaléna Jacková, Markéta Klosová, Martin Bažil, Alena Bočková, Kateřina
-        Bobková-Valentová, Eva Popelková (eds.). Latinské biblické drama v
-        českých zemích, Prague 2026. In print (Theatrum Neolatinum, Latinské
-        divadlo v českých zemích 3).
+      title: "Magdaléna Jacková, Markéta Klosová, Martin Bažil, Alena Bočková, Kateřina
+        Bobková-Valentová, Eva Popelková (eds): Latinské biblické drama v
+        českých zemích. Prague 2026. In print (Theatrum Neolatinum, Latinské
+        divadlo v českých zemích 3)."
       editor: Alena Bočková
       year: "2026"
       copyright: INFORMATION NEEDED
@@ -1907,7 +1909,7 @@
   region: Czech lands
   regionQid: Q185573
   project: Theatrum Neolatinum
-  status: .pdf
+  status: PDF
   licenceNotes: Permission granted by Theatrum Neolatinum team in consultation
     with publisher - Licence CC0 1.0
   acknowledgements: Permission for this publication under CC0 1.0 granted by the Theatrum Neolatinum team in consultation
@@ -1956,7 +1958,7 @@
   region: Czech lands
   regionQid: Q185573
   project: Theatrum Neolatinum
-  status: .pdf
+  status: PDF
   licenceNotes: Permission granted by Theatrum Neolatinum team in consultation
     with publisher - Licence CC0 1.0
   acknowledgements: Permission for this publication under CC0 1.0 granted by the Theatrum Neolatinum team in consultation
@@ -2008,7 +2010,7 @@
   region: Czech lands
   regionQid: Q185573
   project: Theatrum Neolatinum
-  status: .pdf
+  status: PDF
   licenceNotes: Permission granted by Theatrum Neolatinum team in consultation
     with publisher - Licence CC0 1.0
   acknowledgements: Permission for this publication under CC0 1.0 granted by the Theatrum Neolatinum team in consultation
@@ -2101,7 +2103,7 @@
   region: Czech lands
   regionQid: Q185573
   project: Theatrum Neolatinum
-  status: .pdf, tei
+  status: PDF, tei
   licenceNotes: Permission granted by Theatrum Neolatinum team in consultation
     with publisher - Licence CC0 1.0
   acknowledgements: Permission for this publication under CC0 1.0 granted by the Theatrum Neolatinum team in consultation
@@ -2149,7 +2151,7 @@
   region: Czech lands
   regionQid: Q185573
   project: Theatrum Neolatinum
-  status: .pdf
+  status: PDF
   licenceNotes: Permission granted by Theatrum Neolatinum team in consultation
     with publisher - Licence CC0 1.0
   acknowledgements: Permission for this publication under CC0 1.0 granted by the Theatrum Neolatinum team in consultation
@@ -2199,7 +2201,7 @@
   region: Czech lands
   regionQid: Q185573
   project: Theatrum Neolatinum
-  status: .pdf
+  status: PDF
   licenceNotes: Permission granted by Theatrum Neolatinum team in consultation
     with publisher - Licence CC0 1.0
   acknowledgements: Permission for this publication under CC0 1.0 granted by the Theatrum Neolatinum team in consultation
@@ -2250,7 +2252,7 @@
   region: Czech lands
   regionQid: Q185573
   project: Theatrum Neolatinum
-  status: .pdf
+  status: PDF
   licenceNotes: Permission granted by Theatrum Neolatinum team in consultation
     with publisher - Licence CC0 1.0
   acknowledgements: Permission for this publication under CC0 1.0 granted by the Theatrum Neolatinum team in consultation
@@ -2286,16 +2288,15 @@
 - id: neolat000123
   name: rochotius-gedeon
   title: Gedeon
-  subtitle: Comaedia nova, cum primis ad usum scholasticum et conditionem temporum
-    accommodata
+  subtitle: Comaedia nova
   qid: null
   authors:
     - forename: Andreas
       surname: Rochotius
       qid: Q55134115
       gnd: "115362835"
-  yearPrinted: "1607"
-  yearWritten: "1607"
+  yearPrinted: "1606"
+  yearWritten: null
   premiered: null
   form: verse
   genre: comedy
@@ -2303,24 +2304,20 @@
   region: Czech lands
   regionQid: Q185573
   project: Theatrum Neolatinum
-  status: text, tei
+  status: tei, published
   licenceNotes: Permission granted by Theatrum Neolatinum team in consultation
     with publisher - Licence CC0 1.0
   acknowledgements: Permission for this publication under CC0 1.0 granted by the Theatrum Neolatinum team in consultation
-    with the publisher (https://creativecommons.org/publicdomain/zero/1.0/deed.de).
-  transcription:
-    by: Zuzana Adamaitis
-    supervisor: Magdaléna Jacková
+    with the publisher.
   source:
     title: Theatrum Neolatinum
     source:
-      title: Magdaléna Jacková, Markéta Klosová, Martin Bažil, Alena Bočková, Kateřina
-        Bobková-Valentová, Eva Popelková (eds.). Latinské biblické drama v
-        českých zemích, Prague 2026. In print (Theatrum Neolatinum, Latinské
-        divadlo v českých zemích 3).
+      title: "Magdaléna Jacková, Markéta Klosová, Martin Bažil, Alena Bočková, Kateřina
+        Bobková-Valentová, Eva Popelková (eds): Latinské biblické drama v
+        českých zemích. Prague 2026. In print (Theatrum Neolatinum, Latinské
+        divadlo v českých zemích 3)."
       editor: Magdaléna Jacková
       year: "2026"
-      copyright: INFORMATION NEEDED
       url: https://www.theatrum-neolatinum.cz/en/biblicke.html
       type: critical edition
       source:
@@ -2331,7 +2328,7 @@
         date: "1606"
         copyright: Biblioteka Uniwersytecka
         type: print
-  complete: false
+  complete: true
   _includeInOverview: true
   _includeDocx: false
 - id: neolat000124
@@ -2364,10 +2361,10 @@
   source:
     title: Theatrum Neolatinum
     source:
-      title: Magdaléna Jacková, Markéta Klosová, Martin Bažil, Alena Bočková, Kateřina
-        Bobková-Valentová, Eva Popelková (eds.). Latinské biblické drama v
-        českých zemích, Prague 2026. In print (Theatrum Neolatinum, Latinské
-        divadlo v českých zemích 3)
+      title: "Magdaléna Jacková, Markéta Klosová, Martin Bažil, Alena Bočková, Kateřina
+        Bobková-Valentová, Eva Popelková (eds): Latinské biblické drama v
+        českých zemích. Prague 2026. In print (Theatrum Neolatinum, Latinské
+        divadlo v českých zemích 3)."
       editor: Magdaléna Jacková
       year: "2026"
       copyright: INFORMATION NEEDED
@@ -2401,7 +2398,7 @@
   region: Czech lands
   regionQid: Q185573
   project: Theatrum Neolatinum
-  status: .pdf
+  status: PDF
   licenceNotes: Permission granted by Theatrum Neolatinum team in consultation
     with publisher - Licence CC0 1.0
   acknowledgements: Permission for this publication under CC0 1.0 granted by the Theatrum Neolatinum team in consultation
@@ -2453,7 +2450,7 @@
   region: Czech lands
   regionQid: Q185573
   project: Theatrum Neolatinum
-  status: .pdf
+  status: PDF
   licenceNotes: Permission granted by Theatrum Neolatinum team in consultation
     with publisher - Licence CC0 1.0
   acknowledgements: Permission for this publication under CC0 1.0 granted by the Theatrum Neolatinum team in consultation
@@ -2504,7 +2501,7 @@
   region: Czech lands
   regionQid: Q185573
   project: Theatrum Neolatinum
-  status: .pdf
+  status: PDF
   licenceNotes: Permission granted by Theatrum Neolatinum team in consultation
     with publisher - Licence CC0 1.0
   acknowledgements: Permission for this publication under CC0 1.0 granted by the Theatrum Neolatinum team in consultation
@@ -2599,14 +2596,14 @@
   region: Holy Roman Empire
   regionQid: Q12548
   project: TransLatin
-  status: DOCX, TEI (basic)
+  status: tei, published
   licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   source:
     title: TransLatin
     editor: Jan Bloemendal
     url: https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Aler-Innocentia.docx
     type: DOCX
-    note: Commit 17eb746e9fc8b8e3326bd2c415035c30ddda5add, older version used, needs checking
+    note: Commit 2d6539882656911527ebb75a7f2cc9dded5209bd, older version used, needs checking
     availability:
       status: free
     source:
@@ -2647,13 +2644,13 @@
   source:
     title: TransLatin
     editor: Jan Bloemendal
-    url: hhttps://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Balde-Iephtias.docx
+    url: https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Balde-Iephtias.docx
     type: DOCX
     note: Commit 17eb746e9fc8b8e3326bd2c415035c30ddda5add
     availability:
       status: free
     source:
-      title: Mateo
+      title: CAMENA
       editor: Susanne Mussmann
       url: mateo.uni-mannheim.de/camena/bald4/baldepoemata4.html
       type: HTML
@@ -2745,7 +2742,7 @@
       source:
         title: "Euripus. Tragoedia Christiana nova, authore F. Livino Brechto
           Antverpiensi e familia franciscana Louaniensi. Ad Reuerendissimum in
-          Christo |Patrem, et illustrissimum Principem, D. Georgium ab Austria,
+          Christo Patrem, et illustrissimum Principem, D. Georgium ab Austria,
           Episcopum Leodiens. Ducem Bullonens. Comitem Lossens. etc. Leuven:
           Martinus Rotarius; Petrus Phalesius 1549."
         year: "1549"
@@ -3241,37 +3238,44 @@
       surname: Celtis
       qid: Q60625
       gnd: "118519891"
-  yearPrinted: "1945"
+  yearPrinted: "1501"
   yearWritten: null
   premiered: null
   form: verse
   genre: comedy
   genreQid: Q40831
-  region: INFORMATION NEEDED
-  regionQid: null
+  region: Archduchy of Austria
+  regionQid: Q699964
   project: TransLatin
   status: DOCX, TEI (basic)
-  licenceNotes: null
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   source:
     title: TransLatin
     editor: Jan Bloemendal
-    url: https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Celtis-Ludus.docx
+    url: https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Celtis-Ludus.docx
     type: DOCX
+    note: Commit 17eb746e9fc8b8e3326bd2c415035c30ddda5add. This file collates Pindter's edition and the 1501 print.
+    availability:
+      status: free
     source:
-      title: "ed. Felicitas Pindter, Conradus Celtis Protucius, Ludi scaenici (Ludus
-        Dianae – Rhapsodia) (Budapest: Egyetemi Nyomda, 1945)"
+      title: "Conradus Celtis: Ludi scaenici. [Ludus Dianae. Rhapsodia]. Ed. Felicitas Pindter. Budapest: Egyetemi Nyomda 1945 (Bibliotheca scriptorum medii recentisque aevorum. Saecula XV-XVI 13)."
       editor: Felicitas Pindter
-      year: INFORMATION NEEDED
-      copyright: INFORMATION NEEDED
+      year: "1945"
       type: critical edition
       source:
-        title: INFORMATION NEEDED
-        year: INFORMATION NEEDED
+        title: HAB Wolfenbüttel
         url: http://diglib.hab.de/inkunabeln/69-2-quod-12/start.htm
-        type: print
-  complete: false
-  _includeInOverview: false
-  _includeDocx: false
+        type: PDF
+        availability:
+          licence: PDM 1.0 Universal
+          licenceUrl: https://creativecommons.org/publicdomain/mark/1.0/
+        source:
+          title: "Conradus Celtes: Ludus Diane in modum Comedie coram Maximiliano Rhomanorum Rege Kalendis Martijs [et] Ludis saturnalibus in arce Linsiana danubij actus [...]. Nuremberg: Hölcelius 1501"
+          year: "1501"
+          type: print          
+  complete: true
+  _includeInOverview: true
+  _includeDocx: true
 - id: neolat000052
   name: claus-vulpanser
   title: Vulpanser
@@ -3287,37 +3291,35 @@
   form: verse
   genre: comedy
   genreQid: Q40831
-  region: INFORMATION NEEDED
-  regionQid: null
+  region: Holy Roman Empire
+  regionQid: Q12548
   project: TransLatin
   status: DOCX, TEI (basic)
-  availability:
-    status: free
-  licenceNotes: null
-  institution: Huygens Institute
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   source:
     title: TransLatin
     editor: Jan Bloemendal
-    url: https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Claus-Vulpanser.docx
+    url: hhttps://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Claus-Vulpanser.docx
     type: DOCX
+    note: Commit 17eb746e9fc8b8e3326bd2c415035c30ddda5add
+    availability:
+      status: free
     source:
-      title: INFORMATION NEEDED
-      editor: INFORMATION NEEDED
-      year: INFORMATION NEEDED
-      copyright: INFORMATION NEEDED
-      type: critical edition
+      title: Google Books
+      url: https://books.google.de/books?id=4vok_qjjSJwC&redir_esc=y
+      type: PDF
+      availability:
+        status: free
+        note: In the public domain.
       source:
-        title: Exercitationes theatrales a Societatis Jesu magistris inferiorum classium
-          dirigente P. Antonio Claus, ejusdem Societatis in Episcopali et
-          Academico Gymnasio Dilingano exhibitae,
-        editor: INFORMATION NEEDED
-        year: INFORMATION NEEDED
-        copyright: INFORMATION NEEDED
-        url: INFORMATION NEEDED
+        title: "Antonius Claus: Vulpanser. In: Exercitationes theatrales a Societatis Jesu magistris 
+          inferiorum classium dirigente P. Antonio Claus, ejusdem Societatis in Episcopali et
+          Academico Gymnasio Dilingano exhibitae. Vol. 1. Augsburg: Joseph Wolff 1755. p. 57-85."
+        year: "1755"
         type: print
-  complete: false
-  _includeInOverview: false
-  _includeDocx: false
+  complete: true
+  _includeInOverview: true
+  _includeDocx: true
 - id: neolat000053
   name: crocus-ioseph
   title: Comoedia sacra cui titulus Ioseph
@@ -3333,28 +3335,30 @@
   form: verse
   genre: tragedy
   genreQid: Q80930
-  region: INFORMATION NEEDED
-  regionQid: null
+  region: Low Countries
+  regionQid: Q476033
   project: TransLatin
   status: DOCX, TEI (basic)
-  availability:
-    status: free
-  licenceNotes: null
-  institution: Huygens Institute
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   source:
     title: TransLatin
     editor: Jan Bloemendal
-    url: https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Crocus-Ioseph.docx
+    url: https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Crocus-Ioseph.docx
     type: DOCX
+    note: Commit 17eb746e9fc8b8e3326bd2c415035c30ddda5add
+    availability:
+      status: free
     source:
-      title: Dramata sacra, Basel, 1536
+      title: "Comoedia sacra, cui titulus Ioseph, ad Christianae iuventutis institutionem iuxta locos inventionis, veteremque; 
+        artem, nunc primum & scripta & edita per Cor. Crôcum Amsterodami ludimagistrum. Ex Genesios cap- 39. 40 & 41. 
+        Antwerp: Joannes Steelsius 1536."
       year: "1536"
-      url: https://books.google.com/books?id=XP3Z8pc5P_MC /
-        https://books.google.com/books?id=4vok_qjjSJwC
       type: print
-  complete: false
-  _includeInOverview: false
-  _includeDocx: false
+      url: https://books.google.com/books?id=59V5RHa6LagC
+      note: URL added by JJB, not TransLatin.
+  complete: true
+  _includeInOverview: true
+  _includeDocx: true
 - id: neolat000054
   name: cunaeus-dido
   title: Tragoedia Dido
@@ -3461,7 +3465,7 @@
     url: https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Diether-Ioseph.docx
     type: DOCX
     source:
-      title: Camena Universität Mannheim
+      title: CAMENA
       url: http://mateo.uni-mannheim.de/camena/drama/
       type: print
   complete: false
@@ -3693,7 +3697,7 @@
     url: https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Gnapheus-Acolastus.docx
     type: DOCX
     source:
-      title: ed.  Minderaa
+      title: "Gnapheus, Guilielmus: Acolastus. Latijnse tekst met Nederlandse vertaling. Ed. by P. Minderaa. Zwolle: Tjeenk Willink 1956."
       url: https://www.dbnl.org/tekst/gnap001pmin01_01/gnap001pmin01_01_0005.php
       type: print
   complete: false
@@ -4116,37 +4120,44 @@
   region: Kingdom of Italy
   regionQid: Q5343710
   project: TransLatin
-  status: DOCX, TEI (basic)
-  availability:
-    status: free
+  status: tei, published
   licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
-  transcription:
-    by: null
-    supervisor: Jan Bloemendal
-  institution: null
   source:
     title: TransLatin
     editor: Jan Bloemendal
-    url: https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Knuyt-Scornetta.docx
+    url: https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Knuyt-Scornetta.docx
     type: DOCX
+    note: Commit f41e8a65dbaaf94d6248df6acdcc94edd708598e, check
     source:
-      title: "Johannes Bolte: Zwei Humanistenkomödien aus Italien. In: Zeitschrift für
-        vergleichende Litteraturgeschichte und Renaissance-Litteratur NF 1
-        (1887/88). pp. 232–244."
-      editor: Johannes Bolte
-      year: 1887/1888
+      title: archive.org
       url: https://archive.org/details/zeitschriftfrve07beckgoog/page/233/mode/1up?view=theater
-      type: critical edition
+      type: PDF
+      availability:
+        status: free
+        note: In the public domain.
       source:
-        title: "Hermanni Knuyt de Slyterhouen Comoedia salebrosa atque lepidissima cui
-          titulus Scornetta. [Prelim: Elegia ad Nicolaum Stael.] Bologna:
-          Hieronimus de Baenedictis 1497."
-        year: "1497"
-        url: https://gallica.bnf.fr/ark:/12148/bpt6k1280094x
-        type: print
+        title: "Johannes Bolte: Zwei Humanistenkomödien aus Italien. In: Zeitschrift für
+         vergleichende Litteraturgeschichte und Renaissance-Litteratur NF 1
+         (1887/88). pp. 232–244."
+        editor: Johannes Bolte
+        year: 1887/1888
+        type: critical edition
+        source:
+          title: Gallica (BNF)
+          url: https://gallica.bnf.fr/ark:/12148/bpt6k1280094x
+          type: PDF
+          availability:
+            status: free
+            note: In the public domain.
+          source:
+            title: "Hermannius Knuyt de Slyterhouen: Comoedia salebrosa atque lepidissima cui
+              titulus Scornetta. [Prelim: Elegia ad Nicolaum Stael.] Bologna:
+              Hieronimus de Baenedictis 1497."
+            year: "1497"
+            type: print
   complete: true
   _includeInOverview: true
-  _includeDocx: true
+  _includeDocx: false
 - id: neolat000090
   name: laurimanus-exodus
   title: Exodus sive Transitus maris rubri
@@ -4229,7 +4240,7 @@
       surname: Locher
       qid: Q126967
       gnd: "118780247"
-  yearPrinted: not before 1523, not after 1524
+  yearPrinted: not before 1520, not after 1524
   yearWritten: null
   premiered: null
   form: verse
@@ -4239,28 +4250,28 @@
   regionQid: Q12548
   project: TransLatin
   status: tei, published
-  availability:
-    status: free
   licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
-  transcription:
-    by: Bram Boers
-    supervisor: Jan Bloemendal
-  institution: Huygens Institute
   source:
     title: TransLatin
     editor: Jan Bloemendal
-    url: https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Locher-Iudicium.docx
+    url: https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Locher-Iudicium.docx
     type: DOCX
+    note: Commit f41e8a65dbaaf94d6248df6acdcc94edd708598e, check
     source:
-      title: "Iacobi Philomusi Locher oratoris et poetae praeclari, Iudicium Paridis
-        ludi cuiusdam instar carmine lucule[n]ter descriptum, ac nuper exactiori
-        cura a superfluis, & erroribus antea co[m]missis prorsus emendatum.
-        Secutus uero est autor Fulgentii Mythologia[m]. Ed. by Ulrich Rhaetus
-        Faber. [Vienna: Werlen] [1523/1524]."
-      editor: Ulrich Rhaetus Faber
-      year: 1523/1524
+      title: Münchener DigitalisierungsZentrum (MDZ)
       url: https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00004866-9
-      type: print
+      availability:
+        licence: PDM 1.0
+        licenceUrl: https://creativecommons.org/publicdomain/mark/1.0/
+      source:
+        title: "Iacobi Philomusi Locher oratoris et poetae praeclari, Iudicium Paridis
+          ludi cuiusdam instar carmine lucule[n]ter descriptum, ac nuper exactiori
+          cura a superfluis, & erroribus antea co[m]missis prorsus emendatum.
+          Secutus uero est autor Fulgentii Mythologia[m]. Ed. by Ulrich Rhaetus
+          Faber. [Vienna: Werlen] [1523/1524]."
+        editor: Ulrich Rhaetus Faber
+        year: 1523/1524
+        type: print
   complete: true
   _includeInOverview: true
   _includeDocx: false
@@ -4283,30 +4294,33 @@
   region: Low Countries
   regionQid: Q476033
   project: TransLatin
-  status: DOCX, TEI (basic)
-  availability:
-    status: free
+  status: tei, published
   licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Blomendal
-  institution: Huygens Institute
   source:
     title: TransLatin
     editor: Jan Bloemendal
-    url: https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Lummenaeus-Abimelech.docx
+    url: https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Lummenaeus-Abimelech.docx
     type: DOCX
+    note: Commit 17eb746e9fc8b8e3326bd2c415035c30ddda5add, check
+    availability:
+      status: free
     source:
-      title: "Jacobus Cornelius Lummenaeus a Marca: Abimelech. Tragoedia sacra. In:
-        Musae lacrymantes, sive Pleias tragica, id est septem tragoediae sacrae.
-        Bustum Sodomae, Abimelech, Iephte, Sampson, Saul, Amnon, Sedechias.
-        Douai: Johannes de Fampoux 1628. pp. 32–61."
-      year: "1628"
+      title: Google Books
       url: https://books.google.com/books?id=3Wg-AAAAcAAJ
-      type: print
+      type: PDF
+      availability:
+        status: free
+        note: In the public domain.
+      source:
+        title: "Jacobus Cornelius Lummenaeus a Marca: Abimelech. Tragoedia sacra. In:
+         Musae lacrymantes, sive Pleias tragica, id est septem tragoediae sacrae.
+         Bustum Sodomae, Abimelech, Iephte, Sampson, Saul, Amnon, Sedechias.
+         Douai: Johannes de Fampoux 1628. pp. 32–61."
+        year: "1628"
+        type: print
   complete: true
   _includeInOverview: true
-  _includeDocx: true
+  _includeDocx: false
 - id: neolat000093
   name: lummenaeus-amnon
   title: Amnon
@@ -4327,27 +4341,29 @@
   regionQid: Q476033
   project: TransLatin
   status: DOCX, TEI (basic)
-  availability:
-    status: free
   licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
-  transcription:
-    by: INFORMATION NEEDED
-    supervisor: Jan Blomendal
-  institution: Huygens Institute
   source:
     title: TransLatin
     editor: Jan Bloemendal
-    url: https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Lummenaeus-Amnon.docx
+    url: https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Lummenaeus-Amnon.docx
     type: DOCX
+    note: Commit ce637908e9700ffac95380b1a90188db95dd2f36, check
+    availability:
+      status: free
     source:
-      title: "Amnon. Tragoedia sacra. Autore Iacobo Cornelio Lummenaeo à Marca. Gent:
-        Cornelius Marius 1617."
-      year: "1617"
+      title: Google Books
       url: https://books.google.com/books?id=jTCaKMTHN2AC
-      type: print
+      type: PDF
+      availability:
+        status: free
+        note: In the public domain.
+      source:
+        title: "Lummenaeus, Iacobus Cornelius: Amnon. Tragoedia sacra. Ghent: Cornelius Marius 1617."
+        year: "1617"
+        type: print
   complete: true
   _includeInOverview: true
-  _includeDocx: true
+  _includeDocx: false
 - id: neolat000094
   name: lummenaeus-bustum-sodomae
   title: Bustum Sodomae
@@ -4367,30 +4383,33 @@
   region: Low Countries
   regionQid: Q476033
   project: TransLatin
-  status: DOCX, TEI (basic)
-  availability:
-    status: free
+  status: tei, published
   licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
-  transcription:
-    by: Bram Boers
-    supervisor: Jan Bloemendal
-  institution: Huygens Institute
   source:
     title: TransLatin
     editor: Jan Bloemendal
-    url: https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Lummenaeus-Bustum.docx
+    url: https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Lummenaeus-Bustum.docx
     type: DOCX
+    note: Commit ce637908e9700ffac95380b1a90188db95dd2f36, check
+    availability:
+      status: free
     source:
-      title: "Jacobus Cornelius Lummenaeus a Marca: Bustum Sodomae. Tragoedia sacra.
-        In: Musae lacrymantes, sive Pleias tragica, id est septem tragoediae
-        sacrae. Bustum Sodomae, Abimelech, Iephte, Sampson, Saul, Amnon,
-        Sedechias. Douai: Johannes de Fampoux 1628. pp. no page number–51."
-      year: "1628"
+      title: Google Books
       url: https://books.google.com/books?id=3Wg-AAAAcAAJ
-      type: print
+      type: PDF
+      availability:
+        status: free
+        note: In the public domain.
+      source:
+        title: "Jacobus Cornelius Lummenaeus a Marca: Bustum Sodomae. Tragoedia sacra.
+          In: Musae lacrymantes, sive Pleias tragica, id est septem tragoediae
+          sacrae. Bustum Sodomae, Abimelech, Iephte, Sampson, Saul, Amnon,
+          Sedechias. Douai: Johannes de Fampoux 1628. pp. no page number–51."
+        year: "1628"
+        type: print
   complete: true
   _includeInOverview: true
-  _includeDocx: true
+  _includeDocx: false
 - id: neolat000095
   name: lummenaeus-carcer-babylonius
   title: Carcer Babylonius
@@ -4411,24 +4430,29 @@
   regionQid: Q476033
   project: TransLatin
   status: DOCX, TEI (basic)
-  availability:
-    status: free
   licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
-  institution: Huygens Institute
   source:
     title: TransLatin
     editor: Jan Bloemendal
-    url: https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Lummenaeus-Carcer.docx
+    url: https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Lummenaeus-Carcer.docx
     type: DOCX
+    note: Commit ce637908e9700ffac95380b1a90188db95dd2f36, check
+    availability:
+      status: free
     source:
-      title: "Carcer Babylonis. Tragaed. sacra auct. Iacobo Cornelio a Marca. Gent:
-        Gualterus Manilius 1610."
-      year: "1610"
+      title: Google Books
       url: https://books.google.com/books?id=Te4UAAAAQAAJ
-      type: print
+      type: PDF
+      availability:
+        status: free
+        note: In the public domain.
+      source:
+        title: "Carcer Babylonis. Tragaed. sacra auct. Iacobo Cornelio a Marca. Ghent: Gualterus Manilius 1610."
+        year: "1610"
+        type: print
   complete: true
   _includeInOverview: true
-  _includeDocx: true
+  _includeDocx: false
 - id: neolat000096
   name: lummenaeus-iephte
   title: Iephte
@@ -4449,26 +4473,32 @@
   regionQid: Q476033
   project: TransLatin
   status: DOCX, TEI (basic)
-  availability:
-    status: free
   licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
-  institution: Huygens Institute
   source:
     title: TransLatin
     editor: Jan Bloemendal
-    url: https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Lummenaeus-Iephte.docx
+    url: https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Lummenaeus-Iephte.docx
     type: DOCX
+    note: Commit ce637908e9700ffac95380b1a90188db95dd2f36, check
+    availability:
+      status: free
     source:
-      title: "Jacobus Cornelius Lummenaeus a Marca: Iephte. Tragoedia sacra. In: Musae
-        lacrymantes, sive Pleias tragica, id est septem tragoediae sacrae.
-        Bustum Sodomae, Abimelech, Iephte, Sampson, Saul, Amnon, Sedechias.
-        Douai: Johannes de Fampoux 1628. pp. 62–89."
-      year: "1628"
+      title: Google Books
       url: https://books.google.com/books?id=3Wg-AAAAcAAJ
-      type: print
+      type: PDF
+      availability:
+        status: free
+        note: In the public domain.
+      source:
+        title: "Jacobus Cornelius Lummenaeus a Marca: Iephte. Tragoedia sacra. In: Musae
+          lacrymantes, sive Pleias tragica, id est septem tragoediae sacrae.
+          Bustum Sodomae, Abimelech, Iephte, Sampson, Saul, Amnon, Sedechias.
+          Douai: Johannes de Fampoux 1628. pp. 62–89."
+        year: "1628"
+        type: print
   complete: true
   _includeInOverview: true
-  _includeDocx: true
+  _includeDocx: false
 - id: neolat000097
   name: lummenaeus-sampson
   title: Sampson
@@ -4488,27 +4518,33 @@
   region: Low Countries
   regionQid: Q476033
   project: TransLatin
-  status: DOCX, TEI (basic)
-  availability:
-    status: free
+  status: tei, published
   licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
-  institution: Huygens Institute
   source:
     title: TransLatin
     editor: Jan Bloemendal
-    url: https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Lummenaeus-Sampson.docx
+    url: https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Lummenaeus-Sampson.docx
     type: DOCX
+    note: Commit ce637908e9700ffac95380b1a90188db95dd2f36, check
+    availability:
+      status: free
     source:
-      title: "Jacobus Cornelius Lummenaeus a Marca: Sampson. Tragoedia sacra. In:
-        Musae lacrymantes, sive Pleias tragica, id est septem tragoediae sacrae.
-        Bustum Sodomae, Abimelech, Iephte, Sampson, Saul, Amnon, Sedechias.
-        Douai: Johannes de Fampoux 1628. pp. 90–119."
-      year: "1628"
+      title: Google Books
       url: https://books.google.com/books?id=3Wg-AAAAcAAJ
-      type: print
+      type: PDF
+      availability:
+        status: free
+        note: In the public domain.    
+      source:
+        title: "Jacobus Cornelius Lummenaeus a Marca: Sampson. Tragoedia sacra. In:
+          Musae lacrymantes, sive Pleias tragica, id est septem tragoediae sacrae.
+          Bustum Sodomae, Abimelech, Iephte, Sampson, Saul, Amnon, Sedechias.
+          Douai: Johannes de Fampoux 1628. pp. 90–119."
+        year: "1628"
+        type: print
   complete: true
   _includeInOverview: true
-  _includeDocx: true
+  _includeDocx: false
 - id: neolat000003
   name: lummenaeus-saul
   title: Saul
@@ -4529,26 +4565,29 @@
   regionQid: Q476033
   project: TransLatin
   status: tei, published
-  availability:
-    status: free
   licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
-  transcription:
-    by: Bram Boers
-    supervisor: Jan Bloemendal
-  institution: Huygens Institute
   source:
     title: TransLatin
     editor: Jan Bloemendal
-    url: https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Lummenaeus-Saul.docx
+    url: https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Lummenaeus-Saul.docx
     type: DOCX
+    note: Commit ce637908e9700ffac95380b1a90188db95dd2f36, check
+    availability:
+      status: free
     source:
-      title: "Jacobus Cornelius Lummenaeus a Marca: Saul. Tragoedia sacra. In: Musae
-        lacrymantes, sive Pleias tragica, id est septem tragoediae sacrae.
-        Bustum Sodomae, Abimelech, Iephte, Sampson, Saul, Amnon, Sedechias.
-        Douai: Johannes de Fampoux 1628. pp. 120–156."
-      year: "1628"
+      title: Google Books
       url: https://books.google.com/books?id=3Wg-AAAAcAAJ
-      type: print
+      type: PDF
+      availability:
+        status: free
+        note: In the public domain.   
+      source:
+        title: "Jacobus Cornelius Lummenaeus a Marca: Saul. Tragoedia sacra. In: Musae
+          lacrymantes, sive Pleias tragica, id est septem tragoediae sacrae.
+          Bustum Sodomae, Abimelech, Iephte, Sampson, Saul, Amnon, Sedechias.
+          Douai: Johannes de Fampoux 1628. pp. 120–156."
+        year: "1628"
+        type: print
   complete: true
   _includeInOverview: true
   _includeDocx: false
@@ -4643,28 +4682,22 @@
   form: verse
   genre: tragedy
   genreQid: Q80930
-  region: INFORMATION NEEDED
-  regionQid: null
-  project: TransLatin
-  status: DOCX, TEI (basic)
-  availability:
-    status: free
-  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
-  transcription:
-    by: Jan Bloemendal
-    supervisor: null
-  institution: Huygens Institute
+  region: Padua
+  regionQid: Q617
+  project: null
+  status: tei, published
+  licenceNotes: Permission granted by Martina Venuti (MQDQ team), CC0 1.0 possible
   source:
-    title: TransLatin
-    editor: Jan Bloemendal
-    url: https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Mussato-Ecerinis.docx
-    type: DOCX
+    title: MQDQ Galaxy
+    editor: Tiziana Brolli
+    url: https://www.poetiditalia.it/texts/MUSSATO|ecer|001
+    type: HTML
     source:
-      title: Mussato, Ecerinide ed. Padrin (Bologna 1900)
-      url: https://ia801303.us.archive.org/35/items/ecerinidetragedi00mussuoft/ecerinidetragedi00mussuoft.pdf
+      title: "Albertino Mussato: Ecerinis. In: Ecerinide: Tragedia. A cura di Luigi Padrin,
+        con uno studio di Giosue Carducci. Bologna: Ditta Nicola Zanichell 1900. pp. 23-66."
       type: print
-  complete: false
-  _includeInOverview: false
+  complete: true
+  _includeInOverview: true
   _includeDocx: false
 - id: neolat000114
   name: narssius-gustavus-saucius
@@ -4869,28 +4902,31 @@
   regionQid: Q476033
   project: TransLatin
   status: tei, published
-  availability:
-    status: free
   licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
-  transcription:
-    by: Jan Bloemendal
-    supervisor: null
-  institution: Huygens Institute
   source:
     title: TransLatin
     editor: Jan Bloemendal
-    url: https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Placentius-Susanna.docx
+    url: https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Placentius-Susanna.docx
     type: DOCX
+    note: Commit 2d6539882656911527ebb75a7f2cc9dded5209bd, check
+    availability:
+      status: free
     source:
-      title: "Johannes Leo Placentius: Susanna. In: Susanna per Plancentium
-        euangelisten lusa. Eusebii Candidi Elegia, in uanam breuemque humanae
-        uitae gloriolam. Item Ode Sapphica eiusdem Eusebij, in mortis
-        recordationem. Item Plausus luctificae mortis, ad modum Dialogi,
-        extemporaliter ad eodem Eusebio lusus. Antwerp: Mich[iel] Hillen van
-        Hoochstraten 1534."
-      year: "1534"
+      title: Google Books
       url: https://books.google.de/books?id=zZgzjJruqfwC&amp;hl=de&amp;source=gbs_navlinks_s
-      type: print
+      type: PDF
+      availability:
+        status: free
+        note: In the public domain.
+      source:
+        title: "Johannes Leo Placentius: Susanna. In: Susanna per Plancentium
+          euangelisten lusa. Eusebii Candidi Elegia, in uanam breuemque humanae
+          uitae gloriolam. Item Ode Sapphica eiusdem Eusebij, in mortis
+          recordationem. Item Plausus luctificae mortis, ad modum Dialogi,
+          extemporaliter ad eodem Eusebio lusus. Antwerp: Mich[iel] Hillen van
+         Hoochstraten 1534."
+        year: "1534"
+        type: print
   complete: true
   _includeInOverview: true
   _includeDocx: false
@@ -6047,7 +6083,8 @@
   _includeDocx: true
 - id: neolat000154
   name: susius-pendularia
-  title: Drama comicum Pendularia
+  title: Pendularia
+  subtitle: Drama comicum
   qid: null
   authors:
     - forename: Nicolaus
@@ -6063,27 +6100,31 @@
   region: Low Countries
   regionQid: Q476033
   project: TransLatin
-  status: DOCX, TEI (basic)
-  availability:
-    status: free
+  status: tei, published
   licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
-  institution: Huygens Institute
   source:
     title: TransLatin
     editor: Jan Bloemendal
-    url: https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Susius-Pendularia.docx
+    url: https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Susius-Pendularia.docx
     type: DOCX
+    note: Commit 349e051dbf222f494a37280ef0d7bc14c53069cb
     source:
-      title: "Nicolai Susii e Societate Iesu Opuscula litteraria: Lima Ciceroniana,
-        siue De stylo liber singularis, De pulcritudine B. Mariae Virg.
-        Disceptatio quodlibetica, Poemata: Elegiae Marianae, Lusus Anacreontei,
-        Drama comicum. Antwerpen: Heirs of Martinus Nutius 1620."
-      year: "1620"
+      title: Google Books
       url: https://books.google.com/books?id=Ad4TAAAAQAAJ
-      type: print
+      type: PDF
+      availability:
+        status: free
+        note: In the public domain.
+      source:        
+        title: "Nicolaus Susius: Drama comicum Pendularia. In: Nicolai Susii e Societate Iesu Opuscula
+          litteraria: Lima Ciceroniana, siue De stylo liber singularis, De pulcritudine B. Mariae Virg.
+          Disceptatio quodlibetica, Poemata: Elegiae Marianae, Lusus Anacreontei, Drama comicum.
+          Antwerpen: Heirs of Martinus Nutius 1620."
+        year: "1620"
+        type: print
   complete: true
   _includeInOverview: true
-  _includeDocx: true
+  _includeDocx: false
 - id: neolat000155
   name: thylesius-imber-aureus
   title: Imber aureus
@@ -6920,10 +6961,13 @@
   _includeInOverview: true
   _includeDocx: false
 - id: neolat000126
-  name: roterodamus-iphigenia-in-aulide
-  title: Iphigenia in Aulide
+  name: roterodamus-euripidis-iphigenia-in-aulide
+  title: Euripidis Iphigenia in Aulide
   qid: Q1233770
   authors:
+    - name: Euripides
+      qid: Q48305
+      gnd: "118531395"
     - forename: Desiderius Erasmus
       surname: Roterodamus
       qid: Q43499
@@ -6937,11 +6981,8 @@
   region: Low Countries
   regionQid: Q476033
   project: null
-  status: text
+  status: tei, published
   licenceNotes: Public domain, permission granted by Ceneton editor
-  transcription:
-    by: null
-    supervisor: null
   acknowledgements: Copyright of the online edition in the Ceneton project edited
     by Ton Harmsen (c) Leiden University. Thanks to Ton Harmsen for the
     authorisation of this digitisation.
@@ -6951,16 +6992,24 @@
     type: HTML
     availability:
       status: free
-      note: In the public domain.
+      note: The editions on the website edited by Antonius Harmsen (Leiden University) are
+        public domain. See https://www.let.leidenuniv.nl/Dutch/Canonisations.html.
     source:
-      title: "Roterodamus, Erasmus: Euripidis Iphigenia. In: Euripidis Tragici poetae
-        nobilissimi Hecuba et Iphigenia. Latinae factae Erasmo Roterodamo
-        interprete. De quibus Ascensius. Loqui latine nesciebat antea
-        Tragoediarum scriptor excultissimus. Qui nunc camoenis eloquens
-        erasmicis Varronianae certat eloquentiae. Paris: Jacobus Badius 1506."
-      year: "1506"
+      title: Census Nederlands Toneel (Ceneton)
       url: https://www.hum2.leidenuniv.nl/Dutch/Ceneton/Facsimiles/ErasmusEuripides1506/index.htm
-      type: print
+      type: HTML
+      availability:
+        status: free
+        note: The editions on the website edited by Antonius Harmsen (Leiden University) are
+          public domain. See https://www.let.leidenuniv.nl/Dutch/Canonisations.html.
+      source:
+        title: "Erasmus Roterodamus: Euripidis Iphigenia. In: Euripidis Tragici poetae
+          nobilissimi Hecuba et Iphigenia. Latinae factae Erasmo Roterodamo
+         interprete. De quibus Ascensius. Loqui latine nesciebat antea
+          Tragoediarum scriptor excultissimus. Qui nunc camoenis eloquens
+         erasmicis Varronianae certat eloquentiae. Paris: Jacobus Badius 1506."
+        year: "1506"
+        type: print
   complete: true
   _includeInOverview: true
   _includeDocx: false
@@ -7010,9 +7059,12 @@
   _includeDocx: false
 - id: neolat000167
   name: winsemius-oedipus-tyrannus
-  title: Oedipus tyrannus
+  title: Sophoclis Oedipus tyrannus
   qid: Q148643
   authors:
+    - name: Sophocles
+      qid: Q7235
+      gnd: "118615688"
     - forename: Vitus
       surname: Winsemius
       qid: Q2512106
@@ -7026,11 +7078,8 @@
   region: Low Countries
   regionQid: Q476033
   project: null
-  status: text
+  status: tei, published
   licenceNotes: Public domain, permission granted by Ceneton editor
-  transcription:
-    by: null
-    supervisor: null
   acknowledgements: Copyright of the online edition in the Ceneton project edited
     by Ton Harmsen (c) Leiden University. Thanks to Ton Harmsen for the
     authorisation of this digitisation.
@@ -7041,16 +7090,25 @@
     type: HTML
     availability:
       status: free
-      note: In the public domain.
+      note: The editions on the website edited by Antonius Harmsen (Leiden University) are
+        public domain. See https://www.let.leidenuniv.nl/Dutch/Canonisations.html
     source:
-      title: "Winsemius, Vitus: Oedipus tyrannus. In: ΣΟΦΟΚΛΕΟΥΣ ΑΙ ΕΠΤΑ ΤΡΑΓΩΔΙΑΕ.
-        Sophoclis tragoediae septem. Unà cum omnibus Graecis scholiis, et Latina
-        Viti Winsemij ad verbum Interpretatione. Quibus accesserunt Ioachimi
-        Camerarij, necnon Henrici Stephani annotationes. Unà cum Indice
-        sententiarum Sophoclearum. Paulus Stephanus 1603. pp. 257–376."
-      year: "1603"
+      title: Census Nederlands Toneel (Ceneton)
       url: https://www.hum2.leidenuniv.nl/Dutch/Ceneton/Facsimiles/WinsemiusOedipusTyrannus1603/index.htm
-      type: print
+      type: HTML
+      availability:
+        status: free
+        note: The editions on the website edited by Antonius Harmsen (Leiden University) are
+          public domain. See https://www.let.leidenuniv.nl/Dutch/Canonisations.html
+      source:
+        title: "Vitus Winsemius: Oedipus tyrannus. In: ΣΟΦΟΚΛΕΟΥΣ ΑΙ ΕΠΤΑ ΤΡΑΓΩΔΙΑΕ.
+          Sophoclis tragoediae septem. Unà cum omnibus Graecis scholiis, & Latina
+          Viti Winsemij ad verbum Interpretatione. Quibus accesserunt Ioachimi
+          Camerarij, necnon Henrici Stephani annotationes. Unà cum Indice
+          sententiarum Sophoclearum. [Geneva:] Paul Estienne 1603. pp. 257–376."
+        year: "1603"
+        url: https://www.hum2.leidenuniv.nl/Dutch/Ceneton/Facsimiles/WinsemiusOedipusTyrannus1603/index.htm
+        type: print
   complete: true
   _includeInOverview: true
   _includeDocx: false
