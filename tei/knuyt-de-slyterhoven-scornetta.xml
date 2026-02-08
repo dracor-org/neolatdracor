@@ -16,7 +16,8 @@
                 <editor xml:id="bolte">Johannes Bolte</editor>
                 <respStmt>
                     <resp>Converted to TEI by</resp>
-                    <persName ref="https://orcid.org/0000-0001-8979-8706">Julia Jennifer Beine</persName>
+                    <persName ref="https://orcid.org/0000-0001-8979-8706">Julia Jennifer
+                        Beine</persName>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -30,17 +31,19 @@
             <sourceDesc>
                 <bibl type="digitalSource">
                     <ref
-                        target="https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Knuyt-Scornetta.docx"
+                        target="https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Knuyt-Scornetta.docx"
                         >TransLatin</ref>
+                    <note>Commit f41e8a65dbaaf94d6248df6acdcc94edd708598e</note>
                     <availability status="free">
                         <p>In the public domain.</p>
                     </availability>
                     <note>The TransLatin version collates Bolte’s edition with the first print from
                         1497.</note>
-                    <bibl type="originalSource"><title>Hermanni Knuyt de Slyterhouen Comoedia
-                            salebrosa atque lepidissima cui titulus Scornetta [Prelim: Elegia ad
-                            Nicolaum Stael.]</title> . <pubPlace>Bologna</pubPlace> :
-                            <publisher>Hieronimus de Baenedictis</publisher>
+                    <bibl type="originalSource"><author>Hermannus Knuyt de Slyterhouen</author>:
+                            <title>Comoedia salebrosa atque lepidissima cui titulus
+                            Scornetta</title> [Prelim: Elegia ad Nicolaum Stael.].
+                            <pubPlace>Bologna</pubPlace> : <publisher>Hieronimus de
+                            Baenedictis</publisher>
                         <date>1497</date>. </bibl>
                     <relatedItem>
                         <!-- digital copy used -->
