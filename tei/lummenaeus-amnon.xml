@@ -6,7 +6,10 @@
             <title>Amnon</title>
             <title type="sub">Tragaedia sacra</title>
             <author>
-               <persName xml:lang="la">Jacobus Cornelius Lummenaeus a Marca</persName>
+               <persName xml:lang="la">
+                  <forename>Jacobus Cornelius</forename>
+                  <surname>Lummenaeus a Marca</surname>
+               </persName>
                <idno type="wikidata">Q112481178</idno>
                <idno type="gnd">131814397</idno>
             </author>
@@ -15,7 +18,6 @@
                <resp>Converted to TEI by</resp>
                <persName ref="https://orcid.org/0000-0001-8979-8706">Julia Jennifer Beine</persName>
             </respStmt>
-            <funder/>
          </titleStmt>
          <publicationStmt>
             <publisher xml:id="dracor">DraCor</publisher>
