@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="neolat000039"
+     xml:lang="lat">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Abrahamus sacrificans</title>
+            <author>
+               <persName xml:lang="lat">
+                  <forename>Iacobus</forename>
+                  <surname>Bruno</surname>
+               </persName>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="dracor">DraCor</publisher>
+            <idno type="URL">https://dracor.org</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <name>TransLatin</name>
+               <idno type="URL">https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Beza-Abrahamus.docx</idno>
+            </bibl>
+            <bibl type="originalSource">
+               <title>Abrahamus sacrificans. Tragoedia ante plures annos a D. Th. Beza Gallicè edita nunc verò Latina facta, Per Iacobum Brunonem. Cum appendice Epigrammatum. Amsterdam: Laurentius Iacobus 1599.</title>
+               <idno type="URL">https://books.google.nl/books?id=maxlAAAAcAAJ</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="genreTitle">tragedy</term>
+            </keywords>
+            <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <standOff>
+      <listEvent>
+         <event type="print" when="1599">
+            <desc/>
+         </event>
+      </listEvent>
+      <listRelation>
+         <relation name="wikidata"
+                   active="https://dracor.org/entity/neolat000039"
+                   passive="http://www.wikidata.org/entity/Q2821873"/>
+      </listRelation>
+   </standOff>
+   <text>
+      <front/>
+      <body/>
+   </text>
+</TEI>

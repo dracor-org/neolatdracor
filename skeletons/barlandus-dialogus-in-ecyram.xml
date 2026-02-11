@@ -1,0 +1,53 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="neolat000036"
+     xml:lang="lat">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dialogus in Ecyram</title>
+            <author>
+               <persName xml:lang="lat">
+                  <forename>Adrianus</forename>
+                  <surname>Barlandus</surname>
+               </persName>
+               <idno type="wikidata">Q2067100</idno>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="dracor">DraCor</publisher>
+            <idno type="URL">https://dracor.org</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <name>TransLatin</name>
+               <idno type="URL">https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Barlandus-Dialogus.docx</idno>
+            </bibl>
+            <bibl type="originalSource">
+               <title>Étienne Daxhelet, Adrien Barlandus humaniste Belge 1486-1638: Sa Vie, Son Oeuvre, Sa Personnalité, Humanistica Lovaniensia, 6 (Leuven: Uystpruyst, 1938), Repr. Nendeln, Liechtenstein: Kraus Reprint Ltd., 1967), pp. 218-220.</title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="genreTitle">dialogue</term>
+            </keywords>
+            <classCode scheme="http://www.wikidata.org/entity/">Q3025978</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <standOff>
+      <listEvent>
+         <event type="print" when="1524">
+            <desc/>
+         </event>
+      </listEvent>
+   </standOff>
+   <text>
+      <front/>
+      <body/>
+   </text>
+</TEI>

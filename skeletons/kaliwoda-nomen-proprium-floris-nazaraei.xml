@@ -1,0 +1,56 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="neolat000085"
+     xml:lang="lat">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Nomen proprium Floris Nazaraei</title>
+            <author>
+               <persName xml:lang="lat">
+                  <forename>Antonius</forename>
+                  <surname>Kaliwoda</surname>
+               </persName>
+               <idno type="wikidata">Q95556366</idno>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="dracor">DraCor</publisher>
+            <idno type="URL">https://dracor.org</idno>
+            <availability>
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <name>Theatrum Neolatinum</name>
+            </bibl>
+            <bibl type="originalSource">
+               <title>Magdaléna Jacková: Nejmírnější Pallas. Hry určené gramatikálním třídám jezuitských gymnázií. Praha: Academia, 2016. (= Theatrum Neolatinum. Latinské divadlo v českých zemích, 2.), p. 125–185.</title>
+               <idno type="URL">https://www.theatrum-neolatinum.cz/en/hry/Edmundus/edmundus.html</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="genreTitle">School drama</term>
+            </keywords>
+            <classCode scheme="http://www.wikidata.org/entity/">Q130719081</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <standOff>
+      <listEvent>
+         <event type="print" when="1740-06-01">
+            <desc/>
+         </event>
+         <event type="print" when="1740">
+            <desc/>
+         </event>
+      </listEvent>
+   </standOff>
+   <text>
+      <front/>
+      <body/>
+   </text>
+</TEI>

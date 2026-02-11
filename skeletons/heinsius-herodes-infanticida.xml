@@ -1,0 +1,55 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="neolat000076"
+     xml:lang="lat">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Herodes infanticida</title>
+            <title type="sub">Tragoedia</title>
+            <author>
+               <persName xml:lang="lat">
+                  <forename>Daniel</forename>
+                  <surname>Heinsius</surname>
+               </persName>
+               <idno type="wikidata">Q918731</idno>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="dracor">DraCor</publisher>
+            <idno type="URL">https://dracor.org</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <name>Census Nederlands Toneel (Ceneton)</name>
+               <idno type="URL">https://www.hum2.leidenuniv.nl/Dutch/Ceneton/HeinsiusHerodes1632.html</idno>
+            </bibl>
+            <bibl type="originalSource">
+               <title>Danielis Heinsii Herodes infanticida. Tragoedia. Leiden: Ex Officinâ Elzeviriana 1632.</title>
+               <idno type="URL">https://books.google.nl/books?id=mzw8AAAAcAAJ&amp;printsec=frontcover&amp;dq=herodes+infanticida&amp;hl=nl&amp;sa=X&amp;ei=UsX2UcPCEo3VPK30gJgJ&amp;ved=0CDQQ6AEwAA#v=onepage&amp;q=herodes%20infanticida&amp;f=false</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="genreTitle">tragedy</term>
+            </keywords>
+            <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <standOff>
+      <listEvent>
+         <event type="print" when="1632">
+            <desc/>
+         </event>
+      </listEvent>
+   </standOff>
+   <text>
+      <front/>
+      <body/>
+   </text>
+</TEI>
