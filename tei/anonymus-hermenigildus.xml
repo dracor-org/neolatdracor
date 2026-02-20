@@ -1,0 +1,937 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI type="dracor" xml:id="neolatXXXXXX" xml:lang="la" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Hermenigildus</title>
+        <author>
+          <persName xml:lang="la">Anonymus</persName>
+        </author>
+        <respStmt>
+          <resp>Transcribed by</resp>
+          <persName>Nicholas De Sutter</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Converted to TEI by</resp>
+          <persName>Nicholas De Sutter</persName>
+        </respStmt>
+        <funder>
+          <orgName>FWO</orgName>
+          <name>Check!</name>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <authority>KU Leuven</authority>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <bibl type="originalSource">Check!</bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="leov">
+            <persName>Leov.</persName>
+          </person>
+          <person xml:id="miles">
+            <persName>Miles.</persName>
+          </person>
+          <person xml:id="nobilis-primus">
+            <persName>Nobilis primus.</persName>
+          </person>
+          <person xml:id="recar">
+            <persName>Recar.</persName>
+          </person>
+          <person xml:id="unknown">
+            <persName>Unknown</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Check!</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Check!</classCode>
+      </textClass>
+      <creation>
+        <region>
+          <ref target="https://www.wikidata.org/wiki/Check!">Check!</ref>
+        </region>
+      </creation>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/neolatXXXXXX"/>
+    </listRelation>
+    <listEvent/>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart>
+            <lb/>Hermenigildus princeps Hispaniae pro fide certans, patiens, occumbens. </titlePart>
+        </docTitle>
+      </titlePage>
+      <div type="argument">
+        <head>ARGUMENTUM</head>
+        <sp who="#unknown">
+          <p>Hermenigildus Levigildi Gotorum regis Ariani Catholicus Filius fidei odio a Patre bello
+            victus ad aras confugerat, adfino patri Recaredus, nati minor, parataque patris ira in
+            gratiam fratrem reducit, sed eum Gosuinta Noverca Ariana confictis apud patrem calumniis
+            traducit, et ad carcerem compellit, adfuisset denuo fratri Recaredus, altera Vice
+            exorata iam Venia, nisi interea precipiti patris ira capite plexus fuisset. quod
+            communionem is Ariano Episcopo in paschate accipere noluisset. Martyri Caelites auditi
+            sinit applaudisse mortuo sero accurrens Recaredus, fratris exemplo ad fidem convertitur,
+            supervenit pater et facti poenitet.</p>
+          <p>Baron. A.o 579.</p>
+        </sp>
+      </div>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <div type="scene" n="1">
+          <head>ACTUS PRIMUS</head>
+          <div type="argument">
+            <p>Hermenigildus pro fide certat.</p>
+            <head>Scena prima</head>
+            <p>Hermenigildus a patre victus ad aras fugit. Recaredus supplex a patre impetrat ut
+              fratrem fide data ad patrem reducat.</p>
+            <p>
+              <speaker>Hermen.</speaker>Resiste miles, turpior strage est fuga</p>
+            <p>Ignava, morte turpior mortis timor</p>
+            <p>Lubet ire contra: quis retro flexit pedes,</p>
+            <p>Gressumque prohibet? Non timor cogit fugam</p>
+            <p>Sed trepida pietas; natus hinc et hinc pater.</p>
+            <p>I, perge; ad aras fugis (si feci scelus)</p>
+            <p>Pia expiare crimen ut possim fuga.</p>
+            <p>Sin iusta gessi bella, supremas pium</p>
+            <p>Sim spolium ad aras; sequere fugientem ducem.</p>
+            <p>
+              <speaker>Leov.</speaker>Quonam ille patris gnatus effugit manus?</p>
+            <p>Pudet videri; vindicem sceleris patrem</p>
+            <p>Pudet videre; servus est facti pudor:</p>
+            <p>Ubi occupatum est, tum solet sceleri impius</p>
+            <p>Dare terga, et ipsum scelera destituunt sua.</p>
+            <p>Scrutare miles abditos latebris specus,</p>
+            <p>Rupesque et antra, et noctis et Stygis loca;</p>
+            <p>Numquam diu scelestus in tuto latet.</p>
+            <p>
+              <speaker>Recar.</speaker>Rex magne, mitis semper et Rex et pater!</p>
+            <p>Pro fratre fratrem supplicem ad genua patris</p>
+            <p>Tantisper audi, donec ut iusto licet</p>
+            <p>Sed concitato saepe sibi praeceps modum</p>
+            <p>Animus furori statuat; afflicto moram</p>
+            <p>Concedo, liceat patris amplecti ut pedes,</p>
+            <p>Scelus execrari, vindici manus dare.</p>
+            <p>
+              <milestone unit="speech"/>Miserere! <speaker>Leov.</speaker>
+              <milestone unit="speech"/>Sceleris impia est miseratio.</p>
+            <p>
+              <speaker>Recar.</speaker>
+              <milestone unit="speech"/>Tuo ipse sanguini! <speaker>Leov.</speaker>
+              <milestone unit="speech"/>Impio, quod sit meus.</p>
+            <p>
+              <speaker>Recar.</speaker>Aliquando pietas pulsa sit quamvis, redit.</p>
+            <p>
+              <speaker>Leov.</speaker>Vere scelestum impunitas fecit reum.</p>
+            <p>
+              <speaker>Recar.</speaker>
+              <milestone unit="speech"/>Est natus. <speaker>Leov.</speaker>
+              <milestone unit="speech"/>Adde et patricida est. <speaker>Recar.</speaker>
+              <milestone unit="speech"/>Es pater.</p>
+            <p>
+              <speaker>Leov.</speaker>Cui sim, vides. O nomen invisum patris</p>
+            <p>Gnatique quod me parcere ut vellem, tenet!</p>
+            <p>
+              <speaker>Recar.</speaker>
+              <milestone unit="speech"/>Per spes tuorum! <speaker>Leov.</speaker>
+              <milestone unit="speech"/>Quas pius gnatus facit.</p>
+            <p>
+              <speaker>Recar.</speaker>
+              <milestone unit="speech"/>Per sceptra! <speaker>Leov.</speaker>
+              <milestone unit="speech"/>Ferro rapere quae studuit patri.</p>
+            <p>
+              <speaker>Recar.</speaker>
+              <milestone unit="speech"/>Per fidem et amorem. <speaker>Leov.</speaker>
+              <milestone unit="speech"/>Nempe quae violat prior.</p>
+            <p>
+              <speaker>Recar.</speaker>
+              <milestone unit="speech"/>Iam posuit arma. <speaker>Leov.</speaker>
+              <milestone unit="speech"/>Victor excussit pater.</p>
+            <p>
+              <speaker>Recar.</speaker>Per (si qua nostra est) militum et procerum fidem,</p>
+            <p>Et tot tuorum vulnera, supremum (precor)</p>
+            <p>Audire fratrem liceat, et misero dare</p>
+            <p>
+              <milestone unit="speech"/>Consilia saniora. <speaker>Leov.</speaker>.
+              <milestone unit="speech"/>Quid patrem tenes?</p>
+            <p>Pietate peccas; aemulum regni foves</p>
+            <p>
+              <milestone unit="speech"/>Tibi destinati. <speaker>Recar.</speaker>
+              <milestone unit="speech"/>Frater est potior mihi</p>
+            <p>
+              <milestone unit="speech"/>Regno et corona. <speaker>Leov.</speaker>
+              <milestone unit="speech"/>Precibus hoc dabo tuis,</p>
+            <p>Ut si (priusquam crastina occumbet dies)</p>
+            <p>Se sistat ultro scelera detestans sua,</p>
+            <p>Supplex, inermis, sentiet mitem patrem.</p>
+            <p>Sin renuat, iram sentiet et hostem patrem.</p>
+            <p>
+              <speaker>Recar.</speaker>Ibo, ibo; telis obvium opponam caput,</p>
+            <p>Et impia arma frater appositus manu</p>
+            <p>Fratris tenebo. Petere si patrem volet,</p>
+            <p>Petet ante fratrem: tela (si fuerit pius)</p>
+            <p>Rogante ponet fratre; si non est pius,</p>
+            <p>Incipiet a me. Stabo et arcebo scelus.</p>/act=1, scene=2/<head>Scena secunda.</head>
+            <p>Recaredus fratrem inducit ut sua interposita fide ipse se patri supplex sistat</p>
+            <p>
+              <speaker>Hermen.</speaker>Sacrata Divis ara, supremum meae</p>
+            <p>Sortis theatrum, semper extremum suis</p>
+            <p>Profugis asylum, et ultimus miseris locus,</p>
+            <p>Pius celestis! Arma si fuerint pia,</p>
+            <p>Refero ipse me clademque pro spolio ferens.</p>
+            <p>Sin fecit impia patris aut gnati manus,</p>
+            <p>Ferro expianda. Causa cur gessi bona est,</p>
+            <p>
+              <milestone unit="speech"/>Mala est gerentis. <speaker>Nuntius.</speaker>
+              <milestone unit="speech"/>Magne dux, iam iam tuum</p>
+            <p>A Rege princeps missus affatum rogat.</p>
+            <p>
+              <speaker>Hermen.</speaker>Stringantur enses; adsit: est cautus timor</p>
+            <p>Quicumque ab hoste est, cuius est dolus comes.</p>
+            <p>
+              <speaker>Recar.</speaker>
+              <milestone unit="speech"/>Hermenigilde! <speaker>Hermen.</speaker>
+              <milestone unit="speech"/>Quis pepulit aures sonus?</p>
+            <p>
+              <speaker>Recar.</speaker>Dilecte frater! Numquid hoc nomen quoque</p>
+            <p>
+              <milestone unit="speech"/>Exhorruisti? <speaker>Hermen.</speaker>
+              <milestone unit="speech"/>Recarede tu mihi</p>
+            <p>Solus timendus non es; amplexum cape.</p>
+            <p>
+              <speaker>Recar.</speaker>Fratrisne, an hostis? Quid manu strictum tenes</p>
+            <p>Mucronem? Et arma quod petunt letho caput?</p>
+            <p>Fratris, patrisne? Clude vagina impium</p>
+            <p>Ensem, et trementem quamque cupientem excuti</p>
+            <p>Hastam solo defige. Fraternum tuo</p>
+            <p>Coire pectus pectori clypeus vetat;</p>
+            <p>Et hunc repone. Cassidem fronti eripe</p>
+            <p>Piae scelestam. Redde te, ut videam, mihi.</p>
+            <p>Quis in nefanda tam pias semper manus</p>
+            <p>Coegit arma? Stupeo et exsanguis tremo,</p>
+            <p>Cum stare gnatum hinc video, et hinc acie patrem</p>
+            <p>Sceleris sub ictu. Precibus ego stiti patrem,</p>
+            <p>Te sors, utrumque numen, ut praeceps adhuc</p>
+            <p>Furor vocetur, quidquid admissum est nefas.</p>
+            <p>Fratri manum concede, dum pia est; prior</p>
+            <p>Tu pone ferrum, cuius est regi et patri</p>
+            <p>Cedere priorem; suadeo, quod sors iubet.</p>
+            <p>Quid vana metuis? Ille te, tu Illum times,</p>
+            <p>
+              <milestone unit="speech"/>Ego pro utroque. <speaker>Hermen.</speaker>
+              <milestone unit="speech"/>Pectus o liceat meum</p>
+            <p>Tibi reserare, et intimos animi sinus</p>
+            <p>Recarede! Ferrum (testor) invitus tuli,</p>
+            <p>Sed ferre cogor, et reluctantem manum</p>
+            <p>Capulo admovere. Conscium testor Deum,</p>
+            <p>Pro me arma cogit ferre non in te pater</p>
+            <p>
+              <milestone unit="speech"/>Necessitatis dura vis. <speaker>Recar.</speaker>
+              <milestone unit="speech"/>Iustum licet,</p>
+            <p>Pone hunc furorem; bella quae in patrem geris</p>
+            <p>Pro te esse credis. Pars quota est, quota est tui</p>
+            <p>In quem lubet pugnare victor? Hinc premit</p>
+            <p>Et rursus illinc; clade quid cladem obruis</p>
+            <p>Scelusque scelere? Quale tu id bellum putas,</p>
+            <p>In quo optimum est vinci, pudor vicisse? Age;</p>
+            <p>Favisse votis caelites credas tuis.</p>
+            <p>Tunc ut parentis spolia deiecti gerens</p>
+            <p>Agas triumphum? Perque calcatum patris</p>
+            <p>Victor cadaver impium scandas thronum?</p>
+            <p>Malesuade miles, praemium incertum petis</p>
+            <p>Certum scelus; sed perge, si placuit, scelus</p>
+            <p>Ego cumulabo; sanguinem hunc prius bibes.</p>
+            <p>
+              <speaker>Hermen.</speaker>Amor nimis violente! Quo miserum trahis</p>
+            <p>Retrahisque? Quod iubes, vetas coeptis tuis</p>
+            <p>Male ominate! Potero conspectum patris</p>
+            <p>
+              <milestone unit="speech"/>Subire? <speaker>Recar.</speaker>
+              <milestone unit="speech"/>Fratrem, tesseram et pignus, tenes</p>
+            <p>Fidei et amoris. Crede, iam posuit pater,</p>
+            <p>Aut ponet iras, supplices quando duos</p>
+            <p>
+              <milestone unit="speech"/>Natos videbit. <speaker>Hermen.</speaker>
+              <milestone unit="speech"/>Nisi pater iudex foret,</p>
+            <p>
+              <milestone unit="speech"/>Nihil timerem. <speaker>Recar.</speaker>
+              <milestone unit="speech"/>Nempe tunc metue patrem,</p>
+            <p>Cum stabit acie miles, et victor suum</p>
+            <p>Cum coget agmen terga fugientis premens.</p>
+            <p>
+              <speaker>Hermen.</speaker>Mihi crede frater; saepe metuendus magis</p>
+            <p>
+              <milestone unit="speech"/>Iratus amor est. <speaker>Recar.</speaker>
+              <milestone unit="speech"/>Frater insidas et hinc</p>
+            <p>Et rursus illinc abiget amplexu. Tegam</p>
+            <p>Fratrem, tuumque per meum prius latus</p>
+            <p>
+              <milestone unit="speech"/>Transibit ensis. <speaker>Hermen.</speaker>
+              <milestone unit="speech"/>Liceat o liceat tuum</p>
+            <p>Amplecti amorem! Testor invitus sequor,</p>
+            <p>Sed te sequor Recarede, tu fratrem trahis</p>
+            <p>Animae meae pars magna, sed nimium potens.</p>
+            <p>Depone ferrum miles, in pugnam novam</p>
+            <p>Ruitur inermis; sequere fortunam ducis.</p>/act=1, scene=3/<head>Scena tertia.</head>
+            <p>Adest Hermenigildus, patrique supplex in gratiam redit.</p>
+            <p>
+              <speaker>Nobilis primus</speaker>. Io ter io! Vincat et victos domet</p>Rex contumaces
+            subditos, gratum pater! <stage>Repp.</stage>
+            <p>
+              <speaker>Leov.</speaker>Tandem rebelles, perfidos Regi et polo,</p>
+            <p>Tumultuantes spiritus regno graves,</p>
+            <p>Fractos subactos video. Iam Marti satis</p>
+            <p>Datum est; dat hostis terga, dat victus manus,</p>
+            <p>Et Rex triumphat. Otia proceres mei</p>
+            <p>Celebrate: ludos proelia exhausta expetunt.</p>
+            <stage>TRIPUDIUM</stage>
+            <stage>In quo tot tripudiantes quot litterae in nomine.</stage>
+            <stage>LEVIGILDO</stage>
+            <stage>Anagramma</stage>
+            <stage>LEO VIGIL</stage>
+            <stage>Littera quae superest arcum facit illa Leoni</stage>
+            <stage>Quoque caret numero sic habet illa suum.</stage>
+            <stage>Arcus cum Vigili bene convenit, arma Leoni</stage>
+            <stage>Queis pugnis arcum Delia, dixit, habe.</stage>
+            <p>
+              <speaker>Hispania.</speaker>Victor triumpha qualis ex omnis soles</p>
+            <p>Labore maior, vive et aeternum impera.</p>
+            <p>Unum tamen, sed parce si liceat tua</p>
+            <p>Rogare, amicis compati infestis quidem,</p>
+            <p>Miseris tamen, poenatibus pulsis suis,</p>
+            <p>Nostrisque civibus. Ille, quem fundis, tuus</p>
+            <p>Tuus ille sanguis, militum et procerum cruor</p>
+            <p>Ille est tuorum; mutuis armis cado.</p>
+            <p>Hinc cerno cladem qui intulit, et hinc qui tulit,</p>
+            <p>Uterque meus est; quod volo bonum alteri</p>
+            <p>Demens precari, fiet alterius malo.</p>
+            <p>Ecquando belli cladibus laetus tuis</p>
+            <p>Funeste victor, afferes tandem modum</p>
+            <p>Finemque caedibus? Ille, quem tantis petis,</p>
+            <p>Infestus armis, viscera et sanguis tuus,</p>
+            <p>Regni et coronae, magna spes, gratus patri</p>
+            <p>Prostratus, exul, profugus incerti laris</p>
+            <p>Patris sui fugit iram, et extorris iacens</p>
+            <p>Vel hostibus miserandus, ultorem timet.</p>
+            <p>Miserere! Sat sit vindici, victus iacet.</p>
+            <p>Sic saevus ille nobile Hispaniae Leo</p>
+            <p>Insigne gentis, unguibus praedae immines</p>
+            <p>Parcit, nec instans morsibus miseram premit;</p>
+            <p>Prostrasse satis est. Sit suum satis patri</p>
+            <p>Prostrasse gnatum, sit suum regi satis</p>
+            <p>Domuisse subditum. Hoc tui proceres rogant,</p>
+            <p>Supplexque populus, principes hoc te tui,</p>
+            <p>Regnique publica orat afflicti salus.</p>
+            <p>
+              <speaker>Leov.</speaker>Equidem meorum, strage qui misera iacent,</p>
+            <p>Quemque ipse fudi, sanguinis miseret mei.</p>
+            <p>Fuit secandum vulnus immedicabile;</p>
+            <p>Nunc mitiori, ubi fracta vis mali est, manu</p>
+            <p>Tractare, miseris parcere in voto est mihi.</p>
+            <p>
+              <speaker>Nuntius.</speaker>Rex magne, supplex patris affatum rogat</p>
+            <p>Hermenigildus; frater it lateri comes.</p>
+            <p>
+              <speaker>Leov.</speaker>Adsit: age saevos anime vultus indue</p>
+            <p>
+              <milestone unit="speech"/>Iusti indices adhuc furoris. <speaker>Recar.</speaker>
+              <milestone unit="speech"/>Rex! Pater!</p>
+            <p>
+              <speaker>Leov.</speaker>
+              <milestone unit="speech"/>Hermenigilde sic amas patrem? <speaker>Hermen.</speaker>
+              <milestone unit="speech"/>Reum</p>
+            <p>Habes fatentem: fateor admisi omnia.</p>
+            <p>Nullum potest esse grave supplicii genus</p>
+            <p>Nisi pater hostis; spiritum licet auferas</p>
+            <p>Hunc, quem dedisti, redde tu modo te mihi.</p>
+            <p>
+              <speaker>Recar.</speaker>In me arma stringe genitor, in meum caput</p>
+            <p>Redundet ira; divide furorem in duos.</p>
+            <p>
+              <speaker>Leov.</speaker>O quam potenti sanguinem vinclo tenes</p>
+            <p>Natura! Amorque patris o nimium petens!</p>
+            <p>Etiam in furore redde complexum patri</p>
+            <p>Hermenigilde! Quid meos retines pedes,</p>
+            <p>Fusisque genua lacrymis tacitus rigas?</p>
+            <p>Assurge; dextram, quam times, tandem accipe</p>
+            <p>Totumque patrem. Lugubrem vestem exue</p>
+            <p>Oculisque nostris parce. Dolor, odia, timor</p>
+            <p>Utrimque cessent: quid potuit in te pater</p>
+            <p>Peccare tantum, ut fingeres hostes tibi?</p>
+            <p>
+              <speaker>Hermen.</speaker>Tua genitor, tua me mihi pietas facit</p>
+            <p>
+              <milestone unit="speech"/>Nocentiorem. <speaker>Leov.</speaker>
+              <milestone unit="speech"/>Signa laetitiae sonent,</p>
+            <p>Luctusque cesset: festus his eat dies.</p>/act=2, scene=1/<head>ACTUS SECUNDUS</head>
+            <p>Hermenigildus pro fide patitur</p>
+            <head>Scena prima.</head>
+            <p>Gosuinta fidei katholicae odio confictis perduellionis litteris suos hortatur ut
+              Hermenigildum accusent.</p>
+            <p>
+              <speaker>Gos.</speaker>Ignava! Vecors! Regio sedeat throno</p>
+            <p>Hermenigildus, hostis et patriae et patris</p>
+            <p>Meus et Arii? Spiritum opponam ultimum,</p>
+            <p>Superosque mecum et inferos, fas et nefas.</p>
+            <p>Reperi. Quid haeres? Fiat hoc, fiat tamen.</p>
+            <p>Natura prohibet: iura naturae nihil</p>
+            <p>Prohibent novercae; sanguis hic non est meus.</p>
+            <p>Aut pereat, aut me perimat. Has putas manus</p>
+            <p>Hermenigilde ludere? Et leves putas</p>
+            <p>Iras novercae? Senties, quas non times.</p>
+            <p>Iam posuit iras, arma iam posuit pater;</p>
+            <p>Gosuinta nondum posuit; in pugnam novam</p>
+            <p>Accingere; scies tela quis melius vibret,</p>
+            <p>Pater an noverca. Parte, qua ignoras, mea</p>
+            <p>Te tela ferient, diriget dolus manum.</p>
+            <p>Tutum patris speras amorem? Sic fretum</p>
+            <p>Suis stat undis, unda sic levibus notis;</p>
+            <p>Et huc et illuc, quo lubet, referam et feram</p>
+            <p>Vertamque amorem: litterae facient fidem.</p>
+            <p>Suas negabit? Ah nimis similes suis</p>
+            <p>Dictante me! Illas artifex pinxit manus.</p>
+            <p>Huc adsit aulae prima nobilium manus;</p>
+            <p>Ego cogitare, si facere consilia solent.</p>
+            <p>
+              <speaker>Nobilis primus.</speaker>Habe obsequentes nutibus quotquot vides</p>
+            <p>
+              <milestone unit="speech"/>Regina. <speaker>Gos.</speaker>
+              <milestone unit="speech"/>Vestrum miseret et regni status,</p>
+            <p>Nisi perduelles vos quoque atque hostes meos</p>
+            <p>
+              <milestone unit="speech"/>Vultis videri. <speaker>Nobilis secundus.</speaker>
+              <milestone unit="speech"/>Quisquis est hostis tuus,</p>
+            <p>
+              <milestone unit="speech"/>Regina noster est. <speaker>Gos.</speaker>
+              <milestone unit="speech"/>Fidem agnosco mihi</p>
+            <p>Totius probatam. Pessimam regni luem</p>
+            <p>Abolere certum est, stante qua regnum cadet.</p>
+            <p>
+              <speaker>Nobilis tertius.</speaker>Quae nova lues, quae pestis exitiabilis</p>
+            <p>Exarsit iterum? Bella quae restant nova?</p>
+            <p>
+              <speaker>Gos.</speaker>Cum stabat acie miles, ambiguae suae</p>
+            <p>Utrimque palmae, bella tunc timui parum:</p>
+            <p>Sed arma postquam posuit et manus dedit.</p>
+            <p>Coepi timere; nempe tunc hostis magis</p>
+            <p>Saepe est timendus, quando nil victor timet.</p>
+            <p>Hydram Leovigilde tu regni sonus</p>
+            <p>Repellulantem; bella restaurat nova,</p>
+            <p>Tibi notus hostis, hostis et regni et meus</p>
+            <p>
+              <speaker>Hermen.</speaker>Arma Romanus parat;</p>
+            <p>Romana fulgent signa, iam regem suum</p>
+            <p>Fideique principem Italus Hispaniam vocat.</p>
+            <p>Hae litterae, quas fraude detexi mea,</p>
+            <p>Sunt patricidae signa non dubia manus.</p>
+            <p>Properate proceres debitam regi fidem.</p>
+            <p>
+              <speaker>Nobilis secundus.</speaker>Coniungite enses, dexteras, animos, fidem.</p>
+            <p>OmnesHermenigildus hostes et patriae et tuus</p>
+            <p>Nosterque donec pereat et scelere occidat.</p>
+            <p>
+              <speaker>Gos.</speaker>Recludite arma, res fidem, non vim petit.</p>
+            <p>Vos nuntios fidos mihi et testes volo,</p>
+            <p>Deferre regi litteras notae manus;</p>
+            <p>Quod restat, ille sit meus tantus labor.</p>
+            <p>
+              <speaker>Nobilis secundus.</speaker>Iam destinatas litteras regi puta.</p>/act=2,
+              scene=2/<head>Scena secunda.</head>
+            <p>Litteras fictae perduellionis accipit Levigildus exprobrataque perfidia, et fide
+              katholica in carcerem compelli iubet Hermenigildum.</p>
+            <p>
+              <speaker>Leov.</speaker>Iam nube pulsa laetior caelo micans</p>
+            <p>Sereniorem Phoebus advexit diem.</p>
+            <p>Hermenigilde gratior vel sic patri</p>
+            <p>Et ut ante carus vive; sed serva fidem</p>
+            <p>Haeresque regni patrii patrem cole.</p>
+            <p>Quid ista procerum turba tam laeto die</p>
+            <p>Gemuere? Tacitus ora quis pressit dolor?</p>
+            <p>Effare prime regii lateris comes.</p>
+            <p>
+              <speaker>Nobilis primus.</speaker>
+              <milestone unit="speech"/>Tacere liceat. <speaker>Leov.</speaker>
+              <milestone unit="speech"/>Qui tacet, cumulat mala;</p>
+            <p>Iuvatque crimen, quodque non fecit, facit.</p>
+            <p>
+              <speaker>Nobilis primus.</speaker>Cupies scelus nescisse, si authorem scias.</p>
+            <p>
+              <speaker>Leov.</speaker>Si lateat author, scire non iuvat scelus.</p>
+            <p>
+              <speaker>Nobilis primus.</speaker>Utinam lateret! Adstat, hic adstat palam.</p>
+            <p>
+              <speaker>Leov.</speaker>
+              <milestone unit="speech"/>Eloquere iubeo. <speaker>Nobilis primus.</speaker>
+              <milestone unit="speech"/>Litterae notae manus</p>
+            <p>Pro me loquentur; plura non sinit timor.</p>
+            <p>
+              <speaker>Hermen.</speaker>Timere fidi subditi regem vetant,</p>
+            <p>Natique patrem. Quisquis in patrem impius</p>
+            <p>Molitur aliquid, hoc prius pectus petet.</p>
+            <p>
+              <speaker>Leov.</speaker>O subdole! patri Ingrate! Sperasti scelus</p>
+            <p>Te posse dissimulare? Iam nota est manus</p>
+            <p>Bis perduellis. Proditor, patriae lues,</p>
+            <p>
+              <milestone unit="speech"/>Bis patricida. <speaker>Hermen.</speaker>
+              <milestone unit="speech"/>cuius in caput novum</p>
+            <p>Scelus redundat? Quem reum pater arguis?</p>
+            <p>
+              <speaker>Leov.</speaker>O sceleris expertem manum! o semper piam!</p>
+            <p>I bellicose, militem Romae pete,</p>
+            <p>Et Christianos regni in exitium lege.</p>
+            <p>Regnabis, et (quod amplius), pulso patre</p>
+            <p>Pulsoque Ario, en tesseras fide manus.</p>
+            <p>
+              <speaker>Hermen.</speaker>Dehisce tellus, tuque Styx imos sinus</p>
+            <p>Phlegetonte toto pande; vel potius tuum</p>
+            <p>Supreme Caeli rector atque hominum arbiter</p>
+            <p>Iudexque, numen invoco ac testor tuum.</p>
+            <p>
+              <speaker>Leov.</speaker>Haec prima lex est impiis, numquam scelus</p>
+            <p>
+              <milestone unit="speech"/>Suum fateri. <speaker>Hermen.</speaker>
+              <milestone unit="speech"/>ego pater mi, ego hoc scelus?</p>
+            <p>
+              <speaker>Leov.</speaker>Novum in parentem crimen et scelus putas.</p>
+            <p>
+              <speaker>Hermen.</speaker>Imo execrandum, turpe, detestabile.</p>
+            <p>O machinator fraudis! O scelerum artifex!</p>
+            <p>Hoc subdoli, hoc est pectoris facinus tui.</p>
+            <p>
+              <speaker>Leov.</speaker>
+              <milestone unit="speech"/>ad hoc redisti? <speaker>Hermen.</speaker>
+              <milestone unit="speech"/>redii, ut arcerem nefas,</p>
+            <p>
+              <milestone unit="speech"/>Non ut patrarem. <speaker>Leov.</speaker>
+              <milestone unit="speech"/>perge, caepisti bene:</p>
+            <p>Quem prope necasti, tolle de medio patrem.</p>
+            <p>
+              <speaker>Hermen.</speaker>Prohibete superi: dubia si mea est fides;</p>
+            <p>Fidem probabo sanguine effuso pater.</p>
+            <p>
+              <speaker>Leov.</speaker>Et tu parentem me vocas? Non sum pater.</p>
+            <p>
+              <speaker>Hermen.</speaker>
+              <milestone unit="speech"/>Certe fuisti. <speaker>Leov.</speaker>
+              <milestone unit="speech"/>fateor; at dum tu prius</p>
+            <p>Natum exuisti, pater ego esse desii.</p>
+            <p>Non me parentem senties, sed iudicem.</p>
+            <p>
+              <speaker>Hermen.</speaker>Amo parentis, Iudicis (quia innocens)</p>
+            <p>
+              <milestone unit="speech"/>Non timeo nomen. <speaker>Leov.</speaker>
+              <milestone unit="speech"/>tale patrasti scelus,</p>
+            <p>Quod nullus umquam fecit, et quod vix putet</p>
+            <p>Potuisse fieri, qui retro veniet dies;</p>
+            <p>Et innocentem te vocas? Quod te nefas</p>
+            <p>
+              <milestone unit="speech"/>Facere nocentem posset? <speaker>Hermen.</speaker>
+              <milestone unit="speech"/>Hoc quod me putas</p>
+            <p>Fecisse; vel me Iudice est dignus nece,</p>
+            <p>
+              <milestone unit="speech"/>Hoc quisquis ausus est facinus. <speaker>Leov.</speaker>
+              <milestone unit="speech"/>ergo tuis</p>
+            <p>Unum hoc sceleribus deerat, ut neces? pudor!</p>
+            <p>Compesce linguam: milites nondum tui</p>
+            <p>Venere, nondum Roma suppetias tulit.</p>
+            <p>
+              <speaker>Hermen.</speaker>Tacebo; pro me pauca si negas pater</p>
+            <p>
+              <milestone unit="speech"/>Audire. <speaker>Leov.</speaker>
+              <milestone unit="speech"/>Loquere: signa sed manus tuae</p>
+            <p>
+              <milestone unit="speech"/>Pro te loquuntur. <speaker>Hermen.</speaker>
+              <milestone unit="speech"/>Nempe quae nimium bene,</p>
+            <p>Aliena pinxit; finxit ingenium efferum.</p>
+            <p>
+              <speaker>Nobilis primus.</speaker>Quae fraude cogit et arte detexit sua</p>
+            <p>Gosuinta, fida patriae semper parens.</p>
+            <p>
+              <speaker>Hermen.</speaker>Gosuinta? Teneo. Fraude et invidia mihi</p>
+            <p>Nota es noverca: hoc ultimum telum tui est</p>
+            <p>
+              <milestone unit="speech"/>In me furoris. <speaker>Leov.</speaker>
+              <milestone unit="speech"/>I, patris thalamos puer</p>
+            <p>Etiam lacesse; scelera sic pius expias</p>
+            <p>Cumulando. solus, video, non fuerit satis</p>
+            <p>Tibi pater hostis, mater Invidiae est comes.</p>
+            <p>Pius es, utrique degener. Regi et Deo</p>
+            <p>Toties rebellis, execrans quidquid patri</p>
+            <p>Charum est sacrumque. vilis Arius tibi est,</p>
+            <p>Scio, priscaque proavum impio calcans pede</p>
+            <p>Monumenta, Romae signa sectaris nova.</p>
+            <p>
+              <milestone unit="speech"/>Desertor! hoc etiam nega? <speaker>Hermen.</speaker>
+              <milestone unit="speech"/>oc unum est mihi,</p>
+            <p>Pater, nefas negare, quod nefas vocas.</p>
+            <p>Sum Christianus, fateor, Arium execror;</p>
+            <p>Fui scelestus, si fidem scelus voces.</p>
+            <p>Sin perduellem, perfidum, atque hostem arguis</p>
+            <p>Patri fuisse, bella molitum nova,</p>
+            <p>Possum negare; quodque non feci scelus,</p>
+            <p>
+              <milestone unit="speech"/>Scelus est fateri. <speaker>Leov.</speaker>
+              <milestone unit="speech"/>Laudo generosam Indolem</p>
+            <p>Accuminose, quid patrem deceat, doces.</p>
+            <p>Abripite monstrum; carcerem I miles para:</p>
+            <p>Disces, quid Iram regis, et patris, et Dei</p>
+            <p>Sit concitasse; Iam Satis verbis datum.</p>
+            <p>
+              <speaker>Hermen.</speaker>
+              <milestone unit="speech"/>Parce innocenti! <speaker>Recar.</speaker>
+              <milestone unit="speech"/>Genitor! <speaker>Leov.</speaker>
+              <milestone unit="speech"/>Absiste; et scelus</p>
+            <p>Tegere scelestum patriae et patri puta.</p>
+            <p>
+              <speaker>Recar.</speaker>
+              <milestone unit="speech"/>Hermenigilde! <speaker>Hermen.</speaker>
+              <milestone unit="speech"/>Frater! <speaker>Recar.</speaker>
+              <milestone unit="speech"/>O quantos mihi</p>
+            <p>Paris dolores, me duce in luctus redis.</p>/act=3, scene=1/<head>ACTUS TERTIUS</head>
+            <p>HERMENIGILDVS PRO FIDE OCCUMBIT</p>
+            <head>Scena 1a</head>
+            <p>Hermenigildo in Carcere dum patrem frater exorat, adest mox Episcopus Arianus,
+              communionem afferens, aut mortem, mortem ille amplectitur et subit.</p>
+            <p>
+              <speaker>Hermen.</speaker>Recarede, charum Pignus, extremum vale,</p>
+            <p>Memorque nostri sceptra en favo rege</p>
+            <p>Beatiori; sentio mortem sibi</p>
+            <p>
+              <milestone unit="speech"/>Mens auguratur. <speaker>Recar.</speaker>
+              <milestone unit="speech"/>Augur o nimium ferox!</p>
+            <p>Egone sceptra sanguine et fratris nece</p>
+            <p>Nimium pudenda, funeri insultans tuo</p>
+            <p>Avida manu tractabor? Te moriens simul</p>
+            <p>Sequar usque. quid me teque in exitium trahis</p>
+            <p>Primo in Iuventae Flore? Da tantum mihi</p>
+            <p>Tibique et Irae patris, ut simules fidem.</p>
+            <p>
+              <speaker>Hermen.</speaker>Recarede nescis, impium Deo facit</p>
+            <p>Fraterna Pietas. durior morte est mihi</p>
+            <p>Vita empta scelere. veniet, ah veniet dies</p>
+            <p>Si vera moriens auguror) veniet dies</p>
+            <p>Regnante cum te vera Christiadum fides</p>
+            <p>Frater vigebit. ultimum amplexum cape,</p>
+            <p>
+              <milestone unit="speech"/>Recarede frater! et vale. <speaker>Recar.</speaker>
+              <milestone unit="speech"/>Quid? Ut queam</p>
+            <p>Sine te valere? causave ut mortis ferar</p>
+            <p>Hermenigildi? si meae te non preces</p>
+            <p>Lacrymaeque flectant; at sive ut flectam patrem.</p>
+            <p>Ibo Ibo, mortique obvium pectus feram</p>
+            <p>
+              <milestone unit="speech"/>Vitamque pro te. <speaker>Hermen.</speaker>
+              <milestone unit="speech"/>Siste, quid vanas preces</p>
+            <p>Pro me cupis tentare? Quam pro me geris</p>
+            <p>Depone curam. Liceat ah liceat mori!</p>
+            <p>Mihi luce mors est charior: mori iuvat,</p>
+            <p>Dum Christiana pro fide datur mori</p>
+            <p>Iubente patre! Nulla lux unquam meis</p>
+            <p>Affulget oculis gratior, quam pro Deo</p>
+            <p>Mihi quae futura est ultima. o faustum diem!</p>
+            <p>Tuque o Iesu! Sola spes Iesu mea!</p>
+            <p>
+              <speaker>Episcop.</speaker>Magnanime princeps nuntium Invitus fero</p>
+            <p>Heu luctuosum! Pascha si proavum negas</p>
+            <p>Celebrare ritu. Iussa si recipis sacra,</p>
+            <p>concessa vita est; sin negas, turpem necem</p>
+            <p>
+              <milestone unit="speech"/>Nocte hac subibis. <speaker>Hermen.</speaker>
+              <milestone unit="speech"/>O die noctem mihi</p>
+            <p>Iucundiorem! Lictor, I, ferrum para:</p>
+            <p>
+              <milestone unit="speech"/>O expetitum nuntium! <speaker>Episcop.</speaker>
+              <milestone unit="speech"/>Siste impetus</p>
+            <p>Nimium feroces; sequere, dum sinit pater,</p>
+            <p>
+              <milestone unit="speech"/>Consilia saniora, <speaker>Hermen.</speaker>
+              <milestone unit="speech"/>Sic suades mihi</p>
+            <p>
+              <milestone unit="speech"/>Scelerate mysta? <speaker>Episcop.</speaker>
+              <milestone unit="speech"/>Sic iubet rex et Deus.</p>
+            <p>
+              <speaker>Hermen.</speaker>Romana me lex, quid Deus Iubeat, docet.</p>
+            <p>
+              <speaker>Episcop.</speaker>Parere patri nulla lex gnatis vetat;</p>
+            <p>
+              <milestone unit="speech"/>Omnes docet natura. <speaker>Hermen.</speaker>
+              <milestone unit="speech"/>Si iusta imperat,</p>
+            <p>Obtemperandum est; scelera si Iubeat, scelus</p>
+            <p>
+              <milestone unit="speech"/>Obtemperasse est. <speaker>Episcop.</speaker>
+              <milestone unit="speech"/>Sacra tu proavum vocas</p>
+            <p>
+              <milestone unit="speech"/>Scelesta? <speaker>Hermen.</speaker>
+              <milestone unit="speech"/>Detestanda, vana, et impia.</p>
+            <p>
+              <speaker>Episcop.</speaker>Sacrilega Iubenis verba compescet brevi</p>
+            <p>Mors facta propior, spiritus nimium truces</p>
+            <p>
+              <milestone unit="speech"/>Domabit. <speaker>Hermen.</speaker>
+              <milestone unit="speech"/>Erras, spiritus addet novos;</p>
+            <p>Pro morte vitam, quamque tu invidias, datis</p>
+            <p>
+              <milestone unit="speech"/>Beatiorem. <speaker>Episcop.</speaker>
+              <milestone unit="speech"/>Caece spes caecas foves.</p>
+            <p>
+              <speaker>Hermen.</speaker>Quas tu videre nequis, nec Arius dare.</p>
+            <p>
+              <speaker>Episcop.</speaker>
+              <milestone unit="speech"/>Mori beatum ducis? <speaker>Hermen.</speaker>
+              <milestone unit="speech"/>Ut moriar Deo.</p>
+            <p>
+              <speaker>Episcop.</speaker>Potius iuventae fruere concessis bonis,</p>
+            <p>Patrisque retine sceptra. Me miseret tui.</p>
+            <p>
+              <milestone unit="speech"/>Dux Magne. <speaker>Hermen.</speaker>
+              <milestone unit="speech"/>Quod voves, fragile bonum est;</p>
+            <p>Aeterna nescis: me magis miseret tui.</p>
+            <p>
+              <speaker>Episcop.</speaker>Adeone spernis omne consilium? Et minas</p>
+            <p>Et Iussa fides Patris, Arii, et Dei?</p>
+            <p>Moriere: ferrum lictor, I, Iam Iam expedi;</p>
+            <p>
+              <milestone unit="speech"/>Spes nulla superest. <speaker>Hermen.</speaker>
+              <milestone unit="speech"/>Magna spes superest mihi,</p>
+            <p>Aeterna superest, vota transcendis mea.</p>
+            <p>Nunc vivo, nunc triumpho; nunc metam attigi</p>
+            <p>Tandem dolorum. tempus et brevem moram</p>
+            <p>Concede miles, ut patri verba ultima</p>
+            <p>Fratrique mittam. tu dabis torquem auream</p>
+            <p>A me parenti, amoris in patrem ultimi</p>
+            <p>Parva monumenta. Sanguinem, dices, patri,</p>
+            <p>Dolere natum, quod semel tantum patri</p>
+            <p>Liceat litare; quem licet lubens dabo</p>
+            <p>Modo innocentem, numini et patri pium.</p>
+            <p>Tu Recarede cum osculo crucem feres,</p>
+            <p>Vita, corona, sanguine et terrae bonis</p>
+            <p>Mihi chariorem; charius qua nil fuit</p>
+            <p>Hermenigildo, charius qua nil decet</p>
+            <p>Esse Recaredo. Vos quoque proceres mei</p>
+            <p>
+              <milestone unit="speech"/>Valete. <speaker>Nobilis primus.</speaker>
+              <milestone unit="speech"/>Princeps, spiritum o liceat misi</p>
+            <p>
+              <milestone unit="speech"/>Litare pro te! <speaker>Hermen.</speaker>
+              <milestone unit="speech"/>Lacrymas pro me pias</p>
+            <p>Cohibete. vobis quod darem, nihil dedit</p>
+            <p>Avara sors, nisi sanguinem: hunc debeo Deo</p>
+            <p>Tibique Iesu. liceat hoc in te meum</p>
+            <p>Testari amorem sanguine, et pro me datum</p>
+            <p>Reddere cruorem! sic fuit spinis caput,</p>
+            <p>Manusque clavis sauciae et fixi pedes:</p>
+            <p>Sic latera membra, sic stetit patulum latus</p>
+            <p>Hiansque vulnere; vulnera amplector tua</p>
+            <p>Os ore, pectus pectore, manibus manus,</p>
+            <p>Pedesque pedibus, et sacrum latere latus</p>
+            <p>Totumque Iesum. parce tu sceleri meo</p>
+            <p>Turpesque labes sanguis et lacrymae abluant</p>
+            <p>Tuque (o Maria!) spiritum extremum excipe:</p>
+            <p>Mora nulla Iesu, Sanguinem Iam Iam dabo.</p>
+            <p>Suprema regi obsequia tu praesta tuo.</p>
+            <p>
+              <speaker>Miles</speaker>. O dura fata! O lugubre officii genus!</p>
+            <p>
+              <speaker>Hermen.</speaker>Nunc perage, lictor, iussa; nulla in me mora est.</p>
+            <p>in manus tuas Domine commendo spiritum meum.</p>/act=3, scene=2/<head>Scena
+              secunda.</head>
+            <p>Martyri applaudentes Coelites audiuntur.</p>
+            <stage>MUSICA</stage>
+            <p>Occurrite Martyri</p>
+            <p>O Vos Aligeri</p>
+            <p>Vos Aulae Nobiles</p>
+            <p>Coelestis Proceres</p>
+            <p>Rex intrat gloriae</p>
+            <p>et Rex Victoriae</p>
+            <p>Quis est iste rex goriae?</p>
+            <p>Hermenigildus est</p>
+            <p>Et Rex et Martyr est.</p>
+            <p>Io nectite laureas</p>
+            <p>Serta Sint aurea</p>
+            <p>Io pingite aureas</p>
+            <p>Serta sint aurea - Regi et martyri.</p>/act=3, scene=3/<head>Scena tertia.</head>
+            <p>Recaredus laetum Vitae nuntium ferens, mortuum fratrem invenit, et luget, fratrisque
+              exemplo ad fidem convertitur, supervenit pater et facti paenitet.</p>
+          </div>
+          <sp who="#recar">
+            <speaker>Recar.</speaker>
+            <l>Quis me per auras ocyor vento levi,</l>
+            <l>Rapidisque flammis Aliger pennis vehat,</l>
+            <l>Sistatque fratri? nuntium laetum fero;</l>
+            <l>Concessa vita est, vive germane innocens,</l>
+            <l>Hermenigilde vive, iam tandem patri</l>
+            <l>Insons probaris! Vive, Gosuintae patet</l>
+            <l>Odium novercae! Precibus evici patrem.</l>
+            <l>Tandem revixi, quando pars animae meae</l>
+            <l>Frater revixit: vivo, dum vivit meus</l>
+            <l part="">Hermenigildus.</l>
+          </sp>
+          <sp who="#miles">
+            <speaker>Miles.</speaker>
+            <l part="" cert="unknown">Quo moves princeps gradum</l>
+            <l part="">Tam concitatum?</l>
+          </sp>
+          <sp who="#recar">
+            <speaker>Recar.</speaker>
+            <l part="" cert="unknown">Spiritum ut fratri feram,</l>
+            <l>Vitamque precibus gratuler datam meis.</l>
+            <l>Quo maesta vertis ora? Quid tacitus gemis?</l>
+            <l part="">Vivitne?</l>
+          </sp>
+          <sp who="#miles">
+            <speaker>Miles.</speaker>
+            <l part="" cert="unknown">Vivit fata post felix sua</l>
+            <l>Vitam beatiorem: et hoc tantis malis</l>
+            <l>Magnum est levamen; caelitum audivi choros</l>
+            <l>Congratulante martyri et Regi polo.</l>
+            <l>Huc flecte vultus, ense lictoris Iacet.</l>
+          </sp>
+          <sp who="#recar">
+            <speaker>Recar.</speaker>
+            <l>Me perime lictor; me pete, in meum caput</l>
+            <l>Converte Ferrum, me feri, in me ensem vibra.</l>
+            <l>Furor nimis violente, quo patrem abripis?</l>
+            <l>Date tela proceres, arma date, comitem necis</l>
+            <l>Me fratri ut addam, sanguinemque sanguini</l>
+            <l>Litem! cruor dilecte! debueram meum</l>
+            <l>Subdisse pro te, quod licet tecum simul</l>
+            <l>Mixtumque fundam, et usque vel ad umbras sequar.</l>
+            <l>Hermenigilde spiritum extremum legam</l>
+            <l>Si quis supersit! osculum frater cape,</l>
+            <l>Post fata si quid sentiunt manes adhuc.</l>
+            <l>Augur nimis praesage! frater! tene ego</l>
+            <l>Ad hoc reliqui, supplices adhoc preces</l>
+            <l>Lacrymasque pro te et vota tot patri tuli,</l>
+            <l>Ut ad hoc redirem? nuntius secus fui</l>
+            <l>Nimiumque tardus; scelere fraterno Iaces,</l>
+            <l>Ego te peremi. quid prius lacrymis fleam?</l>
+            <l>Tuamne frater, an meam sortem querar?</l>
+            <l>Et orbitatem? mors tibi vitam abstulit,</l>
+            <l>Mihi te. Necisne me tuae, comitem tibi</l>
+            <l part="">Moriens negasti?</l>
+          </sp>
+          <sp who="#nobilis-primus">
+            <speaker>Nobilis primus.</speaker>
+            <l part="" cert="unknown">Dixit hanc crucem feras</l>
+            <l part="">Munusque fratri.</l>
+          </sp>
+          <sp who="#recar">
+            <speaker>Recar.</speaker>
+            <l part="" cert="unknown">Tesseram hanc mittis mihi</l>
+            <l>Tui in me amoris frater? accipio pium</l>
+            <l>Munus, tuoque pignus (heu caro nimis!)</l>
+            <l>Emptum cruore. si licet pro te osculum</l>
+            <l>Infigam; et illa charior posthac fides</l>
+            <l>Recaredo erit, cui sanguinem, frater tuum</l>
+            <l part="">Moriens dedisti.</l>
+          </sp>
+          <sp who="#leov">
+            <speaker>Leov.</speaker>
+            <l part="" cert="unknown">Siste nunc genitor gradum;</l>
+            <l>potius recede. serus auxilio venis,</l>
+            <l part="">Properus dolori.</l>
+          </sp>
+          <sp who="#recar">
+            <speaker>Recar.</speaker>
+            <l part="" cert="unknown">Fruere nunc gnato parens,</l>
+            <l>Tuumque recipe sanguinem, et totis fibris</l>
+            <l>Avidus reconde. restat hunc etiam bibas;</l>
+            <l>Iam stringe ferrum, ne dubita, sic etiam est tuus.</l>
+          </sp>
+          <sp who="#leov">
+            <speaker>Leov.</speaker>
+            <l>Hermenigilde, crimine paterno Iaces!</l>
+            <l>O gnate! tales intuor vultus tuos</l>
+            <l>Talesque feci? quo tuus fugit decor,</l>
+            <l>Oculique, geminum sidus? an torvos Patri</l>
+            <l>Obvertis oculos? fallor? an tremulas manus,</l>
+            <l>Iam non timendas, patris attactum fugis?</l>
+            <l>Tibique vel post fata fatalem times?</l>
+            <l>Heu me! quid hoc est? tumuit aspectu cruor,</l>
+            <l>Et pallidae genae ore sanguineo tremunt,</l>
+            <l>Patrem expavescunt. heu! fuge infelix parens,</l>
+          </sp>
+          <sp who="#recar">
+            <speaker>Recar.</speaker>
+            <l>[...]</l>
+          </sp>
+          <sp who="#leov">
+            <speaker>Leov.</speaker>
+            <l>Nunc, me nocentem gnate, nunc reum facis</l>
+            <l>Et paenitentem. Fateor, innocuus iaces,</l>
+            <l>Carum parentis pignus! o properus furor!</l>
+            <l part="">Quo me impulisti?</l>
+          </sp>
+          <sp who="#recar">
+            <speaker>Recar.</speaker>
+            <l part="" cert="unknown">Crimen et scelus meum est;</l>
+            <l>Ego mitiora, tardus imperia tuli.</l>
+          </sp>
+          <sp who="#leov">
+            <speaker>Leov.</speaker>
+            <l>Hoc quoque scelus meum est; ego tardus dedi,</l>
+            <l>Utrimque reus. hinc Ira cum prece fuit,</l>
+            <l part="">Hinc sera pietas.</l>
+          </sp>
+          <sp who="#recar">
+            <speaker>Recar.</speaker>
+            <l part="" cert="unknown">Impiam cur non manum</l>
+            <l part="">Ictumque vetui?</l>
+          </sp>
+          <sp who="#leov">
+            <speaker>Leov.</speaker>
+            <l part="" cert="unknown">Culpa lictoris mea est,</l>
+            <l>Ego imperavi: lictor implevit scelus,</l>
+            <l>Paterque fecit. nimia credulitas reum</l>
+            <l>Me fecit; eheu! credidi facilis nimis</l>
+            <l>Dolis novercae. Iussa peccarunt mea</l>
+            <l>In te; cruentis ante debuerat mea</l>
+            <l>Lingua (haec revelli faucibus, quam vel scelus</l>
+            <l>Tantum imperasset. Melius ah melius, scelus</l>
+            <l>Quam perpetrassem, mutus aeternum forem!</l>
+            <l>Gosuinta fallax! fructus hic operis tui est.</l>
+            <l>Ades, odiique cernito hic fructum tui</l>
+            <l>Hermenigildum. cerne, quod natum in meum</l>
+            <l>Scelus patraris. o novercalem Indolem!</l>
+            <l>Incaestuosis credite exemplo meo</l>
+            <l>Patres novercis, sed quid alienum nefas</l>
+            <l>Accuso? potius me meum lacrymis scelus</l>
+            <l>Decet expiare. Sceleris hic fructus tui est</l>
+            <l>Dire Levigilde! filio necem tuo</l>
+            <l>Pater intulisti. corpori abscissum caput</l>
+            <l>Genitor repone: quidquid e gnato super</l>
+            <l>Restitue, quodque periit amissum geme.</l>
+            <l>Huc huc peremptum corpus excelso in thoro</l>
+            <l>Locate proceres; aureae vestes tegant.</l>
+            <l>Regia gemitibus resonet, et tristis sonet</l>
+            <l>Ubique planctus: tympana et litui strepant</l>
+            <l>Rauco boatu. cui modo rapui impius</l>
+            <l>Vitam, perempto Iusta persolvam pius.</l>
+          </sp>
+          <stage>FINIS.</stage>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
