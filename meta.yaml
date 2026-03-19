@@ -3436,6 +3436,7 @@
     note: Commit ce637908e9700ffac95380b1a90188db95dd2f36
     availability:
       status: free
+    source:
       title: Google Books
       url: https://books.google.com/books?id=coIYVWHUOpEC
       type: PDF
@@ -3477,6 +3478,8 @@
     url: https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Diether-Ioseph.docx
     type: DOCX
     note: Commit ce527e2170b577bfef9b48e16def6d9af2260437
+    availability:
+      status: free
     source:
       title: CAMENA
       url: https://www2.uni-mannheim.de/mateo/camena/drama/books/oporinusdramata1_5.html
@@ -3514,6 +3517,8 @@
     url: https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Ens-Auriacus.docx
     type: DOCX
     note: Commit ce637908e9700ffac95380b1a90188db95dd2f36
+    availability:
+      status: free
     source:
       title: "Caspar Ens: Princeps Auriacus, sive Libertas defensa (1559). (De Prins Van Oranje, of de verdediging van de Vrijheid.) Ed. Jan Bloemendal and Jan W. Steenbeek. Voorthuizen: Florivallis 1998."
       editor: Jan Bloemendal; Jan W. Steenbeek
@@ -3528,9 +3533,11 @@
           licenceUrl: https://rightsstatements.org/vocab/NoC-NC/1.0/
         source:
           title: "Caspar Casparius: Princeps Auriacus sive Libertas defensa. Tragoedia nova. Delft: Bruno Schinckel 1599."
-  complete: false
-  _includeInOverview: false
-  _includeDocx: false
+          year: "1599"
+          type: print
+  complete: true
+  _includeInOverview: true
+  _includeDocx: true
 - id: neolat000060
   name: eucharius-grisellis
   title: Grisellis
@@ -3554,17 +3561,26 @@
   source:
     title: TransLatin
     editor: Jan Bloemendal
-    url: https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Houcharius-Grisellis.docx
+    url: https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Houcharius-Grisellis.docx
     type: DOCX
+    note: Commit f41e8a65dbaaf94d6248df6acdcc94edd708598e
+    availability:
+      status: free
     source:
-      title: "Elegius Eucharius: Grisellis. In: In hoc opere contenta Grisellis tribus
-        actibus Scenicis per Eligium Eucharium Ludimagistrum Gandensem decorata,
-        Montis arenosi incolarum lucubratiunculae Ad Magistrum Balduinum Hulleum
-        Gaiopolitanum Almae Vniuersitatis Parrisiensis Rectorem dignissimum,
-        missa Strena cum Epistola. [Antwerpen]: M[ichael] Hillenius [1519]."
-      year: "1519"
+      title: Google Books
       url: https://books.google.be/books?vid=GENT900000083758
-      type: print
+      type: PDF
+      availability:
+        status: free
+        note: In the public domain.
+      source:
+        title: "Elegius Eucharius: Grisellis. In: In hoc opere contenta Grisellis tribus
+          actibus Scenicis per Eligium Eucharium Ludimagistrum Gandensem decorata,
+          Montis arenosi incolarum lucubratiunculae Ad Magistrum Balduinum Hulleum
+          Gaiopolitanum Almae Vniuersitatis Parrisiensis Rectorem dignissimum,
+          missa Strena cum Epistola. [Antwerp]: M[ichael] Hillenius [1519]."
+        year: "1519"
+        type: print
   complete: true
   _includeInOverview: true
   _includeDocx: true
@@ -3588,20 +3604,24 @@
   project: TransLatin
   status: DOCX, TEI (basic)
   licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
-  transcription:
-    by: Bram Boers
-    supervisor: Jan Bloemendal
   source:
     title: TransLatin
     editor: Jan Bloemendal
-    url: https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Goethals-Soter.docx
+    url: https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Goethals-Soter.docx
     type: DOCX
+    note: Commit 17eb746e9fc8b8e3326bd2c415035c30ddda5add
+    availability:
+      status: free
     source:
-      title: "Comoedia nova ac sacra, cui titulus, Soter gloriosus. Auctore Francisco
-        Eucolo Gandensi. Leuven: Ioannes Bogardus 1563."
-      year: "1563"
+      title: Google Books
       url: https://www.google.de/books/edition/Comoedia_nova_ac_sacra_cvi_titvlvs_soter/yq0TAAAAQAAJ?hl=de
-      type: print
+      type: PDF
+      availability:
+        status: free
+      source:
+        title: "Franciscus Eucolus: Comoedia nova ac sacra, cui titulus, Soter gloriosus. Leuven: Ioannes Bogardus 1563."
+        year: "1563"
+        type: print
   complete: true
   _includeInOverview: true
   _includeDocx: true
@@ -3617,7 +3637,7 @@
       gnd: "121613305"
   yearPrinted: "1631"
   yearWritten: null
-  premiered: null
+  premiered: "1581"
   form: prose
   genre: comedy
   genreQid: Q40831
@@ -3630,21 +3650,27 @@
   source:
     title: TransLatin
     editor: Jan Bloemendal
-    url: https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Forsett-Pedantius.docx
+    url: https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Forsett-Pedantius.docx
     type: DOCX
+    note: Commit ce637908e9700ffac95380b1a90188db95dd2f36
+    availability:
+      status: free
     source:
-      title: INFORMATION NEEDED
+      title: The Philological Museum
       editor: Dana F. Sutton
       year: "2022"
       copyright: University of Birmingham
       url: https://philological.cal.bham.ac.uk/forsett/
-      type: critical edition
-  complete: false
+      type: HTML
+      availability:
+        status: restricted
+  complete: true
   _includeInOverview: false
   _includeDocx: false
 - id: neolat000063
   name: foxus-christus-triumphans
   title: Christus triumphans
+  subtitle: Comoedia apocalyptica
   qid: null
   authors:
     - forename: Ioannes
@@ -3661,20 +3687,31 @@
   regionQid: Q179876
   project: TransLatin
   status: DOCX, TEI (basic)
-  licenceNotes: null
+  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   source:
     title: TransLatin
     editor: Jan Bloemendal
-    url: https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Foxe-Christus.docx
+    url: https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Foxe-Christus.docx
     type: DOCX
+    note: Commit ce637908e9700ffac95380b1a90188db95dd2f36
+    availability:
+      status: free
     source:
-      title: INFORMATION NEEDED
-      year: INFORMATION NEEDED
+      title: University of Michigan Library Digital Collections Early English Books Online
       url: https://quod.lib.umich.edu/e/eebo/A40366.0001.001/1:7.1?rgn=div2;view=fulltext
-      type: print
-  complete: false
-  _includeInOverview: false
-  _includeDocx: false
+      type: HTML
+      availability:
+        licence: CC0 1.0 Public Domain Dedication
+        licenceUrl: http://creativecommons.org/publicdomain/zero/1.0/
+      source:
+        title: "Joannes Foxus: Christus triumphans. Comoedia Apocalyptica. Edita est olim Basileae, anno 1556. Nunc denuo edita,1
+          & Scholarchis, Iudique Literarii Moderatoribus dedicata, ob insignem Styli Elegantiam in Scholas utilissime admittenda.
+          Editore T. C. Sidn. Collegii, A. M. London: Robert Clavel 1672."
+        year: "1672"
+        type: print
+  complete: true
+  _includeInOverview: true
+  _includeDocx: true
 - id: neolat000064
   name: gnapheus-acolastus
   title: Acolastus
