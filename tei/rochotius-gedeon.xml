@@ -4,7 +4,7 @@
       <fileDesc>
          <titleStmt>
             <title>Gedeon</title>
-            <title type="sub">Comaedia nova, cum primis ad usum scholasticum et conditionem temporum accommodata</title>
+            <title type="sub">Comaedia nova</title>
             <author>
                <persName xml:lang="la">
                   <forename>Andreas</forename>
@@ -36,6 +36,8 @@
             <idno type="URL">https://dracor.org</idno>
             <availability>
                <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+               <p>Permission for this publication under CC0 1.0 granted by the Theatrum Neolatinum team in consultation
+                  with the publisher.</p>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -45,7 +47,7 @@
                   <title>Magdaléna Jacková, Markéta Klosová, Martin Bažil, Alena Bočková, Kateřina Bobková-Valentová, Eva Popelková (eds.): Latinské biblické drama v českých zemích. Prague 2026. In print (Theatrum Neolatinum, Latinské divadlo v českých zemích 3).</title>
                   <idno type="URL">https://www.theatrum-neolatinum.cz/en/biblicke.html</idno>
                   <bibl type="originalSource">
-                     <title>Gedeon</title>, <title type="sub">Comaedia nova, cum primis ad usum scholasticum et conditionem temporum accommodata</title>, <pubPlace>Pragae</pubPlace>: Typis <publisher>Schimanianis</publisher>, Anno Domini <date when="1606">M DC VI</date>;
+                     <title>Gedeon</title>, <title type="sub">comaedia nova, cum primis ad usum scholasticum et conditionem temporum accommodata</title>, <pubPlace>Pragae</pubPlace>: Typis <publisher>Schimanianis</publisher>, Anno Domini <date when="1606">M DC VI</date>;
                      Biblioteka Uniwersytecka, Wrocław, sign. 395 683 (=4 N 431 adl. 2).</bibl>
                </bibl>
             </bibl>
@@ -104,6 +106,11 @@
             </keywords>
             <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
          </textClass>
+         <creation>
+            <region>
+               <ref target="https://www.wikidata.org/wiki/Q185573">Czech lands</ref>
+            </region>
+         </creation>
       </profileDesc>
    </teiHeader>
    <standOff>
