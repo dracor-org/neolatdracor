@@ -3641,8 +3641,8 @@
   form: prose
   genre: comedy
   genreQid: Q40831
-  region: INFORMATION NEEDED
-  regionQid: null
+  region: Kingdom of England
+  regionQid: Q179876
   project: TransLatin
   status: DOCX, TEI (basic)
   licenceNotes: Permission by the editor and University of Birmingham needed
@@ -5068,8 +5068,8 @@
   form: prose
   genre: comedy
   genreQid: Q40831
-  region: INFORMATION NEEDED
-  regionQid: null
+  region: Kingdom of England
+  regionQid: Q179876
   project: TransLatin
   status: DOCX, TEI (basic)
   licenceNotes: Permission by the editor and University of Birmingham needed
@@ -5077,16 +5077,21 @@
   source:
     title: TransLatin
     editor: Jan Bloemendal
-    url: https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Ruggle-Ignoramus.docx
+    url: https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Ruggle-Ignoramus.docx
     type: DOCX
+    note: Commit 6202f8dda05bf0fc2fce7d1fe7cfe08c147631e4
+    availability:
+      status: free
     source:
-      title: INFORMATION NEEDED
+      title: The Philological Museum
       editor: Dana F. Sutton
       year: "2022"
       copyright: University of Birmingham
       url: https://philological.cal.bham.ac.uk/ruggle/contents.html
-      type: critical edition
-  complete: false
+      type: HTML
+      availability:
+        status: restricted
+  complete: true
   _includeInOverview: false
   _includeDocx: false
 - id: neolat000129
