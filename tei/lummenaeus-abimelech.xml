@@ -30,7 +30,9 @@
          </publicationStmt>
          <sourceDesc>
             <bibl type="digitalSource">
-               <ref target="https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Lummenaeus-Abimelech.docx">TransLatin</ref>
+               <ref
+                  target="https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Lummenaeus-Abimelech.docx"
+                  >TransLatin</ref>
                <note>Commit 17eb746e9fc8b8e3326bd2c415035c30ddda5add</note>
                <availability status="free">
                   <p>In the public domain.</p>
@@ -68,7 +70,8 @@
                <person xml:id="nuncius" sex="MALE">
                   <persName>NVNCIVS</persName>
                </person>
-               <person xml:id="umbra-gedeonis" sex="MALE" ana="https://www.wikidata.org/wiki/Q176125">
+               <person xml:id="umbra-gedeonis" sex="MALE"
+                  ana="https://www.wikidata.org/wiki/Q176125">
                   <persName>VMBRA GEDEONIS</persName>
                </person>
             </listPerson>
@@ -344,7 +347,10 @@
                <l>Fortuna sequitur, illa, quae sceptro potens,</l>
                <l>Fortes tuetur, calcat ignauos, leuat</l>
                <l n="155">Dextrâ superbos, alterâ abiectos premit:</l>
-               <l>Victa nunquam pectora impleuit Deus: ˂ vieta</l>
+               <l><choice>
+                     <corr>Victa</corr>
+                     <sic>Vieta</sic>
+                  </choice> nunquam pectora impleuit Deus:</l>
                <l>Quicumque promptus purpuram inuasit, tenet</l>
                <l>Vltrò sequacem: dignitas quaerit viros:</l>
                <l>Quicumque tardo repit ad laudem gradu,</l>
@@ -604,7 +610,7 @@
                <l>Et te hirsutus vellicat Esau,</l>
                <l>Tergoque ferox imminet vltor,</l>
                <l>Cùm maternae ludio scenae,</l>
-               <l>395 Infers patriae pocula mensae,</l>
+               <l n="395">Infers patriae pocula mensae,</l>
                <l>Cum lacteolo corpore laeuis</l>
                <l>Tonso palmas induis haedo,</l>
                <l>Totumque rudi vellere collum.</l>
