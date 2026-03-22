@@ -30,7 +30,9 @@
          </publicationStmt>
          <sourceDesc>
             <bibl type="digitalSource">
-               <ref target="https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Lummenaeus-Sampson.docx">TransLatin</ref>
+               <ref
+                  target="https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Lummenaeus-Sampson.docx"
+                  >TransLatin</ref>
                <note>Commit ce637908e9700ffac95380b1a90188db95dd2f36</note>
                <availability status="free">
                   <p>In the public domain.</p>
@@ -103,8 +105,10 @@
          </titlePage>
          <pb n="91"/>
          <div type="dedication">
-            <salute>AMPLISSIMO ET R.DO ADMODVM DOMINO D. BERNARDO CAMPMANS DVNENSIS MONASTERII,
-               ORDINIS CISTERCIENSIS ABBATI LONGE MERITISSIMO. D. C. Q.</salute>
+            <opener>
+               <salute>AMPLISSIMO ET R.DO ADMODVM DOMINO D. BERNARDO CAMPMANS DVNENSIS MONASTERII,
+                  ORDINIS CISTERCIENSIS ABBATI LONGE MERITISSIMO. D. C. Q.</salute>
+            </opener>
             <l>FLandricus occiduas pontus quà stipat arenas,</l>
             <l rend="indent">Praesidium coetus, deliciumque tui.</l>
             <l>Militis Hebraei casus ex ordine disces,</l>
@@ -120,7 +124,9 @@
          </div>
          <pb n="92"/>
          <div type="epistle">
-            <salute>ADMODVM R.DO PATRI IACOBO CORN. LVMMENAEO A MARCA.</salute>
+            <opener>
+               <salute>ADMODVM R.DO PATRI IACOBO CORN. LVMMENAEO A MARCA.</salute>
+            </opener>
             <p>ADMODVM REVERENDE PATER, TRAGOEDIAM tuam sacram, è plaustro tragico ad ROMANAS nunc
                prodeuntem scenas, &amp; mihi à vestrâ Paternitate humaniter dono missam, eo sum
                animo amplexus, quo debent suscipi &amp; aestimari docti viri opera &amp; labores;
