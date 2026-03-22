@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI type="dracor" xml:id="neolat000042" xml:lang="la" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Plausus luctificae Mortis</title>
+            <author>
+               <persName xml:lang="la">
+                  <forename>Eusebius</forename>
+                  <surname>Candidus</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName ref="https://orcid.org/0000-0002-5768-9932">Jan Blomendal</persName>
+            </editor>
+            <respStmt>
+               <resp>Converted to TEI by</resp>
+               <persName ref="https://orcid.org/0000-0001-8979-8706">Julia Jennifer Beine</persName>
+            </respStmt>
+            <funder/>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="dracor">DraCor</publisher>
+            <idno type="URL">https://dracor.org</idno>
+            <availability>
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0
+                  1.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <ref
+                  target="https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Placentius-Plausus.docx"
+                  >TransLatin</ref>
+               <note>Commit 2d6539882656911527ebb75a7f2cc9dded5209bd</note>
+               <availability status="free">
+                  <p>In the public domain.</p>
+               </availability>
+               <bibl type="originalSource"><author>Eusebius Candidus</author>: <title>Plausus
+                     luctificae Mortis</title>. In: <title>Susanna per Placentium euangelisten lusa.
+                     Eusebii Candidi Elegia, in uanam breuemque; humanae uitae gloriolam. Item Ode
+                     Sapphica eiusdem Eusebii, in mortis recordationem. Item Plausus luctificae
+                     Mortis, ad modum Dialogi, extemporaliter ab eodem Eusebio lusus.</title>
+                  <pubPlace>[Antwerp]</pubPlace>: <publisher>Martinus Caesar</publisher>
+                  <date>1534</date>.</bibl>
+               <relatedItem>
+                  <!-- digital copy used -->
+                  <bibl>
+                     <ref target="https://books.google.nl/books?id=VD44U0886h0C">Google Books</ref>
+                     <availability status="free">
+                        <p>In the public domain.</p>
+                     </availability>
+                  </bibl>
+               </relatedItem>
+               <relatedItem>
+                  <!-- edition used to add the speaker attributions -->
+                  <listBibl>
+                     <!-- digital copy used -->
+                     <bibl>
+                        <ref target="https://www.jstor.org/stable/23973499">JSTOR</ref>
+                     </bibl>
+                     <bibl><author>Jozef IJsewijn</author> :<title level="a"> A Latin Death-dance
+                           play of 1532</title>. In: <title level="j">Humanistica
+                           Lovaniensia</title>
+                        <biblScope unit="volume">18</biblScope> (<date>1969</date>). <biblScope>pp.
+                           77–94</biblScope> . </bibl>
+                  </listBibl>
+               </relatedItem>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="prologus" sex="MALE" role="prologus">
+                  <persName type="supplied">Prologus</persName>
+               </person>
+               <person xml:id="adolescens-1" sex="MALE" role="adulescens">
+                  <persName>adolescens</persName>
+               </person>
+               <person xml:id="mors-vel-philosophus" sex="UNKNOWN">
+                  <persName>mors vel philosophus</persName>
+               </person>
+               <person xml:id="imperator" sex="MALE" role="imperator">
+                  <persName>Imperator</persName>
+               </person>
+               <person xml:id="rex-rhomanus" sex="MALE" role="rex">
+                  <persName>Rex Rhomanus</persName>
+               </person>
+               <person xml:id="papa" sex="MALE" role="papa"
+                  ana="https://www.wikidata.org/wiki/Q19546">
+                  <persName>PAPA</persName>
+               </person>
+               <person xml:id="cardinalis" sex="MALE" role="cardinalis"
+                  ana="https://www.wikidata.org/wiki/Q45722">
+                  <persName>Cardinalis</persName>
+               </person>
+               <person xml:id="episcopus" sex="MALE" role="episcopus"
+                  ana="https://www.wikidata.org/wiki/Q611644">
+                  <persName>Episcopus</persName>
+               </person>
+               <person xml:id="ecclesiae-praelatus" sex="MALE" role="praelatus"
+                  ana="https://www.wikidata.org/wiki/Q725440">
+                  <persName>Ecclesiae praelatus</persName>
+               </person>
+               <person xml:id="canonicus" sex="MALE" role="canonicus"
+                  ana="https://www.wikidata.org/wiki/Q1104153">
+                  <persName>Canonicus</persName>
+               </person>
+               <person xml:id="pastor" sex="MALE" role="pastor"
+                  ana="https://www.wikidata.org/wiki/Q152002">
+                  <persName>Pastor</persName>
+               </person>
+               <person xml:id="abbas" sex="MALE" role="abbas"
+                  ana="https://www.wikidata.org/wiki/Q103163">
+                  <persName>Abbas</persName>
+               </person>
+               <person xml:id="prior" sex="MALE" role="prior"
+                  ana="https://www.wikidata.org/wiki/Q830337">
+                  <persName>Prior</persName>
+               </person>
+               <person xml:id="pater-vestalium" sex="MALE">
+                  <persName>Pater vestalium</persName>
+               </person>
+               <person xml:id="vestalis-nympha" sex="FEMALE">
+                  <persName>Vestalis nympha</persName>
+               </person>
+               <person xml:id="legatus" sex="MALE" role="legatus">
+                  <persName>Legatus</persName>
+               </person>
+               <person xml:id="dominus-doctor" sex="MALE" role="academicus">
+                  <persName>Dominus doctor</persName>
+               </person>
+               <person xml:id="medicus" sex="MALE" role="medicus"
+                  ana="https://www.wikidata.org/wiki/Q39631">
+                  <persName>Medicus</persName>
+               </person>
+               <person xml:id="astronomus" sex="MALE" role="astronomus"
+                  ana="https://www.wikidata.org/wiki/Q11063">
+                  <persName>Astronomus</persName>
+               </person>
+               <person xml:id="curtisanus" sex="MALE">
+                  <persName>Curtisanus</persName>
+               </person>
+               <person xml:id="advocatus" sex="MALE" role="advocatus"
+                  ana="https://www.wikidata.org/wiki/Q40348">
+                  <persName>Aduocatus</persName>
+               </person>
+               <person xml:id="iudex" sex="MALE" role="iudex"
+                  ana="https://www.wikidata.org/wiki/Q16533">
+                  <persName>Iudex</persName>
+               </person>
+               <person xml:id="praetor" sex="MALE">
+                  <persName>Praetor</persName>
+               </person>
+               <person xml:id="consul" sex="MALE">
+                  <persName>Consul</persName>
+               </person>
+               <person xml:id="causidicus" sex="MALE" role="causidicus">
+                  <persName>Causidicus</persName>
+               </person>
+               <person xml:id="scabinus" sex="MALE" role="scabinus"
+                  ana="https://www.wikidata.org/wiki/Q20820045">
+                  <persName>Scabinus</persName>
+               </person>
+               <person xml:id="ludimagister" sex="MALE" role="didascalus"
+                  ana="https://www.wikidata.org/wiki/Q37226">
+                  <persName>Ludimagister</persName>
+               </person>
+               <person xml:id="miles-auratus" sex="MALE" role="miles"
+                  ana="https://www.wikidata.org/wiki/Q21550986">
+                  <persName>Miles auratus</persName>
+               </person>
+               <person xml:id="mercator" sex="MALE" role="mercator"
+                  ana="https://www.wikidata.org/wiki/Q215536">
+                  <persName>Mercator</persName>
+               </person>
+               <person xml:id="fuckardus" sex="MALE" role="nobilis"
+                  ana="https://www.wikidata.org/wiki/Q155834">
+                  <persName>Fuckardus</persName>
+               </person>
+               <person xml:id="quaestor" sex="MALE" role="queastor-pardoner">
+                  <persName>Quaestor</persName>
+               </person>
+               <person xml:id="nauclerus" sex="MALE" role="nauclerus"
+                  ana="https://www.wikidata.org/wiki/Q500251">
+                  <persName>Nauclerus</persName>
+               </person>
+               <person xml:id="agricola" sex="MALE" role="agricola"
+                  ana="https://www.wikidata.org/wiki/Q131512">
+                  <persName>Agricola</persName>
+               </person>
+               <person xml:id="orator" sex="MALE" role="orator"
+                  ana="https://www.wikidata.org/wiki/Q12859263">
+                  <persName>Orator</persName>
+               </person>
+               <person xml:id="princeps-belli" sex="MALE" role="imperator"
+                  ana="https://www.wikidata.org/wiki/Q1402561">
+                  <persName>Princeps belli</persName>
+               </person>
+               <person xml:id="dives" sex="MALE" role="dives">
+                  <persName>Diues</persName>
+               </person>
+               <person xml:id="pauper" sex="MALE" role="pauper">
+                  <persName>Pauper</persName>
+               </person>
+               <person xml:id="foenerator" sex="MALE" role="fenerator">
+                  <persName>Foenerator</persName>
+               </person>
+               <person xml:id="adolescens-2" sex="MALE" role="adulescens">
+                  <persName>Adolescens</persName>
+               </person>
+               <person xml:id="puella" sex="MALE" role="virgo">
+                  <persName>Puella</persName>
+               </person>
+               <person xml:id="nuncius" sex="MALE" role="nuncius">
+                  <persName>Nuncius</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <textClass>
+            <keywords>
+               <term type="genreTitle">comedy</term>
+            </keywords>
+            <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+         </textClass>
+         <creation>
+            <region>
+               <ref target="https://www.wikidata.org/wiki/Q476033">Low Countries</ref>
+            </region>
+         </creation>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2026-03-22">
+               <desc>Converted to DraCor TEI by Julia Jennifer Beine; speaker attributions based on:
+                  Jozef IJsewijn: A Latin Death-dance play of 1532. In: Humanistica Lovaniensia 18
+                  (1969). pp. 77–94.</desc>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <standOff>
+      <listEvent>
+         <event type="print" when="1534">
+            <desc>first print 1532 (lost), differences between the 1532 and 1534 versions unknown
+               (see Jozef IJsewijn: A Latin Death-dance play of 1532. In: Humanistica Lovaniensia 18
+               (1969). pp. 77–94, here 78.</desc>
+         </event>
+      </listEvent>
+   </standOff>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="main">PLAVSVS LVCTIFICAE MORTIS</titlePart>
+            <titlePart type="desc">AD MODVM DIALOGI EXTEMporaliter ab Eusebio Candido lusus. Ad quem
+               quique mortales inuitantur omnnes, cuius cuius sint conditionis: quibusque singulis
+               Mors ipsa respondet.</titlePart>
+         </docTitle>
+         <div type="prologue">
+            <sp who="#prologus">
+               <l>Luctificae Mortis plausum bene cernite cuncti.</l>
+               <l>Dum res laeta, mori et uiuentes discite, nanque</l>
+               <l>Omnes ex aequo tandem huc properare necessum.</l>
+            </sp>
+         </div>
+      </front>
+      <body>
+         <div type="act" n="1">
+            <stage>Hic inducitur adolescens quaerens, &amp; mors vel philosophus respondens.</stage>
+            <sp who="#adolescens-1">
+               <l part="I">Vita quid est hominis?</l>
+            </sp>
+            <sp who="#mors-vel-philosophus">
+               <l part="F">Fumus super aera missus.</l>
+            </sp>
+            <sp who="#adolescens-1">
+               <l n="5" part="I">Vita quid est hominis?</l>
+            </sp>
+            <sp who="#mors-vel-philosophus">
+               <l n="5" part="F">Via mortis, dura laborum</l>
+               <l>Colluuies, uita est hominis uia longa doloris</l>
+               <l part="I">Perpetui. </l>
+            </sp>
+            <sp who="#adolescens-1">
+               <l part="M">Vita quid est hominis?</l>
+            </sp>
+            <sp who="#mors-vel-philosophus">
+               <l part="F">cruciatus et error.</l>
+            </sp>
+            <sp who="#adolescens-1">
+               <l part="I">Vita quid est hominis?</l>
+            </sp>
+            <sp who="#mors-vel-philosophus">
+               <l part="F">uestitus gramine multo,</l>
+               <l>Floribus et uariis campus, quem parua pruina</l>
+               <l n="10">Expoliat, sic uitam hominum mors impia tollit.</l>
+               <l>Quamlibet illa alacris, uegeta, aut opulentaue felix,</l>
+               <l>Icta cadet modica crede aegritudine mortis.</l>
+               <l>Et quamuis superes auro vel murice Croesum,</l>
+               <l>Longaeuum aut annis uiuendo Nestora uincas,</l>
+               <l n="15">Omnia mors aequat, uitae meta ultima mors est.</l>
+            </sp>
+            <stage type="entrance">Imperator</stage>
+            <sp who="#mors-vel-philosophus">
+               <l part="I">Quid fers?</l>
+            </sp>
+            <sp who="#imperator">
+               <l part="F">Induperator ego, et moderamina rerum</l>
+               <l part="I">Gesto manu.</l>
+            </sp>
+            <sp who="#mors-vel-philosophus">
+               <l part="F">Domuit mors impia sceptra potentum</l>
+            </sp>
+            <stage type="entrance">Rex Rhomanus.</stage>
+            <sp who="#mors-vel-philosophus">
+               <l part="I">Quid fers?</l>
+            </sp>
+            <sp who="#rex-rhomanus">
+               <l part="M">En ego Rhomulidum rex.</l>
+            </sp>
+            <sp who="#mors-vel-philosophus">
+               <l part="F">Mors manet omnes.</l>
+            </sp>
+            <stage type="entrance">PAPA</stage>
+            <sp who="#papa">
+               <l>En ego pontificum primus, signansque resignans.</l>
+               <l n="20" part="I">Et coelos orcique locos.</l>
+            </sp>
+            <sp who="#mors-vel-philosophus">
+               <l n="20" part="F">Mors te manet ergo.</l>
+            </sp>
+            <stage type="entrance">Cardinalis.</stage>
+            <sp who="#cardinalis">
+               <l>Cardineo fulgens ego honore, et episcopus ecce</l>
+            </sp>
+            <sp who="#mors-vel-philosophus">
+               <l>Mors manet ecce omnes, phrygeus quos pilleus ornat.</l>
+            </sp>
+            <stage type="entrance">Episcopus</stage>
+            <sp who="#episcopus">
+               <l>Insula splendidior uestit mea tempora, latum</l>
+               <l>Possideo imperium, multi mea iura tremiscunt.</l>
+               <l n="25">Me ditant fraudis docti, producere lites</l>
+               <l>Experti, aucupium docti nummorum, et auerni</l>
+               <l>Causidici, rixatores, rabulaeque forenses.</l>
+               <l>Hos ego respicio, nihil attendens animarum.</l>
+               <l>Ecclesiae mihi commissae populi ue salutem.</l>
+               <l n="30">Sed satis est duros loculo infarcisse Iabores</l>
+               <l>Agricolum, et magnis placuisse heroibus orbis.</l>
+            </sp>
+            <sp who="#mors-vel-philosophus">
+               <l>Non tamen effugies mortis mala spicula durae.</l>
+            </sp>
+            <stage type="entrance">Ecclesiae praelatus.</stage>
+            <sp who="#ecclesiae-praelatus">
+               <l>Ecclesiae praelatus ego multis uenerandus</l>
+               <l>Muneribus sacris, prouentibus officiorum.</l>
+               <l n="35">Comptior est uestis, poppina frequentior aede</l>
+               <l>Sacra, et psalmorum cantus mihi rarior ipso</l>
+               <l>Talorum crepitu, Veneris quoque uoce sonora.</l>
+            </sp>
+            <sp who="#mors-vel-philosophus">
+               <l>Morte cades, annos speras ubi uiuere plures.</l>
+            </sp>
+            <stage type="entrance">Canonicus</stage>
+            <sp who="#canonicus">
+               <l part="I">En ego melotam gesto.</l>
+            </sp>
+            <sp who="#mors-vel-philosophus">
+               <l part="F">Mors saeua propinquat.</l>
+            </sp>
+            <stage type="entrance">Pastor</stage>
+            <sp who="#pastor">
+               <l n="40">En parochus quoque pastor ego, mihi dulce falernum</l>
+               <l>Notius aede sacra: scortum mihi charius ipsa</l>
+               <l part="I">Est animae cura populi.</l>
+            </sp>
+            <sp who="#mors-vel-philosophus">
+               <l part="F">Mors te manet ergo.</l>
+            </sp>
+            <stage type="entrance">Abbas</stage>
+            <sp who="#abbas">
+               <l>En abbas uenio, Veneris quoque uentris amicus.</l>
+               <l>Coenobij rara est mihi cura, frequentior aula</l>
+               <l n="45" part="I">Magnorum heroum.</l>
+            </sp>
+            <sp who="#mors-vel-philosophus">
+               <l n="45" part="F">Chorea saltabis eadem.</l>
+            </sp>
+            <stage type="entrance">Prior</stage>
+            <sp who="#prior">
+               <l>En prior, ornatus longa et splendente cuculla,</l>
+            </sp>
+            <sp who="#mors-vel-philosophus">
+               <l>Falce cades mortis. Mors aufert nomina honoris.</l>
+            </sp>
+            <stage type="entrance">Pater vestalium</stage>
+            <sp who="#pater-vestalium">
+               <l>Nympharum pater ecce ego sum uentrosior, offis</l>
+               <l part="I">Pinguibus emacerans corpus.</l>
+            </sp>
+            <sp who="#mors-vel-philosophus">
+               <l part="F">Mors te manet ipsa.</l>
+            </sp>
+            <stage type="entrance">Vestalis nympha</stage>
+            <sp who="#vestalis-nympha">
+               <l n="50">En monialis ego, Vestae servire parata.</l>
+            </sp>
+            <sp who="#mors-vel-philosophus">
+               <l>Non te Vesta potest mortis subducere castris.</l>
+            </sp>
+            <stage type="entrance">Legatus</stage>
+            <sp who="#legatus">
+               <l>Legatus uenio culparum uincla resoluens</l>
+               <l>Omnia pro auro, obiens coelum uendo, infera claudo,</l>
+               <l>Et quicquid patres sanxerunt, munere soluo.</l>
+            </sp>
+            <sp who="#mors-vel-philosophus">
+               <l n="55">Iuribus a mortis non te legatio soluet.</l>
+            </sp>
+            <stage type="entrance">Dominus doctor</stage>
+            <sp who="#dominus-doctor">
+               <l>Quid fers? Ecce sophus, diuina humanaque iura</l>
+               <l>Calleo, et a populo doctor Rabbique salutor.</l>
+            </sp>
+            <sp who="#mors-vel-philosophus">
+               <l>Te manet expectans mors ultima linea rerum.</l>
+            </sp>
+            <stage type="entrance">Medicus</stage>
+            <sp who="#medicus">
+               <l>En ego sum medicus, uitam producere gnarus,</l>
+               <l n="60">Venis lustratis morborum nomina dico.</l>
+            </sp>
+            <sp who="#mors-vel-philosophus">
+               <l>Non poteris durae mortis uitare sagittas.</l>
+            </sp>
+            <stage type="entrance">Astronomus</stage>
+            <sp who="#astronomus">
+               <l>En ego stellarum motus et sydera noui,</l>
+               <l>Et fati genus omne scio praedicere coeli.</l>
+            </sp>
+            <sp who="#mors-vel-philosophus">
+               <l>Non potis es mortis durae praescire sagittas.</l>
+            </sp>
+            <stage type="entrance">Curtisanus</stage>
+            <sp who="#curtisanus">
+               <l n="65">En me Rhoma potens multis suffarsit onustum</l>
+               <l>Muneribus sacris, prouentibus, officiisque.</l>
+            </sp>
+            <sp who="#mors-vel-philosophus">
+               <l>Non potes his mortis fugiens euadere tela.</l>
+            </sp>
+            <stage type="entrance">Aduocatus</stage>
+            <sp who="#advocatus">
+               <l>Causarum patronus ego, producere doctus</l>
+               <l>Lites, et loculos lingua uacuare loquaci.</l>
+            </sp>
+            <sp who="#mors-vel-philosophus">
+               <l n="70">Non te lingua loquax mortis subducet ab ictu.</l>
+            </sp>
+            <stage type="entrance">Iudex</stage>
+            <sp who="#iudex">
+               <l>Iustitiae iudex quia sum, sub plebe salutor.</l>
+               <l>Vertice me nudo populus ueneratur adorans.</l>
+               <l>Auri sacra fames peruertere saepe coegit</l>
+               <l part="I">Iustitiam.</l>
+            </sp>
+            <sp who="#mors-vel-philosophus">
+               <l part="F">Mors te manet aequans omnia falce.</l>
+            </sp>
+            <stage type="entrance">Praetor</stage>
+            <sp who="#praetor">
+               <l n="75">Praetor ego populi, me praeter nemo quid audet.</l>
+               <l>Accensor causis, per me stant omnia, nanque</l>
+               <l>Et dono et adimo uitam, cum rebus honorem.</l>
+               <l>Munere conspecto, quod iniquum est iure triumphat.</l>
+               <l>Emitto coruos, censura damno columbas.</l>
+               <l n="80">Hinc metuendus ero superis ereboque profundo.</l>
+            </sp>
+            <sp who="#mors-vel-philosophus">
+               <l>Te manet expectans Erebus Plutoque cruentus.</l>
+            </sp>
+            <stage type="entrance">Consul</stage>
+            <sp who="#consul">
+               <l>Polleo consiliis, Consul dicorque salutor.</l>
+               <l>Munere conspecto, quod iniquum est consulo rectum,</l>
+               <l>Quod rectum est, flecto, nihil est quod nesciat auri</l>
+               <l n="85">Sacra fames, hinc ditor et undique fio opulentus.</l>
+            </sp>
+            <sp who="#mors-vel-philosophus">
+               <l>Sed eris aeternum miser et mors impia tollet.</l>
+            </sp>
+            <stage type="entrance">Causidicus</stage>
+            <sp who="#causidicus">
+               <l>Causidicus ego sum, causas narrare peritus.</l>
+               <l>Accior in causas, sed spes ubi fulserit auri</l>
+               <l>Ad fraudes docta sollers utor bene lingua.</l>
+               <l n="90">Muto, commuto, iura inflecto atque reflecto.</l>
+               <l>Et nihil est quod non astu peruincere possim.</l>
+            </sp>
+            <sp who="#mors-vel-philosophus">
+               <l>Mors aequa expectat properans te fulmine diro.</l>
+               <l>Nec poteris astu mortis praeuertere tela.</l>
+            </sp>
+            <stage type="entrance">Scabinus</stage>
+            <sp who="#scabinus">
+               <l>Ecce scabinus ego: scabo bursas, prorogo causas.</l>
+               <l n="95">Senatorque uocor, uulgus me poplite curuo,</l>
+               <l>Muneribusque datis ueneratur, fronte retecta.</l>
+               <l>Nil mortem meditor loculos quando impleo nummis</l>
+               <l>Et dito haeredes nummis, ui, fraude receptis.</l>
+               <l>Iustitiam nummis, pro sanguine, munere, uendo.</l>
+               <l n="100">Quod rectum est curuo, quod curuum est munere rectum</l>
+               <l>Efficio, per me prorsus stant omnia iura.</l>
+            </sp>
+            <sp who="#mors-vel-philosophus">
+               <l>Non poteris durae mortis transire sagittas.</l>
+            </sp>
+            <stage type="entrance">Ludimagister</stage>
+            <sp who="#ludimagister">
+               <l>En ego peruigili cura aeternoque labore,</l>
+               <l>Excolui iuuenum ingenia, et praecepta Mineruae</l>
+               <l n="105">Tradens consenui, cathedraeque piget sine fructu.</l>
+               <l>Quid dabitur fructus, tanti quae dona laboris.</l>
+            </sp>
+            <sp who="#mors-vel-philosophus">
+               <l>Omnia mors aequans, uitae ultima meta laboris.</l>
+            </sp>
+            <stage type="entrance">Miles auratus</stage>
+            <sp who="#miles-auratus">
+               <l>Miles ego auratus, fulgenti murice et auro</l>
+               <l part="I">Splendidus in populo.</l>
+            </sp>
+            <sp who="#mors-vel-philosophus">
+               <l part="F">Mors te manet omnia perdens.</l>
+            </sp>
+            <stage type="entrance">Miles auratus.</stage>
+            <sp who="#miles-auratus">
+               <l n="110">Miles ego armatus, qui bella ferocia gessi.</l>
+               <l>Nullius occursum expaui, quam durus et audax.</l>
+               <l part="I">Ergo immunis ero.</l>
+            </sp>
+            <sp who="#mors-vel-philosophus">
+               <l part="F">Mors te intrepida ipsa necabit.</l>
+            </sp>
+            <stage type="entrance">Mercator</stage>
+            <sp who="#mercator">
+               <l>En ego mercator diues, maria omnia lustro</l>
+               <l part="I">Et terras, ut res crescant.</l>
+            </sp>
+            <sp who="#mors-vel-philosophus">
+               <l part="F">Mors te metet ipsa.</l>
+            </sp>
+            <stage type="entrance">Fuckardus</stage>
+            <sp who="#fuckardus">
+               <l n="115">En ego fuckardus, loculos gesto aeris onustos,</l>
+               <l>Omnia per mundum coëmens, uendo atque reuendo.</l>
+               <l>Heroës me sollicitant, atque aera requirunt.</l>
+               <l>Haud est me lato quisquam modo ditior orbe.</l>
+               <l>Mortis ego iura et frameas nihil ergo tremisco.</l>
+            </sp>
+            <sp who="#mors-vel-philosophus">
+               <l n="120">Morte cades, mors te rebus spoliabit opimis.</l>
+            </sp>
+            <stage type="entrance">Quaestor</stage>
+            <sp who="#quaestor">
+               <l>Quaestor ego, loculos suffersi arcasque capaces</l>
+               <l>Est mihi praenitidis fundata pecunia uillis.</l>
+               <l>Hac diues redimam durae discrimina mortis.</l>
+            </sp>
+            <sp who="#mors-vel-philosophus">
+               <l>Te mors praeripiet nullo exorabilis auro.</l>
+            </sp>
+            <stage type="entrance">Nauclerus</stage>
+            <sp who="#nauclerus">
+               <l n="125">En ego nauclerus spaciosa per aequora uectus,</l>
+               <l>Non timui maris aut uenti discrimina mille.</l>
+            </sp>
+            <sp who="#mors-vel-philosophus">
+               <l>Cymba tamen mortis capiet te quaeque uorantis.</l>
+            </sp>
+            <stage>Agricola</stage>
+            <sp who="#agricola">
+               <l>Agricola en ego sum, praeduro saepe labore,</l>
+               <l>Et uigili exhaustus cura, sudore perenni,</l>
+               <l n="130">Victum pertenuem quaerens, sine fraude doloque</l>
+               <l>Omnia pertentans, miseram ut traducere possim</l>
+               <l>Vitam, nec mundo me est infelicior alter.</l>
+            </sp>
+            <sp who="#mors-vel-philosophus">
+               <l>Mors tamen eduri fiet tibi meta laboris.</l>
+            </sp>
+            <stage type="entrance">Orator</stage>
+            <sp who="#orator">
+               <l>Heroum interpres uenio, fraudique peritus.</l>
+               <l n="135">Bellorum strepitus compono, et bella reduco,</l>
+               <l>Meque petunt reges, populus miratur adorans.</l>
+            </sp>
+            <sp who="#mors-vel-philosophus">
+               <l>Nulla abiget fraudi linguae ue peritia mortem.</l>
+            </sp>
+            <stage type="entrance">Princeps belli</stage>
+            <sp who="#princeps-belli">
+               <l>Fulmen ego belli, reges et regna subegi.</l>
+               <l>Victor ego ex omni praeduro quamlibet ecce</l>
+               <l n="140">Marte fui, uitae hinc timeo discrimina nulla.</l>
+            </sp>
+            <sp who="#mors-vel-philosophus">
+               <l>Te mors confodiet cauda trigonis aquosi,</l>
+               <l>Atque eris exanimis moriens uno ictu homo bullae.</l>
+            </sp>
+            <stage type="entrance">Diues</stage>
+            <sp who="#dives">
+               <l>Sum rerum felix, foecunda est prolis et uxor,</l>
+               <l>Plena domus, laetum pecus, et cellaria piena</l>
+               <l n="145" part="I">Nil igitur metuo.</l>
+            </sp>
+            <sp who="#mors-vel-philosophus">
+               <l n="145" part="F">Quid ais? mors te impia tollet.</l>
+            </sp>
+            <stage type="entrance">Pauper.</stage>
+            <sp who="#pauper">
+               <l>Iro ego pauperior, Codroque tenuior omni,</l>
+               <l>Despicior cunctis, nemo est qui subleuet heu heu.</l>
+               <l>Hinc parcet ueniens mors: nam nihil auferet a me.</l>
+            </sp>
+            <sp who="#mors-vel-philosophus">
+               <l>Non sic euades, ditem cum paupere tollit.</l>
+            </sp>
+            <stage type="entrance">Foenerator</stage>
+            <sp who="#foenerator">
+               <l n="150">Vt loculi intumeant auro, ui, fraude, doloque</l>
+               <l>Foenore nunc quaestum facio. furtoque rapinaque,</l>
+               <l>Vt proles ditem, passim dicarque beatus,</l>
+               <l>Per fas perque nefas corradens omnia quaero.</l>
+            </sp>
+            <sp who="#mors-vel-philosophus">
+               <l>Mors ueniens furtim praedabitur, omnia tollens.</l>
+            </sp>
+            <stage type="entrance">Adolescens.</stage>
+            <sp who="#adolescens-2">
+               <l n="155">Sum iuuenis, forma spectabilis, indole gaudens</l>
+               <l>Maturusque aeui, nullus praestantior alter,</l>
+               <l>Moribus egregiis populo laudatus ab omni.</l>
+            </sp>
+            <sp who="#mors-vel-philosophus">
+               <l>Pallida, difformis mors auferet omnia raptim.</l>
+            </sp>
+            <stage type="entrance">Puella</stage>
+            <sp who="#puella">
+               <l>Ecce puellarum pulcherrima, mortis iniquae</l>
+               <l n="160">Spicula nil meditor, iuuenilibus et fruor annis,</l>
+               <l>Meque proci expectant compti, facieque uenusti.</l>
+            </sp>
+            <sp who="#mors-vel-philosophus">
+               <l>Stulta, quid in uana spe iactas? Mors metet omnes</l>
+               <l>Difformes, pulchrosque simul cum paupere dites.</l>
+            </sp>
+            <stage type="entrance">Nuncius</stage>
+            <sp who="#nuncius">
+               <l>Nuncius ecce ego sum, qui nuncia perfero pernix.</l>
+               <l n="165">Sed retrospectans post terga, pape audio quidnam?</l>
+               <l>Me tuba terrificans mortis uocat. Heu moriendum est.</l>
+            </sp>
+         </div>
+         <div type="epilogue">
+            <head>PERORATIO.</head>
+            <sp who="#prologus">
+               <l>Mortales igitur memores modo uiuite laeti</l>
+               <l>Instar uenturi furis, discrimine nullo</l>
+               <l>Cunctos rapturi passim ditesque inopesque.</l>
+               <l n="170">Stultus et insipiens uita qui sperat in ista,</l>
+               <l>Instar quae fumi perit, et cito desinit esse.</l>
+               <l>Fac igitur tota uirtuti incumbito mente,</l>
+               <l>Quae nescit mortem, sed scandii ad ardua coeli,</l>
+               <l>Quo nos a fatis ducat rex Iuppiter. Amen.</l>
+               <l>Plaudite nunc, animum cuncti retinete fauentes.</l>
+            </sp>
+         </div>
+         <closer>FINIS</closer>
+      </body>
+      <back>
+         <docImprint>
+            <pubPlace>ANTVERPIAE</pubPlace><publisher>MARTINVS CAESAR</publisher>excudebat <date
+               when="1534-12-06">An. M.D.XXXIIII. Mensis Decembris die sexto.</date>
+         </docImprint>
+      </back>
+   </text>
+</TEI>
