@@ -144,9 +144,9 @@
       </front>
       <body>
          <div type="act" n="1">
-            <head>ACTVS PRIMVS</head>
-            <stage>DIVINA NEMESIS.</stage>
+            <head>ACTVS PRIMVS</head>            
             <sp who="#nemesis-divina">
+               <speaker>DIVINA NEMESIS.</speaker>
                <l>QVicumque scelerum monstra vipereo sinu,</l>
                <l>Et nutrit hydros noxiam Inferni luem,</l>
                <l>Criminibus vrget funera, &amp; nunquam boni</l>
@@ -228,9 +228,9 @@
                <l>Et quà pudendum flamma purgârit nefas,</l>
                <l>Lethaea viui sulfuris stabunt vada,</l>
                <l>Et olentis Erebi grande fumabit chaos.</l>
-            </sp>
-            <stage>CHORVS.</stage>
+            </sp>            
             <sp who="#chorus">
+               <speaker>CHORVS.</speaker>
                <l>Heu! quod nulla voluptas,</l>
                <l n="80">Rebus nata secundis,</l>
                <l>Froeno temperat aestum!.</l>
@@ -322,7 +322,7 @@
          </div>
          <div type="act" n="2">
             <head>ACTVS SECVNDVS</head>
-            <stage>ABRAHAM, ANGELI.</stage>
+            <stage type="characters">ABRAHAM, ANGELI.</stage>
             <sp who="#abrahamus">
                <l>EX quo reliqui patrios Hurae lares</l>
                <l>Chaldaea latè iugera, Aßyrias opes,</l>
@@ -396,9 +396,9 @@
                <speaker>ANGELUS.</speaker>
                <l>Quid stamus etiam? mandat hîc requiem Deus.</l>
             </sp>
-            <pb n="10"/>
-            <stage>CHORVS.</stage>
+            <pb n="10"/>            
             <sp who="#chorus">
+               <speaker>CHORVS.</speaker>
                <l>Turbatur intrò, Sara laetitiae vacat,</l>
                <l n="230">Iuxtà senex accumbit aequali toro,</l>
                <l>Interque laetos hospites libat merum;</l>
@@ -459,7 +459,7 @@
          </div>
          <div type="act" n="3">
             <head>ACTVS TERTIVS.</head>
-            <stage>SARA, ABRAHAM.</stage>
+            <stage type="characters">SARA, ABRAHAM.</stage>
             <sp who="#sara">
                <l>ERgóne iterum viuimus Abrâm,</l>
                <l>Et connubij copula nostri</l>
@@ -642,9 +642,9 @@
                <l>Et iam rubentem dexteram strinxit quoque,</l>
                <l>Vt perdulles feriat, inuictum est malum;</l>
                <l>Curare Lotum desine, immunis manet.</l>
-            </sp>
-            <stage>CHORVS.</stage>
+            </sp>            
             <sp who="#chorus">
+               <speaker>CHORVS.</speaker>
                <l>Nemo tam Diuos habuit secundos,</l>
                <l n="355">Semper vt poßit sibi polliceri</l>
                <l>Lenè currentis spatium iuuentae.</l>
@@ -754,7 +754,7 @@
          </div>
          <div type="act" n="4">
             <head>ACTVS QVARTVS.</head>
-            <stage>LOTVS, ANGELI.</stage>
+            <stage type="characters">LOTVS, ANGELI.</stage>
             <sp who="#lotus">
                <l n="455">INcaesta semper Sodoma! quid primum querar?</l>
                <l>Et quid deinde? mutus est omnis dolor,</l>
@@ -839,9 +839,9 @@
                <l>Scio, hospitalis signat has Genius fores,</l>
                <l n="530">Comitemur, ille vultus hoc suadet Viri,</l>
                <l>Et nota probitas, &amp;, quod excellit, Deus.</l>
-            </sp>
-            <stage>CHORVS.</stage>
+            </sp>            
             <sp who="#chorus">
+               <speaker>CHORVS.</speaker>
                <l>Audax Terrigenûm genus,</l>
                <l>Seu cùm frugibus imminet,</l>
                <l>Lectae frugibus arboris,</l>
@@ -1036,7 +1036,7 @@
          </div>
          <div type="act" n="5">
             <head>ACTVS QVINTVS.</head>
-            <stage>LOTVS, IPHILLA, ANGELI.</stage>
+            <stage type="characters">LOTVS, IPHILLA, ANGELI.</stage>
             <sp who="#lotus">
                <l n="715">FEralis axe pallet Eöo dies,</l>
                <l>Et lassa tepido sidera incumbunt salo,</l>
@@ -1177,7 +1177,7 @@
                <l n="775">Heu! fugite manibus fulmen exilijt meis,</l>
                <l>Et tota diram Sodoma concepit facem.</l>
             </sp>
-            <stage>FINIS.</stage>
+            <closer>FINIS.</closer>
          </div>
       </body>
    </text>

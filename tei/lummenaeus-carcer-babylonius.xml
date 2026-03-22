@@ -337,9 +337,9 @@
          <head>TRAGAEDIA SACRA.</head>
          <div type="act" n="1">
             <div type="scene" n="1">
-               <head>Actus primi. Scena Ia.</head>
-               <stage>NABVCHODONOZOR.</stage>
+               <head>Actus primi. Scena Ia.</head>               
                <sp who="#nabuchodonosor">
+                  <speaker>NABVCHODONOZOR.</speaker>
                   <l>INFIDA semper Solyma! non vnquam semel</l>
                   <l>Periura, perduellis! ingratum caput</l>
                   <l>O Sedecia! quò rapit praeceps furor</l>
@@ -392,9 +392,9 @@
                   <l>Cornuta plenam Diua formabit facem</l>
                   <l>Et tu peribis Solyma; iuraui Deos.</l>
                </sp>
-               <pb n="3"/>
-               <stage>CHORVS CHALD.</stage>
+               <pb n="3"/>               
                <sp who="#chorus-chaldaeorum">
+                  <speaker>CHORVS CHALD.</speaker>
                   <l n="50">ECQVIS strepitus? quae turba virûm?</l>
                   <l>Vaeh! raucarum mille tubarum</l>
                   <l>Furit attonitas clangor ad aures.</l>
@@ -491,9 +491,9 @@
          <pb n="6"/>
          <div type="act" n="2">
             <div type="scene" n="1">
-               <head>ACTVS 2.</head>
-               <stage>Nabuzardan Princeps militiae.</stage>
+               <head>ACTVS 2.</head>               
                <sp who="#nabuzardan">
+                  <speaker>Nabuzardan Princeps militiae.</speaker>
                   <l>BENE est, tenentur, nullus effugio est locus,</l>
                   <l>Clausêre muros castra &amp; effossos trahent</l>
                   <l>Vt se repente totus excutiet furor</l>
@@ -530,9 +530,9 @@
                   <l>O quam libet saeuire &amp; excutere impetum</l>
                   <l n="170">Luctantis animi! Solyma, perfidiae caput</l>
                   <l>Solyma, videbis sanguinem &amp; stupra &amp; faces.</l>
-               </sp>
-               <stage>CHORVS CHALD.</stage>
+               </sp>               
                <sp who="#chorus-chaldaeorum">
+                  <speaker>CHORVS CHALD.</speaker>
                   <l>SI vera canit docta vetustas,</l>
                   <l>Nec malè vates omnia fingunt,</l>
                   <l>Legit Superis axibus ignem</l>
@@ -707,9 +707,9 @@
          </div>
          <div type="act" n="3">
             <div type="scene" n="1">
-               <head>ACTVS 3.</head>
-               <stage>PROPHETA.</stage>
+               <head>ACTVS 3.</head>               
                <sp who="#hieremias">
+                  <speaker>PROPHETA.</speaker>
                   <l>QUO fugimus iterum? scilicet non est nouum</l>
                   <l n="335">Mutare sedes, fecit hoc Solymé prior</l>
                   <l>Et cum Manassen vidit inclusum specu</l>
@@ -791,9 +791,9 @@
                   <l>Quam nunciaui; quid mihi rursum Deus</l>
                   <l>Inspirat animos? Solyma collapsa est mea</l>
                   <l n="410">Et clade factâ lugubre excidium trahit.</l>
-               </sp>
-               <stage>CHORVS ISRAELIT.</stage>
+               </sp>               
                <sp who="#chorus-israelitarum">
+                  <speaker>CHORVS ISRAELIT.</speaker>
                   <l>VERVM est, an miseris imposuit timor</l>
                   <l>Chaldeos alacres feruere, &amp; impetu</l>
                   <l>Facto praecipites ducere machinas?</l>
@@ -1004,8 +1004,8 @@
          <div type="act" n="4">
             <div type="scene" n="1">
                <head>ACTVS 4.</head>
-               <stage>NABVCHODONOZOR Rex.</stage>
-               <stage>ET ASPHENES PRINCEPS EVNVCH.</stage>
+               <stage type="characters">NABVCHODONOZOR Rex.</stage>
+               <stage type="characters">ET ASPHENES PRINCEPS EVNVCH.</stage>
                <sp who="#nabuchodonosor">
                   <l n="605">DVBITAMUS etiam? scilicet sceptro excidit</l>
                   <l>Rex perduellis, scilicet vinctus sedet,</l>
@@ -1218,9 +1218,9 @@
                   <l>Exemplo ab vno didici, &amp; attonitus iacet</l>
                   <l>Animus, dolorem fixit alienus dolor.</l>
                </sp>
-               <pb n="24"/>
-               <stage>CHORVS ISRAELIT.</stage>
+               <pb n="24"/>               
                <sp who="#chorus-israelitarum">
+                  <speaker>CHORVS ISRAELIT.</speaker>
                   <l n="670">VASTATA Solymé est, vndique in flammis stetit</l>
                   <l>Antiqua Bethel, illa quam dono tulit</l>
                   <l>Foecundus Abram Gentis extorris suae,</l>
@@ -1382,8 +1382,8 @@
          <div type="act" n="5">
             <div type="scene" n="1">
                <head>ACTVS 5.</head>
-               <stage>SEDECHIAS, NABVCHODONOZOR,</stage>
-               <stage>SATELLITIVM, ET FILII SEDECHIAE.</stage>
+               <stage type="characters">SEDECHIAS, NABVCHODONOZOR,</stage>
+               <stage type="characters">SATELLITIVM, ET FILII SEDECHIAE.</stage>
                <sp who="#sedechias">
                   <l>QVICVMQVE sceptro fidit, &amp; vano nimis</l>
                   <l>Fulgore captus fragile suspirat bonum,</l>
@@ -1620,9 +1620,9 @@
                   <speaker>Nabuch.</speaker>
                   <l>Quò se excutit? tenete, dum sedeat furor,</l>
                   <l n="905">Vinctumque, ferroque obrutum in caueam date.</l>
-               </sp>
-               <stage>CHORVS ISRAELIT. PLANGENTIVM.</stage>
+               </sp>               
                <sp who="#chorus-israelitarum">
+                  <speaker>CHORVS ISRAELIT. PLANGENTIVM.</speaker>
                   <l>QVO se rapiet dolor &amp; miserae</l>
                   <l>Quae prima struam verba querelae?</l>
                   <l>O cara Bethel! tu nunc calidis</l>
@@ -1881,7 +1881,7 @@
                   <l n="1150">Tentare foetam Numinis diri manum!</l>
                   <l>O sancte I’Houa! iustus est furor tuus.</l>
                </sp>
-               <stage>FINIS.</stage>
+               <closer>FINIS.</closer>
             </div>
          </div>
       </body>

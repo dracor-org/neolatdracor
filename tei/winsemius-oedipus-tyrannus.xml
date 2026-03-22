@@ -51,9 +51,9 @@
                <bibl type="originalSource"><author>Vitus Winsemius</author>: <title type="main"
                      >Sophoclis Oedipus tyrannus</title>. In: <title type="main">ΣΟΦΟΚΛΕΟΥΣ ΑΙ ΕΠΤΑ
                      ΤΡΑΓΩΔΙΑΕ. SOPHOCLIS TRAGOEDIAE SEPTEM</title> . <title type="sub">Unà cum
-                     omnibus Graecis scholiis, &amp; Latina Viti Winsemij ad verbum
-                     Interpretatione. Quibus accesserunt Ioachimi Camerarij, necnon Henrici Stephani
-                     annotationes. Unà cum Indice sententiarum Sophoclearum.</title> .
+                     omnibus Graecis scholiis, &amp; Latina Viti Winsemij ad verbum Interpretatione.
+                     Quibus accesserunt Ioachimi Camerarij, necnon Henrici Stephani annotationes.
+                     Unà cum Indice sententiarum Sophoclearum.</title> .
                      <pubPlace>[Geneva]</pubPlace>: <publisher>Paul Estienne</publisher>
                   <date>1603</date>. <biblScope>pp. 257–376</biblScope>.</bibl>
                <relatedItem>
@@ -244,7 +244,7 @@
             <castItem>
                <role>ALIUS NUNCIUS.</role>
             </castItem>
-            <stage>Praefatur OEdipus. Continue</stage>
+            <stage>Praefatur OEdipus.</stage>
          </castList>
       </front>
       <body>
@@ -1104,7 +1104,7 @@
                   <l n="490">Oracula, at illa viva circumvolitant.</l>
                </lg>
                <stage>Strophe 2.</stage>
-               <lg>
+               <lg>                  
                   <l>Horribilia verò movet</l>
                   <l>Sapiens vates,</l>
                   <l>Quae nequeunt credi, neque ut negari possint video.</l>
@@ -1477,9 +1477,9 @@
                <speaker>Ioca.</speaker>
                <l>Crede huic per deum, marite,</l>
                <l>Atque hoc iusiurandum deorum reverere,</l>
-               <l n="660">Meque adeo, &amp; hos praesentes cives,</l>
-               <stage>PERICOMMATA, strophe I.</stage>
+               <l n="660">Meque adeo, &amp; hos praesentes cives,</l>               
             </sp>
+            <stage>PERICOMMATA, strophe I.</stage>
             <sp who="#chorus">
                <speaker>Cho.</speaker>
                <l>Ausculta volens, remque expende,</l>
@@ -1493,9 +1493,9 @@
                <speaker>Cho.</speaker>
                <l>Eum qui antehac nunquam stultus habitus est,</l>
                <l n="665">Et nunc sanctè iuravit,</l>
-               <l>Quaeso reverere.</l>
-               <stage>Systema I.</stage>
+               <l>Quaeso reverere.</l>               
             </sp>
+            <stage>Systema I.</stage>
             <sp who="#oedipus">
                <speaker>Oed.</speaker>
                <l>Scis igitur quid velis?</l>
@@ -1517,9 +1517,9 @@
             <sp who="#oedipus">
                <speaker>Oed.</speaker>
                <l>Hoc scito, te cùm ista petis, mihi</l>
-               <l>Exitium moliri, aut fugam ex hac terra.</l>
-               <stage>Strophe 2.</stage>
+               <l>Exitium moliri, aut fugam ex hac terra.</l>               
             </sp>
+            <stage>Strophe 2.</stage>
             <sp who="#chorus">
                <speaker>Cho.</speaker>
                <l>Non per Deorum omnium</l>
@@ -1530,10 +1530,10 @@
                <l>Sed mihi infelici</l>
                <l n="680">Patriae calamitas excruciat animum,</l>
                <l>Quodque malis prioribus</l>
-               <l>Haec à vobis accedent.</l>
-               <pb n="318"/>
-               <stage>Systema 2.</stage>
+               <l>Haec à vobis accedent.</l>               
             </sp>
+            <pb n="318"/>
+            <stage>Systema 2.</stage>
             <sp who="#oedipus">
                <speaker>Oed.</speaker>
                <l>Ille igitur abeat, &amp; si me oportet omnino perire,</l>
@@ -1554,9 +1554,9 @@
             <sp who="#creon">
                <speaker>Cre.</speaker>
                <l>Abibo.</l>
-               <l>Tibi quidem futurus alienus, inter hos verò aequali conditione.</l>
-               <stage>ANTISTROPHE I.</stage>
+               <l>Tibi quidem futurus alienus, inter hos verò aequali conditione.</l>               
             </sp>
+            <stage>ANTISTROPHE I.</stage>
             <sp who="#chorus">
                <speaker>Cho.</speaker>
                <l n="695">Domina, quid hunc cunctaris</l>
@@ -1594,10 +1594,10 @@
             <sp who="#oedipus">
                <speaker>Oed.</speaker>
                <l>Vides quò progrediare, cùm vir bonus sis,</l>
-               <l>Me negligis, ac perturbas meum animum.</l>
-               <pb n="320"/>
-               <stage>Antistrophe 2.</stage>
+               <l>Me negligis, ac perturbas meum animum.</l>                             
             </sp>
+            <pb n="320"/>
+            <stage>Antistrophe 2.</stage>
             <sp who="#chorus">
                <speaker>Cho.</speaker>
                <l>Dixi antea, ô Rex,</l>
@@ -1608,10 +1608,10 @@
                <l>Nam tu charam patriam meam</l>
                <l>AErumnis oppressam</l>
                <l>Erexisti ac servasti,</l>
-               <l n="715">Et nunc boni Principis, si posses, officium praestares.</l>
-               <pb n="321"/>
-               <stage>Antisystema 2.</stage>
+               <l n="715">Et nunc boni Principis, si posses, officium praestares.</l>               
             </sp>
+            <pb n="321"/>
+            <stage>Antisystema 2.</stage>
             <sp who="#iocaste">
                <speaker>Ioc.</speaker>
                <l>Per Deum dic mihi rex, quam ob causam</l>
@@ -1637,9 +1637,9 @@
             <sp who="#oedipus">
                <speaker>Oed.</speaker>
                <l n="725">Vatem illum maleficum subornavit,</l>
-               <l>Nam quantum potest, omnium ille ora laxat.</l>
-               <stage>IAMBI.</stage>
+               <l>Nam quantum potest, omnium ille ora laxat.</l>               
             </sp>
+            <stage>IAMBI.</stage>
             <sp who="#iocaste">
                <speaker>Ioc.</speaker>
                <l>Omitte iam ea quae de te ais,</l>
@@ -2904,9 +2904,9 @@
                <l>Indiget: nam hic morbus maior est, quàm ut ferri possit.</l>
                <l>Ostendet verò ipse tibi, nam fores</l>
                <l>Aperiuntur, &amp; spectaculum statim videbis</l>
-               <l>Tale, quod vel hostem ad misericordiam commovere queat.</l>
-               <stage>ANAPAESTI.</stage>
+               <l>Tale, quod vel hostem ad misericordiam commovere queat.</l>               
             </sp>
+            <stage>ANAPAESTI.</stage>
             <sp who="#chorus">
                <speaker>Cho.</speaker>
                <l>O tristem aspectu calamitatem.</l>
@@ -2931,9 +2931,9 @@
             </sp>
             <sp who="#chorus">
                <speaker>Cho.</speaker>
-               <l n="1335">Abiit in eventum tristem, nec auditu, nec visu facilem.</l>
-               <stage>PERICOMMATA. Strophe I.</stage>
+               <l n="1335">Abiit in eventum tristem, nec auditu, nec visu facilem.</l>               
             </sp>
+            <stage>PERICOMMATA. Strophe I.</stage>
             <sp who="#oedipus">
                <speaker>Oed.</speaker>
                <l>O tenebrae &amp; caligo abominabilis,</l>
@@ -2941,17 +2941,17 @@
                <l>Invicta, &amp; infinita, Hei mihi,</l>
                <pb n="363"/>
                <l n="1340">Hei mihi iterum, quàm saevus me subiit simul</l>
-               <l>Stimulus furoris, &amp; memoria malorum.</l>
-               <stage>Systema I.</stage>
+               <l>Stimulus furoris, &amp; memoria malorum.</l>               
             </sp>
+            <stage>Systema I.</stage>
             <sp who="#chorus">
                <speaker>Cho.</speaker>
                <lg>
                   <l>Et quidem nihil mirum est in tantis aerumnis</l>
                   <l>Dupliciter te lugere, &amp; duplicibus malis angi.</l>
-               </lg>
-               <stage>Antistrophe I.</stage>
+               </lg>               
             </sp>
+            <stage>Antistrophe I.</stage>
             <sp who="#oedipus">
                <speaker>Oed.</speaker>
                <lg>
@@ -2961,17 +2961,17 @@
                   <l>Et caecum curas, Heu, heu,</l>
                   <l>Non enim me fallis, sed bene novi</l>
                   <l>Tuam vocem, &amp; si lumine privatus.</l>
-               </lg>
-               <stage>Antisystema I.</stage>
+               </lg>               
             </sp>
+            <stage>Antisystema I.</stage>
             <sp who="#chorus">
                <speaker>Cho.</speaker>
                <lg>
                   <l n="1350">Heu, quàm crudeliter saeviisti: quomodo potuisti sic</l>
                   <l>Affligere oculos? quis te incitavit Deorum?</l>
-               </lg>
-               <stage>Strophe 2.</stage>
+               </lg>               
             </sp>
+            <stage>Strophe 2.</stage>
             <sp who="#oedipus">
                <speaker>Oed.</speaker>
                <lg>
@@ -2983,14 +2983,14 @@
                   <l>Nemo, praeterquam ego ipse.</l>
                   <l>Quid enim attinebat me videre,</l>
                   <l>Cui nihil non tristissimum quod viderem erat?</l>
-               </lg>
-               <stage>Systema 2.</stage>
+               </lg>               
             </sp>
+            <stage>Systema 2.</stage>
             <sp who="#chorus">
                <speaker>Cho.</speaker>
-               <l n="1360">Est ita ut dicis.</l>
-               <stage>Strophe 3.</stage>
+               <l n="1360">Est ita ut dicis.</l>               
             </sp>
+            <stage>Strophe 3.</stage>
             <sp who="#oedipus">
                <speaker>Oed.</speaker>
                <lg>
@@ -3000,18 +3000,18 @@
                   <l>O amici, consceleratum valde,</l>
                   <l n="1365">Et maximè execrabilem, atque etiam</l>
                   <l>Diis &amp; omnibus hominibus invisissimum.</l>
-               </lg>
-               <stage>Systema 3.</stage>
+               </lg>               
             </sp>
+            <stage>Systema 3.</stage>
             <sp who="#chorus">
                <speaker>Cho.</speaker>
                <lg>
                   <l>Infoelix ob istum animum &amp; calamitatem pariter,</l>
                   <pb n="365"/>
                   <l>Utinam te nunquam cognovissem.</l>
-               </lg>
-               <stage>Antistrophe 3.</stage>
+               </lg>               
             </sp>
+            <stage>Antistrophe 3.</stage>
             <sp who="#oedipus">
                <speaker>Oed.</speaker>
                <lg>
@@ -3022,13 +3022,13 @@
                   <l>Fecit: tunc enim cum minore poteram</l>
                   <l>Et amicorum, &amp; meo dolore mori.</l>
                </lg>
-               <stage>Antisystema 2.</stage>
-            </sp>
+            </sp>            
+            <stage>Antisystema 2.</stage>
             <sp who="#chorus">
                <speaker>Cho.</speaker>
-               <l>Idem &amp; ego optarim.</l>
-               <stage>Antistrophe I.</stage>
+               <l>Idem &amp; ego optarim.</l>               
             </sp>
+            <stage>Antistrophe I.</stage>
             <sp who="#oedipus">
                <speaker>Oed.</speaker>
                <lg>
@@ -3039,17 +3039,17 @@
                   <pb n="366"/>
                   <l>Denique si quod unquam atrox malum fuit,</l>
                   <l n="1380">Id sortitus est OEdipus,</l>
-               </lg>
-               <stage>Antisystema 3.</stage>
+               </lg>               
             </sp>
+            <stage>Antisystema 3.</stage>
             <sp who="#chorus">
                <speaker>Cho.</speaker>
                <lg>
                   <l>Non video quomodo te dicam bene consuluisse,</l>
                   <l>Cui melius erat non vivere, quàm caecum vivere.</l>
-               </lg>
-               <stage>IAMBI.</stage>
+               </lg>               
             </sp>
+            <stage>IAMBI.</stage>
             <sp who="#oedipus">
                <speaker>Oed.</speaker>
                <l>Quòd haec si non optimè facta sint,</l>
