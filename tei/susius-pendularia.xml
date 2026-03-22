@@ -179,9 +179,9 @@
             <div type="scene" n="1">
                <head>ACTVS PRIMI</head>
                <head>SCENA I.</head>
-               <stage>PHILOXENVS senex.</stage>
-               <stage>PISTOCLERVS adolescens.</stage>
-               <stage>LYDVS seruus.</stage>
+               <stage type="characters">PHILOXENVS senex.</stage>
+               <stage type="characters">PISTOCLERVS adolescens.</stage>
+               <stage type="characters">LYDVS seruus.</stage>
                <sp who="#philoxenus">
                   <l part="I">VOlo te mihi obsequentem esse.</l>
                </sp>
@@ -305,8 +305,8 @@
             </div>
             <div type="scene" n="2">
                <head>SCENA II.</head>
-               <stage>PISTOCLERVS adolescens.</stage>
-               <stage>LYDVS seruus.</stage>
+               <stage type="characters">PISTOCLERVS adolescens.</stage>
+               <stage type="characters">LYDVS seruus.</stage>
                <sp who="#pistoclerus">
                   <l>Di te perdant, mucose senex: quin me cruci</l>
                   <l>Duis discipulum potiùs, barathroque famulum,</l>
@@ -429,11 +429,11 @@
             <div type="scene" n="1">
                <head>ACTVS SECVNDI.</head>
                <head>SCENA I.</head>
-               <stage>MNESILOCHVS.</stage>
-               <stage>SOSICLES.</stage>
-               <stage>CLEOMACHVS.</stage>
-               <stage>PISTOCLERVS.</stage>
-               <stage>LYDUS.</stage>
+               <stage type="characters">MNESILOCHVS.</stage>
+               <stage type="characters">SOSICLES.</stage>
+               <stage type="characters">CLEOMACHVS.</stage>
+               <stage type="characters">PISTOCLERVS.</stage>
+               <stage type="characters">LYDUS.</stage>
                <sp who="#mnesilochus">
                   <l part="I">SEquere huc.</l>
                </sp>
@@ -541,7 +541,7 @@
             <pb n="247"/>
             <div type="scene" n="2">
                <head>SCENA II.</head>
-               <stage>LYDVS.</stage>
+               <stage type="characters">LYDVS.</stage>
                <sp who="#lydus">
                   <l>O barathrum, vbi tu es? vt ego te vsurpem lubens!</l>
                   <l n="105">Video nimio iam multo plusquam volueram,</l>
@@ -565,8 +565,8 @@
             </div>
             <div type="scene" n="3">
                <head>SCENA III.</head>
-               <stage>DAVVS.</stage>
-               <stage>LYDVS.</stage>
+               <stage type="characters">DAVVS.</stage>
+               <stage type="characters">LYDVS.</stage>
                <sp who="#davus">
                   <l>Durum Hercle negotium est homini seruo, neque</l>
                   <l>Vnquam caret negotio, etiam dum, caret.</l>
@@ -830,10 +830,10 @@
             <div type="scene" n="1">
                <head>ACTVS TERTII</head>
                <head>SCENA I.</head>
-               <stage>PHILOXENVS senex.</stage>
-               <stage>DAVVS seruus.</stage>
-               <stage>LORARII quatuor.</stage>
-               <stage>LYDVS.</stage>
+               <stage type="characters">PHILOXENVS senex.</stage>
+               <stage type="characters">DAVVS seruus.</stage>
+               <stage type="characters">LORARII quatuor.</stage>
+               <stage type="characters">LYDVS.</stage>
                <sp who="#philoxenus">
                   <l part="I">AIn’ ita esse Daue?</l>
                </sp>
@@ -1124,11 +1124,11 @@
             <div type="scene" n="1">
                <head>ACTVS QVARTI</head>
                <head>SCENA I.</head>
-               <stage>PISTOCLERVS.</stage>
-               <stage>MNESILOCHVS.</stage>
-               <stage>SOSICLES.</stage>
-               <stage>CLEOMACHVS.</stage>
-               <stage>LYDVS.</stage>
+               <stage type="characters">PISTOCLERVS.</stage>
+               <stage type="characters">MNESILOCHVS.</stage>
+               <stage type="characters">SOSICLES.</stage>
+               <stage type="characters">CLEOMACHVS.</stage>
+               <stage type="characters">LYDVS.</stage>
                <sp who="#pistoclerus">
                   <l>NEscio quid praesagiat insulsum cor, Hercule,</l>
                   <l>Ad Augurum collegium res deferri pote est.</l>
@@ -1255,8 +1255,8 @@
             </div>
             <div type="scene" n="2">
                <head>SCENA II.</head>
-               <stage>NICOBVLVS senex.</stage>
-               <stage>MESSENIO seruus.</stage>
+               <stage type="characters">NICOBVLVS senex.</stage>
+               <stage type="characters">MESSENIO seruus.</stage>
                <sp who="#nicobulus">
                   <speaker>Nicob.</speaker>
                   <l n="330">Malam rem ducit, multasque sibi fabricat cruces,</l>
@@ -1407,13 +1407,13 @@
             <pb n="259"/>
             <div type="scene" n="3">
                <head>SCENA III.</head>
-               <stage>PISTOCLERVS.</stage>
-               <stage>CLEOMACHVS.</stage>
-               <stage>MNESILOCHVS.</stage>
-               <stage>MENAECHMVS.</stage>
-               <stage>SOSICLES.</stage>
-               <stage>LYDVS.</stage>
-               <stage>MESSENIO.</stage>
+               <stage type="characters">PISTOCLERVS.</stage>
+               <stage type="characters">CLEOMACHVS.</stage>
+               <stage type="characters">MNESILOCHVS.</stage>
+               <stage type="characters">MENAECHMVS.</stage>
+               <stage type="characters">SOSICLES.</stage>
+               <stage type="characters">LYDVS.</stage>
+               <stage type="characters">MESSENIO.</stage>
                <sp who="#mnesilochus">
                   <speaker>Mnes.</speaker>
                   <l part="I">Nunc ego inter sacrum, saxumque sto.</l>
@@ -1731,10 +1731,10 @@
             </div>
             <div type="scene" n="4">
                <head>SCENA IV.</head>
-               <stage>LYDVS.</stage>
-               <stage>PISTOCLERVS cum sociis.</stage>
-               <stage>NICOBVLVS.</stage>
-               <stage>MESSENIO.</stage>
+               <stage type="characters">LYDVS.</stage>
+               <stage type="characters">PISTOCLERVS cum sociis.</stage>
+               <stage type="characters">NICOBVLVS.</stage>
+               <stage type="characters">MESSENIO.</stage>
                <sp who="#lydus">
                   <speaker>Lyd.</speaker>
                   <l>Nemo vnquam magis sui ex animi sententiâ</l>
@@ -2196,7 +2196,7 @@
             <div type="scene" n="1">
                <head>ACTVS QVINTI</head>
                <head>SCENA I.</head>
-               <stage>PISTOCLERVS cum sociis.</stage>
+               <stage type="characters">PISTOCLERVS cum sociis.</stage>
                <sp who="#mnesilochus">
                   <speaker>Mnes.</speaker>
                   <l>PVgnata haec pugna est fortiter: fugit senex.</l>
@@ -2251,8 +2251,8 @@
             </div>
             <div type="scene" n="2">
                <head>SCENA II.</head>
-               <stage>MESSENIO.</stage>
-               <stage>PISTOCLERVS cum suis.</stage>
+               <stage type="characters">MESSENIO.</stage>
+               <stage type="characters">PISTOCLERVS cum suis.</stage>
                <sp who="#messenio">
                   <l n="680">Agite, agite, agite, pendere si quis expetat,</l>
                   <l>Restes hic grates veneunt, teruncium</l>
@@ -2324,9 +2324,9 @@
             </div>
             <div type="scene" n="3">
                <head>SCENA III.</head>
-               <stage>PHILOXENVS.</stage>
-               <stage>NICOBVLVS.</stage>
-               <stage>LYDVS.</stage>
+               <stage type="characters">PHILOXENVS.</stage>
+               <stage type="characters">NICOBVLVS.</stage>
+               <stage type="characters">LYDVS.</stage>
                <sp who="#philoxenus">
                   <l>Ain’ ita esse, Lydum, filios tuos</l>
                   <l n="700">Meumque perdere, vnicè mihi vnicum?</l>
@@ -2451,10 +2451,10 @@
             </div>
             <div type="scene" n="4">
                <head>SCENA IV.</head>
-               <stage>PISTOCLERVS cum suis.</stage>
-               <stage>PHILOXENVS.</stage>
-               <stage>NICOBVLVS.</stage>
-               <stage>LYDVS.</stage>
+               <stage type="characters">PISTOCLERVS cum suis.</stage>
+               <stage type="characters">PHILOXENVS.</stage>
+               <stage type="characters">NICOBVLVS.</stage>
+               <stage type="characters">LYDVS.</stage>
                <sp who="#pistoclerus">
                   <speaker>Pistocl.</speaker>
                   <l n="725">Vale pater: estne quod Plutoni nunciare mihi imperas?</l>
@@ -2603,7 +2603,7 @@
                   <speaker>Lyd.</speaker>
                   <l part="F">Placet: quando voles, dabo.</l>
                </sp>
-               <stage>FINIS.</stage>
+               <closer>FINIS.</closer>
             </div>
          </div>
       </body>

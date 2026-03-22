@@ -167,8 +167,8 @@
       <body>
          <div type="act" n="1">
             <head>ACTVS PRIMVS</head>
-            <stage>DALILA.</stage>
             <sp who="#dalila">
+              <speaker>DALILA.</speaker>   
                <l>SAmpson! quid ille verpus? an spolium mei</l>
                <l>Corporis habebit semper, &amp; thalamo iacens</l>
                <l>Vncto supinus, vbera Hebraeus latro</l>
@@ -238,8 +238,8 @@
                <l n="65">Et reddet aequam victimam damno meo.</l>
                <l>Audite Superi, Dalila in partes vocat</l>
             </sp>
-            <stage>CHORVS.</stage>
             <sp who="#chorus">
+               <speaker>CHORVS.</speaker>
                <l>Sic, sic mulier perfida nostro</l>
                <l>Callida tendit retia Marti?</l>
                <l>Sic imparibus miscet in vlnis</l>
@@ -362,9 +362,9 @@
          </div>
          <pb n="101"/>
          <div type="act" n="2">
-            <head>ACTVS SECVNDVS.</head>
-            <stage>SAMPSON.</stage>
+            <head>ACTVS SECVNDVS.</head>            
             <sp who="#sampson">
+               <speaker>SAMPSON.</speaker>
                <l>BEnè est, amamus iterum, &amp; hic olim fuit</l>
                <l>Meae iuuentae lusus, &amp; me Thamnatae</l>
                <l>Delecta Coniunx, fouit amplexu prior,</l>
@@ -444,9 +444,9 @@
                <l n="255">Quod si negat, non viuo, non spiro magis,</l>
                <l>Et Caucaso frigidior ad Manes eo.</l>
             </sp>
-            <pb n="104"/>
-            <stage>CHORVS.</stage>
+            <pb n="104"/>            
             <sp who="#chorus">
+               <speaker>CHORVS.</speaker>
                <l>Foelix titulis Iudaea tuis</l>
                <l>Inclyte Sampson!</l>
                <l>O quem mirus nunciat Ales</l>
@@ -511,7 +511,7 @@
          </div>
          <div type="act" n="3">
             <head>ACTVS TERTIVS</head>
-            <stage>DALILA, SAMPSON.</stage>
+            <stage type="characters">DALILA, SAMPSON.</stage>
             <sp who="#dalila">
                <l n="315">FRustrà laboras Dalila, &amp; frustrà es nimis,</l>
                <l>Nec scopulus ille flectitur, spreuit tuos</l>
@@ -800,9 +800,9 @@
                <pb n="110"/>
                <l>Stertüit; agendum est; nunc mihi tonsor caput</l>
                <l>Derade, somno languidum; bellè; hoc habet.</l>
-            </sp>
-            <stage>CHORVS.</stage>
+            </sp>            
             <sp who="#chorus">
+               <speaker>CHORVS.</speaker>
                <l>Heu! heu! heu! Heu! perdite Sampson!</l>
                <l n="415">Loquar? an sileam? perdite nimiùm,</l>
                <l>Perdite Sampson!</l>
@@ -884,10 +884,9 @@
          </div>
          <pb n="113"/>
          <div type="act" n="4">
-            <head>ACTVS QVARTVS.</head>
-            <stage>BARZANES PALAESTINVS</stage>
-            <stage>PRINCEPS.</stage>
+            <head>ACTVS QVARTVS.</head>            
             <sp who="#barsanes">
+               <speaker>BARZANES PALAESTINVS PRINCEPS.</speaker>
                <l>VIcimus &amp; ille Marspiter gelidus sedet,</l>
                <l n="490">Qui nos sine hastâ &amp; ense non fudit semel,</l>
                <l>Et sideratos egit: vt câldo &amp; gelu</l>
@@ -947,9 +946,9 @@
                <l>Nixus, sub isto acinace, inflectet caput,</l>
                <l>Sampson ad aras sanguinem debet mihi,</l>
                <l n="545">Nec parcet iste acinacis; testor Deos.</l>
-            </sp>
-            <stage>CHORVS.</stage>
+            </sp>            
             <sp who="#chorus">
+               <speaker>CHORVS.</speaker>
                <l>Rerum perpetuas vices</l>
                <l>Naturae integrat orbita.</l>
                <l>Post longas hyemes, gelu</l>
@@ -996,7 +995,7 @@
          <pb n="117"/>
          <div type="act" n="5">
             <head>ACTVS QVINTVS.</head>
-            <stage>SAMPSON, DALILA.</stage>
+            <stage type="characters">SAMPSON, DALILA.</stage>
             <sp who="#sampson">
                <l>QVicumque pullus Veneris, &amp; vaecors nimis</l>
                <l>Lusum impudicum ludit, &amp; castris meret</l>
@@ -1179,7 +1178,7 @@
                <l>Hyaena! lamia! pestis! exitium! lues!</l>
                <l n="645">Serpens! echidna! vipera! indomitum malum!</l>
             </sp>
-            <stage>FINIS.</stage>
+            <closer>FINIS.</closer>
          </div>
       </body>
    </text>

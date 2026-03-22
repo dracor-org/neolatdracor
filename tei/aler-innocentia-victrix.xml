@@ -277,11 +277,11 @@
          <div type="prologue">
             <pb n="1"/>
             <head>Prolusio rei totius musica</head>
-            <stage>Exhibet justitiam divinam pro causâ Innocentiae cum Calumniâ confligentem, deque
+            <stage type="business">Exhibet justitiam divinam pro causâ Innocentiae cum Calumniâ confligentem, deque
                eâ triumphantem.</stage>
-            <stage>Personae. Calumnia cum Geniis suis, Justitia divina cum suis, Innocentia,
+            <stage type="characters">Personae. Calumnia cum Geniis suis, Justitia divina cum suis, Innocentia,
                Personae mutae.</stage>
-            <stage>Exhibitio. Theatrum est Infernus ex quo damnati incondite, &amp; confusè canunt
+            <stage type="setting">Exhibitio. Theatrum est Infernus ex quo damnati incondite, &amp; confusè canunt
                his verbis:</stage>
             <sp who="#damnati">
                <p>Heu! <quote>Nos insensati: lassati sumus in via iniquitatis. Ergo erravimus. Quid
@@ -292,10 +292,10 @@
                      sempiternus horror inhabitat.</quote><ref>Ex Jobi. c. 10.</ref>
                </p>
             </sp>
-            <stage>Post cantum prodit mendax calumnia ex inferno, cum Geniis suis, &amp;
+            <stage type="mixed">Post cantum prodit mendax calumnia ex inferno, cum Geniis suis, &amp;
                canit.</stage>
             <sp who="#calumnia">
-               <stage>Recitativè.</stage>
+               <stage type="delivery">Recitativè.</stage>
                <l xml:lang="de">WEr mit Nahmen mich will nennen/</l>
                <l rend="indent" xml:lang="de">Schawe an mein Liberey;</l>
                <l xml:lang="de">Auß den Wapffen thut man kennen/</l>
@@ -305,7 +305,7 @@
                <l xml:lang="de">Auß derselben hab gesogen</l>
                <l rend="indent" xml:lang="de">Neid und Zorn/ Haß und List.</l>
                <pb n="2"/>
-               <stage>Aria.</stage>
+               <stage type="delivery">Aria.</stage>
                <l xml:lang="de">Mein Handthierung ist beliegen/</l>
                <l rend="indent" xml:lang="de">Schänden/ schmähen/ und betriegen:</l>
                <l xml:lang="de">Ich die Unschuld nicht kan leyden/</l>
@@ -327,7 +327,7 @@
             </sp>
             <sp who="#justitia-divina">
                <speaker>Justitia div. </speaker>
-               <stage>recitativè.</stage>
+               <stage type="delivery">recitativè.</stage>
                <l xml:lang="de">Soll ich leyden/ dasß obsiege</l>
                <l rend="indent" xml:lang="de">Lügen/ und Ehr=Schänderey?</l>
                <l xml:lang="de">Daß die Unschuld underlige/</l>
@@ -344,7 +344,7 @@
                <l xml:lang="de">Blitz/ Donner fall! in einem Knall</l>
                <l rend="indent" xml:lang="de">Das Bößwicht mach zu schanden.</l>
             </sp>
-            <stage>Tonat, &amp; calumnia cum curru praeceps ex aëre dejicitur.</stage>
+            <stage type="business">Tonat, &amp; calumnia cum curru praeceps ex aëre dejicitur.</stage>
             <sp who="#justitia-divina">
                <speaker>Justitia.</speaker>
                <l xml:lang="de">Ehr, Schänderey zu Bodem ligt:</l>
@@ -352,7 +352,7 @@
                <l xml:lang="de">Die Unschuld hat nun obgesigt:</l>
                <l rend="indent" xml:lang="de">Triumphe last erklingen.</l>
             </sp>
-            <stage>Saltus.</stage>
+            <stage type="business">Saltus.</stage>
          </div>
          <div type="act" n="1">
             <pb n="3"/>
@@ -367,7 +367,7 @@
                   <p>Sigefridus, devictis Mauris, redux; jam proximus aulae suae, cum Milite suo
                      triumphum ob reportatam victoriam celebrat.</p>
                </argument>
-               <stage>Personae. Sigefridus cum Ducibus &amp; Milite suo.</stage>
+               <stage type="characters">Personae. Sigefridus cum Ducibus &amp; Milite suo.</stage>
                <sp who="#sigefridus">
                   <speaker>Sigefr.</speaker>
                   <l>Tandem evolutas post tot annorum vices,</l>
@@ -432,10 +432,10 @@
                   <speaker>Milites omnes.</speaker>
                   <l part="F">Una Sigefridum sonet.</l>
                </sp>
-               <stage>Cantus cum Tubis.</stage>
+               <stage type="business">Cantus cum Tubis.</stage>
                <sp who="#sigefridus">
                   <speaker>Sigefrid. </speaker>
-                  <stage>Solus.</stage>
+                  <stage type="delivery">Solus.</stage>
                   <lg>
                      <l>Huc Martiae Laurus! est parta jam pax:</l>
                      <l>Nos stamus, pugnamus,</l>
@@ -446,7 +446,7 @@
                   </lg>
                </sp>
                <sp who="#milites-omnes">
-                  <stage>Idem repetunt omnes Milites. Tum saltus'. post saltum omnes Milites
+                  <stage type="mixed">Idem repetunt omnes Milites. Tum saltus'. post saltum omnes Milites
                      repetunt:</stage>
                   <lg>
                      <l>Huc Martiae laurus <abbr>&amp;c. </abbr><expan>est parta jam
@@ -491,11 +491,11 @@
                <argument>
                   <p>Genovefa, doloris vehementiâ penè obruta, caelitus recicatur.</p>
                </argument>
-               <stage>Personae. Genovefa, &amp; caelestes Genii.</stage>
-               <stage>Genovefa suo dolori tristi citharâ praeludit, tum canit; estque Musica per
+               <stage type="characters">Personae. Genovefa, &amp; caelestes Genii.</stage>
+               <stage type="mixed">Genovefa suo dolori tristi citharâ praeludit, tum canit; estque Musica per
                   totum.</stage>
                <sp who="#genovefa">
-                  <stage>Aria.</stage>
+                  <stage type="delivery">Aria.</stage>
                   <lg n="1" xml:lang="de">
                      <l>Heysse Laugen aus den Augen</l>
                      <l rend="indent">Fliesset ohne unterlaß:</l>
@@ -508,7 +508,7 @@
                      <l>Nit mehr scheynet/ sonder weynet;</l>
                      <l rend="indent">Weynet auch ihr Berg und Thal.</l>
                   </lg>
-                  <stage>Recitativè.</stage>
+                  <stage type="delivery">Recitativè.</stage>
                   <l xml:lang="de">Es lauffet nun das achte Jahr/</l>
                   <l rend="indent" xml:lang="de">Daß in der Einöd schwebe:</l>
                   <l xml:lang="de">In Hunger/ Durst/ in Lebens=Gfahr/</l>
@@ -521,7 +521,7 @@
                   <l rend="indent" xml:lang="de">Ach! hätt dich nie gebohren!</l>
                   <l xml:lang="de">Hätt ich dich nie von GOtt begehrt/</l>
                   <l rend="indent" xml:lang="de">Nie alles hätt verlohren.</l>
-                  <stage>Aria.</stage>
+                  <stage type="delivery">Aria.</stage>
                   <lg n="1" xml:lang="de">
                      <l>Drumb stehts die Seufftzer steigen auff/</l>
                      <l rend="indent">Bin allzeit nass von Zähren:</l>
@@ -536,20 +536,20 @@
                      <l rend="indent">Kein Glied kan ich mehr regen.</l>
                   </lg>
                </sp>
-               <stage xml:lang="de">Genovefa fällt in Ohnmacht.</stage>
-               <stage>Dum Genovefa extra se jacet, aperitur caelum; Genti caelestes visuntur in
+               <stage type="business" xml:lang="de">Genovefa fällt in Ohnmacht.</stage>
+               <stage type="business">Dum Genovefa extra se jacet, aperitur caelum; Genti caelestes visuntur in
                   aëre, in caelo chorus eorum, qui, dum viverent, à mendacibus calumniantibus
                   innocentes passi fuerunt.</stage>
                <sp who="#angeli">
                   <speaker>Angeli </speaker>
-                  <stage>ex aëre.</stage>
+                  <stage type="location">ex aëre.</stage>
                   <lg xml:lang="de">
                      <l>Genovefa, Laß die Schmertzen</l>
                      <l rend="indent">Fahren/ und nicht trawrig sey:</l>
                      <l>Stäts sich frewen soll von Hertzen/</l>
                      <l rend="indent">Der sich weiß von Sünden frey.</l>
                   </lg>
-                  <stage>Aria.</stage>
+                  <stage type="delivery">Aria.</stage>
                   <lg n="1" xml:lang="de">
                      <l>Kein Elend je lang wehret/</l>
                      <l rend="indent">So der Unschuldig leidt:</l>
@@ -565,8 +565,8 @@
                </sp>
                <sp who="#beati">
                   <speaker>Beati </speaker>
-                  <stage>ex caelo.</stage>
-                  <stage>Aria.</stage>
+                  <stage type="location">ex caelo.</stage>
+                  <stage type="delivery">Aria.</stage>
                   <lg n="1" xml:lang="de">
                      <l>Alleluja last uns singen/</l>
                      <l rend="indent">Unsre Stimmen last erklingen:</l>
@@ -576,7 +576,7 @@
                </sp>
                <sp who="#genii-caelestes">
                   <speaker>Genii Caelestes.</speaker>
-                  <stage>Aria.</stage>
+                  <stage type="delivery">Aria.</stage>
                   <lg n="1" xml:lang="de">
                      <l>Genovefa, hast im Leben</l>
                      <l rend="indent">Zwar verlohren Ehr unb Guth:</l>
@@ -591,8 +591,8 @@
                   </lg>
                </sp>
                <pb n="7"/>
-               <stage>Disparent Genii caelestes, &amp; Beati in caelo.</stage>
-               <stage>Redit ad se Genovefa, &amp; canit: Recitativè.</stage>
+               <stage type="business">Disparent Genii caelestes, &amp; Beati in caelo.</stage>
+               <stage type="business">Redit ad se Genovefa, &amp; canit: Recitativè.</stage>
                <sp who="#genovefa">
                   <l xml:lang="de">Wo bin ich?... Waß hab ich gesehn?....</l>
                   <l xml:lang="de">Waß ghört?..... das Leidt soll heut vergehn:</l>
@@ -602,7 +602,7 @@
                   <l xml:lang="de">Eh' der Tag sich enden thut.....</l>
                   <l xml:lang="de">GOtt hat geredt: Heut reyssen werd</l>
                   <l xml:lang="de">Zum Vatterland von dieser Erd.</l>
-                  <stage>Aria.</stage>
+                  <stage type="delivery">Aria.</stage>
                   <lg n="1" xml:lang="de">
                      <l>Ich bin bereit, hin ist das Leid;</l>
                      <l rend="indent">Verschwunden seynd die Schmertzen.</l>
@@ -623,7 +623,7 @@
                   <p>Benoni, territus à Satyris, accurrit ad Matrem; ab hac animatus, jungit se
                      eorum choro, cúmque iis jocatur.</p>
                </argument>
-               <stage>Personae. Benoni. Genovefa; Satyri, Personae mutae.</stage>
+               <stage type="characters">Personae. Benoni. Genovefa; Satyri, Personae mutae.</stage>
                <sp who="#benoni">
                   <speaker>Benoni.</speaker>
                   <l xml:lang="de">Mutter/ Mutter! sie mich beissen.</l>
@@ -680,10 +680,10 @@
                   <speaker>Genov.</speaker>
                   <l xml:lang="de">Nein/ mein Kind: dir förchte nit.</l>
                </sp>
-               <stage>Fit Saltus Satyrorum; qui deinde Benoni silvestribus fructibus donant
+               <stage type="business">Fit Saltus Satyrorum; qui deinde Benoni silvestribus fructibus donant
                   &amp;c.</stage>
                <sp who="#genovefa">
-                  <stage>Post Saltum.</stage>
+                  <stage type="time">Post Saltum.</stage>
                   <speaker>Genovefa.</speaker>
                   <l xml:lang="de">Nun komm/ mein Sohn/ laß betten gehn/</l>
                   <l xml:lang="de">Daß Gott am End uns bey wöll stehn.</l>
@@ -694,7 +694,7 @@
                <argument>
                   <p>Sigefridus redux à suis festivo plausu excipitur.</p>
                </argument>
-               <stage>Personae. Golo, praecipuus Sigefridi Minister, Senatores, Cives: Sigefridus
+               <stage type="characters">Personae. Golo, praecipuus Sigefridi Minister, Senatores, Cives: Sigefridus
                   cum suo milite.</stage>
                <sp who="#golo">
                   <speaker>Golo,</speaker>
@@ -720,7 +720,7 @@
                </sp>
                <pb n="9"/>
                <sp who="#cives">
-                  <stage>Cantus.</stage>
+                  <stage type="delivery">Cantus.</stage>
                   <lg>
                      <l>Eja tubae resonate,</l>
                      <l>Plectra melos excitate:</l>
@@ -814,8 +814,8 @@
                         perturbat: sed Juno, ab Achille implorata, jubet Aeolum ventos compescere:
                         interim Achilles iter suum salvus prosequitur.</p>
                   </argument>
-                  <stage>Personae. Achilles cum sociis suis, Venus, Aeolus, Juno.</stage>
-                  <stage>Scena est musica per totum.</stage>
+                  <stage type="characters">Personae. Achilles cum sociis suis, Venus, Aeolus, Juno.</stage>
+                  <stage type="delivery">Scena est musica per totum.</stage>
                   <sp who="#achilles">
                      <speaker>Achil.</speaker>
                      <l xml:lang="de">Fort Gesellen/ dan die Wellen</l>
@@ -829,7 +829,7 @@
                   </sp>
                   <sp who="#venus">
                      <speaker>Venus </speaker>
-                     <stage>in aëre.</stage>
+                     <stage type="location">in aëre.</stage>
                      <l xml:lang="de">Was ist zu schaffen auff dem Meer?</l>
                      <l xml:lang="de">Ist der Achilles in der Wehr?</l>
                      <l rend="indent" xml:lang="de">Und nach Troja in der Still</l>
@@ -1012,7 +1012,7 @@
                      <l xml:lang="de">Gott Mulciber dich leyte</l>
                      <l rend="indent" xml:lang="de">Und Pallas bey dir sey.</l>
                   </sp>
-                  <stage>Pugnant; inflantur tubae.</stage>
+                  <stage type="business">Pugnant; inflantur tubae.</stage>
                   <sp who="#miles-trojanus">
                      <speaker>Miles Troj.</speaker>
                      <l xml:lang="de">Fahrt fort/ fahrt fort zu streiten/</l>
@@ -1028,7 +1028,7 @@
                      <l xml:lang="de">Biß einer obgesigt/</l>
                      <l xml:lang="de">Biß einer underligt.</l>
                   </sp>
-                  <stage>Pugnant iterum: Hector vincitur.</stage>
+                  <stage type="business">Pugnant iterum: Hector vincitur.</stage>
                   <sp who="#miles-graecus">
                      <speaker>Mil. Graec.</speaker>
                      <l xml:lang="de">Hector ist zwar im Degen</l>
@@ -1056,7 +1056,7 @@
                   <p>Sigefridus variis affectibus agitatur: accipit literas, à Genovefâ moriturâ
                      scriptas; concipit suspicionem in Golonem &amp;c.</p>
                </argument>
-               <stage>Personae. Sigefridus, Golo, Ephebus Genovefae.</stage>
+               <stage type="characters">Personae. Sigefridus, Golo, Ephebus Genovefae.</stage>
                <sp who="#sigefridus">
                   <speaker>Sigefr.</speaker>
                   <l>Jam caesa Eleusis falce septenâ jacet.</l>
@@ -1122,7 +1122,7 @@
                   <l>Poenas dedisse perfidam, hoc caelum probat.</l>
                </sp>
                <sp who="#philindus">
-                  <stage>Philindus Ephebus Genovefae prodit.</stage>
+                  <stage type="business">Philindus Ephebus Genovefae prodit.</stage>
                   <l>Serene Princeps! has mihi chartas dedit</l>
                   <l>Moritura thalami socia, quas reduci darem</l>
                   <l part="I">Tibi legendas.</l>
@@ -1193,7 +1193,7 @@
                </sp>
                <sp who="#golo">
                   <speaker>Golo.</speaker>
-                  <l>Haec ipsa res est; tangit &amp; nostrum scelus.<stage>Dicit intrà se.</stage>
+                  <l>Haec ipsa res est; tangit &amp; nostrum scelus.<stage type="delivery">Dicit intrà se.</stage>
                   </l>
                </sp>
                <sp who="#sigefridus">
@@ -1249,7 +1249,7 @@
                   <l>Quicunque demum is fuerit, est author necis,</l>
                   <l>Fictóque proprium scelere velavit scelus.</l>
                </sp>
-               <stage>Abit Sigefr.</stage>
+               <stage type="exit">Abit Sigefr.</stage>
                <sp who="#golo">
                   <speaker>Golo.</speaker>
                   <l>Actum est; perimus: sceleris ut poenas luam</l>
@@ -1270,7 +1270,7 @@
                      vivendi Genovefae in suâ absentiâ, deprehendit innocentem fuisse Genovefam;
                      reum verò Golonem suspicatur.</p>
                </argument>
-               <stage>Personae. Sigefridus, Charilus, &amp; Philindus Ephebi.</stage>
+               <stage type="characters">Personae. Sigefridus, Charilus, &amp; Philindus Ephebi.</stage>
                <sp who="#sigefridus">
                   <speaker>Sigefr.</speaker>
                   <l>Ades Philinde, túque Genovefae comes</l>
@@ -1457,7 +1457,7 @@
                      Droganis, tum penè desperat: denique in somno videt se accusari coram tribunali
                      divinae justitiae, evigilans decernit, se detecturum crimen suum Sigefrido.</p>
                </argument>
-               <stage>Personae. Golo, Conscientia, Umbra Coqui Droganis, Justitia divina
+               <stage type="characters">Personae. Golo, Conscientia, Umbra Coqui Droganis, Justitia divina
                   &amp;c.</stage>
                <sp who="#golo">
                   <speaker>Golo.</speaker>
@@ -1596,7 +1596,7 @@
                   <l part="F">Siste, nil prodest fuga!</l>
                   <l>Ubique sceleris ultio infestat reum...</l>
                </sp>
-               <stage>conjicit se in sedem.</stage>
+               <stage type="business">conjicit se in sedem.</stage>
                <sp who="#justitia-divina">
                   <speaker>Just. div.</speaker>
                   <l>Modicam quietem sinite. dum scenam paro.</l>
@@ -1718,7 +1718,7 @@
                   <p>Genovefa gaudet in Deo, Jesu suo: &amp;c. tum audit Filiolum suum orantem
                      &amp;c.</p>
                </argument>
-               <stage>Scena tota est musica.</stage>
+               <stage type="delivery">Scena tota est musica.</stage>
                <sp who="#genovefa">
                   <speaker>Genov.</speaker>
                   <lg n="1" xml:lang="de">
@@ -1756,10 +1756,10 @@
                      <l xml:lang="de">Aber wo ist underdessen/</l>
                      <l rend="indent" xml:lang="de">Gangen hin mein liebes Kind .....</l>
                      <l xml:lang="de">Were seiner bald vergessen/ -----</l>
-                     <stage>Geneovefa quaerit filium, eúmque tandem invenit dormientem</stage>
+                     <stage type="business">Geneovefa quaerit filium, eúmque tandem invenit dormientem</stage>
                      <l rend="indent" xml:lang="de">Hie ligt er/ und schläfft gelind.</l>
                   </lg>
-                  <stage>Aria.</stage>
+                  <stage type="delivery">Aria.</stage>
                   <l rend="indent" xml:lang="de">Schlaff mein Kindlein/ schlaff ohn Sorgen/</l>
                   <l rend="indent" xml:lang="de">Schlaff biß Abend/ schlaff biß morgen:</l>
                   <l xml:lang="de">Laß die Wässer unden saussen/</l>
@@ -1770,7 +1770,7 @@
                   <l rend="indent" xml:lang="de">Schlaff biß abend/ schlaff biß morgen.</l>
                </sp>
                <sp who="#genovefa">
-                  <stage>Post cantum evigilat Benoni, ad quem</stage>
+                  <stage type="mixed">Post cantum evigilat Benoni, ad quem</stage>
                   <speaker>Genovefa.</speaker>
                   <l xml:lang="de">Auff Benoni! komm und bette</l>
                   <l rend="indent" xml:lang="de">Wie von mir gelehret bist/</l>
@@ -1786,7 +1786,7 @@
                </sp>
                <sp who="#genovefa">
                   <speaker>Genov.</speaker>
-                  <stage>Aria.</stage>
+                  <stage type="delivery">Aria.</stage>
                   <lg n="1" xml:lang="de">
                      <l>O Vatter! weit erhoben</l>
                      <l rend="indent">In deinem höchsten Thron:</l>
@@ -1808,7 +1808,7 @@
                </sp>
                <sp who="#genovefa">
                   <speaker>Genov.</speaker>
-                  <stage>Aria.</stage>
+                  <stage type="delivery">Aria.</stage>
                   <lg n="1" xml:lang="de">
                      <l>Ach nur das Reich daroben/</l>
                      <l rend="indent">Den schönen Pallast dein/</l>
@@ -1828,7 +1828,7 @@
                </sp>
                <sp who="#genovefa #benoni">
                   <speaker>Genov. &amp; Benoni simul. </speaker>
-                  <stage>Aria.</stage>
+                  <stage type="delivery">Aria.</stage>
                   <lg xml:lang="de">
                      <l>Wir bitten unterdessen</l>
                      <l rend="indent">Auff dieser Himmelsreiß/</l>
@@ -1843,7 +1843,7 @@
                </sp>
                <sp who="#genovefa">
                   <speaker>Genov.</speaker>
-                  <stage>Aria</stage>
+                  <stage type="delivery">Aria</stage>
                   <lg n="1" xml:lang="de">
                      <l>1. Ja HErr/ ich meyns von Hertzen/</l>
                      <l rend="indent">Meim Feind vergebe ich;</l>
@@ -1864,7 +1864,7 @@
                </sp>
                <sp who="#genovefa">
                   <speaker>Genov.</speaker>
-                  <stage>Aria.</stage>
+                  <stage type="delivery">Aria.</stage>
                   <lg n="1" xml:lang="de">
                      <l>Der Sathan offt durch Ehren</l>
                      <l rend="indent">Zur Welt mich wider ladt:</l>
@@ -1904,10 +1904,10 @@
                   <p>Golo manifestat crimen suum Sigefrido, qui implacabili irâ successus jubet
                      eundem à quatuor equis discerpi, frustra deprecantibus Golonis filiis.</p>
                </argument>
-               <stage>Personae. Golo, Sigefridus, &amp; duo Filii Golonis.</stage>
-               <stage>Golo prodit nigris indutus, acinacem &amp; gladium habens in manu; &amp; ex
+               <stage type="characters">Personae. Golo, Sigefridus, &amp; duo Filii Golonis.</stage>
+               <stage type="business">Golo prodit nigris indutus, acinacem &amp; gladium habens in manu; &amp; ex
                   collo pendentem funem.</stage>
-               <stage>Personae. Golo, Sigefridus, Filii Golonis.</stage>
+               <stage type="characters">Personae. Golo, Sigefridus, Filii Golonis.</stage>
                <sp who="#golo">
                   <speaker>Golo.</speaker>
                   <l>Generose Princeps; contine justum precor</l>
@@ -2032,7 +2032,7 @@
                   <p>Duo Venatores, qui Genovefae pepercerunt, decernunt, tegere hoc factum
                      &amp;c.</p>
                </argument>
-               <stage>Personae. Lindus &amp; Rinaldus Venatores.</stage>
+               <stage type="characters">Personae. Lindus &amp; Rinaldus Venatores.</stage>
                <sp who="#venator-i">
                   <speaker>Venator I.</speaker>
                   <l>Rinalde! dubio nostra res posita est loco:</l>
@@ -2069,7 +2069,7 @@
                <argument>
                   <p>Sigefridus luget mortem Genovefae, &amp; jubet exequias parari.</p>
                </argument>
-               <stage>Personae. Sigefridus solus.</stage>
+               <stage type="characters">Personae. Sigefridus solus.</stage>
                <sp who="#sigefridus">
                   <l>O socia nostri sanguinis, castâ fide</l>
                   <l>Servans thorum! sic erimen alienum luis?</l>
@@ -2090,7 +2090,7 @@
                <argument>
                   <p>Nuncius refert supplicium Golonis.</p>
                </argument>
-               <stage>Personae. Nuncius, Chorus.</stage>
+               <stage type="characters">Personae. Nuncius, Chorus.</stage>
                <sp who="#nuncius">
                   <speaker>Nunc.</speaker>
                   <l>Peracta scena est: digna criminibus dedit</l>
@@ -2135,10 +2135,10 @@
                <argument>
                   <p>Sigefridus cum aulâ suâ celebrat exequias occisae Genovefae.</p>
                </argument>
-               <stage>Musica per totum.</stage>
+               <stage type="delivery">Musica per totum.</stage>
                <sp who="#sigefridus">
                   <speaker>Sigefr. </speaker>
-                  <stage>solus.</stage>
+                  <stage type="delivery">solus.</stage>
                   <l>Eja turba! pone cultum,</l>
                   <l>Luctuosum sume vultum;</l>
                   <l>Genovefam plangimus.</l>
@@ -2147,7 +2147,7 @@
                   <l>Moesta plectra tangimus.</l>
                </sp>
                <sp who="#sigefridus #chorus">
-                  <stage>Sigefridus &amp; Chorus concertant.</stage>
+                  <stage type="delivery">Sigefridus &amp; Chorus concertant.</stage>
                   <l>Genovefa sicut una</l>
                   <l>Luxit inter astra, Luna:</l>
                   <l>Illa Pallas gloriosa,</l>
@@ -2162,7 +2162,7 @@
                </sp>
                <sp who="#sigefridus">
                   <speaker>Sigef.</speaker>
-                  <stage>solus.</stage>
+                  <stage type="delivery">solus.</stage>
                   <l>Ergo Lunam flete stellae,</l>
                   <l>Palladémque vos puellae:</l>
                   <l>Vos Dianam flete Nymphae,</l>
@@ -2189,7 +2189,7 @@
                   <p>Duo Venatores interrogati à Sigefrido, fingunt modum, quo Genovefam, &amp;
                      Infantem occiderint.</p>
                </argument>
-               <stage>Personae. Sigefridus, &amp; duo Venatores, Lindus, &amp; Rinaldus.</stage>
+               <stage type="characters">Personae. Sigefridus, &amp; duo Venatores, Lindus, &amp; Rinaldus.</stage>
                <sp who="#sigefridus">
                   <speaker>Sigefr.</speaker>
                   <l>Nunc agite; Linde, túve fatalis comes</l>
@@ -2295,8 +2295,8 @@
                   <p>Genovefa, se morituram rata, filium, priùs mysteria fidei edoctum, Deo
                      commendat, séque ad mortem parat.</p>
                </argument>
-               <stage>Personae. Genovefa, &amp; Benoni Filius.</stage>
-               <stage>Scena tota est Musica.</stage>
+               <stage type="characters">Personae. Genovefa, &amp; Benoni Filius.</stage>
+               <stage type="delivery">Scena tota est Musica.</stage>
                <sp who="#genovefa">
                   <speaker>Genovef.</speaker>
                   <l xml:lang="de">Komm Benoni, komm mein Kind/</l>
@@ -2311,7 +2311,7 @@
                </sp>
                <sp who="#genovefa">
                   <speaker>Genοv. </speaker>
-                  <stage>Aria I.</stage>
+                  <stage type="delivery">Aria I.</stage>
                   <lg n="1" xml:lang="de">
                      <l>Der Vatter Gott/ und alles ist:</l>
                      <l rend="indent">Allein er ist von keinem.</l>
@@ -2337,7 +2337,7 @@
                      <l>Hat wiedrumb uns des Vatters Gunst/</l>
                      <l rend="indent">Und Gnad des Geists erworben.</l>
                   </lg>
-                  <stage>Recitativè.</stage>
+                  <stage type="delivery">Recitativè.</stage>
                   <l part="I" xml:lang="de">Wo ist dann Gott?</l>
                </sp>
                <sp who="#benoni">
@@ -2355,7 +2355,7 @@
                <sp who="#genovefa">
                   <speaker>Genov.</speaker>
                   <l xml:lang="de">Auff gantzer Erd und Himmels Saal.</l>
-                  <stage>ARIA.</stage>
+                  <stage type="delivery">ARIA.</stage>
                   <l xml:lang="de">Ausser diesem Busch seynd Wälder</l>
                   <l xml:lang="de">Mehr/ und grösser: weite Felder:</l>
                   <l rend="indent" xml:lang="de">Breite Wässer/ Berg und Land/</l>
@@ -2407,8 +2407,8 @@
                   <l xml:lang="de">Nun geh’ zur Höhl Benoni mein/</l>
                   <l xml:lang="de">Bald wird dein Mutter bey dir seyn.</l>
                </sp>
-               <stage>Abit Benoni, &amp; Genovefa manet sola.</stage>
-               <stage>ARIA.</stage>
+               <stage type="exit">Abit Benoni, &amp; Genovefa manet sola.</stage>
+               <stage type="delivery">ARIA.</stage>
                <sp who="#genovefa">
                   <speaker>Genov.</speaker>
                   <l xml:lang="de">Die Seel’ ist schon entflogen/</l>
@@ -2468,7 +2468,7 @@
                <argument>
                   <p>Sigefridus venatur in silvâ, in quâ latet Genovefa.</p>
                </argument>
-               <stage>Personae. Sigefridus, &amp; Venatores. Scena tota est Musica.</stage>
+               <stage type="characters">Personae. Sigefridus, &amp; Venatores. Scena tota est Musica.</stage>
                <sp who="#venator-i">
                   <speaker>Venator I.</speaker>
                   <l xml:lang="de">Zu jagen alles ist bereit/</l>
@@ -2479,23 +2479,23 @@
                   <l xml:lang="de">Die Garn seynd all wohl außgebreit;</l>
                   <l rend="indent" xml:lang="de">Nun last die Hund abgehn.</l>
                </sp>
-               <stage>Fit venatio.</stage>
-               <stage>Post venationem.</stage>
+               <stage type="business">Fit venatio.</stage>
+               <stage type="time">Post venationem.</stage>
                <sp who="#sigefridus">
                   <speaker>Sigefr.</speaker>
                   <l xml:lang="de">Hört auff/ es ist schon Abend=spath/</l>
                   <l rend="indent" xml:lang="de">Die Hunde rufft zu samen.</l>
                </sp>
                <sp who="#venator-i #venator-ii">
-                  <stage>Convocantur canes &amp;c.</stage>
-                  <l>Teih, Teih, Teih <stage>&amp;c.</stage></l>
+                  <stage type="business">Convocantur canes &amp;c.</stage>
+                  <l>Teih, Teih, Teih <stage type="delivery">&amp;c.</stage></l>
                </sp>
                <sp who="#sigefridus">
                   <speaker>Sigefr.</speaker>
                   <l xml:lang="de">Ein jeder was gefangen hatt/</l>
                   <l rend="indent" xml:lang="de">Brings her/ und nents mit Nahmen.</l>
                   <l xml:lang="de">Doch alles soll sich reymen feyn/</l>
-                  <l rend="indent" xml:lang="de">Ders beste reymt soll meister seyn. <stage>&amp;c.
+                  <l rend="indent" xml:lang="de">Ders beste reymt soll meister seyn. <stage type="delivery">&amp;c.
                         &amp;c.</stage></l>
                </sp>
             </div>
@@ -2505,8 +2505,8 @@
                   <p>Inventa Genovefa adducitur ad Sigefridum, &amp; tandem agnoscitur &amp;c. fiunt
                      varii affectus; adducitur filius &amp;c. Laudatur Deus &amp;c.</p>
                </argument>
-               <stage>Musica usque ad finem.</stage>
-               <stage>Personae. Sigefridus, Genovefa, Benoni, Venatores &amp;c.</stage>
+               <stage type="delivery">Musica usque ad finem.</stage>
+               <stage type="characters">Personae. Sigefridus, Genovefa, Benoni, Venatores &amp;c.</stage>
                <sp who="#venator-i">
                   <speaker>Venator I.</speaker>
                   <l xml:lang="de">Ich gfangen hab ein Wunder=Thier/</l>
@@ -2543,7 +2543,7 @@
                   <speaker>Sigefr.</speaker>
                   <l xml:lang="de">Waß hör ich? Genovefa bist?</l>
                   <l xml:lang="de">Die gstorben ist vor langer Frist.</l>
-                  <stage>fugit, ratus esse spectrum.</stage>
+                  <stage type="business">fugit, ratus esse spectrum.</stage>
                </sp>
                <sp who="#genovefa">
                   <speaker>Genov.</speaker>
@@ -2552,7 +2552,7 @@
                </sp>
                <sp who="#sigefridus">
                   <speaker>Sigefridus </speaker>
-                  <stage>ad Venatorem.</stage>
+                  <stage type="delivery">ad Venatorem.</stage>
                   <l xml:lang="de">Hat Golo nicht befohlen dir/</l>
                   <l xml:lang="de">Wie du auch hast erzehlet mir/</l>
                   <l xml:lang="de">Daß Genovefam tödten solst/</l>
@@ -2567,7 +2567,7 @@
                </sp>
                <sp who="#genovefa">
                   <speaker>Genov. </speaker>
-                  <stage>ad eundem Venatorem.</stage>
+                  <stage type="delivery">ad eundem Venatorem.</stage>
                   <l xml:lang="de">Du hast geschenckt das Leben mir/</l>
                   <l xml:lang="de">Drumb lieben dich werd eben</l>
                   <l xml:lang="de">Als mich: werd allzeit dienen dir/</l>
@@ -2615,10 +2615,10 @@
                   <l xml:lang="de">Bin freylich werth/ mich Fewr/ und Schwerdt</l>
                   <l rend="indent" xml:lang="de">Reib auff in gleicher Summen.</l>
                   <l xml:lang="de">Fall auff die Erd: nimb du diß Schwert --</l>
-                  <stage>porrigit illi gladium.</stage>
+                  <stage type="business">porrigit illi gladium.</stage>
                   <l rend="indent" xml:lang="de">Das Haupt zum Schlag thu neigen .---</l>
                </sp>
-               <stage>Genovefa abjicit gladium.</stage>
+               <stage type="business">Genovefa abjicit gladium.</stage>
                <sp who="#genovefa">
                   <speaker>Genov.</speaker>
                   <l xml:lang="de">Das seye ferr: steh auff mein Herr.</l>
@@ -2643,7 +2643,7 @@
                <sp who="#genovefa">
                   <speaker>Genov.</speaker>
                   <l xml:lang="de">Gib/ daß auch deine küsse.---</l>
-                  <stage>osculantur mutuò manum.</stage>
+                  <stage type="business">osculantur mutuò manum.</stage>
                </sp>
                <sp who="#sigefridus">
                   <speaker>Sigefr.</speaker>
@@ -2651,10 +2651,10 @@
                   <l rend="indent" xml:lang="de">Mein Hertz für Frewd thut springen.</l>
                </sp>
                <sp who="#sigefridus #genovefa">
-                  <stage>Simul.</stage>
+                  <stage type="delivery">Simul.</stage>
                   <l xml:lang="de">Nun laß uns beyd/ in Frölichkeit</l>
                   <l rend="indent" xml:lang="de">Mit Stimm/ und Mund erklingen.</l>
-                  <stage>Aria.</stage>
+                  <stage type="delivery">Aria.</stage>
                   <lg n="1" xml:lang="de">
                      <l rend="indent">Der Winter ist fürbey/</l>
                      <l rend="indent">Die Lufft ist Wolcken frey;</l>
@@ -2665,7 +2665,7 @@
                   <lg n="2">
                      <l rend="indent" xml:lang="de">Waß verlohren/ außerkohren/</l>
                      <l rend="indent" xml:lang="de">Hab das Pfand/ in meiner Hand----</l>
-                     <stage>Dant sibi mutuò manum.</stage>
+                     <stage type="business">Dant sibi mutuò manum.</stage>
                      <l rend="indent" xml:lang="de">So ergetzt mein Sinn/ und Hertz.</l>
                      <l xml:lang="de">Drumb lasst singen/ drumb last klingen</l>
                      <l rend="indent" xml:lang="de">Unsre Stimm zu dieser Stundt:/</l>
@@ -2676,7 +2676,7 @@
                </sp>
                <sp who="#sigefridus">
                   <speaker>Sigefridus, </speaker>
-                  <stage>Solus.</stage>
+                  <stage type="delivery">Solus.</stage>
                   <l xml:lang="de">Die Frewde unermessen/</l>
                   <l rend="indent" xml:lang="de">So überschütt mein Sinn/</l>
                   <l xml:lang="de">Hett mich schier thun vergessen</l>
@@ -2702,7 +2702,7 @@
                   <speaker>Genov.</speaker>
                   <l part="F" xml:lang="de">Komm geschwindt.</l>
                </sp>
-               <stage>fugit</stage>
+               <stage type="business">fugit</stage>
                <sp who="#sigefridus">
                   <speaker>Sigefr.</speaker>
                   <l part="I" xml:lang="de">Er förcht mich billig.</l>
@@ -2731,7 +2731,7 @@
                   <l xml:lang="de">Die Glieder zart/ der schöner Art</l>
                   <l rend="indent" xml:lang="de">Von keinem Koch herrühren.</l>
                   <l xml:lang="de">Komm süsser Trost/ ins Vatters-Schooß--</l>
-                  <stage>amplectitur filium.</stage>
+                  <stage type="business">amplectitur filium.</stage>
                   <l rend="indent" xml:lang="de">O newe Lust des Hertzen!</l>
                   <l xml:lang="de">Vermehrst die Frewd/ bringst Frölichkeit/</l>
                   <l rend="indent" xml:lang="de">Vertreibest allen Schmertzen.</l>
@@ -2741,7 +2741,7 @@
          <div type="epilogue">
             <head>Sigefr. &amp; Genov. Epilogus.</head>
             <sp who="#sigefridus #genovefa">
-               <stage>Simul.</stage>
+               <stage type="delivery">Simul.</stage>
                <l xml:lang="de">Nun kommet/ all zusahmen</l>
                <l xml:lang="de">Wie heischet auch mit Nahmen:</l>
                <l rend="indent" xml:lang="de">So wohnt in diesem Wald.</l>
@@ -2763,7 +2763,7 @@
                <l xml:lang="de">Dieweil er unsre Feynd zum Spott</l>
                <l rend="indent" xml:lang="de">Gemacht hat/ und zu Schanden.</l>
             </sp>
-            <stage>FINIS.</stage>
+            <closer>FINIS.</closer>
          </div>
       </body>
    </text>

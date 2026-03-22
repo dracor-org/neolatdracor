@@ -261,8 +261,8 @@
       <body>
          <pb n="3"/>
          <div type="prologue">
-            <stage>PROLOGUS CUM MORIONE.</stage>
-            <stage>Iambici trimetri.</stage>
+            <stage type="characters">PROLOGUS CUM MORIONE.</stage>
+            <stage type="delivery">Iambici trimetri.</stage>
             <sp who="#prologus">
                <l>VOs qui tulistis huc pedem adolescentuli,</l>
                <l>Scholaribusque disciplinis hactenus</l>
@@ -388,8 +388,8 @@
          <div type="act" n="1">
             <div type="scene" n="1">
                <head>ACTUS I. SCAENA I.</head>
-               <stage>Iambici trimetri acatalectici.</stage>
-               <stage>Philotecnium sola.</stage>
+               <stage type="delivery">Iambici trimetri acatalectici.</stage>
+               <stage type="characters">Philotecnium sola.</stage>
                <sp who="#philotecnium">
                   <l>CUm aetatis huius &amp; peracti temporis</l>
                   <l>Rationem habeo, considero haud me paucula</l>
@@ -432,8 +432,8 @@
             </div>
             <div type="scene" n="2">
                <head>ACTUS I. SCAENA II.</head>
-               <stage>Trimetri ut superiores.</stage>
-               <stage>Philotecnium. Cacolalia.</stage>
+               <stage type="delivery">Trimetri ut superiores.</stage>
+               <stage type="characters">Philotecnium. Cacolalia.</stage>
                <sp who="#philotecnium">
                   <l>EStne haec Cacolalia mea quae mihi obvia est?</l>
                   <l>Cara admodum cognata, salve, te volo,</l>
@@ -573,8 +573,8 @@
             </div>
             <div type="scene" n="3">
                <head>ACTUS I. SCAENA III.</head>
-               <stage>Trimetri ut superiores.</stage>
-               <stage>Clopicus. Dyscolus.</stage>
+               <stage type="delivery">Trimetri ut superiores.</stage>
+               <stage type="characters">Clopicus. Dyscolus.</stage>
                <pb n="10"/>
                <sp who="#clopicus">
                   <l part="I">COngerro, salve.</l>
@@ -642,8 +642,8 @@
             </div>
             <div type="scene" n="4">
                <head>ACTUS I. SCAENA IIII.</head>
-               <stage>Trimetri ut superiores.</stage>
-               <stage>Cacolalia. Philotecnium. Aristippus. Codrus.</stage>
+               <stage type="delivery">Trimetri ut superiores.</stage>
+               <stage type="characters">Cacolalia. Philotecnium. Aristippus. Codrus.</stage>
                <sp who="#cacolalia">
                   <l n="185">HEus heus, ubi estis vos: magister est domi?</l>
                </sp>
@@ -756,9 +756,9 @@
             </div>
             <div type="scene" n="5">
                <head>ACTUS I. SCAENA V.</head>
-               <stage>Iambici dimetri acatalectici.</stage>
+               <stage type="delivery">Iambici dimetri acatalectici.</stage>
                <pb n="12"/>
-               <stage>Lorcoballus. Marlocappus.</stage>
+               <stage type="characters">Lorcoballus. Marlocappus.</stage>
                <sp who="#lorcoballus">
                   <l>HEus Marlocappe, adesdum, ohe.</l>
                </sp>
@@ -818,7 +818,7 @@
             <pb n="13"/>
             <div type="scene" n="6">
                <head>CHORUS.</head>
-               <stage>Iambici dimetri acatalectici.</stage>
+               <stage type="delivery">Iambici dimetri acatalectici.</stage>
                <sp who="#chorus">
                   <lg>
                      <l>Matrum per indulgentiam,</l>
@@ -838,8 +838,8 @@
          <div type="act" n="2">
             <div type="scene" n="1">
                <head>ACTUS II. SCAENA I.</head>
-               <stage>Iambici tetrametri seu octonarij.</stage>
-               <stage>Dyscolus. Clopicus.</stage>
+               <stage type="delivery">Iambici tetrametri seu octonarij.</stage>
+               <stage type="characters">Dyscolus. Clopicus.</stage>
                <sp who="#dyscolus">
                   <l>O Hercules, ô Clopice mi, ô quàm industriè iam evasimus</l>
                   <l>Didascali minas. atat ut in nos creparent cottabi,</l>
@@ -1063,8 +1063,8 @@
             </div>
             <div type="scene" n="2">
                <head>ACTUS II. SCAENA II.</head>
-               <stage>Octonarij quadrati, ut superiores.</stage>
-               <stage>Aristippus. Clopicus. Dyscolus.</stage>
+               <stage type="delivery">Octonarij quadrati, ut superiores.</stage>
+               <stage type="characters">Aristippus. Clopicus. Dyscolus.</stage>
                <sp who="#aristippus">
                   <l>QUid istuc est? hoccine opus est scholasticorum ludere</l>
                   <l>Per sortem, &amp; hinc certare pugnis, &amp; capillos vellere?</l>
@@ -1098,8 +1098,8 @@
             </div>
             <div type="scene" n="3">
                <head>ACTUS II. SCAENA III.</head>
-               <stage>Iambici dimetri acatalectici.</stage>
-               <stage>Lorcoballus. Marlocappus.</stage>
+               <stage type="delivery">Iambici dimetri acatalectici.</stage>
+               <stage type="characters">Lorcoballus. Marlocappus.</stage>
                <sp who="#lorcoballus">
                   <l>VIdistin’ heus tu Marlocap</l>
                   <l>Haec gesta perduellium?</l>
@@ -1143,7 +1143,7 @@
             </div>
             <div type="scene" n="4">
                <head>CHORUS.</head>
-               <stage>Iambici dimetri.</stage>
+               <stage type="delivery">Iambici dimetri.</stage>
                <pb n="18"/>
                <sp who="#chorus">
                   <lg>
@@ -1164,8 +1164,8 @@
          <div type="act" n="3">
             <div type="scene" n="1">
                <head>ACTUS III. SCAENA I.</head>
-               <stage>Iambici trimetri acatalectici.</stage>
-               <stage>Dyscolus. Clopicus.</stage>
+               <stage type="delivery">Iambici trimetri acatalectici.</stage>
+               <stage type="characters">Dyscolus. Clopicus.</stage>
                <sp who="#dyscolus">
                   <l n="315">TE propter haec sum Clopice passus innocens.</l>
                </sp>
@@ -1202,8 +1202,8 @@
             </div>
             <div type="scene" n="2">
                <head>ACTUS III. SCAENA II.</head>
-               <stage>Trimetri ut superiores.</stage>
-               <stage>Cacolalia. Clopicus. Dyscolus.</stage>
+               <stage type="delivery">Trimetri ut superiores.</stage>
+               <stage type="characters">Cacolalia. Clopicus. Dyscolus.</stage>
                <sp who="#cacolalia">
                   <l part="F">QUos eiulatus audio</l>
                   <l n="330">Foris? tuan’ vox Clopice resonat gnate mi?</l>
@@ -1286,8 +1286,8 @@
             </div>
             <div type="scene" n="3">
                <head>ACTUS III. SCAENA III.</head>
-               <stage>Trimetri ut praecedentes.</stage>
-               <stage>Philotecnium, Cacolalia.</stage>
+               <stage type="delivery">Trimetri ut praecedentes.</stage>
+               <stage type="characters">Philotecnium, Cacolalia.</stage>
                <sp who="#philotecnium">
                   <l>INsomnia hac sub nocte vidi, quae die</l>
                   <l>Toto haesitabundam dedere me, haud scio</l>
@@ -1392,8 +1392,8 @@
             </div>
             <div type="scene" n="4">
                <head>ACTUS III. SCAENA IIII.</head>
-               <stage>Trimetri ut praecedentes.</stage>
-               <stage>Cacolalia. Aristippus. Philotecnium.</stage>
+               <stage type="delivery">Trimetri ut praecedentes.</stage>
+               <stage type="characters">Cacolalia. Aristippus. Philotecnium.</stage>
                <sp who="#cacolalia">
                   <l>PRodi nefande sophista, prodi sordide</l>
                   <l>Philosophe, Aristippe impudens, monstrum ferum.</l>
@@ -1557,8 +1557,8 @@
             </div>
             <div type="scene" n="5">
                <head>ACTUS III. SCAENA V.</head>
-               <stage>Iambici dimetri acatalectici.</stage>
-               <stage>Lorcoballus. Marlocappus.</stage>
+               <stage type="delivery">Iambici dimetri acatalectici.</stage>
+               <stage type="characters">Lorcoballus. Marlocappus.</stage>
                <sp who="#lorcoballus">
                   <l>PRaedixerám ne ut accidit,</l>
                   <l n="455">Tum matribus stultissimis,</l>
@@ -1591,7 +1591,7 @@
             </div>
             <div type="scene" n="6">
                <head>CHORUS.</head>
-               <stage>Iambici dimetri ut superiores.</stage>
+               <stage type="delivery">Iambici dimetri ut superiores.</stage>
                <pb n="26"/>
                <sp who="#chorus">
                   <lg>
@@ -1612,8 +1612,8 @@
          <div type="act" n="4">
             <div type="scene" n="1">
                <head>ACTUS IIII. SCAENA I.</head>
-               <stage>Iambici trimetri acatalectici.</stage>
-               <stage>Dyscolus. Clopicus.</stage>
+               <stage type="delivery">Iambici trimetri acatalectici.</stage>
+               <stage type="characters">Dyscolus. Clopicus.</stage>
                <sp who="#dyscolus">
                   <l n="480">UT nunc tibi Clopice placeo ensiculo hoc novo</l>
                   <l part="I">Penuario?</l>
@@ -1674,8 +1674,8 @@
             </div>
             <div type="scene" n="2">
                <head>ACTUS IIII. SCAENA II.</head>
-               <stage>Senarij iambici ut superiores.</stage>
-               <stage>Clopicus. Dyscolus. Bromius.</stage>
+               <stage type="delivery">Senarij iambici ut superiores.</stage>
+               <stage type="characters">Clopicus. Dyscolus. Bromius.</stage>
                <sp who="#clopicus">
                   <l part="I">SAlve, Bromi.</l>
                </sp>
@@ -1854,8 +1854,8 @@
          <div type="act" n="4">
             <div type="scene" n="3">
                <head>ACTUS IIII. SCAENA III.</head>
-               <stage>Iambici trimetri ut superiores.</stage>
-               <stage>Labrax. Gaulus.</stage>
+               <stage type="delivery">Iambici trimetri ut superiores.</stage>
+               <stage type="characters">Labrax. Gaulus.</stage>
                <sp who="#labrax">
                   <l>VEnusta duo me Caupo poscit scorta, sed</l>
                   <l>Magno meo infortunio, haud mihi integrum est</l>
@@ -1948,9 +1948,9 @@
             </div>
             <div type="scene" n="4">
                <head>ACTUS IIII. SCAENA IIII.</head>
-               <stage>Iambici tetrametri quadrati.</stage>
+               <stage type="delivery">Iambici tetrametri quadrati.</stage>
                <pb n="p. 31"/>
-               <stage>Melancia. Dromella. Clopicus. Dyscolus.</stage>
+               <stage type="characters">Melancia. Dromella. Clopicus. Dyscolus.</stage>
                <sp who="#melancia">
                   <l>Edete dum, iuvenes; adest obsonium. Curre ocyus</l>
                   <l n="570">Puella, profer è penario statim sex integros</l>
@@ -2026,8 +2026,8 @@
             </div>
             <div type="scene" n="5">
                <head>ACTUS IIII. SCAENA V.</head>
-               <stage>Octonarij quadrati ut superiores</stage>
-               <stage>Labrax. Gaulus. Caupo.</stage>
+               <stage type="delivery">Octonarij quadrati ut superiores</stage>
+               <stage type="characters">Labrax. Gaulus. Caupo.</stage>
                <sp who="#labrax">
                   <l part="I">PAratan’ omnia quae ad Venerem opus sunt?</l>
                </sp>
@@ -2073,8 +2073,8 @@
             </div>
             <div type="scene" n="6">
                <head>ACTUS IIII. SCAENA VI.</head>
-               <stage>Tetrametri ut superiores.</stage>
-               <stage>Labrax. Gaulus. Dyscolus. Clopicus. Melancia.</stage>
+               <stage type="delivery">Tetrametri ut superiores.</stage>
+               <stage type="characters">Labrax. Gaulus. Dyscolus. Clopicus. Melancia.</stage>
                <pb n="p. 33"/>
                <sp who="#labrax">
                   <l n="595">IUbet alma Venus salvere vos venusti adolescentuli.</l>
@@ -2304,8 +2304,8 @@
             </div>
             <div type="scene" n="7">
                <head>ACTUS IIII. SCAENA VII.</head>
-               <stage>Iambici tetrametri catalectici, aut septenarij.</stage>
-               <stage>Villanus. Clopicus. Dyscolus.</stage>
+               <stage type="delivery">Iambici tetrametri catalectici, aut septenarij.</stage>
+               <stage type="characters">Villanus. Clopicus. Dyscolus.</stage>
                <sp who="#villanus">
                   <l>NUm tempus est surgendi, &amp; ad forum? ast adhuc paulisper.</l>
                </sp>
@@ -2410,9 +2410,9 @@
             </div>
             <div type="scene" n="8">
                <head>ACTUS IIII. SCAENA VIII.</head>
-               <stage>Iambici trimetri acatalectici.</stage>
+               <stage type="delivery">Iambici trimetri acatalectici.</stage>
                <pb n="p. 38"/>
-               <stage>Dyscolus. Clopicus. Bromius.</stage>
+               <stage type="characters">Dyscolus. Clopicus. Bromius.</stage>
                <sp who="#dyscolus">
                   <l part="I">SAlveto Caupo</l>
                </sp>
@@ -2449,8 +2449,8 @@
             </div>
             <div type="scene" n="9">
                <head>ACTUS IIII. SCAENA IX.</head>
-               <stage>Senarij ut superiores.</stage>
-               <stage>Lorarij duo. Bromius. Dyscolus. Clopicus. Villanus.</stage>
+               <stage type="delivery">Senarij ut superiores.</stage>
+               <stage type="characters">Lorarij duo. Bromius. Dyscolus. Clopicus. Villanus.</stage>
                <sp who="#lorarius-a #lorarius-b">
                   <l>NEc ipse Caupo innoxius, quia conscium</l>
                   <l n="690">Se criminis testatur ultro, ut auribus</l>
@@ -2537,8 +2537,8 @@
             </div>
             <div type="scene" n="10">
                <head>ACTUS IIII. SCAENA X.</head>
-               <stage>Iambici dimetri acatalectici.</stage>
-               <stage>Lorcoballus. Marlocappus.</stage>
+               <stage type="delivery">Iambici dimetri acatalectici.</stage>
+               <stage type="characters">Lorcoballus. Marlocappus.</stage>
                <sp who="#lorcoballus">
                   <l n="705">NUm argutulè haec instruxeram?</l>
                </sp>
@@ -2582,7 +2582,7 @@
             </div>
             <div type="scene" n="11">
                <head>CHORUS.</head>
-               <stage>Iambici dimetri ut superiores.</stage>
+               <stage type="delivery">Iambici dimetri ut superiores.</stage>
                <sp who="#chorus">
                   <l>UT omnibus sic maxime</l>
                   <l n="725">Iuvenibus aurum est omnium</l>
@@ -2599,8 +2599,8 @@
          <div type="act" n="5">
             <div type="scene" n="1">
                <head>ACTUS V. SCAENA I.</head>
-               <stage>Iambici trimetri acatalectici.</stage>
-               <stage>Philotecnium. Cacolalia. Pompus.</stage>
+               <stage type="delivery">Iambici trimetri acatalectici.</stage>
+               <stage type="characters">Philotecnium. Cacolalia. Pompus.</stage>
                <sp who="#philotecnium">
                   <l>COrdis mei aestus me movent invisere</l>
                   <l>Cacolaliam, ut congratulari liberis</l>
@@ -2734,8 +2734,8 @@
             </div>
             <div type="scene" n="2">
                <head>ACTUS V. SCAENA II.</head>
-               <stage>Iambici tetrametri quadrati.</stage>
-               <stage>Philotecnium. Cacolalia. Aristippus. Puer.</stage>
+               <stage type="delivery">Iambici tetrametri quadrati.</stage>
+               <stage type="characters">Philotecnium. Cacolalia. Aristippus. Puer.</stage>
                <sp who="#philotecnium">
                   <l>O Quis Deus terrae polive propicium hunc nobis dabit</l>
                   <pb n="p. 43"/>
@@ -2832,8 +2832,8 @@
             </div>
             <div type="scene" n="3">
                <head>ACTUS V. SCAENA III.</head>
-               <stage>Tetrametri catalectici vel septenarij.</stage>
-               <stage>Lorarij II. Captivi II. Iudex.</stage>
+               <stage type="delivery">Tetrametri catalectici vel septenarij.</stage>
+               <stage type="characters">Lorarij II. Captivi II. Iudex.</stage>
                <sp who="#lorarius-a #lorarius-b">
                   <l>IUdex tremende obnoxios furto hos duos malignos</l>
                   <l n="800">Adducimus, ut sententia mortis in eos prolata</l>
@@ -2871,8 +2871,8 @@
             </div>
             <div type="scene" n="4">
                <head>ACTUS V. SCAENA IIII.</head>
-               <stage>Iambici dimetri.</stage>
-               <stage>Lorcoballus. Marlocappus.</stage>
+               <stage type="delivery">Iambici dimetri.</stage>
+               <stage type="characters">Lorcoballus. Marlocappus.</stage>
                <sp who="#lorcoballus">
                   <l n="815" part="I">HEus Marlocap.</l>
                </sp>
@@ -2920,8 +2920,8 @@
             </div>
             <div type="scene" n="5">
                <head>ACTUS V. SCAENA V.</head>
-               <stage>Anapaestici dimetri acatalectici.</stage>
-               <stage>Dyscolus. Clopicus. Lorarij duo.</stage>
+               <stage type="delivery">Anapaestici dimetri acatalectici.</stage>
+               <stage type="characters">Dyscolus. Clopicus. Lorarij duo.</stage>
                <sp who="#dyscolus">
                   <l n="840">TUba terribilis sonuit nunc. Heu</l>
                   <l>Miseros fures, miseram sortem.</l>
@@ -2974,8 +2974,8 @@
             <div type="scene" n="6">
                <head>ACTUS V. SCAENA VI.</head>
                <pb n="p. 48"/>
-               <stage>Trochaici trimetri catalectici.</stage>
-               <stage>Matres 2. Aristippus. Iudex. Captivi 2.</stage>
+               <stage type="delivery">Trochaici trimetri catalectici.</stage>
+               <stage type="characters">Matres 2. Aristippus. Iudex. Captivi 2.</stage>
                <sp who="#philotecnium #cacolalia">
                   <l n="870">TAndem adest diu expetitus vir pius,</l>
                   <l>Per quem erit speranda iam nobis salus:</l>
@@ -3019,8 +3019,8 @@
             <div type="scene" n="7">
                <head>ACTUS V. SCAENA VII.</head>
                <pb n="p. 49"/>
-               <stage>Dimetri acatalectici.</stage>
-               <stage>Lorcoballus. Marlocappus.</stage>
+               <stage type="delivery">Dimetri acatalectici.</stage>
+               <stage type="characters">Lorcoballus. Marlocappus.</stage>
                <sp who="#lorcoballus">
                   <l>PRoh Marlocappe Marlocap.</l>
                   <l>Pròh superùm &amp; inferûm fidem</l>
@@ -3063,8 +3063,8 @@
             </div>
             <div type="scene" n="8">
                <head>ACTUS V. SCAENA VIII.</head>
-               <stage>Iambici trimetri catalectici.</stage>
-               <stage>Captivi duo. Matres duae. Aristippus.</stage>
+               <stage type="delivery">Iambici trimetri catalectici.</stage>
+               <stage type="characters">Captivi duo. Matres duae. Aristippus.</stage>
                <sp who="#dyscolus #clopicus">
                   <l n="915">O Iuppiter supreme servastin’ nos?</l>
                   <l>In somnio haec audimus an re vera</l>
@@ -3124,8 +3124,8 @@
             </div>
             <div type="scene" n="9">
                <head>ACTUS V. SCAENA IX.</head>
-               <stage>Trimetri catalectici, ut superiores.</stage>
-               <stage>Philotecnium. Cacolalia.</stage>
+               <stage type="delivery">Trimetri catalectici, ut superiores.</stage>
+               <stage type="characters">Philotecnium. Cacolalia.</stage>
                <sp who="#philotecnium">
                   <l>NUnc ô Cacolalia dat mihi intellectum</l>
                   <l>Vexatio, nunc displicet tam laxa</l>
@@ -3162,8 +3162,8 @@
             </div>
             <div type="scene" n="10">
                <head>ACTUS V. SCAENA X.</head>
-               <stage>Trimetri catalectici.</stage>
-               <stage>Didascalus. Dyscolus. Clopicus.</stage>
+               <stage type="delivery">Trimetri catalectici.</stage>
+               <stage type="characters">Didascalus. Dyscolus. Clopicus.</stage>
                <sp who="#aristippus">
                   <l>CAesos flagellis filij mei acribus</l>
                   <l>(Ut dignum erat) poenae necis, cui obnoxij</l>
@@ -3245,8 +3245,8 @@
             </div>
             <div type="scene" n="11">
                <head>ACTUS V. SCAENA XI.</head>
-               <stage>Trimetri ut praecedentes.</stage>
-               <stage>Philotecnium. Cacolalia.</stage>
+               <stage type="delivery">Trimetri ut praecedentes.</stage>
+               <stage type="characters">Philotecnium. Cacolalia.</stage>
                <sp who="#philotecnium">
                   <l>NUnc singulis recte paratis tempus est</l>
                   <l>(Ut statuimus) Didascalum primum omnium</l>
@@ -3293,8 +3293,8 @@
             </div>
             <div type="scene" n="12">
                <head>ACTUS V. SCAENA XII.</head>
-               <stage>Trimetri ut praecedentes.</stage>
-               <stage>Clopicus. Dyscolus. Philotecnium. Cacolalia.</stage>
+               <stage type="delivery">Trimetri ut praecedentes.</stage>
+               <stage type="characters">Clopicus. Dyscolus. Philotecnium. Cacolalia.</stage>
                <sp who="#clopicus">
                   <l>O Quàm pudet matri meae mi Dyscole</l>
                   <l part="I">Sic conspicari saucium. </l>
@@ -3365,8 +3365,8 @@
             </div>
             <div type="scene" n="13">
                <head>ACTUS V. SCAENA XIII.</head>
-               <stage>Trimetri ut superiores.</stage>
-               <stage>Philotecnium. Cacolalia. Didascalus. Liberi.</stage>
+               <stage type="delivery">Trimetri ut superiores.</stage>
+               <stage type="characters">Philotecnium. Cacolalia. Didascalus. Liberi.</stage>
                <sp who="#philotecnium">
                   <l>SAlve magister, expectatus advenis.</l>
                </sp>
@@ -3480,8 +3480,8 @@
             </div>
             <div type="scene" n="14">
                <head>ACTUS V. SCAENA XIIII.</head>
-               <stage>Hymnus Sapphicus.</stage>
-               <stage>Uterque, Dyscolus. Clopicus.</stage>
+               <stage type="delivery">Hymnus Sapphicus.</stage>
+               <stage type="characters">Uterque, Dyscolus. Clopicus.</stage>
                <sp who="#dyscolus #clopicus">
                   <l>LAudibus largam celebremus erga</l>
                   <l>Nos dei nostri bonitatem, ab omni</l>
@@ -3520,8 +3520,8 @@
             </div>
          </div>
          <div type="epilogue">
-            <stage>Grex per Epilogum.</stage>
-            <stage>Trimetri acatalectici.</stage>
+            <stage type="characters">Grex per Epilogum.</stage>
+            <stage type="delivery">Trimetri acatalectici.</stage>
             <sp who="#grex">
                <l>PUdica vobis acta spectatoribus</l>
                <l>Haec fabula est. qua non modo spectantium</l>
@@ -3538,7 +3538,7 @@
                <l>Unde eripier in sempiternum haud possiet.</l>
                <l n="1115">Si vultis, &amp; si placuimus, iam plaudite.</l>
             </sp>
-            <stage>Finis Rebellium:</stage>
+            <closer>Finis Rebellium:</closer>
          </div>
       </body>
    </text>

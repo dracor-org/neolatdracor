@@ -178,9 +178,9 @@
       <body>
          <pb n="36"/>
          <div type="act" n="1">
-            <head>ACTVS PRIMVS.</head>
-            <stage>VMBRA GEDEONIS.</stage>
+            <head>ACTVS PRIMVS.</head>            
             <sp who="#umbra-gedeonis">
+               <speaker>VMBRA GEDEONIS.</speaker>
                <l>QVis me silentem turbat, &amp; crudus nimis</l>
                <l>Interpolatos vellicat Manes meos?</l>
                <l>Abimeleche! pestis, exitium, lues,</l>
@@ -261,9 +261,9 @@
                <l>Heu! sanguinantem Nemesis excußit sinum,</l>
                <pb n="39"/>
                <l>Et tonuit aether; ô Deus! Sadäi Deus!</l>
-            </sp>
-            <stage>CHORVS.</stage>
+            </sp>            
             <sp who="#chorus">
+               <speaker>CHORVS.</speaker>
                <l>Scilicet, actum est; Ioasiades</l>
                <l>Gedeon, tanti nominis heros,</l>
                <l n="80">Inter mutas pallidus vmbras</l>
@@ -339,9 +339,9 @@
             </sp>
          </div>
          <div type="act" n="2">
-            <head>ACTVS SECVNDVS</head>
-            <stage>ABIMELECHVS.</stage>
+            <head>ACTVS SECVNDVS</head>            
             <sp who="#abimelechus">
+               <speaker>ABIMELECHVS.</speaker>
                <l>ETiam moraris anime? cur lentus stupes</l>
                <l>Abimeleche? cur adhuc vacant manus?</l>
                <pb n="42"/>
@@ -413,9 +413,9 @@
                <l n="210">Sublimè eunti sic mihi sternit gradum</l>
                <l>Fortuna mater; nempe sic nauos decet,</l>
                <l>Et qui facinorum praemia in dextrâ gerunt.</l>
-            </sp>
-            <stage>CHORVS.</stage>
+            </sp>            
             <sp who="#chorus">
+               <speaker>CHORVS.</speaker>
                <l>Ergò potuit callida Sichem</l>
                <l>Talem nobis gignere pullum,</l>
                <l n="215">Qui viroso saeuior hydro</l>
@@ -520,9 +520,9 @@
          </div>
          <pb n="48"/>
          <div type="act" n="3">
-            <head>ACTVS TERTIVS.</head>
-            <stage>IOTHANES.</stage>
+            <head>ACTVS TERTIVS.</head>            
             <sp who="#iotanes">
+               <speaker>IOTHANES.</speaker>
                <l n="310">HOrrore quatior, frigus in venis riget,</l>
                <l>Heu! inter ossa currit exanguis tremor,</l>
                <l>Rectaeque steterunt, hispidae, horrentes comae.</l>
@@ -585,9 +585,9 @@
                <l>Et mille figant spicula, &amp; mille, agmine</l>
                <l>Facto, malorum millia, &amp; saxum, &amp; rota,</l>
                <l>Et tortor ignis, mille discerpant modis.</l>
-            </sp>
-            <stage>CHORVS.</stage>
+            </sp>            
             <sp who="#chorus">
+               <speaker>CHORVS.</speaker>
                <l n="370">Demessa ferro capita, vicino iacent</l>
                <l>Tumulata saxo; sic tuus Iether fuit</l>
                <l>Inuictè Gedeon, turba natorum fuit,</l>
@@ -672,9 +672,9 @@
             </sp>
          </div>
          <div type="act" n="4">
-            <head>ACTVS QVARTVS.</head>
-            <stage>ABIMELECHVS.</stage>
+            <head>ACTVS QVARTVS.</head>            
             <sp who="#abimelechus">
+               <speaker>ABIMELECHVS.</speaker>
                <l>QVò me vocas Bellona? quod mandas scelus?</l>
                <l>Aut quale monstrat labarum in castris furor?</l>
                <l n="450">Quò me tubarum stridor, &amp; litui truces</l>
@@ -732,9 +732,9 @@
                <l n="500">Si strictus iste acinacis nondum stupet,</l>
                <l>Limatus illâ cote, quâ fratres iacent.</l>
                <l>Arma, arma, ad arma milites, Sichem vocat.</l>
-            </sp>
-            <stage>CHORVS.</stage>
+            </sp>            
             <sp who="#chorus">
+               <speaker>CHORVS.</speaker>
                <l>Tandem fleuit barbara Sichem,</l>
                <l>Claro gemitu testata nefas,</l>
                <l n="505">Et te miserum dixit lëther!</l>
@@ -835,7 +835,7 @@
          </div>
          <div type="act" n="5">
             <head>ACTVS QVINTVS</head>
-            <stage>NVNCIVS, CHORVS.</stage>
+            <stage type="characters">NVNCIVS, CHORVS.</stage>
             <sp who="#nuncius">
                <l n="595">VAstata Sichem lurido busto sedet,</l>
                <l>Et lapsa ab alto ciuitas traxit minas</l>
@@ -950,7 +950,7 @@
                <l>Et ille nobis vltimus missus venit,</l>
                <l>Post tot suorum funera; ô vindex Deus!</l>
             </sp>
-            <stage>FINIS.</stage>
+            <closer>FINIS.</closer>
          </div>
       </body>
    </text>

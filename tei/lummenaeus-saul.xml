@@ -200,9 +200,9 @@
       <body>
          <pb n="124"/>
          <div type="act" n="1">
-            <head>ACTVS PRIMVS.</head>
-            <stage>SAMVEL.</stage>
+            <head>ACTVS PRIMVS.</head>            
             <sp who="#samuel">
+               <speaker>SAMVEL.</speaker>
                <l>EX quo tonanti Numini, &amp; sceptro meo</l>
                <l>Populus rebellis, purpuram eripuit mihi;</l>
                <l>Tunc, cùm ambiêre gentico more, aurëo</l>
@@ -280,7 +280,7 @@
                <l>Et tolle tecum monstra &amp; aeternùm vale.</l>
             </sp>
             <sp who="#chorus">
-               <stage>CHORVS.</stage>
+               <speaker>CHORVS.</speaker>
                <l>Sic, sic abiuit, nec videbit amplius</l>
                <pb n="127"/>
                <l n="75">Regem impiatum: cuncta decoxit miser</l>
@@ -353,9 +353,9 @@
             </sp>
          </div>
          <div type="act" n="2">
-            <head>ACTVS SECVNDVS.</head>
-            <stage>SAVL.</stage>
+            <head>ACTVS SECVNDVS.</head>            
             <sp who="#saul">
+               <speaker>SAVL.</speaker>
                <l n="140">ERupit; ergò semper illudet mihi</l>
                <l>Galeatus ille, pectore imbelli, lepus,</l>
                <l>Oreadumque alumnus, aut montis iugo,</l>
@@ -433,7 +433,7 @@
                <l>Sceptrum gubernet, aureo nutu regat.</l>
             </sp>
             <sp who="#chorus">
-               <stage>CHORVS.</stage>
+               <speaker>CHORVS.</speaker>
                <l>Heu! quàm vario carpitur aestu,</l>
                <l>Qui solicito natus in ostro,</l>
                <l>Et purpureae deditus aulae,</l>
@@ -546,9 +546,9 @@
             </sp>
          </div>
          <div type="act" n="3">
-            <head>ACTVS TERTIVS.</head>
-            <stage>DAVID.</stage>
+            <head>ACTVS TERTIVS.</head>            
             <sp who="#david">
+               <speaker>DAVID.</speaker>
                <l>QVamdiu cauernas montium, &amp; valles sequor,</l>
                <l>Et illa tesquorum aspera, inculta, horrida,</l>
                <l>Suspiriosas anxius noctes traho,</l>
@@ -607,7 +607,7 @@
                <l n="370">Pacem rogamus, exulat bello salus.</l>
             </sp>
             <sp who="#chorus">
-               <stage>CHORVS.</stage>
+               <speaker>CHORVS.</speaker>
                <l>O qui sidera torques!</l>
                <l>O qui lumina caeli</l>
                <l>Certo nomine signas!</l>
@@ -759,7 +759,7 @@
          <pb n="144"/>
          <div type="act" n="4">
             <head>ACTVS QVARTVS.</head>
-            <stage>SAVL, ACHIMAS ARMIGER, MANTO VENEFICA, VMBRA SAMVELIS.</stage>
+            <stage type="characters">SAVL, ACHIMAS ARMIGER, MANTO VENEFICA, VMBRA SAMVELIS.</stage>
             <sp who="#saul">
                <l>PVgnamus iterum: finis alterius mali,</l>
                <l>Gradus futuri est; excidit tandem Dauid,</l>
@@ -1034,7 +1034,7 @@
             </sp>
             <pb n="150"/>
             <sp who="#chorus">
-               <stage>CHORVS.</stage>
+               <speaker>CHORVS.</speaker>
                <l>Quónam cruentus ille</l>
                <l>Noctem minante coelo,</l>
                <l n="665">Et luce tam malignâ?</l>
@@ -1112,7 +1112,7 @@
          </div>
          <div type="act" n="5">
             <head>ACTVS QVINTVS</head>
-            <stage>DAVID, NVNCIVS.</stage>
+            <stage type="characters">DAVID, NVNCIVS.</stage>
             <sp who="#david">
                <l>VIcimus Idumen; quid mihi rursum iubes</l>
                <l n="735">Aeterne Sabaoth? quod mihi mandas iter?</l>
@@ -1296,7 +1296,7 @@
                <l>Heu! pars meorum viscerum! ô iecur meum!</l>
                <l>Mi frater! ô mi Ionatha! ô amor! dolor!</l>
             </sp>
-            <stage>FINIS.</stage>
+            <closer>FINIS.</closer>
          </div>
       </body>
    </text>
