@@ -195,9 +195,9 @@
       </front>
       <body>
          <div type="act" n="1">
+            <head>ACTVS PRIMI</head>
             <div type="scene" n="1">
-               <head>ACTVS PRIMI</head>
-               <head>Scena Prima.</head>               
+               <head>Scena Prima.</head>
                <sp who="#amnon">
                   <speaker>AMNON.</speaker>
                   <l>ADSVM, cubile languidum, &amp; moestum larem</l>
@@ -303,9 +303,11 @@
                   <l>Crudele! Morior! morior! &amp; nunquam, tuis</l>
                   <l>Si non ab oculis, vlla me adspiciet salus.</l>
                </sp>
-               <pb n="10"/>               
+            </div>
+            <div type="scene" subtype="chorus" n="2">
+               <pb n="10"/>
+               <head>Chorus.</head>
                <sp who="#chorus">
-                  <speaker>Chorus.</speaker>
                   <l n="100">NOn tot vario gurgite motus</l>
                   <l>Euripus agit, nec tot calidis</l>
                   <l>Ludit arenis Barbara Syrtis;</l>
@@ -462,8 +464,8 @@
          </div>
          <pb n="14"/>
          <div type="act" n="2">
+            <head>ACTVS II.</head>
             <div type="scene" n="1">
-               <head>ACTVS II.</head>
                <stage type="characters">Thamar, Nutrix, Absalomus.</stage>
                <sp who="#thamar">
                   <l>O Facinus! heu me! vindicem testor Deum!</l>
@@ -808,9 +810,11 @@
                   <speaker>Absalom:</speaker>
                   <l part="F">Tempera luctum Soror,</l>
                   <l n="350">Non inquietum saepe lenitur malum.</l>
-               </sp>               
+               </sp>
+            </div>
+            <div type="scene" subtype="chorus" n="2">
+               <head>Chorus.</head>
                <sp who="#chorus">
-                  <speaker>Chorus.</speaker>
                   <l>QVis hunc tumultum turbat? ah! ringit, dolet,</l>
                   <l>AEstuat inexpletum Absalom, saeuit quoque,</l>
                   <l>Et temperare non potest animo satis.</l>
@@ -935,8 +939,8 @@
             </div>
          </div>
          <div type="act" n="3">
+            <head>ACTVS III.</head>
             <div type="scene" n="1">
-               <head>ACTVS III.</head>               
                <sp who="#absalomus">
                   <speaker>Absalom.</speaker>
                   <l>FRAENARE non possum impetum, iustus dolor</l>
@@ -986,9 +990,11 @@
                   <l>Et deuiantem spiritum calce exprimam.</l>
                   <l n="510">Famuli. Paremus alacres, Absalom mandat scelus.</l>
                </sp>
-               <pb n="22"/>               
+            </div>
+            <div type="scene" subtype="chorus" n="2">
+               <pb n="22"/>
+               <head>Chorus.</head>
                <sp who="#chorus">
-                  <speaker>Chorus.</speaker>
                   <l>NON sic hispidus imber</l>
                   <l>Inter nubila stridet,</l>
                   <l>Quando dira corusco</l>
@@ -1200,10 +1206,10 @@
                </sp>
             </div>
          </div>
-         <pb n="28"/>
          <div type="act" n="4">
+            <pb n="28"/>
+            <head>ACTVS IIII.</head>
             <div type="scene" n="1">
-               <head>ACTVS IIII.</head>
                <stage type="characters">Dauid, Absalomus.</stage>
                <sp who="#dauid">
                   <l>EX quo Gethaeum, numine haud vano, ducem.</l>
@@ -1378,9 +1384,11 @@
                   <l>Et capta nostras belua intricat plagas,</l>
                   <l>Bene est, tenetur, claudet hic missus aper.</l>
                </sp>
-               <pb n="31"/>               
+            </div>
+            <div type="scene" subtype="chorus" n="2">
+               <pb n="31"/>
+               <head>Chorus.</head>
                <sp who="#chorus">
-                  <speaker>Chorus.</speaker>
                   <l>NVLLA vis tantas agitat procellas,</l>
                   <l>Vt nihil Phoebus radio moretur</l>
                   <l n="815">Nubila, aut pullas hyades, vel haedos</l>
@@ -1507,8 +1515,8 @@
             </div>
          </div>
          <div type="act" n="5">
+            <head>ACTVS V.</head>
             <div type="scene" n="1">
-               <head>ACTVS V.</head>
                <stage type="characters">Dauid, Ionadab, Nuncius, Filij Regis.</stage>
                <sp who="#dauid">
                   <speaker>Dauid.</speaker>
@@ -1766,9 +1774,11 @@
                   <l n="1000">Heu me! quis illum vendicet nobis deus,</l>
                   <l>Sceptrisque reddat? ô Deus! serua ducem.</l>
                </sp>
-               <pb n="37"/>               
+            </div>
+            <div type="scene" subtype="chorus" n="2">
+               <pb n="37"/>
+               <head>Chorus.</head>
                <sp who="#chorus">
-                  <speaker>Chorus.</speaker>
                   <l>NEscio quali sidere, vel quo</l>
                   <l>Numine diuûm Lubrica Regum</l>
                   <l>Purpura semper sanguine stillat,</l>
