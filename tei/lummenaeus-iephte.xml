@@ -3,101 +3,117 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Iephte. Tragoedia sacra</title>
+            <title type="sub">Iephte</title>
+            <title type="sub">Tragoedia sacra</title>
             <author>
-               <persName xml:lang="la">Jacobus Cornelius Lummenaeus a Marca</persName>
+               <persName xml:lang="la">
+                  <forename>Jacobus Cornelius</forename>
+                  <surname>Lummenaeus a Marca</surname>
+               </persName>
                <idno type="wikidata">Q112481178</idno>
-               <idno type="pnd">131814397</idno>
+               <idno type="gnd">131814397</idno>
             </author>
-            <editor>Jan Bloemendal</editor>
-            <respStmt>
-               <resp>Transcribed under the supervision of</resp>
-               <persName>Jan Bloemendal</persName>
-            </respStmt>
+            <editor ref="https://orcid.org/0000-0002-5768-9932">Jan Bloemendal</editor>
             <respStmt>
                <resp>Converted to TEI by</resp>
-               <persName>Julia Jennifer Beine</persName>
+               <persName ref="https://orcid.org/0000-0001-8979-8706">Julia Jennifer Beine</persName>
             </respStmt>
-            <funder/>
          </titleStmt>
          <publicationStmt>
             <publisher xml:id="dracor">DraCor</publisher>
             <idno type="URL">https://dracor.org</idno>
             <availability>
-               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0
+                  1.0</licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
             <bibl type="digitalSource">
-               <name>TransLatin</name>
-               <idno type="URL">https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Lummenaeus-Iephte.docx</idno>
+               <ref
+                  target="https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Lummenaeus-Iephte.docx"
+                  >TransLatin</ref>
+               <note>Commit ce637908e9700ffac95380b1a90188db95dd2f36</note>
                <availability status="free">
                   <p>In the public domain.</p>
                </availability>
-               <bibl type="originalSource">Jacobus Cornelius Lummenaeus a Marca: Iephte. Tragoedia sacra. In: Musae lacrymantes, sive Pleias tragica, id est septem tragoediae sacrae. Bustum Sodomae, Abimelech, Iephte, Sampson, Saul, Amnon, Sedechias. Douai: Johannes de Fampoux 1628. pp. 62–89. https://books.google.com/books?id=3Wg-AAAAcAAJ.</bibl>
+               <bibl type="originalSource"><author>Jacobus Cornelius Lummenaeus a Marca</author> :
+                     <title type="main">Iephte</title> . <title type="sub">Tragoedia sacra</title> .
+                  In: <title>Musae lacrymantes, sive Pleias tragica, id est septem tragoediae
+                     sacrae. Bustum Sodomae, Abimelech, Iephte, Sampson, Saul, Amnon,
+                     Sedechias</title> . <pubPlace>Douai</pubPlace> : <publisher>Johannes de
+                     Fampoux</publisher>
+                  <date>1628</date> . <biblScope>pp. 62–89</biblScope> . </bibl>
+               <relatedItem>
+                  <!-- digital copy used -->
+                  <bibl>
+                     <ref target="https://books.google.com/books?id=3Wg-AAAAcAAJ">Google Books</ref>
+                     <availability status="free">
+                        <p>In the public domain.</p>
+                     </availability>
+                  </bibl>
+               </relatedItem>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person xml:id="cleant">
-                  <persName>CLEANT.</persName>
+               <person xml:id="cleanthe" sex="FEMALE" role="virgo">
+                  <persName>CLEANTHE</persName>
+                  <persName type="variant">CLEANT.</persName>
+                  <persName type="variant">CLEANTHE PVELLA.</persName>
                </person>
-               <person xml:id="cleanthe-pvella">
-                  <persName>CLEANTHE PVELLA.</persName>
+               <person xml:id="dylitha" sex="FEMALE" role="virgo">
+                  <persName>DYLITHA</persName>
+                  <persName type="variant">DYLIT.</persName>
+                  <persName type="variant">DYLITHA PVELLA</persName>
                </person>
-               <person xml:id="dylit">
-                  <persName>DYLIT.</persName>
+               <person xml:id="echo" sex="FEMALE" role="nympha"
+                  ana="https://www.wikidata.org/wiki/Q207368">
+                  <persName>ECHO</persName>
                </person>
-               <person xml:id="dylitha-pvella">
-                  <persName>DYLITHA PVELLA</persName>
+               <person xml:id="hianthe" sex="FEMALE" role="virgo"
+                  ana="https://www.wikidata.org/wiki/Q1133523">
+                  <persName>HIANTHE</persName>
+                  <persName type="variant">HIANT.</persName>
+                  <persName type="variant">HYANT.</persName>
+                  <persName type="variant">HYANTH</persName>
                </person>
-               <person xml:id="echo">
-                  <persName>ECHO.</persName>
+               <person xml:id="iephte" sex="MALE" role="iudex"
+                  ana="https://www.wikidata.org/wiki/Q1133523">
+                  <persName>IEPHTE</persName>
+                  <persName type="variant">IEPH.</persName>
+                  <persName type="variant">IEPHET.</persName>
+                  <persName type="variant">IEPHT.</persName>
+                  <persName type="variant">IEPTH.</persName>
                </person>
-               <person xml:id="hiant">
-                  <persName>HIANT.</persName>
-               </person>
-               <person xml:id="hyant">
-                  <persName>HYANT.</persName>
-               </person>
-               <person xml:id="hyanth">
-                  <persName>HYANTH</persName>
-               </person>
-               <person xml:id="ieph">
-                  <persName>IEPH.</persName>
-               </person>
-               <person xml:id="iephet">
-                  <persName>IEPHET.</persName>
-               </person>
-               <person xml:id="iepht">
-                  <persName>IEPHT.</persName>
-               </person>
-               <person xml:id="iepth">
-                  <persName>IEPTH.</persName>
-               </person>
-               <person xml:id="iris-pvella">
-                  <persName>IRIS PVELLA.</persName>
+               <person xml:id="iris" sex="FEMALE" role="virgo">
+                  <persName>IRIS</persName>
+                  <persName type="variant">IRIS PVELLA.</persName>
                </person>
                <person xml:id="myanth">
                   <persName>MYANTH.</persName>
                </person>
-               <person xml:id="nvn">
-                  <persName>NVN.</persName>
+               <person xml:id="nuncius" sex="MALE" role="nuncius">
+                  <persName>NVNCIVS</persName>
+                  <persName type="variant">NVN.</persName>
+                  <persName type="variant">NVNC.</persName>
                </person>
-               <person xml:id="nvnc">
-                  <persName>NVNC.</persName>
+               <person xml:id="telethusa" sex="FEMALE" role="uxor">
+                  <persName>TELETHVSA</persName>
+                  <persName type="variant">TELET.</persName>
+                  <persName type="variant">TELETH.</persName>
                </person>
-               <person xml:id="telet">
-                  <persName>TELET.</persName>
+               <person xml:id="chorus" sex="UNKNOWN" role="chorus">
+                  <persName>CHORVS</persName>
                </person>
-               <person xml:id="teleth">
-                  <persName>TELETH.</persName>
-               </person>
-               <person xml:id="unknown">
-                  <persName>Unknown</persName>
-               </person>
+               <listRelation type="personal">
+                  <relation name="parent_of" active="#iephte" passive="#hianthe"/>
+                  <relation name="parent_of" active="#telethusa" passive="#hianthe"/>
+                  <relation name="spouses" mutual="#iephte #telethusa"/>
+                  <relation name="associated_with" active="#iris" passive="#hianthe"/>
+                  <relation name="associated_with" active="#dylitha" passive="#hianthe"/>
+               </listRelation>
             </listPerson>
          </particDesc>
          <textClass>
@@ -114,14 +130,13 @@
       </profileDesc>
    </teiHeader>
    <standOff>
-      <listRelation>
-         <relation name="wikidata"
-                   active="https://dracor.org/entity/neolatXXXXXX"/>
-      </listRelation>
       <listEvent>
-         <event type="print"
-                when="1628">
-            <desc/>
+         <event type="print" when="1628">
+            <desc>manuscript (ca. 1607), first print 1608/9, second print 1613, third print 1624,
+               fourth print 1628; the 1628 version is "thoroughly abridged" (see Gruijters, R.J.
+               (2010): An eloquent enigma. The dramas of Jacobus Cornelius Lummenaeus à Marca (c.
+               1580 - c. 1628) and their contexts [Thesis, fully internal, Universiteit van
+               Amsterdam]. Eigen Beheer. p. 226)</desc>
          </event>
       </listEvent>
    </standOff>
@@ -129,71 +144,93 @@
       <front>
          <titlePage>
             <docTitle>
-               <titlePart>
-                  <lb/>IEPHTE
-<lb/>TRAGOEDIA SACRA.
-</titlePart>
+               <titlePart type="main">IEPHTE</titlePart>
+               <titlePart type="sub">TRAGOEDIA SACRA.</titlePart>
             </docTitle>
          </titlePage>
-         <p>
-            <pb n="63"/>
-         </p>
+         <pb n="63"/>
          <div type="dedication">
-            <sp who="#unknown">
-               <p>
-                  <l>AMPLISSIMO ET R.DO ADMODVM DOMINO D. IOANNI DE MEERE ABBATI AQVICINCTINO, &amp;c. DOMINO ET PATRONO MEO COLENDISSIMO. L. M. C. D.D. Q</l>
-                  <l>SAcrorum Antistes, quà sese Aquicinctia moles,</l>
-                  <l>Sublimi ad Superos vertice, tollit humo.</l>
-                  <l>Principis Hebraei fortunam, &amp; dira cruentae</l>
-                  <l>Sacra molae, &amp; caesae Iephtidis inferias,</l>
-                  <l>Spectabis crocëi depicta in margine pepli,</l>
-                  <l>Melpomené lacrymis quod rigat vsque suis.</l>
-                  <l>Melpomené Tragico suras vestita cothurno,</l>
-                  <l>Melpomené studijs officiosa meis.</l>
-                  <l>Forsan &amp; has lacrymas hilaro spectabis ocello,</l>
-                  <l>Et scena haec aliquid fortè decoris habet.</l>
-                  <l>O vtinam! &amp; tibi riderent haec tristia! (quanquam</l>
-                  <l>In conchâ Veneris tristia nulla sedent.)</l>
-                  <l>Riderent tamen! &amp; rideres tristibus illis,</l>
-                  <l>Quae fleuit patrijs porphyro nata iugis!</l>
-                  <l>Hoc equidem, hoc animo veri praesagia dicunt.</l>
-                  <l>Quod mihi post nimbum &amp; nubila, Phoebus eris.</l>
-               </p>
-            </sp>
+            <opener><salute>AMPLISSIMO ET R.DO ADMODVM DOMINO D. IOANNI DE MEERE ABBATI
+                  AQVICINCTINO, &amp;c. DOMINO ET PATRONO MEO COLENDISSIMO. L. M. C. D.D.
+                  Q.</salute></opener>
+            <l>SAcrorum Antistes, quà sese Aquicinctia moles,</l>
+            <l rend="indent">Sublimi ad Superos vertice, tollit humo.</l>
+            <l>Principis Hebraei fortunam, &amp; dira cruentae</l>
+            <l rend="indent">Sacra molae, &amp; caesae Iephtidis inferias,</l>
+            <l>Spectabis crocëi depicta in margine pepli,</l>
+            <l rend="indent">Melpomené lacrymis quod rigat vsque suis.</l>
+            <l>Melpomené Tragico suras vestita cothurno,</l>
+            <l rend="indent">Melpomené studijs officiosa meis.</l>
+            <l>Forsan &amp; has lacrymas hilaro spectabis ocello,</l>
+            <l rend="indent">Et scena haec aliquid fortè decoris habet.</l>
+            <l>O vtinam! &amp; tibi riderent haec tristia! (quanquam</l>
+            <l rend="indent">In conchâ Veneris tristia nulla sedent.)</l>
+            <l>Riderent tamen! &amp; rideres tristibus illis,</l>
+            <l rend="indent">Quae fleuit patrijs porphyro nata iugis!</l>
+            <l>Hoc equidem, hoc animo veri praesagia dicunt.</l>
+            <l rend="indent">Quod mihi post nimbum &amp; nubila, Phoebus eris.</l>
          </div>
-         <p>
-            <pb n="64"/>
-         </p>
+         <pb n="64"/>
          <div type="epistle">
-            <sp who="#unknown">
-               <p>
-                  <lb/>REVERENDO VIRO D IACOBO CORNELIO LVMMENAEO A MARCA, SACERDOTI BENEDICTINO.
-<lb/>COrollarium illud tuum, à te ex vtroque Parnassi vertice delibatum, &amp; ad me transmissum &amp; libenter accepi, &amp; legi attentius. Nec parabile existimo hoc scribendi genus, quin immò difficillimum iudico, vt comparari possit. Hinc legi attentius, nec equidem frustrà. Nam lucubrationes has tuas praeceptis pöetices egregiè imbutas agnoui, &amp; tuam ipsius eruditionem admirans, litteras politiores ab Ordine nostro non exulasse facilè perspexi. Quid, si ABSALOMVM videam? quid si sacrarum litterarum professorem, cothurnum Sophoclaeum indutum, cernam abigere à Repub. Christianâ Comicorum turbam, in morum corruptelâ, inseruientem adolescentibus, &amp; pietatem vnà cum religione, à pectoribus nostris semouentem Facessant Plauti, euanescant Terentij, sintque à nobis procul isti profani. Huc ergò conuolet Christianus, &amp; cum morum probitate, pietatem addiscat, religionem intueatur, aemuletur. Hoc mente concipio, concipio &amp; animo. Tibi interim alteri Maroni Moecenates non defuturos, sat scio, qui, si dicatas volueris lucubrationes tuas, habebunt, agent, immò referent gratias, &amp;c. Vale, datum PARMAE,
-<lb/>4. Calend. Quint. 1622.
-<lb/>R.de Paternit. T. deditiß.
-<lb/>D. ANGELVS GRYLLVS,
-<lb/>Abbas &amp; Praeses Congreg. Casinen.
-<lb/>
-                  <pb n="65"/>
-                  <lb/>REVERENDO VIRO
-<lb/>D. CORNELIO A MARCA
-<lb/>RELIG. SACERDOTI.
-<lb/>REVERENDE DOMINE,
-<lb/>Litteras tuas libenter vidi, &amp; in eis adfectum tuum ergà me. Nec verò ingratum fuit, vel à vero alienum, quod nunciauit frater tuus, adfici me tibi &amp; sacris tuis poematibus. Id ego ipse manu meâ iam testor: &amp; Deum laudo, fontem omnis boni, qui te talem fecit esse in Ordine nostro, in quo, vt te pro eius splendore, &amp; sui nominis gloriâ conseruet, donáque sua in te augeat, supplex eum veneror. A me verò, expecta omne id, quod ab amico expectari debet, sciasque opusculis tuis pöeticis vehementer me recreari, &amp; iuuari: quia in ijs pietatem &amp; honestatem arti &amp; doctrinae iungis; abstinesque ab ijs, quae te virum religiosum scribere &amp; me legere non decet. Sic porrò perge, &amp; gratiam inibis omnium illorum, qui vanas illas &amp; impuras Musas fastidiunt: &amp; quod praecipuum est, meritum consequêris apud Deum: vt qui pijs &amp; honestis tuis versibus, obscoena &amp; indecentia carmina è manibus philomusorum excuties, &amp;c. LAETIIS, 12. Nouemb. 1614.
-<lb/>R.ae V. Amantiss. &amp; Studiosiss.
-<lb/>ANTONIVS DE WINGHE,
-<lb/>Abbas Laetiensis.
-</p>
-            </sp>
+            <opener>
+               <salute>REVERENDO VIRO D IACOBO CORNELIO LVMMENAEO A MARCA, SACERDOTI
+                  BENEDICTINO.</salute>
+            </opener>
+            <p>COrollarium illud tuum, à te ex vtroque Parnassi vertice delibatum, &amp; ad me
+               transmissum &amp; libenter accepi, &amp; legi attentius. Nec parabile existimo hoc
+               scribendi genus, quin immò difficillimum iudico, vt comparari possit. Hinc legi
+               attentius, nec equidem frustrà. Nam lucubrationes has tuas praeceptis pöetices
+               egregiè imbutas agnoui, &amp; tuam ipsius eruditionem admirans, litteras politiores
+               ab Ordine nostro non exulasse facilè perspexi. Quid, si ABSALOMVM videam? quid si
+               sacrarum litterarum professorem, cothurnum Sophoclaeum indutum, cernam abigere à
+               Repub. Christianâ Comicorum turbam, in morum corruptelâ, inseruientem adolescentibus,
+               &amp; pietatem vnà cum religione, à pectoribus nostris semouentem Facessant Plauti,
+               euanescant Terentij, sintque à nobis procul isti profani. Huc ergò conuolet
+               Christianus, &amp; cum morum probitate, pietatem addiscat, religionem intueatur,
+               aemuletur. Hoc mente concipio, concipio &amp; animo. Tibi interim alteri Maroni
+               Moecenates non defuturos, sat scio, qui, si dicatas volueris lucubrationes tuas,
+               habebunt, agent, immò referent gratias, &amp;c.</p>
+            <closer>
+               <salute>Vale,</salute>
+               <dateline><name type="place">datum PARMAE,</name>
+                  <date when="1622-06-28">4. Calend. Quint. 1622</date>.</dateline>
+               <signed>R.de Paternit. T. deditiß. <name>D. ANGELVS GRYLLVS</name>, Abbas &amp;
+                  Praeses Congreg. Casinen.</signed>
+            </closer>
          </div>
-         <p>
-            <pb n="66"/>
-         </p>
+         <pb n="65"/>
+         <div type="epistle">
+            <opener><salute>REVERENDO VIRO D. CORNELIO A MARCA RELIG. SACERDOTI.</salute></opener>
+            <p>REVERENDE DOMINE,</p>
+            <p>Litteras tuas libenter vidi, &amp; in eis adfectum tuum ergà me. Nec verò ingratum
+               fuit, vel à vero alienum, quod nunciauit frater tuus, adfici me tibi &amp; sacris
+               tuis poematibus. Id ego ipse manu meâ iam testor: &amp; Deum laudo, fontem omnis
+               boni, qui te talem fecit esse in Ordine nostro, in quo, vt te pro eius splendore,
+               &amp; sui nominis gloriâ conseruet, donáque sua in te augeat, supplex eum veneror. A
+               me verò, expecta omne id, quod ab amico expectari debet, sciasque opusculis tuis
+               pöeticis vehementer me recreari, &amp; iuuari: quia in ijs pietatem &amp; honestatem
+               arti &amp; doctrinae iungis; abstinesque ab ijs, quae te virum religiosum scribere
+               &amp; me legere non decet. Sic porrò perge, &amp; gratiam inibis omnium illorum, qui
+               vanas illas &amp; impuras Musas fastidiunt: &amp; quod praecipuum est, meritum
+               consequêris apud Deum: vt qui pijs &amp; honestis tuis versibus, obscoena &amp;
+               indecentia carmina è manibus philomusorum excuties, &amp;c.</p>
+            <closer>
+               <dateline><name type="place">LAETIIS</name>, <date when="1614-11-12">12. Nouemb.
+                     1614</date>.</dateline>
+               <signed>R.ae V. Amantiss. &amp; Studiosiss. <name>ANTONIVS DE WINGHE</name>, Abbas
+                  Laetiensis.</signed>
+            </closer>
+         </div>
+         <pb n="66"/>
          <div type="argument">
             <head>ARGVMENTVM.</head>
-            <sp who="#unknown">
-               <p>IEPHTE, irruentibus Ammonitis, &amp; latè omnia vastantibus, producto contrà hostem exercitu, in ipso procinctu voto se obstringit, si victricia signa reduceret, holocausti victimâ immolaturum Deo, quicquid ex hostili campo reuertenti primùm occurrisset. Occurit filia cum puellis cymbalistrijs, miserum Principem ex improuiso inuolat, &amp; porrò bimestri luctu intra scrupea montium, &amp; concaua vallium deplorata, consumptis denique inducijs, Patrem voti reum, sanguine suo absoluit. Iudic. 11.</p>
-            </sp>
+            <p>IEPHTE, irruentibus Ammonitis, &amp; latè omnia vastantibus, producto contrà hostem
+               exercitu, in ipso procinctu voto se obstringit, si victricia signa reduceret,
+               holocausti victimâ immolaturum Deo, quicquid ex hostili campo reuertenti primùm
+               occurrisset. Occurit filia cum puellis cymbalistrijs, miserum Principem ex improuiso
+               inuolat, &amp; porrò bimestri luctu intra scrupea montium, &amp; concaua vallium
+               deplorata, consumptis denique inducijs, Patrem voti reum, sanguine suo absoluit.
+               Iudic. 11.</p>
          </div>
          <castList>
             <head>PERSONARVM NOMINA.</head>
@@ -209,400 +246,328 @@
             <castItem>
                <role>NVNCIVS.</role>
             </castItem>
-            <castItem>
-               <role>DYLITHA.</role>
-            </castItem>
-            <castItem>
-               <role>CLEANTHE. </role>
+            <castGroup rend="braced">
+               <castItem>
+                  <role>DYLITHA.</role>
+               </castItem>
+               <castItem>
+                  <role>CLEANTHE. </role>
+               </castItem>
+               <castItem>
+                  <role>IRIS.</role>
+               </castItem>
                <roleDesc>PVELLAE.</roleDesc>
-            </castItem>
-            <castItem>
-               <role>IRIS.</role>
-            </castItem>
+            </castGroup>
             <castItem>
                <role>CHORVS.</role>
             </castItem>
          </castList>
-         <p>
-            <pb n="67"/>
-         </p>
       </front>
+      <pb n="67"/>
       <body>
-         <div type="act"
-              n="1">
+         <div type="act" n="1">
             <head>ACTVS PRIMVS</head>
-            <stage>HYANTHE, IEPHTE.</stage>
-            <sp who="#unknown">
+            <stage type="characters">HYANTHE, IEPHTE.</stage>
+            <sp who="#hianthe">
                <l>VIdeo parentem; pater, iò salue pater.</l>
             </sp>
-            <sp who="#iepht">
+            <sp who="#iephte">
                <speaker>IEPHT.</speaker>
-               <l part=""
-                  cert="unknown">Perij.</l>
+               <l part="I">Perij.</l>
             </sp>
-            <sp who="#hyant">
+            <sp who="#hianthe">
                <speaker>HYANT.</speaker>
-               <l part=""
-                  cert="unknown">Quid est? quid audio?</l>
+               <l part="M">Quid est? quid audio?</l>
             </sp>
-            <sp who="#iepht">
+            <sp who="#iephte">
                <speaker>IEPHT.</speaker>
-               <l part=""
-                  cert="unknown">Perî! ah perî!</l>
+               <l part="F">Perî! ah perî!</l>
             </sp>
-            <sp who="#hyant">
+            <sp who="#hianthe">
                <speaker>HYANT.</speaker>
                <l>Heu me! perîsti Genitor? ô Genitor! quid est?</l>
             </sp>
-            <sp who="#iepht">
+            <sp who="#iephte">
                <speaker>IEPHT.</speaker>
-               <l part=""
-                  cert="unknown">Et ipsa mecum!</l>
+               <l part="I">Et ipsa mecum!</l>
             </sp>
-            <sp who="#hyant">
+            <sp who="#hianthe">
                <speaker>HYANT.</speaker>
-               <l part=""
-                  cert="unknown">Quid stupes? eheu pater!</l>
+               <l part="F">Quid stupes? eheu pater!</l>
             </sp>
-            <sp who="#iepht">
+            <sp who="#iephte">
                <speaker>IEPHT.</speaker>
-               <l n="5"
-                  part=""
-                  cert="unknown">Perij!</l>
+               <l n="5" part="I">Perij!</l>
             </sp>
-            <sp who="#hyant">
+            <sp who="#hianthe">
                <speaker>HYANT.</speaker>
-               <l n="5"
-                  part=""
-                  cert="unknown">Quid isthoc rursus?</l>
+               <l n="5" part="M">Quid isthoc rursus?</l>
             </sp>
-            <sp who="#iepht">
+            <sp who="#iephte">
                <speaker>IEPHT.</speaker>
-               <l n="5"
-                  part=""
-                  cert="unknown">O coelum! ô solum!</l>
-               <l part="">Perij!</l>
+               <l n="5" part="F">O coelum! ô solum!</l>
+               <l part="I">Perij!</l>
             </sp>
-            <sp who="#hyant">
+            <sp who="#hianthe">
                <speaker>HYANT.</speaker>
-               <l part=""
-                  cert="unknown">Quid hoc est? quid mihi &amp; tibi est Pater?</l>
+               <l part="F">Quid hoc est? quid mihi &amp; tibi est Pater?</l>
             </sp>
-            <sp who="#iepht">
+            <sp who="#iephte">
                <speaker>IEPHT.</speaker>
-               <l part=""
-                  cert="unknown">Miseranda!</l>
+               <l part="I">Miseranda!</l>
             </sp>
-            <sp who="#hyant">
+            <sp who="#hianthe">
                <speaker>HYANT.</speaker>
-               <l part=""
-                  cert="unknown">Quid sic?</l>
+               <l part="M">Quid sic?</l>
             </sp>
-            <sp who="#iepht">
+            <sp who="#iephte">
                <speaker>IEPHT.</speaker>
-               <l part=""
-                  cert="unknown">Quaeris?ô si nescias!</l>
+               <l part="F">Quaeris? ô si nescias!</l>
             </sp>
-            <sp who="#hyant">
+            <sp who="#hianthe">
                <speaker>HYANT.</speaker>
-               <l part=""
-                  cert="unknown">Nescire poena est.</l>
+               <l part="I">Nescire poena est.</l>
             </sp>
-            <sp who="#iepht">
+            <sp who="#iephte">
                <speaker>IEPHT.</speaker>
-               <l part=""
-                  cert="unknown">Quod tamen feriet magis</l>
-               <l part="">Audire; perij!</l>
+               <l part="F">Quod tamen feriet magis</l>
+               <l part="I">Audire; perij!</l>
             </sp>
-            <sp who="#hyant">
+            <sp who="#hianthe">
                <speaker>HYANT.</speaker>
-               <l part=""
-                  cert="unknown">Cur mihi peris pater?</l>
+               <l part="F">Cur mihi peris pater?</l>
             </sp>
-            <sp who="#iepht">
+            <sp who="#iephte">
                <speaker>IEPHT.</speaker>
-               <l n="10"
-                  part=""
-                  cert="unknown">Quia tu perîsti.</l>
+               <l n="10" part="I">Quia tu perîsti.</l>
             </sp>
-            <sp who="#hyant">
+            <sp who="#hianthe">
                <speaker>HYANT.</speaker>
-               <l n="10"
-                  part=""
-                  cert="unknown">Cur tibi perij pater?</l>
+               <l n="10" part="F">Cur tibi perij pater?</l>
             </sp>
-            <sp who="#iepht">
+            <sp who="#iephte">
                <speaker>IEPHT.</speaker>
-               <l part=""
-                  cert="unknown">Hyantha!</l>
+               <l part="I">Hyantha!</l>
             </sp>
-            <sp who="#hyant">
+            <sp who="#hianthe">
                <speaker>HYANT.</speaker>
-               <l part=""
-                  cert="unknown">Fare, supplicem exaudi tuam,</l>
+               <l part="F">Fare, supplicem exaudi tuam,</l>
                <l>Quid est, quod ipsa pereo, quod mecum peris?</l>
             </sp>
-            <sp who="#iepht">
+            <sp who="#iephte">
                <speaker>IEPHT.</speaker>
-               <l part=""
-                  cert="unknown">Miserandal</l>
+               <l part="I">Miserandal</l>
             </sp>
-            <sp who="#hyant">
+            <sp who="#hianthe">
                <speaker>HYANT.</speaker>
-               <l part=""
-                  cert="unknown">Quid me genibus extorques tuis?</l>
-               <l part="">Placare Genitor.</l>
+               <l part="F">Quid me genibus extorques tuis?</l>
+               <l part="I">Placare Genitor.</l>
             </sp>
-            <sp who="#iepht">
+            <sp who="#iephte">
                <speaker>IEPHT.</speaker>
-               <l part=""
-                  cert="unknown">Desine parentis tui</l>
+               <l part="F">Desine parentis tui</l>
                <l n="15">Agitare vulnus; quid meos stringis pedes?</l>
-               <l part="">Miseranda!</l>
+               <l part="I">Miseranda!</l>
             </sp>
-            <sp who="#hyant">
+            <sp who="#hianthe">
                <speaker>HYANT.</speaker>
-               <l part=""
-                  cert="unknown">Parce, parce, quid luctus meos</l>
-               <l part="">Celare pergis?</l>
+               <l part="F">Parce, parce, quid luctus meos</l>
+               <l part="I">Celare pergis?</l>
             </sp>
-            <sp who="#iepht">
+            <sp who="#iephte">
                <speaker>IEPHT.</speaker>
-               <l part=""
-                  cert="unknown">Quid tuos luctus iuuat</l>
+               <l part="F">Quid tuos luctus iuuat</l>
                <l>Audire Virgo? luctibus coelum tuis,</l>
                <l>Et luctibus terram tuis! nec audeo,</l>
                <l n="20">Nec valeo; coelum luctibus, terram tuis!</l>
-               <l part="">Hyantha!</l>
+               <l part="I">Hyantha!</l>
             </sp>
-            <sp who="#hyant">
+            <sp who="#hianthe">
                <speaker>HYANT.</speaker>
-               <l part=""
-                  cert="unknown">Coelum luctibus, teram meis?</l>
-               <l>
-                  <pb n="68"/>
-               </l>
+               <l part="F">Coelum luctibus, teram meis?</l>
             </sp>
-            <sp who="#iepht">
+            <pb n="68"/>
+            <sp who="#iephte">
                <speaker>IEPHT.</speaker>
-               <l part=""
-                  cert="unknown">Opplebo</l>
+               <l part="I">Opplebo!</l>
             </sp>
-            <sp who="#hyant">
+            <sp who="#hianthe">
                <speaker>HYANT.</speaker>
-               <l part=""
-                  cert="unknown">Parce Genitor!</l>
+               <l part="M">Parce Genitor!</l>
             </sp>
-            <sp who="#ieph">
+            <sp who="#iephte">
                <speaker>IEPH.</speaker>
-               <l part=""
-                  cert="unknown">O nata! ô Deùs!</l>
+               <l part="F">O nata! ô Deùs!</l>
             </sp>
-            <sp who="#hyant">
+            <sp who="#hianthe">
                <speaker>HYANT.</speaker>
-               <l part=""
-                  cert="unknown">O care Genitor!</l>
+               <l part="I">O care Genitor!</l>
             </sp>
-            <sp who="#iepht">
+            <sp who="#iephte">
                <speaker>IEPHT.</speaker>
-               <l part=""
-                  cert="unknown">Rapite praecipites Noti,</l>
+               <l part="F">Rapite praecipites Noti,</l>
                <l>Et me hinc in auras ferte ne patiar scelus,</l>
                <l n="25">Quod facio; ne, quod facio, patiatur scelus</l>
-               <l part="">Immane!</l>
+               <l part="I">Immane!</l>
             </sp>
-            <sp who="#hyant">
+            <sp who="#hianthe">
                <speaker>HYANT.</speaker>
-               <l part=""
-                  cert="unknown">Cur, quod patiar, admittas scelus</l>
+               <l part="F">Cur, quod patiar, admittas scelus</l>
                <l>Immane, cur, quod pateris, excipiam scelus?</l>
-               <l part="">Exue furorem.</l>
+               <l part="I">Exue furorem.</l>
             </sp>
-            <sp who="#iepht">
+            <sp who="#iephte">
                <speaker>IEPHT.</speaker>
-               <l part=""
-                  cert="unknown">Non potest flecti furor,</l>
+               <l part="F">Non potest flecti furor,</l>
                <l>Siue ille furor est, siue non fandus dolor,</l>
                <l n="30">Qui me in medullis! nempe non fandus dolor.</l>
             </sp>
-            <sp who="#hyant">
+            <sp who="#hianthe">
                <speaker>HYANT.</speaker>
-               <l part=""
-                  cert="unknown">Sed fare.</l>
+               <l part="I">Sed fare.</l>
             </sp>
-            <sp who="#ieph">
+            <sp who="#iephte">
                <speaker>IEPH.</speaker>
-               <l part=""
-                  cert="unknown">Totâ fulmen vt linguâ vibret,</l>
+               <l part="F">Totâ fulmen vt linguâ vibret,</l>
                <l>Et grande tonitru misceat verbis Deus,</l>
                <l>Non possum; Hyantha! penitus infandum est scelus,</l>
-               <l part="">Quodcumque!</l>
+               <l part="I">Quodcumque!</l>
             </sp>
-            <sp who="#hyant">
+            <sp who="#hianthe">
                <speaker>HYANT.</speaker>
-               <l part=""
-                  cert="unknown">Grande, video, suspiras malum.</l>
+               <l part="F">Grande, video, suspiras malum.</l>
                <l n="35">Per has ego te lacrymas! pater! pater!</l>
                <l>Per si quam Hyanthae gratiam seruas tuae!</l>
             </sp>
-            <sp who="#iepht">
+            <sp who="#iephte">
                <speaker>IEPHT.</speaker>
-               <l part=""
-                  cert="unknown">Desine rogare.</l>
+               <l part="I">Desine rogare.</l>
             </sp>
-            <sp who="#hyant">
+            <sp who="#hianthe">
                <speaker>HYANT.</speaker>
-               <l part=""
-                  cert="unknown">fallor? anne hic est pater?</l>
+               <l part="F">fallor? anne hic est pater?</l>
                <l>Ipse est; rogare prohibet, anne hoc est patris?</l>
             </sp>
-            <sp who="#iepht">
+            <sp who="#iephte">
                <speaker>IEPHT.</speaker>
-               <l part=""
-                  cert="unknown">Ah nata! nata!</l>
+               <l part="I">Ah nata! nata!</l>
             </sp>
-            <sp who="#hyant">
+            <sp who="#hianthe">
                <speaker>HYANT.</speaker>
-               <l part=""
-                  cert="unknown">Quid meos turbas metus</l>
-               <l n="40"
-                  part="">Verende genitor?</l>
+               <l part="F">Quid meos turbas metus</l>
+               <l n="40" part="I">Verende genitor?</l>
             </sp>
-            <sp who="#ieph">
+            <sp who="#iephte">
                <speaker>IEPH.</speaker>
-               <l n="40"
-                  part=""
-                  cert="unknown">Vespere vt primo, dies</l>
+               <l n="40" part="F">Vespere vt primo, dies</l>
                <l>Ambigua, ponto merget auratum caput,</l>
-               <l part="">Hîc me reuise.</l>
+               <l part="I">Hîc me reuise.</l>
             </sp>
-            <sp who="#hyant">
+            <sp who="#hianthe">
                <speaker>HYANT.</speaker>
-               <l part=""
-                  cert="unknown">Pareo, tantùm modò</l>
+               <l part="F">Pareo, tantùm modò</l>
                <l>Effare, quis tam subitùs, aut vnde est dolor?</l>
             </sp>
-            <sp who="#iepht">
+            <sp who="#iephte">
                <speaker>IEPHT.</speaker>
-               <l part=""
-                  cert="unknown">Non possum! Hyantha! ducite hanc intrò.</l>
+               <l part="I">Non possum! Hyantha! ducite hanc intrò.</l>
             </sp>
-            <sp who="#hyant">
+            <sp who="#hianthe">
                <speaker>HYANT</speaker>
-               <l part=""
-                  cert="unknown">Pater!</l>
+               <l part="F">Pater!</l>
                <l n="45">Eheu! quid egi? genitor! ô coelum! ô Deus!</l>
             </sp>
-            <stage>CHORVS.</stage>
-            <sp who="#unknown">
+            <sp who="#chorus">
+               <speaker>CHORVS.</speaker>
                <l>Turbatur intrô; filiam accusat Pater,</l>
-               <l>
-                  <pb n="69"/>
-               </l>
+               <pb n="69"/>
                <l>Obnoxiam testatus, immunem tamen</l>
                <l>Culpae fatetur; nescio, partum est malum,</l>
                <l>Et noxa, praeter noxiam, innocuis venit.</l>
-               <l n="50">Dicite Superi, quae monstra latent,</l>
-               <l>Aut quae illa noui criminis vmbra est,</l>
-               <l>Quandò obsequijs noxa paratur?</l>
-               <l>Heu! quid citharae meruêre leues,</l>
-               <l>Et virginei tympana plausus?</l>
-               <l n="55">Aut quâ tandem sorte piandum est,</l>
-               <l>Quod prima suum nata parentem</l>
-               <l>Nimiùm cupidis vidit ocellis?</l>
-               <l>Quod prima chori psaltria nostri,</l>
-               <l>Turpem hostilis puluere campi,</l>
-               <l n="60">Vnâ lepidâ strinxit in vlnâ,</l>
-               <l>Moestum, attonitum, durumque nimis,</l>
-               <l>Et testantem sidera &amp; Orcum,</l>
-               <l>Quod nulla magis spicula possent</l>
-               <l>Imas penitus radere fibras,</l>
-               <l n="65">Et nulla magis figere vulnus,</l>
-               <l>Quàm blanda suae basia natae?</l>
-               <l>Flemus casus ô Virgo tuos,</l>
-               <l>Non indociles lugere sumus,</l>
-               <l>Ex quo nostros equitat campos</l>
-               <l n="70">Barbarus Ammon.</l>
-               <l>Et quae tandem gaudia restant,</l>
-               <l>Postquam nostros saeua triumphos</l>
-               <l>Inuolat Até? flebimus iterum,</l>
-               <l>
-                  <pb n="70"/>
-               </l>
-               <l>Flebimus heu! heu! vna est miseris</l>
-               <l n="75">Flere voluptas.</l>
+               <l n="50" rend="indent">Dicite Superi, quae monstra latent,</l>
+               <l rend="indent">Aut quae illa noui criminis vmbra est,</l>
+               <l rend="indent">Quandò obsequijs noxa paratur?</l>
+               <l rend="indent">Heu! quid citharae meruêre leues,</l>
+               <l rend="indent">Et virginei tympana plausus?</l>
+               <l n="55" rend="indent">Aut quâ tandem sorte piandum est,</l>
+               <l rend="indent">Quod prima suum nata parentem</l>
+               <l rend="indent">Nimiùm cupidis vidit ocellis?</l>
+               <l rend="indent">Quod prima chori psaltria nostri,</l>
+               <l rend="indent">Turpem hostilis puluere campi,</l>
+               <l n="60" rend="indent">Vnâ lepidâ strinxit in vlnâ,</l>
+               <l rend="indent">Moestum, attonitum, durumque nimis,</l>
+               <l rend="indent">Et testantem sidera &amp; Orcum,</l>
+               <l rend="indent">Quod nulla magis spicula possent</l>
+               <l rend="indent">Imas penitus radere fibras,</l>
+               <l n="65" rend="indent">Et nulla magis figere vulnus,</l>
+               <l rend="indent">Quàm blanda suae basia natae?</l>
+               <l rend="indent">Flemus casus ô Virgo tuos,</l>
+               <l rend="indent">Non indociles lugere sumus,</l>
+               <l rend="indent">Ex quo nostros equitat campos</l>
+               <l n="70" rend="indent">Barbarus Ammon.</l>
+               <l rend="indent">Et quae tandem gaudia restant,</l>
+               <l rend="indent">Postquam nostros saeua triumphos</l>
+               <l rend="indent">Inuolat Até? flebimus iterum,</l>
+               <pb n="70"/>
+               <l rend="indent">Flebimus heu! heu! vna est miseris</l>
+               <l n="75" rend="indent">Flere voluptas.</l>
             </sp>
          </div>
-         <div type="act"
-              n="2">
-            <div type="scene"
-                 n="1">
+         <div type="act" n="2">
+            <div type="scene" n="1">
                <head>ACTVS SECVNDVS</head>
-               <stage>HYANTE, TELETHVSA, IEPHTE.</stage>
-               <sp who="#unknown">
+               <stage type="characters">HYANTE, TELETHVSA, IEPHTE.</stage>
+               <sp who="#hianthe">
                   <l>Miserere! quid frons ista, quid vultus truci</l>
-                  <l part="">Flammatus irâ?</l>
+                  <l part="I">Flammatus irâ?</l>
                </sp>
-               <sp who="#iepht">
+               <sp who="#iephte">
                   <speaker>IEPHT.</speaker>
-                  <l part=""
-                     cert="unknown">Pereo!</l>
+                  <l part="M">Pereo!</l>
                </sp>
-               <sp who="#teleth">
+               <sp who="#telethusa">
                   <speaker>TELETH.</speaker>
-                  <l part=""
-                     cert="unknown">Quid me despicis?</l>
-                  <l part="">Miserere</l>
+                  <l part="F">Quid me despicis?</l>
+                  <l part="I">Miserere!</l>
                </sp>
-               <sp who="#ieph">
+               <sp who="#iephte">
                   <speaker>IEPH.</speaker>
-                  <l part=""
-                     cert="unknown">Factum est!</l>
+                  <l part="M">Factum est!</l>
                </sp>
-               <sp who="#telet">
+               <sp who="#telethusa">
                   <speaker>TELET.</speaker>
-                  <l part=""
-                     cert="unknown">Fare, quid factum est?</l>
+                  <l part="M">Fare, quid factum est?</l>
                </sp>
-               <sp who="#ieph">
+               <sp who="#iephte">
                   <speaker>IEPH.</speaker>
-                  <l part=""
-                     cert="unknown">Sat est,</l>
-                  <l part="">Factum est!</l>
+                  <l part="F">Sat est,</l>
+                  <l part="I">Factum est!</l>
                </sp>
-               <sp who="#teleth">
+               <sp who="#telethusa">
                   <speaker>TELETH.</speaker>
-                  <l part=""
-                     cert="unknown">Quid autem?</l>
+                  <l part="M">Quid autem?</l>
                </sp>
-               <sp who="#iepht">
+               <sp who="#iephte">
                   <speaker>IEPHT.</speaker>
-                  <l part=""
-                     cert="unknown">Sufficit, dixi tibi.</l>
+                  <l part="F">Sufficit, dixi tibi.</l>
                </sp>
-               <sp who="#hyant">
+               <sp who="#hianthe">
                   <speaker>HYANT.</speaker>
-                  <l n="80"
-                     part=""
-                     cert="unknown">Abrumpe genitor.</l>
+                  <l n="80" part="I">Abrumpe genitor.</l>
                </sp>
-               <sp who="#ieph">
+               <sp who="#iephte">
                   <speaker>IEPH.</speaker>
-                  <l n="80"
-                     part=""
-                     cert="unknown">Scilicet, scire id, tuum est.</l>
+                  <l n="80" part="F">Scilicet, scire id, tuum est.</l>
                </sp>
-               <sp who="#hyant">
+               <sp who="#hianthe">
                   <speaker>HYANT.</speaker>
-                  <l part=""
-                     cert="unknown">Quid ergò dubitas?</l>
+                  <l part="I">Quid ergò dubitas?</l>
                </sp>
-               <sp who="#ieph">
+               <sp who="#iephte">
                   <speaker>IEPH.</speaker>
-                  <l part=""
-                     cert="unknown">Plus satis tandem scies.</l>
+                  <l part="F">Plus satis tandem scies.</l>
                </sp>
-               <sp who="#hyant">
+               <sp who="#hianthe">
                   <speaker>HYANT.</speaker>
                   <l>Pereo, peribit mater &amp; mecum pater,</l>
                   <l>Nec, cur perimus, indicas, fixus stupes,</l>
@@ -610,167 +575,133 @@
                   <l n="85">Hoc deme nostris; quid meos celas metus?</l>
                   <l>Quae culpa noxam fecerit, rumpe ocyus.</l>
                </sp>
-               <sp who="#teleth">
+               <sp who="#telethusa">
                   <speaker>TELETH.</speaker>
-                  <l part=""
-                     cert="unknown">Edißere, quid est?</l>
+                  <l part="I">Edißere, quid est?</l>
                </sp>
-               <sp who="#ieph">
+               <sp who="#iephte">
                   <speaker>IEPH.</speaker>
-                  <l part=""
-                     cert="unknown">Cupio, nec possum tamen,</l>
+                  <l part="F">Cupio, nec possum tamen,</l>
                   <l>Et ne profundum pectus excutiam tibi,</l>
                   <l>Affecta verba medius astringit. Dolor,</l>
-                  <l n="90"
-                     part="">Qui me in medullis!</l>
+                  <l n="90" part="I">Qui me in medullis!</l>
                </sp>
-               <sp who="#teleth">
+               <sp who="#telethusa">
                   <speaker>TELETH.</speaker>
-                  <l n="90"
-                     part=""
-                     cert="unknown">Exprime, extorque, excute.</l>
+                  <l n="90" part="F">Exprime, extorque, excute.</l>
                </sp>
-               <sp who="#iepht">
+               <sp who="#iephte">
                   <speaker>IEPHT.</speaker>
-                  <l part=""
-                     cert="unknown">Telethusa!</l>
+                  <l part="I">Telethusa!</l>
                </sp>
-               <sp who="#teleth">
+               <sp who="#telethusa">
                   <speaker>TELETH.</speaker>
-                  <l part=""
-                     cert="unknown">Iephté! quid iubes?</l>
+                  <l part="M">Iephté! quid iubes?</l>
                </sp>
-               <sp who="#hyant">
+               <sp who="#hianthe">
                   <speaker>HYANT.</speaker>
-                  <l part=""
-                     cert="unknown">Pater! pater!</l>
+                  <l part="F">Pater! pater!</l>
                </sp>
-               <sp who="#iepht">
+               <sp who="#iephte">
                   <speaker>IEPHT.</speaker>
-                  <l part=""
-                     cert="unknown">O nata! nata!</l>
+                  <l part="I">O nata! nata!</l>
                </sp>
-               <sp who="#hyant">
+               <sp who="#hianthe">
                   <speaker>HYANT.</speaker>
-                  <l part=""
-                     cert="unknown">Quid mihi pauidam feris</l>
-                  <l part="">Crudelis animam?</l>
+                  <l part="F">Quid mihi pauidam feris</l>
+                  <l part="I">Crudelis animam?</l>
                </sp>
-               <sp who="#ieph">
+               <sp who="#iephte">
                   <speaker>IEPH.</speaker>
-                  <l part=""
-                     cert="unknown">Quid meos stringis pedes?</l>
+                  <l part="F">Quid meos stringis pedes?</l>
                </sp>
-               <sp who="#hyant">
+               <sp who="#hianthe">
                   <speaker>HYANT.</speaker>
                   <l>Hîc morior, hîc in genibus expiro tuis!</l>
-                  <l>
-                     <pb n="71"/>
-                  </l>
                </sp>
-               <sp who="#iepht">
+               <pb n="71"/>
+               <sp who="#iephte">
                   <speaker>IEPHT.</speaker>
-                  <l n="95"
-                     part=""
-                     cert="unknown">Vtinam!</l>
+                  <l n="95" part="I">Vtinam!</l>
                </sp>
-               <sp who="#teleth">
+               <sp who="#telethusa">
                   <speaker>TELETH.</speaker>
-                  <l n="95"
-                     part=""
-                     cert="unknown">Quid optas? grande, quod celas, malum est.</l>
-                  <l part="">O care coniunx!</l>
+                  <l n="95" part="F">Quid optas? grande, quod celas, malum est.</l>
+                  <l part="I">O care coniunx!</l>
                </sp>
-               <sp who="#hyant">
+               <sp who="#hianthe">
                   <speaker>HYANT.</speaker>
-                  <l part=""
-                     cert="unknown">Care genitor!</l>
+                  <l part="M">Care genitor!</l>
                </sp>
-               <sp who="#ieph">
+               <sp who="#iephte">
                   <speaker>IEPH.</speaker>
-                  <l part=""
-                     cert="unknown">O Deus!</l>
+                  <l part="F">O Deus!</l>
                </sp>
-               <sp who="#teleth">
+               <sp who="#telethusa">
                   <speaker>TELETH.</speaker>
-                  <l part=""
-                     cert="unknown">O care coniunx!</l>
+                  <l part="I">O care coniunx!</l>
                </sp>
-               <sp who="#hyant">
+               <sp who="#hianthe">
                   <speaker>HYANT.</speaker>
-                  <l part=""
-                     cert="unknown">Genitor!</l>
+                  <l part="M">Genitor!</l>
                </sp>
-               <sp who="#ieph">
+               <sp who="#iephte">
                   <speaker>IEPH.</speaker>
-                  <l part=""
-                     cert="unknown">O nata! ô Deus!</l>
+                  <l part="F">O nata! ô Deus!</l>
                </sp>
-               <sp who="#hyant">
+               <sp who="#hianthe">
                   <speaker>HYANT.</speaker>
                   <l>Verende genitor! pande, quid celas mihi?</l>
                </sp>
-               <sp who="#iepht">
+               <sp who="#iephte">
                   <speaker>IEPHT.</speaker>
-                  <l part=""
-                     cert="unknown">Discede Hiantha.</l>
+                  <l part="I">Discede Hiantha.</l>
                </sp>
-               <sp who="#hiant">
+               <sp who="#hianthe">
                   <speaker>HIANT.</speaker>
-                  <l part=""
-                     cert="unknown">Quò iubes? Pater! pater!</l>
+                  <l part="F">Quò iubes? Pater! pater!</l>
                </sp>
-               <sp who="#iepht">
+               <sp who="#iephte">
                   <speaker>IEPHT.</speaker>
-                  <l n="100"
-                     part=""
-                     cert="unknown">Frustrà laboras.</l>
+                  <l n="100" part="I">Frustrà laboras.</l>
                </sp>
-               <sp who="#teleth">
+               <sp who="#telethusa">
                   <speaker>TELETH.</speaker>
-                  <l n="100"
-                     part=""
-                     cert="unknown">Cur tamen frustrà? refer.</l>
+                  <l n="100" part="F">Cur tamen frustrà? refer.</l>
                </sp>
-               <sp who="#hyant">
+               <sp who="#hianthe">
                   <speaker>HYANT.</speaker>
-                  <l part=""
-                     cert="unknown">Profare genitor.</l>
+                  <l part="I">Profare genitor.</l>
                </sp>
-               <sp who="#ieph">
+               <sp who="#iephte">
                   <speaker>IEPH.</speaker>
-                  <l part=""
-                     cert="unknown">Patrio quantum scelus</l>
+                  <l part="F">Patrio quantum scelus</l>
                   <l>Erumpet ore! facio &amp; horresco nefas.</l>
                </sp>
-               <sp who="#teleth">
+               <sp who="#telethusa">
                   <speaker>TELETH.</speaker>
                   <l>Quod execratur, nemo committit scelus.</l>
                </sp>
-               <sp who="#iepht">
+               <sp who="#iephte">
                   <speaker>IEPHT.</speaker>
                   <l>Quod execror, quod horreo (infandum est nimis)</l>
-                  <l n="105"
-                     part="">Obstringit inuitum patrem.</l>
+                  <l n="105" part="I">Obstringit inuitum patrem.</l>
                </sp>
-               <sp who="#teleth">
+               <sp who="#telethusa">
                   <speaker>TELETH.</speaker>
-                  <l n="105"
-                     part=""
-                     cert="unknown">Dic, exprime.</l>
+                  <l n="105" part="F">Dic, exprime.</l>
                </sp>
-               <sp who="#iepht">
+               <sp who="#iephte">
                   <speaker>IEPHT.</speaker>
                   <l>Dicam, vel illud sanguine exscribam tuo</l>
-                  <l part="">Hyantha!</l>
+                  <l part="I">Hyantha!</l>
                </sp>
-               <sp who="#hyant">
+               <sp who="#hianthe">
                   <speaker>HYANT.</speaker>
-                  <l part=""
-                     cert="unknown">Natae sanguinem quaeris pater?</l>
+                  <l part="F">Natae sanguinem quaeris pater?</l>
                   <l>Nodum explica, vel sanguine vt scribas meo.</l>
                </sp>
-               <sp who="#iepht">
+               <sp who="#iephte">
                   <speaker>IEPHT</speaker>
                   <l>An potero? nata! potero? coniunx? corruit</l>
                   <l n="110">Animus dolore, si satis potero, loquar.</l>
@@ -779,63 +710,55 @@
                   <l>Vastaret agros, armaque &amp; rueret viros,</l>
                   <l>Fidem obligaui iureiurando meam,</l>
                   <l n="115">Horresco, trepido: mutus est ingens dolor:</l>
-                  <l part="">Fidem obligaui!</l>
+                  <l part="I">Fidem obligaui!</l>
                </sp>
-               <sp who="#teleth">
+               <sp who="#telethusa">
                   <speaker>TELETH.</speaker>
-                  <l part=""
-                     cert="unknown">Perge, quid nectis moras?</l>
+                  <l part="F">Perge, quid nectis moras?</l>
                </sp>
-               <sp who="#iepht">
+               <sp who="#iephte">
                   <speaker>IEPHT.</speaker>
                   <l>Fidem obligaui iureiurando meam,</l>
-                  <l part="">Si subiugassem barbaros.</l>
+                  <l part="I">Si subiugassem barbaros.</l>
                </sp>
-               <sp who="#hyant">
+               <sp who="#hianthe">
                   <speaker>HYANT.</speaker>
-                  <l part=""
-                     cert="unknown">Quid posteà?</l>
+                  <l part="F">Quid posteà?</l>
                   <l>Perge anime, princeps quisquis exiret mihi</l>
                   <l n="120">A laribus istis, victimam abriperem focis,</l>
                   <l>Facerem, litarem, te mihi primam expulit</l>
-                  <l>
-                     <pb n="72"/>
-                  </l>
+                  <pb n="72"/>
                   <l>Fortuna, tu me prima, tu princeps meos</l>
                   <l>Ignara reditus, vna vidisti! sat est,</l>
-                  <l part="">Dixi.</l>
+                  <l part="I">Dixi.</l>
                </sp>
-               <sp who="#teleth">
+               <sp who="#telethusa">
                   <speaker>TELETH.</speaker>
-                  <l part=""
-                     cert="unknown">quid illud audio?</l>
+                  <l part="M">quid illud audio?</l>
                </sp>
-               <sp who="#ieph">
+               <sp who="#iephte">
                   <speaker>IEPH.</speaker>
-                  <l part=""
-                     cert="unknown">Dixi semel.</l>
+                  <l part="F">Dixi semel.</l>
                </sp>
-               <sp who="#teleth">
+               <sp who="#telethusa">
                   <speaker>TELETH.</speaker>
                   <l n="125">O horror! horror! dixti, &amp; audiui satis?</l>
                   <l>Natam cruentus genitor aris victimam?</l>
                   <l>Aris cruentam victimam? aris victimam?</l>
                </sp>
-               <sp who="#iepht">
+               <sp who="#iephte">
                   <speaker>IEPHT</speaker>
-                  <l part=""
-                     cert="unknown">Ita est, ferendum est.</l>
+                  <l part="I">Ita est, ferendum est.</l>
                </sp>
-               <sp who="#teleth">
+               <sp who="#telethusa">
                   <speaker>TELETH.</speaker>
-                  <l part=""
-                     cert="unknown">Siccine? aris victimam?</l>
+                  <l part="F">Siccine? aris victimam?</l>
                </sp>
-               <sp who="#iepht">
+               <sp who="#iephte">
                   <speaker>IEPHT.</speaker>
                   <l>Voui, coactus teneor, ita mandat fides.</l>
                </sp>
-               <sp who="#teleth">
+               <sp who="#telethusa">
                   <speaker>TELETH.</speaker>
                   <l n="130">Quis Sarmata haec, quis barbarae Gentis furor</l>
                   <l>Commisit vnquam? vnam, vnicam, aris victimam?</l>
@@ -847,321 +770,257 @@
                   <l>Accede, tracta pectus incensum, patrem</l>
                   <l>Euince lacrymis, quêis vel hostis vincitur</l>
                </sp>
-               <sp who="#hyant">
+               <sp who="#hianthe">
                   <speaker>HYANT.</speaker>
-                  <l part=""
-                     cert="unknown">Miserere genitor!</l>
+                  <l part="I">Miserere genitor!</l>
                </sp>
-               <sp who="#ieph">
+               <sp who="#iephte">
                   <speaker>IEPH.</speaker>
-                  <l part=""
-                     cert="unknown">Non fero.</l>
+                  <l part="M">Non fero.</l>
                </sp>
-               <sp who="#telet">
+               <sp who="#telethusa">
                   <speaker>TELET.</speaker>
-                  <l part=""
-                     cert="unknown">Magis preme,</l>
-                  <l n="140"
-                     part="">Irrue.</l>
+                  <l part="F">Magis preme,</l>
+                  <l n="140" part="I">Irrue.</l>
                </sp>
-               <sp who="#hyant">
+               <sp who="#hianthe">
                   <speaker>HYANT.</speaker>
-                  <l n="140"
-                     part=""
-                     cert="unknown">Quid obstas? genitor! ô solum meae</l>
+                  <l n="140" part="F">Quid obstas? genitor! ô solum meae</l>
                   <l>Lenimen animae! cur mihi obliquas truces</l>
                   <l>Sic durus oculos? sidus isti olim meum,</l>
                   <l>Nunc fulgor, omni fulminant vultu minas;</l>
                   <l>Ille, ille vultus, flammeum incendens iubar!</l>
                </sp>
-               <sp who="#iepht">
+               <sp who="#iephte">
                   <speaker>IEPHT.</speaker>
-                  <l n="145"
-                     part=""
-                     cert="unknown">Hé misera!</l>
+                  <l n="145" part="I">Hé misera!</l>
                </sp>
-               <sp who="#hyant">
+               <sp who="#hianthe">
                   <speaker>HYANT.</speaker>
-                  <l n="145"
-                     part=""
-                     cert="unknown">Totum siderat pectus meum,</l>
-                  <l part="">Ille, ille vultus!</l>
+                  <l n="145" part="F">Totum siderat pectus meum,</l>
+                  <l part="I">Ille, ille vultus!</l>
                </sp>
-               <sp who="#ieph">
+               <sp who="#iephte">
                   <speaker>IEPH.</speaker>
-                  <l part=""
-                     cert="unknown">Ne mihi quicquam amplius.</l>
+                  <l part="F">Ne mihi quicquam amplius.</l>
                </sp>
-               <sp who="#hyant">
+               <sp who="#hianthe">
                   <speaker>HYANT.</speaker>
-                  <l part=""
-                     cert="unknown">Rogare liceat.</l>
+                  <l part="I">Rogare liceat.</l>
                </sp>
-               <sp who="#ieph">
+               <sp who="#iephte">
                   <speaker>IEPH.</speaker>
-                  <l part=""
-                     cert="unknown">Verba proficient nihil;</l>
+                  <l part="F">Verba proficient nihil;</l>
                   <l>Vouimus hyanthé! reddere incumbit mihi,</l>
-                  <l>
-                     <pb n="73"/>
-                  </l>
-                  <l part="">Perferre tibi.</l>
+                  <pb n="73"/>
+                  <l part="I">Perferre tibi.</l>
                </sp>
-               <sp who="#hyant">
+               <sp who="#hianthe">
                   <speaker>HYANT.</speaker>
-                  <l part=""
-                     cert="unknown">Tot passa crudeles minas,</l>
+                  <l part="F">Tot passa crudeles minas,</l>
                   <l n="150">Tot passa curas, cogor etiamnum pati?</l>
                </sp>
-               <sp who="#iepht">
+               <sp who="#iephte">
                   <speaker>IEPHT.</speaker>
-                  <l part=""
-                     cert="unknown">Cogimur! eamus.</l>
+                  <l part="I">Cogimur! eamus.</l>
                </sp>
-               <sp who="#teleth">
+               <sp who="#telethusa">
                   <speaker>TELETH.</speaker>
-                  <l part=""
-                     cert="unknown">Nata! quò traheris? iò heu!</l>
+                  <l part="F">Nata! quò traheris? iò heu!</l>
                </sp>
-               <sp who="#hyant">
+               <sp who="#hianthe">
                   <speaker>HYANT.</speaker>
-                  <l part=""
-                     cert="unknown">Succurre mater!</l>
+                  <l part="I">Succurre mater!</l>
                </sp>
-               <sp who="#teleth">
+               <sp who="#telethusa">
                   <speaker>TELETH.</speaker>
-                  <l part=""
-                     cert="unknown">O Deus! ceßas adhuc?</l>
-                  <l part="">Iaculare fulmen.</l>
+                  <l part="F">O Deus! ceßas adhuc?</l>
+                  <l part="I">Iaculare fulmen.</l>
                </sp>
-               <sp who="#hyant">
+               <sp who="#hianthe">
                   <speaker>HYANT.</speaker>
-                  <l part=""
-                     cert="unknown">Mater!</l>
+                  <l part="M">Mater!</l>
                </sp>
-               <sp who="#telet">
+               <sp who="#telethusa">
                   <speaker>TELET.</speaker>
-                  <l part=""
-                     cert="unknown">An sola audio?</l>
+                  <l part="F">An sola audio?</l>
                   <l>Tonuêre nubes, specto, vibrauit manum.</l>
                </sp>
-               <sp who="#iepht">
+               <sp who="#iephte">
                   <speaker>IEPHT</speaker>
-                  <l n="155"
-                     part=""
-                     cert="unknown">Placare oportet.</l>
+                  <l n="155" part="I">Placare oportet.</l>
                </sp>
-               <sp who="#teleth">
+               <sp who="#telethusa">
                   <speaker>TELETH.</speaker>
-                  <l n="155"
-                     part=""
-                     cert="unknown">Tune placabis Deum?</l>
+                  <l n="155" part="F">Tune placabis Deum?</l>
                </sp>
-               <sp who="#iepht">
+               <sp who="#iephte">
                   <speaker>IEPHT.</speaker>
                   <l>Longas morarum plectit ambages Deus,</l>
-                  <l part="">Factum esse decuit.</l>
+                  <l part="I">Factum esse decuit.</l>
                </sp>
-               <sp who="#teleth">
+               <sp who="#telethusa">
                   <speaker>TELETH.</speaker>
-                  <l part=""
-                     cert="unknown">Nonne tali victimâ?</l>
+                  <l part="F">Nonne tali victimâ?</l>
                </sp>
-               <sp who="#iepht">
+               <sp who="#iephte">
                   <speaker>IEPHT.</speaker>
-                  <l part=""
-                     cert="unknown">Accelero.</l>
+                  <l part="I">Accelero.</l>
                </sp>
-               <sp who="#hyant">
+               <sp who="#hianthe">
                   <speaker>HYANT.</speaker>
-                  <l part=""
-                     cert="unknown">Mater!</l>
+                  <l part="M">Mater!</l>
                </sp>
-               <sp who="#teleth">
+               <sp who="#telethusa">
                   <speaker>TELETH.</speaker>
-                  <l part=""
-                     cert="unknown">Cassa praesidia legis.</l>
+                  <l part="F">Cassa praesidia legis.</l>
                </sp>
-               <sp who="#hyant">
+               <sp who="#hianthe">
                   <speaker>HYANT.</speaker>
                   <l>Méne immolari? mater! ô genitor! Deus!</l>
                </sp>
-               <sp who="#iepht">
+               <sp who="#iephte">
                   <speaker>IEPHT.</speaker>
-                  <l n="160"
-                     part=""
-                     cert="unknown">Quid me magis succendis?</l>
+                  <l n="160" part="I">Quid me magis succendis?</l>
                </sp>
-               <sp who="#teleth">
+               <sp who="#telethusa">
                   <speaker>TELETH.</speaker>
-                  <l n="160"
-                     part=""
-                     cert="unknown">O durum patrem!</l>
+                  <l n="160" part="F">O durum patrem!</l>
                </sp>
-               <sp who="#iepht">
+               <sp who="#iephte">
                   <speaker>IEPHT.</speaker>
                   <l>Hic murus esto, filiam votis dare,</l>
-                  <l part="">Et immolare victimam.</l>
+                  <l part="I">Et immolare victimam.</l>
                </sp>
-               <sp who="#teleth">
+               <sp who="#telethusa">
                   <speaker>TELETH.</speaker>
-                  <l part=""
-                     cert="unknown">Natam? pater?</l>
-                  <l part="">Tonate coeli.</l>
+                  <l part="F">Natam? pater?</l>
+                  <l part="I">Tonate coeli.</l>
                </sp>
-               <sp who="#ieph">
+               <sp who="#iephte">
                   <speaker>IEPH.</speaker>
-                  <l part=""
-                     cert="unknown">Quid vetat? natam pater.</l>
+                  <l part="F">Quid vetat? natam pater.</l>
                </sp>
-               <sp who="#teleth">
+               <sp who="#telethusa">
                   <speaker>TELETH.</speaker>
                   <l>O Sancta pietas! odit hunc ritum Deus.</l>
                   <l n="165">Tu natam ad aras? sanguine humano litant</l>
-                  <l part="">Aliena sacra.</l>
+                  <l part="I">Aliena sacra.</l>
                </sp>
-               <sp who="#ieph">
+               <sp who="#iephte">
                   <speaker>IEPH.</speaker>
-                  <l part=""
-                     cert="unknown">Sancuine humano litant</l>
+                  <l part="F">Sancuine humano litant</l>
                   <l>Et nostra: sic mandauit Abramo Deus,</l>
                   <l>Vt faceret aris vnico-vnigenâ suo.</l>
                </sp>
-               <sp who="#teleth">
+               <sp who="#telethusa">
                   <speaker>TELETH</speaker>
-                  <l part=""
-                     cert="unknown">Nonne immolauit?</l>
+                  <l part="I">Nonne immolauit?</l>
                </sp>
-               <sp who="#ieph">
+               <sp who="#iephte">
                   <speaker>IEPH.</speaker>
-                  <l part=""
-                     cert="unknown">Nempe sic animus erat,</l>
+                  <l part="F">Nempe sic animus erat,</l>
                   <l n="170">Si non vepreto vinctus haesisset caper.</l>
                </sp>
-               <sp who="#teleth">
+               <sp who="#telethusa">
                   <speaker>TELETH.</speaker>
                   <l>Dehisce tellus, pande nigranteis sinus,</l>
                   <l>Dehisce &amp; imis conde depositum meum</l>
                   <l>Visceribus; heu! iam viscera attrectat mea,</l>
                   <l>Natam parens obtruncat! ah scelus! scelus!</l>
                </sp>
-               <sp who="#iepht">
+               <sp who="#iephte">
                   <speaker>IEPHT.</speaker>
-                  <l n="175"
-                     part=""
-                     cert="unknown">Abrumpe questus.</l>
+                  <l n="175" part="I">Abrumpe questus.</l>
                </sp>
-               <sp who="#telet">
+               <sp who="#telethusa">
                   <speaker>TELET.</speaker>
-                  <l n="175"
-                     part=""
-                     cert="unknown">Redde, quam debes mihi.</l>
-                  <l>
-                     <pb n="74"/>
-                  </l>
+                  <l n="175" part="F">Redde, quam debes mihi.</l>
                </sp>
-               <sp who="#iepht">
+               <pb n="74"/>
+               <sp who="#iephte">
                   <speaker>IEPHT.</speaker>
                   <l>Tuus sibi ipsi non facit finem dolor,</l>
                   <l>Iam facio, natam debeo, natam dabo.</l>
                </sp>
-               <sp who="#teleth">
+               <sp who="#telethusa">
                   <speaker>TELETH.</speaker>
                   <l>O tygride saeuâ saeuior! natam dabis?</l>
                   <l>Cur non &amp; aris coniugem mactas tuam?</l>
                </sp>
-               <sp who="#iepht">
+               <sp who="#iephte">
                   <speaker>IEPHT.</speaker>
                   <l n="180">Quae vota voui, soluo, non gemino scelus.</l>
                </sp>
-               <sp who="#hyant">
+               <sp who="#hianthe">
                   <speaker>HYANT.</speaker>
-                  <l part=""
-                     cert="unknown">Omitte mater.</l>
+                  <l part="I">Omitte mater.</l>
                </sp>
-               <sp who="#teleth">
+               <sp who="#telethusa">
                   <speaker>TELETH.</speaker>
-                  <l part=""
-                     cert="unknown">Penitus in furias agor</l>
+                  <l part="F">Penitus in furias agor</l>
                </sp>
-               <sp who="#hyant">
+               <sp who="#hianthe">
                   <speaker>HYANT.</speaker>
                   <l>Omitte mater ista; patri debeo</l>
-                  <l part="">Quaecumque vouit.</l>
+                  <l part="I">Quaecumque vouit.</l>
                </sp>
-               <sp who="#teleth">
+               <sp who="#telethusa">
                   <speaker>TELETH.</speaker>
-                  <l part=""
-                     cert="unknown">Quid? cui debes? patri</l>
-                  <l part="">Quaecumque vouit?</l>
+                  <l part="F">Quid? cui debes? patri</l>
+                  <l part="I">Quaecumque vouit?</l>
                </sp>
-               <sp who="#hyant">
+               <sp who="#hianthe">
                   <speaker>HYANT.</speaker>
-                  <l part=""
-                     cert="unknown">Debeo vitam focis.</l>
+                  <l part="F">Debeo vitam focis.</l>
                </sp>
-               <sp who="#teleth">
+               <sp who="#telethusa">
                   <speaker>TELETH.</speaker>
-                  <l n="185"
-                     part=""
-                     cert="unknown">Quo scelere debes?</l>
+                  <l n="185" part="I">Quo scelere debes?</l>
                </sp>
-               <sp who="#ieph">
+               <sp who="#iephte">
                   <speaker>IEPH.</speaker>
-                  <l n="185"
-                     part=""
-                     cert="unknown">Desine, in noxâ mora est,</l>
+                  <l n="185" part="F">Desine, in noxâ mora est,</l>
                   <l>Non possum Hyantha; misera! nequicquam facis.</l>
                   <l>O si liceret! vouimus! fixum est, sat est,</l>
-                  <l part="">Ocyus, eamus!</l>
+                  <l part="I">Ocyus, eamus!</l>
                </sp>
-               <sp who="#hyant">
+               <sp who="#hianthe">
                   <speaker>HYANT.</speaker>
-                  <l part=""
-                     cert="unknown">Vltimum hoc.</l>
+                  <l part="M">Vltimum hoc.</l>
                </sp>
-               <sp who="#ieph">
+               <sp who="#iephte">
                   <speaker>IEPH.</speaker>
-                  <l part=""
-                     cert="unknown">Quid me rogas?</l>
+                  <l part="F">Quid me rogas?</l>
                </sp>
-               <sp who="#hyant">
+               <sp who="#hianthe">
                   <speaker>HYANT.</speaker>
-                  <l part=""
-                     cert="unknown">Quod te per ista vota.</l>
+                  <l part="I">Quod te per ista vota.</l>
                </sp>
-               <sp who="#ieph">
+               <sp who="#iephte">
                   <speaker>IEPH.</speaker>
-                  <l part=""
-                     cert="unknown">Non possum, quid est?</l>
+                  <l part="F">Non possum, quid est?</l>
                </sp>
-               <sp who="#hyant">
+               <sp who="#hianthe">
                   <speaker>HYANT</speaker>
-                  <l n="190"
-                     part=""
-                     cert="unknown">Quod te per ista vota.</l>
+                  <l n="190" part="I">Quod te per ista vota.</l>
                </sp>
-               <sp who="#iepht">
+               <sp who="#iephte">
                   <speaker>IEPHT.</speaker>
-                  <l n="190"
-                     part=""
-                     cert="unknown">Nequicquam facis.</l>
+                  <l n="190" part="F">Nequicquam facis.</l>
                </sp>
-               <sp who="#hyant">
+               <sp who="#hianthe">
                   <speaker>HYANT</speaker>
-                  <l part=""
-                     cert="unknown">Quod te per ista vota.</l>
+                  <l part="I">Quod te per ista vota.</l>
                </sp>
-               <sp who="#iephet">
+               <sp who="#iephte">
                   <speaker>IEPHET.</speaker>
-                  <l part=""
-                     cert="unknown">Iam dixi tibi,</l>
-                  <l part="">Frustrà laboras.</l>
+                  <l part="F">Iam dixi tibi,</l>
+                  <l part="I">Frustrà laboras.</l>
                </sp>
-               <sp who="#hyant">
+               <sp who="#hianthe">
                   <speaker>HYANT.</speaker>
-                  <l part=""
-                     cert="unknown">Ergò nec loqui licet?</l>
+                  <l part="F">Ergò nec loqui licet?</l>
                   <l>Per ista vota, &amp; sanguinem obtestor meum,</l>
                   <l>Quò proripis te Genitor? hoc vnum premo,</l>
                   <l n="195">Vt donec aurêos luna bis tranet polos,</l>
@@ -1172,27 +1031,22 @@
                   <l n="200">Lugubria inter tympana, &amp; tristes choros,</l>
                   <l>Luctum integrare liceat &amp; Manes meos</l>
                   <l>Deflere; tantùm hoc lacrymis dona meis.</l>
-                  <l>
-                     <pb n="75"/>
-                  </l>
                </sp>
-               <sp who="#iepth">
+               <pb n="75"/>
+               <sp who="#iephte">
                   <speaker>IEPTH.</speaker>
-                  <l part=""
-                     cert="unknown">Concedo, satis est.</l>
+                  <l part="I">Concedo, satis est.</l>
                </sp>
-               <sp who="#telet">
+               <sp who="#telethusa">
                   <speaker>TELET.</speaker>
-                  <l part=""
-                     cert="unknown">Quò fugis demens? mane</l>
+                  <l part="F">Quò fugis demens? mane</l>
                   <l>Siccine? receßit? vindicem testor Deum.</l>
                   <l n="205">Excede pietas, filiam mactat pater!</l>
                </sp>
             </div>
-            <div type="scene"
-                 n="2">
-               <stage>HYANTHE, CHORVS.</stage>
-               <sp who="#unknown">
+            <div type="scene" n="2">
+               <stage type="characters">HYANTHE, CHORVS.</stage>
+               <sp who="#hianthe">
                   <l>Lacrymae! lacrymae! tristes lacrymae!</l>
                   <l>Totis iterum currite venis</l>
                   <l>Flebimus heu! heu! flebimus heu! heu!</l>
@@ -1201,21 +1055,21 @@
                   <l>Matutini lambunt Zephyri,</l>
                   <l>Hîc, in tenerâ flebimus herbâ.</l>
                </sp>
-               <sp who="#cleanthe-pvella">
+               <sp who="#cleanthe">
                   <speaker>CLEANTHE PVELLA.</speaker>
                   <l>Hîc, muscosi fontis ad antrum,</l>
                   <l>Hîc, vbi scatebrâ riuus ab istâ,</l>
                   <l n="215">Leni streperus murmurat vndâ,</l>
                   <l>Et iuncoso gurgite ludit.</l>
                </sp>
-               <sp who="#dylitha-pvella">
+               <sp who="#dylitha">
                   <speaker>DYLITHA PVELLA</speaker>
                   <l>Hîc, vbi stridens canna palustris</l>
                   <l>Nostri referet carmina luctus,</l>
                   <l>Omnia paribus formans numeris,</l>
                   <l n="220">Vt fortè Notus fecerit auram.</l>
                </sp>
-               <sp who="#hyanth">
+               <sp who="#hianthe">
                   <speaker>HYANTH</speaker>
                   <l>Hîc, vbi patulis incubat vmbris</l>
                   <l>Atra cupressus, desuper vlulae</l>
@@ -1224,11 +1078,9 @@
                   <l n="225">Et secreto limite serpunt.</l>
                   <l>Flete ô tenerae, flete puellae,</l>
                   <l>Fundite lacrymas.</l>
-                  <l>
-                     <pb n="76"/>
-                  </l>
                </sp>
-               <sp who="#iris-pvella">
+               <pb n="76"/>
+               <sp who="#iris">
                   <speaker>IRIS PVELLA.</speaker>
                   <l>Flemus casus ô Virgo tuos,</l>
                   <l>Nec maturae fata iuuentae!</l>
@@ -1238,7 +1090,7 @@
                   <l>Et defletâ voluitur alno;</l>
                   <l>Plangimus heu! Heu! plangimus heu! Heu!</l>
                </sp>
-               <sp who="#cleant">
+               <sp who="#cleanthe">
                   <speaker>CLEANT.</speaker>
                   <l n="235">Te praefacto vertice montes,</l>
                   <l>Te praeciso gurgite valles,</l>
@@ -1252,8 +1104,8 @@
                   <l>Matutini roris alumni;</l>
                   <l n="245">Sensit luctus Natura tuos.</l>
                </sp>
-               <sp who="#myanth">
-                  <speaker>MYANTH.</speaker>
+               <sp who="#hianthe">
+                  <speaker>HYANTH.</speaker>
                   <l>At ecce serus Hesper à coelo micat,</l>
                   <l>Et ducit agmen mille stellarum pater.</l>
                   <l>O astra &amp; ignes! non ego vos tristibus</l>
@@ -1263,9 +1115,7 @@
                   <l>O si qua virtus animat aethereas domos,</l>
                   <l>Prima illa moles musico planctu rotet</l>
                   <l>Orbes sequentes, &amp; meo latè trahat</l>
-                  <l>
-                     <pb n="77"/>
-                  </l>
+                  <pb n="77"/>
                   <l n="255">Coelum omne luctu! manè me ducet pater!</l>
                   <l>Hoc Hyades, hoc Dodonides nymphae gemant:</l>
                   <l>Nec sola Meropé nubat auratum caput,</l>
@@ -1275,12 +1125,12 @@
                   <l>Diana virgo siste anhelantes equos,</l>
                   <l>Quò Diua properas? manè me ducet pater.</l>
                </sp>
-               <sp who="#cleant">
+               <sp who="#cleanthe">
                   <speaker>CLEANT.</speaker>
                   <l>Et ecce ab istâ rupe se insinuat polo,</l>
                   <l>Tinctoque minio sanguinem expreßit tuum.</l>
                </sp>
-               <sp who="#hyant">
+               <sp who="#hianthe">
                   <speaker>HYANT.</speaker>
                   <l n="265">Quò raptor amens? cornibus plenis stetit.</l>
                   <l>O nox meorum summa suspiratuum,</l>
@@ -1293,36 +1143,28 @@
                   <l>In me leonem? Dylitha! quid fixa aspicis?</l>
                   <l>O cara Dylitha! manè me ducet pater.</l>
                </sp>
-               <sp who="#dylit">
+               <sp who="#dylitha">
                   <speaker>DYLIT.</speaker>
-                  <l n="275"
-                     part=""
-                     cert="unknown">Hei misera Hyanthe!</l>
+                  <l n="275" part="I">Hei misera Hyanthe!</l>
                </sp>
-               <sp who="#hyant">
+               <sp who="#hianthe">
                   <speaker>HYANT.</speaker>
-                  <l n="275"
-                     part=""
-                     cert="unknown">O illa foelix victima,</l>
+                  <l n="275" part="F">O illa foelix victima,</l>
                   <l>Quae pascuis secura luxurians; sue</l>
                   <l>Subrumula matri, ducitur subitò focis</l>
                   <l>Mactanda, &amp; vno calcitrans ictu, luit</l>
                   <l>Curis soluta pascuale debitum!</l>
                   <l n="280">Me lentus angor macerat, ah! lentus nimis,</l>
-                  <l>
-                     <pb n="78"/>
-                  </l>
+                  <pb n="78"/>
                   <l>Animamque curis impedit crudelibus.</l>
                </sp>
-               <sp who="#dylit">
+               <sp who="#dylitha">
                   <speaker>DYLIT.</speaker>
-                  <l part=""
-                     cert="unknown">Moreris Hyanthé!</l>
+                  <l part="I">Moreris Hyanthé!</l>
                </sp>
-               <sp who="#hyant">
+               <sp who="#hianthe">
                   <speaker>HYANT.</speaker>
-                  <l part=""
-                     cert="unknown">Morior! ô fatum! ô dolor!</l>
+                  <l part="F">Morior! ô fatum! ô dolor!</l>
                   <l>Dylitha! quid à ceruicibus pendes meis?</l>
                   <l>Desine, quid arctas inijcis collo manus?</l>
                   <l n="285">Ite, ite Comites, manè me ducet pater</l>
@@ -1330,33 +1172,82 @@
                </sp>
                <sp who="#echo">
                   <speaker>ECHO.</speaker>
-                  <l part=""
-                     cert="unknown">PERI! quid hoc est? ecquid amens audio?</l>
-                  <l part=""
-                     cert="unknown">Vnde iste plangor? ANGOR. Heu intelligo</l>
+                  <l part="I">PERI!</l>
+               </sp>
+               <sp who="#hianthe">
+                  <l part="F">quid hoc est? ecquid amens audio?</l>
+                  <l part="I">Vnde iste plangor?</l>
+               </sp>
+               <sp who="#echo">
+                  <l part="M">ANGOR.</l>
+               </sp>
+               <sp who="#hianthe">
+                  <l part="F">Heu intelligo</l>
                   <l>Vocale Numen; Nympha responde mihi.</l>
-                  <l n="290"
-                     part=""
-                     cert="unknown">I. Quò ire mandas? nunquid ad patrem meum?</l>
-                  <l part=""
-                     cert="unknown">EVM. Sed illum, ad busta cui dudum obligor</l>
-                  <l part=""
-                     cert="unknown">Damnata? NATA? Nata! iam nulla est mora.</l>
-                  <l part=""
-                     cert="unknown">ORA. Sed istas lacrymas damnat furor.</l>
-                  <l part=""
-                     cert="unknown">VROR. Sed vri desine, aris destinor;</l>
-                  <l n="295"
-                     part=""
-                     cert="unknown">Miraris? ARIS? Dixi, &amp; audisti satis.</l>
-                  <l part=""
-                     cert="unknown">Miraris? ARIS? Sic Deo vouit pater.</l>
-                  <l part=""
-                     cert="unknown">ATER! cruentam victimam debet pater</l>
-                  <l part=""
-                     cert="unknown">Ater! cruentus vtique, at inuitus nimis.</l>
-                  <l part=""
-                     cert="unknown">Noli quid vltrà quaerere. HAERE. Tempus est,</l>
+               </sp>
+               <sp who="#echo">
+                  <l n="290" part="I">I.</l>
+               </sp>
+               <sp who="#hianthe">
+                  <l part="F">Quò ire mandas? nunquid ad patrem meum?</l>
+               </sp>
+               <sp who="#echo">
+                  <l part="I">EVM.</l>
+               </sp>
+               <sp who="#hianthe">
+                  <l part="F">Sed illum, ad busta cui dudum obligor</l>
+                  <l part="I">Damnata?</l>
+               </sp>
+               <sp who="#echo">
+                  <l part="M">NATA?</l>
+               </sp>
+               <sp who="#hianthe">
+                  <l part="F">Nata! iam nulla est mora.</l>
+               </sp>
+               <sp who="#echo">
+                  <l part="I">ORA.</l>
+               </sp>
+               <sp who="#hianthe">
+                  <l part="F">Sed istas lacrymas damnat furor.</l>
+               </sp>
+               <sp who="#echo">
+                  <l part="I">VROR.</l>
+               </sp>
+               <sp who="#hianthe">
+                  <l part="F">Sed vri desine, aris destinor;</l>
+                  <l n="295" part="I">Miraris?</l>
+               </sp>
+               <sp who="#echo">
+                  <l part="M">ARIS?</l>
+               </sp>
+               <sp who="#hianthe">
+                  <l part="F">Dixi, &amp; audisti satis.</l>
+                  <l part="I">Miraris? </l>
+               </sp>
+               <sp who="#echo">
+                  <l part="M">ARIS?</l>
+               </sp>
+               <sp who="#hianthe">
+                  <l part="F">Sic Deo vouit pater.</l>
+               </sp>
+               <sp who="#echo">
+                  <l part="I">ATER!</l>
+               </sp>
+               <sp who="#hianthe">
+                  <l part="F">cruentam victimam debet pater.</l>
+               </sp>
+               <sp who="#echo">
+                  <l part="I">Ater!</l>
+               </sp>
+               <sp who="#hianthe">
+                  <l part="F">cruentus vtique, at inuitus nimis.</l>
+                  <l part="I">Noli quid vltrà quaerere.</l>
+               </sp>
+               <sp who="#echo">
+                  <l part="M">HAERE.</l>
+               </sp>
+               <sp who="#hianthe">
+                  <l part="F">Tempus est,</l>
                   <l n="300">Diana me praeterijt, expectant foci.</l>
                   <l>Perî misera! perire decretum est mihi.</l>
                   <l>Haec ergo voti summa Hyanthaei breuis,</l>
@@ -1365,23 +1256,32 @@
                   <l n="305">Hoc rursus, vt, dum pectore effosso cadam,</l>
                   <l>Et dulcis animae Parca relliquias leget,</l>
                   <l>Cùm tetra hiabunt vulnera, &amp; praeceps ferar,</l>
-                  <l>
-                     <pb n="79"/>
-                  </l>
+                  <pb n="79"/>
                   <l>Ne fortè casus Virginis nudet sinum,</l>
-                  <l part=""
-                     cert="unknown">Velabit; ABIT. O nympha, nympha garrula,</l>
+                  <l part="I">Velabit;</l>
+               </sp>
+               <sp who="#echo">
+                  <l part="M">ABIT.</l>
+               </sp>
+               <sp who="#hianthe">
+                  <l part="F">O nympha, nympha garrula,</l>
                   <l n="310">Quid me moraris? occidi infoelix! vale.</l>
-                  <l part=""
-                     cert="unknown">VALE. Quid iterum murmuras? vale; VALE.</l>
+               </sp>
+               <sp who="#echo">
+                  <l part="I">VALE.</l>
+               </sp>
+               <sp who="#hianthe">
+                  <l part="M">Quid iterum murmuras? vale;</l>
+               </sp>
+               <sp who="#echo">
+                  <l part="F">VALE.</l>
                </sp>
             </div>
          </div>
-         <div type="act"
-              n="3">
+         <div type="act" n="3">
             <head>ACTVS TERTIVS.</head>
-            <stage>TELETHVSA.</stage>
-            <sp who="#unknown">
+            <sp who="#telethusa">
+               <speaker>TELETHVSA.</speaker>
                <l>HEu! quàm longam Cynthia noctem</l>
                <l>Cornuta vago sidere traxit!</l>
                <l>Heu me! solis anxia thalamis</l>
@@ -1400,9 +1300,7 @@
                <l>Abrae veteris composta manu</l>
                <l>Germina nutrit, semper gelidis</l>
                <l>Roscida lymphis?</l>
-               <l>
-                  <pb n="80"/>
-               </l>
+               <pb n="80"/>
                <l n="330">An quà sterili Gelboa dorso</l>
                <l>Infrugiferas arrigit ornos,</l>
                <l>Et flammiuomis vapulat Austris?</l>
@@ -1430,9 +1328,7 @@
                <l>Delia totos extulit ignes,</l>
                <l n="355">Et fulserunt lurida plenae</l>
                <l>Cornua lunae; Nata! ô misera!</l>
-               <l>
-                  <pb n="81"/>
-               </l>
+               <pb n="81"/>
                <l>Addicta tuae tempora vitae.</l>
                <l>Haec tibi durus nimiùm genitor</l>
                <l>Vltima strinxit; tertia coelo</l>
@@ -1442,8 +1338,8 @@
                <l>Tertia Manes Diana tuos</l>
                <l>Ducet ad vmbras!</l>
             </sp>
-            <stage>CHORVS.</stage>
-            <sp who="#unknown">
+            <sp who="#chorus">
+               <speaker>CHORVS.</speaker>
                <l n="365">Praeceps voluitur aetas:</l>
                <l>Namque vt sit minor anno</l>
                <l>Labenti mora, nectit</l>
@@ -1461,9 +1357,7 @@
                <l>Solis montibus errat,</l>
                <l n="380">Solis vallibus errat,</l>
                <l>Et se fletibus explet.</l>
-               <l>
-                  <pb n="82"/>
-               </l>
+               <pb n="82"/>
                <l>At ne oblita parentis,</l>
                <l>Carae oblita parentis</l>
                <l>Solis montibus erret,</l>
@@ -1491,9 +1385,7 @@
                <l>Dùm se Aurora rosarum</l>
                <l>Rursum pandat ab aulâ,</l>
                <l>Et se Daulias ales,</l>
-               <l>
-                  <pb n="83"/>
-               </l>
+               <pb n="83"/>
                <l>Primae filia lucis,</l>
                <l n="410">Verno carmine rumpat.</l>
                <l>Heu! iam tertia crescunt</l>
@@ -1509,23 +1401,20 @@
                <l>Sacris omnia debet.</l>
                <l>O crudelia! Diuos</l>
                <l>Numquam crimina placant.</l>
-               <l>At ecce ab adytis cardo feralis gemit,</l>
+               <l rend="indent">At ecce ab adytis cardo feralis gemit,</l>
                <l n="425">Intuor Iëphten, ecce adest, diro manus</l>
                <l>Armata ferro, filiae caedem petit:</l>
                <l>Illacrymat, haeret aestuat, saeuit, furit.</l>
             </sp>
          </div>
-         <div type="act"
-              n="4">
+         <div type="act" n="4">
             <head>ACTVS QVARTVS.</head>
-            <stage>IEPHTE.</stage>
-            <sp who="#unknown">
+            <sp who="#iephte">
+               <speaker>IEPHTE.</speaker>
                <l>O Styx Auerna! aetherque, &amp; äer conscia</l>
                <l>Mei doloris! fulmina coelo Deus,</l>
                <l n="430">Et templo ab omni spicula &amp; flammas age!</l>
-               <l>
-                  <pb n="84"/>
-               </l>
+               <pb n="84"/>
                <l>O arae &amp; ignes! quos ego immitis pater!</l>
                <l>(Horresco referens) quos ego immitis pater!</l>
                <l>Quid ego? cruore Virginis, dixi parùm,</l>
@@ -1551,12 +1440,10 @@
                <l>Nolo, volo, quid facio? statuendum est semel.</l>
                <l>Ignosce nata! victimam debes patri.</l>
             </sp>
-            <stage>CHORVS.</stage>
-            <sp who="#unknown">
+            <sp who="#chorus">
+               <speaker>CHORVS.</speaker>
                <l n="455">Occidit Iephtae generosa proles,</l>
-               <l>
-                  <pb n="85"/>
-               </l>
+               <pb n="85"/>
                <l>Et suo &amp; nostro saturata luctu!</l>
                <l>Improbis sacris animosa parens,</l>
                <l>Candidum pectus rigido parenti</l>
@@ -1584,9 +1471,7 @@
                <l n="480">Abstulit secum timidus viator,</l>
                <l>Et domi clausos caueâ reuinxit.</l>
                <l>Mater! ah mater! miseranda mater!</l>
-               <l>
-                  <pb n="86"/>
-               </l>
+               <pb n="86"/>
                <l>Haeret, affixa est, dolor omnis vdo</l>
                <l>Liquitur fletu, rabies resedit:</l>
                <l n="485">Qualis hibernâ niue foeta nubes</l>
@@ -1614,9 +1499,7 @@
                <l>Quem ferus messor iaculo tenaci</l>
                <l>Fixit in pennas medium volûcres;</l>
                <l>Illa secretâ residens cupresso</l>
-               <l>
-                  <pb n="87"/>
-               </l>
+               <pb n="87"/>
                <l n="510">Tractat aeterno gemitu mariti</l>
                <l>Alitis damnum, tenuesque fibras</l>
                <l>Digerit, longo vitiata luctu.</l>
@@ -1627,11 +1510,10 @@
                <l>Mater! ah mater! miseranda mater!</l>
             </sp>
          </div>
-         <div type="act"
-              n="5">
+         <div type="act" n="5">
             <head>ACTVS QVINTVS</head>
-            <stage>NVNCIVS, TELETHVSA.</stage>
-            <sp who="#unknown">
+            <stage type="character">NVNCIVS, TELETHVSA.</stage>
+            <sp who="#nuncius">
                <l>QVid tam ferum, tam triste, lugûbre, horridum,</l>
                <l>Sol vidit vnquam? filiam, vnigenam, pater!</l>
                <l n="520">O caeca rabies! vidi ego, vidi impium</l>
@@ -1642,90 +1524,72 @@
                <l n="525">Expediat alas, meque diuersum ferat.</l>
                <l>Heu me! dolorum saeua tempestas adest.</l>
             </sp>
-            <sp who="#teleth">
+            <sp who="#telethusa">
                <speaker>TELETH.</speaker>
                <l>Quis iste? &amp; vnde? ringitur, maeret, stupet,</l>
                <l>Illacrymat! heu! Heu! sanguinem spirat meum!</l>
                <l>Scio, peractum est, Virgo crudeles luit</l>
-               <l n="530"
-                  part="">Innocua flammas.</l>
+               <l n="530" part="I">Innocua flammas.</l>
             </sp>
-            <sp who="#nvnc">
+            <sp who="#nuncius">
                <speaker>NVNC.</speaker>
-               <l n="530"
-                  part=""
-                  cert="unknown">Filiam vnigenam pater!</l>
+               <l n="530" part="F">Filiam vnigenam pater!</l>
             </sp>
-            <sp who="#teleth">
+            <sp who="#telethusa">
                <speaker>TELETH.</speaker>
-               <l part=""
-                  cert="unknown">Effare totum.</l>
+               <l part="I">Effare totum.</l>
             </sp>
-            <sp who="#nvnc">
+            <sp who="#nuncius">
                <speaker>NVNC.</speaker>
-               <l part=""
-                  cert="unknown">Filiam! vnigenam! pater!</l>
+               <l part="F">Filiam! vnigenam! pater!</l>
             </sp>
-            <sp who="#teleth">
+            <sp who="#telethusa">
                <speaker>TELETH.</speaker>
                <l>Sed fare totum; filiam? vnigenam? pater?</l>
-               <l>
-                  <pb n="88"/>
-               </l>
-               <l part="">Quid ille crudus?</l>
+               <pb n="88"/>
+               <l part="I">Quid ille crudus?</l>
             </sp>
-            <sp who="#nvn">
+            <sp who="#nuncius">
                <speaker>NVN.</speaker>
-               <l part=""
-                  cert="unknown">Nescio; ô scelus! scelus!</l>
+               <l part="F">Nescio; ô scelus! scelus!</l>
             </sp>
-            <sp who="#teleth">
+            <sp who="#telethusa">
                <speaker>TELETH.</speaker>
-               <l part=""
-                  cert="unknown">Quid ille tandem?</l>
+               <l part="I">Quid ille tandem?</l>
             </sp>
-            <sp who="#nvn">
+            <sp who="#nuncius">
                <speaker>NVN.</speaker>
-               <l part=""
-                  cert="unknown">Vidi ego; audisti nimis.</l>
+               <l part="F">Vidi ego; audisti nimis.</l>
             </sp>
-            <sp who="#teleth">
+            <sp who="#telethusa">
                <speaker>TELETH.</speaker>
-               <l n="535"
-                  part=""
-                  cert="unknown">Quid rursus haeres?</l>
+               <l n="535" part="I">Quid rursus haeres?</l>
             </sp>
-            <sp who="#nvnc">
+            <sp who="#nuncius">
                <speaker>NVNC.</speaker>
-               <l n="535"
-                  part=""
-                  cert="unknown">Vidi ego, vidi impias</l>
-               <l part="">Ardere flammas!</l>
+               <l n="535" part="F">Vidi ego, vidi impias</l>
+               <l part="I">Ardere flammas!</l>
             </sp>
-            <sp who="#telet">
+            <sp who="#telethusa">
                <speaker>TELET.</speaker>
-               <l part=""
-                  cert="unknown">Viscera in flammis mea?</l>
+               <l part="F">Viscera in flammis mea?</l>
             </sp>
-            <sp who="#nvnc">
+            <sp who="#nuncius">
                <speaker>NVNC.</speaker>
-               <l part=""
-                  cert="unknown">Noli rogare.</l>
+               <l part="I">Noli rogare.</l>
             </sp>
-            <sp who="#teleth">
+            <sp who="#telethusa">
                <speaker>TELETH.</speaker>
-               <l part=""
-                  cert="unknown">Viscera in flammis mea?</l>
-               <l part="">Sic potuit, &amp; fecit pater?</l>
+               <l part="F">Viscera in flammis mea?</l>
+               <l part="I">Sic potuit, &amp; fecit pater?</l>
             </sp>
-            <sp who="#nvn">
+            <sp who="#nuncius">
                <speaker>NVN.</speaker>
-               <l part=""
-                  cert="unknown">fecit pater!</l>
+               <l part="F">fecit pater!</l>
                <l>O horror! ô crudelia! ah! pater! pater!</l>
                <l n="540">Natam dicauit, immolauit victimam!</l>
             </sp>
-            <sp who="#teleth">
+            <sp who="#telethusa">
                <speaker>TELETH.</speaker>
                <l>Hyantha! tales audio luctus tuos!</l>
                <l>Sic ille lusit sanguine infoelix meo,</l>
@@ -1734,105 +1598,88 @@
                <l n="545">Sed prome gestorum ordinem, aerumnis vaco;</l>
                <l>Quonam ille vultu, &amp; illa quo vultu stetit?</l>
             </sp>
-            <sp who="#nvnc">
+            <sp who="#nuncius">
                <speaker>NVNC.</speaker>
                <l>Iam sacra inibat &amp; suam natam pater</l>
                <l>Stiterat ad aras; sufficit, dixi satis.</l>
             </sp>
-            <sp who="#telet">
+            <sp who="#telethusa">
                <speaker>TELET.</speaker>
-               <l part=""
-                  cert="unknown">Quid dêinde?</l>
+               <l part="I">Quid dêinde?</l>
             </sp>
-            <sp who="#nvn">
+            <sp who="#nuncius">
                <speaker>NVN.</speaker>
-               <l part=""
-                  cert="unknown">Natam stiterat ante aras pater,</l>
+               <l part="F">Natam stiterat ante aras pater,</l>
                <l n="550">Cum tremere visa est; fecerant flammae metum,</l>
                <l>Enses, tridentes: mox tamen, facto impete,</l>
                <l>Ascendit aras, &amp; verecundos humi</l>
                <l>Deiecta ocellos, pectus exeruit patri,</l>
                <l>Discincta pallam pube virgineâ tenus.</l>
             </sp>
-            <sp who="#telet">
+            <sp who="#telethusa">
                <speaker>TELET.</speaker>
                <l n="555">Heu misera Virgo! victimam feri pater!</l>
             </sp>
-            <sp who="#nvnc">
+            <sp who="#nuncius">
                <speaker>NVNC.</speaker>
                <l>Attonitus ipse facinus exhoret suum,</l>
                <l>Trepidoque mystae sceleris imponit vices.</l>
             </sp>
-            <sp who="#telet">
+            <sp who="#telethusa">
                <speaker>TELET.</speaker>
-               <l part=""
-                  cert="unknown">Heu dura feritas!</l>
+               <l part="I">Heu dura feritas!</l>
             </sp>
-            <sp who="#nvn">
+            <sp who="#nuncius">
                <speaker>NVN.</speaker>
-               <l part=""
-                  cert="unknown">Sanguinem hoc intrà tamen.</l>
+               <l part="F">Sanguinem hoc intrà tamen.</l>
             </sp>
-            <sp who="#telet">
+            <sp who="#telethusa">
                <speaker>TELET.</speaker>
-               <l part=""
-                  cert="unknown">Quid ergò mysta?</l>
+               <l part="I">Quid ergò mysta?</l>
             </sp>
-            <sp who="#nvn">
+            <sp who="#nuncius">
                <speaker>NVN.</speaker>
-               <l part=""
-                  cert="unknown">Non satis possum eloqui.</l>
-               <l>
-                  <pb n="89"/>
-               </l>
+               <l part="F">Non satis possum eloqui.</l>
             </sp>
-            <sp who="#telet">
+            <pb n="89"/>
+            <sp who="#telethusa">
                <speaker>TELET</speaker>
                <l n="560">Quid ille durus? sanguinem fudit meum?</l>
-               <l part="">Perge ad cruenta!</l>
+               <l part="I">Perge ad cruenta!</l>
             </sp>
-            <sp who="#nvnc">
+            <sp who="#nuncius">
                <speaker>NVNC.</speaker>
-               <l part=""
-                  cert="unknown">Sanguinem fudit tuum!</l>
+               <l part="F">Sanguinem fudit tuum!</l>
                <l>Et iussus iterum, virginem aduersam ferit,</l>
-               <l part="">Et grande vulnus fecit.</l>
+               <l part="I">Et grande vulnus fecit.</l>
             </sp>
-            <sp who="#teleth">
+            <sp who="#telethusa">
                <speaker>TELETH.</speaker>
-               <l part=""
-                  cert="unknown">O superi! ô dolor!</l>
+               <l part="F">O superi! ô dolor!</l>
             </sp>
-            <sp who="#nvnc">
+            <sp who="#nuncius">
                <speaker>NVNC.</speaker>
                <l>Et pectore hausto luridos spargit rogos.</l>
             </sp>
-            <sp who="#telet">
+            <sp who="#telethusa">
                <speaker>TELET.</speaker>
-               <l n="565"
-                  part=""
-                  cert="unknown">Quid interim illa?</l>
+               <l n="565" part="I">Quid interim illa?</l>
             </sp>
-            <sp who="#nvnc">
+            <sp who="#nuncius">
                <speaker>NVNC.</speaker>
-               <l n="565"
-                  part=""
-                  cert="unknown">Vulnere inflicto cadit,</l>
+               <l n="565" part="F">Vulnere inflicto cadit,</l>
                <l>Et mortis auida, lumina obnixa &amp; manus</l>
                <l>Coelo tetendit: nec diu vixit super,</l>
                <l>Et frigido diriguit extemplò gelu.</l>
             </sp>
-            <sp who="#telet">
+            <sp who="#telethusa">
                <speaker>TELET.</speaker>
                <l>Heu! Heu! Hyanthé! Heu! heu Hyanthé! Heu! Heu! iò heu!</l>
-               <l n="570"
-                  part="">Quid interim ille?</l>
+               <l n="570" part="I">Quid interim ille?</l>
             </sp>
-            <sp who="#nvnc">
+            <sp who="#nuncius">
                <speaker>NVNC.</speaker>
-               <l n="570"
-                  part=""
-                  cert="unknown">Rigidus expectat pater,</l>
+               <l n="570" part="F">Rigidus expectat pater,</l>
                <l>Et gestu in vno fixus &amp; durus nimis,</l>
                <l>Donec cremari viscera adspexit sua,</l>
                <l>Et ille stridor intimos ipsi sinus</l>
@@ -1842,32 +1689,29 @@
                <l>Hoc ille vultu sanguinem vidit suum</l>
                <l>Maculare sanctas barbarus crepidines.</l>
             </sp>
-            <sp who="#telet">
+            <sp who="#telethusa">
                <speaker>TELET.</speaker>
                <l>Heu! Heu! iò heu! heu! heu! iò heu! Heu! heu! iò heu!</l>
             </sp>
-            <sp who="#nvnc">
+            <sp who="#nuncius">
                <speaker>NVNC.</speaker>
                <l n="580">Adhuc in aris stridet ambustus cruor,</l>
                <l>Turpique fumo inumbrat horrenteis tholos.</l>
             </sp>
-            <sp who="#telet">
+            <sp who="#telethusa">
                <speaker>TELET.</speaker>
                <l>Audire nolo caetera; ah! sile, sile;</l>
                <l>Ducite me ad aras, ducite, vt sacra expleam;</l>
                <l>Ducite me ad aras, ducite, vbi stillat cruor,</l>
-               <l n="585"
-                  part="">Et caesa Hyanthé!</l>
+               <l n="585" part="I">Et caesa Hyanthé!</l>
             </sp>
-            <sp who="#nvnc">
+            <sp who="#nuncius">
                <speaker>NVNC.</speaker>
-               <l n="585"
-                  part=""
-                  cert="unknown">Rapite, collapsa est, iacet.</l>
+               <l n="585" part="F">Rapite, collapsa est, iacet.</l>
                <l>Iudaea miseris tota lamentis sonet.</l>
             </sp>
-            <stage>FINIS.</stage>
          </div>
+         <closer>FINIS.</closer>
       </body>
    </text>
 </TEI>
