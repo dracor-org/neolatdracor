@@ -83,7 +83,8 @@
                <person xml:id="nuncius" sex="MALE" role="nuncius">
                   <persName>Nuncius</persName>
                </person>
-               <person xml:id="princeps-chori" sex="MALE" role="chorus" corresp="#chorus">
+               <person xml:id="princeps-chori" sex="FEMALE" role="chorus"
+                  corresp="#chorus-israelitarum">
                   <persName>Princeps Chori</persName>
                </person>
                <personGrp xml:id="satellitium" sex="MALE" role="miles">
@@ -109,7 +110,8 @@
                   <relation name="associated_with" active="#asphenes" passive="#nabuchodonosor"/>
                   <relation name="associated_with" active="#nabuzardan" passive="#nabuchodonosor"/>
                   <relation name="associated_with" active="#satellitium" passive="#nabuchodonosor"/>
-                  <relation name="associated_with" active="#chorus" passive="#princeps-chori"/>
+                  <relation name="associated_with" active="#chorus-israelitarum"
+                     passive="#princeps-chori"/>
                </listRelation>
             </listPerson>
          </particDesc>
@@ -1225,7 +1227,7 @@
                   <l>Animus, dolorem fixit alienus dolor.</l>
                </sp>
             </div>
-            <div type="scene" subtype="chorus" n="2">
+            <div type="scene" n="2">
                <pb n="24"/>
                <head>CHORVS ISRAELIT.</head>
                <sp who="#chorus-israelitarum">
@@ -1629,8 +1631,10 @@
                   <l>Quò se excutit? tenete, dum sedeat furor,</l>
                   <l n="905">Vinctumque, ferroque obrutum in caueam date.</l>
                </sp>
+            </div>
+            <div type="scene" n="2">
+               <head>CHORVS ISRAELIT. PLANGENTIVM.</head>
                <sp who="#chorus-israelitarum">
-                  <speaker>CHORVS ISRAELIT. PLANGENTIVM.</speaker>
                   <l>QVO se rapiet dolor &amp; miserae</l>
                   <l>Quae prima struam verba querelae?</l>
                   <l>O cara Bethel! tu nunc calidis</l>
