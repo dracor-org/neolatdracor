@@ -101,9 +101,9 @@
                   <persName type="variant">TELET.</persName>
                   <persName type="variant">TELETH.</persName>
                </person>
-               <person xml:id="chorus" sex="UNKNOWN" role="chorus">
+               <personGrp xml:id="chorus" sex="UNKNOWN" role="chorus">
                   <persName>CHORVS</persName>
-               </person>
+               </personGrp>
                <listRelation type="personal">
                   <relation name="parent_of" active="#iephte" passive="#hianthe"/>
                   <relation name="parent_of" active="#telethusa" passive="#hianthe"/>
