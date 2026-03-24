@@ -5097,7 +5097,7 @@
 - id: neolat000129
   name: salius-nassovius
   title: Nassovius
-  subtitle: tragoedia
+  subtitle: Tragoedia
   qid: null
   authors:
     - forename: Panagius
@@ -5113,22 +5113,31 @@
   region: Kingdom of France
   regionQid: Q70972
   project: TransLatin
-  status: DOCX, TEI (basic)
+  status: tei, published
   licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   source:
     title: TransLatin
     editor: Jan Bloemendal
-    url: https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Salius-Nassovius.docx
+    url: https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Salius-Nassovius.docx
     type: DOCX
+    note: Commit 6202f8dda05bf0fc2fce7d1fe7cfe08c147631e4
+    availability:
+      status: free
     source:
-      title: "Panagius Salius: Nassouius tragoedia. In: Panagii Salii Audomarensis
-        Varia Poemata. Paris: Dionysius à Prato 1589."
+      title: Gallica (BNF)
       year: "1589"
       url: https://gallica.bnf.fr/ark:/12148/bpt6k134076p
-      type: print
+      type: PDF
+      availability:
+        status: free
+        note: In the public domain.
+      source:
+        title: "Panagius Salius: Nassovius. Tragoedia. In: Panagii Salii Audomarensis Varia Poemata. Paris: Dionysius à Prato 1589."
+        year: "1589"
+        type: print
   complete: true
   _includeInOverview: true
-  _includeDocx: true
+  _includeDocx: false
 - id: neolat000130
   name: schoepperus-ectrachelistes
   title: Ectrachelistes sive Iohannes decollatus
