@@ -65,7 +65,8 @@
          <particDesc>
             <listPerson>
                <person xml:id="samuel" sex="MALE" ana="https://www.wikidata.org/wiki/Q6577515">
-                  <persName>SAMVEL/VMBRA SAMVELIS</persName>
+                  <persName>SAMVEL</persName>
+                  <persName type="variant">VMBRA SAMVELIS</persName>
                </person>
                <personGrp xml:id="chorus" sex="UNKNOWN" role="chorus">
                   <name>CHORVS</name>
@@ -80,7 +81,8 @@
                   <persName>ACHIMAS</persName>
                </person>
                <person xml:id="manto" sex="FEMALE" ana="https://www.wikidata.org/wiki/Q1391553">
-                  <persName>MANTO/PYTHONISSA</persName>
+                  <persName>MANTO</persName>
+                  <persName type="variant">PYTHONISSA</persName>
                </person>
                <person xml:id="nuncius" sex="MALE" role="nuncius">
                   <persName>NVNCIVS</persName>

@@ -89,10 +89,14 @@
                   <persName>Philomathes</persName>
                </person>
                <person xml:id="philoponus" sex="MALE" role="servus">
-                  <persName>Philoponus/servus/famulus</persName>
+                  <persName>Philoponus</persName>
+                  <persName type="variant">servus</persName>
+                  <persName type="variant">famulus</persName>
                </person>
                <person xml:id="panocnus" sex="MALE" role="servus">
-                  <persName>Panocnus/servus/famulus</persName>
+                  <persName>Panocnus</persName>
+                  <persName type="variant">servus</persName>
+                  <persName type="variant">famulus</persName>                  
                </person>
                <person xml:id="oeconomus" sex="MALE" role="libertus">
                   <persName>Oeconomus</persName>
@@ -101,16 +105,19 @@
                   <persName>Daetrus</persName>
                </person>
                <person xml:id="ancilla-a" sex="FEMALE" role="ancilla">
-                  <persName>ancilla a/puella</persName>
+                  <persName>ancilla a</persName>
+                  <persName type="variant">puella</persName>
                </person>
                <person xml:id="ancilla-b" sex="FEMALE" role="ancilla">
-                  <persName>ancilla b/puella</persName>
+                  <persName>ancilla b</persName>
+                  <persName type="variant">puella</persName>
                </person>
                <person xml:id="nomodidascalus" sex="MALE" role="legatus">
                   <persName>Nomodidascalus</persName>
                </person>
                <person xml:id="puer-legati" sex="MALE" role="puer">
-                  <persName>puer legati/puer</persName>
+                  <persName>puer legati</persName>
+                  <persName type="variant">puer</persName>
                </person>
                <person xml:id="daemones" sex="MALE" role="amicus">
                   <persName>Daemones</persName>
@@ -134,13 +141,16 @@
                   <persName>Mors</persName>
                </person>
                <person xml:id="sathan" sex="MALE" role="diabolus" ana="https://www.wikidata.org/wiki/Q35230">
-                  <persName>Sathan/Satan</persName>
+                  <persName>Sathan</persName>
+                  <persName type="variant">Satan</persName>
                </person>
                <person xml:id="acolytus" sex="MALE">
-                  <persName>Acolytus/Acolitus</persName>
+                  <persName>Acolytus</persName>
+                  <persName type="variant">Acolitus</persName>
                </person>
                <person xml:id="hieronymus" sex="MALE" role="pastor">
-                  <persName>Hieronymus/sacerdos</persName>
+                  <persName>Hieronymus</persName>
+                  <persName type="variant">sacerdos</persName>
                </person>
                <person xml:id="virtus" sex="FEMALE" role="allegoria" ana="https://www.wikidata.org/wiki/Q157811">
                   <persName>Virtus</persName>

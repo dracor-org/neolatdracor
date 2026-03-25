@@ -97,10 +97,12 @@
                   <name>Chorus</name>
                </personGrp>
                <person xml:id="minister" sex="MALE" role="servus">
-                  <persName>Minister/Servus</persName>
+                  <persName>Minister</persName>
+                  <persName type="variant">Servus</persName>
                </person>
                <person xml:id="alius-nuncius" sex="MALE" role="nuncius">
-                  <persName>Alius nuncius / Nuncius</persName>
+                  <persName>Alius nuncius</persName>
+                  <persName type="variant">Nuncius</persName>
                </person>
             </listPerson>
          </particDesc>
