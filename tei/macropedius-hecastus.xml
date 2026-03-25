@@ -96,7 +96,7 @@
                <person xml:id="panocnus" sex="MALE" role="servus">
                   <persName>Panocnus</persName>
                   <persName type="variant">servus</persName>
-                  <persName type="variant">famulus</persName>                  
+                  <persName type="variant">famulus</persName>
                </person>
                <person xml:id="oeconomus" sex="MALE" role="libertus">
                   <persName>Oeconomus</persName>
@@ -187,7 +187,8 @@
          </event>
       </listEvent>
       <listRelation>
-         <relation name="wikidata" active="https://dracor.org/entity/neolat000001" passive="http://www.wikidata.org/entity/Q1592867"/>
+         <relation name="wikidata" active="https://dracor.org/entity/neolat000001"
+            passive="http://www.wikidata.org/entity/Q1592867"/>
       </listRelation>
    </standOff>
    <text>
@@ -330,21 +331,27 @@
                <roleDesc>coquus.</roleDesc>
             </castItem>
             <castGroup>
-               <castItem><role>Ancille duae</role></castItem>
+               <roleDesc>Ancille duae</roleDesc>
             </castGroup>
             <castItem>
                <role>Nomodidascalus</role>
                <roleDesc>legatus</roleDesc>
             </castItem>
-            <castItem><role>Puer legati</role></castItem>
             <castItem>
-               <role>Daemones</role>
-               <roleDesc>cum .2. amicis</roleDesc>
+               <roleDesc>Puer legati</roleDesc>
             </castItem>
-            <castItem>
-               <role>Syngenes</role>
-               <roleDesc>cum 2. cognatis</roleDesc>
-            </castItem>
+            <castGroup>
+               <castItem>
+                  <role>Daemones</role>
+                  <roleDesc>cum .2. amicis</roleDesc>
+               </castItem>
+            </castGroup>
+            <castGroup>
+               <castItem>
+                  <role>Syngenes</role>
+                  <roleDesc>cum 2. cognatis</roleDesc>
+               </castItem>
+            </castGroup>
             <castItem>
                <role>Mors</role>
                <roleDesc>larva teterrima.</roleDesc>
@@ -373,10 +380,10 @@
                <role>Plutus</role>
                <roleDesc>ex arca loquens</roleDesc>
             </castItem>
-            <castItem>
-               <role>Chorus</role>
+            <castGroup>
+               <roleDesc>Chorus</roleDesc>
                <roleDesc>ex 3. pueris &amp; 3. puellis familiae</roleDesc>
-            </castItem>
+            </castGroup>
             <p>Ne miretur lector candidus Actorum frequentiam, quòd magis utilitati auditorum
                nostrorum, quam artificio comico studuimus.</p>
          </castList>

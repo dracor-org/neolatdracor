@@ -220,16 +220,16 @@
                <role>OEDIPUS,</role>
             </castItem>
             <castItem>
-               <role>SACERDOS</role>
+               <roleDesc>SACERDOS</roleDesc>
                <roleDesc>senex Iovis,</roleDesc>
             </castItem>
             <castItem>
                <role>CREON,</role>
             </castItem>
-            <castItem>
-               <role>CHORUS</role>
+            <castGroup>
+               <roleDesc>CHORUS</roleDesc>
                <roleDesc>constat ex Thebanis senibus.</roleDesc>
-            </castItem>
+            </castGroup>
             <castItem>
                <role>TIRESIAS,</role>
             </castItem>
@@ -237,14 +237,14 @@
                <role>IOCASTE,</role>
             </castItem>
             <castItem>
-               <role>NUNCIUS,</role>
+               <roleDesc>NUNCIUS,</roleDesc>
             </castItem>
             <castItem>
-               <role>MINISTER </role>
+               <roleDesc>MINISTER </roleDesc>
                <roleDesc>Polybi,</roleDesc>
             </castItem>
             <castItem>
-               <role>ALIUS NUNCIUS.</role>
+               <roleDesc>ALIUS NUNCIUS.</roleDesc>
             </castItem>
             <stage>Praefatur OEdipus.</stage>
          </castList>

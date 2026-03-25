@@ -198,10 +198,12 @@
          </div>
          <castList>
             <head>Dramatis personae.</head>
-            <castItem>
-               <role>Prologus</role>
-               <roleDesc>cum Morione.</roleDesc>
-            </castItem>
+            <castGroup>
+               <castItem>
+                  <roleDesc>Prologus</roleDesc>
+                  <roleDesc>cum Morione.</roleDesc>
+               </castItem>
+            </castGroup>
             <castItem>
                <role>Philotecnium</role>
                <roleDesc>mater.</roleDesc>
@@ -249,9 +251,9 @@
                <role>Pompus</role>
                <roleDesc>nuncius.</roleDesc>
             </castItem>
-            <castItem>
-               <role>Lorarij duo.</role>
-            </castItem>
+            <castGroup>
+               <roleDesc>Lorarij duo.</roleDesc>
+            </castGroup>
             <castItem>
                <role>Lorcaballus</role>
                <roleDesc>diabolus.</roleDesc>
@@ -260,10 +262,10 @@
                <role>Marlocappus</role>
                <roleDesc>diabolus.</roleDesc>
             </castItem>
-            <castItem>
-               <role>Chorus</role>
+            <castGroup>
+               <roleDesc>Chorus</roleDesc>
                <roleDesc>ex Aristippicae scholae auditoribus.</roleDesc>
-            </castItem>
+            </castGroup>
          </castList>
       </front>
       <body>

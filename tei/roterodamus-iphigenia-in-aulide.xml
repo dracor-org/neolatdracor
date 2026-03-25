@@ -209,28 +209,35 @@
                <role>Agamemnon.</role>
             </castItem>
             <castItem>
-               <role>Senex</role><roleDesc>servus eius.</roleDesc>
+               <roleDesc>Senex</roleDesc>
+               <roleDesc>servus eius.</roleDesc>
+            </castItem>
+            <castGroup>
+               <roleDesc>Chorus</roleDesc>
+               <roleDesc>ex mulieribus chalcidensibus.</roleDesc>
+            </castGroup>
+            <castItem>
+               <role>Menelaus</role>
+               <roleDesc>frater Agamemnonis.</roleDesc>
             </castItem>
             <castItem>
-               <role>Chorus</role><roleDesc>ex mulieribus chalcidensibus.</roleDesc>
+               <role>Clytemnestra</role>
+               <roleDesc>uxor Agamemnonis.</roleDesc>
             </castItem>
             <castItem>
-               <role>Menelaus</role><roleDesc>frater Agamemnonis.</roleDesc>
+               <role>Iphigenia</role>
+               <roleDesc>filia Clytemnestrae et Agamemnonis.</roleDesc>
             </castItem>
             <castItem>
-               <role>Clytemnestra</role><roleDesc>uxor Agamemnonis.</roleDesc>
+               <role>Achilles</role>
+               <roleDesc>dictus sponsus</roleDesc>
             </castItem>
             <castItem>
-               <role>Iphigenia</role><roleDesc>filia Clytemnestrae et Agamemnonis.</roleDesc>
+               <roleDesc>Senex</roleDesc>
+               <roleDesc>minister.</roleDesc>
             </castItem>
             <castItem>
-               <role>Achilles</role><roleDesc>dictus sponsus</roleDesc>
-            </castItem>
-            <castItem>
-               <role>Senex</role><roleDesc>minister.</roleDesc>
-            </castItem>
-            <castItem>
-               <role>Nuntius.</role>
+               <roleDesc>Nuntius.</roleDesc>
             </castItem>
          </castList>
       </front>
