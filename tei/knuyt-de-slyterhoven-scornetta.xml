@@ -16,8 +16,7 @@
                 <editor xml:id="bolte">Johannes Bolte</editor>
                 <respStmt>
                     <resp>Converted to TEI by</resp>
-                    <persName ref="https://orcid.org/0000-0001-8979-8706">Julia Jennifer
-                        Beine</persName>
+                    <persName ref="https://orcid.org/0000-0001-8979-8706">Julia Jennifer Beine</persName>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -110,6 +109,13 @@
                 </region>
             </creation>
         </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2025-12-29">
+                    <desc>Converted to DraCor TEI by Julia Jennifer Beine, including minor corrections.</desc>
+                </change>
+            </listChange>
+        </revisionDesc>
     </teiHeader>
     <standOff>
         <listEvent>

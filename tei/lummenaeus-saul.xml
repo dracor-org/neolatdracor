@@ -20,8 +20,7 @@
             </respStmt>
             <respStmt>
                <resp>Converted to TEI by</resp>
-               <persName ref="https://orcid.org/0000-0002-5293-349X">Kateřina
-                  Bobková-Valentová</persName>
+               <persName ref="https://orcid.org/0000-0002-5293-349X">Kateřina Bobková-Valentová</persName>
                <persName ref="https://orcid.org/0000-0001-8294-2541">Ingo Börner</persName>
             </respStmt>
          </titleStmt>
@@ -101,6 +100,13 @@
             </region>
          </creation>
       </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2025-05-28">
+               <desc>Converted to DraCor TEI by Kateřina Bobková-Valentová and Ingo Börner.</desc>
+            </change>
+         </listChange>
+      </revisionDesc>
    </teiHeader>
    <standOff>
       <listEvent>

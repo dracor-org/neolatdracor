@@ -68,8 +68,7 @@
                <person xml:id="filius-3" sex="MALE" role="filius">
                   <persName>3. Filius</persName>
                </person>
-               <person xml:id="hieremias" sex="MALE" role="propheta"
-                  ana="https://www.wikidata.org/wiki/Q158825">
+               <person xml:id="hieremias" sex="MALE" role="propheta" ana="https://www.wikidata.org/wiki/Q158825">
                   <persName>Hieremias</persName>
                   <persName type="variant">Propheta</persName>
                </person>
@@ -77,22 +76,19 @@
                   role="miles">
                   <persName>Nabuzaradan</persName>
                </person>
-               <person xml:id="nabuchodonosor" sex="MALE" role="rex"
-                  ana="https://www.wikidata.org/wiki/Q12591">
+               <person xml:id="nabuchodonosor" sex="MALE" role="rex" ana="https://www.wikidata.org/wiki/Q12591">
                   <persName>Nabuchodonosor</persName>
                </person>
                <person xml:id="nuncius" sex="MALE" role="nuncius">
                   <persName>Nuncius</persName>
                </person>
-               <person xml:id="princeps-chori" sex="FEMALE" role="chorus"
-                  corresp="#chorus-israelitarum">
+               <person xml:id="princeps-chori" sex="FEMALE" role="chorus" corresp="#chorus-israelitarum">
                   <persName>Princeps Chori</persName>
                </person>
                <personGrp xml:id="satellitium" sex="MALE" role="miles">
                   <persName>Satellitium</persName>
                </personGrp>
-               <person xml:id="sedechias" sex="MALE" role="rex"
-                  ana="https://www.wikidata.org/wiki/Q184273">
+               <person xml:id="sedechias" sex="MALE" role="rex" ana="https://www.wikidata.org/wiki/Q184273">
                   <persName>Sedechias</persName>
                </person>
                <personGrp xml:id="chorus-chaldaeorum" sex="MALE" role="chorus">
@@ -128,6 +124,13 @@
             </region>
          </creation>
       </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2026-02-09">
+               <desc>Converted to DraCor TEI by Julia Jennifer Beine.</desc>
+            </change>
+         </listChange>
+      </revisionDesc>
    </teiHeader>
    <standOff>
       <listEvent>
