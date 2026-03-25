@@ -301,7 +301,7 @@
          <castList>
             <head>Dramatis personae.</head>
             <castItem>
-               <role>Angelus</role>
+               <roleDesc>Angelus</roleDesc>
                <roleDesc>Prologus</roleDesc>
             </castItem>
             <castItem>
@@ -312,12 +312,12 @@
                <role>Joas,</role>
                <roleDesc>pater</roleDesc>
             </castItem>
-            <castItem>
-               <role>Chorus</role>
+            <castGroup>
+               <roleDesc>Chorus</roleDesc>
                <roleDesc>indigenarum</roleDesc>
-            </castItem>
+            </castGroup>
             <castItem>
-               <role>Propheta</role>
+               <roleDesc>Propheta</roleDesc>
             </castItem>
             <castItem>
                <role>Gedeon,</role>
@@ -328,7 +328,7 @@
                <roleDesc>apparitor Gedeonis</roleDesc>
             </castItem>
             <castItem>
-               <role>Praeco</role>
+               <roleDesc>Praeco</roleDesc>
                <roleDesc>exercitus</roleDesc>
             </castItem>
             <castItem>
@@ -346,9 +346,9 @@
             <castItem>
                <role>Manasses</role>
             </castItem>
-            <castItem>
+            <castGroup>
                <roleDesc>symachi</roleDesc>
-            </castItem>
+            </castGroup>
             <castItem>
                <role>Assur</role>
             </castItem>

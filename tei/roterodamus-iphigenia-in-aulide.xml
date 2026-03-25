@@ -81,7 +81,7 @@
                   <persName>Agamemnon</persName>
                </person>
                <person xml:id="senex-servus" sex="MALE" role="servus">
-                  <persName>Senex (servus)</persName>
+                  <persName>Senex</persName>
                </person>
                <personGrp xml:id="chorus-ex-mulieribus-chalcidensibus" sex="FEMALE" role="chorus">
                   <name>Chorus ex mulieribus chalcidensibus</name>
@@ -89,8 +89,7 @@
                <person xml:id="menelaus" sex="MALE" ana="http://www.wikidata.org/entity/Q171839">
                   <persName>Menelaus</persName>
                </person>
-               <person xml:id="clytemnestra" sex="FEMALE"
-                  ana="http://www.wikidata.org/entity/Q131157">
+               <person xml:id="clytemnestra" sex="FEMALE" ana="http://www.wikidata.org/entity/Q131157">
                   <persName>Clytemnestra</persName>
                </person>
                <person xml:id="iphigenia" sex="FEMALE" ana="http://www.wikidata.org/entity/Q192673">
@@ -100,7 +99,7 @@
                   <persName>Achilles</persName>
                </person>
                <person xml:id="senex-minister" sex="MALE">
-                  <persName>Senex (minister)</persName>
+                  <persName>Senex</persName>
                </person>
                <person xml:id="nuntius" sex="MALE" role="nuncius">
                   <persName>Nuntius</persName>
@@ -210,28 +209,35 @@
                <role>Agamemnon.</role>
             </castItem>
             <castItem>
-               <role>Senex</role><roleDesc>servus eius.</roleDesc>
+               <roleDesc>Senex</roleDesc>
+               <roleDesc>servus eius.</roleDesc>
+            </castItem>
+            <castGroup>
+               <roleDesc>Chorus</roleDesc>
+               <roleDesc>ex mulieribus chalcidensibus.</roleDesc>
+            </castGroup>
+            <castItem>
+               <role>Menelaus</role>
+               <roleDesc>frater Agamemnonis.</roleDesc>
             </castItem>
             <castItem>
-               <role>Chorus</role><roleDesc>ex mulieribus chalcidensibus.</roleDesc>
+               <role>Clytemnestra</role>
+               <roleDesc>uxor Agamemnonis.</roleDesc>
             </castItem>
             <castItem>
-               <role>Menelaus</role><roleDesc>frater Agamemnonis.</roleDesc>
+               <role>Iphigenia</role>
+               <roleDesc>filia Clytemnestrae et Agamemnonis.</roleDesc>
             </castItem>
             <castItem>
-               <role>Clytemnestra</role><roleDesc>uxor Agamemnonis.</roleDesc>
+               <role>Achilles</role>
+               <roleDesc>dictus sponsus</roleDesc>
             </castItem>
             <castItem>
-               <role>Iphigenia</role><roleDesc>filia Clytemnestrae et Agamemnonis.</roleDesc>
+               <roleDesc>Senex</roleDesc>
+               <roleDesc>minister.</roleDesc>
             </castItem>
             <castItem>
-               <role>Achilles</role><roleDesc>dictus sponsus</roleDesc>
-            </castItem>
-            <castItem>
-               <role>Senex</role><roleDesc>minister.</roleDesc>
-            </castItem>
-            <castItem>
-               <role>Nuntius.</role>
+               <roleDesc>Nuntius.</roleDesc>
             </castItem>
          </castList>
       </front>

@@ -97,10 +97,12 @@
                   <name>Chorus</name>
                </personGrp>
                <person xml:id="minister" sex="MALE" role="servus">
-                  <persName>Minister/Servus</persName>
+                  <persName>Minister</persName>
+                  <persName type="variant">Servus</persName>
                </person>
                <person xml:id="alius-nuncius" sex="MALE" role="nuncius">
-                  <persName>Alius nuncius / Nuncius</persName>
+                  <persName>Alius nuncius</persName>
+                  <persName type="variant">Nuncius</persName>
                </person>
             </listPerson>
          </particDesc>
@@ -218,16 +220,16 @@
                <role>OEDIPUS,</role>
             </castItem>
             <castItem>
-               <role>SACERDOS</role>
+               <roleDesc>SACERDOS</roleDesc>
                <roleDesc>senex Iovis,</roleDesc>
             </castItem>
             <castItem>
                <role>CREON,</role>
             </castItem>
-            <castItem>
-               <role>CHORUS</role>
+            <castGroup>
+               <roleDesc>CHORUS</roleDesc>
                <roleDesc>constat ex Thebanis senibus.</roleDesc>
-            </castItem>
+            </castGroup>
             <castItem>
                <role>TIRESIAS,</role>
             </castItem>
@@ -235,14 +237,14 @@
                <role>IOCASTE,</role>
             </castItem>
             <castItem>
-               <role>NUNCIUS,</role>
+               <roleDesc>NUNCIUS,</roleDesc>
             </castItem>
             <castItem>
-               <role>MINISTER </role>
+               <roleDesc>MINISTER </roleDesc>
                <roleDesc>Polybi,</roleDesc>
             </castItem>
             <castItem>
-               <role>ALIUS NUNCIUS.</role>
+               <roleDesc>ALIUS NUNCIUS.</roleDesc>
             </castItem>
             <stage>Praefatur OEdipus.</stage>
          </castList>

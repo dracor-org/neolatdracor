@@ -75,28 +75,35 @@
                   <persName>Morio</persName>
                </person>
                <person xml:id="philotecnium" sex="FEMALE" role="mater">
-                  <persName>Philotecnium/Mater</persName>
+                  <persName>Philotecnium</persName>
+                  <persName type="variant">Mater</persName>
                </person>
                <person xml:id="cacolalia" sex="FEMALE" role="mater">
-                  <persName>Cacolalia/Mater</persName>
+                  <persName>Cacolalia</persName>
+                  <persName type="variant">Mater</persName>
                </person>
                <person xml:id="dyscolus" sex="MALE" role="discipulus">
-                  <persName>Dyscolus/Captivus</persName>
+                  <persName>Dyscolus</persName>
+                  <persName type="variant">Captivus</persName>
                </person>
                <person xml:id="clopicus" sex="MALE" role="discipulus">
-                  <persName>Clopicus/Captivus</persName>
+                  <persName>Clopicus</persName>
+                  <persName type="variant">Captivus</persName>
                </person>
                <person xml:id="aristippus" sex="MALE" role="didascalus">
-                  <persName>Aristippus/Didascalus</persName>
+                  <persName>Aristippus</persName>
+                  <persName type="variant">Didascalus</persName>
                </person>
                <person xml:id="discipulus" sex="MALE" role="discipulus">
-                  <persName>Discipulus/Puer</persName>
+                  <persName>Discipulus</persName>
+                  <persName type="variant">Puer</persName>
                </person>
                <person xml:id="codrus" sex="MALE" role="claviger">
                   <persName>Codrus</persName>
                </person>
                <person xml:id="bromius" sex="MALE" role="caupo">
-                  <persName>Bromius/Caupo</persName>
+                  <persName>Bromius</persName>
+                  <persName type="variant">Caupo</persName>
                </person>
                <person xml:id="melancia" sex="FEMALE" role="ancilla">
                   <persName>Melancia</persName>
@@ -126,7 +133,8 @@
                   <persName>Lorarius b</persName>
                </person>
                <person xml:id="lorcoballus" sex="MALE" role="diabolus">
-                  <persName>Lorcaballus/Lorcoballus</persName>
+                  <persName>Lorcaballus</persName>
+                  <persName type="variant">Lorcoballus</persName>
                </person>
                <person xml:id="marlocappus" sex="MALE" role="diabolus">
                   <persName>Marlocappus</persName>
@@ -190,10 +198,12 @@
          </div>
          <castList>
             <head>Dramatis personae.</head>
-            <castItem>
-               <role>Prologus</role>
-               <roleDesc>cum Morione.</roleDesc>
-            </castItem>
+            <castGroup>
+               <castItem>
+                  <roleDesc>Prologus</roleDesc>
+                  <roleDesc>cum Morione.</roleDesc>
+               </castItem>
+            </castGroup>
             <castItem>
                <role>Philotecnium</role>
                <roleDesc>mater.</roleDesc>
@@ -241,9 +251,9 @@
                <role>Pompus</role>
                <roleDesc>nuncius.</roleDesc>
             </castItem>
-            <castItem>
-               <role>Lorarij duo.</role>
-            </castItem>
+            <castGroup>
+               <roleDesc>Lorarij duo.</roleDesc>
+            </castGroup>
             <castItem>
                <role>Lorcaballus</role>
                <roleDesc>diabolus.</roleDesc>
@@ -252,10 +262,10 @@
                <role>Marlocappus</role>
                <roleDesc>diabolus.</roleDesc>
             </castItem>
-            <castItem>
-               <role>Chorus</role>
+            <castGroup>
+               <roleDesc>Chorus</roleDesc>
                <roleDesc>ex Aristippicae scholae auditoribus.</roleDesc>
-            </castItem>
+            </castGroup>
          </castList>
       </front>
       <body>

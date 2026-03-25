@@ -153,7 +153,7 @@
          <castList>
             <head>INTERLOCUTORES.</head>
             <castItem>
-               <role>Poëta</role>
+               <roleDesc>Poëta</roleDesc>
                <roleDesc>orans argumentum ad populum.</roleDesc>
             </castItem>
             <castItem>
@@ -188,9 +188,9 @@
                <role>CHARINUS</role>
                <roleDesc>Susannae famulus.</roleDesc>
             </castItem>
-            <castItem>
-               <role>CARNIFICES DUO.</role>
-            </castItem>
+            <castGroup>
+               <roleDesc>CARNIFICES DUO.</roleDesc>
+            </castGroup>
             <castItem>
                <role>HELCHIAS</role>
                <roleDesc>Susannae pater.</roleDesc>
@@ -200,15 +200,15 @@
                <roleDesc>propheta.</roleDesc>
             </castItem>
             <castItem>
-               <role>POPULUS</role>
+               <roleDesc>POPULUS</roleDesc>
                <roleDesc>spectator</roleDesc>
             </castItem>
-            <castItem>
-               <role>LORARII DUO</role>
+            <castGroup>
+               <roleDesc>LORARII DUO</roleDesc>
                <roleDesc>personae mutae</roleDesc>
-            </castItem>
+            </castGroup>
             <castItem>
-               <role>Angelus</role>
+               <roleDesc>Angelus</roleDesc>
                <roleDesc>persona muta, stringens gladium</roleDesc>
             </castItem>
          </castList>
