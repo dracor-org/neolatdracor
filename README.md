@@ -48,7 +48,7 @@ encoders: Timo Bremer, Christina Charalampidou, Carina Christensen, Leon Fabian 
 text selection in alphabetical order: Adamus (1552), Aluta (1553), Andrisca (1553), Asotus (1552), Bassarus (1553), Hecastus (1552), Hypomone seu patientia (1554), Iesus scholasticus (1556), Iosephus (1553), Lazarus mendicus (1552), Petriscus (1553), Rebelles (1553)  
 number of texts: 12  
 status: work in progress  
-website: /
+website: [Macropedius Drama Corpus (teaching project)](https://www.klassphil.uni-wuerzburg.de/forschung/forschung-der-latinistik/laufende-forschungsprojekte/macropedius-drama-corpus/)
 
 ### Theatrum Neolatinum
 editor(s): Kateřina Bobková-Valentová (Czech Academy of Science), Alena Bočková (Charles University), Martin Bažil (Charles University), Magdaléna Jacková (Czech Academy of Science), Markéta Klosová (Czech Academy of Science)  
