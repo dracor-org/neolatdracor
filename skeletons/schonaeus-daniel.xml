@@ -1,0 +1,54 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="neolat000134"
+     xml:lang="lat">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Daniel</title>
+            <author>
+               <persName xml:lang="lat">
+                  <forename>Cornelius</forename>
+                  <surname>Schonaeus</surname>
+               </persName>
+               <idno type="wikidata">Q2707820</idno>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="dracor">DraCor</publisher>
+            <idno type="URL">https://dracor.org</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <name>TransLatin</name>
+               <idno type="URL">https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Schonaeus-Daniel.docx</idno>
+            </bibl>
+            <bibl type="originalSource">
+               <title>Cornelius Schonaeus: Daniel. In: Terentii Christiani Pars Secunda: Qua continentur sacrae comoediae sex. Susanna. Daniel. Triumphus Christi. Typhlus. Pentecoste. Ananias. Auctore Cornelio Schonaeo Goudano. Omnia ab auctore diligenter emendata atque recognita. Köln: Gerardus Greuenbruch 1618. pp. 49–89.</title>
+               <idno type="URL">https://books.google.nl/books?id=r-ZIAAAAcAAJ</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="genreTitle">comedy</term>
+            </keywords>
+            <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <standOff>
+      <listEvent>
+         <event type="print" when="1618">
+            <desc/>
+         </event>
+      </listEvent>
+   </standOff>
+   <text>
+      <front/>
+      <body/>
+   </text>
+</TEI>

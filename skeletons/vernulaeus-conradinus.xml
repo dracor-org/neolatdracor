@@ -1,0 +1,55 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="neolat000158"
+     xml:lang="lat">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Conradinus</title>
+            <title type="sub">tragoedia</title>
+            <author>
+               <persName xml:lang="lat">
+                  <forename>Nicolaus</forename>
+                  <surname>Vernulaeus</surname>
+               </persName>
+               <idno type="wikidata">Q2679753</idno>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="dracor">DraCor</publisher>
+            <idno type="URL">https://dracor.org</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <name>TransLatin</name>
+               <idno type="URL">https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Vernulaeus-Conradinus.docx</idno>
+            </bibl>
+            <bibl type="originalSource">
+               <title>Nicolai Vernulaei Tragoediae (1656)</title>
+               <idno type="URL">https://books.google.nl/books?id=hgDowgEACAAJ</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="genreTitle">tragedy</term>
+            </keywords>
+            <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <standOff>
+      <listEvent>
+         <event type="print" when="1656">
+            <desc/>
+         </event>
+      </listEvent>
+   </standOff>
+   <text>
+      <front/>
+      <body/>
+   </text>
+</TEI>

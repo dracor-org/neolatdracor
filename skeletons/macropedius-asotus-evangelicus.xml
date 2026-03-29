@@ -1,0 +1,53 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="neolat000103"
+     xml:lang="lat">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Asotus evangelicus</title>
+            <author>
+               <persName xml:lang="lat">
+                  <forename>Georgius</forename>
+                  <surname>Macropedius</surname>
+               </persName>
+               <idno type="wikidata">Q710836</idno>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="dracor">DraCor</publisher>
+            <idno type="URL">https://dracor.org</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <name>Census Nederlands Toneel (Ceneton)</name>
+               <idno type="URL">https://www.let.leidenuniv.nl/Dutch/Ceneton/MacropediusAsotus1552.html</idno>
+            </bibl>
+            <bibl type="originalSource">
+               <title>Georgius Macropedius: Asotus. In: Henk Giebels, Frans Slits: Georgius Macropedius 1487 - 1558. Leven en werken van een Brabantse humanist. Tilburg: Stichting Zuidelijk Historisch Contact Tilburg 2005, De komedies van Macropedius. CD-ROM: Latijnse tekst van Omnes Fabulae Comicae.</title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="genreTitle">Christian drama</term>
+            </keywords>
+            <classCode scheme="http://www.wikidata.org/entity/">Q5110327</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <standOff>
+      <listEvent>
+         <event type="print" when="1552">
+            <desc/>
+         </event>
+      </listEvent>
+   </standOff>
+   <text>
+      <front/>
+      <body/>
+   </text>
+</TEI>
