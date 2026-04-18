@@ -4633,40 +4633,43 @@
 - id: neolat000112
   name: muretus-iulius-caesar
   title: Iulius Caesar
+  subtitle: Tragoedia
   qid: null
   authors:
     - forename: Marcus Antonius
       surname: Muretus
       qid: Q1345657
       gnd: "119258951"
-  yearPrinted: "1590"
-  yearWritten: null
+  yearPrinted: "1591"
+  yearWritten: "1497"
   premiered: null
   form: verse
   genre: tragedy
   genreQid: Q80930
-  region: null
-  regionQid: null
-  project: TransLatin
-  status: DOCX, TEI (basic)
-  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
-  transcription:
-    by: Jan Bloemendal
-    supervisor: null
+  region: Kingdom of France
+  regionQid: Q70972
+  project: null
+  status: tei, published
+  licenceNotes: Public domain, permission granted by Ceneton editor
+  acknowledgements: Copyright of the online edition in the Ceneton project edited
+    by Ton Harmsen (c) Leiden University. Thanks to Ton Harmsen for the
+    authorisation of this digitisation.
   source:
-    title: TransLatin
-    editor: Jan Bloemendal
-    url: https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Muretus-Caesar.docx
-    type: DOCX
+    title: Census Nederlands Toneel (Ceneton)
+    editor: Ton Harmsen; Jan Bloemendal
+    url: https://www.let.leidenuniv.nl/Dutch/Latijn/MURE01.html
+    type: HTML
+    availability:
+      status: free
+      note: The editions on the website edited by Antonius Harmsen (Leiden University) are
+        public domain. See https://www.let.leidenuniv.nl/Dutch/Canonisations.html
     source:
-      title: "M. A. Mureti Iulius Caesar. In: M. A. Mureti Iuuenalia. Barth: Officina
-        principis 1590. pp. 17–40."
-      year: "1590"
-      url: https://mdz-nbn-resolving.de/details:bsb10190276
+      title: "Marcus Antonius Muretus: Tragoedia. Iulius Caesar. Rostock: Stephan Möllemann 1591."
+      year: "1591"
       type: print
   complete: true
   _includeInOverview: true
-  _includeDocx: true
+  _includeDocx: false
 - id: neolat000113
   name: mussatus-ecerinis
   title: Tragoedia Ecerinis
@@ -6989,7 +6992,6 @@
           Camerarij, necnon Henrici Stephani annotationes. Unà cum Indice
           sententiarum Sophoclearum. [Geneva:] Paul Estienne 1603. pp. 257–376."
         year: "1603"
-        url: https://www.hum2.leidenuniv.nl/Dutch/Ceneton/Facsimiles/WinsemiusOedipusTyrannus1603/index.htm
         type: print
   complete: true
   _includeInOverview: true
