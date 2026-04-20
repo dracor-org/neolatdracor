@@ -1,0 +1,59 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="neolat000073"
+     xml:lang="lat">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tragoedia Sophompaneas</title>
+            <author>
+               <persName xml:lang="lat">
+                  <forename>Hugo</forename>
+                  <surname>Grotius</surname>
+               </persName>
+               <idno type="wikidata">Q154959</idno>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="dracor">DraCor</publisher>
+            <idno type="URL">https://dracor.org</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <name>Census Nederlands Toneel (Ceneton)</name>
+               <idno type="URL">https://www.hum2.leidenuniv.nl/Dutch/Ceneton/GrotiusSophompaneas1635.html</idno>
+            </bibl>
+            <bibl type="originalSource">
+               <title>Hugonis Grotii tragoedia Sophompaneas. Accesserunt, Tragoedia ejusdem Christus Patiens, et sacri argumenti alia, Ex editione anni M D CXVII recusa emendatiora. Amsterdam: Guilielmus Blaeu 1635.</title>
+               <idno type="URL">https://www.hum2.leidenuniv.nl/Dutch/Ceneton/LijstCeneton.html#032650</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="genreTitle">tragedy</term>
+            </keywords>
+            <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <standOff>
+      <listEvent>
+         <event type="print" when="1635">
+            <desc/>
+         </event>
+      </listEvent>
+      <listRelation>
+         <relation name="wikidata"
+                   active="https://dracor.org/entity/neolat000073"
+                   passive="http://www.wikidata.org/entity/Q1708649"/>
+      </listRelation>
+   </standOff>
+   <text>
+      <front/>
+      <body/>
+   </text>
+</TEI>

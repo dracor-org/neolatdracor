@@ -1,0 +1,54 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="neolat000061"
+     xml:lang="lat">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Comoedia nova ac sacra, cui titulus, Soter gloriosus</title>
+            <author>
+               <persName xml:lang="lat">
+                  <forename>Franciscus</forename>
+                  <surname>Eucolus</surname>
+               </persName>
+               <idno type="wikidata">Q107696053</idno>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="dracor">DraCor</publisher>
+            <idno type="URL">https://dracor.org</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <name>TransLatin</name>
+               <idno type="URL">https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Goethals-Soter.docx</idno>
+            </bibl>
+            <bibl type="originalSource">
+               <title>Comoedia nova ac sacra, cui titulus, Soter gloriosus. Auctore Francisco Eucolo Gandensi. Leuven: Ioannes Bogardus 1563.</title>
+               <idno type="URL">https://www.google.de/books/edition/Comoedia_nova_ac_sacra_cvi_titvlvs_soter/yq0TAAAAQAAJ?hl=de</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="genreTitle">comedy</term>
+            </keywords>
+            <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <standOff>
+      <listEvent>
+         <event type="print" when="1563">
+            <desc/>
+         </event>
+      </listEvent>
+   </standOff>
+   <text>
+      <front/>
+      <body/>
+   </text>
+</TEI>
