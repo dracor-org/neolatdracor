@@ -14,7 +14,7 @@ editor(s): Thomas Baier, Joachim Hamm, Ulrich Schlegelmilch (all University of W
 encoder(s): tba  
 text selection in alphabetical order: Aiax lora gestans (1556), Electra (1556)  
 number of texts: 2  
-status: dormant  
+status: work in progress  
 website: [Camerarius digital](http://www.camerarius.de)
 
 ### From Stage to Page. Neo-Latin School Drama in the Early Modern Southern Low Countries and its Manuscript Tradition
@@ -39,7 +39,7 @@ transcriber(s): Monika Deželak Trojar, Ana Bembič, Kajetan Škraban
 encoder(s): tba  
 text selection in alphabetical order: See the overview below.  
 number of texts: 28  
-status: work in progress  
+status: dormant  
 website: tba
 
 ### Macropedius Drama Corpus
