@@ -1458,12 +1458,12 @@
   yearWritten: null
   premiered: null
   form: verse
-  genre: Bible play
-  genreQid: Q856327
+  genre: comedy
+  genreQid: Q40831
   region: Low Countries
   regionQid: Q476033
   project: Macropedius Drama Corpus
-  status: text
+  status: tei, published
   licenceNotes: Public domain, permission granted by editors, CC0 1.0 possible.
   transcription:
     by: null
@@ -1482,7 +1482,8 @@
     type: HTML
     availability:
       status: free
-      note: In the public domain.  
+      note: The editions on the website edited by Antonius Harmsen (Leiden University) are public
+            domain. See https://www.let.leidenuniv.nl/Dutch/Canonisations.html.  
     source:
       title: "Georgius Macropedius: Iesus Scholasticus. In: Henk Giebels, Frans Slits:
         Georgius Macropedius 1487 - 1558. Leven en werken van een Brabantse
@@ -4633,40 +4634,43 @@
 - id: neolat000112
   name: muretus-iulius-caesar
   title: Iulius Caesar
+  subtitle: Tragoedia
   qid: null
   authors:
     - forename: Marcus Antonius
       surname: Muretus
       qid: Q1345657
       gnd: "119258951"
-  yearPrinted: "1590"
-  yearWritten: null
+  yearPrinted: "1591"
+  yearWritten: "1497"
   premiered: null
   form: verse
   genre: tragedy
   genreQid: Q80930
-  region: null
-  regionQid: null
-  project: TransLatin
-  status: DOCX, TEI (basic)
-  licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
-  transcription:
-    by: Jan Bloemendal
-    supervisor: null
+  region: Kingdom of France
+  regionQid: Q70972
+  project: null
+  status: tei, published
+  licenceNotes: Public domain, permission granted by Ceneton editor
+  acknowledgements: Copyright of the online edition in the Ceneton project edited
+    by Ton Harmsen (c) Leiden University. Thanks to Ton Harmsen for the
+    authorisation of this digitisation.
   source:
-    title: TransLatin
-    editor: Jan Bloemendal
-    url: https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Muretus-Caesar.docx
-    type: DOCX
+    title: Census Nederlands Toneel (Ceneton)
+    editor: Ton Harmsen; Jan Bloemendal
+    url: https://www.let.leidenuniv.nl/Dutch/Latijn/MURE01.html
+    type: HTML
+    availability:
+      status: free
+      note: The editions on the website edited by Antonius Harmsen (Leiden University) are
+        public domain. See https://www.let.leidenuniv.nl/Dutch/Canonisations.html
     source:
-      title: "M. A. Mureti Iulius Caesar. In: M. A. Mureti Iuuenalia. Barth: Officina
-        principis 1590. pp. 17–40."
-      year: "1590"
-      url: https://mdz-nbn-resolving.de/details:bsb10190276
+      title: "Marcus Antonius Muretus: Tragoedia. Iulius Caesar. Rostock: Stephan Möllemann 1591."
+      year: "1591"
       type: print
   complete: true
   _includeInOverview: true
-  _includeDocx: true
+  _includeDocx: false
 - id: neolat000113
   name: mussatus-ecerinis
   title: Tragoedia Ecerinis
@@ -5097,7 +5101,7 @@
 - id: neolat000129
   name: salius-nassovius
   title: Nassovius
-  subtitle: tragoedia
+  subtitle: Tragoedia
   qid: null
   authors:
     - forename: Panagius
@@ -5113,22 +5117,31 @@
   region: Kingdom of France
   regionQid: Q70972
   project: TransLatin
-  status: DOCX, TEI (basic)
+  status: tei, published
   licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   source:
     title: TransLatin
     editor: Jan Bloemendal
-    url: https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Salius-Nassovius.docx
+    url: https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Salius-Nassovius.docx
     type: DOCX
+    note: Commit 6202f8dda05bf0fc2fce7d1fe7cfe08c147631e4
+    availability:
+      status: free
     source:
-      title: "Panagius Salius: Nassouius tragoedia. In: Panagii Salii Audomarensis
-        Varia Poemata. Paris: Dionysius à Prato 1589."
+      title: Gallica (BNF)
       year: "1589"
       url: https://gallica.bnf.fr/ark:/12148/bpt6k134076p
-      type: print
+      type: PDF
+      availability:
+        status: free
+        note: In the public domain.
+      source:
+        title: "Panagius Salius: Nassovius. Tragoedia. In: Panagii Salii Audomarensis Varia Poemata. Paris: Dionysius à Prato 1589."
+        year: "1589"
+        type: print
   complete: true
   _includeInOverview: true
-  _includeDocx: true
+  _includeDocx: false
 - id: neolat000130
   name: schoepperus-ectrachelistes
   title: Ectrachelistes sive Iohannes decollatus
@@ -6980,7 +6993,6 @@
           Camerarij, necnon Henrici Stephani annotationes. Unà cum Indice
           sententiarum Sophoclearum. [Geneva:] Paul Estienne 1603. pp. 257–376."
         year: "1603"
-        url: https://www.hum2.leidenuniv.nl/Dutch/Ceneton/Facsimiles/WinsemiusOedipusTyrannus1603/index.htm
         type: print
   complete: true
   _includeInOverview: true
@@ -7071,4 +7083,638 @@
       type: print
   complete: true
   _includeInOverview: true
+  _includeDocx: false
+- id: neolat000172
+  name: anonymus-hermenigildus
+  title: Hermenigildus 
+  subtitle:  Princeps Hispaniae pro fide certans, patiens, occumbens
+  qid: null
+  authors:
+    - name: Anonymus
+      qid: null
+      gnd: null
+  yearPrinted: null
+  yearWritten: null
+  premiered: "1672"
+  form: verse
+  genre: tragedy
+  genreQid: Q80930
+  region: Low Countries
+  regionQid: Q476033
+  project: From Stage to Page
+  status: DOCX
+  licenceNotes: INFORMATION NEEDED
+  transcription:
+    by: Nicholas De Sutter
+    supervisor: null
+  funding:
+    organization: FWO
+    line: 1291325N
+  acknowledgements: "null"
+  source:
+    title: Vanves, Archives jésuites, MS IPa 146 nr. 17
+    type: manuscript
+    copyright: Vanves, Archives jésuites
+  complete: FALSE
+  _includeInOverview: null
+  _includeDocx: false
+- id: neolat000173
+  name: anonymus-mauritius-romanorum-imperator
+  title: Mauritius Romanorum imperator
+  subtitle: metuens, fugiens, captus, et moriens
+  qid: null
+  authors:
+    - name: Anonymus
+      qid: null
+      gnd: null
+  yearPrinted: null
+  yearWritten: null
+  premiered: "1661"
+  form: verse
+  genre: tragedy
+  genreQid: Q80930
+  region: Gent
+  regionQid: Q1296
+  project: From Stage to Page
+  status: DOCX
+  licenceNotes: INFORMATION NEEDED
+  transcription:
+    by: Nicholas De Sutter
+    supervisor: null
+  funding:
+    organization: FWO
+    line: 1291325N
+  acknowledgements: "null"
+  source:
+    title: Vanves, Archives jésuites, MS IPa 146 nr. 6
+    type: manuscript
+    copyright: Vanves, Archives jésuites
+  complete: FALSE
+  _includeInOverview: null
+  _includeDocx: false
+- id: neolat000174
+  name: anonymus-verus-et-sincerus-amor-davidis-et-ionathae
+  title: Verus et sincerus amor Davidis et Ionathae
+  subtitle: rebus prosperis conciliatus, adversis magis accensus, in morte non extinctus
+  qid: null
+  authors:
+    - name: Anonymus
+      qid: null
+      gnd: null
+  yearPrinted: null
+  yearWritten: null
+  premiered: "1666"
+  form: verse
+  genre: tragedy
+  genreQid: Q80930
+  region: Gent
+  regionQid: Q1296
+  project: From Stage to Page
+  status: DOCX
+  licenceNotes: INFORMATION NEEDED
+  transcription:
+    by: Nicholas De Sutter
+    supervisor: null
+  funding:
+    organization: FWO
+    line: 1291325N
+  acknowledgements: "null"
+  source:
+    title: Vanves, Archives jésuites, MS IPa 146 nr. 3
+    type: manuscript
+    copyright: Vanves, Archives jésuites
+  complete: FALSE
+  _includeInOverview: null
+  _includeDocx: false
+- id: neolat000175
+  name: du cygne-codrillos
+  title: Codrillos
+  qid: null
+  authors:
+    - forename: Martinus
+      surname: du Cygne
+      qid: Q21545079
+  yearPrinted: "1679"
+  yearWritten: null
+  premiered: "1663"
+  form: verse
+  genre: comedy
+  genreQid: Q40831
+  region: Luxemburg
+  regionQid: Q1842
+  project: From Stage to Page
+  status: DOCX
+  licenceNotes: Public domain
+  transcription:
+    by: Nicholas De Sutter
+    supervisor: null
+  funding:
+    organization: FWO
+    line: 1291325N
+  source:
+      title: Martini du Cygne Audomarensis e S.J. Comoediae XII, phrasi cum Plautina tum Terentiana concinnatae. Pars prior et pars posterior. Opus posthumum, Leodii, apud Joannem Mathiam Hovium, 1679
+      year: "1679"
+      url: https://www.google.be/books/edition/R_P_Martini_Du_Cygne_Audomarensis_e_Soci/vqAjcaQDLrgC?hl=nl&gbpv=0
+      type: print
+  complete: true
+  _includeInOverview: null
+  _includeDocx: false
+- id: neolat000176
+  name: du cygne-dormientes
+  title: Dormientes
+  qid: null
+  authors:
+    - forename: Martinus
+      surname: du Cygne
+      qid: Q21545079
+  yearPrinted: "1679"
+  yearWritten: null
+  premiered: null
+  form: verse
+  genre: comedy
+  genreQid: Q40831
+  region: Luxemburg
+  regionQid: Q1842
+  project: From Stage to Page
+  status: DOCX
+  licenceNotes: Public domain
+  transcription:
+    by: Nicholas De Sutter
+    supervisor: null
+  funding:
+    organization: FWO
+    line: 1291325N
+  source:
+      title: Martini du Cygne Audomarensis e S.J. Comoediae XII, phrasi cum Plautina tum Terentiana concinnatae. Pars prior et pars posterior. Opus posthumum, Leodii, apud Joannem Mathiam Hovium, 1679
+      year: "1679"
+      url: https://www.google.be/books/edition/R_P_Martini_Du_Cygne_Audomarensis_e_Soci/vqAjcaQDLrgC?hl=nl&gbpv=0
+      type: print
+  complete: true
+  _includeInOverview: null
+  _includeDocx: false
+- id: neolat000177
+  name: du cygne-dos
+  title: Dos
+  qid: null
+  authors:
+    - forename: Martinus
+      surname: du Cygne
+      qid: Q21545079
+  yearPrinted: "1679"
+  yearWritten: null
+  premiered: null
+  form: verse
+  genre: comedy
+  genreQid: Q40831
+  region: Luxemburg
+  regionQid: Q1842
+  project: From Stage to Page
+  status: DOCX
+  licenceNotes: Public domain
+  transcription:
+    by: Nicholas De Sutter
+    supervisor: null
+  funding:
+    organization: FWO
+    line: 1291325N
+  source:
+      title: Martini du Cygne Audomarensis e S.J. Comoediae XII, phrasi cum Plautina tum Terentiana concinnatae. Pars prior et pars posterior. Opus posthumum, Leodii, apud Joannem Mathiam Hovium, 1679
+      year: "1679"
+      url: https://www.google.be/books/edition/R_P_Martini_Du_Cygne_Audomarensis_e_Soci/vqAjcaQDLrgC?hl=nl&gbpv=0
+      type: print
+  complete: true
+  _includeInOverview: null
+  _includeDocx: false
+- id: neolat000178
+  name: du cygne-fernandes
+  title: Fernandes
+  qid: null
+  authors:
+    - forename: Martinus
+      surname: du Cygne
+      qid: Q21545079
+  yearPrinted: "1679"
+  yearWritten: null
+  premiered: "1657"
+  form: verse
+  genre: comedy
+  genreQid: Q40831
+  region: Luxemburg
+  regionQid: Q1842
+  project: From Stage to Page
+  status: DOCX
+  licenceNotes: Public domain
+  transcription:
+    by: Nicholas De Sutter
+    supervisor: null
+  funding:
+    organization: FWO
+    line: 1291325N
+  source:
+      title: Martini du Cygne Audomarensis e S.J. Comoediae XII, phrasi cum Plautina tum Terentiana concinnatae. Pars prior et pars posterior. Opus posthumum, Leodii, apud Joannem Mathiam Hovium, 1679
+      year: "1679"
+      url: https://www.google.be/books/edition/R_P_Martini_Du_Cygne_Audomarensis_e_Soci/vqAjcaQDLrgC?hl=nl&gbpv=0
+      type: print
+  complete: true
+  _includeInOverview: null
+  _includeDocx: false
+- id: neolat000179
+  name: du cygne-franciscanus
+  title: Franciscanus
+  qid: null
+  authors:
+    - forename: Martinus
+      surname: du Cygne
+      qid: Q21545079
+  yearPrinted: "1679"
+  yearWritten: null
+  premiered: null
+  form: verse
+  genre: comedy
+  genreQid: Q40831
+  region: Luxemburg
+  regionQid: Q1842
+  project: From Stage to Page
+  status: DOCX
+  licenceNotes: Public domain
+  transcription:
+    by: Nicholas De Sutter
+    supervisor: null
+  funding:
+    organization: FWO
+    line: 1291325N
+  source:
+      title: Martini du Cygne Audomarensis e S.J. Comoediae XII, phrasi cum Plautina tum Terentiana concinnatae. Pars prior et pars posterior. Opus posthumum, Leodii, apud Joannem Mathiam Hovium, 1679
+      year: "1679"
+      url: https://www.google.be/books/edition/R_P_Martini_Du_Cygne_Audomarensis_e_Soci/vqAjcaQDLrgC?hl=nl&gbpv=0
+      type: print
+  complete: true
+  _includeInOverview: null
+  _includeDocx: false
+- id: neolat000180
+  name: du cygne-gemma 
+  title: Gemma
+  qid: null
+  authors:
+    - forename: Martinus
+      surname: du Cygne
+      qid: Q21545079
+  yearPrinted: "1679"
+  yearWritten: null
+  premiered: null
+  form: verse
+  genre: comedy
+  genreQid: Q40831
+  region: Luxemburg
+  regionQid: Q1842
+  project: From Stage to Page
+  status: DOCX
+  licenceNotes: Public domain
+  transcription:
+    by: Nicholas De Sutter
+    supervisor: null
+  funding:
+    organization: FWO
+    line: 1291325N
+  source:
+      title: Martini du Cygne Audomarensis e S.J. Comoediae XII, phrasi cum Plautina tum Terentiana concinnatae. Pars prior et pars posterior. Opus posthumum, Leodii, apud Joannem Mathiam Hovium, 1679
+      year: "1679"
+      url: https://www.google.be/books/edition/R_P_Martini_Du_Cygne_Audomarensis_e_Soci/vqAjcaQDLrgC?hl=nl&gbpv=0
+      type: print
+  complete: true
+  _includeInOverview: null
+  _includeDocx: false
+- id: neolat000181
+  name: du cygne-gymnasium 
+  title: Gymnasium
+  qid: null
+  authors:
+    - forename: Martinus
+      surname: du Cygne
+      qid: Q21545079
+  yearPrinted: "1679"
+  yearWritten: null
+  premiered: null
+  form: verse
+  genre: comedy
+  genreQid: Q40831
+  region: Luxemburg
+  regionQid: Q1842
+  project: From Stage to Page
+  status: DOCX
+  licenceNotes: Public domain
+  transcription:
+    by: Nicholas De Sutter
+    supervisor: null
+  funding:
+    organization: FWO
+    line: 1291325N
+  source:
+      title: Martini du Cygne Audomarensis e S.J. Comoediae XII, phrasi cum Plautina tum Terentiana concinnatae. Pars prior et pars posterior. Opus posthumum, Leodii, apud Joannem Mathiam Hovium, 1679
+      year: "1679"
+      url: https://www.google.be/books/edition/R_P_Martini_Du_Cygne_Audomarensis_e_Soci/vqAjcaQDLrgC?hl=nl&gbpv=0
+      type: print
+  complete: true
+  _includeInOverview: null
+  _includeDocx: false
+- id: neolat000182
+  name: du cygne-lytrum
+  title: Lytrum
+  qid: null
+  authors:
+    - forename: Martinus
+      surname: du Cygne
+      qid: Q21545079
+  yearPrinted: "1679"
+  yearWritten: null
+  premiered: "1664"
+  form: verse
+  genre: comedy
+  genreQid: Q40831
+  region: Luxemburg
+  regionQid: Q1842
+  project: From Stage to Page
+  status: DOCX
+  licenceNotes: Public domain
+  transcription:
+    by: Nicholas De Sutter
+    supervisor: null
+  funding:
+    organization: FWO
+    line: 1291325N
+  source:
+      title: Martini du Cygne Audomarensis e S.J. Comoediae XII, phrasi cum Plautina tum Terentiana concinnatae. Pars prior et pars posterior. Opus posthumum, Leodii, apud Joannem Mathiam Hovium, 1679
+      year: "1679"
+      url: https://www.google.be/books/edition/R_P_Martini_Du_Cygne_Audomarensis_e_Soci/vqAjcaQDLrgC?hl=nl&gbpv=0
+      type: print
+  complete: true
+  _includeInOverview: null
+  _includeDocx: false
+- id: neolat000183
+  name: du cygne-marsupium
+  title: Marsupium
+  qid: null
+  authors:
+    - forename: Martinus
+      surname: du Cygne
+      qid: Q21545079
+  yearPrinted: "1679"
+  yearWritten: null
+  premiered: null
+  form: verse
+  genre: comedy
+  genreQid: Q40831
+  region: Luxemburg
+  regionQid: Q1842
+  project: From Stage to Page
+  status: DOCX
+  licenceNotes: Public domain
+  transcription:
+    by: Nicholas De Sutter
+    supervisor: null
+  funding:
+    organization: FWO
+    line: 1291325N
+  source:
+      title: Martini du Cygne Audomarensis e S.J. Comoediae XII, phrasi cum Plautina tum Terentiana concinnatae. Pars prior et pars posterior. Opus posthumum, Leodii, apud Joannem Mathiam Hovium, 1679
+      year: "1679"
+      url: https://www.google.be/books/edition/R_P_Martini_Du_Cygne_Audomarensis_e_Soci/vqAjcaQDLrgC?hl=nl&gbpv=0
+      type: print
+  complete: true
+  _includeInOverview: null
+  _includeDocx: false
+- id: neolat000184
+  name: du cygne-prandium
+  title: Prandium
+  qid: null
+  authors:
+    - forename: Martinus
+      surname: du Cygne
+      qid: Q21545079
+  yearPrinted: "1679"
+  yearWritten: null
+  premiered: null
+  form: verse
+  genre: comedy
+  genreQid: Q40831
+  region: Luxemburg
+  regionQid: Q1842
+  project: From Stage to Page
+  status: DOCX
+  licenceNotes: Public domain
+  transcription:
+    by: Nicholas De Sutter
+    supervisor: null
+  funding:
+    organization: FWO
+    line: 1291325N
+  source:
+      title: Martini du Cygne Audomarensis e S.J. Comoediae XII, phrasi cum Plautina tum Terentiana concinnatae. Pars prior et pars posterior. Opus posthumum, Leodii, apud Joannem Mathiam Hovium, 1679
+      year: "1679"
+      url: https://www.google.be/books/edition/R_P_Martini_Du_Cygne_Audomarensis_e_Soci/vqAjcaQDLrgC?hl=nl&gbpv=0
+      type: print
+  complete: true
+  _includeInOverview: null
+  _includeDocx: false
+- id: neolat000185
+  name: du cygne-sepultus
+  title: Sepultus
+  qid: null
+  authors:
+    - forename: Martinus
+      surname: du Cygne
+      qid: Q21545079
+  yearPrinted: "1679"
+  yearWritten: null
+  premiered: null
+  form: verse
+  genre: comedy
+  genreQid: Q40831
+  region: Luxemburg
+  regionQid: Q1842
+  project: From Stage to Page
+  status: DOCX
+  licenceNotes: Public domain
+  transcription:
+    by: Nicholas De Sutter
+    supervisor: null
+  funding:
+    organization: FWO
+    line: 1291325N
+  source:
+      title: Martini du Cygne Audomarensis e S.J. Comoediae XII, phrasi cum Plautina tum Terentiana concinnatae. Pars prior et pars posterior. Opus posthumum, Leodii, apud Joannem Mathiam Hovium, 1679
+      year: "1679"
+      url: https://www.google.be/books/edition/R_P_Martini_Du_Cygne_Audomarensis_e_Soci/vqAjcaQDLrgC?hl=nl&gbpv=0
+      type: print
+  complete: true
+  _includeInOverview: null
+  _includeDocx: false
+- id: neolat000186
+  name: du cygne-villicus
+  title: Villicus
+  qid: null
+  authors:
+    - forename: Martinus
+      surname: du Cygne
+      qid: Q21545079
+  yearPrinted: "1679"
+  yearWritten: null
+  premiered: null
+  form: verse
+  genre: comedy
+  genreQid: Q40831
+  region: Luxemburg
+  regionQid: Q1842
+  project: From Stage to Page
+  status: DOCX
+  licenceNotes: Public domain
+  transcription:
+    by: Nicholas De Sutter
+    supervisor: null
+  funding:
+    organization: FWO
+    line: 1291325N
+  source:
+      title: Martini du Cygne Audomarensis e S.J. Comoediae XII, phrasi cum Plautina tum Terentiana concinnatae. Pars prior et pars posterior. Opus posthumum, Leodii, apud Joannem Mathiam Hovium, 1679
+      year: "1679"
+      url: https://www.google.be/books/edition/R_P_Martini_Du_Cygne_Audomarensis_e_Soci/vqAjcaQDLrgC?hl=nl&gbpv=0
+      type: print
+  complete: true
+  _includeInOverview: null
+  _includeDocx: false
+- id: neolat000187
+  name: kleinmayr-mancipium-in-solio
+  title: Mancipium in solio
+  subtitle: seu Iventus II. Chinensium imperator
+  qid: null
+  authors:
+    - forename: Virgil
+      surname: Kleinmayr
+      qid: null  
+  yearPrinted: null
+  yearWritten: null
+  premiered: "1726"
+  form: prose
+  genre: comedy
+  genreQid: Q40831
+  region: Salzburg
+  regionQid: Q34713
+  project: From Stage to Page
+  status: DOCX
+  licenceNotes: INFORMATION NEEDED
+  transcription:
+    by: Nicholas De Sutter
+    supervisor: null
+  funding:
+    organization: FWO
+    line: 1291325N
+  acknowledgements: "null"
+  source:
+    title: München, Bayerische Staatsbibliothek, Clm 27430, f. 230-269; Benediktinerabtei Michaelbeuern, Stiftsbibliothek, man. cart. 394
+    type: manuscript
+    copyright: INFORMATION NEEDED
+  complete: FALSE
+  _includeInOverview: null
+  _includeDocx: false
+- id: neolat000188
+  name: rodriguez-herodes-saeviens
+  title: Herodes saeviens
+  subtitle: drama tragicum
+  qid: null
+  authors:
+    - forename: Emmanuel
+      surname: Rodriguez
+      qid: null
+  yearPrinted: "1626"
+  yearWritten: null
+  premiered: null
+  form: verse
+  genre: tragedy
+  genreQid: Q80930
+  region: Antwerp
+  regionQid: Q12892
+  project: From Stage to Page
+  status: DOCX
+  licenceNotes: Public domain
+  transcription:
+    by: Nicholas De Sutter
+    supervisor: null
+  funding:
+    organization: FWO
+    line: 1291325N
+  source:
+      title: Herodes saeviens. Drama tragicum. Pars prima. Auctore P.F. Emmanuele Rodriguez Ordinis S. Augustini, Antverpiae, Apud Ioannem Cnobbarum, 1626
+      year: "1626"
+      url: https://www.google.be/books/edition/Herodes_saeviens_drama_tragicum_pars_pri/PZDFtJL5FtsC?hl=nl&gbpv=0
+      type: print
+  complete: true
+  _includeInOverview: null
+  _includeDocx: false
+- id: neolat000189
+  name: rodriguez-rodericus-fatalis
+  title: Rodericus fatalis
+  subtitle: drama tragicum
+  qid: null
+  authors:
+    - forename: Emmanuel
+      surname: Rodriguez
+      qid: null
+  yearPrinted: "1645"
+  yearWritten: null
+  premiered: null
+  form: verse
+  genre: tragedy
+  genreQid: Q80930
+  region: Antwerp
+  regionQid: Q12892
+  project: From Stage to Page
+  status: DOCX
+  licenceNotes: Public domain
+  transcription:
+    by: Nicholas De Sutter
+    supervisor: null
+  funding:
+    organization: FWO
+    line: 1291325N
+  source:
+      title: P.Fr. Emmanuelis Rodriguez Ord. Erem. S. Augustini S.T. Baccal. Epigrammaton liber primus. Tragoediae II. Herodes Saeviens. Rodericus Fatalis, Antverpiae, apud Cornelium Woons, 1645
+      year: "1645"
+      url: https://www.google.be/books/edition/Epigrammaton_liber_primus_Tragoediae_II/El8kPQOkSDgC?hl=nl&gbpv=1&dq=Epigrammaton+liber+primus.+Tragoediae+II.+Herodes+Saeviens.+Rodericus+Fatalis&pg=PA3&printsec=frontcover
+      type: print
+  complete: true
+  _includeInOverview: null
+  _includeDocx: false
+- id: neolat000190
+  name: wallaeus-divinae-iustitiae-theatrum
+  title: Divinae iustitiae theatrum
+  subtitle: sive Maria Othonis III. Imp. uxor
+  qid: null
+  authors:
+    - forename: Theodorus
+      surname: Wallaeus
+      qid: null
+  yearPrinted: "1631"
+  yearWritten: null
+  premiered: null
+  form: verse
+  genre: tragedy
+  genreQid: Q80930
+  region: Leuven 
+  regionQid: Q118958
+  project: From Stage to Page
+  status: DOCX
+  licenceNotes: Public domain
+  transcription:
+    by: Nicholas De Sutter
+    supervisor: null
+  funding:
+    organization: FWO
+    line: 1291325N
+  source:
+      title: Theodorus Wallaeus, Divinae iustitiae theatrum sive Maria Othonis III. Imp. uxor tragoedia, Lovanii, typis Phil. Dormalij, 1631
+      year: "1631"
+      url: https://books.google.nl/books?id=rNtIAAAAcAAJ&printsec=frontcover&hl=nl&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
+      type: print
+  complete: true
+  _includeInOverview: null
   _includeDocx: false
