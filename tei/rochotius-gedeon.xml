@@ -36,8 +36,7 @@
             <idno type="URL">https://dracor.org</idno>
             <availability>
                <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
-               <p>Permission for this publication under CC0 1.0 granted by the Theatrum Neolatinum team in consultation
-                  with the publisher.</p>
+               <p>Permission for this publication under CC0 1.0 granted by the Theatrum Neolatinum team in consultation with the publisher.</p>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -124,7 +123,7 @@
       <front>
          <titlePage>
             <docAuthor>
-               <pb n="A1r" />Andreae Rochotii a Rochicerberga, L. P. </docAuthor>
+               <pb n="A1r" />Andreae Rochotii a Rochicerberga, L. P.</docAuthor>
             <docTitle>
                <titlePart type="main">Gedeon</titlePart>
                <titlePart type="sub">comaedia nova,</titlePart>
@@ -155,9 +154,9 @@
                <salute>Insignia Illustris ac Perantiquae Familiae Baronum a Zierotina</salute>
             </opener>
             <l n="1">Cur leo sublimi scopulo se glorius effert,</l>
-            <l n="2">Signa Zierotinae gentis avita gerens?</l>
+            <l n="2" rend="indent">Signa Zierotinae gentis avita gerens?</l>
             <l n="3">Robore quadrupedes quod ut hic supereminet omnes,</l>
-            <l n="4" rend="indent2">Sic ea Marte, toga vincat et arte pares.</l>
+            <l n="4" rend="indent">Sic ea Marte, toga vincat et arte pares.</l>
             <l n="5">Illustris longum o gens istis utere signis,</l>
             <l n="6" rend="indent">Altius in coelum ut laude vehenda nova.</l>
          </div>
@@ -186,7 +185,7 @@
             <l n="18" rend="indent">Cordaque Cyclopicis asperiora feris,</l>
             <pb n="A2v" />
             <l n="19">Sed facilis candor solidisque exculta Camaenis</l>
-            <l n="20" rend="indent">Pectora, quae tetricae nil feritatis alunt.</l>
+            <l n="20" rend="indent">Pectora, quae tetricae nil feritatis alunt,</l>
             <l n="21">Quae jocus et sacris capiat condita venustas</l>
             <l n="22" rend="indent">Quaeque juvant risus, gratia blanda, lepos;</l>
             <l n="23">Quae norunt, Martis qualis consensio et artis,</l>
@@ -503,7 +502,7 @@
                   <l n="103">Nefanda surdis vota lignis concinens.</l>
                   <l n="104">Sensisset haud nunc hostici agminis minas,</l>
                   <l n="105">Caedes, cruores, sterile sine cultu solum,</l>
-                  <l n="106">Timore trepido pectus aegrum saucia; </l>
+                  <l n="106">Timore trepido pectus aegrum saucia;</l>
                   <l n="107">Nec misera miseris habita ludibrio modis</l>
                   <pb n="B3v" />
                   <l n="108">Jugum pateretur servitutis barbari,</l>
@@ -791,7 +790,7 @@
                <sp who="#angelus">
                   <speaker>Angelus</speaker>
                   <l n="270">Sit auspicatum, quicquid animo destinas.</l>
-                  <l n="271">At at te pacifer hinc Jova deus</l>
+                  <l n="271">At te pacifer hinc Jova deus</l>
                   <l n="272">Incolumem in tua tecta reducat</l>
                   <l n="273">Quaeque agitas animo perficere</l>
                   <l n="274">Det tibi, nam generosus</l>
@@ -806,8 +805,8 @@
                   <persName ref="#gedeon">Gedeon</persName>, <persName ref="#chorus">Chorus</persName>, <persName ref="#praeco">Praeco</persName>, <emph rend="italic">Exercitus</emph>.</stage>
                <sp who="#gedeon">
                   <speaker>Gedeon</speaker>
-                  <l n="276">Jehova, Numen propitium. pollens, potens,</l>
-                  <l n="277">Tuis amicis lenis et salutifer</l>
+                  <l n="276">Jehova, Numen propitium, pollens, potens,</l>
+                  <l n="277">Tuis amicis lenis et salutifer,</l>
                   <l n="278">En, ductor armis haud paratu et bellico</l>
                   <l n="279">Fretus, Tui sed numinis fiducia</l>
                   <l n="280">Nunc recta ad ipsam prodeo victoriam,</l>
@@ -1068,8 +1067,8 @@
                   <l n="438">Partem concidam. Comitem se mi adjungito.</l>
                   <l n="439">Vos, qui dispositi hic estis in praesidiis,</l>
                   <l n="440">Sese intra castra continete strenue.</l>
-                  <l n="441">Quid hoc, pedes? Siccine agitis? Statin ̓ , pedes?</l>
-                  <l n="442">An nondum etiam? Quid? Vultin ̓ Herum subvertere?</l>
+                  <l n="441">Quid hoc, pedes? Siccine agitis? Statin’, pedes?</l>
+                  <l n="442">An nondum etiam? Quid? Vultin’ herum subvertere?</l>
                   <l n="443">Sine, videamus Medi copias trucis.</l>
                </sp>
                <sp who="#phara">
@@ -1095,11 +1094,11 @@
                   <l n="450" part="F" rend="indent">Summa omnium ad</l>
                   <l n="451">Sexcenta sexaginta et octo millia.</l>
                   <l n="452">Ex his, qui ferre possunt arma, ad millium</l>
-                  <l n="453" part="I">Nongenta duo. </l>
+                  <l n="453" part="I">Nongenta duo.</l>
                </sp>
                <sp who="#phara">
                   <speaker>Phara</speaker>
-                  <l n="453" part="F" rend="indent">Amalcitarum st ̓ grege,</l>
+                  <l n="453" part="F" rend="indent">Amalcitarum st’ grege,</l>
                   <l n="454">En, cum Medo unus in vicem nunc disserunt,</l>
                   <l n="455" part="I">Ni fallor.</l>
                </sp>
@@ -1138,7 +1137,7 @@
                <sp who="#amalcita">
                   <speaker>Amalcita</speaker>
                   <l n="468">Utinam liceret! Sed metus cor vellicat formidine,</l>
-                  <l n="469">Quoties oberrat tristis mihi illius imago somnii</l>
+                  <l n="469">Quoties oberrat tristis mihi illius imago somnii.</l>
                   <l n="470">Heu me miserum! In quos casus, quam sortem referor, ego miser?</l>
                   <l n="471" part="I">Ach! Ach! Heu mihi! Vae mihi! Quid querar, aut quo fugiam? Proh!</l>
                </sp>
@@ -1178,7 +1177,7 @@
                   <persName ref="#gedeon">Gedeon</persName>, <persName ref="#phara">Phara</persName>.</stage>
                <sp who="#gedeon">
                   <speaker>Gedeon</speaker>
-                  <l n="484" part="I">Audin ̓, Phara?</l>
+                  <l n="484" part="I">Audin’, Phara?</l>
                </sp>
                <sp who="#phara">
                   <speaker>Phara</speaker>
@@ -1186,7 +1185,7 @@
                </sp>
                <sp who="#gedeon">
                   <speaker>Gedeon</speaker>
-                  <l n="484" part="F" rend="indent">O tantum timorem subito exercitum</l>
+                  <l n="484" part="F" rend="indent2">O tantum timorem subito exercitum</l>
                   <l n="485" part="I">Omnem occupasse!</l>
                </sp>
                <sp who="#phara">
@@ -1354,7 +1353,7 @@
                   <l n="567">Dii magni! Ut ego laetus sum, ut laeticia differor et gaudio,</l>
                   <l n="568">Quod hostibus victis triumphat Gedeon, milites ovent!</l>
                   <l n="569">Nam hoc nisi sic esset, vitam ego meam cassa nuce non redimerem.</l>
-                  <l n="570">Sed videon ̓ Gedeonem cum Manasse? Ipsus est, certe ipsus est.</l>
+                  <l n="570">Sed videon’ Gedeonem cum Manasse? Ipsus est, certe ipsus est.</l>
                   <pb n="E1v" />
                   <l n="571">O Gedeon! O Manasses! Salvete, exoptatissimi!</l>
                </sp>
