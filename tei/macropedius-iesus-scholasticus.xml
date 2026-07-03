@@ -1,0 +1,3003 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="dracor" xml:id="neolat000106" xml:lang="la">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Iesus scholasticus</title>
+        <author>
+          <persName xml:lang="la">
+            <forename>Georgius</forename>
+            <surname>Macropedius</surname>
+          </persName>
+          <idno type="wikidata">Q710836</idno>
+          <idno type="gnd">124180043</idno>
+        </author>
+        <editor>Henk Giebels</editor>
+        <editor>Frans Slits</editor>
+        <editor>Ton Harmsen</editor>
+        <respStmt>
+          <resp>Converted to TEI under the supervision of</resp>
+          <persName ref="https://orcid.org/0000-0001-8979-8706">Julia Jennifer Beine</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Converted to TEI by</resp>
+          <persName ref="https://orcid.org/0009-0005-4988-9423">Johannes Lukas Kern</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>University of Würzburg</authority>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+          <p>Copyright of the critical edition (c) Stichting Zuidelijk Historisch Contact Tilburg.
+            Cf. <title>Henk Giebels, Frans Slits: Georgius Macropedius 1487 - 1558. Leven en werken
+              van een Brabantse humanist. Tilburg: Stichting Zuidelijk Historisch Contact Tilburg
+              2005.</title></p>
+          <p>Copyright of the online edition in the Ceneton project edited by Ton Harmsen (c) Leiden
+            University.</p>
+          <p>Thanks to Ton Harmsen, Frans Slits, and Henk Giebels for the authorisation of this
+            digitisation.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <ref target="https://www.let.leidenuniv.nl/Dutch/Ceneton/MacropediusJesus1556.html">Census
+            Nederlands Toneel (Ceneton)</ref>
+          <availability status="free">
+            <p>The editions on the website edited by Antonius Harmsen (Leiden University) are public
+              domain. See https://www.let.leidenuniv.nl/Dutch/Canonisations.html.</p>
+          </availability>
+        </bibl>
+        <bibl type="originalSource">
+          <author>Georgius Macropedius</author>: <title>Iesus Scholasticus</title>. In: <author>Henk
+            Giebels</author>, <author>Frans Slits</author>: <title level="m">Georgius Macropedius
+            1487 - 1558. Leven en werken van een Brabantse humanist</title>.
+            <pubPlace>Tilburg</pubPlace>: <publisher>Stichting Zuidelijk Historisch Contact
+            Tilburg</publisher>, <date>2005</date>, <biblScope unit="CD-ROM">De komedies van
+            Macropedius. Latijnse tekst van Omnes Fabulae Comicae</biblScope>. </bibl>
+        <listEvent>
+          <event type="print" when="1556">
+            <desc>first print</desc>
+          </event>
+        </listEvent>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="abibas" sex="MALE" ana="https://www.wikidata.org/wiki/Q320850">
+            <persName>Abibas</persName>
+          </person>
+          <personGrp xml:id="caeteri" sex="UNKNOWN">
+            <name>Caeteri</name>
+          </personGrp>
+          <person xml:id="a" sex="UNKNOWN" corresp="#caeteri">
+            <persName>A</persName>
+          </person>
+          <person xml:id="b" sex="UNKNOWN" corresp="#caeteri">
+            <persName>B</persName>
+          </person>
+          <person xml:id="c" sex="UNKNOWN" corresp="#caeteri">
+            <persName>C</persName>
+          </person>
+          <person xml:id="d" sex="UNKNOWN" corresp="#caeteri">
+            <persName>D</persName>
+          </person>
+          <personGrp xml:id="chorus" sex="UNKNOWN" role="chorus">
+            <persName>Chorus</persName>
+          </personGrp>
+          <person xml:id="elizabeth" sex="FEMALE" ana="https://www.wikidata.org/wiki/Q235849">
+            <persName>Elizabeth</persName>
+          </person>
+          <person xml:id="epilogus" sex="MALE" role="epilogus">
+            <persName>Epilogus</persName>
+          </person>
+          <person xml:id="iesuah" sex="MALE" ana="https://www.wikidata.org/wiki/Q302">
+            <persName>Iesuah</persName>
+          </person>
+          <person xml:id="ioannes" sex="MALE" ana="https://www.wikidata.org/wiki/Q40662">
+            <persName>Ioannes</persName>
+          </person>
+          <person xml:id="iosephus" sex="MALE" ana="https://www.wikidata.org/wiki/Q128267">
+            <persName>Iosephus</persName>
+          </person>
+          <person xml:id="iustus" sex="MALE" ana="https://www.wikidata.org/wiki/Q983883">
+            <persName>Iustus</persName>
+          </person>
+          <person xml:id="gabriel" sex="MALE" role=" angelus"
+            ana="https://www.wikidata.org/wiki/Q81989">
+            <persName>Gabriel</persName>
+          </person>
+          <person xml:id="gamaliel" sex="MALE" ana="https://www.wikidata.org/wiki/Q310584">
+            <persName>Gamaliel</persName>
+          </person>
+          <person xml:id="maria" sex="FEMALE" ana="https://www.wikidata.org/wiki/Q345">
+            <persName>Maria</persName>
+          </person>
+          <person xml:id="nabal" sex="MALE">
+            <persName>Nabal</persName>
+          </person>
+          <person xml:id="nathanael" sex="MALE" ana="https://www.wikidata.org/wiki/Q1359769">
+            <persName>Nathanael</persName>
+          </person>
+          <person xml:id="nicodemus" sex="MALE">
+            <persName>Nicodemus</persName>
+          </person>
+          <person xml:id="paedisca" sex="FEMALE">
+            <persName>Paedisca</persName>
+          </person>
+          <person xml:id="philippus" sex="MALE" ana="https://www.wikidata.org/wiki/Q43675">
+            <persName>Philippus</persName>
+          </person>
+          <person xml:id="pontifex" sex="MALE" role="pontifex">
+            <persName>Pontifex</persName>
+          </person>
+          <person xml:id="prologus" sex="MALE" role="prologus">
+            <persName>Prologus</persName>
+          </person>
+          <person xml:id="saul" sex="MALE" ana="https://www.wikidata.org/wiki/Q9200">
+            <persName>Saul</persName>
+          </person>
+          <person xml:id="stephanus" sex="MALE" ana="https://www.wikidata.org/wiki/Q161775">
+            <persName>Stephanus</persName>
+          </person>
+          <person xml:id="zacharias" sex="MALE" ana="https://www.wikidata.org/wiki/Q139464">
+            <persName>Zacharias</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">comedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Bible play</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q856327</classCode>
+      </textClass>
+      <creation>
+        <region>
+          <ref target="http://www.wikidata.org/entity/Q476033">Low Countries</ref>
+        </region>
+      </creation>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <pb n="fol. A1r"/>
+        <docTitle>
+          <titlePart type="main">IESUS SCHOLASTICUS</titlePart>
+          <titlePart type="desc">Georgij Macropedij.</titlePart>
+        </docTitle>
+        <epigraph>
+          <gap reason="figure">
+            <desc>[Vignet: Superantur ingenio vires]</desc>
+          </gap>
+        </epigraph>
+        <docImprint>
+          <pubPlace>ULTRAIECTI.</pubPlace>
+          <publisher>Harmannus Borculous excudebat.</publisher>
+          <date>Anno 1556.</date>
+        </docImprint>
+      </titlePage>
+      <div type="dedication">
+        <pb n="fol. A1v"/>
+        <opener>
+          <salute>REVERENDO D. NI COLAO A NOVA TERRA EPISCOPI Hebronensi, &amp; Suffraganeo
+            Traiectensi, Georgius Macropedius S. D. P.</salute>
+        </opener>
+        <p>PRo singulari qua me semper complexus es Reverende Domine, tua benevolentia, non habeo
+          quod tibi rependam, praeter exiguum hoc literarium munusculum (nempe Iesum scholasticum)
+          quod tibi nonnihil placere consideravi. Hoc itaque tibi liberius (quamquam non sine
+          rubore) quàm alij cuivis nuncupare ausus fui. Novisti siquidem naturam meam pusillanimem,
+          &amp; plus satis verecundam. Accipe igitur Reverende praesul hoc quantulumcumqe
+          munusculum, quod verecundus offero, &amp; boni consule.</p>
+        <closer>
+          <salute>Vale in Christo Iesu omnium nostrum quantumvis puero salvatore &amp;
+            redemptore.</salute>
+          <dateline>Traiecti anno 1556.</dateline>
+        </closer>
+      </div>
+      <div type="prologue">
+        <pb n="fol. A2r"/>
+        <head>PROLOGUS.</head>
+        <sp who="#prologus">
+          <l>AUdite me puelli &amp; adolescentuli,</l>
+          <l>Quotquot theatro nostro adestis comico,</l>
+          <l>Advertite (inquam) &amp; mentem &amp; aures paululum,</l>
+          <l>Ut audiatis pauculos logos meos,</l>
+          <l n="5">Quos omnium vestrum in salutem &amp; commodum</l>
+          <l>Iam proloquar. Silete &amp; animadvertite.</l>
+          <l>Pater supernus filium Deus deum</l>
+          <l>Demisit exulantem in hoc ergastulum,</l>
+          <l>Ut recuperaret perditum genus hominum,</l>
+          <l n="10">Primo quod in parente Adamo perierat.</l>
+          <l>Hic carne sumpta ex illabata virgine,</l>
+          <l>Nostri absque scelere factus est simillimus.</l>
+          <l>Qui moribus seorsum ab incunabulis</l>
+          <l>Pijs probisque docuit id, quod postmodum</l>
+          <l n="15">Sermonibus docturus erat in publico.</l>
+          <l>Puerilibus itaque vos Iesu moribus</l>
+          <l>(Scholasticos praesertim &amp; omnes parvulos)</l>
+          <l>Primis ab annis imbui ex animo volens,</l>
+          <l>Vobis Iesum nunc scholasticum offero,</l>
+          <l n="20">Qui neutiquam virum potentem in opere &amp; in</l>
+          <l>Sermone vobis obtulissem comicos.</l>
+          <l>Id quod quidem me iudice foret indecens.</l>
+          <l>Non omnia siquidem apta sunt comoediae</l>
+          <l>Rerum argumenta. Gravia enim tragaediae</l>
+          <pb n="fol. A2v"/>
+          <l n="25">Mage congruunt, &amp; maxime si heroicae</l>
+          <l>Personae erunt, tristemque habebunt exitum.</l>
+          <l>State itaque vos pueri, ut puellum Iesuah</l>
+          <l>Cum matre virgine videatis progredi.</l>
+          <l>State (inquam) &amp; omnibus quietis fabulis</l>
+          <l n="30">Spectate si qua imitatione digna sint,</l>
+          <l>In matre virginea aut puello Iesuah.</l>
+        </sp>
+      </div>
+      <castList>
+        <head>Dramatis personae.</head>
+        <castGroup>
+          <castItem>
+            <role>Prologus</role>
+            <roleDesc>cum Epilogo.</roleDesc>
+          </castItem>
+        </castGroup>
+        <castItem>
+          <role>Nathanael</role>
+        </castItem>
+        <castItem>
+          <role>Abibas</role>
+        </castItem>
+        <castItem>
+          <role>Iesuah</role>
+        </castItem>
+        <castItem>
+          <role>Iustus</role>
+        </castItem>
+        <castItem>
+          <role>Maria</role>
+        </castItem>
+        <castItem>
+          <role>Saul</role>
+        </castItem>
+        <castItem>
+          <role>Elizabeth</role>
+        </castItem>
+        <castItem>
+          <role>Gamaliel</role>
+        </castItem>
+        <castItem>
+          <role>Ioannes</role>
+        </castItem>
+        <castItem>
+          <role>Nicodemus</role>
+        </castItem>
+        <castItem>
+          <role>Zacharias</role>
+        </castItem>
+        <castItem>
+          <role>Nabal</role>
+        </castItem>
+        <castItem>
+          <role>Iosephus</role>
+        </castItem>
+        <castItem>
+          <roleDesc>Pontifex</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Stephanus</role>
+        </castItem>
+        <castItem>
+          <role>Paedisca.</role>
+        </castItem>
+        <castItem>
+          <role>Gabriel</role>
+        </castItem>
+        <castItem>
+          <role><supplied>Philippus</supplied></role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <div type="scene" n="1">
+          <pb n="fol. A3r"/>
+          <head>Actus primi. Scena prima.</head>
+          <stage type="delivery">Versus Iambici <corr>trimetri</corr>.</stage>
+          <stage type="characters">Maria. Iesuah.</stage>
+          <sp who="#maria">
+            <l>LAssata sum puer oppido ex laboribus</l>
+            <l>Itineris huius, nec minus tu (ut suspicor)</l>
+            <l>Quod adhuc es admodum puer, nec adhuc satis</l>
+            <l n="35" part="I">Solidata sunt vestigia.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">Ita se res habet,</l>
+            <l>Sed amplius condoleo lassitudini</l>
+            <l>Tuae, meis quàm incommodis matercula, (heu)</l>
+            <l>Sedeamus igitur hac sub arbore, &amp; patrem</l>
+            <l>Moremur, itidem lassum (ut autumo) suis</l>
+            <l n="40">Qui me subinde baiulavit in humeris.</l>
+          </sp>
+          <sp who="#maria">
+            <speaker>Mar.</speaker>
+            <l>Patrem tuum morabimur mi gnate in hoc</l>
+            <l>Loco, ut quiescamus aliquantulum sub his</l>
+            <l>Ramis virentibus, quoad pater pius</l>
+            <l>Adveniat, ut Deum patrem tuum &amp; omnium</l>
+            <l n="45">Nostrum invocemus, ac litemus victimam.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l>Me mater offer victimam, me victimam</l>
+            <l>Pater salutarem dedit litantibus.</l>
+            <l>Per me patrem reddent sibi propicium, ad haec</l>
+            <l>Tandem ipse victimam offeram me pro omnibus.</l>
+          </sp>
+          <sp who="#maria">
+            <speaker>Mar.</speaker>
+            <l n="50">Quid est quod inquis gnate mi? Num tradues</l>
+            <l part="I">Te olim necandum ut victimam?</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">Velut oviculam</l>
+            <l>Ducent ad aram innoxiam. Prorsus semel</l>
+            <l>Ne pereat omne hominum genus. Placanda sic</l>
+            <pb n="fol. A3v"/>
+            <l>Ira est patris, propter scelus qui iratus est</l>
+            <l n="55" part="I">Generi omnium mortalium.</l>
+          </sp>
+          <sp who="#maria">
+            <speaker>Mar.</speaker>
+            <l part="F">Heu me gnate mi</l>
+            <l>(Ut video) nondum omnes machaerae quas mihi</l>
+            <l>Simeon senex praedixerat, animam meam</l>
+            <l part="I">Secuere.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">Non omnes utique mater mea,</l>
+            <l part="I">Sed pluria his sufferre oportet te atque me.</l>
+          </sp>
+          <sp who="#maria">
+            <speaker>Mar.</speaker>
+            <l part="F">Heu.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l n="60">Ne lachrima matercula, en pater meus</l>
+            <l>Nunc advenit cum Zacharia atque familia,</l>
+            <l>Qui erunt tibi solatio. Ne lachrima.</l>
+          </sp>
+          <sp who="#maria">
+            <speaker>Mar.</speaker>
+            <l>Surgamus itaque, nam petit me Elizabeth</l>
+            <l>Cum tibi cognato puerulo &amp; prodromo tuo,</l>
+            <l n="65" part="I">Ut suspicor.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">Ne suspicare, ita res se habet.</l>
+            <l>Nam is est puer qui haud editus me haud editum</l>
+            <l>In gaudio cognovit, &amp; vaticinio</l>
+            <l>Patris mihi praecursor indicatus est.</l>
+            <l>Iam terge ocellos, nam propinquat Elizabeth.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>Scena secunda.</head>
+          <stage type="characters">Maria. Elizabeth. Iesus. Ioannes.</stage>
+          <sp who="#maria">
+            <l n="70">COgnata salve plurimum in sancto osculo.</l>
+            <l>Quam gaudeo in Deo salutari meo</l>
+            <l>Quod post tot annos denuo videre te</l>
+            <l>Merui tuo cum filio &amp; puero meo.</l>
+          </sp>
+          <sp who="#elizabeth">
+            <speaker>Eli.</speaker>
+            <l>O virgo mater inclyta domini mei,</l>
+            <l n="75">Non creduas quanto aniculam hanc me gaudio</l>
+            <l>Perfuderis, nec creduas quanta hic puer</l>
+            <pb n="fol. A4r"/>
+            <l>Nunc gestiet laetitia, ubi dominum suum</l>
+            <l>Coram videbit, qui in utero exiluit meo</l>
+            <l>Nondum editus, prae gaudio praesentiae.</l>
+            <l n="80">Accede matrem gnate mi domini tui, &amp;</l>
+            <l>Coram aspice tibi coaevum Iesuah,</l>
+            <l>Propter quem in utero gestiebas gaudio.</l>
+          </sp>
+          <sp who="#maria">
+            <speaker>Mar.</speaker>
+            <l>Adcede Iesu prodromi matrem tui,</l>
+            <l>Deinde loquere prodromo coaevulo.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l n="85" part="I">Cognata salve Elizabeth.</l>
+          </sp>
+          <sp who="#elizabeth">
+            <speaker>Eli.</speaker>
+            <l part="F">Salve puer</l>
+            <l>Dulcissime &amp; ter maxime. Huc adsis puer.</l>
+          </sp>
+          <sp who="#ioannes">
+            <speaker>Io.</speaker>
+            <l part="I">Mater mea adsum.</l>
+          </sp>
+          <sp who="#elizabeth">
+            <speaker>Eli.</speaker>
+            <l part="F">Non Iesuah tibi</l>
+            <l part="I">Coaevulum &amp; nepotulum nosti?</l>
+          </sp>
+          <sp who="#ioannes">
+            <speaker>Io.</speaker>
+            <l part="F">Probe, hem,</l>
+            <l>Mi domine Iesu unde hoc mihi ut me servulum</l>
+            <l n="90">Tuum inutilem digneris invisere prior?</l>
+            <l>Duodecimus nunc annus est, quod primulum</l>
+            <l>Te matris in utero meae nondum editus</l>
+            <l>Nondum editum prae gaudio exiliens puer</l>
+            <l>Agnoveram, &amp; prae gaudio nunc maximo</l>
+            <l n="95" part="I">Illachrimor.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ie.</speaker>
+            <l part="F">Te lachrimante non queo</l>
+            <l>Quin lachrimem dilecte Ioannes Deo.</l>
+            <l>Te amplector &amp; deosculor dilecte mi.</l>
+          </sp>
+          <sp who="#elizabeth">
+            <speaker>Eli.</speaker>
+            <l>En quanta vis amoris his in parvulis.</l>
+            <l>Quis dubitet has per lachrimas quin alteri</l>
+            <l n="100">Vitam suam alter ultroneus impenderit,</l>
+            <l>Si iam sibi vim tanti amoris exhibent?</l>
+          </sp>
+          <pb n="fol. A4v"/>
+          <sp who="#maria">
+            <speaker>Mar.</speaker>
+            <l>Heu lachrimas mihi quoque cient hae lachrimae.</l>
+          </sp>
+          <sp who="#elizabeth">
+            <speaker>Eli.</speaker>
+            <l>Materna mens gnatum videns lachrimarier,</l>
+            <l part="I">Qui contineat a lachrimis?</l>
+          </sp>
+          <sp who="#maria">
+            <speaker>Mar.</speaker>
+            <l part="F">Hae lachrimae</l>
+            <l n="105">Praesagiunt diras mihi neptis mea,</l>
+            <l>Pauloque post (heu me) futuras lachrimas.</l>
+            <l>Quas inde ab annis duodecim praedixerat</l>
+            <l>Mihi Simeon per spiritum propheticum. Heu.</l>
+          </sp>
+          <sp who="#elizabeth">
+            <speaker>Eli.</speaker>
+            <l>Domini mei mater tuas siste lachrimas.</l>
+            <l n="110">En tuus Ioseph regia Davidis ex</l>
+            <l>Stirpe editus, iam properat huc cum Zacharia</l>
+            <l>Viro meo. Iam siste lachrimas tuas.</l>
+            <l>Pueri advolant fletu remisso patribus.</l>
+            <l>Nos (si placet) viris eamus obviam.</l>
+          </sp>
+          <sp who="#maria">
+            <speaker>Mar.</speaker>
+            <l n="115">Eamus, &amp; templum Dei ingressi simul</l>
+            <l>Dominum invocemus, &amp; offeramus munera,</l>
+            <l>Quae in lege quondam scripta sunt per Moysen.</l>
+            <l>Ut absolutis singulis negotijs,</l>
+            <l>Montana vos, nos Nasareth, queamus hinc</l>
+            <l n="120">Et expediti &amp; impigri cum parvulis</l>
+            <l>Proficiscier, quod hic dies sit septimus.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>Scena tertia.</head>
+          <stage type="characters">Zacharias. Maria. Ioseph. Elizabeth. Iesuah.</stage>
+          <sp who="#zacharias">
+            <l part="I">SAlvete.</l>
+          </sp>
+          <sp who="#maria">
+            <speaker>Ma.</speaker>
+            <l part="M">Salve Zacharia.</l>
+          </sp>
+          <sp who="#zacharias">
+            <speaker>Za.</speaker>
+            <l part="F">Et tu salvus sis.</l>
+          </sp>
+          <sp who="#elizabeth">
+            <speaker>Eli.</speaker>
+            <l part="I">Salvete.</l>
+          </sp>
+          <sp who="#iosephus">
+            <speaker>Io.</speaker>
+            <l part="F">Salve Elizabeth, sacrificium</l>
+            <l>Ut offeramus vesperum huc concessimus.</l>
+            <pb n="fol. A5r"/>
+            <l n="125">Quo crastino diluculo quam liquimus</l>
+            <l part="I">Nostram petamus Nazareth.</l>
+          </sp>
+          <sp who="#zacharias">
+            <speaker>Za.</speaker>
+            <l part="F">Montana nos.</l>
+            <l>Eamus itaque simul in aedem dominicam, &amp;</l>
+            <l>Domino Deo nostras litemus victimas</l>
+            <l>His pro puellis atque eorum matribus</l>
+            <l n="130">Ne illos quod imminet periculum obruat.</l>
+            <l>Scis quid de eis quondam propheta dixerit.</l>
+          </sp>
+          <sp who="#iosephus">
+            <speaker>Io.</speaker>
+            <l>Quid David &amp; reliqui prophetae dixerint</l>
+            <l>Heu novimus, praestat tamen silere quàm</l>
+            <l>Novam movere matribus tragaediam.</l>
+          </sp>
+          <sp who="#zacharias">
+            <speaker>Za.</speaker>
+            <l n="135">Ergo intro euntes impleamus munia.</l>
+            <l part="I">Adeste foeminae.</l>
+          </sp>
+          <sp who="#elizabeth">
+            <speaker>Eli.</speaker>
+            <l part="F">Adsumus cum liberis.</l>
+          </sp>
+          <sp who="#maria">
+            <speaker>Mar.</speaker>
+            <l>Ambae adsumus cum liberis promptissimae.</l>
+            <l>Et in domum domini Dei alacres ibimus.</l>
+            <l>Sistemus &amp; ei liberos spontaneae. Hem.</l>
+            <l n="140">Zebedaei &amp; hic est filius, salve puer.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ie.</speaker>
+            <l>Et hic Ioanniscus est, &amp; hic mihi</l>
+            <l>Cognatus est, &amp; hic mihi dilectus est.</l>
+            <l>Olim mihi multo futurus charior</l>
+            <l>Cum pectori meo incubans mysteria</l>
+            <l n="145">Sapientiae &amp; divini amoris hauserit.</l>
+            <l>Sed audiamus preco quid dicturus est.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>Scena quarta.</head>
+          <stage type="characters">Stephanus. Maria. Ioseph. Iesus.</stage>
+          <pb n="fol. A5v"/>
+          <sp who="#stephanus">
+            <l>AUdite cuncti, state &amp; animadvertite.</l>
+          </sp>
+          <sp who="#iosephus">
+            <speaker>Io.</speaker>
+            <l>Quidnam novi praeterque consuetudinem</l>
+            <l part="I">Inceptat hic loqui?</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">Tacendum erit pater.</l>
+          </sp>
+          <sp who="#stephanus">
+            <speaker>Ste.</speaker>
+            <l n="150">Audite dixi, state &amp; animadvertite.</l>
+            <l>Quia controversia haud parva fuit hactenus</l>
+            <l>De meschia Christóve nostris patribus</l>
+            <l>Promisso, ob hoc decrevimus iam publicis</l>
+            <l>Determinare disputationibus</l>
+            <l n="155">Quidnam rudi populo siet de Meschia</l>
+            <l>Credendum, ob hoc voluere nomodidascali &amp;</l>
+            <l>Legisperiti singulos scholasticis</l>
+            <l>Legalibusque disciplinis subditos,</l>
+            <l>Cras convenire mane ad horam tertiam</l>
+            <l n="160">In hunc locum. cunctique sint iuvenes senesque</l>
+            <l>Et ad rogandum &amp; ad loquendum liberi.</l>
+            <l>Adsintque cuncti qui velint, sive incolae,</l>
+            <l>Sive accolae, sive exteri, sine strepitu.</l>
+            <l>Valete cuncti &amp; praedicate caeteris.</l>
+            <l n="165">Sic praecipit qui praesidebit Gamaliel.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ie.</speaker>
+            <l>O si mihi liceat adesse libere,</l>
+            <l>Citra parentum offensionem &amp; iurgium</l>
+            <l>Huic disputationi. at neutiquam sinent.</l>
+            <l>Sed mage Deo est oboediendum quam hominibus.</l>
+            <l n="170">Palam Deo clam matre cras scholasticus</l>
+            <l>Puer ipse <foreign xml:lang="grc">νομοδιδασκάλους</foreign> accessero,</l>
+            <pb n="fol. A6r"/>
+            <l>Ne videar obviare matris aut patris</l>
+            <l>Temeriter ex protervia beneplacitis.</l>
+          </sp>
+        </div>
+        <div type="scene" subtype="chorus">
+          <head>CHORUS</head>
+          <stage type="delivery">carmine Trochai<lb break="no"/>co dimetro.</stage>
+          <sp who="#chorus">
+            <l>Quisque coelicum parentem</l>
+            <l n="175" rend="indent">Laudet, oret, praedicet,</l>
+            <l>Maxime tamen puelli</l>
+            <l rend="indent">A tenellis unguibus.</l>
+            <l>Quotquot ergo procreastis</l>
+            <l rend="indent">Vel nutritis liberos,</l>
+            <l n="180">Sic docete eos pudicis</l>
+            <l rend="indent">Cum logis tum moribus.</l>
+            <l>Ut Deum timere discant</l>
+            <l rend="indent">Mox ab <corr>incunabulis</corr>,</l>
+            <l>Visitentque templa crebro,</l>
+            <l n="185" rend="indent">Supplices &amp; obsecrent.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="2">
+        <div type="scene" n="1">
+          <head>Actus 2. Scena 1.</head>
+          <stage type="delivery">Versus Tetrametri.</stage>
+          <stage type="characters">Iesuach solus.</stage>
+          <sp who="#iesuah">
+            <l>IN aede sacra aut porticu Schlomonis hoc fiet die</l>
+            <l>(Ut indicavit praeco) de tuo pater mi filio</l>
+            <l>Seu Maschia celeberrima &amp; solennis disputatio,</l>
+            <l>Cui volui adesse pro amplianda gloria pater tua.</l>
+            <l n="190">Urit tamen mentem meam in matrem meam affectus pius,</l>
+            <l>Quod eam sciam supra modum indolituram amaris lachrimis.</l>
+            <pb n="fol. A6v"/>
+            <l>Melius tamen tua pater pro gloria &amp; salute plurium,</l>
+            <l>Ut uterque nostrum lugeat, quam hominum genus male pereat</l>
+            <l>Haec namque vita aeterna erit, si noverint te mi pater</l>
+            <l n="195">Et Iesuah Christum tuum. Solare tu materculam</l>
+            <l>Meam obsecro, per spiritum nobis coaeternum pater.</l>
+            <l>Libenter ego pro perdito homine lachrimabor iugiter.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>Scena secunda.</head>
+          <stage type="characters">Gabriel. Iesuah.</stage>
+          <stage type="delivery">Versus trimetri.</stage>
+          <sp who="#gabriel">
+            <l part="I">AVe.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">Quis hic? Tun’ Gabriel patris mei</l>
+            <l>Bonus angelus fortissimusque nuntius?</l>
+          </sp>
+          <sp who="#gabriel">
+            <speaker>Ga.</speaker>
+            <l n="200">Ego Gabriel puelle tibi minister, &amp;</l>
+            <l>Matri tuae paranymphus integerrimus</l>
+            <l>Ad te a Deo patre missus, ut te non modo</l>
+            <l>Pro matre sollicitum tua consoler, at</l>
+            <l>Etiam futura roborem in certamina</l>
+            <l n="205">Quae tibi puer mox ingruent. Sed fortiter</l>
+            <l>Agas oportet pro paterna gloria, &amp;</l>
+            <l>Salute pro mortalium, certo sciens,</l>
+            <l>Quod a patre tibi tradita sapientia,</l>
+            <l>Omnes tibi contrarios superaveris.</l>
+            <l n="210">Cum tu via ipsa, &amp; veritas, &amp; vita sis,</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l>Supplex ago tibi gratias Deo patri</l>
+            <l>Qui neutiquam me deseris. Sed te obsecro</l>
+            <l>Mi Gabriel, ne deseras matrem meam, sed ut</l>
+            <l>Paranymphus ipsam cum patre meo dirigas.</l>
+          </sp>
+          <pb n="fol. A7r"/>
+          <sp who="#gabriel">
+            <speaker>Gab.</speaker>
+            <l n="215">Et dirigam, &amp; post triduum huc reduxero.</l>
+            <l part="I">Mi domine Iesu iam vale.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">Vale Gabriel,</l>
+            <l>Et me supernis civibus dic exulem. Heu.</l>
+          </sp>
+          <sp who="#gabriel">
+            <speaker>Gab.</speaker>
+            <l>Ne fle puer, dabit tibi Deus pater</l>
+            <l part="I">In omnibus victoriam. Vale.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">Vale.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>Scena tertia.</head>
+          <stage type="characters">Iesuah solus.</stage>
+          <sp who="#iesuah">
+            <l n="220">QUanquam angelus me Gabriel solatus est</l>
+            <l>Blande admodum &amp; corroboravit plurimum,</l>
+            <l>Tanto tamen dolore cor meum angitur</l>
+            <l>Ut non queam quin lachrimem. Parente enim</l>
+            <l>Utroque deserto (heu dolor) solus vagor,</l>
+            <l n="225">Nec adesse matri nec patri charissimo</l>
+            <l>Est integrum. Putabit illa quod patri</l>
+            <l>Nutritio, contra ille quod matri adsiem.</l>
+            <l>Verum absoluto vespere diei itinere,</l>
+            <l>Cum viderint me abesse diversorio,</l>
+            <l n="230">Heu quo dolore &amp; lachrimis uterque tunc</l>
+            <l>Torquebitur. Tunc heu doloris gladius (ut</l>
+            <l>Praedixerat Simeon senex) praecordia</l>
+            <l>Penetrabit, &amp; materna dirus viscera.</l>
+            <l>Inde hic mihi modo gemitus atque hae lachrimae.</l>
+            <l n="235">At utroque posthabito me oportet in tuis</l>
+            <l>Pater supreme sedulo negocijs</l>
+            <l>Versarier. quod ut assequar digne tua</l>
+            <l>Pro gloria, tibi supplices porrigo manus,</l>
+            <pb n="fol. A7v"/>
+            <l>Flectoque tibi cum lachrimis mea genua,</l>
+            <l n="240">Aures tuae obtestans pater clementiae, ut</l>
+            <l>Me exaudias. Christi tui faciem aspice</l>
+            <l>Oculosque rorantes amaris lachrimis.</l>
+            <l>A dexteris quosnam video mihi proximos?</l>
+            <l>Scholastici sunt, sicui sese applicant.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>Scena 4.</head>
+          <stage type="characters">Nathanael. Abibas.</stage>
+          <sp who="#nathanael">
+            <l n="245" part="I">QUemnam videmus eminus puellum?</l>
+          </sp>
+          <sp who="#abibas">
+            <speaker>Ab.</speaker>
+            <l part="F">Ubi?</l>
+          </sp>
+          <sp who="#nathanael">
+            <speaker>Na.</speaker>
+            <l part="I">Procul a sinistris, eiulantem.</l>
+          </sp>
+          <sp who="#abibas">
+            <speaker>Ab.</speaker>
+            <l part="F">Video, sed</l>
+            <l>Non aliquis est nostratium. Candidus enim &amp;</l>
+            <l>Rubicundus est, electus atque ex milibus.</l>
+            <l>Quis non fleat videns puelle amabiles</l>
+            <l n="250">Genas tuas suffundi amaris lachrimis?</l>
+            <l>Vide obsecro te, ut os decens, roseae genae,</l>
+            <l>Frons lata, ocelli splendidi prae se ferunt</l>
+            <l>Et indolem plane entheam, &amp; prae filiis</l>
+            <l>Mortalium forma decorum &amp; inclytum.</l>
+            <l n="255">Quid membra reliqua corporis nisi filium</l>
+            <l>Dei, tribus qui apparuit pueris suis</l>
+            <l>Fornacis olim in ignibus? Nathanael</l>
+            <l>Quin advolamus? quin puellum amplectimur?</l>
+            <l>Quin osculamur? Quem eligas ex milibus,</l>
+            <l n="260">Huic comparandum puerulo vel angelo?</l>
+            <l>Sic nempe facies rutilat, ut vultum angeli</l>
+            <l>Videre mihi videar, eamus obsecro.</l>
+          </sp>
+          <pb n="fol. A8r"/>
+          <sp who="#nathanael">
+            <speaker>Na.</speaker>
+            <l>Mane, sub hac ficu latentes clanculum,</l>
+            <l>Exaudiamus quid Deum precabitur.</l>
+            <l n="265">Se orationi praeparat, nam poplites</l>
+            <l>Solo imprimit, manusque graciles complicat,</l>
+            <l>Oculosque rorantes ad aethera sublevat.</l>
+          </sp>
+          <sp who="#abibas">
+            <speaker>Ab.</speaker>
+            <l>Placet audiamus, vox enim eius dulcis est</l>
+            <l>Et in illius diffusa labris gratia.</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>Scena 5.</head>
+          <stage type="characters">Iesuach. Nathanael. Abibas.</stage>
+          <sp who="#iesuah">
+            <l n="270">O Magne rerum conditor Deus meus</l>
+            <l>Pater meus coelestis ante saecula,</l>
+            <l>Qui gloriae tuae ampliandae gratia,</l>
+            <l>Et pro salute generis hominum perditi</l>
+            <l>Me filium tuum unigenitum in hunc lacum</l>
+            <l n="275">Ex matre mortalem editum, dirae neci</l>
+            <l>Praedestinatum huc e supernis sedibus</l>
+            <l>Misisti, &amp; oro te &amp; obsecro pro temporis</l>
+            <l>Ratione, &amp; hoc aetatis, ut mihi sedium</l>
+            <l>Dones tuarum praesidem sapientiam.</l>
+            <l n="280">Quo adsit mihi, &amp; mecum laboret, ut per hanc</l>
+            <l>Meam tua innotescat orbi gloria.</l>
+            <l>Pater celebra filium tuum hoc die,</l>
+            <l>Quo te tuus celebret vicissim filius.</l>
+            <l>Cum aetate crescat gratia &amp; sapientia,</l>
+            <l n="285">Coram hominibus, tua quo augear gloria.</l>
+            <l>Me ob hoc enim parentibus subduxi, ut in</l>
+            <pb n="fol. A8v"/>
+            <l>His quae tuum ad honorem sient sim sedulo.</l>
+            <l>Da quoque pater animo meo constantiam,</l>
+            <l>Pudore ne confusus humano velim</l>
+            <l n="290">Aut veritatem obnubere aut pessundare.</l>
+          </sp>
+          <sp who="#nathanael">
+            <speaker>Na.</speaker>
+            <l>Perfusus en iam lachrimis surgit puer,</l>
+            <l>Suosque vultus sacram ad aedem dirigit.</l>
+          </sp>
+          <sp who="#abibas">
+            <speaker>Abi.</speaker>
+            <l>Loquamur obiter antequam nos deserat,</l>
+            <l>Quo eius fruamur paululum praesentia.</l>
+            <l n="295">Vox nanque dulcis est genaeque amabiles.</l>
+            <l>En sponte se peti videns nos appetit.</l>
+            <l part="I">Heus tu.</l>
+          </sp>
+          <sp who="#nathanael">
+            <speaker>Na.</speaker>
+            <l part="M">Hem.</l>
+          </sp>
+          <sp who="#abibas">
+            <speaker>Ab.</speaker>
+            <l part="F">Saluta blanditer, quod amore cum</l>
+            <l part="I">Suavitate dignus est.</l>
+          </sp>
+          <sp who="#nathanael">
+            <speaker>Na.</speaker>
+            <l part="F">Memorem mones.</l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>Scena sexta.</head>
+          <stage type="characters">Nathanael. Iesuah. Abibas.</stage>
+          <sp who="#nathanael">
+            <l part="I">AVe puelle.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">Avete amiculi mei.</l>
+          </sp>
+          <sp who="#abibas">
+            <speaker>Ab.</speaker>
+            <l n="300" part="I">Amice salve.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">Salvus es fratercule.</l>
+          </sp>
+          <sp who="#nathanael">
+            <speaker>Na.</speaker>
+            <l>Dic quaeso cuias es puer, quod habitus hic,</l>
+            <l>Praetexta &amp; haec, non incolam aut <foreign xml:lang="grc">ἔπιχώριον</foreign></l>
+            <l>Sed exterum &amp; puerum peregrinum indicant.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l>Ex Nazareth orationis gratia</l>
+            <l n="305">Huc cum meis parentibus concesseram,</l>
+            <l>Illisque (rebus absolutis singulis)</l>
+            <l>Domum reversis solus (eheu) divagor.</l>
+          </sp>
+          <sp who="#nathanael">
+            <speaker>Na.</speaker>
+            <l>Matrem tuam cur deserebas, qui admodum</l>
+            <l part="I">Es adhuc puer?</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">Quod in ijs quae erant patris mei</l>
+            <pb n="fol. B1r"/>
+            <l n="310">Et esse oportuit hactenus, &amp; adhuc fore.</l>
+          </sp>
+          <sp who="#nathanael">
+            <speaker>Na.</speaker>
+            <l part="I">Quid te pater deseruit hic? Studió ne?</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">Non,</l>
+            <l>Sed simplici ignorantia, quandoquidem</l>
+            <l>Pater putavit quod meae materculae,</l>
+            <l>Et illa quod patri adforem. Seorsum enim</l>
+            <l n="315">Revertier solent parentes approbi,</l>
+            <l>Et liberi quibuslibet sociarier.</l>
+            <l>Sed vesperi ubi convenerint doloribus</l>
+            <l>Dirissimis se afflixerint, praesertim ea,</l>
+            <l>In cuius utero coalui menses novem,</l>
+            <l n="320">Que genuit, atque lacte genitum nutrijt,</l>
+            <l>Que nudulum vel involutum fascijs</l>
+            <l>Refovit in gremio suo, que sedulo</l>
+            <l>Coinquinatum sordibus purgavit, &amp;</l>
+            <l>In omnibus necessitatibus meis</l>
+            <l n="325">Puerilibus noctu diuque mihi adfuit.</l>
+            <l>An non putatis hanc piam materculam</l>
+            <l>Supra modum indolituram, ubi vesperi</l>
+            <l>Desiderari viderit, sed vel in agris</l>
+            <l>Vel compitis famelicum vagarier?</l>
+            <l n="330">Profecto mater non potest insigniter</l>
+            <l>Sua non amare pignora, illa maxime,</l>
+            <l>Quibus officia tanta pietatis duodecim</l>
+            <l>Exhibuit annis nec rebellia comperit.</l>
+            <l>Heu causam ob hanc non queo miser quin lachrimem.</l>
+          </sp>
+          <pb n="fol. B1v"/>
+          <sp who="#nathanael">
+            <speaker>Na.</speaker>
+            <l n="335">Desine puer fundere tam amaras lachrimas,</l>
+            <l>Alias nec ipse continebo lachrimas.</l>
+            <l>Tu loquere Abiba cum puellulo puer.</l>
+          </sp>
+          <sp who="#abibas">
+            <speaker>Ab.</speaker>
+            <l>Nec ipse eum flentem videns queo quin fleam.</l>
+            <l part="I">Tu perge eum sermone mutato alloqui.</l>
+          </sp>
+          <sp who="#nathanael">
+            <speaker>Na.</speaker>
+            <l part="F">Hem.</l>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>Scena 7.</head>
+          <stage type="characters">Nathanael. Iesuah. Abibas.</stage>
+          <sp who="#nathanael">
+            <l n="340">AMabo dic quonam voceris nomine.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="I">Iesuah.</l>
+          </sp>
+          <sp who="#nathanael">
+            <speaker>Na.</speaker>
+            <l part="F">Nomen salutis hoc puer.</l>
+            <l>Doce obsecro tuopte more nos quoque</l>
+            <l>Orare coelestem patrem, dabimus tibi</l>
+            <l>Panem suavi butyro aut melle illitum</l>
+            <l n="345">Quod esurire obambulantem suspicor.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l>Cibus est meus facere voluntatem patris</l>
+            <l>Coelos qui inhabitat. Is suos non deserit,</l>
+            <l>Sed se timentes &amp; colentes diligit.</l>
+          </sp>
+          <sp who="#nathanael">
+            <speaker>Na.</speaker>
+            <l part="I">Quot natus es annos?</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">Duodecim ut aestimo.</l>
+          </sp>
+          <sp who="#nathanael">
+            <speaker>Na.</speaker>
+            <l n="350">Quis te erudivit in sacris puellulum?</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l>Nil praeter hoc quod a meo patre didici</l>
+            <l part="I">Novi.</l>
+          </sp>
+          <sp who="#nathanael">
+            <speaker>Na.</speaker>
+            <l part="F">Quisnam est pater? eruditus est?</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l>Omnes in illo sunt simul sapientiae &amp;</l>
+            <l>Scientiae thesauri ad unum absconditi.</l>
+          </sp>
+          <sp who="#nathanael">
+            <speaker>Na.</speaker>
+            <l n="355" part="I">Quid sentit is de Meschia?</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">Quid sentiat,</l>
+            <l>Nisi quod palam scriptura de ipso prodidit?</l>
+          </sp>
+          <sp who="#nathanael">
+            <speaker>Na.</speaker>
+            <l>Videre tu non minus ab ipso praeditus</l>
+            <l>Scientia, quàm si in schola a didascalis</l>
+            <pb n="fol. B2r"/>
+            <l>Legisperitis institutus sis probe.</l>
+            <l n="360">Oramus autem ut adsies doctoribus</l>
+            <l>Nonam sub horam, ut disputantes audias.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="I">Vereor adire.</l>
+          </sp>
+          <sp who="#nathanael">
+            <speaker>Na.</speaker>
+            <l part="F">Te morabimur, atque te</l>
+            <l>Tuebimur, ne te pudor suffundat, aut</l>
+            <l>Deterreat. Quin Gamalieli quoque patri</l>
+            <l n="365">Meo atque nomodidascalo de te loquar.</l>
+            <l>Adest Saul, me abire oportet illico,</l>
+            <l part="I">Tu loquere Abiba parvulo.</l>
+          </sp>
+          <sp who="#abibas">
+            <speaker>Ab.</speaker>
+            <l part="F">Paucis loquar.</l>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>Scena 8.</head>
+          <stage type="characters">Abiba. Iesuah.</stage>
+          <sp who="#abibas">
+            <l>HAec trabea amabo dic tibi unde Iesuah.</l>
+            <l>Contextus hic minime est quidem nostratium.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l n="370">Dicam tibi fratercule atque amicule.</l>
+            <l>Meam volunt materculam hunc <foreign xml:lang="grc"><corr>χιτώνα</corr></foreign>
+              mihi</l>
+            <l>Ipsis ab incunabulis industrie</l>
+            <l>Contexuisse desuper velut <foreign xml:lang="grc">ἄραφον</foreign></l>
+            <l>Talarem adusque fimbriam, &amp; domino a Deo</l>
+            <l n="375">Patre coelico tantum impetrasse precario, ut</l>
+            <l>Haec ipsa crescat cum meo corpusculo</l>
+            <l>Usque ad virilem aetatem &amp; ultimam necem,</l>
+            <l>Et distrahendum ad exteros (heu me) viros.</l>
+          </sp>
+          <sp who="#abibas">
+            <speaker>Ab.</speaker>
+            <l>Quid lachrimae fluunt ocellis denuo?</l>
+            <l n="380">Mortem times quam omnes pariter obibimus?</l>
+            <l>Nos pueri adhuc sumus. Quid ante tempus es</l>
+            <l>Miser, atque me tecum incitas ad lachrimas?</l>
+            <pb n="fol. B2v"/>
+            <l>Quo tunica tum tua distrahenda, aut quo modo?</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l>De me omnia heu quae scripta sunt implenda sunt.</l>
+            <l n="385">Vestes meas partiti erant sibi, &amp; super</l>
+            <l>Vestem meam misere sortes impij</l>
+            <l>Coram meis quoque proximis. Hinc lachrimae.</l>
+          </sp>
+          <sp who="#abibas">
+            <speaker>Ab.</speaker>
+            <l>Ne lachrima. Sile Iesuah, Saul adest.</l>
+            <l>Ne nos ioco Sardonico derideat.</l>
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <head>Scena 9.</head>
+          <stage type="characters">Iustus. Saul. Iesuah. Abibas.</stage>
+          <sp who="#iustus">
+            <l n="390">SAul Saul, liceat mihi rogo congredi.</l>
+          </sp>
+          <sp who="#saul">
+            <speaker>Sa.</speaker>
+            <l>Reverte Iuste domum tuam, quia ineptus es.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l>Sit mecum Iustus obsecro fratres mei</l>
+            <l>Fortasse enim hic aliquando erit mihi notior</l>
+            <l>Quod videam eum bonae indolis puellulum.</l>
+          </sp>
+          <sp who="#saul">
+            <speaker>Sa.</speaker>
+            <l n="395">Indoctus est, prorsusque analphabetus est.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l>Ex ore nonne infantium laudem suam</l>
+            <l>Deus efficit? Liceat Iusto congredi.</l>
+          </sp>
+          <sp who="#saul">
+            <speaker>Sa.</speaker>
+            <l part="I">Licet, adsit.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">Adsit mihi fraterculus</l>
+            <l>Quanquam rudis, probis parentibus ortus est,</l>
+            <l n="400">Viri optimi probique amicus filius.</l>
+            <l>Olim vocandus Barsabas. frater mi ades.</l>
+          </sp>
+          <sp who="#abibas">
+            <speaker>Ab.</speaker>
+            <l part="I">Novistin hunc?</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">Novi probe, hem. quis ephoebus hic?</l>
+            <l>(Citus advolat) qui serio nos appetit?</l>
+          </sp>
+          <sp who="#abibas">
+            <speaker>Ab.</speaker>
+            <l>Is Stephanus est minister hic <foreign xml:lang="grc">διδαςκάλων</foreign>.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l n="405">Minister illorum fidelis est, mihi</l>
+            <l>Testis futurus postea fidelior.</l>
+            <pb n="fol. B3r"/>
+            <l>Nam dura pro me postmodum passurus est.</l>
+          </sp>
+          <sp who="#abibas">
+            <speaker>Ab.</speaker>
+            <l>Exaudiamus quid novi dicturus est.</l>
+          </sp>
+        </div>
+        <div type="scene" n="10">
+          <head>Scena decima.</head>
+          <stage type="characters">Stephanus. Abibas. Saul. Iesus. Iustus.</stage>
+          <sp who="#stephanus">
+            <l>QUid obsecro socij mei moramini?</l>
+            <l n="410">Quin templum aditis atque nomodidascalos?</l>
+            <l>Mandant Gamaliel caeterique didascali,</l>
+            <l>Ut symmathetae mox cum Abiba filio</l>
+            <l>Et Nazareno Iesuah compareant</l>
+            <l>Quo disputantes audiant de Masciah,</l>
+            <l n="415">Interrogentque (si velint) vel disputent.</l>
+            <l>Nathanael vos antevertit singulos.</l>
+            <l>Adeste cuncti, vos morantur plurimi.</l>
+          </sp>
+          <sp who="#abibas">
+            <speaker>Ab.</speaker>
+            <l>Vocat pater me &amp; Iesuah cum caeteris.</l>
+            <l>Eamus itaque alacriter, ne nos pigros</l>
+            <l n="420" part="I">Seu tarditatis arguat.</l>
+          </sp>
+          <sp who="#saul">
+            <speaker>Sa.</speaker>
+            <l part="F">Abeamus hinc.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="I">Vereor Abiba.</l>
+          </sp>
+          <sp who="#abibas">
+            <speaker>Ab.</speaker>
+            <l part="F">Absit pudor, iubet pater,</l>
+            <l>Acceptus eris, amaberisque ab omnibus.</l>
+            <l>Si volueris interroga vel disputa.</l>
+            <l>Adesto Iuste Iesuah cum caeteris.</l>
+          </sp>
+          <sp who="#iustus">
+            <speaker>Iu.</speaker>
+            <l n="425">Puerum puer sequor libens. sequere Saul.</l>
+          </sp>
+          <sp who="#stephanus">
+            <speaker>Ste.</speaker>
+            <l>Ego vos praeibo, adesse vos ut nunciem.</l>
+          </sp>
+          <sp who="#saul">
+            <speaker>Sa.</speaker>
+            <l>Praei, sequor cum parvulis ut parvulus.</l>
+            <l>Festina Iuste lentius ne corruas.</l>
+            <l>Nam si cecideris quis putas te sublevet?</l>
+          </sp>
+          <pb n="fol. B3v"/>
+          <sp who="#iustus">
+            <speaker>Iu.</speaker>
+            <l n="430" part="I">Saul libens.</l>
+          </sp>
+          <sp who="#saul">
+            <speaker>Sa.</speaker>
+            <l part="M">Ego te libens?</l>
+          </sp>
+          <sp who="#iustus">
+            <speaker>Iu.</speaker>
+            <l part="F">Tu me libens.</l>
+            <l>Et si fuas mane lupus rapax, tamen</l>
+            <l>Cum Beniamin ad vesperam escas divides.</l>
+          </sp>
+          <sp who="#saul">
+            <speaker>Sa.</speaker>
+            <l>Putaveram te omnino stupidum &amp; inscium,</l>
+            <l>Non tamen amusum poenitus esse conspicor.</l>
+            <l n="435">Ab Iesuah nec separandum amiculis.</l>
+            <l part="I">Sequere.</l>
+          </sp>
+          <sp who="#iustus">
+            <speaker>Iu.</speaker>
+            <l part="F">Sequor. Scholae sumus iam proximi.</l>
+            <l>Ingreditur atque Pontifex aedem sacram,</l>
+            <l>Fors erit ibi dialexis haec de Meschia.</l>
+            <l>Cui sumus iam a nomodidascalo acciti.</l>
+          </sp>
+          <sp who="#saul">
+            <speaker>Sa.</speaker>
+            <l n="440">Certo ibi futura. Quo putas se Pontifex</l>
+            <l part="I">Nisi sacram ad aedem recipiat? sequere &amp; sile.</l>
+          </sp>
+          <sp who="#iustus">
+            <speaker>Iu.</speaker>
+            <l part="F">Hem.</l>
+          </sp>
+        </div>
+        <div type="scene" subtype="chorus">
+          <head>CHORUS.</head>
+          <sp who="#chorus">
+            <l>Liberos si habes capaces,</l>
+            <l rend="indent">Erudi ipsos si queas,</l>
+            <l>Aut docendis eruditis</l>
+            <l n="445" rend="indent">Trade praeceptoribus.</l>
+            <l>Nam scholaris disciplina</l>
+            <l rend="indent">Omnibus mortalium</l>
+            <l>Disciplinis praestat, atque</l>
+            <l rend="indent">Legibus quibuslibet.</l>
+            <l n="450">Hanc palestram tolle mundo,</l>
+            <l rend="indent">Destrues ecclesiam,</l>
+            <l>Destrues sacrum &amp; profanum,</l>
+            <l rend="indent">Destrues rempublicam.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="3">
+        <div type="scene" n="1">
+          <pb n="fol. B4r"/>
+          <head>Actus tertij. Scena prima.</head>
+          <stage type="characters">Gamaliel. Abibas. Nathanael.</stage>
+          <sp who="#gamaliel">
+            <l>DE puero Iesu mira mihi narrata sunt.</l>
+            <l n="455">Quapropter hunc Domini mei &amp; Didascali</l>
+            <l>Volo huc puellum accirier. Vocetur huc,</l>
+            <l>Si dignus est (ut dicitur) nos audiat,</l>
+            <l>Interroget, vel disputet, quanquam puer</l>
+            <l>Duodennis, aut Galilaeus est. Abiba ades.</l>
+          </sp>
+          <sp who="#abibas">
+            <speaker>Ab.</speaker>
+            <l n="460" part="I">Adsum pater.</l>
+          </sp>
+          <sp who="#gamaliel">
+            <speaker>Ga.</speaker>
+            <l part="F">Quin tecum adest Iesuah.</l>
+            <l>Charus tibi &amp; Nathanieli plurimum?</l>
+            <l part="I">Accerse eum.</l>
+          </sp>
+          <sp who="#abibas">
+            <speaker>Ab.</speaker>
+            <l part="F">Vocabo, quanquam plurimum</l>
+            <l part="I">Verebitur.</l>
+          </sp>
+          <sp who="#gamaliel">
+            <speaker>Ga.</speaker>
+            <l part="F">Concede tu Nathanael,</l>
+            <l>Ut tum pavori tum pudori blanditer</l>
+            <l n="465" part="I">Uterque pueri consulat.</l>
+          </sp>
+          <sp who="#nathanael">
+            <speaker>Na.</speaker>
+            <l part="F">Concedimus,</l>
+            <l>Tuebimurque, ut ambo ei promisimus.</l>
+            <l>Videbitis (ni fallor) in puellulo</l>
+            <l>Divinam inesse &amp; indolem &amp; sapientiam.</l>
+          </sp>
+          <sp who="#gamaliel">
+            <speaker>Ga.</speaker>
+            <l>Ex Nazareth aliquid boni sperabimus?</l>
+          </sp>
+          <sp who="#nathanael">
+            <speaker>Na.</speaker>
+            <l n="470">Sperabimus (dubio procul) multum boni.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>Scena 2.</head>
+          <stage type="characters">Gamaliel. Natanael. Iesuah.
+            <supplied>Pontifex.</supplied></stage>
+          <sp who="#gamaliel">
+            <l>PApae Deum immortalem, ut hic speciosus est</l>
+            <l>Prae filijs mortalium atque amabilis.</l>
+            <l>Quis dubitet hunc Dei inhabitare spiritum?</l>
+          </sp>
+          <sp who="#nathanael">
+            <speaker>Na.</speaker>
+            <l>Hoc dixeris si eum loquentem audiveris.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l n="475">Salvete Nomodidascali &amp; domini mei.</l>
+          </sp>
+          <pb n="fol. B4v"/>
+          <sp who="#gamaliel">
+            <speaker>Ga.</speaker>
+            <l>Quis es puer, vel unde ades? dic libere.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l>Natum ferunt in Bethlehem, at me Nazareth</l>
+            <l part="I">Nutrivit usque in hunc diem.</l>
+          </sp>
+          <sp who="#gamaliel">
+            <speaker>Ga.</speaker>
+            <l part="F">Sunt tibi pater</l>
+            <l part="I">Materque?</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="M">Sunt.</l>
+          </sp>
+          <sp who="#gamaliel">
+            <speaker>Ga.</speaker>
+            <l part="M">Quid pater agit?</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">Faber est pater.</l>
+          </sp>
+          <sp who="#gamaliel">
+            <speaker>Ga.</speaker>
+            <l n="480" part="I">Ars humilis est.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">Hac me tamen nutrivit &amp;</l>
+            <l part="I">Matrem hactenus.</l>
+          </sp>
+          <sp who="#gamaliel">
+            <speaker>Ga.</speaker>
+            <l part="F">In literis versatus es?</l>
+            <l>Te in lege satis &amp; in prophetis asserunt</l>
+            <l part="I">Recte institutum.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">Nil scio, nisi quod meo</l>
+            <l>Ex patre didici, sedulo atque retinui.</l>
+          </sp>
+          <sp who="#gamaliel">
+            <speaker>Ga.</speaker>
+            <l n="485">Adeo eruditus est, ut te quoque interim</l>
+            <l part="I">Doceat &amp; instruat?</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">In eo pene omnis est</l>
+            <l>Thesaurus &amp; sapientiae &amp; prudentiae</l>
+            <l part="I">Reconditus.</l>
+          </sp>
+          <sp who="#nathanael">
+            <speaker>Na.</speaker>
+            <l part="F">Nos idem &amp; ab ipso audivimus,</l>
+            <l>Et in ipso eodem absconditos videbitis.</l>
+          </sp>
+          <sp who="#pontifex">
+            <speaker>Pon.</speaker>
+            <l n="490">Sedeat puellus Iesuah mihi proximus,</l>
+            <l>Dum finiatur ipsa disputatio.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l>Tantisper hoc in angulo sedebo, vel</l>
+            <l>Stabo potius mi domine, dum soluta sit.</l>
+          </sp>
+          <sp who="#nathanael">
+            <speaker>Na.</speaker>
+            <l>Rubore prae pudore puer afficitur, &amp;</l>
+            <l n="495">Veretur inter principes viderier.</l>
+          </sp>
+          <sp who="#gamaliel">
+            <speaker>Ga.</speaker>
+            <l>Sede ergo liber medius inter nos puer,</l>
+            <l>Et hunc locum occupabis hora proxima.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l>Quia sic placet dominis meis, sedeo libens.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>Scena tertia.</head>
+          <pb n="fol. B5r"/>
+          <stage type="characters">Gamaliel. Nicodemus. Nabal.</stage>
+          <sp who="#gamaliel">
+            <l>IAm quemadmodum decrevimus Domini mei</l>
+            <l n="500">Tractandum erit de Meschia, an venturus est,</l>
+            <l>An frustra eum expectavimus, &amp; frustra adhuc</l>
+            <l>Posthac eum expectabimus. Super hoc patres</l>
+            <l>In lege quid vel in prophetis proditum est</l>
+            <l>Scrutamini &amp; decernite, ut populus rudis</l>
+            <l n="505">In veritate roboretur, &amp; in fide</l>
+            <l>(Velut hactenus) non ambigat. Profecto enim haud</l>
+            <l>Refert parum istuc credere aut non credere.</l>
+            <l>Dic Nicodeme tu tuam sententiam,</l>
+            <l>Aetate quod praestas scientiaque in Israhel.</l>
+          </sp>
+          <sp who="#nicodemus">
+            <speaker>Ni.</speaker>
+            <l n="510">Quanquam scio multos fuisse &amp; esse adhuc</l>
+            <l>Qui Meschian ex lege posse Moseos</l>
+            <l>Venturum in hunc mundum negent probarier,</l>
+            <l>Tamen in prophetis id liquet manifestius,</l>
+            <l>Praesertim ijs qui attenti eosdem lectitant.</l>
+            <l n="515">Verum loquantur doctiores doctius.</l>
+          </sp>
+          <sp who="#nabal">
+            <speaker>Nab.</speaker>
+            <l>Nec in prophetis usquam aperte mentio</l>
+            <l>Fit Meschiae, proinde fabulosa sunt</l>
+            <l part="I">Quae dictitarunt hactenus.</l>
+          </sp>
+          <sp who="#gamaliel">
+            <speaker>Ga.</speaker>
+            <l part="F">Quid audio?</l>
+            <l part="I">Dic tu puer quid sentias.</l>
+          </sp>
+          <sp who="#nabal">
+            <speaker>Nab.</speaker>
+            <l part="F">Puer senes</l>
+            <l n="520" part="I">(Si dijs placet) docturus est.</l>
+          </sp>
+          <sp who="#gamaliel">
+            <speaker>Ga.</speaker>
+            <l part="F">Sile parum.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>Scena quarta.</head>
+          <stage type="characters">Iesuah. Pontifex. Gamaliel.</stage>
+          <pb n="fol. B5v"/>
+          <sp who="#iesuah">
+            <l>DOmini mei &amp; patres mei miror equidem</l>
+            <l>In re quod hac manifesta adhuc haeretis &amp;</l>
+            <l>Titubatis. An semel excidit quod dixerat</l>
+            <l>Iehova in initio creationis omnium</l>
+            <l n="525">Ad callidum serpentem, &amp; ipsam mulierem.</l>
+            <l>Dissidia ponam inter te &amp; ipsam mulierem,</l>
+            <l>Inter tuum &amp; semen mulieris, quod caput</l>
+            <l>Tibi virulentum conteret. Dicite mihi</l>
+            <l>Quod semen hoc putatis esse vel fore</l>
+            <l n="530">Quod impium caput diaboli conteret,</l>
+            <l>Nisi Meschian, nisi Christon &amp; Dei patris</l>
+            <l>Unctumque sancto spiritu gnatum unicum?</l>
+          </sp>
+          <sp who="#pontifex">
+            <speaker>Pon.</speaker>
+            <l>Bene intulit profecto puer hic parvulus,</l>
+            <l>Sed qua puer ratione serpentis caput</l>
+            <l n="535">Hoc conteret semen rogo ultra disseras.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l>Canit entheos propheta sic per os Dei.</l>
+            <l>Propter scelus populi mei percussi eum,</l>
+            <l>(Intelligis) Christum meum seu Meschian.</l>
+            <l>Propter scelus siquidem Deus primarium</l>
+            <l n="540">Adami &amp; Hevae, quod genus mortalium</l>
+            <l>Per traducem contraxerat, graviter Deus</l>
+            <l>Offensus haud placarier potuit, nisi</l>
+            <l>Innoxium per sanguinem Christi sui,</l>
+            <l>Qui solus omnium absque peccato, patris</l>
+            <l n="545">Iram sui, perinde sacra ac victima,</l>
+            <pb n="fol. B6r"/>
+            <l>Placaret ultro, sanguine ac nece propria.</l>
+            <l>Venturus igitur Christus est, qui pro suo</l>
+            <l>Populo beando mortem obibit, &amp; caput</l>
+            <l>Patre mitigato virulentum conteret.</l>
+            <l n="550">Contritum erit, cum vis ei tyrannidis</l>
+            <l>Apud inferos adempta erit, ubi Meschiae</l>
+            <l>Credentibus coeli aperientur ostia.</l>
+          </sp>
+          <sp who="#pontifex">
+            <speaker>Pon.</speaker>
+            <l>Tantum hactenus de Meschiae potentia</l>
+            <l>Non novimus. Succurrit ex lege ne aliud?</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l n="555">Quid planius quàm id quod canebat Moyses</l>
+            <l>Vobis prophetam suscitabit dominus ex</l>
+            <l>Confratribus vestris, &amp; ipsum veluti me</l>
+            <l>Exaudietis in omnibus quae dixerit</l>
+            <l>Vobis. Quid aliud de propheta Moyses</l>
+            <l n="560">Praenunciat, quàm Meschiam legem novam</l>
+            <l>Scripturum in hominum cordibus, cui in omnibus</l>
+            <l>Obediendum erit, perinde ac Moysi</l>
+            <l>In lege veteri, lapidibus quàm insculpserat?</l>
+          </sp>
+          <sp who="#pontifex">
+            <speaker>Pon.</speaker>
+            <l>Vere puer nil aliud hic praenunciat.</l>
+          </sp>
+          <sp who="#gamaliel">
+            <speaker>Ga.</speaker>
+            <l n="565">Adhuc ne sunt quae ex lege Iesu proferas?</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l>Permulta sunt, sed unum adhuc libet addere.</l>
+          </sp>
+          <sp who="#gamaliel">
+            <speaker>Ga.</speaker>
+            <l part="I">Dic.</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>Scena 5.</head>
+          <stage type="characters">Iesuah. Gamaliel. Pontifex. <supplied>Abibas.</supplied></stage>
+          <sp who="#iesuah">
+            <l part="F">ISrahel patriarcha cum benediceret</l>
+            <l>Morti propinquus liberis, prudens ait.</l>
+            <pb n="fol. B6v"/>
+            <l>Non auferetur ex Iehuda sceptron, aut</l>
+            <l n="570">Dux femoris eius, donec adsit ille qui</l>
+            <l>Venturus est, &amp; ipse erit tunc gentium</l>
+            <l>Expectatio. Quis ille qui venturus est</l>
+            <l>Nisi Meschiah domini mei, quem ex semine</l>
+            <l>Iudaico vos nasciturum creditis.</l>
+            <l n="575">In eumque gentes spem suam novissimam</l>
+            <l>Ponent, velut verae salutis anchoram.</l>
+          </sp>
+          <sp who="#gamaliel">
+            <speaker>Ga.</speaker>
+            <l>Et haec prophetis consonant <foreign xml:lang="grc">ἔνθεε</foreign> puer.</l>
+            <l>Si quisquam habet quod his contrarium putet,</l>
+            <l>Id differendum in crastinum hora tertia,</l>
+            <l n="580">Quod hora iam sit serior. Cras alacrior</l>
+            <l>Quisque rediturus est &amp; expeditior.</l>
+            <l>Tractabimusque qualis aut quo schemate</l>
+            <l>Venturus est (sat quod liquet modo) Maschiah.</l>
+          </sp>
+          <sp who="#pontifex">
+            <speaker>Pon.</speaker>
+            <l>Nisi puer hic esset humilis &amp; natus fabro,</l>
+            <l n="585">Hunc Maschian Deique gnatum dicerem.</l>
+            <l>Quis tamen erit suo patebit tempore.</l>
+          </sp>
+          <sp who="#gamaliel">
+            <speaker>Ga.</speaker>
+            <l>Non accipit Deus <foreign xml:lang="grc">πρόσωπον</foreign> hominis, at</l>
+            <l>Siquis Dei est amator aut virtutis hunc</l>
+            <l>Merito elevat, quemadmodum Davida Amosque</l>
+            <l n="590">A gregibus ad prophetiam vocaverat.</l>
+          </sp>
+          <sp who="#pontifex">
+            <speaker>Pon.</speaker>
+            <l>Verum, sed haec domino Deo committimus,</l>
+            <l>Ostendat ipse ad quid puellum elegerit.</l>
+          </sp>
+          <sp who="#gamaliel">
+            <speaker>Ga.</speaker>
+            <l>Duc fili in aedes puerulum ad merendulam,</l>
+            <pb n="fol. B7r"/>
+            <l>Et vesperi ut tecum refectus dormiat.</l>
+          </sp>
+          <sp who="#abibas">
+            <speaker>Abi.</speaker>
+            <l n="595">Ducam pater, nisi Iustus ipsum abduxerit.</l>
+            <l part="I">Id quod futurum suspicor.</l>
+          </sp>
+          <sp who="#gamaliel">
+            <speaker>Ga.</speaker>
+            <l part="F">Si sic, placet.</l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>Scena <corr>sexta</corr>.</head>
+          <stage type="characters">Iustus. Abibas. Iesuah.</stage>
+          <sp who="#iustus">
+            <l>EAmus ad matrem meam mi Iesuah</l>
+            <l>Quod ipsa nos morabitur sub vesperem,</l>
+            <l part="I">Cras tecum Abiba dormiet.</l>
+          </sp>
+          <sp who="#abibas">
+            <speaker>Abi.</speaker>
+            <l part="F">Placet. tamen</l>
+            <l n="600">Quod te rogavi, &amp; quod spopondisti mihi</l>
+            <l>Me obsecro puer primum doce, quemadmodum</l>
+            <l>Pater mihi coelestis invocandus est.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l>Docebo te, &amp; sic more nostro dixeris.</l>
+            <l>Pater superne conditor rerum omnium,</l>
+            <l n="605">Nomen tuum sanctum innotescat omnibus.</l>
+          </sp>
+          <sp who="#abibas">
+            <speaker>Ab.</speaker>
+            <l>Tu perge, numeris metricis verba teneo.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l>Regnum tuum adveniat repulsis hostibus.</l>
+          </sp>
+          <sp who="#abibas">
+            <speaker>Abi.</speaker>
+            <l>Ut primum &amp; hoc numeris tenebo metricis.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l>Tua fiat in terris voluntas, quemadmodum in</l>
+            <l n="610" part="I">Coelestibus.</l>
+          </sp>
+          <sp who="#abibas">
+            <speaker>Abi.</speaker>
+            <l part="F">Sed &amp; hoc tenebo, pergito.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l><foreign xml:lang="grc">Ἐπιούσιον</foreign> panem adde nobis hoc die.</l>
+          </sp>
+          <sp who="#abibas">
+            <speaker>Abi.</speaker>
+            <l part="I">Et hoc tenebo.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">Remitte nobis debita, ut</l>
+            <l>Nobis remittimus omnibus debentibus.</l>
+          </sp>
+          <sp who="#abibas">
+            <speaker>Abi.</speaker>
+            <l>Et hoc tenebo, quamlibet difficilius.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l n="615">Ne nos sinas induci in hostiles dolos.</l>
+          </sp>
+          <sp who="#abibas">
+            <speaker>Abi.</speaker>
+            <l part="I">Tenebo.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">Sed nos a malo omni libera.</l>
+            <l>Tibi soli enim regnum, potestas, gloria,</l>
+            <pb n="fol. B7v"/>
+            <l>Per cuncta in aevum saeculorum saecula.</l>
+            <l>Amen. Pater sic invocandus est meus.</l>
+          </sp>
+          <sp who="#abibas">
+            <speaker>Ab.</speaker>
+            <l n="620">Si sic tuus, nosterque sic orandus est.</l>
+          </sp>
+          <sp who="#iustus">
+            <speaker>Iu.</speaker>
+            <l>Iam meritus est (ut dixeratis) Iesuah</l>
+            <l>Cum butyro aut cum melle panem candidum.</l>
+            <l part="I">Mecum deinde iturus ad matrem.</l>
+          </sp>
+          <sp who="#abibas">
+            <speaker>Ab.</speaker>
+            <l part="F">Placet.</l>
+          </sp>
+          <sp who="#iustus">
+            <speaker>Iu.</speaker>
+            <l>Cape ergo panem candidum mi Iesuah,</l>
+            <l n="625">Cum butyro, &amp; properemus ad matrem meam.</l>
+          </sp>
+          <sp who="#abibas">
+            <speaker>Ab.</speaker>
+            <l part="I">Cape.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="M">Amicule habeo gratiam. Vale.</l>
+          </sp>
+          <sp who="#abibas">
+            <speaker>Ab.</speaker>
+            <l part="F">Vale.</l>
+            <l part="I">Cras spero mecum dormies. Vale.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">Vale.</l>
+            <l>Valeat pater cum fratre amico in crastinum.</l>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>Scena 7.</head>
+          <stage type="characters">Iustus. Iesuah.</stage>
+          <sp who="#iustus">
+            <l>QUod per tuam institutionem meritus es</l>
+            <l n="630" part="I">Nunc ede puer.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">Nequaquam edam solus, sed hoc</l>
+            <l>Iuste tecum dividam domi tuae.</l>
+          </sp>
+          <sp who="#iustus">
+            <speaker>Iu.</speaker>
+            <l>Matercla mea nobis paravit brosymon</l>
+            <l>Ex lacte dulci &amp; pane candidissimo.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="I">hoc dabimus igitur pauperi.</l>
+          </sp>
+          <sp who="#iustus">
+            <speaker>Iu.</speaker>
+            <l part="F">Esto. sed obsecro.</l>
+            <l n="635">Non tibi parat mi Iesuah mater tua</l>
+            <l>Ex lacte dulci &amp; pane suavi &amp; candido.</l>
+            <l part="I">Dulce &amp; suave brosymon?</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ie.</speaker>
+            <l part="F">Nunquam parat.</l>
+          </sp>
+          <sp who="#iustus">
+            <speaker>Iu.</speaker>
+            <l part="I">Qui non coquit.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ie.</speaker>
+            <l part="F">Quod sensim ad poenitentiam</l>
+            <l>Adhuc tenellum nutriat, quemadmodum</l>
+            <l n="640">Et meus Ioannes puer nutritus est,</l>
+            <l>Domi suae, sterilibus a parentibus.</l>
+            <pb n="fol. B8r"/>
+            <l>Qui iam suis avulsus a parentibus,</l>
+            <l>Deserta eremi squallidaque loca appetet</l>
+            <l>Nil praeter <foreign xml:lang="grc">τε καὶ μέλι ᾄγριον</foreign></l>
+            <l n="645">Esurus, &amp; pilos camelorum induet.</l>
+          </sp>
+          <sp who="#iustus">
+            <speaker>Iu.</speaker>
+            <l>Tantillus ille puerulus, vix te (arbitror)</l>
+            <l part="I">Antiquior.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="M">Tantillus hic.</l>
+          </sp>
+          <sp who="#iustus">
+            <speaker>Iu.</speaker>
+            <l part="F">Pape, quid hoc?</l>
+            <l>Sed age tibi matercla quid coquere solet?</l>
+            <l part="I">Seu quo hactenus nutritus es?</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">Lacti acidulo</l>
+            <l n="650">Farinulam hordeaceam commiscuit.</l>
+            <l>Pultemque sibi mihique coxit sobriam,</l>
+            <l>Holusculúm ve ex brassica aut rapunculis.</l>
+          </sp>
+          <sp who="#iustus">
+            <speaker>Iu.</speaker>
+            <l>Nil addidit condiminis, nil butyri?</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l>Condimen optimum arbitrata erat famem,</l>
+            <l n="655">Sub vesperem &amp; sub horam prandij.</l>
+            <l>Nihilominus tamen subinde butyro aut</l>
+            <l>Melle oblinit panem mihi hordeaceum</l>
+            <l>Quo indulgeat meae tenellae aetatulae.</l>
+            <l>Sciamque prava odisse &amp; eligere bona.</l>
+            <l n="660">Sitientibus quoque ultro aquae sunt obviae.</l>
+          </sp>
+          <sp who="#iustus">
+            <speaker>Iu.</speaker>
+            <l>Tam rigida mea non est mihi matercula.</l>
+            <l>Paedisca adest, nunc proximi sumus aedibus.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l>Age differamus epulum adusque vesperem.</l>
+            <l>Vereor enim ne non queamus tempori</l>
+            <l n="665">Adesse disputationibus. Consultius</l>
+            <l>Hanc dividamus tortulam cum butyro,</l>
+            <pb n="fol. B8v"/>
+            <l>Et vesperi coquendum edamus brosymon.</l>
+          </sp>
+          <sp who="#iustus">
+            <speaker>Iu.</speaker>
+            <l>Paedisca adest, si nondum adhuc paraverit</l>
+            <l part="I">Moremur usque ad vesperem.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">Iam mihi placet.</l>
+            <l n="670">Iam cape meae merendulae partem alteram.</l>
+            <l>Sed eamus intro, &amp; edamus intus ut decet.</l>
+          </sp>
+        </div>
+        <div type="scene" subtype="chorus">
+          <head>CHORUS.</head>
+          <sp who="#chorus">
+            <l>Praecipit Deus parentes</l>
+            <l rend="indent">Et coli &amp; venerarier</l>
+            <l>Sed se amandum &amp; se colendum</l>
+            <l n="675" rend="indent">Praecipit super omnia.</l>
+            <l>Si parens eget vel aegret</l>
+            <l rend="indent">Esto gnatus obsequens</l>
+            <l>At si honor Dei requirat,</l>
+            <l rend="indent">Hunc cole illos neglige.</l>
+            <l n="680">Nam qui amat patrem matrém ve</l>
+            <l rend="indent">Plusquam Iesum, indignus est</l>
+            <l>(Ipse ut inquit) appellari</l>
+            <l rend="indent">Christiano nomine.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="4">
+        <div type="scene" n="1">
+          <head>Actus 4 . Scena I.</head>
+          <stage type="characters">Iesuah solus.</stage>
+          <sp who="#iesuah">
+            <l>PRiusquam abibo genibus inflexis mihi</l>
+            <l n="685">Pater meus coelestis invocandus est,</l>
+            <l>Ut prosperum faciat mihi hoc negocium,</l>
+            <l>Quod eius ad laudem subibo, &amp; gloriam.</l>
+            <l>O mi pater da mihi tuarum sedium</l>
+            <l>Sapientiam, prudentiam, seu spiritum</l>
+            <pb n="fol. C1r"/>
+            <l n="690">Scientiae (sine quo nihil agere</l>
+            <l>Humana valet infirmitas) ut hoc die</l>
+            <l>Sic praedicem nomen tuum &amp; Christi tui,</l>
+            <l>Ut te patrem atque filium cum spiritu</l>
+            <l>Sancto sciant hostes tui per saecula.</l>
+            <l n="695">Scio namque quod sub hoc die mihi ingruat</l>
+            <l>Non parva cum hostibus tuis contentio.</l>
+            <l>Verumtamen fiat tua voluntas pater.</l>
+            <l>Et obsecro soleris ut matrem meam,</l>
+            <l>Quam scio mea de absentia lachrimarier.</l>
+            <l n="700">Nunc ibo dira quo vocat necessitas.</l>
+            <l>Prospectat eminus foras Nathanael.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>Scena secunda.</head>
+          <stage type="characters">Gamaliel. Nathanael. Iesuah.</stage>
+          <sp who="#gamaliel">
+            <l part="I">UBi noster est Iesuah?</l>
+          </sp>
+          <sp who="#nathanael">
+            <speaker>Na.</speaker>
+            <l part="F">Ecce adest puer</l>
+            <l>Roseas genas suffusus aegris lachrimis.</l>
+            <l>Iam vidi eum poplitibus inflexis suum</l>
+            <l n="705">Manibusque supplicibus patrem precarier.</l>
+          </sp>
+          <sp who="#gamaliel">
+            <speaker>Ga.</speaker>
+            <l>Quid est Iesu quod videris lachrimas</l>
+            <l>Fudisse amaras? obsecro si quispiam</l>
+            <l>Te leserit, dicas mihi liberrime.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l>Nullus profecto domine mi, puerilis id</l>
+            <l n="710">Natura habet, facile ut fleat seu rideat.</l>
+            <l>Quin &amp; facile matris meae obliviscier</l>
+            <l part="I">Nequeo puer.</l>
+          </sp>
+          <sp who="#gamaliel">
+            <speaker>Ga.</speaker>
+            <l part="F">Solare Iesu, crastino</l>
+            <pb n="fol. C1v"/>
+            <l>Die aderit hic matercula, &amp; nos te interim</l>
+            <l part="I">Curabimus.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">Ago gratias domini mei, &amp;</l>
+            <l n="715">Omnis boni largitor ipse retribuet.</l>
+          </sp>
+          <sp who="#gamaliel">
+            <speaker>Ga.</speaker>
+            <l>Tersis ocellis denuo puer sede, &amp;</l>
+            <l part="I">Si postulet res te tuere libere.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">Hem.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>Scena tertia.</head>
+          <stage type="characters">Gamaliel. Iesuah. Nicodemus. cum caeteris.</stage>
+          <sp who="#gamaliel">
+            <l>QUod proposuimus hinc ab hora tertia,</l>
+            <l>Nunc explicemus lucide domini mei, &amp;</l>
+            <l n="720">Didascali doctissimi. Prius tamen</l>
+            <l>Siquid puer locutus est verbo Dei</l>
+            <l>Contrarium in prioribus sermonibus,</l>
+            <l>Nunc quisque vestrum dicat hic liberrime.</l>
+            <l>Nequis queratur quod puello plusculum</l>
+            <l n="725">Sit attributum quàm seni didascalo.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l>Nihil mihi tribui volo patres mei,</l>
+            <l>Sed veritati plurimum. Sermo meus</l>
+            <l>Si veritate vacuus est reprehendite.</l>
+            <l>Si veritate nititur concedite.</l>
+          </sp>
+          <sp who="#nicodemus">
+            <speaker>Ni.</speaker>
+            <l n="730">Concedimus. tuam imus in sententiam.</l>
+          </sp>
+          <sp who="#a">
+            <speaker>A.</speaker>
+            <l part="I">Concedimus.</l>
+          </sp>
+          <sp who="#b">
+            <speaker>B.</speaker>
+            <l part="M">Concedimus.</l>
+          </sp>
+          <sp who="#c">
+            <speaker>C.</speaker>
+            <l part="F">Concedimus.</l>
+          </sp>
+          <sp who="#gamaliel">
+            <speaker>Ga.</speaker>
+            <l>Quid itaque Nicodeme sentiendum erit</l>
+            <l>De Meschiae venturi honore &amp; gloria?</l>
+            <l>Quali ve fit venturus ad nos schemate?</l>
+            <l n="735">Tu caeteri quoque super hoc respondeant.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <pb n="fol. C2r"/>
+          <head>Scena quarta.</head>
+          <stage type="characters">Nicodemus. Gamaliel. Pontifex. cum caeteris.</stage>
+          <sp who="#nicodemus">
+            <l>DIversi varia praedicant, nec mutuo</l>
+            <l>Consentiunt, verum (ut mihi persuadeo)</l>
+            <l>Iuxta prophetas ut potentem principem</l>
+            <l>Venturum eundem existimo, qui ferrea</l>
+            <l n="740">Virga rebelles corriget, sed pristinum</l>
+            <l>Cum gloria regnum Israheli porriget.</l>
+            <l>Ex omnibusque gentibus profugos suis</l>
+            <l>Reducet huc viribus &amp; armis bellicis.</l>
+          </sp>
+          <sp who="#a">
+            <speaker>A.</speaker>
+            <l part="I">Sic asserunt.</l>
+          </sp>
+          <sp who="#b">
+            <speaker>B.</speaker>
+            <l part="M">Sic credimus.</l>
+          </sp>
+          <sp who="#c">
+            <speaker>C.</speaker>
+            <l part="F">Sic ethnicos</l>
+            <l n="745">Premi potentia, &amp; rebelles opprimi</l>
+            <l>Decet, atque sic necesse erit per Meschian.</l>
+          </sp>
+          <sp who="#gamaliel">
+            <speaker>Ga.</speaker>
+            <l>Quid tibi puer videbitur modo dicito,</l>
+            <l>Nec te pudor, nec te pavor deterreat.</l>
+            <l>Pro veritate libere loqui decet.</l>
+            <l n="750">Praestat tamen redire ad horam vesperam,</l>
+            <l>Ne taedium sermo pariat prolixior.</l>
+          </sp>
+          <sp who="#pontifex">
+            <speaker>Pon.</speaker>
+            <l>Non sic patres, prius audiamus Iesuah.</l>
+          </sp>
+          <sp who="#gamaliel">
+            <speaker>Ga.</speaker>
+            <l>Loquatur ergo Iesuah liberrime.</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>Scena quinta.</head>
+          <stage type="characters">Iesuah. Pontifex. Gamaliel. Saul.</stage>
+          <sp who="#iesuah">
+            <l>GAmaliel pro veritate libere</l>
+            <l n="755">Loqui iubet, loquar proinde libere.</l>
+            <l>Sed oro si quid interim balbutiam,</l>
+            <pb n="fol. C2v"/>
+            <l>Ignoscite pueritiae <corr>atque</corr> infantiae.</l>
+          </sp>
+          <sp who="#pontifex">
+            <speaker>Pon.</speaker>
+            <l>Ignoscitur, loquere puelle libere.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l>Ut Nicodemus senserat consentiunt</l>
+            <l n="760">Prope singuli. Nusquam tamen probabitur</l>
+            <l>Quod ullus haec verus propheta senserit.</l>
+            <l>Sed ex diametro prorsus his contraria.</l>
+            <l>Venit (inquit) ecce rex tuus Zacharias.</l>
+            <l>Filia Sion regem vides, sed obsecro</l>
+            <l n="765">Quonam apparatu regio? qua purpura</l>
+            <l>Vel coccino? quove aureo diademate?</l>
+            <l>Stipatus aut quo milite? En venit tibi</l>
+            <l>Mansuetus aut pauper asinae vili insidens.</l>
+            <l>Quod schema regium pro Meschia tuo?</l>
+            <l n="770">Quis cultus hic regis tui ter maximi?</l>
+            <l>Fateor tamen quod dignitatis nomina</l>
+            <l>Subinde Maschiae in prophetis pluribus</l>
+            <l>Tribuuntur, ut regis, ducis, pantocratoros,</l>
+            <l>Quae saecularem non tamen fastum volunt,</l>
+            <l n="775">Verum Dei ter maximi potentiam</l>
+            <l>Et gloriam, qua contumaces arguet,</l>
+            <l>Primum Iehudaeos, deinde &amp; ethnicos.</l>
+            <l>Dicturus est profecto non modo gentibus,</l>
+            <l>Sed &amp; Iehudaeis sibi rebellibus,</l>
+            <l n="780">Regnum meum non est ab hoc mundo, sed ex</l>
+            <l>Superum patre omnium, Deo ter maximo,</l>
+            <pb n="fol. C3r"/>
+            <l>Qui solus omnibus creatis imperat.</l>
+          </sp>
+          <sp who="#pontifex">
+            <speaker>Pon.</speaker>
+            <l>Ergo ne Deus credendus est cum venerit</l>
+            <l part="I">Christus?</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">Deus verus &amp; homo credendus est.</l>
+            <l n="785">Adeoque filius Dei &amp; hominis unicus,</l>
+            <l part="I">Altissimus &amp; humillimus.</l>
+          </sp>
+          <sp who="#pontifex">
+            <speaker>Pon.</speaker>
+            <l part="F">Absurda sunt</l>
+            <l>Quae loquere Iesu. Qui Deus &amp; homo simul</l>
+            <l>In eodem &amp; uno Meschia convenerint?</l>
+            <l>Deus ne carnem assumpserit. Deus hominem?</l>
+          </sp>
+          <sp who="#gamaliel">
+            <speaker>Ga.</speaker>
+            <l n="790">Absurda plurimum videntur haec puer.</l>
+            <l>Verum tuae donanda teneritudini.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l>Cum signa videritis homini impossibilia,</l>
+            <l>Patique eundem quae Deo non congruunt,</l>
+            <l>Tandem ibitis (scio) in meam sententiam.</l>
+          </sp>
+          <sp who="#gamaliel">
+            <speaker>Ga.</speaker>
+            <l n="795">Abire praestat quàm his super contendere.</l>
+          </sp>
+          <sp who="#saul">
+            <speaker>Sa.</speaker>
+            <l>Non sic. Sine me oro te Rabbi, cum Iesuah</l>
+            <l part="I">Confligere.</l>
+          </sp>
+          <sp who="#gamaliel">
+            <speaker>Ga.</speaker>
+            <l part="F">Hem, verbo tenus, sine verbere.</l>
+          </sp>
+          <sp who="#saul">
+            <speaker>Sa.</speaker>
+            <l>verbo tenus, sine verbere. Respondeat.</l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>Scena sexta.</head>
+          <stage type="characters">Saul. Iesuah. Gamaliel.</stage>
+          <sp who="#saul">
+            <l>QUemnam putas sordidule nostrum Meschian</l>
+            <l n="800">Indigna passurum ut hominem, aut si Deus erit</l>
+            <l>Quonam modo passurus est? dic sordide.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l>Saul Saul quid niteris me persequi?</l>
+            <l>Expende quinquagesimum atque tertium</l>
+            <l>Caput Esaiae, &amp; dic mihi Saul, quis est</l>
+            <pb n="fol. C3v"/>
+            <l n="805">De quo prophetes loquitur, hoc modo inquiens.</l>
+            <l>Vidimus eum, sed non erat species ei</l>
+            <l>Neque decor, &amp; ut novissimum virorum, &amp; ut</l>
+            <l>Virum dolorum, infirmitati obnoxium,</l>
+            <l>Vere ipse nostros &amp; dolores languidus</l>
+            <l n="810">Tulit, ipse vulneratus atque attritus est.</l>
+            <l>Propter scelus populi mei percussi eum.</l>
+            <l>Nos velut oves erravimus. Deus pater</l>
+            <l>Posuit in illo iniquitates omnium</l>
+            <l>Nostrum. quia voluit ipse sponte oblatus est.</l>
+            <l n="815">Nam velut ovis vel ut agnus ad necem innocens</l>
+            <l>Ducetur, atque cum scelestis ut scelus</l>
+            <l>Reputatus est, &amp; quae propheta latius</l>
+            <l>Praecinuit alia pluria. Dic mi Saul</l>
+            <l>(Qui olim meus futurus es) de quo putas</l>
+            <l n="820">Tam vilia &amp; tam abiecta praecinit, nisi</l>
+            <l>De Meschia Deique &amp; hominis filio?</l>
+            <l>Quanquam illius generationem neutiquam</l>
+            <l>Mortalium quisquam valebit assequi.</l>
+          </sp>
+          <sp who="#gamaliel">
+            <speaker>Ga.</speaker>
+            <l>Respondeat Saul volens confligere.</l>
+          </sp>
+          <sp who="#saul">
+            <speaker>Sa.</speaker>
+            <l n="825">In eo prophetae non satis versatus est</l>
+            <l>Loco Saul. moretur horam in proximam,</l>
+            <l>Cedo sub hac hora puer conflictui.</l>
+          </sp>
+          <sp who="#gamaliel">
+            <speaker>Ga.</speaker>
+            <l>Sic puer Iesus cum suis edat &amp; bibat,</l>
+            <l>Speretque cras adfore suam materculam.</l>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <pb n="fol. C4r"/>
+          <head>Scena septima.</head>
+          <stage type="characters">Iustus. Paedisca. Iesuah.</stage>
+          <sp who="#iustus">
+            <l n="830">LAEtare Iesu, cras tuam materculam</l>
+            <l>Non sine triumpho nobili visurus es,</l>
+            <l>Ut inquit archididascalus Gamaliel.</l>
+            <l>Proinde eamus ad meam materculam. en</l>
+            <l>Paedisca nobis obvia est cum brosymo.</l>
+            <l n="835" part="I">Adduxero cras tibi tuam materculam.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">O</l>
+            <l part="I">Utinam mihi ipsam adduxeris.</l>
+          </sp>
+          <sp who="#iustus">
+            <speaker>Iu.</speaker>
+            <l part="F">Adduxero.</l>
+            <l>Exibo enim diluculo, &amp; per viculos</l>
+            <l>Et plateas quaeram tibi quam diligis.</l>
+            <l>Facile indicabunt ipsam amarae lachrimae.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l n="840">Heu lachrimae, matrisque charae lachrimae. Heu.</l>
+          </sp>
+          <sp who="#iustus">
+            <speaker>Iu.</speaker>
+            <l>Ne lachrima, en Paedisca adest cum brosymo.</l>
+          </sp>
+          <sp who="#paedisca">
+            <speaker>Paed.</speaker>
+            <l>En dulce lac cum pane coctum candido.</l>
+            <l>Edendum Iusto mittitur, cum Iesuah</l>
+            <l part="I">Suo amiculo.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">Magnas agemus gratias.</l>
+          </sp>
+          <sp who="#paedisca">
+            <speaker>Paed.</speaker>
+            <l n="845" part="I">Pappate iam puelluli.</l>
+          </sp>
+          <sp who="#iustus">
+            <speaker>Iu.</speaker>
+            <l part="F">Pappabimus.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l>Pappabo tecum amicule his matris tuae</l>
+            <l>In aedibus. Pappabis &amp; tu suaviter</l>
+            <l>Patris mei tandem in supernis aedibus.</l>
+          </sp>
+          <sp who="#iustus">
+            <speaker>Iu.</speaker>
+            <l>Ubi habitat inque Iesuah pater tuus?</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l n="850">Procul hinc Iuste, &amp; in supernis montibus.</l>
+            <l>Ubi fuerimus robustiores huc revertar, &amp;</l>
+            <l>Cum gaudio te duxero ad patrem meum.</l>
+            <pb n="fol. C4v"/>
+            <l>Ubi melle coctum saccaroque brosymon</l>
+            <l>Pappabimus sine termino suavius.</l>
+          </sp>
+          <sp who="#iustus">
+            <speaker>Iu.</speaker>
+            <l n="855" part="I">Quid huc Saul?</l>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>Scena octava.</head>
+          <stage type="characters">Saul. Iesuah. Iustus.</stage>
+          <sp who="#saul">
+            <l part="M">MI Iuste Iuste.</l>
+          </sp>
+          <sp who="#iustus">
+            <speaker>Iu.</speaker>
+            <l part="F">Saul Saul.</l>
+          </sp>
+          <sp who="#saul">
+            <speaker>Sa.</speaker>
+            <l>Qui venimus simul, simul ne vescimur?</l>
+          </sp>
+          <sp who="#iustus">
+            <speaker>Iu.</speaker>
+            <l>Analphabetus est Iustus, neutiquam</l>
+            <l part="I">Te intelligit.</l>
+          </sp>
+          <sp who="#saul">
+            <speaker>Sa.</speaker>
+            <l part="M">Te duxeram.</l>
+          </sp>
+          <sp who="#iustus">
+            <speaker>Iu.</speaker>
+            <l part="F">At me calcibus</l>
+            <l>Lapsum luto mox imprimendum dixeras.</l>
+          </sp>
+          <sp who="#saul">
+            <speaker>Sa.</speaker>
+            <l n="860" part="I">Abi in malam crucem.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">Mali nil irroges.</l>
+            <l>Quin redde potius pro malis bona Sauli.</l>
+            <l part="I">Te queso admittito.</l>
+          </sp>
+          <sp who="#iustus">
+            <speaker>Iu.</speaker>
+            <l part="F">Saul Saul, ades.</l>
+          </sp>
+          <sp who="#saul">
+            <speaker>Sa.</speaker>
+            <l>Saul adest. Hoc exedamus brosymon.</l>
+          </sp>
+          <sp who="#iustus">
+            <speaker>Iu.</speaker>
+            <l>Haudquaquam enim. iusto es lupo rapacior.</l>
+            <l n="865">Sit Iesuah pars (ut decet) merito amplior.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l>Mi Iuste sat erit omnibus. Sed obsecro,</l>
+            <l>Quis coxit hoc tam delicatum brosymon?</l>
+          </sp>
+          <sp who="#iustus">
+            <speaker>Iu.</speaker>
+            <l>Matercula mea utrique nostrum Iesuah.</l>
+            <l>Exedere oportet antequam cedamus hinc.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l n="870">Non possumus, nisi Saulus hic sit alacrior.</l>
+          </sp>
+          <sp who="#saul">
+            <speaker>Sa.</speaker>
+            <l>Rapacior dicere volebas, ergo ero</l>
+            <l part="I">Rapacior.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">Iure optimo tibi competit</l>
+            <l>Rapacitas, si fueris usus debite.</l>
+          </sp>
+          <sp who="#saul">
+            <speaker>Sa.</speaker>
+            <l>Raptim ergo edam, tribui meae quo congruam,</l>
+            <pb n="fol. C5r"/>
+            <l n="875" part="I">Quo Beniamin respondeam.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">Responderis,</l>
+            <l>Si vesperi escas &amp; spolia diviseris.</l>
+            <l>Edat Saul, nos revocat hora denuo.</l>
+          </sp>
+          <sp who="#iustus">
+            <speaker>Iu.</speaker>
+            <l part="I">Prius exedamus brosymon.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">Aliquantulum</l>
+            <l>Praeibo vos quod urgeat negocium.</l>
+          </sp>
+          <sp who="#iustus">
+            <speaker>Iu.</speaker>
+            <l n="880" part="I">Ego te sequor, tu exede Saul.</l>
+          </sp>
+          <sp who="#saul">
+            <speaker>Sa.</speaker>
+            <l part="F">Exedo, sequar.</l>
+            <l>Turpe est manere, subsequor. Quid pueri habent?</l>
+            <l>Quid stupet Iustus? Iesuah quid sternitur?</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l>Domine pater, dominator &amp; vitae meae,</l>
+            <l>Patrem &amp; meam solare matrem virginem. Heu</l>
+            <l n="885">Et lachrimantem dirigat bonus angelus.</l>
+          </sp>
+          <sp who="#saul">
+            <speaker>Sa.</speaker>
+            <l>Quid obstupescis Iuste mi? quid prospicis?</l>
+          </sp>
+          <sp who="#iustus">
+            <speaker>Iu.</speaker>
+            <l>Video eminus praecantem Iesum supplicem.</l>
+            <l>Et ecce adest ei angelus, qui uberrimas</l>
+            <l part="I">Abstergit oculis lachrimas.</l>
+          </sp>
+          <sp who="#saul">
+            <speaker>Sa.</speaker>
+            <l part="F">Erras puer.</l>
+          </sp>
+          <sp who="#iustus">
+            <speaker>Iu.</speaker>
+            <l n="890">Non erro, &amp; angelus evolat, surgit puer.</l>
+          </sp>
+          <sp who="#saul">
+            <speaker>Sa.</speaker>
+            <l part="I">Praeite vos, ego subsequar.</l>
+          </sp>
+          <sp who="#iustus">
+            <speaker>Iu.</speaker>
+            <l part="F">Praeibimus.</l>
+          </sp>
+          <sp who="#saul">
+            <speaker>Sa.</speaker>
+            <l>Si vera sunt quae loquitur hic simplex puer,</l>
+            <l>Plus in puello Iesuah latere quàm</l>
+            <l>Foris patere suspicor. Nihilominus</l>
+            <l n="895">Leges avitas atque mores patrios</l>
+            <l>Statui tenere mordicus, quos prorsus hic</l>
+            <l>Semel abrogare nititur. Subsequor eos</l>
+            <l>Ubi grunnientem alvum meam levaverim.</l>
+            <l>Consultius cedam tamen conflictui.</l>
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <pb n="fol. C5v"/>
+          <head>Scena 9.</head>
+          <stage type="characters">Gamaliel cum caeteris.</stage>
+          <sp who="#gamaliel">
+            <l n="900">Si vel Saul velit vel alius quispiam</l>
+            <l>Logois Iesu obnitier respondeat.</l>
+            <l>Sed (ut audio) cessit Saul conflictui</l>
+            <l>Hinc maxime, quod tempori haud compareat.</l>
+            <l>Si qui velint respondeant liberrime.</l>
+            <l n="905">Differre namque in crastinum vix commodum,</l>
+            <l>Quod crastinus dialexim habebit propriam,</l>
+            <l>De Maschiae Christive certo tempore</l>
+            <l>Quo se pie invocantibus venturus est.</l>
+            <l>Studento singuli in arduo hoc negotio,</l>
+            <l n="910">Proferre quod sit utile atque accommodum.</l>
+            <l>Nec enim aliud est quod dignius tractetur, aut</l>
+            <l>Quod sit magis mortalibus probabile.</l>
+          </sp>
+        </div>
+        <div type="scene" subtype="chorus">
+          <head>CHORUS.</head>
+          <sp who="#chorus">
+            <l>Veritatem praedicandam</l>
+            <l rend="indent">Mandat ipsa veritas,</l>
+            <l n="915">Veritatem nam loquendo</l>
+            <l rend="indent">Christus ipse passus est.</l>
+            <l>Est boni ergo Christiani</l>
+            <l rend="indent">Verum amare &amp; eloqui,</l>
+            <l>Plus tamen decet puellum</l>
+            <l n="920" rend="indent">Veritati incumbere.</l>
+            <l>Nam puer qui assuescit ultro</l>
+            <l rend="indent">Subdolis mendacijs,</l>
+            <pb n="fol. C6r"/>
+            <l>Is solet propensus esse, ad</l>
+            <l rend="indent">Furta &amp; ad periuria.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="5">
+        <div type="scene" n="1">
+          <head>Actus quinti. Scena prima.</head>
+          <stage type="characters">Gamaliel. Iesuah.</stage>
+          <sp who="#gamaliel">
+            <l n="925">IAm nocte lapsa horaque lucis primula</l>
+            <l>Adest Iesuah maximae spei puer.</l>
+            <l>Qui heri licet mihi visus est &amp; pluribus</l>
+            <l>Absurda quaedam dicere, nihilominus</l>
+            <l>Mihi peperere scrupulum non parvulum,</l>
+            <l n="930">De Meschiae nostri apparatu humillimo &amp;</l>
+            <l>Non regio. Is mihi modo conveniendus est.</l>
+            <l>Dic mihi puer, te nocte quis habuit hospitem?</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l>Iusto meo condormivi suaviter.</l>
+          </sp>
+          <sp who="#gamaliel">
+            <speaker>Ga.</speaker>
+            <l part="I">Num vesperi coenatus es?</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">Sum maxime.</l>
+            <l n="935">Nam lacte dulci &amp; pane candidissimo</l>
+            <l>Refecit idem a prandio atque vesperi.</l>
+          </sp>
+          <sp who="#gamaliel">
+            <speaker>Ga.</speaker>
+            <l>Cur non eundem comitem habes reditus tui?</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l>Miseratus is lachrimas meas, pius exijt</l>
+            <l>Ut queritet per viculos &amp; compita</l>
+            <l n="940" part="I">Moestam meam materculam.</l>
+          </sp>
+          <sp who="#gamaliel">
+            <speaker>Ga.</speaker>
+            <l part="F">Qui noverit?</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l>Ex lachrimis vultusque moestitudine</l>
+            <l>Agnoscet, (heu dolor) &amp; aliis tecmerijs,</l>
+            <l part="I">Quae facile deprehendet. Heu.</l>
+          </sp>
+          <sp who="#gamaliel">
+            <speaker>Ga.</speaker>
+            <l part="F">Ne fle puer,</l>
+            <l>Priusquam enim absoluta sit dialexis haec,</l>
+            <l n="945" part="I">Spero tuam visurus es materculam.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">Heu.</l>
+          </sp>
+          <pb n="fol. C6v"/>
+          <sp who="#gamaliel">
+            <speaker>Ga.</speaker>
+            <l part="I">Ne lugeas, sed asside.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">Rabbi libens.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>Scena secunda.</head>
+          <stage type="characters">Gamaliel. Iesuah. Iustus.</stage>
+          <sp who="#gamaliel">
+            <l>COnvenimus diebus his domini mei,</l>
+            <l>Gravissimosque legis &amp; vatum locos</l>
+            <l>Seu questiones, ventilavimus magis</l>
+            <l n="950">Quàm absolvimus. Verum una adhuc restat gravis,</l>
+            <l>Immo omnium ut gravissima est, sic cognitu</l>
+            <l>Foret omnibus hominibus utilissima, &amp;</l>
+            <l>Multo omnium gratissima, modo sint qui eam</l>
+            <l>Digne explicent seu digerant. Nam quaestio est,</l>
+            <l n="955">Quo saeculorum tempore (modo nondum adest)</l>
+            <l>Venturus est salutis author Meschia.</l>
+            <l>Alacriter primum puer profer tuam</l>
+            <l>Sententiam, ne fortè tua matercula</l>
+            <l>Superveniat, &amp; non sinat tum proloqui.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l n="960">Dicam domine quod sentio, &amp; probavero.</l>
+          </sp>
+          <sp who="#iustus">
+            <speaker>Iu.</speaker>
+            <l>Mi Iesuah mi Iesuah cum patre tuo</l>
+            <l part="I">Matercla adest.</l>
+          </sp>
+          <sp who="#gamaliel">
+            <speaker>Ga.</speaker>
+            <l part="F">Quid adeo Iuste obstreperus es,</l>
+            <l>Venerando in hoc didascalon synedrio?</l>
+          </sp>
+          <sp who="#iustus">
+            <speaker>Iu.</speaker>
+            <l>Ignoscite mihi quaeso, nam me amor impulit.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l n="965">Ignosce Iusto te obsecro Rabbi meo,</l>
+            <l>Quem amor impulit liberius isthaec eloqui.</l>
+          </sp>
+          <sp who="#gamaliel">
+            <speaker>Ga.</speaker>
+            <l part="I">Ignoscitur. Ubi mater est?</l>
+          </sp>
+          <sp who="#iustus">
+            <speaker>Iu.</speaker>
+            <l part="F">Mox aderit. En.</l>
+          </sp>
+          <sp who="#gamaliel">
+            <speaker>Ga.</speaker>
+            <l>Accede Iesuah, ipsam amplectere &amp;</l>
+            <pb n="fol. C7r"/>
+            <l>Deosculare, velut probum puerum decet.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>Scena tertia.</head>
+          <stage type="characters">Nathanael. Maria. Iesuah.</stage>
+          <sp who="#nathanael">
+            <l n="970">EN quanta matri ad filium propensio.</l>
+            <l>Ut osculatur, ut increpat cum lachrimis.</l>
+            <l>Identidem ut matri puer collachrimat.</l>
+            <l>Exaudiamus quid loquantur mutuo.</l>
+          </sp>
+          <sp who="#maria">
+            <speaker>Mar.</speaker>
+            <l>Mi gnate qui potuisti abesse parentibus?</l>
+            <l n="975">Ego te paterque tuus dolentes anxie</l>
+            <l>Quaesivimus, non aliter atque in Sirasirim</l>
+            <l>Sponsum suum quaesijt amica perditum.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l>Quid obsecro est charissimi quòd me anxie</l>
+            <l>Quaesistis? An incognitum vobis fuit</l>
+            <l n="980">Quòd in his quae sunt patris mei me sedulo</l>
+            <l part="I">Fore oportuit?</l>
+          </sp>
+          <sp who="#nathanael">
+            <speaker>Na.</speaker>
+            <l part="F">Stupidi parentes nesciunt</l>
+            <l>Quid dixerit. Revertet huc, ut dixerat.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l>Charissimi tantisper hic moramini,</l>
+            <l part="I">Dum patribus dominisque dixero Vale.</l>
+          </sp>
+          <sp who="#maria">
+            <speaker>Mar.</speaker>
+            <l part="F">Heu.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l n="985" part="I">Ne mater obsecro lachrima.</l>
+          </sp>
+          <sp who="#maria">
+            <speaker>Mar.</speaker>
+            <l part="F">Non lugeo.</l>
+            <l>Non luctuis. sed amoris hae sunt lachrimae.</l>
+          </sp>
+          <sp who="#nathanael">
+            <speaker>Na.</speaker>
+            <l>Redit puer, dicturus uti spoponderat</l>
+            <l>De Meschiae adventu suam sententiam.</l>
+            <l>Brevibus tamen, quemadmodum res postulat.</l>
+            <l n="990">Nam mater aegre a filio divellitur.</l>
+            <l>Aegreque filius a sua matercula.</l>
+            <pb n="fol. C7v"/>
+            <l>Morer, ut queat citra ruborem congredi.</l>
+            <l>Ades puer, te sine rubore duxero.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>Scena quarta.</head>
+          <stage type="characters">Pontifex. Gamaliel. Iesuah.</stage>
+          <sp who="#pontifex">
+            <l>PRobe facis Nathanael quod consulis</l>
+            <l n="995">Nimio pudori matris atque filij.</l>
+            <l>Sedeat puellus denuo solito in loco,</l>
+            <l>Mediusque nostrum proferat de Meschia,</l>
+            <l>Quonam sit adventurus ad nos tempore, &amp;</l>
+            <l>Dicturus, ipse qui loquebar ecce nunc</l>
+            <l n="1000" part="I">Tandem advolo.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">Dicam domine quod sentio,</l>
+            <l>Certisque (cum volueritis) rationibus</l>
+            <l part="I">Tempore suo probavero.</l>
+          </sp>
+          <sp who="#gamaliel">
+            <speaker>Ga.</speaker>
+            <l part="F">Dic libere &amp;</l>
+            <l>Breviter, ut adsies tuae materculae.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l>Si conferamus omnium vaticinia</l>
+            <l n="1005">Veterum prophetarum atque nostri temporis,</l>
+            <l>Liquido patebit atque luce clarius</l>
+            <l>Quòd Meschiah Deique &amp; hominis filius</l>
+            <l>Iam venerit, mundoque sensim clarius</l>
+            <l>Per signa, per prodigia, per miracula</l>
+            <l n="1010">Erit agnitus. Quod scimus istuc loquimur, &amp;</l>
+            <l>Quod vidimus testamur, &amp; quod dicimus</l>
+            <l>Probabimus suo loco atque tempore.</l>
+            <l>Necessitas me nunc obedientiae,</l>
+            <l>Patris mei &amp; matris meae charissimae</l>
+            <pb n="fol. C8r"/>
+            <l n="1015">Abire cogit Nazareth. Valebitis.</l>
+            <l>Et habebo semper gratiam domini mei,</l>
+            <l>Pro benevolentia mihi iam praestita.</l>
+          </sp>
+          <sp who="#pontifex">
+            <speaker>Pon.</speaker>
+            <l>Non sic puelle, nam tuae volumus loqui</l>
+            <l part="I">Materculae.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="M">Ipsam accivero.</l>
+          </sp>
+          <sp who="#pontifex">
+            <speaker>Pon.</speaker>
+            <l part="M">Curre advoca.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">Hem.</l>
+          </sp>
+          <sp who="#pontifex">
+            <speaker>Pon.</speaker>
+            <l n="1020" part="I">Quid de hoc puello dixero?</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>Scena quinta.</head>
+          <stage type="characters">Gamaliel. Nicodemus. Nathanael.</stage>
+          <sp who="#gamaliel">
+            <l part="F">STupenda sunt</l>
+            <l>Quae protulit puerulus hic, non admodum</l>
+            <l>Tamen prophetis dissona, atque temporum</l>
+            <l part="I">Ratio admodum non discrepat.</l>
+          </sp>
+          <sp who="#nicodemus">
+            <speaker>Nic.</speaker>
+            <l part="F">Hic quisquis est</l>
+            <l>Divinus est, nec sine Deo in tenellulo</l>
+            <l n="1025">Tantum potest sapientiae &amp; prudentiae</l>
+            <l>Latere, quantum in eo latere vidimus</l>
+            <l part="I">Seu deprehendimus.</l>
+          </sp>
+          <sp who="#nathanael">
+            <speaker>Na.</speaker>
+            <l part="F">Patres mei (licet</l>
+            <l>Ego rudis, iuvenis, inexpertusque sim)</l>
+            <l>Tamen hic puer (si credimus tecmerijs)</l>
+            <l n="1030">Aut filius Dei est, vel ipse Christus est</l>
+            <l>Rex Israhel, prout prophetae concinunt.</l>
+          </sp>
+          <sp who="#pontifex">
+            <speaker>Pon.</speaker>
+            <l>Temerarium istuc dicitur. Nam filius</l>
+            <l>Lignarij fabri, absque stemmate regio,</l>
+            <l>Et Nazareni Meschia futurus est?</l>
+            <l n="1035">Ex Bethlehém ne nasciturum praecinit</l>
+            <pb n="fol. C8v"/>
+            <l>Davidis urbe qui reget populum Israhel.</l>
+            <l>Examinate cautius quis sit puer,</l>
+            <l>Vulgus priusquam exaudiat vel creduat.</l>
+          </sp>
+          <sp who="#nathanael">
+            <speaker>Na.</speaker>
+            <l>En mater eminus suo cum filio,</l>
+            <l n="1040">Si quis velit iam sciscitetur pluria,</l>
+            <l part="I">Salvo pudore iuvenculae.</l>
+          </sp>
+          <sp who="#gamaliel">
+            <speaker>Ga.</speaker>
+            <l part="F">Salvo. quid hoc?</l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>Scena sexta.</head>
+          <stage type="characters">Gamaliel. Maria. Iesuah. Pontifex.</stage>
+          <sp who="#gamaliel">
+            <l>MAtrona salve. Túne mater huius es</l>
+            <l>Puelli Iesuah, qui (ut inquit) natus est</l>
+            <l part="I">Annos duodecim aut circiter?</l>
+          </sp>
+          <sp who="#maria">
+            <speaker>Ma.</speaker>
+            <l part="F">Ego domine sum.</l>
+            <l n="1045">(Secede gnate paululum dum te advocem)</l>
+            <l>Huius puelli mater &amp; ministra sum,</l>
+            <l>Duodennis atque a Martio iam factus est.</l>
+          </sp>
+          <sp who="#gamaliel">
+            <speaker>Ga.</speaker>
+            <l>Dicit se habere patrem fabrum lignarium.</l>
+          </sp>
+          <sp who="#maria">
+            <speaker>Mar.</speaker>
+            <l>Habet profecto (praeter hunc qui condidit</l>
+            <l n="1050">Coelos) patrem in terris fabrum lignarium.</l>
+          </sp>
+          <sp who="#gamaliel">
+            <speaker>Ga.</speaker>
+            <l>Cuius tribus uterque vestrum est dicito.</l>
+          </sp>
+          <sp who="#maria">
+            <speaker>Mar.</speaker>
+            <l>Uterque nostrum de tribu Iuda ortus est.</l>
+          </sp>
+          <sp who="#gamaliel">
+            <speaker>Ga.</speaker>
+            <l part="I">Ubi natus est puellus hic?</l>
+          </sp>
+          <sp who="#maria">
+            <speaker>Mar.</speaker>
+            <l part="F">In Bethlehem.</l>
+            <l>Quod inde pater originem traxerat, eo</l>
+            <l n="1055">Profecta sum professionis tempore,</l>
+            <l>Ibique peperi filium hunc meum unicum.</l>
+            <l>Indeque reversi Aegyptios petivimus,</l>
+            <l>Annum dein post septimum iterum Nazareth</l>
+            <pb n="fol. D1r"/>
+            <l>Repetivimus, &amp; orationis gratia</l>
+            <l n="1060">Huc venimus, nostramque denuo Nazareth</l>
+            <l>Si pace vestra liceat hinc repedabimus.</l>
+          </sp>
+          <sp who="#gamaliel">
+            <speaker>Ga.</speaker>
+            <l>Quid ni liceret pace nostra filia?</l>
+            <l>Interrogavimus ista curiosius,</l>
+            <l>Ob pueri inestimabilem scientiam &amp;</l>
+            <l n="1065">Prudentiam. In naturae &amp; alijs dotibus.</l>
+            <l>Incomparabilis viris est omnibus,</l>
+            <l>Nostrae scholae magistris &amp; sapientibus.</l>
+            <l>Nihil est enim de quo probe non disputet,</l>
+            <l>Sese rogantibusque non respondeat.</l>
+            <l n="1070">Sed amabo dic quis docuit hunc? pater ipsius</l>
+            <l part="I">Alius ve quispiam?</l>
+          </sp>
+          <sp who="#maria">
+            <speaker>Ma.</speaker>
+            <l part="F">Pater coelestis hunc</l>
+            <l>Per spiritus sui supernam gratiam</l>
+            <l>Hunc sedulo atque clanculum domi erudit,</l>
+            <l>Sacrasque scripturas sine libris edocet.</l>
+            <l n="1075">Siqua alia sunt interroganda dicite,</l>
+            <l part="I">Manebo dum responderim.</l>
+          </sp>
+          <sp who="#gamaliel">
+            <speaker>Ga.</speaker>
+            <l part="F">Nulla alia sunt.</l>
+            <l>Redeat puer cum matre ut abeat Nazareth.</l>
+          </sp>
+          <sp who="#maria">
+            <speaker>Ma.</speaker>
+            <l>Ades mi Iesuah, ut vale dicas tuis</l>
+            <l>Didascalis, tuisque praeceptoribus.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l n="1080">Valete nomodidascali cum amiculis,</l>
+            <l>Et habeo gratiam patres, quod hactenus</l>
+            <l>Me in aedibus vestris nutristis hilariter.</l>
+            <l part="I">Pater supernus retribuat.</l>
+          </sp>
+          <sp who="#pontifex">
+            <speaker>Pon.</speaker>
+            <l part="F">Vale puer,</l>
+            <pb n="fol. D1v"/>
+            <l>Patrem omnium Deum coles, deinde eos</l>
+            <l n="1085">Qui te ediderunt saeculo, patrem tuum &amp;</l>
+            <l>Matrem tuam, ut bene sit tibique in hoc solo,</l>
+            <l part="I">Longoque vivas tempore.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">Sponte obsequar</l>
+            <l>Parentibus venerande Pontifex. Vale.</l>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>Scena septima.</head>
+          <stage type="characters">Nathanael. Pontifex. Gamaliel. Nicodemus.</stage>
+          <sp who="#nathanael">
+            <l>COnferte iam domini mei quae dicta sunt</l>
+            <l n="1090">A matre sancta &amp; simplici de filio</l>
+            <l>Sententijs propheticis. An ne ex tribu</l>
+            <l>Christus oriturus creditur Iudaica?</l>
+            <l>In Bethlehém ne natus est? Aegyptijs ne</l>
+            <l>Ex partibus reductus est ad Nazareth?</l>
+            <l n="1095">An non prophetae his concinunt? Sic namque habent.</l>
+            <l>Non auferetur sceptron ex Iuda, neque</l>
+            <l>Dux femoris eius, donicum venturus est</l>
+            <l>Is qui Israhel mittendus est, &amp; ipse erit</l>
+            <l>Cunctarum in orbe gentium expectatio.</l>
+            <l n="1100">Nec Bethlehem inter principes Iudaicos</l>
+            <l>Est minima, quòd dux Israhel hinc exijt,</l>
+            <l>Et eius ortus a diebus saeculi.</l>
+            <l>Et nonne filius patri revocandus ex</l>
+            <l>Aegypto erit, quo a Nazareth, uti flosculus,</l>
+            <l n="1105">Iam Nazareus &amp; sit &amp; vocatus sit?</l>
+            <l>Si conferantur haec ijs quae dicta sunt,</l>
+            <pb n="fol. D2r"/>
+            <l>Quid aliud hunc quàm Maschian pronunciant?</l>
+          </sp>
+          <sp who="#pontifex">
+            <speaker>Pon.</speaker>
+            <l>Verisimilia sunt quidem quae suggeris</l>
+            <l>Nathanael. Committo disputantibus.</l>
+          </sp>
+          <sp who="#gamaliel">
+            <speaker>Ga.</speaker>
+            <l n="1110">Cavendum erit nequid temeriter hoc</l>
+            <l>Super negotio rudi popello protinus</l>
+            <l>Pronunciemus, sed moremur usque quo</l>
+            <l>Probaverit miraculis (ut dixerat)</l>
+            <l>Quis, qualis, aut quantus fiet. Verumtamen</l>
+            <l n="1115">(Si animi mei ex sententia loqui audeam,)</l>
+            <l>Puerum hunc futurum praedicarem Meschian.</l>
+          </sp>
+          <sp who="#nicodemus">
+            <speaker>Nic.</speaker>
+            <l>Idipsum &amp; ego iam praedicarem, si audeam.</l>
+          </sp>
+          <sp who="#stephanus">
+            <speaker>Ste.</speaker>
+            <l>Ego audeo, &amp; pronuncio quòd hic puer</l>
+            <l>Sit filius vere Dei, &amp; rex Israhel.</l>
+          </sp>
+          <sp who="#nicodemus">
+            <speaker>Nic.</speaker>
+            <l n="1120">Prestat silere ne puelli <corr>exaudiant</corr>,</l>
+            <l>Donec secundo convocetur concio.</l>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>Scena octava.</head>
+          <stage type="characters">Iosephus. Iesuah. Stephanus. cum caeteris.</stage>
+          <sp who="#iosephus">
+            <l>QUi tibi puer sunt obvij coaevuli</l>
+            <l>Praeter ducem primarium qui senior est?</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="I">Scholastici sunt mi pater.</l>
+          </sp>
+          <sp who="#iosephus">
+            <speaker>Io.</speaker>
+            <l part="F">Novisti eos?</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l n="1125" part="I">Novi probè.</l>
+          </sp>
+          <sp who="#iosephus">
+            <speaker>Io.</speaker>
+            <l part="F">Alloquitor, valeque dicito.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l>Hic Stephanus est, testis mihi futurus. Heu.</l>
+          </sp>
+          <sp who="#stephanus">
+            <speaker>Ste.</speaker>
+            <l part="I">Quid lachrimas?</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">Non lachrimer? tu martyr es</l>
+            <l>Et prothomartyr mihi futurus, (heu dolor)</l>
+            <l>Corona tibi debetur hic primaria, &amp;</l>
+            <pb n="fol. D2v"/>
+            <l n="1130" part="I">Mihi dolor primarius.</l>
+          </sp>
+          <sp who="#stephanus">
+            <speaker>Ste.</speaker>
+            <l part="F">Quid sibi velint</l>
+            <l part="I">Haec verba non intelligo.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">Hic Iustus est</l>
+            <l>Tandem vocandus Barsabas, qui lacte me</l>
+            <l>Dulci atque pane candido refecit, &amp;</l>
+            <l>Solatus est. Philippus hic &amp; Prochorus hic,</l>
+            <l n="1135">Cum Parmena &amp; Nicanore, hic Timon quoque</l>
+            <l>Ecclesiae tandem meae ministri erunt.</l>
+          </sp>
+          <sp who="#philippus">
+            <speaker>Ph.</speaker>
+            <l>Neque nos valemus assequi quid dixerit.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l>Praedico iam, scietis autem postea.</l>
+            <l part="I">Ubi Saulus est?</l>
+          </sp>
+          <sp who="#philippus">
+            <speaker>Ph.</speaker>
+            <l part="F">Caecutit is aliquantulum</l>
+            <l n="1140" part="I">Aquilone lesus turbido.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">Caecutiet</l>
+            <l>Multo amplius, quo illuminetur amplius.</l>
+            <l>Tum sentiet quid <corr>fecerit</corr> mihi &amp; meis.</l>
+            <l>Tandem tamen vas <foreign xml:lang="grc">ἐκλογῆς</foreign> futurus est.</l>
+          </sp>
+          <sp who="#iosephus">
+            <speaker>Io.</speaker>
+            <l part="I">Ades puelle.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">Adsum pater. Valete vos</l>
+            <l n="1145" part="I">Amiculi.</l>
+          </sp>
+          <sp who="#a">
+            <speaker>A.</speaker>
+            <l part="M">Vale.</l>
+          </sp>
+          <sp who="#b">
+            <speaker>B.</speaker>
+            <l part="M">Vale.</l>
+          </sp>
+          <sp who="#c">
+            <speaker>C.</speaker>
+            <l part="M">Vale.</l>
+          </sp>
+          <sp who="#d">
+            <speaker>D.</speaker>
+            <l part="F">Vale.</l>
+            <l>Te quando denuo videbimus? Vale.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l>Cum me parentes siverint, tum denuo</l>
+            <l>Videbitis. Valete nunc mea viscera.</l>
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <head>Scena nona.</head>
+          <stage type="characters">Maria. Iesuah. Ioseph.</stage>
+          <sp who="#maria">
+            <l>Fili quid est quod utrique nostrum dixeras</l>
+            <l n="1150">Quòd (nempe) oporteat te in his quae sunt patris</l>
+            <l>Versarier? Quaenam tibi exequanda sunt</l>
+            <l part="I">Patris superni nomine?</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l part="F">In mundum pater</l>
+            <pb n="fol. D3r"/>
+            <l>Demisit (heu) me filium, quo erroribus</l>
+            <l>Vitijsque pulsis veritatem agnoscat, &amp;</l>
+            <l n="1155">Virtutibus homo fulgeat, quo gratiam</l>
+            <l>Patris &amp; salutem consequi per me queat,</l>
+            <l>Quam primus in paradiso Adamus perdidit.</l>
+          </sp>
+          <sp who="#maria">
+            <speaker>Ma.</speaker>
+            <l>Haec alta mi Iosephe sunt mysteria.</l>
+          </sp>
+          <sp who="#iosephus">
+            <speaker>Io.</speaker>
+            <l>Profecto sunt. suo patebunt tempore.</l>
+            <l n="1160">Nunc recto itinere nos eamus Nazareth.</l>
+            <l>Si non queat puer ingredi, in humeris meis</l>
+            <l>Gestandus est, vel ad manus ducendus est.</l>
+          </sp>
+          <sp who="#iesuah">
+            <speaker>Ies.</speaker>
+            <l>Corroborabit me pater qui omnia potest,</l>
+            <l>Iterque nostrum prosperum facturus est.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="epilogue">
+        <head>Epilogus.</head>
+        <sp who="#epilogus">
+          <speaker>Epilogus.</speaker>
+          <l n="1165">Cunctis puellis maxime scholasticis</l>
+          <l>Mores pudicos &amp; probos ostendimus</l>
+          <l>Cum puerum Iesum comicos scholasticum</l>
+          <l>Humilem, probumque, &amp; obedientem finximus.</l>
+          <l>Rogamus itaque singuli vos singulos,</l>
+          <l n="1170">Ne quispiam quod finximus vel egimus,</l>
+          <l>Temeriter actum sive scriptum iudicet.</l>
+          <l>Praeter Dei nam gloriam vel proximi</l>
+          <l>Nostri salutem omnino nil reposcimus</l>
+          <l>Si Christum Iesum in hoc theatrum duximus,</l>
+          <l n="1175">Excuset hoc primaeva pueri infantia.</l>
+          <l>Nec quempiam vocabulum scholastici</l>
+          <pb n="fol. D3v"/>
+          <l>Moveat, quod in medio sedens <foreign xml:lang="grc">διδασκάλων</foreign></l>
+          <l>Audiat eos, rogetque more scholastico.</l>
+          <l>Valete nunc, &amp; si placuimus plaudite.</l>
+        </sp>
+        <closer>FINIS.</closer>
+      </div>
+      <div type="privilege">
+        <p>Visa est haec Comaedia &amp; subsignata a Reverendo domino Episcopo Hebronensi, &amp;
+          admissa soli Harmanno Borculoo imprimere &amp; distrahere. Et erat subscriptio G.
+          Scrijvers.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
