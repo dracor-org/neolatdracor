@@ -59,7 +59,7 @@
       <persName>Artemona</persName>
      </person>
      <personGrp xml:id="augures" sex="MALE">
-      <persName>Augures</persName>
+      <name>Augures</name>
      </personGrp>
      <person xml:id="cleenetes" sex="MALE">
       <persName>Cleenetes</persName>
@@ -74,7 +74,7 @@
       <persName>Lampadio</persName>
      </person>
      <personGrp xml:id="lorarii" sex="MALE" role="lorarius">
-      <persName>Lorarii</persName>
+      <name>Lorarii</name>
      </personGrp>
      <person xml:id="melaenis" sex="FEMALE" role="lena">
       <persName>Melaenis</persName>
@@ -90,13 +90,13 @@
      </person>
      <person xml:id="pharao" sex="MALE">
       <persName>Pharao</persName>
-      <persName>Rex Pharao</persName>
+      <persName type="variant">Rex Pharao</persName>
      </person>
      <person xml:id="puer" sex="MALE" role="puer" corresp="#pueri">
       <persName>Puer</persName>
      </person>
      <personGrp xml:id="pueri" sex="MALE" role="puer">
-      <persName>Pueri</persName>
+      <name>Pueri</name>
      </personGrp>
      <person xml:id="putiphar" sex="MALE" ana="https://www.wikidata.org/wiki/Q1148687">
       <persName>Putiphar</persName>
@@ -105,7 +105,7 @@
       <persName>Rosina</persName>
      </person>
      <personGrp xml:id="servi" sex="MALE" role="servus">
-      <persName>Servi</persName>
+      <name>Servi</name>
      </personGrp>
      <person xml:id="sosia" sex="MALE">
       <persName>Sosia</persName>
@@ -299,16 +299,16 @@
      <roleDesc>praefectus pistorum</roleDesc>
     </castItem>
     <castItem>
-     <role>Nuncius</role>
+     <role>Nuncius.</role>
     </castItem>
     <castItem>
-     <role>Sosia</role>
+     <role>Sosia.</role>
     </castItem>
     <castItem>
-     <role>Augures</role>
+     <role>Augures.</role>
     </castItem>
     <castItem>
-     <role>Lorarii</role>
+     <role>Lorarii.</role>
     </castItem>
    </castList>
   </front>
@@ -2099,10 +2099,10 @@
       <speaker>Cleenetes</speaker>
       <l n="606" part="F" rend="indent">Dictum puta.</l>
      </sp>
+     <pb n="D1r" />
      <sp who="#josephus">
       <speaker>Josephus</speaker>
-      <l n="607">
-       <pb n="D1r" />Perii! Quid nunc, quo fugiam? Aut quo me recipiam miser?</l>
+      <l n="607">Perii! Quid nunc, quo fugiam? Aut quo me recipiam miser?</l>
       <l n="608">Nullus sum, totus occidi. Nam in eum mihi mea</l>
       <l n="609">Jam res rediit locum, ut si omnes omnia sua</l>
       <l n="610">Consilia conferant atque huic subito malo</l>
@@ -2427,7 +2427,8 @@
     <div type="scene" n="2">
      <head>Actus V. Scena II.</head>
      <stage>
-      <persName ref="#pharao">Rex Pharao</persName>, <persName ref="#phanostrata">Phanostrata</persName>.</stage>
+      <emph rend="italic">Rex</emph>
+      <persName ref="#pharao">Pharao</persName>, <persName ref="#phanostrata">Phanostrata</persName>.</stage>
      <sp who="#pharao">
       <speaker>Rex Pharao</speaker>
       <l n="707">Sunt mira, dixti quae intus, mi Phanostrata.</l>
