@@ -41,22 +41,35 @@
    <sourceDesc>
     <bibl type="digitalSource">
      <name>Theatrum Neolatinum</name>
-     <bibl type="originalSource">
+    </bibl>
+    <bibl type="originalSource">
       <title>Magdaléna Jacková, Markéta Klosová, Martin Bažil, Alena Bočková, Kateřina Bobková-Valentová, Eva Popelková (eds.): Latinské biblické drama v českých zemích. Prague 2026. In print (Theatrum Neolatinum, Latinské divadlo v českých zemích 3).</title>
       <idno type="URL">https://www.theatrum-neolatinum.cz/en/biblicke.html</idno>
-      <bibl type="originalSource">
-       <title>Iosephiados</title>
-       <title type="sub">Comaedia ex Genesis lib. cap. 39. 40. 41.</title>
-       <pubPlace>Pragae</pubPlace>: Typis <publisher>Schimanianis</publisher>, <date>1607</date>; Biblioteka Uniwersytecka, Wrocław, sign. 395 682 (=4 N 431 adl. 1); Det Kgl. Bibliotek, sign. 75:4, 30 00016.</bibl>
-     </bibl>
     </bibl>
+    <bibl type="originalSource">
+      <title>Iosephiados</title>
+      <title type="sub">Comaedia ex Genesis lib. cap. 39. 40. 41.</title>
+      <pubPlace>Pragae</pubPlace>: Typis <publisher>Schimanianis</publisher>,
+      <date>1607</date>;
+      Biblioteka Uniwersytecka, Wrocław, sign. 395 682 (=4 N 431 adl. 1);
+      Det Kgl. Bibliotek, sign. 75:4, 30 00016.
+    </bibl>
+    <listEvent>
+    <event type="print" when="1607">
+      <desc />
+    </event>
+    <event type="written" when="1607">
+      <desc />
+    </event>
+    </listEvent>
    </sourceDesc>
   </fileDesc>
   <profileDesc>
    <particDesc>
     <listPerson>
-     <person xml:id="artemona" sex="FEMALE" role="uxor" ana="https://www.wikidata.org/wiki/Q3860078">
+     <person xml:id="artemona" sex="FEMALE" role="uxor">
       <persName>Artemona</persName>
+      <idno type="wikidata">Q3860078</idno>
      </person>
      <personGrp xml:id="augures" sex="MALE">
       <name>Augures</name>
@@ -67,8 +80,9 @@
      <person xml:id="curgulio" sex="MALE">
       <persName>Curgulio</persName>
      </person>
-     <person xml:id="josephus" sex="MALE" ana="https://www.wikidata.org/wiki/Q145746">
+     <person xml:id="josephus" sex="MALE">
       <persName>Josephus</persName>
+      <idno type="wikidata">Q145746</idno>
      </person>
      <person xml:id="lampadio" sex="MALE">
       <persName>Lampadio</persName>
@@ -98,8 +112,9 @@
      <personGrp xml:id="pueri" sex="MALE" role="puer">
       <name>Pueri</name>
      </personGrp>
-     <person xml:id="putiphar" sex="MALE" ana="https://www.wikidata.org/wiki/Q1148687">
+     <person xml:id="putiphar" sex="MALE">
       <persName>Putiphar</persName>
+      <idno type="wikidata">Q1148687</idno>
      </person>
      <person xml:id="rosina" sex="FEMALE" role="ancilla">
       <persName>Rosina</persName>
@@ -131,16 +146,7 @@
    </creation>
   </profileDesc>
  </teiHeader>
- <standOff>
-  <listEvent>
-   <event type="print" when="1607">
-    <desc />
-   </event>
-   <event type="written" when="1607">
-    <desc />
-   </event>
-  </listEvent>
- </standOff>
+ 
  <text>
   <front>
    <titlePage>
