@@ -46,6 +46,11 @@
             </bibl>
           </relatedItem>
         </bibl>
+        <listEvent>
+          <event type="print" when="1679">
+            <desc />
+          </event>
+        </listEvent>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -57,8 +62,9 @@
           <person xml:id="codrillos" sex="MALE">
             <persName>Codrillos</persName>
           </person>
-          <person xml:id="s-ignatius" sex="MALE" ana="https://www.wikidata.org/wiki/Q44281">
+          <person xml:id="s-ignatius" sex="MALE">
             <persName>S. Ignatius</persName>
+            <idno type="wikidata">Q44281</idno>
           </person>
           <person xml:id="irussa" sex="MALE">
             <persName>Irussa</persName>
@@ -87,9 +93,12 @@
           <person xml:id="figuera" sex="MALE">
             <persName>Figuera</persName>
           </person>
-          <personGrp xml:id="milites" sex="MALE">
-            <name>Milites</name>
-          </personGrp>
+          <person xml:id="miles" sex="MALE">
+            <persName>Miles</persName>
+          </person>
+          <person xml:id="milesius" sex="MALE">
+            <persName>Milesius</persName>
+          </person>
           <person xml:id="diego" sex="MALE">
             <persName>Diego</persName>
           </person>
@@ -454,7 +463,7 @@
             <l>Favete superi! quam cito sagaci nare feliciter</l>
             <l part="I">Investigo praedam.</l>
           </sp>
-          <sp who="#s. ignatius">
+          <sp who="#s-ignatius">
             <speaker>IGN.</speaker>
             <l part="F"> Ratum est et fixum animo,</l>
             <l>Parens optima, missum facere saeculum, et patrias</l>
@@ -473,7 +482,7 @@
             <speaker>COD.</speaker>
             <l>Ego pol tibi eradicabo linguam. revertere.</l>
           </sp>
-          <sp who="#s. ignatius">
+          <sp who="#s-ignatius">
             <speaker>IGN.</speaker>
             <l>Appendo aris gladium, alia mihi militia est.</l>
             <l>Velim nunc mihi pauperem dari, quicum</l>
@@ -484,7 +493,7 @@
             <l part="F">praesto sum, domine mi,</l>
             <l part="I">Si quid me velis.</l>
           </sp>
-          <sp who="#s. ignatius">
+          <sp who="#s-ignatius">
             <speaker>IGN.</speaker>
             <l part="F">ergo lacernam exue.</l>
           </sp>
@@ -493,7 +502,7 @@
             <l>Quaeso tu ludis me: nam ego ab adolescentia</l>
             <l part="I">Pauper sum claudus, tu scis, Boguez.</l>
           </sp>
-          <sp who="#s. ignatius">
+          <sp who="#s-ignatius">
             <speaker>IGN.</speaker>
             <l part="F">mitte has</l>
             <l part="I">Ambages. exequere.</l>
@@ -504,7 +513,7 @@
             <l>En cento miserae lacernulae, male sartae, etiam</l>
             <l part="I">Perforatae undique.</l>
           </sp>
-          <sp who="#s. ignatius">
+          <sp who="#s-ignatius">
             <speaker>IGN.</speaker>
             <l part="F">cape divitem hanc togam,</l>
             <l part="I">Et simul indue.</l>
@@ -514,7 +523,7 @@
             <l part="F">dii quid haec vestis mutatio est?</l>
             <l part="I">Dormio an vigilo, mi Boguez?</l>
           </sp>
-          <sp who="#s. ignatius">
+          <sp who="#s-ignatius">
             <speaker>IGN.</speaker>
             <l part="F">reliqua mihi</l>
             <l>Concede, galerum, scipionem: tu meum pileum</l>
@@ -527,7 +536,7 @@
             <l>Quisquis es: edissere nomen ut te noscitem,</l>
             <l part="I">Et posthac commemorem.</l>
           </sp>
-          <sp who="#s. ignatius">
+          <sp who="#s-ignatius">
             <speaker>IGN.</speaker>
             <l part="F">nihil opus nomine.</l>
             <l part="I">Ora Deum, et vale.</l>
@@ -852,7 +861,7 @@
           <sp who="#irussa">
             <speaker>IR.</speaker>
             <l>Quid tibi vis stulte vir? an me serio etiam</l>
-            <l part="F">Verberas? deliras inquam tute ipse.</l>
+            <l part="I">Verberas? deliras inquam tute ipse.</l>
           </sp>
           <sp who="#codrillos">
             <speaker>COD.</speaker>
@@ -1118,7 +1127,7 @@
           </sp>
           <sp who="#furius">
             <speaker>FUR.</speaker>
-            <l part="I">in vicinia</l>
+            <l part="F">in vicinia</l>
             <l>Habitat Ivador, pauper ipse pauperibus</l>
             <l part="I">Patrocinabitur gratis.</l>
           </sp>
