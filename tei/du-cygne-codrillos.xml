@@ -34,17 +34,12 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="originalSource">
-          <author>Martinus du Cygne</author>: 
-          <title>Codrillos</title>. 
-          <title type="sub">Comoedia I</title>. 
-          <pubPlace>Liège</pubPlace>: 
-          <publisher>Joannes Mathias Hovius</publisher> 
-          <date>1679</date>.
-          <relatedItem>
+          <author>Martinus du Cygne</author>: <title>Codrillos</title>. <title type="sub">Comoedia
+            I</title>. <pubPlace>Liège</pubPlace>: <publisher>Joannes Mathias Hovius</publisher>
+          <date>1679</date>. <relatedItem>
             <!-- digital copy used -->
             <bibl>
-              <ref target="https://books.google.com/books?id=vqAjcaQDLrgC">Google
-                Books</ref>
+              <ref target="https://books.google.com/books?id=vqAjcaQDLrgC">Google Books</ref>
               <availability status="free">
                 <p>In the public domain.</p>
               </availability>
@@ -104,7 +99,7 @@
         <keywords>
           <term type="genreTitle">comedy</term>
         </keywords>
-        <classCode scheme="https://www.wikidata.org/wiki/Q40831"></classCode>
+        <classCode scheme="https://www.wikidata.org/wiki/Q40831"/>
       </textClass>
       <creation>
         <region>
@@ -115,8 +110,7 @@
     <revisionDesc>
       <listChange>
         <change when="2026-07-24">
-          <desc>Converted to DraCor TEI by Nicholas De Sutter.</desc>o
-        </change>
+          <desc>Converted to DraCor TEI by Nicholas De Sutter.</desc>o </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -128,11 +122,10 @@
         </docTitle>
       </titlePage>
       <argument>
-        <head>MATERIA</head>     
-        <p>Sanctus IGNATIUS in Monte Serrato coram Virgine 
-          saeculo se abdicans, clam vestes suas donarat
-          pauperi: verum cum hic insimularetur furti, paulo
-          post IGNATII fide liber est dimissus. <ref>Ribadeneira</ref>.</p>
+        <head>MATERIA</head>
+        <p>Sanctus IGNATIUS in Monte Serrato coram Virgine saeculo se abdicans, clam vestes suas
+          donarat pauperi: verum cum hic insimularetur furti, paulo post IGNATII fide liber est
+          dimissus. <ref>Ribadeneira</ref>.</p>
       </argument>
       <castList>
         <head>PERSONAE</head>
@@ -195,7 +188,8 @@
             <label>Actus I</label>
             <list>
               <milestone unit="dramaticPhase" n="protasis"/>
-              <item><label>Scena I</label> Codrillos, Furius, Irussa, Boguez foedus faciunt communicandi inter se Eleemosynas.</item>
+              <item><label>Scena I</label> Codrillos, Furius, Irussa, Boguez foedus faciunt
+                communicandi inter se Eleemosynas.</item>
               <item><label>Scena II</label> S. Ignatius saeculo renuncians vestem commutat.</item>
               <item><label>Scena III</label> Codrillos insolentem agit nobilem.</item>
               <item><label>Scena IV</label> Codrillos confoederatos sibi socios aspernatur.</item>
@@ -205,7 +199,8 @@
             <label>Actus II</label>
             <list>
               <milestone unit="dramaticPhase" n="epitasis"/>
-              <item><label>Scena I</label> Furius &amp; Irussa iure extorquere a Codrillos partem eleemosynae deliberant.</item>
+              <item><label>Scena I</label> Furius &amp; Irussa iure extorquere a Codrillos partem
+                eleemosynae deliberant.</item>
               <item><label>Scena II</label> Furius &amp; Irussa Ivadorem consulunt.</item>
               <item><label>Scena III</label> Intentata lite Codrillos provocatur in ius.</item>
               <item><label>Scena IV</label> Codrillos in iudicium mittit Boguez.</item>
@@ -216,19 +211,24 @@
             <label>Actus III</label>
             <list>
               <item><label>Scena I</label> Garcias requirit fratrem patria egressum.</item>
-              <item><label>Scena II</label> Perez in manibus Boguez deprehendit cannam Ignatii, &amp; insigne pilei.</item>
-              <item><label>Scena III</label> Garcias expostulat esse nefarie iugulatum fratrem suum.</item>
-              <item><label>Scena IV</label> Boguez narrat hero suo conquiri viros, qui Ignatium spoliarunt vestibus.</item>
+              <item><label>Scena II</label> Perez in manibus Boguez deprehendit cannam Ignatii,
+                &amp; insigne pilei.</item>
+              <item><label>Scena III</label> Garcias expostulat esse nefarie iugulatum fratrem
+                suum.</item>
+              <item><label>Scena IV</label> Boguez narrat hero suo conquiri viros, qui Ignatium
+                spoliarunt vestibus.</item>
               <item><label>Scena V</label> Codrillos callide partitur acceptas vestes.</item>
               <milestone unit="dramaticPhase" n="catastasis"/>
-              <item><label>Scena VI</label> Furius, Irussa, Ivador, Crineda deprehensi ex vestibus Ignatii abripiuntur in carcerem.</item>
+              <item><label>Scena VI</label> Furius, Irussa, Ivador, Crineda deprehensi ex vestibus
+                Ignatii abripiuntur in carcerem.</item>
             </list>
           </item>
           <item>
             <label>Actus IV</label>
             <list>
               <item><label>Scena I</label> Codrillos cum Boguez in fuga comprehenditur.</item>
-              <item><label>Scena II</label> Garcias severe cognoscit de iis, quae ad vestes &amp; vitam Ignatii pertinent.</item>
+              <item><label>Scena II</label> Garcias severe cognoscit de iis, quae ad vestes &amp;
+                vitam Ignatii pertinent.</item>
               <item><label>Scena III</label> Garcias comprehensis mortem decernit.</item>
             </list>
           </item>
@@ -269,12 +269,14 @@
           <l>Impediri multis turbis: dum denique</l>
           <l>Iucunda catastrophe, res palam siet.</l>
         </sp>
-      </div>  
+      </div>
       <div type="act" n="1">
         <head>ACTUS PRIMUS.</head>
         <div type="scene" n="1">
           <head>SCENA PRIMA.</head>
-          <argument><p>CODRILLOS, FURIUS, IRUSSA, Foedus faciunt communicandi inter se eleëmosynas.</p></argument>
+          <argument>
+            <p>CODRILLOS, FURIUS, IRUSSA, Foedus faciunt communicandi inter se eleëmosynas.</p>
+          </argument>
           <stage>CODRILLOS, FURIUS, IRUSSA.</stage>
           <sp who="#codrillos">
             <speaker>COD.</speaker>
@@ -441,7 +443,9 @@
         </div>
         <div type="scene" n="2">
           <head>SCENA SECUNDA.</head>
-          <argument><p>S. IGNATIUS saeculo renuntians vestem commutat.</p></argument>
+          <argument>
+            <p>S. IGNATIUS saeculo renuntians vestem commutat.</p>
+          </argument>
           <stage>S. IGNATIUS, CODRILLOS, BOGUEZ.</stage>
           <sp who="#codrillos">
             <speaker>COD.</speaker>
@@ -535,7 +539,9 @@
         </div>
         <div type="scene" n="3">
           <head>SCENA TERTIA.</head>
-          <argument><p>CODRILLOS insolentem agit nobilem.</p></argument>
+          <argument>
+            <p>CODRILLOS insolentem agit nobilem.</p>
+          </argument>
           <stage>CODRILLOS, BOGUEZ, DIEGO.</stage>
           <sp who="#codrillos">
             <speaker>COD.</speaker>
@@ -711,10 +717,11 @@
             <l part="F">vive, vive Dux.</l>
           </sp>
         </div>
-        
         <div type="scene" n="4">
           <head>SCENA QUARTA</head>
-          <argument><p>CODRILLOS confoederatos sibi socios aspernatur.</p></argument>
+          <argument>
+            <p>CODRILLOS confoederatos sibi socios aspernatur.</p>
+          </argument>
           <stage>CODRILLOS, FURIUS, IRUSSA, BOGUEZ</stage>
           <sp who="#irussa">
             <speaker>IR.</speaker>
@@ -736,7 +743,7 @@
             <l part="I">Codrillos inquam salve, salve.</l>
           </sp>
           <sp who="#codrillos">
-            <speaker>COD.</speaker> 
+            <speaker>COD.</speaker>
             <l part="F">nebulo,</l>
             <l part="I">Quid me istoc appellas nomine?</l>
           </sp>
@@ -754,7 +761,7 @@
             <l part="F">quia Codrillos es.</l>
           </sp>
           <sp who="#codrillos">
-            <speaker>COD.</speaker> 
+            <speaker>COD.</speaker>
             <l part="I">Falleris, aliud nomen.</l>
           </sp>
           <sp who="#irussa">
@@ -785,13 +792,13 @@
             <l part="I">Recede; dico tibi; an non?</l>
           </sp>
           <sp who="#irussa">
-            <speaker>IR.</speaker> 
+            <speaker>IR.</speaker>
             <l part="F">ego quid agas</l>
             <l>Non intelligo: sed si quid est, in quo mea opera</l>
             <l>Opus sit tibi, praestabo: caenabimus una vesperi.</l>
           </sp>
           <sp who="#codrillos">
-            <speaker>COD.</speaker> 
+            <speaker>COD.</speaker>
             <l>Egone? cum prorege caenabo hodie. abi</l>
             <l part="I">Etiamnum in crucem.</l>
           </sp>
@@ -901,7 +908,7 @@
             <l part="I">In hac scena</l>
           </sp>
           <sp who="#furius">
-            <speaker>FUR.</speaker> 
+            <speaker>FUR.</speaker>
             <l part="F">id non expedit. sed quid facis?</l>
             <l>Quam personam geris? quod officium cum isto habitu?</l>
           </sp>
@@ -930,7 +937,7 @@
             <l part="I">Tamdiu cum paupere colloqui.</l>
           </sp>
           <sp who="#furius">
-            <speaker>FUR.</speaker> 
+            <speaker>FUR.</speaker>
             <l part="F">par pari</l>
             <l part="I">Gaudet.</l>
           </sp>
@@ -939,7 +946,7 @@
             <l part="M">opes, honores mutant mores.</l>
           </sp>
           <sp who="#furius">
-            <speaker>FUR.</speaker> 
+            <speaker>FUR.</speaker>
             <l part="F">odium</l>
             <l part="I">Parit insolentia.</l>
           </sp>
@@ -953,24 +960,24 @@
             <l part="F">cuius operculum es.</l>
           </sp>
           <sp who="#codrillos">
-            <speaker>COD.</speaker> 
+            <speaker>COD.</speaker>
             <l>Ego me sorte metior, et nobili familia.</l>
           </sp>
           <sp who="#furius">
-            <speaker>FUR.</speaker> 
+            <speaker>FUR.</speaker>
             <l>Qui semel pauper scurra, nunquam dives aut nobilis.</l>
           </sp>
           <sp who="#codrillos">
-            <speaker>COD.</speaker> 
+            <speaker>COD.</speaker>
             <l part="I">An tu spuis adagia, mendice?</l>
           </sp>
           <sp who="#furius">
-            <speaker>FUR.</speaker> 
+            <speaker>FUR.</speaker>
             <l part="F">uti paulo ante tu</l>
             <l part="I">E Iuvenale versus.</l>
           </sp>
           <sp who="#codrillos">
-            <speaker>COD.</speaker> 
+            <speaker>COD.</speaker>
             <l part="F">An tu non posse me</l>
             <l part="I">Fieri nobilem?</l>
           </sp>
@@ -983,7 +990,7 @@
             <l part="I">Furi, si pergis.</l>
           </sp>
           <sp who="#furius">
-            <speaker>FUR.</speaker> 
+            <speaker>FUR.</speaker>
             <l part="F">Codre, si dissimulas.</l>
           </sp>
           <sp who="#codrillos">
@@ -991,7 +998,7 @@
             <l part="I">Furi inquam, si tibi furor.</l>
           </sp>
           <sp who="#furius">
-            <speaker>FUR.</speaker> 
+            <speaker>FUR.</speaker>
             <l part="F">Codre inquam, si tibi</l>
             <l part="I">Stupor.</l>
           </sp>
@@ -1000,7 +1007,7 @@
             <l part="M">maledicis?</l>
           </sp>
           <sp who="#boguez">
-            <speaker>BOG.</speaker> 
+            <speaker>BOG.</speaker>
             <l part="F">ulciscere magne Dux.</l>
           </sp>
           <sp who="#codrillos">
@@ -1012,11 +1019,11 @@
             <l part="I">Utinam esset mihi quoque baculus.</l>
           </sp>
           <sp who="#boguez">
-            <speaker>BOG.</speaker> 
+            <speaker>BOG.</speaker>
             <l part="F">here iterum.</l>
           </sp>
           <sp who="#codrillos">
-            <speaker>COD.</speaker> 
+            <speaker>COD.</speaker>
             <l part="I">O labes, o lutum, o sordes!</l>
           </sp>
           <sp who="#boguez">
@@ -1056,7 +1063,9 @@
         <head>ACTUS SECUNDUS.</head>
         <div type="scene" n="1">
           <head>SCENA PRIMA.</head>
-          <argument><p>FURIUS ET IRUSSA, iure extorquere a CODRILLOS partem eleemosynae deliberant.</p></argument>
+          <argument>
+            <p>FURIUS ET IRUSSA, iure extorquere a CODRILLOS partem eleemosynae deliberant.</p>
+          </argument>
           <stage>FURIUS ET IRUSSA.</stage>
           <sp who="#furius">
             <speaker>FUR.</speaker>
@@ -1119,10 +1128,11 @@
             <l>Adeamus. hae sunt illius aedes proximae.</l>
           </sp>
         </div>
-        
         <div type="scene" n="2">
           <head>SCENA SECUNDA.</head>
-          <argument><p>FURIUS ET IRUSSA IVADOREM Consulunt.</p></argument>
+          <argument>
+            <p>FURIUS ET IRUSSA IVADOREM Consulunt.</p>
+          </argument>
           <stage>FURIUS, IRUSSA, INELLUS, IVADOR.</stage>
           <sp who="#furius">
             <speaker>FUR.</speaker>
@@ -1247,10 +1257,11 @@
             <l>Ingrati si victores partem habuerimus.</l>
           </sp>
         </div>
-        
         <div type="scene" n="3">
           <head>SCENA TERTIA.</head>
-          <argument><p>Intentata lite CODRILLOS provocatur in ius.</p></argument>
+          <argument>
+            <p>Intentata lite CODRILLOS provocatur in ius.</p>
+          </argument>
           <stage>FURIUS, IRUSSA, CODRILLOS.</stage>
           <sp who="#furius">
             <speaker>FUR.</speaker>
@@ -1266,7 +1277,7 @@
             <speaker>COD.</speaker>
             <l>Revertor ex aula: ubi salutare me</l>
             <l>Omnes, assurgere, gratulari, manum</l>
-            <l  part="I">Osculari coeperunt.</l>
+            <l part="I">Osculari coeperunt.</l>
           </sp>
           <sp who="#irussa">
             <speaker>IR.</speaker>
@@ -1333,7 +1344,9 @@
         </div>
         <div type="scene" n="4">
           <head>SCENA QUARTA.</head>
-          <argument><p>CODRILLOS in iudicium mittit BOGUEZ.</p></argument>
+          <argument>
+            <p>CODRILLOS in iudicium mittit BOGUEZ.</p>
+          </argument>
           <stage>CODRILLOS, BOGUEZ.</stage>
           <sp who="#boguez">
             <speaker>BOG.</speaker>
@@ -1473,10 +1486,12 @@
             <l>Causam egit suam, et absolutus est. at venit</l>
             <l>iudex: ascendam superius: vos nolite indicare me</l>
           </sp>
-        </div>    
+        </div>
         <div type="scene" n="5">
           <head>SCENA QUINTA.</head>
-          <argument><p>BOGUEZ corrumpit Iudicium pecunia.</p></argument>
+          <argument>
+            <p>BOGUEZ corrumpit Iudicium pecunia.</p>
+          </argument>
           <stage>CRINEDA, IVADOR, CODRILLOS, IRUSSA, FURIUS, BOGUEZ.</stage>
           <sp who="#crineda">
             <speaker>CRI.</speaker>
@@ -1688,12 +1703,12 @@
             <speaker>IV.</speaker>
             <l part="F">non velim</l>
             <l part="I">Propterea quidquam de causa remittere.</l>
-          </sp>  
+          </sp>
           <sp who="#crineda">
             <speaker>CRI.</speaker>
             <l part="F">neque ego</l>
             <l part="I">De iure.</l>
-          </sp>            
+          </sp>
           <sp who="#ivador">
             <speaker>IV.</speaker>
             <l part="M">ita habemus conscientiam.</l>
@@ -1728,7 +1743,7 @@
             <speaker>FUR.</speaker>
             <l part="F">an tu remoram obiecisti iudicio,</l>
             <l part="I">Profligatissime hominum?</l>
-          </sp> 
+          </sp>
           <sp who="#boguez">
             <speaker>BOG.</speaker>
             <l part="M">proba, nego.</l>
@@ -1797,1404 +1812,1422 @@
           </sp>
         </div>
       </div>
-        <div type="act" n="3">
-          <head>ACTUS TERTIUS.</head>
-          <div type="scene" n="1">
-            <head>SCENA PRIMA.</head>
-            <argument><p>GARCIAS requirit fratrem patria egressum.</p></argument>
-            <stage>GARCIAS, PEREZ.</stage>
-            <sp who="#garcias">
-              <speaker>GA.</speaker>
-              <l>Vita hominum! quantae curae! hoc adeo</l>
-              <l>mihi in mentem venit, cum se patria</l>
-              <l>Subduxit IGNATIUS: nam haec fuga quotidie</l>
-              <l>Auget aegritudinem. nunc autem unde, quo </l>
-              <l>Quaeram? nihil uspiam a quoquam de eo.</l>
-              <l>Tu, Perez, lustra oppidum, sciscitare obvios,</l>
-              <l>Advenas interpella, omne saxum volve, ut rescias.</l>
-            </sp>
-            <sp who="#perez">
-              <speaker>PE.</speaker>
-              <l>Factum puta: ibo versus sacellum Virginis.</l>
-              <l>Diligenter persequar fratris tui vestigia.</l>
-            </sp>
-            <sp who="#garcias">
-              <speaker>GA.</speaker>
-              <l>praestolabor ad ventum tuum hic in vicinia.</l>
-            </sp>
-          </div>
-          
-          <div type="scene" n="2">
-            <head>SCENA SECUNDA.</head>
-            <argument><p>PEREZ in manibus BOGUEZ deprehendit Cannam IGNATII, et insigne pilei.</p></argument>
-            <stage>PEREZ, BOGUEZ.</stage>
-            <sp who="#perez">
-              <speaker>PE.</speaker>
-              <l>Hoc debeo officium hero meo, ut si quid pedibus</l>
-              <l>Manibusque possim eniti, nuntium referam de IGNATIO.</l>
-              <l part="I">Quis hic exit?</l>
-            </sp>
-            <sp who="#boguez">
-              <speaker>BOG.</speaker>
-              <l part="F">ah! ah! ah! in vado sunt omnia,</l>
-              <l>Sine dubio vici causam, ita dextere </l>
-              <l>Inescavi homines nummis pauculis:</l>
-              <l part="I">Ubi reperiam herum, cui haec narrem?</l>
-            </sp>
-            <sp who="#perez">
-              <speaker>PE.</speaker>
-              <l part="F">servus est hic.</l>
-            </sp>
-            <sp who="#boguez">
-              <speaker>BOG.</speaker>
-              <l>Bene divinavit herus, sine pecuniis agi nihil.</l>
-              <l>Reiici pauperes, ac protrahi in dies cum controversus.</l>
-            </sp>
-            <sp who="#perez">
-              <speaker>PE.</speaker>
-              <l>Conveniam hominem. salve servorum optime.</l>
-              <l>Mihi indica, si Barcinone aliquis siet,</l>
-              <l part="I">De magna gente Loyolidum?</l>
-            </sp>
-            <sp who="#boguez">
-              <speaker>BOG.</speaker>
-              <l part="F">ego id nescio.</l>
-            </sp>
-            <sp who="#perez">
-              <speaker>PE.</speaker>
-              <l>Vir modicae staturae, rubrum gerit pallium</l>
-              <l>Thoracem sericum coloris nigri, pilei</l>
-              <l>Insigne prorsus huic, quod gestas, simile.</l>
-            </sp>
-            <sp who="#boguez">
-              <speaker>BOG.</speaker>
-              <l>Miror quid sibi vult hic vir, et mihi;</l>
-              <l>Ita probe describit illum, qui benefecit hero meo.</l>
-              <l  part="I">Quid ais? Loyola est iste homo?</l>
-            </sp>
-            <sp who="#perez">
-              <speaker>PE.</speaker>
-              <l part="F">patria</l>
-              <l>Cantaber, qui clam eripuit se domo, quaeritur</l>
-              <l part="I">A fratre, dic si quid de illo nosti?</l>
-            </sp>
-            <sp who="#boguez">
-              <speaker>BOG.</speaker>
-              <l part="F">nihil.</l>
-            </sp>
-            <sp who="#perez">
-              <speaker>PE.</speaker>
-              <l>Attamen videris aliquid vultu praeferre te:</l>
-              <l>Haeres cunctabundus, et quasi praesagiens.</l>
-            </sp>
-            <sp who="#boguez">
-              <speaker>BOG.</speaker>
-              <l part="I">Tentas me, sophista.</l>
-            </sp>
-            <sp who="#perez">
-              <speaker>PE.</speaker>
-              <l part="F">poterisne verum dicere?</l>
-              <l>Dic iterum si nescis de isto homine, ni piget.</l>
-            </sp>
-            <sp who="#boguez">
-              <speaker>BOG.</speaker>
-              <l part="I">Nihil, inquam, scio.</l>
-            </sp>
-            <sp who="#perez">
-              <speaker>PE.</speaker>
-              <l part="F">unde istud insigne pilei?</l>
-            </sp>
-            <sp who="#boguez">
-              <speaker>BOG.</speaker>
-              <l part="I">Ab hero meo, qui me donavit.</l>
-            </sp>
-            <sp who="#perez">
-              <speaker>PE.</speaker>
-              <l part="F">unde hero obtigit?</l>
-            </sp>
-            <sp who="#boguez">
-              <speaker>BOG.</speaker>
-              <l part="I">Quae tua curatio est?</l>
-            </sp>
-            <sp who="#perez">
-              <speaker>PE.</speaker>
-              <l part="F">imo multum interest,</l>
-              <l>Quia istud ipsum est insigne pilei in isto homine</l>
-              <l part="I">Loyola.</l>
-            </sp>
-            <sp who="#boguez">
-              <speaker>BOG.</speaker>
-              <l part="F">belle, homo, novisti fingere.</l>
-              <l>An tu Mercurii discipulus? nam hic Deus</l>
-              <l>Furum, res alienas usurpavit ab infantia:</l>
-              <l>Vulcano arma fabrilia, Veneri cingulum,</l>
-              <l>Iovi sceptrum, et fulmen si ausus esset, Apollini</l>
-              <l>Citharam. ita tu velles hoc insigne clepere?</l>
-              <l>Apage homo, non falles: decipula murem capit,</l>
-              <l>Non vulpem. quid magnis circumspectas oculis?</l>
-            </sp>
-            <sp who="#perez">
-              <speaker>PE.</speaker>
-              <l>Deus bone! quid ego video! speculum cannae IGNATII:</l>
-              <l part="I">Tam consimilis est quam potest.</l>
-            </sp>
-            <sp who="#boguez">
-              <speaker>BOG.</speaker>
-              <l part="F">an tus etiam est</l>
-              <l part="I">Haec canna?</l>
-            </sp>
-            <sp who="#perez">
-              <speaker>PE.</speaker>
-              <l part="F">imo Loyolae, et argumentis agam.</l>
-            </sp>
-            <sp who="#boguez">
-              <speaker>BOG.</speaker>
-              <l>Quibus? ego iam te logicum hac canna iugulo.</l>
-              <l>Divina, si potes, ex qua materia hoc sit caput</l>
-              <l part="I">Cannae?</l>
-            </sp>
-            <sp who="#perez">
-              <speaker>PE.</speaker>
-              <l part="M">ex auro.</l>
-            </sp>
-            <sp who="#boguez">
-              <speaker>BOG.</speaker>
-              <l part="M">qua forma?</l>
-            </sp>
-            <sp who="#perez">
-              <speaker>PE.</speaker>
-              <l part="F">versibus</l>
-              <l part="I">Caelata.</l>
-            </sp>
-            <sp who="#boguez">
-              <speaker>BOG.</speaker>
-              <l part="F">mirum unde hoc nosti. dic mihi</l>
-              <l part="I">Quid signi?</l>
-            </sp>
-            <sp who="#perez">
-              <speaker>PE.</speaker>
-              <l part="F">tres lupi, et totidem cacabi.</l>
-            </sp>
-            <sp who="#boguez">
-              <speaker>BOG.</speaker>
-              <l>Magus es sacerdos Phoebi, vel Proserpinae.</l>
-              <l>Quid me tua nigra arte diutius tenes?</l>
-              <l part="I">Herus me revocat domum. vale.</l>
-            </sp>
-            <sp who="#perez">
-              <speaker>PE.</speaker>
-              <l part="F">per deum</l>
-              <l>Non abibis; istam tu reddes cannam mihi.</l>
-            </sp>
-            <sp who="#boguez">
-              <speaker>BOG.</speaker>
-              <l part="I">Et ego tibi iuro, non habebis.</l>
-            </sp>
-            <sp who="#perez">
-              <speaker>PE.</speaker>
-              <l part="F">id pugni facient.</l>
-            </sp>
-            <sp who="#boguez">
-              <speaker>BOG.</speaker>
-              <l>O tu me enecas, scelerate: cannam eripis?</l>
-            </sp>
-            <sp who="#perez">
-              <speaker>PE.</speaker>
-              <l>Nunc tuos, latio, canna metiar humeros.</l>
-            </sp>
-            <sp who="#boguez">
-              <speaker>BOG.</speaker>
-              <l part="I">Cannam, heu cannam!</l>
-            </sp>
-            <sp who="#perez">
-              <speaker>PE.</speaker>
-              <l part="F">here, huc adsis here,</l>
-              <l part="I">Haec est canna Ignatii.</l>
-            </sp>
-          </div>
-          
-          <div type="scene" n="3">
-            <head>SCENA TERTIA.</head>
-            <argument><p>GARCIAS expostulat nefarie Iugulatum esse fratrem suum.</p></argument>
-            <stage>GARCIAS, PEREZ, BOGUEZ, FIGUERA.</stage>
-            <sp who="#garcias">
-              <speaker>GA.</speaker>
-              <l part="F">Quid clamoris audio?</l>
-            </sp>
-            <sp who="#perez">
-              <speaker>PE.</speaker>
-              <l part="I">Hic est servus patibulo dignus.</l>
-            </sp>
-            <sp who="#boguez">
-              <speaker>BOG.</speaker>
-              <l part="F">aufugio.</l>
-            </sp>
-            <sp who="#perez">
-              <speaker>PE.</speaker>
-              <l part="I">Vides? agnoscis?</l>
-            </sp>
-            <sp who="#garcias">
-              <speaker>GA.</speaker>
-              <l part="M">quis homo?</l>
-            </sp>
-            <sp who="#perez">
-              <speaker>PE.</speaker>
-              <l part="F">Hic si carius,</l>
-              <l part="I">Qui aufugit.</l>
-            </sp>
-            <sp who="#garcias">
-              <speaker>GA.</speaker>
-              <l part="F">ita est, canna IGNATII:</l>
-              <l>Hei mihi! crescunt curae: nunc timeo omnia.</l>
-              <l>Postremo omnium liquit cannam Dux nobilis.</l>
-              <l>Fors in sylva iugularunt fratrem misere.</l>
-              <l>Heu infortunium. apud quos conquerar? omnia</l>
-              <l>Ad desperationem vergunt. quid, si ad Praepositum</l>
-              <l>Oppidi me conferam, ut inquirantur impii?</l>
-            </sp>
-            <sp who="#perez">
-              <speaker>PE.</speaker>
-              <l part="I">En opportune prodit.</l>
-            </sp>
-            <sp who="#garcias">
-              <speaker>GA.</speaker>
-              <l part="F">periit, periit</l>
-              <l part="I">Frater.</l>
-            </sp>
-            <sp who="#figuera">
-              <speaker>FI.</speaker>
-              <l part="M">quae vox abrupta?</l>
-            </sp>
-            <sp who="#garcias">
-              <speaker>GA.</speaker>
-              <l part="F">IGNATIUS</l>
-              <l>Cantaber, quem novisti, egressus domo</l>
-              <l>Nescitur ubi sit: affertur mini modo </l>
-              <l>Reperta eius canna in manibus sicarii.</l>
-            </sp>
-            <sp who="#figuera">
-              <speaker>FI.</speaker>
-              <l>Quis in hoc serrato monte tantum facinus?</l>
-              <l>Agite, satellites, perquirite auctorem mali:</l>
-              <l part="I">Cito, periclum in mora.</l>
-            </sp>
-            <sp who="#perez">
-              <speaker>PE.</speaker>
-              <l part="F">ego, si placet,</l>
-              <l>Me his comitem praestabo, qui hominem vidi.</l>
-            </sp>
-            <sp who="#figuera">
-              <speaker>FI.</speaker>
-              <l>Placet. sic est, sylvae abundant parricidis:</l>
-              <l>Quos ego grassatores in crucem agam.</l>
-            </sp>
-            <sp who="#garcias">
-              <speaker>GA.</speaker>
-              <l>In bello Pampelone occubuisset felicior.</l>
-            </sp>
-            <sp who="#figuera">
-              <speaker>FI.</speaker>
-              <l>Meliora licet sperare, et vivere fratrem tuum.</l>
-              <l>Succede in aedes, solabor dolorem tuum.</l>
-            </sp>
-          </div>
-          
-          <div type="scene" n="4">
-            <head>SCENA QUARTA.</head>
-            <argument><p>BOGUEZ narrat hero suo conquiri viros, qui IGNATIUM spoliarunt vestibus.</p></argument>
-            <stage>CODRILLOS, BOGUEZ.</stage>
-            <sp who="#boguez">
-              <speaker>BOG.</speaker>
-              <l>Recesserunt intro: paucis tecum colloquar.</l>
-              <l>Enimvero, here, non somniculose agendum tibi:</l>
-              <l>Nisi prospicis, pendebis mortuus in patibulo.</l>
-            </sp>
-            <sp who="#codrillos">
-              <speaker>COD.</speaker>
-              <l>Incipio timere: si vera sunt quae tu refers,</l>
-              <l>Ad restim recidit negotium. ubi istum famulum</l>
-              <l part="I">Offendisti?</l>
-            </sp>
-            <sp who="#boguez">
-              <speaker>BOG.</speaker>
-              <l part="M">prope sacellum.</l>
-            </sp>
-            <sp who="#codrillos">
-              <speaker>COD.</speaker>
-              <l part="F">quid quaeritat?</l>
-            </sp>
-            <sp who="#boguez">
-              <speaker>BOG.</speaker>
-              <l>Fratrem heri sui, quem ait furtim abiisse domo.</l>
-            </sp>
-            <sp who="#codrillos">
-              <speaker>COD.</speaker>
-              <l part="I">Quis est iste frater?</l>
-            </sp>
-            <sp who="#boguez">
-              <speaker>BOG.</speaker>
-              <l part="F">de gente Loyolea.</l>
-            </sp>
-            <sp who="#codrillos">
-              <speaker>COD.</speaker>
-              <l part="I">Quin statim dimisisti?</l>
-            </sp>
-            <sp who="#boguez">
-              <speaker>BOG.</speaker>
-              <l part="F">non potui: vir erat</l>
-              <l>E primo vultu honestus: tum insigne pilei</l>
-              <l>Sensit, et cannam tuam, quam argumentis suis</l>
-              <l>Ostendit esse illam, quam accepisti in eleëmosynam.</l>
-            </sp>
-            <sp who="#codrillos">
-              <speaker>COD.</speaker>
-              <l>Visus sum. res innotescit. ubi est modo </l>
-              <l part="I">Canna mea?</l>
-            </sp>
-            <sp who="#boguez">
-              <speaker>BOG.</speaker>
-              <l part="F">pudet fateri: vi, dolo,</l>
-              <l>Pugnis abstulit ad herum suum; herus ad Praepositum:</l>
-              <l>Praepositus misit satellites, qui te expetunt.</l>
-            </sp>
-            <sp who="#codrillos">
-              <speaker>COD.</speaker>
-              <l>Vah. consuluisti hodie mihi pessime. perii,</l>
-              <l>Non est spes effugii. quid si me e vestibus noverint?</l>
-            </sp>
-            <sp who="#boguez">
-              <speaker>BOG.</speaker>
-              <l>Illas ipsas easdem vestes, pileum, thoracem, pallium</l>
-              <l part="I">Graphice descripsit servus.</l>
-            </sp>
-            <sp who="#codrillos">
-              <speaker>COD.</speaker>
-              <l part="F">unde probabo data</l>
-              <l>Esse mihi? abiit ille homo, et me satellitibus</l>
-              <l part="I">Reliquit. vae misero mihi.</l>
-            </sp>
-            <sp who="#boguez">
-              <speaker>BOG.</speaker>
-              <l part="F">noli animum perdere,</l>
-              <l part="I">Qui tam fortis fuisti.</l>
-            </sp>
-            <sp who="#codrillos">
-              <speaker>COD.</speaker>
-              <l part="F">quantas mihi sollicitudines</l>
-              <l part="I">Confecisti?</l>
-            </sp>
-            <sp who="#boguez">
-              <speaker>BOG.</speaker>
-              <l part="F">redi ad te, huic malo salutem inveni.</l>
-            </sp>
-            <sp who="#codrillos">
-              <speaker>COD.</speaker>
-              <l>Non evadam equidem, salvis omnibus sarcinis.</l>
-              <l>At facile est, dum pecunias salvem, vestes perdere,</l>
-              <l>Uti serpentes solent, qui integro capite pellem exuunt:</l>
-              <l>Aut uti cordati viri, qui nucleum nucis retinent,</l>
-              <l>Relinquunt pignori putamina. hoc cogito,</l>
-              <l part="I">Quando denuo fit iudicium?</l>
-            </sp>
-            <sp who="#boguez">
-              <speaker>BOG.</speaker>
-              <l part="F">hac hora, modo.</l>
-            </sp>
-            <sp who="#codrillos">
-              <speaker>COD.</speaker>
-              <l>Vade diligenter, ex edito loco longe prospice</l>
-              <l>Quando venient satellites, ut me moneas.</l>
-            </sp>
-            <sp who="#boguez">
-              <speaker>BOG.</speaker>
-              <l>Sedulo id faciam. at ignosce, si causa mea</l>
-              <l part="I">Praeter spem id evenit.</l>
-            </sp>
-            <sp who="#codrillos">
-              <speaker>COD.</speaker>
-              <l part="F">accelera gradum,</l>
-              <l>Festinatione opus est. adest iudicium, eo obviam.</l>
-            </sp>
-          </div>
-          <div type="scene" n="5">
-            <head>SCENA QUINTA.</head>
-            <argument><p>CODRILLOS callide partitur acceptas vestes.</p></argument>
-            <stage>CODRILLOS, CRINEDA, IRUSSA, FURIUS, IVADOR, BOGUEZ.</stage>
-            <sp who="#codrillos">
-              <speaker>COD.</speaker>
-              <l>Salvete viri consultissimi, et vos foederati socii.</l>
-            </sp>
-            <sp who="#crineda">
-              <speaker>CRI.</speaker>
-              <l>Valde comiter, quasi inter vos conveniat.</l>
-            </sp>
-            <sp who="#codrillos">
-              <speaker>COD.</speaker>
-              <l>Dici horae sunt duodecim: quod non sapis</l>
-              <l>Hoc momento, disces altero. sapientis est</l>
-              <l part="I">In melius mutare consilium.</l>
-            </sp>
-            <sp who="#furius">
-              <speaker>FUR.</speaker>
-              <l part="F">Codrillos,</l>
-              <l>Ego vereri non debeo, ut, quod fecisti prius,</l>
-              <l part="I">Me pergas fallere.</l>
-            </sp>
-            <sp who="#codrillos">
-              <speaker>COD.</speaker>
-              <l part="F">Egone istuc facerem,</l>
-              <l>Qui rediturus in gratiam sponte huc venio?</l>
-            </sp>
-            <sp who="#irussa">
-              <speaker>IR.</speaker>
-              <l>Non crederem nisi asseris, propterea quod eras tam malus.</l>
-            </sp>
-            <sp who="#codrillos">
-              <speaker>COD.</speaker>
-              <l>Nescitis quid sit actum; narrabo vobis postea.</l>
-              <l>Iam non est tempus: haud poterat aliter fieri.</l>
-            </sp>
-            <sp who="#furius">
-              <speaker>FUR.</speaker>
-              <l>Obliviscamur omnia, quando ipse litem dirimis.</l>
-            </sp>
-            <sp who="#codrillos">
-              <speaker>COD.</speaker>
-              <l part="I">Nihil est quod mavelim: en dextram.</l>
-            </sp>
-            <sp who="#irussa">
-              <speaker>IR.</speaker>
-              <l part="F">iam habeo</l>
-              <l part="I">Tibi fidem.</l>
-            </sp>
-            <sp who="#crineda">
-              <speaker>CRI.</speaker>
-              <l part="F">gaudemus utrimque pacem fieri:</l>
-              <l part="I">Pergite litem componere.</l>
-            </sp>
-            <sp who="#ivador">
-              <speaker>IV.</speaker>
-              <l part="F">ego utrique parti lubens</l>
-              <l>Ad vocatus servio; de mercede postea videbitis.</l>
-            </sp>
-            <sp who="#codrillos">
-              <speaker>COD.</speaker>
-              <l>Agite, de foedere erat controversia: de integro</l>
-              <l>Foedus sancio, et admitto. certum est vestes dividere,</l>
-              <l part="I">Quas eleëmosyna accepi.</l>
-            </sp>
-            <sp who="#irussa">
-              <speaker>IR.</speaker>
-              <l part="F">o sanctum virum!</l>
-            </sp>
-            <sp who="#furius">
-              <speaker>FUR.</speaker>
-              <l part="I">Rediit tibi prima religio.</l>
-            </sp>
-            <sp who="#crineda">
-              <speaker>CRI.</speaker>
-              <l part="F">ubi bona conscientia,</l>
-              <l part="I">Ibi aequitas.</l>
-            </sp>
-            <sp who="#codrillos">
-              <speaker>COD.</speaker>
-              <l part="F">hoc apud me reputavi serio,</l>
-              <l>Male parta, male dilabuntur: quod non vis tibi</l>
-              <l part="I">Detractum, alteri neu adimas.</l>
-            </sp>
-            <sp who="#irussa">
-              <speaker>IR.</speaker>
-              <l part="F">honestissima oratio.</l>
-            </sp>
-            <sp who="#codrillos">
-              <speaker>COD.</speaker>
-              <l part="I">En, Furi, thoracem meum.</l>
-            </sp>
-            <sp who="#furius">
-              <speaker>FUR.</speaker>
-              <l part="M">quaeso.</l>
-            </sp>
-            <sp who="#codrillos">
-              <speaker>COD.</speaker>
-              <l part="F">cape.</l>
-            </sp>
-            <sp who="#furius">
-              <speaker>FUR.</speaker>
-              <l part="I">Noli urgere.</l>
-            </sp>
-            <sp who="#codrillos">
-              <speaker>COD.</speaker>
-              <l part="F">noli recusare, cum iure debeo,</l>
-              <l>Et ex animo dedi. tu Irussa istoc pallio</l>
-              <l>Utere: vende, serva ut lubet; est tuum.</l>
-              <l>Domine Ivador, offero elegantem pileum, nam tuus</l>
-              <l part="I">Est attritus.</l>
-            </sp>
-            <sp who="#ivador">
-              <speaker>IV.</speaker>
-              <l part="F">non mihi, quoniam niger, convenit.</l>
-            </sp>
-            <sp who="#codrillos">
-              <speaker>COD.</speaker>
-              <l>Sed filiolo tuo, bonae spei. iudex tibi</l>
-              <l>Mento debetur baltheus, quo iustitiae</l>
-              <l part="I">Ensem appendas.</l>
-            </sp>
-            <sp who="#crineda">
-              <speaker>CRI.</speaker>
-              <l part="M">aequum censes.</l>
-            </sp>
-            <sp who="#ivador">
-              <speaker>IV.</speaker>
-              <l part="F">tibi nihil</l>
-              <l part="I">Reservas, vir bone.</l>
-            </sp>
-            <sp who="#codrillos">
-              <speaker>COD.</speaker>
-              <l part="F">mihi paupertas placet.</l>
-              <l>Abite divitiae, imitamenta malorum: sat est</l>
-              <l>Ille dives, cui, quod est satis, parca dii dederunt manu.</l>
-            </sp>
-            <sp who="#boguez">
-              <speaker>BOG.</speaker>
-              <l part="I">Here, here, tempus est.</l>
-            </sp>
-            <sp who="#codrillos">
-              <speaker>COD.</speaker>
-              <l part="F">plurimum valete viri.</l>
-            </sp>
-            <sp who="#ivador">
-              <speaker>IV.</speaker>
-              <l part="I">Quisque est contentus suo dono.</l>
-            </sp>
-            <sp who="#crineda">
-              <speaker>CRI.</speaker>
-              <l part="F">nihilo plus</l>
-              <l part="I">Ego expeto.</l>
-            </sp>
-          </div>
-          
-          <div type="scene" n="6">
-            <head>SCENA SEXTA.</head>
-            <argument><p>FURIUS, IRUSSA, IVADOR, CRINEDA deprehensi ex vestibus IGNATII abripiuntur in carcerem.</p></argument>
-            <stage>FURIUS, IRUSSA, IVADOR, CRINEDA, PEREZ.</stage>
-            <sp who="#perez">
-              <speaker>PE.</speaker>
-              <l part="F">Hic sunt latrones, et spolia.</l>
-            </sp>
-            <sp who="#furius">
-              <speaker>FUR.</speaker>
-              <l>Quid de thorace tam pretioso sim acturus nescio.</l>
-            </sp>
-            <sp who="#irussa">
-              <speaker>IR.</speaker>
-              <l part="I">Et ego de magnifico pallio.</l>
-            </sp>
-            <sp who="#perez">
-              <speaker>PE.</speaker>
-              <l part="F">hi sunt, corona cingite.</l>
-            </sp>
-            <sp who="#crineda">
-              <speaker>CRI.</speaker>
-              <l part="I">Quid hoc rei?</l>
-            </sp>
-            <sp who="#ivador">
-              <speaker>IV.</speaker>
-              <l part="M">quid geritur?</l>
-            </sp>
-            <sp who="#furius">
-              <speaker>FUR.</speaker>
-              <l part="F">quid vultis mihi?</l>
-            </sp>
-            <sp who="#irussa">
-              <speaker>IR.</speaker>
-              <l part="I">Codrillos, Codrillos?</l>
-            </sp>
-            <sp who="#perez">
-              <speaker>PE.</speaker>
-              <l part="F">omnes comprehendite.</l>
-            </sp>
-            <sp who="#ivador">
-              <speaker>IV.</speaker>
-              <l part="I">Ego sum Ivador causidicus.</l>
-            </sp>
-            <sp who="#crineda">
-              <speaker>CRI.</speaker>
-              <l part="F">haec mihi fit iniuria?</l>
-            </sp>
-            <sp who="#furius">
-              <speaker>FUR.</speaker>
-              <l part="I">Satellites.</l>
-            </sp>
-            <sp who="#irussa">
-              <speaker>IR.</speaker>
-              <l part="M">quid fecimus?</l>
-            </sp>
-            <sp who="#perez">
-              <speaker>PE.</speaker>
-              <l part="F">ite sicarii.</l>
-              <l>Restat ille servus, quem toto oppido quaeram hodie.</l>
-            </sp>
-          </div>
+      <div type="act" n="3">
+        <head>ACTUS TERTIUS.</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>GARCIAS requirit fratrem patria egressum.</p>
+          </argument>
+          <stage>GARCIAS, PEREZ.</stage>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l>Vita hominum! quantae curae! hoc adeo</l>
+            <l>mihi in mentem venit, cum se patria</l>
+            <l>Subduxit IGNATIUS: nam haec fuga quotidie</l>
+            <l>Auget aegritudinem. nunc autem unde, quo </l>
+            <l>Quaeram? nihil uspiam a quoquam de eo.</l>
+            <l>Tu, Perez, lustra oppidum, sciscitare obvios,</l>
+            <l>Advenas interpella, omne saxum volve, ut rescias.</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l>Factum puta: ibo versus sacellum Virginis.</l>
+            <l>Diligenter persequar fratris tui vestigia.</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l>praestolabor ad ventum tuum hic in vicinia.</l>
+          </sp>
         </div>
-        <div type="act" n="4">
-          <head>ACTUS QUARTUS.</head>
-          <div type="scene" n="1">
-            <head>SCENA PRIMA.</head>
-            <argument><p>CODRILLOS cum BOGUEZ in fugo comprehenditur.</p></argument>
-            <stage>CODRILLOS, BOGUEZ, PEREZ, MILESIUS</stage>
-            <sp who="#codrillos">
-              <speaker>COD.</speaker>
-              <l>Est ne tutus locus apud vos? dicite.</l>
-              <l>Ubique sunt insidiae, ut comprehendar. quo, qua</l>
-              <l>Fugiam? sed quid hic incautus vociferor?</l>
-              <l>Sumne mihi prae metu satis praesens? nemo</l>
-              <l>Videt? nemo audit? prorsus nemo. bene est,</l>
-              <l>Pede laneo delitescam hic parvulus</l>
-              <l>In angulo. at tu furcifer, tu mortalium</l>
-              <l>Vaferrime, quid tibi cum istis oculis</l>
-              <l>Ad explorandum emissis? abi, inquam, abi</l>
-              <l>Observator, quid tua interest, ubi sim loci?</l>
-              <l>Non abibis? ego alium captabo locum.</l>
-            </sp>
-            <sp who="#boguez">
-              <speaker>BOG.</speaker>
-              <l part="I">Here, here.</l>
-            </sp>
-            <sp who="#codrillos">
-              <speaker>COD.</speaker>
-              <l part="F">ni sileas, linguam vellam tibi</l>
-              <l>Radicitus, ut hanc cum dentibus excrees.</l>
-            </sp>
-            <sp who="#boguez">
-              <speaker>BOG.</speaker>
-              <l>Capti sumus. ad nos recta satellites.</l>
-            </sp>
-            <sp who="#codrillos">
-              <speaker>COD.</speaker>
-              <l>Quid clamas? scelestiorem hoc famulo</l>
-              <l part="I">Vidi nunquam.</l>
-            </sp>
-            <sp who="#boguez">
-              <speaker>BOG.</speaker>
-              <l part="F">frustra, non effugies.</l>
-            </sp>
-            <sp who="#perez">
-              <speaker>PE.</speaker>
-              <l>Cito milites, cito: non procul hinc abest</l>
-              <l>Servus cum hero suo: pervadite angulos.</l>
-              <l>Adsunt: tenete: hunc servum abripite.</l>
-              <l part="I">Num tuus hic herus?</l>
-            </sp>
-            <sp who="#boguez">
-              <speaker>BOG.</speaker>
-              <l part="F">illum interroga.</l>
-            </sp>
-            <sp who="#perez">
-              <speaker>PE.</speaker>
-              <l part="I">Abripite. quis tu es, ohe senex?</l>
-            </sp>
-            <sp who="#codrillos">
-              <speaker>COD.</speaker>
-              <l part="F">ego</l>
-              <l>Servus tuus, et militum horum, decrepitus</l>
-              <l>Centum et sex annorum cum medio, minus</l>
-              <l>Uno mense, diebus quinque, horis tribus.</l>
-            </sp>
-            <sp who="#perez">
-              <speaker>PE.</speaker>
-              <l part="I">Memoria vales.</l>
-            </sp>
-            <sp who="#codrillos">
-              <speaker>COD.</speaker>
-              <l part="F">annos meminerunt senes.</l>
-            </sp>
-            <sp who="#perez">
-              <speaker>PE.</speaker>
-              <l part="I">Quid tu hic cum servo istoc?</l>
-            </sp>
-            <sp who="#codrillos">
-              <speaker>COD.</speaker>
-              <l part="F">non novi, nisi</l>
-              <l>De facie; petebat viam, quae ducit ad forum,</l>
-              <l part="I">Officiose indicavi.</l>
-            </sp>
-            <sp who="#perez">
-              <speaker>PE.</speaker>
-              <l part="F">metuis nescio quid?</l>
-            </sp>
-            <sp who="#codrillos">
-              <speaker>COD.</speaker>
-              <l>Ego metuo mortem: haec pallidos efficit senes.</l>
-            </sp>
-            <sp who="#perez">
-              <speaker>PE.</speaker>
-              <l>Tu forte ex istis latronibus unus es.</l>
-            </sp>
-            <sp who="#codrillos">
-              <speaker>COD.</speaker>
-              <l>Ah rides. ego ut pauperrimus senex,</l>
-              <l>Malorum Myrmecia, panegyris, mare,</l>
-              <l>Sim latro? ubi manus harpagantes, et piceae!</l>
-              <l>Ubi odorae nares? ubi ungues adunci? ubi</l>
-              <l>Sica sub femore? habeo, mi vir, tua</l>
-              <l>Pace dicam, meam domum in vicinia,</l>
-              <l>Et uxorem, cum qua vivo fama honestissima.</l>
-            </sp>
-            <sp who="#perez">
-              <speaker>PE.</speaker>
-              <l part="I">Estne tibi uxor?</l>
-            </sp>
-            <sp who="#codrillos">
-              <speaker>COD.</speaker>
-              <l part="F">deformis, vetus, edentula,</l>
-              <l part="I">Centum octo annorum.</l>
-            </sp>
-            <sp who="#perez">
-              <speaker>PE.</speaker>
-              <l part="F">liberos quot habes?</l>
-            </sp>
-            <sp who="#codrillos">
-              <speaker>COD.</speaker>
-              <l>Quot annus menses numerat, duodecim;</l>
-              <l>Qui quotidie nostrum, magni et parvuli, coronant focum.</l>
-            </sp>
-            <sp who="#perez">
-              <speaker>PE.</speaker>
-              <l part="I">An tibi parvuli ex uxore? mentiris.</l>
-            </sp>
-            <sp who="#codrillos">
-              <speaker>COD.</speaker>
-              <l part="F">imo </l>
-              <l>Est haec quinta uxor, quam heri duxi: ex aliis</l>
-              <l part="I">Est haec proles.</l>
-            </sp>
-            <sp who="#perez">
-              <speaker>PE.</speaker>
-              <l part="F">sed haec huc non pertinent.</l>
-            </sp>
-            <sp who="#milesius">
-              <speaker>MIL.</speaker>
-              <l>Quando propius contemplor, novi pauperem</l>
-              <l>Huic similem, adeo forma pari; quin absque hi</l>
-              <l>Cani forent, esse illum ipsum dicerem</l>
-            </sp>
-            <sp who="#codrillos">
-              <speaker>COD.</speaker>
-              <l part="I">Ah. ah. ah.</l>
-            </sp>
-            <sp who="#perez">
-              <speaker>PE.</speaker>
-              <l part="M">quid rides?</l>
-            </sp>
-            <sp who="#codrillos">
-              <speaker>COD.</speaker>
-              <l part="M">fabulam.</l>
-            </sp>
-            <sp who="#milesius">
-              <speaker>MIL.</speaker>
-              <l part="F">sub hoc</l>
-              <l>Forte senio, et veste ficta aliquid latet.</l>
-              <l part="I">Tollamus larvam.</l>
-            </sp>
-            <sp who="#codrillos">
-              <speaker>COD.</speaker>
-              <l part="F">oh, oh, mihi caput dolet,</l>
-              <l part="I">Crudeles, quid avellitis?</l>
-            </sp>
-            <sp who="#milesius">
-              <speaker>MIL.</speaker>
-              <l part="F">vides? dolus</l>
-              <l part="I">Apparet.</l>
-            </sp>
-            <sp who="#perez">
-              <speaker>PE.</speaker>
-              <l part="F">et hunc trahamus intro: procul</l>
-              <l part="I">Dubio est conscius.</l>
-            </sp>
-            <sp who="#milesius">
-              <speaker>MIL.</speaker>
-              <l part="M">venit Garcias.</l>
-            </sp>
-            <sp who="#perez">
-              <speaker>PE.</speaker>
-              <l part="F">paulo post</l>
-              <l>Cum quaestionem de aliis fecerit, hunc proferam.</l>
-            </sp>
-          </div>
-          <div type="scene" n="2">
-            <head>SCENA SECUNDA.</head>
-            <argument><p>GARCIAS severe cognoscit de iis quae ad vestes et vitam IGNATII pertinent.</p></argument>
-            <stage>GARCIAS, IVADOR, CRINEDA, FURIUS, IRUSSA.</stage>
-            <sp who="#garcias">
-              <speaker>GA.</speaker>
-              <l>Iudicabo hodie de fratricidis, ac prius</l>
-              <l>Caesos flagris affigam cruci. cognoscam qui,</l>
-              <l>Quando, ubi fratrem iugulastis impii.</l>
-              <l>Si crimen non fatemini, extorquebo equuleis.</l>
-            </sp>
-            <sp who="#crineda">
-              <speaker>CRI.</speaker>
-              <l>Ego iniuriam mihi honesto viro factam expostulo.</l>
-            </sp>
-            <sp who="#garcias">
-              <speaker>GA.</speaker>
-              <l>Non de iniuria, sed de capite causam agas.</l>
-            </sp>
-            <sp who="#ivador">
-              <speaker>IV.</speaker>
-              <l>Turpe est advocatum esse datum in vincula.</l>
-            </sp>
-            <sp who="#garcias">
-              <speaker>GA.</speaker>
-              <l>Sorbe quod tute tibi miscuisti: nunc aliud</l>
-              <l>Quod requiro, fare. quid tibi cum pauperibus:</l>
-              <l part="I">Quid cum sicariis?</l>
-            </sp>
-            <sp who="#ivador">
-              <speaker>IV.</speaker>
-              <l part="F">Ego pauperum causas suscipio.</l>
-            </sp>
-            <sp who="#garcias">
-              <speaker>GA.</speaker>
-              <l>O sanctum patronum! gratis, credo, pauperi</l>
-              <l part="I">Patrocinaris.</l>
-            </sp>
-            <sp who="#ivador">
-              <speaker>IV.</speaker>
-              <l part="M">non obligor.</l>
-            </sp>
-            <sp who="#garcias">
-              <speaker>GA.</speaker>
-              <l part="F">sed tamen</l>
-              <l part="I">Pileus accedit merces.</l>
-            </sp>
-            <sp who="#ivador">
-              <speaker>IV.</speaker>
-              <l part="M">quid tum?</l>
-            </sp>
-            <sp who="#garcias">
-              <speaker>GA.</speaker>
-              <l part="F">qui furibus</l>
-              <l>Servit, is furto se alligat: qui sicanis</l>
-              <l part="I">Communicat, hic est sicarius.</l>
-            </sp>
-            <sp who="#crineda">
-              <speaker>CRI.</speaker>
-              <l part="F">tuum est,</l>
-              <l>Si iudicas, prius de furto et sicariis cognoscere.</l>
-            </sp>
-            <sp who="#garcias">
-              <speaker>GA.</speaker>
-              <l>Quando tu sapienter partes iudicis</l>
-              <l part="I">Explesti, doces alium scilicet.</l>
-            </sp>
-            <sp who="#crineda">
-              <speaker>CRI.</speaker>
-              <l part="F">si quid male </l>
-              <l part="I">Commisi, ostende.</l>
-            </sp>
-            <sp who="#garcias">
-              <speaker>GA.</speaker>
-              <l part="F">quid iste baltheus?</l>
-              <l>Quo se Dea iustitiae Themis praecingat, velut</l>
-              <l part="I">Incorruptibili zona?</l>
-            </sp>
-            <sp who="#crineda">
-              <speaker>CRI.</speaker>
-              <l part="F">non continuo </l>
-              <l part="I">Dona stateram deprimunt.</l>
-            </sp>
-            <sp who="#garcias">
-              <speaker>GA.</speaker>
-              <l part="F">flectunt tamen.</l>
-            </sp>
-            <sp who="#crineda">
-              <speaker>CRI.</speaker>
-              <l part="I">Quando ignoras?</l>
-            </sp>
-            <sp who="#garcias">
-              <speaker>GA.</speaker>
-              <l part="F">nesciebas istos baltheos</l>
-              <l part="I">Non esse pauperum?</l>
-            </sp>
-            <sp who="#crineda">
-              <speaker>CRI.</speaker>
-              <l part="F">dicebant esse datam</l>
-              <l part="I">Eleëmosynam.</l>
-            </sp>
-            <sp who="#garcias">
-              <speaker>GA.</speaker>
-              <l part="M">a quo?</l>
-            </sp>
-            <sp who="#crineda">
-              <speaker>CRI.</speaker>
-              <l part="M">nescimus.</l>
-            </sp>
-            <sp who="#garcias">
-              <speaker>GA.</speaker>
-              <l part="F">igitur</l>
-              <l>Quia latebat maleficium, non oportuit</l>
-              <l part="I">Rem momentis expendisse?</l>
-            </sp>
-            <sp who="#furius">
-              <speaker>FUR.</speaker>
-              <l part="F">domine, rem eloquar.</l>
-            </sp>
-            <sp who="#garcias">
-              <speaker>GA.</speaker>
-              <l part="I">Paucis expedi.</l>
-            </sp>
-            <sp who="#furius">
-              <speaker>FUR.</speaker>
-              <l part="F">hae vestes nescivimus</l>
-              <l>Cuius essent; alter socius, qui modo abest,</l>
-              <l>His nos donavit, atque hos viros probos.</l>
-            </sp>
-            <sp who="#garcias">
-              <speaker>GA.</speaker>
-              <l>Scelesta capita, ignoratis fratrem meum,</l>
-              <l>Et eius vestes? tacti sunt. ut ad verba haec</l>
-              <l>Exhorruere! et respexere furum invicem?</l>
-              <l>Vos illum trucidastis: tristes exuviae</l>
-              <l>Restant, quas Deus hodie compertas voluit.</l>
-            </sp>
-            <sp who="#irussa">
-              <speaker>IR.</speaker>
-              <l part="I">Unde ista suspicio de nobis?</l>
-            </sp>
-            <sp who="#garcias">
-              <speaker>GA.</speaker>
-              <l part="F">exue hanc</l>
-              <l>Pietatis larvam, fratricida, caedes patent.</l>
-              <l part="I">Mens est aperienda.</l>
-            </sp>
-            <sp who="#irussa">
-              <speaker>IR.</speaker>
-              <l part="F">nescio quae dicta loqueris,</l>
-            </sp>
-            <sp who="#ivador">
-              <speaker>IV.</speaker>
-              <l part="I">Neque etiam scio.</l>
-            </sp>
-            <sp who="#garcias">
-              <speaker>GA.</speaker>
-              <l part="F">pergite tandem, pergite:</l>
-              <l>Frontem perfricate. quid tu igitur negas?</l>
-            </sp>
-            <sp who="#ivador">
-              <speaker>IV.</speaker>
-              <l part="I">Me reum esse,</l>
-            </sp>
-            <sp who="#garcias">
-              <speaker>GA.</speaker>
-              <l part="F">cum argumenta sunt perspicua?</l>
-            </sp>
-            <sp who="#ivador">
-              <speaker>IV.</speaker>
-              <l>Male, inquam, nos redarguis: abest iudicio,</l>
-              <l>Qui auctor est omnium. illum cum famulo</l>
-              <l>Cures comprehendi, de fratre tuo rescies.</l>
-            </sp>
-            <sp who="#garcias">
-              <speaker>GA.</speaker>
-              <l>Ita accusatione alterius vos defenditis.</l>
-            </sp>
-          </div>
-          
-          <div type="scene" n="3">
-            <head>SCENA TERTIA.</head>
-            <argument><p>GARCIAS comprehensis mortem decernit.</p></argument>
-            <stage>MILES, GARCIAS, BOGUEZ, FURIUS, CRINEDA, PEREZ.</stage>
-            <sp who="#miles">
-              <speaker>MI.</speaker>
-              <l>Adducimus tibi, Garcia, servum, a quo Perez</l>
-              <l part="I">Gannam fratris extorsit.</l>
-            </sp>
-            <sp who="#garcias">
-              <speaker>GA.</speaker>
-              <l part="F">tune es sceleris</l>
-              <l>Adiutor? est etiamnum cruenta canna sanguine,</l>
-              <l part="I">Quem effudisti.</l>
-            </sp>
-            <sp who="#boguez">
-              <speaker>BOG.</speaker>
-              <l part="F">egone humanum sanguinem</l>
-              <l part="I">Effundere?</l>
-            </sp>
-            <sp who="#garcias">
-              <speaker>GA.</speaker>
-              <l part="F">mitte logos, dic rem, nebulo:</l>
-              <l>Unde ista canna tibi fuit in manibus?</l>
-            </sp>
-            <sp who="#boguez">
-              <speaker>BOG.</speaker>
-              <l>Herus mihi dedit, qua me tuerer contra hos.</l>
-            </sp>
-            <sp who="#garcias">
-              <speaker>GA.</speaker>
-              <l part="I">Fatere absque tormentis.</l>
-            </sp>
-            <sp who="#boguez">
-              <speaker>BOG.</speaker>
-              <l part="F">non, si vivo mihi</l>
-              <l>Pellem detrahas, possum aliter loqui quam res est.</l>
-            </sp>
-            <sp who="#garcias">
-              <speaker>GA.</speaker>
-              <l part="I">Ecquid agnoscis has vestes?</l>
-            </sp>
-            <sp who="#boguez">
-              <speaker>BOG.</speaker>
-              <l part="F">agnosco equidem</l>
-              <l>Certe vestes heri mei. domine, hi viri</l>
-              <l>Spoliarunt herum meum, vel occiderunt. iustitia,</l>
-              <l part="I">iustitia, pro miserum herum!</l>
-            </sp>
-            <sp who="#furius">
-              <speaker>FUR.</speaker>
-              <l part="F">totus hic</l>
-              <l>Est consutus dolis, et oppido impudens.</l>
-            </sp>
-            <sp who="#boguez">
-              <speaker>BOG.</speaker>
-              <l>Hericidae ad crucem, ad crucem; ego ero</l>
-              <l part="I">Tortor, si desit quispiam.</l>
-            </sp>
-            <sp who="#furius">
-              <speaker>FUR.</speaker>
-              <l part="F">nescis, nequam,</l>
-              <l part="I">Codrillos obtulisse nobis haec?</l>
-            </sp>
-            <sp who="#boguez">
-              <speaker>BOG.</speaker>
-              <l part="F">quando, ubi,</l>
-              <l part="I">Fuine praesens?</l>
-            </sp>
-            <sp who="#crineda">
-              <speaker>CRI.</speaker>
-              <l part="F">quasi absens nescires consilia.</l>
-            </sp>
-            <sp who="#boguez">
-              <speaker>BOG.</speaker>
-              <l>Non sum Apollo, qui fures divinem Mercurios.</l>
-            </sp>
-            <sp who="#garcias">
-              <speaker>GA.</speaker>
-              <l>Non aderat hic servus, quando vestes invicem</l>
-              <l part="I">Partiti estis?</l>
-            </sp>
-            <sp who="#crineda">
-              <speaker>CRI.</speaker>
-              <l part="F">non aderat: fateor.</l>
-            </sp>
-            <sp who="#boguez">
-              <speaker>BOG.</speaker>
-              <l>Fingunt aliquid commode, ut invidiam exonerent</l>
-              <l>In me servulum innocentem. ubi modo herus?</l>
-              <l part="I">Heu lugeo mortuum!</l>
-            </sp>
-            <sp who="#garcias">
-              <speaker>GA.</speaker>
-              <l part="F">video reducem Perez.</l>
-              <l part="I">Quid novi apportas?</l>
-            </sp>
-            <sp who="#perez">
-              <speaker>PE.</speaker>
-              <l part="F">sisto hunc tibi hominem,</l>
-              <l>Quem larvatum inveni, et ementitum senem. interroga:</l>
-              <l part="I">Nunc festinabo alio.</l>
-            </sp>
-            <sp who="#garcias">
-              <speaker>GA.</speaker>
-              <l part="F">rescias omnia, si potes</l>
-            </sp>
-            <sp who="#furius">
-              <speaker>FUR.</speaker>
-              <l>Iste est architectus et fabricator omnis mali.</l>
-            </sp>
-            <sp who="#crineda">
-              <speaker>CRI.</speaker>
-              <l>Sunt eius vestes, quas furto vel caede abstulit.</l>
-            </sp>
-            <sp who="#garcias">
-              <speaker>GA.</speaker>
-              <l>Stringite enses. frons, oculi, vultus istius viri</l>
-              <l>Calliditatem et maleficium clamitant: crimen aperi.</l>
-            </sp>
-            <sp who="#codrillos">
-              <speaker>COD.</speaker>
-              <l part="I">Me territas, et percellis vehementer.</l>
-            </sp>
-            <sp who="#garcias">
-              <speaker>GA.</speaker>
-              <l part="F">eloquere.</l>
-            </sp>
-            <sp who="#codrillos">
-              <speaker>COD.</speaker>
-              <l>Ne irascere: habui istas vestes eleëmosynam</l>
-              <l>A viro nobili, qui se in proximo Virginis</l>
-              <l>Sacello devovit Deo: proinde sum innocens.</l>
-            </sp>
-            <sp who="#garcias">
-              <speaker>GA.</speaker>
-              <l part="I">Vivitne ille?</l>
-            </sp>
-            <sp who="#codrillos">
-              <speaker>COD.</speaker>
-              <l part="F">vivit, et eadem utitur</l>
-              <l>Veste, qua ego ante: mitte, rem scies.</l>
-            </sp>
-            <sp who="#garcias">
-              <speaker>GA.</speaker>
-              <l>nihil credo, nihil audio. omnes vos ex composito</l>
-              <l>Larvam sumitis, et fictis ambagibus</l>
-              <l>Sermonum conamini crimen obtegere.</l>
-              <l>Miles patibulum para, ut omnes hodie</l>
-              <l>Uno ordine splendide pendeant. ita ratum</l>
-              <l>Praefecto oppidi: interea redeant in carcerem.</l>
-            </sp>
-          </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>PEREZ in manibus BOGUEZ deprehendit Cannam IGNATII, et insigne pilei.</p>
+          </argument>
+          <stage>PEREZ, BOGUEZ.</stage>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l>Hoc debeo officium hero meo, ut si quid pedibus</l>
+            <l>Manibusque possim eniti, nuntium referam de IGNATIO.</l>
+            <l part="I">Quis hic exit?</l>
+          </sp>
+          <sp who="#boguez">
+            <speaker>BOG.</speaker>
+            <l part="F">ah! ah! ah! in vado sunt omnia,</l>
+            <l>Sine dubio vici causam, ita dextere </l>
+            <l>Inescavi homines nummis pauculis:</l>
+            <l part="I">Ubi reperiam herum, cui haec narrem?</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l part="F">servus est hic.</l>
+          </sp>
+          <sp who="#boguez">
+            <speaker>BOG.</speaker>
+            <l>Bene divinavit herus, sine pecuniis agi nihil.</l>
+            <l>Reiici pauperes, ac protrahi in dies cum controversus.</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l>Conveniam hominem. salve servorum optime.</l>
+            <l>Mihi indica, si Barcinone aliquis siet,</l>
+            <l part="I">De magna gente Loyolidum?</l>
+          </sp>
+          <sp who="#boguez">
+            <speaker>BOG.</speaker>
+            <l part="F">ego id nescio.</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l>Vir modicae staturae, rubrum gerit pallium</l>
+            <l>Thoracem sericum coloris nigri, pilei</l>
+            <l>Insigne prorsus huic, quod gestas, simile.</l>
+          </sp>
+          <sp who="#boguez">
+            <speaker>BOG.</speaker>
+            <l>Miror quid sibi vult hic vir, et mihi;</l>
+            <l>Ita probe describit illum, qui benefecit hero meo.</l>
+            <l part="I">Quid ais? Loyola est iste homo?</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l part="F">patria</l>
+            <l>Cantaber, qui clam eripuit se domo, quaeritur</l>
+            <l part="I">A fratre, dic si quid de illo nosti?</l>
+          </sp>
+          <sp who="#boguez">
+            <speaker>BOG.</speaker>
+            <l part="F">nihil.</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l>Attamen videris aliquid vultu praeferre te:</l>
+            <l>Haeres cunctabundus, et quasi praesagiens.</l>
+          </sp>
+          <sp who="#boguez">
+            <speaker>BOG.</speaker>
+            <l part="I">Tentas me, sophista.</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l part="F">poterisne verum dicere?</l>
+            <l>Dic iterum si nescis de isto homine, ni piget.</l>
+          </sp>
+          <sp who="#boguez">
+            <speaker>BOG.</speaker>
+            <l part="I">Nihil, inquam, scio.</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l part="F">unde istud insigne pilei?</l>
+          </sp>
+          <sp who="#boguez">
+            <speaker>BOG.</speaker>
+            <l part="I">Ab hero meo, qui me donavit.</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l part="F">unde hero obtigit?</l>
+          </sp>
+          <sp who="#boguez">
+            <speaker>BOG.</speaker>
+            <l part="I">Quae tua curatio est?</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l part="F">imo multum interest,</l>
+            <l>Quia istud ipsum est insigne pilei in isto homine</l>
+            <l part="I">Loyola.</l>
+          </sp>
+          <sp who="#boguez">
+            <speaker>BOG.</speaker>
+            <l part="F">belle, homo, novisti fingere.</l>
+            <l>An tu Mercurii discipulus? nam hic Deus</l>
+            <l>Furum, res alienas usurpavit ab infantia:</l>
+            <l>Vulcano arma fabrilia, Veneri cingulum,</l>
+            <l>Iovi sceptrum, et fulmen si ausus esset, Apollini</l>
+            <l>Citharam. ita tu velles hoc insigne clepere?</l>
+            <l>Apage homo, non falles: decipula murem capit,</l>
+            <l>Non vulpem. quid magnis circumspectas oculis?</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l>Deus bone! quid ego video! speculum cannae IGNATII:</l>
+            <l part="I">Tam consimilis est quam potest.</l>
+          </sp>
+          <sp who="#boguez">
+            <speaker>BOG.</speaker>
+            <l part="F">an tus etiam est</l>
+            <l part="I">Haec canna?</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l part="F">imo Loyolae, et argumentis agam.</l>
+          </sp>
+          <sp who="#boguez">
+            <speaker>BOG.</speaker>
+            <l>Quibus? ego iam te logicum hac canna iugulo.</l>
+            <l>Divina, si potes, ex qua materia hoc sit caput</l>
+            <l part="I">Cannae?</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l part="M">ex auro.</l>
+          </sp>
+          <sp who="#boguez">
+            <speaker>BOG.</speaker>
+            <l part="M">qua forma?</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l part="F">versibus</l>
+            <l part="I">Caelata.</l>
+          </sp>
+          <sp who="#boguez">
+            <speaker>BOG.</speaker>
+            <l part="F">mirum unde hoc nosti. dic mihi</l>
+            <l part="I">Quid signi?</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l part="F">tres lupi, et totidem cacabi.</l>
+          </sp>
+          <sp who="#boguez">
+            <speaker>BOG.</speaker>
+            <l>Magus es sacerdos Phoebi, vel Proserpinae.</l>
+            <l>Quid me tua nigra arte diutius tenes?</l>
+            <l part="I">Herus me revocat domum. vale.</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l part="F">per deum</l>
+            <l>Non abibis; istam tu reddes cannam mihi.</l>
+          </sp>
+          <sp who="#boguez">
+            <speaker>BOG.</speaker>
+            <l part="I">Et ego tibi iuro, non habebis.</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l part="F">id pugni facient.</l>
+          </sp>
+          <sp who="#boguez">
+            <speaker>BOG.</speaker>
+            <l>O tu me enecas, scelerate: cannam eripis?</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l>Nunc tuos, latio, canna metiar humeros.</l>
+          </sp>
+          <sp who="#boguez">
+            <speaker>BOG.</speaker>
+            <l part="I">Cannam, heu cannam!</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l part="F">here, huc adsis here,</l>
+            <l part="I">Haec est canna Ignatii.</l>
+          </sp>
         </div>
-        <div type="act" n="5">
-            <head>ACTUS QUINTUS.</head>
-            <div type="scene" n="1">
-              <head>SCENA PRIMA.</head>
-              <argument><p>PEREZ, reperto IGNATIO, totam rem aperit GARCIAE.</p></argument>
-              <stage>GARCIAS, PEREZ.</stage>
-              <sp who="#garcias">
-                <speaker>GA.</speaker>
-                <l>Ais, Perez, repertum a te fratrem meum?</l>
-              </sp>
-              <sp who="#perez">
-                <speaker>PE.</speaker>
-                <l>Qui ultro mihi factus obviam ex loco.</l>
-              </sp>
-              <sp who="#garcias">
-                <speaker>GA.</speaker>
-                <l part="I">Quid istuc?</l>
-              </sp>
-              <sp who="#perez">
-                <speaker>PE.</speaker>
-                <l part="F">quasi sciret absens fieri</l>
-                <l>Molestias pauperi, propter vestem, quam dedit.</l>
-              </sp>
-              <sp who="#garcias">
-                <speaker>GA.</speaker>
-                <l>Quo igitur habitu tibi ille constitit:</l>
-              </sp>
-              <sp who="#perez">
-                <speaker>PE.</speaker>
-                <l>Ista pauperis veste, cum quo mutavit suam:</l>
-                <l>Dolens se mendico non fuisse usui, sine</l>
-                <l part="I">Aerumna et sollicitudine.</l>
-              </sp>
-              <sp who="#garcias">
-                <speaker>GA.</speaker>
-                <l part="F">quid ais? fratrem</l>
-                <l part="I">Mendici habitu?</l>
-              </sp>
-              <sp who="#perez">
-                <speaker>PE.</speaker>
-                <l part="F">sordida inquam toga,</l>
-                <l>Quam gessit Codrillos: cui ignosci petit,</l>
-                <l part="I">Et innocentem dimitti liberum.</l>
-              </sp>
-              <sp who="#garcias">
-                <speaker>GA.</speaker>
-                <l part="F">mi frater,</l>
-                <l>Sic te subduxisti aedibus? si licet conqueri,</l>
-                <l>Cur furtim? cur tali habitu? haec est quidem</l>
-                <l>Sanctorum fuga: haec sunt virtutum incunabula:</l>
-                <l>Haec Christi vestigia: sed valedicere oportuit.</l>
-              </sp>
-              <sp who="#perez">
-                <speaker>PE.</speaker>
-                <l>Imo pendulam e collo lipsanothecam tibi</l>
-                <l part="I">Dono mittit, et simul vale.</l>
-              </sp>
-              <sp who="#garcias">
-                <speaker>GA.</speaker>
-                <l part="F">accipio,</l>
-                <l>Et servabo amoris pignus. nunc sine mora</l>
-                <l>Mendicum illum cum sociis eximam supplicio.</l>
-              </sp>
-            </div>
-            
-            <div type="scene" n="2">
-              <head>SCENA SECUNDA.</head>
-              <argument><p>GARCLAS Praefecto narrat salvum esse IGNATIUM.</p></argument>
-              <stage>FIGUERA, GARCIAS.</stage>
-              <sp who="#figuera">
-                <speaker>FI.</speaker>
-                <l>Reviso quid egerit Garcias cum captivis suis</l>
-                <l>Eccum. male est fratri, Garcia? con victum scelus?</l>
-              </sp>
-              <sp who="#garcias">
-                <speaker>GA.</speaker>
-                <l part="I">Omnia fausta, repertus est frater.</l>
-              </sp>
-              <sp who="#figuera">
-                <speaker>FI.</speaker>
-                <l part="F">gratulor.</l>
-              </sp>
-              <sp who="#garcias">
-                <speaker>GA.</speaker>
-                <l>Nisi mendici habitu est, magnaque agitans.</l>
-              </sp>
-              <sp who="#figuera">
-                <speaker>FI.</speaker>
-                <l part="I">Quid consilii cepit?</l>
-              </sp>
-              <sp who="#garcias">
-                <speaker>GA.</speaker>
-                <l part="F">quod dudum animo</l>
-                <l>Continuerat, pauperem sancte vitam agere.</l>
-              </sp>
-              <sp who="#figuera">
-                <speaker>FI.</speaker>
-                <l part="I">Ultro titulis cessit? opes respuit.</l>
-              </sp>
-              <sp who="#garcias">
-                <speaker>GA.</speaker>
-                <l part="F">non pili</l>
-                <l>Haec fecit, non cassa nuce, contentus Deo.</l>
-              </sp>
-              <sp who="#figuera">
-                <speaker>FI.</speaker>
-                <l>O fortem virum! at nos imbelles hic sumus:</l>
-                <l>Aetatem fallimus incauti. ita me Deus amet,</l>
-                <l>Ut me vitae taedet! ut lubet fratris tui</l>
-                <l>Sequi consilia, si per familiam liceat.</l>
-              </sp>
-              <sp who="#garcias">
-                <speaker>GA.</speaker>
-                <l>Meus cum tuo animus consentit: at domus</l>
-                <l part="I">Eget columine.</l>
-              </sp>
-              <sp who="#figuera">
-                <speaker>FI.</speaker>
-                <l part="F">interim quid de captivis tuis?</l>
-              </sp>
-              <sp who="#garcias">
-                <speaker>GA.</speaker>
-                <l>Proxime expectant crucem, quam ignarus rei</l>
-                <l part="I">Sum minatus.</l>
-              </sp>
-              <sp who="#figuera">
-                <speaker>FI.</speaker>
-                <l part="F">quin cito dimittis liberos?</l>
-              </sp>
-              <sp who="#garcias">
-                <speaker>GA.</speaker>
-                <l part="I">Ita faciam.</l>
-              </sp>
-              <sp who="#figuera">
-                <speaker>FI.</speaker>
-                <l part="F">huc captivi. inopinato bono</l>
-                <l>Gaudebunt hoc magis, quo sors fuit afflictior.</l>
-              </sp>
-            </div>
-            
-            <div type="scene" n="3">
-              <head>SCENA TERTIA.</head>
-              <argument><p>Omnes discedunt liberi.</p></argument>
-              <stage>FIGUERA, GARCIAS, CODRILLOS, FURIUS, BOGUEZ.</stage>
-              <sp who="#codrillos">
-                <speaker>COD.</speaker>
-                <l>Victimae mortis, ad macellum ducimur.</l>
-              </sp>
-              <sp who="#boguez">
-                <speaker>BOG.</speaker>
-                <l>Ignoscite iudices, nihil omnes deliquimus.</l>
-              </sp>
-              <sp who="#figuera">
-                <speaker>FI.</speaker>
-                <l part="I">Fiduciam capite, non moriemini.</l>
-              </sp>
-              <sp who="#garcias">
-                <speaker>GA.</speaker>
-                <l part="F">meum est</l>
-                <l>A vobis veniam petere, si quid asperius</l>
-                <l>Dixi, si fures vocavi, si in crucem sicarios</l>
-                <l>Volui agere. repertus est dator eleëmosynae.</l>
-              </sp>
-              <sp who="#codrillos">
-                <speaker>COD.</speaker>
-                <l part="I">Repertus?</l>
-              </sp>
-              <sp who="#garcias">
-                <speaker>GA.</speaker>
-                <l part="M">certo.</l>
-              </sp>
-              <sp who="#codrillos">
-                <speaker>COD.</speaker>
-                <l part="F">o divinum hominem,</l>
-                <l>Qui postquam benefecit, mendicum suum non destituit!</l>
-              </sp>
-              <sp who="#garcias">
-                <speaker>GA.</speaker>
-                <l part="I">Omnes vestes reddi volo singulis.</l>
-              </sp>
-              <sp who="#codrillos">
-                <speaker>COD.</speaker>
-                <l part="F">dii boni!</l>
-                <l>Euge, socii, euge, euge, coenabimus hodie.</l>
-              </sp>
-              <sp who="#garcias">
-                <speaker>GA.</speaker>
-                <l>Tu iudex, et Causidice, quia detrimenti paululum</l>
-                <l>Hac tempestate estis passi, nummos capite,</l>
-                <l>Et molestias abstergite. uterque hodie</l>
-                <l>Apud me coenabitis, introcedite.</l>
-              </sp>
-              <sp who="#codrillos">
-                <speaker>COD.</speaker>
-                <l>Furi, Furi, Furi, obliviscere omnium.</l>
-                <l>Irussa, Boguez, ducamus hanc noctem hilariter.</l>
-              </sp>
-              <sp who="#furius">
-                <speaker>FUR.</speaker>
-                <l part="I">Codre, ut evasimus.</l>
-              </sp>
-              <sp who="#irussa">
-                <speaker>IR.</speaker>
-                <l part="F">tantum non opera tua</l>
-                <l part="I">Pependimus.</l>
-              </sp>
-              <sp who="#codrillos">
-                <speaker>COD.</speaker>
-                <l part="F">omitte ista: factum esset minus,</l>
-                <l>Si non accidissent haec. ostendam, quod nulli adhuc</l>
-                <l>Indicavi: pendet e collo marsupium,</l>
-                <l>Quod ille idem vir mihi contulit, ex aequo</l>
-                <l part="I">Est vestrum.</l>
-              </sp>
-              <sp who="#furius">
-                <speaker>FUR.</speaker>
-                <l part="F">quomodo illud servasti tamdiu?</l>
-              </sp>
-              <sp who="#codrillos">
-                <speaker>COD.</speaker>
-                <l>Bellissime in carcere. tum apparuisset denique,</l>
-                <l part="I">Et pependisset mecum in patibulo.</l>
-              </sp>
-              <sp who="#boguez">
-                <speaker>BOG.</speaker>
-                <l part="F">gaudio</l>
-                <l>Subsiliamus: dum paratur coena, Codrillos, duc chorum.</l>
-              </sp>
-              <sp who="#codrillos">
-                <speaker>COD.</speaker>
-                <l>Eram oblitus dicere: ego vos ad coenam lubens</l>
-                <l>Nobiscum invitem, Spectatores: sed tot hominibus</l>
-                <l>Vereor ne sit locus: quare quisque suam domi</l>
-                <l>Apparet coenam, et suos amicos bibat:</l>
-                <l>Bis, iterum, tertio Codrillos vons bibet.</l>
-              </sp>
-              <closer>FINIS.</closer>
-            </div>
+        <div type="scene" n="3">
+          <head>SCENA TERTIA.</head>
+          <argument>
+            <p>GARCIAS expostulat nefarie Iugulatum esse fratrem suum.</p>
+          </argument>
+          <stage>GARCIAS, PEREZ, BOGUEZ, FIGUERA.</stage>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l part="F">Quid clamoris audio?</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l part="I">Hic est servus patibulo dignus.</l>
+          </sp>
+          <sp who="#boguez">
+            <speaker>BOG.</speaker>
+            <l part="F">aufugio.</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l part="I">Vides? agnoscis?</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l part="M">quis homo?</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l part="F">Hic si carius,</l>
+            <l part="I">Qui aufugit.</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l part="F">ita est, canna IGNATII:</l>
+            <l>Hei mihi! crescunt curae: nunc timeo omnia.</l>
+            <l>Postremo omnium liquit cannam Dux nobilis.</l>
+            <l>Fors in sylva iugularunt fratrem misere.</l>
+            <l>Heu infortunium. apud quos conquerar? omnia</l>
+            <l>Ad desperationem vergunt. quid, si ad Praepositum</l>
+            <l>Oppidi me conferam, ut inquirantur impii?</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l part="I">En opportune prodit.</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l part="F">periit, periit</l>
+            <l part="I">Frater.</l>
+          </sp>
+          <sp who="#figuera">
+            <speaker>FI.</speaker>
+            <l part="M">quae vox abrupta?</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l part="F">IGNATIUS</l>
+            <l>Cantaber, quem novisti, egressus domo</l>
+            <l>Nescitur ubi sit: affertur mini modo </l>
+            <l>Reperta eius canna in manibus sicarii.</l>
+          </sp>
+          <sp who="#figuera">
+            <speaker>FI.</speaker>
+            <l>Quis in hoc serrato monte tantum facinus?</l>
+            <l>Agite, satellites, perquirite auctorem mali:</l>
+            <l part="I">Cito, periclum in mora.</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l part="F">ego, si placet,</l>
+            <l>Me his comitem praestabo, qui hominem vidi.</l>
+          </sp>
+          <sp who="#figuera">
+            <speaker>FI.</speaker>
+            <l>Placet. sic est, sylvae abundant parricidis:</l>
+            <l>Quos ego grassatores in crucem agam.</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l>In bello Pampelone occubuisset felicior.</l>
+          </sp>
+          <sp who="#figuera">
+            <speaker>FI.</speaker>
+            <l>Meliora licet sperare, et vivere fratrem tuum.</l>
+            <l>Succede in aedes, solabor dolorem tuum.</l>
+          </sp>
         </div>
+        <div type="scene" n="4">
+          <head>SCENA QUARTA.</head>
+          <argument>
+            <p>BOGUEZ narrat hero suo conquiri viros, qui IGNATIUM spoliarunt vestibus.</p>
+          </argument>
+          <stage>CODRILLOS, BOGUEZ.</stage>
+          <sp who="#boguez">
+            <speaker>BOG.</speaker>
+            <l>Recesserunt intro: paucis tecum colloquar.</l>
+            <l>Enimvero, here, non somniculose agendum tibi:</l>
+            <l>Nisi prospicis, pendebis mortuus in patibulo.</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l>Incipio timere: si vera sunt quae tu refers,</l>
+            <l>Ad restim recidit negotium. ubi istum famulum</l>
+            <l part="I">Offendisti?</l>
+          </sp>
+          <sp who="#boguez">
+            <speaker>BOG.</speaker>
+            <l part="M">prope sacellum.</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l part="F">quid quaeritat?</l>
+          </sp>
+          <sp who="#boguez">
+            <speaker>BOG.</speaker>
+            <l>Fratrem heri sui, quem ait furtim abiisse domo.</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l part="I">Quis est iste frater?</l>
+          </sp>
+          <sp who="#boguez">
+            <speaker>BOG.</speaker>
+            <l part="F">de gente Loyolea.</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l part="I">Quin statim dimisisti?</l>
+          </sp>
+          <sp who="#boguez">
+            <speaker>BOG.</speaker>
+            <l part="F">non potui: vir erat</l>
+            <l>E primo vultu honestus: tum insigne pilei</l>
+            <l>Sensit, et cannam tuam, quam argumentis suis</l>
+            <l>Ostendit esse illam, quam accepisti in eleëmosynam.</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l>Visus sum. res innotescit. ubi est modo </l>
+            <l part="I">Canna mea?</l>
+          </sp>
+          <sp who="#boguez">
+            <speaker>BOG.</speaker>
+            <l part="F">pudet fateri: vi, dolo,</l>
+            <l>Pugnis abstulit ad herum suum; herus ad Praepositum:</l>
+            <l>Praepositus misit satellites, qui te expetunt.</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l>Vah. consuluisti hodie mihi pessime. perii,</l>
+            <l>Non est spes effugii. quid si me e vestibus noverint?</l>
+          </sp>
+          <sp who="#boguez">
+            <speaker>BOG.</speaker>
+            <l>Illas ipsas easdem vestes, pileum, thoracem, pallium</l>
+            <l part="I">Graphice descripsit servus.</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l part="F">unde probabo data</l>
+            <l>Esse mihi? abiit ille homo, et me satellitibus</l>
+            <l part="I">Reliquit. vae misero mihi.</l>
+          </sp>
+          <sp who="#boguez">
+            <speaker>BOG.</speaker>
+            <l part="F">noli animum perdere,</l>
+            <l part="I">Qui tam fortis fuisti.</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l part="F">quantas mihi sollicitudines</l>
+            <l part="I">Confecisti?</l>
+          </sp>
+          <sp who="#boguez">
+            <speaker>BOG.</speaker>
+            <l part="F">redi ad te, huic malo salutem inveni.</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l>Non evadam equidem, salvis omnibus sarcinis.</l>
+            <l>At facile est, dum pecunias salvem, vestes perdere,</l>
+            <l>Uti serpentes solent, qui integro capite pellem exuunt:</l>
+            <l>Aut uti cordati viri, qui nucleum nucis retinent,</l>
+            <l>Relinquunt pignori putamina. hoc cogito,</l>
+            <l part="I">Quando denuo fit iudicium?</l>
+          </sp>
+          <sp who="#boguez">
+            <speaker>BOG.</speaker>
+            <l part="F">hac hora, modo.</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l>Vade diligenter, ex edito loco longe prospice</l>
+            <l>Quando venient satellites, ut me moneas.</l>
+          </sp>
+          <sp who="#boguez">
+            <speaker>BOG.</speaker>
+            <l>Sedulo id faciam. at ignosce, si causa mea</l>
+            <l part="I">Praeter spem id evenit.</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l part="F">accelera gradum,</l>
+            <l>Festinatione opus est. adest iudicium, eo obviam.</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA QUINTA.</head>
+          <argument>
+            <p>CODRILLOS callide partitur acceptas vestes.</p>
+          </argument>
+          <stage>CODRILLOS, CRINEDA, IRUSSA, FURIUS, IVADOR, BOGUEZ.</stage>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l>Salvete viri consultissimi, et vos foederati socii.</l>
+          </sp>
+          <sp who="#crineda">
+            <speaker>CRI.</speaker>
+            <l>Valde comiter, quasi inter vos conveniat.</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l>Dici horae sunt duodecim: quod non sapis</l>
+            <l>Hoc momento, disces altero. sapientis est</l>
+            <l part="I">In melius mutare consilium.</l>
+          </sp>
+          <sp who="#furius">
+            <speaker>FUR.</speaker>
+            <l part="F">Codrillos,</l>
+            <l>Ego vereri non debeo, ut, quod fecisti prius,</l>
+            <l part="I">Me pergas fallere.</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l part="F">Egone istuc facerem,</l>
+            <l>Qui rediturus in gratiam sponte huc venio?</l>
+          </sp>
+          <sp who="#irussa">
+            <speaker>IR.</speaker>
+            <l>Non crederem nisi asseris, propterea quod eras tam malus.</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l>Nescitis quid sit actum; narrabo vobis postea.</l>
+            <l>Iam non est tempus: haud poterat aliter fieri.</l>
+          </sp>
+          <sp who="#furius">
+            <speaker>FUR.</speaker>
+            <l>Obliviscamur omnia, quando ipse litem dirimis.</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l part="I">Nihil est quod mavelim: en dextram.</l>
+          </sp>
+          <sp who="#irussa">
+            <speaker>IR.</speaker>
+            <l part="F">iam habeo</l>
+            <l part="I">Tibi fidem.</l>
+          </sp>
+          <sp who="#crineda">
+            <speaker>CRI.</speaker>
+            <l part="F">gaudemus utrimque pacem fieri:</l>
+            <l part="I">Pergite litem componere.</l>
+          </sp>
+          <sp who="#ivador">
+            <speaker>IV.</speaker>
+            <l part="F">ego utrique parti lubens</l>
+            <l>Ad vocatus servio; de mercede postea videbitis.</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l>Agite, de foedere erat controversia: de integro</l>
+            <l>Foedus sancio, et admitto. certum est vestes dividere,</l>
+            <l part="I">Quas eleëmosyna accepi.</l>
+          </sp>
+          <sp who="#irussa">
+            <speaker>IR.</speaker>
+            <l part="F">o sanctum virum!</l>
+          </sp>
+          <sp who="#furius">
+            <speaker>FUR.</speaker>
+            <l part="I">Rediit tibi prima religio.</l>
+          </sp>
+          <sp who="#crineda">
+            <speaker>CRI.</speaker>
+            <l part="F">ubi bona conscientia,</l>
+            <l part="I">Ibi aequitas.</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l part="F">hoc apud me reputavi serio,</l>
+            <l>Male parta, male dilabuntur: quod non vis tibi</l>
+            <l part="I">Detractum, alteri neu adimas.</l>
+          </sp>
+          <sp who="#irussa">
+            <speaker>IR.</speaker>
+            <l part="F">honestissima oratio.</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l part="I">En, Furi, thoracem meum.</l>
+          </sp>
+          <sp who="#furius">
+            <speaker>FUR.</speaker>
+            <l part="M">quaeso.</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l part="F">cape.</l>
+          </sp>
+          <sp who="#furius">
+            <speaker>FUR.</speaker>
+            <l part="I">Noli urgere.</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l part="F">noli recusare, cum iure debeo,</l>
+            <l>Et ex animo dedi. tu Irussa istoc pallio</l>
+            <l>Utere: vende, serva ut lubet; est tuum.</l>
+            <l>Domine Ivador, offero elegantem pileum, nam tuus</l>
+            <l part="I">Est attritus.</l>
+          </sp>
+          <sp who="#ivador">
+            <speaker>IV.</speaker>
+            <l part="F">non mihi, quoniam niger, convenit.</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l>Sed filiolo tuo, bonae spei. iudex tibi</l>
+            <l>Mento debetur baltheus, quo iustitiae</l>
+            <l part="I">Ensem appendas.</l>
+          </sp>
+          <sp who="#crineda">
+            <speaker>CRI.</speaker>
+            <l part="M">aequum censes.</l>
+          </sp>
+          <sp who="#ivador">
+            <speaker>IV.</speaker>
+            <l part="F">tibi nihil</l>
+            <l part="I">Reservas, vir bone.</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l part="F">mihi paupertas placet.</l>
+            <l>Abite divitiae, imitamenta malorum: sat est</l>
+            <l>Ille dives, cui, quod est satis, parca dii dederunt manu.</l>
+          </sp>
+          <sp who="#boguez">
+            <speaker>BOG.</speaker>
+            <l part="I">Here, here, tempus est.</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l part="F">plurimum valete viri.</l>
+          </sp>
+          <sp who="#ivador">
+            <speaker>IV.</speaker>
+            <l part="I">Quisque est contentus suo dono.</l>
+          </sp>
+          <sp who="#crineda">
+            <speaker>CRI.</speaker>
+            <l part="F">nihilo plus</l>
+            <l part="I">Ego expeto.</l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA SEXTA.</head>
+          <argument>
+            <p>FURIUS, IRUSSA, IVADOR, CRINEDA deprehensi ex vestibus IGNATII abripiuntur in
+              carcerem.</p>
+          </argument>
+          <stage>FURIUS, IRUSSA, IVADOR, CRINEDA, PEREZ.</stage>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l part="F">Hic sunt latrones, et spolia.</l>
+          </sp>
+          <sp who="#furius">
+            <speaker>FUR.</speaker>
+            <l>Quid de thorace tam pretioso sim acturus nescio.</l>
+          </sp>
+          <sp who="#irussa">
+            <speaker>IR.</speaker>
+            <l part="I">Et ego de magnifico pallio.</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l part="F">hi sunt, corona cingite.</l>
+          </sp>
+          <sp who="#crineda">
+            <speaker>CRI.</speaker>
+            <l part="I">Quid hoc rei?</l>
+          </sp>
+          <sp who="#ivador">
+            <speaker>IV.</speaker>
+            <l part="M">quid geritur?</l>
+          </sp>
+          <sp who="#furius">
+            <speaker>FUR.</speaker>
+            <l part="F">quid vultis mihi?</l>
+          </sp>
+          <sp who="#irussa">
+            <speaker>IR.</speaker>
+            <l part="I">Codrillos, Codrillos?</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l part="F">omnes comprehendite.</l>
+          </sp>
+          <sp who="#ivador">
+            <speaker>IV.</speaker>
+            <l part="I">Ego sum Ivador causidicus.</l>
+          </sp>
+          <sp who="#crineda">
+            <speaker>CRI.</speaker>
+            <l part="F">haec mihi fit iniuria?</l>
+          </sp>
+          <sp who="#furius">
+            <speaker>FUR.</speaker>
+            <l part="I">Satellites.</l>
+          </sp>
+          <sp who="#irussa">
+            <speaker>IR.</speaker>
+            <l part="M">quid fecimus?</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l part="F">ite sicarii.</l>
+            <l>Restat ille servus, quem toto oppido quaeram hodie.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="4">
+        <head>ACTUS QUARTUS.</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>CODRILLOS cum BOGUEZ in fugo comprehenditur.</p>
+          </argument>
+          <stage>CODRILLOS, BOGUEZ, PEREZ, MILESIUS</stage>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l>Est ne tutus locus apud vos? dicite.</l>
+            <l>Ubique sunt insidiae, ut comprehendar. quo, qua</l>
+            <l>Fugiam? sed quid hic incautus vociferor?</l>
+            <l>Sumne mihi prae metu satis praesens? nemo</l>
+            <l>Videt? nemo audit? prorsus nemo. bene est,</l>
+            <l>Pede laneo delitescam hic parvulus</l>
+            <l>In angulo. at tu furcifer, tu mortalium</l>
+            <l>Vaferrime, quid tibi cum istis oculis</l>
+            <l>Ad explorandum emissis? abi, inquam, abi</l>
+            <l>Observator, quid tua interest, ubi sim loci?</l>
+            <l>Non abibis? ego alium captabo locum.</l>
+          </sp>
+          <sp who="#boguez">
+            <speaker>BOG.</speaker>
+            <l part="I">Here, here.</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l part="F">ni sileas, linguam vellam tibi</l>
+            <l>Radicitus, ut hanc cum dentibus excrees.</l>
+          </sp>
+          <sp who="#boguez">
+            <speaker>BOG.</speaker>
+            <l>Capti sumus. ad nos recta satellites.</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l>Quid clamas? scelestiorem hoc famulo</l>
+            <l part="I">Vidi nunquam.</l>
+          </sp>
+          <sp who="#boguez">
+            <speaker>BOG.</speaker>
+            <l part="F">frustra, non effugies.</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l>Cito milites, cito: non procul hinc abest</l>
+            <l>Servus cum hero suo: pervadite angulos.</l>
+            <l>Adsunt: tenete: hunc servum abripite.</l>
+            <l part="I">Num tuus hic herus?</l>
+          </sp>
+          <sp who="#boguez">
+            <speaker>BOG.</speaker>
+            <l part="F">illum interroga.</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l part="I">Abripite. quis tu es, ohe senex?</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l part="F">ego</l>
+            <l>Servus tuus, et militum horum, decrepitus</l>
+            <l>Centum et sex annorum cum medio, minus</l>
+            <l>Uno mense, diebus quinque, horis tribus.</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l part="I">Memoria vales.</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l part="F">annos meminerunt senes.</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l part="I">Quid tu hic cum servo istoc?</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l part="F">non novi, nisi</l>
+            <l>De facie; petebat viam, quae ducit ad forum,</l>
+            <l part="I">Officiose indicavi.</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l part="F">metuis nescio quid?</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l>Ego metuo mortem: haec pallidos efficit senes.</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l>Tu forte ex istis latronibus unus es.</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l>Ah rides. ego ut pauperrimus senex,</l>
+            <l>Malorum Myrmecia, panegyris, mare,</l>
+            <l>Sim latro? ubi manus harpagantes, et piceae!</l>
+            <l>Ubi odorae nares? ubi ungues adunci? ubi</l>
+            <l>Sica sub femore? habeo, mi vir, tua</l>
+            <l>Pace dicam, meam domum in vicinia,</l>
+            <l>Et uxorem, cum qua vivo fama honestissima.</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l part="I">Estne tibi uxor?</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l part="F">deformis, vetus, edentula,</l>
+            <l part="I">Centum octo annorum.</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l part="F">liberos quot habes?</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l>Quot annus menses numerat, duodecim;</l>
+            <l>Qui quotidie nostrum, magni et parvuli, coronant focum.</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l part="I">An tibi parvuli ex uxore? mentiris.</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l part="F">imo </l>
+            <l>Est haec quinta uxor, quam heri duxi: ex aliis</l>
+            <l part="I">Est haec proles.</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l part="F">sed haec huc non pertinent.</l>
+          </sp>
+          <sp who="#milesius">
+            <speaker>MIL.</speaker>
+            <l>Quando propius contemplor, novi pauperem</l>
+            <l>Huic similem, adeo forma pari; quin absque hi</l>
+            <l>Cani forent, esse illum ipsum dicerem</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l part="I">Ah. ah. ah.</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l part="M">quid rides?</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l part="M">fabulam.</l>
+          </sp>
+          <sp who="#milesius">
+            <speaker>MIL.</speaker>
+            <l part="F">sub hoc</l>
+            <l>Forte senio, et veste ficta aliquid latet.</l>
+            <l part="I">Tollamus larvam.</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l part="F">oh, oh, mihi caput dolet,</l>
+            <l part="I">Crudeles, quid avellitis?</l>
+          </sp>
+          <sp who="#milesius">
+            <speaker>MIL.</speaker>
+            <l part="F">vides? dolus</l>
+            <l part="I">Apparet.</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l part="F">et hunc trahamus intro: procul</l>
+            <l part="I">Dubio est conscius.</l>
+          </sp>
+          <sp who="#milesius">
+            <speaker>MIL.</speaker>
+            <l part="M">venit Garcias.</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l part="F">paulo post</l>
+            <l>Cum quaestionem de aliis fecerit, hunc proferam.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>GARCIAS severe cognoscit de iis quae ad vestes et vitam IGNATII pertinent.</p>
+          </argument>
+          <stage>GARCIAS, IVADOR, CRINEDA, FURIUS, IRUSSA.</stage>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l>Iudicabo hodie de fratricidis, ac prius</l>
+            <l>Caesos flagris affigam cruci. cognoscam qui,</l>
+            <l>Quando, ubi fratrem iugulastis impii.</l>
+            <l>Si crimen non fatemini, extorquebo equuleis.</l>
+          </sp>
+          <sp who="#crineda">
+            <speaker>CRI.</speaker>
+            <l>Ego iniuriam mihi honesto viro factam expostulo.</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l>Non de iniuria, sed de capite causam agas.</l>
+          </sp>
+          <sp who="#ivador">
+            <speaker>IV.</speaker>
+            <l>Turpe est advocatum esse datum in vincula.</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l>Sorbe quod tute tibi miscuisti: nunc aliud</l>
+            <l>Quod requiro, fare. quid tibi cum pauperibus:</l>
+            <l part="I">Quid cum sicariis?</l>
+          </sp>
+          <sp who="#ivador">
+            <speaker>IV.</speaker>
+            <l part="F">Ego pauperum causas suscipio.</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l>O sanctum patronum! gratis, credo, pauperi</l>
+            <l part="I">Patrocinaris.</l>
+          </sp>
+          <sp who="#ivador">
+            <speaker>IV.</speaker>
+            <l part="M">non obligor.</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l part="F">sed tamen</l>
+            <l part="I">Pileus accedit merces.</l>
+          </sp>
+          <sp who="#ivador">
+            <speaker>IV.</speaker>
+            <l part="M">quid tum?</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l part="F">qui furibus</l>
+            <l>Servit, is furto se alligat: qui sicanis</l>
+            <l part="I">Communicat, hic est sicarius.</l>
+          </sp>
+          <sp who="#crineda">
+            <speaker>CRI.</speaker>
+            <l part="F">tuum est,</l>
+            <l>Si iudicas, prius de furto et sicariis cognoscere.</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l>Quando tu sapienter partes iudicis</l>
+            <l part="I">Explesti, doces alium scilicet.</l>
+          </sp>
+          <sp who="#crineda">
+            <speaker>CRI.</speaker>
+            <l part="F">si quid male </l>
+            <l part="I">Commisi, ostende.</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l part="F">quid iste baltheus?</l>
+            <l>Quo se Dea iustitiae Themis praecingat, velut</l>
+            <l part="I">Incorruptibili zona?</l>
+          </sp>
+          <sp who="#crineda">
+            <speaker>CRI.</speaker>
+            <l part="F">non continuo </l>
+            <l part="I">Dona stateram deprimunt.</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l part="F">flectunt tamen.</l>
+          </sp>
+          <sp who="#crineda">
+            <speaker>CRI.</speaker>
+            <l part="I">Quando ignoras?</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l part="F">nesciebas istos baltheos</l>
+            <l part="I">Non esse pauperum?</l>
+          </sp>
+          <sp who="#crineda">
+            <speaker>CRI.</speaker>
+            <l part="F">dicebant esse datam</l>
+            <l part="I">Eleëmosynam.</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l part="M">a quo?</l>
+          </sp>
+          <sp who="#crineda">
+            <speaker>CRI.</speaker>
+            <l part="M">nescimus.</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l part="F">igitur</l>
+            <l>Quia latebat maleficium, non oportuit</l>
+            <l part="I">Rem momentis expendisse?</l>
+          </sp>
+          <sp who="#furius">
+            <speaker>FUR.</speaker>
+            <l part="F">domine, rem eloquar.</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l part="I">Paucis expedi.</l>
+          </sp>
+          <sp who="#furius">
+            <speaker>FUR.</speaker>
+            <l part="F">hae vestes nescivimus</l>
+            <l>Cuius essent; alter socius, qui modo abest,</l>
+            <l>His nos donavit, atque hos viros probos.</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l>Scelesta capita, ignoratis fratrem meum,</l>
+            <l>Et eius vestes? tacti sunt. ut ad verba haec</l>
+            <l>Exhorruere! et respexere furum invicem?</l>
+            <l>Vos illum trucidastis: tristes exuviae</l>
+            <l>Restant, quas Deus hodie compertas voluit.</l>
+          </sp>
+          <sp who="#irussa">
+            <speaker>IR.</speaker>
+            <l part="I">Unde ista suspicio de nobis?</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l part="F">exue hanc</l>
+            <l>Pietatis larvam, fratricida, caedes patent.</l>
+            <l part="I">Mens est aperienda.</l>
+          </sp>
+          <sp who="#irussa">
+            <speaker>IR.</speaker>
+            <l part="F">nescio quae dicta loqueris,</l>
+          </sp>
+          <sp who="#ivador">
+            <speaker>IV.</speaker>
+            <l part="I">Neque etiam scio.</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l part="F">pergite tandem, pergite:</l>
+            <l>Frontem perfricate. quid tu igitur negas?</l>
+          </sp>
+          <sp who="#ivador">
+            <speaker>IV.</speaker>
+            <l part="I">Me reum esse,</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l part="F">cum argumenta sunt perspicua?</l>
+          </sp>
+          <sp who="#ivador">
+            <speaker>IV.</speaker>
+            <l>Male, inquam, nos redarguis: abest iudicio,</l>
+            <l>Qui auctor est omnium. illum cum famulo</l>
+            <l>Cures comprehendi, de fratre tuo rescies.</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l>Ita accusatione alterius vos defenditis.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA TERTIA.</head>
+          <argument>
+            <p>GARCIAS comprehensis mortem decernit.</p>
+          </argument>
+          <stage>MILES, GARCIAS, BOGUEZ, FURIUS, CRINEDA, PEREZ.</stage>
+          <sp who="#miles">
+            <speaker>MI.</speaker>
+            <l>Adducimus tibi, Garcia, servum, a quo Perez</l>
+            <l part="I">Gannam fratris extorsit.</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l part="F">tune es sceleris</l>
+            <l>Adiutor? est etiamnum cruenta canna sanguine,</l>
+            <l part="I">Quem effudisti.</l>
+          </sp>
+          <sp who="#boguez">
+            <speaker>BOG.</speaker>
+            <l part="F">egone humanum sanguinem</l>
+            <l part="I">Effundere?</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l part="F">mitte logos, dic rem, nebulo:</l>
+            <l>Unde ista canna tibi fuit in manibus?</l>
+          </sp>
+          <sp who="#boguez">
+            <speaker>BOG.</speaker>
+            <l>Herus mihi dedit, qua me tuerer contra hos.</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l part="I">Fatere absque tormentis.</l>
+          </sp>
+          <sp who="#boguez">
+            <speaker>BOG.</speaker>
+            <l part="F">non, si vivo mihi</l>
+            <l>Pellem detrahas, possum aliter loqui quam res est.</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l part="I">Ecquid agnoscis has vestes?</l>
+          </sp>
+          <sp who="#boguez">
+            <speaker>BOG.</speaker>
+            <l part="F">agnosco equidem</l>
+            <l>Certe vestes heri mei. domine, hi viri</l>
+            <l>Spoliarunt herum meum, vel occiderunt. iustitia,</l>
+            <l part="I">iustitia, pro miserum herum!</l>
+          </sp>
+          <sp who="#furius">
+            <speaker>FUR.</speaker>
+            <l part="F">totus hic</l>
+            <l>Est consutus dolis, et oppido impudens.</l>
+          </sp>
+          <sp who="#boguez">
+            <speaker>BOG.</speaker>
+            <l>Hericidae ad crucem, ad crucem; ego ero</l>
+            <l part="I">Tortor, si desit quispiam.</l>
+          </sp>
+          <sp who="#furius">
+            <speaker>FUR.</speaker>
+            <l part="F">nescis, nequam,</l>
+            <l part="I">Codrillos obtulisse nobis haec?</l>
+          </sp>
+          <sp who="#boguez">
+            <speaker>BOG.</speaker>
+            <l part="F">quando, ubi,</l>
+            <l part="I">Fuine praesens?</l>
+          </sp>
+          <sp who="#crineda">
+            <speaker>CRI.</speaker>
+            <l part="F">quasi absens nescires consilia.</l>
+          </sp>
+          <sp who="#boguez">
+            <speaker>BOG.</speaker>
+            <l>Non sum Apollo, qui fures divinem Mercurios.</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l>Non aderat hic servus, quando vestes invicem</l>
+            <l part="I">Partiti estis?</l>
+          </sp>
+          <sp who="#crineda">
+            <speaker>CRI.</speaker>
+            <l part="F">non aderat: fateor.</l>
+          </sp>
+          <sp who="#boguez">
+            <speaker>BOG.</speaker>
+            <l>Fingunt aliquid commode, ut invidiam exonerent</l>
+            <l>In me servulum innocentem. ubi modo herus?</l>
+            <l part="I">Heu lugeo mortuum!</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l part="F">video reducem Perez.</l>
+            <l part="I">Quid novi apportas?</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l part="F">sisto hunc tibi hominem,</l>
+            <l>Quem larvatum inveni, et ementitum senem. interroga:</l>
+            <l part="I">Nunc festinabo alio.</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l part="F">rescias omnia, si potes</l>
+          </sp>
+          <sp who="#furius">
+            <speaker>FUR.</speaker>
+            <l>Iste est architectus et fabricator omnis mali.</l>
+          </sp>
+          <sp who="#crineda">
+            <speaker>CRI.</speaker>
+            <l>Sunt eius vestes, quas furto vel caede abstulit.</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l>Stringite enses. frons, oculi, vultus istius viri</l>
+            <l>Calliditatem et maleficium clamitant: crimen aperi.</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l part="I">Me territas, et percellis vehementer.</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l part="F">eloquere.</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l>Ne irascere: habui istas vestes eleëmosynam</l>
+            <l>A viro nobili, qui se in proximo Virginis</l>
+            <l>Sacello devovit Deo: proinde sum innocens.</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l part="I">Vivitne ille?</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l part="F">vivit, et eadem utitur</l>
+            <l>Veste, qua ego ante: mitte, rem scies.</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l>nihil credo, nihil audio. omnes vos ex composito</l>
+            <l>Larvam sumitis, et fictis ambagibus</l>
+            <l>Sermonum conamini crimen obtegere.</l>
+            <l>Miles patibulum para, ut omnes hodie</l>
+            <l>Uno ordine splendide pendeant. ita ratum</l>
+            <l>Praefecto oppidi: interea redeant in carcerem.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="5">
+        <head>ACTUS QUINTUS.</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>PEREZ, reperto IGNATIO, totam rem aperit GARCIAE.</p>
+          </argument>
+          <stage>GARCIAS, PEREZ.</stage>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l>Ais, Perez, repertum a te fratrem meum?</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l>Qui ultro mihi factus obviam ex loco.</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l part="I">Quid istuc?</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l part="F">quasi sciret absens fieri</l>
+            <l>Molestias pauperi, propter vestem, quam dedit.</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l>Quo igitur habitu tibi ille constitit:</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l>Ista pauperis veste, cum quo mutavit suam:</l>
+            <l>Dolens se mendico non fuisse usui, sine</l>
+            <l part="I">Aerumna et sollicitudine.</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l part="F">quid ais? fratrem</l>
+            <l part="I">Mendici habitu?</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l part="F">sordida inquam toga,</l>
+            <l>Quam gessit Codrillos: cui ignosci petit,</l>
+            <l part="I">Et innocentem dimitti liberum.</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l part="F">mi frater,</l>
+            <l>Sic te subduxisti aedibus? si licet conqueri,</l>
+            <l>Cur furtim? cur tali habitu? haec est quidem</l>
+            <l>Sanctorum fuga: haec sunt virtutum incunabula:</l>
+            <l>Haec Christi vestigia: sed valedicere oportuit.</l>
+          </sp>
+          <sp who="#perez">
+            <speaker>PE.</speaker>
+            <l>Imo pendulam e collo lipsanothecam tibi</l>
+            <l part="I">Dono mittit, et simul vale.</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l part="F">accipio,</l>
+            <l>Et servabo amoris pignus. nunc sine mora</l>
+            <l>Mendicum illum cum sociis eximam supplicio.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>GARCLAS Praefecto narrat salvum esse IGNATIUM.</p>
+          </argument>
+          <stage>FIGUERA, GARCIAS.</stage>
+          <sp who="#figuera">
+            <speaker>FI.</speaker>
+            <l>Reviso quid egerit Garcias cum captivis suis</l>
+            <l>Eccum. male est fratri, Garcia? con victum scelus?</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l part="I">Omnia fausta, repertus est frater.</l>
+          </sp>
+          <sp who="#figuera">
+            <speaker>FI.</speaker>
+            <l part="F">gratulor.</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l>Nisi mendici habitu est, magnaque agitans.</l>
+          </sp>
+          <sp who="#figuera">
+            <speaker>FI.</speaker>
+            <l part="I">Quid consilii cepit?</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l part="F">quod dudum animo</l>
+            <l>Continuerat, pauperem sancte vitam agere.</l>
+          </sp>
+          <sp who="#figuera">
+            <speaker>FI.</speaker>
+            <l part="I">Ultro titulis cessit? opes respuit.</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l part="F">non pili</l>
+            <l>Haec fecit, non cassa nuce, contentus Deo.</l>
+          </sp>
+          <sp who="#figuera">
+            <speaker>FI.</speaker>
+            <l>O fortem virum! at nos imbelles hic sumus:</l>
+            <l>Aetatem fallimus incauti. ita me Deus amet,</l>
+            <l>Ut me vitae taedet! ut lubet fratris tui</l>
+            <l>Sequi consilia, si per familiam liceat.</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l>Meus cum tuo animus consentit: at domus</l>
+            <l part="I">Eget columine.</l>
+          </sp>
+          <sp who="#figuera">
+            <speaker>FI.</speaker>
+            <l part="F">interim quid de captivis tuis?</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l>Proxime expectant crucem, quam ignarus rei</l>
+            <l part="I">Sum minatus.</l>
+          </sp>
+          <sp who="#figuera">
+            <speaker>FI.</speaker>
+            <l part="F">quin cito dimittis liberos?</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l part="I">Ita faciam.</l>
+          </sp>
+          <sp who="#figuera">
+            <speaker>FI.</speaker>
+            <l part="F">huc captivi. inopinato bono</l>
+            <l>Gaudebunt hoc magis, quo sors fuit afflictior.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA TERTIA.</head>
+          <argument>
+            <p>Omnes discedunt liberi.</p>
+          </argument>
+          <stage>FIGUERA, GARCIAS, CODRILLOS, FURIUS, BOGUEZ.</stage>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l>Victimae mortis, ad macellum ducimur.</l>
+          </sp>
+          <sp who="#boguez">
+            <speaker>BOG.</speaker>
+            <l>Ignoscite iudices, nihil omnes deliquimus.</l>
+          </sp>
+          <sp who="#figuera">
+            <speaker>FI.</speaker>
+            <l part="I">Fiduciam capite, non moriemini.</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l part="F">meum est</l>
+            <l>A vobis veniam petere, si quid asperius</l>
+            <l>Dixi, si fures vocavi, si in crucem sicarios</l>
+            <l>Volui agere. repertus est dator eleëmosynae.</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l part="I">Repertus?</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l part="M">certo.</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l part="F">o divinum hominem,</l>
+            <l>Qui postquam benefecit, mendicum suum non destituit!</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l part="I">Omnes vestes reddi volo singulis.</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l part="F">dii boni!</l>
+            <l>Euge, socii, euge, euge, coenabimus hodie.</l>
+          </sp>
+          <sp who="#garcias">
+            <speaker>GA.</speaker>
+            <l>Tu iudex, et Causidice, quia detrimenti paululum</l>
+            <l>Hac tempestate estis passi, nummos capite,</l>
+            <l>Et molestias abstergite. uterque hodie</l>
+            <l>Apud me coenabitis, introcedite.</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l>Furi, Furi, Furi, obliviscere omnium.</l>
+            <l>Irussa, Boguez, ducamus hanc noctem hilariter.</l>
+          </sp>
+          <sp who="#furius">
+            <speaker>FUR.</speaker>
+            <l part="I">Codre, ut evasimus.</l>
+          </sp>
+          <sp who="#irussa">
+            <speaker>IR.</speaker>
+            <l part="F">tantum non opera tua</l>
+            <l part="I">Pependimus.</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l part="F">omitte ista: factum esset minus,</l>
+            <l>Si non accidissent haec. ostendam, quod nulli adhuc</l>
+            <l>Indicavi: pendet e collo marsupium,</l>
+            <l>Quod ille idem vir mihi contulit, ex aequo</l>
+            <l part="I">Est vestrum.</l>
+          </sp>
+          <sp who="#furius">
+            <speaker>FUR.</speaker>
+            <l part="F">quomodo illud servasti tamdiu?</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l>Bellissime in carcere. tum apparuisset denique,</l>
+            <l part="I">Et pependisset mecum in patibulo.</l>
+          </sp>
+          <sp who="#boguez">
+            <speaker>BOG.</speaker>
+            <l part="F">gaudio</l>
+            <l>Subsiliamus: dum paratur coena, Codrillos, duc chorum.</l>
+          </sp>
+          <sp who="#codrillos">
+            <speaker>COD.</speaker>
+            <l>Eram oblitus dicere: ego vos ad coenam lubens</l>
+            <l>Nobiscum invitem, Spectatores: sed tot hominibus</l>
+            <l>Vereor ne sit locus: quare quisque suam domi</l>
+            <l>Apparet coenam, et suos amicos bibat:</l>
+            <l>Bis, iterum, tertio Codrillos vons bibet.</l>
+          </sp>
+          <closer>FINIS.</closer>
+        </div>
+      </div>
     </body>
   </text>
 </TEI>
