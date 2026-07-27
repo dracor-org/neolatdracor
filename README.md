@@ -17,10 +17,10 @@ number of texts: 2
 status: work in progress  
 website: [Camerarius digital](http://www.camerarius.de)
 
-### From Stage to Page. Neo-Latin School Drama in the Early Modern Southern Low Countries and its Manuscript Tradition
+### From Stage to Page
 editor(s): Nicholas De Sutter  
 encoder(s): Nicholas De Sutter  
-text selection in alphabetical order: tba  
+text selection in alphabetical order: Codrillos (1679), Dos (1679), Dormientes (1679), Fernandes (1679), Franciscanus (1679), Gemma (1679), Gymnasium (1679), Lytrum (1679), Marsupium (1679), Prandium (1679), Sepultus (1679), Villicus (1679), ...   
 number of texts: ca. 20  
 status: work in progress  
 website: work in progress  
