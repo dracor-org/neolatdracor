@@ -15,15 +15,23 @@
     </author>
    </titleStmt>
    <editionStmt>
-    <edition>Elektronická edice</edition>
+    <edition>Digital edition</edition>
     <respStmt>
      <resp>Edited by</resp>
-     <persName>Magdaléna Jacková</persName>
+     <persName ref="https://orcid.org/0000-0002-8945-2622" xml:id="Majda">Magdaléna Jacková</persName>
+    </respStmt>
+    <respStmt>
+     <resp>Transcribed under the supervision of</resp>
+     <persName ref="https://orcid.org/0000-0002-8945-2622" xml:id="Majda">Magdaléna Jacková</persName>
+    </respStmt>
+    <respStmt>
+     <resp>Transcribed by</resp>
+     <persName>Zuzana Adamaitis</persName>
     </respStmt>
     <respStmt>
      <resp>Converted to TEI by</resp>
-     <persName>Jana Synovcová Borovičková</persName>
-     <persName>Boris Lehečka</persName>
+     <persName ref="https://orcid.org/0009-0004-0110-9670">Jana Synovcová Borovičková</persName>
+     <persName ref="https://orcid.org/0000-0003-4893-5537">Boris Lehečka</persName>
     </respStmt>
     <funder>
      <orgName>Czech Since Funcdation</orgName>
@@ -34,33 +42,53 @@
    <publicationStmt>
     <publisher xml:id="dracor">DraCor</publisher>
     <idno type="URL">https://dracor.org</idno>
-    <availability>
+    <availability status="free">
      <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+     <ab>Permission granted by Theatrum Neolatinum team in consultation with publisher - Licence CC0 1.0</ab>
     </availability>
    </publicationStmt>
    <sourceDesc>
     <bibl type="digitalSource">
-     <name>Theatrum Neolatinum</name>
+     <ref target="https://www.theatrum-neolatinum.cz/en/hry/Josephiados_comaedia/josephiados_comaedia.html">Theatrum Neolatinum</ref>
+     <availability status="restricted">
+      <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence>
+      <ab>Copyright: <name ref="https://ucl.cas.cz/" role="copyrightHolder">Ústav pro českou literaturu Akademie věd České republiky, v. v. i.</name>
+      </ab>
+     </availability>
     </bibl>
     <bibl type="originalSource">
-      <title>Magdaléna Jacková, Markéta Klosová, Martin Bažil, Alena Bočková, Kateřina Bobková-Valentová, Eva Popelková (eds.): Latinské biblické drama v českých zemích. Prague 2026. In print (Theatrum Neolatinum, Latinské divadlo v českých zemích 3).</title>
-      <idno type="URL">https://www.theatrum-neolatinum.cz/en/biblicke.html</idno>
-    </bibl>
-    <bibl type="originalSource">
-      <title>Iosephiados</title>
-      <title type="sub">Comaedia ex Genesis lib. cap. 39. 40. 41.</title>
-      <pubPlace>Pragae</pubPlace>: Typis <publisher>Schimanianis</publisher>,
-      <date>1607</date>;
-      Biblioteka Uniwersytecka, Wrocław, sign. 395 682 (=4 N 431 adl. 1);
-      Det Kgl. Bibliotek, sign. 75:4, 30 00016.
+     <author>Magdaléna Jacková, Markéta Klosová, Martin Bažil, Alena Bočková, Kateřina Bobková-Valentová, Eva Popelková (eds.)</author>: <title>Latinské biblické drama v českých zemích</title>. <pubPlace>Prague</pubPlace>: <publisher>Academia</publisher>
+     <date>2026</date>. <title type="volume">(Theatrum Neolatinum, Latinské divadlo v českých zemích 3).</title>
+     <biblScope>pp. 290-401.</biblScope>
+     <idno type="URL">https://www.theatrum-neolatinum.cz/en/biblicke.html</idno>
+     <availability status="restricted">
+      <ab>Copyright: <name ref="https://ucl.cas.cz/" role="copyrightHolder">Ústav pro českou literaturu Akademie věd České republiky, v. v. i.</name>, <name ref="https://www.academia.cz/" role="copyrightHolder">Nakladatelství Academia</name>
+      </ab>
+     </availability>
+     <relatedItem>
+      <bibl>
+       <author>Andreae Rochotii a Rochiczerberga</author> L.P., <title>Iosephiados</title>, <title type="sub">comaedia ex Genesis lib. cap. 39. 40. 41.</title>. <pubPlace>Pragae</pubPlace> typis <publisher>Schumanianis</publisher>. <date when="1607" />
+       <relatedItem>
+        <bibl>
+         <orgName>Biblioteka Uniwersytecka</orgName>, <settlement>Wrocław</settlement>, sign. <idno type="shelfmark">395 682 (=4 N 431 adl. 1)</idno>
+        </bibl>
+       </relatedItem>
+       <relatedItem>
+        <bibl>
+         <orgName>Det Kgl. Bibliotek</orgName>, <settlement>København</settlement>, sign. <idno type="shelfmark">75:4, 30 00016</idno>
+         <idno type="URL">https://soeg.kb.dk/permalink/45KBDK_KGL/1nfjf9o/alma99126194322105763</idno>
+        </bibl>
+       </relatedItem>
+      </bibl>
+     </relatedItem>
     </bibl>
     <listEvent>
-    <event type="print" when="1607">
+     <event notAfter="1607" notBefore="1606" type="print">
       <desc />
-    </event>
-    <event type="written" when="1607">
+     </event>
+     <event notAfter="1607" notBefore="1606" type="written">
       <desc />
-    </event>
+     </event>
     </listEvent>
    </sourceDesc>
   </fileDesc>
@@ -106,6 +134,9 @@
       <persName>Pharao</persName>
       <persName type="variant">Rex Pharao</persName>
      </person>
+     <person xml:id="prologus" sex="UNKNOWN" role="prologus">
+      <persName>Prologus</persName>
+     </person>
      <person xml:id="puer" sex="MALE" role="puer" corresp="#pueri">
       <persName>Puer</persName>
      </person>
@@ -128,9 +159,6 @@
      <person xml:id="thamar" sex="FEMALE">
       <persName>Thamar</persName>
      </person>
-     <person xml:id="prologus" sex="UNKNOWN" role="prologus">
-      <persName>Prologus</persName>
-     </person>
     </listPerson>
    </particDesc>
    <textClass>
@@ -146,20 +174,17 @@
    </creation>
   </profileDesc>
  </teiHeader>
- 
  <text>
   <front>
    <titlePage>
     <docAuthor>
-     <pb n="A1r" />Andreae Rochotii a Rochicerberga, L. P.</docAuthor>
+     <pb n="A1r" />Andreae Rochotii a Rochicerberga L.P., </docAuthor>
     <docTitle>
      <titlePart type="main">Josephiados comaedia</titlePart>
      <titlePart type="desc">ex Genesis lib. cap. 39, 40, 41.</titlePart>
     </docTitle>
     <docImprint>
-     <pubPlace>Pragae,</pubPlace>
-     <publisher>typis Schumanianis.</publisher>
-    </docImprint>
+     <pubPlace>Pragae</pubPlace>, typis <publisher>Schumanianis</publisher>. </docImprint>
    </titlePage>
    <epigraph>
     <cit>
