@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <TEI type="dracor" xml:id="neolat000034" xml:lang="la" xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Toboeus,</title>
-            <title type="sub">comoedia sacra et nova.</title>
+            <title>Toboeus</title>
+            <title type="sub">comoedia sacra et nova</title>
             <author>
                <persName xml:lang="cs">
                   <forename>Jan</forename>
@@ -14,16 +14,28 @@
             </author>
          </titleStmt>
          <editionStmt>
-            <edition>Elektronická edice</edition>
+            <edition>Digital edition</edition>
             <respStmt>
                <resp>Edited by</resp>
-               <persName>Markéta Klosová (†)</persName>
-               <persName>Eva Popelková</persName>
+               <persName ref="https://orcid.org/0000-0002-2965-285X" xml:id="klosova-marketa">Markéta Klosová (†)</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Collaboration on the edition</resp>
+               <persName ref="https://orcid.org/0000-0002-6462-6796" xml:id="popelkova-eva">Eva Popelková</persName>
+               <persName ref="https://orcid.org/0000-0002-1081-3967" xml:id="bockova-alena">Alena Bočková</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcribed under the supervision of</resp>
+               <persName ref="https://orcid.org/0000-0002-2965-285X" sameAs="#klosova-marketa">Markéta Klosová (†)</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcribed by</resp>
+               <persName>Zuzana Adamaitis</persName>
             </respStmt>
             <respStmt>
                <resp>Converted to TEI by</resp>
-               <persName>Jana Synovcová Borovičková</persName>
-               <persName>Boris Lehečka</persName>
+               <persName ref="https://orcid.org/0009-0004-0110-9670">Jana Synovcová Borovičková</persName>
+               <persName ref="https://orcid.org/0000-0003-4893-5537">Boris Lehečka</persName>
             </respStmt>
             <funder>
                <orgName>Czech Since Funcdation</orgName>
@@ -34,22 +46,43 @@
          <publicationStmt>
             <publisher xml:id="dracor">DraCor</publisher>
             <idno type="URL">https://dracor.org</idno>
-            <availability>
+            <availability status="free">
                <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+               <ab>Permission granted by Theatrum Neolatinum team in consultation with publisher - Licence CC0 1.0</ab>
             </availability>
          </publicationStmt>
          <sourceDesc>
             <bibl type="digitalSource">
-               <name>Theatrum Neolatinum</name>
-               <bibl type="originalSource">
-                  <title>Magdaléna Jacková, Markéta Klosová, Martin Bažil, Alena Bočková, Kateřina Bobková-Valentová, Eva Popelková (eds.): Latinské biblické drama v českých zemích. Prague 2026. In print (Theatrum Neolatinum, Latinské divadlo v českých zemích 3).</title>
-                  <idno type="URL">https://www.theatrum-neolatinum.cz/en/biblicke.html</idno>
-                  <bibl type="originalSource">
-                     <title>Toboeus,</title>
-                     <title type="sub">comoedia sacra et nova.</title>
-                     <pubPlace>Pragae</pubPlace>: Typis <publisher>M. Danielis Adami a Veleslavino</publisher>, <date when="1587">M. D. LXXXVII</date>; Národní knihovna České republiky, Praha, sign. 52 G 6, adl. 14.</bibl>
-               </bibl>
+               <ref target="https://www.theatrum-neolatinum.cz/en/hry/Toboeus/toboeus.html">Theatrum Neolatinum</ref>
+               <availability status="restricted">
+                  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence>
+                  <ab>Copyright: <name ref="https://ucl.cas.cz/" role="copyrightHolder">Ústav pro českou literaturu Akademie věd České republiky, v. v. i.</name>, <name ref="https://hiu.cas.cz/" role="copyrightHolder">Historický ústav Akademie věd České republiky, v. v. i.</name></ab>
+               </availability>
             </bibl>
+            <bibl type="originalSource">
+               <title>Magdaléna Jacková, Markéta Klosová, Martin Bažil, Alena Bočková, Kateřina Bobková-Valentová, Eva Popelková (eds.): Latinské biblické drama v českých zemích. Prague 2026. In print (Theatrum Neolatinum, Latinské divadlo v českých zemích 3).</title>
+               <idno type="URL">https://www.theatrum-neolatinum.cz/en/biblicke.html</idno>
+               <availability status="restricted">
+                  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence>
+                  <ab>Copyright: <name ref="https://ucl.cas.cz/" role="copyrightHolder">Ústav pro českou literaturu Akademie věd České republiky, v. v. i.</name>, <name ref="https://hiu.cas.cz/" role="copyrightHolder">Historický ústav Akademie věd České republiky, v. v. i.</name></ab>
+               </availability>
+               <relatedItem>
+                  <bibl>
+                     <title>Toboeus</title>, <title type="sub">comoedia sacra et nova</title>. Scripta ad Decanum et Magistros Facultatis philosophicae in Academia Pragensi a M. <author>Joanne Aquila a Plavcze</author> Anno Domini 1569. Excusa <pubPlace>Pragae</pubPlace> typis <publisher>M.
+        Danielis Adami a Veleslavino</publisher>, <date when="1587">M. D. LXXXVII</date><relatedItem><bibl><orgName>Národní knihovna České republiky</orgName>, <settlement>Praha</settlement>, sign. <idno type="shelfmark">52 G 6, adl. 14</idno></bibl></relatedItem></bibl>
+               </relatedItem>
+            </bibl>
+            <listEvent>
+               <event type="print" when="1587">
+                  <desc />
+               </event>
+               <event type="written" when="1569">
+                  <desc />
+               </event>
+               <event notAfter="1587-08-08" notBefore="1569-08-19" type="premiere">
+                  <desc />
+               </event>
+            </listEvent>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -61,9 +94,18 @@
                <person xml:id="abidan" sex="MALE">
                   <persName>Abidan</persName>
                </person>
-               <person xml:id="ancillae" sex="MALE">
-                  <persName>Ancillae</persName>
+               <person xml:id="actor" sex="UNKNOWN" role="prologus">
+                  <persName>Actor</persName>
                </person>
+               <personGrp xml:id="advocati-toboei" sex="UNKNOWN">
+                  <name>Advocati Toboei</name>
+               </personGrp>
+               <personGrp xml:id="amici-raguelis" sex="MALE" role="friends">
+                  <name>Amici Raguelis</name>
+               </personGrp>
+               <personGrp xml:id="ancillae" sex="FEMALE" role="slaves" corresp="#pedissequae_ancillae">
+                  <name>Ancillae</name>
+               </personGrp>
                <person xml:id="anna" sex="FEMALE">
                   <persName>Anna</persName>
                </person>
@@ -76,6 +118,18 @@
                <person xml:id="berenice" sex="FEMALE">
                   <persName>Berenice</persName>
                </person>
+               <personGrp xml:id="chorus-angelicus" sex="UNKNOWN">
+                  <name>Chorus Angelicus</name>
+               </personGrp>
+               <person xml:id="chremius" sex="MALE">
+                  <persName>Chremius</persName>
+               </person>
+               <personGrp xml:id="commeatus-sarae-et-tobiae" sex="UNKNOWN">
+                  <name>Commeatus Sarae et Tobiae</name>
+               </personGrp>
+               <personGrp xml:id="daemones" sex="UNKNOWN">
+                  <name>Daemones</name>
+               </personGrp>
                <person xml:id="dibon" sex="MALE">
                   <persName>Dibon</persName>
                </person>
@@ -88,8 +142,12 @@
                <person xml:id="enoch" sex="MALE">
                   <persName>Enoch</persName>
                </person>
+               <person xml:id="epilogus" sex="UNKNOWN" role="epilogus">
+                  <persName>Epilogus</persName>
+               </person>
                <person xml:id="gabel" sex="MALE">
                   <persName>Gabel</persName>
+                  <persName type="variant">Gabelus</persName>
                </person>
                <person xml:id="gersona" sex="MALE">
                   <persName>Gersona</persName>
@@ -100,12 +158,15 @@
                <person xml:id="hamas" sex="MALE">
                   <persName>Hamas</persName>
                </person>
-               <person xml:id="chremius" sex="MALE">
-                  <persName>Chremius</persName>
-               </person>
+               <personGrp xml:id="libertini" sex="UNKNOWN">
+                  <name>Libertini</name>
+               </personGrp>
                <person xml:id="methuben" sex="MALE">
                   <persName>Methuben</persName>
                </person>
+               <personGrp xml:id="pedissequae-ancillae" sex="FEMALE" role="slaves">
+                  <name>Pedissequae ancillae</name>
+               </personGrp>
                <person xml:id="phollatim" sex="MALE">
                   <persName>Phollatim</persName>
                </person>
@@ -115,6 +176,9 @@
                <person xml:id="promptula" sex="FEMALE">
                   <persName>Promptula</persName>
                </person>
+               <personGrp xml:id="puellae" sex="FEMALE" role="slaves">
+                  <name>Puellae</name>
+               </personGrp>
                <person xml:id="raguel" sex="MALE">
                   <persName>Raguel</persName>
                </person>
@@ -139,59 +203,26 @@
                <person xml:id="tobias" sex="MALE">
                   <persName>Tobias</persName>
                </person>
+               <person xml:id="tobias-junior" sex="MALE">
+                  <persName>Tobias Junior</persName>
+               </person>
                <person xml:id="toboeus" sex="MALE">
                   <persName>Toboeus</persName>
+               </person>
+               <person xml:id="tobeus-senex" sex="MALE" role="senex">
+                  <persName>Toboeus senex</persName>
                </person>
                <person xml:id="tubal" sex="MALE">
                   <persName>Tubal</persName>
                </person>
+               <personGrp xml:id="vicini-raguelis" sex="MALE" role="neighbours">
+                  <name>Vicini Raguelis</name>
+               </personGrp>
                <person xml:id="zalmanus" sex="MALE">
                   <persName>Zalmanus</persName>
                </person>
                <person xml:id="zderadus" sex="MALE">
                   <persName>Zderadus</persName>
-               </person>
-               <person xml:id="gabelus" sex="UNKNOWN" role="prologus">
-                  <persName>Gabelus</persName>
-               </person>
-               <person xml:id="tobeus-senex" sex="MALE">
-                  <persName>Toboeus senex</persName>
-               </person>
-               <person xml:id="tobias-junior" sex="MALE">
-                  <persName>Tobias Junior</persName>
-               </person>
-               <personGrp xml:id="advocati-toboei" sex="UNKNOWN">
-                  <name>Advocati Toboei</name>
-               </personGrp>
-               <personGrp xml:id="chorus-angelicus" sex="UNKNOWN">
-                  <name>Chorus Angelicus</name>
-               </personGrp>
-               <personGrp xml:id="pedissequae-ancillae" sex="UNKNOWN">
-                  <name>Pedissequae ancillae</name>
-               </personGrp>
-               <personGrp xml:id="libertini" sex="UNKNOWN">
-                  <name>Libertini</name>
-               </personGrp>
-               <personGrp xml:id="amici-raguelis" sex="UNKNOWN">
-                  <name>Amici Raguelis</name>
-               </personGrp>
-               <personGrp xml:id="vicini-raguelis" sex="UNKNOWN">
-                  <name>Vicini Raguelis</name>
-               </personGrp>
-               <personGrp xml:id="puellae" sex="UNKNOWN">
-                  <name>Puellae</name>
-               </personGrp>
-               <personGrp xml:id="commeatus-sarae-et-tobiae" sex="UNKNOWN">
-                  <name>Commeatus Sarae et Tobiae</name>
-               </personGrp>
-               <personGrp xml:id="daemones" sex="UNKNOWN">
-                  <name>Daemones</name>
-               </personGrp>
-               <person xml:id="prologus" sex="UNKNOWN" role="prologus">
-                  <persName>Prologus</persName>
-               </person>
-               <person xml:id="actor" sex="UNKNOWN" role="prologus">
-                  <persName>Actor</persName>
                </person>
             </listPerson>
          </particDesc>
@@ -201,21 +232,13 @@
             </keywords>
             <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
          </textClass>
+         <creation>
+            <region>
+               <ref target="https://www.wikidata.org/wiki/Q185573">Czech lands</ref>
+            </region>
+         </creation>
       </profileDesc>
    </teiHeader>
-   <standOff>
-      <listEvent>
-         <event type="print" when="1587">
-            <desc />
-         </event>
-         <event type="written" when="1569">
-            <desc />
-         </event>
-         <event notAfter="1587-08-08" notBefore="1569-08-19" type="premiered">
-            <desc />
-         </event>
-      </listEvent>
-   </standOff>
    <text>
       <front>
          <titlePage>
@@ -225,12 +248,8 @@
                <titlePart type="sub">comoedia sacra et nova,</titlePart>
                <titlePart type="desc">scripta ad Decanum et Magistros Facultatis philosophicae in Academia Pragensi</titlePart>
             </docTitle>
-            <byline>a <docAuthor>M. Joanne Aquila a Plavcze</docAuthor> Anno Domini <date when="1569">1569</date>
-            </byline>
-            <docImprint>Excusa <pubPlace>Pragae,</pubPlace>
-               <publisher>typis M. Danielis Adami a Veleslavino</publisher>
-               <docDate when="1587">M. D. LXXXVII.</docDate>
-            </docImprint>
+            <byline>a <docAuthor>M. Joanne Aquila a Plavcze</docAuthor> Anno Domini <date when="1569">1569</date></byline>
+            <docImprint>Excusa <pubPlace>Pragae</pubPlace>, typis <publisher>M. Danielis Adami a Veleslavino</publisher><docDate when="1587">M. D. LXXXVII</docDate>. </docImprint>
          </titlePage>
          <pb n="A2r" />
          <div type="dedication">
@@ -441,7 +460,7 @@
          </div>
          <div type="argument">
             <head>Argumentum</head>
-            <sp who="#prologus">
+            <sp who="#actor">
                <l n="114">
                   <pb n="A6r" />Toboeus ad Gabelum mittit filium.</l>
                <l n="115">Huic ex improviso sit comes Angelus,</l>
@@ -476,16 +495,15 @@
                <roleDesc>nutrix Sarae</roleDesc>
             </castItem>
             <pb n="A6v" />
-            <castItem>
-               <role>Advocati Toboei</role>
-               <pc>:</pc>
-            </castItem>
-            <castItem>
-               <role>Phollatim</role>
-            </castItem>
-            <castItem>
-               <role>Gersona</role>
-            </castItem>
+            <castGroup>
+               <roleDesc>Advocati Toboei:</roleDesc>
+               <castItem>
+                  <role>Phollatim</role>
+               </castItem>
+               <castItem>
+                  <role>Gersona</role>
+               </castItem>
+            </castGroup>
             <castItem>
                <role>Rhazon,</role>
                <roleDesc>vicinus Toboei</roleDesc>
@@ -517,65 +535,60 @@
                <role>Sara,</role>
                <roleDesc>filia Raguelis</roleDesc>
             </castItem>
-            <castItem>
-               <role>Puellae</role>
-               <pc>:</pc>
-            </castItem>
-            <castItem>
-               <role>Promptula</role>
-            </castItem>
-            <castItem>
-               <role>Spudaeola</role>
-            </castItem>
-            <castItem>
-               <role>Pedissequae ancillae</role>
-               <pc>:</pc>
-            </castItem>
-            <castItem>
-               <role>Hagar</role>
-            </castItem>
-            <castItem>
-               <role>Sipha</role>
-            </castItem>
-            <castItem>
-               <role>Libertini</role>
-               <pc>:</pc>
-            </castItem>
-            <castItem>
-               <role>Abdiel</role>
-            </castItem>
-            <castItem>
-               <role>Enoch</role>
-            </castItem>
+            <castGroup>
+               <roleDesc>Puellae:</roleDesc>
+               <castItem>
+                  <role>Promptula</role>
+               </castItem>
+               <castItem>
+                  <role>Spudaeola</role>
+               </castItem>
+            </castGroup>
+            <castGroup>
+               <roleDesc>Pedissequae ancillae:</roleDesc>
+               <castItem>
+                  <role>Hagar</role>
+               </castItem>
+               <castItem>
+                  <role>Sipha</role>
+               </castItem>
+            </castGroup>
+            <castGroup>
+               <roleDesc>Libertini:</roleDesc>
+               <castItem>
+                  <role>Abdiel</role>
+               </castItem>
+               <castItem>
+                  <role>Enoch</role>
+               </castItem>
+            </castGroup>
             <castItem>
                <role>Methuben,</role>
                <roleDesc>libitinarius</roleDesc>
             </castItem>
             <pb n="A7r" />
-            <castItem>
-               <role>Amici Raguelis</role>
-               <pc>:</pc>
-            </castItem>
-            <castItem>
-               <role>Abidan</role>
-            </castItem>
-            <castItem>
-               <role>Dibon</role>
-            </castItem>
+            <castGroup>
+               <roleDesc>Amici Raguelis:</roleDesc>
+               <castItem>
+                  <role>Abidan</role>
+               </castItem>
+               <castItem>
+                  <role>Dibon</role>
+               </castItem>
+            </castGroup>
             <castItem>
                <role>Sadok,</role>
                <roleDesc>sacerdos</roleDesc>
             </castItem>
-            <castItem>
-               <role>Vicini Raguelis</role>
-               <pc>:</pc>
-            </castItem>
-            <castItem>
-               <role>Zalman</role>
-            </castItem>
-            <castItem>
-               <role>Zderadus</role>
-            </castItem>
+            <castGroup>
+               <roleDesc>Vicini Raguelis:</roleDesc>
+               <castItem>
+                  <role>Zalman</role>
+               </castItem>
+               <castItem>
+                  <role>Zderadus</role>
+               </castItem>
+            </castGroup>
             <castItem>
                <role>Gabelus,</role>
                <roleDesc>senex</roleDesc>
@@ -587,47 +600,44 @@
                <role>Pluto,</role>
                <roleDesc>princeps daemonum</roleDesc>
             </castItem>
-            <castItem>
-               <role>Daemones</role>
-               <pc>:</pc>
-            </castItem>
-            <castItem>
-               <role>Belzebub</role>
-            </castItem>
-            <castItem>
-               <role>Asmodaeus</role>
-            </castItem>
-            <castItem>
-               <role>Chremius</role>
-            </castItem>
-            <castItem>
-               <role>Dromo</role>
-            </castItem>
+            <castGroup>
+               <roleDesc>Daemones:</roleDesc>
+               <castItem>
+                  <role>Belzebub</role>
+               </castItem>
+               <castItem>
+                  <role>Asmodaeus</role>
+               </castItem>
+               <castItem>
+                  <role>Chremius</role>
+               </castItem>
+               <castItem>
+                  <role>Dromo</role>
+               </castItem>
+            </castGroup>
          </castList>
       </front>
       <body>
          <pb n="A7v" />
-         <div>
-            <head>Actus I.</head>
-         </div>
-         <div type="argument">
-            <head>Argumentum</head>
-            <sp who="#prologus">
-               <l n="126">Quid actus iste, spectatores, continet,</l>
-               <l n="127">Si paucis rem libet cognoscere: Hinc senex</l>
-               <l n="128">Toboeus egredietur in proscenium,</l>
-               <l n="129">Suas secum caecus ferens molestias.</l>
-               <l n="130">Cui Tubal, nequam servus, sit obviam,</l>
-               <l n="131">Satis imprudenter obloquitur misero seni.</l>
-               <l n="132">Dein Toboei conjunx importunior</l>
-               <l n="133">Mulierum mores immodestos exprimit.</l>
-               <l n="134">Raguel postremo queritur miser ob filiam,</l>
-               <l n="135">Ab Asmodaeo septem mactatos viros.</l>
-               <l n="136">Hinc argumentum totius comoediae</l>
-               <l n="137">Scietis, spectatores, ad rem attendite.</l>
-            </sp>
-         </div>
          <div type="act" n="1">
+            <head>Actus I.</head>
+            <argument>
+               <head>Argumentum</head>
+               <sp who="#actor">
+                  <l n="126">Quid actus iste, spectatores, continet,</l>
+                  <l n="127">Si paucis rem libet cognoscere: Hinc senex</l>
+                  <l n="128">Toboeus egredietur in proscenium,</l>
+                  <l n="129">Suas secum caecus ferens molestias.</l>
+                  <l n="130">Cui Tubal, nequam servus, sit obviam,</l>
+                  <l n="131">Satis imprudenter obloquitur misero seni.</l>
+                  <l n="132">Dein Toboei conjunx importunior</l>
+                  <l n="133">Mulierum mores immodestos exprimit.</l>
+                  <l n="134">Raguel postremo queritur miser ob filiam,</l>
+                  <l n="135">Ab Asmodaeo septem mactatos viros.</l>
+                  <l n="136">Hinc argumentum totius comoediae</l>
+                  <l n="137">Scietis, spectatores, ad rem attendite.</l>
+               </sp>
+            </argument>
             <div type="scene" n="1">
                <head>Actus I. Scena I.</head>
                <stage>
@@ -1529,7 +1539,10 @@
                   <l n="567">Atque haec Deo, supremo rerum judici,</l>
                   <l n="568">Omnia sunt commitenda; vos concedite</l>
                   <l n="569">Mecum huc.</l>
-                  <l n="570">Asmodaeus:Hui hui, meum quoque adibo principem.</l>
+               </sp>
+               <sp who="#asmodaeus">
+                  <speaker>Asmodaeus</speaker>
+                  <l n="570">Hui hui, meum quoque adibo principem.</l>
                   <l n="570">Aperite, aperite, heus socii, multo ocyssime:</l>
                   <l n="571">Opimam, numerosam, recentem, pallidam,</l>
                   <l n="572">Eamque septuplam fero nostro principi</l>
@@ -1569,24 +1582,22 @@
                </sp>
             </div>
          </div>
-         <div>
-            <head>Actus II.</head>
-         </div>
-         <div type="argument">
-            <head>Argumentum</head>
-            <sp who="#prologus">
-               <l n="591">Secundus actus, spectatores optimi, </l>
-               <l n="592">Tobiae peregrinationem continet, </l>
-               <l n="593">Comite Angelo, rei gerendae coelitus</l>
-               <l n="594">Misso; quorum senex iter paciscitur.</l>
-               <l n="595">Abeunt feliciter, sed non sine lachrymis</l>
-               <l n="596">Annae, Tobiae matris, insolentior</l>
-               <l n="597">Quae paulo objurgat verbis durioribus</l>
-               <l n="598">Senem Toboeum. Prothasin comoediae,</l>
-               <l n="599">Hinc, spectatores, expectate candidi.</l>
-            </sp>
-         </div>
          <div type="act" n="2">
+            <head>Actus II.</head>
+            <argument>
+               <head>Argumentum</head>
+               <sp who="#actor">
+                  <l n="591">Secundus actus, spectatores optimi, </l>
+                  <l n="592">Tobiae peregrinationem continet, </l>
+                  <l n="593">Comite Angelo, rei gerendae coelitus</l>
+                  <l n="594">Misso; quorum senex iter paciscitur.</l>
+                  <l n="595">Abeunt feliciter, sed non sine lachrymis</l>
+                  <l n="596">Annae, Tobiae matris, insolentior</l>
+                  <l n="597">Quae paulo objurgat verbis durioribus</l>
+                  <l n="598">Senem Toboeum. Prothasin comoediae,</l>
+                  <l n="599">Hinc, spectatores, expectate candidi.</l>
+               </sp>
+            </argument>
             <div type="scene" n="1">
                <pb n="C1r" />
                <head>Actus II. Scena I.</head>
@@ -2018,26 +2029,24 @@
             </div>
          </div>
          <pb n="C5v" />
-         <div>
-            <head>Actus III.</head>
-         </div>
-         <div type="argument">
-            <head>Argumentum</head>
-            <sp who="#prologus">
-               <l n="815">En actum vobis, spectatores, tertium</l>
-               <l n="816">Feliciter exhibemus, diis faventibus,</l>
-               <l n="817">Querelam qui Raguelis gnatae continet,</l>
-               <l n="818">Tobiae peregrinationem cum Angelo.</l>
-               <l n="819">Raguel cum caeteris fit illis obviam.</l>
-               <l n="820">Deinde consilio ductoris Angeli</l>
-               <l n="821">Tobias filiam Raguelis conjugem</l>
-               <l n="822">Saram accipit. Fiunt solennes nuptiae,</l>
-               <l n="823">Ast Asmodaeus suffitu cordis pellitur,</l>
-               <l n="824">Ob id hic ingentem mox ciet tragoediam,</l>
-               <l n="825">Fide in Deum bonorum elusus conjugum.</l>
-            </sp>
-         </div>
          <div type="act" n="3">
+            <head>Actus III.</head>
+            <argument>
+               <head>Argumentum</head>
+               <sp who="#actor">
+                  <l n="815">En actum vobis, spectatores, tertium</l>
+                  <l n="816">Feliciter exhibemus, diis faventibus,</l>
+                  <l n="817">Querelam qui Raguelis gnatae continet,</l>
+                  <l n="818">Tobiae peregrinationem cum Angelo.</l>
+                  <l n="819">Raguel cum caeteris fit illis obviam.</l>
+                  <l n="820">Deinde consilio ductoris Angeli</l>
+                  <l n="821">Tobias filiam Raguelis conjugem</l>
+                  <l n="822">Saram accipit. Fiunt solennes nuptiae,</l>
+                  <l n="823">Ast Asmodaeus suffitu cordis pellitur,</l>
+                  <l n="824">Ob id hic ingentem mox ciet tragoediam,</l>
+                  <l n="825">Fide in Deum bonorum elusus conjugum.</l>
+               </sp>
+            </argument>
             <div type="scene" n="1">
                <head>Actus III. Scena I.</head>
                <stage>
@@ -2349,16 +2358,19 @@
                   <emph rend="italic">is,</emph>
                   <persName ref="#promptula">Promptula</persName>
                </stage>
-               <l n="931">Tobias:Frater mi, quam sum ingenti perculsus metu,</l>
-               <l n="932">Pedes lavarem quando in isthoc flumine.</l>
-               <l n="933">Ita piscis iste mirae magnitudinis</l>
-               <l n="934">Hiatu quodam me nimis perterruit,</l>
-               <l n="935">Ac si me devorare vellet protinus.</l>
-               <l n="936">Et nisi tu confestim succurrisses mihi,</l>
-               <l n="937">Atque acclamasses, ne prehensum mitterem,</l>
-               <l n="938">Quid accidisset mihi tum, profecto nescio.</l>
-               <l n="939">Sed dic, in usum quem servandum jusseris</l>
-               <l n="940">Cor et fel hoc?</l>
+               <sp who="#tobias">
+                  <speaker>Tobias</speaker>
+                  <l n="931">Frater mi, quam sum ingenti perculsus metu,</l>
+                  <l n="932">Pedes lavarem quando in isthoc flumine.</l>
+                  <l n="933">Ita piscis iste mirae magnitudinis</l>
+                  <l n="934">Hiatu quodam me nimis perterruit,</l>
+                  <l n="935">Ac si me devorare vellet protinus.</l>
+                  <l n="936">Et nisi tu confestim succurrisses mihi,</l>
+                  <l n="937">Atque acclamasses, ne prehensum mitterem,</l>
+                  <l n="938">Quid accidisset mihi tum, profecto nescio.</l>
+                  <l n="939">Sed dic, in usum quem servandum jusseris</l>
+                  <l n="940">Cor et fel hoc?</l>
+               </sp>
                <sp who="#raphael">
                   <speaker>Raphael</speaker>
                   <l n="941">Frater Tobia, dein scies.</l>
@@ -3389,25 +3401,23 @@
                </sp>
             </div>
          </div>
-         <div>
-            <head>Actus IV.</head>
-         </div>
-         <div type="argument">
-            <head>Argumentum</head>
-            <sp who="#prologus">
-               <l n="1496">Hic quartus, spectatores, actus continet</l>
-               <l n="1497">Domus Raguelis totius catastrophen.</l>
-               <l n="1498">Tobiam propter, liberatum a daemone,</l>
-               <l n="1499">Epulatur, Asmodaeus ast tragoediam</l>
-               <l n="1500">Exercet caeptam, spe frustratus conjugum</l>
-               <l n="1501">Bonorum. Mittitur ad Gabelum Raphael,</l>
-               <l n="1502">Refert decem talenta, minatur inferis.</l>
-               <l n="1503">Deo laudem canunt coelestes Angeli,</l>
-               <l n="1504">Exultat universa Raguelis domus.</l>
-               <l n="1505">Quod spectatores diligenter cernite.</l>
-            </sp>
-         </div>
          <div type="act" n="4">
+            <head>Actus IV.</head>
+            <argument>
+               <head>Argumentum</head>
+               <sp who="#actor">
+                  <l n="1496">Hic quartus, spectatores, actus continet</l>
+                  <l n="1497">Domus Raguelis totius catastrophen.</l>
+                  <l n="1498">Tobiam propter, liberatum a daemone,</l>
+                  <l n="1499">Epulatur, Asmodaeus ast tragoediam</l>
+                  <l n="1500">Exercet caeptam, spe frustratus conjugum</l>
+                  <l n="1501">Bonorum. Mittitur ad Gabelum Raphael,</l>
+                  <l n="1502">Refert decem talenta, minatur inferis.</l>
+                  <l n="1503">Deo laudem canunt coelestes Angeli,</l>
+                  <l n="1504">Exultat universa Raguelis domus.</l>
+                  <l n="1505">Quod spectatores diligenter cernite.</l>
+               </sp>
+            </argument>
             <div type="scene" n="1">
                <pb n="E3v" />
                <head>Actus IV. Scena I.</head>
@@ -4150,29 +4160,27 @@
                </sp>
             </div>
          </div>
-         <div>
-            <head>Actus V.</head>
-         </div>
-         <div type="argument">
-            <head>Argumentum</head>
-            <sp who="#prologus">
-               <l n="1820">Hic quintus actus, spectatores, ultimus</l>
-               <l n="1821">Senis Toboei et Annae querimoniam</l>
-               <l n="1822">Habet Tobiae ob longiorem absentiam.</l>
-               <l n="1823">Deinde, venia impetrata, revertitur</l>
-               <pb n="F2r" />
-               <l n="1824">Cum conjuge atque commeatu amplissimo,</l>
-               <l n="1825">Fit omnium rerum subita immutatio.</l>
-               <l n="1826">Post filio facti parentes obviam,</l>
-               <l n="1827">Atrae Toboei felle unguntur palpebrae.</l>
-               <l n="1828">Post concionem certis signis Raphael</l>
-               <l n="1829">Seipsum declarat Angelorum principem.</l>
-               <l n="1830">Deinde disparuit cunctis spectantibus.</l>
-               <l n="1831">Hanc totius comoediae catastrophen</l>
-               <l n="1832">Habetis, spectatores ornatissimi.</l>
-            </sp>
-         </div>
          <div type="act" n="5">
+            <head>Actus V.</head>
+            <argument>
+               <head>Argumentum</head>
+               <sp who="#actor">
+                  <l n="1820">Hic quintus actus, spectatores, ultimus</l>
+                  <l n="1821">Senis Toboei et Annae querimoniam</l>
+                  <l n="1822">Habet Tobiae ob longiorem absentiam.</l>
+                  <l n="1823">Deinde, venia impetrata, revertitur</l>
+                  <pb n="F2r" />
+                  <l n="1824">Cum conjuge atque commeatu amplissimo,</l>
+                  <l n="1825">Fit omnium rerum subita immutatio.</l>
+                  <l n="1826">Post filio facti parentes obviam,</l>
+                  <l n="1827">Atrae Toboei felle unguntur palpebrae.</l>
+                  <l n="1828">Post concionem certis signis Raphael</l>
+                  <l n="1829">Seipsum declarat Angelorum principem.</l>
+                  <l n="1830">Deinde disparuit cunctis spectantibus.</l>
+                  <l n="1831">Hanc totius comoediae catastrophen</l>
+                  <l n="1832">Habetis, spectatores ornatissimi.</l>
+               </sp>
+            </argument>
             <div type="scene" n="1">
                <head>Actus V. Scena I.</head>
                <stage>
@@ -4717,21 +4725,23 @@
          </div>
          <div type="epilogue">
             <head>Epilogus in corona</head>
-            <l n="2074">En vobis, spectatores ornatissimi,</l>
-            <pb n="F7v" />
-            <l n="2075">Et cujuscunque dignitatis caeteri,</l>
-            <l n="2076">Quam vobis (inquam) exhibuimus comoediam,</l>
-            <l n="2077">Fabellam non vanam nec aniles naenias,</l>
-            <l n="2078">Sed id, quod est sacris desumptum paginis</l>
-            <l n="2079">In laudem aeterni Patris atque gloriam,</l>
-            <l n="2080">In usum et commodum vitae mortalium;</l>
-            <l n="2081">Quod ut bonis, precamur, prosit moribus.</l>
-            <l n="2082">At vos, piis quod his nostris conatibus</l>
-            <l n="2083">Accommodare vestras aures candidas</l>
-            <l n="2084">Dignati estis, velut par est et condecet</l>
-            <l n="2085">Bonos piosque Christianos milites,</l>
-            <l n="2086">Vobis habetur et debetur gratia,</l>
-            <l n="2087">Deo laus et honor. Spectatores, plaudite!</l>
+            <sp who="#epilogus">
+               <l n="2074">En vobis, spectatores ornatissimi,</l>
+               <pb n="F7v" />
+               <l n="2075">Et cujuscunque dignitatis caeteri,</l>
+               <l n="2076">Quam vobis (inquam) exhibuimus comoediam,</l>
+               <l n="2077">Fabellam non vanam nec aniles naenias,</l>
+               <l n="2078">Sed id, quod est sacris desumptum paginis</l>
+               <l n="2079">In laudem aeterni Patris atque gloriam,</l>
+               <l n="2080">In usum et commodum vitae mortalium;</l>
+               <l n="2081">Quod ut bonis, precamur, prosit moribus.</l>
+               <l n="2082">At vos, piis quod his nostris conatibus</l>
+               <l n="2083">Accommodare vestras aures candidas</l>
+               <l n="2084">Dignati estis, velut par est et condecet</l>
+               <l n="2085">Bonos piosque Christianos milites,</l>
+               <l n="2086">Vobis habetur et debetur gratia,</l>
+               <l n="2087">Deo laus et honor. Spectatores, plaudite!</l>
+            </sp>
          </div>
       </body>
    </text>
