@@ -78,10 +78,10 @@
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person xml:id="abdiel" sex="MALE">
+               <person xml:id="abdiel" sex="MALE" role="libertus">
                   <persName>Abdiel</persName>
                </person>
-               <person xml:id="abidan" sex="MALE">
+               <person xml:id="abidan" sex="MALE" role="amicus">
                   <persName>Abidan</persName>
                </person>
                <person xml:id="actor" sex="UNKNOWN" role="prologus">
@@ -90,28 +90,28 @@
                <personGrp xml:id="advocati-toboei" sex="UNKNOWN">
                   <name>Advocati Toboei</name>
                </personGrp>
-               <personGrp xml:id="amici-raguelis" sex="MALE" role="friends">
+               <personGrp xml:id="amici-raguelis" sex="MALE" role="amicus">
                   <name>Amici Raguelis</name>
                </personGrp>
-               <personGrp xml:id="ancillae" sex="FEMALE" role="slaves" corresp="#pedissequae_ancillae">
+               <personGrp xml:id="ancillae" sex="FEMALE" role="ancilla" corresp="#pedissequae_ancillae">
                   <name>Ancillae</name>
                </personGrp>
                <person xml:id="anna" sex="FEMALE">
                   <persName>Anna</persName>
                </person>
-               <person xml:id="asmodaeus" sex="MALE">
+               <person xml:id="asmodaeus" sex="MALE" role="diabolus">
                   <persName>Asmodaeus</persName>
                </person>
-               <person xml:id="belzebub" sex="MALE">
+               <person xml:id="belzebub" sex="MALE" role="diabolus">
                   <persName>Belzebub</persName>
                </person>
                <person xml:id="berenice" sex="FEMALE">
                   <persName>Berenice</persName>
                </person>
-               <personGrp xml:id="chorus-angelicus" sex="UNKNOWN">
+               <personGrp xml:id="chorus-angelicus" sex="UNKNOWN" role="chorus">
                   <name>Chorus Angelicus</name>
                </personGrp>
-               <person xml:id="chremius" sex="MALE">
+               <person xml:id="chremius" sex="MALE" role="diabolus">
                   <persName>Chremius</persName>
                </person>
                <personGrp xml:id="commeatus-sarae-et-tobiae" sex="UNKNOWN">
@@ -120,74 +120,74 @@
                <personGrp xml:id="daemones" sex="UNKNOWN">
                   <name>Daemones</name>
                </personGrp>
-               <person xml:id="dibon" sex="MALE">
+               <person xml:id="dibon" sex="MALE" role="amicus">
                   <persName>Dibon</persName>
                </person>
                <person xml:id="dromo" sex="MALE">
                   <persName>Dromo</persName>
                </person>
-               <person xml:id="edna" sex="FEMALE">
+               <person xml:id="edna" sex="FEMALE" role="uxor">
                   <persName>Edna</persName>
                </person>
-               <person xml:id="enoch" sex="MALE">
+               <person xml:id="enoch" sex="MALE" role="libertus">
                   <persName>Enoch</persName>
                </person>
                <person xml:id="epilogus" sex="UNKNOWN" role="epilogus">
                   <persName>Epilogus</persName>
                </person>
-               <person xml:id="gabel" sex="MALE">
+               <person xml:id="gabel" sex="MALE" role="senex">
                   <persName>Gabel</persName>
                   <persName type="variant">Gabelus</persName>
                </person>
-               <person xml:id="gersona" sex="MALE">
+               <person xml:id="gersona" sex="MALE" role="advocatus">
                   <persName>Gersona</persName>
                </person>
-               <person xml:id="hagar" sex="FEMALE">
+               <person xml:id="hagar" sex="FEMALE" role="ancilla">
                   <persName>Hagar</persName>
                </person>
-               <person xml:id="hamas" sex="MALE">
+               <person xml:id="hamas" sex="MALE" role="coquus">
                   <persName>Hamas</persName>
                </person>
                <personGrp xml:id="libertini" sex="UNKNOWN">
                   <name>Libertini</name>
                </personGrp>
-               <person xml:id="methuben" sex="MALE">
+               <person xml:id="methuben" sex="MALE" role="libitinarius">
                   <persName>Methuben</persName>
                </person>
-               <personGrp xml:id="pedissequae-ancillae" sex="FEMALE" role="slaves">
+               <personGrp xml:id="pedissequae-ancillae" sex="FEMALE" role="ancilla">
                   <name>Pedissequae ancillae</name>
                </personGrp>
-               <person xml:id="phollatim" sex="MALE">
+               <person xml:id="phollatim" sex="MALE" role="advocatus">
                   <persName>Phollatim</persName>
                </person>
                <person xml:id="pluto" sex="MALE">
                   <persName>Pluto</persName>
                </person>
-               <person xml:id="promptula" sex="FEMALE">
+               <person xml:id="promptula" sex="FEMALE" role="ancilla">
                   <persName>Promptula</persName>
                </person>
-               <personGrp xml:id="puellae" sex="FEMALE" role="slaves">
+               <personGrp xml:id="puellae" sex="FEMALE" role="ancilla">
                   <name>Puellae</name>
                </personGrp>
-               <person xml:id="raguel" sex="MALE">
+               <person xml:id="raguel" sex="MALE" role="senex">
                   <persName>Raguel</persName>
                </person>
-               <person xml:id="raphael" sex="MALE">
+               <person xml:id="raphael" sex="MALE" role="angelus">
                   <persName>Raphael</persName>
                </person>
-               <person xml:id="rhazon" sex="MALE">
+               <person xml:id="rhazon" sex="MALE" role="vicinus">
                   <persName>Rhazon</persName>
                </person>
-               <person xml:id="sadok" sex="MALE">
+               <person xml:id="sadok" sex="MALE" role="sacerdos">
                   <persName>Sadok</persName>
                </person>
-               <person xml:id="sara" sex="FEMALE">
+               <person xml:id="sara" sex="FEMALE"role="filia">
                   <persName>Sara</persName>
                </person>
-               <person xml:id="sipha" sex="FEMALE">
+               <person xml:id="sipha" sex="FEMALE" role="ancilla">
                   <persName>Sipha</persName>
                </person>
-               <person xml:id="spudaeola" sex="FEMALE">
+               <person xml:id="spudaeola" sex="FEMALE" role="ancilla">
                   <persName>Spudaeola</persName>
                </person>
                <person xml:id="tobias" sex="MALE">
@@ -202,16 +202,16 @@
                <person xml:id="tobeus-senex" sex="MALE" role="senex">
                   <persName>Toboeus senex</persName>
                </person>
-               <person xml:id="tubal" sex="MALE">
+               <person xml:id="tubal" sex="MALE" role="servus">
                   <persName>Tubal</persName>
                </person>
-               <personGrp xml:id="vicini-raguelis" sex="MALE" role="neighbours">
+               <personGrp xml:id="vicini-raguelis" sex="MALE" role="vicinus">
                   <name>Vicini Raguelis</name>
                </personGrp>
-               <person xml:id="zalmanus" sex="MALE">
+               <person xml:id="zalmanus" sex="MALE" role="vicinus">
                   <persName>Zalmanus</persName>
                </person>
-               <person xml:id="zderadus" sex="MALE">
+               <person xml:id="zderadus" sex="MALE" role="vicinus">
                   <persName>Zderadus</persName>
                </person>
             </listPerson>
