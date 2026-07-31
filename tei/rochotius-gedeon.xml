@@ -42,13 +42,17 @@
          <sourceDesc>
             <bibl type="digitalSource">
                <name>Theatrum Neolatinum</name>
-               <bibl type="originalSource">
-                  <title>Magdaléna Jacková, Markéta Klosová, Martin Bažil, Alena Bočková, Kateřina Bobková-Valentová, Eva Popelková (eds.): Latinské biblické drama v českých zemích. Prague 2026. In print (Theatrum Neolatinum, Latinské divadlo v českých zemích 3).</title>
-                  <idno type="URL">https://www.theatrum-neolatinum.cz/en/biblicke.html</idno>
-                  <bibl type="originalSource">
-                     <title>Gedeon</title>, <title type="sub">comaedia nova, cum primis ad usum scholasticum et conditionem temporum accommodata</title>, <pubPlace>Pragae</pubPlace>: Typis <publisher>Schimanianis</publisher>, Anno Domini <date when="1606">M DC VI</date>;
-                     Biblioteka Uniwersytecka, Wrocław, sign. 395 683 (=4 N 431 adl. 2).</bibl>
+            </bibl>
+            <bibl type="originalSource">
+               <title>Magdaléna Jacková, Markéta Klosová, Martin Bažil, Alena Bočková, Kateřina Bobková-Valentová, Eva Popelková (eds.): Latinské biblické drama v českých zemích. Prague 2026. In print (Theatrum Neolatinum, Latinské divadlo v českých zemích 3).</title>
+               <idno type="URL">https://www.theatrum-neolatinum.cz/en/biblicke.html</idno>
+            <!-- Print used for critical edition -->
+            <relatedItem>
+               <bibl>
+                  <title>Gedeon</title>, <title type="sub">comaedia nova, cum primis ad usum scholasticum et conditionem temporum accommodata</title>, <pubPlace>Pragae</pubPlace>: Typis <publisher>Schimanianis</publisher>, Anno Domini <date when="1606">M DC VI</date>;
+                     Biblioteka Uniwersytecka, Wrocław, sign. 395 683 (=4 N 431 adl. 2).
                </bibl>
+            </relatedItem>
             </bibl>
          </sourceDesc>
       </fileDesc>
