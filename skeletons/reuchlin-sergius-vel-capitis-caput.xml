@@ -1,0 +1,54 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="neolat000120"
+     xml:lang="lat">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sergius vel Capitis caput</title>
+            <author>
+               <persName xml:lang="lat">
+                  <forename>Ioannes</forename>
+                  <surname>Reuchlin</surname>
+               </persName>
+               <idno type="wikidata">Q61067</idno>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="dracor">DraCor</publisher>
+            <idno type="URL">https://dracor.org</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <name>TransLatin</name>
+               <idno type="URL">https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Reuchlin-Sergius.docx</idno>
+            </bibl>
+            <bibl type="originalSource">
+               <title>INFORMATION NEEDED</title>
+               <idno type="URL">https://dhb.thulb.uni-jena.de/receive/ufb_cbu_00013805</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="genreTitle">comedy</term>
+            </keywords>
+            <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <standOff>
+      <listEvent>
+         <event type="print" when="1504">
+            <desc/>
+         </event>
+      </listEvent>
+   </standOff>
+   <text>
+      <front/>
+      <body/>
+   </text>
+</TEI>

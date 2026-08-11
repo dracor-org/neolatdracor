@@ -1,0 +1,54 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="neolat000053"
+     xml:lang="lat">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Comoedia sacra cui titulus Ioseph</title>
+            <author>
+               <persName xml:lang="lat">
+                  <forename>Cornelius</forename>
+                  <surname>Crocus</surname>
+               </persName>
+               <idno type="wikidata">Q55194213</idno>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="dracor">DraCor</publisher>
+            <idno type="URL">https://dracor.org</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <name>TransLatin</name>
+               <idno type="URL">https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Crocus-Ioseph.docx</idno>
+            </bibl>
+            <bibl type="originalSource">
+               <title>Dramata sacra, Basel, 1536</title>
+               <idno type="URL">https://books.google.nl/books?id=XP3Z8pc5P_MC / https://books.google.nl/books?id=4vok_qjjSJwC</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="genreTitle">tragedy</term>
+            </keywords>
+            <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <standOff>
+      <listEvent>
+         <event type="print" when="1536">
+            <desc/>
+         </event>
+      </listEvent>
+   </standOff>
+   <text>
+      <front/>
+      <body/>
+   </text>
+</TEI>

@@ -1,0 +1,53 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="neolat000114"
+     xml:lang="lat">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Gustavus saucius tragoedia</title>
+            <author>
+               <persName xml:lang="lat">
+                  <forename>Joannes</forename>
+                  <surname>Narssius</surname>
+               </persName>
+               <idno type="wikidata">Q6216874</idno>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="dracor">DraCor</publisher>
+            <idno type="URL">https://dracor.org</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <name>TransLatin</name>
+               <idno type="URL">https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Narssius-Gustavus.docx</idno>
+            </bibl>
+            <bibl type="originalSource">
+               <title>J. Bolte (ed.), Coligny, Gustav Adolf, Wallenstein. Die zeitgenössische lateinische Dramen von Rhodius, Narssius, Vernulaeus Leipzig 1933. Bibliothek des literarischen Vereins in Stuttgart Sitz Tübingen. Publikation 280</title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="genreTitle">tragedy</term>
+            </keywords>
+            <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <standOff>
+      <listEvent>
+         <event type="print" when="INFORMATION NEEDED">
+            <desc/>
+         </event>
+      </listEvent>
+   </standOff>
+   <text>
+      <front/>
+      <body/>
+   </text>
+</TEI>

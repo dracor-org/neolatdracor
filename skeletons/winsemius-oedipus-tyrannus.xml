@@ -1,0 +1,59 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="neolat000167"
+     xml:lang="lat">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Oedipus tyrannus</title>
+            <author>
+               <persName xml:lang="lat">
+                  <forename>Vitus</forename>
+                  <surname>Winsemius</surname>
+               </persName>
+               <idno type="wikidata">Q2512106</idno>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="dracor">DraCor</publisher>
+            <idno type="URL">https://dracor.org</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <name>Census Nederlands Toneel (Ceneton)</name>
+               <idno type="URL">https://www.hum2.leidenuniv.nl/Dutch/Ceneton/WinsemiusOedipusTyrannus1603.html</idno>
+            </bibl>
+            <bibl type="originalSource">
+               <title>Winsemius, Vitus: Oedipus tyrannus. In: ΣΟΦΟΚΛΕΟΥΣ ΑΙ ΕΠΤΑ ΤΡΑΓΩΔΙΑΕ. Sophoclis tragoediae septem. Unà cum omnibus Graecis scholiis, et Latina Viti Winsemij ad verbum Interpretatione. Quibus accesserunt Ioachimi Camerarij, necnon Henrici Stephani annotationes. Unà cum Indice sententiarum Sophoclearum. Paulus Stephanus 1603. pp. 257–376.</title>
+               <idno type="URL">https://www.hum2.leidenuniv.nl/Dutch/Ceneton/Facsimiles/WinsemiusOedipusTyrannus1603/index.htm</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="genreTitle">tragedy</term>
+            </keywords>
+            <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <standOff>
+      <listEvent>
+         <event type="print" when="1603">
+            <desc/>
+         </event>
+      </listEvent>
+      <listRelation>
+         <relation name="wikidata"
+                   active="https://dracor.org/entity/neolat000167"
+                   passive="http://www.wikidata.org/entity/Q148643"/>
+      </listRelation>
+   </standOff>
+   <text>
+      <front/>
+      <body/>
+   </text>
+</TEI>

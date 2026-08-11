@@ -1,0 +1,56 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="neolat000089"
+     xml:lang="lat">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Veritas prostrata et erecta, S. Joannes Baptista</title>
+            <author>
+               <persName xml:lang="lat">
+                  <forename>Carolus</forename>
+                  <surname>Kolczawa</surname>
+               </persName>
+               <idno type="wikidata">Q43079129</idno>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="dracor">DraCor</publisher>
+            <idno type="URL">https://dracor.org</idno>
+            <availability>
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <name>Theatrum Neolatinum</name>
+            </bibl>
+            <bibl type="originalSource">
+               <title>INFORMATION NEEDED</title>
+               <idno type="URL">INFORMATION NEEDED</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="genreTitle">Jesuit drama</term>
+            </keywords>
+            <classCode scheme="http://www.wikidata.org/entity/">Q6188035</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <standOff>
+      <listEvent>
+         <event type="print" when="1716">
+            <desc/>
+         </event>
+         <event type="print" when="not after 1714">
+            <desc/>
+         </event>
+      </listEvent>
+   </standOff>
+   <text>
+      <front/>
+      <body/>
+   </text>
+</TEI>
