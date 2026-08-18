@@ -1,0 +1,4020 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="dracor" xml:id="neolat000180" xml:lang="la">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Gemma</title>
+        <author>
+          <persName xml:lang="la">
+            <forename>Martinus</forename>
+            <surname>Du Cygne</surname>
+          </persName>
+          <idno type="wikidata">Q21545079</idno>
+        </author>
+        <respStmt>
+          <resp>Transcribed by</resp>
+          <persName ref="https://orcid.org/0000-0002-9764-187X">Nicholas De Sutter</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Converted to TEI by</resp>
+          <persName ref="https://orcid.org/0000-0002-9764-187X">Nicholas De Sutter</persName>
+        </respStmt>
+        <funder>
+          <orgName>FWO</orgName>
+          <name>1291325N</name>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <ref target="https://books.google.com/books?id=vqAjcaQDLrgC">Google Books</ref>
+          <availability status="free">
+            <p>In the public domain.</p>
+          </availability>
+        </bibl>
+        <bibl type="originalSource">
+          <author>Martinus du Cygne</author>: <title>Gemma</title>. <title type="sub">Comoedia
+            V</title>. <pubPlace>Liège</pubPlace>: <publisher>Joannes Mathias Hovius</publisher>
+          <date>1679</date>. </bibl>
+        <listEvent>
+          <event type="print" when="1679">
+            <desc/>
+          </event>
+        </listEvent>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="prologus" sex="UNKNOWN">
+            <persName>Prologus</persName>
+          </person>
+          <person xml:id="pyrgopolinices" sex="MALE">
+            <persName>Pyrgopolinices</persName>
+          </person>
+          <person xml:id="simo" sex="MALE">
+            <persName>Simo</persName>
+          </person>
+          <person xml:id="lusco" sex="MALE">
+            <persName>Lusco</persName>
+          </person>
+          <person xml:id="harpax" sex="MALE">
+            <persName>Harpax</persName>
+          </person>
+          <person xml:id="chrysax" sex="MALE">
+            <persName>Chrysax</persName>
+          </person>
+          <person xml:id="curio" sex="MALE">
+            <persName>Curio</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">comedy</term>
+        </keywords>
+        <classCode scheme="https://www.wikidata.org/wiki/Q40831"/>
+      </textClass>
+      <creation>
+        <region>
+          <ref target="https://www.wikidata.org/wiki/Q622783">Spanish Netherlands</ref>
+        </region>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2026-08-18">
+          <desc>Converted to DraCor TEI by Nicholas De Sutter.</desc></change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart>Gemma</titlePart>
+        </docTitle>
+      </titlePage>
+      <argument>
+        <head>MATERIA</head>
+        <p>Ex praelio, quod Carolus pugnax ad Gransam commisit contra Eptingenium Helvetiorum Ducem,
+          gregarius miles pretiosissimam gemmam retulit, quam ignarus aestimator nummo vendidit.
+            <ref>Pontus Heuterus</ref>.</p>
+      </argument>
+      <castList>
+        <head>PERSONAE</head>
+        <castItem>
+          <role>Pyrgopolinices</role>
+          <roleDesc>Miles</roleDesc>
+        </castItem>
+        <castGroup rend="braced">
+          <castItem>
+            <role>Simo</role>
+          </castItem>
+          <castItem>
+            <role>Lusco</role>
+          </castItem>
+          <roleDesc>Mangones</roleDesc>
+        </castGroup>
+        <castGroup rend="braced">
+          <castItem>
+            <role>Harpax</role>
+          </castItem>
+          <castItem>
+            <role>Chrysax</role>
+          </castItem>
+          <roleDesc>Servi</roleDesc>
+        </castGroup>
+        <castItem>
+          <role>Curio</role>
+          <roleDesc>Quaestor</roleDesc>
+        </castItem>
+      </castList>
+      <div type="argument">
+        <head>Distributio</head>
+        <list type="argument">
+          <item>
+            <label>Actus I</label>
+            <list>
+              <milestone unit="dramaticPhase" n="protasis"/>
+              <item><label>Scena I</label> Pyrgopolinices gloriatur, adsentante servo.</item>
+              <item><label>Scena II</label> Pyrgopolinices gemmam vendit Simoni.</item>
+              <item><label>Scena III</label> Chrysax Harpaci indicat pretiosissimam esse gemmam,
+                quam nummo miles vendidit.</item>
+            </list>
+          </item>
+          <item>
+            <label>Actus II</label>
+            <list>
+              <milestone unit="dramaticPhase" n="epitasis"/>
+              <item><label>Scena I</label> Lusco invidet gemmam Simoni venditam.</item>
+              <item><label>Scena II</label> Simo succenset servo, quod hic de gemma locutus
+                sit.</item>
+              <item><label>Scena III</label> Chrysax et Harpax consilium capiunt, heros suos pretio
+                gemmae fraudandi.</item>
+              <item><label>Scena IV</label> Pyrgopolinices excandescit in Simonem: cui minitabundus
+                mittit servum.</item>
+            </list>
+          </item>
+          <item>
+            <label>Actus III</label>
+            <list>
+              <item><label>Scena I</label> Simo militem placare studet, missis per Chrysacem aureis
+                sexaginta.</item>
+              <item><label>Scena II</label> Lusco, accepta militis syngrapha, emit gemmam centum
+                aureis.</item>
+              <item><label>Scena III</label> Harpax et Chrysax sibi dividunt aurum, quod a Simone et
+                Luscone militi ferendum acceperunt.</item>
+              <item><label>Scena IV</label> Harpax hero denuntiat, Simonem nullas voluisse addere
+                pecunias.</item>
+            </list>
+          </item>
+          <item>
+            <label>Actus IV</label>
+            <list>
+              <milestone unit="dramaticPhase" n="catastasis"/>
+              <item><label>Scena I</label> Pyrgopolinices Simonem aggressus, gemmam repetit.</item>
+              <item><label>Scena II</label> Chrysax, Pyrgopolinicem, et Simonem eludit.</item>
+              <item><label>Scena III</label> Lusco gemmam esse suam ostendit e syngrapha
+                militis.</item>
+              <item><label>Scena IV</label> Harpax negat se a Chrysace et Luscone pecunias
+                accepisse.</item>
+            </list>
+          </item>
+          <item>
+            <label>Actus V</label>
+            <list>
+              <milestone unit="dramaticPhase" n="catastrophe"/>
+              <item><label>Scena I</label> Chrysax et Harpax surreptis dolo pecuniis, et gemma
+                fugiunt.</item>
+              <item><label>Scena II</label> Curio furaces servos assequitur.</item>
+              <item><label>Scena III</label> Simo cogitur Magistratui gemmam tradere, ut haec dono
+                offeratur Eptingenio Helvetiorum Duci.</item>
+              <item><label>Scena IV</label> Lusconi et Simoni abunde restituuntur pecuniae.</item>
+              <item><label>Scena V</label> Pyrgopolinices praeficitur cohorti: datur impunitas
+                servis.</item>
+            </list>
+          </item>
+        </list>
+      </div>
+    </front>
+    <body>
+      <div type="prologue">
+        <head>PROLOGUS.</head>
+        <sp who="#prologus">
+          <l>Bona perinde non sunt, ut nostra opinio:</l>
+          <l>Nam qui quod possidet, magni estimat,</l>
+          <l>Etsi parvum sit, ipsi magnum est quidem;</l>
+          <l>Ei, qui non aestimat, quantivis sit pretii,</l>
+          <l>Vile etiam putatur: ita opinione ducimur.</l>
+          <l>Vides ut puer pomum iactat, et id</l>
+          <l>Praefert auro, opinator non sapiens?</l>
+          <l>Sic vir, qui praestare debet sapientia,</l>
+          <l>Cum opinioni suae error adiungitur, stultus est:</l>
+          <l>Miscet pretiosae vilibus, summa infimis.</l>
+          <l>Atque si in humanis tantum rebus male </l>
+          <l>Opinamur, non tanti sit, homines sumus:</l>
+          <l>Sed in divinis falli, errare, decipi.,</l>
+          <l>Id vero quanti est? quanta iactura est</l>
+          <l>Temporis, gratiae, salutis, animae?</l>
+          <l>In hoc igitur sapientia cardo vertitur.</l>
+          <l>Ut res noveris penitus ex se, et suo</l>
+          <l>Quodque momento atque virtute ponderes.</l>
+          <l>Non opinione; nedum errore, aut inscitia.</l>
+          <l>Vobis exemplo sit hic miles comicus,</l>
+          <l>Qui eo usque venit ignorantia, ut nummulo</l>
+          <l>Gemmam vendat, quae sit pretiosissima.</l>
+          <l>Inde Comoedia suam occoepit Protasim.</l>
+          <l>Nam Simo, pressis naribus callidus,</l>
+          <l>Ubi militem gloriosum et simplicem videt,</l>
+          <l>Gemmam emit minimo, cuius lucrum in Epitasi</l>
+          <l>invidet Lusco: servi id dolo</l>
+          <l>Agunt, ut gemma fraudent heros suos.</l>
+          <l>Hinc magnae turbae fiunt in Catastasi;</l>
+          <l>Quando miles, Simo, Lusco, se illudi sentiunt.</l>
+          <l>In Catastropha Curio, Quaestor civicus,</l>
+          <l>Gemmam extorquet e servorum manibus.</l>
+          <l>Traditque magistratui, ut hanc Eptingenio</l>
+          <l>Donum offerat, prius compensato milite.</l>
+        </sp>
+      </div>
+      <div type="act" n="1">
+        <head>ACTUS PRIMUS.</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>PYRGOPOLINICES gloriatur assentante servo.</p>
+          </argument>
+          <stage>PYRGOPOLINICES, HARPAX.</stage>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>Quis me gloriosior miles inter Helvetios!</l>
+            <l>Quis tot pugnavit pugnas, et triumphos meruit?</l>
+            <l>Non iam appellari volo Pyrgopolinices,</l>
+            <l>Sed a Graecis Epaminondas, Agamemnon, Alcibiades;</l>
+            <l>A Romanis Pompeius, Caesar, Fabius de Fabiis.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Arte duellica tu promeruisti, mi here,</l>
+            <l>Ut omnes mortales apud Reges te memorent.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>Nescio quid spirat animus, ita mecum quotidie</l>
+            <l>Deus belli Mars loquitur, cum dormio.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Et procul dubio Imperator fortis, et</l>
+            <l>Idem fortunatus, atque forma regia:</l>
+            <l>Cum quo bellator Mars haud ausit hiscere,</l>
+            <l>Neque aequiparare suas virtutes ad tuas.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>Martem ego servavi in campis Gurgustidoniis,</l>
+            <l>Ubi bombomachides Cluninstaridysarchides</l>
+            <l>Erat Imperator summus, Neptuni nepos.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Memini, nempe illum dicis cum armis aureis,</l>
+            <l>Cuius tu legiones difflavisti spiritu,</l>
+            <l>Quasi ventus folia, aut panniculam tectoriam.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="I">Istuc quidem aedepol nihil est.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">nihil hercle hoc quidem,</l>
+            <l>Praeut alia dicam, tu quae nunquam feceris.</l>
+            <l>Mendaciorem hoc homine si quis viderit,</l>
+            <l>Aut gloriarum pleniorem quam illic est,</l>
+            <l>Me sibi habeto: et ego me illi mancipi dabo,</l>
+            <l>Si unum epityrum edam apud illum esuriens.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>Scis quo pacto sex coronae mihi sunt datae?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Enarra, nam strenuior deteriori si praedicat</l>
+            <l>Suas laudes, de illius ore non fiunt sordidae.</l>
+            <l>Et assentandum est, quidquid hic mentibitur.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="I">Quid illuc quod dico?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">en scio quid vis dicere:</l>
+            <l part="I">Factum hercle, memini fieri.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="M">quid id est?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">quidquid est.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="I">Habes tabellas?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">vis rogare? habeo et stylum.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>Facile ad vertis tuum animum ad animum meum.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Novisse mores me tuos meditate decet,</l>
+            <l>Curam adhibere ut praevolet mihi quo tu velis.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="I">Ecquid meministi?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">memini, nuperrime scilicet.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>Triumphalis corona, non e lauro, sed aurea</l>
+            <l>Mihi est missa ab nostro Helvetiorum duce,</l>
+            <l part="I">Ob honorem triumphi.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">ego plausum dedi.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>Quid quod, Harpax, Obsidionalem e gramine</l>
+            <l>Lotharingi dederunt, quos urbibus suis</l>
+            <l>Clausos liberavi, contra pugnacem Carolum?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Sunt viginti civitates, quae id memores sciunt</l>
+            <l>Nam quid tibi ego dicam, quod hostis timet,</l>
+            <l>Pyrgopolinicem te unum in terra vivere,</l>
+            <l>Virtute, et fortuna, et factis invictissimis?</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>De servatis civibus, et occisis hostibus</l>
+            <l part="I">Enarra, Harpax?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">omnino centum profugi.</l>
+            <l>Et quinquaginta centum Burgundiones,</l>
+            <l>Triginta Sabaudi, sexaginta itali,</l>
+            <l>Sunt homines, tu quos occidisti uno dic.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="I">Quanta istaec hominum summa est?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">Septem milia.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>Tantum esse oportet, recte rationem tenes.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>At nullos habeo scriptos, sic memini tamen.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="I">Aedepol memoria optima est.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">et hoc memini,</l>
+            <l>Ni feriendo hebes machaera fuisset tua,</l>
+            <l>Occideras uno ictu quingentos simul.</l>
+            <l>Pol et illud magnum, mi here, quisquis audierit,</l>
+            <l>Statim fugiat manibus demissis domum:</l>
+            <l>Quo pacto tu pugno cataphractum militem</l>
+            <l>Perfregisti medium, simul cum collo dromedarii,</l>
+            <l part="I">Quo erat vectus.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">propterea corona civica</l>
+            <l>Donatus sum. sed perge, Harpax, de altera</l>
+            <l part="I">Murali.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">nempe cum tu primus hostium</l>
+            <l>Muros habuisti, et per vim ascendisti in oppidum.</l>
+            <l>Sic tibi castrensis, sic tibi navalis obtigit,</l>
+            <l>Quod prius introisti castra, et naves hostium.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>Tenes melius ista quam nomen aut digitos.</l>
+            <l>Postremum vis scire, Harpax, quam gloriam</l>
+            <l part="I">Sum adeptus?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="M">quam? dux te in oculis?</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">scilicet.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="I">Gestare?</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">vero credere omnem exercitum,</l>
+            <l part="I">Consilia.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="M">mirum.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">tum sicubi cum satietas</l>
+            <l>Hominum, aut negotii si quando odium ceperit,</l>
+            <l part="I">Requiescere ubi vult, quasi, nostin’?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">scio,</l>
+            <l part="I">Quasi illam expuat miseriam ex animo.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">tenes.</l>
+            <l part="I">Tum me convivam solum abducit sibi.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">hui!</l>
+            <l part="I">Ducem elegantem narras.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">imo sic homo</l>
+            <l part="I">Est perpaucorum hominum.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">imo nullorum arbitror,</l>
+            <l part="I">Si tecum vivit.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">invidere omnes mihi,</l>
+            <l>Mordere clanculum: ego floccipendere:</l>
+            <l>Illi invidere misere. verum unus tamen</l>
+            <l>Impense, quem nobilitas commendabat sua,</l>
+            <l>Is ubi molestus magis est, quaeso, inquam, quisquis es,</l>
+            <l>Eone es ferox, quia patricius, et patrum</l>
+            <l>Virtute nobilis, non tua? ego novus homo sum.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Pulchre me hercle dictum, et sapienter. papae,</l>
+            <l part="I">iugularas hominem: quid ille?</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">mutus illico.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="I">Quidni esset?</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">illud, mi Harpax, facinus,</l>
+            <l>Quo pacto Rhodium tetigerim in convivio,</l>
+            <l part="I">Nunquid tibi dixi?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">nunquam: sed narra obsecro.</l>
+            <l part="I">Plus millies iam audivi.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">una in convivio</l>
+            <l>Erat hic, quem dico, Rhodius adolescentulus.</l>
+            <l>Forte habui cicatricem aversam: coepit ad id</l>
+            <l>Alludere, quasi, cum legiones pugnabant maxime,</l>
+            <l>Tum ego fugissem. quid agis, inquam, homo impudens?</l>
+            <l>Vidisti pugnam, et in vita pictam quidem?</l>
+            <l>Lepus tute es, et mihi pedes obiicis?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="I">Ha, ha, he.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="M">quid est?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">facete, lepide, nihil supra.</l>
+            <l part="I">Quid ille, quaeso?</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">perditus: omnes, qui aderant,</l>
+            <l>Risu emori. denique iam me omnes metuunt.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Non iniuria, qui sis tam fortis, ac sapiens.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>Heri e pugna reverso de me unus civium</l>
+            <l>Rogitans, hiccine Achilles huc venit?</l>
+            <l>Imo eius frater, innuit alter, alteri.</l>
+            <l>Sed de his satis. locum requiro alium, ubi</l>
+            <l>Virtutes explicem. nunc, Harpax, de spoliis</l>
+            <l>Agendum, quae virtute belli armatus retuli:</l>
+            <l>Inprimis haec gemma venalis est, si suum</l>
+            <l part="I">Quempiam mercatorem reperit.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">mango praesto est.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>Probabo, si forte est magni pretii.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>PYRGOPOLINICES gemmam vendit SIMONI.</p>
+          </argument>
+          <stage>PYRGOPOLINICES, SIMO.</stage>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>Salve. e grege mangonum te esse arbitror,</l>
+            <l>Qui raptam hostium supellectilem emunt</l>
+            <l>Tanti, quanti volunt; iniuste, si quando sunt</l>
+            <l part="I">Nacti venditorem ignarum.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">quid fingis homo</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>Hunc quem quaero, commonstrare si potes,</l>
+            <l>Inibis a me solidam et grandem gratiam,</l>
+            <l>Iustum quaero ego mangonem, qui rem aestimet.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l>Quid rogas? his aestimatoribus abundat forum.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>Imo sunt in foro iniqui, fures, improbi,</l>
+            <l>Quos ego, meo quidem animo, sacrificabo Mercurio.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l>Tales ego non moror, quando non sum eiusmodi.</l>
+            <l part="I">Nunquid aliud vis? bene vale.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">vale.</l>
+            <l part="I">Heus tu, redi.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="M">eloquere, quid vis?</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">eloquar.</l>
+            <l>Ego ille sum, quem omnes Pyrgopolinicem vocant.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="I">Novi aedepol nomen.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">quid ni tu noveris?</l>
+            <l>Contra Burgundiones, Sabaudos, Italos.</l>
+            <l>Veni, vidi, vici: olim Persas, Paphlagonas,</l>
+            <l>Synopas, Arabes, Caras, Cretaros, Syros,</l>
+            <l>Rhodiam, atque Lyciam, Parediam et Bibesiam,</l>
+            <l>Centauromachiam, Elatiam, Unimammiam,</l>
+            <l>Dimidiam partem nationum usque omnium</l>
+            <l>Subegi solus intra viginti dies.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="I">Vah!</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="M">quid mirare?</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">quia enim in cavea</l>
+            <l>Conclusi itidem ut pulli gallinacei,</l>
+            <l>Ita non potuere uno anno circuirier.</l>
+            <l part="I">Sed dicas quid velis?</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">es tu mango in urbe hac?</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="I">Quid iam?</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">si ex tuo usu est gemma, hanc eme.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="I">Si prius contemplo, et placet.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">si hanc emeris,</l>
+            <l>Dii immortales, nullus te erit alter opulentior.</l>
+            <l>Nam si tua arte concinne inter aurum expolis,</l>
+            <l>Quantivis pretii divendes in aula Regia.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l>Elephantum ex musca facis: ita catus es,</l>
+            <l>Et callidus, attollis quod est exiguum.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>Quod nomen est lapillo? Sardonychem puto.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="I">Non candet.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="M">estne Topazius?</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">non viret.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="I">Est ergo Carbunculus?</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="M">non rubet.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">Adamas?</l>
+            <l>Cuius? Indicus? Arabicus? Macedonicus? Cyprius?</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l>Vulgaris est haec gemma, nata in patria,</l>
+            <l>Vilis pretii: falsus es, mi vir: Mangones roga,</l>
+            <l>Pecunias haud facies, si hanc vendideris pretio suo.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>Non volo decipi, te emptore uti volo.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l>Atqui me emptore vendes sane, aut nunquam alio.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>Hoc age, opusne est hac tibi empta?</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l>si tibi</l>
+            <l>Venisse est opus, mihi quoque empta est.</l>
+            <l>Si tibi subiti nihil est, tantundem est mihi.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="I">Indica, fac pretium.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">tua merx est, tua indicatio est.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="I">Vis bene emere?</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">vin’ tu sane vendere?</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>Magis lubet vendere, quam illam perdere.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l>Tum tu pauca in verba confer, quanti indicas.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="I">Habe tibi centum aureis.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">ohe nimium est.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="I">Quinquaginta.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="M">nimium est.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">habe tibi decem aureis.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="I">Nimium est.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">assis abesse hinc nam potest,</l>
+            <l part="I">Quod nunc dicam.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">quid id est ergo? eloquere</l>
+            <l part="I">Actutum, atque iudica.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">tuo periculo haec datur</l>
+            <l part="I">Aureis tribus.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="M">nimium.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">irati sint Dii,</l>
+            <l>Qui non properas emere, habe igitur</l>
+            <l part="I">Nummo.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="M">habebo.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">at praesens mihi cito </l>
+            <l>Affer argentum: non aedepol viginti aureis</l>
+            <l>Cara est, fecisti lucri. tu praedatus probe es.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l>Probati hinc argenti est nummus aureus,</l>
+            <l part="I">Non minus uno asse.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">quin accedit alter aureus?</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="I">Abscedet enim aliquid.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">non satis care empta est.</l>
+            <l>Velim quidem hercle, ut uno nummo plus dederis.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l>Visne quaerere ansam, infectum ut facias?</l>
+            <l>Nihilo plus dabo, quid vis? si tanti destinas?</l>
+            <l>Hoc ego argento mercatus sum, et persolvi tibi.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA TERTIA.</head>
+          <argument>
+            <p>CHRYSAX HARPACI indicat pretiosissimam esse gemmam, quam nummo miles vendidit.</p>
+          </argument>
+          <stage>HARPAX, CHRYSAX.</stage>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Huc concede aliquantum, te volo, Chrysax.</l>
+            <l>Sicut benevolens cum benevolente agit</l>
+            <l>Servus, et uterque commune vult bonum</l>
+            <l>Amicitiae: ita te obtestor per fidem tuam,</l>
+            <l>Et officium: ut tu mihi amico tuo consulas,</l>
+            <l>Si quid me erga hodie falsum dixeris.</l>
+            <l>Ut tu odio et malo sis servis omnibus,</l>
+            <l>Nec te quisquam usquam homo frugi amet.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l>Per dium fidium quaeris iurato mihi,</l>
+            <l>Video necesse esse eloqui quidquid roges:</l>
+            <l>Ita me obstinate aggressus, ut non audeam</l>
+            <l>Profecto, percunctanti quin promam omnia.</l>
+            <l>Proinde actutum istuc quid sit, quod scire expetis,</l>
+            <l>Eloquere: ut ipse scio, te faciam ut scias.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Dic obsecro hercle serio, quod te rogem:</l>
+            <l part="I">Cave mihi mendacii quicquam.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">quid tu ergo rogas?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Quanti valet gemma, quam miles vendidit?</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="I">Supersede isti rei iam.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">dic, dedisti fidem.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="I">Desiste percunctari.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">loquere, quanti valet,</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l>Valet: sed taceam optimum est. plus scire satius est,</l>
+            <l>Quam loqui, servum hominem. ea sapientia est.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Nescio aedepol quid tu timidus es, Chrysax?</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l>Potin’ ut molestus ne sis? abeo potius.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Asta, abire nunc non sinam, priusquam dixeris.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="I">Quid nunc me retines?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">praedatus est tuus herus?</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l>Rogas? vel maxime: at ego hoc metuo.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="I">Quid est, quod metuas?</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">dum hero insidias parem,</l>
+            <l>Ne a te perdar. si me herus meus esse locutum sciat</l>
+            <l>Cuiquam mortali, continuo is me in furcam dederit.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Nunquam aedepol mortalis quisquam fiet me certior,</l>
+            <l>Nisi hero meo uni indicasso: atque ei quoque</l>
+            <l>Ut non enuntiet, id esse ex te ortum facinus.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l>Vereor ne tibi male credam, et credam tamen.</l>
+            <l part="I">Sed hoc tu tecum tacitum habeto.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">fidei</l>
+            <l>Non melius creditur. loquere, locus, occasio est</l>
+            <l part="I">Libere: hic soli sumus.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">gemmam vili emit</l>
+            <l>Tuus herus, haec mille aureis cara est.</l>
+            <l>Herus si tuus nolet facere pretium, alterum</l>
+            <l>Conveniat mangonem, qui digne gemmam aestimet.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Satis est. abi iam sane, si quid festinas magis.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="I">Numquid aliud vis?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">valeas, beneque ut tibi sit.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l>Pol istuc pretium tibi et tuo hero est in manu</l>
+            <l>Vale, et haec cura, clanculum ut dicta sunt.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="I">Non dictum est. vale.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">at enim nihil est, nisi</l>
+            <l part="I">Caute hoc agitur.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">lepidus, cum mones,</l>
+            <l part="I">Et ita hoc fiet.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">mangonem probum adhibe.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="I">Potin’ ut taceas?</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">taceo, atque abeo. cave sis</l>
+            <l part="I">Dixeris me tibi dixisse hoc.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">dixisti idem</l>
+            <l>Arcano satis, nunquam quemquam hominem</l>
+            <l>Servum conveni, unde abierim libentius.</l>
+            <l>Dii immortales me hodie divitem facient,</l>
+            <l>Si herum fraudo, ac totum gemmae pretium</l>
+            <l>Mihi conficio. ibo intro, haec ut ipse memorem.</l>
+            <l>Ego astutam hodie machinabor machinam:</l>
+            <l>It militem quidem faciam arietem Phryxi;</l>
+            <l>Itaque tondebo auro usque ad vivam cutem,</l>
+            <l>Si Chrysax, qui ad fraudationem heri callidum</l>
+            <l>Gerit ingenium, me consilio adiuvet suo</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="2">
+        <head>ACTUS SECUNDUS.</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>LUSCO invidet gemmam SIMONI venditam.</p>
+          </argument>
+          <stage>LUSCO, HARPAX, SIMO.</stage>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l>Credo ego invidiam primum apud homines</l>
+            <l>Dolores commentam. hanc de me domi</l>
+            <l>Et foris coniecturam facio, qui multos homines</l>
+            <l>Supero, atque anteeo multis cruciatibus.</l>
+            <l>Nam quod Simoni divitias invideo,</l>
+            <l>Idcirco aeger sum, et mihi misero male est,</l>
+            <l>Quia ipsi est bene: ego egeo, ipse rem habet:</l>
+            <l>Quid agam? iactor, crucior, agitor, stimulor,</l>
+            <l>Versor in invidentiae rota. miser exanimor,</l>
+            <l>Feror, differor, distrahor, ita nullam animi</l>
+            <l part="I">Mentem habeo.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">morbum scio, si de gemma indico,</l>
+            <l part="I">Angebitur Lusco.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="F">nunquid tibi venale est?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="I">Sero herus sapit.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="M">quid est?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">gemmam vendidit.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="I">Quis habet?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="M">Simo.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="M">quo pretio?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">vilissimo.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l>En ut sibi efficit omnia perversus Simo:</l>
+            <l>Ubi quid utile, continuo illud callide,</l>
+            <l>Acute, versute, emit veterator: novi ingenium.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Si potest dissolvi emptio, quia iniquior,</l>
+            <l>Tibi est gemma paulo maiore pretio.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l>Ibo, et ipsi faciam in os invidiam.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Vade, dum recens est negotium. ipse adest.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l>Simo, multa agis impune, et arbitratu tuo:</l>
+            <l>Indigna digna habes, illicita licita,</l>
+            <l>Dum lucro tuo serviant; non patior,</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l>Non mihi licere meam rem me solum, ut volo,</l>
+            <l>Loqui, atque cogitare, sine te arbitro?</l>
+            <l>Quid tu (malum!) in me abs re tua,</l>
+            <l>Animum atque oculos perpetuo intentos tenes?</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l>Quia certum est mihi, quasi Argo, observare te</l>
+            <l>Quidquid ages: quin aedepol etiam, si nocte aut</l>
+            <l>In solo loco quid comparas, animadvertere</l>
+            <l>Decretum est: dehinc coniicito caeterum,</l>
+            <l>Possisne, nec ne, clam sutelis tuis</l>
+            <l>Praeripere merces, perinde ut postulas.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="I">Quid tibi negotii mecum est?</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="F">quid ais impudens?</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l>Quid aedes meas obsides hic non magni pretii</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="I">Lubet.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">quin domi es in officina tua?</l>
+            <l>Quin potius quod offertur tibi negotium,</l>
+            <l>Id curas, atque alienis rebus te abstines?</l>
+            <l>Huc venisti lucrum praerepturus meum? abi,</l>
+            <l>Abi directus in tuam provinciam.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l>Quando ego gemmam habuero, quam tu praedatus es,</l>
+            <l>Domi incubabo usque in praefectura mea.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l>Tu gemmam habeas? hercle me suspendio,</l>
+            <l>Quam tu eius potitor fias, satius est mortuum.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l>Mea merx est illa, proin’ tu te in laqueum induas.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l>Mercator vilissime, istaec merx est tua?</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="I">Scies hoc ita esse.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="M">vae tibi.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="F">quot te modis,</l>
+            <l>Si vivo, habebo in rationibus miserum meis!</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="I">Quid tu mihi facies?</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="F">egone quid faciam tibi?</l>
+            <l>Primum omnium venies in ius ante arbitros:</l>
+            <l>Post illa ut semper improbus, nihilque sis:</l>
+            <l>Et grandi mulcta damnum gemmae resarcias:</l>
+            <l>Iam ex hoc loco ibo ego ad treis viros,</l>
+            <l>Tuumque ibi nomen faxo erit, capitis</l>
+            <l>Te perdam ego; et male quod potero facere,</l>
+            <l>Tibi faciam, meritoque id faciam tuo.</l>
+            <l>Post id locorum, quando domum veneris,</l>
+            <l>Compilata et direpta fuerit supellex tua:</l>
+            <l>Redigeris, unde ortus es, ad egestatis terminos.</l>
+            <l>Ut denique qui sis nunc, et qui fueris, scias,</l>
+            <l>Sordido vitam oblectabis pane, in panis inopia:</l>
+            <l>Atque haec si erunt, magnas habebis omnibus Diis gratias.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="I">Haec facies scilicet.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="F">post autem Pyrgopolinices,</l>
+            <l>Quem defraudasti, te vexabit, malitiam obiiciet,</l>
+            <l>Post id, cum miser fueris, vitam auferet.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l>Nunc, ne tu respondere postules me tibi,</l>
+            <l part="I">Abeo intro, taedet sermonis tui.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="F">imo ego</l>
+            <l>Abeo, quo intendi, recta ad iudices tuos.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>SIMO succenset servo, quod hic de gemma locutus sit.</p>
+          </argument>
+          <stage>SIMO, CHRYSAX.</stage>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l>Istas mihi molestias servus peperit,</l>
+            <l>Qui arcanum de gemma detexit perfide.</l>
+            <l>Non temere coniicio: nullus praeter hunc</l>
+            <l>Est conscius, aut aequi aestimator pretii.</l>
+            <l>Astute mihi captandus est ubi venerit;</l>
+            <l part="I">Appellabo. Chrysax.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">adsum praesenti tibi,</l>
+            <l part="I">Si quidem pol me quaeris.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">servus non placet.</l>
+            <l>Qui arcanum prodit, et fidelior est alteri.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l>Per Deos atque homines te ego obtestor, here,</l>
+            <l part="I">Sum innocens.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">cur es ausus mentiri mihi:</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l>Quid mihi boni est quidquam hodie falsum proloqui?</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l>Eho num tu locutus es hodie Lusconi male </l>
+            <l>Per sermonem, quia ego a milite gemmam emi?</l>
+            <l>Et tu dixisti eam gemmam esse quantivis pretii</l>
+            <l part="I">Per Sycophantiam?</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="M">egone istuc dixi unquam?</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">ita.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="I">Quis homo est, qui dicat me dixisse istuc?</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">tace.</l>
+            <l>Nullus homo dicit, res ipsa te arguit,</l>
+            <l>Solus eras oculatus testis, et gemmae arbiter:</l>
+            <l>Rem manifestam omnem ex Luscone habeo:</l>
+            <l part="I">Me prodidisti.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">etiamne haec mihi infers probra?</l>
+            <l>Si dixi, si prodidi, si quod supplicium merui,</l>
+            <l>Quid quaeris? quid laboras? vel quid te sollicitas?</l>
+            <l>Num ego fugio? num longe absum a domo!</l>
+            <l>Num ab oculis concedo tuis? num tibi supplico?</l>
+            <l>Vincire ius est, ostendo manus, colliga.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l>Gnaviter confidens es, ac mentiris omnia.</l>
+            <l>Faxo resciscam tamen criminatorem meum.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l>Ex nullo quidem hodie nunquam sies certior,</l>
+            <l>Et me habebis falso suspectum. abiit, bene est,</l>
+            <l>Evasi, habeo os, linguam, perfidiam, malitiam,</l>
+            <l>Atque audaciam, confirmitatem, fraudulentiam.</l>
+            <l>Nunc quoniam incoepi, maiore confidentia</l>
+            <l>Circum veniam herum, et ibo consultum male.</l>
+            <l>Ubi nunc Harpacem requiram, qui me adiuvet?</l>
+            <l>Quis hic est qui contra me astat? ipse est.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA TERTIA.</head>
+          <argument>
+            <p>CHRYSAX et HARPAX consilium capiunt heros suos fraudandi pretio gemmae.</p>
+          </argument>
+          <stage>CHRYSAX, HARPAX.</stage>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="I">Harpax, Dii ament te.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">quae exoptas dabunt Dii.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="I">Ut vales?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="M">ut queo.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="M">quid agitur?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">vivitur.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="I">Satin’ ergo ex sententia?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">si eveniunt quae exopto, satis.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="I">Nimis tarde amico utere.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="M">quid iam?</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">quia iam</l>
+            <l>Oportuit, cum aperui de gemma, ostendisse animum tuum</l>
+            <l>Et te, quod servi solent, conservi opera</l>
+            <l>Usum esse: manus manum fricat, ferrum ferro acuitur.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Saepe ego res multas tibi mandavi, Chrysax,</l>
+            <l>Dubias, egenas, inopiosas consilii,</l>
+            <l>Quas tu sapienter, docte, et cordate, et cate </l>
+            <l>Mihi reddidisti certas, opiparas opera tua:</l>
+            <l>Quibus pro bene factis fateor deberi tibi</l>
+            <l>Et amicitiam, et multas gratas gratias.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l>Igitur hercle vero, Harpax, mutuis operis</l>
+            <l>Iuvat gemmae pretio comparando fingere fallacias.</l>
+            <l>Nam si huic occasioni tempus se subterduxerit,</l>
+            <l>Nunquam pol indipisces quadrigis albis postea.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Loqueris e sententia, meum tu animum vides.</l>
+            <l>Sed tu rationem inveni, qua gemmam potiar.</l>
+            <l part="I">Quid volvis astute tecum in corde?</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">paulisper tace:</l>
+            <l>Dum ego mihi consilia in animum convoco, et dum consulo</l>
+            <l>Quid agam, quem dolum doloso contra hero parem.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Quaere: ego hinc abscessero abs te, huc interim, illic sis modo.</l>
+            <l>Quemadmodum abstitit severa fronte, curas cogitans!</l>
+            <l>Pectus digitis pultat, cor credo evocaturus est foras:</l>
+            <l>Ecce autem avertit nisus laeva, in femore habet manum,</l>
+            <l>Dextera digitis rationem computat, feriens femur</l>
+            <l>Dexterum; ita vehementer quod facto opus est aegre suppetit.</l>
+            <l>Concrepuit digitis, laborat, crebro commutat statum.</l>
+            <l>Ecce re autem capite nutat: non placet quod reperit.</l>
+            <l>Quidquid est incoctum, non expromit: bene coctum dabit.</l>
+            <l>Ecce autem aedificat, columnam mento suffulsit suo.</l>
+            <l>At, at aliquid reperit, res subitaria est.</l>
+            <l>Quid est? comminiscere, cedo consilium callidum cito.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l>Nunc e gemma posse nos pecuniam facere</l>
+            <l>Confidentia est. dico, et ad me recipio;</l>
+            <l>Et ego Imperatorem dico me ad id, quod petis.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="I">At te coelum bene amet.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">certa est mea astutia.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="I">At me imperti, quod commentus es.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">audi ut scias</l>
+            <l part="I">Iuxta mecum mea consilia.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">salva sumes indidem.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="I">Nullus est hero meo meticulosus aeque.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">istuc scio.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l>Tum autem clamosus, ferox, minax, assuetus iniuriae:</l>
+            <l>Hic cum ab altero se gemma emunctum senserit,</l>
+            <l>Quae derepente furiae, aut quae militis minae:</l>
+            <l>Simo, cui plus est sapientiae, quam hero tuo,</l>
+            <l>Plurimum, ut dixi, metus, instantem domi suae</l>
+            <l>Si tempestatem viderit, aucto gemmae pretio</l>
+            <l part="I">Placabit militem.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">sed quid hoc e re nostra erit?</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l>Ausculta: suadebis militi, ne statim Simonem adeat,</l>
+            <l>Sed prius minaces det litteras: interim fient pecuniae.</l>
+            <l part="I">Et nostrae sunt.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">euge, euge astute, laudo commentum tuum.</l>
+            <l>Si postea miles resciverit pecunias esse datas?</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="I">Nega, idem ego dicam.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">id praecipiendum fuit, ut sciam,</l>
+            <l>Ne titubem, vera ut esse credat, quae mentibimur.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l>Alius est dolus: tu eadem opera Lusconem convenias,</l>
+            <l>Cum syngrapha, qua miles ipsi cedit gemmam suam,</l>
+            <l part="I">Si centum aureos numerat.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">nimis doctum dolum!</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l>Has et has partiemur inter nos pecunias. ultimum,</l>
+            <l>Si potero domi gemmam clepere, fugam adornabimus.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="I">Placet ut dicis.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">aggredere ergo. ego ero domi,</l>
+            <l part="I">Operam hanc dissimulans.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">non esse servus peior hoc</l>
+            <l>Quisquam potest, nec magis versutus, nec quo ab caveas aegrius.</l>
+            <l>Eidem homini, si quid recte curatum velis,</l>
+            <l>Mandes, moriri sese misere mavolet,</l>
+            <l>Quam non perfectum reddat quod promiserit.</l>
+            <l>Sed quid ego cesso ire ad militem? exit foras.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA QUARTA.</head>
+          <argument>
+            <p>PYRGOPOLINICES excandescit in SIMONEM cui minitabundus mittit servum.</p>
+          </argument>
+          <stage>PYRGOPOLINICES, HARPAX.</stage>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>Non ego nunc mediocri incedo iratus iracundia,</l>
+            <l>Sed eapse illa, qua excidionem facere condidici oppidis:</l>
+            <l>Nunc nisi gemma redditur, properet Simo vitam ponere.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="I">Animose, here.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">sacrifico hunc tibi Iuppiter.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="I">Qui?</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">quia enim non mediocri macto infortunio:</l>
+            <l>Sed eopse illo, quo infensos hostes mactare soleo.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="I">Digna est victima: perge.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">ex illo, Harpax. hodie</l>
+            <l>Faciam pilum catapultarium: atque ita nervo torquebo itidem,</l>
+            <l part="I">Ut catapultae solent.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">nempe illum in nubes iaculabere.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>Vel ut pullum discerpam in frusta levi manu,</l>
+            <l part="I">Et dabo igni: ita ardeo.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">tu quidem iam, mi here,</l>
+            <l>Vulcani es irati filius: quaqua tangis, omne tu</l>
+            <l>Comburis: si propius adsto, etiam me aestu calefacis.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>Et merito, Harpax: ut me pessimo dolo ludificatus est!</l>
+            <l>Ut ille mango me spoliavit opibus argentariis!</l>
+            <l>Quicumque ubi ubi sunt, qui fuere, quique futuri sunt posthac,</l>
+            <l>Stulti, stolidi, fatui, fungi, bardi, buccones, blenni, ego</l>
+            <l>Longe anteo stultitia, et moribus indoctis: pudet.</l>
+            <l>Hoccine aetatis ludos me factum esse indigne? quam magis</l>
+            <l>Id repeto, tam magis uror. perditus sum: omnia me mala</l>
+            <l>Consectantur. Simo me hodie laceravit, Simo me miserum</l>
+            <l>Spoliavit: is me scelus gemma usque attondit suis</l>
+            <l>Doctis indoctum dolis, ut lubitum est. ego stultissimus homo</l>
+            <l>Me hoc aetatis ludificari, imo aedepol sic ludos factum</l>
+            <l>Cano capite, atque alba barba? sic emunctum me gemma miserum?</l>
+            <l>Sic meae palmae, meaeque pugnae praeliares plurimae</l>
+            <l>Obtritae iacent? at ita me machaera et clypeus bene iuvent</l>
+            <l>Pugnantem in acie, nisi mihi restituitur gemma, iam ego</l>
+            <l>Trisulcis fulminum nubibus tono; veluti iratus Iuppiter</l>
+            <l>Subito, propere, valide, strepitu, crepitu, sonitu ruit.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="I">Superi vestram fidem!</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="M">quid est?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">concidi tuo tonitru.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="I">Ne time, exurge.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">terrore tuo occidi prae metu.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>Bono animo es, adsum auxilio, nihil est quod timeas.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Ardere censui aedes, ita tum fulgent, cum irata voce loqueris.</l>
+            <l part="I">Perii.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="M">surge.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="M">interii.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="M">cedo manum.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">quis me tenet?</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="I">Pyrgopolinices.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">totus timeo, ita me increpuisti, here:</l>
+            <l>Non secus est, quam si ab Acheronte veniam. si tu simili</l>
+            <l>Irarum sonitu maximo in Simonem continuo contonas,</l>
+            <l>Totae aedes ruent, et fulgebunt quasi essent aureae.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="I">Hoc certum est exequi, Harpax.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">omnes Simo invocabit Deos,</l>
+            <l>Ut sibi auxilium ferant, manibus puris, et operto capite.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="I">Discat militem deludere.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">at praestat, here, irae moderarier.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="I">Quomodo?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">dedecet summum Caesarem verbis furere</l>
+            <l>In mangonem parvi pretii. quin minaces ad eum litteras</l>
+            <l>Prius mittis? tum si gemmam, aut mille aureos dare</l>
+            <l>Noluerit, venies cum exercitu, et tonitru domum rues.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>Placet consilium. scribe Harpax, quae dicto graphice.</l>
+            <l>Pyrgopolinices miles Simoni mangoni minas.</l>
+            <l>Ego Dux, et Imperator exercitus, saepe legatus antehac,</l>
+            <l>Et Tribunus militum, nec non Centurio, et Decurio,</l>
+            <l>Et Praefectus castrorum, per omnes gradus, et ordines militiae,</l>
+            <l>Tibi scribo ac mando, Simo mango, ut nisi gemmam mihi</l>
+            <l>Redhibueris, aut aureos mille, me expectes cum exercitu,</l>
+            <l>Ut profligem te, tuosque. e castris Helvetiorum. time.</l>
+            <l>Has obsigna signo meo, Harpax, habes annulum.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Faciam. pro! quantum pondus, aut fulmen his litteris!</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>Fer, Harpax, cito; te opperibor: nunc excitos iracundiae</l>
+            <l>Fluctus sedabo, et me tantisper quieti dabo:</l>
+            <l>Mox resumam consilia bellica, et curas exercitus.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="3">
+        <head>ACTUS TERTIUS.</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>SIMO militem placare studet missis per servum sexaginta aureis.</p>
+          </argument>
+          <stage>SIMO, HARPAX, CHRYSAX.</stage>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="I">Estne a milite charta haec?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">signum nosce: est:</l>
+            <l>Tibi dare me iussit, et serio monere te,</l>
+            <l>Profecto ut facias quod per me denuntiat,</l>
+            <l part="I">Tuam si salutem vis.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">ubi ipsus? cur non venit?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Ego dicam tibi, quia percitus est iracundia,</l>
+            <l>Quod male emeris gemmam, praesens tibi facere male.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l>Merito semper fugi commercium cum milite,</l>
+            <l>Nam continuo ubi lis est, minae, periurium, verbera.</l>
+            <l>Mallem cum ipso lenius transigere, et simul</l>
+            <l>iustum offerre istius quidem gemmae pretium.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Tuo arbitratu, dum auferam abs te id, quod petit.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l>Ipsi plurimam salutem dicas, offerre me</l>
+            <l>Aureos sexaginta, os ut occludam, non sublinam.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="I">Vereor ut his sit contentus.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">Te, here,</l>
+            <l part="I">Prodigum facis; non est tanti gemma.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">quid id</l>
+            <l part="I">Refert tua, serve?</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">ego res non curem heri mei?</l>
+            <l>Quid reclamas, cacula? nam si serva opera est,</l>
+            <l>Mens est libera: aut si tibi fluxa est fides,</l>
+            <l part="I">Mihi certa est.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">ense refellam probrum.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l>Utere armis, quae dedit natura, pugnis: mei</l>
+            <l part="I">Tuos valent.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">procul amovete iurgia.</l>
+            <l>Amice, ut dixi, volo pacisci cum hero tuo.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Quam interim destinas pecuniam, da, ipsi feram.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="I">Ego tibi dem?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">quid dubitas? si dare vis mihi,</l>
+            <l>Perinde erit solutum, atque ipsi dederis: eius res ago.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l>At enim scin’ quid est? reddere pretium, non perdere</l>
+            <l>Me volo. nunc certo scio has pecunias</l>
+            <l>Febrim tibi esse, quia non licet iniicere ungulas.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Quasi tu dicas me te velle argento circumducere!</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l>Imo vero quasi tu dicas, quasique ego autem id suspicer.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Malum te esse oportet, cum dicas iniuste alteri.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="I">Sed quid est tibi nomen?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="M">Harpax.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">apage te.</l>
+            <l>Harpax, haud places, huc quidem. hercle haud</l>
+            <l>Ibis intro, ne quid Harpax feceris.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Hostes vivos rapere soleo ex acie:</l>
+            <l part="I">Hoc mihi nomen est.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">pol te multo magis</l>
+            <l part="I">Opinor e bursis pecunias.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">non ita est.</l>
+            <l part="I">Sed scin’ quid denique te velim scire?</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">sciam, si dixeris.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Nisi tu satisfacias hero meo, Harpax veniam</l>
+            <l>Cum ipso ad tuas aedes, et harpagabo harpagus.</l>
+            <l>Te poenitebit, non credidisse meae fidei.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l>Non placent isti milites: timeo molestias.</l>
+            <l part="I">Chrysax ades, dum has ego litteras perlego.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">quid me tibi</l>
+            <l part="I">Adesse opus est?</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">volo ut quod iubeo facias:</l>
+            <l part="I">Ut scias quae hic scripta sient.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">nihil moror,</l>
+            <l part="I">Neque scire volo.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="M">tamen ades.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">quid opus est.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="I">Taceas: id quod iubeo, facias.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">adero,</l>
+            <l>Iustum est, tuus tibi servus tuo arbitratu serviat.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l>Pyrgopolinices miles Simoni mangoni minas.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="I">Non prius salutem scripsit?</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">nusquam sentio.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="I">Malum quidem hercle magnum.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">adverte animum.</l>
+            <l part="I">Ego Dux et Imperator exercitus.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">vaniloqua, impudens,</l>
+            <l>Redicula iam inde a principio epistola est.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l>Tibi scribo ac mando, ut nisi gemmam mihi</l>
+            <l>Redhibueris, aut aureos mille, me expectes cum exercitu,</l>
+            <l>Ut profligem te, tuosque. quid nunc censes, Chrysax?</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l>Nihil ego tibi consilii hodie quicquam dabo:</l>
+            <l>Neque ego haud committam, ut si quid peccatum siet,</l>
+            <l>Fecisse dicas de mea sententia.</l>
+            <l>Verum, ut ego opinor, si ego in istoc siem loco,</l>
+            <l>Dem potius aliquod aurum, quam domum turbam sinam.</l>
+            <l>Duae conditiones sunt, utram tu accipias vide:</l>
+            <l>Vel ut gemmae augeas pretium, vel ut turbam velis:</l>
+            <l>Ego neque te iubeo, neque veto, neque suadeo.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="I">Timeo domui.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">tua est, non mirum facis:</l>
+            <l>Si plus perdendum sit, aurum dare suavius est.</l>
+            <l>Nam etsi vi propulsare potes vim militis,</l>
+            <l>Alios sibi comites capiet, et flagitans in medio</l>
+            <l>Postulabit foro de iniuria: nosti clamores militum.</l>
+            <l>Nae tu aedepol multo mavelles non emisse tunc.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l>Sapienter. cape hos tibi sexaginta aureos:</l>
+            <l part="I">I, offer militi.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">non equidem accipiam,</l>
+            <l>Si iubeas maxime: proin’ tu quaeras, qui ferat.</l>
+            <l>Nolo ego mihi credi, vel negotium cum milite.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="I">Cave vero, odiose facis.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">non equidem capiam.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="I">At quaeso.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">dico ut res se habet, here.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="I">Morare?</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">nolo, inquam, aurum concredi mihi.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="I">Ohe odiose facis.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">cedo si necesse est.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l>Cura hoc: ego domi ero, cum revenies.</l>
+            <l part="I">Si plus petit miles, denega.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">doctum doces.</l>
+            <l>Pro Superi, ut mihi, quidquid ago, lepide </l>
+            <l>Omnia, prospereque veniunt! neque quidquam est hodie</l>
+            <l>Quod ego dubitem, neque quod timeam aggredi:</l>
+            <l>Ita meo conditum nunc est in pectore consilium.</l>
+            <l>Nam ea stultitia est, facinus magnum timido</l>
+            <l>Cordi credere: plures paravi dolos, perfidias,</l>
+            <l>Ut ubique tutus cum Simone hero congrediar.</l>
+            <l>Nunc meae sunt hae pecuniae, nisi cum Harpace</l>
+            <l>Dividam: sed hic debet Lusconem prius</l>
+            <l>Tondere, ficta militis syngrapha, quod nunc agit.</l>
+            <l>Tantisper recedam e Scena, dum pecunias emunxerit.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>LUSCO, accepta militis syngrapha, emit gemmam centum aureis.</p>
+          </argument>
+          <stage>HARPAX, LUSCO.</stage>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Nunc tempus, Lusco, conveniendi, et probe </l>
+            <l>Transigendi de gemma, quam malitiose emit. Simo.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="I">Habes syngrapham militis?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="M">habeo.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="F">mihi</l>
+            <l part="I">Ostende.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">sine me prius perspectare, ne uspiam</l>
+            <l>Insidiae sint:, consiliumque habere volumus.</l>
+            <l>Nam opus est nunc tuto loco, ne quis Simo</l>
+            <l>Aemulus nostris spolia capiat consiliis,</l>
+            <l>Atque unde inimicus ne quis spolia capiat auribus.</l>
+            <l>Nam bene consultum inconsultum si siet,</l>
+            <l>Inimicis usu esse potest, si cum cura minus,</l>
+            <l>Aut catalogo loquendi lectum siet.</l>
+            <l>Quin si inimicis usu est, obsit mihi.</l>
+            <l>Nam bene consultum surripitur saepissime:</l>
+            <l>Quippe si rescivere inimici consilium tuum, tibi</l>
+            <l>Tuopte consilio occludunt linguam, et constringunt manus.</l>
+            <l>Atque eadem quae illis voluisti facere, faciunt tibi.</l>
+            <l>Sed speculabor, ne quis aut hinc ab laeva, aut ab dextera</l>
+            <l>Nostro consilio venator adsit cum auritis plagis.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="I">Ecce ego tibi obediens.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">facile est imperium</l>
+            <l part="I">In bonis.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="F">volo ex te scire, eodem de consilio</l>
+            <l part="I">Si licet tibi fidere?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">quis homo sit magis tuus,</l>
+            <l part="I">Quam ego sum?</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="F">loquere lepide et commode.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Pol ita decet me facere. magis nosces meam</l>
+            <l part="I">Comitatem, merito te amantem.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="F">sed quid herus tuus:</l>
+            <l>Non ipsi displiceat, quam nos rem gesserimus:</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Certa est syngrapha, obsignata signo militis.</l>
+            <l>Quod feceris, magis ad rem non potest esse utibile.</l>
+            <l>Perficito argentum hodie ut habeat herus,</l>
+            <l>Gemmam quod valet, transige, aufer, quidlibet</l>
+            <l>Comminiscere de gemma, promitto tibi meum</l>
+            <l>Herum non obfuturum, Lusco, si id modo effeceris.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l>Quid ais tu Harpax? si forte in damnum devenero?</l>
+            <l>Me redimet herus, si gemmam non assequar?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Redimet. nunc tu igitur aliud cura quod lubet.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="I">Hoc me cruciat.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="M">quid est?</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="F">aemulus Simo</l>
+            <l part="I">Argentum dedit.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="M">at fraude.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="F">gemmam tenet.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="I">Iure extorquebitur e manibus.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="F">augebit pretium.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="I">Id egit catus.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="M">quando?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="M">modo.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="F">quis testis est?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="I">Ego, et Chrysax.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="M">quid obtulit?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">sexaginta aureos.</l>
+            <l>Tu offer centum, et habe gemmam: nunquam tibi herus</l>
+            <l>Verbum faciet. cesserit suum ius, dato syngrapho,</l>
+            <l part="I">Tu satis lucri feceris.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="F">me impellis ut faciam?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="I">Quando tua interest.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="F">sine adhuc videam manum.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="I">Perlege, nullus est dolus.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="F">centum aureos</l>
+            <l>Iam intus efferam: mane istic, iam ad te exeo.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Pulchre hic captus est: habet: hamum vorat:</l>
+            <l>Efferetur praeda, qua ego onustus exiliam.</l>
+            <l>Sed crepuit foris, taceam nunc: iam</l>
+            <l>Hic insunt in crumena centum aurei.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="I">Fer hoc militi aurum.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">hanc tu cape</l>
+            <l part="I">Syngrapham.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="M">eo ego ad Simonem.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">ego</l>
+            <l part="I">Ad Pyrgopolinicem.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="M">si quid te volam.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">ibi ero.</l>
+            <l>Vici, triumpho. nunc nusquam eo nisi ad capitolium,</l>
+            <l>Deo Dolo acturus gratias. si Chrysacem simul</l>
+            <l>Ovantem reperero: quid me beatius! advoco.</l>
+            <l>Num eius vocem audio? auscultabo hinc.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA TERTIA.</head>
+          <argument>
+            <p>HARPAX et CHRYSAX sibi dividunt aurum, quod a SIMONE et LUSCONE militi ferendum
+              acceperunt.</p>
+          </argument>
+          <stage>HARPAX, CHRYSAX.</stage>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Chrysax, euge Chrysax, euge: euge ades?</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l>Harpax, euge Harpax, euge: euge ades?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="I">Habes aurum?</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="M">habes aurum?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">certe habeo.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="I">Habeo certe.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">salve triumphator doli.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="I">Salve Imperator perfidiae.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">coronam dabo.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="I">Tibi ego sceptrum.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">tua opera regno ego.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="I">Tua opera triumpho ego.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">Lusco victus est.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="I">Simo captus est.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">mihi spolia sunt opipara.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="I">Mea praeda opima est.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">quis favit Deus?</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="I">Idem qui tibi, dolus.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">at fortuna mihi Deus est.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="I">An istaec dolo melior?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">quid fortuna melius?</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="I">Licet laudem dolum.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">tamen ut ne fortunam culpaveris.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="I">Quis ergo favit nobis?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">fortunatus dolus.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="I">Ecastor ambo sunt boni.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">sciam quid boni dederint.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="I">Opta id, quod ut contingat tibi vis.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">quid si ego</l>
+            <l part="I">Optavero!</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="M">eveniet.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">opto centum aureos.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="I">Non impetrasti.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="M">sexaginta.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">numeratos habeo.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="I">Ain’ vero?</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="M">certe inquam.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">vicissim me roges,</l>
+            <l>Atque experiare: exopta id quod vis maxime </l>
+            <l part="I">Tibi evenire: fiet.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">quid ego aliud</l>
+            <l>Exoptem amplius, quam tu? centum aureos.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Teneo, animo sis bono, exoptata habes.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l>Ego caput huic auro fui reperiendo hodie.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="I">Ego pes, manus fui.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">age, omnia</l>
+            <l>Membrorum sunt communia: aequa ergo pars</l>
+            <l part="I">Capitis esto.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">esto. accipe viginti aureos;</l>
+            <l>Hac conditione, ut si hodie gemmam surripis,</l>
+            <l>Commune nobis apud hostem transfugis sit pretium.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l>Do fidem. iam nunc domi insidias comparo.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Ego dabo operam, ut meo hero nullas referam</l>
+            <l>Mihi esse datas a Simone pecunias.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA QUARTA</head>
+          <argument>
+            <p>HARPAX militi denuntiat, SIMONEM nullas voluisse dare pecunias.</p>
+          </argument>
+          <stage>PYRGOPOLINICES, HARPAX.</stage>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>Somno operam dedi: at mihi per somnum animus</l>
+            <l>Nunquam est curis vacuus. somnians agito,</l>
+            <l>Praesertim meridie, quae vigilans volo.</l>
+            <l>Tum enim mihi senatum consilii in cor convoco.</l>
+            <l part="I">Non redit a Simone Harpax.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="M">rediit.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">quid refert?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="I">Nihil.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">an quod te misi, nihilo sum ditior?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="I">Nihil attuli.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="M">quomodo?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">postquam sum tuo</l>
+            <l>Iusso profectus, perveni in forum, video tuum</l>
+            <l>Mangonem, argenti rogo ut copiam faciat</l>
+            <l>Pro gemma, quam vili emit: sciret iracundiam</l>
+            <l>Tuam: nolle te frustrarier: esse hominis probi,</l>
+            <l>Addere pretio amice, atque adeo fideliter:</l>
+            <l>Sin secus, praesto esse litteras, legeret,</l>
+            <l>Minas animadverteret, et vim a te milite.</l>
+            <l>Respondit venditionem esse factam, se pecunias</l>
+            <l>Pactum esse, modo sibi esse magnam argenti inopiam.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>Siccine? hoc respondit? hanccine ego ut contumeliam</l>
+            <l>Tam insignem in me accipiam! Harpax, iuro pol,</l>
+            <l>Perdam hominem: currus appara, atque tormenta bellica,</l>
+            <l>Cura ut splendor sit armis meis clarior,</l>
+            <l>Quam solis radii esse olim, cum sudum est, solent:</l>
+            <l>Ut ubi iam usus est, contra conserta manu</l>
+            <l>Oculorum perstringat aciem in acie mangonibus.</l>
+            <l>Nam ego hanc machaeram mihi consolari volo,</l>
+            <l>Ne lamentetur, neve animum despondeat,</l>
+            <l>Quia se iam pridem feriatam gestitem:</l>
+            <l>Quae misera gestitet Simonem fractum facere ex hostibus.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Vae tibi Simo: Troiam magnus Achilles venit</l>
+            <l>Cum armis, equis, exercitu, atque eximiis ducibus.</l>
+            <l part="I">Periisti Simo.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">bella bellabo belle bellator, ad</l>
+            <l part="I">Castra propero: veni mecum.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">i, praesequor.</l>
+            <l>Ibo Ulysses, aut Sinon cum equo ligneo,</l>
+            <l>In quo insunt fallaciae et inclusi doli.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="4">
+        <head>ACTUS QUARTUS.</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>PYRGOPOLINICES SIMONEM aggressus gemmam repetit.</p>
+          </argument>
+          <stage>PYRGOPOLINICES, SIMO, HARPAX.</stage>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>Simalio, Domax, Syrisce, Harpax, sequimini.</l>
+            <l part="I">Primus aedes expugnabo.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="M">recte.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">mangonem arripiam.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="I">Probe.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="M">male mulctabo ipsum.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">pulcherrime.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>At iam construam aciem, vos Imperatoris virtutem noscitis,</l>
+            <l>Ego vim militum. tu, Simalio, confla cornu dexterum</l>
+            <l>Cum hasta: tu, Domax, sinistrum, et esto signifer:</l>
+            <l>In medium huc agmen veni, Harpax, cum tympano.</l>
+            <l>Cedo alios: ubi Centurio est Sanga, et manipulus</l>
+            <l>Furum? ubi alii? ego stabo in ultima</l>
+            <l>Acie, procul ab ictibus: inde omnibus signum dabo.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Illud est sapere: ut nos instruxisti, ipsus tibi caves.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>Idem hocce Pyrrhus factitavit, et Annibal,</l>
+            <l>Et magni duces: ut cum pugnando fessus fuerit</l>
+            <l>Exercitus, ego integris viribus quasi novus</l>
+            <l part="I">Imperator adveniam.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">callidum capis consilium.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>Sed quid audio, Harpax? quasi tumultus hostium.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Ipse est Simo, qui domi milites cogit suos,</l>
+            <l>Et animat ad pugnam, ut defendat aedes suas.</l>
+            <l part="I">Quid expalluisti?</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">adversus hostem: ex iracundia</l>
+            <l part="I">Sanguis recedit ad cor.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="M">tu times.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">non timeo,</l>
+            <l>Sed tremo parum, ut ante pugnam prudentis est.</l>
+            <l part="I">Ubi hostis?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">non vides? in tecto, ac turibus est,</l>
+            <l part="I">Instructus armis.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">iracundia obstitit oculis.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="I">Timeo ut subsistas.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">et ego quoque timeo.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Simula, et prae te fer audaciam, non potes campo cedere:</l>
+            <l>Imitare canes timidos, qui vehementius allatrant.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>Audi, Harpax, tua vita non magni pretii est,</l>
+            <l>Ego si a mangone occido, totus simul exercitus occidit.</l>
+            <l>Nam meo robore, et consilio Helvetius nititur.</l>
+            <l>Quid si quam mox non irruimus, sed fiunt induciae?</l>
+            <l>Omnia prius experiri verbis, quam armis, sapientem decet.</l>
+            <l>Qui scis, an, quae iubeam, sine vi faciat Simo?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Dii vestram fidem, quanti est Imperatorem sapere!</l>
+            <l>Nunquam accedo ad te, quin abs te abeam doctior.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="I">Heus tu, Simo, te volo.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">heus te, miles, non volo.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>Sta sis illico, atque gemmam propere propera vomere,</l>
+            <l part="I">Nisi vi mavis eripi.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">quam bis emi pretio?</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="I">Mihi illam reddas</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="M">quid vis?</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">gemmam meam.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="I">Tuam autem, miles? omnium.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">cave sis, nescis cui</l>
+            <l part="I">Maledicas nunc viro.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">non tu hinc abis?</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>Non abiero priusquam te huic meae macherae obiicio.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Miseret tui me, Simo, qui hunc tantum hominem</l>
+            <l part="I">Facias inimicum tibi.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">diminuam illi caput,</l>
+            <l>Si pergit, quod ego bis solvi, a me reposcere.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>Ain’ vero, mango? Siccine tu mecum agis?</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l>Enimvero, ego neque tua magnifica verba,</l>
+            <l>Neque tuas magnas minas pluris facio,</l>
+            <l>Quam nostrum canem, qui latrat in sterquilinio.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>Qualis homo, Harpax? quam hostis ferox!</l>
+            <l part="I">Quid nunc agimus?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">habet domi confidentiam.</l>
+            <l>Quin redeamus? alias de improviso aderis.</l>
+            <l>Novi ego ingenium viri insolens, ubi</l>
+            <l>Est fortior: ubi victus, ultro supplicat.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>Bene putas. tecum iam dimitto exercitum:</l>
+            <l>Pergite milites, domi focique, uti fortes decet.</l>
+            <l>Age, Simo, positis armis, nunc leniter agam.</l>
+            <l>Quin mihi pro gemma maius persolvis pretium?</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="I">Quando tibi res soluta est recte?</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">quomodo?</l>
+            <l part="I">Uno nummo?</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="M">sexaginta igitur.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">hoc peto.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="I">Tibi redditos.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="M">mihi?</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="M">tibi inquam.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">falleris:</l>
+            <l>Verum durius remisisti servum, negans mihi</l>
+            <l part="I">A te ullas esse pecunias.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">ita quidem</l>
+            <l>Non credidi tuo servo; sed mox misi Chrysacem,</l>
+            <l>Qui istos tibi sexaginta ferret aureos.</l>
+            <l part="I">Nega.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="M">nego.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">convincam, si illum advoco.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="I">Voca dum.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="M">heus Chrysax.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>CHRYSAX PYRGOPOLINICEM et SIMONEM eludit.</p>
+          </argument>
+          <stage>CHRYSAX, SIMO, PYRGOPOLINICES.</stage>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">Here, advolo.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="I">Quod tibi mandatum est, numerasti aurum?</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">probe.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="I">Mihi?</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="M">servo tuo.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="M">quid ipsi?</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">miseras</l>
+            <l>Obviam, qui res tuas curaret, pecunias reciperet,</l>
+            <l>Daret solutum, tuo quidlibet signaret annulo.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="I">Ergo habes syngraphum?</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">eccum: nondum, here,</l>
+            <l part="I">Tibi reddideram.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">mirum: non me Harpax monuit.</l>
+            <l part="I">Fateor, meum habet annulum.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">cum ipso age,</l>
+            <l part="I">Meas egi partes.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">ego ad illum abeo: salve Simo.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l>Quam sunt turbulenti milites, etiam cum fecisti bene.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l>Peccasti Chrysax, meo iudicio maxime, qui pecunias</l>
+            <l part="I">Commisisti servo.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">dicebat se venire ab hero,</l>
+            <l>Copiam se habere omnem, uti transigeret.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l>Num videras me prius diffisum servo? Quin meo</l>
+            <l part="I">Exemplo doctus es?</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">paenitet, here, si quid perperam</l>
+            <l part="I">Gessi: nihil fraudis accipies.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">neque id opinor quidem.</l>
+            <l>Sed quid huc importunus denuo in scenam exiit?</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA TERTIA.</head>
+          <argument>
+            <p>LUSCO gemmam esse suam contendit e Syngrapha militis.</p>
+          </argument>
+          <stage>LUSCO, SIMO, CHRYSAX.</stage>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l>Rem bene gessi, et constabilivi meam,</l>
+            <l>Cum gemmam emi de praeda a milite.</l>
+            <l>Nam quia bonis partis non dives sum satis,</l>
+            <l>Mihi lucrum omne esse utile existimo.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l>Quid hic loquitur ex qua gemma lucri?</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l>At etiam dubitavi, hanc gemmam emerem,</l>
+            <l>An non emerem, diu stultus ego. nunc eo</l>
+            <l part="I">Ad Simonem, ut flagitem.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">veni, te opperior</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l>Simo, militem conveni, is gemmam mihi</l>
+            <l part="I">Vendidit, mea est.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">si tua est, tene:</l>
+            <l part="I">Non invideo.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="F">ego invideo alienum male </l>
+            <l part="I">Quod tu possides.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">mihi emi, et bis emi:</l>
+            <l part="I">Istud alienum vocas?</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="F">ego pecunias dedi.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="I">Et ego dedi.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="M">habeo syngraphum.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">habeo itidem.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l>Simplex vir, falsus es; quia fefellisti prior.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l>Imo te fefellit invidia, et spes lucri.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="I">Quid multis? redde quod retines.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">sum polypus.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="I">At enim irascor.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">hoc magis irascere,</l>
+            <l part="I">Per me licet.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="F">collum obstringam tibi.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="I">Accede huc tu sodes.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">si herum tibi tactio est,</l>
+            <l part="I">Cave.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="F">in ius venies hodie, scelus viri.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l>Ni taces, vapulare ego te vehementer iubeo.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA QUARTA.</head>
+          <argument>
+            <p>HARPAX negat se a CHRYSACE et LUSCONE pecunias accepisse.</p>
+          </argument>
+          <stage>HARPAX, CHRYSAX, PYRGOPOLINICES, LUSCO, SIMO.</stage>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Continere me nequeo diutius. ita me</l>
+            <l>Probri, furti, dedecoris argutum a servulo?</l>
+            <l>Ea quae sunt infecta, facta esse acclamitat?</l>
+            <l>Quae neque sunt facta, neque ego in me admisi, arguit?</l>
+            <l>Atque id me susdeque esse habiturum putat?</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l>De me locutus, et quae velim, aut nolim minus,</l>
+            <l>Ita militum iras, ut muliercularum floccifacio.</l>
+            <l>Hominem non congrediamur prius, quam stomachum detexerit.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Nae aedepol faciam, neque me perpetiar probri</l>
+            <l>Falso insimulatum, quin ego illum aut interficiam,</l>
+            <l>Aut satisfaciat mihi: atque adiuret insuper</l>
+            <l>Nolle esse dicta, quae in me insontem protulit.</l>
+            <l>Nam istud aurum ab ipso non accepi, neque syngrapham dedi.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>Proba fidem: modo adduxi te in os coram.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="I">Ubi est?</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="M">ante oculos, non vides?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">vix video</l>
+            <l>Prae ira, adeo me istic hodie perturbatum facit.</l>
+            <l part="I">Iam te apprehendo, mastigia.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="F">te medium, Simo,</l>
+            <l part="I">Interpone, ne se lacerent.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">ostendam tibi</l>
+            <l>Quid sit me furti accusare, et dolis incessere.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="I">Audin’ tu illum?</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">audio, nihilo magis moveor.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Dicis, sceleste, me accepisse a te sexaginta aureos?</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l>Quin dicam? tu testis ampliter, quicum domi</l>
+            <l>Conveni, missus sedulo ab hero meo, ut denique</l>
+            <l>Pro gemma paciscerer cum milite, quem tu, nebulo,</l>
+            <l>Dixti negotiosum; at te vicariam praestare operam.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Dii vestram fidem! hoc nusquam factum gentium:</l>
+            <l part="I">Quis tibi syngrapham dedit, furcifer?</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">qui me rogat.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Mars me oderit, si ficta non est haec syngrapha.</l>
+            <l part="I">Nosce, here, adulterinum signum.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">scelestum caput!</l>
+            <l part="I">Tu mentiri audes?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">tu me mentiri ais?</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l>Ob istuc indignum dictum, te obstricto collo arripiam.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="I">Here, suppetias mihi.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">linque collum, Chrysax.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l>Linquo. sed dic mihi, here, possum pati</l>
+            <l part="I">Istuc probri?</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">potest rixa aliter dirimi.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Potest duello: vel tu me, vel te ego hodie:</l>
+            <l part="I">In campo conferemus enses.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">nihil moror.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>Interea, Simo, non liquet, dederis necne pecunias:</l>
+            <l part="I">Non hae quidem pervenere ad me.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">quid igitur!</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="I">Nihil mihi cum tuo servo.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">age cum tuo.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="I">Imo tecum hercle serio.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">an singulari certamine?</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>Arma eliges, quoniam provoco: mihi aequa sors.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l>Aliud mihi duellum et maius, et commune omnibus.</l>
+            <l>Quia de me, cuius est gemma, non loquimini.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l>Quid isti insano est nobiscum negocii?</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l>Tace tu. mihi tecum res est, Harpax, praecipue.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l>Hic homo rabiosus habitus est in urbe hac.</l>
+            <l>Ne tu, Pyrgopolinices, quae fabulatur, audias.</l>
+            <l>Nam iste modo ex invidentia invasit herum meum.</l>
+            <l>Et nuper hastis insectatus est domi matrem et patrem:</l>
+            <l>Et illic isti qui insputatur morbus interdum venit.</l>
+            <l part="I">Proin’ tu ab istoc procul recede.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="F">ain’ verbero</l>
+            <l>Me rabiosum? atque insectatum hastis meum memoras patrem?</l>
+            <l>Et eum morbum mihi esse, ut qui me opus sit insputarier?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Ne verere, here, multos istic morbus homines macerat,</l>
+            <l>Quibus insputare saluti fuit, atque iis profuit.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="I">Quid tu autem etiam huic credis?</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">quid ego credam huic?</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="I">Rabiosum me esse?</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">viden’ hunc quam inimico oculo</l>
+            <l>Te intuetur? recedere optimum est, miles. Sic (quod tibi</l>
+            <l part="I">Dixi) gliscit rabies, cave tibi.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">ego expertus sum hodie,</l>
+            <l>Quia suae ipse impos est mentis, neque scit qui siet.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l>Pol ipse video, quorsum vestra tendat oratio,</l>
+            <l>Ut gemma, quam emi, frustretis me improbi.</l>
+            <l>At venditione constabis tua, Pyrgopolinices?</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="I">Qua?</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="M">confirma fidem, Harpax.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">quid vis, homo?</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="I">Centum aureos retulisti hero opinor.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">somnias?</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="I">Quos numeravi pro gemma.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">video iam te non sapere.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l>Quia ipse scit me gemmam bis emisse tuam,</l>
+            <l>Est miserorum, ut malevolentes sint, atque invideant bonis.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l>Vide sis miles, ne quid tu huic temere insistas credere:</l>
+            <l>Atque ut perspicio, profecto iam aliquid morbi edidit:</l>
+            <l>Gemmam tuam quod emisse se ait, id neutiquam mihi placet.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l>Syngraphum ostendam, quem mihi detulit servus hic tuus.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Pergin’ de me fingere? sed enim iam nequeo</l>
+            <l>Contineri, iam ego illum insectabo lapidibus,</l>
+            <l part="I">Nisi abeat.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="F">impudentem servum! crucior.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l>Ardent oculi. fuge, here, fuge Pyrgopolinices.</l>
+            <l>Viden’ tu illi maculari corpus totum maculis luridis?</l>
+            <l part="I">Atra bilis agitat hominem.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="F">at pol, quod ais,</l>
+            <l>Crucior, lapidem non habere me, ut tibi furcifer</l>
+            <l>Cerebrum excutiam, qui me insanum verbis concinnas tuis.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="I">Audin’ lapidem quaeritare?</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="F">solus te solum volo,</l>
+            <l part="I">Miles.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">istinc loquere si quid vis, procul tamen audiam.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l>Namque aedepol si adites propius, os denasabit tibi</l>
+            <l part="I">Mordicitus.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="F">neque pol me insanum, Miles, esse existimes,</l>
+            <l>Neque fuisse unquam, neque esse morbum, quem istic autumat.</l>
+            <l>Verum sibi metuit a me versutus Simo, quia</l>
+            <l>Gemmam emi, et tu hanc centum aureis pactus es:</l>
+            <l>Ius tuum amisisti; unum ego Simonem persequor.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>Quas mihi malum nugas garris? ubi ius meum</l>
+            <l part="I">Amisi? abi hinc.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">foras, foras Lusco, foras.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="I">Tuam hinc aufer invidiam.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">procul, procul, procul.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l>Sic me abigitis? reddite aureos, vel in ius voco.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>Nostra, Simo, restat controversia: vide mihi</l>
+            <l>Satisdes: do horam ut cogites. iure, ferro, iniuria,</l>
+            <l>Certum est te domi, foris, in urbe, in agro prosequi.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l>Non imparatum armis me reperies, ubi ubi ero.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="I">Memineris tu in campo Martio.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">nempe hora tertia.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="5">
+        <head>ACTUS QUINTI</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>CHRYSAX et HARPAX surreptis dolo pecuniis, et gemma, fugiunt.</p>
+          </argument>
+          <stage>CHRYSAX, HARPAX.</stage>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l>Nunc nobis, Harpax, tutis licet fugere:</l>
+            <l>Salva est praeda, divites oppido sumus.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="I">Quo abimus?</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">ad Burgundiones: hi suae</l>
+            <l part="I">Nos adscribent militiae.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">si postea capimur,</l>
+            <l>Aut pugna, aut in via (ut est militum alea)</l>
+            <l part="I">Pendebimus.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">sublime, an putrescas humi</l>
+            <l>Quid interest? magno interim gemmam pretio</l>
+            <l part="I">Vendemus.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">hoc securius Germanos expeto,</l>
+            <l>Qui ignorantes sint furti nostri, et bene</l>
+            <l part="I">Gemmam aestiment.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">longior est istuc itio,</l>
+            <l>Brevior ad hostem. ne time, mihi rem imputa,</l>
+            <l part="I">Si male vertit.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">tum te incusabo scilicet</l>
+            <l>Et me, cum in cruce collo restim induero.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="I">Omnia metuis.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">quid si istic aliquis hostium</l>
+            <l part="I">Suam reposcit gemmam?</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">quid si mulus parit?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Periclitabor: duc quo vis. at quis assequitur?</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="I">Quaestor.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="M">quid cum satellitibus?</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">perditi sumus.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="I">Quaeramus aram.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">hic a Magistratu exiit.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>CURIO furaces servos assequitur.</p>
+          </argument>
+          <stage>CURIO, CHRYSAX, HARPAX.</stage>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l>Fures, transfugae, vobis neque patronus, neque</l>
+            <l>Ara: frustra hanc occupatis, ducam vos ad iudices.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l>Nescis Curio, quam meticulosa res sit ire ad iudices.</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l>Vestra ego malefacta omnia volo scire radicitus,</l>
+            <l>Vel nunquam aedepol hodie inulti eritis mihi.</l>
+            <l>Exempla faciam ego in vobis, si quidquam celaveritis.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="I">Fatebimur sine malo.</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l part="F">edico prius, ne duplices</l>
+            <l>Habeatis linguas, nae ego bilingues vos ambo traham</l>
+            <l>Ad magistratum, aut ad tintinnaculos educam viros:</l>
+            <l>Nam colubrino ingenio vos esse certo scio.</l>
+            <l>Surgite dum huc: esto extra aram quiddam quod vobiscum volo.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l>Si tamen hinc responsum dedero, nimio plus fiduciae est:</l>
+            <l>Tum confessio sanctior est de divinis locis.</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l>Vestra interest, quo pacto sitis confessi: nam omnem ego</l>
+            <l part="I">A magistratu potestatem accepi.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">haec res vos subiget</l>
+            <l part="I">Verum fateri.</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l part="F">sapietis. primum istuc volo,</l>
+            <l>Ne inter vos significetis, ego ero paries.</l>
+            <l part="I">Loquere tu.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="M">quid loquar?</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l part="F">ubi gemma est,</l>
+            <l>Quae militi praeda obtigit? capita rerum expedi.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="I">Penes me est.</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l part="F">iam tace. accepitne furto hic ab hero?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="I">Accepit.</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l part="F">tace, nihil moror praeterea, satis es</l>
+            <l part="I">Fassus.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="M">inficias non eo.</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l part="F">conveniunt adhuc</l>
+            <l part="I">Utriusque verba.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">vae misero mihi, mea nunc</l>
+            <l>Facinora aperiuntur, clam quae speravi fore.</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l part="I">Loquere tu, quis primus gemmam emit?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">Simo.</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l part="I">Quanti?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="M">uno nummo.</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l part="F">cur ipse addidit</l>
+            <l part="I">Sexaginta?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">propter minacias militis, qui resciit</l>
+            <l part="I">Gemmam pluris esse.</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l part="M">a quo resciit?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">ab isto Chrysace</l>
+            <l part="I">Servo, cui pecunias commisit.</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l part="F">iam loquere tu:</l>
+            <l part="I">Cui pecunias dedisti?</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="M">nulli.</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l part="F">cave, nisi quod te rogo,</l>
+            <l part="I">Nisi ea quae exquiro.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">nulli, inquam, dedi.</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l part="I">Quid pecunia actum? responde ocyus.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">nobis eam</l>
+            <l part="I">Ex pacto divisimus.</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l part="F">haec pol malitia pertinet</l>
+            <l>Ad servos. at tu hoc est necesse nunc indices</l>
+            <l>De Luscone, quanti gemmam destinaret sibi.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Perii, res palam omnis est, nec quid nunc faciam</l>
+            <l>Scio, neque ut hinc abeam, neque ut huic respondeam.</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l part="I">Dicin’ an non?</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">fatebor meum istuc facinus:</l>
+            <l>Mea fraus est; fictam ego syngrapham tuli,</l>
+            <l>Argentum accepi, hero non reddidi, conservo huic</l>
+            <l>Communicavi centum aureos, dixi omnia,</l>
+            <l part="I">Atque eloquutus sum.</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l part="F">nunc mihi gemmam date.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="I">Dabo.</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l part="M">et pecunias.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l part="F">dabimus: sed scelus</l>
+            <l part="I">Remitte, te rogo.</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l part="F">reddam has pecunias vostris heris.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA TERTIA.</head>
+          <argument>
+            <p>SIMO cogitur magistratui gemmam tradere, ut haec dono offeratur Eptingenio Duci
+              Helvetiorum.</p>
+          </argument>
+          <stage>SIMO, CURIO.</stage>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l>Ubi illuc furtum, qui me perfidissime </l>
+            <l>Spoliavit fama, gemma, opibus? ubi est</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l part="I">Ibi aram occupat.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">eo confugit scelus?</l>
+            <l>Iam iubebo ignem et sarmenta circumdari,</l>
+            <l>Ut assus lento igne male deflagret.</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l part="I">Ne faxis.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">si quis intercedat, pereat</l>
+            <l part="I">Eodem igne.</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l part="M">iratus es.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">non temere,</l>
+            <l>Curio: nonne scis, ut me emunxit trifur?</l>
+            <l>Iam, inquam, indo ignem in aram: ut Deo</l>
+            <l>Furum Mercurio grates agam scilicet,</l>
+            <l>Latasque laudes, eique Arabico fumificem</l>
+            <l>Odore, ne in nostris tectis servos habeat,</l>
+            <l>Feratque saevis furtis. sum afflictatus, Curio.</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l part="I">At te pacato animo esse iubeo.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">salva est</l>
+            <l part="I">Gemma?</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l part="M">salva.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="M">salvae pecuniae?</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l part="F">etiam.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l>Gaudeo. at mihi redit ira, cum hunc conspicor.</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l>Mitte, servus est in mea et tua manu.</l>
+            <l>Est consulere quiddam quod tecum volo:</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="I">Quid est?</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l part="F">magistratus gemmam tuam expetit.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="I">Quid audio ex te?</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l part="M">ne perturbere.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">gemmam emi,</l>
+            <l part="I">Hae sunt meae opes, Curio.</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l part="F">attamen</l>
+            <l part="I">Si optatur, tu deneges?</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">attamen dabo</l>
+            <l part="I">Invitus.</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l part="F">nihil damni feres: sed cum foenore</l>
+            <l part="I">Fac tradas.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">mirum quo pacto gemma opus est.</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l>Dono ipsa feretur Eptingenio Duci.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l>Intelligo. quanto pretio vis habere, si opus est?</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l>Scies, cum Lusconem recrearo, quem tristem intuor.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA QUARTA.</head>
+          <argument>
+            <p>LUSCONI et SIMONI abunde restituuntur pecuniae.</p>
+          </argument>
+          <stage>LUSCO, SIMO, CURIO.</stage>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l>Si quid homini est miseriarum, quod miserescat miser ex animo,</l>
+            <l>Id ego experior, cui multa in unum confluunt locum,</l>
+            <l>Meumque pectus pulsant: simul et aerumnam multiplex</l>
+            <l>Habet invidia: perturbat perfidus servili dolus.</l>
+            <l>Animi mentem: neque ubi meas ego spes collocem,</l>
+            <l>Habeo usquam munitum locum: ita pecunias negat</l>
+            <l>Miles se accepisse, neque nunc gemma ubi sit,</l>
+            <l part="I">Et cuius, scio.</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l part="F">quid timido pectore es,</l>
+            <l part="I">Lusco? et tu ipse te miseraris?</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="F">quia spem perdidi.</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l part="I">Per me modo redit.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="F">redeat, an non, nescio.</l>
+            <l>Homo me miserior nullus est aeque opinor, neque</l>
+            <l part="I">Adversa cui plura sint sempiterna.</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l part="F">ego hodie</l>
+            <l part="I">Levabo aegritudinem.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="F">non potes. ubi, quam rem agere</l>
+            <l>Occoepi, proprium nequit mihi evenire quod cupio:</l>
+            <l>Ita mihi mala res obiicitur aliqua, bonum</l>
+            <l>Quae meum opprimit consilium. gemmam mihi</l>
+            <l>Paravi centum aureis, Curio, syngraphum habui</l>
+            <l>A milite, sane ex sententia; subito mihi novae</l>
+            <l part="I">Turbae a servo, et Simone.</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l part="F">istas composui</l>
+            <l>Turbas, euge. non perdidisti pecunias.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l>Spem non speratam cum offers hanc mihi, grates ago.</l>
+            <l part="I">Dicitur aufugisse servus.</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l part="F">ita ad aram aspice.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l>Improbe, promittebas te os sublinere mihi?</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l>Probris abstine: tuos recipe centum aureos.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="I">Remigrat animus nunc demum mihi.</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l part="F">insuper</l>
+            <l>Si quid lucri conceperas spe ex gemma, restituo</l>
+            <l>Hos quinquaginta aureos, ita magistratus iubet.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l>Dii te ament, ut me ex moerore in laetitiam coniicis!</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l>Tibi autem, Simo, satisfaciam cumulatius:</l>
+            <l>Accipe, praeter tuos sexaginta tres, bis alteros</l>
+            <l part="I">Centum.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">satis est, o abunde est, Curio:</l>
+            <l>Ultro trado gemmam magistratui, pretium</l>
+            <l part="I">Aequasti.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="F">felicem hanc gemmam mihi, et tibi,</l>
+            <l>Simo, gratulor: nunc tecum redire volo</l>
+            <l part="I">In gratiam, invidiae poenitet.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">ignosco lubens.</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l>Ubi nunc Pyrgopolinices, quem pari repleam gaudio?</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA QUINTA.</head>
+          <argument>
+            <p>PYRGOPOLINICES praeficitur cohorti: datur impunitas servis.</p>
+          </argument>
+          <stage>PYRGOPOLINICES, CURIO, SIMO, LUSCO, CHRYSAX, HARPAX.</stage>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>Nunc denique sum illusus: Harpax, Simo me</l>
+            <l part="I">Ludibrio habent.</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l part="F">salve Pyrgopolinices.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="I">Salutem amisi.</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l part="F">apporto nuntium optabile.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>Ne suspende animum, cito eloquere: nam si semel</l>
+            <l>In furias abiero, et fulmina, malum tibi, Simo,</l>
+            <l>Et tibi, Harpax. hi me defraudant pessime.</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l>iam cum his de gemma conventum est, tibi</l>
+            <l>Aurem immortalitas abs gemma obtigit.</l>
+            <l>Magistratus emit illam: haec dabitur Eptingenio.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>Nondum gaudeo, quin istaec me interimit oratio:</l>
+            <l>Odiosa nae oratio est, longinquum loqui</l>
+            <l>Gaudium: equidem ad caput rei pervenias.</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l part="I">Primum eris clarus factis pulchris.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">hunc me esse scio:</l>
+            <l>Quin tu illud potius nuntias, quod nescio?</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l>Tibi igitur confertur munus longe dignissimo.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>Quid non merui? quo non ego dignus munere?</l>
+            <l>Ne expectes, Curio, meas pugnas dum praedicem:</l>
+            <l>In bellis praedicare soleo, haud in sermonibus.</l>
+            <l>Scio ego multos memorasse milites mendacium,</l>
+            <l>Qui et convicti et condemnati falsis de pugnis fient.</l>
+            <l>Non laudandus, cui plus credit qui audit, quam qui videt.</l>
+            <l>Non placet, cum illi plus laudant, qui audiunt, quam qui vident.</l>
+            <l>Pluris est oculatus testis unus, quam auriti decem.</l>
+            <l>Qui audiunt, audita dicunt: qui vident, plane sciunt.</l>
+            <l>Non placet, quem scurrae laudant, manipulares mussitant.</l>
+            <l>Neque illi, quorum lingua gladiorum aciem praestringit domi.</l>
+            <l>Strenui nimio plus prosunt populo, quam arguti et cati.</l>
+            <l>Facile sibi, facunditatem virtus, arguta invenit.</l>
+            <l>Ego mea me virtute involvo, et factis loquentibus?</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l>Docte: te magistratus novit scilicet belli, domi,</l>
+            <l>Absentem, praesentem; cum taces, et cum praedicas.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="I">Loquere porro iam rem.</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l part="F">tibi datur cohors civica,</l>
+            <l part="I">Pro gemma, quam vicisti.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">mihi, Curio, datur</l>
+            <l>Cohors civica? pro Superi! ubi sum, an inter semideos</l>
+            <l>In caelo, aut in terris summos inter Duces,</l>
+            <l>Uti diu mens praesagiit? nunc me beas,</l>
+            <l>Ac pro gemma satis: si tamen non me ludis, Curio?</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l>Egone te ludo? adsunt litterae magistratus, perlege.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="I">Iam immortaliter gaudeo.</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l part="F">iam tibi gratulor.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="I">Et</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="M">Euge, euge Pyrgopolinices.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">magistratum adeo</l>
+            <l part="I">Grates, acturus.</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l part="F">verum isti servi duo</l>
+            <l>Adsunt deiecti et tristes in communi gaudio:</l>
+            <l part="I">Quid istis fiet nunc iam?</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l part="F">meus verberibus</l>
+            <l part="I">Caedetur dudum pendens.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l part="F">meum hercle interimam.</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l>Magistratus me fecit iudicem: faciam ego gratiam.</l>
+          </sp>
+          <sp who="#simo">
+            <speaker>S.</speaker>
+            <l>Aliud quidvis impetrari a me facilius perferam,</l>
+            <l>Quam ut non istunc ego suis pro factis pessimis</l>
+            <l part="I">Pessum premam, si per me licet.</l>
+          </sp>
+          <sp who="#lusco">
+            <speaker>L.</speaker>
+            <l part="F">si iustus es,</l>
+            <l>Curio, quiesce hanc rem modo illis facere.</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l>Sentio me flecti in misericordiam, et crimen remittere.</l>
+            <l>Scio solere imprudenter servos tali ludo ludere.</l>
+          </sp>
+          <sp who="#pyrgopolinices">
+            <speaker>P.</speaker>
+            <l>Ergo ut hunc dediscant ludum, pendeant: sic ego agam</l>
+            <l part="I">Cum meis militibus, ne bis peccent.</l>
+          </sp>
+          <sp who="#curio">
+            <speaker>CU.</speaker>
+            <l part="F">nihil opus est</l>
+            <l>Profecto: si aliam noxiam fecerint, ulciscar probe.</l>
+            <l>Abite impune, quo vultis, quando vestri heri</l>
+            <l part="I">Vos respuunt.</l>
+          </sp>
+          <sp who="#chrysax">
+            <speaker>CH.</speaker>
+            <l part="F">hanc tibi habemus gratiam.</l>
+          </sp>
+          <sp who="#harpax">
+            <speaker>H.</speaker>
+            <l>Non potuit obvenire homo magis misericors.</l>
+          </sp>
+          <closer>FINIS.</closer>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
