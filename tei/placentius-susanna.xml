@@ -113,6 +113,13 @@
             </region>
          </creation>
       </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2025-05-30">
+               <desc>Converted to DraCor TEI by Jana Synovcová Borovičková.</desc>
+            </change>
+         </listChange>
+      </revisionDesc>
    </teiHeader>
    <standOff>
       <listEvent>
@@ -135,7 +142,7 @@
                <date>An. 1534</date>
             </docImprint>
          </titlePage>
-         <div type="preface">
+         <div type="preface" subtype="epigram">
             <head>Epigramma ad lectorem.</head>
             <l>Quid iuvat heus iuvenes veteris monumenta Terenti</l>
             <l>aut Plauti, aut Nevi volvere saepe manu,</l>
@@ -153,7 +160,7 @@
          <castList>
             <head>INTERLOCUTORES.</head>
             <castItem>
-               <role>Poëta</role>
+               <roleDesc>Poëta</roleDesc>
                <roleDesc>orans argumentum ad populum.</roleDesc>
             </castItem>
             <castItem>
@@ -188,9 +195,9 @@
                <role>CHARINUS</role>
                <roleDesc>Susannae famulus.</roleDesc>
             </castItem>
-            <castItem>
-               <role>CARNIFICES DUO.</role>
-            </castItem>
+            <castGroup>
+               <roleDesc>CARNIFICES DUO.</roleDesc>
+            </castGroup>
             <castItem>
                <role>HELCHIAS</role>
                <roleDesc>Susannae pater.</roleDesc>
@@ -200,15 +207,15 @@
                <roleDesc>propheta.</roleDesc>
             </castItem>
             <castItem>
-               <role>POPULUS</role>
+               <roleDesc>POPULUS</roleDesc>
                <roleDesc>spectator</roleDesc>
             </castItem>
-            <castItem>
-               <role>LORARII DUO</role>
+            <castGroup>
+               <roleDesc>LORARII DUO</roleDesc>
                <roleDesc>personae mutae</roleDesc>
-            </castItem>
+            </castGroup>
             <castItem>
-               <role>Angelus</role>
+               <roleDesc>Angelus</roleDesc>
                <roleDesc>persona muta, stringens gladium</roleDesc>
             </castItem>
          </castList>
@@ -402,8 +409,8 @@
                <l>Facite honesta, ut siqua est alia.</l>
             </sp>
             <sp who="#crito">
-               <speaker>Cri</speaker>
-               <l part="I">. Beate.</l>
+               <speaker>Cri.</speaker>
+               <l part="I">Beate.</l>
             </sp>
             <sp who="#hislio">
                <speaker>His.</speaker>
@@ -550,8 +557,8 @@
                <l part="I">Scilicet amat Crito.</l>
             </sp>
             <sp who="#hislio">
-               <speaker>His</speaker>
-               <l part="F">. Octogenariusne?</l>
+               <speaker>His.</speaker>
+               <l part="F">Octogenariusne?</l>
             </sp>
             <sp who="#petulus">
                <speaker>Pet.</speaker>
@@ -1705,7 +1712,7 @@
                <l>Bene vobis sit cum Susanna; congratulemini</l>
                <l>innocentiae. Valete et plaudite.</l>
             </sp>
-            <stage>Susannae finis.</stage>
+            <closer>Susannae finis.</closer>
          </div>
       </body>
    </text>

@@ -89,10 +89,14 @@
                   <persName>Philomathes</persName>
                </person>
                <person xml:id="philoponus" sex="MALE" role="servus">
-                  <persName>Philoponus/servus/famulus</persName>
+                  <persName>Philoponus</persName>
+                  <persName type="variant">servus</persName>
+                  <persName type="variant">famulus</persName>
                </person>
                <person xml:id="panocnus" sex="MALE" role="servus">
-                  <persName>Panocnus/servus/famulus</persName>
+                  <persName>Panocnus</persName>
+                  <persName type="variant">servus</persName>
+                  <persName type="variant">famulus</persName>
                </person>
                <person xml:id="oeconomus" sex="MALE" role="libertus">
                   <persName>Oeconomus</persName>
@@ -101,16 +105,19 @@
                   <persName>Daetrus</persName>
                </person>
                <person xml:id="ancilla-a" sex="FEMALE" role="ancilla">
-                  <persName>ancilla a/puella</persName>
+                  <persName>ancilla a</persName>
+                  <persName type="variant">puella</persName>
                </person>
                <person xml:id="ancilla-b" sex="FEMALE" role="ancilla">
-                  <persName>ancilla b/puella</persName>
+                  <persName>ancilla b</persName>
+                  <persName type="variant">puella</persName>
                </person>
                <person xml:id="nomodidascalus" sex="MALE" role="legatus">
                   <persName>Nomodidascalus</persName>
                </person>
                <person xml:id="puer-legati" sex="MALE" role="puer">
-                  <persName>puer legati/puer</persName>
+                  <persName>puer legati</persName>
+                  <persName type="variant">puer</persName>
                </person>
                <person xml:id="daemones" sex="MALE" role="amicus">
                   <persName>Daemones</persName>
@@ -134,13 +141,16 @@
                   <persName>Mors</persName>
                </person>
                <person xml:id="sathan" sex="MALE" role="diabolus" ana="https://www.wikidata.org/wiki/Q35230">
-                  <persName>Sathan/Satan</persName>
+                  <persName>Sathan</persName>
+                  <persName type="variant">Satan</persName>
                </person>
                <person xml:id="acolytus" sex="MALE">
-                  <persName>Acolytus/Acolitus</persName>
+                  <persName>Acolytus</persName>
+                  <persName type="variant">Acolitus</persName>
                </person>
                <person xml:id="hieronymus" sex="MALE" role="pastor">
-                  <persName>Hieronymus/sacerdos</persName>
+                  <persName>Hieronymus</persName>
+                  <persName type="variant">sacerdos</persName>
                </person>
                <person xml:id="virtus" sex="FEMALE" role="allegoria" ana="https://www.wikidata.org/wiki/Q157811">
                   <persName>Virtus</persName>
@@ -168,6 +178,13 @@
             </region>
          </creation>
       </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2024-06-11">
+               <desc>Converted to DraCor TEI.</desc>
+            </change>
+         </listChange>
+      </revisionDesc>
    </teiHeader>
    <standOff>
       <listEvent>
@@ -177,7 +194,8 @@
          </event>
       </listEvent>
       <listRelation>
-         <relation name="wikidata" active="https://dracor.org/entity/neolat000001" passive="http://www.wikidata.org/entity/Q1592867"/>
+         <relation name="wikidata" active="https://dracor.org/entity/neolat000001"
+            passive="http://www.wikidata.org/entity/Q1592867"/>
       </listRelation>
    </standOff>
    <text>
@@ -217,8 +235,11 @@
                &amp; à Zoilorum dentibus (modo citra contentionem fieri possit) subinde vindica,
                sinautem <foreign xml:lang="grc">ὡς τὸν ἔπὶ φακῇ μῦθον</foreign> improbaveris, aut
                tuo nomine indignam iudicaveris, sic temeritatis me argue, ut nihilominus amicum erga
-               te animum tametsi in vili munusculo modestus agnoscas. Vale vir gravissime,<pb n="fol. b2r"/> &amp; me tui amantissimum iudica.</p>
-            <dateline>Ex Traiecto pridie Calendas Aprilis. Anno à Christo nato. 1539.</dateline>
+               te animum tametsi in vili munusculo modestus agnoscas. Vale vir gravissime,<pb
+                  n="fol. b2r"/> &amp; me tui amantissimum iudica.</p>
+            <closer>
+               <dateline>Ex Traiecto pridie Calendas Aprilis. Anno à Christo nato. 1539.</dateline>
+            </closer>
          </div>
          <div type="preface">
             <head>AD CANDIDUM LECTOrem in Hecastum praefatio.</head>
@@ -317,21 +338,27 @@
                <roleDesc>coquus.</roleDesc>
             </castItem>
             <castGroup>
-               <castItem><role>Ancille duae</role></castItem>
+               <roleDesc>Ancille duae</roleDesc>
             </castGroup>
             <castItem>
                <role>Nomodidascalus</role>
                <roleDesc>legatus</roleDesc>
             </castItem>
-            <castItem><role>Puer legati</role></castItem>
             <castItem>
-               <role>Daemones</role>
-               <roleDesc>cum .2. amicis</roleDesc>
+               <roleDesc>Puer legati</roleDesc>
             </castItem>
-            <castItem>
-               <role>Syngenes</role>
-               <roleDesc>cum 2. cognatis</roleDesc>
-            </castItem>
+            <castGroup>
+               <castItem>
+                  <role>Daemones</role>
+                  <roleDesc>cum .2. amicis</roleDesc>
+               </castItem>
+            </castGroup>
+            <castGroup>
+               <castItem>
+                  <role>Syngenes</role>
+                  <roleDesc>cum 2. cognatis</roleDesc>
+               </castItem>
+            </castGroup>
             <castItem>
                <role>Mors</role>
                <roleDesc>larva teterrima.</roleDesc>
@@ -360,10 +387,10 @@
                <role>Plutus</role>
                <roleDesc>ex arca loquens</roleDesc>
             </castItem>
-            <castItem>
-               <role>Chorus</role>
+            <castGroup>
+               <roleDesc>Chorus</roleDesc>
                <roleDesc>ex 3. pueris &amp; 3. puellis familiae</roleDesc>
-            </castItem>
+            </castGroup>
             <p>Ne miretur lector candidus Actorum frequentiam, quòd magis utilitati auditorum
                nostrorum, quam artificio comico studuimus.</p>
          </castList>
@@ -473,9 +500,9 @@
                <l n="80">Oeconomon, huc prodire mox videbitis.</l>
             </sp>
          </div>
-         <div n="chorus" type="scene">
+         <div type="scene" subtype="chorus">
             <head>CHORUS.</head>
-            <stage>Versu Sapphico.</stage>
+            <stage type="delivery">Versu Sapphico.</stage>
             <gap reason="figure"/>
             <pb n="fol. b6v"/>
             <sp who="#chorus">
@@ -500,8 +527,8 @@
          <div n="1" type="act">
             <div n="1" type="scene">
                <head>ACTUS. primi. SCAENA. prima.</head>
-               <stage>Hecastus solus.</stage>
-               <stage>Iambici trimetri.</stage>
+               <stage type="characters">Hecastus solus.</stage>
+               <stage type="delivery">Iambici trimetri.</stage>
                <sp who="#hecastus">
                   <l>NEmo omnium mortalium felicior</l>
                   <l>Me vivit usquam gentium, quod nesciam</l>
@@ -540,8 +567,8 @@
             </div>
             <div n="2" type="scene">
                <head>ACTUS primi SCAENA secunda.</head>
-               <stage>Trimetri ut superiores.</stage>
-               <stage>Epicuria. Hecastus. Panocnus.</stage>
+               <stage type="delivery">Trimetri ut superiores.</stage>
+               <stage type="characters">Epicuria. Hecastus. Panocnus.</stage>
                <sp who="#epicuria">
                   <l>MI vir quid evocas me ad aestum &amp; aëra?</l>
                   <l>Quin intus ea quae erant iubenda dixeras?</l>
@@ -711,8 +738,8 @@
             </div>
             <div n="3" type="scene">
                <head>ACTUS primi SCAENA tertia.</head>
-               <stage>Trimetri.</stage>
-               <stage>Daetrus. Epicuria.</stage>
+               <stage type="delivery">Trimetri.</stage>
+               <stage type="characters">Daetrus. Epicuria.</stage>
                <sp who="#daetrus">
                   <l part="F">DAetrus hic. quid hera, factum voles?</l>
                </sp>
@@ -780,8 +807,8 @@
             </div>
             <div n="4" type="scene">
                <head>ACTUS primi. SCAENA quarta.</head>
-               <stage>Tetrametri.</stage>
-               <stage>Hecastus. Daemones. Panocnus.</stage>
+               <stage type="delivery">Tetrametri.</stage>
+               <stage type="characters">Hecastus. Daemones. Panocnus.</stage>
                <sp who="#hecastus">
                   <l>HOc est quod intus dixeram tibi Daemones. sistamus hic</l>
                   <l>Cum poculis fritillum, ut alea &amp; orbibus lusorijs</l>
@@ -968,10 +995,10 @@
                   <l>Nam corpori aegro aquilo intulit per saepe multa pericula.</l>
                </sp>
             </div>
-            <div n="5" type="scene">
+            <div n="5" type="scene" subtype="chorus">
                <head>CHORUS.</head>
-               <stage>Iambici dimetri.</stage>
-               <stage>Ex capite secundo Sapientiae Salomonis.</stage>
+               <stage type="delivery">Iambici dimetri.</stage>
+               <stage type="ref">Ex capite secundo Sapientiae Salomonis.</stage>
                <gap reason="figure"/>
                <sp who="#chorus">
                   <l>NIhil sodales tandem erit</l>
@@ -1005,8 +1032,8 @@
          <div n="2" type="act">
             <div n="1" type="scene">
                <head>ACTUS secundi. SCAENA prima.</head>
-               <stage>Trimetri.</stage>
-               <stage>Oeconomus solus.</stage>
+               <stage type="delivery">Trimetri.</stage>
+               <stage type="characters">Oeconomus solus.</stage>
                <sp who="#oeconomus">
                   <l>GRandi malo servi putant se obnoxios,</l>
                   <l>Cùm imperia sedulò exequuntur herilia.</l>
@@ -1038,8 +1065,8 @@
             </div>
             <div n="2" type="scene">
                <head>ACTUS secundi. SCAENA secunda.</head>
-               <stage>Tetrametri.</stage>
-               <stage>Panocnus, Philoponus, Oeconomus cum Daetro.</stage>
+               <stage type="delivery">Tetrametri.</stage>
+               <stage type="characters">Panocnus, Philoponus, Oeconomus cum Daetro.</stage>
                <sp who="#panocnus">
                   <l>QUantumlibet festinet hera, quantum libet Apeleutherus.</l>
                   <l>Res neutiquam processerit nisi Daetrus adsit, qui coquat</l>
@@ -1149,8 +1176,8 @@
             </div>
             <div n="3" type="scene">
                <head>ACTUS secundi, SCAENA tertia.</head>
-               <stage>Tetrametri.</stage>
-               <stage>Nomodidascalus. Philoponus. Panocnus.</stage>
+               <stage type="delivery">Tetrametri.</stage>
+               <stage type="characters">Nomodidascalus. Philoponus. Panocnus.</stage>
                <sp who="#nomodidascalus">
                   <l>IAmdudum in his mundi infimis convallibus praedivitem</l>
                   <l>Homuncionem habitare multi praedicant, quem rex deûm</l>
@@ -1241,8 +1268,8 @@
             </div>
             <div n="4" type="scene">
                <head>ACTUS secundi. SCAENA. quarta.</head>
-               <stage>Trimetri.</stage>
-               <stage>Epicuria. Nomodidascalus. Puella.</stage>
+               <stage type="delivery">Trimetri.</stage>
+               <stage type="characters">Epicuria. Nomodidascalus. Puella.</stage>
                <sp who="#epicuria">
                   <l part="I">PApae quis hic? Salve vir inclyte.</l>
                </sp>
@@ -1365,8 +1392,8 @@
             </div>
             <div n="5" type="scene">
                <head>ACTUS secundi. SCAENA quinta.</head>
-               <stage>Tetrametri.</stage>
-               <stage>Panocnus. Epicuria. Puella.</stage>
+               <stage type="delivery">Tetrametri.</stage>
+               <stage type="characters">Panocnus. Epicuria. Puella.</stage>
                <sp who="#panocnus">
                   <l>PRodire me foras iubebas hera? quid exigi voles?</l>
                </sp>
@@ -1466,8 +1493,8 @@
             </div>
             <div n="6" type="scene">
                <head>ACTUS secundi. SCAENA sexta.</head>
-               <stage>Tetrametri.</stage>
-               <stage>Nomodidascalus. Epicuria. Puer.</stage>
+               <stage type="delivery">Tetrametri.</stage>
+               <stage type="characters">Nomodidascalus. Epicuria. Puer.</stage>
                <sp who="#nomodidascalus">
                   <l part="F">MUlier, quid est quod inutili</l>
                   <l>Iubes labore distrahi totam familiam in aedibus,</l>
@@ -1554,8 +1581,8 @@
             </div>
             <div n="7" type="scene">
                <head>ACTUS secundi. SCAENA septima.</head>
-               <stage>Tetrametri.</stage>
-               <stage>Hecastus. Panocnus. Nomodidascalus.</stage>
+               <stage type="delivery">Tetrametri.</stage>
+               <stage type="characters">Hecastus. Panocnus. Nomodidascalus.</stage>
                <sp who="#hecastus">
                   <l>QUem sese homo dicebat esse, qui iubebat me sibi</l>
                   <l part="I">Assistere?</l>
@@ -1702,8 +1729,8 @@
             </div>
             <div n="8" type="scene">
                <head>ACTUS secundi. SCAENA octava.</head>
-               <stage>Trimetri.</stage>
-               <stage>Philomathes. Hecastus.</stage>
+               <stage type="delivery">Trimetri.</stage>
+               <stage type="characters">Philomathes. Hecastus.</stage>
                <sp who="#philomathes">
                   <l>SUbito legentem Hippocraten puer meus</l>
                   <l>Me devocat. Quis hic? Pater quid tristis est?</l>
@@ -1810,8 +1837,8 @@
             </div>
             <div n="9" type="scene">
                <head>ACTUS secundi. SCAENA nona.</head>
-               <stage>Trimetri.</stage>
-               <stage>Nomodidascalus. Hecastus. Philomathes. Puer.</stage>
+               <stage type="delivery">Trimetri.</stage>
+               <stage type="characters">Nomodidascalus. Hecastus. Philomathes. Puer.</stage>
                <sp who="#nomodidascalus">
                   <l>HIc est Hecaste qui tibi regis mei</l>
                   <l part="I">Mandata legat &amp; explicet?</l>
@@ -2056,8 +2083,8 @@
             </div>
             <div n="10" type="scene">
                <head>ACTUS secundi. SCAENA decima.</head>
-               <stage>Trimetri.</stage>
-               <stage>Hecastus solus.</stage>
+               <stage type="delivery">Trimetri.</stage>
+               <stage type="characters">Hecastus solus.</stage>
                <sp who="#hecastus">
                   <l n="710">O Mors, quam amara est mentio tui viro</l>
                   <l>Sano, cui tranquilla rerum est omnium</l>
@@ -2084,10 +2111,10 @@
                   <l>Talis mihi intus aut foris prensandus est.</l>
                </sp>
             </div>
-            <div n="11" type="scene">
+            <div n="11" type="scene" subtype="chorus">
                <head>CHORUS.</head>
-               <stage>Dimetri.</stage>
-               <stage>Ex Ecclesiastico, Psalmis &amp; Apocalypsi.</stage>
+               <stage type="delivery">Dimetri.</stage>
+               <stage type="ref">Ex Ecclesiastico, Psalmis &amp; Apocalypsi.</stage>
                <gap reason="figure"/>
                <sp who="#chorus">
                   <l>O Mors, quàm amara est memoria</l>
@@ -2117,8 +2144,8 @@
          <div n="3" type="act">
             <div n="1" type="scene">
                <head>ACTUS tertij. SCAENA prima.</head>
-               <stage>Trimetri.</stage>
-               <stage>Hecastus solus.</stage>
+               <stage type="delivery">Trimetri.</stage>
+               <stage type="characters">Hecastus solus.</stage>
                <sp who="#hecastus">
                   <l>QUam is est beatus qui ita probè vitam suam</l>
                   <l>Instituit, ut morte ingruente neutiquam</l>
@@ -2144,8 +2171,8 @@
             </div>
             <div n="2" type="scene">
                <head>ACTUS tertij. SCAENA secunda.</head>
-               <stage>Trimetri.</stage>
-               <stage>Daemones cum duobus amicis. Hecastus.</stage>
+               <stage type="delivery">Trimetri.</stage>
+               <stage type="characters">Daemones cum duobus amicis. Hecastus.</stage>
                <sp who="#daemones">
                   <l>EAmus &amp; videamus ut Hecastus vetus</l>
                   <l part="I">Valeat amicus.</l>
@@ -2248,8 +2275,8 @@
             </div>
             <div n="3" type="scene">
                <head>ACTUS tertij. SCAENA tertia.</head>
-               <stage>Trimetri.</stage>
-               <stage>Syngenes cum duobus cognatis. Hecastus.</stage>
+               <stage type="delivery">Trimetri.</stage>
+               <stage type="characters">Syngenes cum duobus cognatis. Hecastus.</stage>
                <sp who="#syngenes">
                   <l>QUid turbae in aedibus tuis, Hecaste mi?</l>
                   <l>Quid uxor atque liberi illachrymant domi?</l>
@@ -2354,8 +2381,8 @@
             </div>
             <div n="4" type="scene">
                <head>ACTUS tertii. SCAENA quarta.</head>
-               <stage>Trimetri.</stage>
-               <stage>Philocrates. Philomathes. Hecastus.</stage>
+               <stage type="delivery">Trimetri.</stage>
+               <stage type="characters">Philocrates. Philomathes. Hecastus.</stage>
                <sp who="#philocrates">
                   <l n="865">TAmetsi uterque modo ex ephebis cessimus,</l>
                   <l>Non queo tamen, cum exaudiam patrem anxium,</l>
@@ -2527,8 +2554,8 @@
             </div>
             <div n="5" type="scene">
                <head>ACTUS tertij. SCAENA quinta.</head>
-               <stage>Trimetri.</stage>
-               <stage>Philoponus. Hecastus. Panocnus.</stage>
+               <stage type="delivery">Trimetri.</stage>
+               <stage type="characters">Philoponus. Hecastus. Panocnus.</stage>
                <sp who="#philoponus">
                   <l part="F">TU nos vocaveras here?</l>
                </sp>
@@ -2576,8 +2603,8 @@
             </div>
             <div n="6" type="scene">
                <head>ACTUS tertij. SCAENA sexta.</head>
-               <stage>Trimetri.</stage>
-               <stage>Epicuria. Hecastus. Ancillae duae.</stage>
+               <stage type="delivery">Trimetri.</stage>
+               <stage type="characters">Epicuria. Hecastus. Ancillae duae.</stage>
                <sp who="#epicuria">
                   <l>QUid est marite quod foras Plutum iubes</l>
                   <l>Ex abditis domus locis producier?</l>
@@ -2691,8 +2718,8 @@
             </div>
             <div n="7" type="scene">
                <head>ACTUS tertij. SCAENA septima.</head>
-               <stage>Trimetri.</stage>
-               <stage>Philoponus. Panocnus. Plutus. Hecastus.</stage>
+               <stage type="delivery">Trimetri.</stage>
+               <stage type="characters">Philoponus. Panocnus. Plutus. Hecastus.</stage>
                <sp who="#philoponus">
                   <l part="F">MAnum admove.</l>
                   <l n="1005" part="I">Ut stas piger.</l>
@@ -2784,9 +2811,9 @@
                   <l>Accingar itineri omnium tristissimo.</l>
                </sp>
             </div>
-            <div n="8" type="scene">
+            <div n="8" type="scene" subtype="chorus">
                <head>CHORUS.</head>
-               <stage>Trochaici dimetri.</stage>
+               <stage type="delivery">Trochaici dimetri.</stage>
                <gap reason="figure"/>
                <sp who="#chorus">
                   <l n="1040">DEfluentis instar undae</l>
@@ -2812,8 +2839,8 @@
          <div n="4" type="act">
             <div n="1" type="scene">
                <head>ACTUS quarti. SCAENA prima.</head>
-               <stage>Trimetri.</stage>
-               <stage>Hecastus. Servi duo. Familia. Proximi. Amici.</stage>
+               <stage type="delivery">Trimetri.</stage>
+               <stage type="characters">Hecastus. Servi duo. Familia. Proximi. Amici.</stage>
                <sp who="#hecastus">
                   <l>UT iusseram lento gradu praecedite,</l>
                   <l>Meumque Plutum ferte cauti &amp; commode</l>
@@ -2880,8 +2907,8 @@
             </div>
             <div n="2" type="scene">
                <head>ACTUS quarti. SCAENA secunda.</head>
-               <stage>Trimetri.</stage>
-               <stage>Servi duo. Hecastus. Amici. Proximi. Mors.</stage>
+               <stage type="delivery">Trimetri.</stage>
+               <stage type="characters">Servi duo. Hecastus. Amici. Proximi. Mors.</stage>
                <sp who="#philoponus #panocnus">
                   <l part="F">MOrs, mors adest.</l>
                   <l part="I">A tergo Hecaste.</l>
@@ -2993,8 +3020,8 @@
             </div>
             <div n="3" type="scene">
                <head>ACTUS quarti. SCAENA tertia.</head>
-               <stage>Trimetri.</stage>
-               <stage>Virtus. Hecastus.</stage>
+               <stage type="delivery">Trimetri.</stage>
+               <stage type="characters">Virtus. Hecastus.</stage>
                <sp who="#virtus">
                   <l n="1115">HIc est amicus pristinus? hic Hecastus est,</l>
                   <l>Qui me, (priusquam deliciae, opes, stemmata,</l>
@@ -3095,8 +3122,8 @@
             </div>
             <div n="4" type="scene">
                <head>ACTUS quarti. SCAENA quarta.</head>
-               <stage>Trimetri.</stage>
-               <stage>Philoponus. Panocnus. Hecastus.</stage>
+               <stage type="delivery">Trimetri.</stage>
+               <stage type="characters">Philoponus. Panocnus. Hecastus.</stage>
                <sp who="#philoponus">
                   <l>VOcem tuam gementis audivimus here</l>
                   <l>Moesti tuamque calamitatem non sine</l>
@@ -3156,9 +3183,9 @@
                   <l part="F">Ite placide.</l>
                </sp>
             </div>
-            <div n="5" type="scene">
+            <div n="5" type="scene" subtype="chorus">
                <head>CHORUS.</head>
-               <stage>Carmine trochaico.</stage>
+               <stage type="delivery">Carmine trochaico.</stage>
                <gap reason="figure"/>
                <sp who="#chorus">
                   <l>MOrte iustus si occupetur,</l>
@@ -3184,8 +3211,8 @@
          <div n="5" type="act">
             <div n="1" type="scene">
                <head>ACTUS quinti. SCAENA prima.</head>
-               <stage>Trimetri.</stage>
-               <stage>Philocrates. Panocnus. Philomathes.</stage>
+               <stage type="delivery">Trimetri.</stage>
+               <stage type="characters">Philocrates. Panocnus. Philomathes.</stage>
                <sp who="#philocrates">
                   <l n="1225">PAnocne ades, si fors tua indiguerimus</l>
                   <l>Opera, ne inertia tua, tuaque acedia</l>
@@ -3326,8 +3353,8 @@
             </div>
             <div n="2" type="scene">
                <head>ACTUS quinti. SCAENA secunda.</head>
-               <stage>Trimetri.</stage>
-               <stage>Virtus. Fides.</stage>
+               <stage type="delivery">Trimetri.</stage>
+               <stage type="characters">Virtus. Fides.</stage>
                <sp who="#virtus">
                   <l n="1280">VIr ipse de quo dixeram soror mea</l>
                   <l>(Quod poscat id tua charitas nunc dicier)</l>
@@ -3396,8 +3423,8 @@
             </div>
             <div n="3" type="scene">
                <head>ACTUS quinti. SCAENA tertia.</head>
-               <stage>Trimetri.</stage>
-               <stage>Sathan solus.</stage>
+               <stage type="delivery">Trimetri.</stage>
+               <stage type="characters">Sathan solus.</stage>
                <sp who="#sathan">
                   <l>CAusam meam scripturus absolutius</l>
                   <l>Adversum Hecastum, hic paululum desedero.</l>
@@ -3416,8 +3443,8 @@
             </div>
             <div n="4" type="scene">
                <head>ACTUS quinti. SCAENA quarta</head>
-               <stage>Trimetri.</stage>
-               <stage>Sacerdos. Hecastus.</stage>
+               <stage type="delivery">Trimetri.</stage>
+               <stage type="characters">Sacerdos. Hecastus.</stage>
                <sp who="#hieronymus">
                   <l>COnfessione iam tuorum criminum</l>
                   <l>Tandem absoluta, etiam sacerdotis manu</l>
@@ -3720,8 +3747,8 @@
             </div>
             <div n="5" type="scene">
                <head>ACTUS quinti. SCAENA quinta</head>
-               <stage>Trimetri.</stage>
-               <stage>Mors. Sathan.</stage>
+               <stage type="delivery">Trimetri.</stage>
+               <stage type="characters">Mors. Sathan.</stage>
                <sp who="#mors">
                   <l part="I">SAthan quid agis?</l>
                </sp>
@@ -3791,8 +3818,8 @@
             </div>
             <div n="6" type="scene">
                <head>ACTUS quinti. SCAENA sexta.</head>
-               <stage>Trimetri.</stage>
-               <stage>Hecastus, Fides, Sathan, Virtus.</stage>
+               <stage type="delivery">Trimetri.</stage>
+               <stage type="characters">Hecastus, Fides, Sathan, Virtus.</stage>
                <sp who="#hecastus">
                   <l>SOlaris atque roboras me mea Fides.</l>
                   <l>Putásne mortuus homo rursum vivet, &amp;</l>
@@ -4043,8 +4070,8 @@
             </div>
             <div n="7" type="scene">
                <head>ACTUS quinti. SCAENA septima.</head>
-               <stage>Trimetri.</stage>
-               <stage>Philomathes. Hieronymus cum Acolyto.</stage>
+               <stage type="delivery">Trimetri.</stage>
+               <stage type="characters">Philomathes. Hieronymus cum Acolyto.</stage>
                <sp who="#philomathes">
                   <l>MOrtem imminere debili praesagio</l>
                   <l>Ex pulsu &amp; atro lotio. Quid sacrificus</l>
@@ -4081,8 +4108,8 @@
                </sp>
                <div type="interlude">
                   <head>SCAENA INTERIECTITIA.</head>
-                  <stage>Versu trimetro.</stage>
-                  <stage>Philomathes, Acolitus.</stage>
+                  <stage type="delivery">Versu trimetro.</stage>
+                  <stage type="characters">Philomathes, Acolitus.</stage>
                   <sp who="#philomathes">
                      <l part="F">PRaei, sequar. Heus puer cum te sciam</l>
                      <l n="1690">Bone indolis, quin’ linquis hunc Hieronimum</l>
@@ -4209,8 +4236,8 @@
             </div>
             <div n="8" type="scene">
                <head>ACTUS quinti. SCAENA octava.</head>
-               <stage>Trimetri.</stage>
-               <stage>Mors. Fides.</stage>
+               <stage type="delivery">Trimetri.</stage>
+               <stage type="characters">Mors. Fides.</stage>
                <sp who="#mors">
                   <l part="F">SAt distuli, iam tempus est,</l>
                   <l>Ut spiculum in hunc Hecastum acutum torqueam.</l>
@@ -4337,8 +4364,8 @@
             </div>
             <div n="9" type="scene">
                <head>ACTUS quinti. SCAENA nona.</head>
-               <stage>Trimetri.</stage>
-               <stage>Hieronymus, Hecastus, Fides, Virtus.</stage>
+               <stage type="delivery">Trimetri.</stage>
+               <stage type="characters">Hieronymus, Hecastus, Fides, Virtus.</stage>
                <sp who="#hieronymus">
                   <l>Audisti Hecaste quemadmodum pro te Fides</l>
                   <l>Certaverit, munitus insuper es sacris</l>
@@ -4378,8 +4405,8 @@
             </div>
             <div n="10" type="scene">
                <head>ACTUS quinti. SCAENA decima.</head>
-               <stage>Trimetri.</stage>
-               <stage>Mors, Fides, Hecastus, Sathan.</stage>
+               <stage type="delivery">Trimetri.</stage>
+               <stage type="characters">Mors, Fides, Hecastus, Sathan.</stage>
                <sp who="#mors">
                   <l n="1830">UBi est homo tanta tumens superbia,</l>
                   <l>Ut audeat minas meas &amp; spicula</l>
@@ -4537,9 +4564,9 @@
             </div>
             <div n="11" type="scene">
                <head>ACTUS quinti. SCAENA undecima.</head>
-               <stage>Trimetri.</stage>
+               <stage type="delivery">Trimetri.</stage>
                <pb n="fol. g8v"/>
-               <stage>Philoponus, Cognati, Amici. Uxor cum familia.</stage>
+               <stage type="characters">Philoponus, Cognati, Amici. Uxor cum familia.</stage>
                <sp who="#philoponus">
                   <l n="1865">HEu heu tribules, flete Hecastum mortuum.</l>
                </sp>
@@ -4645,8 +4672,8 @@
             </div>
             <div n="12" type="scene">
                <head>SCAENA interiectitia. 12.</head>
-               <stage>Trimetri.</stage>
-               <stage>Ancillae .2. Famuli .2. Epicuria.</stage>
+               <stage type="delivery">Trimetri.</stage>
+               <stage type="characters">Ancillae .2. Famuli .2. Epicuria.</stage>
                <sp who="#ancilla-a">
                   <speaker>An.a.</speaker>
                   <l>HEra ingredere, defectio ne spiratus</l>
@@ -4755,7 +4782,7 @@
             </div>
             <div n="13" type="scene">
                <head>ACTUS quinti. SCAE. decimatertia. Trimetri.</head>
-               <stage>Hieronymus, Grex.</stage>
+               <stage type="characters">Hieronymus, Grex.</stage>
                <sp who="#hieronymus">
                   <l>QUis planctus iste inordinatus mulier est?</l>
                   <l>Quis liberi &amp; reliqui viri, quis planctus hic.</l>
@@ -4918,7 +4945,7 @@
                   <l>Non ante tertium diem tumulandus est.</l>
                   <l>Valete cuncti, &amp; si placuimus, Plaudite.</l>
                </sp>
-               <stage>FINIS.</stage>
+               <closer>FINIS.</closer>
             </div>
          </div>
       </body>

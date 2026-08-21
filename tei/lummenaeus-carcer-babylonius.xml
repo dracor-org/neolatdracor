@@ -68,29 +68,27 @@
                <person xml:id="filius-3" sex="MALE" role="filius">
                   <persName>3. Filius</persName>
                </person>
-               <person xml:id="hieremias" sex="MALE" role="propheta"
-                  ana="https://www.wikidata.org/wiki/Q158825">
-                  <persName>Hieremias/Propheta</persName>
+               <person xml:id="hieremias" sex="MALE" role="propheta" ana="https://www.wikidata.org/wiki/Q158825">
+                  <persName>Hieremias</persName>
+                  <persName type="variant">Propheta</persName>
                </person>
                <person xml:id="nabuzardan" sex="MALE" ana="https://www.wikidata.org/wiki/Q6903514"
                   role="miles">
                   <persName>Nabuzaradan</persName>
                </person>
-               <person xml:id="nabuchodonosor" sex="MALE" role="rex"
-                  ana="https://www.wikidata.org/wiki/Q12591">
+               <person xml:id="nabuchodonosor" sex="MALE" role="rex" ana="https://www.wikidata.org/wiki/Q12591">
                   <persName>Nabuchodonosor</persName>
                </person>
                <person xml:id="nuncius" sex="MALE" role="nuncius">
                   <persName>Nuncius</persName>
                </person>
-               <person xml:id="princeps-chori" sex="MALE" role="chorus" corresp="#chorus">
+               <person xml:id="princeps-chori" sex="FEMALE" role="chorus" corresp="#chorus-israelitarum">
                   <persName>Princeps Chori</persName>
                </person>
                <personGrp xml:id="satellitium" sex="MALE" role="miles">
                   <persName>Satellitium</persName>
                </personGrp>
-               <person xml:id="sedechias" sex="MALE" role="rex"
-                  ana="https://www.wikidata.org/wiki/Q184273">
+               <person xml:id="sedechias" sex="MALE" role="rex" ana="https://www.wikidata.org/wiki/Q184273">
                   <persName>Sedechias</persName>
                </person>
                <personGrp xml:id="chorus-chaldaeorum" sex="MALE" role="chorus">
@@ -109,7 +107,8 @@
                   <relation name="associated_with" active="#asphenes" passive="#nabuchodonosor"/>
                   <relation name="associated_with" active="#nabuzardan" passive="#nabuchodonosor"/>
                   <relation name="associated_with" active="#satellitium" passive="#nabuchodonosor"/>
-                  <relation name="associated_with" active="#chorus" passive="#princeps-chori"/>
+                  <relation name="associated_with" active="#chorus-israelitarum"
+                     passive="#princeps-chori"/>
                </listRelation>
             </listPerson>
          </particDesc>
@@ -125,6 +124,13 @@
             </region>
          </creation>
       </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2026-02-09">
+               <desc>Converted to DraCor TEI by Julia Jennifer Beine.</desc>
+            </change>
+         </listChange>
+      </revisionDesc>
    </teiHeader>
    <standOff>
       <listEvent>
@@ -145,8 +151,10 @@
                Iurati, ad signum albae Columbae</publisher>. <docDate when="1610"
             >1610</docDate>.</docImprint>
          <div type="dedication">
-            <opener><salute>SERENISmo. ARCHIDVCI ALBERTO BELGARVM PRINCIPI. DIVA MELPOMENE C. D.
-                  D.</salute></opener>
+            <opener>
+               <salute>SERENISmo. ARCHIDVCI ALBERTO BELGARVM PRINCIPI. DIVA MELPOMENE C. D.
+                  D.</salute>
+            </opener>
             <l>DIVE heros, nostri cui sudauere dolores,</l>
             <l rend="indent">Accipe quae pullo syrmate MARCA vehit,</l>
             <l>Ille tuus vates, &amp; qui tibi debita sacrat</l>
@@ -175,8 +183,10 @@
             <signed>GODEFRIDVS LEMMENS ABBAS VLIERBEKANVS.</signed>
          </div>
          <div type="epistle">
-            <opener><salute>Musis Doctmi Poëtae Cornelij á Marca Benedictus Sossagus Mediolanensis
-                  ex nutu IlImi, Cardinalis Borromaei.</salute></opener>
+            <opener>
+               <salute>Musis Doctmi Poëtae Cornelij á Marca Benedictus Sossagus Mediolanensis ex
+                  nutu IlImi, Cardinalis Borromaei.</salute>
+            </opener>
             <l>SI quando Parcas atque Fatorum vices</l>
             <l>Phoebus recenset carmen attonitis bibit</l>
             <l>Auribus &amp; animis lupiter tacitis probat,</l>
@@ -334,8 +344,8 @@
          <div type="act" n="1">
             <div type="scene" n="1">
                <head>Actus primi. Scena Ia.</head>
-               <stage>NABVCHODONOZOR.</stage>
                <sp who="#nabuchodonosor">
+                  <speaker>NABVCHODONOZOR.</speaker>
                   <l>INFIDA semper Solyma! non vnquam semel</l>
                   <l>Periura, perduellis! ingratum caput</l>
                   <l>O Sedecia! quò rapit praeceps furor</l>
@@ -388,8 +398,10 @@
                   <l>Cornuta plenam Diua formabit facem</l>
                   <l>Et tu peribis Solyma; iuraui Deos.</l>
                </sp>
+            </div>
+            <div type="scene" subtype="chorus" n="2">
                <pb n="3"/>
-               <stage>CHORVS CHALD.</stage>
+               <head>CHORVS CHALD.</head>
                <sp who="#chorus-chaldaeorum">
                   <l n="50">ECQVIS strepitus? quae turba virûm?</l>
                   <l>Vaeh! raucarum mille tubarum</l>
@@ -483,13 +495,13 @@
                </sp>
             </div>
          </div>
-         <pb n="Biij"/>
-         <pb n="6"/>
          <div type="act" n="2">
+            <pb n="Biij"/>
+            <pb n="6"/>
+            <head>ACTVS 2.</head>
             <div type="scene" n="1">
-               <head>ACTVS 2.</head>
-               <stage>Nabuzardan Princeps militiae.</stage>
                <sp who="#nabuzardan">
+                  <speaker>Nabuzardan Princeps militiae.</speaker>
                   <l>BENE est, tenentur, nullus effugio est locus,</l>
                   <l>Clausêre muros castra &amp; effossos trahent</l>
                   <l>Vt se repente totus excutiet furor</l>
@@ -527,7 +539,9 @@
                   <l n="170">Luctantis animi! Solyma, perfidiae caput</l>
                   <l>Solyma, videbis sanguinem &amp; stupra &amp; faces.</l>
                </sp>
-               <stage>CHORVS CHALD.</stage>
+            </div>
+            <div type="scene" subtype="chorus" n="2">
+               <head>CHORVS CHALD.</head>
                <sp who="#chorus-chaldaeorum">
                   <l>SI vera canit docta vetustas,</l>
                   <l>Nec malè vates omnia fingunt,</l>
@@ -702,10 +716,10 @@
             </div>
          </div>
          <div type="act" n="3">
+            <head>ACTVS 3.</head>
             <div type="scene" n="1">
-               <head>ACTVS 3.</head>
-               <stage>PROPHETA.</stage>
                <sp who="#hieremias">
+                  <speaker>PROPHETA.</speaker>
                   <l>QUO fugimus iterum? scilicet non est nouum</l>
                   <l n="335">Mutare sedes, fecit hoc Solymé prior</l>
                   <l>Et cum Manassen vidit inclusum specu</l>
@@ -788,7 +802,9 @@
                   <l>Inspirat animos? Solyma collapsa est mea</l>
                   <l n="410">Et clade factâ lugubre excidium trahit.</l>
                </sp>
-               <stage>CHORVS ISRAELIT.</stage>
+            </div>
+            <div type="scene" subtype="chorus" n="2">
+               <head>CHORVS ISRAELIT.</head>
                <sp who="#chorus-israelitarum">
                   <l>VERVM est, an miseris imposuit timor</l>
                   <l>Chaldeos alacres feruere, &amp; impetu</l>
@@ -998,10 +1014,10 @@
             </div>
          </div>
          <div type="act" n="4">
+            <head>ACTVS 4.</head>
             <div type="scene" n="1">
-               <head>ACTVS 4.</head>
-               <stage>NABVCHODONOZOR Rex.</stage>
-               <stage>ET ASPHENES PRINCEPS EVNVCH.</stage>
+               <stage type="characters">NABVCHODONOZOR Rex.</stage>
+               <stage type="characters">ET ASPHENES PRINCEPS EVNVCH.</stage>
                <sp who="#nabuchodonosor">
                   <l n="605">DVBITAMUS etiam? scilicet sceptro excidit</l>
                   <l>Rex perduellis, scilicet vinctus sedet,</l>
@@ -1025,7 +1041,7 @@
                   <l part="I">Infame monstrum?</l>
                </sp>
                <sp who="#asphenes">
-                  <speaker>ASPHENES</speaker>
+                  <speaker>ASPHENES:</speaker>
                   <l part="F">Maxime ô Regum Parens</l>
                   <l part="I">Quid te in tumultum concitas?</l>
                </sp>
@@ -1040,11 +1056,11 @@
                <sp who="#nabuchodonosor">
                   <speaker>NAB:</speaker>
                   <l part="F">Ille qui sacra &amp; Deos</l>
-                  <l n="(625)" part="I">Foedifragus.</l>
+                  <l n="625" part="I">Foedifragus.</l>
                </sp>
                <sp who="#asphenes">
                   <speaker>ASPH:</speaker>
-                  <l n="(625)" part="F">Ille qui suâ clade obrutus</l>
+                  <l n="625" part="F">Ille qui suâ clade obrutus</l>
                   <l>Vidit suorum funera &amp; vidit suos</l>
                   <l>Ardere cum penatibus versis lares.</l>
                </sp>
@@ -1060,11 +1076,11 @@
                <sp who="#nabuchodonosor">
                   <speaker>NAB:</speaker>
                   <l part="F">Quin &amp; sanguine? &amp; vastae cadat</l>
-                  <l n="(630)" part="I">Pars magna stragis?</l>
+                  <l n="630" part="I">Pars magna stragis?</l>
                </sp>
                <sp who="#asphenes">
                   <speaker>ASPH:</speaker>
-                  <l n="(630)" part="F">Nempe cui totum id suum est</l>
+                  <l n="630" part="F">Nempe cui totum id suum est</l>
                   <l>Quicquid suorum in vrbe subuersâ iacet.</l>
                </sp>
                <sp who="#nabuchodonosor">
@@ -1214,8 +1230,10 @@
                   <l>Exemplo ab vno didici, &amp; attonitus iacet</l>
                   <l>Animus, dolorem fixit alienus dolor.</l>
                </sp>
+            </div>
+            <div type="scene" n="2">
                <pb n="24"/>
-               <stage>CHORVS ISRAELIT.</stage>
+               <head>CHORVS ISRAELIT.</head>
                <sp who="#chorus-israelitarum">
                   <l n="670">VASTATA Solymé est, vndique in flammis stetit</l>
                   <l>Antiqua Bethel, illa quam dono tulit</l>
@@ -1376,10 +1394,10 @@
             </div>
          </div>
          <div type="act" n="5">
+            <head>ACTVS 5.</head>
             <div type="scene" n="1">
-               <head>ACTVS 5.</head>
-               <stage>SEDECHIAS, NABVCHODONOZOR,</stage>
-               <stage>SATELLITIVM, ET FILII SEDECHIAE.</stage>
+               <stage type="characters">SEDECHIAS, NABVCHODONOZOR,</stage>
+               <stage type="characters">SATELLITIVM, ET FILII SEDECHIAE.</stage>
                <sp who="#sedechias">
                   <l>QVICVMQVE sceptro fidit, &amp; vano nimis</l>
                   <l>Fulgore captus fragile suspirat bonum,</l>
@@ -1617,7 +1635,9 @@
                   <l>Quò se excutit? tenete, dum sedeat furor,</l>
                   <l n="905">Vinctumque, ferroque obrutum in caueam date.</l>
                </sp>
-               <stage>CHORVS ISRAELIT. PLANGENTIVM.</stage>
+            </div>
+            <div type="scene" n="2">
+               <head>CHORVS ISRAELIT. PLANGENTIVM.</head>
                <sp who="#chorus-israelitarum">
                   <l>QVO se rapiet dolor &amp; miserae</l>
                   <l>Quae prima struam verba querelae?</l>
@@ -1821,7 +1841,7 @@
                   <l n="1095" part="I">Ciues Solymae!</l>
                </sp>
                <sp who="#virgines">
-                  <speaker>VIRGINES</speaker>
+                  <speaker>VIRGINES:</speaker>
                   <l n="1095" part="F">Collapsa iacet,</l>
                   <l>Fouete gelidam, spiritus tenues eunt,</l>
                   <l>Vix follicantes aegra pulmones trahit.</l>
@@ -1877,7 +1897,7 @@
                   <l n="1150">Tentare foetam Numinis diri manum!</l>
                   <l>O sancte I’Houa! iustus est furor tuus.</l>
                </sp>
-               <stage>FINIS.</stage>
+               <closer>FINIS.</closer>
             </div>
          </div>
       </body>

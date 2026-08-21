@@ -3,7 +3,7 @@
 ## General Information
 
 Neo-Latin Drama Corpus, dramatic texts in [TEI P5](https://tei-c.org/guidelines/p5/) format. Licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).  
-Edited by Julia Jennifer Beine (University of Würzburg), maintained by Carsten Milling and Ingo Börner (both University of Potsdam). The texts in the Neo-Latin Drama Corpus were encoded and contributed by different working groups. Legal responsibility lies with the editors of the subcorpora. The responsibilities and corpus details are documented below. More information on the NeoLatDraCor project may be found in the [NeoLatDraCor Wiki](https://github.com/dracor-org/neolatdracor/wiki).
+Edited by Julia Jennifer Beine (University of Würzburg), co-maintained by Carsten Milling (University of Potsdam). The texts in the Neo-Latin Drama Corpus were encoded and contributed by different working groups. Legal responsibility lies with the editors of the subcorpora. The responsibilities and corpus details are documented below. More information on the NeoLatDraCor project may be found in the [NeoLatDraCor Wiki](https://github.com/dracor-org/neolatdracor/wiki).
 
 ## Contributing Working Groups
 
@@ -14,13 +14,13 @@ editor(s): Thomas Baier, Joachim Hamm, Ulrich Schlegelmilch (all University of W
 encoder(s): tba  
 text selection in alphabetical order: Aiax lora gestans (1556), Electra (1556)  
 number of texts: 2  
-status: dormant  
+status: work in progress  
 website: [Camerarius digital](http://www.camerarius.de)
 
-### From Stage to Page. Neo-Latin School Drama in the Early Modern Southern Low Countries and its Manuscript Tradition
+### From Stage to Page
 editor(s): Nicholas De Sutter  
 encoder(s): Nicholas De Sutter  
-text selection in alphabetical order: tba  
+text selection in alphabetical order: Codrillos (1679), Dos (1679), Dormientes (1679), Fernandes (1679), Franciscanus (1679), Gemma (1679), Gymnasium (1679), Lytrum (1679), Marsupium (1679), Prandium (1679), Sepultus (1679), Villicus (1679), ...   
 number of texts: ca. 20  
 status: work in progress  
 website: work in progress  
@@ -39,7 +39,7 @@ transcriber(s): Monika Deželak Trojar, Ana Bembič, Kajetan Škraban
 encoder(s): tba  
 text selection in alphabetical order: See the overview below.  
 number of texts: 28  
-status: work in progress  
+status: dormant  
 website: tba
 
 ### Macropedius Drama Corpus
@@ -48,7 +48,7 @@ encoders: Timo Bremer, Christina Charalampidou, Carina Christensen, Leon Fabian 
 text selection in alphabetical order: Adamus (1552), Aluta (1553), Andrisca (1553), Asotus (1552), Bassarus (1553), Hecastus (1552), Hypomone seu patientia (1554), Iesus scholasticus (1556), Iosephus (1553), Lazarus mendicus (1552), Petriscus (1553), Rebelles (1553)  
 number of texts: 12  
 status: work in progress  
-website: /
+website: [Macropedius Drama Corpus (teaching project)](https://www.klassphil.uni-wuerzburg.de/forschung/forschung-der-latinistik/laufende-forschungsprojekte/macropedius-drama-corpus/)
 
 ### Theatrum Neolatinum
 editor(s): Kateřina Bobková-Valentová (Czech Academy of Science), Alena Bočková (Charles University), Martin Bažil (Charles University), Magdaléna Jacková (Czech Academy of Science), Markéta Klosová (Czech Academy of Science)  
