@@ -102,9 +102,9 @@
      <person xml:id="alectrica" sex="FEMALE">
       <persName>Alectrica</persName>
      </person>
-     <person xml:id="amici-tobiae" sex="MALE">
-      <persName>Amici Tobiae</persName>
-     </person>
+     <personGrp xml:id="amici-tobiae" sex="MALE">
+      <name>Amici Tobiae</name>
+     </personGrp>
      <person xml:id="amor-1" sex="MALE">
       <persName>Amor 1</persName>
      </person>
@@ -116,9 +116,6 @@
      </person>
      <person xml:id="amor-4" sex="MALE">
       <persName>Amor 4</persName>
-     </person>
-     <person xml:id="angelus" sex="MALE">
-      <persName>Angelus</persName>
      </person>
      <person xml:id="angelus-1" sex="MALE">
       <persName>Angelus 1</persName>
@@ -150,22 +147,22 @@
      <person xml:id="belphegor" sex="MALE">
       <persName>Belphegor</persName>
      </person>
-     <person xml:id="choragus" sex="MALE">
+     <person xml:id="choragus" sex="MALE" corresp="#chorus">
       <persName>Choragus</persName>
      </person>
-     <person xml:id="chorus" sex="MALE">
-      <persName>Chorus</persName>
-     </person>
-     <person xml:id="chorus-1" sex="MALE">
-      <persName>Chorus 1</persName>
-     </person>
-     <person xml:id="chorus-2" sex="MALE">
-      <persName>Chorus 2</persName>
-     </person>
+     <personGrp xml:id="chorus" sex="MALE">
+      <name>Chorus</name>
+     </personGrp>
+     <personGrp xml:id="chorus-1" sex="MALE" role="#semi-chorus" corresp="#chorus">
+      <name>Chorus 1</name>
+     </personGrp>
+     <personGrp xml:id="chorus-2" sex="MALE" role="#semi-chorus" corresp="#chorus">
+      <name>Chorus 2</name>
+     </personGrp>
      <person xml:id="credulitas" sex="FEMALE">
       <persName>Credulitas</persName>
      </person>
-     <person xml:id="deus" sex="UNKNOWN">
+     <person xml:id="deus" sex="MALE">
       <persName>Deus</persName>
      </person>
      <person xml:id="dina" sex="FEMALE">
@@ -174,34 +171,39 @@
      <person xml:id="dorio" sex="MALE">
       <persName>Dorio</persName>
      </person>
-     <person xml:id="ebul-" sex="MALE">
+     <person xml:id="ebulus" sex="MALE">
       <persName>Ebul.</persName>
+      <persName type="variant">Ebulus</persName>
      </person>
-     <person xml:id="edom-" sex="MALE">
+     <person xml:id="edomus" sex="MALE">
       <persName>Edom.</persName>
+      <persName type="variant">Edomus</persName>
      </person>
      <person xml:id="gabelus" sex="MALE">
       <persName>Gabelus</persName>
      </person>
-     <person xml:id="gebal-" sex="MALE">
+     <person xml:id="gebalus" sex="MALE">
       <persName>Gebal.</persName>
+      <persName type="variant">Gebalus</persName>
      </person>
-     <person xml:id="gigantes" sex="MALE">
-      <persName>Gigantes</persName>
-     </person>
-     <person xml:id="hor-" sex="MALE">
-      <persName>Hor.</persName>
-     </person>
-     <personGrp xml:id="ludiones-et-intermedii-joculares" sex="UNKNOWN">
-      <name>Joculares et joviales</name>
+     <personGrp xml:id="gigantes" sex="MALE">
+      <name>Gigantes</name>
      </personGrp>
-     <personGrp xml:id="musae" sex="MALE">
+     <person xml:id="horatius" sex="MALE">
+      <persName>Hor.</persName>
+      <persName type="variant">Horatius</persName>
+     </person>
+     <personGrp xml:id="joculares-et-joviales" sex="UNKNOWN">
+      <name>Joculares et joviales</name>
+      <name type="variant">Ludiones et intermedii joculares</name>
+     </personGrp>
+     <personGrp xml:id="musae" sex="FEMALE">
       <name>Musae</name>
      </personGrp>
-     <person xml:id="omnes" sex="MALE">
-      <persName>Omnes</persName>
-     </person>
-     <person xml:id="onum-" sex="MALE">
+     <personGrp xml:id="omnes" sex="UNKNOWN">
+      <name>Omnes</name>
+     </personGrp>
+     <person xml:id="onum" sex="MALE">
       <persName>Onum.</persName>
      </person>
      <person xml:id="raguel" sex="MALE">
@@ -222,23 +224,18 @@
      <person xml:id="sara" sex="FEMALE">
       <persName>Sara</persName>
      </person>
-     <person xml:id="sem-" sex="MALE">
+     <person xml:id="sem" sex="MALE">
       <persName>Sem.</persName>
      </person>
-     <personGrp xml:id="septem-mariti-sarae" sex="MALE">
-      <name>Septem mariti Sarae</name>
-     </personGrp>
-     <personGrp xml:id="sirenes" sex="MALE">
+     <personGrp xml:id="sirenes" sex="FEMALE">
       <name>Sirenes</name>
      </personGrp>
-     <person xml:id="tobias" sex="MALE">
-      <persName>Tobias</persName>
-     </person>
      <person xml:id="tobias-junior" sex="MALE">
       <persName>Tobias Junior</persName>
      </person>
      <person xml:id="tobias-senior" sex="MALE">
       <persName>Tobias Senior</persName>
+      <persName type="variant">Senex Tobias</persName>
      </person>
      <person xml:id="virgo-1" sex="MALE">
       <persName>Virgo 1</persName>
@@ -275,8 +272,8 @@
      <titlePart type="main">Tobias Junior</titlePart>
     </docTitle>
     <titlePart type="dedication">illustrissimis sponsis, Wenceslao Guilielmo Poppelio, Baroni a Lobkovitz, Domino in Tuchs, Scheichlap, Schreckenstain, Oberleutmansdorff et Georgenthal, Sacrae Caesareae Majestatis Consiliario et ejusdem atque Serenissimi Ferdinandi, Archiducis
-     Austriae etc., Camerario, et Margaretae Franciscae, Comitissae de Dietrichstein,Cremsirii nuptiales dies agitantibus,ibidem datus ab illustribus, generosis, nobilibus, ingenuis adolescentibus, Episcopalis Academiae Olomucii studiosis Societatis Jesu, illustrissimorum novorum
-     conjugum observantissimis. </titlePart>
+     Austriae etc., Camerario, et Margaretae Franciscae, Comitissae de Dietrichstein, Cremsirii nuptiales dies agitantibus, ibidem datus ab illustribus, generosis, nobilibus, ingenuis adolescentibus, Episcopalis Academiae Olomucii studiosis Societatis Jesu, illustrissimorum
+     novorum conjugum observantissimis. </titlePart>
     <docImprint>
      <pubPlace>Olomucii</pubPlace>, typis <publisher>Georgii Handelii</publisher>
     </docImprint>
@@ -332,6 +329,9 @@
      <castItem>
       <role>Gebal.:</role>
       <actor>Guilielmus Trach de Burkaw, Eques</actor>
+     </castItem>
+     <castItem>
+      <role>Onum.:</role>
       <actor>Gallus Ferdinandus Kaliwoda</actor>
      </castItem>
      <castItem>
@@ -502,26 +502,18 @@
     </opener>
     <p>Ex illis, qui res veterum aut in liberam, aut in ligatam dictionem illigarunt, est proclive conjicere in heroum et heroinarum nuptias homines omnium rerum laudibus affluentissimos manibus atque pedibus ivisse. Nam ut taceamus de nuptiis, quas literis tanquam adamante
      notarunt poetae, ut sileamus Deos, licet commentitios, tum in Cadmi et Harmoniae, cum in Pelei et Thetidis nuptiis versatos, ut praetereamus omnium gentium legatos, qui commearunt ad Alexandri Magni nuptias cum Statyra, Darii filia, dictionem ad Sigismundum a Dietrichstein,
-     Suae Eminentissimae Celsitudinis nunquam satis laudatae memoriae avum, convertimus. Etenim ita Cuspinianus in diario: <emph rend="italic">Et in principio noctis conveniunt omnes reges cum Caesare</emph>
-     <emph rend="italic">ad caenam, quia nuptias</emph>
-     <emph rend="italic">hac nocte celebrabant D. Sigismundus de Dietrichstein et Barbara</emph>
-     <emph rend="italic">virgo, filia D. Georgii de</emph>
+     Suae Eminentissimae Celsitudinis nunquam satis laudatae memoriae avum, convertimus. Etenim ita Cuspinianus in diario: <emph rend="italic">Et in principio noctis conveniunt omnes reges cum Caesare ad caenam, quia nuptias hac nocte celebrabant D. Sigismundus de Dietrichstein
+      et Barbara virgo, filia D. Georgii de</emph>
      <pb n="A3r" />
-     <emph rend="italic">Rottal; parata erat caena regia innumeris dapibus. Collocabatur in principio tabulae Rex Ungariae Vladislaus,</emph>
-     <emph rend="italic">dehinc sponsa Barbara, tum Caesar, post domina Anna</emph>
-     <emph rend="italic">tum Rex Poloniae,</emph>
-     <emph rend="italic">tum domina Maria,</emph>
-     <emph rend="italic">post Rex Ludovicus,</emph>
-     <emph rend="italic">tum ejus Magistra curiae, post Archiepiscopus Bremensis,</emph>
-     <emph rend="italic">tum Ratisponensis Praesul,</emph>
-     <emph rend="italic">tum caeteri duces saepius nominati, quibus semper immiscebantur matronae et virgines, tum utriusque Regis consiliarii et familiares, semper immixtis puellis. Duravit haec caena in horam decimam noctis, splendidissima et opipara; qua finita, Caesar et
-      Reges in aliud descendentes palatium, choreas duxerunt. Et hinc quisque diversorium suum petiit.</emph>Illustrissimae Suae Celsitudinis neptis Margareta Francisca a Dietrichstein, quae pigmentis fortunae, naturae, virtutis picturata, in illustrissimam domum Poppelianam
-     nubit. Nuptiae tales propemodum, quales aut Alphonsus, Rex Castellae, Ferdinando, filio suo, paravit; ita lautas, ut si Metelli, Cleopatrae, Antonii, Caligulae, Vitellii caenas cum illis compararim, canina prandia cum Siculis mensis conferre videar. Aut Bonifacius, Marchio
-     et Dux Thusciae, Beatricem, Conradi Secundi filiam, in matrimonium ducturus, qui tantum sumptus effudit, ut etiam argenteae soleae, in pedes equorum inductae, oculorum aciem perstrinxerint. Nuptiae hominum frequentia propemodum ita celebres, quemadmodum illae, quas
-     Wenceslaus Quartus, Bohemo-<pb n="A3v" />rum Rex, adornavit, quarum epulationibus centum millia hominum accubabant. Nostrae Musae veniendi cupiditate quidem capiuntur, verentur autem, ut quispiam sit, a quo possint nuptiarum aditu prohiberi. Quanquam enim, ut sibi viam
-     aperirent, Tobiam panxerunt, ita morigerum, ut etiam ad digituli crepitum, sibi tamen censent aditum ad nuptias interclusum. Non etenim satis vel pexae, vel comptae, nec bene bellae, laetae, lepidae. Quanquam enim non erat, cur ornarentur et salibus aspergerentur, vel aceto
-     perfunderentur, quia sacrae et e sacris literis natae, et Theopompus aliquid divinorum voluminum ornaturus, mentis quadam agitatione divinitus immissa perturbatus, institutum omittere coactus fuit; quid tamen nec venustae, nec salsae sunt, nec ad aliorum salivam facturae
-     videntur, ratione repulsam verentur. Sed veniunt, et ut sibi januam patefaciant, ad Illustrissimam Suam Celsitudinem hoc antiloquio divertunt: spe nixae futurum, ut hanc Corinthum appellant et ad nuptias admittantur.</p>
+     <emph rend="italic">Rottal; parata erat caena regia innumeris dapibus. Collocabatur in principio tabulae Rex Ungariae Vladislaus, dehinc sponsa Barbara, tum Caesar, post domina Anna, tum Rex Poloniae, tum domina Maria, post Rex Ludovicus, tum ejus Magistra curiae, post
+      Archiepiscopus Bremensis, tum Ratisponensis Praesul, tum caeteri duces saepius nominati, quibus semper immiscebantur matronae et virgines, tum utriusque Regis consiliarii et familiares, semper immixtis puellis. Duravit haec caena in horam decimam noctis, splendidissima et
+      opipara; qua finita, Caesar et Reges in aliud descendentes palatium, choreas duxerunt. Et hinc quisque diversorium suum petiit.</emph> Illustrissimae Suae Celsitudinis neptis Margareta Francisca a Dietrichstein, quae pigmentis fortunae, naturae, virtutis picturata, in
+     illustrissimam domum Poppelianam nubit. Nuptiae tales propemodum, quales aut Alphonsus, Rex Castellae, Ferdinando, filio suo, paravit; ita lautas, ut si Metelli, Cleopatrae, Antonii, Caligulae, Vitellii caenas cum illis compararim, canina prandia cum Siculis mensis conferre
+     videar. Aut Bonifacius, Marchio et Dux Thusciae, Beatricem, Conradi Secundi filiam, in matrimonium ducturus, qui tantum sumptus effudit, ut etiam argenteae soleae, in pedes equorum inductae, oculorum aciem perstrinxerint. Nuptiae hominum frequentia propemodum ita celebres,
+     quemadmodum illae, quas Wenceslaus Quartus, Bohemo-<pb n="A3v" />rum Rex, adornavit, quarum epulationibus centum millia hominum accubabant. Nostrae Musae veniendi cupiditate quidem capiuntur, verentur autem, ut quispiam sit, a quo possint nuptiarum aditu prohiberi. Quanquam
+     enim, ut sibi viam aperirent, Tobiam panxerunt, ita morigerum, ut etiam ad digituli crepitum, sibi tamen censent aditum ad nuptias interclusum. Non etenim satis vel pexae, vel comptae, nec bene bellae, laetae, lepidae. Quanquam enim non erat, cur ornarentur et salibus
+     aspergerentur, vel aceto perfunderentur, quia sacrae et e sacris literis natae, et Theopompus aliquid divinorum voluminum ornaturus, mentis quadam agitatione divinitus immissa perturbatus, institutum omittere coactus fuit; quid tamen nec venustae, nec salsae sunt, nec ad
+     aliorum salivam facturae videntur, ratione repulsam verentur. Sed veniunt, et ut sibi januam patefaciant, ad Illustrissimam Suam Celsitudinem hoc antiloquio divertunt: spe nixae futurum, ut hanc Corinthum appellant et ad nuptias admittantur.</p>
    </div>
    <pb n="A4r" />
    <div type="prologue">
@@ -574,7 +566,8 @@
      <l n="31">Francisce, cujus aere ceu flammis calent</l>
      <l n="32">Et aggerantur nuptiae, dum me meis</l>
      <l n="33">Attemperabo partibus, magnas opes,</l>
-     <l n="34">Δάθον bonorum, copiae cornu precor.</l>
+     <l n="34">
+      <foreign xml:lang="grc" xml:space="preserve">Δάθον</foreign>bonorum, copiae cornu precor.</l>
     </sp>
     <sp who="#gabelus">
      <speaker>Gabelus</speaker>
@@ -590,7 +583,7 @@
      <l n="44">Magnis profecti, gaudium affertis novis</l>
      <l n="45">Sponsis, precamur, cuncta ut ex voto fluant.</l>
     </sp>
-    <sp who="#ludiones-et-intermedii-joculares">
+    <sp who="#joculares-et-joviales">
      <speaker>Joculares et joviales</speaker>
      <l n="46">Nobis lepores, seriae dum res calent,</l>
      <l n="47">Sunt imperati, jussa facturi sumus.</l>
@@ -610,83 +603,82 @@
      <head>Actus I. Scena I.</head>
      <argument>
       <p>
-       <persName ref="#hor-">Hor.</persName>
+       <persName ref="#horatius" rend="italic">Hor.</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#sem-">Sem.</persName>
+       <persName ref="#sem" rend="italic">Sem.</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#ebul-">Ebul.</persName>
+       <persName ref="#ebulus" rend="italic">Ebul.</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#edom-">Edom.</persName>
+       <persName ref="#edomus" rend="italic">Edom.</persName>
       </p>
       <p>Argumentum</p>
       <p>
-       <emph rend="italic">Cognati Tobiae Senioris verba faciunt de calamitatibus; quarum admiratione capti</emph>
-       <emph rend="italic">videntur quidem de causis sciscitari. Sed carpunt et vellicant Tobiam, et ut graviore brachio vexent, capiunt consilium illum adeundi.</emph>
+       <emph rend="italic">Cognati Tobiae Senioris verba faciunt de calamitatibus; quarum admiratione capti videntur quidem de causis sciscitari. Sed carpunt et vellicant Tobiam, et ut graviore brachio vexent, capiunt consilium illum adeundi.</emph>
       </p>
      </argument>
-     <sp who="#hor-">
+     <sp who="#horatius">
       <speaker>Hor.</speaker>
       <l n="53">Novistis omnes, in statu quo sint sitae</l>
       <l n="54">Fortuna resque, vel quibus currant equis</l>
       <l n="55">Senis Tobiae reculae, aut potius quibus</l>
       <l n="56" part="I">Asinis vehantur.</l>
      </sp>
-     <sp who="#sem-">
+     <sp who="#sem">
       <speaker>Sem.</speaker>
       <l n="56" part="F">Nota vel lippo omnia.</l>
      </sp>
-     <sp who="#hor-">
+     <sp who="#horatius">
       <speaker>Hor.</speaker>
       <l n="57">Quae sensa ab illo pectora in vestra influunt?</l>
       <l n="58">Quid opinionis ille, quid sensus facit</l>
       <l n="59">De se? Quid ejus de statu fari licet?</l>
      </sp>
-     <sp who="#sem-">
+     <sp who="#sem">
       <speaker>Sem.</speaker>
       <l n="60">Mihi videtur res suas inter sacrum</l>
       <l n="61">Saxumque collocasse.</l>
      </sp>
-     <sp who="#ebul-">
+     <sp who="#ebulus">
       <speaker>Ebul.</speaker>
       <l n="62">Quo sese feret</l>
       <l n="63" part="I">Vertetque tandem?</l>
      </sp>
-     <sp who="#edom-">
+     <sp who="#edomus">
       <speaker>Edom.</speaker>
       <l n="63" part="F">Veniet ad restim brevi.</l>
      </sp>
-     <sp who="#hor-">
+     <sp who="#horatius">
       <speaker>Hor.</speaker>
       <l n="64">Deus videtur ejus in vetulum caput</l>
       <pb n="B1v" />
       <l n="65">Cudisse fabam; nil ei ex voto fluit,</l>
       <l n="65">Tremulaque recte sub manu cedit nihil.</l>
      </sp>
-     <sp who="#sem-">
+     <sp who="#sem">
       <speaker>Sem.</speaker>
       <l n="66">Non est medulla regis, ut fuerat prius.</l>
      </sp>
-     <sp who="#ebul-">
+     <sp who="#ebulus">
       <speaker>Ebul.</speaker>
       <l n="67">Mercatus ille gratiam regis quidem,</l>
       <l n="68">Sed ex amore, gratia, mente excidit,</l>
       <l n="69">Inque dominorum tesseram fregit domo.</l>
      </sp>
-     <sp who="#edom-">
+     <sp who="#edomus">
       <speaker>Edom.</speaker>
       <l n="70">Et sicut infans matris excussus sinu</l>
       <l n="71">Aut sicut unus e grege abiectus jacet.</l>
      </sp>
-     <sp who="#hor-">
+     <sp who="#horatius">
       <speaker>Hor.</speaker>
       <l n="72" part="I">Largitiones quas facit?</l>
      </sp>
-     <sp who="#sem-">
+     <sp who="#sem">
       <speaker>Sem.</speaker>
       <l n="72" part="F">Fundo carent.</l>
       <l n="73">Se perdit illis et suam exhaurit domum.</l>
      </sp>
-     <sp who="#ebul-">
+     <sp who="#ebulus">
       <speaker>Ebul.</speaker>
       <l n="74">Ornandus ille laude permagna quidem</l>
       <l n="75">Opum suarum promus, haud condus; juvat</l>
@@ -694,19 +686,19 @@
       <l n="77">Levat aere, potu recreat, panno tegit.</l>
       <l n="78">Sed haec notanda calculo nigro putant!</l>
      </sp>
-     <sp who="#sem-">
+     <sp who="#sem">
       <speaker>Sem.</speaker>
       <l n="79">De caecitate vero quid dici potest?</l>
      </sp>
-     <sp who="#ebul-">
+     <sp who="#ebulus">
       <speaker>Ebul.</speaker>
       <l n="80">Postrema non est inter aerumnas graves.</l>
      </sp>
-     <sp who="#edom-">
+     <sp who="#edomus">
       <speaker>Edom.</speaker>
       <l n="81">Nondum expiati criminis poenam sonat.</l>
      </sp>
-     <sp who="#ebul-">
+     <sp who="#ebulus">
       <speaker>Ebul.</speaker>
       <l n="82">Sed multus esse rebus in sanctis solet,</l>
       <l n="83">Bona generare, jure quae debent suo,</l>
@@ -715,14 +707,14 @@
       <l n="86">Bene namque facere, gerere res sanctas pie,</l>
       <l n="87">Accersit illud, quod bonum est, pellit malum.</l>
      </sp>
-     <sp who="#edom-">
+     <sp who="#edomus">
       <speaker>Edom.</speaker>
       <l n="88">Ex hoc ab illo non meti messem auream</l>
       <l n="89">Nec ulla vitae commoda admiror capi;</l>
       <l n="90">Nam fonte ab isto maximis rivis eunt,</l>
       <l n="91">Quaecunque haberi pro bonis vitae solent.</l>
      </sp>
-     <sp who="#hor-">
+     <sp who="#horatius">
       <speaker>Hor.</speaker>
       <l n="92">Sit multus et sit plurimus; quid enim interest?</l>
       <l n="93">Ego susque deque, quicquid est sanctum, reor</l>
@@ -748,22 +740,20 @@
      <head>Scena II.</head>
      <argument>
       <p>
-       <persName ref="#alectrica">Alectrica</persName>
+       <persName ref="#alectrica" rend="italic">Alectrica</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#sagana">Sagana</persName>
+       <persName ref="#sagana" rend="italic">Sagana</persName>
       </p>
       <p>Argumentum</p>
       <p>
        <emph rend="italic">Dum</emph>
-       <persName ref="#alectrica">Alectrica</persName>
+       <persName ref="#alectrica" rend="italic">Alectrica</persName>
        <emph rend="italic">, foemina venefica, suas tractat artes,</emph>
-       <persName ref="#sagana">Sagana</persName>
-       <emph rend="italic">,</emph>
-       <persName ref="#sara">Sara</persName>
-       <emph rend="italic">e ancilla, a</emph>
-       <persName ref="#sara">Sara</persName>
+       <persName ref="#sagana" rend="italic">Sagana</persName>
+       <emph rend="italic">, Sarae ancilla, a</emph>
+       <persName ref="#sara" rend="italic">Sara</persName>
        <emph rend="italic">male tractatur. Hanc</emph>
-       <persName ref="#alectrica">Alectrica</persName>
+       <persName ref="#alectrica" rend="italic">Alectrica</persName>
        <emph rend="italic">postea instruit et suadet, ut illi necem maritorum exprobret, promittitque se ostensuram illos maritos in inferno, dum exprobrabit ancilla.</emph>
       </p>
      </argument>
@@ -885,33 +875,30 @@
      <head>Scena III.</head>
      <argument>
       <p>
-       <persName ref="#hor-">Hor.</persName>
+       <persName ref="#horatius" rend="italic">Hor.</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#sem-">Sem.</persName>
+       <persName ref="#sem" rend="italic">Sem.</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#ebul-">Ebul.</persName>
+       <persName ref="#ebulus" rend="italic">Ebul.</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#edom-">Edom.</persName>
+       <persName ref="#edomus" rend="italic">Edom.</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#sagana">Sagana</persName>
+       <persName ref="#sagana" rend="italic">Sagana</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#tobias">Tobias</persName>
+       <persName ref="#tobias-senior" rend="italic">Tobias</persName>
       </p>
       <p>Anagramma</p>
       <p>
-       <emph rend="italic">Cognati veniunt ad Tobiam, vexant, agitant</emph>
-       <emph rend="italic">.</emph>
-       <persName ref="#sagana">Sagana</persName>
-       <emph rend="italic">venit ad</emph>
-       <persName ref="#sara">Sara</persName>
-       <emph rend="italic">m, vexat et agitat.</emph>
-       <persName ref="#tobias">Tobias</persName>
+       <emph rend="italic">Cognati veniunt ad Tobiam, vexant, agitant.</emph>
+       <persName ref="#sagana" rend="italic">Sagana</persName>
+       <emph rend="italic">venit ad Saram, vexat et agitat.</emph>
+       <persName ref="#tobias-senior" rend="italic">Tobias</persName>
        <emph rend="italic">et</emph>
-       <persName ref="#sara">Sara</persName>
+       <persName ref="#sara" rend="italic">Sara</persName>
        <emph rend="italic">tacent.</emph>
       </p>
      </argument>
-     <sp who="#edom-">
+     <sp who="#edomus">
       <speaker>Edom.</speaker>
       <l n="153" part="F">Scimus, Tobia, quo tuae res sunt loco,</l>
       <l n="155">Nec nos iniquae ratio fortunae latet;</l>
@@ -925,7 +912,7 @@
       <l n="160">Rerum tuarum, Sara, novisti statum?</l>
       <l n="161">Misere maritos perditos nosti tuos?</l>
      </sp>
-     <sp who="#hor-">
+     <sp who="#horatius">
       <speaker>Hor.</speaker>
       <l n="162">Miser Tobia, redde verborum vices.</l>
       <l n="163">Mirationem fieri ab aerumnis tuis</l>
@@ -939,14 +926,14 @@
       <l n="167">O laudis uxor maximae! Septem viros</l>
       <l n="168">Foede necasti, pessimae exemplo necis.</l>
      </sp>
-     <sp who="#sem-">
+     <sp who="#sem">
       <speaker>Sem.</speaker>
       <l n="169">Virtutis extra lineas firmum pedem</l>
       <l n="170">Nunquam efferebas; sic videbaris pius,</l>
       <l n="171">Ut semper antecederes albis equis,</l>
       <l n="172" part="I">Quoscunque virtus misit in stadium suum.</l>
      </sp>
-     <sp who="#edom-">
+     <sp who="#edomus">
       <speaker>Edom.</speaker>
       <l n="172" part="F">Cur ergo conflictaris infaustis malis?</l>
       <l n="173">Adversa cur fortuna te bello petit?</l>
@@ -962,7 +949,7 @@
       <l n="181">Datos maritos? Dum taces, istud petis.</l>
       <l n="182">Cum quis rogatur, sed silet, loquitur silens.</l>
      </sp>
-     <sp who="#ebul-">
+     <sp who="#ebulus">
       <speaker>Ebul.</speaker>
       <l n="183">Pie Tobia, multa fecisti quidem,</l>
       <l n="184">Ut comparares gratiam magni Dei,</l>
@@ -982,7 +969,7 @@
       <pb n="B4r" />
       <l n="195">Infernus ignis, sulphuris cingunt faces.</l>
      </sp>
-     <sp who="#hor-">
+     <sp who="#horatius">
       <speaker>Hor.</speaker>
       <l n="196">Istud bonorum praemium est operum datum?</l>
       <l n="197">Nihil intueris et minus talpa vides.</l>
@@ -1000,11 +987,11 @@
       <l n="206">Tantisper illos Tartarus flammis teget,</l>
       <l n="207">Dum multitudo Caelitum in caelis erit.</l>
      </sp>
-     <sp who="#sem-">
+     <sp who="#sem">
       <speaker>Sem.</speaker>
       <l n="208" part="I">Contra quid affers vocis aut verbi cies?</l>
      </sp>
-     <sp who="#edom-">
+     <sp who="#edomus">
       <speaker>Edom.</speaker>
       <l n="208" part="F">Dum nil profaris, commodi aut captum nihil</l>
       <l n="210">Ostendis a te, quando virtutis viam</l>
@@ -1022,15 +1009,15 @@
       <l n="219">Septem mariti. Sileo, ne majus tuis</l>
       <l n="220">Esse videatur vulnus inflictum auribus.</l>
      </sp>
-     <sp who="#hor-">
+     <sp who="#horatius">
       <speaker>Hor.</speaker>
       <l n="221">Ut piscis ille sic nihil verbi facit.</l>
      </sp>
-     <sp who="#ebul-">
+     <sp who="#ebulus">
       <speaker>Ebul.</speaker>
       <l n="222">Dabit loquelas, cum dabit pumex aquam.</l>
      </sp>
-     <sp who="#tobias">
+     <sp who="#tobias-senior">
       <speaker>Tobias</speaker>
       <l n="223">Heu me dolores, qui mea in membra influunt.</l>
       <l n="224">Nec illa tantum, quae patent oculis, tenent,</l>
@@ -1060,21 +1047,20 @@
      <head>Scena IV.</head>
      <argument>
       <p>
-       <persName ref="#tobias">Tobias</persName>
+       <persName ref="#tobias-senior" rend="italic">Tobias</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#sara">Sara</persName>
+       <persName ref="#sara" rend="italic">Sara</persName>
       </p>
       <p>Argumentum</p>
       <p>
        <emph rend="italic">In una parte theatri</emph>
-       <persName ref="#tobias">Tobias</persName>
-       <emph rend="italic">ab amicis vexatus orabit</emph>
-       <emph rend="italic">, in altera vero parte orabit</emph>
-       <persName ref="#sara">Sara</persName>
+       <persName ref="#tobias-senior" rend="italic">Tobias</persName>
+       <emph rend="italic">ab amicis vexatus orabit, in altera vero parte orabit</emph>
+       <persName ref="#sara" rend="italic">Sara</persName>
        <emph rend="italic">in thalamo.</emph>
       </p>
      </argument>
-     <sp who="#tobias">
+     <sp who="#tobias-senior">
       <speaker>Tobias</speaker>
       <l n="244">Deus benigne, quem nihil rerum fugit,</l>
       <l n="245">Nosti nocentem me quidem, mortis reum</l>
@@ -1092,7 +1078,7 @@
       <l n="253">Novi nocentis esse me mentis satis,</l>
       <l n="254">Existimo tamen me peti insontem probris.</l>
      </sp>
-     <sp who="#tobias">
+     <sp who="#tobias-senior">
       <speaker>Tobias</speaker>
       <l n="255">Ita mihi, Numen, omnium rerum parens,</l>
       <l n="256">Opinionum toxico turba illita,</l>
@@ -1118,7 +1104,7 @@
       <l n="273">Quare mariti, tam cito erepti mihi,</l>
       <l n="274">Tristes sub umbras corpore exuti iverint.</l>
      </sp>
-     <sp who="#tobias">
+     <sp who="#tobias-senior">
       <speaker>Tobias</speaker>
       <l n="275">Deus benigne, cujus est ingens amor</l>
       <l n="276">Homines in omnes, gratiam in corda omnium</l>
@@ -1140,7 +1126,7 @@
       <l n="288">Haerere mitte, stirpitus propere exime</l>
       <l n="289">Tuaeque lympha gratiae absterge illico.</l>
      </sp>
-     <sp who="#tobias">
+     <sp who="#tobias-senior">
       <speaker>Tobias</speaker>
       <l n="290">Solatur id me, non enim aeternum, Deus,</l>
       <l n="291">Peccata plectis, in tua actutum redis</l>
@@ -1162,21 +1148,15 @@
      <argument>
       <p>
        <emph rend="italic">Angeli tres,</emph>
-       <persName ref="#deus">Deus</persName>
+       <persName ref="#deus" rend="italic">Deus</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#raphael">Raphael</persName>
+       <persName ref="#raphael" rend="italic">Raphael</persName>
       </p>
       <p>Argumentum</p>
       <p>
-       <emph rend="italic">A duobus Angelis orationes amborum, Tobiae scilicet et</emph>
-       <persName ref="#sara">Sara</persName>
-       <emph rend="italic">e, (thuribula seu thymiama gestantibus) offerentur.</emph>
-       <persName ref="#deus">Deus</persName>
-       <emph rend="italic">dicit utrique se auxiliaturum nuptiasque facturum inter Juniorem Tobiam et</emph>
-       <persName ref="#sara">Sara</persName>
-       <emph rend="italic">m; vocabitque</emph>
-       <persName ref="#raphael">Raphael</persName>
-       <emph rend="italic">em Angelum, quem jubebit sese adjungere comitem Tobiae Juniori.</emph>
+       <emph rend="italic">A duobus Angelis orationes amborum, Tobiae scilicet et Sarae, (thuribula seu thymiama gestantibus) offerentur.</emph>
+       <persName ref="#deus" rend="italic">Deus</persName>
+       <emph rend="italic">dicit utrique se auxiliaturum nuptiasque facturum inter Juniorem Tobiam et Saram; vocabitque Raphaelem Angelum, quem jubebit sese adjungere comitem Tobiae Juniori.</emph>
       </p>
      </argument>
      <pb n="C2r" />
@@ -1236,7 +1216,7 @@
       <l n="330">Gratos precatus habeo, quos panxit Sara.</l>
      </sp>
      <pb n="C2v" />
-     <sp who="#angelus">
+     <sp who="#angelus-1 #angelus-2 #angelus-3">
       <speaker>Angelus</speaker>
       <l n="331">Sic involuta cassibus magni metus,</l>
       <l n="332">Ut explicari possit haud ullo modo,</l>
@@ -1306,19 +1286,15 @@
      <head>Scena VI.</head>
      <argument>
       <p>
-       <persName ref="#chorus">Chorus</persName>
+       <persName ref="#chorus" rend="italic">Chorus</persName>
        <emph rend="italic">Angelorum</emph>
       </p>
       <p>Argumentum</p>
       <p>
-       <persName ref="#chorus">Chorus</persName>
-       <emph rend="italic">Angelorum</emph>
-       <persName ref="#raphael">Raphael</persName>
-       <emph rend="italic">em comitatur in terras euntem, illique commendat Tobiam et</emph>
-       <persName ref="#sara">Sara</persName>
-       <emph rend="italic">m, interimque humanam peregrinantis formam induit. Quo facto, videt in loco sublimi insignia conjuncta illustrissimae domus Dietrichsteinianae et Poppelianae. Ex quo habet conjicere nuptias. Quare precatur, ut utriusque tutelam tam ante, quam post
-        matrimonium initum</emph>
-       <persName ref="#raphael">Raphael</persName>
+       <persName ref="#chorus" rend="italic">Chorus</persName>
+       <emph rend="italic">Angelorum Raphaelem comitatur in terras euntem, illique commendat Tobiam et Saram, interimque humanam peregrinantis formam induit. Quo facto, videt in loco sublimi insignia conjuncta illustrissimae domus Dietrichsteinianae et Poppelianae. Ex quo habet
+        conjicere nuptias. Quare precatur, ut utriusque tutelam tam ante, quam post matrimonium initum</emph>
+       <persName ref="#raphael" rend="italic">Raphael</persName>
        <emph rend="italic">gerat.</emph>
       </p>
      </argument>
@@ -1423,27 +1399,25 @@
      <head>Actus II. Scena I.</head>
      <argument>
       <p>
-       <emph rend="italic">Senior</emph>
-       <persName ref="#tobias">Tobias</persName>
+       <persName ref="#tobias-senior" rend="italic">Senior Tobias</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#tobias">Tobias</persName>
-       <emph rend="italic">Junior,</emph>
-       <persName ref="#anna">Anna</persName>
+       <persName ref="#tobias-junior" rend="italic">Tobias Junior</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#ebul-">Ebul.</persName>
+       <persName ref="#anna" rend="italic">Anna</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#edom-">Edom.</persName>
+       <persName ref="#ebulus" rend="italic">Ebul.</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#gebal-">Gebal.</persName>
+       <persName ref="#edomus" rend="italic">Edom.</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#onum-">Onum.</persName>
+       <persName ref="#gebalus" rend="italic">Gebal.</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#hor-">Hor.</persName>
+       <persName ref="#onum" rend="italic">Onum.</persName>
+       <emph rend="italic">,</emph>
+       <persName ref="#horatius" rend="italic">Hor.</persName>
       </p>
       <p>Argumentum</p>
       <p>
-       <emph rend="italic">Senior</emph>
-       <persName ref="#tobias">Tobias</persName>
+       <persName ref="#tobias-senior" rend="italic">Senior Tobias</persName>
        <emph rend="italic">discessuro filio faustum iter precatur.</emph>
       </p>
      </argument>
@@ -1511,7 +1485,7 @@
       <speaker>Tobias Junior</speaker>
       <l n="454">Animo videre filium semper licet.</l>
      </sp>
-     <sp who="#ebul-">
+     <sp who="#ebulus">
       <speaker>Ebul.</speaker>
       <l n="455">Quo te, Tobia, nostro ab amplexu abstrahis?</l>
      </sp>
@@ -1519,7 +1493,7 @@
       <speaker>Tobias Junior</speaker>
       <l n="456">Quo me parentis unici imperium vocat.</l>
      </sp>
-     <sp who="#edom-">
+     <sp who="#edomus">
       <speaker>Edom.</speaker>
       <l n="457">Quam te viae das, ante non dicas ave?</l>
      </sp>
@@ -1529,7 +1503,7 @@
       <l n="459">Adjutat, illud dextero eveniat Deo.</l>
      </sp>
      <pb n="D1r" />
-     <sp who="#edom-">
+     <sp who="#edomus">
       <speaker>Edom.</speaker>
       <l n="460">Perge proficisci, duxque sit semper Deus.</l>
      </sp>
@@ -1538,7 +1512,7 @@
       <l n="461">Ut ordiaris omnia hoc uno duce,</l>
       <l n="462">Sic oro, caeli Numen, ut nemo magis.</l>
      </sp>
-     <sp who="#onum-">
+     <sp who="#onum">
       <speaker>Onum.</speaker>
       <l n="463">Salamina navis esto, dum jussu patris</l>
       <l n="464">Viaticaris, et redux tecum refer</l>
@@ -1548,7 +1522,7 @@
       <speaker>Tobias Junior</speaker>
       <l n="466">Sic cuncta cures, audiens ut sis Deo.</l>
      </sp>
-     <sp who="#hor-">
+     <sp who="#horatius">
       <speaker>Hor.</speaker>
       <l n="467">Sic ibis a me? Sit tibi faelix iter</l>
       <l n="468">Divique reddant te mihi reducem brevi.</l>
@@ -1557,7 +1531,7 @@
       <speaker>Tobias Junior</speaker>
       <l n="469">Deo favente me brevi reddam tibi.</l>
      </sp>
-     <sp who="#gebal-">
+     <sp who="#gebalus">
       <speaker>Gebal.</speaker>
       <l n="470">Dum te valere prospere et fauste volo,</l>
       <l n="471">Praesagus imo pectori incumbit timor.</l>
@@ -1566,7 +1540,7 @@
       <speaker>Tobias Junior</speaker>
       <l n="472">Quicquid timoris est mali, avertet Deus.</l>
      </sp>
-     <sp who="#gebal-">
+     <sp who="#gebalus">
       <speaker>Gebal.</speaker>
       <l n="473">Te forsan ursus, forte te saevus leo,</l>
       <l n="474">Fortasse tigris dira te letho dabit.</l>
@@ -1575,7 +1549,7 @@
       <speaker>Tobias Junior</speaker>
       <l n="475">Deus furorem bestiis saepe eripit.</l>
      </sp>
-     <sp who="#gebal-">
+     <sp who="#gebalus">
       <speaker>Gebal.</speaker>
       <l n="476">Quam saepe tota sic aberrabis via,</l>
       <l n="477">Nemo ut reducat, nemo te reddat viae?</l>
@@ -1585,7 +1559,7 @@
       <l n="478">Profectionis qui mihi in comitem venit,</l>
       <l n="479">Timoris istud demit ex animo mihi.</l>
      </sp>
-     <sp who="#onum-">
+     <sp who="#onum">
       <speaker>Onum.</speaker>
       <l n="480">Qua magnitudo me tuae mentis tenet</l>
       <l n="481">Miratione! Nos in abscessu tuo</l>
@@ -1632,14 +1606,14 @@
      <head>Scena II.</head>
      <argument>
       <p>
-       <persName ref="#ebul-">Ebul.</persName>
+       <persName ref="#ebulus" rend="italic">Ebul.</persName>
        <emph rend="italic">, Gebal</emph>.</p>
       <p>Argumentum</p>
       <p>
        <emph rend="italic">Duo Chori: alter ominatur tristem, alter laetum abitum Tobiae, alter matris tristitiam, alter laetitiam vaticinatur.</emph>
       </p>
      </argument>
-     <sp who="#ebul-">
+     <sp who="#ebulus">
       <speaker>Ebul.</speaker>
       <l n="500">I, patris anime, patris, i, dulce osculum,</l>
       <l n="501" part="I">Tobia, fausta te sequi cerno omina.</l>
@@ -1651,7 +1625,7 @@
       <l n="503" rend="indent">Accinge pedes patris imperio,</l>
       <l n="505" rend="indent">Dites propera visere Medos.</l>
      </sp>
-     <sp who="#gebal-">
+     <sp who="#gebalus">
       <speaker>Gebal.</speaker>
       <l n="506">Moram, Tobia, necte, ne propera tuae</l>
       <l n="507" part="I">Creare matri mentis et cordis mala.</l>
@@ -1678,59 +1652,59 @@
       <l n="521" rend="indent">Varias turbas animo matris,</l>
       <l n="522" rend="indent">Sic laeta redux gaudia revehit.</l>
      </sp>
-     <sp who="#gebal-">
+     <sp who="#gebalus">
       <speaker>Gebal.</speaker>
       <l n="523">O, quos timores mater et curas alit?</l>
       <l n="524">A latere postquam matris avulsus fuit,</l>
       <l n="525">Ingressus ire patrio a solo procul.</l>
      </sp>
-     <sp who="#ebul-">
+     <sp who="#ebulus">
       <speaker>Ebul.</speaker>
       <l n="526">Timore solvet filius matrem redux,</l>
       <l n="527">Demetque curas, plaustra laetitiae advehet.</l>
      </sp>
-     <sp who="#gebal-">
+     <sp who="#gebalus">
       <speaker>Gebal.</speaker>
       <l n="528">Ceu quae flagellat flamine imbricitor Notus,</l>
       <l n="529">Aquis madescunt culmina excelsa Alpium,</l>
       <l n="530">Moesta lachrymarum sic fluent ora imbribus.</l>
      </sp>
-     <sp who="#ebul-">
+     <sp who="#ebulus">
       <speaker>Ebul.</speaker>
       <l n="531">Ut piscis inter lympidas undas salit,</l>
       <l n="532">Sic gaudiorum saliet appulsu parens.</l>
      </sp>
-     <sp who="#gebal-">
+     <sp who="#gebalus">
       <speaker>Gebal.</speaker>
       <l n="533">Deflete matrem filio orbatam, omnia,</l>
       <l n="534">Quaecunque figunt sub globo lunae domum.</l>
      </sp>
-     <sp who="#ebul-">
+     <sp who="#ebulus">
       <speaker>Ebul.</speaker>
       <l n="535">Hilarate matrem, filio in regna extera</l>
       <l n="536">Meante, magnis gaudiis rursum affluet.</l>
      </sp>
-     <sp who="#gebal-">
+     <sp who="#gebalus">
       <speaker>Gebal.</speaker>
       <l n="537">Adire natum plurima malorum audiet.</l>
       <l n="538">O, qui dolores in senem matrem incident,</l>
       <l n="539">Quando audietur filius morti datus.</l>
      </sp>
-     <sp who="#ebul-">
+     <sp who="#ebulus">
       <speaker>Ebul.</speaker>
       <l n="540">O, quae voluptas matris in pectus cadet,</l>
       <l n="541">Cum fama dicet filium salvum affore.</l>
      </sp>
-     <sp who="#gebal-">
+     <sp who="#gebalus">
       <speaker>Gebal.</speaker>
       <l n="542">Fuisse praedam bestiis dicent feris.</l>
      </sp>
-     <sp who="#ebul-">
+     <sp who="#ebulus">
       <speaker>Ebul.</speaker>
       <l n="543">Nulli ferarum praeda Tobias erit.</l>
      </sp>
      <pb n="D2v" />
-     <sp who="#gebal-">
+     <sp who="#gebalus">
       <speaker>Gebal.</speaker>
       <l n="544">Moerore sese sentiet magno affici,</l>
       <l n="545">Simul atque ad aures fama pertristis fluet,</l>
@@ -1772,7 +1746,7 @@
       <l n="562" rend="indent">Filius, ibit tamen in mentis</l>
       <l n="563" rend="indent">Gaudia rursum gavisa parens.</l>
      </sp>
-     <sp who="#ebul-">
+     <sp who="#ebulus">
       <speaker>Ebul.</speaker>
       <l n="565">Ad matris aures nuntia haud una affluent,</l>
       <l n="566">De nuptiali faedere, acceptis bonis,</l>
@@ -1799,17 +1773,17 @@
      <head>Scena III.</head>
      <argument>
       <p>
-       <persName ref="#anna">Anna</persName>
+       <persName ref="#anna" rend="italic">Anna</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#tobias">Tobias</persName>
-       <emph rend="italic">Senior,</emph>
-       <persName ref="#hor-">Hor.</persName>
+       <persName ref="#tobias-senior" rend="italic">Tobias Senior</persName>
+       <emph rend="italic">,</emph>
+       <persName ref="#horatius" rend="italic">Hor.</persName>
       </p>
       <p>Argumentum</p>
       <p>
-       <persName ref="#anna">Anna</persName>
-       <emph rend="italic">, mater Tobiae, vehementer abitum filii queritur, cujus dolorem Senex</emph>
-       <persName ref="#tobias">Tobias</persName>
+       <persName ref="#anna" rend="italic">Anna</persName>
+       <emph rend="italic">, mater Tobiae, vehementer abitum filii queritur, cujus dolorem</emph>
+       <persName ref="#tobias-senior" rend="italic">Senex Tobias</persName>
        <emph rend="italic">lenire vix potest.</emph>
       </p>
      </argument>
@@ -1831,7 +1805,7 @@
       <l n="593">Rursumne conjunx naenias veteres sonat</l>
       <l n="594">Infertque nostris auribus? Querulam senem.</l>
      </sp>
-     <sp who="#hor-">
+     <sp who="#horatius">
       <speaker>Hor.</speaker>
       <l n="595">Quanquam querelis omnis assuevit senex,</l>
       <l n="596">Tamen inter omnes illa sic questus ciet,</l>
@@ -1844,7 +1818,7 @@
       <l n="599">Quae te querendi causa, quae flendi tenet,</l>
       <l n="600">Amata conjunx? Fare, ne verba opprime.</l>
      </sp>
-     <sp who="#hor-">
+     <sp who="#horatius">
       <speaker>Hor.</speaker>
       <l n="601">Proclive causam est noscere, est querulum genus</l>
       <l n="602">Suaque sponte foemina in questus abit.</l>
@@ -1855,7 +1829,7 @@
       <l n="604">A fonte sicut unda, sic a te fluit</l>
       <l n="605">Causa queritandi: tu mihi lachrymas moves.</l>
      </sp>
-     <sp who="#hor-">
+     <sp who="#horatius">
       <speaker>Hor.</speaker>
       <l n="606">Hoc artis omnes foeminae apprime tenent,</l>
       <l n="607">Conjicere culpas in viros, cum sint reae.</l>
@@ -1872,7 +1846,7 @@
       <speaker>Tobias Senior</speaker>
       <l n="610">Tuos amores? Verba non capio satis.</l>
      </sp>
-     <sp who="#hor-">
+     <sp who="#horatius">
       <speaker>Hor.</speaker>
       <l n="611">Perplexa verba foeminae fari solent.</l>
      </sp>
@@ -1891,7 +1865,7 @@
       <speaker>Anna</speaker>
       <l n="617">Munimen a te perditum aetatis meae.</l>
      </sp>
-     <sp who="#hor-">
+     <sp who="#horatius">
       <speaker>Hor.</speaker>
       <l n="618">Licet ominari: filium deflet suum,</l>
       <l n="619">Postquam profectus. Mira res mentem subit,</l>
@@ -1908,7 +1882,7 @@
       <l n="624">Negasne crimen? Natum in interitum abjicis</l>
       <l n="625">Necasque matrem. Quale conscitum nefas?</l>
      </sp>
-     <sp who="#hor-">
+     <sp who="#horatius">
       <speaker>Hor.</speaker>
       <l n="626">Mulieris illud esse figmentum scio,</l>
       <l n="627">Fingere elephantem, sit licet musca interim.</l>
@@ -2035,19 +2009,18 @@
      <head>Scena IV.</head>
      <argument>
       <p>
-       <persName ref="#musae">Musae</persName>
+       <persName ref="#musae" rend="italic">Musae</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#gigantes">Gigantes</persName>
+       <persName ref="#gigantes" rend="italic">Gigantes</persName>
        <emph rend="italic">et Sylvestres homines</emph>
       </p>
       <p>Argumentum</p>
       <p>
-       <persName ref="#musae">Musae</persName>
+       <persName ref="#musae" rend="italic">Musae</persName>
        <emph rend="italic">plectro sonant gaudia, quae nascentur a profectione Junioris Tobiae, faustasque nuptias ex illius itinere vaticinantur. Interim Sylvestres homines et</emph>
-       <persName ref="#gigantes">Gigantes</persName>
-       <emph rend="italic">rudi plectro idem faciunt, aspectuque suo Musas quidem fugant; ex fuga vero retractas, canendi magistras adhibent, a quibus diu edocti bene plectere plectra, primo futuras nuptias Tobiae et</emph>
-       <persName ref="#sara">Sara</persName>
-       <emph rend="italic">e plectro celebrant. Tum, quasi praescii futurorum, nuptias istas inter illustrissimos Poppelium et Margaritam a Dietrichstein pangunt.</emph>
+       <persName ref="#gigantes" rend="italic">Gigantes</persName>
+       <emph rend="italic">rudi plectro idem faciunt, aspectuque suo Musas quidem fugant; ex fuga vero retractas, canendi magistras adhibent, a quibus diu edocti bene plectere plectra, primo futuras nuptias Tobiae et Sarae plectro celebrant. Tum, quasi praescii futurorum, nuptias
+        istas inter illustrissimos Poppelium et Margaritam a Dietrichstein pangunt.</emph>
       </p>
      </argument>
      <sp who="#musae">
@@ -2144,25 +2117,20 @@
      <head>Actus III. Scena I.</head>
      <argument>
       <p>
-       <persName ref="#asmodeus">Asmodeus</persName>
+       <persName ref="#asmodeus" rend="italic">Asmodeus</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#belphegor">Belphegor</persName>
+       <persName ref="#belphegor" rend="italic">Belphegor</persName>
       </p>
       <p>Argumentum</p>
       <p>
-       <persName ref="#asmodeus">Asmodeus</persName>
-       <emph rend="italic">,</emph>
-       <emph rend="italic">Graeco textu teste</emph>(ότι δαιμόνιον φιλει αυτήν, ό ουκ αδικει ουδένα πλήν των προσαγοντων αυτη), <persName ref="#sara">Sara</persName>
-       <emph rend="italic">m amore complexus, nullum rivalem patitur. Quanquam alius daemonum censet verendum, ut multi sint, qui</emph>
-       <persName ref="#sara">Sara</persName>
-       <emph rend="italic">m ament,</emph>
-       <persName ref="#asmodeus">Asmodeus</persName>
-       <emph rend="italic">tamen neminem, nisi forsan Tobiam, in amorem</emph>
-       <persName ref="#sara">Sara</persName>
-       <emph rend="italic">e inflammari posse.</emph>
-       <persName ref="#tobias">Tobias</persName>
+       <persName ref="#asmodeus" rend="italic">Asmodeus</persName>
+       <emph rend="italic">, Graeco textu teste</emph>
+       <foreign xml:lang="grc">(ότι δαιμόνιον φιλει αυτήν, ό ουκ αδικει ουδένα πλήν των προσαγοντων αυτη)</foreign>, <emph rend="italic">Saram amore complexus, nullum rivalem patitur. Quanquam alius daemonum censet verendum, ut multi sint, qui Saram ament,</emph>
+       <persName ref="#asmodeus" rend="italic">Asmodeus</persName>
+       <emph rend="italic">tamen neminem, nisi forsan Tobiam, in amorem Sarae inflammari posse.</emph>
+       <persName ref="#tobias-senior" rend="italic">Tobias</persName>
        <emph rend="italic">interim in aspectum venit, quem clanculum</emph>
-       <persName ref="#asmodeus">Asmodeus</persName>
+       <persName ref="#asmodeus" rend="italic">Asmodeus</persName>
        <emph rend="italic">observat.</emph>
       </p>
      </argument>
@@ -2224,17 +2192,16 @@
      <head>Scena II.</head>
      <argument>
       <p>
-       <persName ref="#raphael">Raphael</persName>
+       <persName ref="#raphael" rend="italic">Raphael</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#tobias">Tobias</persName>
-       <emph rend="italic">Junior</emph>
+       <persName ref="#tobias-junior" rend="italic">Tobias Junior</persName>
       </p>
       <p>Argumentum</p>
       <p>
        <emph rend="italic">Emensi magnum diei iter et ingressuri hospitium,</emph>
-       <persName ref="#raphael">Raphael</persName>
+       <persName ref="#raphael" rend="italic">Raphael</persName>
        <emph rend="italic">et</emph>
-       <persName ref="#tobias">Tobias</persName>
+       <persName ref="#tobias-senior" rend="italic">Tobias</persName>
        <emph rend="italic">divino Numini gratiam habent.</emph>
       </p>
      </argument>
@@ -2345,22 +2312,18 @@
      <head>Scena III.</head>
      <argument>
       <p>
-       <persName ref="#asmodeus">Asmodeus</persName>
+       <persName ref="#asmodeus" rend="italic">Asmodeus</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#tobias">Tobias</persName>
-       <emph rend="italic">Junior,</emph>
-       <persName ref="#raphael">Raphael</persName>
+       <persName ref="#tobias-junior" rend="italic">Tobias Junior</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#sirenes">Sirenes</persName>
+       <persName ref="#raphael" rend="italic">Raphael</persName>
+       <emph rend="italic">,</emph>
+       <persName ref="#sirenes" rend="italic">Sirenes</persName>
       </p>
       <p>Argumentum</p>
       <p>
-       <persName ref="#tobias">Tobias</persName>
-       <emph rend="italic">fessus ad flumen venit, pedes ad lavandum nudat. Invaditur a pisce, arte et astu Asmodei</emph>
-       <emph rend="italic">;</emph>
-       <emph rend="italic">instruitur juvaturque a</emph>
-       <persName ref="#raphael">Raphael</persName>
-       <emph rend="italic">e.</emph>
+       <persName ref="#tobias-senior" rend="italic">Tobias</persName>
+       <emph rend="italic">fessus ad flumen venit, pedes ad lavandum nudat. Invaditur a pisce, arte et astu Asmodei; instruitur juvaturque a Raphaele.</emph>
       </p>
      </argument>
      <sp who="#asmodeus">
@@ -2515,18 +2478,14 @@
      <head>Scena IV.</head>
      <argument>
       <p>
-       <persName ref="#asmodeus">Asmodeus</persName>
+       <persName ref="#asmodeus" rend="italic">Asmodeus</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#belphegor">Belphegor</persName>
+       <persName ref="#belphegor" rend="italic">Belphegor</persName>
       </p>
       <p>Argumentum</p>
       <p>
-       <persName ref="#asmodeus">Asmodeus</persName>
-       <emph rend="italic">, qui bestiam incitarat in Tobiam, dolet rem non successisse; sine mora</emph>
-       <persName ref="#sara">Sara</persName>
-       <emph rend="italic">m invisit et ex inferis manes vocat jubetque vultus Aethiopum sumere, ut saltu</emph>
-       <persName ref="#sara">Sara</persName>
-       <emph rend="italic">m oblectent.</emph>
+       <persName ref="#asmodeus" rend="italic">Asmodeus</persName>
+       <emph rend="italic">, qui bestiam incitarat in Tobiam, dolet rem non successisse; sine mora Saram invisit et ex inferis manes vocat jubetque vultus Aethiopum sumere, ut saltu Saram oblectent.</emph>
       </p>
      </argument>
      <sp who="#asmodeus">
@@ -2586,18 +2545,16 @@
      <head>Scena V.</head>
      <argument>
       <p>
-       <persName ref="#tobias">Tobias</persName>
-       <emph rend="italic">Junior,</emph>
-       <persName ref="#raphael">Raphael</persName>
+       <persName ref="#tobias-junior" rend="italic">Tobias Junior</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#asmodeus">Asmodeus</persName>
+       <persName ref="#raphael" rend="italic">Raphael</persName>
+       <emph rend="italic">,</emph>
+       <persName ref="#asmodeus" rend="italic">Asmodeus</persName>
       </p>
       <p>Argumentum</p>
       <p>
-       <emph rend="italic">Veniunt ad aedes</emph>
-       <persName ref="#raguel">Raguel</persName>
-       <emph rend="italic">is.</emph>
-       <persName ref="#raphael">Raphael</persName>
+       <emph rend="italic">Veniunt ad aedes Raguelis.</emph>
+       <persName ref="#raphael" rend="italic">Raphael</persName>
        <emph rend="italic">praemonet Tobiam de nuptiis, quanquam invitum multas ob causas, maxime ob timorem, quem septem priores mariti generant. At illo timore idem solutus, in nuptias consentit.</emph>
       </p>
      </argument>
@@ -2846,10 +2803,8 @@
       </p>
       <p>Argumentum</p>
       <p>
-       <emph rend="italic">Quanquam augures a religione Judaeorum relicti, tamen increbescente fama nuptiarum Tobiae et</emph>
-       <persName ref="#sara">Sara</persName>
-       <emph rend="italic">e, postquam caeteris maritis male matrimonium hoc evenit, non possunt non facere, quin illarum nuptiarum auguria capiant. Quare princeps augurum e cavea columbas emittit, designatis lituo caeli partibus. Ubi res mira cernitur: columbis enim quasi
-        divinitus appensa tum Dietrichsteiniorum, tum Poppeliorum insignia. Quapropter ex his habent conjicere felicissimas nuptias elapsis multis seculis futuras.</emph>
+       <emph rend="italic">Quanquam augures a religione Judaeorum relicti, tamen increbescente fama nuptiarum Tobiae et Sarae, postquam caeteris maritis male matrimonium hoc evenit, non possunt non facere, quin illarum nuptiarum auguria capiant. Quare princeps augurum e cavea
+        columbas emittit, designatis lituo caeli partibus. Ubi res mira cernitur: columbis enim quasi divinitus appensa tum Dietrichsteiniorum, tum Poppeliorum insignia. Quapropter ex his habent conjicere felicissimas nuptias elapsis multis seculis futuras.</emph>
       </p>
      </argument>
      <pb n="F4v" />
@@ -2921,20 +2876,18 @@
      <head>Actus IV. Scena I.</head>
      <argument>
       <p>
-       <persName ref="#raguel">Raguel</persName>
+       <persName ref="#raguel" rend="italic">Raguel</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#tobias">Tobias</persName>
-       <emph rend="italic">Junior,</emph>
-       <persName ref="#raphael">Raphael</persName>
+       <persName ref="#tobias-junior" rend="italic">Tobias Junior</persName>
+       <emph rend="italic">,</emph>
+       <persName ref="#raphael" rend="italic">Raphael</persName>
       </p>
       <p>Argumentum</p>
       <p>
-       <persName ref="#raguel">Raguel</persName>
+       <persName ref="#raguel" rend="italic">Raguel</persName>
        <emph rend="italic">, multis precibus a Tobia propemodum oneratus, ut daret nuptui filiam, timet periculum a</emph>
-       <persName ref="#sara">Sara</persName>
-       <emph rend="italic">nasciturum; quanquam postea,</emph>
-       <persName ref="#raphael">Raphael</persName>
-       <emph rend="italic">e timorem adimente, in sententiam et preces Tobiae lubens it.</emph>
+       <persName ref="#sara" rend="italic">Sara</persName>
+       <emph rend="italic">nasciturum; quanquam postea, Raphaele timorem adimente, in sententiam et preces Tobiae lubens it.</emph>
       </p>
      </argument>
      <sp who="#raguel">
@@ -3004,21 +2957,15 @@
      <head>Scena II.</head>
      <argument>
       <p>
-       <persName ref="#anna">Anna</persName>
-       <emph rend="italic">,</emph>
-       <persName ref="#raguel">Raguel</persName>
-       <emph rend="italic">is uxor,</emph>
-       <persName ref="#raguel">Raguel</persName>
+       <persName ref="#anna" rend="italic">Anna</persName>
+       <emph rend="italic">, Raguelis uxor,</emph>
+       <persName ref="#raguel" rend="italic">Raguel</persName>
       </p>
       <p>Argumentum</p>
       <p>
        <pb n="G2r" />
-       <persName ref="#anna">Anna</persName>
-       <emph rend="italic">, mater</emph>
-       <persName ref="#sara">Sara</persName>
-       <emph rend="italic">e, in simili timore jacet, sed a</emph>
-       <persName ref="#raguel">Raguel</persName>
-       <emph rend="italic">e erigitur in spem felicis eventus.</emph>
+       <persName ref="#anna" rend="italic">Anna</persName>
+       <emph rend="italic">, mater Sarae, in simili timore jacet, sed a Raguele erigitur in spem felicis eventus.</emph>
       </p>
      </argument>
      <sp who="#anna">
@@ -3075,7 +3022,7 @@
      <argument>
       <p>
        <emph rend="italic">Virgines quinque,</emph>
-       <persName ref="#chorus">Chorus</persName>
+       <persName ref="#chorus" rend="italic">Chorus</persName>
       </p>
       <p>Argumentum</p>
       <p>
@@ -3182,7 +3129,7 @@
      <head>Scena IV.</head>
      <argument>
       <p>
-       <persName ref="#raguel">Raguel</persName>
+       <persName ref="#raguel" rend="italic">Raguel</persName>
        <emph rend="italic">, Amores</emph>
       </p>
       <p>Argumentum</p>
@@ -3249,17 +3196,15 @@
      <head>Scena V.</head>
      <argument>
       <p>
-       <persName ref="#anna">Anna</persName>
-       <emph rend="italic">, mater</emph>
-       <persName ref="#sara">Sara</persName>
-       <emph rend="italic">e,</emph>
-       <persName ref="#sara">Sara</persName>
+       <persName ref="#anna" rend="italic">Anna</persName>
+       <emph rend="italic">, mater Sarae,</emph>
+       <persName ref="#sara" rend="italic">Sara</persName>
        <emph rend="italic">, Virginum chorus</emph>
       </p>
       <p>Argumentum</p>
       <p>
        <emph rend="italic">Epulo soluto,</emph>
-       <persName ref="#sara">Sara</persName>
+       <persName ref="#sara" rend="italic">Sara</persName>
        <emph rend="italic">in thalamum deducitur; quae quidem meticulosa, sed a virginibus jubetur bene sperare.</emph>
       </p>
      </argument>
@@ -3332,33 +3277,24 @@
      <head>Scena VI.</head>
      <argument>
       <p>
-       <persName ref="#raguel">Raguel</persName>
+       <persName ref="#raguel" rend="italic">Raguel</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#asmodeus">Asmodeus</persName>
+       <persName ref="#asmodeus" rend="italic">Asmodeus</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#tobias">Tobias</persName>
-       <emph rend="italic">Junior,</emph>
-       <persName ref="#raphael">Raphael</persName>
+       <persName ref="#tobias-junior" rend="italic">Tobias Junior</persName>
+       <emph rend="italic">,</emph>
+       <persName ref="#raphael" rend="italic">Raphael</persName>
        <emph rend="italic">, Daemonia, Amores,</emph>
-       <persName ref="#anna">Anna</persName>
+       <persName ref="#anna" rend="italic">Anna</persName>
       </p>
       <p>Argumentum</p>
       <p>
-       <persName ref="#asmodeus">Asmodeus</persName>
-       <emph rend="italic">laetatur brevi se Tobiae mortem illaturum. Ad laetitiam etiam invitat manes, maxime septem</emph>
-       <persName ref="#sara">Sara</persName>
-       <emph rend="italic">e maritos, qui reseratis inferni faucibus instruere saltum videntur, dum audiunt se socium poenarum nacturos.</emph>
-       <persName ref="#tobias">Tobias</persName>
-       <emph rend="italic">in thalamum deducitur comitantibus Amoribus</emph>
-       <emph rend="italic">; ubi se comparat contra daemonium,</emph>
-       <emph rend="italic">focoque jecur imponit.</emph>
-       <emph rend="italic">Pugna inter</emph>
-       <persName ref="#raphael">Raphael</persName>
-       <emph rend="italic">em et Asmodeum;</emph>
-       <persName ref="#asmodeus">Asmodeus</persName>
-       <emph rend="italic">a caeteris daemoniis ex imperio</emph>
-       <persName ref="#raphael">Raphael</persName>
-       <emph rend="italic">is ligatur.</emph>
+       <persName ref="#asmodeus" rend="italic">Asmodeus</persName>
+       <emph rend="italic">laetatur brevi se Tobiae mortem illaturum. Ad laetitiam etiam invitat manes, maxime septem Sarae maritos, qui reseratis inferni faucibus instruere saltum videntur, dum audiunt se socium poenarum nacturos.</emph>
+       <persName ref="#tobias-senior" rend="italic">Tobias</persName>
+       <emph rend="italic">in thalamum deducitur comitantibus Amoribus; ubi se comparat contra daemonium, focoque jecur imponit.Pugna inter Raphaelem et Asmodeum;</emph>
+       <persName ref="#asmodeus" rend="italic">Asmodeus</persName>
+       <emph rend="italic">a caeteris daemoniis ex imperio Raphaelis ligatur.</emph>
       </p>
      </argument>
      <sp who="#asmodeus">
@@ -3677,30 +3613,24 @@
      <head>Scena VII.</head>
      <argument>
       <p>
-       <persName ref="#aristus">Aristus</persName>
-       <emph rend="italic">, oeconomus</emph>
-       <persName ref="#raguel">Raguel</persName>
-       <emph rend="italic">is,</emph>
-       <persName ref="#sannio">Sannio</persName>
+       <persName ref="#aristus" rend="italic">Aristus</persName>
+       <emph rend="italic">, oeconomus Raguelis,</emph>
+       <persName ref="#sannio" rend="italic">Sannio</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#dorio">Dorio</persName>
+       <persName ref="#dorio" rend="italic">Dorio</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#raguel">Raguel</persName>
+       <persName ref="#raguel" rend="italic">Raguel</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#anna">Anna</persName>
+       <persName ref="#anna" rend="italic">Anna</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#dina">Dina</persName>
-       <emph rend="italic">, famula</emph>
-       <persName ref="#anna">Anna</persName>
-       <emph rend="italic">e</emph>
+       <persName ref="#dina" rend="italic">Dina</persName>
+       <emph rend="italic">, famula Annae</emph>
       </p>
       <p>Argumentum</p>
       <p>
        <emph rend="italic">Solicitus</emph>
-       <persName ref="#raguel">Raguel</persName>
-       <emph rend="italic">de salute Tobiae, consilium sepulturae capit. Quare dat hujus negotium oeconomo suo</emph>
-       <emph rend="italic">. Dum istud curatur,</emph>
-       <emph rend="italic">ancilla mittitur in partes explorandi sponsorum incolumitatem; qua cognita, ingens oritur gratulatio.</emph>
+       <persName ref="#raguel" rend="italic">Raguel</persName>
+       <emph rend="italic">de salute Tobiae, consilium sepulturae capit. Quare dat hujus negotium oeconomo suo. Dum istud curatur, ancilla mittitur in partes explorandi sponsorum incolumitatem; qua cognita, ingens oritur gratulatio.</emph>
       </p>
      </argument>
      <sp who="#aristus">
@@ -4081,16 +4011,14 @@
      <head>Scena IX.</head>
      <argument>
       <p>
-       <emph rend="italic">Junior</emph>
-       <persName ref="#tobias">Tobias</persName>
+       <persName ref="#tobias-junior" rend="italic">Junior Tobias</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#raphael">Raphael</persName>
+       <persName ref="#raphael" rend="italic">Raphael</persName>
       </p>
       <p>Argumentum</p>
       <p>
-       <persName ref="#raphael">Raphael</persName>
-       <emph rend="italic">expeditur in alteram Rages</emph>
-       <emph rend="italic">ad Gabelum creditae pecuniae causa.</emph>
+       <persName ref="#raphael" rend="italic">Raphael</persName>
+       <emph rend="italic">expeditur in alteram Rages ad Gabelum creditae pecuniae causa.</emph>
       </p>
      </argument>
      <sp who="#tobias-junior">
@@ -4210,26 +4138,21 @@
      <head>Actus V. Scena I.</head>
      <argument>
       <p>
-       <persName ref="#gabelus">Gabelus</persName>
+       <persName ref="#gabelus" rend="italic">Gabelus</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#raphael">Raphael</persName>
+       <persName ref="#raphael" rend="italic">Raphael</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#tobias">Tobias</persName>
-       <emph rend="italic">Junior,</emph>
-       <persName ref="#raguel">Raguel</persName>
+       <persName ref="#tobias-junior" rend="italic">Tobias Junior</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#sara">Sara</persName>
+       <persName ref="#raguel" rend="italic">Raguel</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#choragus">Choragus</persName>
+       <persName ref="#sara" rend="italic">Sara</persName>
+       <emph rend="italic">,</emph>
+       <persName ref="#choragus" rend="italic">Choragus</persName>
       </p>
       <p>Argumentum</p>
       <p>
-       <emph rend="italic">Reditus</emph>
-       <persName ref="#raphael">Raphael</persName>
-       <emph rend="italic">is. Consalutatio cum Gabelo sponsorum et</emph>
-       <persName ref="#raguel">Raguel</persName>
-       <emph rend="italic">is. Epulum nuptiale</emph>
-       <emph rend="italic">. Choreae Hebraeorum more.</emph>
+       <emph rend="italic">Reditus Raphaelis. Consalutatio cum Gabelo sponsorum et Raguelis. Epulum nuptiale. Choreae Hebraeorum more.</emph>
       </p>
      </argument>
      <sp who="#raphael">
@@ -4337,20 +4260,19 @@
      <head>Scena II.</head>
      <argument>
       <p>
-       <persName ref="#tobias">Tobias</persName>
-       <emph rend="italic">Junior,</emph>
-       <persName ref="#raguel">Raguel</persName>
+       <persName ref="#tobias-junior" rend="italic">Tobias Junior</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#anna">Anna</persName>
-       <persName ref="#raguel">Raguel</persName>
-       <emph rend="italic">is,</emph>
-       <persName ref="#gabelus">Gabelus</persName>
+       <persName ref="#raguel" rend="italic">Raguel</persName>
+       <emph rend="italic">,</emph>
+       <persName ref="#anna" rend="italic">Anna</persName>
+       <emph rend="italic">Raguelis,</emph>
+       <persName ref="#gabelus" rend="italic">Gabelus</persName>
       </p>
       <p>Argumentum</p>
       <p>
-       <persName ref="#tobias">Tobias</persName>
-       <emph rend="italic">Junior solutas tandem esse nuptias censet, copiamque petit revisendi patrem,</emph>
-       <persName ref="#raguel">Raguel</persName>
+       <persName ref="#tobias-junior" rend="italic">Tobias Junior</persName>
+       <emph rend="italic">solutas tandem esse nuptias censet, copiamque petit revisendi patrem,</emph>
+       <persName ref="#raguel" rend="italic">Raguel</persName>
        <emph rend="italic">missionem Tobiae dandam negat.</emph>
       </p>
      </argument>
@@ -4443,22 +4365,20 @@
      <head>Scena III.</head>
      <argument>
       <p>
-       <persName ref="#credulitas">Credulitas</persName>
+       <persName ref="#credulitas" rend="italic">Credulitas</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#tobias">Tobias</persName>
+       <persName ref="#tobias-junior" rend="italic">Tobias</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#raguel">Raguel</persName>
+       <persName ref="#raguel" rend="italic">Raguel</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#anna">Anna</persName>
+       <persName ref="#anna" rend="italic">Anna</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#sara">Sara</persName>
+       <persName ref="#sara" rend="italic">Sara</persName>
       </p>
       <p>Argumentum</p>
       <p>
-       <persName ref="#credulitas">Credulitas</persName>
-       <emph rend="italic">, quae metus et curas inanes hominum animis vel inserit, vel insitas exaggerat,</emph>
-       <emph rend="italic">hanc suam spartam in Tobiae matre se promittit ornaturam.</emph>
-       <emph rend="italic">Interim Tobiae Juniori copia datur ad patrem revertendi.</emph>
+       <persName ref="#credulitas" rend="italic">Credulitas</persName>
+       <emph rend="italic">, quae metus et curas inanes hominum animis vel inserit, vel insitas exaggerat, hanc suam spartam in Tobiae matre se promittit ornaturam.Interim Tobiae Juniori copia datur ad patrem revertendi.</emph>
       </p>
      </argument>
      <sp who="#credulitas">
@@ -4496,7 +4416,7 @@
       <l n="1720">Redux futurus. Ante festino domum,</l>
       <l n="1721">Tristare tristem quo queam matrem magis.</l>
      </sp>
-     <sp who="#tobias">
+     <sp who="#tobias-junior">
       <speaker>Tobias</speaker>
       <l n="1722">Vale supremum sit mihi tandem integrum</l>
       <l n="1723" part="I">Tibi precari.</l>
@@ -4529,7 +4449,7 @@
       <l n="1731">Valeque. Natam creditam fidei tuae</l>
       <l n="1732">Tuere, sanctis moribus juxta imbue.</l>
      </sp>
-     <sp who="#tobias">
+     <sp who="#tobias-junior">
       <speaker>Tobias</speaker>
       <l n="1733">In hoc vel omni mentis incumbam impetu.</l>
      </sp>
@@ -4542,7 +4462,7 @@
       <l n="1735">Valete plurimamque Tobiae Seni</l>
       <l n="1736" part="I">Dicite salutem.</l>
      </sp>
-     <sp who="#tobias">
+     <sp who="#tobias-junior">
       <speaker>Tobias</speaker>
       <l n="1736" part="F">Quod voles, dictum dabo.</l>
      </sp>
@@ -4552,7 +4472,7 @@
       <l n="1738">Haereditatis omnium, quae sunt mea</l>
       <l n="1739" part="I">Vel esse possunt in manu.</l>
      </sp>
-     <sp who="#tobias">
+     <sp who="#tobias-junior">
       <speaker>Tobias</speaker>
       <l n="1739" part="F">Sicut pater</l>
       <l n="1740">Mihi imperavit, pauperum impendam usui.</l>
@@ -4573,19 +4493,15 @@
      <head>Scena IV.</head>
      <argument>
       <p>
-       <persName ref="#anna">Anna</persName>
+       <persName ref="#anna" rend="italic">Anna</persName>
        <emph rend="italic">, uxor Tobiae,</emph>
-       <persName ref="#saphat">Saphat</persName>
+       <persName ref="#saphat" rend="italic">Saphat</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#tobias">Tobias</persName>
-       <emph rend="italic">Senior</emph>
+       <persName ref="#tobias-senior" rend="italic">Tobias Senior</persName>
       </p>
       <p>Argumentum</p>
       <p>
-       <emph rend="italic">Tobiae mater cura, metu, dolore conflictatur</emph>
-       <emph rend="italic">. Advolat nuntius et a filio salutem. Reviviscit mater,</emph>
-       <emph rend="italic">at iterum ad idem saxum redit</emph>
-       <emph rend="italic">, rogat nuntium, ut senem adeat. Interim in montem illa ascendit, visura filii reditum.</emph>
+       <emph rend="italic">Tobiae mater cura, metu, dolore conflictatur. Advolat nuntius et a filio salutem. Reviviscit mater, at iterum ad idem saxum redit, rogat nuntium, ut senem adeat. Interim in montem illa ascendit, visura filii reditum.</emph>
       </p>
      </argument>
      <sp who="#anna">
@@ -4761,18 +4677,15 @@
      <head>Scena V.</head>
      <argument>
       <p>
-       <persName ref="#anna">Anna</persName>
+       <persName ref="#anna" rend="italic">Anna</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#raphael">Raphael</persName>
+       <persName ref="#raphael" rend="italic">Raphael</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#tobias">Tobias</persName>
-       <emph rend="italic">Junior</emph>
+       <persName ref="#tobias-junior" rend="italic">Tobias Junior</persName>
       </p>
       <p>Argumentum</p>
       <p>
-       <emph rend="italic">Mater Tobiae e monte revertentem filium intuetur; exilit gaudio, maritum laeto nuntio auget</emph>
-       <emph rend="italic">.</emph>
-       <emph rend="italic">Iterum excurrit, canem occurrentem habet.</emph>
+       <emph rend="italic">Mater Tobiae e monte revertentem filium intuetur; exilit gaudio, maritum laeto nuntio auget. Iterum excurrit, canem occurrentem habet.</emph>
       </p>
      </argument>
      <sp who="#anna">
@@ -4843,27 +4756,23 @@
      <head>Scena VI.</head>
      <argument>
       <p>
-       <persName ref="#tobias">Tobias</persName>
-       <emph rend="italic">Senior,</emph>
-       <persName ref="#tobias">Tobias</persName>
-       <emph rend="italic">Junior,</emph>
-       <persName ref="#raphael">Raphael</persName>
+       <persName ref="#tobias-senior" rend="italic">Tobias Senior</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#anna">Anna</persName>
+       <persName ref="#tobias-junior" rend="italic">Tobias Junior</persName>
+       <emph rend="italic">,</emph>
+       <persName ref="#raphael" rend="italic">Raphael</persName>
+       <emph rend="italic">,</emph>
+       <persName ref="#anna" rend="italic">Anna</persName>
        <emph rend="italic">, Tobiae uxor,</emph>
-       <persName ref="#sara">Sara</persName>
+       <persName ref="#sara" rend="italic">Sara</persName>
       </p>
       <p>Argumentum</p>
       <p>
-       <emph rend="italic">Mutuam sibi salutem impertiunt, Dei laudes condunt et concinunt</emph>
-       <emph rend="italic">.</emph>
-       <persName ref="#tobias">Tobias</persName>
-       <emph rend="italic">Junior parentes certiores reddit de nacta conjuge, bonis, haereditate. Rursum Deum panegyri celebrant.</emph>
-       <emph rend="italic">Salutant novam nuptam, mirantur hominum et pecudis agmina, quae</emph>
-       <persName ref="#sara">Sara</persName>
-       <emph rend="italic">secum trahit</emph>
-       <emph rend="italic">.</emph>
-       <emph rend="italic">Felle parentis oculos inungit natus. Iterum in Dei laudes incumbunt.</emph>
+       <emph rend="italic">Mutuam sibi salutem impertiunt, Dei laudes condunt et concinunt.</emph>
+       <persName ref="#tobias-junior" rend="italic">Tobias Junior</persName>
+       <emph rend="italic">parentes certiores reddit de nacta conjuge, bonis, haereditate. Rursum Deum panegyri celebrant. Salutant novam nuptam, mirantur hominum et pecudis agmina, quae</emph>
+       <persName ref="#sara" rend="italic">Sara</persName>
+       <emph rend="italic">secum trahit. Felle parentis oculos inungit natus. Iterum in Dei laudes incumbunt.</emph>
       </p>
      </argument>
      <sp who="#tobias-senior">
@@ -5043,23 +4952,19 @@
      <head>Scena VII.</head>
      <argument>
       <p>
-       <persName ref="#tobias">Tobias</persName>
-       <emph rend="italic">Senior,</emph>
-       <persName ref="#tobias">Tobias</persName>
-       <emph rend="italic">Junior,</emph>
-       <persName ref="#raphael">Raphael</persName>
+       <persName ref="#tobias-senior" rend="italic">Tobias Senior</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#sara">Sara</persName>
+       <persName ref="#tobias-junior" rend="italic">Tobias Junior</persName>
        <emph rend="italic">,</emph>
-       <persName ref="#anna">Anna</persName>
+       <persName ref="#raphael" rend="italic">Raphael</persName>
+       <emph rend="italic">,</emph>
+       <persName ref="#sara" rend="italic">Sara</persName>
+       <emph rend="italic">,</emph>
+       <persName ref="#anna" rend="italic">Anna</persName>
       </p>
       <p>Argumentum</p>
       <p>
-       <emph rend="italic">Agitur de mercede</emph>
-       <persName ref="#raphael">Raphael</persName>
-       <emph rend="italic">is</emph>
-       <emph rend="italic">;</emph>
-       <emph rend="italic">revelat se, qui sit, et caelum petit, caelo terraque gratulantibus pariter et stupentibus.</emph>
+       <emph rend="italic">Agitur de mercede Raphaelis; revelat se, qui sit, et caelum petit, caelo terraque gratulantibus pariter et stupentibus.</emph>
       </p>
      </argument>
      <sp who="#tobias-senior">
