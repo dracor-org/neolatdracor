@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI type="dracor" xml:id="neolat000034" xml:lang="la" xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Toboeus</title>
-            <title type="sub">Comoedia sacra et nova</title>
+            <title type="sub">comoedia sacra et nova</title>
             <author>
                <persName xml:lang="cs">
                   <forename>Jan</forename>
@@ -56,12 +56,31 @@
                <ref target="https://www.theatrum-neolatinum.cz/en/hry/Toboeus/toboeus.html">Theatrum Neolatinum</ref>
                <availability status="restricted">
                   <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence>
-                  <ab>Copyright: <name ref="https://ucl.cas.cz/" role="copyrightHolder">Ústav pro českou literaturu Akademie věd České republiky, v. v. i.</name></ab>
+                  <ab>Copyright: <name ref="https://ucl.cas.cz/" role="copyrightHolder">Ústav pro českou literaturu Akademie věd České republiky, v. v. i.</name>
+                  </ab>
                </availability>
             </bibl>
             <bibl type="originalSource">
-               <author>Magdaléna Jacková, Markéta Klosová, Martin Bažil, Alena Bočková, Kateřina Bobková-Valentová, Eva Popelková (eds.)</author>: <title>Latinské biblické drama v českých zemích</title>. <pubPlace>Prague</pubPlace>: <publisher>Academia</publisher><date>2026</date>. <title type="volume">(Theatrum Neolatinum, Latinské divadlo v českých zemích 3).</title><biblScope>pp. 97-231.</biblScope><idno type="URL">https://www.theatrum-neolatinum.cz/en/biblicke.html</idno><availability status="restricted"><ab>Copyright: <name ref="https://ucl.cas.cz/" role="copyrightHolder">Ústav pro českou literaturu Akademie věd České republiky, v. v. i.</name>, <name ref="https://www.academia.cz/" role="copyrightHolder">Nakladatelství Academia</name></ab></availability><relatedItem><bibl><title>Toboeus</title>, <title type="sub">comoedia sacra et nova</title>. Scripta ad Decanum et Magistros Facultatis philosophicae in Academia Pragensi a M. <author>Joanne Aquila a Plavcze</author> Anno Domini 1569. Excusa <pubPlace>Pragae</pubPlace> typis <publisher>M.
-        Danielis Adami a Veleslavino</publisher>, <date when="1587">M. D. LXXXVII</date><relatedItem><bibl><orgName>Národní knihovna České republiky</orgName>, <settlement>Praha</settlement>, sign. <idno type="shelfmark">52 G 6, adl. 14</idno></bibl></relatedItem></bibl></relatedItem></bibl>
+               <author>Magdaléna Jacková, Markéta Klosová, Martin Bažil, Alena Bočková, Kateřina Bobková-Valentová, Eva Popelková (eds.)</author>: <title>Latinské biblické drama v českých zemích</title>. <pubPlace>Prague</pubPlace>: <publisher>Academia</publisher>
+               <date>2026</date>. <title type="volume">(Theatrum Neolatinum, Latinské divadlo v českých zemích 3).</title>
+               <biblScope>pp. 97-231.</biblScope>
+               <idno type="URL">https://www.theatrum-neolatinum.cz/en/digi_edice.html</idno>
+               <availability status="restricted">
+                  <ab>Copyright: <name ref="https://ucl.cas.cz/" role="copyrightHolder">Ústav pro českou literaturu Akademie věd České republiky, v. v. i.</name>, <name ref="https://www.academia.cz/" role="copyrightHolder">Nakladatelství Academia</name>
+                  </ab>
+               </availability>
+               <relatedItem>
+                  <bibl>
+                     <title>Toboeus</title>, <title type="sub">comoedia sacra et nova</title>. Scripta ad Decanum et Magistros Facultatis philosophicae in Academia Pragensi a M. <author>Joanne Aquila a Plavcze</author> Anno Domini 1569. Excusa <pubPlace>Pragae</pubPlace> typis
+                        <publisher>M. Danielis Adami a Veleslavino</publisher>, <date when="1587">M. D. LXXXVII</date>
+                     <relatedItem>
+                        <bibl>
+                           <orgName>Národní knihovna České republiky</orgName>, <settlement>Praha</settlement>, sign. <idno type="shelfmark">52 G 6, adl. 14</idno>
+                        </bibl>
+                     </relatedItem>
+                  </bibl>
+               </relatedItem>
+            </bibl>
             <listEvent>
                <event type="print" when="1587">
                   <desc />
@@ -87,15 +106,6 @@
                <person xml:id="actor" sex="UNKNOWN" role="prologus">
                   <persName>Actor</persName>
                </person>
-               <personGrp xml:id="advocati-toboei" sex="UNKNOWN">
-                  <name>Advocati Toboei</name>
-               </personGrp>
-               <personGrp xml:id="amici-raguelis" sex="MALE" role="amicus">
-                  <name>Amici Raguelis</name>
-               </personGrp>
-               <personGrp xml:id="ancillae" sex="FEMALE" role="ancilla" corresp="#pedissequae_ancillae">
-                  <name>Ancillae</name>
-               </personGrp>
                <person xml:id="anna" sex="FEMALE">
                   <persName>Anna</persName>
                </person>
@@ -108,18 +118,9 @@
                <person xml:id="berenice" sex="FEMALE">
                   <persName>Berenice</persName>
                </person>
-               <personGrp xml:id="chorus-angelicus" sex="UNKNOWN" role="chorus">
-                  <name>Chorus Angelicus</name>
-               </personGrp>
                <person xml:id="chremius" sex="MALE" role="diabolus">
                   <persName>Chremius</persName>
                </person>
-               <personGrp xml:id="commeatus-sarae-et-tobiae" sex="UNKNOWN">
-                  <name>Commeatus Sarae et Tobiae</name>
-               </personGrp>
-               <personGrp xml:id="daemones" sex="UNKNOWN">
-                  <name>Daemones</name>
-               </personGrp>
                <person xml:id="dibon" sex="MALE" role="amicus">
                   <persName>Dibon</persName>
                </person>
@@ -148,15 +149,9 @@
                <person xml:id="hamas" sex="MALE" role="coquus">
                   <persName>Hamas</persName>
                </person>
-               <personGrp xml:id="libertini" sex="UNKNOWN">
-                  <name>Libertini</name>
-               </personGrp>
                <person xml:id="methuben" sex="MALE" role="libitinarius">
                   <persName>Methuben</persName>
                </person>
-               <personGrp xml:id="pedissequae-ancillae" sex="FEMALE" role="ancilla">
-                  <name>Pedissequae ancillae</name>
-               </personGrp>
                <person xml:id="phollatim" sex="MALE" role="advocatus">
                   <persName>Phollatim</persName>
                </person>
@@ -166,9 +161,6 @@
                <person xml:id="promptula" sex="FEMALE" role="ancilla">
                   <persName>Promptula</persName>
                </person>
-               <personGrp xml:id="puellae" sex="FEMALE" role="ancilla">
-                  <name>Puellae</name>
-               </personGrp>
                <person xml:id="raguel" sex="MALE" role="senex">
                   <persName>Raguel</persName>
                </person>
@@ -181,7 +173,7 @@
                <person xml:id="sadok" sex="MALE" role="sacerdos">
                   <persName>Sadok</persName>
                </person>
-               <person xml:id="sara" sex="FEMALE"role="filia">
+               <person xml:id="sara" sex="FEMALE" role="filia">
                   <persName>Sara</persName>
                </person>
                <person xml:id="sipha" sex="FEMALE" role="ancilla">
@@ -192,22 +184,15 @@
                </person>
                <person xml:id="tobias" sex="MALE">
                   <persName>Tobias</persName>
+                  <persName type="variant">Tobias Junior</persName>
                </person>
-               <person xml:id="tobias-junior" sex="MALE">
-                  <persName>Tobias Junior</persName>
-               </person>
-               <person xml:id="toboeus" sex="MALE">
+               <person xml:id="toboeus" sex="MALE" role="senex">
                   <persName>Toboeus</persName>
-               </person>
-               <person xml:id="tobeus-senex" sex="MALE" role="senex">
-                  <persName>Toboeus senex</persName>
+                  <persName type="variant">Toboeus senex</persName>
                </person>
                <person xml:id="tubal" sex="MALE" role="servus">
                   <persName>Tubal</persName>
                </person>
-               <personGrp xml:id="vicini-raguelis" sex="MALE" role="vicinus">
-                  <name>Vicini Raguelis</name>
-               </personGrp>
                <person xml:id="zalmanus" sex="MALE" role="vicinus">
                   <persName>Zalmanus</persName>
                </person>
@@ -238,8 +223,10 @@
                <titlePart type="sub">comoedia sacra et nova,</titlePart>
                <titlePart type="desc">scripta ad Decanum et Magistros Facultatis philosophicae in Academia Pragensi</titlePart>
             </docTitle>
-            <byline>a <docAuthor>M. Joanne Aquila a Plavcze</docAuthor> Anno Domini <date when="1569">1569</date></byline>
-            <docImprint>Excusa <pubPlace>Pragae</pubPlace>, typis <publisher>M. Danielis Adami a Veleslavino</publisher><docDate when="1587">M. D. LXXXVII</docDate>. </docImprint>
+            <byline>a <docAuthor>M. Joanne Aquila a Plavcze</docAuthor> Anno Domini <date when="1569">1569</date>
+            </byline>
+            <docImprint>Excusa <pubPlace>Pragae</pubPlace>, typis <publisher>M. Danielis Adami a Veleslavino</publisher>
+               <docDate when="1587">M. D. LXXXVII</docDate>. </docImprint>
          </titlePage>
          <pb n="A2r" />
          <div type="dedication">
@@ -573,7 +560,7 @@
             <castGroup>
                <roleDesc>Vicini Raguelis:</roleDesc>
                <castItem>
-                  <role>Zalman</role>
+                  <role>Zalmanus</role>
                </castItem>
                <castItem>
                   <role>Zderadus</role>
@@ -632,9 +619,9 @@
                <head>Actus I. Scena I.</head>
                <stage>
                   <emph rend="italic">Interlocutores:</emph>
-                  <persName ref="#toboeus">Toboeus</persName>
-                  <emph rend="italic">senex,</emph>
-                  <persName ref="#tubal">Tubal</persName>
+                  <persName ref="#toboeus" rend="italic">Toboeus senex</persName>
+                  <emph rend="italic">,</emph>
+                  <persName ref="#tubal" rend="italic">Tubal</persName>
                   <emph rend="italic">servus</emph>
                </stage>
                <sp who="#toboeus">
@@ -742,7 +729,7 @@
                </sp>
                <sp who="#tubal">
                   <speaker>Tubal</speaker>
-                  <l n="226" part="F">Oscitando nescius</l>
+                  <l n="226" part="F" rend="indent">Oscitando nescius</l>
                   <l n="227">Sum porro factus.</l>
                </sp>
                <sp who="#toboeus">
@@ -762,7 +749,7 @@
                </sp>
                <sp who="#tubal">
                   <speaker>Tubal</speaker>
-                  <l n="232" part="F">Mane sit seu vesperi,</l>
+                  <l n="232" part="F" rend="indent">Mane sit seu vesperi,</l>
                   <l n="233">Ita ad claram solito diem usque stertimus,</l>
                   <l n="234">Duram mulcendo inediam.</l>
                </sp>
@@ -799,7 +786,7 @@
                </sp>
                <sp who="#tubal">
                   <speaker>Tubal</speaker>
-                  <l n="249" part="F">Raro suis</l>
+                  <l n="249" part="F" rend="indent">Raro suis</l>
                   <l n="250">Inest, vagus qui in aedibus.</l>
                </sp>
                <sp who="#toboeus">
@@ -810,7 +797,7 @@
                </sp>
                <sp who="#tubal">
                   <speaker>Tubal</speaker>
-                  <l n="252" part="F">Hoc serius</l>
+                  <l n="252" part="F" rend="indent">Hoc serius</l>
                   <l n="253">Apud nos multo plus prandetur tempore.</l>
                   <l n="254">Sed hem, quis hic?</l>
                </sp>
@@ -839,27 +826,27 @@
                </sp>
                <sp who="#toboeus">
                   <speaker>Toboeus</speaker>
-                  <l n="262" part="F">Ad mensam sedens meum </l>
+                  <l n="262" part="F" rend="indent">Ad mensam sedens meum </l>
                   <l n="263">Gnatum, propinquos ut vocaret pauperes,</l>
                   <l n="264" part="I">Misi.</l>
                </sp>
                <sp who="#tubal">
                   <speaker>Tubal</speaker>
-                  <l n="264" part="M">Hem? Quid, ad mensam vocat?</l>
+                  <l n="264" part="M" rend="indent">Hem? Quid, ad mensam vocat?</l>
                </sp>
                <sp who="#toboeus">
                   <speaker>Toboeus</speaker>
-                  <l n="264" part="F">Qui prandio</l>
+                  <l n="264" part="F" rend="indent2">Qui prandio</l>
                   <l n="265" part="I">Adessent.</l>
                </sp>
                <sp who="#tubal">
                   <speaker>Tubal</speaker>
-                  <l n="265" part="F">Salva res est, postquam prandium</l>
+                  <l n="265" part="F" rend="indent">Salva res est, postquam prandium</l>
                   <l n="266" part="I">In ore gerit noster senex.</l>
                </sp>
                <sp who="#toboeus">
                   <speaker>Toboeus</speaker>
-                  <l n="266" part="F">Ubi filius</l>
+                  <l n="266" part="F" rend="indent">Ubi filius</l>
                   <l n="267">Reversus est, sepelire juvit me mortuos.</l>
                   <l n="268">Sic aggravatus ergo luctu maximo</l>
                   <l n="269">Nec non amicorum gravibus querimoniis,</l>
@@ -890,7 +877,7 @@
                </sp>
                <sp who="#tubal">
                   <speaker>Tubal</speaker>
-                  <l n="286" part="F">Frustra precibus obtundit Deum,</l>
+                  <l n="286" part="F" rend="indent">Frustra precibus obtundit Deum,</l>
                   <l n="287">Quisquis sibi, dum licet queatque, haud consulit.</l>
                </sp>
                <sp who="#toboeus">
@@ -905,7 +892,7 @@
                </sp>
                <sp who="#tubal">
                   <speaker>Tubal</speaker>
-                  <l n="294" part="F">Nae illud est vulgi verissimum:</l>
+                  <l n="294" part="F" rend="indent">Nae illud est vulgi verissimum:</l>
                   <l n="295">Sero sapiunt Phryges, itidem noster senex.</l>
                </sp>
                <sp who="#toboeus">
@@ -925,7 +912,7 @@
                </sp>
                <sp who="#tubal">
                   <speaker>Tubal</speaker>
-                  <l n="301" part="F">Finem scio</l>
+                  <l n="301" part="F" rend="indent">Finem scio</l>
                   <l n="302">Non faceret garriendi, ni interrumperem.</l>
                </sp>
                <sp who="#toboeus">
@@ -948,7 +935,7 @@
                </sp>
                <sp who="#toboeus">
                   <speaker>Toboeus</speaker>
-                  <l n="307" part="F">Tu quis es?</l>
+                  <l n="307" part="F" rend="indent">Tu quis es?</l>
                   <l n="308">Tubalne noster? Unde tu te proripis?</l>
                </sp>
                <sp who="#tubal">
@@ -957,7 +944,7 @@
                </sp>
                <sp who="#toboeus">
                   <speaker>Toboeus</speaker>
-                  <l n="309" part="F">Quid est?</l>
+                  <l n="309" part="F" rend="indent">Quid est?</l>
                </sp>
                <sp who="#tubal">
                   <speaker>Tubal</speaker>
@@ -966,12 +953,12 @@
                </sp>
                <sp who="#toboeus">
                   <speaker>Toboeus</speaker>
-                  <l n="311" part="F">Recte facis.</l>
+                  <l n="311" part="F" rend="indent">Recte facis.</l>
                   <l n="312" part="I">Sed heus, intus sunt ne salva omnia?</l>
                </sp>
                <sp who="#tubal">
                   <speaker>Tubal</speaker>
-                  <l n="312" part="F">Sunt, here.</l>
+                  <l n="312" part="F" rend="indent">Sunt, here.</l>
                </sp>
                <sp who="#toboeus">
                   <speaker>Toboeus</speaker>
@@ -984,18 +971,18 @@
                </sp>
                <sp who="#tubal">
                   <speaker>Tubal</speaker>
-                  <l n="318" part="F">Faciam; proh Deum,</l>
+                  <l n="318" part="F" rend="indent">Faciam; proh Deum,</l>
                   <l n="319">Quam sum veritus, ne in nostrum haec vergat sarcina</l>
                   <l n="320" part="I">Dorsum.</l>
                </sp>
                <sp who="#toboeus">
                   <speaker>Toboeus</speaker>
-                  <l n="320" part="F">Sed heus, in exquirendo strenuus</l>
+                  <l n="320" part="F" rend="indent">Sed heus, in exquirendo strenuus</l>
                   <l n="321" part="I">Oportet, ut sis.</l>
                </sp>
                <sp who="#tubal">
                   <speaker>Tubal</speaker>
-                  <l n="321" part="F">Scilicet. Iste nunc senex</l>
+                  <l n="321" part="F" rend="indent">Scilicet. Iste nunc senex</l>
                   <l n="322">Hinc abit. Utinam esset claudus quam caecus magis,</l>
                   <l n="323">Cui non tantum vagari hinc inde suppetat.</l>
                </sp>
@@ -1003,9 +990,9 @@
             <div type="scene" n="2">
                <head>Actus I. Scena II.</head>
                <stage>
-                  <persName ref="#tubal">Tubal</persName>
+                  <persName ref="#tubal" rend="italic">Tubal</persName>
                   <emph rend="italic">servus,</emph>
-                  <persName ref="#hamas">Hamas</persName>
+                  <persName ref="#hamas" rend="italic">Hamas</persName>
                   <emph rend="italic">cocus</emph>
                </stage>
                <sp who="#tubal">
@@ -1069,7 +1056,7 @@
                </sp>
                <sp who="#tubal">
                   <speaker>Tubal</speaker>
-                  <l n="368" part="F">Hem bellissime</l>
+                  <l n="368" part="F" rend="indent">Hem bellissime</l>
                   <l n="369">Meus mihi occinit isthaec contubernio.</l>
                </sp>
                <sp who="#hamas">
@@ -1090,7 +1077,7 @@
                </sp>
                <sp who="#hamas">
                   <speaker>Hamas</speaker>
-                  <l n="373" part="F">Noster senex</l>
+                  <l n="373" part="F" rend="indent">Noster senex</l>
                   <l n="374">Ita parcus victitat nimis parcissime.</l>
                </sp>
                <sp who="#tubal">
@@ -1099,13 +1086,13 @@
                </sp>
                <sp who="#hamas">
                   <speaker>Hamas</speaker>
-                  <l n="375" part="F">Ast ubi, ubi, quos jusserat,</l>
+                  <l n="375" part="F" rend="indent">Ast ubi, ubi, quos jusserat,</l>
                   <l n="376">Inveniam, qui tam delicato prandio</l>
                   <l n="377" part="I">Praesto adsint?</l>
                </sp>
                <sp who="#tubal">
                   <speaker>Tubal</speaker>
-                  <l n="377" part="F">Proh, dii, summus faxit Juppiter,</l>
+                  <l n="377" part="F" rend="indent">Proh, dii, summus faxit Juppiter,</l>
                   <l n="378">Ut invenias, nam venter, dentes gestiunt,</l>
                   <l n="379">Omnia et interna. Ita videor plena manu</l>
                   <pb n="B4v" />
@@ -1119,13 +1106,13 @@
                </sp>
                <sp who="#tubal">
                   <speaker>Tubal</speaker>
-                  <l n="383" part="F">Trifurcifer,</l>
+                  <l n="383" part="F" rend="indent">Trifurcifer,</l>
                   <l n="384">Iterum enecas, modo qui tam lautum prandium</l>
                   <l n="385" part="I">Dixeris.</l>
                </sp>
                <sp who="#hamas">
                   <speaker>Hamas</speaker>
-                  <l n="385" part="F">His, nisi fallor, Phollatim in aedibus</l>
+                  <l n="385" part="F" rend="indent">His, nisi fallor, Phollatim in aedibus</l>
                   <l n="386">Habitat, at isthoc porro Rhazon angulo.</l>
                </sp>
                <sp who="#tubal">
@@ -1135,7 +1122,7 @@
                </sp>
                <sp who="#hamas">
                   <speaker>Hamas</speaker>
-                  <l n="388" part="F">Ast ubi locorum Gersona?</l>
+                  <l n="388" part="F" rend="indent">Ast ubi locorum Gersona?</l>
                   <l n="389">Sed hem, noster Tubal videtur tristior</l>
                   <l n="390">Solitum praeter, cadaverum (nil certius)</l>
                   <l n="391">Acervum fert ingentem. Salve plurimum,</l>
@@ -1152,7 +1139,7 @@
                </sp>
                <sp who="#hamas">
                   <speaker>Hamas</speaker>
-                  <l n="393" part="F">Hem, bona verba. Ne saevi, rogo.</l>
+                  <l n="393" part="F" rend="indent">Hem, bona verba. Ne saevi, rogo.</l>
                   <l n="394">Nusquam quicquam modo factitatum, quod sciam.</l>
                </sp>
                <sp who="#tubal">
@@ -1173,7 +1160,7 @@
                </sp>
                <sp who="#hamas">
                   <speaker>Hamas</speaker>
-                  <l n="406" part="F">Tu pugnis adeo tuis</l>
+                  <l n="406" part="F" rend="indent">Tu pugnis adeo tuis</l>
                   <pb n="B5r" />
                   <l n="407">Pene omnes excussisti, ut qui sint, nesciam.</l>
                </sp>
@@ -1187,7 +1174,7 @@
                </sp>
                <sp who="#tubal">
                   <speaker>Tubal</speaker>
-                  <l n="409" part="F">At quos in aedibus</l>
+                  <l n="409" part="F" rend="indent">At quos in aedibus</l>
                   <l n="410">Habitare in hisce? Tecum quid obmurmuras?</l>
                </sp>
                <sp who="#hamas">
@@ -1226,7 +1213,7 @@
                </sp>
                <sp who="#tubal">
                   <speaker>Tubal</speaker>
-                  <l n="422" part="F">Mendicos mercenarios</l>
+                  <l n="422" part="F" rend="indent">Mendicos mercenarios</l>
                   <l n="423">Tam lautis par fuit convivas ferculis.</l>
                   <l n="424">Sed en, foras exit senex, ocyssime</l>
                   <l n="425">Hinc exeamus, tu hospites, ego mortuos</l>
@@ -1236,17 +1223,17 @@
             <div type="scene" n="3">
                <head>Actus I. Scena III.</head>
                <stage>
-                  <persName ref="#toboeus">Toboeus</persName>
-                  <emph rend="italic">senex,</emph>
-                  <persName ref="#anna">Anna</persName>
-                  <emph rend="italic">uxor,</emph>
-                  <persName ref="#hamas">Hamas</persName>
-                  <emph rend="italic">cocus,</emph>
-                  <persName ref="#tubal">Tubal</persName>
-                  <emph rend="italic">servus,</emph>
-                  <persName ref="#phollatim">Phollatim</persName>
+                  <persName ref="#toboeus" rend="italic">Toboeus senex</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#gersona">Gersona</persName>
+                  <persName ref="#anna" rend="italic">Anna</persName>
+                  <emph rend="italic">uxor,</emph>
+                  <persName ref="#hamas" rend="italic">Hamas</persName>
+                  <emph rend="italic">cocus,</emph>
+                  <persName ref="#tubal" rend="italic">Tubal</persName>
+                  <emph rend="italic">servus,</emph>
+                  <persName ref="#phollatim" rend="italic">Phollatim</persName>
+                  <emph rend="italic">,</emph>
+                  <persName ref="#gersona" rend="italic">Gersona</persName>
                </stage>
                <pb n="B5v" />
                <sp who="#toboeus">
@@ -1263,7 +1250,7 @@
                </sp>
                <sp who="#anna">
                   <speaker>Anna</speaker>
-                  <l n="435" part="F">Sat scio gravissime</l>
+                  <l n="435" part="F" rend="indent">Sat scio gravissime</l>
                   <l n="436">Meus ferre Toboeus, impatiens morae,</l>
                   <l n="437">Quod tam diu abfuerim; sed eccum conspicor.</l>
                </sp>
@@ -1348,7 +1335,7 @@
                </sp>
                <sp who="#hamas">
                   <speaker>Hamas</speaker>
-                  <l n="480" part="F">Jam praesto, adveniunt domum.</l>
+                  <l n="480" part="F" rend="indent">Jam praesto, adveniunt domum.</l>
                </sp>
                <pb n="B6v" />
                <sp who="#toboeus">
@@ -1384,15 +1371,15 @@
             <div type="scene" n="4">
                <head>Actus I. Scena IV.</head>
                <stage>
-                  <persName ref="#asmodaeus">Asmodaeus</persName>
+                  <persName ref="#asmodaeus" rend="italic">Asmodaeus</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#raguel">Raguel</persName>
+                  <persName ref="#raguel" rend="italic">Raguel</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#abidan">Abidan</persName>
+                  <persName ref="#abidan" rend="italic">Abidan</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#dibon">Dibon</persName>
+                  <persName ref="#dibon" rend="italic">Dibon</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#pluto">Pluto</persName>
+                  <persName ref="#pluto" rend="italic">Pluto</persName>
                </stage>
                <sp who="#asmodaeus">
                   <speaker>Asmodaeus</speaker>
@@ -1466,7 +1453,7 @@
                </sp>
                <sp who="#dibon">
                   <speaker>Dibon</speaker>
-                  <l n="536" part="F">Nihil</l>
+                  <l n="536" part="F" rend="indent">Nihil</l>
                   <l n="537">Profecto certius.</l>
                </sp>
                <sp who="#abidan">
@@ -1503,13 +1490,13 @@
                </sp>
                <sp who="#raguel">
                   <speaker>Raguel</speaker>
-                  <l n="554" part="F">Nescitis, vicini, quid dicitis.</l>
+                  <l n="554" part="F" rend="indent">Nescitis, vicini, quid dicitis.</l>
                   <l n="555">Facile est, quibus nil nocet, aegris consulere.</l>
                   <l n="556" part="I">At...</l>
                </sp>
                <sp who="#dibon">
                   <speaker>Dibon</speaker>
-                  <l n="556" part="F">Heu, ne plora; nam magis est in re gravi</l>
+                  <l n="556" part="F" rend="indent2">Heu, ne plora; nam magis est in re gravi</l>
                   <l n="557">Opus praesenti animo indulgere quam tibi</l>
                   <l n="558">Tuisque fletibus. Deus quos diligit,</l>
                   <l n="559">Hos corrigit; precibus placandus est piis.</l>
@@ -1543,7 +1530,7 @@
                </sp>
                <sp who="#pluto">
                   <speaker>Pluto</speaker>
-                  <l n="576" part="F">Heus satellites,</l>
+                  <l n="576" part="F" rend="indent">Heus satellites,</l>
                   <l n="577">Chremi, Dromo et reliqui, nostro quis ostio</l>
                   <l n="578">Protervus instat, pulsat, frangit cardines?</l>
                   <l n="579">Aperite ocyus, aperite! Vah, quid est novi?</l>
@@ -1588,16 +1575,15 @@
                   <l n="599">Hinc, spectatores, expectate candidi.</l>
                </sp>
             </argument>
+            <pb n="C1r" />
             <div type="scene" n="1">
-               <pb n="C1r" />
                <head>Actus II. Scena I.</head>
                <stage>
-                  <persName ref="#toboeus">Toboeus</persName>
-                  <emph rend="italic">senex,</emph>
-                  <persName ref="#tubal">Tubal</persName>
+                  <persName ref="#toboeus" rend="italic">Toboeus senex</persName>
+                  <emph rend="italic">,</emph>
+                  <persName ref="#tubal" rend="italic">Tubal</persName>
                   <emph rend="italic">servus,</emph>
-                  <persName ref="#tobias">Tobias</persName>
-                  <emph rend="italic">Junior</emph>
+                  <persName ref="#tobias" rend="italic">Tobias Junior</persName>
                </stage>
                <sp who="#toboeus">
                   <speaker>Toboeus</speaker>
@@ -1611,7 +1597,7 @@
                </sp>
                <sp who="#tubal">
                   <speaker>Tubal</speaker>
-                  <l n="606" part="F">Quid me vis, dicito.</l>
+                  <l n="606" part="F" rend="indent">Quid me vis, dicito.</l>
                </sp>
                <sp who="#toboeus">
                   <speaker>Toboeus</speaker>
@@ -1619,21 +1605,21 @@
                </sp>
                <sp who="#tubal">
                   <speaker>Tubal</speaker>
-                  <l n="607" part="F">Custodem in aedibus</l>
+                  <l n="607" part="F" rend="indent">Custodem in aedibus</l>
                   <l n="608" part="I">Manere, here, arbitror.</l>
                </sp>
                <sp who="#toboeus">
                   <speaker>Toboeus</speaker>
-                  <l n="608" part="F">Vocatus ocyus</l>
+                  <l n="608" part="F" rend="indent">Vocatus ocyus</l>
                   <l n="609" part="I">Adsit.</l>
                </sp>
                <sp who="#tubal">
                   <speaker>Tubal</speaker>
-                  <l n="609" part="M">Fiet.</l>
+                  <l n="609" part="M" rend="indent">Fiet.</l>
                </sp>
                <sp who="#toboeus">
                   <speaker>Toboeus</speaker>
-                  <l n="609" part="F">Jam video, nec est certius,</l>
+                  <l n="609" part="F" rend="indent2">Jam video, nec est certius,</l>
                   <l n="610">Oportet me miserum malis succumbere.</l>
                   <l n="611">Ita nunc suprema urget nimium necessitas:</l>
                   <l n="612">Paupertas miseros et ridiculos efficit.</l>
@@ -1738,9 +1724,9 @@
             <div type="scene" n="2">
                <head>Actus II. Scena II.</head>
                <stage>
-                  <persName ref="#tobias">Tobias</persName>
-                  <emph rend="italic">Junior,</emph>
-                  <persName ref="#raphael">Raphael</persName>
+                  <persName ref="#tobias" rend="italic">Tobias Junior</persName>
+                  <emph rend="italic">,</emph>
+                  <persName ref="#raphael" rend="italic">Raphael</persName>
                   <emph rend="italic">Angelus</emph>
                </stage>
                <sp who="#tobias">
@@ -1807,11 +1793,11 @@
             <div type="scene" n="3">
                <head>Actus II. Scena III.</head>
                <stage>
-                  <persName ref="#tobias">Tobias</persName>
-                  <emph rend="italic">Junior,</emph>
-                  <persName ref="#toboeus">Toboeus</persName>
-                  <emph rend="italic">senex,</emph>
-                  <persName ref="#raphael">Raphael</persName>
+                  <persName ref="#tobias" rend="italic">Tobias Junior</persName>
+                  <emph rend="italic">,</emph>
+                  <persName ref="#toboeus" rend="italic">Toboeus senex</persName>
+                  <emph rend="italic">,</emph>
+                  <persName ref="#raphael" rend="italic">Raphael</persName>
                   <emph rend="italic">Angelus</emph>
                </stage>
                <sp who="#tobias">
@@ -1913,12 +1899,11 @@
             <div type="scene" n="4">
                <head>Actus II. Scena IV.</head>
                <stage>
-                  <persName ref="#anna">Anna</persName>
+                  <persName ref="#anna" rend="italic">Anna</persName>
                   <emph rend="italic">, uxor Toboei,</emph>
-                  <persName ref="#tobias">Tobias</persName>
-                  <emph rend="italic">Junior,</emph>
-                  <persName ref="#toboeus">Toboeus</persName>
-                  <emph rend="italic">senex</emph>
+                  <persName ref="#tobias" rend="italic">Tobias Junior</persName>
+                  <emph rend="italic">,</emph>
+                  <persName ref="#toboeus" rend="italic">Toboeus senex</persName>
                </stage>
                <sp who="#anna">
                   <speaker>Anna</speaker>
@@ -1926,12 +1911,12 @@
                </sp>
                <sp who="#tobias">
                   <speaker>Tobias</speaker>
-                  <l n="771" part="F">Nihil</l>
+                  <l n="771" part="F" rend="indent">Nihil</l>
                   <l n="772" part="I">Profecto certius, mea mater.</l>
                </sp>
                <sp who="#anna">
                   <speaker>Anna</speaker>
-                  <l n="772" part="F">Proh Deum!</l>
+                  <l n="772" part="F" rend="indent">Proh Deum!</l>
                </sp>
                <sp who="#toboeus">
                   <speaker>Toboeus</speaker>
@@ -1939,7 +1924,7 @@
                </sp>
                <sp who="#tobias">
                   <speaker>Tobias</speaker>
-                  <l n="773" part="F">Adsum, pater.</l>
+                  <l n="773" part="F" rend="indent">Adsum, pater.</l>
                </sp>
                <sp who="#toboeus">
                   <speaker>Toboeus</speaker>
@@ -1966,7 +1951,7 @@
                </sp>
                <sp who="#anna">
                   <speaker>Anna</speaker>
-                  <l n="784" part="F">Ah me miseram, fili dulcissime!</l>
+                  <l n="784" part="F" rend="indent">Ah me miseram, fili dulcissime!</l>
                   <l n="785">Ah, quorsum te trahit fati sors impia?</l>
                   <l n="786">Ah, quorsum abis tuamque matrem deseris?</l>
                   <l n="787">Ah, mane, mane, ah mi fili dulcissime!</l>
@@ -1979,7 +1964,7 @@
                </sp>
                <sp who="#anna">
                   <speaker>Anna</speaker>
-                  <l n="790" part="F">Heu mihi,</l>
+                  <l n="790" part="F" rend="indent">Heu mihi,</l>
                   <pb n="C5r" />
                   <l n="791">Redibit salvus? Magna sunt pericula</l>
                   <l n="792">Viarum. Qui potuisti sic dimittere</l>
@@ -2018,8 +2003,8 @@
                </sp>
             </div>
          </div>
-         <pb n="C5v" />
          <div type="act" n="3">
+            <pb n="C5v" />
             <head>Actus III.</head>
             <argument>
                <head>Argumentum</head>
@@ -2040,19 +2025,19 @@
             <div type="scene" n="1">
                <head>Actus III. Scena I.</head>
                <stage>
-                  <persName ref="#sara">Sara</persName>
+                  <persName ref="#sara" rend="italic">Sara</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#promptula">Promptula</persName>
+                  <persName ref="#promptula" rend="italic">Promptula</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#spudaeola">Spudaeola</persName>
+                  <persName ref="#spudaeola" rend="italic">Spudaeola</persName>
                   <emph rend="italic">puellae,</emph>
-                  <persName ref="#hagar">Hagar</persName>
+                  <persName ref="#hagar" rend="italic">Hagar</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#sipha">Sipha</persName>
+                  <persName ref="#sipha" rend="italic">Sipha</persName>
                   <emph rend="italic">pedissequae,</emph>
-                  <persName ref="#raguel">Raguel</persName>
+                  <persName ref="#raguel" rend="italic">Raguel</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#edna">Edna</persName>
+                  <persName ref="#edna" rend="italic">Edna</persName>
                </stage>
                <sp who="#sara">
                   <speaker>Sara</speaker>
@@ -2079,7 +2064,7 @@
                </sp>
                <sp who="#sara">
                   <speaker>Sara</speaker>
-                  <l n="838" part="F">Sed heus, Promptula.</l>
+                  <l n="838" part="F" rend="indent">Sed heus, Promptula.</l>
                </sp>
                <sp who="#promptula">
                   <speaker>Promptula</speaker>
@@ -2087,7 +2072,7 @@
                </sp>
                <sp who="#sara">
                   <speaker>Sara</speaker>
-                  <l n="839" part="F">Ubi sunt ancillae tam diu,</l>
+                  <l n="839" part="F" rend="indent">Ubi sunt ancillae tam diu,</l>
                   <l n="840">Quas dudum oportuit rediisse a muniis?</l>
                   <l n="841">Ubi sint, quid agant, vide tu, mea Spudaeola.</l>
                </sp>
@@ -2097,7 +2082,7 @@
                </sp>
                <sp who="#sara">
                   <speaker>Sara</speaker>
-                  <l n="842" part="F">Quam negligunt,</l>
+                  <l n="842" part="F" rend="indent">Quam negligunt,</l>
                   <l n="843">Si aliquid illis mandatur.</l>
                </sp>
                <sp who="#spudaeola">
@@ -2119,7 +2104,7 @@
                </sp>
                <sp who="#sipha">
                   <speaker>Sipha</speaker>
-                  <l n="847" part="F">Videnʼ malum,</l>
+                  <l n="847" part="F" rend="indent">Videnʼ malum,</l>
                   <l n="848">Ut nobis insultet pusillum sterculum?</l>
                </sp>
                <sp who="#hagar">
@@ -2198,7 +2183,7 @@
                </sp>
                <sp who="#promptula">
                   <speaker>Promptula</speaker>
-                  <l n="882" part="F">Proh, charissima</l>
+                  <l n="882" part="F" rend="indent">Proh, charissima</l>
                   <pb n="C7r" />
                   <l n="883">Domina, ah, tantis jam, quaeso, parce lachrymis.</l>
                </sp>
@@ -2214,7 +2199,7 @@
                </sp>
                <sp who="#sara">
                   <speaker>Sara</speaker>
-                  <l n="887" part="F">Tu scis, Deus,</l>
+                  <l n="887" part="F" rend="indent">Tu scis, Deus,</l>
                   <l n="888">Quod munda sim a cunctis malis illecebris,</l>
                   <l n="889">Meumque nomen nullo laesi crimine,</l>
                   <l n="890">Parentum vel meorum famam pollui.</l>
@@ -2226,7 +2211,7 @@
                </sp>
                <sp who="#sara">
                   <speaker>Sara</speaker>
-                  <l n="891" part="F">Ah Deus, Deus meus,</l>
+                  <l n="891" part="F" rend="indent">Ah Deus, Deus meus,</l>
                   <l n="892">Vide, quod sim patri matrique filia</l>
                   <l n="893">Unica nec est superstes ulla soror mihi,</l>
                   <l n="894">Propinquus aut affinis succedens meis</l>
@@ -2274,7 +2259,7 @@
                </sp>
                <sp who="#edna">
                   <speaker>Edna</speaker>
-                  <l n="910" part="F">Ah, quid est,</l>
+                  <l n="910" part="F" rend="indent">Ah, quid est,</l>
                   <l n="911">Acerbis quod tibi nunquam parcis fletibus?</l>
                </sp>
                <sp who="#sara">
@@ -2292,25 +2277,25 @@
                </sp>
                <sp who="#raguel">
                   <speaker>Raguel</speaker>
-                  <l n="915" part="M">An quis est nostratium?</l>
+                  <l n="915" part="M" rend="indent">An quis est nostratium?</l>
                </sp>
                <sp who="#edna">
                   <speaker>Edna</speaker>
-                  <l n="915" part="F">Mea</l>
+                  <l n="915" part="F" rend="indent2">Mea</l>
                   <l n="916" part="I">Dic, quaeso, gnata.</l>
                </sp>
                <sp who="#sara">
                   <speaker>Sara</speaker>
-                  <l n="916" part="M">Hagar, Sipha.</l>
+                  <l n="916" part="M" rend="indent">Hagar, Sipha.</l>
                </sp>
                <sp who="#edna">
                   <speaker>Edna</speaker>
-                  <l n="916" part="F">Hem, quid audio?</l>
+                  <l n="916" part="F" rend="indent2">Hem, quid audio?</l>
                   <l n="917" part="I">Hagar? Sipha? Id quid est?</l>
                </sp>
                <sp who="#sara">
                   <speaker>Sara</speaker>
-                  <l n="917" part="F">Maledixerunt mihi.</l>
+                  <l n="917" part="F" rend="indent">Maledixerunt mihi.</l>
                </sp>
                <sp who="#edna">
                   <speaker>Edna</speaker>
@@ -2336,17 +2321,15 @@
             <div type="scene" n="2">
                <head>Actus III. Scena II.</head>
                <stage>
-                  <persName ref="#tobias">Tobias</persName>
-                  <emph rend="italic">Junior,</emph>
-                  <persName ref="#raphael">Raphael</persName>
-                  <emph rend="italic">Angelus,</emph>
-                  <persName ref="#raguel">Raguel</persName>
+                  <persName ref="#tobias" rend="italic">Tobias Junior</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#edna">Edna</persName>
-                  <emph rend="italic">, uxor</emph>
-                  <persName ref="#raguel">Raguel</persName>
-                  <emph rend="italic">is,</emph>
-                  <persName ref="#promptula">Promptula</persName>
+                  <persName ref="#raphael" rend="italic">Raphael</persName>
+                  <emph rend="italic">Angelus,</emph>
+                  <persName ref="#raguel" rend="italic">Raguel</persName>
+                  <emph rend="italic">,</emph>
+                  <persName ref="#edna" rend="italic">Edna</persName>
+                  <emph rend="italic">, uxor Raguelis,</emph>
+                  <persName ref="#promptula" rend="italic">Promptula</persName>
                </stage>
                <sp who="#tobias">
                   <speaker>Tobias</speaker>
@@ -2395,7 +2378,7 @@
                </sp>
                <sp who="#raphael">
                   <speaker>Raphael</speaker>
-                  <l n="958" part="F">Noli, frater, extimescere,</l>
+                  <l n="958" part="F" rend="indent">Noli, frater, extimescere,</l>
                   <l n="959">Memor sed esto Dei, Dominum Deum time</l>
                   <l n="960">Atque recorderis mandati patris tui,</l>
                   <l n="961">Qui jussit, ut propinquam ducas conjugem,</l>
@@ -2409,7 +2392,7 @@
                </sp>
                <sp who="#tobias">
                   <speaker>Tobias</speaker>
-                  <l n="968" part="F">Frater mi Azaria,</l>
+                  <l n="968" part="F" rend="indent">Frater mi Azaria,</l>
                   <l n="969">Haec si est Dei voluntas, ut plane asseris,</l>
                   <l n="970">Profecto colligasti animum meum nimis</l>
                   <l n="971">Cum animo illius; volet ut, faciat mihi ita Deus.</l>
@@ -2440,7 +2423,7 @@
                </sp>
                <sp who="#raphael">
                   <speaker>Raphael</speaker>
-                  <l n="980" part="F">Novimus.</l>
+                  <l n="980" part="F" rend="indent">Novimus.</l>
                </sp>
                <sp who="#raguel">
                   <speaker>Raguel</speaker>
@@ -2448,11 +2431,11 @@
                </sp>
                <sp who="#raphael">
                   <speaker>Raphael</speaker>
-                  <l n="981" part="M">Bene valet.</l>
+                  <l n="981" part="M" rend="indent">Bene valet.</l>
                </sp>
                <sp who="#tobias">
                   <speaker>Tobias</speaker>
-                  <l n="981" part="F">Toboeus est pater </l>
+                  <l n="981" part="F" rend="indent2">Toboeus est pater </l>
                   <pb n="D1r" />
                   <l n="982">Meus, quem vos amicum vestrum dicitis.</l>
                </sp>
@@ -2533,9 +2516,9 @@
             <div type="scene" n="3">
                <head>Actus III. Scena III.</head>
                <stage>
-                  <persName ref="#sara">Sara</persName>
+                  <persName ref="#sara" rend="italic">Sara</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#berenice">Berenice</persName>
+                  <persName ref="#berenice" rend="italic">Berenice</persName>
                   <emph rend="italic">nutrix</emph>
                </stage>
                <sp who="#sara">
@@ -2550,7 +2533,7 @@
                </sp>
                <sp who="#sara">
                   <speaker>Sara</speaker>
-                  <l n="1014" part="F">Imo est aliud,</l>
+                  <l n="1014" part="F" rend="indent">Imo est aliud,</l>
                   <l n="1015">Quod me miseram meumque excruciat animum.</l>
                   <l n="1015">Id in tuum depono sinum, tua hic opus est</l>
                   <l n="1016">Taciturnitate; tibi secreta credidi</l>
@@ -2579,7 +2562,7 @@
                </sp>
                <sp who="#sara">
                   <speaker>Sara</speaker>
-                  <l n="1034" part="F">Egonʼ</l>
+                  <l n="1034" part="F" rend="indent">Egonʼ</l>
                   <l n="1035">Illum ebriosum amem? Neutiquam. Nobilis</l>
                   <l n="1036">Sat est virtute praeditus pudoreque.</l>
                   <l n="1037">Ac dives est nimium, quicunque artes bonas</l>
@@ -2591,7 +2574,7 @@
                </sp>
                <sp who="#sara">
                   <speaker>Sara</speaker>
-                  <l n="1039" part="F">Omitte aulam, charissima,</l>
+                  <l n="1039" part="F" rend="indent">Omitte aulam, charissima,</l>
                   <l n="1040">Pietas pudorque modo ab aulis exulat procul</l>
                   <l n="1041">Fidesque prisca, aevum aulae luxuries rapit.</l>
                </sp>
@@ -2624,7 +2607,7 @@
                </sp>
                <sp who="#sara">
                   <speaker>Sara</speaker>
-                  <l n="1058" part="F">Ego plane mihi certo persuadeo</l>
+                  <l n="1058" part="F" rend="indent">Ego plane mihi certo persuadeo</l>
                   <l n="1059">Pudicum, amantem, literis pietateque</l>
                   <l n="1060">Cultum, redamandum esse. Appetat pecuniam</l>
                   <l n="1060">Avarus institor, aulicus clarum genus,</l>
@@ -2644,19 +2627,19 @@
             <div type="scene" n="4">
                <head>Actus III. Scena IV.</head>
                <stage>
-                  <persName ref="#zalmanus">Zalmanus</persName>
+                  <persName ref="#zalmanus" rend="italic">Zalmanus</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#zderadus">Zderadus</persName>
+                  <persName ref="#zderadus" rend="italic">Zderadus</persName>
                   <emph rend="italic">advocati,</emph>
-                  <persName ref="#abidan">Abidan</persName>
+                  <persName ref="#abidan" rend="italic">Abidan</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#dibon">Dibon</persName>
+                  <persName ref="#dibon" rend="italic">Dibon</persName>
                   <emph rend="italic">vicini,</emph>
-                  <persName ref="#abdiel">Abdiel</persName>
+                  <persName ref="#abdiel" rend="italic">Abdiel</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#enoch">Enoch</persName>
+                  <persName ref="#enoch" rend="italic">Enoch</persName>
                   <emph rend="italic">libertini,</emph>
-                  <persName ref="#raguel">Raguel</persName>
+                  <persName ref="#raguel" rend="italic">Raguel</persName>
                </stage>
                <sp who="#zalmanus">
                   <speaker>Zalmanus</speaker>
@@ -2757,7 +2740,7 @@
                </sp>
                <sp who="#enoch">
                   <speaker>Enoch</speaker>
-                  <l n="1131" part="F">Verum refers. Differe nuptias</l>
+                  <l n="1131" part="F" rend="indent">Verum refers. Differe nuptias</l>
                   <l n="1132">Vel tollere huic sit omnino satius viro,</l>
                   <l n="1133">Ne tot per unam mactentur mulierculam.</l>
                   <l n="1134">At divitiarum id causa fit, vitam, decus</l>
@@ -2795,7 +2778,7 @@
                </sp>
                <sp who="#dibon">
                   <speaker>Dibon</speaker>
-                  <l n="1147" part="M">Ita est.</l>
+                  <l n="1147" part="M" rend="indent2">Ita est.</l>
                </sp>
                <sp who="#abidan">
                   <speaker>Abidan</speaker>
@@ -2805,7 +2788,7 @@
                </sp>
                <sp who="#dibon">
                   <speaker>Dibon</speaker>
-                  <l n="1149" part="F">Id modo audivi in foro</l>
+                  <l n="1149" part="F" rend="indent">Id modo audivi in foro</l>
                   <l n="1150">E servulis, nos qui advocatos quaeritant.</l>
                </sp>
                <sp who="#abidan">
@@ -2960,14 +2943,14 @@
                   <l n="1246">Absuntque nec dispensatio est adhibita.</l>
                   <l n="1247">Et vivit urbs non lege Mosi, sed sua.</l>
                   <l n="1248">Oportet advenas lege urbis vivere,</l>
-                  <l n="1249">Ut dicitur, νόμῳ καὶ χώρᾳ. Haec si patri</l>
+                  <l n="1249">Ut dicitur, <foreign xml:lang="grc">νόμῳ καὶ χώρᾳ</foreign>. Haec si patri</l>
                   <l n="1250">Videntur duriora, privato commodo</l>
                   <l n="1251">Posthabito consulat in bonum reipublicae.</l>
                   <l n="1252" part="I">Dixi.</l>
                </sp>
                <sp who="#dibon">
                   <speaker>Dibon</speaker>
-                  <l n="1252" part="F">Gravem Zalmani audivi sententiam,</l>
+                  <l n="1252" part="F" rend="indent">Gravem Zalmani audivi sententiam,</l>
                   <l n="1253">At hoc negocium est leve. Non incommodat</l>
                   <l n="1254">Reipublicae vel laudatae consuetudini,</l>
                   <l n="1255">Si lege patria elocet quis filiam</l>
@@ -3017,7 +3000,7 @@
                </sp>
                <sp who="#tobias">
                   <speaker>Tobias</speaker>
-                  <l n="1288" part="F">Adsum, optime pater.</l>
+                  <l n="1288" part="F" rend="indent">Adsum, optime pater.</l>
                </sp>
                <sp who="#raguel">
                   <speaker>Raguel</speaker>
@@ -3093,31 +3076,31 @@
             <div type="scene" n="5">
                <head>Actus III. Scena V.</head>
                <stage>
-                  <persName ref="#abdiel">Abdiel</persName>
+                  <persName ref="#abdiel" rend="italic">Abdiel</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#sadok">Sadok</persName>
+                  <persName ref="#sadok" rend="italic">Sadok</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#raguel">Raguel</persName>
+                  <persName ref="#raguel" rend="italic">Raguel</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#edna">Edna</persName>
+                  <persName ref="#edna" rend="italic">Edna</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#tobias">Tobias</persName>
+                  <persName ref="#tobias" rend="italic">Tobias</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#raphael">Raphael</persName>
+                  <persName ref="#raphael" rend="italic">Raphael</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#sara">Sara</persName>
+                  <persName ref="#sara" rend="italic">Sara</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#promptula">Promptula</persName>
+                  <persName ref="#promptula" rend="italic">Promptula</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#spudaeola">Spudaeola</persName>
+                  <persName ref="#spudaeola" rend="italic">Spudaeola</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#enoch">Enoch</persName>
+                  <persName ref="#enoch" rend="italic">Enoch</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#abidan">Abidan</persName>
+                  <persName ref="#abidan" rend="italic">Abidan</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#dibon">Dibon</persName>
+                  <persName ref="#dibon" rend="italic">Dibon</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#asmodaeus">Asmodaeus</persName>
+                  <persName ref="#asmodaeus" rend="italic">Asmodaeus</persName>
                </stage>
                <sp who="#abdiel">
                   <speaker>Abdiel</speaker>
@@ -3256,11 +3239,11 @@
             <div type="scene" n="6">
                <head>Actus III. Scena VI.</head>
                <stage>
-                  <persName ref="#asmodaeus">Asmodaeus</persName>
+                  <persName ref="#asmodaeus" rend="italic">Asmodaeus</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#pluto">Pluto</persName>
+                  <persName ref="#pluto" rend="italic">Pluto</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#raphael">Raphael</persName>
+                  <persName ref="#raphael" rend="italic">Raphael</persName>
                </stage>
                <sp who="#asmodaeus">
                   <speaker>Asmodaeus</speaker>
@@ -3408,23 +3391,23 @@
                   <l n="1505">Quod spectatores diligenter cernite.</l>
                </sp>
             </argument>
+            <pb n="E3v" />
             <div type="scene" n="1">
-               <pb n="E3v" />
                <head>Actus IV. Scena I.</head>
                <stage>
-                  <persName ref="#raguel">Raguel</persName>
+                  <persName ref="#raguel" rend="italic">Raguel</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#enoch">Enoch</persName>
+                  <persName ref="#enoch" rend="italic">Enoch</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#methuben">Methuben</persName>
+                  <persName ref="#methuben" rend="italic">Methuben</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#dibon">Dibon</persName>
+                  <persName ref="#dibon" rend="italic">Dibon</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#abdiel">Abdiel</persName>
+                  <persName ref="#abdiel" rend="italic">Abdiel</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#abidan">Abidan</persName>
+                  <persName ref="#abidan" rend="italic">Abidan</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#ancillae">Ancillae</persName>
+                  <persName ref="#hagar #sipha" rend="italic">Ancillae</persName>
                   <emph rend="italic">duae</emph>
                </stage>
                <sp who="#raguel">
@@ -3451,7 +3434,7 @@
                </sp>
                <sp who="#enoch">
                   <speaker>Enoch</speaker>
-                  <l n="1519" part="M">Quid mussitas?</l>
+                  <l n="1519" part="M" rend="indent">Quid mussitas?</l>
                </sp>
                <sp who="#methuben">
                   <speaker>Methuben</speaker>
@@ -3459,7 +3442,7 @@
                </sp>
                <sp who="#enoch">
                   <speaker>Enoch</speaker>
-                  <l n="1519" part="F">Quin ergo abis?</l>
+                  <l n="1519" part="F" rend="indent3">Quin ergo abis?</l>
                </sp>
                <sp who="#methuben">
                   <speaker>Methuben</speaker>
@@ -3520,13 +3503,13 @@
                   <l n="1540">Ad explorandum cito veloces pergite,</l>
                   <l n="1541">Quid est, ita cur diu nostrates dormiunt.</l>
                </sp>
-               <sp who="#ancillae">
+               <sp who="#hagar #sipha">
                   <speaker>Ancillae</speaker>
                   <l n="1542" part="I">Fiet.</l>
                </sp>
                <sp who="#raguel">
                   <speaker>Raguel</speaker>
-                  <l n="1542" part="F">Deus supreme, rerum conditor,</l>
+                  <l n="1542" part="F" rend="indent">Deus supreme, rerum conditor,</l>
                   <l n="1543">Fac, ut bonum ferant felixque nuncium.</l>
                </sp>
                <sp who="#abidan">
@@ -3547,18 +3530,18 @@
                </sp>
                <sp who="#raguel">
                   <speaker>Raguel</speaker>
-                  <l n="1549" part="F">Sed hem, quid dicitis?</l>
+                  <l n="1549" part="F" rend="indent">Sed hem, quid dicitis?</l>
                   <l n="1550" part="I">Vivunt?</l>
                </sp>
-               <sp who="#ancillae">
+               <sp who="#hagar #sipha">
                   <speaker>Ancillae</speaker>
                   <l n="1550" part="M" rend="indent2">Vivunt.</l>
                </sp>
                <sp who="#raguel">
                   <speaker>Raguel</speaker>
-                  <l n="1550" part="F">Vivunt? Pro certo dicitis?</l>
+                  <l n="1550" part="F" rend="indent3">Vivunt? Pro certo dicitis?</l>
                </sp>
-               <sp who="#ancillae">
+               <sp who="#hagar #sipha">
                   <speaker>Ancillae</speaker>
                   <l n="1551">Pro certo vivunt suaviter atque dormiunt.</l>
                </sp>
@@ -3585,7 +3568,7 @@
                </sp>
                <sp who="#enoch">
                   <speaker>Enoch</speaker>
-                  <l n="1562" part="F">Nihil hic dolis</l>
+                  <l n="1562" part="F" rend="indent">Nihil hic dolis</l>
                   <l n="1563">Agitur, Methuben, sepulchro nec quicquam est opus,</l>
                   <l n="1564">Sponsus valet vivitque.</l>
                </sp>
@@ -3608,29 +3591,29 @@
             <div type="scene" n="2">
                <head>Actus IV. Scena II.</head>
                <stage>
-                  <persName ref="#tobias">Tobias</persName>
+                  <persName ref="#tobias" rend="italic">Tobias</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#sara">Sara</persName>
+                  <persName ref="#sara" rend="italic">Sara</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#raguel">Raguel</persName>
+                  <persName ref="#raguel" rend="italic">Raguel</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#edna">Edna</persName>
+                  <persName ref="#edna" rend="italic">Edna</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#abidan">Abidan</persName>
+                  <persName ref="#abidan" rend="italic">Abidan</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#dibon">Dibon</persName>
+                  <persName ref="#dibon" rend="italic">Dibon</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#promptula">Promptula</persName>
+                  <persName ref="#promptula" rend="italic">Promptula</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#spudaeola">Spudaeola</persName>
+                  <persName ref="#spudaeola" rend="italic">Spudaeola</persName>
                   <emph rend="italic">, duo Advocati,</emph>
-                  <persName ref="#raphael">Raphael</persName>
+                  <persName ref="#raphael" rend="italic">Raphael</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#abdiel">Abdiel</persName>
+                  <persName ref="#abdiel" rend="italic">Abdiel</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#enoch">Enoch</persName>
+                  <persName ref="#enoch" rend="italic">Enoch</persName>
                   <emph rend="italic">, duae</emph>
-                  <persName ref="#ancillae">Ancillae</persName>
+                  <persName ref="#hagar #sipha" rend="italic">Ancillae</persName>
                </stage>
                <sp who="#tobias">
                   <speaker>Tobias</speaker>
@@ -3701,7 +3684,10 @@
                   <l n="1607">Azaria, frater et comes charissime,</l>
                   <l n="1608">Aequum est pio parenti obtemperarier,</l>
                   <l n="1609">Quaeso, locum me proximum capessito.</l>
-                  <l n="1610">Raphael:Tobia, scis, pater senex quia computat</l>
+               </sp>
+               <sp who="#raphael">
+                  <speaker>Raphael</speaker>
+                  <l n="1610">Tobia, scis, pater senex quia computat</l>
                   <l n="1611">Dies. Ego redeam dum a Gabelo, interim</l>
                   <l n="1612">Parenti, amicis, tu cum chara conjuge</l>
                   <l n="1613">Operam dabis, velut poscunt sponsalia.</l>
@@ -3724,9 +3710,9 @@
                <head>Actus IV. Scena III.</head>
                <stage>
                   <emph rend="italic">Asmodaeus, Pluto, Chremius,</emph>
-                  <persName ref="#dromo">Dromo</persName>
+                  <persName ref="#dromo" rend="italic">Dromo</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#belzebub">Belzebub</persName>
+                  <persName ref="#belzebub" rend="italic">Belzebub</persName>
                </stage>
                <pb n="E6r" />
                <sp who="#asmodaeus">
@@ -3765,7 +3751,7 @@
                   <l n="1651">Est satius. Immane et Phalaridis arbitrio</l>
                   <l n="1652">Excarnificantur nusquam animae atque spiritus</l>
                   <l n="1653">Crudelius, quam in Orco. Accedunt odia</l>
-                  <l n="1654">Et ἐπιχαιρεκακίαι obscoenorum daemonum.</l>
+                  <l n="1654">Et <foreign xml:lang="grc" xml:space="preserve">ἐπιχαιρεκακίαι</foreign>obscoenorum daemonum.</l>
                   <l n="1655">Abrumpam igitur metum illius mali, laqueo</l>
                   <l n="1656">Collum implicans, pendebo ab hac vel arbore.</l>
                </sp>
@@ -3862,12 +3848,12 @@
                   <speaker>Pluto</speaker>
                   <l n="1696" part="F" rend="indent">Ehem, quid est?</l>
                   <l n="1697">Cur non accedit ipse? Mando, protinus</l>
-                  <l n="1698">Adsit.</l>
+                  <l n="1698" part="I">Adsit.</l>
                </sp>
                <sp who="#chremius">
                   <speaker>Chremius</speaker>
-                  <l n="1699">Jubet, Asmodaee, princeps inclytus,</l>
-                  <l n="1700">Ut adsis, hem, vola vento velocior.</l>
+                  <l n="1698" part="F" rend="indent">Jubet, Asmodaee, princeps inclytus,</l>
+                  <l n="1699">Ut adsis, hem, vola vento velocior.</l>
                </sp>
                <sp who="#asmodaeus">
                   <speaker>Asmodaeus</speaker>
@@ -3899,7 +3885,7 @@
                </sp>
                <sp who="#chremius">
                   <speaker>Chremius</speaker>
-                  <l n="1706" part="F">Hem nescio,</l>
+                  <l n="1706" part="F" rend="indent">Hem nescio,</l>
                   <l n="1707">Princeps; quin Asmodaeo (ut opinor) accidit</l>
                   <l n="1708">Aliquid mali, profecto oportet sceleri</l>
                   <l n="1709" part="I">Obnoxium esse, tacet.</l>
@@ -3922,7 +3908,10 @@
                <sp who="#asmodaeus">
                   <speaker>Asmodaeus</speaker>
                   <l n="1714">Ah ah, quid hoc, socii et consortes inferi?</l>
-                  <l n="1715">Chremius et Dromo:Videbis mox, calumniator perfide.</l>
+               </sp>
+               <sp who="#chremius #dromo">
+                  <speaker>Chremius et Dromo</speaker>
+                  <l n="1715">Videbis mox, calumniator perfide.</l>
                </sp>
                <sp who="#chremius">
                   <speaker>Chremius</speaker>
@@ -4040,9 +4029,9 @@
             <div type="scene" n="4">
                <head>Actus IV. Scena IV.</head>
                <stage>
-                  <persName ref="#gabel">Gabel</persName>
+                  <persName ref="#gabel" rend="italic">Gabel</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#raphael">Raphael</persName>
+                  <persName ref="#raphael" rend="italic">Raphael</persName>
                </stage>
                <sp who="#gabel">
                   <speaker>Gabel</speaker>
@@ -4057,7 +4046,9 @@
                   <l n="1767">Fuste me impudentissime persequitur:</l>
                   <l n="1768">Quis tu es? Nescisne, qui sim? Habes jus. Adeo ut</l>
                   <l n="1769">Amicum inimicum beneficio effecerim meo.</l>
-                  <l n="1770">Μἑμνησ' ἀπιςτεῖν est in vita certe optimum.</l>
+                  <l n="1770">
+                     <foreign xml:lang="grc" xml:space="preserve">Μἑμνησ'</foreign>
+                     <foreign xml:lang="grc">ἀπιςτεῖν</foreign> est in vita certe optimum.</l>
                   <l n="1771">Quid vero habet lucri fallens amicum? Fidum</l>
                   <l n="1772">Nunquam ut penitus mereatur perfidia sua?</l>
                   <l n="1773">At ego, licet pauper sim nec lauta admodum</l>
@@ -4174,15 +4165,15 @@
             <div type="scene" n="1">
                <head>Actus V. Scena I.</head>
                <stage>
-                  <persName ref="#hamas">Hamas</persName>
+                  <persName ref="#hamas" rend="italic">Hamas</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#phollatim">Phollatim</persName>
+                  <persName ref="#phollatim" rend="italic">Phollatim</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#rhazon">Rhazon</persName>
+                  <persName ref="#rhazon" rend="italic">Rhazon</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#toboeus">Toboeus</persName>
+                  <persName ref="#toboeus" rend="italic">Toboeus</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#anna">Anna</persName>
+                  <persName ref="#anna" rend="italic">Anna</persName>
                </stage>
                <sp who="#hamas">
                   <speaker>Hamas</speaker>
@@ -4311,7 +4302,7 @@
                </sp>
                <sp who="#anna">
                   <speaker>Anna</speaker>
-                  <l n="1883" part="F">Ah, eadem nobis semper dicitis,</l>
+                  <l n="1883" part="F" rend="indent">Ah, eadem nobis semper dicitis,</l>
                   <l n="1884">Verum quando hoc erit? An non aeternus Deus</l>
                   <l n="1885">Nos nutrivisset absque isthac pecunia,</l>
                   <l n="1886">Domi mansisset etiamsi noster filius?</l>
@@ -4339,29 +4330,29 @@
             <div type="scene" n="2">
                <head>Actus V. Scena II.</head>
                <stage>
-                  <persName ref="#tobias">Tobias</persName>
-                  <emph rend="italic">Junior,</emph>
-                  <persName ref="#raphael">Raphael</persName>
+                  <persName ref="#tobias" rend="italic">Tobias Junior</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#raguel">Raguel</persName>
+                  <persName ref="#raphael" rend="italic">Raphael</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#edna">Edna</persName>
+                  <persName ref="#raguel" rend="italic">Raguel</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#abidan">Abidan</persName>
+                  <persName ref="#edna" rend="italic">Edna</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#dibon">Dibon</persName>
+                  <persName ref="#abidan" rend="italic">Abidan</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#enoch">Enoch</persName>
+                  <persName ref="#dibon" rend="italic">Dibon</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#abdiel">Abdiel</persName>
+                  <persName ref="#enoch" rend="italic">Enoch</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#sara">Sara</persName>
+                  <persName ref="#abdiel" rend="italic">Abdiel</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#promptula">Promptula</persName>
+                  <persName ref="#sara" rend="italic">Sara</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#spudaeola">Spudaeola</persName>
+                  <persName ref="#promptula" rend="italic">Promptula</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#ancillae">Ancillae</persName>
+                  <persName ref="#spudaeola" rend="italic">Spudaeola</persName>
+                  <emph rend="italic">,</emph>
+                  <persName ref="#hagar #sipha" rend="italic">Ancillae</persName>
                   <emph rend="italic">duae</emph>
                </stage>
                <sp who="#tobias">
@@ -4444,25 +4435,25 @@
             <div type="scene" n="3">
                <head>Actus V. Scena III.</head>
                <stage>
-                  <persName ref="#anna">Anna</persName>
+                  <persName ref="#anna" rend="italic">Anna</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#toboeus">Toboeus</persName>
+                  <persName ref="#toboeus" rend="italic">Toboeus</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#tobias">Tobias</persName>
-                  <emph rend="italic">Junior,</emph>
-                  <persName ref="#raphael">Raphael</persName>
+                  <persName ref="#tobias" rend="italic">Tobias Junior</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#enoch">Enoch</persName>
+                  <persName ref="#raphael" rend="italic">Raphael</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#abdiel">Abdiel</persName>
+                  <persName ref="#enoch" rend="italic">Enoch</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#sara">Sara</persName>
+                  <persName ref="#abdiel" rend="italic">Abdiel</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#promptula">Promptula</persName>
+                  <persName ref="#sara" rend="italic">Sara</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#spudaeola">Spudaeola</persName>
+                  <persName ref="#promptula" rend="italic">Promptula</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#ancillae">Ancillae</persName>
+                  <persName ref="#spudaeola" rend="italic">Spudaeola</persName>
+                  <emph rend="italic">,</emph>
+                  <persName ref="#hagar #sipha" rend="italic">Ancillae</persName>
                   <emph rend="italic">duae</emph>
                </stage>
                <sp who="#anna">
@@ -4488,7 +4479,7 @@
                </sp>
                <sp who="#tobias">
                   <speaker>Tobias</speaker>
-                  <l n="1953" part="F">Salvete, parentes dilectissimi.</l>
+                  <l n="1953" part="F" rend="indent">Salvete, parentes dilectissimi.</l>
                </sp>
                <sp who="#toboeus">
                   <speaker>Toboeus</speaker>
@@ -4561,18 +4552,16 @@
             <div type="scene" n="4">
                <head>Actus V. Scena IV.</head>
                <stage>
-                  <persName ref="#toboeus">Toboeus</persName>
+                  <persName ref="#toboeus" rend="italic">Toboeus</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#tobias">Tobias</persName>
-                  <emph rend="italic">Junior,</emph>
-                  <persName ref="#raphael">Raphael</persName>
+                  <persName ref="#tobias" rend="italic">Tobias Junior</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#anna">Anna</persName>
+                  <persName ref="#raphael" rend="italic">Raphael</persName>
                   <emph rend="italic">,</emph>
-                  <persName ref="#sara">Sara</persName>
-                  <emph rend="italic">etc. et reliquae praecedentis scenae personae ad concionem</emph>
-                  <persName ref="#raphael">Raphael</persName>
-                  <emph rend="italic">is exeunt</emph>
+                  <persName ref="#anna" rend="italic">Anna</persName>
+                  <emph rend="italic">,</emph>
+                  <persName ref="#sara" rend="italic">Sara</persName>
+                  <emph rend="italic">etc. et reliquae praecedentis scenae personae ad concionem Raphaelis exeunt</emph>
                </stage>
                <sp who="#toboeus">
                   <speaker>Toboeus</speaker>
@@ -4584,14 +4573,14 @@
                </sp>
                <sp who="#toboeus">
                   <speaker>Toboeus</speaker>
-                  <l n="1988" part="F">Fili, quo donamus munere</l>
+                  <l n="1988" part="F" rend="indent">Fili, quo donamus munere</l>
                   <l n="1989">Comitem tuum? Nam non est mercenarius</l>
                   <l n="1990">Conductus ut caeteri, adjiciamus amplius</l>
                   <l n="1991" part="I">Ejus mercedi.</l>
                </sp>
                <sp who="#tobias">
                   <speaker>Tobias</speaker>
-                  <l n="1991" part="F">Immo, pater charissime,</l>
+                  <l n="1991" part="F" rend="indent">Immo, pater charissime,</l>
                   <l n="1992">Demus medium argenti, quod ipsus attulit</l>
                   <l n="1993">Et exquisivit a Gabelo nuncius.</l>
                   <l n="1994">Is me duxit salvum et reduxit sospitem</l>
