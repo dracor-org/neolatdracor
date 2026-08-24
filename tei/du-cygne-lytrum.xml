@@ -1,0 +1,3720 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="dracor" xml:id="neolat000182" xml:lang="la">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lytrum</title>
+        <author>
+          <persName xml:lang="la">
+            <forename>Martinus</forename>
+            <surname>Du Cygne</surname>
+          </persName>
+          <idno type="wikidata">Q21545079</idno>
+        </author>
+        <respStmt>
+          <resp>Transcribed by</resp>
+          <persName ref="https://orcid.org/0000-0002-9764-187X">Nicholas De Sutter</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Converted to TEI by</resp>
+          <persName ref="https://orcid.org/0000-0002-9764-187X">Nicholas De Sutter</persName>
+        </respStmt>
+        <funder>
+          <orgName>FWO</orgName>
+          <name>1291325N</name>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <ref target="https://books.google.com/books?id=vqAjcaQDLrgC">Google Books</ref>
+          <availability status="free">
+            <p>In the public domain.</p>
+          </availability>
+        </bibl>
+        <bibl type="originalSource">
+          <author>Martinus du Cygne</author>: <title>Lytrum</title>. <title type="sub">Comoedia
+            XI</title>. <pubPlace>Liège</pubPlace>: <publisher>Joannes Mathias Hovius</publisher>
+          <date>1679</date>. </bibl>
+        <listEvent>
+          <event type="print" when="1679">
+            <desc/>
+          </event>
+        </listEvent>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="prologus" sex="UNKNOWN">
+            <persName>Prologus</persName>
+          </person>
+          <person xml:id="servatius" sex="MALE">
+            <persName>Servatius</persName>
+          </person>
+          <person xml:id="galerio" sex="MALE">
+            <persName>Galerio</persName>
+          </person>
+          <person xml:id="adolphus" sex="MALE">
+            <persName>Adolphus</persName>
+          </person>
+          <person xml:id="evander" sex="MALE">
+            <persName>Evander</persName>
+          </person>
+          <person xml:id="filucio" sex="MALE">
+            <persName>Filucio</persName>
+          </person>
+          <person xml:id="sosias" sex="MALE">
+            <persName>Sosias</persName>
+          </person>
+          <person xml:id="octavianus" sex="MALE">
+            <persName>Octavianus</persName>
+          </person>
+          <person xml:id="pievoli" sex="MALE">
+            <persName>Pievoli</persName>
+          </person>
+          <person xml:id="emporulus" sex="MALE">
+            <persName>Emporulus</persName>
+          </person>
+          <person xml:id="pseudouxa" sex="MALE">
+            <persName>Pseudouxa</persName>
+          </person>
+          <person xml:id="macerati" sex="MALE">
+            <persName>Macerati</persName>
+          </person>
+          <person xml:id="gringo" sex="MALE">
+            <persName>Gringo</persName>
+          </person>
+          <person xml:id="baretti" sex="MALE">
+            <persName>Baretti</persName>
+          </person>
+          <person xml:id="hegio" sex="MALE">
+            <persName>Hegio</persName>
+          </person>
+          <person xml:id="flaminius" sex="MALE">
+            <persName>Flaminius</persName>
+          </person>
+          <person xml:id="miles" sex="MALE">
+            <persName>Miles</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">comedy</term>
+        </keywords>
+        <classCode scheme="https://www.wikidata.org/wiki/Q40831"/>
+      </textClass>
+      <creation>
+        <region>
+          <ref target="https://www.wikidata.org/wiki/Q622783">Spanish Netherlands</ref>
+        </region>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2026-08-24">
+          <desc>Converted to DraCor TEI by Nicholas De Sutter.</desc></change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart>Lytrum</titlePart>
+        </docTitle>
+      </titlePage>
+      <argument>
+        <head>MATERIA</head>
+        <p>Est expressa in <ref>Prologo ex litteris P. Vandenbuck Roma datis anno 1663</ref></p>
+      </argument>
+      <castList>
+        <head>PERSONAE</head>
+        <castItem>
+          <role>Servatius</role>
+          <roleDesc>Pater</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Galerio</role>
+          <roleDesc>Filius</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Adolphus</role>
+          <roleDesc>Gener</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Evander</role>
+          <roleDesc>Affinis</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Filucio</role>
+          <roleDesc>Vicinus</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Sosias</role>
+          <roleDesc>Servus</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Octavianus</role>
+          <roleDesc>Mortuus</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Pievoli</role>
+          <roleDesc>Mercator</roleDesc>
+        </castItem>
+        <castGroup rend="braced">
+          <castItem>
+            <role>Emporulus</role>
+          </castItem>
+          <castItem>
+            <role>Pseudouxa</role>
+          </castItem>
+          <roleDesc>Famuli</roleDesc>
+        </castGroup>
+        <castItem>
+          <role>Macerati</role>
+          <roleDesc>Praefectus carceris</roleDesc>
+        </castItem>
+        <castGroup rend="braced">
+          <castItem>
+            <role>Gringo</role>
+          </castItem>
+          <castItem>
+            <role>Baretti</role>
+          </castItem>
+          <roleDesc>Servi</roleDesc>
+        </castGroup>
+        <castItem>
+          <role>Hegio</role>
+          <roleDesc>Fiscus</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Flaminius</role>
+          <roleDesc>Sacerdos</roleDesc>
+        </castItem>
+      </castList>
+      <div type="argument">
+        <head>Distributio</head>
+        <list type="argument">
+          <item>
+            <label>Actus I</label>
+            <list>
+              <milestone unit="dramaticPhase" n="protasis"/>
+              <item><label>Scena I</label> Servatius de filio sollicitus, ad carcerem dimittit
+                servum dolis instructum.</item>
+              <item><label>Scena II</label> Filucio solatur Servatium.</item>
+              <item><label>Scena III</label> Servatius accedit Flaminium.</item>
+              <item><label>Scena IV</label> Servatius frustra ab Adolpho et Evandro subsidium
+                rogat.</item>
+            </list>
+          </item>
+          <item>
+            <label>Actus II</label>
+            <list>
+              <milestone unit="dramaticPhase" n="epitasis"/>
+              <item><label>Scena I</label> Sosias dolis aggreditur libertatem Galerionis.</item>
+              <item><label>Scena II</label> Macerati tantum non dolo exemptum Galerionem retrahit,
+                et Sosiam mulctat.</item>
+              <item><label>Scena III</label> Filucio narrat Servatio captum esse Sosiam.</item>
+              <item><label>Scena IV</label> Servatius accipit ab Octaviano tesserariam schedulam
+                scutorum 300.</item>
+            </list>
+          </item>
+          <item>
+            <label>Actus III</label>
+            <list>
+              <item><label>Scena I</label> Servatius cum sua schedula ridetur a famulis
+                Pievoli.</item>
+              <item><label>Scena II</label> Servatium, quasi servilis doli conscium, Macerati et
+                Hegio mandant custodiae.</item>
+            </list>
+          </item>
+          <item>
+            <label>Actus IV</label>
+            <list>
+              <milestone unit="dramaticPhase" n="catastasis"/>
+              <item><label>Scena I</label> Pievoli visa schedula, quam riserant famuli, iubet
+                Servatium requiri.</item>
+              <item><label>Scena II</label> Pseudouxa custoditum in carcere Servatium frustra
+                accersit.</item>
+              <item><label>Scena III</label> Frustra item supervenit Emporulus.</item>
+              <item><label>Scena IV</label> Datis obsidibus dimittitur e custodia Servatius.</item>
+              <item><label>Scena V</label> Servatius narrat Pievoli, quomodo syngrapham
+                acceperit.</item>
+              <item><label>Scena VI</label> Affectus Pievoli erga demortuum patrem, quem pridem in
+                coelo beatum credebat.</item>
+              <item><label>Scena VII</label> Pievoli trecenta scuta numerat Servatio.</item>
+            </list>
+          </item>
+          <item>
+            <label>Actus V</label>
+            <list>
+              <milestone unit="dramaticPhase" n="catastrophe"/>
+              <item><label>Scena I</label> Servatius redimit ab Hegione Galerionem filium.</item>
+              <item><label>Scena II</label> Filucio gratulatur Servatio libertatem
+                Galerionis.</item>
+              <item><label>Scena III</label> Adolphus et Evander redeunt cum Servatio in
+                gratiam.</item>
+              <item><label>Scena IV</label> Pievoli in communem partem gaudiorum venit.</item>
+              <item><label>Scena V</label> Aguntur gratiae Flaminio.</item>
+            </list>
+          </item>
+        </list>
+      </div>
+    </front>
+    <body>
+      <div type="prologue">
+        <head>PROLOGUS.</head>
+        <sp who="#prologus">
+          <l>Si quis expectat hodie Plautinos sales;</l>
+          <l>Seu faceti histrionis populares iocos.</l>
+          <l>Nae illum sua frustrabitur spes. namque nos haud decet</l>
+          <l>Inurbanus sermo, tum si Christiani sumus,</l>
+          <l>Mimica atque momica lascivia non placet.</l>
+          <l>Divino ego, viri litterati, quod vobis sapit:</l>
+          <l>Morata Comoedia, condita affectu pio.</l>
+          <l>Nunc quoniam est Prologi, de materia proloqui.</l>
+          <l>Paucis edisseram. Mense Septembri Genuae,</l>
+          <l>Tenebatur perdito perditus filius carcere;</l>
+          <l>Hinc rapiendus ad triremes aerumnose, nisi</l>
+          <l>Pater suus trecentis brevi scutis redimeret.</l>
+          <l>Verum is pauper, forte Sacerdotem rogat,</l>
+          <l>Liberalem scilicet, et copiosum in speciem,</l>
+          <l>Uti pecuniariam misero filio opem ferat.</l>
+          <l>Sacerdos excusare inopiam: nam sibi, praeter</l>
+          <l>Stipendium quotidiani sacrificii, esse nihil:</l>
+          <l>Et nisi hodie, inquit, hoc obvenit stipendium,</l>
+          <l>Mihi ieiunandum. commotus ille, Iulium de suo</l>
+          <l>Donat Sacerdoti, Missam isto die mortuis faciat:</l>
+          <l>Brevi post incidit ille pater perditi Filii in senem,</l>
+          <l>Qui affabilis ultro allicit ad petendam opem:</l>
+          <l>Nec mora, petenti schedulam expedit, et hanc</l>
+          <l>Trecentorum certissimam scutorum tesserariam.</l>
+          <l>Apud mercatorem, quem ipsi nominat.</l>
+          <l>Tulit ipse chartam suam: quam cum subito </l>
+          <l>Intuetur mercator, mirari et obstupescere,</l>
+          <l>Dein rogare, quando, ubi, a quo, et quomodo</l>
+          <l>Schedulam accepisset. se non nosse hominem</l>
+          <l>Dicit alter, proinde signum, si posset, et manum</l>
+          <l>Cognosceret. Est vero, inquit mercator, hoc</l>
+          <l>Signum quidem notum, et patris mei,</l>
+          <l>Qui haec scripsit: sed intra mecum in conclave. ibi</l>
+          <l>Cum maiores mercatoris essent depicti, petit</l>
+          <l>Num eorum uni sit similis, qui syngrapham dedit,</l>
+          <l>Ille ipsus fuit, respondet vir, digito in patrem</l>
+          <l>Mercatoris intento, quem tabula haec refert.</l>
+          <l>Atqui is, subdit mercator, meus est pater</l>
+          <l>Ab annis decem mortuus. certum est eius fidem</l>
+          <l>Liberare: exinde scuta trecenta numerat viro.</l>
+          <l>Haec est historia, quae praebet huius materiam fabula,</l>
+          <l>Quae praecipue purgantibus mortuis scripta est,</l>
+          <l>Ut his vivi misericordes sient. faxit Deus.</l>
+        </sp>
+      </div>
+      <div type="act" n="1">
+        <head>ACTUS PRIMUS.</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>SERVATIUS de filio sollicitus, ad carcerem dimittit servum dolis instructum.</p>
+          </argument>
+          <stage>SERVATIUS, SOSIAS.</stage>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Ille miser est inter parentes, Sosia, maxime,</l>
+            <l>Qui miserum habet filium, cui si cum infamia</l>
+            <l>Carcer obtigit, multo est ille miserior.</l>
+            <l>Si denique e carcere ad triremes ducitur,</l>
+            <l>Tum est maxima miserrimo patri miseria.</l>
+          </sp>
+          <sp who="#sosias">
+            <speaker>SO.</speaker>
+            <l>Ita credo te, here, miserum esse tuo ex animo:</l>
+            <l>Nam nos, qui servi sumus; miseri animum patris</l>
+            <l>De nostris factis noscimus. ita me Deus amet,</l>
+            <l>Calamitas filii dolet servo mihi itidem ut patri tibi,</l>
+            <l>Pro quo liberando sollicitus sum semper noctes, et dies.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Nostrum officium nos facere aequum est, Sosia,</l>
+            <l>Te boni servi, me solliciti et ingenui patris;</l>
+            <l>Neque id magis facimus, quam nos monet pietas.</l>
+          </sp>
+          <sp who="#sosias">
+            <speaker>SO.</speaker>
+            <l>Sed hic, mi here, ades, dum aliquid volo loqui</l>
+            <l part="I">Tecum de libertate filii.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">salve, ne amabo, Sosia?</l>
+          </sp>
+          <sp who="#sosias">
+            <speaker>SO.</speaker>
+            <l>Spero quidem, et volo: sed hoc, here, crucior,</l>
+            <l>Galerionem arcto teneri carcere, et valido compede,</l>
+            <l>Multis circum excubiis, vigilante Argo loci</l>
+            <l>Custode, qui murem egressum senserit.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Nam quid mirum? filium novit esse avi similem,</l>
+            <l>Cui si data est rima ad evolandum, satis est:</l>
+            <l>Nunquam posthac illum post illa possit prendere:</l>
+            <l>Tum si a me pecuniae spes est, ne excidat, tutum timet.</l>
+            <l>Novi ego virum, iratus te in caveam dabit,</l>
+            <l>Si libido est filium clepere, et facere callide.</l>
+          </sp>
+          <sp who="#sosias">
+            <speaker>SO.</speaker>
+            <l>Suum ille carcerem observet, ut vult,</l>
+            <l>Meum officium colere, et meminisse decet,</l>
+            <l>Nempe non semel pro capite caro filii tui</l>
+            <l>Vile offerre meum caput periculo.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Tamen cauto opus est, ut hoc fiat sobrie.</l>
+            <l>Accurate, docte, diligenter, sine arbitris,</l>
+            <l>Ne permanet palam ista tua fallacia;</l>
+            <l>Nam doli, non doli sunt, nisi astu colas,</l>
+            <l>Sed malum maximum, si id palam provenit.</l>
+          </sp>
+          <sp who="#sosias">
+            <speaker>SO.</speaker>
+            <l>iam diu, here, omnibus viribus hanc rem ago!</l>
+            <l>Certum est omne saxum volvere, dum tuum tibi</l>
+            <l>Reddam filium, seu commutando vestem, seu vigiles</l>
+            <l>Sollicitando donis, seu applicando scalas carceri,</l>
+            <l>Prout erit spes in aliqua simili astutia.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Vereor, ut succedat: nescio quid animus</l>
+            <l>Vade, quando portum intentas, da ventis ratem.</l>
+          </sp>
+          <sp who="#sosias">
+            <speaker>SO.</speaker>
+            <l>Nil timeo: si piae causae favet locus.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Propterea saepius te, ut periculi memineris, moneo:</l>
+            <l>Ut quoniam erga filium animum extendis tuum,</l>
+            <l>Ut pius sis erga me, et te; ne quid agas</l>
+            <l>Temere, iterum moneo, meminisse memineris</l>
+          </sp>
+          <sp who="#sosias">
+            <speaker>SO.</speaker>
+            <l>Scio, nullus mones: sperare te iubeo.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Hei mihi augescit dolor, et aegritudo de filio!</l>
+            <l>Neque adeo si servus praestat hanc fidem, aut dolo</l>
+            <l>Tentat carcerem, deinde potest desinere:</l>
+            <l>Immo magis laboro tanto, et magis timeo.</l>
+            <l>Ah! nimio homini fortunae minus miserae</l>
+            <l>Memorantur, quum re ipsa experiendo iis datur</l>
+            <l>Acerbum. tum demum parens suum aestimat filium,</l>
+            <l>Cum illum luget. hoc Deo complacitum est?</l>
+            <l>Natum ad triremes, eiectum, vilem, perditum?</l>
+            <l>Hanccine ego sortem capio ob pietatem praecipuam?</l>
+            <l>Hanccine ego ad crucem natum me intelligo?</l>
+            <l>Nam hoc mihi haud dolori est, dolorem hunc pari,</l>
+            <l>Si erga Superos, aut homines me impiavi: sed id</l>
+            <l>Si parate curavi, ut caverem sedulo, et pie,</l>
+            <l>Tum hoc mihi dedecus, honesto viro,</l>
+            <l>Datis, Superi. nam quid habebunt sibi igitur</l>
+            <l>Posthac parentes, si ad hunc modum apud</l>
+            <l>Vos est innoxiis merces? vulgo aiunt,</l>
+            <l>Mali corvi, malum ovum: sed saepe ea</l>
+            <l>Est sors boni parentis filius malus.</l>
+            <l>Quidquid hic delirat, fert aequus pater.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>FILVCIO solatur SERVATIUM.</p>
+          </argument>
+          <stage>FILVCIO, SERVATIUS.</stage>
+          <sp who="#filucio">
+            <speaker>FI.</speaker>
+            <l>Cesso ego consolari Servatium meum?</l>
+            <l>Servati euge, adversa sors hominem probare solet:</l>
+            <l>Ne geme, vir cum sis: quae illaec oratio est</l>
+            <l>Querentis de Deo: sustine ac bono animo es.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Macte, cui diserto ore fluit sapientia:</l>
+            <l>Nunc perge sententias dicere. nam ait Comicus,</l>
+            <l>Facile omnes, cum valemus, recta consilia aegrotis damus,</l>
+            <l part="I">Tu si hoc sis, aliter sentias.</l>
+          </sp>
+          <sp who="#filucio">
+            <speaker>FI.</speaker>
+            <l part="F">quin audi somnium,</l>
+            <l>Quod hac nocte sollicitus pro te oculis vidi meis.</l>
+            <l>Miris enim modis Superi ludos faciunt hominibus,</l>
+            <l>Mirisque exemplis somnia in somnis ferunt,</l>
+            <l>Ne dormientes quidem sinunt quiescere.</l>
+            <l>Velut ego hac nocte, quae praecessit, proxima,</l>
+            <l>Mirum atque inscitum somniavi somnium.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Egregia hercle consolatio, quae e somnio provenit!</l>
+          </sp>
+          <sp who="#filucio">
+            <speaker>FI.</speaker>
+            <l>Tamen si quid boni praesagit somnium,</l>
+            <l>Nihil obest eloqui, et hoc certe solatium.</l>
+            <l>Piscari visus es mihi turbido mari pisciculos</l>
+            <l part="I">Pro Filio.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">nummos aureos diceres, Filucio.</l>
+          </sp>
+          <sp who="#filucio">
+            <speaker>FI.</speaker>
+            <l>Sed diu nihil cepisti: quare vociferans ego</l>
+            <l>Prae dolore fui expergefactus: at mox iterum</l>
+            <l>Somniavi te pisciculum unum habuisse, quem dares</l>
+            <l>Sacerdoti, hic epularum senem fecit</l>
+            <l>Participem, qui gratus erga te ostendit locum,</l>
+            <l>In quo plurimos posses piscari pisces filio.</l>
+            <l>Atque hic iterum acclamando factus sum vigil.</l>
+            <l>Tertio somniavi, pisciculo isto eodem, quem dederas</l>
+            <l>Non sine usura, sed multo et iam cum foenore,</l>
+            <l>Alios trecentos pisces traxisse; queis redimeres filium.</l>
+            <l>Illico abit maris tempestas, et moeror tuus.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Credis? an qui amas ipsi tibi fingis somnium!</l>
+            <l>Sinamus ista. dic quis mihi argentum dabit,</l>
+            <l>Quis lytrum volet polliceri, ac praestare filio?</l>
+            <l>Nunc ego te quaeso, ut me opera, et consilio iuves,</l>
+            <l>Communicesque hanc mecum meam provinciam.</l>
+          </sp>
+          <sp who="#filucio">
+            <speaker>FI.</speaker>
+            <l>Consilio et opera citius iuvero, quam pecunia:</l>
+            <l>Illud nosti: sed si quid possum tibi</l>
+            <l>Et filio prodesse, pedibus, manibus obsequar</l>
+            <l>Prae vehementi studio consolandi tui.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Per dexteram tuam, Filucio, perque fortunam meam,</l>
+            <l>Perque officium commune amicitiae, et per mei</l>
+            <l>Filium erga bonitatem patris, te oro, ut modo </l>
+            <l>Properes ad carcerem, ubi servus Sosias</l>
+            <l>Parturit velut si non ex Troiano equo,</l>
+            <l>Sic e cerebro fallaciam. dirige si potes,</l>
+            <l>Ne anceps ipse captus claudatur cavea.</l>
+            <l>Ego interea piscabor, uti somniasti: generum</l>
+            <l>Et affinem colloquar, ut nummos corrogem.</l>
+          </sp>
+          <sp who="#filucio">
+            <speaker>FI.</speaker>
+            <l>Faciam omnia haud segniter: vale.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA TERTIA.</head>
+          <argument>
+            <p>SERVATIUS accedit FLAMINIVI.</p>
+          </argument>
+          <stage>SERVATIUS, FLAMINIUS.</stage>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>At quis ex improviso se offert homo?</l>
+            <l>Quam sanctus? quam pius! quod apparet quidem.</l>
+            <l>Certe cum contemplor; misericordia est isti viro.</l>
+            <l>Nam facie liberali est, et permodeste gravi.</l>
+            <l>Nec mihi dubium est, quin me iuvare velit,</l>
+            <l>Ita subito animus est, et praesagit oculus.</l>
+            <l>Ego accedam cum fiducia praesentis boni.</l>
+            <l>Quisquis es, da veniam, si parvula interpellem prece.</l>
+          </sp>
+          <sp who="#flaminius">
+            <speaker>FL.</speaker>
+            <l>Quis est, qui a me etiam preces expetit?</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Bonum te, atque obsequentem virum, atque mihi</l>
+            <l>Haud gravatum te patronum, benignumque multum apprecor.</l>
+          </sp>
+          <sp who="#flaminius">
+            <speaker>FL.</speaker>
+            <l part="I">iubeo te salvere.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">per te scilicet hodie,</l>
+            <l>Qui misere aerumnosus sum propter filium</l>
+            <l>Ad triremes damnatum, ni parati sunt aurei:</l>
+            <l>Nunc tibi amplector genua, egens opum,</l>
+            <l>Ut me subleves lytro, servesque filium,</l>
+            <l>Miserorumque te amborum uti misereat,</l>
+            <l>Quibus nec scutum ullum, nec spes parata est.</l>
+          </sp>
+          <sp who="#flaminius">
+            <speaker>FL.</speaker>
+            <l>Manus mihi da, o bone vir, exsurge a genibus:</l>
+            <l>Misericordior nullus me sit hominum,</l>
+            <l>Si Superis placet ditare me: sed domi</l>
+            <l>Curta res est. egomet vix vitam colo.</l>
+            <l>Si honestas vestes gero, uti statum addecet, ibi</l>
+            <l>Opes, neque hoc amplius, quam quod vides,</l>
+            <l>Mihi quidquam est. e missa quotidie</l>
+            <l>Cibum comparo: quod si me stipendium deficit,</l>
+            <l part="I">Ieiuno.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="M">inopia, obsecro, haec est!</l>
+          </sp>
+          <sp who="#flaminius">
+            <speaker>FL.</speaker>
+            <l part="F">fateor:</l>
+            <l>Ego hodie Sacrum non addixi: verum quidquid erit,</l>
+            <l>Comiter fiet a me tibi, quod nostra copia</l>
+            <l part="I">Valebit. utere.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">amice benigneque habes</l>
+            <l>Mendicum tuum. dignus es Sacerdos, cui</l>
+            <l>Deus atque homines quotidie benefaciant magis.</l>
+            <l>Sed quando mihi pauperi superest iulius,</l>
+            <l>Quin illum tibi largior, ne incoenatus dormias.</l>
+            <l>Et vita functo salutare offer sacrum.</l>
+          </sp>
+          <sp who="#flaminius">
+            <speaker>FL.</speaker>
+            <l>At Deus, qui videt gratiam, cumulate tibi</l>
+            <l>Scuta rependat trecenta pro uno isto iulio.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Utinam sint ista scuta, isti pisces quidem,</l>
+            <l>Quos pisciculos piscari me vidit somnians!</l>
+            <l>Sed non iam tempus, nec locus somniis:</l>
+            <l>Haud somniculose profecto sat agendum mihi,</l>
+            <l>Ut quos dixi ante, propinquis supplicem.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA QUARTA.</head>
+          <argument>
+            <p>SERVATIUS frustra ab ADOLPHO et EVANDRO subsidium rogat.</p>
+          </argument>
+          <stage>SERVATIUS, EVANDER, ADOLPHUS.</stage>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="I">Pulto fores.</l>
+          </sp>
+          <sp who="#adolphus">
+            <speaker>A.</speaker>
+            <l part="F">importunus hospes! Nemo domi.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Rationes supputo multas, et orationem invenio,</l>
+            <l>Qua persuadeam istis viris subsidium filio.</l>
+            <l part="I">At nemo recludit.</l>
+          </sp>
+          <sp who="#evander">
+            <speaker>E.</speaker>
+            <l part="F">omnes dormiunt, alias redi.</l>
+            <l>Vah assiduus flagitator, et mendicus parens!</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Diffido, et vereor fabulam. fuit haec domus</l>
+            <l>Occlusa semper pietati, et misericordiae:</l>
+            <l>Tum si senserint me petere, negabunt se domi</l>
+            <l>Esse, vel destituent ante fores cum iniuria.</l>
+            <l>Certum est perseverare tamen, et pultare saepius,</l>
+            <l>Dum quis. respondeat. audio: sunt intus: fores</l>
+            <l>Tandem patienti viro reserant. salve, mi gener.</l>
+            <l>Tu quoque, mi Evander: quamquam in aperiendo fuit</l>
+            <l>Mora, non estis segnes, aut socordes tamen.</l>
+          </sp>
+          <sp who="#adolphus">
+            <speaker>A.</speaker>
+            <l>Excusa, homo, mos est, ut nosti, post meridiem</l>
+            <l part="I">Somnum edormiscere.</l>
+          </sp>
+          <sp who="#evander">
+            <speaker>E.</speaker>
+            <l part="F">et ego in horum concesseram,</l>
+            <l part="I">Ita pultasti surdo.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">opinor estis pii,</l>
+            <l>Atque officiosi erga me, ut, si qua re eguero,</l>
+            <l>Etiam pecunia, a vobis impetrem cum gratia.</l>
+          </sp>
+          <sp who="#adolphus">
+            <speaker>A.</speaker>
+            <l>Tibi auscultamus: insinuatione non est opus.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>At non ficte loquimini: nam si in verbis animus est,</l>
+            <l>Et non factis, utrimque profecto non est gratia</l>
+            <l>Aequum me petere intelligitis: a vobis decet</l>
+            <l>Id obtineri, qui soli prodesse potestis filio.</l>
+            <l>Ignoscere mihi vobis convenit: paternus amor</l>
+            <l>Id ut faciam, et vos nunc rogem, me subigit.</l>
+            <l>Nunc igitur ne patimini me sine aliquot</l>
+            <l>Nummis abire, nec invisum habete, neque id</l>
+            <l>Idcirco mihi, propinqui, vitio vertite.</l>
+          </sp>
+          <sp who="#evander">
+            <speaker>E.</speaker>
+            <l>Honesta oratio, et sane perquam eloquens.</l>
+            <l>Verum haeccine sapientia est, et prudentia,</l>
+            <l>Ut ex incommodis alienis comparet quis commoda</l>
+            <l>Filii? in petendo non tibi est pudor paululum?</l>
+            <l>Non me etiam nosti? an nondum ne hoc?</l>
+            <l>Si tu ex me aureos montes polliceris tibi,</l>
+            <l>Multum te fallit opinio: id affirmo quidem,</l>
+            <l>Te ab asino lanam quaerere, aut aquam e pumice.</l>
+            <l>Ego Codro pauperior, cui neque nummus, neque bolus.</l>
+            <l>Verum perpetuo adsunt domi ad focum</l>
+            <l>Otiosa uxor, et corona multa liberorum,</l>
+            <l>Atque hi famelici quotidie pabulo indigent.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>At tu, Adolphe, commode poteris auxiliarier?</l>
+          </sp>
+          <sp who="#adolphus">
+            <speaker>A.</speaker>
+            <l>Immo abs te postulo, ipsum a me quod petis.</l>
+            <l>Litem habeo pergrandem, ac difficilem, Pater,</l>
+            <l>Advocati instant, et his praesenti pecunia opus,</l>
+            <l>Sine qua friget causa; itaque si quod residuum est</l>
+            <l>Argenti. commodo actum est, rebus meis excidam.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Intelligo: mendico ne filii quidem amici sunt.</l>
+            <l>Quisque causam invenit, aut commode </l>
+            <l>Fingit, qua parcat bursae, nec benefaciat.</l>
+          </sp>
+          <sp who="#adolphus">
+            <speaker>A.</speaker>
+            <l>Nam quid mirum, quisque proximus est ipsemet sibi:</l>
+            <l>Egone serviam nato tuo, stultus ego mihi siem?</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Heu quid agam? incerta nunc est ratio.</l>
+          </sp>
+          <sp who="#evander">
+            <speaker>E.</speaker>
+            <l>Multa praeter spem scio tibi mala</l>
+            <l>Evenisse: animus aequus optimum est tuae,</l>
+            <l>Servati, aerumnae condimentum: fer stultitiam</l>
+            <l>Filii, sine ad triremes ire, culpa non est tua.</l>
+            <l>Numquid aliud vis, mi pater? res domesticae</l>
+            <l>Ad forum urgent: ibi ero, si opus habes.</l>
+          </sp>
+          <sp who="#adolphus">
+            <speaker>A.</speaker>
+            <l>Et me pridem advocati expectant: vale.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Ite dura pectora, id denegate proximo,</l>
+            <l>Quod velletis in aerumna vobis fieri.</l>
+            <l>At qui est omnium arbiter, et iudex Deus,</l>
+            <l>Hominum qui facta, mores, pietatem, et fidem</l>
+            <l>Noscit: ut quemque quis adiuvat opulentiam,</l>
+            <l>Aut defraudat avaritia, vel destituit</l>
+            <l>Immisericordia: ita punit, aut bene</l>
+            <l>Compensat: nec vestras excusationes accipit,</l>
+            <l>Uxorem habeo, liberos, familiam alo,</l>
+            <l>Litem duxi, advocatos consulo, et similia:</l>
+            <l>Si non estis pii, et benigni miseris hominibus,</l>
+            <l>Et operam, et sumptum, et familiam, et vos perditis.</l>
+            <l>Facilius si qui pius est, a Deo supplicans,</l>
+            <l>Quam qui immisericors est, parabit divitias sibi.</l>
+            <l>Ad filium revertor moestus. ah verax somnium!</l>
+            <l>Filucio, vates fuisti, me turbido mari</l>
+            <l>Diu piscari, et nihil infelicem capere.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="2">
+        <head>ACTUS SECUNDUS</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>SOSIAS dolis aggreditur libertatem GALERIONIS.</p>
+          </argument>
+          <stage>SOSIAS, BARETTI, GRINGO.</stage>
+          <sp who="#sosias">
+            <speaker>SO.</speaker>
+            <l>Dolus ac virtus, quis in servo quaesierit,</l>
+            <l>Ubi hero suo male est in carcere inter compedes?</l>
+            <l>Aut moriendum mihi hodie, aut praestanda est fides</l>
+            <l>Idcirco nigra aspersus faciem fuligine,</l>
+            <l>Nova ex officina prodeo novus discipulus</l>
+            <l>Vulcani, qui claudicat e lapsu scilicet,</l>
+            <l>Quando iratus Iuppiter praecipitavit e nubibus.</l>
+            <l>Certe si viso dolo, custos carceris me in carcerem</l>
+            <l>Agat praecipitem, periculum est ne crus feriam,</l>
+            <l>Et utroque pede serio claudus fiam.</l>
+            <l>Sed tempus agi rem. una manu fero malleum,</l>
+            <l>Quo manicas et compedes frangam misero;</l>
+            <l>Altera poculum ostendo custodibus,</l>
+            <l>Ex quo si semel biberint (nam mandragorae</l>
+            <l>Soporiferae potio est). sepulti ronchos edent:</l>
+            <l>Itaque admissus, et libere egressus carcere,</l>
+            <l>Surripio Galerionem dolosa astutia.</l>
+            <l>Haec. eo ante vobis dico, quia spectatores eritis,</l>
+            <l>Nec me, qua estis fide et pietate, accusabitis.</l>
+            <l>Ohe! boni custodes, ad ianuam, citius ad iani</l>
+          </sp>
+          <sp who="#baretti">
+            <speaker>B.</speaker>
+            <l>Valde festinus es, et perfamiliaris carceri,</l>
+            <l part="I">Qui tam confidenter pultas.</l>
+          </sp>
+          <sp who="#sosias">
+            <speaker>SO.</speaker>
+            <l part="F">herus me cito </l>
+            <l>Revocat hinc, is me misit huc cum catenis his, et</l>
+            <l>Singulariis manicis; queis captivum induam;</l>
+            <l>Nam istae, quibus est vinctus, non stringunt satis.</l>
+            <l part="I">Cito, aperis, annon?</l>
+          </sp>
+          <sp who="#gringo">
+            <speaker>GR.</speaker>
+            <l part="F">vehemens, et calidus es:</l>
+            <l part="I">Asperge frigidam.</l>
+          </sp>
+          <sp who="#sosias">
+            <speaker>SO.</speaker>
+            <l part="F">tundo ferrum, dum calet;</l>
+            <l>Et ego igneae sum naturae ex fornace mulciberi.</l>
+            <l part="I">Quid me retardas?</l>
+          </sp>
+          <sp who="#gringo">
+            <speaker>GR.</speaker>
+            <l part="F">quia noster herus vetuit,</l>
+            <l>Ne quis huc intret intus iniussu. suo:</l>
+            <l>Sed uti asservetur captivus magna diligentia.</l>
+          </sp>
+          <sp who="#sosias">
+            <speaker>SO.</speaker>
+            <l>At me herus meus, inquam, venire iussit huc.</l>
+          </sp>
+          <sp who="#baretti">
+            <speaker>B.</speaker>
+            <l part="I">Quis est herus tuus?</l>
+          </sp>
+          <sp who="#sosias">
+            <speaker>SO.</speaker>
+            <l part="F">de genere Vulcanorum.</l>
+          </sp>
+          <sp who="#baretti">
+            <speaker>B.</speaker>
+            <l part="I">Qui vocatur?</l>
+          </sp>
+          <sp who="#sosias">
+            <speaker>SO.</speaker>
+            <l part="F">magister Pyracmon: numquid es</l>
+            <l part="I">iam doctior?</l>
+          </sp>
+          <sp who="#gringo">
+            <speaker>GR.</speaker>
+            <l part="M">ubi habitat?</l>
+          </sp>
+          <sp who="#sosias">
+            <speaker>SO.</speaker>
+            <l part="M">nosti Macellum?</l>
+          </sp>
+          <sp who="#gringo">
+            <speaker>GR.</speaker>
+            <l part="F">prope</l>
+            <l part="I">Cancellariam.</l>
+          </sp>
+          <sp who="#sosias">
+            <speaker>SO.</speaker>
+            <l part="F">non ibi habitat. sed ascende versus crucem.</l>
+          </sp>
+          <sp who="#gringo">
+            <speaker>GR.</speaker>
+            <l part="I">Longa, platea ad fontem.</l>
+          </sp>
+          <sp who="#sosias">
+            <speaker>SO.</speaker>
+            <l part="F">neque ibi habitat.</l>
+            <l>Ulterius paulo ad portam, et fluvium; ibi</l>
+            <l part="I">Habitat.</l>
+          </sp>
+          <sp who="#gringo">
+            <speaker>GR.</speaker>
+            <l part="F">iam te capto; dixti festinare te,</l>
+            <l part="I">Et fando interim seris ambages.</l>
+          </sp>
+          <sp who="#sosias">
+            <speaker>SO.</speaker>
+            <l part="F">et ego te</l>
+            <l>Capientem capio: quia iam peregrinus, et hospes in hac</l>
+            <l>Civitate es, ut magistrum adeo celebrem non noveris.</l>
+          </sp>
+          <sp who="#baretti">
+            <speaker>B.</speaker>
+            <l>Immo iste magister Pyracmon famulum non habet.</l>
+          </sp>
+          <sp who="#sosias">
+            <speaker>SO.</speaker>
+            <l>Immo habet me nunc quem vides famulum.</l>
+            <l>Quid tam multa interrogas? hoc adeo ex nulla re alia</l>
+            <l>Fit: nisi ex otio: ita oscitantes tota die hic</l>
+            <l>Decussatis brachiis observatis fores:</l>
+            <l>Nostris manibus callum obduxit assiduus labor,</l>
+            <l>Abeo domum: si pol non referam hero meo moram hanc.</l>
+          </sp>
+          <sp who="#baretti">
+            <speaker>B.</speaker>
+            <l>Audi: si nullus est dolus, intrare sinam.</l>
+          </sp>
+          <sp who="#sosias">
+            <speaker>SO.</speaker>
+            <l>Quem dolum metuis a simplice servulo?</l>
+          </sp>
+          <sp who="#gringo">
+            <speaker>GR.</speaker>
+            <l>Tamen habes nasum, uti coniicio ex oculis.</l>
+          </sp>
+          <sp who="#sosias">
+            <speaker>SO.</speaker>
+            <l>Quippe nasus oculis interiectus, nam ego sentio.</l>
+          </sp>
+          <sp who="#gringo">
+            <speaker>GR.</speaker>
+            <l>At emissitios habes oculos, et fors etiam</l>
+            <l part="I">In occipite.</l>
+          </sp>
+          <sp who="#sosias">
+            <speaker>SO.</speaker>
+            <l part="F">apage homo, aenigmata loqueris.</l>
+          </sp>
+          <sp who="#gringo">
+            <speaker>GR.</speaker>
+            <l part="I">Et tu componis gryphos.</l>
+          </sp>
+          <sp who="#baretti">
+            <speaker>B.</speaker>
+            <l part="F">quid istud poculi?</l>
+          </sp>
+          <sp who="#sosias">
+            <speaker>SO.</speaker>
+            <l>Quid tua interest id scire? locutus es tamdiu,</l>
+            <l>Et allatrasti, ut arente fauce iam sitias?</l>
+          </sp>
+          <sp who="#baretti">
+            <speaker>B.</speaker>
+            <l part="I">Ego canis sum?</l>
+          </sp>
+          <sp who="#sosias">
+            <speaker>SO.</speaker>
+            <l part="F">etiam peior cerbero:</l>
+            <l>Hic venientes umbras non vexat, sed his</l>
+            <l>Blanditur cauda, nisi post egredi velint.</l>
+            <l>Tu mihi intranti, non egredienti molestus es</l>
+          </sp>
+          <sp who="#baretti">
+            <speaker>B.</speaker>
+            <l>Ergo si cerberus sum, da quo satier;</l>
+            <l>Vel istud poculum, quod impigre hauriam.</l>
+          </sp>
+          <sp who="#sosias">
+            <speaker>SO.</speaker>
+            <l>Rem tangis, sed mediam tantummodo partem ebibe,</l>
+            <l>Ut, si laborando intus sudavero, parte non excidam:</l>
+            <l>Nam ego vulcanus continuo apud ignem rigo, rigo.</l>
+          </sp>
+          <sp who="#baretti">
+            <speaker>B.</speaker>
+            <l part="I">Satis est, intra.</l>
+          </sp>
+          <sp who="#gringo">
+            <speaker>GR.</speaker>
+            <l part="F">istud servorum genus</l>
+            <l part="I">Non placet.</l>
+          </sp>
+          <sp who="#baretti">
+            <speaker>B.</speaker>
+            <l part="F">quid ab ipso fraudis metuam?</l>
+            <l>Armatus custodio atrium, nullus vigilem oculum</l>
+            <l>Effugiet; nullus intrat, aut regreditur, nisi me conscio.</l>
+            <l part="I">Quin tu meum ebibe?</l>
+          </sp>
+          <sp who="#gringo">
+            <speaker>GR.</speaker>
+            <l part="F">ad herum propero,</l>
+            <l>Moniturus esse in carcere confidentem fabrum,</l>
+            <l part="I">Fac modo me expectes.</l>
+          </sp>
+          <sp who="#baretti">
+            <speaker>B.</speaker>
+            <l part="F">o ambrosiam! puto</l>
+            <l>Hunc esse potum Deorum: iterum pleno gutture,</l>
+            <l>Ut sapide ad cor nectar depluit;</l>
+            <l>Iterum ad sanitatem heri mei. at, at caput</l>
+            <l>Patitur vertiginem, credo ex crebro et valido</l>
+            <l>Haustu titubat pes: sopor artus ligat.</l>
+            <l>Gringo, Gringo, redi Gringo; vigilans dormio.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>MACERATI tantum non dolo ereptum GALERIONEM retrahit, et SOSIAM mulctat.</p>
+          </argument>
+          <stage>SOSIAS, MACERATI, GRINGO, GALERIO, MILES, FILUCIO.</stage>
+          <sp who="#sosias">
+            <speaker>SO.</speaker>
+            <l>Bene est, sopitus homo est. brevi absolvi operam.</l>
+            <l part="I">Superi favete.</l>
+          </sp>
+          <sp who="#macerati">
+            <speaker>MA.</speaker>
+            <l part="F">quid ais, esse istic fabrum?</l>
+          </sp>
+          <sp who="#gringo">
+            <speaker>GR.</speaker>
+            <l part="I">Ita est.</l>
+          </sp>
+          <sp who="#macerati">
+            <speaker>MA.</speaker>
+            <l part="M">quis misit?</l>
+          </sp>
+          <sp who="#gringo">
+            <speaker>GR.</speaker>
+            <l part="F">nescio: herus suus.</l>
+          </sp>
+          <sp who="#macerati">
+            <speaker>MA.</speaker>
+            <l part="I">Quis herus suus?</l>
+          </sp>
+          <sp who="#gringo">
+            <speaker>GR.</speaker>
+            <l part="F">nescio, astutus est puer;</l>
+            <l>Dii boni! iacet maleficio hic sopitus subito.</l>
+          </sp>
+          <sp who="#macerati">
+            <speaker>MA.</speaker>
+            <l>Insidiae, huc milites, insidiae, dolus!</l>
+            <l>Auditis malleum? quisque stationem defendat suam.</l>
+            <l>Tu hic ad angulum, alter e fronte, tu istic, ego hic:</l>
+            <l>Ne dextrorsum, sinistrorsum, horsum, istorsum fugiat.</l>
+            <l>iuro pol, non erit impune hodie huic homini.</l>
+            <l part="I">Egreditur, vigilate.</l>
+          </sp>
+          <sp who="#sosias">
+            <speaker>SO.</speaker>
+            <l part="F">euge, Galerio, fracta sunt</l>
+            <l part="I">Vincula effuge dum licet.</l>
+          </sp>
+          <sp who="#galerio">
+            <speaker>GA.</speaker>
+            <l part="M">nemo est?</l>
+          </sp>
+          <sp who="#sosias">
+            <speaker>SO.</speaker>
+            <l part="F">nemo homo est.</l>
+          </sp>
+          <sp who="#galerio">
+            <speaker>GA.</speaker>
+            <l part="I">At miles.</l>
+          </sp>
+          <sp who="#sosias">
+            <speaker>SO.</speaker>
+            <l part="F">dedi bolum, dormit: tibi dican postea,</l>
+            <l part="I">Iam non vacat. sequere hac.</l>
+          </sp>
+          <sp who="#miles">
+            <speaker>MI.</speaker>
+            <l part="M">sta.</l>
+          </sp>
+          <sp who="#galerio">
+            <speaker>GA.</speaker>
+            <l part="M">perii.</l>
+          </sp>
+          <sp who="#sosias">
+            <speaker>SO.</speaker>
+            <l part="F">tace.</l>
+            <l part="I">Veni istac.</l>
+          </sp>
+          <sp who="#macerati">
+            <speaker>MA.</speaker>
+            <l part="M">sistite.</l>
+          </sp>
+          <sp who="#galerio">
+            <speaker>GA.</speaker>
+            <l part="M">interii.</l>
+          </sp>
+          <sp who="#sosias">
+            <speaker>SO.</speaker>
+            <l part="F">ne time, alia via,</l>
+            <l part="I">Passu laneo.</l>
+          </sp>
+          <sp who="#macerati">
+            <speaker>MA.</speaker>
+            <l part="M">quis, qua, quo?</l>
+          </sp>
+          <sp who="#galerio">
+            <speaker>GA.</speaker>
+            <l part="M">visi sumus.</l>
+          </sp>
+          <sp who="#sosias">
+            <speaker>SO.</speaker>
+            <l part="F">hac.</l>
+          </sp>
+          <sp who="#macerati">
+            <speaker>MA.</speaker>
+            <l part="I">Sceleste, fur, latro.</l>
+          </sp>
+          <sp who="#galerio">
+            <speaker>GA.</speaker>
+            <l part="M">actum est.</l>
+          </sp>
+          <sp who="#macerati">
+            <speaker>MA.</speaker>
+            <l part="F">assequimini, comprendite.</l>
+          </sp>
+          <sp who="#sosias">
+            <speaker>SO.</speaker>
+            <l part="I">O milites!</l>
+          </sp>
+          <sp who="#macerati">
+            <speaker>MA.</speaker>
+            <l part="M">rapite.</l>
+          </sp>
+          <sp who="#sosias">
+            <speaker>SO.</speaker>
+            <l part="M">parce.</l>
+          </sp>
+          <sp who="#macerati">
+            <speaker>MA.</speaker>
+            <l part="F">catenas indite.</l>
+          </sp>
+          <sp who="#sosias">
+            <speaker>SO.</speaker>
+            <l>Pudet honesto servo catenas gerere.</l>
+          </sp>
+          <sp who="#macerati">
+            <speaker>MA.</speaker>
+            <l>Pudeat, pigeat, poeniteat, carcerem frangere:</l>
+            <l>Ostendam tibi pol, quid sit periculi</l>
+            <l part="I">Hunc ludum ludere.</l>
+          </sp>
+          <sp who="#sosias">
+            <speaker>SO.</speaker>
+            <l part="F">huc adductus sum officio.</l>
+          </sp>
+          <sp who="#macerati">
+            <speaker>MA.</speaker>
+            <l>Hoccine officium est sacrilegi servuli, cum,</l>
+            <l>Quem iustitia damnavit, eximere supplicio?</l>
+            <l>Abripite utrumque vinctum penitus in carcerem.</l>
+          </sp>
+          <sp who="#filucio">
+            <speaker>FI.</speaker>
+            <l>Commode adveni, ut hunc viderem exitum</l>
+          </sp>
+          <sp who="#macerati">
+            <speaker>MA.</speaker>
+            <l>Vix sum mihi praesens prae iracundia:</l>
+            <l>Ita commotus animus est hoc audaci dolo.</l>
+            <l>Faciam, ut huius diei, locique, meique meminerit:</l>
+            <l>Quem macerabo inedia, dein affigam cruci.</l>
+          </sp>
+          <sp who="#filucio">
+            <speaker>FI.</speaker>
+            <l>Mitius paulo, Macerati, mitius cum servo pio.</l>
+          </sp>
+          <sp who="#macerati">
+            <speaker>MA.</speaker>
+            <l>Et tu insidiator, audes huc progredi,</l>
+            <l>Insidiator, inquam, audes huc progredi? dolos</l>
+            <l>Cudere simul pessime cum astuto fabro?</l>
+            <l>Huc, huc rursum milites, et hunc date in carcerem.</l>
+            <l>Fugit? itane est? ite intro: ego ad Fiscum eo.</l>
+            <l>Istum vero dromonem suscitare mortuum flagris,</l>
+            <l>Praeterea panem et aquam gustet bis quinos dies.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA TERTIA.</head>
+          <argument>
+            <p>FILUCIO narrat SERVATIO captum esse SOSIAM.</p>
+          </argument>
+          <stage>FILUCIO, SERVATIUS.</stage>
+          <sp who="#filucio">
+            <speaker>FI.</speaker>
+            <l>Ubi est Servatius? cui, dolor! istaec narrem? Non procul</l>
+            <l>Est hinc opinor, nam discedens condixit locum.</l>
+            <l part="I">En adest.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="M">Filucio? quid taces?</l>
+          </sp>
+          <sp who="#filucio">
+            <speaker>FI.</speaker>
+            <l part="F">malus</l>
+            <l part="I">Nuntius.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="M">quid est?</l>
+          </sp>
+          <sp who="#filucio">
+            <speaker>FI.</speaker>
+            <l part="M">noli petere.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">noli mihi</l>
+            <l part="I">Reticere.</l>
+          </sp>
+          <sp who="#filucio">
+            <speaker>FI.</speaker>
+            <l part="M">quando non iuvat scire.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">amo scire.</l>
+          </sp>
+          <sp who="#filucio">
+            <speaker>FI.</speaker>
+            <l part="I">Ut sis miser?</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">sum miser, et esse iam usu didici.</l>
+          </sp>
+          <sp who="#filucio">
+            <speaker>FI.</speaker>
+            <l part="I">Tamen ne quid miseriis adde.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">vivit filius?</l>
+          </sp>
+          <sp who="#filucio">
+            <speaker>FI.</speaker>
+            <l part="I">Vivit.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">quid suspendis? plura quam fors sint, ego</l>
+            <l>Suspicor. quin dic cito? libera animum metu.</l>
+          </sp>
+          <sp who="#filucio">
+            <speaker>FI.</speaker>
+            <l>Captus est Sosias, et praeceps datus misere </l>
+            <l>In fossam; postea tollendus sublime in crucem,</l>
+            <l>Ita iratus Macerati, apertis dolis,</l>
+            <l>Saevit, minatur, iubet, Fiscum adit.</l>
+            <l>Nisi ego cura providissem mihi, eram scilicet</l>
+            <l>Una visus cum servo tuo, quasi conscius.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Heu sensi multo ante quam fieret dolus,</l>
+            <l>Dixi servo neu faceret: ipsum adire periculum.</l>
+            <l>Et prudentem, et praesentem in flammam manum mittere:</l>
+            <l part="I">Pietas hominem perdidit.</l>
+          </sp>
+          <sp who="#filucio">
+            <speaker>FI.</speaker>
+            <l part="F">et hoc clamavi miser.</l>
+            <l>Cum raperetur, surdo pietas fuit.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="I">Sed quid actum de filio?</l>
+          </sp>
+          <sp who="#filucio">
+            <speaker>FI.</speaker>
+            <l part="F">ipse magis</l>
+            <l>In catenas maiores datus. nam illud omiseram</l>
+            <l>Dicere, ipsum ruptis ferris, servi opera</l>
+            <l>Medicate sopito custode, prope evasisse carcerem</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Quid igitur libertati obfuit, Filucio?</l>
+          </sp>
+          <sp who="#filucio">
+            <speaker>FI.</speaker>
+            <l>Alter custos doloso e poculo non bibit,</l>
+            <l>Sed continuo ad herum advolat, monet de insidiis,</l>
+            <l>Militum globus accurrit, retrahitur filius in carcerem.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="I">Certe in portu naufragium.</l>
+          </sp>
+          <sp who="#filucio">
+            <speaker>FI.</speaker>
+            <l part="F">Sed iam de servi capite</l>
+            <l>Aguntur comitia, et Galerio vincitur arctius.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="I">Quid igitur facto opus?</l>
+          </sp>
+          <sp who="#filucio">
+            <speaker>FI.</speaker>
+            <l part="F">fugit me ratio.</l>
+            <l>Nisi conferamus nos illice ad Fiscum, ut ab eo</l>
+            <l part="I">Deprecemur saevitiam.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">i prae, ego sequar.</l>
+            <l>Ne ego sollicitus sum pater, aliud ex alio</l>
+            <l>Malum incidit. nunc quod auxilium, aut opem</l>
+            <l>Ab homine capessam? servus, filius interiit:</l>
+            <l>Quae mihi spes est, qua me nunc vivere velim?</l>
+            <l>Par est mori, neque est melius morte in malis</l>
+            <l>Rebus miseris: nam circumspexi omnia filio,</l>
+            <l>Conservavi cura, voce, oculis, auribus,</l>
+            <l>Rogavi unumquemque supplex, propinquum, advenam,</l>
+            <l>Neque opem usquam invenio, neque quo eam,</l>
+            <l>Neque qua consulam, neque quem magis rogem</l>
+            <l>Responsorem, amicum, misericordem, quemquam scio.</l>
+            <l>Desistam, et Deum solum, quoniam humana destituunt,</l>
+            <l>Imploro, et invoco. adsis opitulator: pater</l>
+            <l>Patrem adiuva, pius miserum, dives pauperem,</l>
+            <l>Nam te id saepe erga homines facere non piget:</l>
+            <l>Cum res accisa maxime, tum praestas manum.</l>
+            <l>Hac spe me sola oblecto, humanam perdidi.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA QUARTA.</head>
+          <argument>
+            <p>SERVATIUS accipit ab OCTAVIANO tesserariam schedulam scutorum 300.</p>
+          </argument>
+          <stage>SERVATIUS, OCTAVIANUS.</stage>
+          <sp who="#octavianus">
+            <speaker>O.</speaker>
+            <l part="I">Salve, Servati.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">certe non sum salvus. unde homo</l>
+            <l part="I">Me nosti?</l>
+          </sp>
+          <sp who="#octavianus">
+            <speaker>O.</speaker>
+            <l part="M">optime.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">ego numquam te aspexi oculis.</l>
+          </sp>
+          <sp who="#octavianus">
+            <speaker>O.</speaker>
+            <l>Quid est, quod tu exanimatus iam hos multos dies</l>
+            <l>Curris per domos amicorum, et lacrymas refers:</l>
+            <l>Vellem me lubens tui esse participem consilii;</l>
+            <l>Eloquere, ut quod ego nescio, id tecum sciam.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Quid abs re tua, homo, me interrogas?</l>
+            <l>Quid tua ignoti quidem interest scire quid miser sum?</l>
+          </sp>
+          <sp who="#octavianus">
+            <speaker>O.</speaker>
+            <l part="I">Licet me id scire quid sit?</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">plane licet:</l>
+            <l part="I">Sed quid tum? quid postea?</l>
+          </sp>
+          <sp who="#octavianus">
+            <speaker>O.</speaker>
+            <l part="F">fac me certum quid tibi</l>
+            <l>Sit: iuvabo te aut re, aut opera, aut consilio bono.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Valde humanus es, o quem te praedicem, senex?</l>
+            <l>Numquid non audisti de filio, quem ad triremes parat</l>
+            <l part="I">Carcer?</l>
+          </sp>
+          <sp who="#octavianus">
+            <speaker>O.</speaker>
+            <l part="M">aliquid.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">haec me cura contabefacit:</l>
+            <l>Maior autem, quod propinqui pumiceas habent</l>
+            <l>Bursas, non queo nummum exorare, ut dent unum filio.</l>
+            <l>Miser sum, argentum nusquam in venio mutuum.</l>
+            <l>Neque intus domi nummus ullus est,</l>
+            <l>Nec hic apud me, nisi me opponam pignori.</l>
+          </sp>
+          <sp who="#octavianus">
+            <speaker>O.</speaker>
+            <l>Spero, alicunde hodie te bona opera,</l>
+            <l>Aut hac mea, tibi inventurum esse auxilium.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Num est tibi thesaurus fors in aliqua domo?</l>
+          </sp>
+          <sp who="#octavianus">
+            <speaker>O.</speaker>
+            <l>Verum ego te amicum, ne pave, non deseram.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Utinam quae dicis, dictis facta suppetant!</l>
+          </sp>
+          <sp who="#octavianus">
+            <speaker>O.</speaker>
+            <l>Quae mihi interest, haec tibi est in me salus.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Nullam, quaeso, des salutem mihi, nisi argenteam,</l>
+            <l>Vel aurifodina tibi opus est pro nati lytro.</l>
+          </sp>
+          <sp who="#octavianus">
+            <speaker>O.</speaker>
+            <l>Roga me quidlibet, argenteos, seu aureos,</l>
+            <l>Ita me effecturum tibi, quod promitto, scias.</l>
+            <l>Roga obsecro, mi Servati, gestio promittere.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Mirum vero te tam prolixum promittere,</l>
+            <l>Ignotus cum sim tibi, et tu mihi. gratis an mutuum</l>
+            <l>Promittes? hoc ante volo cognoscere.</l>
+          </sp>
+          <sp who="#octavianus">
+            <speaker>O.</speaker>
+            <l>Gratis, inquam, pleno sinu, sine ullo foenore.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Fortasse dives es promissis; postea ubi fides?</l>
+          </sp>
+          <sp who="#octavianus">
+            <speaker>O.</speaker>
+            <l part="I">Praestabo.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">quoniam igitur rogas, et obsecras ut petam.</l>
+            <l>Dabisne redimendo filio hodie trecentos aureos?</l>
+          </sp>
+          <sp who="#octavianus">
+            <speaker>O.</speaker>
+            <l part="I">Dabo.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="M">Deus te amet. pietatis causa?</l>
+          </sp>
+          <sp who="#octavianus">
+            <speaker>O.</speaker>
+            <l part="F">etiam.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Tu facis me quidem ut vivere nunc velim.</l>
+            <l part="I">Porrige dextram.</l>
+          </sp>
+          <sp who="#octavianus">
+            <speaker>O.</speaker>
+            <l part="M">accipe.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">enuntia quomodo?</l>
+          </sp>
+          <sp who="#octavianus">
+            <speaker>O.</speaker>
+            <l>Cedo pugillares propere, et stylum si habes.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Expecto quid scribas, aut quo litteras destines.</l>
+          </sp>
+          <sp who="#octavianus">
+            <speaker>O.</speaker>
+            <l>Salutem dic isti homini meis verbis:</l>
+            <l>Huic nomen Pievoli, habitat in foro prope crucem:</l>
+            <l>Pro signo habet domus Aeneam, qui fert patrem</l>
+            <l>Caetera quae sunt opus, habes subscripta hic.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Sum attonitus tam mirando, tamque inopinato bono.</l>
+          </sp>
+          <sp who="#octavianus">
+            <speaker>O.</speaker>
+            <l part="I">Nunquid aliud vis?</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">nihil, satis.</l>
+          </sp>
+          <sp who="#octavianus">
+            <speaker>O.</speaker>
+            <l>Hanc habe Superis gratiam, quando filium ceperis.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Hic impulit me, ut his omnino sidam litteris,</l>
+            <l>Atque haud dubito, quin quae promisit, sint vera omnia.</l>
+            <l>Nam quid mihi verba det senex affabilis,</l>
+            <l>Spectabili canitie, ore modesto, gestu gravi!</l>
+            <l>Non est quod mentiri velit. igitur quod Deum bene</l>
+            <l>Vertat, ibo cito ad mercatoris domum.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="3">
+        <head>ACTUS TERTIUS.</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>SERVATIUS cum sua schedula ridetur a famulis PIEVOLI.</p>
+          </argument>
+          <stage>SERVATIUS, PSEUDOUXA, EMPORULUS, AGORAS.</stage>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l>Emporule, Emporule, prodi ex officina, ubi</l>
+            <l>Tanquam claudus sutor perpetuo assides,</l>
+            <l>Aut velut etiam speculator Atlas affixus Caucaso.</l>
+          </sp>
+          <sp who="#emporulus">
+            <speaker>E.</speaker>
+            <l>Emptores me et te iussit operiri noster herus:</l>
+            <l>Ne, si desertum videant atrium, homines transeant.</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l>At nobis licet esse liberis, cum nullum hominis</l>
+            <l>Transit vestigium: sedendo cassus sum equidem.</l>
+          </sp>
+          <sp who="#emporulus">
+            <speaker>E.</speaker>
+            <l>Quid si in scamnis gymnasticis, et palaestricis</l>
+            <l>Totos dies sedeas? ubi morosus praeceptor ferulam,</l>
+            <l>Si te pauxillum moves, fortiter impingit in manus,</l>
+            <l>Non minus quam hercules intorquet clavam in Geryonem.</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l>Memini me saepius sentire, cum essem tyro.</l>
+            <l>Nunc magnas Mercurio gratias habeo, quod ad hanc</l>
+            <l>Artem multo quaestuosam, et otiosam magis</l>
+            <l>Ex isto pulvere classico, et Pythagorico avocarit silentio.</l>
+          </sp>
+          <sp who="#emporulus">
+            <speaker>E.</speaker>
+            <l>Et sua Mercurius habet pondera, et mensuras difficilium</l>
+            <l>Laborum, quos perpeti ad res venales, et faciendum lucrum</l>
+            <l>Est necesse: sic in omni arte nisi est amor, ibi labor.</l>
+            <l>Sed quem video? hic forte emptor est,</l>
+            <l>Qui oculis meis obviam ignorabilis obiicitur:</l>
+            <l>Libet scire quid circumspiciat, quid codicillos gerat.</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l>Profecto huic, quam rem agat, hinc dabimus insidias.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Hoc est forum, atque hae domus, quae mihi a sene demonstratae sunt,</l>
+            <l>Ut ego oculis rationem capio, quam mihi ita dixit meus animus.</l>
+            <l>Proximas esse aedes ante crucem, ubi ille habitat mercator,</l>
+            <l>Cui iussit schedulam me ferre, ut accipiam scuta trecenta.</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l part="I">Non est emptor hic, sed receptor.</l>
+          </sp>
+          <sp who="#emporulus">
+            <l part="F">St. Tace tantisper.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Nimis velim, certum qui mihi faciat, ubi habitet quem quaero.</l>
+            <l>Apparet symbolum, pultabo, atque intus evocabo aliquem foras.</l>
+          </sp>
+          <sp who="#emporulus">
+            <speaker>E.</speaker>
+            <l>Quisquis es, compendium ego te facere pultandi volo:</l>
+            <l>Nam ego precator et patronus foribus processi foras.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="I">Tune es filius Pievoli?</l>
+          </sp>
+          <sp who="#emporulus">
+            <speaker>E.</speaker>
+            <l part="F">imo vero ego eius sum hypo-Pievoli.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="I">Quid istuc verbi est?</l>
+          </sp>
+          <sp who="#emporulus">
+            <speaker>E.</speaker>
+            <l part="F">condus, promus sum, procurator mercium.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="I">Quid tu servusne es, an filius familias?</l>
+          </sp>
+          <sp who="#emporulus">
+            <speaker>E.</speaker>
+            <l part="F">nunc quidem servio.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="I">Quid ille?</l>
+          </sp>
+          <sp who="#emporulus">
+            <speaker>E.</speaker>
+            <l part="M">conservus.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">copiosum oportet esse mercatorem.</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l>Quid ais tu vir? accipere te velle scuta trecenta!</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="I">Omnino: tesseram habeo.</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l part="M">tune attulisti?</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">imo, adest.</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l part="I">Quid dubitas isti dare?</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="M">egone illi dem?</l>
+          </sp>
+          <sp who="#emporulus">
+            <speaker>E.</speaker>
+            <l part="F">mihi</l>
+            <l>Hercle vero, qui res, rationesque heri Pievoli</l>
+            <l>Curo, argentum accepto, expenso cui debet, dato.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Siquidem etiam hercle divitis cures thesauros Mydae,</l>
+            <l>Tesserariam tabellam numquam credam: potius servavero.</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l>Vae tibi: tu inventus vero, qui istius abiicias fidem.</l>
+          </sp>
+          <sp who="#emporulus">
+            <speaker>E.</speaker>
+            <l>Quasi mihi non sexcenta scuta soli soleant credier.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Potest, ut alii ita arbitrentur, et ego ut ne credam tibi.</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l part="I">Sed quis dedit tibi tesseram?</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">non novi: amicus mihi,</l>
+            <l>Et his aedibus, ut ipse praedicat, venerandus senex.</l>
+          </sp>
+          <sp who="#emporulus">
+            <speaker>E.</speaker>
+            <l part="I">Nullus domi familiaris senex.</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l part="M">ubi?</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">modo apud carceres.</l>
+          </sp>
+          <sp who="#emporulus">
+            <speaker>E.</speaker>
+            <l part="I">Qui vocatur.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="M">Pievoli.</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l part="M">ipse herus.</l>
+          </sp>
+          <sp who="#emporulus">
+            <speaker>E.</speaker>
+            <l part="F">nomen lege.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="I">Octavianus.</l>
+          </sp>
+          <sp who="#emporulus">
+            <speaker>E.</speaker>
+            <l part="F">nomen non convenit. Videam manum.</l>
+            <l>Quid times? non est haec scriptura, nec signum nostri heri:</l>
+            <l>Nec ullum alium in tota civitate novi, qui vocetur Pievoli.</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l>Falsus es, bone vir, viam quaere aliam, qua compares pecuniam.</l>
+            <l>Non adeo simplex est herus noster, qui isti credat chartulae.</l>
+          </sp>
+          <sp who="#emporulus">
+            <speaker>E.</speaker>
+            <l>Qua de causa habes obligatorem, et obligatorem hunc?</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="I">Ego nescio.</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l part="F">certo certius non sapit hic vir quidem,</l>
+            <l>Qui nulla causa, adulterino signo, futili schedula,</l>
+            <l>Reposcit aurum: ah, ah, ah! dormi in aurem, accipies pecuniam:</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Verba multa facitis: herus si domi est, quin provoces,</l>
+            <l part="I">Ut id agam, quod veni huc?</l>
+          </sp>
+          <sp who="#emporulus">
+            <speaker>E.</speaker>
+            <l part="F">at illic negotiosus est.</l>
+            <l>Demus fabulam, et suppositivum faciamus herum.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Quid ille tecum solus loquitur? verbo absolvam, si venerit.</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l part="I">Si intus est, evocabo.</l>
+          </sp>
+          <sp who="#emporulus">
+            <speaker>E.</speaker>
+            <l part="F">at cito; videris, homo, mihi,</l>
+            <l>Pace dicam tua, antiquae fidei: nam inter mercatores id est</l>
+            <l>Inprimis cautum: fide, sed cui, vide: non coniectura levi</l>
+            <l>Merces nostrae penduntur: non cum quolibet quodlibet</l>
+            <l>Commercium: tum in his tesseris oportet cognita sit manus.</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l part="I">Ecce herum, alloquere.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="M">verusne, an fictus?</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l part="F">iniuriam facis.</l>
+          </sp>
+          <sp who="#adolphus">
+            <speaker>A.</speaker>
+            <l>Modo et iam herus sum horum duorum. quid dubitas?</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Ita videre, et non videre satis herus spectabilis.</l>
+            <l part="I">Sed eloquar: Octavianum Pievoli nostin’</l>
+          </sp>
+          <sp who="#adolphus">
+            <speaker>A.</speaker>
+            <l part="F">audivi ego</l>
+            <l>Olim unum fuisse, an nunc reviviscat mortuus nescio.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="I">Agnoscis manum?</l>
+          </sp>
+          <sp who="#adolphus">
+            <speaker>A.</speaker>
+            <l part="F">egeo oculis, ut probe legam:</l>
+            <l>Nam iuveni, ut vides, morbo oculi ceciderunt mei.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="I">Intelligo.</l>
+          </sp>
+          <sp who="#adolphus">
+            <speaker>A.</speaker>
+            <l part="F">mi fili. patrem non habeo. pax Christi. scilicet</l>
+            <l>Tecum, mecum, nobiscum. mea causa. quid non filius agerem</l>
+            <l>Patris causa, si haberem? huic homini pio. Deus reddat tibi</l>
+            <l part="I">Pro pietate. Fac numeres hodie.</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l part="F">imperare potest.</l>
+          </sp>
+          <sp who="#adolphus">
+            <speaker>A.</speaker>
+            <l part="I">Trecenta scuta.</l>
+          </sp>
+          <sp who="#emporulus">
+            <speaker>E.</speaker>
+            <l part="F">pro summam auream! bonum hic captat bolum.</l>
+            <l>L. Datum genuae prope cancellariam anno 1663.</l>
+            <l>Octavianus Pievoli. amabo, vir, graeca fide,</l>
+            <l>Vel Romana ais scriptam esse schedulam?</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Sane is, qui scripsit, honestus senex, qui mentiri non velit:</l>
+            <l part="I">Neque hoc est mentiri meum.</l>
+          </sp>
+          <sp who="#adolphus">
+            <speaker>A.</speaker>
+            <l part="F">atqui non exstat senex</l>
+            <l part="I">Iste Octavianus, nisi e caelo ceciderit.</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l part="F">here,</l>
+            <l part="I">Vigilat somnians.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="M">apage somnia.</l>
+          </sp>
+          <sp who="#emporulus">
+            <speaker>E.</speaker>
+            <l part="F">aut sanus capite</l>
+            <l part="I">Non est. vis accersam medicum?</l>
+          </sp>
+          <sp who="#adolphus">
+            <speaker>A.</speaker>
+            <l part="F">audi unum recipe.</l>
+            <l>Vena cephalica aperitor. sanguinis decem unciae</l>
+            <l>Extrahantor: duo poma cocta sumantor: aqua innocens</l>
+            <l>Et spiritalis bibitor, caro non comestor: tibi</l>
+            <l>Somnus edormiscitor: liberaliter helleboro utitor</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Progenies servorum petulans ex otio, et insolens,</l>
+            <l part="I">Sic ludos facis?</l>
+          </sp>
+          <sp who="#emporulus">
+            <speaker>E.</speaker>
+            <l part="F">quid mirum, si tu ludum occipis,</l>
+            <l>Si pergimus docti pilam remittere. cum vulpe, aiunt,</l>
+            <l part="I">Est vulpinandum.</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l part="F">here, quin satisfacisti viro?</l>
+            <l>Cuneus cuneo, clavo clavus, charta charta repellitur.</l>
+          </sp>
+          <sp who="#adolphus">
+            <speaker>A.</speaker>
+            <l>Certe ad hominem. quaere atramentum, et chartam mihi.</l>
+            <l>Non est mihi praesens pecunia, sed pariter tesserariam dabo.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Ride, fac quod lubet, iampridem assuevi malis.</l>
+            <l>Mihi certe opitulabitur Deus, si irrisiones patiar.</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l>Quae imperasti, imperatum bene bonis factum illico est.</l>
+          </sp>
+          <sp who="#adolphus">
+            <speaker>A.</speaker>
+            <l>Scribe, subsignabo. iubeo salvere Ballionem meum,</l>
+            <l part="I">Mi Ballio.</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l part="M">quid postea?</l>
+          </sp>
+          <sp who="#adolphus">
+            <speaker>A.</speaker>
+            <l part="F">ne interturbaveris,</l>
+            <l part="I">Pax mortuis mea causa.</l>
+          </sp>
+          <sp who="#emporulus">
+            <speaker>E.</speaker>
+            <l part="F">nempe benevolentis viri.</l>
+          </sp>
+          <sp who="#adolphus">
+            <speaker>A.</speaker>
+            <l part="I">Huic persano viro.</l>
+          </sp>
+          <sp who="#emporulus">
+            <speaker>E.</speaker>
+            <l part="M">ita testor.</l>
+          </sp>
+          <sp who="#adolphus">
+            <speaker>A.</speaker>
+            <l part="F">fac numeres</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l part="I">Etiam imperas?</l>
+          </sp>
+          <sp who="#adolphus">
+            <speaker>A.</speaker>
+            <l part="F">imperatum in charta est, perge cito.</l>
+            <l part="I">Calendis Graecis.</l>
+          </sp>
+          <sp who="#emporulus">
+            <speaker>E.</speaker>
+            <l part="M">aperte.</l>
+          </sp>
+          <sp who="#adolphus">
+            <speaker>A.</speaker>
+            <l part="F">trecentos aureos.</l>
+          </sp>
+          <sp who="#emporulus">
+            <speaker>E.</speaker>
+            <l>Liberalem virum. datum Genua in foro,</l>
+            <l>Sub signo manu propria. Carolus Pievoli.</l>
+            <l>En fer ad Ballionem, ad domum, ubi servi abiiciunt cornua.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Sic rides virum, improbe? agnosco qui sit herus,</l>
+            <l>Scurram dixero, non filium familias. mittite iocos servuli:</l>
+            <l>Contumeliosas istas linguas, et procaces comprimam.</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l>At nos tuas ineptias arcemus procul ab aedibus.</l>
+          </sp>
+          <sp who="#emporulus">
+            <speaker>E.</speaker>
+            <l>Abscede, stulte, impostor, versipellis, catus.</l>
+          </sp>
+          <sp who="#adolphus">
+            <speaker>A.</speaker>
+            <l part="I">Tui patent doli.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">redde ante pugillares meos</l>
+          </sp>
+          <sp who="#adolphus">
+            <speaker>A.</speaker>
+            <l part="I">Servantur, in ius nos voca.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">at ense damnum prius</l>
+            <l part="I">Refellam.</l>
+          </sp>
+          <sp who="#adolphus">
+            <speaker>A.</speaker>
+            <l part="F">si audes, nam si ensis tibi est, nobis pugio.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="I">Heu me! illusus cedo.</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l part="F">Agora, personam egisti tuam.</l>
+          </sp>
+          <sp who="#emporulus">
+            <speaker>E.</speaker>
+            <l>Eamus intro, ut festam hero narremus fabulam.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Quid ego nunc agam? quem ludificant servi, amici deserunt:</l>
+            <l>Neque video qua ratione possim ulcisci servulos,</l>
+            <l>Si mea tesseraria ficto signo falsa fuerit.</l>
+            <l>Hoccine credibile, tanta malitia seni ut siet,</l>
+            <l>Ut me ridendum ignotis propinet in aedibus?</l>
+            <l>Nam cui ipsi bono? oh quam iniuriam! non ante videram.</l>
+            <l>Ultro obsecravit me, ut cum fiducia a se peterem:</l>
+            <l>Sermo, oculi, habitus, pietas commendant virum.</l>
+            <l>Si igitur caussa non fuit, cur me luderet, si mihi</l>
+            <l>Benevoluit, si homo est probus, si non facetus senex,</l>
+            <l>Quid mihi verba data esse censeam? at in urbe si</l>
+            <l>Non est, qui vocetur Octavianus, et ita tres asserunt:</l>
+            <l>Quid ego dicam istuc factum, quod evenit mihi,</l>
+            <l>Nisi redeo ad senem: sed ubi reperiam? ubi habitat?</l>
+            <l>Nisi redeo ad servos: sed nihilo plus profecto, quam ut</l>
+            <l>Contumelias accipiam? heu qui me vivit alter miserior!</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>SERVATIUM, quasi servilis doli conscium, MACERATI, et HEGIO mandant custodiae</p>
+          </argument>
+          <stage>HEGIO, MACERATI, SERVATIUS.</stage>
+          <sp who="#hegio">
+            <speaker>H.</speaker>
+            <l>Itane? servum astutia se penetrasse in carcerem?</l>
+          </sp>
+          <sp who="#macerati">
+            <speaker>MA.</speaker>
+            <l part="I">Sic est.</l>
+          </sp>
+          <sp who="#hegio">
+            <speaker>H.</speaker>
+            <l part="F">tantum non sustulisse damnatum reum?</l>
+          </sp>
+          <sp who="#macerati">
+            <speaker>MA.</speaker>
+            <l part="I">Dixi.</l>
+          </sp>
+          <sp who="#hegio">
+            <speaker>H.</speaker>
+            <l part="M">disrupisse compedes, vincula?</l>
+          </sp>
+          <sp who="#macerati">
+            <speaker>MA.</speaker>
+            <l part="F">ita</l>
+            <l part="I">Inquam, sic est uti dixi.</l>
+          </sp>
+          <sp who="#hegio">
+            <speaker>H.</speaker>
+            <l part="F">vah confidentem dolum!</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Certo occidit Sosias, ita commotus Hegio.</l>
+          </sp>
+          <sp who="#hegio">
+            <speaker>H.</speaker>
+            <l>Quid nunc carceres sancta fabricat iustitia,</l>
+            <l>Si hos recludit, atque adeo perrumpit impietas?</l>
+            <l>Impune isti erit numquam flagitioso hodie.</l>
+          </sp>
+          <sp who="#macerati">
+            <speaker>MA.</speaker>
+            <l>Poena unius erit exemplo omnibus:</l>
+            <l>Interim fossae mandavi, ut poena conscientiam erudiat.</l>
+          </sp>
+          <sp who="#hegio">
+            <speaker>H.</speaker>
+            <l>Bene factum. iam de altero est decidendum, brevi</l>
+            <l part="I">Ut in triremes abeat.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">heu unguis in ulcere!</l>
+          </sp>
+          <sp who="#macerati">
+            <speaker>MA.</speaker>
+            <l part="I">Est navis parata, quae abducat.</l>
+          </sp>
+          <sp who="#hegio">
+            <speaker>H.</speaker>
+            <l part="F">ergo cogere</l>
+            <l>Senatum expedit, ne plura moliri fraus queat.</l>
+          </sp>
+          <sp who="#macerati">
+            <speaker>MA.</speaker>
+            <l part="I">Est modo simul senatus.</l>
+          </sp>
+          <sp who="#hegio">
+            <speaker>H.</speaker>
+            <l part="M">adeamus.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">perii,</l>
+            <l>Cum ista audio: totus recrudescit dolor.</l>
+            <l part="I">Consistite mei viri, quaeso, salvete.</l>
+          </sp>
+          <sp who="#hegio">
+            <speaker>H.</speaker>
+            <l part="F">quis homo</l>
+            <l part="I">Nos donat salute?</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">ego infelix captivi pater.</l>
+          </sp>
+          <sp who="#macerati">
+            <speaker>MA.</speaker>
+            <l part="I">A te non salveo, bone vir.</l>
+          </sp>
+          <sp who="#hegio">
+            <speaker>H.</speaker>
+            <l part="F">satis mihi est</l>
+            <l part="I">Tuae salutis. nihil moror:</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">imo ego</l>
+            <l part="I">A vobis salvere volo, si lubet.</l>
+          </sp>
+          <sp who="#macerati">
+            <speaker>MA.</speaker>
+            <l part="F">non lubet.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Quid vobis ego autem feci, quia non lubet.</l>
+          </sp>
+          <sp who="#hegio">
+            <speaker>H.</speaker>
+            <l>Scilicet innocens rogas? salvus est servus Sosias,</l>
+            <l>Et Galerio filius, salvo opinor carcere:</l>
+            <l>Properabit uterque hodie, vel te comite,</l>
+            <l>Aut pol non siem tua et illorum salute sanior.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Quasi obiicias a me factum esse dolum.</l>
+          </sp>
+          <sp who="#macerati">
+            <speaker>MA.</speaker>
+            <l>A quo potius, nam servo fuisti architectus doli.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Ita mihi Deum esse propitium velim, non impuli:</l>
+            <l>Sed sponte adivit malum, tametsi monitus.</l>
+          </sp>
+          <sp who="#hegio">
+            <speaker>H.</speaker>
+            <l>Excusa si potes, et lava Aethiopem;</l>
+            <l>Ut ut sit, frustra est tibi accessio huc:</l>
+            <l>Ne frustulum hodie salutis vel tibi, vel huic,</l>
+            <l>Vel damnato filio reportabis domum.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Oro adeundi senatus adhuc producas moram.</l>
+          </sp>
+          <sp who="#hegio">
+            <speaker>H.</speaker>
+            <l part="I">Nihil deprecaberis.</l>
+          </sp>
+          <sp who="#macerati">
+            <speaker>MA.</speaker>
+            <l part="F">istis factis si respublica</l>
+            <l>Connivet, carceris curam abnuo, abdico;</l>
+            <l part="I">Includamus hunc hominem, Hegio.</l>
+          </sp>
+          <sp who="#hegio">
+            <speaker>H.</speaker>
+            <l part="F">satis Servati, satis iam</l>
+            <l>Spectata erga te et filium indulgentia est mea</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Beneficium adhuc intervallo diei proroga,</l>
+            <l>Numerabo trecentos aureos, tesserariam habeo.</l>
+          </sp>
+          <sp who="#hegio">
+            <speaker>H.</speaker>
+            <l part="I">Missum fac.</l>
+          </sp>
+          <sp who="#macerati">
+            <speaker>MA.</speaker>
+            <l part="F">abi importune, ohe</l>
+            <l>Sycophanta, fractor carceris, ohe in crucem.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Non remittis iam me onerare iniuriis?</l>
+          </sp>
+          <sp who="#macerati">
+            <speaker>MA.</speaker>
+            <l>Quia id tu es promeritus, fraudibus ac malis dolis,</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Per ego te Deum oro, Hegio, ut ne huic</l>
+            <l>Viro, de me, et aliis animum inducas credere.</l>
+          </sp>
+          <sp who="#hegio">
+            <speaker>H.</speaker>
+            <l>Satis est, inquam, pendebit servus abducto filio,</l>
+            <l>Et tu eadem es in navi, si es conscius.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="I">Nihil metuo.</l>
+          </sp>
+          <sp who="#macerati">
+            <speaker>MA.</speaker>
+            <l part="F">ita dicis; cum in vincula</l>
+            <l part="I">Te ego dedero, aliter loquere.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">ultro, si</l>
+            <l>Vis, me dedo carceri, dum suspicionis causa sit</l>
+            <l part="I">Adempta.</l>
+          </sp>
+          <sp who="#macerati">
+            <speaker>MA.</speaker>
+            <l part="F">Porro sic fiat. vos hunc</l>
+            <l>Asservate hominem, dum brevi e senatu redeo.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="4">
+        <head>ACTUS QUARTUS.</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>PIEVOLI visa scedula, quam riserant famuli, iubet SERVATIUM requiri.</p>
+          </argument>
+          <stage>PIEVOLI, EMPORULUS, PSEUDOUXA, AGORAS.</stage>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l>Adeste famuli, vos coram me praesentes volo</l>
+            <l>Hoc primum, ne mentimini: neque iocos in re seria</l>
+            <l>Commiscere vobis expedit, quando sic impero.</l>
+          </sp>
+          <sp who="#emporulus">
+            <speaker>E.</speaker>
+            <l>Auscultamus quid velis, here: sed quorsum verba haec!</l>
+            <l>Nam hic sermo quasi addubitatio est nostrae fidei.</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l>De vestra fide non ambigo: sed ignoratis quid hic</l>
+            <l>Rerum siet, quid portendit haec etiam schedula.</l>
+            <l>Dicite quis iste homo qui tulit, ubi sit loci?</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l>Nescimus: numquam antehac usquam vidimus.</l>
+            <l>At cum falso obsignata esset tessera,</l>
+            <l>Ut fit simili in re, dolum dolo lusimus.</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l>Prius me vocatum oportuit, si domi eram.</l>
+          </sp>
+          <sp who="#adolphus">
+            <speaker>A.</speaker>
+            <l>Delirare visus est homo, qui pugnantia diceret,</l>
+            <l>Neque se hominem nosse, qui sibi et his aedibus</l>
+            <l>Amicus esset, neque ubi habitaret scire se:</l>
+            <l>Porro unde sit iste Octavianus Pievoli, et eius</l>
+            <l>Character, quis scit nostrum? te, here, pace tua interrogo.</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l>Ne plura. reperto nunc est usus viro</l>
+            <l>Ubi ubi sit, quaerite per urbem, hominem huc accersite:</l>
+            <l part="I">Vobiscum adducite.</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l part="F">ad carceres, credo solet</l>
+            <l>Esse non infrequens, ubi captivum habet filium.</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l>Igitur istuc propera, et actutum redi.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>PSEUDOUXA custoditum in carcere SERVATIUM frustra accersit.</p>
+          </argument>
+          <stage>PSEUDOUXA, GRINGO, SERVATIUS</stage>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l>Enimvero aliquid latet ex ipsa tessera,</l>
+            <l>Quod herus videt. proinde, ut desiderio satisfaciamus suo,</l>
+            <l>Partitus in urbem quisque, plateas et domos</l>
+            <l>Obambulet, dum nobis alicunde obvius fiat.</l>
+            <l>Ego quo missus sum, pergo versus carceres.</l>
+            <l>Animo ad vertam sedulo, ne virum praeteream:</l>
+            <l>Sed quos percuncter? commode eccos adstare video.</l>
+            <l>Salvete ministri iustitiae, satellites hominum.</l>
+            <l>Quid agitis? quem custoditis? ut vivitur?</l>
+          </sp>
+          <sp who="#gringo">
+            <speaker>GR.</speaker>
+            <l>Ut excubitorem aequum est, fame, siti, spe, tabaco.</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l>Phi! tabaco. vivis veneno. mortem apage.</l>
+            <l>Ecquem virum huc, dum hic adstas, qui filium habet</l>
+            <l part="I">In carcere, vidistis venire?</l>
+          </sp>
+          <sp who="#gringo">
+            <speaker>GR.</speaker>
+            <l part="F">nullum scio.</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l part="I">At si vidisti, dicito.</l>
+          </sp>
+          <sp who="#gringo">
+            <speaker>GR.</speaker>
+            <l part="F">huc, inquam, nullus venit.</l>
+            <l part="I">Vale.</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l part="F">vale. credidi: sed nescio quid suspicor.</l>
+            <l>Quin aperte dic, et das operam, atque in negotio?</l>
+            <l>Nisi molestum est, paucis percunctarier</l>
+            <l part="I">Volo ego ex te.</l>
+          </sp>
+          <sp who="#gringo">
+            <speaker>GR.</speaker>
+            <l part="F">quid tu id quaeritas?</l>
+            <l>An quo furatum venias mox, vestigas loca?</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l>Impudentem eum esse oportet servum, et improbum,</l>
+            <l>Qui inclementer dicat homini libero.</l>
+          </sp>
+          <sp who="#gringo">
+            <speaker>GR.</speaker>
+            <l>impudentem eum esse oportet hominem et improbum,</l>
+            <l>Qui moleste ultro advenit ad carcerem</l>
+            <l part="I">Ut male faciat.</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l part="F">ni taces, infortunium</l>
+            <l>Praefestinas, ubi meus herus scierit, proloqui.</l>
+            <l>Dic quod te rogo, ecquem tu hic hominem</l>
+            <l part="I">Captivi patrem videris?.</l>
+          </sp>
+          <sp who="#gringo">
+            <speaker>GR.</speaker>
+            <l part="F">vidi. nam ego</l>
+            <l>Propter eiusmodi virum adsto hic in excubiis,</l>
+            <l>Quem diligenter herus mandavit meae fidei.</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l part="I">Quaeso evoca.</l>
+          </sp>
+          <sp who="#gringo">
+            <speaker>GR.</speaker>
+            <l part="F">non possum. religiose virum</l>
+            <l part="I">Asservo.</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l part="F">ne time, paucis verbis, coram te</l>
+            <l part="I">Colloquar, exorari te sinas.</l>
+          </sp>
+          <sp who="#gringo">
+            <speaker>GR.</speaker>
+            <l part="F">sed brevem</l>
+            <l part="I">Orationem incipe.</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l part="M">quantam voles.</l>
+          </sp>
+          <sp who="#gringo">
+            <speaker>GR.</speaker>
+            <l part="F">heus, homo:</l>
+            <l part="I">Hunc alloquere.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">en qui me ludificavit indignis modis.</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l>Rogare te iussit herus, multo opere maximo,</l>
+            <l>Mecum illico ires ad sese domum.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Quomodo? quid igitur me vult? servus, an herus?</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l>Rogare, opinor, te vult super syngrapha.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>De hoc satis rogasti, improbe. non bis capitur</l>
+            <l part="I">Vulpes fallacia.</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l part="F">ne cave, nulla est decipula,</l>
+            <l>Sed quod res est, vere, et sincere eloquor.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Demiror quid ille me ad se accersi iusserit,</l>
+            <l>Postquam vos me remisistis cum inani chartula.</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l>Ignorantes fecimus, delicti veniam petimus.</l>
+            <l part="I">Quid nunc? iturus, an non?</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">abi sane domum,</l>
+            <l>Me illo venturum dicito, cum custodi meo</l>
+            <l>Lubebit: illud ab ipso ante, quaeso, impetra.</l>
+          </sp>
+          <sp who="#gringo">
+            <speaker>GR.</speaker>
+            <l>Recte dicit: nam iste fine suo computat hospite.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA TERTIA.</head>
+          <argument>
+            <p>Frustra item supervenit EMPORVLUS.</p>
+          </argument>
+          <stage>EMPORULUS, GRINGO, PSEUDOUXA, SERVATIUS.</stage>
+          <sp who="#emporulus">
+            <speaker>E.</speaker>
+            <l>Pseudouxa, reperisti hominem? quid cessas ad herum</l>
+            <l>Ducere? ego toto oppido exanimatus quaesii,</l>
+            <l>Postremum huc intendi. quid, inquam, morae!</l>
+          </sp>
+          <sp who="#gringo">
+            <speaker>GR.</speaker>
+            <l>Nescis, adolescens, hunc praepediri carcere,</l>
+            <l>Et cancellis quos circumdedi, extra quos non licet</l>
+            <l part="I">Abire, etiamsi vellet?</l>
+          </sp>
+          <sp who="#emporulus">
+            <speaker>E.</speaker>
+            <l part="F">nescivi: sed hoc denuntio,</l>
+            <l part="I">Vocari ab hero meo, si per te licet.</l>
+          </sp>
+          <sp who="#gringo">
+            <speaker>GR.</speaker>
+            <l part="F">refer</l>
+            <l part="I">Non licere.</l>
+          </sp>
+          <sp who="#emporulus">
+            <speaker>E.</speaker>
+            <l part="M">rogo.</l>
+          </sp>
+          <sp who="#gringo">
+            <speaker>GR.</speaker>
+            <l part="M">frustra.</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l part="F">precando operam</l>
+            <l>Perdis, Emporule, hoc homini feci antea.</l>
+          </sp>
+          <sp who="#emporulus">
+            <speaker>E.</speaker>
+            <l part="I">Ergo pretio agam.</l>
+          </sp>
+          <sp who="#gringo">
+            <speaker>GR.</speaker>
+            <l part="F">ergo viam relege.</l>
+          </sp>
+          <sp who="#emporulus">
+            <speaker>E.</speaker>
+            <l part="I">Nummi impetrabunt.</l>
+          </sp>
+          <sp who="#gringo">
+            <speaker>GR.</speaker>
+            <l part="F">Deus bone! servus bonus</l>
+            <l>Corrupto quid interest? ego nummos moror?</l>
+            <l>Ego fidem hero obligatam non praesto? ite huc</l>
+            <l>Illuc nummi, vos perdo, ne me perdite.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Ego, Gringo, succedo intro, nil mihi hic negotii.</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l part="I">Abibis?</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="M">quid interest!</l>
+          </sp>
+          <sp who="#emporulus">
+            <speaker>E.</speaker>
+            <l part="F">te paeniteat.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Quid est? si non licet, tamen vis avolem?</l>
+          </sp>
+          <sp who="#gringo">
+            <speaker>GR.</speaker>
+            <l>Vade intro. verbum ne addideris.</l>
+          </sp>
+          <sp who="#emporulus">
+            <speaker>E.</speaker>
+            <l>Tametsi verum est, Gringo, quod dico tibi.</l>
+            <l>Herum velle hunc: non me mentitum invenies.</l>
+            <l>Testis est, qui tertius supervenit Agoras.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA QUARTA.</head>
+          <argument>
+            <p>Datis obsidibus dimittitur e custodia SERVATIUS.</p>
+          </argument>
+          <stage>EMPORULUS, PSEUDOUXA, GRINGO, AGORAS, SERVATIUS.</stage>
+          <sp who="#emporulus">
+            <speaker>E.</speaker>
+            <l>Agora, hic vir nec prece, nec pretio</l>
+            <l part="I">Dimittit Servatium.</l>
+          </sp>
+          <sp who="#adolphus">
+            <speaker>A.</speaker>
+            <l part="F">ergo ni dimittat, sumus</l>
+            <l part="I">Tres contra unum.</l>
+          </sp>
+          <sp who="#gringo">
+            <speaker>GR.</speaker>
+            <l part="M">tu vim intentas?</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l part="F">quando aliud.</l>
+            <l part="I">Non prodest.</l>
+          </sp>
+          <sp who="#gringo">
+            <speaker>GR.</speaker>
+            <l part="F">utrum tu cum malo libentius</l>
+            <l>Recedes hinc, an sic sine malo, si copia est?</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l>Ego, quae tu loquere, flocci non facio.</l>
+            <l>Servatium quidem te invito de carcere iam diripiam</l>
+          </sp>
+          <sp who="#gringo">
+            <speaker>GR.</speaker>
+            <l part="I">Diripe dum.</l>
+          </sp>
+          <sp who="#adolphus">
+            <speaker>A.</speaker>
+            <l part="F">diripiam hercle vero simul.</l>
+          </sp>
+          <sp who="#gringo">
+            <speaker>GR.</speaker>
+            <l part="I">Agedum ergo, accede huc modo.</l>
+          </sp>
+          <sp who="#adolphus">
+            <speaker>A.</speaker>
+            <l part="F">quid ages,</l>
+            <l part="I">Si accedam propius?</l>
+          </sp>
+          <sp who="#gringo">
+            <speaker>GR.</speaker>
+            <l part="F">non recessero. age</l>
+            <l>Hasta, feriaris iam pridem, nunc habes</l>
+            <l>Hostem: cernitis, ut illa gestit bene facere?</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l>Terribilis Achilles, in suo sterquilinio,</l>
+            <l>Ante fores. si te unquam in urbe offendero.</l>
+          </sp>
+          <sp who="#adolphus">
+            <speaker>A.</speaker>
+            <l>Si non te ludos pessimos dimisero.</l>
+          </sp>
+          <sp who="#gringo">
+            <speaker>GR.</speaker>
+            <l>Facito istuc quod minitaris; sed nunc interim</l>
+            <l>Si domum attigeris, dabitur tibi magnum malum.</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l>Malumus pacem: sed si nunc pro isto viro</l>
+            <l>Obsidem damus, tamen abire tantisper sines,</l>
+            <l part="I">Ut cum hero conveniat?</l>
+          </sp>
+          <sp who="#gringo">
+            <speaker>GR.</speaker>
+            <l part="F">fraudem fingitis:</l>
+            <l>Sentio quam rem agitis: quem obsidem voltis dare?</l>
+          </sp>
+          <sp who="#adolphus">
+            <speaker>A.</speaker>
+            <l part="I">Me, hunc, selige.</l>
+          </sp>
+          <sp who="#gringo">
+            <speaker>GR.</speaker>
+            <l part="F">et te, et hunc vinctos volo.</l>
+            <l>Iste, qui est probus, cum captivo eat.</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l>At nos pudebit, quia cum catenis erimus.</l>
+          </sp>
+          <sp who="#gringo">
+            <speaker>GR.</speaker>
+            <l>At me pigebit postea virum exemisse vinculis,</l>
+            <l>Aut solutum sivisse, cum fraude heri mei.</l>
+          </sp>
+          <sp who="#adolphus">
+            <speaker>A.</speaker>
+            <l part="I">Age nos liga.</l>
+          </sp>
+          <sp who="#gringo">
+            <speaker>GR.</speaker>
+            <l part="F">vos ipsi vobis officium</l>
+            <l>Praestate: si fides vult vos haec exequi,</l>
+            <l>Decet id pati aequo animo: levior carcer erit,</l>
+            <l>Si id facietis. brevi eritis, credo, liberi.</l>
+          </sp>
+          <sp who="#pseudouxa">
+            <speaker>PS.</speaker>
+            <l>Fidem hanc damus herili desiderio:</l>
+            <l>Indigna digna habemus, dum herus loquatur homini.</l>
+          </sp>
+          <sp who="#gringo">
+            <speaker>GR.</speaker>
+            <l>Heus, Servati, liber ambula foras, si voles,</l>
+            <l>Copia est, et facio hos petitionis compotes.</l>
+            <l>Vos secedite huc nunc iam intus, dum estis mei.</l>
+          </sp>
+          <sp who="#emporulus">
+            <speaker>E.</speaker>
+            <l>Pro Deum, Servati, quid illuc est hominum</l>
+            <l>Secundum carceres! quam severa inest custodia,</l>
+            <l part="I">Et inclemens humanitas!</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">attamen fides.</l>
+          </sp>
+          <sp who="#emporulus">
+            <speaker>E.</speaker>
+            <l>Nunc herum alloquere. si quid iuveniliter</l>
+            <l>Peccavimus, tuum est ignoscere: eccum adest</l>
+            <l>Prae foribus, ita tui videndi ardescit studio.</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA QUINTA.</head>
+          <argument>
+            <p>SERVATIUS narrat PIEVOLI quomodo syngrapham acceperit,</p>
+          </argument>
+          <stage>EMPORULUS, PIEVOLI, SERVATIUS.</stage>
+          <sp who="#emporulus">
+            <speaker>E.</speaker>
+            <l>Inventus est, here, vir, qui tuo accersitu venit huc.</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l part="I">Salvus sis.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="M">tu quoque.</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l part="F">abscede hinc, Emporule,</l>
+            <l>Ut sine arbitris, mihi et illi detur loquendi locus.</l>
+            <l>Rei novitas, et syngraphae insolentia me impulit,</l>
+            <l>Ut sollicite te multis rogitem, quid hoc negotii?</l>
+            <l part="I">Velim te verum dicere.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">nemo sit me veracior:</l>
+            <l part="I">Rem edisseram.</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l part="F">dic a quo, ubi, quando, quomodo</l>
+            <l part="I">Illam acceperis.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">dicam singillatim, uti percontaberis.</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l part="I">Quis igitur homo scripsit?</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">senex talari toga,</l>
+            <l>Fronte exporrecta, statutus, oculis nigris,</l>
+            <l>Coelitum amor, atque hominum, tuique et mei amans,</l>
+            <l>Plenus liberalitate, venustate, gratia.</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l>Pictum vidisti fortasse, vel in somniis.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Equidem verum vidi, vigilans vidi, uti te modo </l>
+            <l>Non pictum video, non somnians video; sed vigilans alloquor,</l>
+            <l>Et tu me vigilantem vigilans ipse interrogas.</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l>Iste sermo facit, ut nulla tibi</l>
+            <l part="I">Apud me sit fides.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">nam quamobrem? quid est?</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l>Quia id quod neque est, neque fuit, mihi praedicas.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Proinde ut commodum est, et lubet, credas mihi:</l>
+            <l>Tamen quin loquar haec uti facta sunt,</l>
+            <l>Et qualis sit ille de quo rogas, describam senem;</l>
+            <l>Nunquam ullo modo deterere me potes.</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l>Servati (id esse tibi nomen ex syngrapha video)</l>
+            <l>Audes mihi praedicare id, hominem scripsisse haec</l>
+            <l part="I">Hodie, qui non est in civitate?</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">vera dico, sunt horae duae,</l>
+            <l>In platea longa, ultro me rogans benigne senex,</l>
+            <l>Scripsit tesserariam, tibi ferendam scilicet.</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l>Tune hoc pergis dicere, quod nemo unquam homo antehac</l>
+            <l>Vidit, nec potest fieri, tempore uno sit hic,</l>
+            <l>Et non hic. non extat, inquam, ille in civitate uspiam.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Verum haud mentior esse in civitate hunc senem</l>
+            <l>Ita si de eo iurate debeam, liquido possem nunc tibi.</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l>Certo scio aliud, et id iuro, neque falsum dicere.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Nescio quid scias; iniurato mihi</l>
+            <l>Rus egomet credam, quam de illa re iurato tibi.</l>
+            <l>Nam quid vis? non me hodie ille senex allocutus est?</l>
+            <l>Nonne solatus est? nonne promisit? me tentas, Pievoli.</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l part="I">Edissere, novisti hominem antea?</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="M">nunquam</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l part="F">ita</l>
+            <l part="I">Credo. fecisti obsequium?</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="M">nullum.</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l part="F">pecunias</l>
+            <l part="I">Apud illum collocatas habuisti?</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">plane nullas habui.</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l>Quid ergo se obligavit syngrapha, quasi tibi</l>
+            <l>Aurum redderet, quod deberet? non intelligo.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Neque ego intelligo: miror magis hominem obvium.</l>
+            <l>Sine debito, sine recepto officio, sine usu,</l>
+            <l>Ultro, large, effuse mea causa, non modo </l>
+            <l>Scripsisse haec eum, sed rogasse etiam, ut faceret bene.</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l>Ergo nisi est causa beneficii, non credetur.</l>
+            <l>Vel insanum illum, et te nihilo magis sanum puto.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Verumtamen, quid si, Pievoli, intercessit misericordia,</l>
+            <l>Et me vehementer afflictum pius homo sciverit,</l>
+            <l>Tamenne dubitabis credere ita potuisse fieri?</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l part="I">Non affirmo: sed quid ad rem?</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">nimirum in hoc</l>
+            <l>Caussa et occasio scribendae tesserariae fuit.</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l part="I">Quomodo?</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">docebo paucis, nisi grave est.</l>
+            <l>Habeo filium, Pievoli, unice qui unus mihi</l>
+            <l>Natis ex omnibus charus fuit: cum nunc habet</l>
+            <l>Carcer: hodie certo ad triremes abit,</l>
+            <l>Ni propere trecentis scutis apud fiscum redimo.</l>
+            <l>Heu! ne assis mihi. haec res me miserum reddidit.</l>
+          </sp>
+          <sp who="#filucio">
+            <speaker>FI.</speaker>
+            <l part="I">Neu lacryma.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">ivi ad consanguineos, et pios</l>
+            <l>Per urbem ultro citroque, aeque quicquam nunc quidem.</l>
+            <l>Forte illum vidi, Pievoli, de quo ago, senem:</l>
+            <l>Cum faciem respicerem, videbatur esse spes:</l>
+            <l>Misericors pietas in vultu, atque in verbis fides.</l>
+            <l>O! salvus sis: quid miser es? opem feram:</l>
+            <l>Quanto opus est lytro, accipe syngrapham. i, tenes</l>
+            <l>Certo quod expetisti. habeo gratias. abit amicissime.</l>
+            <l>Continuo ut veni huc, illuserunt servi, et iam me revocas.</l>
+            <l>En causa, en occasio scripturae, quam vides.</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l>ioculo istaec finxit senex, ut videretur medicus</l>
+            <l>Mederi malo, quod tu adeo miser praedicas.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Credamus ita esse. sed quando, Pievoli,</l>
+            <l>Pluribus me rogasti, sine vicissim te ut rogem.</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l part="I">Permitto.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">dic an non hominem nosti, cuius haec manus.</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l part="I">Novi.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">germano, an adultero obsignata signo est?</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l part="I">Equidem vero.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="M">huic homini debes?</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l part="F">debeo sane plurima.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="I">Scuta trecenta?</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l part="F">ter millia, quidquid domi est.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Quid obstat, quin me nunc voti compotem facis?</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l>Quia locus, tempus cum signo et persona non congruit.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="I">Quidni?</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l part="F">hoc a decem annis scriptum est a sene,</l>
+            <l part="I">Nedum hodie.</l>
+          </sp> 
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">mirum si haec dies tam longa fuerit.</l>
+            <l>An quis hodie solem stiterit? aut ego annis decem</l>
+            <l>Dormierim? non credo: nam me cura expergefacit:</l>
+            <l>Quid tibi scrupuli, Pievoli? hodie, inquam, scripta sunt</l>
+            <l part="I">Haec ante horas binas.</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l part="F">dicis quae neque fieri</l>
+            <l>Solent, neque secus existimari quam mendacia.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Pievoli, miserrima haec est miseria honesto viro,</l>
+            <l>Apud alium, qui vera loquitur, si id vi verum vincitur.</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l>Quo id tandem pacto potest (nam mecum argumentis puta)</l>
+            <l>Fieri, uti reviviscat mortuus, uti sepultus scribat?</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Sine dubio vicisti, si id probas, Pievoli,</l>
+            <l>Mecum hodie scilicet collocutum esse mortuum.</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l>Certo enim coniicio: neque istuc tibi mirum minius</l>
+            <l part="I">Debet videri, quam mihi.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">credidi mortuos sui</l>
+            <l>Terrores facere, hic solatus est me, nescio e quo tumulo.</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l>Tumulum scio: annum, quo mortuus est, scio.</l>
+            <l>Et nunc scripturam agnosco; hoc cuivis mirari licet.</l>
+            <l>Dic, amabo, num tibi cum vita functis commercium?</l>
+            <l part="I">Num aliqua pietas?</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">heu, scio quam sit exigua.</l>
+            <l>Nisi hodie sacrum indixi pro purgante eo,</l>
+            <l>Qui mihi et filio opitulari vellet miseris.</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l>Superi! commoveri me intus sentio, ut elocutus es.</l>
+            <l>Stringitur annulo digitus, et me admonet.</l>
+            <l>Ego attonitus haereo, cum haec tanta mira intelligo.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Quid tam multum loqueris tecum?</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l>quoniam descripsisti senem:</l>
+            <l>Unum superest quaerendum: utrum si videas</l>
+            <l part="I">Pictum, possis ostendere?</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">quid mihi facilius?</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l part="I">Emporule, Emporule.</l>
+          </sp>
+          <sp who="#emporulus">
+            <speaker>E.</speaker>
+            <l part="M">adsum, here.</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l part="F">conclave resera patris.</l>
+            <l>Nihil ulterius peto, si istud dixeris.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Memorabo equidem quae oculis usurpavi meis.</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l part="I">Haec tabula refert virum, quem vidisti?</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">minime.</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l part="I">Ista?</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="M">non.</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l part="M">tertia?</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="M">neque tertia.</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l part="F">quartam vide.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="I">Non novi.</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l part="M">quintam vide.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">illa ipsa est Pievoli,</l>
+            <l>Quem vidi, ille senex, qui mihi locutus est, qui Syngrapham</l>
+            <l>Tradidit. quid gemis? formam cognosco. itidem</l>
+            <l>Pileum habebat, ac vestitum; tam consimilis fuit</l>
+            <l>Atque imago haec: oculi, nasus, barba, collum, omnia.</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l>Recedite intro, solus restem, mox revoco.</l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA SEXTA.</head>
+          <argument>
+            <p>Affectus PIEVOLI erga demortuum Patrem, quem pridem in coelo beatum credebat.</p>
+          </argument>
+          <stage>PIEVOLI.</stage>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l>Lachrymas exprimit hic inopinatus casus.</l>
+            <l>Ita me Deus amet, ut animus filii pro patre</l>
+            <l>Mortuo usque antehac in spe securus fuit:</l>
+            <l>Ita postquam haec cerno, cura confectus stupet.</l>
+            <l>Iam decem anni, et plus eo sunt lapsi, cum desiit</l>
+            <l>Inter nos esse: feci, quod in funere solent filii,</l>
+            <l>Ut preces instituerem, sacra, eleëmosynas, pia</l>
+            <l>Legata multa, queis cineres allevarem patris.</l>
+            <l>Heu me! falsus sum, cum inter coelites puto:</l>
+            <l>Credula spes hominum, quam longe abest</l>
+            <l>Ab examine Supremi iudicis! ita credidi</l>
+            <l>Nihil expiante opus flamma esse isti, qui pie </l>
+            <l>Ac sancte vitam finierat? autumabam ipse providus</l>
+            <l>Mecum: pater obiit, ob leves culpas quotidie</l>
+            <l>(Quis non peccat? neque ille admodum fecit male )</l>
+            <l>Si quid sit pendendum poenae, statim</l>
+            <l>Deo solverit: si non statim, paulo post quidem,</l>
+            <l>Si non paulo, at hebdomada: sex quidem mensibus</l>
+            <l>Profecto, anno vertente sine dubio,</l>
+            <l>Ita in utramque aurem dormii, rebus domesticis</l>
+            <l>Operam dedi, genio indulsi, parta bona,</l>
+            <l>Etsi erant satis, augere animus fuit;</l>
+            <l>Verbo, cogitare de patre, quoniam id a me quidem semel</l>
+            <l>Cautum putavi, non venit in mentem mihi.</l>
+            <l>Erravi toto coelo, et iudicem ignoravi Deum.</l>
+            <l>Decennio miserum reliqui patrem iniustitia mea.</l>
+            <l>Mihi student amici, solliciti sunt domi</l>
+            <l>Servi, quisque id agit sedulo, ut me expleat.</l>
+            <l>Alii vestes subministrant, alii coenam apparant,</l>
+            <l>Ita quasi regulus vivo in aedibus:</l>
+            <l>Sed patrem, a quo accepi bona, quemque pariter</l>
+            <l>Uti his decet, aut etiam amplius, quod ille pias</l>
+            <l>Eleëmosynas, et facta reposcit, ego eum non iuvi,</l>
+            <l>Nullos sumptus feci, nullos pauperes vestii,</l>
+            <l>Nullam asperitatem tuli, qua tantos eius</l>
+            <l>Cruciatus lenirem: vae oblito mihi!</l>
+            <l>Pudet, pudet, sed quid iam luctu et verbis opus est!</l>
+            <l>Num fors expectat in coeli atrio,</l>
+            <l>Dum eius fidem liberem? huc cito revertimini.</l>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCENA SEPTIMA.</head>
+          <argument>
+            <p>PIEVOLI trecenta scuta numerat SERVATIO.</p>
+          </argument>
+          <stage>PIEVOLI, SERVATIUS, EMPORULUS</stage>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l>Emporule, quaere arculam unam e magno scrinio.</l>
+            <l>Habebis, Servati, habebis, quidquid a me expetis.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="I">Etiam trecentos nummos?</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l part="F">dabo, et quid amplius?</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="I">O me felicem!</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l part="F">iam plana res est. pater est</l>
+            <l>Illo meus, quem vidisti, senex decennio mortuus,</l>
+            <l>Qui a me tibi reposcit pecunias, quibus</l>
+            <l part="I">Illum sublevasti.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">equidem Iulium unum dedi.</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l>Sed cum foenore solent mortui reddere.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Nonne hic opportune convenit pisciculus,</l>
+            <l part="I">Qui trecentos pisces comparavit?</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l part="F">quid refers!</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Longum somnium, attamen verum, quod postea</l>
+            <l>Per otium narrabo, Pievoli. nam vix sum apud me</l>
+            <l part="I">Prae gaudio.</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l part="F">et ego sane per te patri</l>
+            <l part="I">Gaudeo, quod in coelos abit.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">ita non dubito,</l>
+            <l>Sufficiet illud ad beatum iter viaticum.</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l>Si non sufficiet, addam multa alia, queis</l>
+            <l>Opitulabor, imo de me ipso supplicium feram,</l>
+            <l>Me cibo abstinens, et flagellans, et crucians;</l>
+            <l>Nam ut hoc faciam, illius sum edoctus malo.</l>
+          </sp>
+          <sp who="#emporulus">
+            <speaker>E.</speaker>
+            <l part="I">Here, apporto cistam.</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l part="F">Servati, sunt hic</l>
+            <l>Quae denumeravi trecenta scuta, his utere;</l>
+            <l>Ergo quod tibi pie donatum sit, et Deo optimo sacrum,</l>
+            <l>Quodque culparum, quas admisit parens, debita</l>
+            <l>Expiatio sit, sint hi nummi aurei.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Et hunc hominem pro pietate hac, Deus,</l>
+            <l>Faxis semper salvum, et me et filium meum,</l>
+            <l>Et purgantem adhuc senem, coelo tuo assere.</l>
+            <l>Pretium in promptu est, restat filium redimere.</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l>I modo ad Fiscum, et eo me quoque mox conferam.</l>
+            <l>Prius instauro parenti preces, et multa facta.</l>
+          </sp>
+          <sp who="#emporulus">
+            <speaker>E.</speaker>
+            <l>Comes sum tuus, ut ego conservos liberem.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="5">
+        <head>ACTUS QUINTUS.</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>SERVATIUS redimit ab HEGIONE GALERIONEM filium.</p>
+          </argument>
+          <stage>HEGIO, SERVATIUS, MACERATI, GALERIO, SOSIAS.</stage>
+          <sp who="#hegio">
+            <speaker>H.</speaker>
+            <l>Quod nunquam eventurum putavi, id tibi</l>
+            <l>Evenit hodie, filium ut captivum redimeres.</l>
+            <l part="I">Solus es, quem diligit, salus.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">Deo, et Pievoli</l>
+            <l>Ago gratias merito magnas, qui dederunt lytrum;</l>
+            <l>Quique ex miseriis me exemerunt plurimis.</l>
+          </sp>
+          <sp who="#hegio">
+            <speaker>H.</speaker>
+            <l>Sic est, satis iam doluisti ex animo, et cura te satis</l>
+            <l>Et lachrymis maceravisti. satis iam vidi ego</l>
+            <l>Tuas aerumnas: his aliquando consuluit Deus:</l>
+            <l>Nunc hoc agamus, quoniam persolvisti pretium,</l>
+            <l>Et in potestate tua potes habere filium,</l>
+            <l>Aliquis eat actutum, Macerati arcessat huc.</l>
+            <l part="I">Propera, Emporule.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="M">aliud est.</l>
+          </sp>
+          <sp who="#hegio">
+            <speaker>H.</speaker>
+            <l part="M">quidnam?</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">cum filio</l>
+            <l part="I">Vinctus est Sosias servus.</l>
+          </sp>
+          <sp who="#hegio">
+            <speaker>H.</speaker>
+            <l part="M">ita iusseram.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">iube solvi obsecro.</l>
+          </sp>
+          <sp who="#hegio">
+            <speaker>H.</speaker>
+            <l part="I">Age, fiat.</l>
+          </sp>
+          <sp who="#emporulus">
+            <speaker>E.</speaker>
+            <l part="F">et simul obsides tenentur servi duo;</l>
+            <l part="I">Scribe, ut sint liberi.</l>
+          </sp>
+          <sp who="#hegio">
+            <speaker>H.</speaker>
+            <l part="F">scribo, i, matura, carcerem</l>
+            <l part="I">Huc totum venire iubeo.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">o faustum hunc nuntium!</l>
+            <l>Benigne facis, Hegio, quando non avare pro dolo</l>
+            <l>Servi me multas. nunquam possim satis</l>
+            <l>Referre gratiam, proinde ut tu promeritus es</l>
+            <l part="I">De me, et de Sosia.</l>
+          </sp>
+          <sp who="#hegio">
+            <speaker>H.</speaker>
+            <l part="F">et id, et aliud quod me orare voles</l>
+            <l>Impetrabis. atque te nolim succensere, quod ego,</l>
+            <l>Et Macerati irati servo, et tibi fecimus male.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>ius erat laesum, Hegio, faciendum fuit.</l>
+            <l>Sat est, si salvum et incolumem hodie utrumque recepero.</l>
+            <l>Et iam morae impatiens, istos videndi efferor desiderio.</l>
+          </sp>
+          <sp who="#hegio">
+            <speaker>H.</speaker>
+            <l part="I">Euge! eccum Macerati.</l>
+          </sp>
+          <sp who="#macerati">
+            <speaker>MA.</speaker>
+            <l part="F">quod legi in pugillaribus,</l>
+            <l part="I">Hoc facio. en carcer.</l>
+          </sp>
+          <sp who="#hegio">
+            <speaker>H.</speaker>
+            <l part="F">vincula captivo demite.</l>
+            <l part="I">Liber sit Galerio.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">salve, exoptate nate mi.</l>
+          </sp>
+          <sp who="#galerio">
+            <speaker>G.</speaker>
+            <l>Salve, optime salvator mi, Servati pater.</l>
+            <l part="I">Quot curas suscepisti pro me.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">ego sum, gnate mi</l>
+            <l part="I">Qui salutem tuam amo: da osculum.</l>
+          </sp>
+          <sp who="#galerio">
+            <speaker>SE.</speaker>
+            <l part="F">unde haec salus?</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Tu rescies, his modo hominibus refer gratiam.</l>
+          </sp>
+          <sp who="#galerio">
+            <speaker>G.</speaker>
+            <l>Vobis Superi pro benefactis reddant bene, o viri.</l>
+          </sp>
+          <sp who="#hegio">
+            <speaker>H.</speaker>
+            <l>Etiam si per te licet, Macerati, servum Sosiam</l>
+            <l part="I">Exemptum volo.</l>
+          </sp>
+          <sp who="#macerati">
+            <speaker>MA.</speaker>
+            <l part="F">velle tuum meum est, Hegio,</l>
+            <l part="I">fac ut imperas.</l>
+          </sp>
+          <sp who="#hegio">
+            <speaker>H.</speaker>
+            <l part="M">solvite.</l>
+          </sp>
+          <sp who="#sosias">
+            <speaker>SO.</speaker>
+            <l part="F">demum nunc qui mihi</l>
+            <l>Obtigerit scio; unde, quomodo, nondum scio.</l>
+            <l>Quam gravis mihi carcer fuerit, probe scio,</l>
+            <l>Sed quam generosa pro hero sit pietas, non nescio.</l>
+            <l>Abiit aerumna, manet merces: hoc et hoc scio.</l>
+            <l part="I">Salve here, salve Galerio.</l>
+          </sp>
+          <sp who="#hegio">
+            <speaker>H.</speaker>
+            <l part="F">et vos, conservi, manus</l>
+            <l part="I">Inter vos concedite.</l>
+          </sp>
+          <sp who="#sosias">
+            <speaker>SO.</speaker>
+            <l part="F">unus desideratur miser</l>
+            <l part="I">Baretti.</l>
+          </sp>
+          <sp who="#macerati">
+            <speaker>MA.</speaker>
+            <l part="F">quaeratur cito, atque hic festum agat.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>FILUCIO gratulatur SERVATIO libertatem GALERIONIS.</p>
+          </argument>
+          <stage>FILUCIO, SERVATIUS, GALERIO, SOSIAS, MACERATI, HEGIO.</stage>
+          <sp who="#filucio">
+            <speaker>FI.</speaker>
+            <l>Gratulor, Servati, gratulor libertatem fili.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Somnium, Filucio, somnium: nempe ex vero mihi</l>
+            <l part="I">Vates fuisti,</l>
+          </sp>
+          <sp who="#filucio">
+            <speaker>FI.</speaker>
+            <l part="F">de hoc sane et vehementer gaudeo,</l>
+            <l part="I">Quando hic est gaudendi locus.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">hodie grata</l>
+            <l>Horum virorum, et pietas bonorum hominum, mihi,</l>
+            <l part="I">Et filio immortalitatem quandam donarunt.</l>
+          </sp>
+          <sp who="#filucio">
+            <speaker>FI.</speaker>
+            <l part="F">tibi</l>
+            <l>Inprimis vita, et salus data est, Galerio.</l>
+            <l part="I">Valde laetor.</l>
+          </sp>
+          <sp who="#galerio">
+            <speaker>GA.</speaker>
+            <l part="F">pro officiis tuis, et fide</l>
+            <l>Erga me captivum ero gratus, uti et servo Sosiae.</l>
+          </sp>
+          <sp who="#macerati">
+            <speaker>MA.</speaker>
+            <l>Tum si quid fuit offensae, credo, ad carcerem</l>
+            <l>Vel tecum, vel cum Servatio, et Galerione, et Sosia,</l>
+            <l>Iam dudum res reduxit me ipsa in gratiam.</l>
+          </sp>
+          <sp who="#filucio">
+            <speaker>FI.</speaker>
+            <l>O lepidum Macerati! caeterum in tuas manus</l>
+            <l part="I">Nolim incidere.</l>
+          </sp>
+          <sp who="#sosias">
+            <speaker>SO.</speaker>
+            <l part="F">neque ego plus in tuum carcerem.</l>
+          </sp>
+          <sp who="#hegio">
+            <speaker>H.</speaker>
+            <l>Ergo festivus est singulis et omnibus hic dies.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA TERTIA.</head>
+          <argument>
+            <p>ADOLPHUS et EUANDER redeunt cum SERVATIO in gratiam.</p>
+          </argument>
+          <stage>ADOLPHUS, SERVATIUS, EVANDER, HEGIO.</stage>
+          <sp who="#adolphus">
+            <speaker>A.</speaker>
+            <l>Quid hic agitur? Aliquot me adierunt, pater,</l>
+            <l>Auditum qui aiebant, redemptum esse Galerionem filium,</l>
+            <l part="I">Id viso an sit verum.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">apparatum vides,</l>
+            <l>Cingor hac corona inter voces gratulantium.</l>
+          </sp>
+          <sp who="#evander">
+            <speaker>E.</speaker>
+            <l part="I">Opportune venimus.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">non hodie mane, gener,</l>
+            <l part="I">Tam opportune veni domum tuam.</l>
+          </sp>
+          <sp who="#adolphus">
+            <speaker>A.</speaker>
+            <l part="F">dixi tibi,</l>
+            <l>Nemo gratus hospes, qui solet petere ab eo</l>
+            <l part="I">Praesertim, qui ipse eget.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">sed haec oblittero,</l>
+            <l>Ne quasi nebula, sic obturbetur hic dies.</l>
+          </sp>
+          <sp who="#adolphus">
+            <speaker>A.</speaker>
+            <l part="I">Omnibus satisfactum?</l>
+          </sp>
+          <sp who="#hegio">
+            <speaker>H.</speaker>
+            <l part="M">abunde.</l>
+          </sp>
+          <sp who="#evander">
+            <speaker>E.</speaker>
+            <l part="M">pecunia?</l>
+          </sp>
+          <sp who="#hegio">
+            <speaker>H.</speaker>
+            <l part="F">etiam.</l>
+          </sp>
+          <sp who="#adolphus">
+            <speaker>A.</speaker>
+            <l part="I">Undenam, Servati?</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">narrare non est huius loci.</l>
+          </sp>
+          <sp who="#adolphus">
+            <speaker>A.</speaker>
+            <l part="I">Audiam cum voluptate.</l>
+          </sp>
+          <sp who="#evander">
+            <speaker>E.</speaker>
+            <l part="F">et ego quoque animo.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Nec me pigebit referre, cum domi fuerimus.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA QUARTA.</head>
+          <argument>
+            <p>PIEVOLI in communem partem gaudiorum venit.</p>
+          </argument>
+          <stage>PIEVOLI, SERVATIUS, MACERATI, EMPORULUS, HEGIO.</stage>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l>Iubeo Servatium, et omnes qui adsunt, hos viros.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="I">Optato advenis: nam tu auctor fuisti.</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l part="F">et tua,</l>
+            <l>Servati, et vestra viri huc veni gaudere gaudia.</l>
+          </sp>
+          <sp who="#macerati">
+            <speaker>MA.</speaker>
+            <l>Merito gaudemus, Pievoli, te fortunatum esse hodie.</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l>Et miser sum, et simul fortunatus hodie,</l>
+            <l>Quando tam mira vera evenerunt mihi.</l>
+            <l>Eo miser sum, quia male oblitus sum patris,</l>
+            <l>Cuius caussa nullum de me supplicium tuli,</l>
+            <l>Nec ullam aerumnam exegi, qua purgantes flammas extinguerem;</l>
+            <l>Eheu! cui ego minus feci, quam aequum fuit.</l>
+            <l>Quod male feci, crucior modo: o si infectum posset fieri!</l>
+            <l>Sed non gemendi caussa, inquam, verum laetandi modo</l>
+            <l>Huc veni; si Beatorum sedes hoc lytro parens</l>
+            <l part="I">Est consecutus.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">sic speramus: nempe hoc erat residui,</l>
+            <l>Quo tenebatur, aliter non se ostendisset mihi.</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l>Quam vellem alloqui super hac re Flaminium!</l>
+            <l part="I">Nam dicitur Sacrum fecisse.</l>
+          </sp>
+          <sp who="#evander">
+            <speaker>E.</speaker>
+            <l part="F">est hic in proximo,</l>
+            <l part="I">Vis quaeram?</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l part="M">cito.</l>
+          </sp>
+          <sp who="#hegio">
+            <speaker>H.</speaker>
+            <l part="F">magna est vis Sacrificii</l>
+            <l>Pro vita functis: hoc usu didici, Pievoli;</l>
+            <l>Quippe nuper habui ipse fratrem, qui opem</l>
+            <l>Non imploraret aliam, praeter unicum Sacrum,</l>
+            <l>Indixi, liber fuit, eo quo solet indicio, non rediit.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Eo amplius, si licet coniicere, profuit mortuo,</l>
+            <l>Quod iulium e meo, caetera egens, dedi</l>
+            <l>Ex animo, sancto et egenti sacerdoti Flaminio.</l>
+            <l part="I">Ipse adest.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA QUINTA.</head>
+          <argument>
+            <p>Aguntur gratiae FLAMINIO.</p>
+          </argument>
+          <stage>PIEVOLI, FLAMINIUS, HEGIO, ADOLPHUS, EVANDER.</stage>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l part="F">Expectatus nobis ades, Flamini:</l>
+            <l part="I">Ut tuam manum exosculor!</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">ut te genu veneror!</l>
+          </sp>
+          <sp who="#flaminius">
+            <speaker>FL.</speaker>
+            <l>Non satis merenti defertis hos honores, viri,</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l part="I">Fecisti, credo, ad aras hodie.</l>
+          </sp>
+          <sp who="#flaminius">
+            <speaker>FL.</speaker>
+            <l part="F">et vero pie,</l>
+            <l>Ad illas, quas privilegio insignes vocant:</l>
+            <l>Tum me tantus fervor corripuit, ut antehac</l>
+            <l>Nunquam me ex animo magis orasse putem.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="I">Gratulor mihi.</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l part="F">cui sacrum litasti? dic si lubet.</l>
+          </sp>
+          <sp who="#flaminius">
+            <speaker>FL.</speaker>
+            <l>Devovi isti mortuo, qui coelo esset proximus,</l>
+            <l>Aut qui maxime prodesse vellet Servatio,</l>
+            <l part="I">Eiusque miseriam lenire.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="F">o factum bene!</l>
+          </sp>
+          <sp who="#flaminius">
+            <speaker>FL.</speaker>
+            <l>Inter orandum, Pievoli, hoc praeter consuetudinem</l>
+            <l>Accidit, ut coruscare aras luce clarissima</l>
+            <l>Viderim, atque senserim voce gratias agi.</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l>Me quanto comples gaudio, cum haec memoras!</l>
+          </sp>
+          <sp who="#flaminius">
+            <speaker>FL.</speaker>
+            <l part="I">Sic factum est prorsus.</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l part="F">quid si fuerit</l>
+            <l>Meus parens, qui exinde Servatio dedit</l>
+            <l part="I">Syngrapham in lytrum filii?</l>
+          </sp>
+          <sp who="#flaminius">
+            <speaker>FL.</speaker>
+            <l part="F">opinari fas est,</l>
+            <l>Nam purgantes mortui, si beneficium accipiunt,</l>
+            <l>Qua pollent apud Deum, Pievoli, gratia maxime,</l>
+            <l>Nunquam sunt ingrati: sed quasi terrae fertiles</l>
+            <l>Multa eum usura deinceps reddunt cumulatissime.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l part="I">Hoc experior.</l>
+          </sp>
+          <sp who="#flaminius">
+            <speaker>FL.</speaker>
+            <l part="F">tuo exemplo multi divites</l>
+            <l>In hac civitate serent nummos mortuis,</l>
+            <l>Ut benefactorum locupletem messem metant.</l>
+            <l>Pro quantum foenus! Iulius duplex lytrum,</l>
+            <l>Purgantis animae, et perditi in carcere filii.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>Itaque reliquum est, optime Flamini, ut a singulis</l>
+            <l>Tibi, et ab universis agantur gratiae;</l>
+            <l part="I">Tuum sacrificium recreavit omnes.</l>
+          </sp>
+          <sp who="#flaminius">
+            <speaker>FL.</speaker>
+            <l part="F">pacato Deo,</l>
+            <l>Revertimini quisque ad aedes, hoc unum moniti,</l>
+            <l>Discere misericordiam, et ferre opem mortuis.</l>
+          </sp>
+          <sp who="#pievoli">
+            <speaker>PI.</speaker>
+            <l part="I">Tu tamen mecum coenabis hodie.</l>
+          </sp>
+          <sp who="#flaminius">
+            <speaker>FL.</speaker>
+            <l part="F">non abnuo.</l>
+          </sp>
+          <sp who="#servatius">
+            <speaker>SE.</speaker>
+            <l>At nos tres praecipue festum agemus domi.</l>
+          </sp>
+          <sp who="#hegio">
+            <speaker>H.</speaker>
+            <l>iam vacuo carcere, recepto captivi lytro,</l>
+            <l>Par est vobis ministris epulum appararier.</l>
+          </sp>
+          <sp who="#adolphus">
+            <speaker>A.</speaker>
+            <l part="I">Hem! nemo nos invitat.</l>
+          </sp>
+          <sp who="#evander">
+            <speaker>E.</speaker>
+            <l part="F">ego causam scio.</l>
+          </sp>
+          <sp who="#adolphus">
+            <speaker>A.</speaker>
+            <l part="I">Quam?</l>
+          </sp>
+          <sp who="#evander">
+            <speaker>E.</speaker>
+            <l part="F">ita aiunt: da, et recipies:</l>
+            <l>Qui misero claudit bursam, nae is sibi</l>
+            <l>Vicissim alienam claudit beneficentiam,</l>
+            <l>Et amicitiam saepe. abeamus, edocti sumus.</l>
+          </sp>
+          <closer>FINIS.</closer>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
