@@ -1,0 +1,3347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="dracor" xml:id="neolat000179" xml:lang="la">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Franciscanus</title>
+        <author>
+          <persName xml:lang="la">
+            <forename>Martinus</forename>
+            <surname>du Cygne</surname>
+          </persName>
+          <idno type="wikidata">Q21545079</idno>
+        </author>
+        <respStmt>
+          <resp>Transcribed by</resp>
+          <persName ref="https://orcid.org/0000-0002-9764-187X">Nicholas De Sutter</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Converted to TEI by</resp>
+          <persName ref="https://orcid.org/0000-0002-9764-187X">Nicholas De Sutter</persName>
+        </respStmt>
+        <funder>
+          <orgName>FWO</orgName>
+          <name>1291325N</name>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <ref target="https://books.google.com/books?id=vqAjcaQDLrgC">Google Books</ref>
+          <availability status="free">
+            <p>In the public domain.</p>
+          </availability>
+        </bibl>
+        <bibl type="originalSource">
+          <author>Martinus du Cygne</author>: <title>Franciscanus</title>. <title type="sub">Comoedia
+            XII</title>. In: <author>Martinus du Cygne</author>: <title>Comoediae XII</title>. <title type="sub">Pars posterior</title>. 
+          <pubPlace>Liège</pubPlace>: <publisher>Joannes Mathias Hovius</publisher>
+          <date>1679</date>. <biblScope>pp. 245–290</biblScope>. </bibl>
+        <listEvent>
+          <event type="print" when="1679">
+            <desc/>
+          </event>
+        </listEvent>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="prologus" sex="UNKNOWN">
+            <persName>Prologus</persName>
+          </person>
+          <person xml:id="nicocosmus" sex="MALE">
+            <persName>Nicocosmus</persName>
+          </person>
+          <person xml:id="cosmander" sex="MALE">
+            <persName>Cosmander</persName>
+          </person>
+          <person xml:id="plutilo" sex="MALE">
+            <persName>Plutilo</persName>
+          </person>
+          <person xml:id="philargius" sex="MALE">
+            <persName>Philargius</persName>
+          </person>
+          <person xml:id="emporas" sex="MALE">
+            <persName>Emporas</persName>
+          </person>
+          <person xml:id="pambo" sex="MALE">
+            <persName>Pambo</persName>
+          </person>
+          <person xml:id="aegidius" sex="MALE">
+            <persName>Aegidius</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">comedy</term>
+        </keywords>
+        <classCode scheme="https://www.wikidata.org/wiki/Q40831"/>
+      </textClass>
+      <creation>
+        <region>
+          <ref target="https://www.wikidata.org/wiki/Q622783">Spanish Netherlands</ref>
+        </region>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2026-07-24">
+          <desc>Converted to DraCor TEI by Nicholas De Sutter.</desc></change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart>Franciscanus</titlePart>
+        </docTitle>
+      </titlePage>
+      <argument>
+        <head>MATERIA</head>
+        <p>Nicocosmus cupit esse Religiosus: contra Cosmander parens illum vult uxorem ducere
+          Eugeniam Emporae filiam: et iam proximae erant nuptiae, cum denuntiatur Eugeniam esse
+          inter Religiosas Virgines tonsam. exinde Nicocosmus fit voti compos. <ref>Imitatio
+            Andriae</ref>.</p>
+      </argument>
+      <castList>
+        <head>PERSONAE</head>
+        <castItem>
+          <role>Nicocosmus</role>
+          <roleDesc>Adolescens</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Cosmander</role>
+          <roleDesc>Pater</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Plutilo</role>
+          <roleDesc>Patruus</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Philargius</role>
+          <roleDesc>Paedagogus</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Emporas</role>
+          <roleDesc>Mercator</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Pambo</role>
+          <roleDesc>Eremicola</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Aegidius</role>
+          <roleDesc>Famulus</roleDesc>
+        </castItem>
+      </castList>
+      <div type="argument">
+        <head>Distributio</head>
+        <list type="argument">
+          <item>
+            <label>Actus I</label>
+            <list>
+              <milestone unit="dramaticPhase" n="protasis"/>
+              <item><label>Scena I</label> Cosmander narrat fratri honestam filii vitam, at in
+                Religionem propensi.</item>
+              <item><label>Scena II</label> Cosmander interminatur Philagio, si Religionem filii
+                adiuvat.</item>
+              <item><label>Scena III</label> Philagius deliberat quid sit acturus.</item>
+              <item><label>Scena IV</label> Nicocosmus dolet de voluntate patris: fidem se Deo
+                servaturum promittit.</item>
+            </list>
+          </item>
+          <item>
+            <label>Actus II</label>
+            <list>
+              <item><label>Scena I</label> Plutilo suadet Nicocosmo, ne sit Religiosus.</item>
+              <item><label>Scena II</label> Philagius cum ex variis coniecturis comperisset Eugeniam
+                velle esse Religiosam, persuadet Nicocosmo, ut patri dicat se illam ducturum.</item>
+              <item><label>Scena III</label> Nicocosmus patri respondet se facturum quae volet ille
+                omnia.</item>
+            </list>
+          </item>
+          <item>
+            <label>Actus III</label>
+            <list>
+              <milestone unit="dramaticPhase" n="epitasis"/>
+              <item><label>Scena I</label> Cosmander prae nimia sagacitate fallitur.</item>
+              <item><label>Scena II</label> Congressu parentum constituuntur nuptiae.</item>
+              <item><label>Scena III</label> Philagius cum videt accersi Eugeniam, vehementer
+                perturbatur.</item>
+              <item><label>Scena IV</label> Nicocosmus dolet, quod Philagii consilium sit
+                secutus.</item>
+            </list>
+          </item>
+          <item>
+            <label>Actus IV</label>
+            <list>
+              <milestone unit="dramaticPhase" n="catastasis"/>
+              <item><label>Scena I</label> Querela et expostulatio Aegidii cum Nicocosmo.</item>
+              <item><label>Scena II</label> Philagius novo consilio Emporam deterret a
+                nuptiis.</item>
+              <item><label>Scena III</label> Pambo de Eugenia affert nuntium.</item>
+              <item><label>Scena IV</label> Nicocosmum generum recusat Emporas.</item>
+              <item><label>Scena V</label> Cosmander, cum audit Eugeniam esse Religiosam, ira
+                incensus, Philagium domo eiicit.</item>
+              <item><label>Scena VI</label> Cosmander acriter obiurgat filium.</item>
+              <item><label>Scena VII</label> Cosmander contumeliose Pambonem alloquitur.</item>
+            </list>
+          </item>
+          <item>
+            <label>Actus V</label>
+            <list>
+              <milestone unit="dramaticPhase" n="catastrophe"/>
+              <item><label>Scena I</label> Emporas fert aequo animo consilium filiae.</item>
+              <item><label>Scena II</label> Emporas statuit in eremo vivere.</item>
+              <item><label>Scena III</label> Cosmander movetur exemplo Emporae.</item>
+              <item><label>Scena IV</label> Cosmander placatur Philagio.</item>
+              <item><label>Scena V</label> Nicocosmus fit voti compos.</item>
+            </list>
+          </item>
+        </list>
+      </div>
+    </front>
+    <body>
+      <div type="prologue">
+        <head>PROLOGUS.</head>
+        <sp who="#prologus">
+          <l>Quod Poeta proloquitur in Andria,</l>
+          <l>Id mihi usuvenit in his nuptiis:</l>
+          <l>Quae con vene re, in Andriam ex Perinthia</l>
+          <l>Fatetur transtulisse, atque usum pro suis:</l>
+          <l>Ego ex Andria nuptias feci, dissimili</l>
+          <l>Materia, tamen simili oratione ac stylo.</l>
+          <l>Nunc ita narro argumentum fabula.</l>
+          <l>Cosmandro erat Nicocosmus filius,</l>
+          <l>Qui a pueritia sanctitatis amans,</l>
+          <l>Certo desponderat sibi coenobium:</l>
+          <l>At Pater alio vocabat filium,</l>
+          <l>Filiam Empora nubilum ut duceret;</l>
+          <l>Iamque utrimque provisae erant nuptia.</l>
+          <l>Quid faceret adolescens? erat ipsi Philagius</l>
+          <l>Vafer paedagogus, et vir pius.</l>
+          <l>Is, cum audiisset Eugeniam velle se</l>
+          <l>Religiosam esse, persuadet uti patri</l>
+          <l>Dicat Nicocosmus velle illam coniugem.</l>
+          <l>At paulo post cum videt serio </l>
+          <l>Rem inter parentes agi, ac Eugeniam</l>
+          <l>Accersi, tum perturbatur Philagius</l>
+          <l>Et ad dolum confugit alium,</l>
+          <l>Quo Emporam a nuptiis avocet.</l>
+          <l>Sed derepente venit nuntius,</l>
+          <l>Eugeniam esse inter Virgines</l>
+          <l>Tonsam: ibi Cosmander irascitur.</l>
+          <l>Placate Emporus fert consilium</l>
+          <l>Filiae, et ipse se eremo vovet.</l>
+          <l>Quo motus exemplo facit idem</l>
+          <l>Cosmander, filiumque voti sui</l>
+          <l>Magno gaudio reddit compotem.</l>
+        </sp>
+      </div>
+      <div type="act" n="1">
+        <head>ACTUS PRIMUS.</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>COSMANDER narrat fratri honestam filii vitam, at in Religionem propensi.</p>
+          </argument>
+          <stage>COSMANDER, PLUTILO.</stage>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Quoniam, mi frater, tecum magna fiducia est,</l>
+            <l part="I">Et consuetudo; paucis te volo.</l>
+          </sp>
+          <sp who="#plutilo">
+            <speaker>PL.</speaker>
+            <l part="F">dic quid velis.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Tu postquam meum filium adoptasti tibi,</l>
+            <l>Haeredem fecisti, habuisti, amasti pro tuo,</l>
+            <l>Scis quam id carum fuit, quas egi saepius</l>
+            <l>Gratias: et animo maiores etiam habeo.</l>
+          </sp>
+          <sp who="#plutilo">
+            <speaker>PL.</speaker>
+            <l>Haud muto factum, Cosmander: gaudeo</l>
+            <l>Si tibi hoc feci, aut facio, quod placet.</l>
+            <l>Sed mihi illud molestum: nam istaec praedicatio</l>
+            <l>Quasi merces est collati beneficii.</l>
+            <l>Quin tu verbo dic, quid est, quod me velis!</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Ita faciam, ut rem omnem a principio audias.</l>
+            <l>Postquam filius excessit ex humanioribus, Plutilo,</l>
+            <l>Petendi Philosophiam fuit potestas: nam aliud</l>
+            <l>Qui facere posset, aut quo ferre ingenium,</l>
+            <l part="I">Dum aetas, parens, consilium adhortabatur?</l>
+          </sp>
+          <sp who="#plutilo">
+            <speaker>PL.</speaker>
+            <l part="F">ita est.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Quod plerique omnes Duaci faciunt Philosophi,</l>
+            <l>Ut animum studiis attentum pila, vel trocho,</l>
+            <l>Vel honeste etiam alea remittant cum sociis,</l>
+            <l>Horum ille nihil egregie praeter caetera</l>
+            <l>Faciebat, et tamen omnia haec mediocriter.</l>
+            <l part="I">Gaudebam.</l>
+          </sp>
+          <sp who="#plutilo">
+            <speaker>PL.</speaker>
+            <l part="F">non iniuria: nam id arbitros</l>
+            <l>Apprime esse utile, ut ne quid nimis.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Sic vita erat, in schola satisfacere,</l>
+            <l>Domi ac foris socios perferre ac pati,</l>
+            <l>Eorum obsequi studiis, ad versari nemini,</l>
+            <l>Nunquam praeponens se aliis. ita facillime </l>
+            <l>Sine invidia invenias scientiam, et amicos pares.</l>
+          </sp>
+          <sp who="#plutilo">
+            <speaker>PL.</speaker>
+            <l>Sapienter vitam instituit: namque iuvenibus</l>
+            <l>Obsequium amicos, doctrina laudem parit.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Interea redit huc confecto istic biennio,</l>
+            <l>Et in meis aedibus uno mense habitat diutius,</l>
+            <l>Nec vitae conditionem accipit: sed frequens erat</l>
+            <l>Cum sodalibus ingenuis ac piis,</l>
+            <l>Qui Franciscanorum adscripti sunt familiae,</l>
+            <l>Et nunc tyrocinium exercent: antequam ingrederentur hi,</l>
+            <l>Ad istos Patres saepe; ita ut fit, filium</l>
+            <l>Perduxere illuc secum, ut una esset, meum.</l>
+            <l>Egomet continuo mecum: certe captus est:</l>
+            <l>Habet. observabam unumquemque: rogitabam, heus iuvenis,</l>
+            <l>Dic sodes, quis heri monachi vestem induit?</l>
+            <l>Nicetam, aut Theophilum dicebant; (nam hi duo tum simul</l>
+            <l part="I">Erant candidati, et amici Nicocosmo.)</l>
+          </sp>
+          <sp who="#plutilo">
+            <speaker>PL.</speaker>
+            <l part="F">teneo.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Eho, quid Nicocosmus? quid? nondum dedit</l>
+            <l>Nomen, nihil monet. gaudebam. item alio die</l>
+            <l>Quaerebam: comperiebam nihil ad filium</l>
+            <l>Quidquam attinere. enimvero spectatum satis.</l>
+            <l>Putabam, et magnum exemplum sapientiae.</l>
+            <l>Nam qui deliberat diu, quod statuit semel,</l>
+            <l>Nec socios statim ea in re sequitur suos,</l>
+            <l>Scias posse habere iam ipsum suae vitae modum.</l>
+            <l>Cum id mihi placebat, tum uno ore omnes omnia</l>
+            <l>Bona dicere, et laudare fortunas meas,</l>
+            <l>Qui gnatum haberem tali ingenio praeditum.</l>
+            <l>Quid verbis opus est? hac fama impulsus Emporas</l>
+            <l>Ultro ad me venit unicam gnatam suam</l>
+            <l>Cum dote summa filio uxorem ut daret.</l>
+            <l>Placuit: despondi: nuptiis dictus est dies.</l>
+          </sp>
+          <sp who="#plutilo">
+            <speaker>PL.</speaker>
+            <l part="I">Recreasti, cum haec narras.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">audi quod sequitur.</l>
+            <l>Fere in diebus paucis, quibus haec acta sunt,</l>
+            <l>Tertius Franciscanis se dedidit familiarior huic</l>
+            <l part="I">Nicocosmo.</l>
+          </sp>
+          <sp who="#plutilo">
+            <speaker>PL.</speaker>
+            <l part="F">metuo, ne quid ab illo sit mali.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Huc venit valedicturus: tristis interim filius,</l>
+            <l>Nonnunquam collacrymabat. placuit tum id mihi.</l>
+            <l>Sic cogitabam: hem, hic parvae consuetudinis</l>
+            <l>Caussa discessum huius tam fert pie,</l>
+            <l>Quid mihi faceret patri, si me relinqueret?</l>
+            <l>Haec ego putabam esse omnia humani ingeni</l>
+            <l>Amicique animi officia. quid multis moror?</l>
+            <l>Discedit ille, filius comitatur, egomet quoque</l>
+            <l>Utriusque causa prodeo, nihil suspicans etiam mali.</l>
+            <l>Ubi ad limen coenobii venimus, iterum lacrymae</l>
+            <l>Et oscula: ibi tum exanimatus denique filius</l>
+            <l>Bene dissimulatum amorem, et celatum indicat:</l>
+            <l>Prosequitur, arcte sodalem complectitur:</l>
+            <l>Non solus, inquit, intrabis has aedes, simul</l>
+            <l>Ibimus, uti saepius sponsio facta est.</l>
+            <l>Tum socius, ut confirmatam facile rem cerneres,</l>
+            <l>Tuus dies est crastinus, Nicocosme, ego praeco.</l>
+          </sp>
+          <sp who="#plutilo">
+            <speaker>PL.</speaker>
+            <l part="I">Quid ais?</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">redeo inde iratus, atque aegre ferens:</l>
+            <l>Nec satis ad obiurgandum causae diceret,</l>
+            <l>Quid feci? quid commerui, aut peccavi, pater?</l>
+            <l>Abeuntem amicum sum prosecutus, aperui</l>
+            <l part="I">Sensus: in his est pietas.</l>
+          </sp>
+          <sp who="#plutilo">
+            <speaker>PL.</speaker>
+            <l part="F">tu recte putas:</l>
+            <l>Nam si illum obiurges, qui amico valedicit suo,</l>
+            <l>Quid facias illi, qui clam patrem deseruerit?</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Venit Emporas ipsa hora ad me, exprobrans</l>
+            <l>Comperisse Nicocosmum velle esse Monachum.</l>
+            <l>Ego excusare mentem. ille instat certum esse. denique</l>
+            <l>Ita tum discedo ab illo, ut qui se filiam</l>
+            <l part="I">Neget daturum.</l>
+          </sp>
+          <sp who="#plutilo">
+            <speaker>PL.</speaker>
+            <l part="M">non tu ibi gnatum?</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">ne haec quidem</l>
+            <l part="I">Satis vehemens causa ad obiurgandum.</l>
+          </sp>
+          <sp who="#plutilo">
+            <speaker>PL.</speaker>
+            <l part="F">qui cedo?</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Tu nullum vitae genus praescripsisti, pater,</l>
+            <l>Emporam non novi: prope adest, cum Deo potius</l>
+            <l>Quam tibi obsequendum: sine me saluti consulere.</l>
+          </sp>
+          <sp who="#plutilo">
+            <speaker>PL.</speaker>
+            <l>Quis igitur relictus est obiurgandi locus?</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Si nihil ante communicat cum patre,</l>
+            <l>Si nihil consulit, si temere agit,</l>
+            <l>Impulsus, sine cautela, iuvenili animo;</l>
+            <l>Si corporis vires sunt Religiosae vitae impares.</l>
+            <l>Ad haec, si divitem uxorem nolit ducere,</l>
+            <l>Si mea, et haereditatem, mi frater, spernit tuam.</l>
+            <l>Haec vera obiurgandi causa erit, si non sapit.</l>
+            <l>Simul ille Philagius, cui filium credidi,</l>
+            <l>Si quid habet religionis, et cultus pii,</l>
+            <l>Dissimulet nunc, cum nihil prodest sanctitas:</l>
+            <l>Quem ego credo manibus pedibusque obnixe omnia</l>
+            <l part="I">Facturum, ut has impediat nuptias.</l>
+          </sp>
+          <sp who="#plutilo">
+            <speaker>PL.</speaker>
+            <l part="F">cur hoc?</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Dixi, Religio, pietas: quem quidem ego si sensero</l>
+            <l>Sed quid opus est verbis? sin eveniat quod volo,</l>
+            <l>In filio ut nil sit morae: restat Emporas,</l>
+            <l>Qui mihi exorandus est, et spero confore.</l>
+            <l>Nunc tuum est officium, has ut promoveas nuptias;</l>
+            <l>Perterrefacias Philagium, observes filium,</l>
+            <l part="I">Quid agat, quid cum illo consilii captet.</l>
+          </sp>
+          <sp who="#plutilo">
+            <speaker>PL.</speaker>
+            <l part="F">sat est.</l>
+            <l part="I">Curabo, eo iam nunc intro.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">i prae, sequar.</l>
+            <l>Non dubium est quin uxorem nolit filius:</l>
+            <l>Ita Philagium modo timere sensi, ubi nuptias</l>
+            <l>Futuras esse audivit; sed ipse exit foras.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>COSMANDER interminatur PHILAGIO, si Religionem filii adiuvat.</p>
+          </argument>
+          <stage>PHILAGIUS, COSMANDER.</stage>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l>Difficile est paedagogo, qui liberos instituit,</l>
+            <l>Placere Deo, et parentibus: namque hi</l>
+            <l>Fere saeculum et nuptias, hic Religionem amat.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>At nunc intelliges: neque, ut opinor, sine stomacho.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l>Ego non miror, si hic sit Cosmandro animus.</l>
+            <l>Quoniam praedives matrimonium agitur,</l>
+            <l>Proxime ut velit filium uxorem ducere.</l>
+            <l part="I">Est humanum.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="M">ita loqueris.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">tu es, neque praevideram.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="I">Philagi.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="M">hem, quid est?</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="M">ehodum ad me.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">quid hic</l>
+            <l part="I">Vult?</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="M">quid ais?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="M">qua de re?</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">rogas?</l>
+            <l part="I">Meum gnatum rumor est Religionem velle.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">id populus</l>
+            <l part="I">Rescit scilicet.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="M">hoccine agis, an non?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">ego vero istuc.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Sed, ea me exquirere, iniqui patris est:</l>
+            <l>Nam, quod antehac fecit, nihil ad me attinet:</l>
+            <l>Dum tempus ad eam rem tulit, si vi ut socios</l>
+            <l>Comitaretur suos: nunc hic dies vitam adfert aliam,</l>
+            <l>Alios mores postulat. dehinc ego postulo,</l>
+            <l>Sive aequum est, te oro, Philagi, ut mecum sapiat.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="I">Hoc quid sit?</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">iuvenis vehementer cupit.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="I">Ita aiunt.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">tum si quis paedagogum habet,</l>
+            <l>A quo impellitur, ipsum proclivem animum eo deiicit.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="I">Obscure loqueris.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">ergo apertius accipe.</l>
+            <l>Si sensero hodie quidquam in his te nuptiis</l>
+            <l>Religionis interponere, quo fiant minus,</l>
+            <l>Aut velle in ea re ostendere, quam filius sit pius,</l>
+            <l>Ego tibi et illi interdico domum:</l>
+            <l>Ea lege, atque mulcta, ut si vos revocem,</l>
+            <l>Donem pauperi centum aureos. Quid, hoc</l>
+            <l>Intellextin’? an nondum etiam ne hoc quidem</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l>Imo apertissime; nulla circuitione usus es.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Quidvis facilius passus sim, quam hoc negotium</l>
+            <l>Non confici. dico iterum, et iterum cave.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA TERTIA.</head>
+          <argument>
+            <p>PHILAGIUS deliberat quid sit acturus.</p>
+          </argument>
+          <stage>PHILAGIUS.</stage>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l>Enimvero, nihil loci est segnitiae, neque socordiae.</l>
+            <l>Quantum intellexi modo Cosmandri sententiam de nuptiis;</l>
+            <l>Quae si non astu providentur, me aut Nicocosmum pessumdabunt.</l>
+            <l>Nec, quid agam, certum est, Nicocosmumne adiutem, an auscultem patri.</l>
+            <l>Si illum relinquo, eius felicitati timeo: sin opitulos,</l>
+            <l>Huius minas: cui verba dare difficile est.</l>
+            <l>Primum iam de voluntate filii comperit:</l>
+            <l>Me infensus servat, ne quam faciam in nuptiis moram.</l>
+            <l>Ad haec mala hoc accedit etiam, ut sine</l>
+            <l>Patris consensu Franciscani non recipiant iuvenem</l>
+            <l>Fingunt aliqui divitem illam Emporae filiam</l>
+            <l>Esse modo inter Religiosas Virgines, et propediem</l>
+            <l>Velle rebus patris nuntium remittere. fabula</l>
+            <l>Mihi quidem non hercle sit verisimile:</l>
+            <l>Atqui ipsis commentum placet.</l>
+            <l>Sed Aegidius e Franciscanis egreditur. at ego me</l>
+            <l>Hinc ad forum, ut Nicocosmum conveniam,</l>
+            <l>Ne de hac re astutus pater imprudentem opprimat.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA QUARTA.</head>
+          <argument>
+            <p>NICOCOSMUS dolet de voluntate patris: fidem se Deo servaturum promittit.</p>
+          </argument>
+          <stage>AEGIDIUS, NICOCOSMUS.</stage>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l>Fero salutem Nicocosmo, et litteras eius indices.</l>
+            <l>Sed quidnam illum exanimatum video? vereor quid siet.</l>
+            <l>Opperiat, ut sciam num quidnam hic dies tristitiae adferat.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l>Hoccine est humanum factum? hoccine officium patris?</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="I">Quid illud est?</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="F">pro coelitum, atque hominum fidem!</l>
+            <l>Quid est, si non haec iniuria est? uxorem decrevit dare</l>
+            <l>Sese mihi. nonne oportuit voluisse me ante? nonne prius</l>
+            <l part="I">Contentum oportuit?</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="M">quod verbum audio?</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="F">quid Emporas?</l>
+            <l>Qui denegaverat se daturum filiam, id mutavit, quoniam</l>
+            <l>Me immutatum videt. itane obstinate operam dat.</l>
+            <l>Ut me a proposita Religione infelicem abstrahat?</l>
+            <l>Quod si fit, morior: hae res vitae me saturant.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l>Oratio haec me pari exanimavit metu.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l>Nam quid ego dicam de patre: ah! hoc crucior,</l>
+            <l>Illum, adeo unus qui unice ex omnibus</l>
+            <l>Perhibetur civibus probus, nunc isto fungi officio.</l>
+            <l>Tantamne rem tam negligenter agere? praeteriens modo</l>
+            <l>Mihi apud forum, uxor tibi ducenda est: para,</l>
+            <l>Abi domum, id mihi visus est dicere, abi cito et more re.</l>
+            <l>Obstupui. censen’ ullum me verbum potuisse proloqui?</l>
+            <l>Aut ullam causam, ineptam saltem, falsam, iniquam? obmutui.</l>
+            <l>Quod si ego prius id rescissem, quid facerem? si quis me nunc roget</l>
+            <l>Aliquid facerem, ut hoc ne facerem. sed nunc primum quid exequar?</l>
+            <l>Tot me impediunt curae, quae meum animum diversim trahunt.</l>
+            <l>Amor religionis, fides data, nuptiarum sollicitatio,</l>
+            <l>Tum patris imperium. eine ego ut ad verser? hei mihi!</l>
+            <l part="I">Incertum est quid agam.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="F">sed hunc peropus est ut alloquar:</l>
+            <l>Dum in dubio est animus, paulo momento huc illuc impellitur.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="I">Quis hic loquitur? salve, Aegidi.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="F">o salve tu quoque,</l>
+            <l part="I">Nicocosme.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="F">quid agunt nostri tyrones ascetici?</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l>Valent. epistolam lege. tum autem hoc timent,</l>
+            <l part="I">Ne deseras se.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="F">hem, egone istuc committere queam?</l>
+            <l>Ego illos solos frui bono religionis sinam,</l>
+            <l>Quos unus amor, ac pietas, atque idem animus copulat?</l>
+            <l part="I">Non faciam.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="F">haud verentur, si in te solo sit situm,</l>
+            <l part="I">Sed vim ut queas ferre.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="F">adeon’ me ignavum putant?</l>
+            <l>Adeon’ porro ingratum Deo aut inobsequentem, ut neque me</l>
+            <l>Divini sensus, et sociorum exempla, et saeculi fallacia</l>
+            <l>Commoveant, neque commoneant ut servem fidem?</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l>Unum hoc sciunt, Religionem mentam esse, ut sis memor.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l>Memor sim? o Religio, Religio. etiam nunc mihi</l>
+            <l>Scripta illa dicta sunt in animo Theophili</l>
+            <l>De Religiosa domo. iam ferme intrans me vocat;</l>
+            <l>Accessi: nullus arbiter: nos soli: incipit:</l>
+            <l>Mi Nicocosme, huius vitae spes falsas, et brevitatem vides:</l>
+            <l>Nec clam te est, quam periculosae ac lubricae viae</l>
+            <l>Ad pudicitiam, et tutandam ad salutem sient.</l>
+            <l>Quod ego te per hanc dextram oro, et ingenium tuum,</l>
+            <l>Per tuam fidem, perque salutem tuam</l>
+            <l>Te obtestor, ne abs hac domo te segreges, neu deseras.</l>
+            <l>Si tu semper Christum dilexisti unice,</l>
+            <l>Si moriger fuisti in rebus omnibus,</l>
+            <l>Illum tibi sponsum do, amicum, tutorem, patrem.</l>
+            <l>Erunt difficultates? superandae. neu terreant minae.</l>
+            <l>Consta. cape hanc Crucifixi tesseram,</l>
+            <l>Quam do in manus. in aedes ivit continuo.</l>
+            <l part="I">Accepi Crucem, acceptam servabo.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="F">ita spero quidem.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="I">Sed tu illis refer salutem.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="F">propero.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="2">
+        <head>ACTUS SECUNDUS.</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>PLUTILO suadet NICOCOSMO, ne sit Religiosus.</p>
+          </argument>
+          <stage>PLUTILO, NICOCOSMUS.</stage>
+          <sp who="#plutilo">
+            <speaker>PL.</speaker>
+            <l>Euge, Nicocosme, nuptum tibi dabitur Eugenia.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l>Euge? vae, vae misero mihi! ut animus</l>
+            <l>In spe ac voto usque antehac attentus fuit,</l>
+            <l>Ita, postquam hoc agitur, dolore aeger est:</l>
+          </sp>
+          <sp who="#plutilo">
+            <speaker>PL.</speaker>
+            <l>Quaeso aedepol, quoniam id fieri,</l>
+            <l>Quod vis, non lubet patri, velis id quod lubeat.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l>Nihil aliud, mi patrue, nisi salutem volo.</l>
+          </sp>
+          <sp who="#plutilo">
+            <speaker>PL.</speaker>
+            <l>Ah! quanto satius est, id operam te dare,</l>
+            <l>Istam qui Religionem ex animo amoveas tuo,</l>
+            <l>Quam id loqui, quo magis libido frustra incendatur tua.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l>Facile in alio quovis negotio consilium dabis,</l>
+            <l part="I">In hoc non item rectum.</l>
+          </sp>
+          <sp who="#plutilo">
+            <speaker>PL.</speaker>
+            <l part="F">age, inquam, sed non ut lubet.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l>Omnia experiri certum est, priusquam consentio.</l>
+          </sp>
+          <sp who="#plutilo">
+            <speaker>PL.</speaker>
+            <l>Nisi id facis, hodie postremum me habes patruum,</l>
+            <l>Nec haereditatem, quae est ampla, cernes meam.</l>
+            <l>Sed mutabis animum, et dabis consilio locum.</l>
+            <l>Credo, ego et pater tuus post paulo impetrabimus:</l>
+            <l>Interea fiet aliquid, spero. tu id tecum reputa.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l>Philagium optime video: fretus sum huius consilio.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>PHILAGIUS, cum ex variis coniecturis conperisset, EUGENIAM velle esse Religiosam,
+              persuadet NICOCOSMO, ut patri dicat se illam ducturum.</p>
+          </argument>
+          <stage>PHILAGIUS, NICOCOSMUS.</stage>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l>Deus bone, boni quid porto? sed ubi Nicocosmum inveniam?</l>
+            <l>Ut metum, in quo nunc est, adimam, atque expleam animum gaudio.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l>Laetus est. nihil est. nondum haec rescivit mala.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="I">Sed ubi quaeram? aut quo nunc primum intendam?</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="F">cesso alloqui?</l>
+            <l part="I">Philagi.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="M">opportune.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="M">peius.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">quin tu hoc audias.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="I">Actum est.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="M">quid timeas, scio.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="F">mea hercle quidem</l>
+            <l part="I">Certe in dubio res est.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="M">non.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="F">nuptiae mihi.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="I">Et id scio.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="M">propediem.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">obtundis, tametsi intelligo.</l>
+            <l part="I">Id paves, ne ducas Eugeniam.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="F">scis satis,</l>
+            <l part="I">Istuc ipsum.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">atqui istuc ipsum, nil pericli est, me vide.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l>Obsecro te, quamprimum hoc me libera metu.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l>Hem, libero: uxor tibi non dabitur Emporae filia.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="I">Qui scis?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">scio. tuus pater modo me prehendit: ait</l>
+            <l>Proxime nuptias fieri: item alia multa, quae taceo.</l>
+            <l>Continuo ad te properans percurro, ut dicam tibi haec.</l>
+            <l>libi te non invenio, ibi ascendo in quendam excelsum locum.</l>
+            <l>Circumspicio. nusquam. forte ibi sodales video:</l>
+            <l>Rogo: negant vidisse: mihi molestum: quid agam, cogito.</l>
+            <l>Redeunti interea ex ipsa re mihi incidit suspicio.</l>
+            <l>Hem, Eugenia habitat inter virgines annis tribus,</l>
+            <l>Nunquam collocuta cum iuvene; nuper cum pater</l>
+            <l>Accersiit, noluit venire: haec de improviso nuptias</l>
+            <l part="I">Amat?</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="M">quorsumnam istuc?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">ego me continuo </l>
+            <l>Ad Emporam. cum illo advenio, famulus ante ostium:</l>
+            <l>Quaeso redux expectatur Eugenia? nullus sermo domi.</l>
+            <l>Vult nubere? nunquam. id profitetur? palam.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="I">Iam id gaudeo.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">num argumenti satis has nuptias</l>
+            <l part="I">Non cohaerere?</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="M">opinor.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">opinor? non recte accipis,</l>
+            <l>Certa res est. etiam alium inde abiens Emporae</l>
+            <l>Conveni servum, qui diceret tondendam esse hodie Eugeniam.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l>Liberatus sum. Philagi, nunc tua opera. sed cum patre</l>
+            <l part="I">Quid agam?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="M">difficile est.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="F">cedo igitur quid faciam?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="I">Dic te ducturum.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="M">hem.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="M">quid est?</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="F">ego dicam?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="I">Cur non?</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="M">nunquam faciam.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="M">ne nega.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="F">suadere noli.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="I">Ex ea re quid fiat, vide.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="F">ut ego inconstans videar?</l>
+            <l>Aut coniecturis sidam potius, quam veraci Deo?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l>Non ita est. nempe hoc sic esse opinor dicturum patrem,</l>
+            <l>Ducas volo uxorem: tu, ducam, inquies:</l>
+            <l>Cedo, quid iurgabit tecum? hic reddes omnia,</l>
+            <l>Quae nunc sunt certa ei consilia, incerta ut sient,</l>
+            <l>Sine omni periclo: nam hocce haud dubium est,</l>
+            <l>Quin Emporas ex virginibus non retrahat gnatam suam.</l>
+            <l>Nec tu ea cautam minueris haec quae facis.</l>
+            <l>Recta perpetuo erit mens. et fidelis Deo,</l>
+            <l>Si parum successerit istud negotium patri;</l>
+            <l>Deferbuerit, interea aliquid accident boni,</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="I">Itan’ credis?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="M">haud dubium id quidem est.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="F">vide</l>
+            <l part="I">Quo inducas.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="M">quin taces?</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="M">dicam.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">adest pater.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA TERTIA.</head>
+          <argument>
+            <p>NICOCOSMUS patri respondet se facturum qua volet ille omnia.</p>
+          </argument>
+          <stage>COSMANDER, PHILAGIUS, NICOCOSMUS</stage>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Reviso quid agant, aut quid captent consili.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l>Hic nunc non dubitat quin te ducturum neges:</l>
+            <l>Venit meditatus alicunde ex solo loco.</l>
+            <l>Orationem sperat invenisse se</l>
+            <l>Qui verset te: proin tu face, apud te ut sies.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="I">Modo ut possim, Philagi.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">crede hoc, inquam mihi,</l>
+            <l>Nunquam hodie tecum commutaturum patrem</l>
+            <l>Unum esse verbum, si te dices ducere.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="I">Utrumque adesse video.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="M">hem, serva.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="M">Nicocosme.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">quasi</l>
+            <l part="I">De improviso respice ad eum.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="M">ehem, pater.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">probe.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Sine religione, uxorem ducas, ut dixi, volo.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l>Neque istic, neque alibi tibi usquam erit in memora.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="I">Obmutuit.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">facis ut te decet, cum istuc quod postulo,</l>
+            <l part="I">Impetro cum gratia.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="M">sum verus?</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">intro nunc eas.</l>
+            <l part="I">Quid Philagius narrat?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">aeque quidquam nunc quidem.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="I">Nihilne? hem.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="M">nihil prorsus.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">atqui expectabam quidem.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l>Praeter spem evenit: sentio: hoc male habet virum.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="I">Potin’ es mihi verum dicere?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">nihil facilius.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Num illi molestae quidpiam hae sunt nuptiae,</l>
+            <l>Huiusce propter religiosae consuetudinem familiae!</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l>Nihil hercle: aut si adeo bidui est, aut tridui</l>
+            <l>Haec sollicitudo: nostin’? deinde desinet.</l>
+            <l>Etenim eam secum rem recta reputavit via.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Laudo. subtristis visus est esse aliquantulum mihi.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l>Nihil propter religionem: sed est, quod succenset tibi.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="I">Quidnam est?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="M">incertum est.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="M">quid est?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">nihil.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="I">Quin dic, quid est?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">ait famam laedi suam.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="I">A me?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">a te. vix, inquit, novi illam, quae datur</l>
+            <l>Mihi, uxorem; et haec votum vovit inter virgines.</l>
+            <l part="I">Ecquae nuptiae?</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="M">tace.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">commovi hominem.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>non est hic rumor de Eugenia, istaec recto ut fiant. videro,</l>
+            <l>Si mali est quicquam. hem illic est huic rei capue.</l>
+            <l>Ne plura. tempus est agi rem, quam molior.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="3">
+        <head>ACTUS TERTIUS.</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>COSMANDER prae nimia sagacitate fallitur.</p>
+          </argument>
+          <stage>AEGIDIUS, COSMANDER, PHILAGIUS.</stage>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l>Ita pol quidem res est ut vidi saepius,</l>
+            <l>Fidelem iubenti Deo invenias iuvenem.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="I">Ab Franciscanis est famulus hic. quid narras</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">ita est.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="I">Sed hic Nicocosmus?</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="M">quid dicit?</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="F">fumavit fidem.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l>Utinam aut ille surdus, aut mutus factus sit hic.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l>Nam vesperi hodie clam patre intrabit nostram domum.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Quid ego audio? actum est, siquidem hic veta praedicat.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l>Vestes sunt paratae, quaero, qui valedicant, socios,</l>
+            <l part="I">Et comitentur ad portam.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">quod remedium huic malo?</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Quid hoc? adeon’ est fictus? data fide? iam scio: ah!</l>
+            <l part="I">Vix tandem sensi stolidus.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">quid hic sensisse ait!</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Haec primum adfertur iam mihi ab hoc fallacia.</l>
+            <l>Hunc simulant intrare, quo Emporam absterreant.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l>Sequimini, vix restant paucae horae, cum erit monachus.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Hui, tam cito? ridiculum. postquam ante ostium Emporae</l>
+            <l>Me audivit stare, approperat: accersit filium, non sat commode </l>
+            <l part="I">Subornat comites. divisa sunt temporibus tibi, Philagi, haec.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">mihine?</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="I">Num immemores discipuli?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">ego quid narres nescio.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Hiccine si me imparatum in ipsis nuptiis</l>
+            <l>Adortus esset, quos mihi ludos redderet?</l>
+            <l>Nunc huius periculo sit. ego in portu navigo.</l>
+            <l part="I">Hoc quis non credat abs te esse ortum?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">quid est?</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>O Philagi, itane contemnor abs te? aut itane tandem idoneus</l>
+            <l>Tibi videor esse, quem tam aperte fallere incipias dolis?</l>
+            <l>Saltem accurate, ut metui videar certe, si resciverim.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l>Certe hercle nunc hic se ipsus fallit, haud ego.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Edixtin’ tibi? interminatus sim ne faceres? quid veritus?</l>
+            <l>Credon’ tibi hoc nunc, meum filium fore hodie coenobitam vesperi?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="I">Teneo, quid erret: quid ego agam, habeo,</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">quid taces?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l>Quid credas? quasi non tibi renuntiata sint haec sic tore.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="I">Mihine quisquam?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">oho, an tute intellexti hoc adsimularier?</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="I">Irrideor.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">renuntiatum est. nam qui istaec tibi incidit</l>
+            <l part="I">Suspicio?</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="M">qui? quia te noram.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">quasi tu dicas id meo.</l>
+            <l part="I">Consilio factum.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="M">certo enim scio.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">non satis me pernosti etiam,</l>
+            <l part="I">Qualis sim, Cosmander.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="M">egone te?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">sed si quid occoepi dicere,</l>
+            <l part="I">Continuo dari tibi dolos censes.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="M">falso.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">itaque nihil</l>
+            <l part="I">Iam mutire audeo.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">hoc scio unum, nihil clam me facturum filium.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l>Intellextin’? sed nihilo secius mox venient huc ante ostium</l>
+            <l>Nuntii cum litteris, quibus Nicocosmum provocent tuum.</l>
+            <l>Id ego iam nunc tibi renuntio futurum, ut sis sciens:</l>
+            <l>Ne tu hoc mihi posterius dicas, Philagii factum consilio, aut dolis.</l>
+            <l>Prorsus a me opinionem hanc tuam esse ego amotam volo.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="I">Unde id scis?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">audivi, et credo multa concurrunt simul,</l>
+            <l>Qui coniecturam hanc nunc facio. iam primum dixit Aegidius,</l>
+            <l>Nicocosmum fidem dedisse: diem esse constitutum domi.</l>
+            <l>Nunc postquam pii isti tyrones socii vident</l>
+            <l>Nuptias apparari, mittunt illico litteras multas, quibus</l>
+            <l>Monent esse parendum Deo, vel eluso, si res ita exigat, patre.</l>
+            <l>Nam doli in re tam pia non sunt doli, ubi salus agitur.</l>
+            <l>Obtestantur per Deum, ne in mora periculum siet:</l>
+            <l>Quod fit hodie, melius fieri; cras vocem esse corvi, non hominis.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Quid ais? cum intellexeras id consilii capere,</l>
+            <l part="I">Cur non dixti extemplo Nicocosmo?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">quis igitur cum</l>
+            <l>ab illis abstraxit, nisi ego? nam omnes nos quidem</l>
+            <l>scimus, quam unice religionem amarit: nunc tibi obtemperat.</l>
+            <l>Postremo id mihi da negotii, tu perge facere ita, ut facis.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Imo abi intro. non impulit me, haec nunc omnino ut crederem.</l>
+            <l>Atque haud scio, an, quae dixit, sint vera omnia:</l>
+            <l>Sed parvipendeo. illud mihi multo maximum est,</l>
+            <l>Quod mihi pollicitus est ipsus gnatus. nunc Emporam</l>
+            <l>Conveniam: atque adeo in tempore eccum ipsum obviam.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>Congressu parentum constituuntur nuptiae.</p>
+          </argument>
+          <stage>COSMANDER, EMPORAS.</stage>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="I">Iubeo Emporam.</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l part="M">oh! te ipsum quaerebam.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">et ego te.</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l>Optato advenis. aliquot me adiere, ex te auditum qui aiunt,</l>
+            <l>Filiam meam nubere tuo gnato. id viso tune, an illi insaniant.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Ausculta paucis: et quid ego te velim, et tu quod quaeris, scies.</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l>Ausculto: loquere quid velis.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Per te Superos oro, et nostram amicitiam, Empora,</l>
+            <l>Quae incepta a parvis cum aetate accrevit simul,</l>
+            <l>Perque unicam gnatam tuam, et gnatum meum,</l>
+            <l>Cuius tibi potestas summa beandi datur,</l>
+            <l>Ut me adiuves in hac ie, atque ita, uti nuptiae</l>
+            <l part="I">Fuerant futurae, fiant.</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l part="F">ah! ne me obsecra:</l>
+            <l>Quasi hoc te orando a me impetrare oporteat.</l>
+            <l>Alium esse censes nunc me, atque olim, cum dabam?</l>
+            <l>Si in rem est utrique, ut fiant, accersi iube.</l>
+            <l>Seu si ex ea re plus mali est quam commodi</l>
+            <l>Utrique; id oro te, in commune ut consulas,</l>
+            <l>Quasi illa tua sit, et Nicocosmi ego sim pater.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Imo ita volo, itaque postulo ut fiat, Empora:</l>
+            <l part="I">Neque postulem abs te, nisi ipsa res moneat.</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l part="F">quid est?</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="I">Religione se abdicat Nicocosmus.</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l part="F">audio.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="I">Tam constanter, ut sperem posse avelli.</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l part="F">fabulae.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="I">Profecto sic est.</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l part="F">sic hercle, ut dicam tibi:</l>
+            <l>Voluntas iuvenum, veluti aegrotantium sitis,</l>
+            <l>Quam etsi aspergis frigida, non cessat tam cito.</l>
+            <l>Religionem nunc non cupit? confingit dolos:</l>
+            <l>Vel quod peius existimo, te veretur patrem.</l>
+            <l>Si postea in coniugio remordet conscientia:</l>
+            <l>Quid egisti? votum feceras: sprevisti. ah miser!</l>
+            <l>Omnia in coniugem gnatam meam incidunt,</l>
+            <l>Verba, exprobratio, poenitentia. ad haec,</l>
+            <l>Civitas maledica: cui dedit Emporas filiam suam</l>
+            <l part="I">Nempe religioso viro.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">istaec nunquam erunt.</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l>Tibi ita videtur. at ego non posse arbitror</l>
+            <l>Neque illum hanc tunc habere, neque me perpeti.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Qui scis ergo istuc, nisi periculum feceris?</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l>At istud periculum in filia fieri, grave est.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Nempe incommoditas, denique huc omnis redit,</l>
+            <l>Si eveniat, quod Deus prohibeat, sera poenitentia.</l>
+            <l>At si corrigitur, quot commoditates, vide:</l>
+            <l>Stabiliemus familiam magnis hercle divitiis.</l>
+            <l>Tu unicam habes, ego unicum; quem frater etiam</l>
+            <l>Haeredem creat: tum inter nos erit commercium.</l>
+            <l>felices erunt hae nuptiae. meus filius ingenio bono,</l>
+            <l part="I">Et tua liberali.</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l part="F">si ita istuc animum induxti esse utile,</l>
+            <l>Nolo tibi ullum commodum in me claudier.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Merito te semper maximi feci, Empora.</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l part="I">Sed quid ais?</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">quid? E. qui scis filium cupere</l>
+            <l part="I">Nuptias?</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">ipsus mihi Philagius, qui intimus est</l>
+            <l>Eius consiliis, dixit, et is mihi suadet, nuptias,</l>
+            <l>Quantum queam, ut maturem. num censes faceret,</l>
+            <l>Filium nisi sciret eadem haec velle? tute adeo </l>
+            <l>Iam eius audies verba. heus, evocate huc Philagium.</l>
+            <l>Sed eccum video ipsum foras exire nunc.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head> SCENA TERTIA.</head>
+          <argument>
+            <p>PHILAGIUS cum videt accersi EUGENIAM, vehementer perturbatur.</p>
+          </argument>
+          <stage>PHILAGIUS, COSMANDER, EMPORAS.</stage>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="I">Ad te ibam.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="M">quidnam est?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">cur non accersitur Eugenia?</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Audin’ tu illum? ego dudum non nil veritus sum Philagi,</l>
+            <l>Abs te, ne faceres idem, quod aliqui solent pie,</l>
+            <l>Dolis ut me deluderes, propter quod religionem amat filius.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="I">Egon’ istuc facerem?</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">credidi. idque adeo metuens,</l>
+            <l>Sum interminatus tibi, ipsum pertentavi filium.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="I">Prudenter.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">hoc audi, ut hinc te iussi introire, Philagi,</l>
+            <l part="I">Opportune hic fit mihi obviam.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">hem numnam timeo?</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="I">Narro huic, quae dudum narrasti mihi.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">quidnam audio?</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="I">Gnatam ut det oro, vixque id exoro.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">occidi.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="I">Quid dixti?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="M">optime, inquam, factum.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">nunc per hunc</l>
+            <l part="I">Nulla est mora.</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l part="F">domum modo ibo, et accersam filiam.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Nunc te oro, Philagi, quoniam solus mihi</l>
+            <l part="I">Effecisti has nuptias.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="M">ego vero solus?</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">corrigere</l>
+            <l part="I">Mihi gnatum porro enitere.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">faciam hercle sedulo.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="I">Potes nunc, dum animus fluctuat?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="M">quiescas.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">age</l>
+            <l part="I">Igitur: ubi nunc est ipsus?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">mirum ni domi est.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Ibo ad eum, atque eadem haec quae tibi dixi dicam itidem</l>
+            <l part="I">Illi.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">nullus sum, quid causae est, quin hinc ad aram</l>
+            <l>Recta proficiscar via? nihil est preci relictum loci:</l>
+            <l>iam perturba vi omnia: Cosmandrum fefelli: in nuptias</l>
+            <l>Conieci Nicocosmum: invito hoc, atque insperante illo, hodie</l>
+            <l>Feci, ut turbae fierent. hem astutia, tametsi pia!</l>
+            <l>Quod si quiessem, tantum non evenisset mali.</l>
+            <l>Nisi iam Deus iuverit, Nicocosmo labor est.</l>
+            <l>Sed eccum ipsum video. succurram, ut potero.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA QUARTA.</head>
+          <argument>
+            <p>NICOCOSMUS dolet, quod PHILAGII consilium sit secutus.</p>
+          </argument>
+          <stage>NICOCOSMUS, PHILAGIUS.</stage>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l>Ubi illic homo est, qui mihi consuluit? atque hoc</l>
+            <l>Confiteor iure obtigisse: quandoquidem parum Deo</l>
+            <l>lisus sum. mene humanis dari coniecturis et astutiis?</l>
+            <l>Oportuit me aperte dixisse quod volo,</l>
+            <l>Et invito vel patre ivisse ad coenobium.</l>
+            <l part="I">Ergo pretium ob stultitiam fero.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">et ego serius sapio.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l>Sed quid ego nunc dicam patri? negabon’ velle me,</l>
+            <l>Qui sum pollicitus ducere? qua fiducia id facere audeam:</l>
+            <l>Esto, salus agitur: sed non praestanda erat fides.</l>
+            <l part="I">Nec quid me nunc faciam, scio.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">nec equidem scio.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="I">Oh!</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="M">visus sum.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="F">ehodum, Philagi, quid ais? Viden’</l>
+            <l part="I">Me consiliis tuis impeditum esse?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">at iam expediam.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="I">Expedies?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="M">certe, Nicocosme.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="F">nempe ut modo.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="I">Imo melius spero.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="F">tibi ego ut credam, Philagi?</l>
+            <l>Hem quo fretus sum, qui ex re plana coniecisti in angustias.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l>Sed paululum sine ad me ut redeam: iam aliquid dispiciam.</l>
+            <l>Tu mecum ad preces aliquod in templum conveni;</l>
+            <l>Ubi subsidia non sunt humana, tum Deus iuvat.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="4">
+        <head>ACTUS QUARTUS.</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>Querela, et expostulatio AEGIDII cum NICOCOSMO.</p>
+          </argument>
+          <stage>AEGIDIUS, NICOCOSMUS, PHILAGIUS.</stage>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l>Hoccine credibile est, aut memorabile,</l>
+            <l>Tanta inconstantia innata cuiquam ut siet,</l>
+            <l>Ut non pareat Deo, sed iam patri?</l>
+            <l>Idne est verum? imo id genus est iuvenum pessimum</l>
+            <l>In pollicitando modo, queis pietas est paululum:</l>
+            <l>Post ubi iam tempus est promissa perfici,</l>
+            <l>Tum non audent parentibus suis resistere,</l>
+            <l>Et tamen res cogit eos resistere. ibi</l>
+            <l>Tum levissima eorum excusatio est:</l>
+            <l>Pater iubet, proximus est is mihi,</l>
+            <l>Adversari non audeam. attamen ubi fides est,</l>
+            <l>Si roges, nihil timent. hic, ubi opus est,</l>
+            <l>Deum non verentur: illic, ubi nihil opus est,</l>
+            <l>bi verentur homines. sed quid agam. adeamne ad cum,</l>
+            <l>Et cum eo expostulem? atque aliquis dicat nihil promoveris:</l>
+            <l>Monitor certe ei fuero, atque animo morem gessero.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l>Aegidi, et me et te imprudens fefelli hodie.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l>Itane imprudens? tandem inventa est causa, solvisti fidem.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="I">Quid tandem?</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="F">etiam nunc vos seducere istis dictis postulat?</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="I">Quid istuc est?</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="F">postquam amasti, complacitum est tibi aliud.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="I">Falsus es.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="F">non tibi satis esse hoc visum solidum est gaudium,</l>
+            <l>Nisi socios lactasses, et falsa spe produceres?</l>
+            <l part="I">Ducas uxorem.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="F">ducam? ah! nescis quantis in malis</l>
+            <l>Verser, quantasque hic suis consiliis mihi confecit sollicitudines</l>
+            <l part="I">Meus Philagius.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="F">quid istuc tam mirum, si connivet tibi.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l>Haud istud dicas, si cognoris vel me, vel pietatem meam.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l>Scio, obedivisti patri iam dudum, en pietas.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l>Imo etiam, quo tu minus scis aerumnas meas,</l>
+            <l>Non me cogebat adhuc parens ad nuptias.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="I">Scio: coactus tua voluntate es.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="F">mane.</l>
+            <l part="I">Nondum scis.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="F">scio equidem ad nostras aedes non venturum esse te.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l>Cur me enecas? hoc audi. nunquam destitit</l>
+            <l>Instare, ut dicerem Eugeniam esse ducturum patri:</l>
+            <l>Suadere, orare, usque adeo donec perpulit.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="I">Quid homo istuc?</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="M">Philagius.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="M">Philagius?</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="F">Philagius omnia.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="I">Quamobrem?</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="F">nescio, nisi me Deo satis</l>
+            <l>Scio non placuisse, qui auscultaverim.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="I">Factum est hoc, Philagi?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="M">factum est.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="F">quid ais?</l>
+            <l>Eho, dic mihi, si omnes hunc coniectum in nuptias</l>
+            <l>Inimici vellent, quod, ni hoc, consilium darent?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="I">Deceptus sum, at non defatigatus.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="F">scio.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l>Hac non successit, alia aggrediemur via:</l>
+            <l>Nisi id putas, quia primo processit parum,</l>
+            <l>Non posse iam ad salutem converti hoc malum.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l>Imo sic ludit saepe in humanis Deus.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l>Ego, Nicocosme, hoc tibi pro salute debeo,</l>
+            <l>Conari manibus, pedibusque, noctesque et dies</l>
+            <l>Quodlibet periculum adire, dum prosim tibi.</l>
+            <l>Tum est, si quid praeter spem evenit, mi ignoscere,</l>
+            <l>larum succedit quod ago, at facio sedulo.</l>
+            <l>Melius nunc reperiam aliquid. tu Aegidi, dum exeo</l>
+            <l part="I">Parumper opperire hic.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="M">quapropter?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">ita facto opus.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="I">Matura.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">absis, Nicocosme; iam, inquam, hic adero.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l>Per omnes tibi adiuro Superos, nunquam religionem deseram;</l>
+            <l>Non, si capiendos mihi sciam esse inimicos omnes homines.</l>
+            <l>Hanc mihi expetivi, contingam: valeant</l>
+            <l>Qui dissidium volunt: hanc, nisi mors, mihi nemo adimet.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="I">Resipisco.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="F">si pater obstiterit, faciam quod Deus</l>
+            <l>Illo maior imperat, ut vincam domesticos.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>PHILAGIUS novo consilio EMPORAM deterret a nuptiis.</p>
+          </argument>
+          <stage>PHILAGIUS, AEGIDIUS, EMPORAS.</stage>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l>Aegidi, nunc opus est tua mihi ad hanc rem astutia.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="I">Quidnam incepturus?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">accipe a me ocyus</l>
+            <l>Hanc vestem, ac litteras, quasi Nicocosmo deferas.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="I">Quamobrem id tute non facis?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">quia si forte opus</l>
+            <l>Ad Cosmandrum iusiurandum mihi, ut possim liquido.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l>Intelligo. nova nunc religio in te istaec incessit, cedo?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l>Move ocyus te, ut, quid agam, porro intelligas.</l>
+            <l part="I">Pro Deus!</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="M">quid?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">sponsae pater intervenit.</l>
+            <l>Repudio consilium, quod primum intenderam.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="I">Nescio quid narres.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">ego quoque hinc ab dextera</l>
+            <l>Venire me assimulabo. tu, ut subservias</l>
+            <l>Orationi, utcumque opus sit verbis, vide.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l>Ego quid agas, nihil intelligo: sed, si quid est</l>
+            <l>Quod mea opera opus sit tibi, aut tu plus vides,</l>
+            <l>Manebo, ne quid vestrum remorer commodum.</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l>Revertor, postquam iussi accersi filiam.</l>
+            <l part="I">Sed quid hoc? quo portas hanc vestem, vir.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="F">ubi</l>
+            <l part="I">Illic est?</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l part="M">non mihi respondes?</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="F">hem, nusquam est. homo</l>
+            <l part="I">Me reliquit, atque abiit.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">Superi, vestram fidem!</l>
+            <l>Quid turbae est apud forum? quid illic hominum litigant?</l>
+            <l>Num annona cara est? quid dicam aliud, nescio.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="I">Cur tu obsecro hic me solum?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">hem, quae est haec fabula?</l>
+            <l>Eho, Aegidi, vestis haec unde est? quisve huc attulit?</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="I">Satin’ sanus es, qui me id rogites?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">quem ego igitur rogem,</l>
+            <l part="I">Qui hic neminem alium video?</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l part="F">miror, unde sit.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="I">Dicturus quod rogo?</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="M">au!</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">concede ad dexteram.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="I">Deliras. non tute ipse?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">verbum si mihi</l>
+            <l>Unum, praeterquam quod te rogo, faxis, cave.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="I">Male dicis.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="M">unde est? dic clare.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="F">e coenobio.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l>Ha, ha, he, mirum vero religiosae si loquitur Aegidius.</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l>Est coenobii famulus hic, quantum intelligo.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l>Adeon’ videmur vobis esse idonei,</l>
+            <l part="I">In quibus sic illudatis?</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l part="F">veni in tempore.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l>Propera adeo hinc vestem referre, et litteras.</l>
+            <l part="I">Tibi dico, an non?</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="M">quid vis?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">at etiam rogas!</l>
+            <l>Cedo, cuius gratia huc venisti, dic mihi.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="I">Tu nescis?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">mitte id quod scio: dic quod rogo.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="I">Vestri.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="M">cuius vestri?</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="M">Nicocosmi.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">hem quid, discipuli?</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="I">Eho, an non ita est?</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l part="F">recte ego semper fugi has nuptias.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="I">O commentum te dignum!</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="F">quid clamitas!</l>
+            <l>Num hodie vesperi, clam patre, insciis omnibus</l>
+            <l>Praeter socios, Nicocosmus hanc sibi vestem induet?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l>O hominem simplicem! verum propediem nuptias</l>
+            <l>Nicocosmus cogitat. Si nunc hanc vestem ac litteras</l>
+            <l>Viderit Emporas, gnatam suam non dabit.</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l part="I">Non, hercle, non dabit.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">nunc adeo, ut tu sis sciens;</l>
+            <l>Ni vestem refers, iam iam ego hanc in mediam viam</l>
+            <l>Provolvam, teque ibidem provolvam in luto.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l>Tu pol homo non es sobrius. ille tamen</l>
+            <l part="I">Fidem dedit.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">cogi non potest istis legibus.</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l>In difficultates insciens paene incidi.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l>Quis hic loquitur? O Empora, per tempus advenis:</l>
+            <l part="I">Ausculta.</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l part="M">audivi iam omnia.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">anne tu omnia?</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l part="I">Audivi, inquam, a principio.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">audistin’ obsecro? hem</l>
+            <l part="I">Fabulam.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="F">nihil pol ficti dixi, mi Empora.</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l part="I">Novi rem omnem. sed est Cosmander intus?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">intus est.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l>Ne perge male facere. si pol coenobitis non omnia haec.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="I">Eho, vir bone, nescis quid sit actum.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="F">quid sciam?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l>Hic socer est. alio pacto haud poterat fieri,</l>
+            <l part="I">Ut sciret haec quae volumus.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="F">hem praediceres.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l>Paulum interesse censes, ex animo omnia,</l>
+            <l>Ut fert natura, facias, an de industria?</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA TERTIA.</head>
+          <argument>
+            <p>PAMBO de EUGENIA affert nuntium.</p>
+          </argument>
+          <stage>PAMBO, AEGIDIUS, PHILAGIUS.</stage>
+          <sp who="#pambo">
+            <speaker>PA.</speaker>
+            <l>Praeter spem erit hic, quem apporto, nuntius.</l>
+            <l>Gratusne, an acerbus Emporae, nihil vereor:</l>
+            <l>Nam quod Deus efficit, id homo aequi bonique faciat.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l>Obsecro, quem video? estne hic Pambo? is est,</l>
+            <l part="I">O Pambo salve.</l>
+          </sp>
+          <sp who="#pambo">
+            <speaker>PA.</speaker>
+            <l part="F">salve Aegidi, et tu Philagi.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="I">Quid affers?</l>
+          </sp>
+          <sp who="#pambo">
+            <speaker>PA.</speaker>
+            <l part="M">de Eugenia.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="M">quid?</l>
+          </sp>
+          <sp who="#pambo">
+            <speaker>PA.</speaker>
+            <l part="F">inter virgines</l>
+            <l part="I">Hodie religiosas vivit.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="M">nihil novi.</l>
+          </sp>
+          <sp who="#pambo">
+            <speaker>PA.</speaker>
+            <l part="F">imo</l>
+            <l part="I">Religiosa ipsa.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="M">id est?</l>
+          </sp>
+          <sp who="#pambo">
+            <speaker>PA.</speaker>
+            <l part="F">tonsa, et Deo sacra.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="I">Certo?</l>
+          </sp>
+          <sp who="#pambo">
+            <speaker>PA.</speaker>
+            <l part="F">adfui, et id Emporae renuntio.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l>Non te moror pluribus: vade cum Aegidio</l>
+            <l>Ad Franciscanos: id significa: mox revertere.</l>
+            <l>Videbo, quid in tempore hoc Cosmander agat. adest.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA QUARTA.</head>
+          <argument>
+            <p>NICOCOSMUM generum excusat EMPORAS.</p>
+          </argument>
+          <stage>EMPORAS, COSMANDER.</stage>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l>Satis iam, satis Cosmander, spectata erga te amicitia est mea.</l>
+            <l>Satis pericli coepi adire: orandi iam finem face.</l>
+            <l>Dum studeo obsequi tibi, paene illusi vitam filiae.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Imo enim quam maxime abs te postulo atque oro, Empora,</l>
+            <l>Ut beneficium, verbis initum dudum, nunc re comprobes.</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l>Vide quam iniquus sis prae studio, dum efficias id quod cupis,</l>
+            <l>Neque modum benignitatis, neque qui id me ores cogitas:</l>
+            <l>Nam si cogites, remittas iam me onerare iniuriis.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="I">Quibus?</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l part="F">ah! rogitas? perpulisti me, ut homini adolescentulo,</l>
+            <l>In religionis occupato amore, abhorrenti ab re uxoria,</l>
+            <l>Filiam darem in contemptum, atque incertas nuptias.</l>
+            <l>Impetrasti: incepi, dum res te tulit: nunc non fert, feras.</l>
+            <l>Ille fidem dedit: ego vestem vidi: intrabit hodie.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Per ego te Superos oro, ut ne illis animum in ducas credere:</l>
+            <l>Nuptiarum gratia haec sunt ficta atque incepta omnia.</l>
+            <l>Ubi ea causa, quamobrem haec faciunt, erit adempta his, desinent.</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l part="I">Erras. cum Aegidio egomet vidi iurgantem Philagium.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">scio.</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l>At vero vultu; cum, ibi me adesse, neuter tum persenserat.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Credo; et id facturos Philagius dudum praedixit mihi:</l>
+            <l>Et nescio quid tibi sum oblitus hodie ac volui dicere.</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA QUINTA.</head>
+          <argument>
+            <p>COSMANDER, cum audit EUGENIAM esse religiosam, ira incensus, PHILAGIUM domo
+              eiicit.</p>
+          </argument>
+          <stage>PHILAGIUS, EMPORAS, COSMANDER.</stage>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="I">Animo iam nunc otioso esse impero.</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l part="F">en Philagium tibi.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="I">Unde egreditur?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="M">meo praesidio, atque eremicolae.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">quid hoc</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="I">Ego commodiorem hominem, tempus, nuntium non vidi.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">est aliquid.</l>
+            <l part="I">Quemnam hic laudat?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="M">omnis res est iam in vado.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">cesso alloqui?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="I">Herus est: quid agam?</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="M">o salve, bone vir.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">hem here,</l>
+            <l part="I">O noster Empora. promoventur nuptiae?</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l part="F">curasti probe.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="I">Ubi voles, filiam accerse.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">bene sane. quid istic tibi</l>
+            <l part="I">Negotii est?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="M">mihine?</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="M">ita.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="M">mihine?</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">tibi</l>
+            <l part="I">Ergo.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="M">modo praedixi.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">quasi ego quam dudum id rogem.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l>Venturos ad pelliciendum filium cum nuntio et litteris.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="I">Non hic dolus?</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l part="F">quid illum censes? cum Aegidio litigat.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l>Imo vero insolens, Empora, iam facinus faxo ex me audias.</l>
+            <l>Nescio qui senex modo venit: ellum, comis, pius:</l>
+            <l>Cum vestem videas, videtur esse quantivis preti.</l>
+            <l>Gravis sanctitas inest in vultu, atque in verbis fides.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="I">Quidnam adportas?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">nil equidem, nisi quod illum audivi dicere.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="I">Quid ait tandem?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">Eugeniam se devovisse coenobio.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="I">Hem, discede ex mea domo.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="M">quid est?</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">discede, abi.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="I">Audi.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="M">verbum si addideris.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="M">audi obsecro.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">abi.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="I">Quamobrem?</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="M">quia lubet.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="M">quid feci?</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">proficiscere.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="I">Si quidquam mentitum invenies, id facito.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">nihil audio.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="I">Tametsi hoc verum est.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">tamen abito. Iam ego tibi</l>
+            <l>Ostendam, herum quid sit pericli fallere, et</l>
+            <l part="I">Illi patrem.</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l part="M">ah, ne saevi tantopere.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">Empora,</l>
+            <l>Pietatem gnati nonne te miseret mei?</l>
+            <l>Tantum laborem capere ob talem filium?</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l>Proviso quid sit domi: hic me urget nuntius;</l>
+            <l>Qui si est verus, periere funditus nuptiae.</l>
+            <l>Age Nicocosme: exi Nicocosme: ecquid te pudet?</l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA SEXTA.</head>
+          <argument>
+            <p>COSMANDER acriter obiurgat filium.</p>
+          </argument>
+          <stage>NICOCOSMUS, COSMANDER.</stage>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="I">Quis me vult? pater est.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">quid ais omnium?</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l>Ah! rem potius ipsam dic, ac mitte male loqui.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Quasi quidquam in te iam gravius dici possiet.</l>
+            <l part="I">Ain’ tandem, religiosa Eugenia est?</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="F">ita praedicant.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Ita praedicant? ingentem confidentiam!</l>
+            <l>Num cogitat, quid dicat? num facti piger:</l>
+            <l>Num eius color pudoris signum usquam indicat?</l>
+            <l>Adeon’ impotenti essem animo, ut praeter filii</l>
+            <l>Morem, atque legem, et sui voluntatem patris,</l>
+            <l>Tamen affingere cupiat, nuntios subornare cum probro?</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="I">Me miserum?</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">modone id demum sensisti, Nicocosme?</l>
+            <l>Olim istuc, cum ita animum induxti tuum,</l>
+            <l>Quod cuperes, aliquo pacto efficiendum tibi,</l>
+            <l>Eodem die istuc verbum vere in te accidit.</l>
+            <l>Sed quid ago? Cur me excrucio? cur me macero</l>
+            <l>Cur meam vitam huius sollicito amentia? an</l>
+            <l>Pro huius ego ut libidine supplicium sufferam?</l>
+            <l part="I">Imo adeat Religionem, valeat, vivat cum illa.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="F">mi pater.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Quid, mi pater? quasi tu huius indigeas patris.</l>
+            <l>Domus, vestis, fratres inventi invito patre:</l>
+            <l>Adducti qui te comitentur hodie vesperi: viceris.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="I">Pater, licetne pauca?</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">quid dices mihi?</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="I">Tamen, pater, audi.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">ego audiam? quid ego audiam?</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="I">Attamen dicam sine.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">age dicas, sino.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l>Ego me cupere religionem fateor. si id peccare est,</l>
+            <l>Fateor id quoque. obediam tibi ubivis, modo </l>
+            <l>Non obsurdescam Deo: sed de hoc cape arbitrum,</l>
+            <l>Qui utrimque rationes audiat, et momenta ponderet.</l>
+            <l>Hoc modo te obsecro, ut ne credas a me allegatum hunc senem.</l>
+            <l>Sine me expurgem, atque illum huc coram adducam tibi.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="I">Adducas?</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="F">sine pater, aequum postulo, da veniam</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Do, quodvis cupio, dum ne a te me falli comperiam.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="I">Ipse venit obvius.</l>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCENA SEPTIMA.</head>
+          <argument>
+            <p>COSMANDER contumeliose PAMBONEM alloquitur.</p>
+          </argument>
+          <stage>PAMBO, NICOCOSMUS, COSMANDER, AEGIDIUS.</stage>
+          <sp who="#pambo">
+            <speaker>PA.</speaker>
+            <l part="F">Hiccine est pater tuus</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="I">Hic est.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">mene quaeris? eho, tu Eugeniam esse religiosam ais?</l>
+          </sp>
+          <sp who="#pambo">
+            <speaker>PA.</speaker>
+            <l part="I">Tu negas?</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="M">itane huc paratus ad venis?</l>
+          </sp>
+          <sp who="#pambo">
+            <speaker>PA.</speaker>
+            <l part="M">quare?</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">rogas?</l>
+            <l>Tunc impune haec facias? tune hic homines adolescentulos,</l>
+            <l>Imperitos rerum, eductos libere, in fraudem illicis?</l>
+            <l part="I">Sollicitando, et renuntiando corum animos lactas?</l>
+          </sp>
+          <sp who="#pambo">
+            <speaker>PA.</speaker>
+            <l part="F">sanusne es?</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Ac certas nuptias spe religiosa labefacis?</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="I">Perii, metuo ut substet Pambo.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="F">si hunc noris satis,</l>
+            <l part="I">Non ita arbitrere. bonus hic est vir.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">hic vir sit bonus?</l>
+            <l>Itane attemperate venit hodie in ipsis nuptiis,</l>
+            <l>Ut veniret antehac nunquam? eremum colat suam.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l>Ni metuam patrem, habeo pro illa re, illum quod moneam probe.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="I">Circumforaneus cursor.</l>
+          </sp>
+          <sp who="#pambo">
+            <speaker>PA.</speaker>
+            <l part="M">hem.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="F">sic Pambo est hic,</l>
+            <l part="I">Mitte.</l>
+          </sp>
+          <sp who="#pambo">
+            <speaker>PA.</speaker>
+            <l part="F">videat, qui siet: si mihi pergit quae vult dicere,</l>
+            <l>Ea quae non vult audiet. ego istaec moveo, aut</l>
+            <l>Curo? non tu tuum malum aequo animo feres?</l>
+            <l>Nam, ego quae dixi, vera, an falsa audieris, iam sciri potest.</l>
+            <l>Fui forte istic apud religiosas hodie. rogo</l>
+            <l part="I">Quid festus dies?</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="M">fabulam inceptat.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="F">sine pater.</l>
+          </sp>
+          <sp who="#pambo">
+            <speaker>PA.</speaker>
+            <l part="I">Itane vero obturbat?</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="M">perge.</l>
+          </sp>
+          <sp who="#pambo">
+            <speaker>PA.</speaker>
+            <l part="F">una ex his mihi,</l>
+            <l>Eugenia, inquit, nupta est Christo: renuntia hoc patri:</l>
+            <l>Renuntio: qua in re tibi, Cosmander, et illi noceo?</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="I">Hoc tu scis solus?</l>
+          </sp>
+          <sp who="#pambo">
+            <speaker>PA.</speaker>
+            <l part="F">eadem haec audivere multi alii,</l>
+            <l part="I">Et venere ad Emporam.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">ubi sunt illi modo?</l>
+          </sp>
+          <sp who="#pambo">
+            <speaker>PA.</speaker>
+            <l>Credo, domi Emporae certi nuntii, qui dicent idem.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Veni mecum iam nunc, ut liberes fidem. Nam nisi</l>
+            <l>Ab Empora hoc certo scio, non credo tantum malum.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="5">
+        <head>ACTUS QUINTUS.</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>EMPORAS fert aequo animo consilium filia.</p>
+          </argument>
+          <stage>EMPORAS, COSMANDER.</stage>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l>Crudior accidit paulo hic nuntius stomacho,</l>
+            <l part="I">Quia non providi.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">non noras animum filiae?</l>
+            <l>Domesticus usus, et consuetudo in coenobio</l>
+            <l>Non est temere: tum pietas ac indoles</l>
+            <l>Eugeniae tuae fere hunc habent exitum.</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l part="I">Sciebam: fore non credidi.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">porro quid consilii?</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l>Non aegre pati haec quae molesta sunt:</l>
+            <l>Nam quod est factum, infectum fieri non potest.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="I">Quin revocas?</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l part="M">unde?</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="M">vel ex aris.</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l part="F">quas tenet?</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Discat et ab ipsa retro posteritas</l>
+            <l>Inconsulto patre non istuc facere.</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l>Istuc non credo esse probi officium patris.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Nostra sunt parentum in potestate liberi.</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l>Nisi Deus sibi vendicat. credo ego plures miseros</l>
+            <l>Esse parentes ex animo, qui suis</l>
+            <l>Orbantur filiis, quod non recte pendant sibi</l>
+            <l>Adeo commodari gnatos, uti pecunias,</l>
+            <l>Quas praestituta hora creditor repetit.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="I">Ita affectus es?</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l part="F">semper nos vereri Deum,</l>
+            <l>Adiutare, Cosmander, liberos in vitae statu</l>
+            <l>Capiendo, nostrum officium nos facere aequum est, neque</l>
+            <l>Id faciemus magis, quam nos pietas monet.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Cur igitur tantopere istas procurabas nuptias!</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l>Procurabam, ut integra tamen esset optio:</l>
+            <l>Nunc filiam quidem si religio non poenitet,</l>
+            <l>Neque est cur studeam has nuptias fieri.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Una est proles, et huic comparasti opes.</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l>Hae sunt parentum curae, Cosmander, et inania</l>
+            <l>Vota, quae Democritus rideat, vel Heraclitus</l>
+            <l>Defleat, pro liberis nostris quae facimus.</l>
+            <l>Ego meae optabam filiae, quae quidem in homine</l>
+            <l>Dicuntur bona, maritum, vitam, divitias:</l>
+            <l>Verum non his metitur illa felicitatem suam.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="I">Errat.</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l part="F">attamen quid facias? sic illa cogitat.</l>
+            <l>Nempe haec, quae paramus liberis, perinde sunt,</l>
+            <l>ut illorum animus, qui ea possidet:</l>
+            <l>Qui uti amat, ei bona: illi qui non amat, non bona.</l>
+            <l>Quare nihil amplius, si plures mihi sint liberi,</l>
+            <l>Statui optare, vovere, nisi quod aspirat Deus.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Video, immutatus animus est tuus, Empora:</l>
+            <l>Quem consuluisti? ex eremo, vel coenobio?</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l>Imo meipsum intus, ac testem conscientiam:</l>
+            <l>Quod iam magis intelliges coram Pambone, qui adest.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>EMPORAS statuit in eremo vivere.</p>
+          </argument>
+          <stage>PAMBO, EMPORAS, COSMANDER.</stage>
+          <sp who="#pambo">
+            <speaker>PA.</speaker>
+            <l part="I">Quid referam gnatae tuae, Empora?</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l part="F">hoc ipsam sapere,</l>
+            <l part="I">Quod religionem sapiat.</l>
+          </sp>
+          <sp who="#pambo">
+            <speaker>PA.</speaker>
+            <l part="M">felix est?</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l part="F">spero quidem,</l>
+            <l>Et volo. restat me similem huic vitam agere.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Cave sis audiam ego istuc posthac ex te, Empora.</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l part="I">Nam quid iam?</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">quia non sapientis est viri</l>
+            <l>Continuo imitari levius factum puellulae,</l>
+            <l>Nec familiae velle habere rationem suae.</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l>Istuc ad te quid attinet? aut quid sapientiae</l>
+            <l>Aliena ut cures? mihi res fit, an tibi?</l>
+            <l>Nuptiarum spes est praecisa: ego filiam perdidi</l>
+            <l>Ah! quid dixi, perdidi? imo beatior</l>
+            <l>Nupsit Christo: cur non insequar vestigia?</l>
+            <l>De familia quod dicis, iam sum satur:</l>
+            <l>Dividiae mihi sunt ac senio res domesticae.</l>
+            <l>Quaeram haeredem Deum, quando filia careo.</l>
+          </sp>
+          <sp who="#pambo">
+            <speaker>PA.</speaker>
+            <l>Macte, beata est haec vita, quae procul hominibus.</l>
+            <l>Nunquam in eremo minus es solus, quam cum solus es:</l>
+            <l>Eo ditior, quo te nihil egentius.</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l>Proinde si apud te est angulus, volo</l>
+            <l part="I">Uti.</l>
+          </sp>
+          <sp who="#pambo">
+            <speaker>PA.</speaker>
+            <l part="F">gratus eris hospes. at prius domesticis</l>
+            <l part="I">Prospice.</l>
+          </sp>
+          <sp who="#emporas">
+            <speaker>E.</speaker>
+            <l part="M">id faciam. vale, Cosmander.</l>
+          </sp>
+          <sp who="#pambo">
+            <speaker>PA.</speaker>
+            <l part="F">vale.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Peto veniam, Pambo, si tibi quid dixi ex stomacho,</l>
+            <l part="I">Quod non placeret.</l>
+          </sp>
+          <sp who="#pambo">
+            <speaker>PA.</speaker>
+            <l part="F">incalueras: non memini.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA TERTIA.</head>
+          <argument>
+            <p>COSMANDER movetur exemplo EMPORAE.</p>
+          </argument>
+          <stage>COSMANDER.</stage>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Superi! quid intellexi? aut quale istud factum Emporae?</l>
+            <l>Qui abdicatis bonis, eremo se involvit profundius?</l>
+            <l>Profecto vel ipse desipit, vel ego minus sapio:</l>
+            <l>Quod si eius imiter factum, cum illo insaniam.</l>
+            <l>Tamen, cum mecum puto, aliquid est in vita eiusmodi,</l>
+            <l>Quam tam multi, minime stulti, amplectuntur quotidie:</l>
+            <l>Vident aliud quidpiam, quod nos oculati non videmus item.</l>
+            <l>Porro quid illud? reipsa reperit Emporas, nihil</l>
+            <l>Esse homini optandum in vita: id ego incipio discere.</l>
+            <l>Nam duxi uxorem: quam ibi miseriam vidi? dein</l>
+            <l>Natus filius, alia cura: porro autem illi dum studeo</l>
+            <l>Ut quam plurimum facerem, nempe honesto coniugio,</l>
+            <l>Frustra contrivi in his operam, atque aetatem meam.</l>
+            <l>Respuit ille haec: hunc ego pro labore fructum fero.</l>
+            <l>I nunc, para haereditatem filio, et subtrahe genio,</l>
+            <l>Lucro etiam animam vende, frustra spes incertas alis.</l>
+            <l>Age, age, iam sapiamus, Cosmander, exemplo Emporae.</l>
+            <l>Experiar porro contra, ecquid ego possiem</l>
+            <l>Res saeculi mittere, obsecundare voto filii, denique</l>
+            <l>Senis caput cum filio sepelire mortuum in coenobiis.</l>
+            <l part="I">Quis egreditur foras?</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA QUARTA.</head>
+          <argument>
+            <p>COSMANDER placatur PHILAGIO.</p>
+          </argument>
+          <stage>AEGIDIUS, COSMANDER, PHILAGIUS.</stage>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="F">Moerore conficitur Philagius,</l>
+            <l part="I">Propterea quod succenses illi.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">quis homo?</l>
+            <l>O Aegidi noster, salve. quid ais? quid agitur?</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="I">Non recte cum illo.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">doleo si quid per iracundiam</l>
+            <l>Dixi: corrigam: nam et illi et tibi lubens</l>
+            <l part="I">Bene faxim.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="M">habeo gratiam.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">atqui, Aegidi,</l>
+            <l>Hoc verum est, et ipsa re experiere hodie.</l>
+            <l>Accerse, ut cito ipse redeat in gratiam.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l>Audivi, Cosmander; adsum, si merui veniam.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Nunquam ita, Philagi, quisquam hominum bene</l>
+            <l>Subducta ratione ad vitam fuit,</l>
+            <l>Quin res, aetas, usus semper aliquid</l>
+            <l>Apportet novi, aliquid moneat, ut ea</l>
+            <l>Quae dixisti, aut tu fecisti, dixisse non velis,</l>
+            <l>Aut fecisse: et quae tibi putaris prima hodie,</l>
+            <l part="I">Cras experiendo repudies.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">sic vita est:</l>
+            <l>Mulli satis cautum in horas: dies posthuma</l>
+            <l part="I">Prudentior priore.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">nunc tibi dicam quod sentio:</l>
+            <l>Quam fuerim ad versus filio, tu scis, Philagi,</l>
+            <l>Et studiosus, dum uxorem duceret: mutavi animum.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l>Miror hoc tantum tam repentinum consilium.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Postquam vidi Emporam, Philagi, quod placide ferret suae</l>
+            <l>Orbitatem filiae, imo imitaretur facinus:</l>
+            <l>Coepi cogitare, hem, ille homo ditior</l>
+            <l>Et iunior me spernit saeculum, nec vota ulterius</l>
+            <l>Porrigit in haeredem alterum: quin ego itidem</l>
+            <l>Missum facio haeredem filium, et Deum vereor,</l>
+            <l>Qui illum reposcit sibi? sensi me intus illico </l>
+            <l>Moneri, ut cum illo me voverem Deo.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l>Quid audio? quam sane, Cosmander, haec existimas?</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Sed quia sum senex, sat erit mihi has coenobii</l>
+            <l>Habitare aedes, dum se filius asceticum probet.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l>Placet consilium. cur non huc venire Nicocosmum iubes?</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="I">Quaeratur.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">sua nunc solide gaudebit gaudia.</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA QUINTA.</head>
+          <argument>
+            <p>NICOCOSMUS fit voti compos.</p>
+          </argument>
+          <stage>PHILAGIUS, NICOCOSMUS, COSMANDER, AEGIDIUS.</stage>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="I">Euge, Nicocosme, euge!</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="F">nam quis me vocat</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="I">Est pater.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="M">quamobrem?</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">iam ex ipso scies.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="I">Ego amicus summus vobis</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="F">o factum bene!</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Nec mora ulla est, quin religionem adeas.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="I">Deus! quid mihi obtigit?</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="F">tuus sum comes.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l>Aliquis forsan me putet, pater,</l>
+            <l>Non hoc putare verum: at mihi nunc sic esse hoc</l>
+            <l>Verum lubet. ego vitam coelitum propterea</l>
+            <l>Sempiternam esse arbitror, quod sunt propriae</l>
+            <l>Horum voluptates. nam mihi immortalitas</l>
+            <l>Parta est, si nulla huic aegritudo gaudio intercesserit.</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l part="I">Ne time.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="F">salvus sum, si haec vera sunt.</l>
+            <l part="I">Plura non possum eloqui.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l part="F">Nicocosme, gratulor.</l>
+          </sp>
+          <sp who="#aegidius">
+            <speaker>AE.</speaker>
+            <l part="I">Gratulor.</l>
+          </sp>
+          <sp who="#nicocosmus">
+            <speaker>N.</speaker>
+            <l part="F">quid istuc gaudii est? o faustum diem!</l>
+          </sp>
+          <sp who="#cosmander">
+            <speaker>C.</speaker>
+            <l>Eamus intro, Nicocosme, mentem meam intelliges.</l>
+          </sp>
+          <sp who="#philargius">
+            <speaker>PH.</speaker>
+            <l>iam nunc fient nuptiae, quas Agnus in coelo prae parat.</l>
+          </sp>
+          <closer>FINIS.</closer>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

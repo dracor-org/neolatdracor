@@ -1,0 +1,3525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="dracor" xml:id="neolat000177" xml:lang="la">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Dos</title>
+        <author>
+          <persName xml:lang="la">
+            <forename>Martinus</forename>
+            <surname>du Cygne</surname>
+          </persName>
+          <idno type="wikidata">Q21545079</idno>
+        </author>
+        <respStmt>
+          <resp>Transcribed by</resp>
+          <persName ref="https://orcid.org/0000-0002-9764-187X">Nicholas De Sutter</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Converted to TEI by</resp>
+          <persName ref="https://orcid.org/0000-0002-9764-187X">Nicholas De Sutter</persName>
+        </respStmt>
+        <funder>
+          <orgName>FWO</orgName>
+          <name>1291325N</name>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <ref target="https://books.google.com/books?id=vqAjcaQDLrgC">Google Books</ref>
+          <availability status="free">
+            <p>In the public domain.</p>
+          </availability>
+        </bibl>
+        <bibl type="originalSource">
+          <author>Martinus du Cygne</author>: <title>Dos</title>. <title type="sub">Comoedia
+            VIII</title>. In: <author>Martinus du Cygne</author>: <title>Comoediae XII</title>. <title type="sub">Pars posterior</title>. 
+          <pubPlace>Liège</pubPlace>: <publisher>Joannes Mathias Hovius</publisher>
+          <date>1679</date>. <biblScope>pp. 55–104</biblScope>. </bibl>
+        <listEvent>
+          <event type="print" when="1679">
+            <desc/>
+          </event>
+        </listEvent>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="prologus" sex="UNKNOWN">
+            <persName>Prologus</persName>
+          </person>
+          <person xml:id="callicles" sex="MALE">
+            <persName>Callicles</persName>
+          </person>
+          <person xml:id="eugenius" sex="MALE">
+            <persName>Eugenius</persName>
+          </person>
+          <person xml:id="tabardus" sex="MALE">
+            <persName>Tabardus</persName>
+          </person>
+          <person xml:id="lampadio" sex="MALE">
+            <persName>Lampadio</persName>
+          </person>
+          <person xml:id="philto" sex="MALE">
+            <persName>Philto</persName>
+          </person>
+          <person xml:id="milphio" sex="MALE">
+            <persName>Milphio</persName>
+          </person>
+          <person xml:id="geusion" sex="MALE">
+            <persName>Geusion</persName>
+          </person>
+          <person xml:id="patellus" sex="MALE">
+            <persName>Patellus</persName>
+          </person>
+          <person xml:id="sycophanta-1" sex="MALE">
+            <persName>Sycophanta 1</persName>
+          </person>
+          <person xml:id="sycophanta-2" sex="MALE">
+            <persName>Sycophanta 2</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">comedy</term>
+        </keywords>
+        <classCode scheme="https://www.wikidata.org/wiki/Q40831"/>
+      </textClass>
+      <creation>
+        <region>
+          <ref target="https://www.wikidata.org/wiki/Q622783">Spanish Netherlands</ref>
+        </region>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2026-07-24">
+          <desc>Converted to DraCor TEI by Nicholas De Sutter.</desc></change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart>Dos</titlePart>
+        </docTitle>
+      </titlePage>
+      <argument>
+        <head>MATERIA</head>
+        <p>Anno 1610. Parisiis, Mendicus nuptum dedit filiam, et huic in dotem decem aureorum
+          millia; hac conditione, ut si nulla proles nasceretur, fundando Pauperum Xenodochio essent
+          hae pecuniae. <ref>Merc. Gall.</ref></p>
+      </argument>
+      <castList>
+        <head>PERSONAE</head>
+        <castItem>
+          <role>Callicles</role>
+          <roleDesc>Civis</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Eugenius</role>
+          <roleDesc>filius</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Tabardus</role>
+          <roleDesc>patruus</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Lampadio</role>
+          <roleDesc>servus</roleDesc>
+        </castItem>
+        <castGroup rend="braced">
+          <castItem>
+            <role>Philto</role>
+          </castItem>
+          <castItem>
+            <role>Milphio</role>
+          </castItem>
+          <roleDesc>Mendici</roleDesc>
+        </castGroup>
+        <castGroup rend="braced">
+          <castItem>
+            <role>Geusion</role>
+          </castItem>
+          <castItem>
+            <role>Patellus</role>
+          </castItem>
+          <roleDesc>testes</roleDesc>
+        </castGroup>
+      </castList>
+      <div type="argument">
+        <head>Distributio</head>
+        <list type="argument">
+          <item>
+            <label>Actus I</label>
+            <list>
+              <milestone unit="dramaticPhase" n="protasis"/>
+              <item><label>Scena I</label> Milphio suadet Eugenio, ut Philtonis filiam ducat
+                uxorem.</item>
+              <item><label>Scena II</label> Eugenius a Philtone petit sibi desponderi filiam.</item>
+            </list>
+          </item>
+          <item>
+            <label>Actus II</label>
+            <list>
+              <milestone unit="dramaticPhase" n="epitasis"/>
+              <item><label>Scena I</label> Lampadio aegre fert Eugenium frequentare Philtonis
+                domum.</item>
+              <item><label>Scena II</label> Lampadio maledicit Milphioni.</item>
+              <item><label>Scena III</label> Lampadio narrat Callicli, Eugenium esse apud Philtonis
+                filiam.</item>
+              <item><label>Scena IV</label> Callicles primum obiurgat filium: mox placatur.</item>
+              <item><label>Scena V</label> Callicles cum Philtone transigit de faciendis
+                nuptiis.</item>
+            </list>
+          </item>
+          <item>
+            <label>Actus III</label>
+            <list>
+              <item><label>Scena I</label> Tabardus miratur apparari nuptias.</item>
+              <item><label>Scena II</label> Tabardus iurgat cum Eugenio et Callicle, ob constitutas
+                nuptias.</item>
+              <item><label>Scena III</label> Tabardus Philtoni facit convicium.</item>
+              <item><label>Scena IV</label> Callicles obiicit fratri iniuriam Philtoni
+                illatam.</item>
+              <milestone unit="dramaticPhase" n="catastasis"/>
+              <item><label>Scena V</label> Tabardus capit consilium subornandi falsos testes contra
+                Philtonem.</item>
+              <item><label>Scena VI</label> Duo sycophantae conducuntur.</item>
+            </list>
+          </item>
+          <item>
+            <label>Actus IV</label>
+            <list>
+              <item><label>Scena I</label> Eugenius expendit nuptias.</item>
+              <item><label>Scena II</label> Geusion et Patellus imponunt Eugenio.</item>
+              <item><label>Scena III</label> Deterretur Eugenius a nuptiis.</item>
+              <item><label>Scena IV</label> Eugenius dubitat patri obedire.</item>
+              <item><label>Scena V</label> Eugenius auctori nuptiarum Milphioni succenset.</item>
+            </list>
+          </item>
+          <item>
+            <label>Actus V</label>
+            <list>
+              <milestone unit="dramaticPhase" n="catastrophe"/>
+              <item><label>Scena I</label> Callicles Geusionem et Patellum fictos esse testes
+                reperit.</item>
+              <item><label>Scena II</label> Eugenius et Milphio Sycophantas male mulctant.</item>
+              <item><label>Scena III</label> Eugenius obiicit Tabardo calumniam.</item>
+              <item><label>Scena IV</label> Callicles et Philto nuptias decernunt.</item>
+            </list>
+          </item>
+        </list>
+      </div>
+    </front>
+    <body>
+      <div type="prologue">
+        <head>PROLOGUS.</head>
+        <sp who="#prologus">
+          <l>PARADOXUM, et praeter opinionem est omnium,</l>
+          <l>Mendicus dives: velut hic Philto, qui filia</l>
+          <l>Dotem dat magnam. eum necesse fuit</l>
+          <l>Cum avo, et patre, diu porrexisse manum</l>
+          <l>Ad quadrantes, vel asses, vel nummos, ut ex</l>
+          <l>His et his adiectis dives cumulus fieret.</l>
+          <l>Verum ita fit, ut populus liberalis est</l>
+          <l>In pauperes, ut ipsa mendicitas locuples</l>
+          <l>Sit quaestus: quem norunt isti pro templis assidui,</l>
+          <l>Vel in viis caeci, claudi, agri, mendiculi.</l>
+          <l>Queis tu, Christiane, non desistas benefacere:</l>
+          <l>Nam tibi maior est quaestus apud Superos.</l>
+        </sp>
+      </div>
+      <div type="act" n="1">
+        <head>ACTUS PRIMUS.</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>MILPHIO suadet EUGENIO, ut PHILTONIS filiam ducat uxorem.</p>
+          </argument>
+          <stage>MILPHIO, EUGENIUS.</stage>
+          <sp who="#milphio">
+            <speaker>M.</speaker>
+            <l>Velim te arbitrari me haec verba, Eugeni,</l>
+            <l>Meae fidei, tuaeque rei causa facere,</l>
+            <l>Ita ut aequum est benevolum hominem.</l>
+            <l>Quanquam haud fallor nos mendicos despici,</l>
+            <l>Nec fere in pretio esse quod loquimur:</l>
+            <l>Verum hoc, Eugeni, unum tamen cogita,</l>
+            <l>Tibi gratum me, quod saepe expertus es;</l>
+            <l>Mihique item esse te amicum, qui me alis.</l>
+            <l>Ita aequum est, quod in rem esse tibi arbitror,</l>
+            <l>Tibi me consulere, et etiam monere te,</l>
+            <l>Neque occultum id habere, neque per metum</l>
+            <l>Mussare, quin participem ego te faciam.</l>
+            <l>Eo nunc ego secreto te huc seduxi foras,</l>
+            <l>Ut tuam rem ego tecum hic loquerer familiariter.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Pro meis benefactis, fateor, tibi</l>
+            <l>Fides est, Milphio, et multa gratia.</l>
+          </sp>
+          <sp who="#milphio">
+            <speaker>M.</speaker>
+            <l part="I">Da mihi operam amabo.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">tua est, utere.</l>
+          </sp>
+          <sp who="#milphio">
+            <speaker>M.</speaker>
+            <l>Id quod in rem tuam optimum esse arbitror,</l>
+            <l part="I">Te id admonitum advento.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">eloquere.</l>
+          </sp>
+          <sp who="#milphio">
+            <speaker>M.</speaker>
+            <l>Quod sempiternum tibi salutare sit,</l>
+            <l part="I">Volo te uxorem ducere.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">et ego volo.</l>
+            <l>Dic quis ea est, quam vis me ducere?</l>
+          </sp>
+          <sp who="#milphio">
+            <speaker>M.</speaker>
+            <l>Novisti hunc senem mendicum ex proximo?</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="I">Novi hominem, haud malum aedepol.</l>
+          </sp>
+          <sp who="#milphio">
+            <speaker>M.</speaker>
+            <l part="F">eius cupio</l>
+            <l>Filiam tibi desponderi. Verba ne facias, Eugeni,</l>
+            <l>Scio quid dicturus es, hanc esse pauperem:</l>
+            <l part="I">Haec pauper tibi placeat.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">ego parentum bonis,</l>
+            <l>Et virtute Superum dives sum satis.</l>
+            <l>Istas magnas nuptias, dotes dapsiles, animos,</l>
+            <l>Clamores, imperia, pallas, purpuram</l>
+            <l>Nihil moror, quae in servitutem sumptibus</l>
+            <l>Redigunt viros: attamen convenit me parem</l>
+            <l>Et genere, et divitiis, et virtute uxorem ducere.</l>
+          </sp>
+          <sp who="#milphio">
+            <speaker>M.</speaker>
+            <l>Haec duo tibi evenient: nam genus,</l>
+            <l>Et maiorum stemmata opinor aliena sunt.</l>
+            <l>Age nunc, qua gratia ego te convenio,</l>
+            <l part="I">Ausculta.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="M">fiat.</l>
+          </sp>
+          <sp who="#milphio">
+            <speaker>M.</speaker>
+            <l part="F">dic mihi prius,</l>
+            <l part="I">Potes tacere?</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">ego tacere possum optime </l>
+            <l>Verum heus tu, lege hac tibi meam obstringo fidem:</l>
+            <l>Quae vera audivi, taceo et contineo optime;</l>
+            <l>Sin falsum, an vanum, aut fictum est, continuo palam est</l>
+            <l>Plenus rimarum sum, hac atque illac perfluo.</l>
+            <l>Proin tu taceri si vis, vera dicito.</l>
+          </sp>
+          <sp who="#milphio">
+            <speaker>M.</speaker>
+            <l>Mendicos habuit ille Philto patrem et avum</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="I">Potest taceri hoc.</l>
+          </sp>
+          <sp who="#milphio">
+            <speaker>M.</speaker>
+            <l part="F">avus multorum diu</l>
+            <l>Satelles pontium a transeuntibus stipem</l>
+            <l>Petiit, eo quaestu, ut pecuniosus esset oppido.</l>
+            <l>Nam auri thesaurum clam omnibus in medio</l>
+            <l part="I">Foco defodit.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">hoc falsum est, effluet.</l>
+          </sp>
+          <sp who="#milphio">
+            <speaker>M.</speaker>
+            <l>Is quando moritur (eo ingenio fuit)</l>
+            <l>Nunquam indicare filio id voluit suo:</l>
+            <l>Inopemque optavit potius eum relinquere,</l>
+            <l>Quam eum thesaurum commonstraret filio.</l>
+            <l>Ei reliquit pontem suum, ubi considens</l>
+            <l>Inter egenos manum porrigeret ad stipem.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Nisi planum facis, hoc quoque effluet.</l>
+          </sp>
+          <sp who="#milphio">
+            <speaker>M.</speaker>
+            <l>Ubi is obiit mortem, coepit patris</l>
+            <l>Quaestum colere, et sibi parare pecunias</l>
+            <l>Multas, quas amico suo patri meo,</l>
+            <l>Item mendico, concredidit, per amicitiam</l>
+            <l>Et fidem, flens, eum obsecrans, gnato ne suo</l>
+            <l>Diceret, nisi iam seni, vel se diu mortuo.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="I">Neque hoc tacebo.</l>
+          </sp>
+          <sp who="#milphio">
+            <speaker>M.</speaker>
+            <l part="F">dubiumne id est?</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="I">Arbitror.</l>
+          </sp>
+          <sp who="#milphio">
+            <speaker>M.</speaker>
+            <l part="F">sed sine me pervenire quo volo.</l>
+            <l>Interea ille item obiit diem: hic filius suus</l>
+            <l>Instituit esse mendicus. nam (quod prius</l>
+            <l>Omisi dicere) huic adhuc in cunis pater</l>
+            <l>Brachium unum et pedem contorserat, ne alio</l>
+            <l>Modo, aut labore alio, quam mendiciter,</l>
+            <l>Viveret: propterea quod hanc vitam magis</l>
+            <l>Quaestuosam et divitem sciret experientia.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="I">Non adhuc scio quorsum tu eas.</l>
+          </sp>
+          <sp who="#milphio">
+            <speaker>M.</speaker>
+            <l part="F">iam scies.</l>
+            <l>Postquam multos annos hic Philto ab infantia</l>
+            <l>Mendicasset, ut pater avusque eius fecerat,</l>
+            <l>Coepit aegrotare pater meus, et adeo moriens,</l>
+            <l>Philto, inquit, tibi enuntio, quod meae concreditum</l>
+            <l>Sit taciturnitati, clam, fidei et fiduciae.</l>
+            <l>Reddo tibi hanc crumenam, quam mihi tuus</l>
+            <l>Pater dedit, ut tibi servarem seni.</l>
+            <l>Insunt in ea ter mille aurei: his utere.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="I">An id verum est, Milphio?</l>
+          </sp>
+          <sp who="#milphio">
+            <speaker>M.</speaker>
+            <l part="F">praesens aderam</l>
+            <l>Oculatus testis. Aliud autem ex me audies:</l>
+            <l>Cum Philto, his bonis paternis auctior,</l>
+            <l>Nova quotidie lucra mendicus faceret,</l>
+            <l>Fors fecit, ut reperiret thesaurum avi,</l>
+            <l>Cum inscius repararet focum suum,</l>
+            <l>Quem ignis edax consumpserat. strata erat</l>
+            <l>Ex aere lamina, his impressis notis:</l>
+            <l>Mendicitas quaestus omnium uberrimus.</l>
+            <l>Verbo, Eugeni, sex aureorum millis</l>
+            <l>Ex hoc thesauro eruit, quae mihi</l>
+            <l>Sodali fido ostendit, et amico intimo.</l>
+            <l>Iam ad rem venio: habet hic Philto filiam</l>
+            <l>Haeredem omnium; hanc tibi delige.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Persuades, ut ego Philtonem conveniam,</l>
+            <l part="I">Si domi est: sed eccum.</l>
+          </sp>
+          <sp who="#milphio">
+            <speaker>M.</speaker>
+            <l part="F">vos solos sinam.</l>
+            <l>Sed tace de thesauro dixisse me.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>EUGENIUS a PHILTONE petit sibi desponderi filiam.</p>
+          </argument>
+          <stage>EUGENIUS, PHILTO.</stage>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Salve Philto. parumper da mihi operam:</l>
+            <l>Paucis est quod te volo de communi re</l>
+            <l part="I">Appellare mea et tua.</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l part="F">si quid me vis, loquere.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Quod percunctabor, ne te pigeat proloqui.</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l>Dum quidem ne percuncteris, quod non queo.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Dic mihi, quali me arbitrare prognatum genere!</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l part="I">Bono.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="M">quid fide?</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l part="M">bona.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="M">quid factis?</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l part="F">bonis.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Certe aedepol equidem te hominem sine</l>
+            <l>Omni malitia mala etiam semper sum ratus,</l>
+            <l part="I">Et nunc arbitror.</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l part="F">habeo gratiam. quid igitur!</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Quoniam tu me, et ego te, qualis sis, scio:</l>
+            <l>Quae res recte vertat mihi, et tibi,</l>
+            <l>Et filiae tuae: hanc mihi uxorem peto.</l>
+            <l part="I">Promitte hoc fore.</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l part="F">merito me, Eugeni,</l>
+            <l>Derideri a te reor, cum hanc mentionem facis.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="I">Non derideo te, Philto.</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l part="F">cur poscis gnatam tibi?</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l>Ut bene sit mihique, tibique, filiaeque tuae.</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l>Venit hoc mihi in mentem, Eugeni, te nobilem</l>
+            <l>Esse civem, me item mendicum hominem ab infantia.</l>
+            <l>Nunc si filiam locavero meam tibi, quid erit?</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Quam ad probos propinquitate proxime </l>
+            <l>Te adiunxeris, tam optimum est. tu accipe</l>
+            <l>Hanc conditionem, mihi ausculta, atque eam</l>
+            <l part="I">Mihi desponde.</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l part="F">at si nihil dotis est,</l>
+            <l part="I">Quod ipsi dem?</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">ne des, dummodo filia</l>
+            <l>Morata recte veniat, dotata est satis.</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l>At non ausim inaequales nuptias facere.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>More hominum facis, Philto: nam si honestior</l>
+            <l>It petitum pauperis gratiam, pauper metuit</l>
+            <l>Congredi, per metum male rem gerit:</l>
+            <l>Idem, quando illaec occasio periit, post sero sapit.</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l>Verum aedepol, Eugeni, hoc subitum est nimis.</l>
+            <l part="I">Vereor ut procedat.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">maturum est consilium,</l>
+            <l part="I">Ne dubita.</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l part="F">nihil audivisti de auro meo?</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Quasi ego te thesaurum reperisse censeam.</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l>Eo coniicio, quia si scires meam filiam</l>
+            <l>Dote cassam, atque inlocabilem, non eam posceres.</l>
+            <l>Quis tibi auri indicium fecit? Milphio?</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Dicam postea. quid? nunc etiam mihi</l>
+            <l part="I">Despondes filiam?</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l part="F">illis legibus,</l>
+            <l>Ut propter pecunias solas non eam ames:</l>
+            <l>Neque fastidias genus, quod sit humile;</l>
+            <l>Sed virtutem aestimes, quae coniuges beat.</l>
+            <l>Si tamen dotis affatim mea ad te afferet filia,</l>
+            <l>Gaudeas partis, sed ita convenisse memineris.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="I">Hoc faciam. sponden’ ergo?</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l part="F">spondeo.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Nulla controversia mihi tecum erit:</l>
+            <l>Nuptias promovebo hodie quantum potero.</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l part="I">Imo optime.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="M">ibo ad patrem.</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l part="F">istuc fiat.</l>
+            <l>Thesaurus obsecro et dos quid valem?</l>
+            <l>Non est dubium illum inaudiisse mihi</l>
+            <l>Esse pecunias domi: ea affinitatem hanc</l>
+            <l>Obstinavit gratia sed mihi invenis placet:</l>
+            <l>Non cuiquam melius queo locare filiam.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="2">
+        <head>ACTUS SECUNDUS.</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>LAMPADIO aegre fert EUGENIUM frequentare PHILTONIS domum.</p>
+          </argument>
+          <stage>LAMPADIO.</stage>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l>Profecto quanto magis magisque cogito,</l>
+            <l>Nimirum dabit haec nobis Mendici domus</l>
+            <l>Suspicionem non magni boni: ita honestum video</l>
+            <l>Filium familias ab ea sensim labefactarier.</l>
+            <l>Roget quis, quid iuveni cum illa domo?</l>
+            <l>Ne scio quidem, ubi istuc accersitus venit,</l>
+            <l>Causam, ut ibi assiduus maneat, reperit.</l>
+            <l>Ait rem magnam et seriam velle agere.</l>
+            <l>iam mihi est suspicio dolo haec fieri:</l>
+            <l>Esse ibi filiam, cum ea sermonem quaerere:</l>
+            <l>Ubi scintilla est, ibi posse nasci incendium:</l>
+            <l>Et haec clam patre: a quo audit quotidie,</l>
+            <l>Fili, ita tuum conferto amorem semper, si sapis,</l>
+            <l>Ne id, quod ames, populus si sciat, tibi sit probro.</l>
+            <l>Semper curato, ne sis intestabilis:</l>
+            <l>Quod amas, ama testibus praesentibus.</l>
+            <l>Nemo ire quemquam prohibet publica via,</l>
+            <l>Dum ne per fundum septum facias semitam.</l>
+            <l>Semper tu scito, flamma est fumo proxima.</l>
+            <l>Fumo comburi nihil potest, flamma potest.</l>
+            <l>Quid igitur coniectem, si patrem non audit suum</l>
+            <l>Postremo est ipsi familiaris Milphio:</l>
+            <l>Quid ab illo speret? aut cur aliquid quaeritet?</l>
+            <l>Nisi si illo authore amat hanc domum.</l>
+            <l>Nam pauper ista depravabit ut est malitia.</l>
+            <l>Novi pauperes, quos officii nihil pudet:</l>
+            <l>Quorum opera pessumibit quidem Eugenius.</l>
+            <l>Adibo, et ex culina, si ibi sunt, extraham:</l>
+            <l>Solet pauper genio indulgere ex precaria stipe.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>LAMPADIO maledicit MILPHIONI.</p>
+          </argument>
+          <stage>LAMPADIO, MILPHIO.</stage>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l>Exi e culina sis foras, improbe,</l>
+            <l>Qui Eugenio inter patinas exhibes argutias.</l>
+            <l>Egredere, iuvenum pernicies, ex aedibus.</l>
+          </sp>
+          <sp who="#milphio">
+            <speaker>M.</speaker>
+            <l>Ego? pol te, si vivam, ulciscar probe.</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l>Exi, inquam, nidor e culina, quid lates!</l>
+          </sp>
+          <sp who="#milphio">
+            <speaker>M.</speaker>
+            <l>Quid tibi malum hic ante aedes clamitas!</l>
+            <l>Abscede ab aedibus, abscede a ianua</l>
+            <l part="I">Perii, cur me verberas?</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l part="F">quia lubet nimis,</l>
+          </sp>
+          <sp who="#milphio">
+            <speaker>M.</speaker>
+            <l>Patiar: sine modo alloquar tuum herum.</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l>Tu mendicus vero scurra, sex populi,</l>
+            <l>Minaris te herum alloqui? sane credo, nebulo,</l>
+            <l>Quod te in carcerem scis actutum tradier.</l>
+            <l>Nunc dum tibi lubet, licetque, pende rem,</l>
+            <l>Corrumpe herilem filium, iuvenem optimum:</l>
+            <l>Stipem ostiatim collectam abliguri.</l>
+            <l>Haecne mandat tibi meus herus? hoccine</l>
+            <l>Modo filium male abductum offendet suum</l>
+            <l>Hoccine boni esse officium pauperis existimas,</l>
+            <l>Ut heri mei corrumpas absentis filium?</l>
+            <l>Nam ego illum corruptum duco, cum in hac domo est,</l>
+            <l>Quo nemo adaeque iuventute ex omni Parisiis</l>
+            <l>Antehac est habitus verecundus, nec magis continens.</l>
+            <l>Is nunc in aliam partem palmam possidet:</l>
+            <l>Virtute id factum tua et magisterio tuo.</l>
+          </sp>
+          <sp who="#milphio">
+            <speaker>M.</speaker>
+            <l part="I">Quam temere loquitur servus!</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l part="F">at te modo</l>
+            <l>Superi omnes perdant: oboluisti allium,</l>
+            <l part="I">Mendica illuvies.</l>
+          </sp>
+          <sp who="#milphio">
+            <speaker>M.</speaker>
+            <l part="F">quid tu vis fieri?</l>
+            <l>Non omnes possunt olere unguenta exotica,</l>
+            <l>Sicut tu oles; neque splendidam colere domum;</l>
+            <l>Neque tam selectis, quam tu, vivere victibus.</l>
+            <l>Tu tibi istaec habe servitutis bona,</l>
+            <l>Sine me alliato fungi fortunas meas.</l>
+            <l>Tu fortunatus, ego miser. patienda sunt.</l>
+            <l>Meum malum me, te tuum maneat bonum:</l>
+            <l>Non invidebo, quia tibi bene est.</l>
+            <l>Licet te servire, me mendiculum vivere.</l>
+            <l>Te excipe pulchre, me miseris modis.</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l>O verbero, ita te tractabit herus, cum resciet.</l>
+          </sp>
+          <sp who="#milphio">
+            <speaker>M.</speaker>
+            <l>Qui, scis an non tibi istuc eveniat prius, quam mihi?</l>
+            <l>Quia nunquam merui, tu meruisti, et nunc meres,</l>
+            <l>Pro iis quae mihi obiectas pauperi.</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l>Orationis operam compendi facio:</l>
+            <l>Dic, nisi te mala re magna mactari cupis,</l>
+            <l>Estne istic intus domi vobiscum Eugenius?</l>
+          </sp>
+          <sp who="#milphio">
+            <speaker>M.</speaker>
+            <l>Est. quid tu me nunc obtueris? quid est?</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l>Tace, atque redi intus. pol non faciam moram.</l>
+          </sp>
+          <sp who="#milphio">
+            <speaker>M.</speaker>
+            <l>Redeo, neque quod dixisti, flocci aestimo.</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l>Pro Dii immortales, obsecro vestram fidem,</l>
+            <l>Quid intus per apertam fenestram video?</l>
+            <l>Facite, ut occurrat mihi quamprimum herus,</l>
+            <l>Priusquam filius pereat. num vult domo</l>
+            <l>Egredi, et venire ad me? sed retinet Milphio.</l>
+            <l>Cito propero ad herum: eccum video.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA TERTIA.</head>
+          <argument>
+            <p>LAMPADIO narrat CALLICLI, EUGENIUM esse apud PHILTONIS filiam.</p>
+          </argument>
+          <stage>LAMPADIO, CALLICLES.</stage>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l>Frequens est hic cum mendicis filius tuus.</l>
+            <l>Habet Milphionem quendam familiarem sibi.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Ain’ tu meum filium cum mendicis esse obsecro?</l>
+            <l>Postquam monui, hoc adhuc facere flagitium?</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l part="I">Rem defero.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="F">ah! ego praeter alios filium</l>
+            <l>Fui ratus frugi, pudentem, bonum.</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l>At nunc dehinc scito illum minimi pretii</l>
+            <l>Ante omnes, incontinentem, oblitum pudoris sui.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Pol, ni vera ista essent, nunquam faceret ea</l>
+            <l part="I">Quae nunc facit.</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l part="F">ego quoque hercle illum iuvenem</l>
+            <l>Semper sum frugi ratus, atque osorem mali.</l>
+            <l>Verum hoc facto sese ostendit, qui quidem</l>
+            <l>In domo mendici unam alloquitur filiam.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Hoc aedepol est, quod ille it ad forum hodie:</l>
+            <l>Aiebat sese ire ad Cheream, Cherestratum,</l>
+            <l>Chrestum, Chremem, Cratinum, Cliniam, Demosthenem:</l>
+            <l>It apud mendicos, se recipit in vilem domum.</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l>Quin tu illum iubes vi diripi ex loco?</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="I">Videam prius.</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l part="F">sequere hac me modo.</l>
+            <l>Iam faxo ipsum hominem manifesto opprimas.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Nihil hercle est, quod facere mavelim.</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l part="I">Mane dum.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="M">quid est?</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l part="F">possis, si videas</l>
+            <l>Per fenestram, tuum filium cognoscere?</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="I">Possum.</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l part="M">en iuvenem.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="F">perii. alloquitur</l>
+            <l>Puellam. cito evoca illum huc, Lampadio.</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l>Eugeni, te vult pater hinc foris.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA QUARTA.</head>
+          <argument>
+            <p>CALLICLES primum obiurgat silium: mox placatur.</p>
+          </argument>
+          <stage>EUGENIUS, CALLICLES, LAMPADIO.</stage>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="I">Pater, salve.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="M">sic salutas?</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l part="F">nihil confidentius:</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Recede, Lampadio, solus solum aggrediar.</l>
+            <l part="I">Ego dedita opera huc ad te advenio.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">quid venis!</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Malis te ut verbis multis multum obiurgitem.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="I">Men’?</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="F">num quis est hic alius praeter me atque te?</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="I">Nemo est. quid igitur?</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="F">rogitas, tene obiurgitem:</l>
+            <l>Nisi tute mihi me censes dicturum male.</l>
+            <l>Nam si in te aegrotat animus;</l>
+            <l>Sive immutare vis ingenium moribus,</l>
+            <l>Aut si demutant mores ingenium tuum;</l>
+            <l>Neque eos antiquos servas, ast captas novos:</l>
+            <l>Omnibus amicis morbum tu incutis gravem,</l>
+            <l>Ut te videre, audireque aegroti sient.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Quid in mentem venit tibi istaec dicta dicere!</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Quia omnes bonos id accurare addecet,</l>
+            <l>Suspicionem, et culpam, ut ab se segregent.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="I">Non potest utrumque fieri.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="M">quapropter?</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">rogas?</l>
+            <l>Ne admittam culpam, ego meo sum promus pectori:</l>
+            <l>Suspicio est in pectore alieno sita.</l>
+            <l>Nam nunc ego si aliquem surripuisse suspicet</l>
+            <l>Iovi coronam de capite, e capitolio,</l>
+            <l>Quod in culmine adstat summo: si id non fecerit,</l>
+            <l>Atque id tamen lubeat suspicarier,</l>
+            <l>Qui ille id prohibere me potest, ne suspicer?</l>
+            <l>Sed illud, mi pater, scire cupio quidquid est.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Haben’ tu amicum, aut familiarem quempiam,</l>
+            <l part="I">Cui pectus sapiat?</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">aedepol haud dicam dolo:</l>
+            <l>Sunt quos scio esse amicos, sunt quos suspicor;</l>
+            <l>Quorum ingenia atque animos non possum noscere,</l>
+            <l>Ad amici partem, an ad inimici perveniant,</l>
+            <l>Sed tu, pater, ex amicis certis mihi es certissimus</l>
+            <l>Si quid scis me fecisse inscite aut improbe,</l>
+            <l>Si me accusas, obiurgandus sum scio.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Non alia huc causa ad te adveni, aequum postulas.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="I">Expecto si quid dicas.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="F">primum dum omnium,</l>
+            <l>Male dictitatur tibi vulgo in sermonibus:</l>
+            <l>Corruptum te a mendicis dicunt domestici.</l>
+            <l>Tum autem sunt alii, qui te iunonium vocant,</l>
+            <l>Vilisne an honesta tibi nubat parvipendere.</l>
+            <l>Haec cum audio in te dici, excrucior miser.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Est, atque non est mihi in manu, pater.</l>
+            <l>Quin dicant, non est: merito ut ne dicant, id est.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Estne hic tibi perfamiliaris Milphio?</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="I">Est, et fuit.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="F">quid te adiungis pauperi?</l>
+            <l>Quin mendicum deseris, et, ut audit, non probum?</l>
+            <l>Ei rei operam dare te fuerat aliquanto aequius,</l>
+            <l>Si qui probiorem facere posses, non uti</l>
+            <l>In eandem tute accederes infamiam,</l>
+            <l>Malumque ut eius cum tuo misceres malo.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="I">Quid fecit?</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="M">quod corruptor.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">non istuc ipsius est.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="I">Abduxit te Philtonis domum.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="M">duxit.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="F">Ad filiam!</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="I">Factum, neque facti piget.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="F">aedepol ductorem malum</l>
+            <l>Es secutus. dedit hoc pacto tibi gladium,</l>
+            <l>Qui te occideres. quid secus est, aut quid interest,</l>
+            <l>Ire te ad puellam, ut deterior esses clam patre?</l>
+            <l>Aedepol a me mandatum pulchre et curatum probe,</l>
+            <l>Crede huic tu te duci: tuam iam melius rem gesseris.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Facis dictis me tuis, mi pater,</l>
+            <l>Ut declarem, quod hodie statueram facere.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="I">Audio.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">antequam irem in hasce aedes, pater,</l>
+            <l>Milphio mihi dixerat certo esse thesaurum ibi:</l>
+            <l>Nam Philtonis avus, etsi mendicus, aurum tamen</l>
+            <l>Defodit: et pater eadem arte grandes pecunias</l>
+            <l>Comparavit filio: tum filius ipse quotidie</l>
+            <l>Auget. quae ita esse oculis vidi meis.</l>
+            <l>Nam Philto, ut primum introivi, coepit suam</l>
+            <l>Dissimulare opulentiam, sine dote esse filiam,</l>
+            <l>Et alia multa, quae narrabo alio loco.</l>
+            <l>Dum postea ipsi placui, et me in quoddam suum</l>
+            <l>Conclave ducens, ostendit aureorum decem</l>
+            <l>Millia, quae parata esset dos filiae suae.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Pro Dii immortales: verbis paucis quam cito </l>
+            <l>Alium fecisti me! alius ad te veneram.</l>
+            <l>Sed ut occepisti, perge porro proloqui.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Ille Milphio, quem frugi non putaveras,</l>
+            <l>Erat mihi amicus, quod ipsum interdum alerem,</l>
+            <l>Quod erga pauperes misericors essem, quod pie </l>
+            <l>Et benevole tractarem: ille pius itidem et benevolus</l>
+            <l>Erga me fuit. nam quod erat commissum suae fidei,</l>
+            <l>Id mihi concredidit, Philtonem esse divitem.</l>
+            <l>Nunc rogare ego vicissim te volo, pater:</l>
+            <l>Quod fuit officium meum me facere? face sciam.</l>
+            <l>Utrum fastidire me istum thesaurum aequum fuit,</l>
+            <l>Adversum quam bona sors mihi offerret, pater:</l>
+            <l>An ego alium dominum paterer istius pecuniae fieri?</l>
+            <l>Esto: mendici est. at res familiaris potior.</l>
+            <l>Quid genus interest, si tu domi esuris?</l>
+            <l>Has adeo coepi frequens aedes colere.</l>
+            <l>Haec sunt: seu recte, seu perverse facta sunt,</l>
+            <l>Ego me fecisse confiteor, mi pater.</l>
+            <l>En mea malefacta, en meam libidinem tibi.</l>
+            <l>Hasce ne me propter res maledicta differunt?</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Causa, fili, vicisti castigatorem tuum.</l>
+            <l>Occlusisti linguam, nihil est qui respondeam.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Nunc ego te quaeso, mi pater, ut unum addideris.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="I">Quid est autem unum?</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">eloquar. ad eum</l>
+            <l>Philtonem tute adeas, tute concilies, tute mihi</l>
+            <l>Filiam poscas; rem nimio citius transiges.</l>
+            <l>Firmum omne erit, quod tu egeris: gravius erit</l>
+            <l>Tuum unum verbum ad eam rem, quam centum mea.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Dabitur opera. age, Philtonem accerse huc.</l>
+            <l>Nihil est profecto stultius, neque stolidius,</l>
+            <l>Neque mendaciloquius, neque argutum magis,</l>
+            <l>Neque confidentiloquius, neque periurius,</l>
+            <l>Quam urbam assidui cives, quos scurras vocant,</l>
+            <l>Atque egomet adeo cum illis una ibidem traho:</l>
+            <l>Qui illorum verbis falsis acceptor fui.</l>
+            <l>Qui omnia se simulant scire, nec quidquam sciunt.</l>
+            <l>Quod quisque in animo habet, aut habiturus est, sciunt.</l>
+            <l>Idque quod in aurem rex reginae dixerit,</l>
+            <l>Sciunt, quod Iuno fabulata est cum iove.</l>
+            <l>Quae neque futura, neque facta sunt, tamen ii sciunt.</l>
+            <l>Falsone an vere laudent, culpent quem velint,</l>
+            <l>Non flocci faciunt, dum illud, quod lubeat sciant.</l>
+            <l>Omnes mortales hunc aiebant Eugenium</l>
+            <l>Indignum me esse, qui istius deperiret filiam.</l>
+            <l>Ego de eorum verbis famigeratorum inscius,</l>
+            <l>Prosilui iuvenem castigatum innoxium.</l>
+            <l>Quod si exquiratur usque ab stirpe auctoritas,</l>
+            <l>Unde quidquid auditum dicant: nisi id appareat,</l>
+            <l>Famigerator iure siet cum damno et malo.</l>
+            <l>Hoc ita si fiat, publico fiat bono:</l>
+            <l>Pauci sint faxim, qui sciant quod nesciunt,</l>
+            <l>Occlusioremque habeant stultiloquentiam.</l>
+            <l>Ipse exit Philto cum filio foras.</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA QUINTA.</head>
+          <argument>
+            <p>CALLICLES cum PHILTONE transigit de faciendis nuptiis.</p>
+          </argument>
+          <stage>CALLICLES, PHILTO, EUGENIUS.</stage>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Estne hic Philto qui ad venit? is ipsus est.</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l>Patrem atque filium plurimum Philto iubet</l>
+            <l part="I">Salvere, Calliclem et Eugenium.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="F">dii dent tibi,</l>
+            <l part="I">Philto, quaecumque optes.</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l part="F">sic te quoque ament.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Meus gnatus me ad te misit, inter se atque vos</l>
+            <l>Affinitatem ut conciliarem, et gratiam.</l>
+            <l>Tuam vult filiam ducere uxorem, et mihi</l>
+            <l part="I">Sententia eadem est, et volo.</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l part="F">hau nosco tuum.</l>
+            <l>Bonis tuis rebus meas res irrides malas.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Homo ego sum, homo tu es: ita me amabunt Caelites,</l>
+            <l>Neque te derisum veni, neque dignum puto.</l>
+            <l>Verum hoc, ut dixi, meus me oravit filius,</l>
+            <l>Tuam ut filiam poscerem uxorem sibi.</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l>Mearum rerum me novisse aequum est ordinem.</l>
+            <l>Cum vestris nostra non est aequa factio:</l>
+            <l>Affinitatem vobis aliam quaerite.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Satin’ tu benevolus mihi, aut sapiens,</l>
+            <l>Qui conditionem hanc iterum repudies?</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l>Nisi quid me aliud vis, Callicles, respondi tibi</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Benigniorem te posthac, Philto, mihi,</l>
+            <l>Quam nunc experior esse, confido fore.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Ita tu nunc dicis non esse aequiparabiles</l>
+            <l>Vestras cum nostris factiones, atque genus?</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l part="I">Dico.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="F">quid tum? si in aedem ad coenam veneris,</l>
+            <l>Atque ibi nobilior te forte ut venerit,</l>
+            <l>Apposita sit coena, popularem quam vocant:</l>
+            <l>Si illi congestae sint epulae a clientibus,</l>
+            <l>Si quid tibi placeat quod illi congestum siet,</l>
+            <l>Edisne, an incoenatus cum nobili accubes?</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l part="I">Edam, nisi ille vetet.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="F">semper tu hoc facito,</l>
+            <l>Philto, cogites, id optimum esse, tute uti sis</l>
+            <l>Optimus: si id nequeas, saltem ut optimis</l>
+            <l>sis proximus. nunc conditionem hanc, quam ege</l>
+            <l>Fero, et quam abs te peto, dare atque accipere,</l>
+            <l>Philto, te volo. aulici nobiles sunt, aulicos</l>
+            <l>Decet nobilitas, et factiones; verum nos boni</l>
+            <l>Cives, et homunculi, salillum animae,</l>
+            <l>Qui cum extemplo vitam amisimus,</l>
+            <l>Aeque mendicus, atque ille nobilissimus,</l>
+            <l>Censetur nomine ad Acherontem mortuus.</l>
+            <l>Nunc ut scias hic factiones, aut generis</l>
+            <l>Discrimen non esse, neque nos negligere gratiam</l>
+            <l>Mendici, posco tuam filiam filio,</l>
+            <l>Quae res bene vertat, habeone pactam? quid taces?</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l>Cum affinitate vestra me arbitramini</l>
+            <l>Dignum, habeo vobis, Callicles, gratiam.</l>
+            <l>Sed si filia grandem vobis dotem afferat,</l>
+            <l>(Haec erit decem aureorum millia,</l>
+            <l>Cupio me, et hanc tractari dein</l>
+            <l>Ut civem, cum omni cultu et observantia.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="I">Fiet.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="M">fiet,</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l part="F">quando ita dicitis,</l>
+            <l>Dii bene vertant, meam gnatam spondeo.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Nunquam aedepol cuiquam tam expectatum diu,</l>
+            <l>Quam mihi et patri est illud, spondeo.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="I">Coelum fortunet nostra consilia.</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l part="F">ita volo.</l>
+            <l>Ibo ad filiam, ut dicam hoc negotii</l>
+            <l part="I">Quomodo actum est.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="F">Ego providebo nuptiis</l>
+            <l>Ut dies constituatur. Eadem haec confirmabimus.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="3">
+        <head>ACTUS TERTIUS.</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>TABARDUS miratur apparari nuptias.</p>
+          </argument>
+          <stage>TABARDUS, LAMPADIO.</stage>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l>Quid in fratris aedibus ornati istud est?</l>
+            <l>Aut quid tumulti? video introire coquos,</l>
+            <l>Et tibicines: exire matronas, et salutigerulos</l>
+            <l>Pueros: ferri coronas, soccos luteos,</l>
+            <l>Togam, cingulum, et quod flammeum vocant</l>
+            <l>Velum. postes inungi, et alia fieri.</l>
+            <l part="I">Heus Lampadio.</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l part="F">quis me foras vocat!</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l part="I">Quid iste apparatus?</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l part="F">Callicles nuptias</l>
+            <l part="I">Hodie faciet filio.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l part="F">cuius ducit filiam?</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l>Vicini huius Philtonis e proximo.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l part="I">Quid ais?</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l part="M">quod fit.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l part="M">Philtonis?</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l part="F">ipsius,</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l part="I">Mendici?</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l part="M">dixi.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l part="F">mihi territo cerebrum</l>
+            <l>Excutiunt tua verba, Lampadio: lapides</l>
+            <l part="I">Loqueris.</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l part="F">vespere praetextati tres puer</l>
+            <l part="I">Domum ducent novam nuptam.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l part="F">illa quidem</l>
+            <l>Emoriatur prius, quam sublata a pronubis</l>
+            <l>Ianuae limen transiliat. quibus auguriis</l>
+            <l part="I">Fiunt hae nuptiae?</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l part="M">certe nullis.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l part="F">igitur</l>
+            <l>Nubat nullo omine, funestis omnibus,</l>
+            <l>Et ferali voce bubo non taceat.</l>
+            <l>Sed sapit frater, qui has fert nuptias?</l>
+            <l>Ibo, et obtrudam in os hominis stultitiam.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>TABARDUS iurgat cum EUGENIO, et CALLICLE ob constitutas nuptias.</p>
+          </argument>
+          <stage>TABARDUS, EUGENIUS, CALLICLES.</stage>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l>Adest filius. Sta illico hic, mi nepos.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Potin’ ut me ire, quo profectus sum, sinas?</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l>Si in rem tuam esse videatur gloriae,</l>
+            <l part="I">Aut famae, sinam.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">scio ego, patrue,</l>
+            <l>Et sentio ipse quid agam, neque a me officium</l>
+            <l>Migrat, nec is sum, quin rumori serviam.</l>
+            <l part="I">Quid ais?</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l part="F">daturne tibi nuptum, Eugeni,</l>
+            <l part="I">Philtonis filia?</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">datur, et facto gaudeo.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l>Retineri nequeo, quin sensa proloquar.</l>
+            <l>Satin’ tu sanus mentis, aut animi tui?</l>
+            <l>Itane tandem maiores famam tradiderunt tibi tui,</l>
+            <l>Ut virtute eorum ante parta, per nuptias perderes?</l>
+            <l>Atque honori posterorum tuorum ut nota fieres?</l>
+            <l>Tibi, paterque, avusque facilem fecit et planam viam</l>
+            <l>Ad quaerendum honorem: tu fecisti ut difficilis foret,</l>
+            <l>Culpa maxime et libidine, tuisque stultis moribus</l>
+            <l>Praeoptavisti, amorem tuum uti virtuti praeponeres.</l>
+            <l part="I">Hoc pacto credis posse obtegere errata?</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">ah non ita est.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l>Cape sis virtutem animo, et corde expelle amorem tuo:</l>
+            <l>In foro operam amicis da, non in mendici domo,</l>
+            <l part="I">Ut solitus es.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">omnia, quae dixisti, scio.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l>At operam perire meam sic, et te haec dicta spernere,</l>
+            <l>Perpeti nequeo. simul me piget parum pudere te.</l>
+            <l>Et postremo nisi me auscultas, atque hoc, ut dico, facis,</l>
+            <l>Tute pone te latebis facile, ne inveniat te honor.</l>
+            <l>In occulto iacebis, cum te maxime clarum voles.</l>
+            <l>Pernovi equidem, Eugeni, peritum tuum ingenium admodum:</l>
+            <l>Scio te sponte non tuapte errasse, sed amorem tibi</l>
+            <l>Pectus obscurasse: ut resipiscas, ego moneo.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Habeo, mi patrue, tua pace dixerim,</l>
+            <l>Monitorem domi, et si quid male facio,</l>
+            <l>Castigatorem patrem, a quo consilium peto.</l>
+            <l>Rem patriam, et gloriam Maiorum non foedo meum.</l>
+            <l>Si causa est ut ducam mendici filiam,</l>
+            <l>Haec famigeratio non me collutulat.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l>Quid? an te honestat? ecquod quaeso tibi</l>
+            <l>Sit emolumentum honoris, ut pauperculam acci</l>
+            <l>Neque volo, neque permitto, neque censeo.</l>
+            <l>Si id agis, ut affinitatem hanc adstrinxeris,</l>
+            <l>Non quidquam hic tibi sit, qui vitam colas,</l>
+            <l>Effugias ex urbe inanis, profugus: patriam</l>
+            <l>Deseras, cognatos, affinitatem, amicos tuos,</l>
+            <l>Factis nuptiis: aliud ut patiar fieri,</l>
+            <l>Me commissurum, ne animum induxeris.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="I">Est inter vos iurgium.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">de nuptiis,</l>
+            <l part="I">Accusat me patruus.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="F">ne quid temere </l>
+            <l>Proloquaris, frater, antequam rem intelligas.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l>Quid intelligam? Mendicam nuptum dari</l>
+            <l>Filio tuo? et tu illius amoribus faves?</l>
+            <l>Sic genus nostrum extinguis? nihilne te pudet?</l>
+            <l>Istoscine patrem aequum est mores liberis largirier?</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Si non taces, ego non eloquar. quid est,</l>
+            <l>Frater? quid exclamas? non consideravi has nuptias?</l>
+            <l>Non iuvenem excussi? non causas animo satis</l>
+            <l>Expendi? an ego generis immemor siem?</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l>Plane id constat: nam quid mendici filiae,</l>
+            <l part="I">Et honesto civi commune est?</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="F">non genus,</l>
+            <l>Fateor; sed si istic opes superant, si dos est</l>
+            <l>Filiae decem aureorum millia, tamen</l>
+            <l>Dubitabis collocare filium? tamen</l>
+            <l>Tantas pecunias repudiabis, et vitae subsidium?</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l part="I">Haec sit dos pauperculae?</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="F">certissima est.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l part="I">Non credo.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="F">nec ego ante credidi, quam viderim.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l>Decipiere, mi frater: ne Mendico fidem habe.</l>
+            <l>Nunc paucis dicam, meus ut, animus est.</l>
+            <l>Si honestas facis nuptias filio, quod meum erit,</l>
+            <l>Id erit tuum: sin aliter animatus es,</l>
+            <l>Dene, quod agas, eveniat tibi: ego</l>
+            <l>Amicus nunquam tibi ero pacto alio.</l>
+            <l part="I">Sic sententia est.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="F">pergo ad negotium.</l>
+            <l>De istis rebus, frater, plura fabulabimur.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA TERTIA.</head>
+          <argument>
+            <p>TABARDUS PHILTONI facit convicium.</p>
+          </argument>
+          <stage>TABARDUS, PHILTO, LAMPADIO.</stage>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l>Iterque abiit? abierit sane quo lubet.</l>
+            <l>Reperiam aliquid callidi, et conducibilis consilii,</l>
+            <l>Quo istas hodie ego perturbem nuptias.</l>
+            <l>Aequum est me multo plus his sapere.</l>
+            <l>Sunt homines, quos, cum nihil refert, pudet:</l>
+            <l>Ubi pudendum est, ibi deserit eos pudor,</l>
+            <l>Cum magis usus est ut pudeat. is adeo </l>
+            <l>Pater est, qui det, quod pudendum siet,</l>
+            <l>Genere natum bono pauperem uxorem ducere</l>
+            <l>Nam quod ait de dote, non est verisimile:</l>
+            <l>Nisi Mendico opes coelum pluerit.</l>
+            <l>Ah! quam velim mihi nunc Philtonem obvium.</l>
+            <l>Ut excuterem, ut terrerem, ut subigerem!</l>
+            <l>At at egreditur: mihi commoditas favet.</l>
+            <l>Datur hodie, Philto, tua filia Eugenio?</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l part="I">Dicunt.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l part="F">Epopa cygno? fex, lutum</l>
+            <l part="I">Claro iuveni?</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l part="F">ita visum parentibus.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l>Pro Deum fidem, facinus foedum! o patrem</l>
+            <l>Incautum, qui istuc cepit consilii!</l>
+            <l>O infelicem iuvenem, qui abductus est!</l>
+            <l>Ote, mendice, scelestum, qui filium et patrem</l>
+            <l>Perdidisti, verba dedisti, falsis pecuniis</l>
+            <l>Fascinasti! solam habes illuviem, sordes, inopiam:</l>
+            <l>Porro futura exempla in te indigna hodie.</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l>Numnam ego deliqui, in quem exempla fient?</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l>Rogitas, audacissime? quae spondetur tua filia,</l>
+            <l>Scin’ eam vilem esse, et Eugenium apprime nobilem?</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l part="I">Scio.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l part="F">Quid igitur has tu ausus nuptias,</l>
+            <l>Ex quibus tibi, mihi, patri, gnato magnum sit malum?</l>
+            <l>P Primum te arbitrari id, quod res est, velim:</l>
+            <l>Quidquid hic factum est, sponte non factum est mea.</l>
+            <l>Venit ultro ad me Callicles cum Eugenio,</l>
+            <l>Qui meam posceret sibi desponderi filiam:</l>
+            <l>Et quanquam proposui, quidquid obiectas mali,</l>
+            <l>Postposuit scilicet, prae accipiendi studio.</l>
+            <l>Iam ne me spectes: me authore haec non fiunt.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l>Ita dicis, sed ego non credo: diceris domi</l>
+            <l>Habere pecunias, et his sollicitare animos.</l>
+            <l>Volo fateare: si secus faxis, ego subigam.</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l>Tu mihi vim afferas? si mihi sunt pecuniae,</l>
+            <l>Gratia superum sunt partae, non tua:</l>
+            <l>Neque ego earum rationem reddam tibi.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l>Indica ubi sunt, et ostende, ut certior fiam,</l>
+            <l>Ne fictis montibus aureis illudas meo</l>
+            <l>Nepoti Eugenio, et hunc in fraudem illicias.</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l>Si Callicli ostendi pecunias, quid tua nunc</l>
+            <l part="I">Curatio est?</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l part="F">invadam in aedes, et cistulas</l>
+            <l part="I">Frangam, nisi recludis.</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l part="F">invade dum, frange dum.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l>Lampadio, Lampadio huc: scrutemur hanc domum,</l>
+            <l part="I">Si sunt pecuniae.</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l part="F">expostulabo apud Calliclem.</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l>Tabarde, hic est cista grandis et vetus,</l>
+            <l>Ponderat auro ponderossimo. vides?</l>
+            <l>Mihi ferendo ac tibi hac illac large sudor diffluit.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l part="I">Perfringe.</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l part="F">malum! quid omnis generis</l>
+            <l part="I">Haec supellex?</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l part="F">in fundo profundius</l>
+            <l part="I">Latet aurum.</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l part="F">o pestis, nihil nisi,</l>
+            <l part="I">Saxa et araneae.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l part="F">fallaciam dedit catus:</l>
+            <l>Qua simulat pecunias, cistam vidimus.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA QUARTA.</head>
+          <argument>
+            <p>CALLICLES obiicit fratri iniuriam PHIETONI illatam.</p>
+          </argument>
+          <stage>CALLICLES, PHILTO, TABARDUS, EUGENIUS, LAMPADIO.</stage>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Siccine convicium fecit Tabardus! in domum</l>
+            <l part="I">Irrupit?</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l part="M">aspice.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="F">profecto, mi frater,</l>
+            <l>Multum nobis conficies mali:</l>
+            <l>Quid tua interest, quid faciam meo filio?</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l>O pergin’ non pater esse? ullamne ego</l>
+            <l>Rem facio, cui debes adversari, Callicles?</l>
+            <l>At utrum hic mendicus habeat aurum, nec ne, nescias:</l>
+            <l part="I">In qua re nunc tam confidenter restas stultus?</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="F">ego</l>
+            <l part="I">Nescio?</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l part="M">Vide cistam. ibi opes?</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="F">alibi, et</l>
+            <l part="I">Apud amicum servatas habet.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l part="F">oh! simplicem</l>
+            <l>Me arbitraris, qui me istud credere postulas.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="I">Certo enim scio.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l part="F">dixi tibi, Callicles,</l>
+            <l>Erras, toto coelo erras, si scurrae pauperi</l>
+            <l part="I">Credis filium.</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l part="F">an pauper scurra ego sum?</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l>Tace impostor, fraudulente, improbe.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="I">Hae sunt contumeliae.</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l part="F">haec ego patiar</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Noli, mi patrue, de isto sic male loqui.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l>Stultus es tu plane, qui illum esse tibi</l>
+            <l>Amicum, et benevolentem virum putas.</l>
+            <l>Moneo ego te: deseres illum veneficum</l>
+            <l part="I">Aetate et satietate.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="M">non spero.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l part="F">magis</l>
+            <l>Insperata saepe, quam quae speres, accidunt.</l>
+            <l>Postremo si dictis nequis perduci, ut vera haec</l>
+            <l>Credas mea dicta, ex factis nosce rem.</l>
+            <l>Quam multi quotidie infelicibus nuptiis</l>
+            <l>Uxores relinquunt? tibi idem futurum puto.</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l>Vix comprimor, quin involem illi in oculos</l>
+            <l>Maledico. an ego in his nuptiis, male vir,</l>
+            <l>Impulsor sum? aut multum mihi seritur?</l>
+            <l>An alteri locare filiam nequeo?</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Deline, mi frater, loqui: nam quidquid dixeris,</l>
+            <l>Egerisve, nihilominus hae fient nuptiae.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l>It ego taceam? nam mortuus de his dixero.</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l part="I">Et ego quoque dixero.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="F">tu serve, ita loquens:</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l>Age Callicles, mihi non est tanti meam siliam</l>
+            <l>Tot difficultatibus, et adversis his viris,</l>
+            <l part="I">Dare in matrimonium.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="F">immo, Philto, tuum est</l>
+            <l>Haec parvipendere, et superare hos viros.</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l>Immo stat perplexas effugere has nuptias.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Mento tibi sum iratus, frater. domi</l>
+            <l part="I">Quin te cohibes, mea ut non cures?</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">quid mea</l>
+            <l part="I">Differs vota?</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l part="F">differam, istud curabo, si non sapitis.</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l part="I">Ego adiutor sim.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="F"> at te famulum abdico vale.</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA QUINTA.</head>
+          <argument>
+            <p>TABARDUS capit consilium subornandi falsos testes contra PHILTONE</p>
+          </argument>
+          <stage>LAMPADIO, TABARDUS.</stage>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l>Quoniam exturbat me Callicles domo,</l>
+            <l>Et familia sua, operae pretium meae</l>
+            <l>Futurum arbitror, ut ego tibi obsequar</l>
+            <l>In evertendis nuptiis: hoc tecum aggrediar,</l>
+            <l>Tabarde: nullo modo prorsus potest fieri,</l>
+            <l>Quin hodie novo consilio impediantur nuptiae.</l>
+            <l>Nam hercle honeste fieri non potest,</l>
+            <l>Ut eam perpetiare mendicam ire in</l>
+            <l>Matrimonium cum magno Eugenii probro.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l>Haec me miseria et cura contabefacit.</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l>Quin iam aliquo dolo, et insigni calumnia</l>
+            <l>Tute Philtonem, eiusque filiam opprimis!</l>
+            <l>Fidum habes me comitem consiliis tuis.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l part="I">Ita animus est.</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l part="F">verum ego hoc vereor,</l>
+            <l>Ne istaec fictio calumniae tuos magis</l>
+            <l>In crimen populo ponat, atque infamiam:</l>
+            <l>Ne rumor spargat, desipuisse Calliclem,</l>
+            <l>Et amore pauperculae insanum Eugenium:</l>
+            <l>Adamasse veneficam, venefico patre:</l>
+            <l>Haec palam esse, passim in ore omnium.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l>Nam hercle omnia istaec veniunt in mentem mihi.</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l>Vide si hoc utibile magis, atque in rem deputas,,</l>
+            <l>Ut ex propinquis aliquis adeat solum Eugenium,</l>
+            <l>Et clam edoceat, ut ista mendica se habet.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l>Ut quis iuvenem amoris plenum adeat?</l>
+            <l>Minime hercle vero: nam ego certo scio,</l>
+            <l>Si me non audierit patruum, neque illum audiet.</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l part="I">Quo pacto ergo agetur?</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l part="F">debet sic dolus</l>
+            <l>Esse, ut ne suspicetur iuvenis, quem amor</l>
+            <l>Occupat, cum a propinquo aut domestico</l>
+            <l part="I">Profectum esse.</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l part="F">sed vide consilium, si placet.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l part="I">Quid consilii est?</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l part="F">scitum, ut ego opinor, consilium</l>
+            <l part="I">Inveni.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l part="M">quid est?</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l part="F">homo conducatur aliquis</l>
+            <l>Iam quantum potest, quasi fuerit Philtoni socius.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l part="I">Quid is scit facere postea?</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l part="F">is homo</l>
+            <l>Exornetur graphice mendici in modum,</l>
+            <l part="I">Falsidicus, confidens.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l part="F">quid tum postea?</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l>Sponte ad Eugenium veniat: salutem ei</l>
+            <l>Optet: velle se ipsi arcanum committere.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l part="I">Perge porro dicere.</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l part="F">dicat domesticum</l>
+            <l>Diu sibi usum fuisse, et consuetudinem</l>
+            <l>Cum Philtone: vitam, mores nosse. tenes iam?</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l part="I">Propemodum, atque ausculto lubens.</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l part="F">tum igitur</l>
+            <l>Eugenio explicabit omnia Philtonis latrocinia,</l>
+            <l>Caedes, scelera, et veneficium eius filiae,</l>
+            <l>Quibus ipse particeps et consors adfuerit.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l part="I">Scite hercle sane.</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l part="F">magis adeo ab Eugenio</l>
+            <l>Suspicionem ut amoveat, alterum ostendet socium</l>
+            <l>Philtonis, et suum: qui in eremum, scelerum imagine</l>
+            <l>Territus, et poenitens a Philtone recesserit.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l>Magis scite et probe: quanquam me pudet</l>
+            <l part="I">Civem virum sycophantari.</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l part="F">in hoc negotio</l>
+            <l>Plus sermonis facere, segnities mera est.</l>
+            <l>iam confestim e proximo hominem compare.</l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA SEXTA.</head>
+          <argument>
+            <p>Duo SYCOPHANTAE conducuntur.</p>
+          </argument>
+          <stage>LAMPADIO, SYCOPHANTAE.</stage>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l>Heus Mendici, qui tota die sedetis huc,</l>
+            <l>Accurrite, magna est vobis largitio,</l>
+            <l>Si solertes estis, si fraude industrii.</l>
+          </sp>
+          <sp who="#sycophanta-1">
+            <speaker>S. 1.</speaker>
+            <l part="I">Lampadio.</l>
+          </sp>
+          <sp who="#sycophanta-2">
+            <speaker>S. 2.</speaker>
+            <l part="M">Lampadio.</l>
+          </sp>
+          <sp who="#sycophanta-1">
+            <speaker>S. 1.</speaker>
+            <l part="F">mihi claudo famelico.</l>
+          </sp>
+          <sp who="#sycophanta-2">
+            <speaker>S. 2.</speaker>
+            <l part="I">Mihi seni gibbero.</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l part="F">estis opinor duo,</l>
+            <l>Quos mendicitas et aerumna operi submovet:</l>
+            <l>At si corpus iacet, mens libera est, serva opera.</l>
+          </sp>
+          <sp who="#sycophanta-1">
+            <speaker>S. 1.</speaker>
+            <l>Ego meam operam loco hodie paucis assibus,</l>
+            <l part="I">Ad quamlibet artem.</l>
+          </sp>
+          <sp who="#sycophanta-2">
+            <speaker>S. 2.</speaker>
+            <l part="F">et mea utere. nam in sene</l>
+            <l part="I">Fere est astutia.</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l part="F">estis ut volo; sequimini</l>
+            <l>Intro, docebo vos artem sycophantiae.</l>
+          </sp>
+          <sp who="#sycophanta-1">
+            <speaker>S. 1.</speaker>
+            <l>Scurra hanc novit artem, in hac se exerceat.</l>
+          </sp>
+          <sp who="#sycophanta-2">
+            <speaker>S. 2.</speaker>
+            <l part="I">Quo pacto nos conducis?</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l part="F">sequimini, dicam domi.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="4">
+        <head>ACTUS QUARTUS</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>EUGENIUS expendit nuptias.</p>
+          </argument>
+          <stage>EUGENIUS.</stage>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Hanc rem diu in meo corde verso</l>
+            <l>Et multum in cogitando curam indipiscor, et egomet</l>
+            <l>Me defatigo: magister mihi exercitor</l>
+            <l>Animus est, nec adhuc satis liquet,</l>
+            <l>Utrum humili loco natam, sed divitem,</l>
+            <l>An nobili, sed pauperem sit potius</l>
+            <l>Uxorem ducere. Nam dives dicat: equidem</l>
+            <l>Dotem ad te attuli, maiorem multo quam</l>
+            <l>Tibi erat pecunia. enim mihi quidem</l>
+            <l>Aequum est purpuram, atque aurum dari,</l>
+            <l>Ancillas, pedissequas, vehiculum quo vehar.</l>
+            <l>Mihi accersendus fullo, phrygio, aurifex,</l>
+            <l>Caupo, sutor, sarcinator, strophiarius,</l>
+            <l>Et trecenti alii propolae nugigeruli,</l>
+            <l>Quibus res solvenda cum damno et malo.</l>
+            <l>Hae sunt et aliae multae in magnis dotibus</l>
+            <l>Incommoditates, sumptusque intolerabiles:</l>
+            <l>Tum si ex humili superba fit mulier;</l>
+            <l>Nec sui compos, nec in potestate est viti.</l>
+            <l>At pauper pro dote affert genus,</l>
+            <l>Et mores meliores sibi parat:</l>
+            <l>Et multo fit domus concordior:</l>
+            <l>Et invidia vir minore utitur:</l>
+            <l>Et minore sumptu sunt coniuges:</l>
+            <l>Et nulla sanctis altercatio est:</l>
+            <l>Neque hoc quis dicat, tu ditior es.</l>
+            <l>Duco tamen hodie dotatam atque divitem</l>
+            <l>Philtonis filiam: quod multi non probant</l>
+            <l>Sapienter factum, et consilio bono.</l>
+            <l>Sed quis hic est, qui plateam ingreditur</l>
+            <l>Est mendicus, qui ad nostras aedes quidem</l>
+            <l>Habet rectam viam. non opperiar. intro domum.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>GEUSION et PATELLUS imponunt EUGENIO.</p>
+          </argument>
+          <stage>GEUSION, EUGENIUS, PATELLUS</stage>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l>Ego operam meam viginti assibus hodie</l>
+            <l>Locavi ad artem sycophantiae. ad venio</l>
+            <l>Maledicturus de homine, quem nunquam oculis</l>
+            <l>Usurpavi. viden’ pecunia quid dat negotii</l>
+            <l>Homini corrupto mali? qui ego non dubito,</l>
+            <l>Viginti assium causa, ut eum hominem</l>
+            <l>Esse latronem dicam, et sicarium, et nequam,</l>
+            <l>Et scelestum, quem ego, qui scit homo, nescio,</l>
+            <l>Neque novi, neque natus necne is fuerit,</l>
+            <l>Id solide scio. ille qui me conduxit, ubi</l>
+            <l>Conduxit; abduxit domum: quae voluit mihi</l>
+            <l>Dixit, docuit, et praemonstravit prius,</l>
+            <l>Quomodo quique agerem. nunc adeo si quid ego</l>
+            <l>Addidero amplius, eo conductor melius</l>
+            <l>Rem confecerit. ut ille me exornavit, ita</l>
+            <l>Sum ornatus: ipse a mendico ornamenta haec</l>
+            <l>Sumpsit, et mihi nomen dedit Geusion:</l>
+            <l>Socium vero alterum, quem modo videbitis</l>
+            <l>In eremo religiosum, Patellum vocat.</l>
+            <l>Nunc ego si potero his hominem circumducere,</l>
+            <l>Dabo operam, ut me esse sycophantam sentiat.</l>
+            <l>Hanc domum demonstravit mihi ille conductor meus.</l>
+            <l>Apud illas aedes sistendae mihi sunt sycophantiae.</l>
+            <l>Simulabo me stipem rogare. heus, si quis hic est,</l>
+            <l>Si quis is foribus, et pauperi tutelam gerit.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="I">Quid rogitas?</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l part="F">de more, ut sis misericors.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="I">Accipe.</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l part="M">Dii reddant pro pietate.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">Deum</l>
+            <l>Ora, ut fortunatae sint meae nuptiae.</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l part="I">Ducis uxorem?</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="M">hodie.</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l part="M">quam?</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">in proximo</l>
+            <l part="I">Mendici filiam.</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l part="M">Superi! quid agis?</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">nostin’ hanc?</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l>Belle rogas: ab annis decem novi sane improbam,</l>
+            <l part="I">Veneficam, scelestam.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="M">quid narras?</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l part="F">quod scio.</l>
+            <l>Per Deos atque homines dico, ne tu illam uxorem tuam</l>
+            <l>Sinas unquam fieri, neque affinem tuis:</l>
+            <l part="I">Ei rei argumentum dicam.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">audire aedepol lubet.</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l>Primum omnium ab infantia haec mulier</l>
+            <l>Est daemonibus sacra: noctu quotidie</l>
+            <l>Ter genios alloquitur, et tricipitem Hecaten:</l>
+            <l>Infernis manibus litat, venenatas coquit</l>
+            <l>Herbas, volat per aera vespertilio.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="I">Apage.</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l part="F">audi caetera: interim cum volat,</l>
+            <l>Ex omnibus quatuor partibus coeli fulgurat:</l>
+            <l>Percussae arescunt herbae, lues est</l>
+            <l>Armentis, aut pestis quae cito perimit.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="I">Apage a me istam uxorem.</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l part="F">magis apage</l>
+            <l>Dicas, si omnia audiveris: nam sex viros</l>
+            <l>Habuit, nemo extat qui tres menses vixerit.</l>
+            <l>Alius se suspendit, alius se ad incitas</l>
+            <l>Redigi vi inferna sensit, alius</l>
+            <l>Solstitiali morbo decidit: hic peste, hic</l>
+            <l>Morbo intercutis, ille podagra est emortuus.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="I">Mea quidem hercle nunquam fiet.</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l part="F">si sapies quidem.</l>
+            <l>Nunc de eius patre, cum quo familiariter</l>
+            <l>Vixi (ah! quid dixi, vixisse me? immo </l>
+            <l>Communione scelerum fui perditus.)</l>
+            <l>Faxo melius ex alio, quam ex me, intelligas.</l>
+            <l>Sequere me hac, ni piget. hic est in hanc</l>
+            <l>Eremum abditus eius sodalis, qui</l>
+            <l>Latrocinia exosus a Deo veniam petit.</l>
+            <l>Vides ut coelum obsecrat, amplexans crucem,</l>
+            <l>Et lacrymans, genibus nixus, in custodiam</l>
+            <l>Illum ut suam recipiant et tutentur Coelites?</l>
+            <l part="I">O Patelle.</l>
+          </sp>
+          <sp who="#patellus">
+            <speaker>P.</speaker>
+            <l part="M">qui vocat?</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l part="F">si respicis, scies.</l>
+          </sp>
+          <sp who="#patellus">
+            <speaker>P.</speaker>
+            <l>Obsecro quis est, qui in hac solitudine</l>
+            <l>Orantem interpellat? lacrymae quam dulces fluunt</l>
+            <l>In eremo! quam iucunda poenitentia est!</l>
+            <l>Video mihi coelos recludi, iamque rapior</l>
+            <l part="I">Ad tertium.</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l part="F">tantisper, Patelle, huc respice.</l>
+          </sp>
+          <sp who="#patellus">
+            <speaker>P.</speaker>
+            <l part="I">Quae causa?</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l part="M">pietas.</l>
+          </sp>
+          <sp who="#patellus">
+            <speaker>P.</speaker>
+            <l part="F">at fructus perit</l>
+            <l part="I">Solitudinis, si negotio intersum.</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l part="F">ardet proximus,</l>
+            <l part="I">Ni affundis aquam.</l>
+          </sp>
+          <sp who="#patellus">
+            <speaker>P.</speaker>
+            <l part="M">ubi scintilla?</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l part="F">domi</l>
+            <l>In nuptiis, mox datura est incendium.</l>
+          </sp>
+          <sp who="#patellus">
+            <speaker>P.</speaker>
+            <l part="I">Sunt manus, quae ignem extinguant.</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l part="F">ad hoc</l>
+            <l part="I">Reposceris.</l>
+          </sp>
+          <sp who="#patellus">
+            <speaker>P.</speaker>
+            <l part="F">agite paucis quid me vultis hic?</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l>Quid est hominis sodalis olim tuus, Philto, quem</l>
+            <l part="I">Deseruisti? testem te volo.</l>
+          </sp>
+          <sp who="#patellus">
+            <speaker>P.</speaker>
+            <l part="F">quid refricas</l>
+            <l>Cicatricem? quid minus necesse est, quam ulcus hoc</l>
+            <l>Tangere? excidit mihi iste homo, si non bellua.</l>
+            <l>Quid? ego sus lota redeam ad volutabrum luti?</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l>Non eo rogo: sed dic, quae eius vita est?</l>
+          </sp>
+          <sp who="#patellus">
+            <speaker>P.</speaker>
+            <l part="I">Polluta omni scelere.</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l part="M">audis?</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">audio.</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l part="I">Perge loqui.</l>
+          </sp>
+          <sp who="#patellus">
+            <speaker>P.</speaker>
+            <l part="F">quin permitte silere me.</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l part="I">Vix ipsi trepido verba constant.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">qui timide </l>
+            <l part="I">Loquitur, docet se tacere malle.</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l part="F">perge obsecro.</l>
+          </sp>
+          <sp who="#patellus">
+            <speaker>P.</speaker>
+            <l>Vos testor coelites, hoc quod volo dicere</l>
+            <l>Animus cupit, sed effari nequit: ita</l>
+            <l>Iste spurcus gladiator carnifex fuit.</l>
+            <l>Praecipue tamen magicis artibus studet,</l>
+            <l>Et has docuit filiam, quae malitia superat patrem.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Satis dixisti: redi in antrum, eremicola,</l>
+            <l>Vix sum apud me, cum haec dici audio.</l>
+            <l>Tu quoque abscede, ut solus siem: sed hunc</l>
+            <l>nummum accipe pro tuis dictis et monitis.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA TERTIA.</head>
+          <argument>
+            <p>Deterretur EUGENIUS a nuptiis.</p>
+          </argument>
+          <stage>EUGENIUS.</stage>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Quam proximus fui periculo! quam cito </l>
+            <l>Lupis commissus! quam imprudens egi misere!</l>
+            <l>In nuptiis haec omnia saepe insunt vitia:</l>
+            <l>Pericula, fallaciae, doli, fraus, improbitas.</l>
+            <l>Quando temere amasti, actum est, ilicet</l>
+            <l>Peristi. quem accusabis? necesse est tibi des</l>
+            <l>Ultro supplicium: atque ubi pati non poteris,</l>
+            <l>Nemo consolabitur: serius uxorem malam,</l>
+            <l>Et te miserum tuis nuptiis senties.</l>
+            <l>Nunc igitur mihi multa mala in pectore</l>
+            <l>Acria atque acerba eveniunt. Veneficis</l>
+            <l>Me habuisse fidem? mendicis improbis?</l>
+            <l>Merito mihi iratus sum. nunc quid mihi</l>
+            <l>Faciet pater? ut me cogat ducere?</l>
+            <l>Nunquam efficiet, si rem mecum noverit.</l>
+            <l>Atque ipsi deferam, quem advenientem video</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA QUARTA.</head>
+          <argument>
+            <p>EUGENIUS dubitat Patri obedire.</p>
+          </argument>
+          <stage>EUGENIUS, CALLICLES.</stage>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Laetiorem nunc utrum credam magis,</l>
+            <l>Filiumne an me, incertum est admodum.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Ignorat etiamnum, quid intervenit mali.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Illam exoptavit uxorem: habeat, optimum est</l>
+            <l>Nae ille illud hercle lubente fecit patre.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Ego faxo brevi istum immutet animum.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Nam mihi divum nunquam quidquam crediderit,</l>
+            <l>Ni ego illam divitem mendicam amo.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Mendicus malim mendicando vivere,</l>
+            <l>Quam istam mendicam factam auream ducere.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Amo hercle: opinor, utpote quod pro certo sciam.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Non amo hercle: opinor, utpote quod pro certo sciam.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Sed satin’ ego animum mente sincera gero,</l>
+            <l>Qui ad hunc modum haec hic certa fabulor?</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Audivi, mi pater, sermonem tuum.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="I">An audivisti?</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">multo rectius facias,</l>
+            <l>Si te, et me alienes ab his nuptiis.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="I">Quid est?</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">pessima est istaec familia:</l>
+            <l>Nunquam aedepol cum hac affinitatem contraham.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Falsa fama, fili, et sine capite.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Id ex duobus iuratis testibus comperi.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Malitiosis testibus semper fidem nego.</l>
+            <l>Aliud loquere. quae res tibi, et mihi</l>
+            <l>Felix sit, sequere, mi gnate, ad nuptias</l>
+            <l>Mecum Dis volentibus. scis consilia mea,</l>
+            <l>Ea causa ad hoc te parasti modo.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Amabo, mi pater, quanquam his nuptiis</l>
+            <l>Ignarus studes, tune tuum coges filium?</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Meum opinor imperium est in te, non in me tibi est.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Tua istaec potestas est, pater. veruntamen</l>
+            <l>Mihi grave est cum venefica vivere.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="I">Enimvero odiosus es.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">non sum, pater,</l>
+            <l>Neque me esse arbitror. nam si ad nuptias</l>
+            <l>Non iam humile genus, sed scelerum</l>
+            <l>Accedit infamia, mors est multo potior.</l>
+            <l>Nam inimici famam, non ita ut nata est, ferunt.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Ferant, eantque in maximam malam crucem.</l>
+            <l>Non ego inimicitias istas aestimo,</l>
+            <l>Si famae irrepit malitia, vel credulitas nimia.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Pater, hominum immortalis est infamia:</l>
+            <l>Etiam tum vivit, cum esse credas mortuam.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="I">Quid metuis?</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">ne me obiicias periculo.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Iuvenis, atque filius nullus erit, quin sit malus,</l>
+            <l>Qui praeter sapiet, quam placet parentibus.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Iuvenis, atque filius nullus erit, quin sit malus,</l>
+            <l>Qui reticet, si quid fieri periculose videt.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="I">Malo cavere melius est te.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">at si non licet</l>
+            <l>Cavere, quid agam? nam ego tibi cautum volo.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Tu me prudentior? non sum, neque me dignum est dicere.</l>
+            <l>Verum ei rei operam do, ne alii dicant, quibus licet.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Dicat quod quisque vult, ego de hac sententia</l>
+            <l part="I">Non dimovebor.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">at ego, si liceat modo,</l>
+            <l part="I">Sapienter potius faciam, quam stulte.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="F">lubet</l>
+            <l part="I">Lubere per me tibi?</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">licere intelligo:</l>
+            <l>Verum lubere, haud liceat, si subeat mihi.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Futurusne es dicto obediens, an non, patri?</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Futurus. sed inquire de his quae retuli.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="I">Faciam.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">qui sint mores Philtonis, et filiae.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="I">Faciam.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">tum si vis testes, adduxero.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Bonum, aequumque oras, providebo omnia.</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA QUINTA.</head>
+          <argument>
+            <p>LUGENIUS authori nuptiarum MILPHIONI succenset.</p>
+          </argument>
+          <stage>MILPHIO, EUGENIUS.</stage>
+          <sp who="#milphio">
+            <speaker>M.</speaker>
+            <l>Estne, hic meus amicus Eugenius?</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Estne hic hostis, quem aspicio, meus?</l>
+          </sp>
+          <sp who="#milphio">
+            <speaker>M.</speaker>
+            <l part="I">Certe is est.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="M">is est.</l>
+          </sp>
+          <sp who="#milphio">
+            <speaker>M.</speaker>
+            <l part="F">salvus sies</l>
+            <l part="I">Eugeni.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="M">salve.</l>
+          </sp>
+          <sp who="#milphio">
+            <speaker>M.</speaker>
+            <l part="F">hodie fiunt nuptiae?</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Non placent mihi nuptiae, quae bilem movent.</l>
+          </sp>
+          <sp who="#milphio">
+            <speaker>M.</speaker>
+            <l>Num quae ex improviso aegritudo obiecta est?</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="I">Atque acerrima.</l>
+          </sp>
+          <sp who="#milphio">
+            <speaker>M.</speaker>
+            <l part="M">unde?</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">ab homine,</l>
+            <l>Quem mihi amicum esse arbitratus sum antehac.</l>
+          </sp>
+          <sp who="#milphio">
+            <speaker>M.</speaker>
+            <l>Multi more isto, atque exemplo vivunt, Eugeni</l>
+            <l>Quos cum censeas tibi amicos, ii</l>
+            <l>Reperiuntur falsi falsimoniis, lingua</l>
+            <l>Factiosi, inertes opera, debili fide.</l>
+            <l>Nullus est, qui non invideat rem secundam obtingere.</l>
+            <l>Sibi ne invideatur, ipsi ignavi cavent</l>
+            <l part="I">Recte</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">aedepol nae tu illorum mores, Milphio,</l>
+            <l>Perquam meditate tenes. sed unum hoc etiam</l>
+            <l>Ex ingenio malo malum inveniunt suo:</l>
+            <l>Nulli amici sunt, inimicos ipsi habent</l>
+            <l>In se omnes: atque sese cum frustrantur, alios</l>
+            <l>Frustrari stolidi existimant. sicut est</l>
+            <l>Hic, quem esse amicum ratus; ipsus mihi</l>
+            <l>iam sum. ipse quod in se fuit, accuratum habuit,</l>
+            <l>Quod posset facere mali in me, his nuptiis</l>
+            <l part="I">Me perdere.</l>
+          </sp>
+          <sp who="#milphio">
+            <speaker>M.</speaker>
+            <l part="F">improbum istunc esse hominem</l>
+            <l part="I">Oportet, Eugeni.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">ego ita eum esse arbitror.</l>
+          </sp>
+          <sp who="#milphio">
+            <speaker>M.</speaker>
+            <l>Obsequere hercle: loquere, quis is est?</l>
+            <l>E Benevolens vixit tibi: nam ni esset ita,</l>
+            <l>Tecum orarem, ut ei quod posses malefacere,</l>
+            <l part="I">Faceres.</l>
+          </sp>
+          <sp who="#milphio">
+            <speaker>M.</speaker>
+            <l part="F">dic modo hominem qui siet.</l>
+            <l>Si non fecero ei male pacto aliquo,</l>
+            <l part="I">Me etiam dicito ignavissimum.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">nequam homo est,</l>
+            <l part="I">Verum hercle amicus est tibi.</l>
+          </sp>
+          <sp who="#milphio">
+            <speaker>M.</speaker>
+            <l part="F">tanto magis dic quis est.</l>
+            <l>Nequam istiusmodi hominis ego parvipendeo gratiam.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Video non posse, quin tibi eius nomen eloquar.</l>
+            <l>Milphio, perdidisti me amicum funditus.</l>
+          </sp>
+          <sp who="#milphio">
+            <speaker>M.</speaker>
+            <l part="I">Qui istuc est?</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">quid est? voluistine tu, Milphio,</l>
+            <l>Uxorem veneficam ducere me, et latronis filiam?</l>
+            <l>Quid, mihi non erat alterius Parisiis copia,</l>
+            <l>Nisi illam obtruderes, et me ires consultum male?</l>
+          </sp>
+          <sp who="#milphio">
+            <speaker>M.</speaker>
+            <l part="I">Sanus ne es?</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">rem reperi omnem ex testibus:</l>
+            <l part="I">Ne nega, perdidisti me.</l>
+          </sp>
+          <sp who="#milphio">
+            <speaker>M.</speaker>
+            <l part="F">etiamne ultro tuis</l>
+            <l>Me proiectas probris? ille latro? haec</l>
+            <l part="I">Venefica? ego perfidus?</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">Loqueris nunc nugas sciens.</l>
+          </sp>
+          <sp who="#milphio">
+            <speaker>M.</speaker>
+            <l>Postremo si pergis parum me fidum arbitrarier,</l>
+            <l part="I">Ibo ad istos.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="M">pater ivit, mane.</l>
+          </sp>
+          <sp who="#milphio">
+            <speaker>M.</speaker>
+            <l part="F">non maneo:</l>
+            <l part="I">Neque tu me habebis falso suspectum.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">sequar.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="5">
+        <head>ACTUS QUINTUS.</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>CALLICLES GEUSIONEM et PATELLUM fictos esse testes reperit.</p>
+          </argument>
+          <stage>GEUSION, PATELLUS, CALLICLES.</stage>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l>Bene successit nostra sycophantia:</l>
+            <l>iuveni imposuimus. argentum hoc facit.</l>
+          </sp>
+          <sp who="#patellus">
+            <speaker>P.</speaker>
+            <l>Tace. quis nostrum clam sermonem excipit.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Estis opinor, quos allocutus est filius.</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l part="I">Sumus.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="M">de cavendis nuptiis?</l>
+          </sp>
+          <sp who="#patellus">
+            <speaker>P.</speaker>
+            <l part="F">enim vero maxime.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Propter magna crimina et patris et filiae!</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l part="I">Sic est.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="M">estis testes criminum?</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l part="F">oculati equidem.</l>
+          </sp>
+          <sp who="#patellus">
+            <speaker>P.</speaker>
+            <l>Et heu, participes. sed procul fugi hominem.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Hos homines esse sycophantas puto:</l>
+            <l>Excutiam. vos novistis quis sit ille? qua facie!</l>
+            <l part="I">Ubi habitat?</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l part="F">ridicule admodum rogitas,</l>
+            <l>Quicum mendicare una soluimus cibum.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="I">Ergo qua facie est homo?</l>
+          </sp>
+          <sp who="#patellus">
+            <speaker>P.</speaker>
+            <l part="F">sesquipede</l>
+            <l>Quam tu longior: recalvus idem ac silo,</l>
+            <l>Statutus, ventriosus, tortis superciliis,</l>
+            <l>Contracta fronte, fraudulentus, Deum</l>
+            <l>Odium atque hominum, malus, mali vitii</l>
+            <l part="I">Probrique plenus.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="F">cum istiusmodi virtutibus,</l>
+            <l>Operisque natus qui sit, aequius est</l>
+            <l>Ad carnificem ducere, quam illum vivere.</l>
+            <l part="I">Pergite, quod est ei nomen?</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l part="F">quod aedepol</l>
+            <l part="I">Homini malo.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="M">lubet audire.</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l part="F">ille aedepol,</l>
+            <l part="I">Ille: vae misero mihi!</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="F">quid est negotii?</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l>Devoravi nomen imprudens modo.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="I">Tu dic.</l>
+          </sp>
+          <sp who="#patellus">
+            <speaker>P.</speaker>
+            <l part="F">atque etiam modo versabatur mihi</l>
+            <l part="I">In labris primoribus.</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l part="F">teneor manifesto miser.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="I">iamne commentatus es nomen?</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l part="F">Deum</l>
+            <l part="I">Hercle me atque hominum pudet.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="F">vide homo</l>
+            <l part="I">Ut hominem noveris.</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l part="F">tanquam me. fieri</l>
+            <l>Istuc solet, quod in manu teneas, atque oculis</l>
+            <l part="I">Videas, id desideres.</l>
+          </sp>
+          <sp who="#patellus">
+            <speaker>P.</speaker>
+            <l part="F">reminiscar litteris.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="I">Est principium nominis Malchus?</l>
+          </sp>
+          <sp who="#patellus">
+            <speaker>P.</speaker>
+            <l part="M">non est.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="F">Maspio?</l>
+          </sp>
+          <sp who="#patellus">
+            <speaker>P.</speaker>
+            <l part="I">Non est.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="M">Millio?</l>
+          </sp>
+          <sp who="#patellus">
+            <speaker>P.</speaker>
+            <l part="M">non est.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="F">Phibo?</l>
+          </sp>
+          <sp who="#patellus">
+            <speaker>P.</speaker>
+            <l>Nihil agis. neque adeo aedepol floccifacio,</l>
+            <l part="I">Quando egomet memini mei.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="F">at enim si hominem</l>
+            <l>Non appellatis, qui ego vobis de ipso possum credere?</l>
+            <l part="I">An Philo, an Philto?</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l part="F">hem iste sit, quem Di</l>
+            <l>Perdant. satin’ inter labra atque dentes latuit</l>
+            <l part="I">Vir minimi pretii?</l>
+          </sp>
+          <sp who="#patellus">
+            <speaker>P.</speaker>
+            <l part="F">quid ergo ille improbus</l>
+            <l>Etiamnum mihi quoque usque latitat?</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="I">Sed ipse ubi habitat?</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l part="F">in vicinia.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="I">Iam pridem?</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l part="F">abhinc annis decem cum illo utimur.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="I">Quod est tibi nomen?</l>
+          </sp>
+          <sp who="#patellus">
+            <speaker>P.</speaker>
+            <l part="F">ego Patellus vocor.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="I">Tibi?</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l part="M">Geusion.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="F">dignum patello operculum.</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l>Te potius benedicere aequum est, quam male.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Quid ais Sycophanta? ut loquaris male </l>
+            <l>De homine, quem ne vidisti quidem? properas,</l>
+            <l>An non properas actutum abire hinc</l>
+            <l>Prius, quam ego hic te iubeo mulctari male?</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>EUGENIUS et MILPHIO Sycophantus male mulctant.</p>
+          </argument>
+          <stage>EUGENIUS, CALLICLES, MILPHIO, GEUSION, PATELLUS.</stage>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Quid vocem attollit pater, et iratus est?</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Advenitis tempori. hi sunt qui nostras hodie</l>
+            <l>Turbarunt nuptias mendaciis, calumniis, dolis.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Vos me scelestis falsidicis fallaciis</l>
+            <l part="I">Fefellistis, improbi?</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="F">ementiti sunt omnia</l>
+            <l>De Philtone: nesciunt quis sit, aut ubi habitat.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>At sine cruciatu vestro id non feceritis.</l>
+          </sp>
+          <sp who="#milphio">
+            <speaker>M.</speaker>
+            <l>Hi quidem nostro arbitratu Sycophantae vapulent.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Onerate meritis plagis. ego ad Philtonem eo.</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l>Per Deos atque homines te ego obtestor, Eugeni,</l>
+            <l part="I">Ne tu me verberes.</l>
+          </sp>
+          <sp who="#patellus">
+            <speaker>P.</speaker>
+            <l part="F">ego culpam fateor.</l>
+          </sp>
+          <sp who="#milphio">
+            <speaker>M.</speaker>
+            <l>Cape, Eugeni, hunc fustem, ego alterum.</l>
+            <l>Has pulsemus incudes alternis ictibus.</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l part="I">Audite.</l>
+          </sp>
+          <sp who="#milphio">
+            <speaker>M.</speaker>
+            <l part="F">non audio, mallei obstrepunt.</l>
+          </sp>
+          <sp who="#patellus">
+            <speaker>P.</speaker>
+            <l part="I">O paulo mitius.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="M">saeviam magis.</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l part="F">induciae.</l>
+          </sp>
+          <sp who="#patellus">
+            <speaker>P.</speaker>
+            <l part="I">Induciae.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="M">quid igitur?</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l part="F">sunt alii qui magis</l>
+            <l part="I">Sunt promeriti.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="M">nempe.</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l part="F">qui nostram operam</l>
+            <l>Conduxerunt ad haec malefacta, et fallacias.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>An cuiquam dedistis operam ad hoc flagitium?</l>
+          </sp>
+          <sp who="#patellus">
+            <speaker>P.</speaker>
+            <l>Fatemur: ego et socius ad hanc operam</l>
+            <l part="I">Accepimus asses viginti.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">a quo? dicite.</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l>Ab Tabardo, et Lampadione servo: qui</l>
+            <l>Nos voluere sycophantiose agere, et malefice.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Superi! quid audio? id egit patruus?</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l part="I">Ipse.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="M">egit?</l>
+          </sp>
+          <sp who="#geusion">
+            <speaker>G.</speaker>
+            <l part="M">ipsissimus.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">mentimini adhuc:</l>
+            <l part="I">Non credo.</l>
+          </sp>
+          <sp who="#patellus">
+            <speaker>P.</speaker>
+            <l part="F">macta nos maximo infortunio,</l>
+            <l>Si mentimur. nam quid ad nos pertinuit</l>
+            <l>Maledicere, nisi operae datae essent pecuniae?</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>iam intelligo, Milphio, quorsum haec facta sunt:</l>
+            <l>Ut me Tabardus deterreret a nuptiis,</l>
+            <l>Eo architectus affinxit has calumnias.</l>
+            <l>Ibo, et expostulabo factam iniuriam.</l>
+            <l>Vos ab oculis abite: maiore supplicio</l>
+            <l>Commissa eiusmodi luetis postea.</l>
+            <l>Hoccine facinus factum a patruo?</l>
+            <l>Ut me nepotem suum suis ductaret dolis?</l>
+            <l>Ut hominem bonum curaret maledictis obiici!</l>
+            <l>Ut fortunatas, et divites dissolveret nuptias?</l>
+            <l>Nunc certum est nulli posthaec quidquam credere:</l>
+            <l>Satis sum semel deceptus. sed adest lupus</l>
+            <l>In sermone: non possum quin ipsi loquar male.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA TERTIA</head>
+          <argument>
+            <p>EUGENIUS TABARDO obiicit calumniam.</p>
+          </argument>
+          <stage>TABARDUS, EUGENIUS, LAMPADIO</stage>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l>Eugeni, sapientum illud dictum te audisse reor</l>
+            <l>Saepius, voluptas est malorum esca: quod ea</l>
+            <l>Non minus homines, quam pisces hamo</l>
+            <l>Capi solent. hanc cautior non fugis:</l>
+            <l>Haec te in amorem coniecit: haec tuum</l>
+            <l>Consilium atque mentem perdidit funditus,</l>
+            <l>Atque oculorum tibi perstrinxit aciem.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Consultor autem semper idem mihi</l>
+            <l>Importunus, eadem cum cantat abs re mea.</l>
+            <l>Certa est res, mensque mihi uxorem ducere.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l part="I">Philtonis filiam?</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">ita: ipsam suadeas, dissuadeas,</l>
+            <l>Obstes, non obstes: ubi ubi illa sit, coram,</l>
+            <l>Procul, nec mihi ullus obsistet fluvius,</l>
+            <l>Neque mors, neque adeo mare: nec ego</l>
+            <l>Calorem, nec frigus metuo: perpetiar</l>
+            <l>Solem, sitim: quemvis laborem sufferam:</l>
+            <l>Non concedam, neque quiescam noctu, diu,</l>
+            <l>Prius profecto quam ut illam habuero.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l>O stultus es, isto obstinato animo.</l>
+            <l part="I">Habe ergo istanc mulierem, et eius comiter.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">qui sunt ii?</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l>Cura, miseria, aegritudo, lacrymae, lamentatio,</l>
+            <l>Ira, inimicitia, moeror, exilium, inopia,</l>
+            <l>Solitudo, stultitia, exitium, pertinacia.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="I">Immo alii sunt comites.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l part="F">qui scilicet?</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Vita, amicitia, spes, salus, laetitia</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l>Cupido quam caecus es! quam fallax, et fatuus!</l>
+            <l>Quemvis confidentem facile tuis factis facis,</l>
+            <l>Eundem ex confidente actutum diffidentem denuo,</l>
+            <l>Sed saepius nimis sero discipulos erudis.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Certe sunt aliqui praediti ingenio malo,</l>
+            <l>Qui omnia improbant, quae iuvenes faciunt.</l>
+            <l>Si causam petas, nec ipsi possint dicere.</l>
+            <l>Quid ergo, ut tecum ad rem veniam, mi patrue,</l>
+            <l>Mihi succenses in his nuptiis? si pares</l>
+            <l>Non sunt, genus compensat grandis pecunia;</l>
+            <l>Non latrocinio male parta, vel veneficio.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l part="I">Mihi hoc dicis?</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">eo illud verum est magis.</l>
+            <l>Nam te istac conditione haud aequum fuit</l>
+            <l>Sycophantas emere, aliorum famam laedere,</l>
+            <l>Nepoti coniugem argento eripere tuo.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l part="I">Quid tu ais? ego hoc egi?</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">ut dissimulas?</l>
+            <l>Detecta est res: Geusion, et Patellus patent.</l>
+            <l>Temperare tandem istis decebat te artibus.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l>Fateor: rei agendae isti magis operam dedi.</l>
+            <l>Ut te, quod adhuc in animo est exequi,</l>
+            <l part="I">Avocem ab his nuptiis.</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l part="F">sed qui scis hoc</l>
+            <l part="I">Ita esse factum?</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">tace, in os tibi</l>
+            <l>Pugnum impingam, qui nosti sycophantarier.</l>
+            <l>Sed haec brevi malitia ruunt sua.</l>
+            <l>Non mihi iam, nec Philtoni, nec eius filiae,</l>
+            <l>Sed nobis ipsi fecistis iniuriam his noxiis.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l>Commodo id feci tuo, ne mendicam caperes.</l>
+            <l>Eveniet tempus, ut mihi gratiam referas</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Non tibi, sed patri, in cuius sum manu:</l>
+            <l>Qui modo est cum Philtone, et de nuptiis</l>
+            <l>Convenit. en ipsi ambo prodeunt.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA QUARTA.</head>
+          <argument>
+            <p>CALLICLES, et PHILTO nuptias decernunt.</p>
+          </argument>
+          <stage>CALLICLES, EUGENIUS, PHILTO, TABARDUS, LAMPADIO.</stage>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Quae res bene vertat mihi, meoque filio,</l>
+            <l>Tibi, tuaeque filiae, hodie fiunt nuptiae.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Quid audio? o faustum et felicem diem!</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l>Utro que versum rectum est ingenium meum</l>
+            <l>Ad te, atque filium, quibus bene volo.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l>Nequidquam illud verbum est, bene volo,</l>
+            <l>Nisi tu potes esse frugi, quid postulas?</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Abi tu hinc, mi frater, vel tace.</l>
+            <l>Tute tibi, Philto, eapropter tuo ingenio</l>
+            <l>Prodes plurimum, cum filium amas.</l>
+            <l>Nam hic te vicissim, et filiam colet</l>
+            <l part="I">Cum pietate.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">non secus amabo, quam ego me.</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l>Id recte internos convenisse censeo,</l>
+            <l>Quia liberos amamus: non tuum tu magis</l>
+            <l>Videre filium felicem, quam ego gnatam cupio.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l>At qui stulte consulit filio, is non amat.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Ego tibi os occludam, si verbum addideris.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l>Vel hercle, si sic licebit, mutus dixero.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Adhuc obturbat? merito odi hominem.</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l>Deinde hoc in rem conducet tuam, et meam,</l>
+            <l>Si sine querimonia vivent inter se coniuges:</l>
+            <l>Neu sit litigium mulieri cum viro:</l>
+            <l>Nam mulier solet, quae subservire virum sibi</l>
+            <l>Postulat, freta et dote sua ferox:</l>
+            <l>Et vir quoque saepe culpa haud abstinet,</l>
+            <l>Praesertim si sit nobiliore familia.</l>
+            <l>Verum est modus tamen, quo id pati</l>
+            <l>Uxorem oportet. nec pol vir unquam patrem</l>
+            <l>Accersit, huius commissi causa iurgii.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Hoc, Philto, quoties edixi meo filio</l>
+            <l>Ut caveat, ne unquam veniat ad me cum adiurgio.</l>
+            <l>Ut discat domi perpeti mulieris negotia.</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l>Et id monstravi filiae, viro ut morem gerat,</l>
+            <l>Quid ille faciat, ne id observet, aut quo eat:</l>
+            <l>Denique corde ament inter se, et ingenio haud discordabili.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Istanc industriam etiam faxo observem amplius,</l>
+            <l>Parentes mei, cum tam sedulo mandatis mihi.</l>
+            <l>Id faciam, id persequarque corde et animo, atque viribus.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Facis ita, ut te facere oportet in his nuptiis,</l>
+            <l>Ut coniuges certent alter alterum</l>
+            <l>Honestiorem honore semper facere.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Istuc non praecipias, satis memoria memini.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l>Multa quidem praeceptorum plaustra, sed</l>
+            <l part="I">Praxis non item.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="F">etiam, frater, tu taces?</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l>Postremum, quoniam dos meae filiae est</l>
+            <l part="I">Decem aureorum millia.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l part="F">non credo, nisi videro.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l>Hercle facies in portu naufragium.</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l>Meas ostendam vobis nunc magnas divitias.</l>
+            <l>Sed prius, Callicles, huc animum advertas volo.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l>Eloquere, me atque filium attentos habes.</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l>Ergo ita conveniat inter me, atque vos,</l>
+            <l>Ut, si ex filia tuo filio nulla sit</l>
+            <l>Proles, bona, quae ex eleemosynis parta sunt,</l>
+            <l>Redeant ad pauperes in Xenodochio pio.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="I">Pie, iuste, sapienter.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">ex animo meo, et sententia.</l>
+          </sp>
+          <sp who="#philto">
+            <speaker>P.</speaker>
+            <l>Cum id ratum habetis, sequimini me domum:</l>
+            <l>Defossas habeo pecunias in horto meo:</l>
+            <l>Congeram vobis usque et usque pleno sinu.</l>
+          </sp>
+          <sp who="#callicles">
+            <speaker>C.</speaker>
+            <l part="I">Gratulor tuam sortem, fili.</l>
+          </sp>
+          <sp who="#eugenius">
+            <speaker>E.</speaker>
+            <l part="F">laetus tibi,</l>
+            <l part="I">Et Milphioni habebo gratiam.</l>
+          </sp>
+          <sp who="#tabardus">
+            <speaker>T.</speaker>
+            <l part="F">ego paulo animum</l>
+            <l>Immutabo, si haec vera esse comperero.</l>
+          </sp>
+          <sp who="#lampadio">
+            <speaker>L.</speaker>
+            <l>Et ego, si haec ita sunt, revertar in gratiam.</l>
+          </sp>
+          <closer>FINIS</closer>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

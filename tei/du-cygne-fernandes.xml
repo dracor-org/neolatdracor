@@ -1,0 +1,3568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="dracor" xml:id="neolat000178" xml:lang="la">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fernandes</title>
+        <author>
+          <persName xml:lang="la">
+            <forename>Martinus</forename>
+            <surname>du Cygne</surname>
+          </persName>
+          <idno type="wikidata">Q21545079</idno>
+        </author>
+        <respStmt>
+          <resp>Transcribed by</resp>
+          <persName ref="https://orcid.org/0000-0002-9764-187X">Nicholas De Sutter</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Converted to TEI by</resp>
+          <persName ref="https://orcid.org/0000-0002-9764-187X">Nicholas De Sutter</persName>
+        </respStmt>
+        <funder>
+          <orgName>FWO</orgName>
+          <name>1291325N</name>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <ref target="https://books.google.com/books?id=vqAjcaQDLrgC">Google Books</ref>
+          <availability status="free">
+            <p>In the public domain.</p>
+          </availability>
+        </bibl>
+        <bibl type="originalSource">
+          <author>Martinus du Cygne</author>: <title>Fernandes</title>. <title type="sub">Comoedia
+            X</title>. In: <author>Martinus du Cygne</author>: <title>Comoediae XII</title>. <title type="sub">Pars posterior</title>. 
+          <pubPlace>Liège</pubPlace>: <publisher>Joannes Mathias Hovius</publisher>
+          <date>1679</date>. <biblScope>pp. 145–190</biblScope>. </bibl>
+        <listEvent>
+          <event type="print" when="1679">
+            <desc/>
+          </event>
+        </listEvent>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="prologus" sex="UNKNOWN">
+            <persName>Prologus</persName>
+          </person>
+          <person xml:id="rodericius" sex="MALE">
+            <persName>Rodericius</persName>
+          </person>
+          <person xml:id="fernandes" sex="MALE">
+            <persName>Fernandes</persName>
+          </person>
+          <person xml:id="cordias" sex="MALE">
+            <persName>Cordias</persName>
+          </person>
+          <person xml:id="alafir" sex="MALE">
+            <persName>Alafir</persName>
+          </person>
+          <person xml:id="agrippa" sex="MALE">
+            <persName>Agrippa</persName>
+          </person>
+          <person xml:id="moresco" sex="MALE">
+            <persName>Moresco</persName>
+          </person>
+          <person xml:id="valentador" sex="MALE">
+            <persName>Valentador</persName>
+          </person>
+          <person xml:id="palinera" sex="MALE">
+            <persName>Palinera</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">comedy</term>
+        </keywords>
+        <classCode scheme="https://www.wikidata.org/wiki/Q40831"/>
+      </textClass>
+      <creation>
+        <region>
+          <ref target="https://www.wikidata.org/wiki/Q622783">Spanish Netherlands</ref>
+        </region>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2026-07-24">
+          <desc>Converted to DraCor TEI by Nicholas De Sutter.</desc></change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart>Fernandes</titlePart>
+        </docTitle>
+      </titlePage>
+      <argument>
+        <head>MATERIA</head>
+        <p>Fernandes Hispalensis, non adhuc trimulus, una cum patre et fratre a Pyratis captus in
+          Insula Corsica, ducitur Constantinopolim: his vero redemptis, inter Mahumetanos infans
+          adolescit. Annis viginti postea ab Hispanis rursum captus, Hispali asservabatur, quando
+          incidit in virum, qui ut iuvenem videt, filium esse suum affirmat, ille negat se istum
+          esse. Veniunt ad Praetorem Urbis: ac patre alia super alia congerente signa, iuvenis se
+          Christo adiudicat et patri. <ref>Hist. Societ. JESU Part. 2. num. 58. Anno 1561.</ref></p>
+      </argument>
+      <castList>
+        <head>PERSONAE</head>
+        <castItem>
+          <role>Rodericius</role>
+          <roleDesc>pater</roleDesc>
+        </castItem>
+        <castGroup rend="braced">
+          <castItem>
+            <role>Fernandes</role>
+          </castItem>
+          <castItem>
+            <role>Cordias</role>
+          </castItem>
+          <roleDesc>filii</roleDesc>
+        </castGroup>
+        <castItem>
+          <role>Alafir</role>
+          <roleDesc>Turca</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Agrippa</role>
+          <roleDesc>senex</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Moresco</role>
+          <roleDesc>servus</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Valentador</role>
+          <roleDesc>Praetor</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Palinera</role>
+          <roleDesc>nauta</roleDesc>
+        </castItem>
+      </castList>
+      <div type="argument">
+        <head>Distributio</head>
+        <list type="argument">
+          <item>
+            <label>Actus I</label>
+            <list>
+              <milestone unit="dramaticPhase" n="protasis"/>
+              <item><label>Scena I</label> Rodericius filium plorat inter Mahumetanos
+                perditum.</item>
+              <item><label>Scena II</label> Cordias interrogat captivos Turcas, num quid de fratre
+                suo Fernandes audierint.</item>
+              <item><label>Scena III</label> Rodericius incidit in filium, a quo ridetur.</item>
+            </list>
+          </item>
+          <item>
+            <label>Actus II</label>
+            <list>
+              <milestone unit="dramaticPhase" n="epitasis"/>
+              <item><label>Scena I</label> Agrippa sibi a captivo Fernandes fraudem metuit.</item>
+              <item><label>Scena II</label> Agrippa servum increpat, quod Rodericius cum captivo
+                egerit.</item>
+              <item><label>Scena III</label> Agrippa Rodericium cum contumelia propulsat ab
+                aedibus.</item>
+            </list>
+          </item>
+          <item>
+            <label>Actus III</label>
+            <list>
+              <item><label>Scena I</label> Alafir captivi Fernandes Constantinopoli affert lytrum:
+                comiter a servo excipitur.</item>
+              <item><label>Scena II</label> Cordias peregrinum Alafir fallit.</item>
+              <item><label>Scena III</label> Agrippa rursus increpat servum.</item>
+              <item><label>Scena IV</label> Cordias patri refert lytrum Fernandes esse
+                Constantinopoli allatum: hinc novae curae.</item>
+              <item><label>Scena V</label> Moresco adducit Alafir ad Agrippam.</item>
+              <item><label>Scena VI</label> Alafir captivi solvit pretium.</item>
+              <item><label>Scena VII</label> Fernandes reditum parat in Turciam.</item>
+              <item><label>Scena VIII</label> Valentador Palineram in procinctu sistit.</item>
+            </list>
+          </item>
+          <item>
+            <label>Actus IV</label>
+            <list>
+              <milestone unit="dramaticPhase" n="catastasis"/>
+              <item><label>Scena I</label> Fernandes et Alafir, nautarum habitu, vicinum portum
+                cogitant.</item>
+              <item><label>Scena II</label> Cordias ementitos nautas eludit.</item>
+              <item><label>Scena III</label> Stomachatur Palinera retardari navim suam.</item>
+              <item><label>Scena IV</label> Agrippa, propter moram, metuit suo peculio.</item>
+              <item><label>Scena V</label> Rodericius adversarios in ius convocat.</item>
+              <item><label>Scena VI</label> Agrippa homines fugere statuit, Moresco Agrippam.</item>
+            </list>
+          </item>
+          <item>
+            <label>Actus V</label>
+            <list>
+              <milestone unit="dramaticPhase" n="catastrophe"/>
+              <item><label>Scena unica</label> Post acres, Praetore arbitro, utrimque contentiones,
+                Fernandes se filium Rodericii agnoscit, et Christianum.</item>
+            </list>
+          </item>
+        </list>
+      </div>
+    </front>
+    <body>
+      <div type="prologue">
+        <head>PROLOGUS.</head>
+        <sp who="#prologus">
+          <l>Id Matri obtigisse narrat Historicus,</l>
+          <l>Quod Poeta affingit Patri, propterea quod</l>
+          <l>In scenam consulto non prodit mulier.</l>
+          <l>Fabulae autem argumentum apposita</l>
+          <l>Ostendit distributio, quod non necesse puto</l>
+          <l>Pluribus eloqui, nec ad formam Comoedia.</l>
+        </sp>
+      </div>
+      <div type="act" n="1">
+        <head>ACTUS PRIMUS.</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>RODERICIUS filium plorat inter Mahumetanos perditum.</p>
+          </argument>
+          <stage>RODERICIUS, CORDIAS.</stage>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l>Nae hoc, quod vulgo aiunt, verum est, Cordia:</l>
+            <l>Aliud ex alio malum; iam usu didici.</l>
+            <l>Dies posthuma peior altera, ubi animus</l>
+            <l>Aeger est, nec diuturnitas dolorem minuit.</l>
+            <l>Hinc adeo mihi quotidie crescit magis</l>
+            <l>De Fernandes aegritudo; et quo abest</l>
+            <l>Diutius, magis cupio tanto, et magis desidero.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l>Semper sensi te Fernandes amicum, pater:</l>
+            <l>Et te qualibet re orbari, quam hoc malle filio.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l>Nam quid mirum? tum denique homines nostra intelligimus</l>
+            <l>Bona, eum quae in potestate habuimus, ea amittimus;</l>
+            <l>Aut quae chara fuerunt, non habemus. filium</l>
+            <l>Praeter te unum habeo, Cordia. ah quid dixi habere me!</l>
+            <l>Imo habui: nunc habeam, nec ne, incertum est. mihi;</l>
+            <l>Aut si habeo, certe, quod ploro, christianum minus:</l>
+            <l>Ita hic Deo, et patri suo vivit mortuus.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l part="I">Quid ita istuc putas?</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">scies, etsi unguis in ulcere;</l>
+            <l>Annis, abhinc viginti navigabamus tu, et frater tuus</l>
+            <l>Mecum in Insula Corsica: atque hic tum trimulus,</l>
+            <l>Tu unum natus annum, aut circiter:</l>
+            <l>Cum in Pyratas incidi. hinc labes, hinc retro </l>
+            <l>Lapsae res: nam quasi in malorum syrtim ego</l>
+            <l>Impegissem, ita me tum captum sensi, ut, nisi</l>
+            <l>Dolore mortuus, unquam aliter emergerem.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l>Barbara gens Turcarum est scilicet, maxime </l>
+            <l part="I">Qui Pyraticam exercent.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">bene coniicis.</l>
+            <l>Ergo Aligerium primum, dein Constantinopolim ducimur,</l>
+            <l>Ea, qua solent captivi lege misera, et statu;</l>
+            <l>Catenis vincti singulariis, etiamsi in medio mari.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l>Etiamnum, pater, istorum meminisse grave est tibi.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l>Quid faciam? quod volunt lytrum, ne venderer,</l>
+            <l>Promitto: denique cum illis paciscor, ut, quod habeo</l>
+            <l>Domi summum pretium, mihi solvam, et tibi.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l>Habeo gratias. ita saepius audivi puer</l>
+            <l>Ex matre: sed quid Fernandes factum est fratri?</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l>Vix patris nomen, et matris balbutiens adhuc</l>
+            <l>Appellabat: patriam, et caetera signa neque</l>
+            <l>Sciebat, neque per aetatem etiam poterat.</l>
+            <l>Hunc navis Praetor postquam videt, (indole erat</l>
+            <l>Ingenua, Cordia, et pulchra facie) tenuit sibi;</l>
+            <l>Nec oblato etiam lytro quolibet voluit reddere</l>
+            <l>Eius uxor ut accepit, coepit studiose omnia</l>
+            <l>Docere, educare, ita uti esset filius:</l>
+            <l>Germanum plerique esse credebant suum, quod alio</l>
+            <l>Carebat: et ipse etiam matrem vocare, digito</l>
+            <l>Ostendere, adulari, observare, me patrem</l>
+            <l>Oblivisci, alterum pro suo interdum accipere.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l>At si de manu tradidisti in manum, pater,</l>
+            <l>Quid sortem defles, perinde mala ut siet?</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l>Nescis, Cordia, etiamnum quid acciderit mali:</l>
+            <l>Ille optimo, ut putas, istic affectus patre,</l>
+            <l>Tamen (heu miserum!) periclitatur anima quotidie</l>
+            <l>Recutitus infans, rerum rudis omnium.</l>
+            <l>Quid dicam? in impia gentis religione, Cordia,</l>
+            <l>Adolescit, ut caeteri, cultor ipse etiam</l>
+            <l>Mahumeti, perditus omnino. hic dolor</l>
+            <l>Lacrymas elicit, et me loqui prohibet.</l>
+            <l>Dies, noctesque filium requiro, alloquor,</l>
+            <l>Somnio, de hoc cogito, opto, voveo, apprecor.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l>Merito est, mi pater, quod sic facias: hoc mihi</l>
+            <l>Pariter aegre est ac tibi: ita me Deus amet,</l>
+            <l>Ut illius miseretur quam afflicti status!</l>
+            <l>Sed bono animo simus. sunt hic captivi in vicinia,</l>
+            <l>Qui se Turcas dicunt; vis adeam, ut rogem</l>
+            <l>Si quid sciant, aut de fratre uspiam audierint!</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l>Quid isti de tuo fratre? frustra iveris:</l>
+            <l>I tamen, etsi iamdiu hoc saxum volvo: fere </l>
+            <l>Ex improviso affert dies, altera quod negat.</l>
+            <l part="I">Ego te mox sequar.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>CORDIAS interrogat captivas Turcas, num quid de fratre suo FERNANDES audierint.</p>
+          </argument>
+          <stage>CORDIAS, MORESCO, FERNANDES, RODERICIUS.</stage>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l part="F">Ut demonstratae sunt mihi,</l>
+            <l>Illasce aedes esse oportet, captivus ubi habitat.</l>
+            <l part="I">Ostium pultabo.</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l part="M">quis nostras fores?</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l part="F">amicus his,</l>
+            <l>Ac tibi. quaeso, Captivus si intus est, et vacat,</l>
+            <l part="I">Evocato.</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l part="M">faciam.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l part="F">Dii faciant benevole,</l>
+            <l>Ut fratrem reperiam. eccum captivus adest,</l>
+            <l>Ibo obviam. multum salve virorum optime:</l>
+            <l>Quis tu? quo pacto hic? satin’ recte?</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>ego</l>
+            <l>Sic ut possum, quando ut volo non licet.</l>
+            <l>At multa simul rogitas, quisquis es, nescio</l>
+            <l>Quid expediam primum: sin unum quidquid, et</l>
+            <l>Singillatim percunctabere, meum nomen, et mea</l>
+            <l>Facta, et meam servitutem ego faxo ut scias.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l>Nihil est aeque quod audiam lubens.</l>
+            <l>Agedum, primum nomen tuum memora.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Me Baiamet vocant, Mustaphato prognatum patre.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l part="I">Atque hic valet?</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">equidem spero: nam cum ab iis</l>
+            <l part="I">Discessi, uterque valebat parens.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l part="F">quae tibi</l>
+            <l part="I">Patria?</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">Constantinopolis, et hac glorior</l>
+            <l part="I">Merito urbe.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l part="F">gaudeo: ita quisque fere </l>
+            <l>Studio erga patriam ducitur: nam aiunt</l>
+            <l>Proverbio, non quaevis terra est patria.</l>
+            <l>Sed quando Constantinopolitanus es, indica</l>
+            <l part="I">Si tu ibi multos nosti?</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">belle tu rogas;</l>
+            <l>Quasi ego ista in urbe hospes sim, aut lapis.</l>
+            <l>Quem captas? rudem, an stupidum? nam aedepol</l>
+            <l>Captivum ut vides, notitiam hominum gero.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l>Commovi, ego id non putaram. doleo, Baiamet,</l>
+            <l>Si tibi quid dixi, aut dico, quod non placet:</l>
+            <l>Nam huc veni, ut, si possim, tibi officium feram.</l>
+            <l>Tu vicissim fac ut sciam, utrum in urbe tua</l>
+            <l>Adeo frequenti, et copiosa adeo, aliquis siet</l>
+            <l part="I">Qui vocatur Fernandes.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">nescio. ego</l>
+            <l part="I">Nunquam istum novi Fernandes.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l part="F">est tamen:</l>
+            <l>Qui una cum patre, et me, raptus est olim in Corsica,</l>
+            <l>Postea a Praetore adoptatus in filium.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Hominem inter vivos quaeritas mortuum:</l>
+            <l>Nam ego noscerem, si viveret; quippe qui loca omnia</l>
+            <l>Constantinopoli, et naves, et nautas novi optime:</l>
+            <l>Imo ipse unus sum istorum, quos tu praedicas,</l>
+            <l>Praetorum filius. proinde fratrem habe mortuum.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l>Imo istuc cum patre quaerimus, certum qui faciat;</l>
+            <l>Qui sese dicat scire eum esse mortuum:</l>
+            <l>Operam praeterea nunquam sumemus quaerere,</l>
+            <l part="I">Aut quemquam rogare.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="M">bene adveni.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">vis aliud?</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l>Aliud nescio quid oblitus sum, ac volo petere.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l>Pro Deus! quid ego oculis video? speculum filii</l>
+            <l part="I">Tam consimilis est, quam potest.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l part="F">venit</l>
+            <l>Exinde in mentem mihi, an tui socii</l>
+            <l part="I">Non noverint?</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">Tu hos voca, sunt domi.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l>Vix impero ipsemet mihi, ita animus</l>
+            <l>Est modo hunc esse filium. adibo hominem.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA TERTIA.</head>
+          <argument>
+            <p>RODERICIUS incidit in filium, a quo ridetur.</p>
+          </argument>
+          <stage>FERNANDES, RODERICIUS, CORDIAS.</stage>
+          <sp who="#rodericius">
+            <l>Adolescens salve. quaeso loquere tuum</l>
+            <l part="I">Mihi nomen, ni piget.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">non ita homo</l>
+            <l>Promeruisti de me, ut pigeat quae velis;</l>
+            <l>Tametsi iam adhuc dixi. mihi nomen est</l>
+            <l part="I">Baiamet.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">id quidem meo non fuit filio.</l>
+            <l part="I">Ecquod patris?</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="M">Mustapha.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">fallitur.</l>
+            <l part="I">Cuias?</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">natione Turca, civitate sum</l>
+            <l part="I">Constantinopolitanus, secta Mahumetanus.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">ego</l>
+            <l>Te alium esse censeo: nam quid hic captivus es?</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Ad Tibericum mare captus, quadriennium hic servio.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l>iam ista haec rogavi, pater, iam illum omnia:</l>
+            <l>Non quidquam novit de Fernandes, nisi id</l>
+            <l part="I">Norint socii.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">desine, Cordia, nondum etiam</l>
+            <l part="I">Scis quid rei hic siet.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l part="F">tacebo, cum iubes.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l>Poterone a te, ut verum dicas, exculpere?</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="I">Quidni?</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">an recte tu te ipsum nosti? item</l>
+            <l part="I">Patriam, et sectam, et patrem?</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">quid tibi vis,</l>
+            <l>Vir bone? an ego insanus sum, qui ipse me,</l>
+            <l>Et patrem ignorem meum? quid hoc me rogitas?</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l>Ne mireris, si quid temere videor dicere,</l>
+            <l>Atque imprudens tibi: ita rem esse comperies,</l>
+            <l>Aliam tibi esse patriam, alio te prognatum patre.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l>Praesagit aliquid, varie affectus est pater.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Aenigmata loqueris, mi vir, logogryphica?</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="I">Quid hem?</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">plane tanquam Apollo nihil explicas.</l>
+            <l>Quin tu dic quid vis? quid me saepius haec eadem rogas?</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l>Quia et mea, et tua perinde interest</l>
+            <l>Scire quis sis, et cuias, et quo nomine.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Hic homo surdus est, ut opinor: decies</l>
+            <l>Dixi. Turca ego sum, inquam, ecquid hoc</l>
+            <l>Audis? patrem habeo Mustapha, et hoc satin’</l>
+            <l>Plane? satin’ diserte homo nunc videor</l>
+            <l part="I">Tibi locutus esse?</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">ego aliter scio te</l>
+            <l part="I">Puerum audivisse.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">nescio quid tu scis sciens:</l>
+            <l part="I">Quod audivi puer, hoc iam eloquor.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">ego patriam</l>
+            <l part="I">Novi tuam.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">et ego novi meam, ni me ipsus</l>
+            <l part="I">Fallo.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="M">quam?</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="M">Constantinopolim.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">haeccine</l>
+            <l part="I">Tua urbs?</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">ita, inquam, ludos facis.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l>Quin te scio tres annos natum a Pyratis eo </l>
+            <l part="I">Raptum.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l part="F">an fors hic est Fernandes frater?</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Me triennem inquis raptum Constantinopolim,</l>
+            <l part="I">Mira narras, si crederem.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">ubi, me et fratre</l>
+            <l>Redemptis, solus remansisti, a Praetore postea</l>
+            <l>Adoptatus filius; et cum Fernandes tibi</l>
+            <l part="I">Esset nomen, illud immutatum.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l part="F">Deus bone!</l>
+            <l part="I">Ipse est frater.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">ah, ah, ah, hic vir somniat.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l>Mihi fidem habe, haec clam te gesta sunt omnia,</l>
+            <l>Quae dico, cum infans esses, ne patriam,</l>
+            <l>Et nomen, et me patrem nosceres tuum.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l part="I">O faustum hunc diem!</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">certo certius</l>
+            <l>Delirantis est somnium. num obdormivisti dudum, mi homo?</l>
+            <l part="I">Quaeso edormiscas somnum.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">sanus sum, fili,</l>
+            <l part="I">Vera, obsecro, me loqui autuma.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">quidquid lubet</l>
+            <l>Dic, quoniam obsecras: verum ut ut dicturus es,</l>
+            <l>Hoc nunquam quidem facies, quin ego sim Baiamet;</l>
+            <l>Nec mihi, praeter Mustapha, alius quisquam pater siet;</l>
+            <l>Nec Constantinopolim alienabis unquam, quin mea</l>
+            <l>Sit patria: nam (malum!) Constantinopolitanus haud</l>
+            <l>Sum? haud ibi educatus? atque adeo in parentum sinu?</l>
+            <l>Quid igitur ego dubito? apage, apage homo,</l>
+            <l>Altera manu scabis caput, altera malam feries.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l>Euge, mi pater, frater hic quidem est meus.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l>Nec mihi dubium est illum esse. ita faciem</l>
+            <l>Noscitans perlustravi oculis: forma, item</l>
+            <l>Aetas, consentiunt omnia. nam quod se eum</l>
+            <l>Negat, id non mirum prima fronte: patriam,</l>
+            <l>Nomen, quin et patrem iam usu alium fecit suum.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l>Pro se quisque opinor id, quod quisque putat,</l>
+            <l>Et credit, loquitur; postea aliter.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l>Aggrediar argumentis iuvenem convincere,</l>
+            <l>Nunc ad Agrippam eius herum me conferam.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="2">
+        <head>ACTUS SECUNDUS.</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>AGRIPPA sibi a captivo FERNANDES fraudem metuit.</p>
+          </argument>
+          <stage>AGRIPPA, FERNANDES.</stage>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l>Liber captivus avi fere consimilis est.</l>
+            <l>Semel fugiendi si data est occasio, satis est.</l>
+            <l>Nunquam posthac illum postilla possis prendere.</l>
+            <l>Nec mirum: omnes profecto liberi lubentius</l>
+            <l>Sumus, quam servimus; tum homini misero</l>
+            <l>Si rima, vel fenestra ad felicitatem patuit,</l>
+            <l>Maior libido est fugere, et facere nequiter.</l>
+            <l>Ita videtur quidem captivus meus mihi,</l>
+            <l>Cui si integrum foret, illico se in pedes daret:</l>
+            <l>Quod ne faxit, illum in caveam dabo,</l>
+            <l>Nec se unquam miserum quoquo modo catenis eximet.</l>
+            <l>Qui cavet ne decipiatur, vix cavet cum etiam cavet,</l>
+            <l>Etiam cum cavisse ratus, saepe is cautor captus est.</l>
+            <l>Nec mihi iniusta causa est, ut hunc ita</l>
+            <l>Servem, quem grandi scio redemptum iri pretio.</l>
+            <l>Atque hic commodum. audiens clam observabo quid velit.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Ah, ah, ah, supreme Mahomet! quantus stupor</l>
+            <l>His hominibus! quam nostri Turcae longissime</l>
+            <l part="I">Europoeis praestant!</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="F">ridet. nescio quid.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Quid stultius, quod ille ad veniens patrem</l>
+            <l>Se dicat meum? Ulysseum commentum: nisi</l>
+            <l part="I">Ex se fingit, velut araneus.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="F">quid ait?</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Fors me mutatum alia forma videt.</l>
+            <l>Sic olim fabulae subito immutabant homines.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l>Metamorphoses cogitat scelestus: cavebo sedulo </l>
+            <l>In avem commuteris, antequam promas lytrum.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Denique quid verbis opus est? omnis qui amat,</l>
+            <l>Sibi fingit somnia, et in his filios reperit.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l>Omnia simulat accedam. heus Baiamet.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="I">Herus est, neque videram.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="F">tantumne est otii</l>
+            <l>Abs re mea tibi, fraudulente, ut garrias?</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Cur me istoc appellas nomine, mi here?</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l>Quia omnes qui in vinculis sunt, graviter sibi</l>
+            <l>Exilium ferunt, et ii ubique affectant fugam.</l>
+            <l>At praedico tibi, si hodie illud feceris,</l>
+            <l>Fortunis eversum te retinebo hic ad assem, ca</l>
+            <l>Lege, ut tu duplum solvas magno cum foenore.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="I">Quid ita loqueris?</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="F">nolo me a captivo decipi.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Bona verba: istud a me longe est flagitium.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l>Ita dicis, clanculum agitas cum cive. nihil</l>
+            <l>Me fallis: sed tibi dico, ne temere quid facias.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Has mihi turbas commovit somniator iste. ne</l>
+            <l part="I">Metuas here.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="F">tace. abi intro. Morescum voca.</l>
+            <l>Illi non credo, det quamvis fidem. mihi</l>
+            <l>Multo tutius bene asservare, ne oculis excidat.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>AGRIPPA servum increpat, quod RODERICIUS cum Captivo egerit.</p>
+          </argument>
+          <stage>MORESCO, AGRIPPA.</stage>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l>Praesto sum here, si quid me vocatum velis.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l>Improbe, trium litterarum serve; qui hero</l>
+            <l>Hodie pessime, perditissime, consulis tuo;</l>
+            <l>Magis id adeo mihi ut incommodes, et fraudi sies,</l>
+            <l>Quam ut morem geras captivo aeque, ac tu, improbo.</l>
+            <l>Porro confestim intelliges, quosnam huc viros</l>
+            <l>Introduxeris: quid tu, nebulo, cum his consilii</l>
+            <l>Ceperis, ut e vinculis captivum educas callide.</l>
+            <l>Tibi quidem iam erutis oculis, et eradicata funditus</l>
+            <l part="I">Lingua cruci affigam.</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l part="F">quid mihi vis here?</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l>Aio te cum cive isto, et captivo dolos</l>
+            <l part="I">Texere.</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l part="M">me?</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="F">Te. quid huc civis venit?</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l>An ego sum consilii particeps, ut resciam?</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="I">Ni respondes cave.</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l part="F">nunc me territas.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="I">Quis iste homo?</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l part="F">non novi: nescio quid velis.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l>Pergit perplexe mecum eadem eloqui.</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l>Quid mihi vis? me territas, quasi resciam,</l>
+            <l part="I">Non novi.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="F">accede huc ad me, neque hoc</l>
+            <l>Excessis loco. festina iam adeo dicere</l>
+            <l>Quis iste civis? quid huc venit? quomodo!</l>
+            <l part="I">Tibi loquor?</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l part="F">petiit captivum alloqui</l>
+            <l>De filio, quem habet Constantinopoli perditum.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="I">Igitur ob mendacium vapula.</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l part="F">here non mentior.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="I">Iterum vapula.</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l part="F">non aliud queo dicere.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="I">Iterum.</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l part="F">innocentem profecto verberas.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l>Magis verbero, ni totam rem mihi aperias.</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l>Certe id cogerer facere, si scirem: nam caput</l>
+            <l part="I">Abs tuo fuste iam dolet.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="F">moram si addideris.</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l>Quam sim frugi servus, et fuerim, tu scis here.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="I">Rursus ambages, rursus vapula.</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l part="F">sancta te</l>
+            <l>Fides voco, insons urgeor verberibus.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l>Dic, tute reputasti apud te nunc verum dicere?</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l>iuro tibi me ignarum esse: vis me aliquid</l>
+            <l>Fingere, et mentiri, here? urge, verbera,</l>
+            <l>Suspende, nunquam ego aliud fatear,</l>
+            <l part="I">Nec possum.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="F">abi a me in pistrinum: ibi</l>
+            <l>Mole, dum veniam. genus hoc servorum verbere,</l>
+            <l>Non verbo regas. aliquid tegit, quod resciam.</l>
+            <l>Nunc rursus ad captivum properans propero.</l>
+            <l>Ne quid agat, ne quid dicat, nisi me conscio.</l>
+            <l>Manus hercle illius habitabo frequens interdiu,</l>
+            <l>Et linguam pernox incolam, Argo vigilantior.</l>
+            <l>Sed quis hic ad aedes meas? non temere,</l>
+            <l>Meditatus venit. miror ni meus hic homo est.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA TERTIA.</head>
+          <argument>
+            <p>AGRIPPA RODERICIUM cum contumelia propulsat ab aedibus.</p>
+          </argument>
+          <stage>RODERICIUS, AGRIPPA, CORDIAS, FERNANDES.</stage>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l>Cordia, ut gestio! perinde quasi ut reddito</l>
+            <l>Filio, ita mihi hodie dexter oculus salit.</l>
+            <l part="I">Sed ubi Agrippam inveniam?</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="F">me novit catus.</l>
+            <l part="I">Hunc praesto ante aedes video.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l part="F">cessas alloqui?</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="I">O te ipsum volo Agrippa.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="F">ego nolo te.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l>Captivus est tibi, quem meum agnosco filium:</l>
+            <l>Hunc viginti abhinc annis in mari perdidi,</l>
+            <l>Atque adeo ipsum esse multis indiciis video.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="I">Somnium narras.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">per ego te Deum oro, et</l>
+            <l>Patris sensum, Agrippa, perque illum gnatum meum,</l>
+            <l>Et hunc item meum, ut me hac in re adiuves.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l>Itane versutus venis, ut mihi captivum auferas!</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="I">Ne quid suspicere.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="F">quid tua huc reditio est?</l>
+            <l>Quid huc tam frequens, cum antea rarus, aut</l>
+            <l>Vix unquam? non dubium est, quin ille patriam</l>
+            <l>Velit, ita modo longius exilium timere sensi, ubi</l>
+            <l part="I">Lytrum nondum advectum audiit.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l part="F">istum vereor</l>
+            <l part="I">Hominem.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">nulla tibi a me, Agrippa, suspicio sit.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="I">Abi improbe, sycophanta, scelerate.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l part="F">Hoc fers, pater?</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l>Meliora verba. non profecto quo captivum subtraham,</l>
+            <l>Eo veni huc, sed cum illo mihi res est maxima,</l>
+            <l>Etiam coram te hic transigenda, si lubet.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="I">Heus Baiamet.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="M">adsum here.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="F">hunc alloquere.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Dii te perdant, hominum hercle omnium impiissime,</l>
+            <l>Qui captivum afflictas. quid rei mecum est tibi?</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l>Tecum ipse revolvisti animo, qui sies?</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="I">Quid id exquiris?</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">Christianus olim scilicet,</l>
+            <l>Nunc perditae sectae cultor. heu te miserum!</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="I">Quae tua curatio?</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">fatere quod res est.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="I">Quid opus?</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="F">altercatio, irae, iurgia</l>
+            <l>Dissimulatae sunt fraudis confirmatio.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l>An te nunc etiam Mustaphati ais filium?</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Ita existima perinde vir ut rogas.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="I">Quin ipsi dicis?</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">delirat, here, certo hic quidem.</l>
+            <l>Qui me iam ab hora mutasse patrem cogitat:</l>
+            <l>Et, cum centies dixi, aeque ut ante quidquam audiit.</l>
+            <l>Mustapha est patri nomen, quoniam id herus</l>
+            <l part="I">Vult, nunquid nunc magis audis?</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">ego sum tuus,</l>
+            <l>Rodericius, Fernandes, pater, qui te perdidi:</l>
+            <l>Quin agnoscis? redde te ipsum patri.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Ego tuus? mori malim. perieris: ego te</l>
+            <l part="I">Respuo.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="F">quo magis ridiculum, hoc fictum magis.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Nam quo argumento sim tuus, et patris!</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l>Dixi, trimulus eras tantum, cum in Corsica</l>
+            <l>Raptus es mecum Constantinopolim, et ibi</l>
+            <l>Susceptus in filium: iam me ob aetatem scilicet</l>
+            <l>Ignoras patrem. facies, forma, aetas, omnia</l>
+            <l>Consentiunt tibi, quae consentiebant item puero.</l>
+            <l>Haec sic affirmo, ut, si iureiurando opus est,</l>
+            <l part="I">Fidem obligare possim.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">qualem sis filium,</l>
+            <l>Aut quem olim habueris, nihil moveor:</l>
+            <l>Perdideris vel non, mihi similis, dissimilis,</l>
+            <l>Certe ille non sum. quippe qui Constantinopoli</l>
+            <l>Natus, educatus, hoc constat omnibus.</l>
+            <l>Certa haec si putas indiciis infringere,</l>
+            <l>Nihilo plus agas, quam si des operam, ut insanias.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l>Agite inter vos, dum meum habeam lytrum.</l>
+            <l>Sive tu huius sis, sive hic tuus, mihi</l>
+            <l>Non effluet. Moresco, hunc reduc intro: te</l>
+            <l>Custodem praepono sedulum. vale et salve bone vir.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l>Hoccine accidit, Cordia, unquam, ut tanta oblivio</l>
+            <l>Sit innata filio, ut non modo agnoscat patrem,</l>
+            <l>Sed quis sit nec resciat? tantusne est stupor</l>
+            <l>Naturae, ut non sentiat? ut contumeliis etiam</l>
+            <l>Oneret illum, qui se genuit? quid nunc agam?</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l>Perge, mi pater, aliud comminiscere, tuus erit</l>
+            <l>Tandem: quod incertum est, coniecturis certum fiet.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l>Alios, qui sunt in vicinia, captivos adeo.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l>Ego versus portum rogabo de Constantinopoli.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="3">
+        <head>ACTUS TERTIUS.</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>ALAFIR captivi FERNANDES Constantinopoli affert lytrum: comiter a servo
+              excipitur.</p>
+          </argument>
+          <stage>ALAFIR, MORESCO.</stage>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l>Mustapha herus me mittit huc, filium</l>
+            <l>Suum Baiamet ut redimam, quam queam minimo,</l>
+            <l>Si nequeam paulo, at quanti queam.</l>
+            <l>Fero quidem in cista centum aureos.</l>
+            <l>Sed quis mihi monstrabit in his regionibus</l>
+            <l>Captivi ubi habitant? prodit quis. audiam.</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l>Ad triremes malim Turcicas amandarier,</l>
+            <l>Quam diutius meum perferre herum,</l>
+            <l>Qui me innocentem pistrino clausit pessimo.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l part="I">Pistrino egreditur hic.</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l part="F">at hoc malum</l>
+            <l>Mihi accersiit de filio stulte somnians</l>
+            <l>Stultus vir, quem captivum esse dicit suum.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l part="I">De captivo narrat.</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l part="F">ego veluti si</l>
+            <l>Hero fraudem moliar, aut cum homine conscius</l>
+            <l part="I">Capti vum liberem, mittor in carcerem.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l part="F">factum male.</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l>Ego quidem si reperio hunc insanum hodie.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l>Compellabo hominem: fors ducet me in viam,</l>
+            <l>Captivis Turcis apporto nuntium. ubi habitant?</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l>Constantinopoli venis, quantum intelligo.</l>
+            <l part="I">Quem quaeris?</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l part="M">Baiamet.</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l part="F">vivit, valet.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l part="I">Nosti?</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l part="M">equidem.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l part="F">valde humanus es,</l>
+            <l>Qui hominem peregrinum ita recipis.</l>
+            <l>Hoc pro ipso redimendo peculium affero.</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l>Atqui hic est nuntius, cuius maxime </l>
+            <l>Vult fieri particeps. meum adibo herum,</l>
+            <l part="I">Ut dicam te venisse.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>CORDIAS peregrinum ALAFIR fallit.</p>
+          </argument>
+          <stage>CORDIAS, ALAFIR.</stage>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l part="F">Hunc quem video, Turca est.</l>
+            <l>Quisquis es, advenae amicus procedo foras.</l>
+            <l>E navi venis lassus, apud nos tibi hospitium est,</l>
+            <l part="I">Si lubet.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l part="F">siccine mihi obsequens es?</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l>Si quid habes de tua patria, cupide resciam.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l>Venio Constantinopoli: peculium affero Baiamet,</l>
+            <l part="I">Qui hic captivus est.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l part="F">timeo. a quo mitteris?</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l part="I">Ab eius patre.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l part="M">perii.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l part="F">cito repetit filium.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l>Sed quidnam hic sese tam cito recipiet domum</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l>Quia hic miser est, et servit quadriennium.</l>
+            <l>Tum parata navis solvit hodie Constantinopolim.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l>Nunc pol abibit frater in perpetuum modum,</l>
+            <l>Nisi praefestinum hodie astu reditum moror.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l part="I">Quid tute tecum?</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l part="F">nihil enim. sed dic mihi.</l>
+            <l part="I">Scis ubi habitat?</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l part="F">iam modo servus aderit,</l>
+            <l>Qui eius herum admonet: ivit huc proxime.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l>Falsus es. procul sunt eius aedes apud forum.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l>Cur igitur ultro advenientem accepit comiter?</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l>Nescis in hac urbe esse sycophantas plurimos!</l>
+            <l>Qui hunc morem habent, ut ad portum veniant:</l>
+            <l>Tum si qua peregrina navis advenit, rogitant</l>
+            <l>Cuiatis sit, quid vectoribus nomen siet,</l>
+            <l>Post illis extemplo simulato officio se applicant,</l>
+            <l part="I">Sine damno non dimittunt.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l part="F">utinam mendacia</l>
+            <l>Sint tua verba. hoc male usu fit ad venis.</l>
+            <l>Sed istum Baiamet scis, quem ego quaerito?</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l>Non scirem hercle, quocum iam iam sermones habui?</l>
+            <l>Mustaphatum appellat patrem, navis praetoriae</l>
+            <l part="I">Praefectum.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l part="F">ipse est. tu nosti. ubi conveniam?</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l>Visam si domi est. non morabor quin huc</l>
+            <l>Adducam, quando dicis maxime festinare te.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l>Si procul habitat, antequam praesto sit,</l>
+            <l>Ego divertar ad portum huc in tabernam tertiam,</l>
+            <l>Apud Palineram illum claudum et crassum navitam.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l part="I">Quid vis?</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l part="F">inde ut me arcessas, Baiamet ubi venerit.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l part="I">Tuo arbitratu maxime.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l part="F">nam ut lassus veni de via,</l>
+            <l part="I">Me volo curare.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l part="F">sane sapis, et consilium placet.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l part="I">Quin ubi prandero, dabo operam somno.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l part="F">sane censeo.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l part="I">Nunc quid vis?</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l part="M">dormitum ut abeas.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l part="F">abeo.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l>Atque audin’ homo? iubesis te operiri oppido:</l>
+            <l>Beatus si consudaveris. lepide ex sententia.</l>
+            <l>Nunc cito de his edocendus est pater,</l>
+            <l>Ne oblato pretio ad Turcas frater remigret.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA TERTIA.</head>
+          <argument>
+            <p>AGRIPPA rursus increpat servum.</p>
+          </argument>
+          <stage>MORESCO, AGRIPPA.</stage>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l>Proh Dii immortales, ut me atque herum</l>
+            <l>Beastis tam bono, felicique nuntio!</l>
+            <l>Audiendi quanta voluptas captivo fuit.</l>
+            <l>Ut sine labore huc praefestinat herus.</l>
+            <l>Bene adveneris huc cum pecunioso lytro.</l>
+            <l>Sed ubi tu es? iam veniet herus meus.</l>
+            <l>Pudens est, ut opinor, delitescit advena.</l>
+            <l>Ubi tu es, promesne pecuniam? ubinam es?</l>
+            <l>Nusquam hercle. abiit homo, et me obiicit</l>
+            <l>Heri iracundiae, qui arbitrabitur voluisse me</l>
+            <l>Ei illudere. heus Turca, tandem vero serio,</l>
+            <l>Ubi tu es gentium? Turca, inquam, te vocito.</l>
+            <l>Etiam venturus es? Turca, Turca. nemo est.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="I">Quem evocas hinc foras?</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l part="F">here ne succenseas,</l>
+            <l part="I">Aut ne me verberes.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="M">quid est?</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l part="F">pudet eloqui,</l>
+            <l part="I">Sed vaco culpa.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="M">dic.</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l part="F">ille homo abiit.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="I">Quis homo?</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l part="F">qui redimere aiebat velle se</l>
+            <l part="I">Captivum Baiamet.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="F">iam nunc patent tui doli.</l>
+            <l>Metuo hercle ne miser mihi insidias loces,</l>
+            <l>Captivum ut eripias, cum Turca fictitio.</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l>Siquidem, here, omnes coniuratim cruciamenta conferant,</l>
+            <l>Nullum in me vestigium doli reperient.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l>Frustra istam fortitudinem praefers, haud salvus es.</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l>Dicam, here, venisse huc Turcam bona fide,</l>
+            <l>Affirmabo, atque adiurabo, periurabo denique.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l>Hem ista virtus est, quando usus est: fortiter</l>
+            <l>Dolos qui pernegat, fortiter is idem peierat.</l>
+            <l>Sed male tergo et cruribus consuluisti hodie.</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l part="I">Obsecro te.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="F">frustra oras: siquidem quilibet</l>
+            <l>Nunc precator adsiet, malam rem nunquam effugies.</l>
+            <l>Tu verbero mihi imponis? tu me huc advocas?</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l>Sine me ad portum ire, si hominem non reduxero,</l>
+            <l>Qui pecunias numeret, merito te mihi iratum habeam.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l>Vade, id faxis: quis huc? claudo ostium.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA QUARTA.</head>
+          <argument>
+            <p>CORDIAS Patri refert lytrum FERNANDES esse Constantinopoli allatum: hinc novae
+              curae.</p>
+          </argument>
+          <stage>CORDIAS, RODERICIUS.</stage>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l>Metuo, mi pater, metuo ut recipias filium.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l>Nempe ab Agrippa, avaro nimis sene.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l part="I">Immo aliud gravius.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="M">quid ais?</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l part="F">iam modo </l>
+            <l>Turcam vidi, qui redemptum fratrem repetit.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="I">Convenisti hominem, Cordia?</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l part="F">fefelli etiam.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="I">Quid ita?</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l part="F">negat ullam esse moram hodie,</l>
+            <l>Quin impetrata redemptione migret Constantinopolim.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l>Actum est. non habeo filium: Agrippa eum,</l>
+            <l>Qui in potestate habet, accepto pretio dimittet liberum.</l>
+            <l>Captus porro liber celerrime in domum volat.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l part="I">Sic est, mi pater.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">Quid commenter, aut loquar?</l>
+            <l>Mihi spes infracta. esto: ille captum redemptitet</l>
+            <l>Filium; non est expedita navis tamen,</l>
+            <l>Quae confestim solvat Constantinopolim.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l>Imo, mi pater, praesto est navis hodie.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="I">Quae solvit?</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l part="M">certe.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">Constantinopolim?</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l part="I">Sic de nauta ipso audivi.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">me miserum!</l>
+            <l>Enimvero conclamatum est, filius redit ad Barbaros.</l>
+            <l>Sed quid dixti modo de tua fallacia?</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l>Ad interponendam moram, cum Moresco herum</l>
+            <l>Accerseret, ut pacisceretur cum Turca, hunc</l>
+            <l>Abduxi ab aedibus longe in tabernam apud</l>
+            <l>Portum: quo interea pacto, possis malum</l>
+            <l>Hoc evitare, tuum esto consilium.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l>Est difficile, Cordia, superare hunc nodum.</l>
+            <l>Si Agrippam rogo, et animum confirmo patris,</l>
+            <l>Scopas dissolvo: non obiicio clypeum:</l>
+            <l>Si Fernandes obtestor, verba faciam mortuo.</l>
+            <l>Si peregrinum de filio istoc meo doceam,</l>
+            <l>Surdo fabulam narro. si navigare navitam</l>
+            <l>Prohibeo, contra torrentem nitor, vel in aqua</l>
+            <l>Scribo, melior erit opera, si civicum</l>
+            <l>Praetorem adeam, ut meum mihi adiudicet filium.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l>Istuc fac haud segniter: ego pergam in excubiis</l>
+            <l>Sed quid re vertitur e taberna tam cito?</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA QUINTA.</head>
+          <argument>
+            <p>MORESCO adducit ALAFIR ad AGRIPPAI.</p>
+          </argument>
+          <stage>MORESCO, CORDIAS, ALAFIR.</stage>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l>Quid dubitas? sequere. sycophanta os tibi</l>
+            <l part="I">Sublevit.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l part="F">sagax servus reperit hominem.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l part="I">Non bis falles.</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l part="F">veni quaeso ad meum herum,</l>
+            <l>Ac ne formida. hae sunt aedes proximae.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l>Non hercle, si charybdes vitavi in mari,</l>
+            <l part="I">Incidam hic in scyllam.</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l part="F">non mihi fidem habes?</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l part="I">Fide, sed cui vide.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l part="F">etiam hoc Turcae aiunt.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l>Peregrinus ego sum, omnia tuta timeo.</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l>Salvus es, salvae sunt tuae pecuniae.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l>Credo salvas, dum quidem ipse in manu habeo.</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l>Verum si vis illas dinumerare hero meo,</l>
+            <l>Repromitto istoc nomine liberandum Baiamet</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l>Non herum tuum novi: si praesens erit</l>
+            <l part="I">Baiamet, pendam argentum.</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l part="F">faxo erit.</l>
+            <l>Tamen hic operire, eo nunc iam ad herum.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l>Resciam hinc commode ex insidiis omnia.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l>Sit, non sit hic homo fidus, non aedepol scio.</l>
+            <l>Siis est, eum esse oportet: ego certe me scio</l>
+            <l>Incerto in his regionibus crediturum nemini homini.</l>
+            <l>Nam si sciat noster Mustapha, fidem temere </l>
+            <l>Me hic habuisse, nec redemisse filium,</l>
+            <l>Succenseat, cui magnum peculium ipsum credidit.</l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA SEXTA.</head>
+          <argument>
+            <p>ALAFIR captivi solvit pretium.</p>
+          </argument>
+          <stage>AGRIPPA, ALAFIR, FERNANDES, CORDIAS.</stage>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l>Iam modo Moresco me adiit, certum qui ait</l>
+            <l>Te cum peculio venisse, quo captum redimas:</l>
+            <l part="I">Id viso an verum siet.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l part="F">imo iam tibi</l>
+            <l>Satisdabo praesente Baiamet: hunc exhibe.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l>Asservatur domi, ne quis a te subsit dolus</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l>Nae tu homo suspiciosus es. quid times?</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l>Sed da aurum, captivum tibi liberum dabo.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l>Nunquam dabo isto periculo. sine adstet hinc</l>
+            <l part="I">Captivus, faciam satis.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="F">non audes mihi</l>
+            <l>Pecunias credere? nemo me unquam merito</l>
+            <l>Accusavit meo, neque me Hispali alter hodie est</l>
+            <l>Quisquam cui credi recte aeque putent.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l>Fortassis: sed tamen me nunquam hodie</l>
+            <l>Induces, ut tibi credam hoc peculium</l>
+            <l part="I">Ignoto.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="F">frugi sum, et civis probus.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l part="I">Fortasse.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="F">etiam nunc dico, Periphanes,</l>
+            <l>Turca mercator dives, talentum meae</l>
+            <l>Commisit fidei, permutandis captivis plurimis.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l part="I">Fortasse.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="F">atque etiam tu quoque ipse, si</l>
+            <l>Esses percunctatus ex aliis, scio pol</l>
+            <l>Crederes nunc quod fers, astante Baiamet.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l part="I">Haud negaverim.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="F">Moresco, captivum evoca.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AG.</speaker>
+            <l part="I">Quis hic homo? aspice.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">magne Mahomet,</l>
+            <l>Quem conspicor? salve Alafir, ut te lubens</l>
+            <l part="I">Amplector, o mi popularis salve.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l part="F">salve Baiamet.</l>
+            <l part="I">Peculium affero.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">nemo me fortunatior.</l>
+            <l part="I">Pater meus valet??</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l part="M">optime.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l part="F">non ego</l>
+            <l>Valeo cum haec audio, nec pater meus.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Iam, here, tibi quod petis persolvo pretium.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l>O pecuniae, mea viscera, et ocelluli!</l>
+            <l>Diu vos expetivi, bene obveneritis.</l>
+            <l>Si tota quidem summa est, iam liber sies.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l>Sunt aurei centum, quos numeravit Mustapha:</l>
+            <l>Et signo obsignata tuli in hac cistellula.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l>Bene est. tu catenam exue, et pileum cape.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l>Utinam cistellulam hausisset mare! curro ad patrem.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l>Moresco, veni intro. non tam cito in patriam</l>
+            <l>Solves, ut opinor, nisi ventus favet.</l>
+            <l part="I">Tum dicam vale.</l>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCENA SEPTIMA.</head>
+          <argument>
+            <p>FERNANDES reditum parat in Turciam.</p>
+          </argument>
+          <stage>FERNANDES, ALAFIR.</stage>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">Et ego pol tibi, senex,</l>
+            <l>Qui me miseris avare cruciasti modis,</l>
+            <l>Dum meum extorses lytrum: nam tum denique,</l>
+            <l>Alafir, acerba est cuiquam servitus, quando is</l>
+            <l>Patriam et libertatem perdidit: acerbior,</l>
+            <l>Quando e libero servus, e summo infimus est:</l>
+            <l>Acerbissima, quando duro et inclementi servit hero.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l>Hoc tuo moerore scilicet, et meo, tulisti quadriennium.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Sed hoc parum est, dum brevi revisero patriam</l>
+            <l>Nihil malim lubens, quam huius conspectum dari.</l>
+            <l>Nam praeter servitutem fiunt hic mihi molestiae;</l>
+            <l>Atque aliquis somnians, patrem se dicit meum.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l>Propterea solvere hinc cito nobis expedit.</l>
+            <l>Euge, Baiamet, navis est quae nos manet:</l>
+            <l>Malus erectus, velum passum, obstat nihil,</l>
+            <l>Quin subtracta anchoram solvamus iam hodie.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>O. tu Alafir! o bonorum omnium Baiule?</l>
+            <l>O felicem hunc diem! ut animus gaudio</l>
+            <l part="I">Delibutus gestit!</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l part="F">at ne propera sint</l>
+            <l>Nostra gaudia, tuum est cavere sedulo:</l>
+            <l>Non fido his regionibus, quibus neque fides,</l>
+            <l>Neque ara. proinde mecum ad navim propera</l>
+            <l part="I">Istuc praeco.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">nunc talaria Mercurii</l>
+            <l>Induo, ut remigiis, velisque volem ocyor</l>
+            <l>Daedalo. multam salutem precor Hispali,</l>
+            <l>Quae me in dura diu miserum exercuit</l>
+            <l>Servitute: deinde hero, qui me ergastulo</l>
+            <l>Detinuit pessimo: tum patri isti meo,</l>
+            <l>Qui facere me filium suum et simul</l>
+            <l>Christianum credidit posse: ceterisque hic.</l>
+            <l>Nam relictis omnibus sarcinis in patriam enato</l>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>SCENA OCTAVA.</head>
+          <argument>
+            <p>VALENTADOR PALINERAM in procinctu sistit.</p>
+          </argument>
+          <stage>PALINERA, FERNANDES, RODERICIUS, VALENTADOR.</stage>
+          <sp who="#palinera">
+            <speaker>P.</speaker>
+            <l>Ad navim, ad navim, ad navim, quicumque volt</l>
+            <l>Constantinopolim, ad navim. vocem ita efferam,</l>
+            <l>Ut rumpar, ut plures convocati praesto sient.</l>
+            <l>Ad navim, ad navim, ad navim: quicumque volt</l>
+            <l part="I">Constantinopolim, ad navim.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">adsum. proficisceris?</l>
+          </sp>
+          <sp who="#palinera">
+            <speaker>P.</speaker>
+            <l part="I">Modo.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="M">itaque conscendo.</l>
+          </sp>
+          <sp who="#palinera">
+            <speaker>P.</speaker>
+            <l part="F">at naulum prius</l>
+            <l part="I">Solve.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">scilicet istuc tibi voluptati est navita?</l>
+          </sp>
+          <sp who="#palinera">
+            <speaker>P.</speaker>
+            <l>Da, inquam, modo, quod pro traiectione peto.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Haud solvere oportet antequam traieceris.</l>
+          </sp>
+          <sp who="#palinera">
+            <speaker>P.</speaker>
+            <l part="I">Ego iam volo.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">in promptu non habeo.</l>
+          </sp>
+          <sp who="#palinera">
+            <speaker>P.</speaker>
+            <l part="I">Ergo mutuum quaere.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="M">a quo?</l>
+          </sp>
+          <sp who="#palinera">
+            <speaker>P.</speaker>
+            <l part="F">ab his et his,</l>
+            <l part="I">Qui adsunt, qui pecunias habent.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">habeant</l>
+            <l>Vel non, haud peto: tu a me nihil perdideris,</l>
+            <l part="I">Solvam postea.</l>
+          </sp>
+          <sp who="#palinera">
+            <speaker>P.</speaker>
+            <l part="F">atqui per Neptunum hodie</l>
+            <l>Non conscendes navim, ni ante dederis.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="I">Tu mihi iniuriam facis.</l>
+          </sp>
+          <sp who="#palinera">
+            <speaker>P.</speaker>
+            <l part="F">num ergo te ego</l>
+            <l>Traiectu tam longo gratis transvexero?</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Aliquis qui iam aderit, meo nomine solvet tibi.</l>
+          </sp>
+          <sp who="#palinera">
+            <speaker>P.</speaker>
+            <l part="I">Haud admittam te.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">quin igitur si tibi fidem</l>
+            <l part="I">Do, non sinis?</l>
+          </sp>
+          <sp who="#palinera">
+            <speaker>P.</speaker>
+            <l part="F">at tu nesciebas, quod prius</l>
+            <l part="I">Solvendum erat?</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="M">non id certe.</l>
+          </sp>
+          <sp who="#palinera">
+            <speaker>P.</speaker>
+            <l part="F">curavi meam</l>
+            <l>Navim repararier: anchoram emi aureis</l>
+            <l>Quinque, lorum praeterea, quo remum alligo,</l>
+            <l>Ceram, clavos, funem unde feci hyperam,</l>
+            <l>Item alia quae hic Hispali creditoribus debeo.</l>
+            <l>Naulum des oportet, pecuniis egeo.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Faciam. meum hominem video. sine me</l>
+            <l part="I">Conscendere.</l>
+          </sp>
+          <sp who="#palinera">
+            <speaker>P.</speaker>
+            <l part="M">at solves modo?</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">faciam.</l>
+          </sp>
+          <sp who="#palinera">
+            <speaker>P.</speaker>
+            <l part="I">At praesente pecunia?</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">obtundis, intelligo:</l>
+          </sp>
+          <sp who="#palinera">
+            <speaker>P.</speaker>
+            <l>At nulli properant alii? conclamabo iterum</l>
+            <l>Maiore voce usque ad navim, Stentore fortior.</l>
+            <l>Ad navim, ad navim, ad navim, quicumque volt</l>
+            <l part="I">Constantinopolim, ad navim.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">Praetor, hic est</l>
+            <l>Navita, qui meum hodie abducit filium.</l>
+          </sp>
+          <sp who="#valentador">
+            <speaker>V.</speaker>
+            <l part="I">Sistite navim, satellites.</l>
+          </sp>
+          <sp who="#palinera">
+            <speaker>P.</speaker>
+            <l part="F">meum tu fallis lucrum.</l>
+          </sp>
+          <sp who="#valentador">
+            <speaker>V.</speaker>
+            <l part="I">Sic tu Praetori loqueris?</l>
+          </sp>
+          <sp who="#palinera">
+            <speaker>P.</speaker>
+            <l part="F">quisquis est homo,</l>
+            <l>Qui malevole operam dat, ut ne navigem</l>
+            <l>Favente vento, in pontum hunc proiiciam</l>
+            <l part="I">Escam piscibus.</l>
+          </sp>
+          <sp who="#valentador">
+            <speaker>V.</speaker>
+            <l part="F">at ego te, si pergis loqui,</l>
+            <l>Dabo in carcerem, longa macerandum inedia.</l>
+          </sp>
+          <sp who="#palinera">
+            <speaker>P.</speaker>
+            <l part="I">Pro Deum atque hominum fidem!</l>
+          </sp>
+          <sp who="#valentador">
+            <speaker>V.</speaker>
+            <l part="F">si sapis, sile.</l>
+            <l part="I">Fiet tibi, Roderici, pro filio quod lubet.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">Grates ago.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="4">
+        <head>ACTUS QUARTUS.</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>FERNANDES et ALAFIR nautarum habitu vicinum portum cogitant, inde traiecturi in
+              Turciam,</p>
+          </argument>
+          <stage>FERNANDES, ALAFIR.</stage>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Dicunt Iovem et Mercurium fecisse histrioniam,</l>
+            <l>Quando hic processit olim cum servuli schemate,</l>
+            <l>Ille Amphitrionis ipsam tulit imaginem:</l>
+            <l>Atque ita latuisse homines, ne quis internosceret.</l>
+            <l>Simili nos ornatu ornati nauclerio</l>
+            <l>Per fallaciam incedimus, ut his subducamur patriis.</l>
+            <l>Quis nos esse nautas non censet, qui videt?</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l>Mihi equidem haec vestis cerulea congruit,</l>
+            <l>Palliolum, et causia ferruginea, brachium</l>
+            <l>Expapillatum: haud quisquam quaeret qui siem,</l>
+            <l>Aut quid venerim, nunc cum esse credat navitam.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Sed quidni cum veste nomen quoque et officium</l>
+            <l>Commutemus? tu heri, ego servi tui?</l>
+            <l>Esto tu Budan, ego vocitabor Benemot.</l>
+            <l>Nam si herus mihi es tu Budan, atque ego</l>
+            <l>Me tuum esse servum assimulo Benemot,</l>
+            <l>Si iterum terra vel mari capior, hostica</l>
+            <l>Manu, occultabo et genus, et patriam.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l part="I">Astute: ero ut me voles.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">Si tamen</l>
+            <l>Non te herum honore honestem, quam tu me prius,</l>
+            <l>Qui fueris, et qui nunc sis meminisse memineris.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l>Scio equidem me te esse nunc, et te esse me.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Istuc si potes memoriter meminisse, et ego</l>
+            <l>Si possim, inest spes nobis in hac astutia.</l>
+            <l>Nunc tendamus in vicinum portum, ubi</l>
+            <l>Erit navis fortasse non impedita his malis.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l>Anteambulo, pone sequere: occurrit aliquis.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Proh malum! visi sumus. iste est in insidiis</l>
+            <l>Rursus frater. Dii te perdant, improbe.</l>
+            <l part="I">Quid agam?</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l part="F">certum est confidenter hominem</l>
+            <l>Sub hac imagine heri contra colloqui.</l>
+            <l>Si nos viderit, ab illo non abstinebo manum.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>CORDIAS ementitos nautas eludit.</p>
+          </argument>
+          <stage>CORDIAS, ALAFIR.</stage>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l>Nam quid isti duo nautae? teneo rem:</l>
+            <l>Audivi modo nostros Turcas emisse sibi</l>
+            <l>Vestes naucleriacas, credo ut dolose nos</l>
+            <l>Fugiant: ego dolum dolo refellam, simulans</l>
+            <l>Me non nosse salvete fures maritimi,</l>
+            <l>Conchytae atque hamiotae, famelica hominum</l>
+            <l part="I">Natio. quid agitis? ut vivitis?</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l part="F">fame,</l>
+            <l part="I">Siti, spe.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l part="F">omnibus modis estis pauperes.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l>Nam de ornatu nostro propemodum vides,</l>
+            <l>Ut locupletes sumus: necessitate quidquid est,</l>
+            <l>Id sat est habendum. hi schoeni atque hae arundines</l>
+            <l part="I">Sunt nobis quaestu et cultu.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l part="F">illud scio,</l>
+            <l>Ex urbe ad mare proditis pabulatum quotidie,</l>
+            <l>Pro exercitio gymnastico et palaestrico.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l>Hoc habemus Echinos, lopadas, ostreas,</l>
+            <l>Balanos captamus, conchas, musculos, plagusias,</l>
+            <l>Mannam, urticam, striatas, post id hamatilem</l>
+            <l>Piscatum et saxatilem aggredimur, cibum</l>
+            <l>Captamus e mari. si eventus non venit,</l>
+            <l>Nec quidquam toto die captum est piscium,</l>
+            <l>Salsi, lautique domum redimus, clanculum</l>
+            <l part="I">Dormimus incoenati.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l part="F">quin si vestra scapha</l>
+            <l>Frangitur, aut valide fluctuat mare,</l>
+            <l>Cum tempestate furit Neptunus, bene vos</l>
+            <l part="I">Estis loti et poti.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l part="F">sic est, alget e mari</l>
+            <l>Piscator, postquam large potionem bibit</l>
+            <l part="I">Et salsam et frigidam.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l part="F">ista mercede non velim</l>
+            <l>Servire Neptuno, et habere rationem cum piscibus.</l>
+            <l>Navigare autem, et longinquas terras cum minis</l>
+            <l>Oceani petere, et dare navim fluctibus,</l>
+            <l>Quod video saepe vos etiam facere,</l>
+            <l>Nunquam imitabor. feci ego id semel:</l>
+            <l>Habeo, Neptune, magnam gratiam tibi,</l>
+            <l>Cum me amisisti vix a te vivum modo.</l>
+            <l>Verum si posthac me pedem latum modo </l>
+            <l>Scies me imposuisse in undam, haud causa est illico </l>
+            <l>Quod tunc voluisti facere, quin facias mihi.</l>
+            <l>Apage, apage te a me: nune iam ego post hunc diem</l>
+            <l>Quod crediturus tibi fui, omne credidi.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l>At nos qui e mari vivimus, et pericula adire, et</l>
+            <l>Fidere Neptuno debemus, nunc modo, cum</l>
+            <l>In portu sumus, piscari cogimur.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l>Atque neutrum vos hodie potestis exequi.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l part="I">Quid ita?</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l part="F">quia Praetor naves vetuit</l>
+            <l>Portu exire; tum portae civitatis a custodibus</l>
+            <l>Tenentur clausae, ne quis pedem efferat.</l>
+            <l>Quid admiramini? quid aspicitis invicem?</l>
+            <l>Venit Palinera: rogate num verum siet.</l>
+            <l part="I">At vos valete nautae.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">infausta sors undique.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA TERTIA.</head>
+          <argument>
+            <p>Stomachatur PALINERA retardari navim suam.</p>
+          </argument>
+          <stage>PALINERA, FERNANDES, ALAFIR.</stage>
+          <sp who="#palinera">
+            <speaker>P.</speaker>
+            <l>Blasphemae sunt nautarum voces, ipsis male </l>
+            <l>Ubi fit vel a Diis in medio mari,</l>
+            <l>Debacchante tempestate. quid nunc mihi</l>
+            <l>Futurum censetis, cum in portu a civico</l>
+            <l>Praetore atrox derepente fit iniuria?</l>
+            <l>Patiarne aut taceam? nunquam id feret stomachus.</l>
+            <l>Ibo, exprobrabo in os, ipsi Praetori male </l>
+            <l>Quod potero dicere, merito dicam. nihil moror,</l>
+            <l>Ne vel suspendium in mea navi e malo arbore.</l>
+            <l>Sin Praetor hoc faxit; ipse mihi restim emam.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Hic homo si nunc se suspendat, operam luserit,</l>
+            <l>Et praeter operam, restim sumptifecerit,</l>
+            <l>Et suis inimicis voluptatem creaverit.</l>
+          </sp>
+          <sp who="#palinera">
+            <speaker>P.</speaker>
+            <l>Taedet vivere, cum eo iniuriarum incidi.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l>Non solus es, Palinera, cui malorum mare.</l>
+            <l>Fortuna uni obesse non contenta est semel.</l>
+          </sp>
+          <sp who="#palinera">
+            <speaker>P.</speaker>
+            <l>Imo vestra causa hoc mihi naufragium.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Non nostra, sed insani, qui me suum</l>
+            <l>Esse vult filium. tuum est nobis ignoscere</l>
+          </sp>
+          <sp who="#palinera">
+            <speaker>P.</speaker>
+            <l>Sed quid vos isto ornatu? vultis mihi</l>
+            <l>Vos locare, aut meam navim emere?</l>
+            <l>Si quidem vitae pigeat, vendam bono pretio.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Haec nobis ratio fallaciae, ut cum navis tua</l>
+            <l>In vado salutis non est, hac veste ignorabiles,</l>
+            <l>Omnem, quae obiicitur; praetereamus salebram</l>
+          </sp>
+          <sp who="#palinera">
+            <speaker>P.</speaker>
+            <l>Simplices. iam vos modo custos portae praesentiet.</l>
+            <l>Ne Execestides quidem hodie viam invenerit,</l>
+            <l>Qua explicet se urbe: ita miseri claudimur.</l>
+            <l>Tum si Praetor dolos componi sciverit,</l>
+            <l>Plus est causae ad suspicandum continuo.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l>Nolim ego malum attrahere ad me, ut nubem Caecias.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Nec meis ipse alis capi, vel meo, ut sorex,</l>
+            <l part="I">Perire indicio.</l>
+          </sp>
+          <sp who="#palinera">
+            <speaker>P.</speaker>
+            <l part="F">proinde larvam deponite.</l>
+            <l>Solam mecum in ius afferte confidentiam.</l>
+            <l>Nam exteri ut simus, nihil adeo causae deperit,</l>
+            <l>Quin ad versario iniquo audacter fas est obloqui.</l>
+            <l>Mihi pol volupe erit isti homini,</l>
+            <l>Ac Praetori ingerere multa probra pessima.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA QUARTA.</head>
+          <argument>
+            <p>AGRIPPA propter moram metuit suo peculio.</p>
+          </argument>
+          <stage>AGRIPPA, PALINERA, FERNANDES, MORESCO.</stage>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l>Abite, quid moramini nunc? proficiscimini,</l>
+            <l>Favet marc. num iam insidias struitis?</l>
+          </sp>
+          <sp who="#palinera">
+            <speaker>P.</speaker>
+            <l part="I">Quid clamas, senex?</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="F">velle vos peculium,</l>
+            <l>Quod mihi apportastis, Constantinopolim revehere.</l>
+          </sp>
+          <sp who="#palinera">
+            <speaker>P.</speaker>
+            <l>Insanis? habeo aliud magis haud ex me, et</l>
+            <l part="I">Maius quod agam.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="F">at tu, mortalium vaferrime,</l>
+            <l>Cum Praetore agis de me scilicet, et de pecuniis,</l>
+            <l part="I">Quas olfecisti.</l>
+          </sp>
+          <sp who="#palinera">
+            <speaker>P.</speaker>
+            <l part="F">prope sit, ut isti seni</l>
+            <l part="I">Sepulchrum fodiam.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="F">quam caute moras fingitis?</l>
+            <l>Quam tecte Praetori dona affertis, ut gratis meus</l>
+            <l>Vobis reddatur captivus? verum ut falsus es;</l>
+            <l>Ut nunc expalles, ubi te deprehensum vides!</l>
+            <l>Non habebis peculium, frustra sunt tuae machinae</l>
+          </sp>
+          <sp who="#palinera">
+            <speaker>P.</speaker>
+            <l>Sinite me, uno ictu vetus absolvam caput.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l>Sed, malum, quis te ad has fraudes impulit?</l>
+            <l>An isti? ego quidem istis meo fuste faciam male.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Hercle vero tu cavebis, ne me attingas, si sapis,</l>
+            <l>Ne hodie malo cum auspicio liberum me sentias.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="I">Me herum tuum patitor.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">patitor te item</l>
+            <l part="I">Cum ego liber referiam.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="F">dico ut usus est fieri.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Dico hercle ego quoque ut facturus sum tibi.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="I">Audebis?</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">Quin promitto, inquam, hostire me</l>
+            <l part="I">Contra, ut merueris.</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l part="M">here, here.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="F">quid tu huc? abi!</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l part="I">Praetor te vocat.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="F">flagitium hominis, abi, abi hinc.</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l>Quid est? ad Praetorem te oportet ire, super</l>
+            <l part="I">Captivo.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="F">scelestior hoc servo nullus est: habet,</l>
+            <l part="I">Scio, vobiscum quid commercii.</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l part="F">satelles insequitur.</l>
+            <l part="I">Adest cum Rodericio.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="F">perii. meae pecuniae!</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA QUINTA.</head>
+          <argument>
+            <p>RODERICIUS adversarios in ius convocat.</p>
+          </argument>
+          <stage>RODERICIUS, PALINERA, AGRIPPA, FERNANDES, ALAFIR.</stage>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l>Nunc agam iure vobiscum: huius hodie</l>
+            <l>Experiundi gratia con venietis Praetoris domum.</l>
+            <l>Hoc praeco, hoc missus satelles denuntiat.</l>
+          </sp>
+          <sp who="#palinera">
+            <speaker>P.</speaker>
+            <l>Quod agas mecum iure praetorio non habes.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="I">Moresco, i, gladium affer.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">quid opus gladio?</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="I">Qui te occidam, atque me.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">quin tua res</l>
+            <l>Non agitur. filium hunc meum iure repeto.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Quid ais, quantum urbs habet hominum, iniquissime?</l>
+            <l>sus habes, quod tantum tua dedit opinio?</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l>Naturae ius est, quod innata vis mihi</l>
+            <l>Affert, et te meum constituit filium.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="I">Ex aequo liber sum.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">et ex bono tui es patris.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Ita ex callido iure, et versuto iudicas?</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l>Controversiae praeerit iudex, iustitiae oculus.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l>Quem corrupisti? Palinera, adsiste, atque onera</l>
+            <l part="I">Hunc maledictis.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">non his ego moveor.</l>
+            <l>Verba non adhaerent, nedum pertingunt ad animum.</l>
+          </sp>
+          <sp who="#palinera">
+            <speaker>P.</speaker>
+            <l>Turbo, fex, fax, procella navis meae.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="I">Nego.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="M">versipellis.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="M">nego.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">crux homini libero.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="I">Cogor.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="M">peregrino hostis.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="M">amicus.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">mihi</l>
+            <l part="I">Odium.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="M">pater.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="M">amens.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">non ita est.</l>
+          </sp>
+          <sp who="#palinera">
+            <speaker>P.</speaker>
+            <l part="I">Verbero.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="M">tangedum?</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="M">mendax.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">Id proba.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="I">Furcifer.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="M">tibi vaticinaris.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="F">urbis pernicies.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="I">Perge.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="M">impostor.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="M">acriter.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="F">fraus, latro.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="I">Valide</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="M">sceleste nebulo.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">planissime.</l>
+          </sp>
+          <sp who="#palinera">
+            <speaker>P.</speaker>
+            <l part="I">Verberavisti patrem, atque matrem.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">atque occidi quoque</l>
+            <l>Potius quam cibum perhiberem: num peccavi quidpiam?</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>In pertusum ingerimus dicta dolium, operam ludimus.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="I">Nunquid aliud etiam vultis dicere.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="F">ecquid te pudet?</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l>Vos maledicos esse inanes, quasi cassam nucem.</l>
+            <l>Quamquam multa mala in me dicta dixistis modo,</l>
+            <l>Non ulciscor, quia indigni ira: non est fortis vini,</l>
+            <l>Uti ego sum, in debacchantes mulierculas commoveriet.</l>
+            <l>Sed nisi veneritis in iudicium, quoniam haec praestituta est</l>
+            <l>Hora, Praetorem opinor posse facere officium suum.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Veniam: quam sim disertus, tempori ego faxo scies.</l>
+          </sp>
+          <sp who="#palinera">
+            <speaker>P.</speaker>
+            <l>Exossabo te istic itidem ut piscem coquus.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="I">Sed nunc, Alafir, operam mihi te volo dare.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l part="F">faciam.</l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA SEXTA.</head>
+          <argument>
+            <p>AGRIPPA homines fugere statuit, MORESCO herum.</p>
+          </argument>
+          <stage>AGRIPPA, MORESCO.</stage>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l>Homo homini lupus: nemini quidquam uspiam</l>
+            <l>In dies tutum, nisi sibi maxime consulit.</l>
+            <l>At mihi deinceps ignorare, fastidire, fugere</l>
+            <l>Mortales omnes est sententia; ut uni mihi</l>
+            <l>Affatim vivam, et diu hoc servem peculium.</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l part="I">Recte, here.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="F">vita solitaria, qualis est lupis,</l>
+            <l>Placet. unus sibi amicus Agrippa: caeteri</l>
+            <l>Hostes fraudulenti, insidiatores, perfidi.</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l>Sic erit cum homine congredi piaculum: adeo </l>
+            <l>Ut si quem aspexeris dumtaxat, inauspicatus sit dies</l>
+            <l part="I">Sic olim Timon.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="F">apte suggeris. solus mihi</l>
+            <l>Dives sim, solus me oblectem hoc peculio.</l>
+            <l>Solus habitem in intima parte aedium,</l>
+            <l>Quo nullus fur, nec sol unquam accesserit.</l>
+            <l>Nullumque nomen sit dulcius quam misanthropi.</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l>Sic eris beatus. at si satelles hodie venerit?</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l>Faxis illum abigas, nec absque vulnere.</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l>Satius esse duco, ut Praetori morem geras.</l>
+            <l>Postea te solum domo conclude, et ibi morere.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l>Sic agam. observa ad fores, si quis veniat.</l>
+          </sp>
+          <sp who="#moresco">
+            <speaker>M.</speaker>
+            <l>Vade, senex, cum tuo auro, quo vivas miser.</l>
+            <l>Superi! quae sunt ingenia hominum, aut quae vi agitat:</l>
+            <l>Non ego tantas intemperias vidisse censeo.</l>
+            <l>Alii quidem insaniunt, et quasi vinum biberint</l>
+            <l>Furore capti, ac verbis ebrii, se in ius vocant.</l>
+            <l>Herus modo peculio suo insanit, ut caeteri.</l>
+            <l>Cavendum ne similis etiam, hoc est insanus, fiam,</l>
+            <l>Nostis enim qui a rabiosis mordentur canibus,</l>
+            <l>Non ipsi solum rabiosi, sed si quos ipsi alios</l>
+            <l>Afficiunt, etiam deiici illos mente, et similiter</l>
+            <l>In furorem verti. Itaque communem mihi</l>
+            <l>Medicinam facio, ut fugiam, ne me longissime </l>
+            <l>Allatrent quidem. nam quod servi sapientes solent,</l>
+            <l>Ubi eorum domini egent, aut inepte agunt,</l>
+            <l>Tantisper subducam me alicubi extra latus,</l>
+            <l>Aut istum permutabo herum. valeat nec ne senex,</l>
+            <l>Qui me pol macerat, non curo: ego quidem apud alium</l>
+            <l>Herum valebo, et vos valere mecum iubeo.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="5">
+        <head>ACTUS QUINTUS.</head>
+        <div type="scene" n="1">
+          <head>SCENA UNICA.</head>
+          <argument>
+            <p>Post acres, Praetore arbitro, utrimque contentiones FERNANDES se filium RODERICII
+              agnoscit, et Christianum.</p>
+          </argument>
+          <stage>VALENTADOR, RODERICIUS, FERNANDES, PALINERA, CORDIAS, ALAFIR, AGRIPPA.</stage>
+          <sp who="#valentador">
+            <speaker>V.</speaker>
+            <l>Vestram vos causam dicite, ego me arbitrum</l>
+            <l>Praebebo, et ut potero vestras ego dirimam</l>
+            <l>Controversias. tu loquere prius quid velis.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l>Hoc primum, qui sit animus patris erga filium,</l>
+            <l part="I">Velim, Praetor, recognoscas.</l>
+          </sp>
+          <sp who="#valentador">
+            <speaker>V.</speaker>
+            <l part="F">id nulla ex re al</l>
+            <l>Melius, quam ex me colligo, qui liberos habeo.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Id vero tuae aequitatis esse arbitror, hominem.</l>
+            <l>Peregrinum ac liberum tueri, et defendere</l>
+            <l part="I">Contra iniurias adversarii.</l>
+          </sp>
+          <sp who="#valentador">
+            <speaker>V.</speaker>
+            <l part="F">ita faciam,</l>
+            <l>Qui utrique aeque advocatus hodie sedeo.</l>
+          </sp>
+          <sp who="#palinera">
+            <speaker>P.</speaker>
+            <l>Quid (malum!) audis illos? nae amas litigium</l>
+            <l>Non sine magno navis damno, delirat hic:</l>
+            <l>Hei mihi! iam tu quoque huius adiuvas insaniam.</l>
+          </sp>
+          <sp who="#valentador">
+            <speaker>V.</speaker>
+            <l part="I">Ita loqueris impudens?</l>
+          </sp>
+          <sp who="#palinera">
+            <speaker>P.</speaker>
+            <l part="F">Deo maris lubens</l>
+            <l>Eum sacrificem hostiam, qui me hic detinet.</l>
+          </sp>
+          <sp who="#valentador">
+            <speaker>V.</speaker>
+            <l>Accusas Praetorem? caput obnubito, ni loqui</l>
+            <l>Desistit: interim abscedat. vos porro pergite.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l>Duos mihi fuisse liberos contendo: quorum</l>
+            <l>Hic iunior Cordias, alter Fernandes hic.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="I">Erras, non tuus sum filius.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">quem quidem</l>
+            <l>A Pyratis in Corsica perdidi non adhuc tumulum.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>At ego conceptis verbis iusiurandum dabo,</l>
+            <l part="I">Me nunquam nisi nunc a Pyratis raptum.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="F">id ego</l>
+            <l part="I">Testabor quoque.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l part="F">scilicet Atticus testis fide Attica.</l>
+          </sp>
+          <sp who="#valentador">
+            <speaker>V.</speaker>
+            <l>Perplexa est res video, neque audivi ego</l>
+            <l>Unquam sic venisse in ius contra patrem filium.</l>
+            <l>Sed faciam id, si queo, signis palam.</l>
+            <l>Perdidisse ais in insula Corsica filium tuum?</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l>Aio enimvero, me cum his duobus Aligerium,</l>
+            <l>Deinde Constantinopolim ductum esse, et me postea</l>
+            <l>Cum Cordia redemptum; remansisse istum ibi,</l>
+            <l>Quod unice amaret infantem herus suus,</l>
+            <l>Atque in suum, quod orbus esset, adoptare vellet filium.</l>
+          </sp>
+          <sp who="#valentador">
+            <speaker>V.</speaker>
+            <l part="I">Haec intelligis?</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">intelligo, et insomnia reputo:</l>
+            <l>Quippe qui Constantinopoli ortus, atque ibi</l>
+            <l>Educatus, nunquam captivus, nunquam adoptatus fui.</l>
+            <l>Nunquid haec scis, Alafir? vera loqui te volo.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l>Quaeso num tu dubitas, cum id me interrogas!</l>
+            <l>Qui te semper novi a puero, et haec esse ita.</l>
+          </sp>
+          <sp who="#valentador">
+            <speaker>V.</speaker>
+            <l part="I">Quin nunc audin’ illos?</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">ego vero, et</l>
+            <l part="I">Falsum dicere.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">neque tu illi, neque mihi</l>
+            <l part="I">De me ipso ipse credis?</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">eo sit, quia mihi</l>
+            <l>Plurimum credo, et ista quae facta scio</l>
+            <l>Proinde ut loquor; te propter aetatem tuam</l>
+            <l>Ignorasse, hunc vero propter inscitiam.</l>
+          </sp>
+          <sp who="#valentador">
+            <speaker>V.</speaker>
+            <l>At ea, quae longissime audiisti puer,</l>
+            <l>Redige ad memoriam, fors vera esse reperies</l>
+            <l>Quae dicit hic: nam quid affirmat tam pertinax,</l>
+            <l>Nisi ita res est? num haec faceret,</l>
+            <l>Nisi filium te esse coniiceret suum?</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Sciat, faciat, affirmet quae vult, non memini;</l>
+            <l>Neque adeo meminisse possum esse me alium</l>
+            <l>Qui sim, aut qui semper fuerim; nec me a patre</l>
+            <l>Quicquam, vel nutrice, vel servo audivisse uspiam</l>
+            <l>Eorum, quae mihi hic homo memorat.</l>
+          </sp>
+          <sp who="#valentador">
+            <speaker>V.</speaker>
+            <l>Ergo, nisi planius facis, dimittam liberum.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l>Euge salva res est, Baiamet, evademus hodie</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="I">Id spero.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">atque haec velim audias.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l part="I">Arrige aures, Cordia.</l>
+          </sp>
+          <sp who="#valentador">
+            <speaker>V.</speaker>
+            <l part="M">dic.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">audiam.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l>Non est novum infantes perdi, nec postea</l>
+            <l>Illos scire, nisi quis memorat, cui fidem</l>
+            <l>Habeant: hunc adeo mihi asserenti, quae scio,</l>
+            <l part="I">Oportet credere.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">facetum hominem, Praetor, qui</l>
+            <l>Vult ea ut credam, quae putat scire. ohe, bone vir,</l>
+            <l>Quod putas me tuum filium, nihilo magis</l>
+            <l part="I">Sum, aut esse arbitror.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">ita debes, siquidem</l>
+            <l>Ita scio, qui te ea qua es forma genui,</l>
+            <l>Aetas, os, vultus, omnia te dicunt meum.</l>
+            <l>Iuvenem puero similiorem, quam te filio meo</l>
+            <l>Nunquam vidi alterum. adde eo sensum patris,</l>
+            <l>Qui postquam te aspexi, totus corrui; ita illico </l>
+            <l>Animus censuit te esse meum, quem olim perdidi.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>At tibi dixi, et dico me non tibi credere,</l>
+            <l>Nec me, si habueris filium mihi similem,</l>
+            <l>Morari quis siet, dummodo non esse me istum putes.</l>
+          </sp>
+          <sp who="#valentador">
+            <speaker>V.</speaker>
+            <l>Melius est me percunctarier: Fernandes dixeras</l>
+            <l part="I">Opinor vocari filium tuum?</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="M">ita vero.</l>
+          </sp>
+          <sp who="#valentador">
+            <speaker>V.</speaker>
+            <l part="F">at vocant</l>
+            <l part="I">Te?</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="M">Baiamet.</l>
+          </sp>
+          <sp who="#valentador">
+            <speaker>V.</speaker>
+            <l part="F">nomen non convenit.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l>Quia mutatum, ut crederetur istic filius.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Mirum si mihi quis mutat nomen, neque</l>
+            <l part="I">Ullo post resciam modo.</l>
+          </sp>
+          <sp who="#valentador">
+            <speaker>V.</speaker>
+            <l part="F">redemptum te cum Cordia</l>
+            <l>Dixisti fuisse: cur igitur non hic itidem</l>
+            <l part="I">Tecum?</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">quia herus missum noluit facere.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l>Certe hic habeo quo hominem excutiam probe,</l>
+            <l>Si sinis, Praetor: suo iam iam illum ense iugulo.</l>
+          </sp>
+          <sp who="#valentador">
+            <speaker>V.</speaker>
+            <l>Roga, per me licet, et tu litem dirime.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l>Dic, si istum herum nosti, qui dimittere</l>
+            <l part="I">Tuum noluit filium?</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">macilento ore, et</l>
+            <l>Naso acuto, corpore albo, oculis nigris,</l>
+            <l part="I">Capillitio aliquantum crispo.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l part="F">convenit.</l>
+            <l part="I">Sed ubi habitat?</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="M">ad portum.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l part="F">quid signi ante domum?</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="I">Nauta portans navim.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">at hoc scis? quot liberos</l>
+            <l part="I">Habuit?</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">filiam, atque haec mortua est.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Tantum non huic viro crederem, cum haec eum</l>
+            <l part="I">Autumare audio.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l part="F">hic quidem certe quae</l>
+            <l>Istic res sunt memorat: plane divinat hic.</l>
+          </sp>
+          <sp who="#valentador">
+            <speaker>V.</speaker>
+            <l>Gaudeo res evolvi: pergite, ego lubens taceo.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l part="I">Et ego lubens audio.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">sed quid ais te patrem</l>
+            <l part="I">Nosse, qui siet, meum?</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">novi equidem herum tuum,</l>
+            <l>Apud quem ego captivus fui, tecum, et Cordia.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Fateor, captivum retulit pater mihi</l>
+            <l>Se olim habuisse, atque illo eodem lytro,</l>
+            <l>Quo se redemit, hoc sum redemptus modo.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l>Superi! quid audio? illud est meum lytrum!</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Donum fuit, quod a patre habui puer.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="I">Quin illud quaeri iubes, Praetor?</l>
+          </sp>
+          <sp who="#valentador">
+            <speaker>V.</speaker>
+            <l part="F">optime</l>
+            <l part="I">Huc Agrippam.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">ego quid intus sit modo </l>
+            <l part="I">Singillatim dicam.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">dic igitur, certius</l>
+            <l part="I">Vinces me, si dixeris.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">e ferro cistula</l>
+            <l>Cum laminis tribus, et orbiculata sera,</l>
+            <l part="I">Quam sine verbo non aperis.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">verbum potes</l>
+            <l part="I">Dicere?</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="M">Christus.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="M">sic est.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l part="F">mira audio.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="I">Dic quid est in cistula?</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">centum aurei.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="I">Quid praeterea?</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">cochlear argenteum,</l>
+            <l part="I">Cum annulo aureo.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">in cochleari quid est</l>
+            <l part="I">Signi?</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="M">pelicanus.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">quae gemma in annulo:</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="I">Smaragdus.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">hic argumentis vincit: nescio,</l>
+            <l part="I">Unde haec hic memorat.</l>
+          </sp>
+          <sp who="#valentador">
+            <speaker>V.</speaker>
+            <l part="F">adest Agrippa cum lytro.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l>Perii, valete pecuniae: si me sic spoliaverit,</l>
+            <l>Restat funis domi, et uncus unde pendeam.</l>
+          </sp>
+          <sp who="#valentador">
+            <speaker>V.</speaker>
+            <l>Salvus sis, Agrippa: haec altercatio est</l>
+            <l>Iamdudum, an parens filium agnoscat suum</l>
+            <l>Te huius hodie mecum iudicem volo.</l>
+            <l part="I">Deprome peculium.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="M">rem tangit.</l>
+          </sp>
+          <sp who="#valentador">
+            <speaker>V.</speaker>
+            <l part="F">quo fugis?</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="I">Domi sunt fures.</l>
+          </sp>
+          <sp who="#valentador">
+            <speaker>V.</speaker>
+            <l part="F">ne pecuniis time,</l>
+            <l part="I">Reddam cum usura hodie.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="M">spondes?</l>
+          </sp>
+          <sp who="#valentador">
+            <speaker>V.</speaker>
+            <l part="F">do fidem.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="I">Satis certo, ut fidam?</l>
+          </sp>
+          <sp who="#valentador">
+            <speaker>V.</speaker>
+            <l part="M">certissime.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="F">da obsides.</l>
+          </sp>
+          <sp who="#valentador">
+            <speaker>V.</speaker>
+            <l part="I">Iniuriam facis, senex.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="F">Praetor, ne irascere,</l>
+            <l>Parebo cum iubes. prodite mea viscera:</l>
+            <l>Cor mihi effodio: en ut accepi peculium.</l>
+          </sp>
+          <sp who="#valentador">
+            <speaker>V.</speaker>
+            <l>E ferro dixisti esse cistulam, cum laminis</l>
+            <l>Tribus, et sera orbiculari? recte coniicis.</l>
+            <l part="I">Quid intus?</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="M">aurei centum.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="F">sunt, ego saepius</l>
+            <l part="I">Numeravi.</l>
+          </sp>
+          <sp who="#valentador">
+            <speaker>V.</speaker>
+            <l part="M">praeterea quid?</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">cochlear argenteum.</l>
+          </sp>
+          <sp who="#valentador">
+            <speaker>V.</speaker>
+            <l>Adest, cum signo pelicani, qui suos alit.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="I">Deinde annulus.</l>
+          </sp>
+          <sp who="#valentador">
+            <speaker>V.</speaker>
+            <l part="F">nunc tu quidem facis fidem.</l>
+            <l>Si praeterea aliud indicium affers, tibi est filius.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l>Recte inter sacrum sto et saxum, pallidior reo,</l>
+            <l part="I">De quo fit iudicium.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">iam ego hunc fallam virum.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l>Vereor ne quid sit pater, quod te fugiat.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="I">Ne time.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">nam quod egomet solus scio,</l>
+            <l>Nec quisquam alius, nec pater quidem, id hodie</l>
+            <l part="I">Non poterit dicere.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l part="M">quid erit?</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">si dixeris,</l>
+            <l>Te meum esse quasi alterum credam patrem.</l>
+          </sp>
+          <sp who="#valentador">
+            <speaker>V.</speaker>
+            <l part="I">Auscultabo quid velis.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="F">at salvo lytro.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Si tu pater meus es, dic in qua corporis</l>
+            <l part="I">Parte naevos gero?</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">in brachio circa cubitum.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Apposite rem dicis. ego vero illud praeter alia</l>
+            <l>Mira miror maxime, unde hoc rescias.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="I">Qui centies in infante vidi.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">unum superest,</l>
+            <l>Id si scias, meus esto pater. quid iste naevus est?</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l>Musculus niger, absque cauda: atque alterum item</l>
+            <l>Habes in altero brachio, eodem in loco.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Atqui hoc te prudens celaram, ut tentarem magis.</l>
+            <l>Video, me nosti. aspicite, en naevi duo.</l>
+          </sp>
+          <sp who="#valentador">
+            <speaker>V.</speaker>
+            <l part="I">Videmus, res est palam.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="F">at lytrum non est liquidum.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Contineri quin complectar, non queo.</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="I">Totus sum lapis.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">mihi recursat scrupulus.</l>
+            <l>Quomodo igitur nomen mihi est factum Baiamet?</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l>Immutatum est illud ab hero tuo, cum infans eras.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Credo ita esse factum, ut dicis: nam me puerum</l>
+            <l>Multi alio vocitabant nomine, nec me filium</l>
+            <l>Tenebant istius patris: quod ante nolui dicere.</l>
+          </sp>
+          <sp who="#valentador">
+            <speaker>V.</speaker>
+            <l>Recte igitur omnia conveniunt. restat vos mutuo </l>
+            <l part="I">Amplecti, gratulabimur.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">o salve, sili, quem ego</l>
+            <l>Multis precibus et votis optavi usque adhuc,</l>
+            <l>Quem ego esse inventum, immortaliter gaudeo.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>Salve ignote multis annis, mi pater, quem ego</l>
+            <l>Iniuriis etiam affeci, antequam agnosco et conspicor.</l>
+          </sp>
+          <sp who="#cordias">
+            <speaker>C.</speaker>
+            <l part="I">O frater salve.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="M">salve mi frater.</l>
+          </sp>
+          <sp who="#valentador">
+            <speaker>V.</speaker>
+            <l part="F">quin Agrippa tu</l>
+            <l part="I">Gratulare?</l>
+          </sp>
+          <sp who="#agrippa">
+            <speaker>AG.</speaker>
+            <l part="M">salvae sunt pecuniae?</l>
+          </sp>
+          <sp who="#valentador">
+            <speaker>V.</speaker>
+            <l part="F">ita</l>
+            <l>Inquam, gratulare. quod non speraveram, ut</l>
+            <l>Alter alterum agnosceret, et ut Praetor pro lytro</l>
+            <l>Sponderet, id evenit quidem, et ego gratulor.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l>Quoniam haec evenerunt, fili, hic in patria remane,</l>
+            <l part="I">Et Catholicam Fidem resume.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l part="F">faciam ut voles.</l>
+          </sp>
+          <sp who="#valentador">
+            <speaker>V.</speaker>
+            <l part="I">Utrique sortem gratulor.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">mea causa datus est</l>
+            <l part="I">In carcerem nauta, rogo ut extrahas.</l>
+          </sp>
+          <sp who="#valentador">
+            <speaker>V.</speaker>
+            <l part="F">fiat.</l>
+          </sp>
+          <sp who="#fernandes">
+            <speaker>F.</speaker>
+            <l>At tu, Alafir, redi Constantinopolim, et refer</l>
+            <l part="I">Quae hic gesta esse videris.</l>
+          </sp>
+          <sp who="#alafir">
+            <speaker>AL.</speaker>
+            <l part="F">Fernandes, vale.</l>
+          </sp>
+          <sp who="#valentador">
+            <speaker>V.</speaker>
+            <l part="I">Vos domum laeti recipite.</l>
+          </sp>
+          <sp who="#rodericius">
+            <speaker>R.</speaker>
+            <l part="F">omnes hic mecum</l>
+            <l>plaudite.</l>
+          </sp>
+          <closer>FINIS.</closer>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
