@@ -53,6 +53,10 @@
                   <persName>Bromia</persName>
                   <persName type="variant">Bro.</persName>
                </person>
+               <person xml:id="chremes" sex="MALE" role="rusticus">
+                  <persName>Chremes</persName>
+                  <persName type="variant">Chre.</persName>
+               </person>
                <person xml:id="epilogus" sex="UNKNOWN" role="epilogus">
                   <persName>Epilogvs</persName>
                </person>
@@ -130,10 +134,6 @@
       </profileDesc>
    </teiHeader>
    <standOff>
-      <listRelation>
-         <relation name="wikidata"
-                   active="https://dracor.org/entity/neolatXXXXXX"/>
-      </listRelation>
       <listEvent>
          <event type="print"
                 when="1529">
@@ -145,34 +145,24 @@
       <front>
          <titlePage>
             <docTitle>
-               <titlePart>
-                  <lb/>ACOLAS-
-<lb/>TVS. DE FILIO PRODI
-<lb/>GO COMOEDIA ACOLASTI
-</titlePart>
+              <titlePart type="main">ACOLASTVS. </titlePart><titlePart type="sub">DE FILIO PRODIGO COMOEDIA ACOLASTI titulo inscripta,</titlePart>
             </docTitle>
-            <lb/>titulo inscripta, authore Gulielmo Gna-
-<lb/>pheo, Gymnasiarcha Hagiensi.
-<docImprint>
-               <lb/>GODFRIDVS DV-
-<lb/>maeus Antuerpiae excudebat,
-<lb/>Anno. M.D.XXIX.
-<lb/>Mense Iulio.
-</docImprint>
-            <lb/>CVM GRATIA ET
-<lb/>Priuilegio Imperiali ad triennium.
-</titlePage>
+            <byline>authore Gulielmo Gnapheo, Gymnasiarcha Hagiensi.</byline>
+            <docImprint>
+              <publisher>GODFRIDVS DVmaeus</publisher> <pubPlace>Antuerpiae</pubPlace> excudebat, <date when="1529">Anno. M.D.XXIX. Mense Iulio</date>.
+            </docImprint>
+            <imprimatur>CVM GRATIA ET Priuilegio Imperiali ad triennium.</imprimatur>
+         </titlePage>
          <p>ACOLASTVS. DE FILIO PRODIGO COMOEDIA ACOLASTI titulo inscripta</p>
          <div type="dedication">
-            <sp who="#acolastus">
-               <p>
-                  <lb/>GVLIELMVS GNAPHEVS HAGIENSIS IOANNI SARTORIO AMSTELODAMO S.D.
-<lb/>Quum sint, mi Sartori, hoc nostro tam docto seculo uiri egregie docti, qui omne disciplinarum genus tractent, uersent et excolant, demiror Poesim Comicam sic iacere neglectam, sic porro intactam relinqui, tanquam res sit inimitabilis et cui opera parum utiliter collocetur, Quod ni ita
-<lb/>habere uideretur, non tam uelut coniurate bonarum rerum scriptores inde temperarent manus. Laudata est Comoedia Tullio ut humanae uitae speculum, celebrata est doctorum uirorum calculis, sed indigne, si ipsa indigna sit, quam multi conentur uel imitari uel ad uiuum experimere. Habet haec aetas nostra suos Tullios et Liuios, habet suos Vergilios et Demosthenes, ut Solones, Hippocrates et Chrysostomos taceam, Menandros et Therentios nullos habet. An eo fit, quia sublimior eius rei habeatur tractatio, et non nisi summis ingenijs digna? Errat mea quidem sententia, qui ita censeat. Nam ut Comoediarum argumenta e media hominum uita
-<lb/>petuntur, ita et tractari facile possunt ob stili mediocritatem dicam an facilitatem, potissimum ab ijs, qui hominum ingenia, mores et uitam sic habent meditata, ut ea pro decoro queant exprimere. Porro autem ut hanc ego glaciem audax perfringerem, tentaui, quid nostra, qualiscumque tandem ea sit, Thalia daret. Argumentum delegi ex sacris, quod in Comoediae formam cogi posse iudicarem, praeterquam quod hic res subinde in nimis Tragicas exeat exclamationes idque praeter Comicas illas leges, quas nobis tradidit Flaccus. Quod quidem crimen leuius esse duxi, quam a sensu et rei dignitate recedere. Malui enim pietatis respectui quam litteraturae decoro alicubi seruire. Iam rem ipsam sic prosequuti sumus, sic stilum temperauimus, ut nihil habeant Sycophantae quod calumnientur, habeant autem litteratores pij, quod affatim doceant, et moneant bene. Multos noui ad hinc Palaestram instructioribus animis esse, quos cupiam ad id genus studia accingere. Quo in loco et te et Gulielmum meum Niueldium habeo, ut alios praeteream mihi non perinde notos. Quare sub tuam, mi Sartori, ferulam hic noster Acolastus, sic enim illi nomen fecimus, uenit; uenit, ut pro meritis suis tractetur. Hoc enim onere dudum leuari opto, liberum tibi facio, ut eu quibus uisum est, modis exerceas. Tam mihi non sum Meuius, tam mihi non ignosco, ut deformes catulos pro formosis tibi cupiam ostentare. Audiui quendam Reynerum Snoy Medicum in eodem uersatum argumento, fortasse etiam multo felicius. Id si ita est, pergratum mihi fuit, si uir ille suum poema in lucem emittat, atque ipse ridicula quaedam Reyneri simia appaream, tantum abest, ut cuiusquam gloriam nedum Reyneri aut uelim aut possim obscurare. Multo autem maximam gratiam initurus es uel tu uel meus Niueldius, si modo hunc decoctorem Acolastum ad ueram frugem correxeris, prius quam sub aliorum oculos propinetur deridendus. Consilium mihi erat amplius in his tirocinijs praeludere ad ueram Comoediographiam, nisi malitiosa quorundam inuidia ea mihi studia inuidisset, qui Calumnia armati sua ludo et ocio litterario me pepulerunt, exturbarunt, et nescio in quae odia rapuerunt. Vt non desunt praeclaris ubique rebus suae pestes et bonis uiris sui Sathanae. Quod ad metri rationem attinet, illud pro licentia Comica ut uarium ita et liberum fecimus propterea quod Comicam phrasim conueniat ad familiarem et solutam orationern quam proxime accedere. Sapphicum carmen praeter morem iniecimus eo in loco, ubi res ita poscere uideretur. Quod si iuuet Comoediam hanc publice spectandam exhibere, haud male instructam in hoc fabulam es habiturus. Quippe docebit pariter et delectabit, nisi me fallit mea Phylautia, maxime postquam tu eam reddideris tuo dolatorio leuigatiorem. Quam operam rudi et crasso operi non es negaturus, spero. Vale.
-<lb/>Tuus Gnapheus.
-</p>
-            </sp>
+           <opener>
+             <salute>GVLIELMVS GNAPHEVS HAGIENSIS IOANNI SARTORIO AMSTELODAMO S.D.</salute>
+           </opener>
+             <p>Quum sint, mi Sartori, hoc nostro tam docto seculo uiri egregie docti, qui omne disciplinarum genus tractent, uersent et excolant, demiror Poesim Comicam sic iacere neglectam, sic porro intactam relinqui, tanquam res sit inimitabilis et cui opera parum utiliter collocetur, Quod ni ita habere uideretur, non tam uelut coniurate bonarum rerum scriptores inde temperarent manus. Laudata est Comoedia Tullio ut humanae uitae speculum, celebrata est doctorum uirorum calculis, sed indigne, si ipsa indigna sit, quam multi conentur uel imitari uel ad uiuum experimere. Habet haec aetas nostra suos Tullios et Liuios, habet suos Vergilios et Demosthenes, ut Solones, Hippocrates et Chrysostomos taceam, Menandros et Therentios nullos habet. An eo fit, quia sublimior eius rei habeatur tractatio, et non nisi summis ingenijs digna? Errat mea quidem sententia, qui ita censeat. Nam ut Comoediarum argumenta e media hominum uita petuntur, ita et tractari facile possunt ob stili mediocritatem dicam an facilitatem, potissimum ab ijs, qui hominum ingenia, mores et uitam sic habent meditata, ut ea pro decoro queant exprimere. Porro autem ut hanc ego glaciem audax perfringerem, tentaui, quid nostra, qualiscumque tandem ea sit, Thalia daret. Argumentum delegi ex sacris, quod in Comoediae formam cogi posse iudicarem, praeterquam quod hic res subinde in nimis Tragicas exeat exclamationes idque praeter Comicas illas leges, quas nobis tradidit Flaccus. Quod quidem crimen leuius esse duxi, quam a sensu et rei dignitate recedere. Malui enim pietatis respectui quam litteraturae decoro alicubi seruire. Iam rem ipsam sic prosequuti sumus, sic stilum temperauimus, ut nihil habeant Sycophantae quod calumnientur, habeant autem litteratores pij, quod affatim doceant, et moneant bene. Multos noui ad hinc Palaestram instructioribus animis esse, quos cupiam ad id genus studia accingere. Quo in loco et te et Gulielmum meum Niueldium habeo, ut alios praeteream mihi non perinde notos. Quare sub tuam, mi Sartori, ferulam hic noster Acolastus, sic enim illi nomen fecimus, uenit; uenit, ut pro meritis suis tractetur. Hoc enim onere dudum leuari opto, liberum tibi facio, ut eu quibus uisum est, modis exerceas. Tam mihi non sum Meuius, tam mihi non ignosco, ut deformes catulos pro formosis tibi cupiam ostentare. Audiui quendam Reynerum Snoy Medicum in eodem uersatum argumento, fortasse etiam multo felicius. Id si ita est, pergratum mihi fuit, si uir ille suum poema in lucem emittat, atque ipse ridicula quaedam Reyneri simia appaream, tantum abest, ut cuiusquam gloriam nedum Reyneri aut uelim aut possim obscurare. Multo autem maximam gratiam initurus es uel tu uel meus Niueldius, si modo hunc decoctorem Acolastum ad ueram frugem correxeris, prius quam sub aliorum oculos propinetur deridendus. Consilium mihi erat amplius in his tirocinijs praeludere ad ueram Comoediographiam, nisi malitiosa quorundam inuidia ea mihi studia inuidisset, qui Calumnia armati sua ludo et ocio litterario me pepulerunt, exturbarunt, et nescio in quae odia rapuerunt. Vt non desunt praeclaris ubique rebus suae pestes et bonis uiris sui Sathanae. Quod ad metri rationem attinet, illud pro licentia Comica ut uarium ita et liberum fecimus propterea quod Comicam phrasim conueniat ad familiarem et solutam orationern quam proxime accedere. Sapphicum carmen praeter morem iniecimus eo in loco, ubi res ita poscere uideretur. Quod si iuuet Comoediam hanc publice spectandam exhibere, haud male instructam in hoc fabulam es habiturus. Quippe docebit pariter et delectabit, nisi me fallit mea Phylautia, maxime postquam tu eam reddideris tuo dolatorio leuigatiorem. Quam operam rudi et crasso operi non es negaturus, spero.</p>
+           <closer>
+             <salute>Vale.</salute>
+             <signed>Tuus Gnapheus.</signed>
+           </closer>
          </div>
          <castList>
             <head>ACTORVM NOMINA.</head>
@@ -3199,8 +3189,8 @@
                   <head>Actus quarti. Scoena septima.</head>
                   <stage>Chremes. Acolastvs.</stage>
                   <stage><foreign>σκάζοντες.</foreign></stage>
-                  <!-- add missing sp elements -->
-                  <l>Ex uillula mea tantum reportare</l>
+                  <sp who="#chremes">
+                     <l>Ex uillula mea tantum reportare</l>
                   <l>Solitus eram prouentuum, ut satis uitae</l>
                   <l>Necessitati illinc reponeretur. Sed</l>
                   <l>Quia nunc in partu ager est remissior, pingui</l>
@@ -3211,50 +3201,77 @@
                   <l>Robigine uitiata non daret messem,</l>
                   <l n="(1025)">Quae res peperit nobis penuriam annonae.</l>
                   <l>Omen sinistrum, hic magnus nebulo stat. Quid uolt?</l>
-                  <speaker>Acolastvs.</speaker>
+                  </sp>
+                  <sp who="#acolastus">
+                     <speaker>Acolastvs.</speaker>
                   <l part="I">Colone, salue plurimum.</l>
-                  <speaker>CHRE.</speaker>
+                  </sp>
+                  <sp who="#chremes">
+                     <speaker>CHRE.</speaker>
                   <l part="F">Satis dudum</l>
                   <l>Salueo, si non etiam tu mihi salutem des.</l>
                   <l part="I">Quid uis?</l>
-                  <speaker>Acolastvs.</speaker>
+                  </sp>
+                  <sp who="#acolastus">
+                     <speaker>Acolastvs.</speaker>
                   <l part="F">Precor, ut hoedi, boues, oues, caprae,</l>
                   <l n="(1030)"
                      part="I">Tibi foetus edant pro uoto tuo.</l>
-                  <speaker>Chremes.</speaker>
+                  </sp>
+                  <sp who="#chremes">
+                     <speaker>Chremes.</speaker>
                   <l n="(1030)"
                      part="F">Faxit</l>
                   <l part="I">Ita Pan noster. Vale.</l>
-                  <speaker>Acolastvs.</speaker>
+                  </sp>
+                  <sp who="#acolastus">
+                     <speaker>Acolastvs.</speaker>
                   <l part="F">Quaeso, audias pauca,</l>
                   <l part="I">Prius, quam abis.</l>
-                  <speaker>Chremes.</speaker>
+                  </sp>
+                  <sp who="#chremes">
+                     <speaker>Chremes.</speaker>
                   <l part="M">Num quid te torquet autem?</l>
-                  <speaker>Aco.</speaker>
+                  </sp>
+                  <sp who="#acolastus">
+                     <speaker>Aco.</speaker>
                   <l part="F">Ingens</l>
                   <l part="I">Fames.</l>
-                  <speaker>Chremes.</speaker>
+                  </sp>
+                  <sp who="#chremes">
+                     <speaker>Chremes.</speaker>
                   <l part="F">Craedo, grassatur illa multorum</l>
                   <l part="I">In faucibus.</l>
-                  <speaker>Acolastvs.</speaker>
+                  </sp>
+                  <sp who="#acolastus">
+                     <speaker>Acolastvs.</speaker>
                   <l part="F">Nunc te oro, eam leues pane</l>
                   <l n="(1035)"
                      part="I">Atro uel furfure.</l>
-                  <speaker>Chremes.</speaker>
+                  </sp>
+                  <sp who="#chremes">
+                     <speaker>Chremes.</speaker>
                   <l n="(1035)"
                      part="F">Ociosus es totus,</l>
                   <l part="I">Proinde indignus, cui uictus detur.</l>
-                  <speaker>Acolast.</speaker>
+                  </sp>
+                  <sp who="#acolastus">
+                     <speaker>Acolast.</speaker>
                   <l part="F">At nullus</l>
                   <l>Me uocat ad operas. Quod si ullo tuo ex usu</l>
                   <l>Queam esse, non detrecto manus meas duro</l>
                   <l>Operi locare pro tolerabili uictu.</l>
-                  <speaker>Chremes.</speaker>
+                  </sp>
+                  <sp who="#chremes">
+                     <speaker>Chremes.</speaker>
                   <l n="(1040)">Sequere me ablegandus mox ad meos porcos,</l>
                   <l>Vt eos agas. Te dignum commeatum addam.</l>
-                  <speaker>Acolastvs.</speaker>
+                  </sp>
+                  <sp who="#acolastus">
+                     <speaker>Acolastvs.</speaker>
                   <l>Sequor. Vah, ab equis ad asinos? Non magis craedas</l>
                   <l>Fortunae uoltui quam mobili uento.</l>
+                  </sp>
                </div>
          </div>
          <div type="act"
@@ -3324,7 +3341,7 @@
                   <speaker>Evbv.</speaker>
                   <l>Nempe, ut dicis. Sed modus est in re qualibet optimus.</l>
                </sp>
-               <sp who="#pelargvs">
+               <sp who="#pelargus">
                   <speaker>Pelargvs.</speaker>
                   <l part="I">Est, si queam assequi.</l>
                </sp>
@@ -3348,7 +3365,7 @@
                   <l>Igitur ad portitores, ex quibus forsan discam omnia.</l>
                   <l n="(1070)">Tu me interea domi operitor, mox huc reuolauero.</l>
                </sp>
-               <sp who="#pelargvs">
+               <sp who="#pelargus">
                   <speaker>Pelargvs.</speaker>
                   <l>Faciam. Quam suspicioso nunc sum animo, omnia timeo neque</l>
                   <l>Quicquam timeo. Sediciosus plane cordis mei</l>
@@ -3519,7 +3536,7 @@
                   <speaker>Ev.</speaker>
                   <l n="(1195)">Pelarge mi, quin mittis has quaerimonias?</l>
                </sp>
-               <sp who="#pelargvs">
+               <sp who="#pelargus">
                   <speaker>Pelargvs.</speaker>
                   <l>Iustas parit quaerimonias iustus dolor.</l>
                </sp>
@@ -3532,7 +3549,7 @@
                   <l>Facias. Aegrotus non nisi medica manu</l>
                   <l part="I">Opus habet.</l>
                </sp>
-               <sp who="#pelargvs">
+               <sp who="#pelargus">
                   <speaker>Pelargvs.</speaker>
                   <l part="M">Habet, si spes sit uitae.</l>
                </sp>
