@@ -41,137 +41,70 @@
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person xml:id="&lt;lais&gt;">
-                  <persName>&lt;Lais.&gt;</persName>
-               </person>
-               <person xml:id="acolastus">
+               <person xml:id="acolastus" sex="MALE" role="filius">
                   <persName>Acolastus</persName>
+                  <persName type="variant">Aco.</persName>
+                  <persName type="variant">Acol.</persName>
+                  <persName type="variant">Acola.</persName>
+                  <persName type="variant">Acolas.</persName>
+                  <persName type="variant">Acolast.</persName>
                </person>
-               <person xml:id="aco">
-                  <persName>Aco.</persName>
+               <person xml:id="bromia" sex="FEMALE" role="ancilla">
+                  <persName>Bromia</persName>
+                  <persName type="variant">Bro.</persName>
                </person>
-               <person xml:id="acol">
-                  <persName>Acol.</persName>
+               <person xml:id="evbvlvs" sex="MALE" role="amicus">
+                  <persName>Evbvlvs</persName>
+                  <persName type="variant">Ev.</persName>
+                  <persName type="variant">Evb.</persName>
+                  <persName type="variant">Evbv.</persName>
+                  <persName type="variant">Evbvl.</persName>
+                  <persName type="variant">Evbvlv.</persName>
                </person>
-               <person xml:id="acola">
-                  <persName>Acola.</persName>
+               <person xml:id="lais" sex="FEMALE" role="meretrix">
+                  <persName>Lais</persName>
+                  <persName type="variant">La.</persName>
                </person>
-               <person xml:id="acolas">
-                  <persName>Acolas.</persName>
+               <person xml:id="pamphagvs" sex="MALE" role="parasitus">
+                  <persName>Pamphagvs</persName>
+                  <persName type="variant">Pampha</persName>
+                  <persName type="variant">Pam.</persName>
+                  <persName type="variant">Pamp.</persName>
+                  <persName type="variant">Pamph.</persName>
+                  <persName type="variant">Pamphag.</persName>
                </person>
-               <person xml:id="acolast">
-                  <persName>Acolast.</persName>
+               <person xml:id="pantola" sex="MALE">
+                  <persName>Pantolabvs</persName>
+                  <persName type="variant">Pantola.</persName>
+                  <persName type="variant">Pan.</persName>
+                  <persName type="variant">Pant.</persName>
+                  <persName type="variant">Panto.</persName>
+                  <persName type="variant">Pantol.</persName>
                </person>
-               <person xml:id="bro">
-                  <persName>Bro.</persName>
+               <person xml:id="pelargvs" sex="MALE" role="pater">
+                  <persName>Pelargvs</persName>
+                  <persName type="variant">Pe.</persName>
+                  <persName type="variant">Pel.</persName>
+                  <persName type="variant">Pelar.</persName>
+                  <persName type="variant">Pelarg.</persName>
                </person>
-               <person xml:id="bromia">
-                  <persName>Bromia.</persName>
+               <person xml:id="phil" sex="MALE" role="amicus">
+                  <persName>Philavtvs</persName>
+                  <persName type="variant">Phil.</persName>
+                  <persName type="variant">Phi.</persName>
+                  <persName type="variant">Ph.</persName>
                </person>
-               <person xml:id="ev">
-                  <persName>Ev.</persName>
+               <person xml:id="sannio" sex="MALE" role="leno">
+                  <persName>Sannio</persName>
+                  <persName type="variant">San.</persName>
+                  <persName type="variant">Sa.</persName>
                </person>
-               <person xml:id="evb">
-                  <persName>Evb.</persName>
-               </person>
-               <person xml:id="evbv">
-                  <persName>Evbv.</persName>
-               </person>
-               <person xml:id="evbvl">
-                  <persName>Evbvl.</persName>
-               </person>
-               <person xml:id="evbvlv">
-                  <persName>Evbvlv.</persName>
-               </person>
-               <person xml:id="evbvlvs">
-                  <persName>Evbvlvs.</persName>
-               </person>
-               <person xml:id="la">
-                  <persName>La.</persName>
-               </person>
-               <person xml:id="lais">
-                  <persName>Lais.</persName>
-               </person>
-               <person xml:id="pam">
-                  <persName>Pam.</persName>
-               </person>
-               <person xml:id="pamp">
-                  <persName>Pamp.</persName>
-               </person>
-               <person xml:id="pamph">
-                  <persName>Pamph.</persName>
-               </person>
-               <person xml:id="pampha">
-                  <persName>Pampha.</persName>
-               </person>
-               <person xml:id="pamphag">
-                  <persName>Pamphag.</persName>
-               </person>
-               <person xml:id="pamphagvs">
-                  <persName>Pamphagvs.</persName>
-               </person>
-               <person xml:id="pan">
-                  <persName>Pan.</persName>
-               </person>
-               <person xml:id="pant">
-                  <persName>Pant.</persName>
-               </person>
-               <person xml:id="panto">
-                  <persName>Panto.</persName>
-               </person>
-               <person xml:id="pantol">
-                  <persName>Pantol.</persName>
-               </person>
-               <person xml:id="pantola">
-                  <persName>Pantola.</persName>
-               </person>
-               <person xml:id="pe">
-                  <persName>Pe.</persName>
-               </person>
-               <person xml:id="pel">
-                  <persName>Pel.</persName>
-               </person>
-               <person xml:id="pelar">
-                  <persName>Pelar.</persName>
-               </person>
-               <person xml:id="pelarg">
-                  <persName>Pelarg.</persName>
-               </person>
-               <person xml:id="pelargvs">
-                  <persName>Pelargvs.</persName>
-               </person>
-               <person xml:id="ph">
-                  <persName>Ph.</persName>
-               </person>
-               <person xml:id="phi">
-                  <persName>Phi.</persName>
-               </person>
-               <person xml:id="phil">
-                  <persName>Phil.</persName>
-               </person>
-               <person xml:id="sa">
-                  <persName>Sa.</persName>
-               </person>
-               <person xml:id="san">
-                  <persName>San.</persName>
-               </person>
-               <person xml:id="sannio">
-                  <persName>Sannio.</persName>
-               </person>
-               <person xml:id="sy">
-                  <persName>Sy.</persName>
-               </person>
-               <person xml:id="syr">
-                  <persName>Syr.</persName>
-               </person>
-               <person xml:id="syrv">
-                  <persName>Syrv.</persName>
-               </person>
-               <person xml:id="syrvs">
-                  <persName>Syrvs.</persName>
-               </person>
-               <person xml:id="unknown">
-                  <persName>Unknown</persName>
+               <!-- Has to be resolved into two nodes for Syra and Syrus! -->
+               <person xml:id="syrvs" sex="MALE" role="servus">
+                  <persName>Syrvs</persName>
+                  <persName type="variant">Sy.</persName>
+                  <persName type="variant">Syr.</persName>
+                  <persName type="variant">Syrv.</persName>
                </person>
             </listPerson>
          </particDesc>
@@ -236,51 +169,51 @@
          <castList>
             <head>ACTORVM NOMINA.</head>
             <castItem>
-               <role>PELARGVS. </role>
+               <role>PELARGVS.</role>
                <roleDesc>Pater.</roleDesc>
             </castItem>
             <castItem>
-               <role>EVBVLVS. </role>
+               <role>EVBVLVS.</role>
                <roleDesc>is patri est a consilijs.</roleDesc>
             </castItem>
             <castItem>
-               <role>ACOLASTVS. </role>
+               <role>ACOLASTVS.</role>
                <roleDesc>filius prodigus.</roleDesc>
             </castItem>
             <castItem>
-               <role>PHILAVTVS. </role>
+               <role>PHILAVTVS.</role>
                <roleDesc>Hic filio est a consilijs.</roleDesc>
             </castItem>
             <castItem>
-               <role>PAMPHAGVS. </role>
+               <role>PAMPHAGVS.</role>
                <roleDesc>Parasitus.</roleDesc>
             </castItem>
             <castItem>
-               <role>PANTOLABVS. </role>
+               <role>PANTOLABVS.</role>
                <roleDesc>Scurra.</roleDesc>
             </castItem>
             <castItem>
-               <role>SANNIO. </role>
+               <role>SANNIO.</role>
                <roleDesc>Leno.</roleDesc>
             </castItem>
             <castItem>
-               <role>SYRVS. </role>
+               <role>SYRVS.</role>
                <roleDesc>Lenonis seruus.</roleDesc>
             </castItem>
             <castItem>
-               <role>BROMIA. </role>
+               <role>BROMIA.</role>
                <roleDesc>Lenonis ancilla.</roleDesc>
             </castItem>
             <castItem>
-               <role>LAIS. </role>
+               <role>LAIS.</role>
                <roleDesc>Meretrix.</roleDesc>
             </castItem>
             <castItem>
-               <role>SYRA. </role>
+               <role>SYRA.</role>
                <roleDesc>Laidis pedisequa.</roleDesc>
             </castItem>
             <castItem>
-               <role>CHREMES. </role>
+               <role>CHREMES.</role>
                <roleDesc>Rusticus.</roleDesc>
             </castItem>
          </castList>
@@ -2413,8 +2346,8 @@
                   <l part="F"
                      cert="unknown">Ita.</l>
                </sp>
-               <sp who="#&lt;lais&gt;">
-                  <speaker>&lt;Lais.&gt;</speaker>
+               <sp who="#lais">
+                  <speaker><supplied>Lais.</supplied></speaker>
                   <l>Quis tam potens hospes uenit mei petitum copiam,</l>
                   <l part="I">Quae grandem demereo pecuniam?</l>
                </sp>
