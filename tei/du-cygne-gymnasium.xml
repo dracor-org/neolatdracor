@@ -1,0 +1,3556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="dracor" xml:id="neolat000181" xml:lang="la">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Gymnasium</title>
+        <author>
+          <persName xml:lang="la">
+            <forename>Martinus</forename>
+            <surname>Du Cygne</surname>
+          </persName>
+          <idno type="wikidata">Q21545079</idno>
+        </author>
+        <respStmt>
+          <resp>Transcribed by</resp>
+          <persName ref="https://orcid.org/0000-0002-9764-187X">Nicholas De Sutter</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Converted to TEI by</resp>
+          <persName ref="https://orcid.org/0000-0002-9764-187X">Nicholas De Sutter</persName>
+        </respStmt>
+        <funder>
+          <orgName>FWO</orgName>
+          <name>1291325N</name>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <ref target="https://books.google.com/books?id=vqAjcaQDLrgC">Google Books</ref>
+          <availability status="free">
+            <p>In the public domain.</p>
+          </availability>
+        </bibl>
+        <bibl type="originalSource">
+          <author>Martinus du Cygne</author>: <title>Gymnasium</title>. <title type="sub">Comoedia
+            VII</title>. <pubPlace>Liège</pubPlace>: <publisher>Joannes Mathias Hovius</publisher>
+          <date>1679</date>. </bibl>
+        <listEvent>
+          <event type="print" when="1679">
+            <desc/>
+          </event>
+        </listEvent>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="prologus" sex="UNKNOWN">
+            <persName>Prologus</persName>
+          </person>
+          <person xml:id="cacogenes" sex="MALE">
+            <persName>Cacogenes</persName>
+          </person>
+          <person xml:id="catissus" sex="MALE">
+            <persName>Catissus</persName>
+          </person>
+          <person xml:id="dodo" sex="MALE">
+            <persName>Dodo</persName>
+          </person>
+          <person xml:id="hurtado" sex="MALE">
+            <persName>Hurtado</persName>
+          </person>
+          <person xml:id="plimpo" sex="MALE">
+            <persName>Plimpo</persName>
+          </person>
+          <person xml:id="smilax" sex="MALE">
+            <persName>Smilax</persName>
+          </person>
+          <person xml:id="anthrax" sex="MALE">
+            <persName>Anthrax</persName>
+          </person>
+          <person xml:id="coraxa" sex="MALE">
+            <persName>Coraxa</persName>
+          </person>
+          <person xml:id="chrysogonus" sex="MALE">
+            <persName>Chrysogonus</persName>
+          </person>
+          <person xml:id="cato" sex="MALE">
+            <persName>Cato</persName>
+          </person>
+          <person xml:id="melinus" sex="MALE">
+            <persName>Melinus</persName>
+          </person>
+          <person xml:id="bartollus" sex="MALE">
+            <persName>Bartollus</persName>
+          </person>
+          <person xml:id="pansa" sex="MALE">
+            <persName>Pansa</persName>
+          </person>
+          <person xml:id="brollius" sex="MALE">
+            <persName>Brollius</persName>
+          </person>
+          <person xml:id="astreus" sex="MALE">
+            <persName>Astreus</persName>
+          </person>
+          <person xml:id="imerius-cortua" sex="MALE">
+            <persName>Imerius Cortua</persName>
+          </person>
+          <personGrp xml:id="milites">
+            <persName>Milites</persName>
+          </personGrp>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">comedy</term>
+        </keywords>
+        <classCode scheme="https://www.wikidata.org/wiki/Q40831"/>
+      </textClass>
+      <creation>
+        <region>
+          <ref target="https://www.wikidata.org/wiki/Q622783">Spanish Netherlands</ref>
+        </region>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2026-08-21">
+          <desc>Converted to DraCor TEI by Nicholas De Sutter.</desc></change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart>Gymnasium</titlePart>
+        </docTitle>
+      </titlePage>
+      <argument>
+        <head>MATERIA</head>
+        <p>Anno 1567 multis in urbibus Belgii, propter tumultus et haereses, adeo erat Iuventus
+          corrupta, ut eam nec Parentes, nec Magistri possent frugi reddere. Quo tempore Imerius
+          Cortua idoneos Professores accersiit, tanto successu, ut hodieque post annos centum
+          correcti mores perseverent. <ref>Annales Belgii</ref>.</p>
+      </argument>
+      <castList>
+        <head>PERSONAE</head>
+        <castGroup rend="braced">
+          <castItem>
+            <role>Cacogenes</role>
+          </castItem>
+          <castItem>
+            <role>Catissus</role>
+          </castItem>
+          <castItem>
+            <role>Dodo</role>
+          </castItem>
+          <castItem>
+            <role>Hurtado</role>
+          </castItem>
+          <roleDesc>Adolescentes studiosi</roleDesc>
+        </castGroup>
+        <castItem>
+          <role>Plimpo</role>
+          <roleDesc>servus</roleDesc>
+        </castItem>
+        <castGroup>
+          <castItem>
+            <role>Smilax</role>
+          </castItem>
+          <castItem>
+            <role>Anthrax</role>
+          </castItem>
+          <roleDesc>fabri</roleDesc>
+        </castGroup>
+        <castGroup>
+          <castItem>
+            <role>Coraxa</role>
+            <roleDesc>avus</roleDesc>
+          </castItem>
+          <castItem>
+            <role>Chrysogonus</role>
+            <roleDesc>pater</roleDesc>
+          </castItem>
+          <roleDesc>Cacogenis</roleDesc>
+        </castGroup>
+        <castItem>
+          <role>Cato</role>
+          <roleDesc>pater Catissi</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Melinus</role>
+          <roleDesc>pater Dodonis</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Bartollus</role>
+          <roleDesc>didascalus</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Pansa</role>
+          <roleDesc>Caupo</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Brollius</role>
+          <roleDesc>sutor</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Astreus</role>
+          <roleDesc>Praetor</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Imerius Cortua</role>
+          <roleDesc>Gymnasiarchus</roleDesc>
+        </castItem>
+      </castList>
+      <div type="argument">
+        <head>Distributio</head>
+        <list type="argument">
+          <item>
+            <label>Actus I</label>
+            <list>
+              <milestone unit="dramaticPhase" n="protasis"/>
+              <item><label>Scena I</label> Adolescentes studiosi mala capiunt consilia.</item>
+              <item><label>Scena II</label> Cacogenes praeter spem ex Avo aurum accipit.</item>
+              <item><label>Scena III</label> Catissus, absente patre, scrutatur arcas domi.</item>
+              <item><label>Scena IV</label> Dodo versute obtinet pecunias a patre.</item>
+              <item><label>Scena V</label> Hurtado fugit e schola.</item>
+            </list>
+          </item>
+          <item>
+            <label>Actus II</label>
+            <list>
+              <milestone unit="dramaticPhase" n="epitasis"/>
+              <item><label>Scena I</label> Adolescentes studiosi versantur in caupona.</item>
+              <item><label>Scena II</label> Cato potantem filium corripit.</item>
+              <item><label>Scena III</label> Cato indulgentem accusat Melinum.</item>
+              <item><label>Scena IV</label> Cato admonet Chrysogonum de moribus Cacogenis.</item>
+              <item><label>Scena V</label> Melinus iterum blanditur filio</item>
+            </list>
+          </item>
+          <item>
+            <label>Actus III</label>
+            <list>
+              <item><label>Scena I</label> Catissus a Bartollo impetrat favens testimonium.</item>
+              <item><label>Scena II</label> Pansa persuadet Catoni Catissum esse bonis
+                moribus.</item>
+              <item><label>Scena III</label> Cacogenes et Dodo, fictis contra Catissum rixis,
+                fallunt Catonem.</item>
+              <item><label>Scena IV</label> Rursus Cato obiurgat Melinum.</item>
+              <item><label>Scena V</label> Catissus patri exhibet testimonium Magistri: et pecunias
+                emungit.</item>
+              <item><label>Scena VI</label> Pansa hospites novis instructos pecuniis recipit.</item>
+            </list>
+          </item>
+          <item>
+            <label>Actus IV</label>
+            <list>
+              <milestone unit="dramaticPhase" n="catastasis"/>
+              <item><label>Scena I</label> Dodo, Catissus, Hurtado cum Pansa carceri
+                mandantur.</item>
+              <item><label>Scena II</label> Cacogenes et Plimpo, dum liberare carcere socios
+                tentant, simul capiuntur.</item>
+              <item><label>Scena III</label> Cato et Melinus filios esse comprehensos
+                resciunt.</item>
+              <item><label>Scena IV</label> Excutitur Pansa: pecuniae et furta adolescentum
+                liquent.</item>
+              <item><label>Scena V</label> Melinus deflet culpam.</item>
+            </list>
+          </item>
+          <item>
+            <label>Actus V</label>
+            <list>
+              <milestone unit="dramaticPhase" n="catastrophe"/>
+              <item><label>Scena I</label> Imerius Cortua sapienter de regenda iuventute
+                disserit.</item>
+              <item><label>Scena II</label> Pansa multatur omnibus, quae Adolescentes
+                expenderunt.</item>
+              <item><label>Scena III</label> Cacogenes et Plimpo damnantur ad mechanicam
+                artem.</item>
+              <item><label>Scena IV</label> Catissus, Dodo, Hurtado petunt delicti veniam.</item>
+              <item><label>Scena V</label> Imerius Cortua parentibus Liberos conciliat: designatque
+                Professores idoneos Gymnasii, quod fundat.</item>
+            </list>
+          </item>
+        </list>
+      </div>
+    </front>
+    <body>
+      <div type="prologue">
+        <head>PROLOGUS.</head>
+        <l>De liberorum licentia damus hanc Comoediam;</l>
+        <l>Verum et hac parentes tangit, quam damus, Comoedia:</l>
+        <l>Nam dum aliqui prava domi exempla dant,</l>
+        <l>Iucundam filiis praescribunt vitae Comoediam;</l>
+        <l>Sed haec saepius vertitur in Tragoediam Comoedia.</l>
+        <l>Quis enim dubitet Liberos esse, uti simios,</l>
+        <l>Qui imitantur quod vident? tum si in patre</l>
+        <l>Vestigia minus recta legerint, laus est arripere,</l>
+        <l>Iis insistere, vitio superare etiam patrem.</l>
+        <l>Hoc pacto fit, ut similis patri sit filius:</l>
+        <l>Hoc est, ut fertur adagio, mali corvi malum</l>
+        <l>Ovum; ex quo rursus ovo corvus malus,</l>
+        <l>Et ex hoc deinceps alius, qui vivit pessime </l>
+        <l>Esto: parens non det vitae exemplum malum:</l>
+        <l>At peccat saepe ipso regendi modo;</l>
+        <l>Si nimis sit asper, mitisve, interest puero;</l>
+        <l>Qui si insuper Magistrum sentit minus idoneum,</l>
+        <l>Fieri non potest, ut munus exequatur suum.</l>
+        <l>Hoc adeo videbitis ex hac, quam damus Comoedia:</l>
+        <l>Melinus, Cato, Chrysogonus, dissimili parentes ingenio,</l>
+        <l>Male educant filios: Cato severe quidem,</l>
+        <l>Melinus indulgenter, ex avaritia incurie Chrysogonus:</l>
+        <l>At Cato, qui sua disciplina bonum habere se</l>
+        <l>Filium putat, Melinum et Chrysogonum liberius</l>
+        <l>Obiurgat, nempe quod dissoluti sint liberi.</l>
+        <l>Fallitur: post paulo filium cum sociis</l>
+        <l>Aeque improbum, et in carcerem datum intelligit.</l>
+        <l>Ibi confessio: ibi consilium Imerii, qui liberis</l>
+        <l>Parcendum censet, dum magistri in gymnasio.</l>
+        <l>Quod fundat, sint idonei, qui ipsos regant.</l>
+        <l>Spectate, et post saeculum fabulae nepotes plaudite.</l>
+      </div>
+      <div type="act" n="1">
+        <head>ACTUS PRIMUS.</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>Adolescentes studiosi mala capiunt consilia.</p>
+          </argument>
+          <stage>CACOGENES, CATISSUS, HURTADO, DODO.</stage>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l>Pergite socii, festa turba, vivimus hilariter:</l>
+            <l>Morosiora patrum praecepta floccipendimus.</l>
+            <l>Brevis vita, cuius lux ubi semel occidit,</l>
+            <l>Nox perpetuo dormienda: dum iuvenes sumus,</l>
+            <l>Est insipientis nolle aetatis florem carpere.</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l>Macte, consultor optime, haec est sententia.</l>
+          </sp>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l>Gaudeo meis vos abunde praeceptis imbui.</l>
+            <l>Et quoniam mei estis socii, decet</l>
+            <l>Et facta, moresque meis habere vos similes item:</l>
+            <l>Malos esse oportet, callidos, astutos admodum,</l>
+            <l>Fures, ebriosos, mendaces parentibus;</l>
+            <l>Nam hi, si fatentur, adversus patres suos</l>
+            <l>Tales olim fuere. Plane Horatius:</l>
+            <l>Progenies posthuma peior priore: ebrius</l>
+            <l>Ebriosum gignit, fur furem, improbus improbum.</l>
+          </sp>
+          <sp who="#hurtado">
+            <speaker>HURT.</speaker>
+            <l>Ovum non ovo similius, quam patri filius.</l>
+          </sp>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l>iam hoc pacto consilium meum cognoscite:</l>
+            <l>Si te obiurgat parens: quid ais omnium?</l>
+            <l>Quousque abutere licentia? quamdiu tua</l>
+            <l>Me vita eludet? nihil pudet? nihil poenitet?</l>
+            <l>Una responsio, seu idem unus nodo cuneus:</l>
+            <l>Quid feci pater? aut quid facio? quid commerui?</l>
+            <l>Te imitor patrem: nam si sim licentior,</l>
+            <l>Et tu, uti alias praedicasti mihi,</l>
+            <l>Licentior fuisti. bibisti, et ego bibo:</l>
+            <l>Iuras, iuro: rides, ego rideo. in his finem praescribis, pater,</l>
+          </sp>
+          <sp who="#dodo">
+            <speaker>DO.</speaker>
+            <l>Recta oratio: si filium obiurgat parens</l>
+            <l>Ipse idem qui crimen fecit; quid ille faceret,</l>
+            <l>Qui magnum vitae et continentiae exemplum dedit?</l>
+          </sp>
+          <sp who="#hurtado">
+            <speaker>HURT.</speaker>
+            <l part="I">Sane existimas.</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l part="F">at mihi scrupulus etiam</l>
+            <l>Restat, quid faciendum, quando pecunias durus pater denegat?</l>
+          </sp>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l>Dignus es risu cum tua religione: ipso etenim</l>
+            <l>Caligas in meridie. pecuniae desunt? quaeras industria,</l>
+            <l>Exora, blandire, et palpa ex patre.</l>
+            <l>Denique debita contrahe, quae posthumus solverit.</l>
+          </sp>
+          <sp who="#dodo">
+            <speaker>DO.</speaker>
+            <l>Omnia dixti ex animo, restat ad rem aggredi.</l>
+          </sp>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l>Ite. tu, Plimpo, huc illuc curre, et advola,</l>
+            <l>Ut praesto sis. Ecce senem, a quo pecunias velim clepere.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>CACOGENES praeter spem ex Avo aurum accipit.</p>
+          </argument>
+          <stage>PLIMPO, CACOGENES, CORAXA.</stage>
+          <sp who="#plimpo">
+            <speaker>PL.</speaker>
+            <l>Age senex, gradere. malum! pedes non valent.</l>
+            <l part="I">Eho, tussi, spue.</l>
+          </sp>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l part="F">etiam atque etiam. O animam spues.</l>
+          </sp>
+          <sp who="#coraxa">
+            <speaker>CO.</speaker>
+            <l>Nae quod aiunt verum est, Plimpo, homini seni</l>
+            <l>Miseria est vivere: et quanto vivit ille plus,</l>
+            <l>Tanto est stultior libido etiam vivere.</l>
+            <l>Nunc me denique vitae satietas habet;</l>
+            <l>Et corpore curvus in terram sepulchrum flagito.</l>
+          </sp>
+          <sp who="#plimpo">
+            <speaker>PL.</speaker>
+            <l>Optime. nam opinor senex pondus est sibi,</l>
+            <l part="I">Ac inter vivos vivit mortuus.</l>
+          </sp>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l part="F">tum, mi ave,</l>
+            <l>Si nihil seni superat pecuniae, multo est miserrimus.</l>
+          </sp>
+          <sp who="#coraxa">
+            <speaker>CO.</speaker>
+            <l>Erras exacta via viaticum quaerere.</l>
+            <l>Nunc vestrum erit officium, ut funus apparetis mihi,</l>
+            <l>Et simul quae testamento sanxi, haec curetis sedulo.</l>
+          </sp>
+          <sp who="#plimpo">
+            <speaker>PL.</speaker>
+            <l part="I">Ausculto quid velis.</l>
+          </sp>
+          <sp who="#coraxa">
+            <speaker>CO.</speaker>
+            <l part="M">sed praesta fidem.</l>
+          </sp>
+          <sp who="#plimpo">
+            <speaker>PL.</speaker>
+            <l part="F">quando enim</l>
+            <l>Fefelli? mea semper fuit apud te constans servitus.</l>
+          </sp>
+          <sp who="#coraxa">
+            <speaker>CO.</speaker>
+            <l part="I">Dic mihi hoc primum, poteris tacere?</l>
+          </sp>
+          <sp who="#plimpo">
+            <speaker>PL.</speaker>
+            <l part="F">egone? optime</l>
+          </sp>
+          <sp who="#coraxa">
+            <speaker>CO.</speaker>
+            <l part="I">Et tu, Cacogenes?</l>
+          </sp>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l part="F">quae audio, teneo in sinu.</l>
+          </sp>
+          <sp who="#coraxa">
+            <speaker>CO.</speaker>
+            <l>Exhaeredare filium Chrysogonum volo. Ille quidem</l>
+            <l>Me patrem saepius male tractavit suum,</l>
+            <l>Duriter, immisericorditerque, et cum contumelia impie.</l>
+          </sp>
+          <sp who="#plimpo">
+            <speaker>PL.</speaker>
+            <l>Aequum est, Coraxa, haereditatem non adire talem filium.</l>
+          </sp>
+          <sp who="#coraxa">
+            <speaker>CO.</speaker>
+            <l>Ego te ex asse, Cacogenes, et plane heredem facio.</l>
+          </sp>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l>Itane hanc mihi hodie gratiam faxis? non puto.</l>
+            <l>Quid? num credo dormienti haec mihi deos conficere?</l>
+          </sp>
+          <sp who="#coraxa">
+            <speaker>CO.</speaker>
+            <l part="I">Bono animo es, habebis hoc aurum</l>
+          </sp>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l part="F">obsecro,</l>
+            <l part="I">Non ludis tu nunc me?</l>
+          </sp>
+          <sp who="#coraxa">
+            <speaker>CO.</speaker>
+            <l part="M">Egone te? quamobrem?</l>
+          </sp>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l part="F">nescio.</l>
+            <l>Nisi quia tam avide hoc cupio esse aurum mihi,</l>
+            <l>Eo vereor magis. o me beatum, cui haec faustitas obtigit!</l>
+          </sp>
+          <sp who="#coraxa">
+            <speaker>CO.</speaker>
+            <l part="I">Abi domum, et superos comprecare.</l>
+          </sp>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l part="F">superi me oderint,</l>
+            <l>Ni magis te, quam oculos nunc amo meos.</l>
+            <l>Meus certe et animo et natura es avus,</l>
+            <l>Hominum qui sunt, et qui erunt lepidissimus omnium.</l>
+            <l>Tu Plimpo, brevi me revise: dicam amplius,</l>
+            <l part="I">Quid te facere velim.</l>
+          </sp>
+          <sp who="#plimpo">
+            <speaker>PL.</speaker>
+            <l part="F">nempe pro funere.</l>
+            <l>At num Catissum video? scio quid absente patre</l>
+            <l>Molitur domi cum fabris. Deus furum Mercurius</l>
+            <l part="I">Bene vertat: spectabo tantisper.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA TERTIA.</head>
+          <argument>
+            <p>CATISSUS absente patre, scrutatur arcas domi.</p>
+          </argument>
+          <stage>CATISSUS, SMILAX, ANTHRAX, PLIMPO, CATO.</stage>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l part="F">Sequimini: hodie</l>
+            <l>Solertes este, dum reperiatur aurum: tum denique</l>
+            <l part="I">Bibetis quam largissime.</l>
+          </sp>
+          <sp who="#smilax">
+            <speaker>SMI.</speaker>
+            <l part="F">nostra si conducit opera.</l>
+            <l part="I">Tui sumus, impera.</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l part="F">tu Smilax convelle seras:</l>
+            <l>Tu Anthrax aperi, scrutare arcas. ero in excubiis.</l>
+            <l>Perii! praeter spem procul advenit pater.</l>
+          </sp>
+          <sp who="#plimpo">
+            <speaker>PL.</speaker>
+            <l part="I">Res autem infelicissima.</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l part="F">quid agam? fugio.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>Nescio quid praesagit animus: ita assiduus</l>
+            <l>Monitor impellit, ut solito citius revertar domum.</l>
+            <l>Audio: aliquid absente me evenit domi.</l>
+            <l>Quid iste malleorum strepitus? plenae sunt fabris</l>
+            <l>Aedes: quis huiusmodi intro induxit hospites?</l>
+            <l>Adibo. heus sistite hic ad fores fabri:</l>
+            <l>Huc huc furciferi.</l>
+          </sp>
+          <sp who="#smilax">
+            <speaker>SMI.</speaker>
+            <l>adolescens, auri nihil invenio.</l>
+          </sp>
+          <sp who="#anthrax">
+            <speaker>ANT.</speaker>
+            <l>Aperui cistas, nihil nunc pecuniae quidem.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="I">Scelerati fures. foras, foras.</l>
+          </sp>
+          <sp who="#smilax">
+            <speaker>SMI.</speaker>
+            <l part="F">adsumus.</l>
+            <l part="I">Ubi est adolescens?</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="F">quid hic a vobis turbae.</l>
+          </sp>
+          <sp who="#anthrax">
+            <speaker>ANT.</speaker>
+            <l>Ubi est? reliquit nos homo, atque abiit.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>Non respondes mihi? ego profecto vos, sicarii,</l>
+            <l part="I">Miseris accipiam modis</l>
+          </sp>
+          <sp who="#smilax">
+            <speaker>SMI.</speaker>
+            <l part="F">quae te mala crux agit?</l>
+            <l part="I">Quid tibi nobiscum negotii?</l>
+          </sp>
+          <sp who="#anthrax">
+            <speaker>ANT.</speaker>
+            <l part="F">heu nusquam est iuvenis.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="I">Quis iuvenis?</l>
+          </sp>
+          <sp who="#smilax">
+            <speaker>SMI.</speaker>
+            <l part="M">qui nos conduxit huc.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="F">foras, foras</l>
+            <l part="I">Fures.</l>
+          </sp>
+          <sp who="#anthrax">
+            <speaker>ANT.</speaker>
+            <l part="M">vae misero mihi.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="F">Ohe! Etiam nunc foras,</l>
+            <l part="I">Etiamnunc.</l>
+          </sp>
+          <sp who="#smilax">
+            <speaker>SMI.</speaker>
+            <l part="M">quid feci?</l>
+          </sp>
+          <sp who="#anthrax">
+            <speaker>ANT.</speaker>
+            <l part="F">quid est? quid vis homo?</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>Scelesti, sic meam intrastis domum? ego si vivo hodie,</l>
+            <l>Ulciscar istius quidem authorem facinoris.</l>
+          </sp>
+          <sp who="#plimpo">
+            <speaker>PL.</speaker>
+            <l>Vae tibi, Catisse, agentur de capite comitia.</l>
+            <l>Malus exitus. meliorem iam nunc Dodoni sors dabit.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA QUARTA.</head>
+          <argument>
+            <p>DODO versute obtinet pecunias a Patre.</p>
+          </argument>
+          <stage>MELINUS, DODO, PLIMPO.</stage>
+          <sp who="#dodo">
+            <speaker>DO.</speaker>
+            <l part="I">Eheu! mi pater, doleo ventre.</l>
+          </sp>
+          <sp who="#plimpo">
+            <speaker>PL.</speaker>
+            <l part="F">ex studiis dolet</l>
+            <l part="I">Filius tuus.</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l part="F">quamquam, fili, haec laus sit admodum,</l>
+            <l>Quod frugi es patri, tamen cura valetudinem.</l>
+            <l>Nam quid vis tibi, aut quid quaeris? nunquam fere </l>
+            <l part="I">Te conspicor, quin legas aut scribas.</l>
+          </sp>
+          <sp who="#plimpo">
+            <speaker>PL.</speaker>
+            <l part="F">denique</l>
+            <l>Nullum remittit tempus, neque se respicit.</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l>Haec non voluptati esse satis certo scio.</l>
+          </sp>
+          <sp who="#dodo">
+            <speaker>DO.</speaker>
+            <l>Pater, mihi sic est usus: non labor, ubi amor.</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l part="I">At non semper arcum tendit Apollo.</l>
+          </sp>
+          <sp who="#dodo">
+            <speaker>DO.</speaker>
+            <l part="F">eheu, pater,</l>
+            <l>Quis aestimet tempus? o si annos reddat Iuppiter!</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l>Ne lacryma. mens relaxanda est tibi.</l>
+            <l>Comparabo socios, et hunc Plimponem tibi.</l>
+          </sp>
+          <sp who="#dodo">
+            <speaker>DO.</speaker>
+            <l>Obsecro, pater, sine me meo vivere modo.</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l>Ut domi vitam agas? non facies me vivo patre.</l>
+            <l>Age libros depone, per plateas ambula,</l>
+            <l>Diu, noctu, mane, vesperi, sociis utere.</l>
+          </sp>
+          <sp who="#plimpo">
+            <speaker>PL.</speaker>
+            <l part="I">Tuo auscultandum patri.</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l part="F">quin hos nummos cape.</l>
+          </sp>
+          <sp who="#dodo">
+            <speaker>DO.</speaker>
+            <l part="I">Ah! pater, me enecas.</l>
+          </sp>
+          <sp who="#plimpo">
+            <speaker>PL.</speaker>
+            <l part="F">ipse odit pecunias.</l>
+          </sp>
+          <sp who="#dodo">
+            <speaker>DO.</speaker>
+            <l>Tanquam si filio cultrum porrigas, quo se iugulet.</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l part="I">Cape, inquam, sic volo.</l>
+          </sp>
+          <sp who="#dodo">
+            <speaker>DO.</speaker>
+            <l part="F">faciam ut lubet,</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l part="I">Vis plures fili?</l>
+          </sp>
+          <sp who="#plimpo">
+            <speaker>PL.</speaker>
+            <l part="F">accipe, ut saltem aliis</l>
+            <l part="I">Coram ostentes.</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l part="F">explesti animum, quod iubeo</l>
+            <l>Cum a te impetro cum gratia. vade, refer</l>
+            <l>Cistam, cape quidvis, vive, lude, proficiscere.</l>
+          </sp>
+          <sp who="#plimpo">
+            <speaker>PL.</speaker>
+            <l>Haec est coelo gratia, quod huiusmodi habes</l>
+            <l>Filium, quam pudentem! quam sanctum! quam ingenuum!</l>
+            <l>Amabili studio, et vita, et moribus bonis.</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l>Sis eius comes. Plimpo, tibi a me merces manet.</l>
+          </sp>
+          <sp who="#plimpo">
+            <speaker>PL.</speaker>
+            <l>Ego et filius tuus, Meline, mi optime,</l>
+            <l>A pueris pariter viximus, columbi, uno sidere;</l>
+            <l>Non Saturno, sed Iove nati, et concordes eodem horoscopo.</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l>Ita pergite. quid Bartollus insequitur discipulum?</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA QUINTA.</head>
+          <argument>
+            <p>HURTADO fugit e schola.</p>
+          </argument>
+          <stage>BARTOLLUS, HURTADO, MELINUS.</stage>
+          <sp who="#bartollus">
+            <speaker>BA.</speaker>
+            <l>Fugis? o fugis sceleste? at etiam mihi restitas?</l>
+          </sp>
+          <sp who="#hurtado">
+            <speaker>HURT.</speaker>
+            <l part="I">Pedibus valeo.</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l part="F">siste, magistro morem gere.</l>
+          </sp>
+          <sp who="#bartollus">
+            <speaker>BA.</speaker>
+            <l>Tantane est, Meline, parvo malitia adolescentulo,</l>
+            <l>Tam pravi mores, ut didascalo non obediat suo:</l>
+            <l>Ut foras fugiat e ludo litterario?</l>
+          </sp>
+          <sp who="#hurtado">
+            <speaker>HURT.</speaker>
+            <l>Nimis est inclemens iste vir, et immisericors.</l>
+          </sp>
+          <sp who="#bartollus">
+            <speaker>BA.</speaker>
+            <l>Sic est adolescentis protervia, et impudens oratio?</l>
+          </sp>
+          <sp who="#hurtado">
+            <speaker>HURT.</speaker>
+            <l>Tristis severitas est in vultu, barba longior,</l>
+            <l>Cum hominem videas, tertius e coelo cecidit Cato.</l>
+          </sp>
+          <sp who="#bartollus">
+            <speaker>BA.</speaker>
+            <l>Deus! magistrum pingis? me non feres?</l>
+            <l>Ita sum affectus iracundia et aegritudine,</l>
+            <l>Propterea quod, Meline, nihil valet meus discipulus.</l>
+            <l>In popinis, et alea, et vino tempus consumit helluo.</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l>Non est meum vestras inter vos rixas componere.</l>
+            <l>Tu redi ad scholam, ego tuum alloquar patrem.</l>
+          </sp>
+          <sp who="#bartollus">
+            <speaker>BA.</speaker>
+            <l>Audi Isocratis Nicoclem:..</l>
+          </sp>
+          <sp who="#hurtado">
+            <speaker>HURT.</speaker>
+            <l>Graeca non sapio. ambae mihi aures tinniunt.</l>
+          </sp>
+          <sp who="#bartollus">
+            <speaker>BA.</speaker>
+            <l>Hae sunt asininae aures, et tu ex Arcadia,</l>
+            <l>Qui nihil usquam sapis. culpa docentis, scilicet</l>
+            <l>Arguitur, quod nihil sapit Arcadico iuveni,</l>
+            <l>Dum me occidit crambe, huic caput tinnit, et inane est.</l>
+            <l>Ergo vis M. Tullium: Quamquam conspectus voster...</l>
+          </sp>
+          <sp who="#hurtado">
+            <speaker>HURT.</speaker>
+            <l>Ego caput doleo: sile obsecro: caput doleo.</l>
+          </sp>
+          <sp who="#bartollus">
+            <speaker>BA.</speaker>
+            <l>Nihil discere vis, piger: morbus est scholasticus.</l>
+          </sp>
+          <sp who="#hurtado">
+            <speaker>HURT.</speaker>
+            <l>O! si diceres iucunda, credo ex fabulis.</l>
+          </sp>
+          <sp who="#bartollus">
+            <speaker>BA.</speaker>
+            <l part="I">Virgilius: Arma, virumque cano...</l>
+          </sp>
+          <sp who="#hurtado">
+            <speaker>HURT.</speaker>
+            <l part="F">aaa. ooo.</l>
+          </sp>
+          <sp who="#bartollus">
+            <speaker>BA.</speaker>
+            <l>Rides nequam, rides etiam me? quid tibi vis faciam?</l>
+            <l>Restat Livius: facturusne operae pretium sim...</l>
+          </sp>
+          <sp who="#hurtado">
+            <speaker>HURT.</speaker>
+            <l>Bartolle, quid multis opus est? fatebor, parens</l>
+            <l>Me commisit tibi, ut me doceas: et id facis opere maximo.</l>
+            <l>Sed scurra litteris non indiget.</l>
+            <l>Proinde vale, mei me iamdiu expectant socii.</l>
+          </sp>
+          <sp who="#bartollus">
+            <speaker>BA.</speaker>
+            <l>Itane scurram doceo? impingo in caput libros.</l>
+            <l>Procul este calami, et perditarum modo classium</l>
+            <l>Supellex, virga, regulae; haec cum toga exuo.</l>
+            <l>Mendicare certe mavelim, quam operam perdere.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="2">
+        <head>ACTUS SECUNDUS</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>Adolescentes studiosi versantur in caupona.</p>
+          </argument>
+          <stage>CACOGENES, CATISSUS, DODO, HURTADO, PLIMPO.</stage>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l>Nae sum infelix. ne semel quidem prospere </l>
+            <l>Proh Iuppiter! per te omnem perdam pecuniam?</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l>Sic est ludus aleae: quid peieras, si tibi</l>
+            <l part="I">Mala sors?</l>
+          </sp>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l part="F">rursus en pessime. dii Mercurium</l>
+            <l>Perdant, si in fortunato isti ludo praesidet.</l>
+          </sp>
+          <sp who="#plimpo">
+            <speaker>PL.</speaker>
+            <l>Cacogenes, sume haustum, et simul iacturam digere.</l>
+          </sp>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l>At profecto male stomacho coquitur faba.</l>
+          </sp>
+          <sp who="#dodo">
+            <speaker>DO.</speaker>
+            <l>Hui! fraudem fecisti: appello testes: sine</l>
+            <l part="I">Videam chartas. fraus, fraus.</l>
+          </sp>
+          <sp who="#hurtado">
+            <speaker>HURT.</speaker>
+            <l part="F">mentiris id tu.</l>
+          </sp>
+          <sp who="#dodo">
+            <speaker>DO.</speaker>
+            <l part="I">At meos tu pugnos senties.</l>
+          </sp>
+          <sp who="#hurtado">
+            <speaker>HURT.</speaker>
+            <l part="F">et tu meos, improbe.</l>
+          </sp>
+          <sp who="#plimpo">
+            <speaker>PL.</speaker>
+            <l>Dii boni! in capillos involant. occident se, nisi</l>
+            <l>Sim pius. sistite: haud pugnas convenit esse nobis hodie.</l>
+          </sp>
+          <sp who="#dodo">
+            <speaker>DO.</speaker>
+            <l part="I">Fraudulente.</l>
+          </sp>
+          <sp who="#hurtado">
+            <speaker>HURT.</speaker>
+            <l part="M">mendax.</l>
+          </sp>
+          <sp who="#plimpo">
+            <speaker>PL.</speaker>
+            <l part="F">inite pacem, cedite</l>
+            <l part="I">Dexteram, bibite de fundo.</l>
+          </sp>
+          <sp who="#dodo">
+            <speaker>DO.</speaker>
+            <l part="F">fortuna erit aequior</l>
+            <l part="I">Si dat regressum.</l>
+          </sp>
+          <sp who="#hurtado">
+            <speaker>HURT.</speaker>
+            <l part="F">Id placet. quanto pignore?</l>
+          </sp>
+          <sp who="#dodo">
+            <speaker>DO.</speaker>
+            <l part="I">Reliquum pecuniae pono.</l>
+          </sp>
+          <sp who="#hurtado">
+            <speaker>HURT.</speaker>
+            <l part="F">et ego reliquum meae.</l>
+          </sp>
+          <sp who="#dodo">
+            <speaker>DO.</speaker>
+            <l>Res periit ad restim, si hoc perdidero.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>CATO filium potantem corripit.</p>
+          </argument>
+          <stage>CATO, CATISSUS.</stage>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>Ut te deprehendi scelus! captus es: nunquam patris</l>
+            <l>Effugies iracundiam. abi malam in crucem.</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l>Quid est? quid tantopere commisi? quid irasceris?</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>At, at, ut mihi verba dat? ut excusat scelus</l>
+            <l part="I">Vicit vinum, quod bibisti.</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l part="F">num ego sobrius!</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>Quando neque pes, neque mens suum facit officium?</l>
+            <l>Ut incedit, cui tectum ambulat vertigine,</l>
+            <l>Et geminus natante oculo exurgit pater?</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l>Tantum gustavi semel cum sociis, nec merum.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>Heu mihi, quid faciam? quid clamem? quid querar?</l>
+            <l>O coelum! o terra! o Neptuni mare! filius</l>
+            <l>Potat vinum? ludit alea et chartis adolescentulus?</l>
+            <l>Non te humanitus tractabo, sed vi et via</l>
+            <l>Pervulgata patrum. tibine haec diutius</l>
+            <l>Licere speras facere? erras, erras ganeo,</l>
+            <l>Si id credis, et me severum ignoras patrem.</l>
+            <l>Nulla adeo ex re istud fit, nisi ex otio.</l>
+            <l>Non sic istuc aetatis poculis et ludo operam dedi.</l>
+            <l>Accede propius ad me, nebulo, excutiam</l>
+            <l>Si quid habes occultum in sinu. quid restitas?</l>
+            <l>Dii! quid portenti? en tuus liber? ut me discruciat</l>
+            <l>Filius! ludit iste pictis a pueritia.</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l>Audi, obsecro, mi pater, certum est purgare me.</l>
+            <l>Omnes, quibus sunt liberi, magis sunt fere </l>
+            <l>Suspiciosi, et ad malitiam accipiunt omnia.</l>
+            <l>Non continuo si pictas habeo, lusor sum: imo </l>
+            <l>E sociis eripui, ne luderent; hoc officium fuit.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="I">Non credo, mendax es.</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l part="F">an mendaci prognatus patre?</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>En ferramentum, quo te, sacrilege, furti alligas.</l>
+            <l>Tu meas arcas scrutaberis? tutae non erunt</l>
+            <l>Pecuniae? seras revelles? redde fur pecunias.</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l part="I">Quid est?</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="F">negas? ostende harpagantes manus.</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l part="I">En sunt ambae.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="M">inter tunicas.</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l part="F">iuro tibi</l>
+            <l part="I">Me nihil habere.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="F">at iuranti tibi ego</l>
+            <l>Non credo. cur istud ferri? unde est? a quo habes?</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l>Surripui clanculum a socio, domi ne faceret male.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>Omnia simulat, quid hoc adolescente facias,</l>
+            <l>Qui domi nec facit male, nec alios sinit?</l>
+            <l>Ego iam te in caveam dabo, ea lege quidem,</l>
+            <l>Ut si quis cibum triduo tibi fert, pro te macerer.</l>
+            <l>Abscede. est iste corruptor filii Cacogenes,</l>
+            <l>Tum et Dodo vicini nostri filius,</l>
+            <l>Qui mitem habet patrem, et ab hoc pecunias.</l>
+            <l>Ibo, et isti viro in os dicam de suo filio.</l>
+            <l part="I">adest.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA TERTIA.</head>
+          <argument>
+            <p>CATO indulgentem accusat MELINUM.</p>
+          </argument>
+          <stage>CATO, MELINUS.</stage>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="F">Salve te quaerebam dedita opera.</l>
+            <l>Rumor est tuum filium meo familiariter uti filio,</l>
+            <l part="I">An est verum?</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l part="F">id ego curo scilicet,</l>
+            <l>Utatur sane meus filius tuo, aut ille hoc,</l>
+            <l part="I">Quid mea vel tua interest?</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="F">et maxime: quia</l>
+            <l>Adolescentuli deteriores fiunt parentum licentia.</l>
+            <l>Tum si quem socium nacti sunt aliqua in re improbum,</l>
+            <l>Ipsum animum aegrotum eo saepe applicant.</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l part="I">Non intelligo.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="F">non? nempe ergo aperte vis me loqui?</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l part="I">Sane quidem.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="F">Nolo filium meum esse proximum tuo:</l>
+            <l part="I">Carbo carbonem.</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l part="F">de suis filiis videant viri:</l>
+            <l>Meus quomodo sit educatus scio. huic a puero</l>
+            <l>Licuit vivere, uti sociis, aliquando ludere.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>Siccine agis? filium et alios corrumpi sinis?</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l>Non est flagitium, Cato, adolescentulos ludere,</l>
+            <l>Esse liberos, currere, se oblectare: nam quid arguis,</l>
+            <l>Si haec eadem ego et tu in adolescentia fecimus!</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>O ingenium! o labes! o scopulus adolescentiae!</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l>Quid exclamas? morosiora parentum verba sunt haec.</l>
+            <l>Aliquid concedendum aetati: nec prodest rigor.</l>
+            <l>Pudore et liberalitate iuvenes liberos</l>
+            <l>Retinere satius esse credo, quam ipso metu.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>Euge, belle iuventutis consultor, ut liberius</l>
+            <l part="I">Vivendi potestas sit iuveni?</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l part="F">nam antea</l>
+            <l>Qui noscere adolescentuli ingenium potes,</l>
+            <l>An sponte et ex animo facit recte et liberaliter,</l>
+            <l>Quando malus magister officii coërcet timor?</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>Ergo sic educas filium? sic perdis adolescentulum?</l>
+            <l>Sic pecunias suggeris? sic omnem licentiam facis?</l>
+            <l>Sic te lenem, et facilem, et commodum venditas?</l>
+            <l>Estne hoc sapere? siccine est hoc esse patrem?</l>
+            <l>Quid mirum si talis talem habes filium:</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l>Frugalis est filius meus, et melior tuo.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>Dico tibi, Meline, imperito et stulto patre,</l>
+            <l>Et antiqua fide, et indulgente, nihil est iniustius.</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l part="I">Iniuriam facis.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="F">ludit, potat non sobrie,</l>
+            <l>Te fallit filius, ficta fronte, vultu callido,</l>
+            <l>Mendaci ore, nequam: quem neque pudet</l>
+            <l>Quidquam, nec metuit quemquam, nec legem putat</l>
+            <l part="I">Tenere se ullam.</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l part="F">dii pro his contumeliis</l>
+            <l>Non te audient! ita homini bilem concies.</l>
+            <l>Tu rege tuum filium, et ipse sis pater</l>
+            <l>Nimium durus, praeter aequumque et bonum,</l>
+            <l>Ego revisam filium quid agat domi, credo, in studiis.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>Vade cum tua lenitate: disces quid sit filio</l>
+            <l>Indulgere. meum esse in metu est utile:</l>
+            <l>Mihi nunc nihil rerum omnium est, quod malim,</l>
+            <l>Quam alloqui Chrysogonum. ecce commode exiit.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA QUARTA.</head>
+          <argument>
+            <p>CATO admonet CHRYSOGONUM de moribus CACOGENIS.</p>
+          </argument>
+          <stage>CATO, CHRYSOGONUS.</stage>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>Quamquam nihil inter nos commercii admodum est,</l>
+            <l>Inde adeo quod ego meis rebus, tuis tu consulis,</l>
+            <l>Nec notitiae fere sane amplius quidquam fuit:</l>
+            <l>Tamen vel humanitas, vel communis filiorum amor,</l>
+            <l>quem ego cuique maxime a natura insitum puto,</l>
+            <l>Facit, ut te commonere audeam, et familiariter,</l>
+            <l>Quod mihi videre praeter aliorum usum facere,</l>
+            <l>Et praeterquam quod nomen adhortatur patris.</l>
+            <l>Nam, pro Deum atque hominum fidem, qualis tibi filius?</l>
+            <l>Quam illiberalis? quam discinctus nepos?</l>
+            <l>Haec est fama de illo, quod neque ius, neque bonum,</l>
+            <l>Neque aequum scit: melius, peius, uno discrimine,</l>
+            <l>Prosit, obsit; nihil videt, nisi quod lubet;</l>
+            <l>Haec tibi non probata esse quivis pater intelligit.</l>
+          </sp>
+          <sp who="#chrysogonus">
+            <speaker>CH.</speaker>
+            <l>Sunt alia, quae me cruciant, Cato: etenim scurra filius</l>
+            <l>Multa discat, et dediscat oportet, ut sit probus.</l>
+            <l>Saltare, ludere, diu noctuque pergraecarier,</l>
+            <l>Et alia sinam fieri, etiam non mediocriter:</l>
+            <l>Verum abs avo pecunias clepere, frustrari patrem,</l>
+            <l>Id nunquam patiar. res est certe domi meae</l>
+            <l>Perangusta: tum me si privat auro, redigit ad famem.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>iamdiu poculis voratur haec pecunia:</l>
+            <l part="I">Non habebis assem.</l>
+          </sp>
+          <sp who="#chrysogonus">
+            <speaker>CH.</speaker>
+            <l part="F">certum est habere tamen.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>Nisi si ergastulo coërces iuvenem, et tibi subigis.</l>
+          </sp>
+          <sp who="#chrysogonus">
+            <speaker>CH.</speaker>
+            <l>Audi, Cato, hoc nostra retro habet familia,</l>
+            <l>Ut deinceps filius suo sit permolestus patri.</l>
+            <l>Meus Coraxa id a maioribus accepit, ut</l>
+            <l>Male suum tractaret patrem. ego nihilo melior,</l>
+            <l>Quod me exhaeredatum scio, affligo senem;</l>
+            <l>Et vi aurum quaero, quod hic Cacogenes libidine</l>
+            <l>Perdit quotidie, et me patrem defraudat suum.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>Hoc et istud, Chrysogone, fit quidem pessime</l>
+          </sp>
+          <sp who="#chrysogonus">
+            <speaker>CH.</speaker>
+            <l>Scitum est de parentibus: vipera viperam.</l>
+            <l>Ista est nostrae familiae haereditas pessima.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>Sed haec mittamus, quae non placent. ego te velim.</l>
+            <l>Adiutare: nam si multimodis iniurius est tibi</l>
+            <l>Filius, nec ferri potis est, sane ineunda ratio.</l>
+            <l>Item si Cacogenem iuvenibus atque aequalibus suis</l>
+            <l>Video inservire, et socium esse in malitiis,</l>
+            <l>Nos quoque patres aequum est patribus obsequi.</l>
+          </sp>
+          <sp who="#chrysogonus">
+            <speaker>CH.</speaker>
+            <l>Operam perdas. obiurgavi, verberibus duriter</l>
+            <l>Accepi; nuper nudo ense: dignum te, inquam, quovis malo</l>
+            <l>Deputo, si pergis: usque dum tu vitam illam coles</l>
+            <l>Liberam, dissolutam in popinis, ac lusibus;</l>
+            <l>Cum auro senis, interea usque mihi poenas dabis:</l>
+            <l>Vel te domo eiiciam miserum iustitia mea</l>
+            <l part="I">Aethiopem lavi.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="M">dura praedicas.</l>
+          </sp>
+          <sp who="#chrysogonus">
+            <speaker>CH.</speaker>
+            <l part="F">imo enim,</l>
+            <l>Si scias quid ille mihi responderit, tum magis id dicas.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>Propterea adeundus Praetor urbis, et queri</l>
+            <l>Oportet de helluone nepotulo, ut pecunias,</l>
+            <l>Si quas habet a sene, regerat; et nostros dein</l>
+            <l>Haud pergat corrumpere filios. veni, praeco.</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA QUINTA.</head>
+          <argument>
+            <p>MELINUS iterum blanditur filio.</p>
+          </argument>
+          <stage>MELINUS, DODO.</stage>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l>Quo abit exemplum disciplinae, et sapientiae!</l>
+            <l>Hem Cato: non vacat? tecum solus colloquar, Dodo.</l>
+            <l>Novisti Catissum? erubescis, certa culpa est.</l>
+            <l part="I">Est tibi cum illo negotium?</l>
+          </sp>
+          <sp who="#dodo">
+            <speaker>DO.</speaker>
+            <l part="F">dic sodes, pater,</l>
+            <l>Quid me haec interrogas? sic est, utor isto socio.</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l>Venit ad me Cato clamitans, Meline quid agis?</l>
+            <l>Cur perdis filium? quid ludit? quid est ebrius!</l>
+            <l>Cur ipse tu his rebus sumptus suggeris?</l>
+            <l>Vestitu nimio indulges, nimium ineptus es.</l>
+            <l part="I">Quid lacrumas?</l>
+          </sp>
+          <sp who="#dodo">
+            <speaker>DO.</speaker>
+            <l part="M">pater, obsecro, ausculta.</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l part="F">scio</l>
+            <l>Omnia: et amo te: quae agis curae sunt mihi.</l>
+          </sp>
+          <sp who="#dodo">
+            <speaker>DO.</speaker>
+            <l>Ita velim promerentem me ames, dum vivas, mi pater:</l>
+            <l>At me hoc delictum admisisse in me, id mihi</l>
+            <l>Vehementer dolet, et me pudet: tametsi non fui ebrius.</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l>Credo hercle, nam ingenium novi tuum</l>
+            <l>Liberale: sed quotusquisque iuvenum in hac maledica</l>
+            <l>Urbe famam effugit? vis dicam, fili mi Dodo?</l>
+            <l>Et Cato, et alii invident tibi, ac patri mihi.</l>
+          </sp>
+          <sp who="#dodo">
+            <speaker>DO.</speaker>
+            <l>Imo Cato ille fuit importunus semper, et nunc nihil magis</l>
+            <l>Vereor, quam ne quid in filium iratus plus satis faxit pater.</l>
+            <l>Iniqui sunt patres saepe in adolescentem iudices,</l>
+            <l>Qui aequum censent nos iam a pueris illico nasci senes,</l>
+            <l>Nec illarum affines esse rerum, quas fert adolescentia.</l>
+            <l>Ex sua libidine moderantur, nunc quae est non quae olim fuit.</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l>Rem acu tangis, Dodo. dissimili ego sum studio:</l>
+            <l>Ut nosti a parvulo, me facili uteris patre:</l>
+            <l>Do, praetermitto, non necesse habeo omnia</l>
+            <l>Pro meo iure agere: postremo alii clanculum cupiunt</l>
+            <l>Patres quae faciunt; quae aetas exigit,</l>
+            <l>Ea ne me celes, te consuefeci filium:</l>
+            <l>Nam qui mentiri, aut fallere insuerit patrem, aut</l>
+            <l>Audebit, tanto magis audebit caeteros.</l>
+          </sp>
+          <sp who="#dodo">
+            <speaker>DO.</speaker>
+            <l>Ego, mi pater, tuum sensum probe calleo:</l>
+            <l>Sic me a puero curasti, et docuisti sedulo,</l>
+            <l>Monuisti, bene praecepisti semper omnia.</l>
+            <l>Fecisti te patrem esse sentiam, et audeam</l>
+            <l>Tibi credere omnia, abs te petere,</l>
+            <l>Et poscere, ne quam aliam quaeram copiam.</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l>Te amo, inquam, Dodo mi: cape amplius</l>
+            <l>Eas pecunias, impende, eme fac quod lubet:</l>
+            <l>Si quid vis potius propter adolescentiam,</l>
+            <l>Aut magis impense cupis, et consulis magis,</l>
+            <l>Ecce qui id faciam tibi, et obsecundabo in loco.</l>
+          </sp>
+          <sp who="#dodo">
+            <speaker>DO.</speaker>
+            <l>Perbenigne. quid? hoc est patrem esse? aut hoc est filium esse?</l>
+            <l>Si frater, aut sodalis esses, qui magis morem gereres?</l>
+            <l>Tu non amandus, tu non gestandus in sinu es?</l>
+            <l>Mihi si unquam filius erit, nae me facilem habebit patrem,</l>
+            <l>Uti te experior. apage istos Catones criticos.</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l>Nunc eo ad forum: tuae sunt aedes, utere.</l>
+          </sp>
+          <sp who="#dodo">
+            <speaker>DO.</speaker>
+            <l>Abiit: commoda res est: variam supellectilem</l>
+            <l>Asportabo absente patre: dicam fures venisse huc.</l>
+            <l>Heus socii! mea est domus: surripite, etiam</l>
+            <l>Hoc pallium, et pateram auream, et haec,</l>
+            <l>Vendam, oppignerabo, bibam omnia.</l>
+            <l>Nunc claudo aedes: tu divina quis fuerit.</l>
+            <l>Hoc discant ex me filii-familias,</l>
+            <l>Si bonum habent patrem, occasio fures faciet.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="3">
+        <head>ACTUS TERTIUS.</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>CATISSUS a BARTOLLO impetrat favens testimonium.</p>
+          </argument>
+          <stage>BARTOLLUS, CATISSUS.</stage>
+          <sp who="#bartollus">
+            <speaker>BA.</speaker>
+            <l>Errat, errat iam disciplina, id certo scio.</l>
+            <l>Olim magistri non desinebat vir esse dicto obediens:</l>
+            <l>At nunc priusquam septennis est, si attingas eum manu,</l>
+            <l>Extemplo puer paedagogo tabula disrumpit caput.</l>
+            <l>Cum patrem adeas postulatum, puero sic dicit pater:</l>
+            <l>Noster esto, dum te poteris defensare iniuria.</l>
+            <l>Provocatur paedagogus, eho senex minimi pretii,</l>
+            <l>Ne attingas puerum ista causa, quando fecit strenue.</l>
+            <l>Deinde olim pedem puer non efferebat aedibus:</l>
+            <l>Ante solem exorientem nisi in palaestram venerat,</l>
+            <l>Gymnasii praefecto manum subducebat ferulae.</l>
+            <l>Tum cincticulo praecinctus in sella apud magistrum assidens</l>
+            <l>Librum legebat: vae, si unam peccasset syllabam.</l>
+            <l>At nunc ista sunt pessumdata. magis placet lenitas.</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l>Miserum me! modo dolor occipit primulum:</l>
+            <l>Nunc illud est, quod si omnes omnia sua</l>
+            <l>consilia conferant, atque huic meo malo</l>
+            <l>Salutem quaerant, auxilii nihil afferant.</l>
+          </sp>
+          <sp who="#bartollus">
+            <speaker>BA.</speaker>
+            <l>Quidnam est, quod sic Catissum video timidum!</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l>Satius est abire militiam, huc, illuc, aliquo.</l>
+          </sp>
+          <sp who="#bartollus">
+            <speaker>BA.</speaker>
+            <l part="I">Accedam. quid est? quid tristis es?</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l part="F">hei mihi!</l>
+          </sp>
+          <sp who="#bartollus">
+            <speaker>BA.</speaker>
+            <l>Quid trepidas? dic, et animum recipe.</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l part="I">Prorsus mi Bartolle.</l>
+          </sp>
+          <sp who="#bartollus">
+            <speaker>BA.</speaker>
+            <l part="F">quid istuc prorsus ergo est?</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l part="I">Miser sum.</l>
+          </sp>
+          <sp who="#bartollus">
+            <speaker>BA.</speaker>
+            <l part="M">obsecro te quid sit</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l part="F">pater.</l>
+          </sp>
+          <sp who="#bartollus">
+            <speaker>BA.</speaker>
+            <l part="I">Quid is?</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l part="F">alienus est a me, non redeo in gratiam.</l>
+          </sp>
+          <sp who="#bartollus">
+            <speaker>BA.</speaker>
+            <l part="I">Satin hoc certum?</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l part="F">enimvero, Bartolle, certissimum.</l>
+          </sp>
+          <sp who="#bartollus">
+            <speaker>BA.</speaker>
+            <l>Lachrymas mitte, ac potius quod ad hanc rem opus</l>
+            <l>Porro prospice. ego simul consilio adero.</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l>Quotidie me accusat bibere, ludere; et iniuria</l>
+            <l>Quis ferat vel hoc ex patre? mea sunt epitheta,</l>
+            <l>Gerro, iners, fraus, helluo, ganeo,</l>
+            <l>Damnosus; mores omnes in te esse istos sentio.</l>
+            <l>Ego te meum esse dici tantisper volo,</l>
+            <l>Dum quod te dignum est, facies: sed si id non facis,</l>
+            <l>Ego, quod me in te sit facere dignum, invenero.</l>
+            <l>Saepe eadem et graviter audiendo, Bartolle, sum</l>
+            <l>Victus: ego clam ipso proficiscar in militiam.</l>
+          </sp>
+          <sp who="#bartollus">
+            <speaker>BA.</speaker>
+            <l>Nulla est salus bello: hac in re capies incommodum.</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l>Imo abeam potius multo quovis gentium,</l>
+            <l>Quam me sine flagitio tractari non commode.</l>
+            <l>Alius es tu, Bartolle, et ingenio leni erga discipulos:</l>
+            <l>Et me habes obsequentem, quando recte me regis.</l>
+            <l>Itaque et tu me satis novisti discipulum, et ego</l>
+            <l>Te magistrum: hoc ubi fit, ibi vere vivitur.</l>
+          </sp>
+          <sp who="#bartollus">
+            <speaker>BA.</speaker>
+            <l>Sic est ut dicis: tamen aliquando tu soles</l>
+            <l>Esse minus obediens, cum quid impero quod non placet.</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l>Non adeo ut iste Hurtado, qui tibi est gravis.</l>
+            <l>Quapropter, mi Bartolle, velim te precatorem mihi</l>
+            <l part="I">Et aram esse adversus patrem.</l>
+          </sp>
+          <sp who="#bartollus">
+            <speaker>BA.</speaker>
+            <l part="M">quo pacto?</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l part="F">potes</l>
+            <l>Favere testimonio morum, et vitae bonae;</l>
+            <l>Non ero ingratus, si potero, largo munere:</l>
+            <l>Illud si faxis, ego hoc faxo ut laute coenes hodie.</l>
+          </sp>
+          <sp who="#bartollus">
+            <speaker>BA.</speaker>
+            <l>Coenam non recuso, quia omnia frigent domi.</l>
+            <l>Capio stylum propere, et chartam: me autem nolo</l>
+            <l>Propterea scribere, ut pater cognoscat manum.</l>
+            <l>Audi. Catoni Bartollus salutem plurimam.</l>
+            <l>Cum ingenuus, ac optimae spei iuvenis</l>
+            <l>Catissus, morum et vitae in studiis</l>
+            <l>Actae testimonium petierit: ego eius</l>
+            <l>Petitioni lubens annuo. Testor ergo hunc</l>
+            <l>Obsequentem, obedientemque esse mori atque imperiis meis,</l>
+            <l>Praestare sane rem in studiis quam sedulo:</l>
+            <l>Quare dignum esse amico et benevolenti patre.</l>
+            <l>Subsigno, Bartollus. age, fer ad patrem tuum.</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l>O magister, magister! quid ego nunc te laudem? satis</l>
+            <l>Certo scio, nunquam ita quidquam dicam magnifice,</l>
+            <l>Id virtus quin superet tua. habeo gratias:</l>
+            <l>Abs quivis homine, cum est opus, beneficium accipere gaudeo.</l>
+            <l>Verumenim vero id demum iuvat, si quem aequum est facere, is bene facit.</l>
+            <l>Heus, heus coqui, sequimini Bartollum: vivo eius opera.</l>
+            <l>Quid? pater exit? nondum affandi mollia sunt tempora.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>PANSA persuadet CATONI CATISSUM esse bonis moribus.</p>
+          </argument>
+          <stage>CATO, PANSA.</stage>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>Assidue censor animadverto mores filii,</l>
+            <l>Qui non adhuc mihi probati sunt satis.</l>
+            <l>Haec est mihi suspicio, eum abduci ad nequitiam.</l>
+            <l>Ubi illum quaeram? credo ivisse aliquo </l>
+            <l>In popinam: persuasit iste Cacogenes, sat scio.</l>
+            <l>Sed eccum Pansam ire video. hinc scibo iam ubi siet.</l>
+            <l>Atque certo hic de grege illo est: si me senserit</l>
+            <l>Eum quaeritare, nunquam dicet carnufex.</l>
+            <l part="I">Non ostendam id me velle.</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="F">agite, pueri,</l>
+            <l>Curetis omnia: ego versor circa artocreas.</l>
+            <l>Hem, Cato, haud aspexeram te, quid igitur?</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="I">Multus sermo de Cacogene.</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="F">est hercle patri</l>
+            <l>Ineptus. pullum hunc larido pungite:</l>
+            <l>Quem conduxi agnum caedite, tametsi adhuc</l>
+            <l>Ipse ossa atque pellis totus est, ita macet.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="I">Hiccine filius?</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="F">mihi quidem non placet.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>Si meus esset, exemplum omnibus</l>
+            <l part="I">Curarem ut esset.</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="F">Esculenta haec, puer,</l>
+            <l part="I">Fac saliantur pulchre.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="F">vae misero patri.</l>
+            <l>Videre iam videor diem illum, cum egens</l>
+            <l part="I">Mendicabit in urbe cum filio.</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="F">o Cato,</l>
+            <l>Istuc est sapere, non quod ante pedes modo est,</l>
+            <l>Videre; sed etiam illa, quae futura sunt,</l>
+            <l part="I">Prospicere.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="F">quid? iste penes vos est frequens!</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="I">Est in vicinia.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="M">ludit, potat?</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="F">credo, ut est</l>
+            <l part="I">Dementia.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="M">socius num est Dodo?</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="F">lenitas</l>
+            <l part="I">Patris, et facilitas.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="F">istius me viri etiam</l>
+            <l part="I">Taedet, pigetque.</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="F">nimium inter vos, Cato, (ac</l>
+            <l>Non, quia ades praesens, dico hoc) pernimium interest.</l>
+            <l>Tu, quantus quantus, nihil nisi sapientia es:</l>
+            <l>Ille futilis, somnium. sineres vero illum tu tuum</l>
+            <l part="I">Facere haec:</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="F">sinerem illum? aut non sex totis mensibus</l>
+            <l>Prius olfecissem, quam ille quidquam coeperit!</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="I">Vigilantiam tuam tu mihi narras?</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="F">sic siet</l>
+            <l part="I">Modo, ut nunc est.</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="F">ut quisque suum vult esse, ita est.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="I">Quid hic agebat hodie?</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="F">tuusne filius?</l>
+            <l>Evocarat e sociis unus per fenestram: noluit</l>
+            <l>Gustare, nisi semel, et alios detenuit ludere.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="I">Vacillabat caput.</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="F">aliquis vinum miscuerat helleboro.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="I">Satin’ scis sic esse?</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="M">quem egomet vidi.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="F">optime est.</l>
+            <l part="I">Metui ne haesisset hic.</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="F">atque irati admodum</l>
+            <l part="I">Sunt socii.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="M">quid autem?</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="F">abstulit chartas lusorias,</l>
+            <l>Et ferrum, quo aperirent arcas, et furarentur domi,</l>
+            <l>Dehortans ne argentum, ac famam male perderent suam.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="I">Salvus sit: spero est similis maiorum suum.</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="F">hui!</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="I">Pansa, praeceptorum plenus istorum ille.</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="F">phi!</l>
+            <l part="I">Domi habuit unde disceret.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="F">fit sedulo:</l>
+            <l>Nil praetermitto: consuefacio: denique</l>
+            <l>Inspicere, tanquam. in speculum, in vitas omnium</l>
+            <l>iubeo, atque ex aliis sumere exemplum sibi.</l>
+            <l part="I">Hoc facito.</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="M">recte sane.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="M">hoc fugito.</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="F">callide</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="I">Hoc laudi est.</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="M">istaec res est.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="F">hoc vitio datur.</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="I">Probissime.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="M">pono autem.</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="F">non hercle otium est</l>
+            <l>Nunc mihi auscultandi. placentas ex sententia</l>
+            <l>Nactus sum: hae mihi ut coquantur, cautio est:</l>
+            <l>Nam id vobis tam flagitium est, quam illa, Cato,</l>
+            <l>Non facere nobis, quae modo dixti: et, quod queo,</l>
+            <l>Servis ad eundem istunc praecipio modum.</l>
+            <l>Hoc salsum est, hoc adustum est, hoc lautum est parum:</l>
+            <l>Illud recte, iterum sic memento: sedulo </l>
+            <l>Moneo, quae possum pro mea sapientia:</l>
+            <l>Postremo, tanquam in speculum, in patinas, Cato,</l>
+            <l>Inspicere iubeo, et moneo quid facto opus sit.</l>
+            <l>Inepta haec esse, nos quae facimus, sentio:</l>
+            <l>Verum quid facias? ut homo est, ita morem geras.</l>
+            <l>Numquid vis? vale. ecce autem duo flagitia:</l>
+            <l part="I">Veniunt ex popina.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="F">speculabor ex insidiis.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA TERTIA.</head>
+          <argument>
+            <p>CACOGENES et DODO; fictis contra CATISSUM rixis, fallunt CATONEM.</p>
+          </argument>
+          <stage>CACOGENES, DODO, CATO.</stage>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l>Aedepol, Cacogenes, bibisti non mediocriter,</l>
+            <l>Lauteque munus administrasti tuum.</l>
+          </sp>
+          <sp who="#dodo">
+            <speaker>DO.</speaker>
+            <l>Respondi poculis: intus sum omnium rerum satur.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="I">Par disciplina urbis.</l>
+          </sp>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l part="F">aliud autem. Vah scelus! non feram.</l>
+          </sp>
+          <sp who="#dodo">
+            <speaker>DO.</speaker>
+            <l>Perge, ero adiutor, seu verberas, seu interficis.</l>
+          </sp>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l>Vix sum compos animi, ita ardeo iracundia.</l>
+          </sp>
+          <sp who="#dodo">
+            <speaker>DO.</speaker>
+            <l part="I">Ulciscere.</l>
+          </sp>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l part="M">Catoni primum ipsi.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="F">de me loquitur.</l>
+          </sp>
+          <sp who="#dodo">
+            <speaker>DO.</speaker>
+            <l part="I">Quid Catoni?</l>
+          </sp>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l part="F">extinguam animam: tum filium,</l>
+            <l>Qui fecit iniuriam, quibus lacerabo modis!</l>
+            <l>Sublimem medium arripiam, capite in terram statuam,</l>
+            <l>Ut cerebro dispergat viam: caeteros istius domus</l>
+            <l>Ruam, agam, rapiam, tundam, et prosternam humi.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="I">Saevus est.</l>
+          </sp>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l part="F">quid? an ego fex, ac corruptor iuvenum?</l>
+            <l part="I">Hoc me vocitavit nomine.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="F">recte iudicat.</l>
+          </sp>
+          <sp who="#dodo">
+            <speaker>DO.</speaker>
+            <l>Nobis praecepta dat sapientiae parvus Cato.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>Laudo filium: patrissat, sapienter loquitur.</l>
+          </sp>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l>Venit hodie insaniens ad nos: ubi salus?</l>
+            <l>Ecquae vita, aut profusio pecuniae? quid istud otii:</l>
+            <l>His abstine, Cacogenes, ista non fiunt probe.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>Non potuit melius, idem sensit quod ego.</l>
+          </sp>
+          <sp who="#dodo">
+            <speaker>DO.</speaker>
+            <l part="I">Denique ludo nos prohibuit.</l>
+          </sp>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l part="F">quem si hodie,</l>
+            <l part="I">Inquam, obvium.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="M">cave tangas.</l>
+          </sp>
+          <sp who="#dodo">
+            <speaker>DO.</speaker>
+            <l part="F">Eamus hinc</l>
+            <l>Ad eius domum: mihi sub veste pugio est.</l>
+          </sp>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l>Mihi catapulta. sic, sic Catissus interit.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>O iuvenes, iuvenes! ubi sumus: quae tempora!</l>
+            <l>Urbs videt, parentes ferunt, scholae tacent.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA QUARTA.</head>
+          <argument>
+            <p>Rursus CATO obiurgat MELINUM</p>
+          </argument>
+          <stage>MELINUS, CATO.</stage>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l>Estne hic ipsus, quem non quaero, Cato?</l>
+            <l>Nescio quid perturbatum video. credo iam ut solet,</l>
+            <l>Iurgabit. salve Cato, quid stomachosus es!</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>Rogas me, ubi tuus Dodo siet;</l>
+            <l part="I">Quid stomachosus ego sim?</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l part="F">dixin’ hoc fore?</l>
+            <l part="I">Quid fecit?</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="F">quid ille fecerit? fero alia</l>
+            <l>Flagitia ad te ingentia boni illius adolescentuli.</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l part="I">Ecce autem.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="M">nova, capitalia.</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l part="F">ohe, iam.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="I">E popina egreditur ebrius.</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l part="F">audio.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="I">Audis, et patere?</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l part="M">quidni patiar?</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="F">dic mihi,</l>
+            <l part="I">Non clamas? non insanis?</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l part="F">non: si ista mediocriter.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="I">Ipsi sica est sub toga.</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l part="F">cultellus forte, Cato,</l>
+            <l part="I">Quo calamos aptet.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="F">imo quo meum occidat filium.</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l part="I">Hoc non velim.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="F">vidi, audivi, modo, hic,</l>
+            <l>Cum socio Cacogene, qui impie peierat</l>
+            <l part="I">Armatus catapulta.</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l part="F">scilicet pueri, Cato,</l>
+            <l part="I">Ludicra fingunt certamina.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="F">sic autumas!</l>
+            <l>Sic quod futurum est, non vides? hic homo redigit</l>
+            <l part="I">Me ad insaniam.</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l part="F">advocabo, admonebo filium.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>Quid? advocabis, admonebis: an te audiet: monitor.</l>
+            <l>Quin ausculta: causa rixarum est probitas filii mei:</l>
+            <l>Hic alios prohibet ludere, furari, male vivere.</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l>Tuus filius haec agit? somnia: tu amas, Cato.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>Meline, amorem obiicis? utinam tu et filius</l>
+            <l>Meum videatis, parcum, sobrium, sapientiae</l>
+            <l>Exemplum; quem omnes uno ore praedicant.</l>
+            <l>Tuus furatur, potat, ludit alea,</l>
+            <l>Debet, rixatur; clamant omnes indignissime </l>
+            <l>Id te conscio fieri: uterque in ore estis omni populo.</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l>Tace, ne me obtundas de hac re saepius.</l>
+            <l>Hunc filium Deus dedit educandum mihi,</l>
+            <l>Is est in oculis: si quid peccat, Cato,</l>
+            <l>Mihi peccat; ludit? furatur? de meo.</l>
+            <l>Utitur sociis? datur facultas interdum a studiis.</l>
+            <l>Debet? solvam, si puerile est debitum.</l>
+            <l>Habet rixas? sedabo. est, Deo gratia,</l>
+            <l>Et unde haec fiant, et adhuc non molesta sunt.</l>
+            <l>Postremo desine, aut cedo quemvis arbitrum:</l>
+            <l>Te plura in hanc rem peccare ostendam; et filium,</l>
+            <l part="I">Quem regis, esse peiorem meo.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="F">hei mihi!</l>
+            <l>Pater esse disce ab illo, qui bene regit.</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l>Tune regis quidquam? si pergis, abiero.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="I">Abi sane, satis dixi.</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l part="F">et ego satis de eadem re audii.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="I">Nunc conveniam filium.</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA QUINTA.</head>
+          <argument>
+            <p>CATISSUS patri exhibet testimonium magistri: et pecunias emungit.</p>
+          </argument>
+          <stage>CATISSUS, CATO.</stage>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l part="F">O te optabam, mi pater.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="I">Et ego te, fili.</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l part="F">adsum, ut obsequium offeram.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>Feceris par tuis caeteris factis, patrem tuum</l>
+            <l>Si percoles per pietatem. nolo ego cum improbis</l>
+            <l>Te sociis, nate mi, neque in popina, neque in foro</l>
+            <l>Ullum sermonem exequi. novi ego hanc urbem moribus</l>
+            <l>Quibus sit. malus bonum malum esse vult,</l>
+            <l>Ut sit sui similis. turbant, miscent mores mali.</l>
+            <l>Lusor, ebriosus, furax sacrum sus deque habent.</l>
+            <l>Haec ego doleo, haec sunt quae me excruciant.</l>
+            <l>Haec dies, noctesque tibi canto, ut caveas.</l>
+            <l>Sunt qui mores laudant suorum aequalium,</l>
+            <l>Et dicunt tritum illud: Tempori aptari decet.</l>
+            <l>Tu vero his neu imbuas ingenium: meo modo,</l>
+            <l>Et moribus vivito antiquis. quae tibi praecipio,</l>
+            <l>Ea facito: nihil tu istos mores aequalium,</l>
+            <l>Et tempus morere, quibus etiam se dedecorant boni.</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l>Semper ego usque ad hanc aetatem ab ineunte pueritia,</l>
+            <l>Tuis servivi servitutem imperiis, et praeceptis, pater.</l>
+            <l>Pro ingenio ego me liberum esse ratus sum: pro imperio tuo,</l>
+            <l>Meum animum tibi servitutem servire, aequum censui.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>Qui adolescens cum animo inde a pueritia depugnat suo,</l>
+            <l>Utrum is ita ne esse mavelit, ut eum libido postulat;</l>
+            <l>An ita potius, ut parentes eum esse et cognati velint:</l>
+            <l>Si libido eum prostravit, actum est, animo servivit, non sibi.</l>
+            <l>Si ipse cupiditatem repulit, dum vivit, victorum victor est.</l>
+            <l>Tu si animum vicisti, potius quam animus te, est quod gaudeas.</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l>Istaec ego habui semper aetati tegumentum meae,</l>
+            <l>Ne penetrarem me usquam, ubi esset damni conciliabulum.</l>
+            <l>Ne noctu item obambulatum, neu suum adimerem alteri,</l>
+            <l>Neu tibi aegritudinem, pater, parerem, parsi sedulo.</l>
+            <l>Sarta tecta tua praecepta usque habui, mea modestiam.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>Quid exprobras? bene quod fecisti, tibi fecisti, non mihi.</l>
+            <l>Mihi quidem aetas acta est ferme, tua istuc refert maxime.</l>
+            <l>Is probus est, quem non poenitet quam probus sit, et frugi bonae.</l>
+            <l>Benefacta benefactis aliis pertegito, ne perpluant,</l>
+            <l>Qui ipsus se contemnit, in eo est indoles industria.</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l>Ob eam rem haec, pater, autumavi, quia res quaedam est, quam volo</l>
+            <l part="I">Ego me abs te exorare.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="F">quid id est? veniam iam dare gestio.</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l>Cognosce testimonium vitae, quod sponte magister obtulit:</l>
+            <l part="I">Tum ut illi benefacias velim.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="M">quid? is egetne?</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l part="F">eget:</l>
+            <l>Nam vestis attrita, domi supellex curta, edacitas</l>
+            <l part="I">Est homini, si hospitem habes in coena.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="F">vocabo hodie.</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l>Imo queritur se vile vinum bibere, cum tu poculo tuo</l>
+            <l>Bibis generosius; nec, cum ipsi propinas, dari tuum vitrum:</l>
+            <l>Ad haec panis ater, vel ipsi etiam quandoque sola apponuntur olera.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="I">Novi, fili, novi vivere, ne quid redargue.</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l part="F">at te monitum</l>
+            <l>Hoc velim, mi pater, tres esse menses, cum me docet absque stipendio.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>Hoc rectius. cape hos nummos, et defer ad illum, simul</l>
+            <l part="I">Ad coenam invita.</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l part="M">cedo sane.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="F">vide quot faciam</l>
+            <l part="I">Sumptus, ut sis frugi.</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l part="F">multa bona bene parta habes,</l>
+            <l>Mi pater, bene si magistro feceris, fecisse ne pigeat.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>At ne sis prodigus iuvenis, vel paternarum opum negligens:</l>
+            <l>Non adhuc inopiae periculum fecisti, et spe alis dubia</l>
+            <l part="I">Fiduciam tui.</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l part="F">extremum est, pater, quod me pudet.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="I">Dic.</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l part="F">nihil mihi librorum, quos professor quotidie praelegit.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="I">Quid?</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l part="M">tria volumina Ciceronis sunt opus.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="F">accipe</l>
+            <l part="I">Pecunias.</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l part="M">Isocrates graece.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="F">Isocratizas? cape.</l>
+            <l part="I">Liber chartaceus, author.</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l part="M">liberaliter.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="F">et te praesta filium.</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l>Optime succedunt omnia quam ex sententia!</l>
+            <l>Pulchre hanc intenta vi fallaciam patri:</l>
+            <l>Visus sum simplex, et moriger, et probus,</l>
+            <l>Ut has emungerem e Catonis bursa pecunias.</l>
+            <l>Quam multa sancte praecepit, ut caveam!</l>
+            <l>Astutus. nae ille haud scit quam surdo mihi</l>
+            <l>Nunc narret fabulam: magis me socii</l>
+            <l>Stimulant, qui apud Pansam symbola conferunt;</l>
+            <l>Nam dedere annulum: locus, hora constituta est.</l>
+            <l part="I">Hos nunc ego convoco hoc sibilo.</l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA SEXTA.</head>
+          <argument>
+            <p>PANSA hospites novis instructos pecuniis recipit.</p>
+          </argument>
+          <stage>CATISSUS, DODO, CACOGENES, PANSA, HURTADO, PLIMPO.</stage>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l part="F">Adeste, tempus est.</l>
+            <l>O socii! Pansa! novae pecuniae: quas mihi</l>
+            <l part="I">Probitas mentita confecit.</l>
+          </sp>
+          <sp who="#dodo">
+            <speaker>DO.</speaker>
+            <l part="F">et mihi has dolus.</l>
+          </sp>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l>Belle nostro genio serviet hic dies.</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l>Bibetis hilariter: mea domus his patet</l>
+            <l part="I">Laetis hospitibus.</l>
+          </sp>
+          <sp who="#hurtado">
+            <speaker>HURT.</speaker>
+            <l part="F">nisi, quod quasi ante sentio,</l>
+            <l part="I">Extrema gaudii luctus occupet.</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="F">quid tibi est</l>
+            <l part="I">Cum luctu? apage nigra cogitatio.</l>
+          </sp>
+          <sp who="#hurtado">
+            <speaker>HURT.</speaker>
+            <l part="F">sinistri aliquid</l>
+            <l part="I">Animus denuntiat.</l>
+          </sp>
+          <sp who="#plimpo">
+            <speaker>PL.</speaker>
+            <l part="F">o praesagium! si divinare licet,</l>
+            <l>iamdiu Pythius Apollo Delphis silet,</l>
+            <l part="I">Et iratus scilicet nihil edit.</l>
+          </sp>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l part="F">idem facit</l>
+            <l>Dodonaeus Iuppiter, atque Ammonis oraculum.</l>
+          </sp>
+          <sp who="#dodo">
+            <speaker>DO.</speaker>
+            <l>Servasti, Hurtado, servasti astrologus sidera:</l>
+            <l part="I">Ut aberrant?</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="M">sol pallet?</l>
+          </sp>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l part="F">luna rubet sanguine?</l>
+          </sp>
+          <sp who="#plimpo">
+            <speaker>PL.</speaker>
+            <l part="I">Comoeta est crinitus?</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l part="F">aer crassus offunditur?</l>
+          </sp>
+          <sp who="#hurtado">
+            <speaker>HURT.</speaker>
+            <l>Videbatur mihi nidus quinque hirundinum,</l>
+            <l>Quem pertica longiore deiiciebat, urbicus</l>
+            <l>Satelles: illico aviculae avolare fuga</l>
+            <l>Cum nituntur, sunt captae, et in caveam datae.</l>
+          </sp>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l>Ah, ah, ah! sic apud augures mutae sunt. aves,</l>
+            <l>Et sine cantu cibos ac potum respuunt.</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l part="I">Quid haec moramur auspicia?</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="F">mea domus, credite,</l>
+            <l>Ab his est tuta auguriis. venite: paravi obsonium.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="4">
+        <head>ACTUS QUARTUS</head>
+        <div type="scene" n="1">
+          <head> SCENA PRIMA.</head>
+          <argument>
+            <p>DODO, CATISSUS, HURTADO cum PANSA carceri mandantur.</p>
+          </argument>
+          <stage>ASTREUS, PLIMPO, CACOGENES, CATISSUS, DODO, HURTADO, PANSA.</stage>
+          <sp who="#astreus">
+            <speaker>A.</speaker>
+            <l>Accedite, hic est nidus: voces bacchantium audio.</l>
+            <l>Assequimini, prehendite, tenete, milites.</l>
+          </sp>
+          <sp who="#plimpo">
+            <speaker>PL.</speaker>
+            <l part="I">Cacogenes, Cacogenes.</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l part="F">malum! quid hoc negotii?</l>
+          </sp>
+          <sp who="#dodo">
+            <speaker>DO.</speaker>
+            <l part="I">Quid illic homines ad me currunt?</l>
+          </sp>
+          <sp who="#hurtado">
+            <speaker>HURT.</speaker>
+            <l part="F">quid vultis hic,</l>
+            <l part="I">Milites, ministri, carnifices?</l>
+          </sp>
+          <sp who="#plimpo">
+            <speaker>PL.</speaker>
+            <l part="F">fugio ad angulum.</l>
+          </sp>
+          <sp who="#astreus">
+            <speaker>A.</speaker>
+            <l part="I">Excutite, colligate, pulsate.</l>
+          </sp>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l part="F">Plimpo huc.</l>
+          </sp>
+          <sp who="#astreus">
+            <speaker>A.</speaker>
+            <l>Frustra clamitatis, culpam poena consequitur.</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l part="I">Quid feci?</l>
+          </sp>
+          <sp who="#dodo">
+            <speaker>DO.</speaker>
+            <l part="M">quid commisi?</l>
+          </sp>
+          <sp who="#hurtado">
+            <speaker>HURT.</speaker>
+            <l part="F">quid perii?</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="I">Quem ego domi clamorem audio?</l>
+          </sp>
+          <sp who="#astreus">
+            <speaker>A.</speaker>
+            <l part="F">ipse adest:</l>
+            <l>Egredere, te volo, hospes ac fautor iuvenum.</l>
+            <l>Tu domi tuae corrumpi sinis adolescentulos?</l>
+            <l>Sistite, milites, hominem, ducite in carcerem.</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="I">Quin audi, Praetor.</l>
+          </sp>
+          <sp who="#astreus">
+            <speaker>A.</speaker>
+            <l part="F">rapite cito in caveam.</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="I">Innocentem?</l>
+          </sp>
+          <sp who="#astreus">
+            <speaker>A.</speaker>
+            <l part="F">dum brevi a me fiat iudicium:</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l>Non sum reus: succurrite, cives, famuli.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>CACOGENES et PLIMPO dum liberare carcere socios tentant, simul capiuntur.</p>
+          </argument>
+          <stage>CACOGENES, PLIMPO, ASTREUS, MILITES.</stage>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l part="I">Plimpo.</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="M">tace.</l>
+          </sp>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l part="M">prodi Plimpo.</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="F">Cacogenes,</l>
+            <l part="I">Ubi tu es?</l>
+          </sp>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l part="M">affer scalas ut descendam.</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="F">hic nullus est?</l>
+            <l part="I">Tu mane istic, poenas lue.</l>
+          </sp>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l part="F">quaeso, Plimpo, adiuva.</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="I">Quam dabis mihi mercedem?</l>
+          </sp>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l part="M">quamlibet.</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="F">ubi</l>
+            <l part="I">Sunt scalae? hic retro.</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="M">misereor tui.</l>
+          </sp>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l part="F">cito,</l>
+            <l part="I">Festina.</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="F">quasi e patibulo descendis per gradus.</l>
+          </sp>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l>Agnosco beneficium. superi, quas turbas vidimus.</l>
+            <l>Quae Praetorem cum militibus agunt intemperiae,</l>
+            <l>Ut furore et iracundia comprehendant socios!</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l>Heu! miserum simul in vincula Pansam impulit.</l>
+          </sp>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l part="I">Ah Pansa, miser Pansa!</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="F">Pansa ducitur ad suspendium.</l>
+          </sp>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l>Actum est, Plimpo, ni tua praesto est solertia:</l>
+            <l>Fac, finge, inveni, effice si quid potes:</l>
+            <l>Libera carcere, clavim habes magicam.</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l>Non audeam, tot sunt excubiae carceris;</l>
+            <l>Quae si me et te senserint, procul dubio,</l>
+            <l>Cum simus ex eodem nido, perimus simul.</l>
+            <l>Recordaris somnii, de quo Hurtado ante meminit?</l>
+          </sp>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l>Male ominaris: cum sociis malo equidem</l>
+            <l>Pendere, quam turpiter in officio negare fidem.</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l>Et ego malo sine sociis tantisper vivere.</l>
+            <l>Pendeant necne socii, non curo: ego quidem</l>
+            <l>Non pendebo, nec te, si credis, pendere iubeo.</l>
+          </sp>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l>Ne time, non ita erit: excubias agam.</l>
+            <l>Monebo, si mus stramen moverit. age, claves proba,</l>
+            <l>Scrutare portas, deos deasque omnes invoca.</l>
+            <l>En commodum adiutrices scalae, muro applica.</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l>Faciam, tametsi cum periculo: sed tu advigila.</l>
+          </sp>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l>Ne metue: in fenestra si tantummodo patuit</l>
+            <l>Rima, satis est. quin cito quaeris scalas?</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l>Ibo suspenso gradu, atque in silentio. tene.</l>
+          </sp>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l>Ascende audacter et fortunate. at, at, perii!</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="I">Quid est? quo fugis?</l>
+          </sp>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l part="F">captus sum: milites!</l>
+          </sp>
+          <sp who="#astreus">
+            <speaker>A.</speaker>
+            <l part="I">Etiam tentas carcerem? te quaerimus.</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="F">non ego vos.</l>
+            <l part="I">Quaeso, sinite abire.</l>
+          </sp>
+          <sp who="#milites">
+            <speaker>MI.</speaker>
+            <l part="F">serva aurum tibi.</l>
+          </sp>
+          <sp who="#astreus">
+            <speaker>A.</speaker>
+            <l>Ad carcerem. tota turba in casses venit.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA TERTIA.</head>
+          <argument>
+            <p>CATO et MELINUS filios esse comprehensos resciunt.</p>
+          </argument>
+          <stage>CATO, MELINUS, ASTREUS.</stage>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>Iam modo apud forum audivimus nostros filios</l>
+            <l>Esse in carcere. Visimus an verum siet.</l>
+          </sp>
+          <sp who="#astreus">
+            <speaker>A.</speaker>
+            <l>Mei est officii, cives diligenter expendere,</l>
+            <l>Si quid minus fit recte in urbe hac:</l>
+            <l>Tum si adolescentia quid peccat, et est liberior,</l>
+            <l>Meum est, inquam, animadvertere, facereque iudicium.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>Bene factum. Lex est conservatrix Reipublicae.</l>
+          </sp>
+          <sp who="#astreus">
+            <speaker>A.</speaker>
+            <l>Adsunt in hac civitate (pro dolor!) hospites,</l>
+            <l>Coqui, pistores, tabernarii multo pessimi,</l>
+            <l>Qui suis in aedibus dissolutos fovent adolescentulos</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l>Mala quidem crux illis, et egestas maxima.</l>
+            <l>Nunquam erit dives caupo, qui sic agit.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>Quin fex ac pestis urbe exterminabitur.</l>
+          </sp>
+          <sp who="#astreus">
+            <speaker>A.</speaker>
+            <l>Sic est, parentes, magnum operae pretium fiet,</l>
+            <l>Si prospicimus adolescentiae, et quae huic nocent,</l>
+            <l>Tollamus iam nunc: ne in mora periculum siet.</l>
+            <l>Est et alia sociorum contagio, qui perpetuo </l>
+            <l>Adsunt condiscipulis, et hos praeceptis imbuunt;</l>
+            <l>Mentiri, furari, potare, et si quid peius edocent.</l>
+            <l>Haeccine perferemus, cives, ab istis fieri?</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>Rem tangis, Praetor. filium meum esse cum his</l>
+            <l>In culpa nihil taedet, nihil pudet, nihil miseret.</l>
+            <l>Appello iustitiam, si te, Praetor, hodie</l>
+            <l>In puniendo dissolutum et ignavum velim.</l>
+          </sp>
+          <sp who="#astreus">
+            <speaker>A.</speaker>
+            <l>Igitur quid faciendum, cives, severius:</l>
+            <l>Nam istorum adhuc non liquent corruptorum flagitia.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>Si unumquemque, Praetor, singillatim ordine produxeris,</l>
+            <l part="I">Facile erit convincere.</l>
+          </sp>
+          <sp who="#astreus">
+            <speaker>A.</speaker>
+            <l part="F">Huc Pansa, dein</l>
+            <l>Cacogenes. convincite illum, ego sedebo arbiter.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA QUARTA.</head>
+          <argument>
+            <p>Excutitur Pansa: pecuniae et furta Adolescentum liquent.</p>
+          </argument>
+          <stage>CATO, PANSA, MELINUS, ASTREUS, CACOGENES, MILES</stage>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>Hic est ille, Praetor, Pansa magister coquus,</l>
+            <l>Iuvenum corruptor, et homo nullius pretii.</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l>iactas convitia? haeccine accusandi ratio?</l>
+            <l>Caupona fortunae; non naturae vitium est.</l>
+            <l>Nihil agis: ecquid habes aliud, accusator bone!</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="I">Imo responde. novisti Catissum.</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="F">de quo modo </l>
+            <l part="I">Egi tecum, novi filium tuum.</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l part="F">et nosti meum?</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="I">Dodonem? quid tum?</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="F">uterque fuit in tuis aedibus?</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="I">Fuit. quid tum?</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="M">potavit?</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="F">quid tum? sobrie.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="I">Non profudit pecunias?</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="F">si forte assem dederis,</l>
+            <l part="I">Quid tum?</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="M">nihil oppigneravit.</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l part="F">Nulla debita</l>
+            <l part="I">Contraxit?</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="F">quae oppigneratio vel debita ab adolescentulis?</l>
+            <l>Rides, Cato: facis, Meline, iniuriam filio.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>Tu quamquam vafer occultas omnia, aperiam tamen.</l>
+            <l part="I">Num arca domi est?</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="F">ah, ah, tuis sumptibus</l>
+            <l part="I">Empta fortasse? quae interrogas?</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="F">volo tua veniam,</l>
+            <l part="I">Praetor, aperire.</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="F">tu meam arcam recludere?</l>
+            <l>Scrutari supellectilem? expilare domum? civis sum, et</l>
+            <l part="I">Liber: quem spolias?</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l part="F">tactus est istoc verbulo</l>
+            <l>Arcae. hominem pupugisti, Cato: perge, aliquid</l>
+            <l part="I">Latet.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="F">tu iube, Praetor, proferri huc coram,</l>
+            <l part="I">Sine damno.</l>
+          </sp>
+          <sp who="#astreus">
+            <speaker>A.</speaker>
+            <l part="M">fiat.</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="F">nefas. non licet.</l>
+            <l>Sistite Praetoris mali ministri, fures domestici,</l>
+            <l part="I">Civicarum expugnatores aedium.</l>
+          </sp>
+          <sp who="#astreus">
+            <speaker>A.</speaker>
+            <l part="F">frustra clamatio est.</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l>Tamen intrabitur in meas aedes? arca hinc tamen</l>
+            <l>Efferetur? et, si quid arcani est, fiet palam?</l>
+            <l>Civis sum, inquam, Praetor; ac, ni iam iam abstines,</l>
+            <l part="I">Ad Regem appello iniuriae.</l>
+          </sp>
+          <sp who="#milites">
+            <speaker>MI.</speaker>
+            <l part="F">hanc invenimus,</l>
+            <l>Reconditam in angulo: ni fallor, habet mysteria.</l>
+          </sp>
+          <sp who="#astreus">
+            <speaker>A.</speaker>
+            <l part="I">Pandite.</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="F">vos rogo, viri, non est opus.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>Cuius est hoc pallium? cuius haec patera?</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l>Certe mea est supellex, quam domi surripuit filius.</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l>Dicam, Praetor, et nihil mentiar; nam sum ingenuus:</l>
+            <l>Venit ad me Dodo, sunt fures, inquit, in vicinia</l>
+            <l>Nihil tutum domi nostrae, serva haec in aedibus,</l>
+            <l>Si me, et patrem amas. servavi, puero credidi.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>Quid hi libri? est equidem bibliotheca Bartolli:</l>
+            <l>Etiam a magistro furaces clepunt pueri.</l>
+            <l>Thecae, cultri, arma, scholarum sunt spolia.</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l>Haec aedepol bibliopolis iuvenes, aut fabris</l>
+            <l>Vendidissent assis et teruntii, quae magno constant.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="I">Postremo autem marsupium.</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="F">perii funditus!</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="I">Ecce aurum, quod dedi filio.</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l part="F">et hoc quod dedi meo.</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l>Custodivi caste et religiose, ne isti male uspiam</l>
+            <l part="I">Collocarent pecunias.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="F">custos ovium lupe!</l>
+            <l>Palam sunt omnia, liquido fraudem excutii.</l>
+          </sp>
+          <sp who="#astreus">
+            <speaker>A.</speaker>
+            <l>Turbo, faxque civium, sic domi tuae iuvenes</l>
+            <l part="I">Admisisti, fovisti, educasti?</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="F">ne mihi gravius,</l>
+            <l>Praetor, succense, hoc me purgabo satis crimine.</l>
+          </sp>
+          <sp who="#astreus">
+            <speaker>A.</speaker>
+            <l>Reducite in carcerem iam cum Cacogene: huc cruces,</l>
+            <l>Huc equulei, huc tormenta! dirissimis</l>
+            <l>Excruciabitur quaestionibus, dum veritas pateat.</l>
+          </sp>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l part="I">Astree!</l>
+          </sp>
+          <sp who="#astreus">
+            <speaker>A.</speaker>
+            <l part="F">quid exhorruisti? ego te hodie.</l>
+          </sp>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l part="I">Nihil est opus.</l>
+          </sp>
+          <sp who="#astreus">
+            <speaker>A.</speaker>
+            <l part="F">tormentis exprimatur confessio.</l>
+            <l>Festinate, dolore agendum cum improbo.</l>
+          </sp>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l>Dicam, Praetor, sine cruciatu dicam omnia.</l>
+            <l>Ego Cacogenes ingenio ad fraudes malo,</l>
+            <l>Socios iuvi, corrupi, ad scelus impuli.</l>
+          </sp>
+          <sp who="#astreus">
+            <speaker>A.</speaker>
+            <l part="I">Pansa autem caupo?</l>
+          </sp>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l part="F">uti ego, altera</l>
+            <l part="I">Labes iuvenum.</l>
+          </sp>
+          <sp who="#astreus">
+            <speaker>A.</speaker>
+            <l part="F">quid plura, cives? brevi</l>
+            <l>Cognostis omnia. restat iudicium, quod mox exerceo.</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA QUINTA.</head>
+          <argument>
+            <p>MELINUS deflet culpam.</p>
+          </argument>
+          <stage>MELINUS.</stage>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l>Serius sapiunt Phryges: serius amisso equo</l>
+            <l>Clauditur stabulum: serius medicina fit mortuo:</l>
+            <l>Serius observas filium, ubi deceptus es.</l>
+            <l>Erravi, temere feci, poenitet. hoccine, est</l>
+            <l>Humanum factum? hoccine officium filii?</l>
+            <l>Lacrymor, et fero. pro hominum fidem!</l>
+            <l>Quid est, si non haec misera afflictio est?</l>
+            <l>Postquam dedi omnia filio praeter annulum,</l>
+            <l>Postquam tractavi blande, ac pro more liberaliter,</l>
+            <l>Sensi furacem, fictum, lusorem, improbum.</l>
+            <l>Quid agam? sum eversus mea re domestica,</l>
+            <l>Ad mendicitatem venit domus, opera filii.</l>
+            <l>Nihil reliqui fecit mihi furax adolescentulus,</l>
+            <l>Oppigneravit omnia, profudit pecunias.</l>
+            <l>Heu me infelicem! sed quid lamentis utor:</l>
+            <l>Iam unum praestat eloqui, quia errorem fateor,</l>
+            <l>Et semel falsus sum: audite ex me patres-familias:</l>
+            <l>Non indulgentia, non amor, non pecunia;</l>
+            <l>Sed virga stultam denique iuventutem erudit.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="5">
+        <head>ACTUS QUINTUS.</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>IMERIUS CORTUA sapienter de regenda iuventute disserit.</p>
+          </argument>
+          <stage>IMERIUS, CATO, MELINUS.</stage>
+          <sp who="#imerius-cortua">
+            <speaker>I.</speaker>
+            <l>Audivi, cives (et me hic dolor afficit,</l>
+            <l>Sane uti vos itidem) dissolutos esse liberos;</l>
+            <l>Et iam in urbe longius malum serpere.</l>
+            <l>Non sum ad haec contagia tardus, ac parum efficax;</l>
+            <l>Sed aliqua est culpa saepe in parentibus:</l>
+            <l>Dicam enim quod sentio, haec vox semper erit</l>
+            <l>Me digna: ars artium liberos instituere,</l>
+            <l>Ut neque se veritate frangas, neque flectas indulgentia.</l>
+            <l>Sapienter regendum, quod ipsa fert adolescentia.</l>
+            <l>Pudore, et sanctae vitae exemplo, iuvenes</l>
+            <l>Retinere, satius esse credo, quam solo metu.</l>
+            <l>Vos clamitatis: o leges, o civitas, o scholae!</l>
+            <l>Siccine perditi, siccine pessimi sunt filii?</l>
+            <l>Erratis longe, mea quidem sententia,</l>
+            <l>Nimium inepti estis parentes filiis.</l>
+            <l>Mea sic est ratio, sic animum induco meum:</l>
+            <l>Parens qui nimis suo obsequitur filio,</l>
+            <l>Qui potare, qui ludere docet adolescentulum,</l>
+            <l>Qui mendacii, qui furti, qui iracundiae,</l>
+            <l>Domi, foris, quotidie luculenta exempla dat,</l>
+            <l>Is sobrium habebit filium? continentem? pium?</l>
+            <l>Non potest fieri. lupus est filius ex patre</l>
+            <l>Lupo; neque is fere uspiam mutat pilum.</l>
+            <l>Quare, qui moribus studet aequalem suis</l>
+            <l>Effingere filium, praesens absensque idem erit</l>
+            <l>Sanctus, pudicus, verax, antiquus, bonus.</l>
+            <l>Hoc germanum est, potius consuefacere filium</l>
+            <l>Patris exemplo recte facere, quam alio modo.</l>
+            <l>Hoc sapiens et inconsultus interest, hoc qui nequit,</l>
+            <l>Fateatur nescire informare liberos.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>Sapientissime dicis, haec sero discimus:</l>
+            <l>Nos adolescentuli fecimus multa, quae nunc filii,</l>
+            <l>Et adhuc quotidie coram ipsis agimus praepostere.</l>
+            <l>Deinde saepe (quid fiet?) non quivis pater,</l>
+            <l>Ut sit bonus, bonos habet filios: degener</l>
+            <l>Sanguis fluit in nepotes, et vitiosam progeniem</l>
+            <l part="I">Peior aetas tulit.</l>
+          </sp>
+          <sp who="#imerius-cortua">
+            <speaker>I.</speaker>
+            <l part="F">cautela, ut dixi, opus est,</l>
+            <l>Ne quid nimis indulgens, aut rigidus sis parens.</l>
+            <l>Malus magister officii timor, ubi solus est.</l>
+            <l>Imperium non gravius est, aut id stabilius</l>
+            <l>Vi quod fit, quam illud quod amicitia adiungitur:</l>
+            <l>Nam malo coactus qui suum officium facit,</l>
+            <l>Dum id rescitum iri credit, tantisper cavet;</l>
+            <l>Si sperat fore clam, rursus ad ingenium redit.</l>
+            <l>Quem beneficio adiungis, ille ex animo facit,</l>
+            <l>Studet par referre: semper intra modum, Cato.</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l>Atqui non semper istum servavi modum.</l>
+            <l>Nam qui sit animus patris in filium, ego didici.</l>
+            <l>Magnam habet vim, magnum possidet vinculum</l>
+            <l>Paternus sanguis. fateor, ama vi filium,</l>
+            <l>Ah quid dixi? amavi: imo indulgentia perdidi.</l>
+            <l>Amavi, inquam, dum stultus putavi esse bonum:</l>
+            <l>At nunc abiuro, abnuo, abnego: non ille me</l>
+            <l>Patrem agnovit, neque ego illum nunc filium.</l>
+          </sp>
+          <sp who="#imerius-cortua">
+            <speaker>I.</speaker>
+            <l>Etiam Meline, vehementior est affectus hic,</l>
+            <l>Quo oderis subito filium, quem amabas paulo antehac.</l>
+            <l>Tene medium, dum brevi erit decisa res.</l>
+            <l part="I">Mox revertor.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>PANSA mulctatur omnibus, quae Adolescentes expenderunt.</p>
+          </argument>
+          <stage>ASTREUS, CATO, MELINUS, PANSA, CHRYSOGONUS, BARTOLLUS.</stage>
+          <sp who="#astreus">
+            <speaker>A.</speaker>
+            <l part="F">Iam de liberis faciam iudicium.</l>
+            <l>Vos mihi cives adeste: recludite, milites, carcerem,</l>
+            <l>Et cistam Pansae: tum super hanc mensam pecunias,</l>
+            <l>Ac furta, quae domi commisere iuvenes, exponite.</l>
+            <l>Sperasti, caupo, ex his ditescere. ut falsus es.</l>
+            <l>Male parta dispereunt male, ac in te redit</l>
+            <l>Authorem omnis iactura. nunc, cives, quisque suum</l>
+            <l>Repetat quod furto ablatum: ita iudico.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="I">Aequa sententia.</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="F">tibi, Cato, non mihi.</l>
+          </sp>
+          <sp who="#astreus">
+            <speaker>A.</speaker>
+            <l>Tace Pansa. Vide quo sis loco, reus quidem:</l>
+            <l>Si adhuc loquere, publicatis bonis in exilium mittitor.</l>
+            <l part="I">Tres adsunt bursae.</l>
+          </sp>
+          <sp who="#chrysogonus">
+            <speaker>CH.</speaker>
+            <l part="F">ista est, Praetor, Cacogenis,</l>
+            <l part="I">Quam abs avo sene cepit.</l>
+          </sp>
+          <sp who="#astreus">
+            <speaker>A.</speaker>
+            <l part="F">salvae sunt pecuniae.</l>
+          </sp>
+          <sp who="#chrysogonus">
+            <speaker>CH.</speaker>
+            <l>Habeo gratiam. nunc equidem mihi satis est,</l>
+            <l>Si aurum recepi: de filio cognosce, ut voles:</l>
+            <l>pendeat, ad triremes eat, mea nihil interest.</l>
+            <l>Istum exclusi animo filium, et paternis aedibus,</l>
+            <l part="I">Valete.</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l part="F">secunda est, quam implevi largius,</l>
+            <l>Cum mea et filii iniuria. o pudor! o dolor!</l>
+            <l>Meum est hoc pallium, et haec supellex aurea.</l>
+          </sp>
+          <sp who="#astreus">
+            <speaker>A.</speaker>
+            <l part="I">Recipe. at tu, Cato?</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="F">agnosco tertiam,</l>
+            <l>Et aurum quo sum emunctus; tametsi ingenio</l>
+            <l>Satis astutus esse credidi, ac severitate perspicax.</l>
+            <l part="I">Pudet culpam fateri.</l>
+          </sp>
+          <sp who="#astreus">
+            <speaker>A.</speaker>
+            <l part="F">aufer quaecumque sunt tua.</l>
+          </sp>
+          <sp who="#bartollus">
+            <speaker>BA.</speaker>
+            <l>Restant mei libri, quos iam venales fero</l>
+            <l>Per urbem primo ementi, bono pretio.</l>
+            <l>Si quas ex his conflavero pecunias paucas, emam</l>
+            <l>Ensem, ut posthac non artium, sed militiae magister fiam.</l>
+            <l>Apage pulvis classium, et perdifficilis labor:</l>
+            <l>Munus docendi iuvenes dissolutos abdico,</l>
+            <l>Nec sum idoneus: nimium est nasi et malitiae iuvenibus:</l>
+            <l>Qui si male educantur domi, nunquam tu reges.</l>
+          </sp>
+          <sp who="#astreus">
+            <speaker>A.</speaker>
+            <l>Nunc audi, Pansa: mitius paulo agitur</l>
+            <l>Tecum, quam culpa meretur. sed si in posterum</l>
+            <l>Affine quid audes huic sceleri, ut domi tuae</l>
+            <l>Iugules adolescentulos, eris documento improbis</l>
+            <l>Cauponibus, hoc est, caedi te virgis per compita</l>
+            <l>Urbis imperabo: mox exilio purgabis patriam.</l>
+          </sp>
+          <sp who="#pansa">
+            <speaker>PA.</speaker>
+            <l part="I">Intelligo.</l>
+          </sp>
+          <sp who="#astreus">
+            <speaker>A.</speaker>
+            <l part="M">et cave.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA TERTIA.</head>
+          <argument>
+            <p>CACOGENES et PLIMPO damnantur ad mechanicam artem.</p>
+          </argument>
+          <stage>ASTREUS, BROLLIUS,CACOGENES,PLIMPO.</stage>
+          <sp who="#astreus">
+            <speaker>A.</speaker>
+            <l part="F">Ad vos venio, nepotuli.</l>
+            <l>Quid profuit tempus in scholis terere,</l>
+            <l>Et cum musis habere commercium, qui Bacchum colitis?</l>
+            <l>Recedite de ludo litterario, nihil istic amplius</l>
+            <l>Vobis loci: etenim ut membra corpore</l>
+            <l>Resecantur, quae sunt putrida, vel sensu carent,</l>
+            <l>Ne caeteris noceant; sic vos iamdiu</l>
+            <l>Amputasse oportuit, ne corrumperetis socios.</l>
+            <l>Scilicet otiosis pondus leve est calamus,</l>
+            <l>Et disciplina scholae ludibrio ac ioco petulantibus;</l>
+            <l>Dum parentes sudant liberis, aut etiam gemunt.</l>
+            <l>Iam vobis parce ac duriter agenda vita est,</l>
+            <l>Et quaeritandus victus assiduo labore manuum.</l>
+            <l>Est hic in vicinia sutor magister Brollius,</l>
+            <l>Advocetur. Vos sub illo ponetis tyrocinium,</l>
+            <l>Adlidentes in sella, versantes circa corium.</l>
+          </sp>
+          <sp who="#brollius">
+            <speaker>BR.</speaker>
+            <l>Praesto sum, Astree, manda si quid curatum velis.</l>
+          </sp>
+          <sp who="#astreus">
+            <speaker>A.</speaker>
+            <l>En duo discipuli, quos in officina tua</l>
+            <l>Belle instituas velim, imprimis castiges otium,</l>
+            <l>Quod in studiis amarunt. ecce trado in manus.</l>
+          </sp>
+          <sp who="#brollius">
+            <speaker>BR.</speaker>
+            <l>Sat mentem aperuisti. venite, probate scuticam.</l>
+          </sp>
+          <sp who="#plimpo">
+            <speaker>PL.</speaker>
+            <l part="I">Ai, ai!</l>
+          </sp>
+          <sp who="#cacogenes">
+            <speaker>CAC.</speaker>
+            <l part="F">verberibus nos enecabit hic.</l>
+          </sp>
+          <sp who="#plimpo">
+            <speaker>PL.</speaker>
+            <l>Ah! socii, fuimus socii. haec abiere tempora.</l>
+          </sp>
+          <sp who="#brollius">
+            <speaker>BR.</speaker>
+            <l>Sequimini intro. Praetor, si quid amplius, iube.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA QUARTA</head>
+          <argument>
+            <p>CATISSUS, DODO, HURTADO petunt delicti veniam.</p>
+          </argument>
+          <stage>ASTREUS, CATO, MELINUS, CATISSUS, DODO, HURTADO.</stage>
+          <sp who="#astreus">
+            <speaker>A.</speaker>
+            <l>Restant filii, de quibus vos ipsi parentes decernite:</l>
+            <l>Ego de Hurtado, cuius pater absens rure habitat.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>Quae nos infelix dies cogit ad haec iudicia,</l>
+            <l>Ut de corruptis filiis cives ingenui,</l>
+            <l>Post furta et carcerem, feramus sententiam?</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l>Me horum nihil pudet: nos iudices filii intelligant.</l>
+            <l part="I">Te, te Dodo.</l>
+          </sp>
+          <sp who="#astreus">
+            <speaker>A.</speaker>
+            <l part="M">quid cum?</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l part="F">egone? illum adeo </l>
+            <l>Discruciatum volo, ut semper meminerit mei,</l>
+            <l>Qui sibi me pro ridiculo ac stulto patre habuit.</l>
+            <l>Heu! quam simplex fui. merito mihi nunc ego succenseo.</l>
+            <l>Quot res dedere, ubi possem persentiscere,</l>
+            <l>Ni essem lapis? quae tuli? vae misero mihi.</l>
+          </sp>
+          <sp who="#dodo">
+            <speaker>DO.</speaker>
+            <l>Itane tandem quaeso est, mi pater,</l>
+            <l>Ut tam in brevi spatio omnem de me eieceris</l>
+            <l part="I">Animum patris?</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l part="F">tace blanda syren, Ulyssem habes.</l>
+            <l>Imo patrem habuisti, non iam tuae praesidium stultitiae.</l>
+          </sp>
+          <sp who="#dodo">
+            <speaker>DO.</speaker>
+            <l part="I">Hei mihi!</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l part="F">pater, obsecro ignoscas mihi.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>Egone ignoscam? ego iustitia mea non consulam posteris?</l>
+            <l>Nihil inultum iam, et si vivo, feres.</l>
+          </sp>
+          <sp who="#astreus">
+            <speaker>A.</speaker>
+            <l>Ego adversus te, Hurtado, patris iracundiam gero.</l>
+          </sp>
+          <sp who="#hurtado">
+            <speaker>HURT.</speaker>
+            <l>Peccavimus, Praetor, stulte egimus, poenitet,</l>
+            <l part="I">Delicti veniam petimus.</l>
+          </sp>
+          <sp who="#astreus">
+            <speaker>A.</speaker>
+            <l part="F">nulla tibi ara est.</l>
+          </sp>
+          <sp who="#dodo">
+            <speaker>DO.</speaker>
+            <l part="I">Emori cupio.</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l part="F">prius quaeso disce quid sit vivere;</l>
+            <l>Ubi scies, si displicebit vita, tum istoc utitor.</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l>Si unquam ullum fuit tempus, pater, cum ego voluptati tibi</l>
+            <l>Fuerim, dictus filius tuus tua voluntate, obsecro</l>
+            <l>Eius ut memineris, atque inopis nunc te miserescat mei.</l>
+            <l>Quod peto, et volo, ut pater, non iudex sis mihi.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>An tibi sim pater, quando tu minime filius?</l>
+            <l>Obsequare, et serva quod labore pater invenerit,</l>
+            <l>Non mihi per fallacias et furta fraudi sies.</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l>Enimvero, pater, nimis graviter crucias filium,</l>
+            <l>Nimisque inhumane, quando me pudet, et meliora spondeo.</l>
+            <l>Iterum accido supplex ad genua: quid vis amplius:</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>Tantum non misericordiam capio; ita sentio animum</l>
+            <l>Immutarier. falles iterum: hae sunt crocodili lacrymae.</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l>Durus es pater, cum haec existimas: fac periculum,</l>
+            <l>Quaeso age, ne tam obfirma te, mi pater.</l>
+            <l part="I">Si me vivum vis, ignosce.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="F">commovisti: hominem</l>
+            <l part="I">Me esse sentio.</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l part="F">lapsus es ad indulgentiam, Cato?</l>
+            <l>Tu parcis? tu iracundiam cohibes? tu respicis filium?</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>Non est novum sapienti mutare in melius consilium.</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l>Tene istuc meditari? nonne id flagitium est,</l>
+            <l>Te aliis severius consilium dare,</l>
+            <l>Tibi non sapere, nec filio posse te auxiliarier!</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l part="I">Quid faciam?</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l part="F">id, quod me fecisse aiebas parum,</l>
+            <l>Fac ut sis iudex delinquenti filio.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>Ubi hunc poenitet, cessat patris iracundia.</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l>Scilicet ubi impunitas est erit peior? cave,</l>
+            <l>Si es remissus, ne plus reo conficias mali.</l>
+            <l part="I">Non tibi ego exempli satis sum.</l>
+          </sp>
+          <sp who="#dodo">
+            <speaker>DO.</speaker>
+            <l part="F">tu pater,</l>
+            <l>Qui tam miti eras ingenio, unde nunc subito </l>
+            <l>Asperior es Catone, qui veniam denegas?</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l>Nescis ex miti vino acre acetum fieri!</l>
+            <l>Aiunt, patientia gravius laesa sit furor.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>Qui te modo tam difficilem ostendis, ignosces tamen</l>
+            <l part="I">Post, et id intempestivum.</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l part="F">non auctore te, Cato,</l>
+            <l>Ignoscam: verum ea lege hoc adeo faciam,</l>
+            <l part="I">Si Imerius id aequum censet.</l>
+          </sp>
+          <sp who="#astreus">
+            <speaker>A.</speaker>
+            <l part="F">optime.</l>
+            <l>Iam redit in scenam: stabimus omnes eius sententia.</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA QUINTA.</head>
+          <argument>
+            <p>IMERIUS CORTUA parentibus liberos conciliat: designat Professores idoneos Gymnasii,
+              quod fundat.</p>
+          </argument>
+          <stage>ASTREUS, IMERIUS, MELINUS, CATO, DODO, CATISSUS, HURTADO.</stage>
+          <sp who="#astreus">
+            <speaker>A.</speaker>
+            <l>Opportune advenis, Imeri, super hac controversia,</l>
+            <l>Utrum remittere adolescentulis expedit, qui petunt</l>
+            <l part="I">Veniam.</l>
+          </sp>
+          <sp who="#imerius-cortua">
+            <speaker>I.</speaker>
+            <l part="M">quid de Pansa transactum?</l>
+          </sp>
+          <sp who="#astreus">
+            <speaker>A.</speaker>
+            <l part="F">pecuniis</l>
+            <l>Mulctatus est: Cacogenes et Plimpo addicti mechanicis.</l>
+          </sp>
+          <sp who="#imerius-cortua">
+            <speaker>I.</speaker>
+            <l>Probo. iam est quidem sublata peccandi occasio,</l>
+            <l>Cessat iam corruptela adolescentiae. si resipuerint</l>
+            <l>Vestri filii, parcite si vultis, per me licet:</l>
+            <l>Verum hoc unum a me ante sitis moniti,</l>
+            <l>Non tam genus delicti, quod remittitur, quam modum</l>
+            <l>Ut quaeratis: nam si ita affectus est iuvenis,</l>
+            <l>Ut sponte culpam detestetur suam, quoniam quidem</l>
+            <l>Non proderit poena, liber sit; sin est proclivior</l>
+            <l>In lapsum, uti in vomitum canis, iuvat supplicium.</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l>Plane, Imeri, ut tu paulo ante sententiam</l>
+            <l>De culpa adolescentum dixti, ita nunc sapientius</l>
+            <l>De horum poena multo, quam nos, qui vel sumus rudes,</l>
+            <l>Vel vehemens aliquis affectus agit praecipites.</l>
+          </sp>
+          <sp who="#imerius-cortua">
+            <speaker>I.</speaker>
+            <l>Prodite adolescentuli: insaniistis opinor semel,</l>
+            <l part="I">Et vos taedet.</l>
+          </sp>
+          <sp who="#astreus">
+            <speaker>A.</speaker>
+            <l part="M">enimvero.</l>
+          </sp>
+          <sp who="#imerius-cortua">
+            <speaker>I.</speaker>
+            <l part="F">mores deserere</l>
+            <l part="I">Estis parati?</l>
+          </sp>
+          <sp who="#astreus">
+            <speaker>A.</speaker>
+            <l part="M">sumus.</l>
+          </sp>
+          <sp who="#imerius-cortua">
+            <speaker>I.</speaker>
+            <l part="F">vestris obsequi parentibus?</l>
+          </sp>
+          <sp who="#astreus">
+            <speaker>A.</speaker>
+            <l part="I">Faciemus.</l>
+          </sp>
+          <sp who="#imerius-cortua">
+            <speaker>I.</speaker>
+            <l part="M">veniam petere?</l>
+          </sp>
+          <sp who="#astreus">
+            <speaker>A.</speaker>
+            <l part="F">supplices cum lacrymis.</l>
+          </sp>
+          <sp who="#imerius-cortua">
+            <speaker>I.</speaker>
+            <l part="I">Sinite vos exorari, cives.</l>
+          </sp>
+          <sp who="#cato #melinus">
+            <speaker>P.</speaker>
+            <l part="F">ut lubet, sinimus.</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l part="I">Ergo redeo in gratiam?</l>
+          </sp>
+          <sp who="#dodo">
+            <speaker>DO.</speaker>
+            <l part="M">mi pater.</l>
+          </sp>
+          <sp who="#hurtado">
+            <speaker>HURT.</speaker>
+            <l part="F">felix dies.</l>
+          </sp>
+          <sp who="#dodo">
+            <speaker>DO.</speaker>
+            <l part="I">Imeri, habemus gratias.</l>
+          </sp>
+          <sp who="#hurtado">
+            <speaker>HURT.</speaker>
+            <l part="F">mihi eris, Praetor, patris loco.</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l>Si non peccassem, dein forte fecissem minus:</l>
+            <l>Felix est culpa, mi pater, quae prodest magis.</l>
+          </sp>
+          <sp who="#imerius-cortua">
+            <speaker>I.</speaker>
+            <l>Reliquum est, idque maximum, qui vobis posthac erunt</l>
+            <l>Magistri; etenim ab his pendet vestra informatio,</l>
+            <l>iuvenes: haec me cura diu sollicitum habuit.</l>
+            <l>Quaesivi, accersii, delegi, qui vestris idonee,</l>
+            <l>Parentes, filiis praeessent: moderatores sane aequi,</l>
+            <l>Pii, graves, docti, sine vitae crimine.</l>
+          </sp>
+          <sp who="#cato">
+            <speaker>CATO.</speaker>
+            <l>Palmare facinus fecisti, Imeri, et utile Reipublicae.</l>
+          </sp>
+          <sp who="#melinus">
+            <speaker>ME.</speaker>
+            <l>iam intelligo quorsum tu moliris Gymnasium.</l>
+            <l>Gratulor tibi, mihi, et vobis adolescentuli,</l>
+            <l part="I">Si vestram sortem nostis.</l>
+          </sp>
+          <sp who="#dodo">
+            <speaker>DO.</speaker>
+            <l part="F">sunt illi opinor nigri,</l>
+            <l part="I">Patres, quos heri vidimus.</l>
+          </sp>
+          <sp who="#catissus">
+            <speaker>CATI.</speaker>
+            <l part="M">hei mihi quam severi.</l>
+          </sp>
+          <sp who="#hurtado">
+            <speaker>HURT.</speaker>
+            <l part="F">cornua</l>
+            <l part="I">Gerunt quatuor in capite.</l>
+          </sp>
+          <sp who="#dodo">
+            <speaker>DO.</speaker>
+            <l part="F">vitia habent in digitis</l>
+            <l part="I">Distincta quinque capitalia.</l>
+          </sp>
+          <sp who="#imerius-cortua">
+            <speaker>I.</speaker>
+            <l part="F">nihil ista terrent bonos:</l>
+            <l>Hi praeceptores forte, dum incipias, sunt graves,</l>
+            <l>Dumque ignores: ubi cognoris, faciles. eia,</l>
+            <l>Venite ad gymnasium, pulsate, ite intro: vos interim</l>
+            <l>Parentes plaudite, id post saeculum facient posteri.</l>
+          </sp>
+          <closer>FINIS.</closer>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
