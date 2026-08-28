@@ -1,0 +1,3835 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI type="dracor" xml:id="neolat000064" xml:lang="la" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Acolastus</title>
+            <title type="sub">De filio prodigo comoedia</title>
+            <author>
+               <persName xml:lang="la">
+                  <forename>Gulielmus</forename>
+                  <surname>Gnapheus</surname>
+               </persName>
+               <idno type="wikidata">Q777548</idno>
+               <idno type="pnd">119861240</idno>
+            </author>
+            <editor ref="https://orcid.org/0000-0002-5768-9932">Jan Bloemendal</editor>
+            <respStmt>
+               <resp>Converted to TEI by</resp>
+               <persName ref="https://orcid.org/0000-0002-5768-9932">Jan Bloemendal</persName>
+               <persName ref="https://orcid.org/0000-0001-8979-8706"> Julia Jennifer
+                  Beine</persName>
+            </respStmt>
+            <funder/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Huygens Institute</authority>
+            <publisher xml:id="dracor">DraCor</publisher>
+            <idno type="URL">https://dracor.org</idno>
+            <availability>
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0
+                  1.0</licence>
+               <p>Copyright of the digital source (c)
+                  https://www.dbnl.org/tekst/gnap001pmin01_01/gnap001pmin01_01_0005.php</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <name>TransLatin</name>
+               <idno type="URL"
+                  >https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Gnapheus-Acolastus.docx</idno>
+               <availability status="free">
+                  <p>In the public domain.</p>
+               </availability>
+            </bibl>
+            <bibl type="originalSource"><author>Gnapheus, Guilielmus</author>:
+                  <title>Acolastus</title>. <title type="sub">Latijnse tekst met Nederlandse
+                  vertaling</title>. Ed. by <editor>P. Minderaa</editor>.
+                  <pubPlace>Zwolle</pubPlace>: <publisher>Tjeenk Willink</publisher>
+               <date>1956</date>.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="acolastus" sex="MALE" role="filius">
+                  <persName>Acolastvs</persName>
+                  <persName type="variant">Aco.</persName>
+                  <persName type="variant">Acol.</persName>
+                  <persName type="variant">Acola.</persName>
+                  <persName type="variant">Acolas.</persName>
+                  <persName type="variant">Acolast.</persName>
+               </person>
+               <person xml:id="bromia" sex="FEMALE" role="ancilla">
+                  <persName>Bromia</persName>
+                  <persName type="variant">Bro.</persName>
+               </person>
+               <person xml:id="chremes" sex="MALE" role="rusticus">
+                  <persName>Chremes</persName>
+                  <persName type="variant">Chre.</persName>
+               </person>
+               <person xml:id="epilogus" sex="UNKNOWN" role="epilogus">
+                  <persName>Epilogvs</persName>
+               </person>
+               <person xml:id="eubulus" sex="MALE" role="amicus">
+                  <persName>Evbvlvs</persName>
+                  <persName type="variant">Ev.</persName>
+                  <persName type="variant">Evb.</persName>
+                  <persName type="variant">Evbv.</persName>
+                  <persName type="variant">Evbvl.</persName>
+                  <persName type="variant">Evbvlv.</persName>
+               </person>
+               <person xml:id="lais" sex="FEMALE" role="meretrix">
+                  <persName>Lais</persName>
+                  <persName type="variant">La.</persName>
+               </person>
+               <person xml:id="pamphagus" sex="MALE" role="parasitus">
+                  <persName>Pamphagvs</persName>
+                  <persName type="variant">Pampha</persName>
+                  <persName type="variant">Pam.</persName>
+                  <persName type="variant">Pamp.</persName>
+                  <persName type="variant">Pamph.</persName>
+                  <persName type="variant">Pamphag.</persName>
+               </person>
+               <person xml:id="pantolabus" sex="MALE">
+                  <persName>Pantolabvs</persName>
+                  <persName type="variant">Pantola.</persName>
+                  <persName type="variant">Pan.</persName>
+                  <persName type="variant">Pant.</persName>
+                  <persName type="variant">Panto.</persName>
+                  <persName type="variant">Pantol.</persName>
+               </person>
+               <person xml:id="pelargus" sex="MALE" role="pater">
+                  <persName>Pelargvs</persName>
+                  <persName type="variant">Pe.</persName>
+                  <persName type="variant">Pel.</persName>
+                  <persName type="variant">Pelar.</persName>
+                  <persName type="variant">Pelarg.</persName>
+               </person>
+               <person xml:id="philautus" sex="MALE" role="amicus">
+                  <persName>Philavtvs</persName>
+                  <persName type="variant">Phil.</persName>
+                  <persName type="variant">Phi.</persName>
+                  <persName type="variant">Ph.</persName>
+               </person>
+               <person xml:id="prologus" sex="UNKNOWN" role="prologus">
+                  <persName>Prologvs</persName>
+               </person>
+               <person xml:id="sannio" sex="MALE" role="leno">
+                  <persName>Sannio</persName>
+                  <persName type="variant">San.</persName>
+                  <persName type="variant">Sa.</persName>
+               </person>
+               <person xml:id="syra" sex="FEMALE" role="ancilla">
+                  <persName>Syra</persName>
+               </person>
+               <person xml:id="syrus" sex="MALE" role="servus">
+                  <persName>Syrvs</persName>
+                  <persName type="variant">Sy.</persName>
+                  <persName type="variant">Syr.</persName>
+                  <persName type="variant">Syrv.</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <textClass>
+            <keywords>
+               <term type="genreTitle">comedy</term>
+            </keywords>
+            <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+         </textClass>
+         <creation>
+            <region>
+               <ref target="https://www.wikidata.org/wiki/Q476033">Low Countries</ref>
+            </region>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <standOff>
+      <listEvent>
+         <event type="print" when="1529">
+            <desc>first print</desc>
+         </event>
+      </listEvent>
+   </standOff>
+   <text>
+      <front>
+         <titlePage>
+            <docTitle>
+               <titlePart type="main">ACOLASTVS. </titlePart>
+               <titlePart type="sub">DE FILIO PRODIGO COMOEDIA ACOLASTI titulo
+                  inscripta,</titlePart>
+            </docTitle>
+            <byline>authore Gulielmo Gnapheo, Gymnasiarcha Hagiensi.</byline>
+            <docImprint>
+               <publisher>GODFRIDVS DVmaeus</publisher>
+               <pubPlace>Antuerpiae</pubPlace> excudebat, <date when="1529">Anno. M.D.XXIX. Mense
+                  Iulio</date>. </docImprint>
+            <imprimatur>CVM GRATIA ET Priuilegio Imperiali ad triennium.</imprimatur>
+         </titlePage>
+         <p>ACOLASTVS. DE FILIO PRODIGO COMOEDIA ACOLASTI titulo inscripta</p>
+         <div type="dedication">
+            <opener>
+               <salute>GVLIELMVS GNAPHEVS HAGIENSIS IOANNI SARTORIO AMSTELODAMO S.D.</salute>
+            </opener>
+            <p>Quum sint, mi Sartori, hoc nostro tam docto seculo uiri egregie docti, qui omne
+               disciplinarum genus tractent, uersent et excolant, demiror Poesim Comicam sic iacere
+               neglectam, sic porro intactam relinqui, tanquam res sit inimitabilis et cui opera
+               parum utiliter collocetur, Quod ni ita habere uideretur, non tam uelut coniurate
+               bonarum rerum scriptores inde temperarent manus. Laudata est Comoedia Tullio ut
+               humanae uitae speculum, celebrata est doctorum uirorum calculis, sed indigne, si ipsa
+               indigna sit, quam multi conentur uel imitari uel ad uiuum experimere. Habet haec
+               aetas nostra suos Tullios et Liuios, habet suos Vergilios et Demosthenes, ut Solones,
+               Hippocrates et Chrysostomos taceam, Menandros et Therentios nullos habet. An eo fit,
+               quia sublimior eius rei habeatur tractatio, et non nisi summis ingenijs digna? Errat
+               mea quidem sententia, qui ita censeat. Nam ut Comoediarum argumenta e media hominum
+               uita petuntur, ita et tractari facile possunt ob stili mediocritatem dicam an
+               facilitatem, potissimum ab ijs, qui hominum ingenia, mores et uitam sic habent
+               meditata, ut ea pro decoro queant exprimere. Porro autem ut hanc ego glaciem audax
+               perfringerem, tentaui, quid nostra, qualiscumque tandem ea sit, Thalia daret.
+               Argumentum delegi ex sacris, quod in Comoediae formam cogi posse iudicarem,
+               praeterquam quod hic res subinde in nimis Tragicas exeat exclamationes idque praeter
+               Comicas illas leges, quas nobis tradidit Flaccus. Quod quidem crimen leuius esse
+               duxi, quam a sensu et rei dignitate recedere. Malui enim pietatis respectui quam
+               litteraturae decoro alicubi seruire. Iam rem ipsam sic prosequuti sumus, sic stilum
+               temperauimus, ut nihil habeant Sycophantae quod calumnientur, habeant autem
+               litteratores pij, quod affatim doceant, et moneant bene. Multos noui ad hinc
+               Palaestram instructioribus animis esse, quos cupiam ad id genus studia accingere. Quo
+               in loco et te et Gulielmum meum Niueldium habeo, ut alios praeteream mihi non perinde
+               notos. Quare sub tuam, mi Sartori, ferulam hic noster Acolastus, sic enim illi nomen
+               fecimus, uenit; uenit, ut pro meritis suis tractetur. Hoc enim onere dudum leuari
+               opto, liberum tibi facio, ut eu quibus uisum est, modis exerceas. Tam mihi non sum
+               Meuius, tam mihi non ignosco, ut deformes catulos pro formosis tibi cupiam ostentare.
+               Audiui quendam Reynerum Snoy Medicum in eodem uersatum argumento, fortasse etiam
+               multo felicius. Id si ita est, pergratum mihi fuit, si uir ille suum poema in lucem
+               emittat, atque ipse ridicula quaedam Reyneri simia appaream, tantum abest, ut
+               cuiusquam gloriam nedum Reyneri aut uelim aut possim obscurare. Multo autem maximam
+               gratiam initurus es uel tu uel meus Niueldius, si modo hunc decoctorem Acolastum ad
+               ueram frugem correxeris, prius quam sub aliorum oculos propinetur deridendus.
+               Consilium mihi erat amplius in his tirocinijs praeludere ad ueram Comoediographiam,
+               nisi malitiosa quorundam inuidia ea mihi studia inuidisset, qui Calumnia armati sua
+               ludo et ocio litterario me pepulerunt, exturbarunt, et nescio in quae odia rapuerunt.
+               Vt non desunt praeclaris ubique rebus suae pestes et bonis uiris sui Sathanae. Quod
+               ad metri rationem attinet, illud pro licentia Comica ut uarium ita et liberum fecimus
+               propterea quod Comicam phrasim conueniat ad familiarem et solutam orationern quam
+               proxime accedere. Sapphicum carmen praeter morem iniecimus eo in loco, ubi res ita
+               poscere uideretur. Quod si iuuet Comoediam hanc publice spectandam exhibere, haud
+               male instructam in hoc fabulam es habiturus. Quippe docebit pariter et delectabit,
+               nisi me fallit mea Phylautia, maxime postquam tu eam reddideris tuo dolatorio
+               leuigatiorem. Quam operam rudi et crasso operi non es negaturus, spero.</p>
+            <closer>
+               <salute>Vale.</salute>
+               <signed>Tuus Gnapheus.</signed>
+            </closer>
+         </div>
+         <castList>
+            <head>ACTORVM NOMINA.</head>
+            <castItem>
+               <role>PELARGVS.</role>
+               <roleDesc>Pater.</roleDesc>
+            </castItem>
+            <castItem>
+               <role>EVBVLVS.</role>
+               <roleDesc>is patri est a consilijs.</roleDesc>
+            </castItem>
+            <castItem>
+               <role>ACOLASTVS.</role>
+               <roleDesc>filius prodigus.</roleDesc>
+            </castItem>
+            <castItem>
+               <role>PHILAVTVS.</role>
+               <roleDesc>Hic filio est a consilijs.</roleDesc>
+            </castItem>
+            <castItem>
+               <role>PAMPHAGVS.</role>
+               <roleDesc>Parasitus.</roleDesc>
+            </castItem>
+            <castItem>
+               <role>PANTOLABVS.</role>
+               <roleDesc>Scurra.</roleDesc>
+            </castItem>
+            <castItem>
+               <role>SANNIO.</role>
+               <roleDesc>Leno.</roleDesc>
+            </castItem>
+            <castItem>
+               <role>SYRVS.</role>
+               <roleDesc>Lenonis seruus.</roleDesc>
+            </castItem>
+            <castItem>
+               <role>BROMIA.</role>
+               <roleDesc>Lenonis ancilla.</roleDesc>
+            </castItem>
+            <castItem>
+               <role>LAIS.</role>
+               <roleDesc>Meretrix.</roleDesc>
+            </castItem>
+            <castItem>
+               <role>SYRA.</role>
+               <roleDesc>Laidis pedisequa.</roleDesc>
+            </castItem>
+            <castItem>
+               <role>CHREMES.</role>
+               <roleDesc>Rusticus.</roleDesc>
+            </castItem>
+         </castList>
+      </front>
+      <body>
+         <div type="prologue">
+            <stage>PROLOGVS CONSTANS SENARIIS.</stage>
+            <sp who="#prologus">
+               <l>Vos nulla captet, obsecro, admiratio,</l>
+               <l>Quod heic uidetis, optimi uiri, nouos</l>
+               <l>In apparatu Scoenico titulos, nouam</l>
+               <l>Qui nos daturos esse fabulam arguant.</l>
+               <l n="(5)">Haud me latet, quanto odio uocabulum</l>
+               <l>Noui laboret. Vaerum enimuero heic nouis</l>
+               <l>De dogmatis ne <foreign>µὺ</foreign>quidem, Paradoxa nos</l>
+               <l>Nullo loco dignabimur. Notum onmibus</l>
+               <l>Est argumentum, quod palam tractabitur,</l>
+               <l n="(10)">Sed Comicis strictum metris. Ne nescias,</l>
+               <l>Euangelion nota parabola prodigi</l>
+               <l>Vitam recenset filij. Illam scilicet</l>
+               <l>Nunc exprimemus ludicra actiuncula,</l>
+               <l>Cuius sub inuolucro habes mysterion.</l>
+               <l n="(15)">Sed audio inter uos susurria nescio</l>
+               <l>Quae de noua impudentia et cornicibus.</l>
+               <l>Sane impudens non sim, quod artem Musicam</l>
+               <l>Tractare iudicauerim omnibus quidem</l>
+               <l>Licere, cuius palma uel Therentio</l>
+               <l n="(20)">Teste in medio sit posita. Laudi non potest</l>
+               <l>Non esse, quod rudes tyrunculi uelint</l>
+               <l>Virtutis edere specimen uel per iocum,</l>
+               <l>Vt saerio ausint hostibus concurrere.</l>
+               <l>Tum nolo quisquam nos putet cornicibus</l>
+               <l n="(25)">Configere oculos, quod domi nostrae recens</l>
+               <l>Nata actione gratiam nobis bonam</l>
+               <l>Venemur a uobis, probatis fabulis</l>
+               <l>Plauti, atque item Therentij, uelut simul</l>
+               <l>De ponte deiectis. Nihil nos, Zoile,</l>
+               <l n="(30)">Vel dente uel liuore tuo commoueris.</l>
+               <l>Etenim Therentio atque etiam Plauto suas</l>
+               <l>Laudes ut optimis poetis stare qui</l>
+               <l>Nolit, meretur is quidem probra omnium.</l>
+               <l>At nos poemate hoc etiamnum a follibus</l>
+               <l n="(35)">Calente nemini suam ademptum gloriam</l>
+               <l>Venimus ipsi inglorij, tantum id studet</l>
+               <l>Grex Hystricus, uobis leuare nauseam,</l>
+               <l>Quam plurimam accepistis ex ijs fabulis,</l>
+               <l>Quas uel panis frusto exciti quidam exhibent</l>
+               <l n="(40)">Fraequentius quam doctius, palmarium</l>
+               <l>Sibi pollicentes inde, quod bonas male</l>
+               <l>Semel atque iterum recoxerint Comoedias,</l>
+               <l>Quibus suam scabiem affricant illi haud minus</l>
+               <l>In explicando quam exhibendo. Ringitur</l>
+               <l n="(45)">Ibi nescio quis. Heus tu, quid ardent lumina?</l>
+               <l>Ecquid caput motas quasi iratum admodum?</l>
+               <l>Vah, an hulcus est tactum tibi? Credo, quia</l>
+               <l>Malum uidete interminari. Sed tibi, en</l>
+               <l>Vnguem hunc medium. Placere enim tantum bonis</l>
+               <l n="(50)">Studemus, ij nonquam uicio uortent, sui</l>
+               <l>Quod senserint studio fieri, si non satis</l>
+               <l>Foeliciter per omnia, sedulo tamen.</l>
+               <l>Quod restat, o spectator optime, ne graue</l>
+               <l>Tibi sit silentio fauere litteris,</l>
+               <l n="(55)">Dum intenditur grex noster actiunculae,</l>
+               <l>Quam suscipit, tibi ut operam suam probet.</l>
+               <l>Quod si placebit interim, nil amplius</l>
+               <l>Memineris atque debitum plausum dare.</l>
+               <l>In prologo haec satis. Periocha sic habet:</l>
+            </sp>
+         </div>
+         <div type="argument">
+            <head>ARGVMENTVM COMOEDIAE</head>
+            <p n="(60)">Duos cum haberet filios pater, abdicat</p>
+            <p>Iuniorem. Is a patre accepta substantia</p>
+            <p>Statim peregre profectus perditissimis</p>
+            <p>Sese applicat nebulonibus, mox alea,</p>
+            <p>Lasciuia, luxu foede rem prodigit.</p>
+            <p n="(75)">Exhinc eo calamitatis incidit,</p>
+            <p>Vt rebus exutus, siliquis et glandibus</p>
+            <p>Famem eximeret, sui quom pertaesum inaediae</p>
+            <p>Esset, paternam regreditur supplex domum.</p>
+            <p>Pater reducem sibi gratulatur filium,</p>
+            <p n="(80)">Amplectitur, sub haec epulatum prouocat.</p>
+         </div>
+         <div type="act" n="1">
+            <div type="scene" n="1">
+               <head>Actus primus. Scoena prima.</head>
+               <stage>Pelargvs. Evbvlvs.</stage>
+               <stage>Senarij omnes.</stage>
+               <sp who="#pelargus">
+                  <l>Nunc demum sentio, quanta sit foelicitas</l>
+                  <l>Et quanta quies, habuisse liberos patri</l>
+                  <l>Per omnia obsequenteis. Ego quoad pro meo</l>
+                  <l>Animo moderarer filium annis paruulum</l>
+                  <l n="(85)">Praeterea tam bene conditum, ut nihil amplius</l>
+                  <l>In eo desiderare posses, tum quidem</l>
+                  <l>Viuebam uelut utramque in aurem dormiens,</l>
+                  <l>Immo mihi plaudebam, qui gnatum haberem praeditum</l>
+                  <l>Tali ingevio et modestia, unde gaudium</l>
+                  <l n="(90)">Possem mihi polliceri perpetuum et bene</l>
+                  <l>Stabile. At nunc, postquam detecta hypocrisi malus</l>
+                  <l>Aperte coepit esse adeoque id institit,</l>
+                  <l>Manu ut mea emittatur, uah, quae cogito?</l>
+                  <l>Quibus nunc sollicitor rebus? ne ille hinc sibi</l>
+                  <l n="(95)">Primam fenestram ad nequitiam patefoecerit</l>
+                  <l>Neuae seruus peccati euaserit ex libero,</l>
+                  <l>Patris imperium lene dum malesanus abijcit,</l>
+                  <l>Id quod de ipso speraueram nonquam fore.</l>
+                  <l>Hoc illud est, quod uolgo consueuit frequens</l>
+                  <l n="(100)">Dici, penuriam multo melius feras</l>
+                  <l>Quam saturitatem. Nam illa multos continet</l>
+                  <l>In officio, haec uero ad proteruiam meum</l>
+                  <l>Perpellit filium, quandoquidem malit</l>
+                  <l>Errare quolibet ex sua libidine</l>
+                  <l n="(105)">Paterno quam sinu fouerier amplius.</l>
+                  <l><foreign>Ναὶ</foreign> ille haud scit, quam praesens sibi accersat malum.</l>
+                  <l>Sed quid? Sinam uero a me abire filium,</l>
+                  <l>Quem destinaueram heredem regno meo?</l>
+                  <l>Id Eubulus forsan meus non suaserit,</l>
+                  <l n="(110)">Quo consule semper usus sum foeliciter.</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Ev.</speaker>
+                  <l>Non possum (quod meum ingenium est) quin sedulo</l>
+                  <l>Agam, laborem, in officio sim pro meo</l>
+                  <l>Pelargo, cui ceu Theseus quispiam Herculi</l>
+                  <l>Coniunctus sum, idque ob morum similitudinem,</l>
+                  <l n="(115)">Quae ut inter nos est fere consentanea,</l>
+                  <l>Ita mutuum amorem conciliet oportet, hinc</l>
+                  <l>Adeo nullum elabi diem patior, meum</l>
+                  <l>Quin illi deferam officium. Illuc scilicet</l>
+                  <l part="I">Mihi iter est.</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pel.</speaker>
+                  <l part="F">Cuius heic uocem audire uideor?</l>
+                  <l n="(120)">Num Eubuli? Is est ipsus, per tempus aduenit.</l>
+                  <l>Videon te, Eubule mi, meo animo maxime</l>
+                  <l part="I">Nunc expectate?</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Evb.</speaker>
+                  <l part="F">Eho, quid tam quaeso tristis es?</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pel.</speaker>
+                  <l>Haud simplex est malum, quod me sollicitum habet.</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Evb.</speaker>
+                  <l part="I">Quidnam est?</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pel.</speaker>
+                  <l part="M">Eubule mi, nihil.</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Ev.</speaker>
+                  <l part="F">Quin dic, quid est?</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pel.</speaker>
+                  <l n="(125)" part="I">De filio num nam audisti?</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Ev.</speaker>
+                  <l n="(125)" part="F">Quid is studet?</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pel.</speaker>
+                  <l>Alienum sese facere a patria domo.</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Evb.</speaker>
+                  <l part="I">Tuusne filius?</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pel.</speaker>
+                  <l part="M">Meus.</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Ev.</speaker>
+                  <l part="F">Quid audio?</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pel.</speaker>
+                  <l>Minor ille natu hanc mihi mouet tragoediam.</l>
+                  <l part="I">Qui utinam ex me natus non esset.</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Ev.</speaker>
+                  <l part="F">Bona uerba. Sed</l>
+                  <l n="(130)">Vnde istuc, quaeso, huic uenit in mentem, nisi</l>
+                  <l>Indignis ille abs te sit tractatus modis?</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pel.</speaker>
+                  <l part="I">Immo, ne nimis dignis, uereor, Eubule.</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Ev.</speaker>
+                  <l part="F">Qui?</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pe.</speaker>
+                  <l>Dicam. Istunc ex me natum eduxi a paruulo,</l>
+                  <l>Habui, amaui ut meum, in eo me oblecto, illius</l>
+                  <l n="(135)">Salutem curo, nil praetermitto, ut queam</l>
+                  <l>Prodesse. Studium omne meum illius commodo</l>
+                  <l>Consecro. Denique uelut in sinu meo</l>
+                  <l>Eum foueo unice charum, nunquam ut meam</l>
+                  <l>Benignitatem senserit in se claudier.</l>
+                  <l n="(140)">Optare quicquid ausus est, habuit, meis</l>
+                  <l>Bonis uoluit frui, uoluit recto pede</l>
+                  <l>Incedere, liberum illi factum est, quolibet</l>
+                  <l>Mentem suam inclinare, quolibet manum</l>
+                  <l>Extendere, tantum ne rebellaret mihi</l>
+                  <l n="(145)">Dedi mandatum, huic pareret iussi. Vbi</l>
+                  <l>His studijs illum mihi firmissime puto et</l>
+                  <l>Perpetuo deuinctum fore, euenit, bonae</l>
+                  <l>Conditionis toedium ut acciperet. Hinc uiam</l>
+                  <l>Occoepit comminisci, qua se emancipet</l>
+                  <l n="(150)">Paterno iure. Philautus eam glaciem secat.</l>
+                  <l>Meditatis rationibus, illinc proficiscitur</l>
+                  <l>Recta ad me. Heus tu, pater, inquit aetas quae mea</l>
+                  <l>Sit, ipse uides. Satis sub imperio tuo</l>
+                  <l>Egi, ualet mihi iudicium, ualet ingeni</l>
+                  <l n="(155)">Vigor, meas uires uolo experirier.</l>
+                  <l>Tam grandem detineri me patris iugo?</l>
+                  <l>Inscitia est, aequales qui sunt mei ordinis,</l>
+                  <l>Ad unum omnes gaudent dudum repudium</l>
+                  <l>Dedisse patribus, quorum iniustitia grauis</l>
+                  <l n="(160)">Est filijs. Per me satis sapio, nihil</l>
+                  <l>Custodis egeo. Proinde uolo, daebitae</l>
+                  <l>Substantiae mihi scribatur portio,</l>
+                  <l>Nisi nullis legibus teneri te putas.</l>
+                  <l>Haec illius erat luctuosa oratio.</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Ev.</speaker>
+                  <l n="(165)" part="I">Satis superbe omnia. Quid tu ibi?</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pe.</speaker>
+                  <l n="(165)" part="F">Primum uelut</l>
+                  <l>Attonitus haesi, post mihi redditus Adeon,</l>
+                  <l>Inquam, uel inhumanus tibi uel durus fui,</l>
+                  <l>Vt te mea iniustitia eiciat? Ocij,</l>
+                  <l>Credo, tibi obrepsit saturitas, hinc tui</l>
+                  <l n="(170)">Te poenitet, hinc praesentis te sortis piget.</l>
+                  <l>Nunc uis conscribi a me substantiam tibi,</l>
+                  <l>Nunc uertere solum uis. Vide ne quam tibi</l>
+                  <l>Istuc sedet cordi, tam multum incommodet.</l>
+                  <l>Solent enim subita consilia ducere</l>
+                  <l n="(175)">Secum comitem praesentem poenitentiam.</l>
+                  <l>Non desunt exempla, quibus, quod ago, comprobem,</l>
+                  <l>Nisi, si patrem non audias, frustra audias</l>
+                  <l>Exempla. Porro quis tam confidens fuit,</l>
+                  <l>Qui te corrumpere sit aggressus? Aut male</l>
+                  <l n="(180)">Odoror aut Philautus consultor fuit.</l>
+                  <l>Is frigidam suffudit, strennuus quidem</l>
+                  <l>Ille et cordatus monitor, bene si quid monet,</l>
+                  <l>Qui te ad scopulos e tranquillo inferat. Nocens</l>
+                  <l>Profecto pestis <foreign>τῆς φιλαυτίας</foreign> malum,</l>
+                  <l n="(185)">Quod, quo magis fuco quodam suo tegit</l>
+                  <l>Venenum, hoc est nocentius. Quam blandulus</l>
+                  <l>Siren Philautus a fronte, at post senseris</l>
+                  <l>Dulcis ueneni aculeum. Longe hinc fuge,</l>
+                  <l>Mi fili, si modo tua tibi cordi est salus.</l>
+                  <l n="(190)" part="I">Sic dixi.</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Evb.</speaker>
+                  <l n="(190)" part="F">Quid num his ille quietus redditur?</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pel.</speaker>
+                  <l>Nihil minus. Immo coepit hinc magis</l>
+                  <l>Atque magis ius suum urgere et leges bonas</l>
+                  <l>Inclamare, quibus contendunt ephebiam</l>
+                  <l part="I">Transmissos solui iure patrio.</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Ev.</speaker>
+                  <l part="F">Sed quibus</l>
+                  <l n="(195)" part="I">Tandem uerbis conuenit inter vos?</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pel.</speaker>
+                  <l n="(195)" part="F">Nihil</l>
+                  <l>Conuenit. Hoc tantum respondi, me amplius</l>
+                  <l>Super his deliberare uelle. Nunc mihi</l>
+                  <l>Quid consulis faciundum esse, Eubule optime?</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Ev.</speaker>
+                  <l>Dicam. Principio quando obstinate fugam</l>
+                  <l n="(200)">Parat, memineris hoc uere dictum a Sophois:</l>
+                  <l>Inuitum si retineas, exire incitas.</l>
+                  <l>Sine eum modo suo animo obsequi, ut sibi notior</l>
+                  <l>Paulo post redditus, uideat, proteruia</l>
+                  <l>sua quo reciderit malorum. Dehinc tuas</l>
+                  <l n="(205)">Sub alas si recurrerit atque supplicem</l>
+                  <l>In gratiam tum admiseris, certe hinc magis</l>
+                  <l>Tibi filium alligaueris, ac dudum fuit.</l>
+                  <l>Sic sentiet, quanto sit praesidio pater</l>
+                  <l>Ei, qui uel tandem resipiscat perditus,</l>
+                  <l n="(210)">Vt taceam, quod bonitas tua hinc euaserit</l>
+                  <l>Longe commendatissima, si sese exerat</l>
+                  <l>In immerentes et facilem et piam et bonam.</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pel.</speaker>
+                  <l>Quid? Censen igitur numerandam pecuniam,</l>
+                  <l part="I">Qua ablegetur?</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Ev.</speaker>
+                  <l part="M">Scilicet.</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pe.</speaker>
+                  <l part="M">Os durum.</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Ev.</speaker>
+                  <l part="F">Postulat</l>
+                  <l n="(215)">Istuc res ipsa, ratio iuraque publica.</l>
+                  <l part="I">Faciundum est.</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pel.</speaker>
+                  <l part="F">Quid? Non mihi ius est lasciuiam</l>
+                  <l part="I">Illius, obsecro, retundere?</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Ev.</speaker>
+                  <l part="F">Non habes</l>
+                  <l>Necesse pro imperio tuo omnia agere. Quin</l>
+                  <l part="I">Sine, abeat.</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pel.</speaker>
+                  <l part="F">Quando ita uis, faciam. Magis tibi</l>
+                  <l n="(220)" part="I">Credam quam animo meo.</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Ev.</speaker>
+                  <l n="(220)" part="F">Sed heus, ne saeuius</l>
+                  <l>Gnatum tractes, tantum obiurgato amantius</l>
+                  <l>Pariterque moneas, quid cauere oporteat</l>
+                  <l part="I">Periculi.</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pel.</speaker>
+                  <l part="F">Meminero. Modo ad aerarium</l>
+                  <l>Illum expectabo, dum redeat. Quid tu interim?</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Evb.</speaker>
+                  <l n="(225)" part="I">Domum eo.</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pe.</speaker>
+                  <l n="(225)" part="M">Quid quod te oro?</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Evb.</speaker>
+                  <l n="(225)" part="M">Quid?</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pe.</speaker>
+                  <l n="(225)" part="F">Vt ne sit mihi</l>
+                  <l part="I">Te consultore diu carendum.</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Ev.</speaker>
+                  <l part="F">Vah, quasi</l>
+                  <l part="I">Vnquam diu carueris.</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pel.</speaker>
+                  <l part="F">Dij boni, ut sapit</l>
+                  <l>Eubulus, ut prudenter consulit, ut uidet omnia?</l>
+                  <l>Ianum bifrontem hunc uaere dixeris,</l>
+                  <l n="(230)">Tam in occipitio quoque oculos multos habet.</l>
+                  <l>Huius consilium ut ex animo meo parum</l>
+                  <l>Sit, fecisse tamen non pigebit forsitan.</l>
+                  <l>Nunc ut diei gnato dictae tempus est,</l>
+                  <l>Rationes omneis concinnabo ad calculos.</l>
+               </sp>
+            </div>
+            <div type="scene" n="2">
+               <head>Actus primi. Scoena secunda.</head>
+               <stage>Acolastvs. Philavtvs.</stage>
+               <stage>Trochaici catalectici.</stage>
+               <sp who="#acolastus">
+                  <l n="(235)" part="I">Me nisi animus fallit, omnia succoedent bene.</l>
+               </sp>
+               <sp who="#philautus">
+                  <speaker>Ph.</speaker>
+                  <l n="(235)" part="F">Sed patris</l>
+                  <l part="I">Vim et facundiam uereor ut fortiter feras.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Ac.</speaker>
+                  <l part="F">Egon?</l>
+                  <l part="I">Obfirmato animo meam rem agam.</l>
+               </sp>
+               <sp who="#philautus">
+                  <speaker>Phi.</speaker>
+                  <l part="F">Tantum caue, suis</l>
+                  <l part="I">Ne te soeuis dictis protelet.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l part="F">Protelet? Omnia</l>
+                  <l>Mea mihi meditata sunt. Nihil formidem congredi</l>
+                  <l n="(240)" part="I">Vel cum tribus oratoribus.</l>
+               </sp>
+               <sp who="#philautus">
+                  <speaker>Phi.</speaker>
+                  <l n="(240)" part="F">At iam credo, satis diu</l>
+                  <l>Rem tuam deliberasse patrem. Quid respondeat,</l>
+                  <l part="I">Vise.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l part="M">Aggrediar.</l>
+               </sp>
+               <sp who="#philautus">
+                  <speaker>Phi.</speaker>
+                  <l part="F">Hem, macte animo. I sane, quo tua te uocat</l>
+                  <l>Virtus. I pede fausto. Miror, si res ex sententia</l>
+                  <l>Huic cesserit. Aut fallor aut repelletur, ne causam agat,</l>
+                  <l n="(245)">Tam meas rationes omnes hic Pelargus abicit.</l>
+                  <l part="I">Quare cum illo fatali pugno odio.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Ac.</speaker>
+                  <l part="F">Philaute mi, heus,</l>
+                  <l part="I">Heus, Philaute?</l>
+               </sp>
+               <sp who="#philautus">
+                  <speaker>Phil.</speaker>
+                  <l part="M">Quis me?</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Acol.</speaker>
+                  <l part="F">Cor mihi salire iam incipit.</l>
+               </sp>
+               <sp who="#philautus">
+                  <speaker>Phi.</speaker>
+                  <l part="I">Hem, quidum, Acolaste?</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l part="F">Quia pater aerario assidet suum</l>
+                  <l>Censum supputans, ut opinor. Quippe auribus meis</l>
+               </sp>
+               <sp who="#philautus">
+                  <speaker>Phi.</speaker>
+                  <l n="(250)" part="I">Hausi tinnitum ad fores placide assistens nostras. </l>
+                  <l n="(250)" part="F">Bene</l>
+                  <l>Est. Tu intro irrumpe ad senem, expectabo te domi meae.</l>
+               </sp>
+            </div>
+            <div type="scene" n="3">
+               <head>Actus primi. Scoena tertia.</head>
+               <stage>Trimetri.</stage>
+               <stage>Acolastvs. Pelargvs.</stage>
+               <sp who="#acolastus">
+                  <l>Nunc quod futurum est, colligo. Nunquam dabit</l>
+                  <l>Pecuniam pater, nisi moneat prius,</l>
+                  <l>Vt ne profundam, perdam, confringam male</l>
+                  <l n="(255)">Rem omnem, idque aget uaero uoltu, tam mihi timet.</l>
+                  <l>Sed nescit, quam surdo narrabit fabulam.</l>
+                  <l>Ego faciam tamen, ut pulchre respondeam</l>
+                  <l>Illius uerbis alia quam cogitem loquens,</l>
+                  <l>Meus dum dinumeret mihi argentum senex.</l>
+                  <l n="(260)">Sic illudendi sunt patres isti, nimis</l>
+                  <l>Rigidi in nos iudices. Sic imperium cadit,</l>
+                  <l>Quod ui magis quam beneuolentia asserunt.</l>
+                  <l>Vt sim omnibus gratus pro frugi nomine,</l>
+                  <l>Mihi quod pater inditum uoluit, ex re meus</l>
+                  <l n="(265)">Philautus aliud subdidit concinnius,</l>
+                  <l>Acolastus siquidem et esse et dici gaudeo.</l>
+                  <l>Satis adhuc cessatum est. Adire eum uolo.</l>
+                  <l>Adsum, pater, ut, quid uel tandem respondeas,</l>
+                  <l>Audiam. Itane rationes studiose conficis</l>
+                  <l n="(270)">Omnes, ut portionem conscribas mihi?</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pel.</speaker>
+                  <l part="I">Nempe ut hariolare, fili.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Ac.</speaker>
+                  <l part="F">Amo te plurimum</l>
+                  <l>Et non neglexisse habeo imprimis gratiam.</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pel.</speaker>
+                  <l part="I">Quod o cum salute tua fiat.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l part="F">Fiet, pater</l>
+                  <l>Ne quid time. Sed obsecro, quantum dabis?</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pel.</speaker>
+                  <l n="(275)">Adeon tibi in pecunia est animus, nihil</l>
+                  <l>Vt imperes isti tuae libidini?</l>
+                  <l>Fili, id adeo edico tibi: nisi quieueris,</l>
+                  <l part="I">Reducam calculum.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l part="F">Recte pater. Obsecro,</l>
+                  <l part="I">Perge.</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pel.</speaker>
+                  <l part="F">Vt pergam? Ne me obturbaris pessime,</l>
+                  <l n="(280)">Concede istorsum aliquantisper, dum te uocem.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Ac.</speaker>
+                  <l>Faciam. Hem, quid aegi? Nunc male metuo miser,</l>
+                  <l>Ne non aes omne reddat, uel quod auidior</l>
+                  <l>Est ad rem uel quod est commotus. Ineptias</l>
+                  <l>Hominis, nescis tractare aegrotum animum patris,</l>
+                  <l n="(285)">Quem debebas meminisse tam irritabilem.</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pel.</speaker>
+                  <l>Ehodum ad me, fili. Nunc utrum uis sub meo</l>
+                  <l>Praesidio degere an peregrinari foris?</l>
+                  <l part="I">Fac cordate respondeas.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l part="F">Pater, foras</l>
+                  <l part="I">Me animus uocat.</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pe.</speaker>
+                  <l part="F">Prauus sane. Quid si sinas</l>
+                  <l n="(290)">Te exorari, ut maneas domi meis bonis</l>
+                  <l>Fruiturus perpetuo? Certe patrem foris</l>
+                  <l part="I">Tu nusquam inuenias gentium.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l part="F">Credo, pater,</l>
+                  <l>Sed proficiscendum est, decretum stat, me feras.</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pel.</speaker>
+                  <l>Non possum tam blande, mi fili, discere,</l>
+                  <l n="(295)" part="I">Vt animum mutes?</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l n="(295)" part="F">Operam omnem ludis, pater.</l>
+                  <l>Potius tentabo, quid possim uel legibus,</l>
+                  <l>Vt istuc cum tua dicam pace interim,</l>
+                  <l>Si, quod rogo, non impetrem cum gratia.</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pel.</speaker>
+                  <l>Quando obstinate operam uideo te dare, meum</l>
+                  <l n="(300)">Vt tibi iugum excutias, alioqui amabile,</l>
+                  <l>Age, non libet tecum pugnare, sed habe</l>
+                  <l>Hanc zonam tibi. Decem talentum rem tenet.</l>
+                  <l>Ea est substantiae tuae aequa portio.</l>
+                  <l>Quid gestis, gnate mi? Ah nescis, quid gaudeas.</l>
+                  <l n="(305)">Crede hoc mihi, si quid unquam monui bene:</l>
+                  <l>Acerbius flebis, quod temere niteris.</l>
+                  <l>Ego soeculum hoc noui, quibus sit moribus,</l>
+                  <l>Tum te pernoui, quo sis ingenio. Tuum</l>
+                  <l>Si animum uicisti, potius quam animus te, sino,</l>
+                  <l n="(310)">Vt gaudeas. Vaerum quoniam uideo secus</l>
+                  <l>Te esse habitum, non possum, quin deplorem tuam</l>
+                  <l>Stulticiam pariterque doleam te abcaedere.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l>Pater, obsecro, ne quid te excrucies mea</l>
+                  <l>Causa. Nullam peperero tibi aegritudinem.</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pe.</speaker>
+                  <l n="(315)" part="I">Vtinam.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Ac.</speaker>
+                  <l n="(315)" part="M">Certe, Pater. Nunquid me uis?</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pe.</speaker>
+                  <l n="(315)" part="F">Puer,</l>
+                  <l>Hem, aegre propter me consistis, uideo, pedes</l>
+                  <l>Tibi pruriunt, ardentque fugam. Sed haec prius</l>
+                  <l>A me sic imperia capesses multa in pectore</l>
+                  <l>Tuo bona considebunt. Principio tuam</l>
+                  <l n="(320)">Mentem fac nullis artibus imbuas, nisi</l>
+                  <l>Quarum in me exemplar aduortis, meis item</l>
+                  <l>Fac uiuas moribus, ut qui poenitendum habent</l>
+                  <l>Nihil. Volo, tuo animo haudquaquam seruias,</l>
+                  <l>Quem praestat semper habere suspectum. Caue,</l>
+                  <l n="(325)">Diuertas ad nequioca a praecoeptis meis.</l>
+                  <l>Postremo habe hoc tibi monumentum ut regulam,</l>
+                  <l>Ad quam mores, uitam et mentem instituas tunm.</l>
+                  <l>Haec sedulo uerses, haec mentc tractites,</l>
+                  <l>Haec pro Cynosura quapiam limet oculus.</l>
+                  <l>(330) Haec sint tibi ceu lapis Lidius, ad quem probe</l>
+                  <l>Te te explores, ut, qui sis, noscas intime.</l>
+                  <l>Ab ijs enim si quid uel uita uel animus</l>
+                  <l>Deliret, peccatum id quidem esse memineris.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l part="I">Est praeterea, quod uis?</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pel.</speaker>
+                  <l part="F">Vt perpetuo bene</l>
+                  <l n="(335)" part="I">Valeas.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l n="(335)" part="M">Valebis igitur, mi parens.</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pe.</speaker>
+                  <l n="(335)" part="F">Vale,</l>
+                  <l>Vale, inquam, gnate mi, Gnate, aeternum uale.</l>
+                  <l>Quae haec est miseria, pro deum atque hominum fidem,</l>
+                  <l>Itan diuelli a me, quod erat charissimum.</l>
+                  <l>O, quem luctum paras, quas curas inijcis</l>
+                  <l n="(340)">Patri, ipse securus nimis. Pulchre quidem</l>
+                  <l>Tuam rem abiens stabiliuisti. Sed nescis, ah</l>
+                  <l>Nescis, saerus quos exitus uesper uehat.</l>
+                  <l>Sane illud demiror, qui fiat, ut, mihi</l>
+                  <l>Cum maxime peccet gnatus, nequeam tamen</l>
+                  <l n="(345)">Acerbiore in eum esse animo. Vt nunc res ferunt,</l>
+                  <l>Vtinam tam possem filij obliuiscier,</l>
+                  <l>Quam ille, o dementiam, me auersatur libens.</l>
+                  <l>Huc, huc calamitatis scilicet tuo,</l>
+                  <l>Philaute concilio inferor. O dolor grauis.</l>
+               </sp>
+            </div>
+            <div type="scene" n="4">
+               <head>Actus primi. Scaena quarta.</head>
+               <stage>Acolastvs. Philavtvs.</stage>
+               <stage xml:lang="grc">Σκάζοντες.</stage>
+               <sp who="#acolastus">
+                  <l n="(350)">Num quis me uiuit fortunatior? Num quis</l>
+                  <l>Fortunae filius dici magis debet</l>
+                  <l>Ex merito quam ego, cui contigere pro uoto</l>
+                  <l part="I">Omnia?</l>
+               </sp>
+               <sp who="#philautus">
+                  <speaker>Phi.</speaker>
+                  <l part="F">Quis heic beatum uendidat sese? Hem,</l>
+                  <l part="I">Aurumne habes, Acolaste?</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l part="F">Habeam, rogas? Zona</l>
+                  <l n="(355)" part="I">Vide ut tumeat.</l>
+               </sp>
+               <sp who="#philautus">
+                  <speaker>Phi.</speaker>
+                  <l n="(355)" part="M">Ho, ho. Talenta quot?</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Ac.</speaker>
+                  <l n="(355)" part="F">Decem.</l>
+               </sp>
+               <sp who="#philautus">
+                  <speaker>Phi.</speaker>
+                  <l part="I">Hui, tantamne auri uim?</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l part="M">Tantam.</l>
+               </sp>
+               <sp who="#philautus">
+                  <speaker>Phil.</speaker>
+                  <l part="F">Vnde, quacso te,</l>
+                  <l part="I">Patri ista largitas?</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l part="F">Quia arte tractabam</l>
+                  <l part="I">Virum doli ignarum.</l>
+               </sp>
+               <sp who="#philautus">
+                  <speaker>Phi.</speaker>
+                  <l part="F">O lepidum caput, laudo.</l>
+                  <l>Praesidium forte expugnasti hodie. Quid restat,</l>
+                  <l n="(360)" part="I">Nisi ut triumphum agamus intus?</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l n="(360)" part="F">Accedo</l>
+                  <l part="I">Tuae sententiae.</l>
+               </sp>
+               <sp who="#philautus">
+                  <speaker>Phil.</speaker>
+                  <l part="F">Sed quid libri heic gestas?</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l>Id pignoris pater mihi relinquebat.</l>
+               </sp>
+               <sp who="#philautus">
+                  <speaker>Phi.</speaker>
+                  <l>Phy, bibliorum codex est, ualeat. Insiste</l>
+                  <l>Tuas tibi res curare, nempe, quo pacto</l>
+                  <l n="(365)">Iter tuum instituas, peregre profecturus.</l>
+                  <l>Codex non aeque inimicus, atque hic est nobis.</l>
+                  <l>Ego tibi mox alia instillaro praecepta.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l>Sed mihi grauiter pater est interminatus, ne</l>
+                  <l part="I">Haec a me amitterem.</l>
+               </sp>
+               <sp who="#philautus">
+                  <speaker>Phi.</speaker>
+                  <l part="F">Istaec uerba sunt, mitte.</l>
+                  <l n="(370)" part="I">Quin concedimus intro?</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l n="(370)" part="F">Impera et puta factum.</l>
+               </sp>
+            </div>
+         </div>
+         <div type="act" n="2">
+            <div type="scene" n="1">
+               <head>Actus Secundus. [Scaena prima]</head>
+               <stage>Pantolabvs. Pamphagvs.</stage>
+               <stage>Octonarij omnes</stage>
+               <sp who="#pantolabus">
+                  <l><foreign>Nαὶ</foreign> miser ego sum, qui quod edam, quaero et id aegre inuenio. Gulam</l>
+                  <l>Habeo extrema fame pene strangulatam, uenter inaedia</l>
+                  <l>Exhaustus est, stomachus latrat, tum pendulae marcent genae.</l>
+                  <l>Pol dentes pruriunt, me nullus est ieiuniosior</l>
+                  <l n="(375)">Neque magis effractus fame. Scabri rubigine</l>
+                  <l>Dentes, labiaque incana situ loquuntur me famelicum.</l>
+                  <l>Quare, hunc haberem praesentem deum, placaret qui mihi</l>
+                  <l>Ventrem iratum. Parasiticae artis gnarum optem dari obuiam,</l>
+                  <l>Quem sectari liceat, postquam in fumum cineremque uersa sint</l>
+                  <l n="(380)">Quae possedi omnia. Vel e flamma non grauarer impiger</l>
+                  <l>Cibum petere. O fortuna, ut nunquam perpetuo bona es. Sed hic</l>
+                  <l>Ne est Pamphagus, meo quem iuui beneficio toties? Is est.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l>Quis heic nouus subsistit hospes? Pantolabus est. Insolens</l>
+                  <l>Istuc quidem facit. Non possum, quin salutem et colloquar.</l>
+                  <l n="(385)" part="I">O salue plurimum merito tuo, uir optime.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Panto.</speaker>
+                  <l n="(385)" part="F">Pamphage,</l>
+                  <l part="I">Salue plus millies.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l part="F">Quid heic negocij tibi? An uenis</l>
+                  <l>Obsonatum ad forum Cupedinis? Atqui ea est prouincia</l>
+                  <l part="I">Parasitorum.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Panto.</speaker>
+                  <l part="F">Memini. Sed eo res redijt ut transcurso opus</l>
+                  <l part="I">Mihi sit ad ordinem uestrum.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l part="F">Ad nostrum ordinem? Quid audio?</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Panto.</speaker>
+                  <l n="(390)" part="I">Sic fors fert.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l n="(390)" part="F">Sed turpe est nimis a bubus ad asinos transcendere.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Panto.</speaker>
+                  <l part="I">Vt sit. Durum telum necessitas.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pamp.</speaker>
+                  <l part="F">Nihilne est amplius</l>
+                  <l part="I">Rei?</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Panto.</speaker>
+                  <l part="F">Nihil quicquam, abliguriui omnia. Hinc memet foro</l>
+                  <l>Subducens lateo domi hunc totum mensem, ibi uapam bibo, panem</l>
+                  <l>Atrum uoro, inaedia ringor, cochlearum instar, uiuens miser.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l n="(395)">O me ter foelicem, cui tam acre bellum cum penia haud fuit,</l>
+                  <l>Qui suetus sum ut mures alienum semper arrodere cibum.</l>
+                  <l part="I">Quid, an non te piget tam acerbae sortis?</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l part="F">Non tantum quidem</l>
+                  <l>Pigeret, si modo tuam disciplinam nunc sectarier</l>
+                  <l part="I">Liceret.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l part="F">Forsitan liceret, si potis esses assequi.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pant.</speaker>
+                  <l n="(400)">Conarer, ut possem, Pamphage. Venter magister ingeni</l>
+                  <l part="I">Meos conatus iuuerit.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l part="F">Sed nescio, quam foeliciter.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pantol.</speaker>
+                  <l>Hem, me uide, ut prolixe agis. Rape me sodes, collegio</l>
+                  <l>Tuo inauctorandum, rape, postquam nullam plane artem calleo,</l>
+                  <l part="I">Qua possim uiuere <foreign>οἰκόσιτος</foreign>.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l part="F">Au, non sunt illotis sacra haec</l>
+                  <l n="(405)" part="I">Manibus tractanda.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Panto.</speaker>
+                  <l n="(405)" part="F">Satisne lotus sim, qui corruger fame?</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pampha.</speaker>
+                  <l>Specimen tuae des artis oportet, dehinc nostris comicijs</l>
+                  <l>Indictis, si uoles, nomen dabis cum plausu et gloria.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pant.</speaker>
+                  <l>Ea lege, obsecro, me discipulum habe tibi, cui profui,</l>
+                  <l part="I">Re salua saepe, nisi immemor es beneficij accepti.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pampha.</speaker>
+                  <l part="F">Immemor?</l>
+                  <l n="(410)" part="I">Age, suscipio te parasitastrum.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l n="(410)" part="F">Habeo pol gratiam. Quid est,</l>
+                  <l part="I">Quod me nunc uis facere?</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l part="M">Vt me obserues sedulo.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l part="M">Qui dum?</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l part="F">Saeria</l>
+                  <l part="I">Curanda sunt.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pant.</speaker>
+                  <l part="F">Quid saeria? Securus quonam ferrer pede?</l>
+                  <l>Saeria curaui nonquam, nisi saeria uentris negocia</l>
+                  <l part="I">Appellites.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l part="M">Scilicet.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pant.</speaker>
+                  <l part="F">Istuc persuadeas Cathonibus,</l>
+                  <l n="(415)" part="I">Rigidisque Sophois, si quid uales oratione.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pamph.</speaker>
+                  <l n="(415)" part="F">Pro suo</l>
+                  <l>Illi sapiant ingenio, non equidem inuideo, nobis item</l>
+                  <l>Palatum neutiquam desipit. Heic et nos philosophoi sumus</l>
+                  <l>Aesopici Gnatonicique, cuius sectae plurimos</l>
+                  <l part="I">Clientes in forum producimus.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pantol.</speaker>
+                  <l part="F">Quibus sed ducibus</l>
+                  <l n="(420)" part="I">Froeti?</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pamph.</speaker>
+                  <l n="(420)" part="F">Magnis: Epicuro, Aristippo, Catijs et Apicijs.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Panto.</speaker>
+                  <l>Duces illi haud sunt poenitendi per Genium. Perdoctus es,</l>
+                  <l part="I">Laudo. Sed ad saeria redi.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pampha.</speaker>
+                  <l part="F">Recte. Nescis, quae uiderim</l>
+                  <l part="I">Insomnia.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l part="M">Falsa?</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l part="F">Non opinor. Post medium noctis ferunt</l>
+                  <l>Vaera esse somnia, quom sumus purgatiores scilicet.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l n="(425)" part="I">Intelligo. Sed narra somnium.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l n="(425)" part="F">Hodie constrato in thoro</l>
+                  <l>Videbar ad mensam plenam lautusque unctusque accumbere.</l>
+                  <l>Cerealem dixisses coenam. Hinc uelut e pleno cornu datum,</l>
+                  <l>Et quod ederem et quod potarem. Inde adeo, in digitos pedis mihi</l>
+                  <l>Standum erat, ut de summo quicquam peterem. Vis dicam? Dis quidem</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l n="(430)" part="I">Videbar, cui affluerent bonae undique deliciae. </l>
+                  <l n="(430)" part="F">Tam grata sunt,</l>
+                  <l>Quae memoras, ut dentes uenterque hinc gestiant mihi. Vigilans</l>
+                  <l part="I">Vix ausim optare, dormiens quae somnias.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pamph.</speaker>
+                  <l part="F">Tum nescio</l>
+                  <l>Quid uisus talorum iactus portendat ominis boni.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pantola.</speaker>
+                  <l part="I">Vah somnium hominis, quae narrat?</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l part="F">Quid hoc? Satin tibi placet?</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l n="(435)" part="I">Vereor, ne laeuus heic augur sis.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pamp.</speaker>
+                  <l n="(435)" part="F">Nil credis, nisi quod uides?</l>
+                  <l>Abi in malam crucem dignus, quem nonquam sancta Saturitas</l>
+                  <l part="I">Beet, cum istac tua incredulitate.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pant.</speaker>
+                  <l part="F">Obsecro, famelicum</l>
+                  <l>Meum uentrem fac somnijs tuis satures, si quid habent</l>
+                  <l part="I">Rei.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pamph.</speaker>
+                  <l part="M">Irrides?</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Panto.</speaker>
+                  <l part="F">Non rideam, quod carbonarias opes</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pampha.</speaker>
+                  <l part="I" n="(440)">Pro Germanis ostentes, somnijs foelix? Ridiculum. </l>
+                  <l part="F" n="(440)">Age,</l>
+                  <l>Ridiculum sit, quando ita lubet. Porro, quam non sim stultulus</l>
+                  <l>Vates, uidebis, dum fiam hinc cellarius cuiuspiam</l>
+                  <l>Nummatioris domini, opulentia cuius construxero</l>
+                  <l>Tam largum uentri commeatum, ut si regum sim maximus.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Panto.</speaker>
+                  <l n="(445)">Hic, credo, uigilans somniat. Pamphage, beatum me in tuo</l>
+                  <l part="I">Regno tum, quaeso, facias.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pamphag.</speaker>
+                  <l part="F">Vel primus eris apud me, si probe</l>
+                  <l part="I">Aduleris.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pantola.</speaker>
+                  <l part="F">Sed unde plebiscita ordinis uestri petam?</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pamph.</speaker>
+                  <l>Vnde rogas? A Therentiano illo Gnathone principe</l>
+                  <l part="I">Viro.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l part="F">Heic te opus fuerit interprete optimo. Nemo artifex</l>
+                  <l n="(450)" part="I">Nascitur.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l n="(450)" part="M">Operam meam tibi dico.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l n="(450)" part="F">Age, doctoris suscipe</l>
+                  <l part="I">Partes.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l part="F">Nolo arbitrum quemquam esse nobis. Sed pone fabricam hanc</l>
+                  <l>Tutus locus est, ibi elementa dabo. Fac te docibilem probes</l>
+                  <l part="I">Discipulum.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pant.</speaker>
+                  <l part="F">En aurem utramque surrigo ad magistri dogmata.</l>
+               </sp>
+            </div>
+            <div type="scene" n="1">
+               <head>Actus Secundi. Scaena secunda.</head>
+               <stage>Philavtvs. Acolastvs.</stage>
+               <stage>Senarij.</stage>
+               <sp who="#philautus">
+                  <l>Quid haec Acolaste, prae ut illa, quae pater dedit?</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l n="(455)">Pater futilis est, somnium, iners. Valeat. Magis</l>
+                  <l>Tua me, Philaute, dicta stimulant, fac tibi</l>
+                  <l>Fidas. Quodcunque inciderit in mentem, uoles.</l>
+                  <l>Te ipso fruere. Spes omnis in te sit tibi.</l>
+                  <l>Sic uiues felix ac beatus, altius</l>
+                  <l n="(460)">Haec cordi haerent, quam ut momento leui excidant,</l>
+               </sp>
+               <sp who="#philautus">
+                  <speaker>Phi.</speaker>
+                  <l part="I">Macte es uirtute.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l part="F">Iam uale, Philaute mi.</l>
+               </sp>
+               <sp who="#philautus">
+                  <speaker>Phi.</speaker>
+                  <l>Vale, longum uale, Acolaste optime maxime.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Acol.</speaker>
+                  <l>Quam me Philautus ui sua totum occupet,</l>
+                  <l>Si maxime dicam, nemo credat tamen,</l>
+                  <l n="(465)">Adeo in illum uelut effusus sum pectore.</l>
+                  <l>Quo fit, nulla ut hinc capiar poenitudine</l>
+                  <l>Mei, ut mihi ignoscam, et mihi placeam nimis.</l>
+                  <l>Quis hoc statu me non beatum praedicet?</l>
+                  <l>Superest, ut iter ingressus haec mea gaudia</l>
+                  <l n="(470)">Tester festiua, quam paro, cantiuncula.</l>
+               </sp>
+            </div>
+            <div type="scene" n="2">
+               <head>Acolastvs canit.</head>
+               <sp who="#acolastus">
+                  <l>O Dies foestus niueo lapillo</l>
+                  <l>Dignus, o lucis facies serena,</l>
+                  <l>Qua licet demum positis suaue</l>
+                  <l>Viuere curis.</l>
+                  <l n="(475)">Nunc iuuat laute Genium fouere,</l>
+                  <l>Nunc iuuat sacrae Veneri litare,</l>
+                  <l>Nunc iuuat ludos et amoena carni</l>
+                  <l>Gaudia ferre.</l>
+                  <l>Exulat tergo monitor seuerus,</l>
+                  <l n="(480)">Et iugum collo iacet, o, remotum,</l>
+                  <l>Libero quouis pede iam licebit</l>
+                  <l>Tendere gressus.</l>
+                  <l>Qui tuli multos dominos iuuentae,</l>
+                  <l>Qui iugo solui toties cupiui,</l>
+                  <l n="(485)">Liber, emissus manibus parentis</l>
+                  <l>Viuo beatus.</l>
+                  <l>Gestiens adsit iuuenum corona,</l>
+                  <l>Plaudat et sortem hanc mihi gratuletur,</l>
+                  <l>Concinant Musae celebres canora</l>
+                  <l n="(490)">Carmina uoce.</l>
+               </sp>
+            </div>
+            <div type="scene" n="3">
+               <head>Actus secundi. Scoena tertia.</head>
+               <stage>Pamphagvs. Pantolabvs. Acolastvs.</stage>
+               <stage>Octonarij.</stage>
+               <sp who="#pamphagus">
+                  <l part="I">Quid haec tibi uidentur?</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pantola.</speaker>
+                  <l part="F">Rara profecto mysteria.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pamph.</speaker>
+                  <l part="I">Vide, ut contineas.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pantol.</speaker>
+                  <l part="F">Accurate omnia. Memorem me senties.</l>
+                  <l>Sed unde escaria nobis est uenatio? Vbi cadauer est,</l>
+                  <l>Quod adcurramus uultures? Nam uel lupo esurientior</l>
+                  <l n="(495)" part="I">Sum.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pampha.</speaker>
+                  <l n="(495)" part="F">Quod de somnio iamiam dixi, meministin obsecro?</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Panto.</speaker>
+                  <l part="I">Memini.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l part="M">Hinc te bene sperare iubeo.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Panto.</speaker>
+                  <l part="F">Sperare autem, quom nihil</l>
+                  <l part="I">Sit, quod edatur?</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l part="F">Mane, mane, non spem meram, sed rem dabo.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pant.</speaker>
+                  <l part="I">Promissis quis non diues esse possit?</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l part="F">Offam faxo in os</l>
+                  <l>Tibi obiecero. Nisi enim me omen laetum fallit, nanciscimur</l>
+                  <l n="(500)">Hodie herum, qualem uolumus, qui nos accipiat lautissime.</l>
+                  <l part="I">Hem, ad rostra te uoco.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Panto.</speaker>
+                  <l part="M">Quid illo?</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l part="F">Vt uideam, num qui uenerint</l>
+                  <l part="I">Legati aut hospites nobis.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pantol.</speaker>
+                  <l part="F">Malim ad Cupediarios</l>
+                  <l part="I">Vocarier, nam differor fame.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l part="F">Ah, quam plumbeus es. Lucri</l>
+                  <l part="I">Bonus odor illinc adflauit nares meas.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pantol.</speaker>
+                  <l part="F">Si odoribus</l>
+                  <l n="(505)">Et somnijs uentrem pascas, quid adhuc famescere me sinis?</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pampha.</speaker>
+                  <l>Heus tu, ne spera communem tibi sortem, nisi sequeris.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pantola.</speaker>
+                  <l part="I">Sequor uel ad manes imos, si iusseris.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Acol.</speaker>
+                  <l part="F">Nunc gaudeo</l>
+                  <l>Superasse me uiarum omneis crepidines, coedant graues</l>
+                  <l>Curae, maeror facessat, optato in portu quom nauigem.</l>
+                  <l n="(510)">Posthac quicquid libet, licebit protinus. Sub pectore</l>
+                  <l>Quicquid tacitus uersabo, id in linguam, mox in manus</l>
+                  <l>Licenter deriuabitur, neque obstrepet quisquam meis</l>
+                  <l>Studijs, ut hactenus obstitit durus pater, a quo me exulem</l>
+                  <l>Meapte sponte reddidi, ne sit corrector amplius.</l>
+                  <l n="(515)">Iam, id affectabo, ut assurgant omnes uenienti, dexteras</l>
+                  <l>Inijciant, comissatum ducant, denique delibutus ut</l>
+                  <l>Viuam perpetuis gaudijs. Tum, uel multo auro adiunxero</l>
+                  <l>Omnes mihi. Monarcha sic regnabo praepotens. Quid, an</l>
+                  <l>Non albae filius gallinae iure censear, optimis</l>
+                  <l n="(520)">Plane prognatus ouis? Nullis cessero, ne dijs quidem,</l>
+                  <l>Postquam meus Philautus subiecit mihi boni et mali</l>
+                  <l>Rationes omneis, quas ad unguem teneo. Porro autem obuiam</l>
+                  <l>Optem dari hospitem amicum, qui me magnifice tractet, uirum,</l>
+                  <l>Sane omnibus modis dignum, cui omnes optata omnia ferant.</l>
+                  <l n="(525)">Quod si me nossent, qui siem, gregatim ad me concurrerent</l>
+                  <l>Cupaedinarij, coqui, fartores, unguentarij,</l>
+                  <l>Pomarius, piscator, auceps, leno cum scortis ualens</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l part="I">Pantolabe, quem procul huc uideo aduentare?</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l part="F">Nescio, nisi</l>
+                  <l part="I">Ad mercatum uenit hic peregrinus hospes, ut apparet.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l part="F">Bene</l>
+                  <l n="(530)">Habet. Hinc nobis, quod spero, materia certi aucupij datur.</l>
+                  <l part="I">Exprompta nunc opus est astutia.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l part="F">Mi Pamphage, zonam habet.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l part="I">Zonam?</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l part="M">Sed neminem hic uideo.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l part="M">Audin quid dicat?</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l part="F">Volt noscier.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l part="I">Quonam diuortam, cogito.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l part="M">Et hospitem quaerit.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pant.</speaker>
+                  <l part="F">Cinaedus est</l>
+                  <l part="I">Ex uoltu et filo corporis.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l part="F">Praeda haec nostris est unguibus</l>
+                  <l n="(535)" part="I">Digna. A tergo me huic inseram.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l n="(535)" part="M">Quid me autem?</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l n="(535)" part="F">Fac, uerbis meis</l>
+                  <l>Subseruias, ut hinc nostro in albo te dignum habeas locum.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pamp.</speaker>
+                  <l>Hospes bone, hospes clare, iubeo te saluere plurimum.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l>Propino tibi salutem plenis faucibus, uir optime.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l part="I">Facete, laute, lepide, istuc tene.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l part="F">Vicissim comprecor</l>
+                  <l n="(540)" part="I">Vobis laeta omnia, quicunque estis.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l n="(540)" part="F">Magnam me hercle gratiam</l>
+                  <l part="I">Omnes merito habemus tuae isti humanitati.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pant.</speaker>
+                  <l part="F">Vir bonus</l>
+                  <l part="I">Es ex habitu.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l part="F">Sed in his quam ob rem peregrinaris regionibus?</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Acol.</speaker>
+                  <l>Huc me grauis tempestas impulit meorum affectuum.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pamph.</speaker>
+                  <l part="I">Ecquo destinabas iter?</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Acol.</speaker>
+                  <l part="F">Quolibet ubi liceat meo</l>
+                  <l n="(545)" part="I">Pro ingenio uiuere.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pampha.</speaker>
+                  <l n="(545)" part="F">Istuc heic licebit commodissime.</l>
+                  <l>Si nescis, heic habitant omnis generis Veneres et Gratiae.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pant.</speaker>
+                  <l>Heic oenopolia, myropolia, pharmacopolia stabulant.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l part="I">Neque heic desiderabis Musicum concentum.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l part="F">Gaudijs</l>
+                  <l part="I">Heic afflues.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l part="F">Sane, auspicato, ut audio, huc tetuli pedem,</l>
+                  <l n="(550)" part="I">Vbi frontem exporrigam. Vobis nomen dabo.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l n="(550)" part="F">Nomen tuum</l>
+                  <l part="I">Quod est?</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l part="M">Nomen? Acolastus.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l part="F">Acolastus? Vah, nomen conuenit.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l part="I">Hem, noster es.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l part="F">Certe, quod uoster sim repertus, gaudeo.</l>
+                  <l part="I">Sed nullane spes est, potiundi hic principatus?</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l part="F">Maxime.</l>
+                  <l>Imprimis ista corporis tui forma heroica placet.</l>
+                  <l n="(555)">Tum mores, indoles, cultus et disserendi gratia</l>
+                  <l part="I">Magno te ortum loco arguunt.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Panto.</speaker>
+                  <l part="F">A capite ad talos pulcher es.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pamphagvs.</speaker>
+                  <l>Immo, dum te contemplamur fixius, diuina elucet in</l>
+                  <l part="I">Te quaedam maiestas.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Acola.</speaker>
+                  <l part="F">Nihil est in me, quin omnes plurimum</l>
+                  <l part="I">Id ament. Viuo et regno.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pantol.</speaker>
+                  <l part="F">Non sentit caudex palpum obtrudier.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pampha.</speaker>
+                  <l n="(560)" part="I">Hem, regem hunc esse oportet.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l n="(560)" part="F">Scilicet, tot clarum dotibus.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Acolas.</speaker>
+                  <l>Si nosceretis, quid mecum portem boni, tum istuc magis,</l>
+                  <l part="I">Scio, diceretis.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l part="M">Quid id est?</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pant.</speaker>
+                  <l part="F">Virtutes omneis narra tuas,</l>
+                  <l part="I">Vt hinc orneris.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Acol.</speaker>
+                  <l part="F">Agedum, appendite zonam auro multo grauem.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pamph.</speaker>
+                  <l part="I">Hui, tam graues auro loculos?</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Panto.</speaker>
+                  <l part="M">Quid audio? Aurumne habet?</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l part="F">Habet.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l n="(565)" part="I">Ego te, si nescis, auri encomion possim docere.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Acol.</speaker>
+                  <l n="(565)" part="F">Dic.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Panto.</speaker>
+                  <l>Pulcherrima aurum faustitas mortalibus. Hoc te dijs parem</l>
+                  <l>Facit. Hoc qui habet, repente honoratus, clarus, sapiens, item</l>
+                  <l part="I">Rex splendidus fit.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Acol.</speaker>
+                  <l part="F">Per Iouem, haec dogmata Philauti dogmatis</l>
+                  <l>Consentiunt. Quid prohibet, quin patiar me nomine regio</l>
+                  <l n="(570)" part="I">Salutari?</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Panto.</speaker>
+                  <l n="(570)" part="F">Ter maxime rex, quin in clientelam tuam</l>
+                  <l part="I">Nos suscipis?</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l part="F">Suscipio. En uobis auctoramenta haec mea.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pamph.</speaker>
+                  <l part="I">Nunc me totum regi dedo.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pant.</speaker>
+                  <l part="F">Et ego, quantus sum, illi mancipor.</l>
+                  <l>Sic inter luscos regnabit strabus. Pulchrum spectaculum.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Acol.</speaker>
+                  <l>Quid heic stamus? Quid hic haeremus ieiuni? Quin tendimus</l>
+                  <l n="(575)" part="I">Comissatum?</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l n="(575)" part="M">Iam dudum est in patinis meus animus.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pamph.</speaker>
+                  <l n="(575)" part="F">Vbi uis,</l>
+                  <l part="I">Nihil moror.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Acol.</speaker>
+                  <l part="M">Quo diuortemus?</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pamph.</speaker>
+                  <l part="F">Hospitem probum dabo.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pant.</speaker>
+                  <l part="I">Dabit dignum patella operculum.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l part="F">Vnde autem obsonabitur,</l>
+                  <l part="I">Quaeso, patrone optime?</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pant.</speaker>
+                  <l part="M">Recte.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l part="F">Cape hoc argentum et appara</l>
+                  <l part="I">Coenam, quae cum pontificali certet.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pampha.</speaker>
+                  <l part="M">Curabo, here.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Acol.</speaker>
+                  <l part="F">Tum Venus,</l>
+                  <l n="(580)">Bacchus, Ceres nostris uolo intersint epulationibus.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pamphagvs.</speaker>
+                  <l>Fiet. Tibicines num nam cupis deducier e foro?</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l part="I">Etiam.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pampha.</speaker>
+                  <l part="F">Propero ad macellum. Heus Pantolabe, regem deducito</l>
+                  <l>Cliens ad Sannionem nostrum, sed sublata sarcina,</l>
+                  <l part="I">Tenes?</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l part="M">Sic.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l part="M">Vbi manet ille uoster?</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l part="M">Ad Veneris fanum.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l part="F">Bene est.</l>
+                  <l n="(585)" part="I">Sustolle haec.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l n="(585)" part="F">Quam pulchre procedo hodie. O fortunatum hunc diem.</l>
+               </sp>
+            </div>
+            <div type="scene" n="4">
+               <head>Actus secundi. scaena quarta.</head>
+               <stage>Pamphagvs. solvs</stage>
+               <stage>Trochaici Katalecticoi.</stage>
+               <sp who="#pamphagus">
+                  <l>Ha ha he. Quam tutum hospitium confidentiae meae</l>
+                  <l>Mihi paraui. Quam promptum nactus sum deuerticulum</l>
+                  <l>Exercendis fucis, imposturis et sycophantijs.</l>
+                  <l>Hinc mihi praesens lucrum est, abradi dimidium potest,</l>
+                  <l n="(590)">Causabor carem esse annonam, ut conueniant ratiunculae</l>
+                  <l>Accepti et dati. In rationibus nullis tenerier</l>
+                  <l>Vinculis possum. Ad suffugia mille mihi rimae patent.</l>
+                  <l><foreign>Nαὶ</foreign> iste totus desipit, qui nobis auscultauerit,</l>
+                  <l>Per quos uelut in nassam illectus, ad uiuum usque eroditur.</l>
+                  <l n="(595)">Intra casses nostros praeda est, quam usque uenati sumus.</l>
+                  <l>Illa nostris unguibus frustillatim discerpitur,</l>
+                  <l>Quippe, sic peram illam nunc multo aere turgidam ictibus</l>
+                  <l>Vellicatim exenterabimus, uix ut inopi siet</l>
+                  <l>Reliquus obolus emendo resti. Quantumuis gestitet</l>
+                  <l n="(600)">Auri in loculis, uniuersum id insumemus luxui.</l>
+                  <l>Scilicet triumpho serio, postquam cellarius</l>
+                  <l>Euasi potentis domini, id quod futurum insomnia</l>
+                  <l>Dudum praedicabant omine laeto. Nunc tempus monet,</l>
+                  <l>Vt procurram obsonatum. Prolixius satur mea</l>
+                  <l n="(605)">Post erumpam gaudia. Heus, heus, gestientem Pamphagum</l>
+                  <l>Nemo lanionum uidet, nemo salutatum aduenit?</l>
+                  <l>Faxo iam ostenso auro, quod me habere nesciunt, simul</l>
+                  <l>Ad me non accurrisse doleant obtrusis mercibus.</l>
+               </sp>
+            </div>
+            <div type="scene" n="5">
+               <head>Actus secundi. Scoena quinta.</head>
+               <stage>Acolastvs. Pantolabvs. Sannio. Syrvs. Pamphagvs.</stage>
+               <stage xml:lang="grc">Σκάζοντες.</stage>
+               <sp who="#acolastus">
+                  <l>Vbinam aedes nostri sunt hospitis? Lassum</l>
+                  <l n="(610)" part="I">Me longa reddidit profectio.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l n="(610)" part="F">Nobis</l>
+                  <l>En imminent, here. Praecurram ut fores totae</l>
+                  <l>Pateant. Heus, heus, nemon hinc prodit? Insistam</l>
+                  <l>Pulsare, nisi aperit ostium aliquis actutum.</l>
+               </sp>
+               <sp who="#sannio">
+                  <speaker>Sannio.</speaker>
+                  <l part="I">Quis tam grauiter pepulit meas fores?</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l part="F">Voster.</l>
+               </sp>
+               <sp who="#sannio">
+                  <speaker>San.</speaker>
+                  <l n="(615)" part="I">Quis?</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l n="(615)" part="M">Pantolabus.</l>
+               </sp>
+               <sp who="#sannio">
+                  <speaker>San.</speaker>
+                  <l n="(615)" part="F">Pantolabus? Mortuum pridem</l>
+                  <l>Craedebam, ut quem toto non uiderim mense.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l part="I">Non est.</l>
+               </sp>
+               <sp who="#sannio">
+                  <speaker>San.</speaker>
+                  <l part="F">Id uiso. Hem, uix te agnoscerem, uocem</l>
+                  <l>Nisi noscam tuam. Vnde quaeso ades? Num imis</l>
+                  <l part="I">Ex manibus?</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l part="F">Narrandi id nunc locus non est.</l>
+               </sp>
+               <sp who="#sannio">
+                  <speaker>San.</speaker>
+                  <l n="(620)" part="I">Quid non?</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l n="(620)" part="M">Quid? hunccine uides, obsecro?</l>
+               </sp>
+               <sp who="#sannio">
+                  <speaker>San.</speaker>
+                  <l n="(620)" part="F">Cuias</l>
+                  <l part="I">Est, unde adduxti, et quo, qua gratia?</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l part="F">Nostras</l>
+                  <l>Est atque a Pamphago huc adducitur, nostin?</l>
+               </sp>
+               <sp who="#sannio">
+                  <speaker>San.</speaker>
+                  <l part="I">Quem?</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l part="F">Pamphagus obsonatum abscessit, hic nummos</l>
+                  <l part="I">Dedit.</l>
+               </sp>
+               <sp who="#sannio">
+                  <speaker>San.</speaker>
+                  <l part="F">Euge introducatur commodus sane</l>
+                  <l n="(625)">Conuiuator. Syre, hem Syre. Sarcinam hanc aufer</l>
+                  <l>Intro, tum mox redi. Plura habeo, quae mandem.</l>
+                  <l>Optatus aduenis, hospes optime. Accede</l>
+                  <l>Ad nos. Omnis rei tibi copia heic fiet.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l part="I">Nullasne habes Veneres?</l>
+               </sp>
+               <sp who="#sannio">
+                  <speaker>San.</speaker>
+                  <l part="M">Etiam.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l part="F">Iube accersi.</l>
+               </sp>
+               <sp who="#sannio">
+                  <speaker>San.</speaker>
+                  <l n="(630)" part="I">Quanti praecij mulieres?</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l n="(630)" part="F">Plurimi, forma</l>
+                  <l part="I">Modo sint praecellenti.</l>
+               </sp>
+               <sp who="#sannio">
+                  <speaker>San.</speaker>
+                  <l part="F">Primariam sane</l>
+                  <l>Dabo foeminam. Hem Syre, audi, Laidem accerse.</l>
+               </sp>
+               <sp who="#syrus">
+                  <speaker>Sy.</speaker>
+                  <l part="I">Iam?</l>
+               </sp>
+               <sp who="#sannio">
+                  <speaker>Sa.</speaker>
+                  <l part="M">Iam.</l>
+               </sp>
+               <sp who="#syrus">
+                  <speaker>Sy.</speaker>
+                  <l part="M">Causae quid dicam?</l>
+               </sp>
+               <sp who="#sannio">
+                  <speaker>Sa.</speaker>
+                  <l part="F">Adesse amatorem.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l>Ocius haec introducite ut coquis dentur.</l>
+                  <l n="(635)">Vos me sequimini, tibicines, intro.</l>
+               </sp>
+            </div>
+         </div>
+         <div type="act" n="3">
+            <div type="scene" n="1">
+               <head>Actus tertius. [Scaena prima]</head>
+               <stage>Bromia ancilla.</stage>
+               <stage>Senarij.</stage>
+               <sp who="#bromia">
+                  <l>An unquam cuiquam contumeliosius</l>
+                  <l>Audistis factam iniuriam, quam haec est mihi?</l>
+                  <l>Venit ad me Pamphagus. Heus tu, inquit, Bromia, cito</l>
+                  <l>Reuise, quid moretur Laidem. Annus est,</l>
+                  <!-- chek gynecαio -->
+                  <l n="(640)">Prius quam prodeat e gynecαio. Pedes,</l>
+                  <l>Inquam, foras efferre uetant negocia</l>
+                  <l>Culinaria. Mox corripit fustem, fugam</l>
+                  <l>Ex aedibus ineo. Sane uaero, quia</l>
+                  <l>Hunc insignem decoctorem adduxit, satis</l>
+                  <l n="(645)">Pro imperio agit, neque quisquam eius mores potest</l>
+                  <l>Tolerare. Sed faxo, meminerit huius loci</l>
+                  <l>Atque diei. Secundas res superbiae</l>
+                  <l>Decent, sino. Vaerum dum coeperit suum</l>
+                  <l>Mutare uoltum fortuna, atque hic indigus</l>
+                  <!-- check nαi -->
+                  <l n="(650)">Opis nostrae factus fuerit, nαi mortuo</l>
+                  <l>Canet, dum quid supplex petet. Pol gratiam</l>
+                  <l>Habeo tibi, Pantolabe, qui intercesseris</l>
+                  <l>Plagasque auorteris. Vt misera sum, cui quidem</l>
+                  <l>Datum est in hanc domum, ubi tot sunt domini, ubi uix</l>
+                  <l n="(655)">Decem coqui suffoecerint edulijs</l>
+                  <l>Concinnandis, quae noster hic, si dijs placet,</l>
+                  <l>Condus promus modo attulit. Nunc affatim</l>
+                  <l>Habet, quod plenis faucibus Helluo uoret.</l>
+                  <l>Habet, quod in foedissimam uentris sui</l>
+                  <l n="(660)">Proluuiem mittat, Harpyia obscoenissima.</l>
+                  <l>Perstrennue ille quidem officium facit, dum homo</l>
+                  <l>Suauis adducit cytharistrias sibi.</l>
+                  <l>Ne non etiam, opinor, camelus saltitet.</l>
+                  <l>Nam Pamphago nihil magis cum fidibus</l>
+                  <l n="(665)">Quam graculo. Tum, Lais, scortum nobile,</l>
+                  <l>Magno quod moeret, accersitum est hospiti.</l>
+                  <l>Hos tantos sumptus quis ferret uel Satrapes?</l>
+                  <l>Quid Pamphagus? An non certa pestis atque item</l>
+                  <l>Communis pernicies est adulescentulum?</l>
+                  <l n="(670)">Atat, forte imminet hic cessanti quispiam.</l>
+                  <l>Proin uiso, sicubi haeret in uia Syrus</l>
+                  <l>Cum Laide. Vt utrunque male perdat Iupiter,</l>
+                  <l>Per quorum nimiam tarditatem propemodum</l>
+                  <l>Perieram. Pape, gregem ancillarum conspicor</l>
+                  <l n="(675)">Huc aduentare. Aedes nostrae uix caeperint.</l>
+                  <l>Ibo illis obuiam ac quid uenerim eloquar.</l>
+               </sp>
+            </div>
+            <div type="scene" n="2">
+               <head>Actus tertij. Scoena secunda.</head>
+               <stage>Lais. Syrvs. Bromia.</stage>
+               <stage>Septenarij et octonarij.</stage>
+               <sp who="#lais">
+                  <l part="I">Itan te misit Sannio?</l>
+               </sp>
+               <sp who="#syrus">
+                  <speaker>Syrvs.</speaker>
+                  <l part="M">Misit.</l>
+               </sp>
+               <sp who="#lais">
+                  <speaker>Lais.</speaker>
+                  <l part="M">Me accersitum?</l>
+               </sp>
+               <sp who="#syrus">
+                  <speaker>Syrvs.</speaker>
+                  <l part="F">Ita.</l>
+               </sp>
+               <sp who="#lais">
+                  <speaker><supplied>Lais.</supplied></speaker>
+                  <l>Quis tam potens hospes uenit mei petitum copiam,</l>
+                  <l part="I">Quae grandem demereo pecuniam?</l>
+               </sp>
+               <sp who="#syrus">
+                  <speaker>Syrvs.</speaker>
+                  <l part="F">Nescio, nisi quod uiri</l>
+                  <l n="(680)">Aduentum herus meus excepit multo humanissime.</l>
+               </sp>
+               <sp who="#lais">
+                  <speaker>Lais.</speaker>
+                  <l part="I">Num quem coenae apparatum uidisti, Syre?</l>
+               </sp>
+               <sp who="#syrus">
+                  <speaker>Syrvs.</speaker>
+                  <l part="F">Non. Sed Pamphagus</l>
+                  <l>Obsonatum concesserat. Hospes omnes sollicitos habet.</l>
+               </sp>
+               <sp who="#lais">
+                  <speaker>Lais.</speaker>
+                  <l>Sat habeo. Pamphagus non illicit quenquam nisi diuitem.</l>
+                  <l part="I">Syre, hem Syre, quid nam huc conari uideo Bromiam?</l>
+               </sp>
+               <sp who="#syrus">
+                  <speaker>Syr.</speaker>
+                  <l part="F">Huc? Vbi</l>
+                  <l n="(685)" part="I">Ea est.</l>
+               </sp>
+               <sp who="#lais">
+                  <speaker>Lais.</speaker>
+                  <l n="(685)" part="M">Ad nos uiam affectat.</l>
+               </sp>
+               <sp who="#syrus">
+                  <speaker>Syr.</speaker>
+                  <l n="(685)" part="F">Certe. Demiror quid siet.</l>
+               </sp>
+               <sp who="#lais">
+                  <speaker>Lais.</speaker>
+                  <l>Iubebit nos forsan regredi domum, grauari enim hospitem</l>
+                  <l part="I">Impendijs.</l>
+               </sp>
+               <sp who="#syrus">
+                  <speaker>Syr.</speaker>
+                  <l part="M">Non opinor.</l>
+               </sp>
+               <sp who="#lais">
+                  <speaker>Lais.</speaker>
+                  <l part="F">Subsistemus parum.</l>
+               </sp>
+               <sp who="#bromia">
+                  <speaker>Bromia.</speaker>
+                  <l>Lais, iamdudum conuiuatum te uocat herus. Quin uenis?</l>
+               </sp>
+               <sp who="#lais">
+                  <speaker>Lais.</speaker>
+                  <l part="I">Hem Bromia uenio.</l>
+               </sp>
+               <sp who="#bromia">
+                  <speaker>Bromia.</speaker>
+                  <l part="M">At iam uenisse oportuit.</l>
+               </sp>
+               <sp who="#lais">
+                  <speaker>Lais.</speaker>
+                  <l part="F">Quid ita? Cedo.</l>
+               </sp>
+               <sp who="#bromia">
+                  <speaker>Bromia.</speaker>
+                  <l n="(690)">Quia omnes accubant, teque unam abesse indignatur tuus</l>
+                  <l part="I">Nouicius amator.</l>
+               </sp>
+               <sp who="#lais">
+                  <speaker>Lais.</speaker>
+                  <l part="M">Quid uiri est?</l>
+               </sp>
+               <sp who="#bromia">
+                  <speaker>Bromia.</speaker>
+                  <l part="F">Quid eum tibi praedicem</l>
+                  <l>Aut laudem, Lais? Dignum, sat scio, te amica dixeris.</l>
+               </sp>
+               <sp who="#lais">
+                  <speaker>Lais.</speaker>
+                  <l>Recte, Bromia. At desiderio mei num nam uaere calet?</l>
+               </sp>
+               <sp who="#bromia">
+                  <speaker>Bromia.</speaker>
+                  <l part="I">Caleat, rogas? Immo ardet te intime.</l>
+               </sp>
+               <sp who="#lais">
+                  <speaker>Lais.</speaker>
+                  <l part="F">Properemus ocius.</l>
+               </sp>
+            </div>
+            <div type="scene" n="3">
+               <head>Actus tertij. Scoena tertia.</head>
+               <stage>Eubvlvs. Pelargvs.</stage>
+               <stage>Octonarij.</stage>
+               <sp who="#eubulus">
+                  <l n="(695)">Prouiso, quid rerum gerat Pelargus, quo pacto ferat</l>
+                  <l>Absentiam gnati, quem tenere adamat, gemitque forsitan</l>
+                  <l>Nunc abdicatum, quippe illum educauit maximo suo</l>
+                  <l>Labore, post curauit unice sperans stabilem fore</l>
+                  <l>Voluptatem, quam ex illius praesentia acciperet. Satis</l>
+                  <l n="(700)">Craedo, patris ut est ingenium, iam misere sollicitarier</l>
+                  <l>Super salute filij. Id uiso, moderetur ne suis</l>
+                  <l>Curis nimis anxijs, uaere sapientem quod uirum decet.</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pel.</speaker>
+                  <l>Parentis quanta sit sollicitudo erga absentem filium,</l>
+                  <l>Ex me disco. Gnatus quia abdicatus est dudum meus,</l>
+                  <l n="(705)">Non sustinet animus quiescere, quin is sedulo mihi</l>
+                  <l>Ob oculos, ob mentem uersetur. Absentem curo haud secus,</l>
+                  <l>Ac praesentem curaui pridem. Quam uellem Eubulum dari,</l>
+                  <l>Cum quo uolupe est, de absente commentari filio.</l>
+                  <l>Sed eccum in tempore ipso aduenit. Eubule, salue plurimum.</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Ev.</speaker>
+                  <l n="(710)">O mi Pelarge, non praeuideram te. Si uales, bene est.</l>
+                  <l>Nam hac gratia ad te ibam, quo, quid ualeret animus, discerem.</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pel.</speaker>
+                  <l part="I">Omnes mihi curae coeunt.</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Evbv.</speaker>
+                  <l part="M">In quo?</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pe.</speaker>
+                  <l part="F">In quo censeas nisi</l>
+                  <l part="I">In gnato?</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Evb.</speaker>
+                  <l part="F">Num quid audisti de eo, quod nolis, tam cito?</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pe.</speaker>
+                  <l part="I">Nihil. Sed quid ualeat, miror.</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Evbv.</speaker>
+                  <l part="M">Bene equidem spero.</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pe.</speaker>
+                  <l part="M">Vtinam.</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Evbv.</speaker>
+                  <l part="F">Quid est,</l>
+                  <l n="(715)" part="I">Quod te sollicitat autem?</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pe.</speaker>
+                  <l n="(715)" part="M">Gnatus.</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Evbv.</speaker>
+                  <l n="(715)" part="F">Minue uaero hanc improbam</l>
+                  <l part="I">Curam.</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pe.</speaker>
+                  <l part="M">Non possum, Eubule, gnatus est.</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Ev.</speaker>
+                  <l part="F">Vt sit, quorsum attinet</l>
+                  <l part="I">Te excruciare.</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pe.</speaker>
+                  <l part="M">Mihi sic est usus.</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Evbv.</speaker>
+                  <l part="F">Si istuc certum est tibi</l>
+                  <l part="I">Sic facere, abiero.</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pelar.</speaker>
+                  <l part="F">Potius, quam te caream, quicquid iusseris,</l>
+                  <l part="I">Faciam.</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Evbv.</speaker>
+                  <l part="F">Imprimis, quod, scio, tibi uidebitur durum, caue</l>
+                  <l n="(720)">Nimium sis sollicitus, quando hinc nihilo meliorem feceris</l>
+                  <l>Gnati statum, quin magis, eum fatis totum relinquito</l>
+                  <l>Curandum, a quorum cura neutiquam exciderit. Nec audias</l>
+                  <l>Epicureos, qui contendunt deos nihil mortalia</l>
+                  <l>Curare. Melius Homerus, qui <foreign>τύχην</foreign> uagam quom nesciat,</l>
+                  <l n="(725)">Soli decreto numinis regenda craedit omnia.</l>
+                  <l>Tu filium tractasti, dum tempus tulit, ut decuit patrem.</l>
+                  <l>Nunc amandatus est, feras. Satis pro officio feceris,</l>
+                  <l>Aequus si perstet filio animus, de quo, quicquid Numini</l>
+                  <l>Visum est decernere, laudandum fuerit utroque pollice.</l>
+                  <l n="(730)">Cum dijs quis unquam uel pie pugnauit uel foeliciter?</l>
+                  <l>Sane, haud uacabis impietatis crimine, si ultra fas tuam</l>
+                  <l>Extendas sollicitudinem, quando exitum futuri habet</l>
+                  <l>Deus in sua unius manu. Quid hic tantum trepidas miser?</l>
+                  <l>An diffidentia tua uoles mendacij reum</l>
+                  <l n="(735)">Facere Deum, nostri qui curam se suscipere perhibet,</l>
+                  <l>Qui capitis nostri etiam pilos omneis in numerato tenet?</l>
+                  <l>Ecquem te ipsum facis, ut ex aduerso deo responsites?</l>
+                  <l>An inuides ipsi <foreign>μοναρχίαν</foreign> rerum mortalium?</l>
+                  <l part="I">Deos quaeso, ut tuam tibi dent mentem.</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pelarg.</speaker>
+                  <l part="F">Cogis tu quidem</l>
+                  <l n="(740)">Me ire in tuam sententiam. Faciam, ut posthac quietior</l>
+                  <l>Sim. Dulcis interim commemoratio fuerit de filio.</l>
+                  <l part="I">Homo sum, Eubule. Humani nihil a me est alienum.</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Evbv.</speaker>
+                  <l part="F">Quaeso, uide,</l>
+                  <l>Ne stulto effectu exhinc gnatum prosequare, quem quidem putes</l>
+                  <l>Zelum illi debitum, cum sint, nolo erres, affectus mali</l>
+                  <l n="(745)">Recti specie commendati, unde expectes non nisi noxiam</l>
+                  <l>Imposturam. Vaerum gnatus quid dicebat nouissimum?</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pel.</speaker>
+                  <l part="I">Duobus uerbis iussit me longum ualere.</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Evbv.</speaker>
+                  <l part="F">Quid amplius?</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pel.</speaker>
+                  <l part="I">Nihil.</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Evb.</speaker>
+                  <l part="M">Num tristis abijt?</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pel.</speaker>
+                  <l part="F">Imo laetus, Eubule. Hinc mihi</l>
+                  <l>Lachrymas excussit ille, qui tam frigidus erat in patrem.</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Evbv.</speaker>
+                  <l n="(750)">Ita comparatum est natura, ut uirtutem praesentem minus</l>
+                  <l>Animaduortamus, sublatam uero ex oculis mox inuidi</l>
+                  <l>Queramus. Quod gnatus minus uidit, per adulescentiam</l>
+                  <l>Et consulit parum, aetas id correxerit, quando malo</l>
+                  <l>Accepto stultus sapiet. Quid ualetudo det commodi,</l>
+                  <l n="(755)">Aegrotus post intelliget. Nunc illum poenitet sui.</l>
+                  <l>Nimis impense liber cupiuit esse. Quod heic erret modo,</l>
+                  <l>Posteri sentiet, cum ad te confugiet, naufragus uelut</l>
+                  <l part="I">In tutum portum. Id quod futurum ominor.</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pel.</speaker>
+                  <l part="F">Au, mi Eubule, metuo</l>
+                  <l part="I">Ab omine.</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Evbvlv.</speaker>
+                  <l part="F">Nihil est, quod metuas. Si istuc eueniat, locus</l>
+                  <l n="(760)" part="I">Esto misericordiae.</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pel.</speaker>
+                  <l n="(760)" part="M">Non usus ueniet, spero.</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Ev.</speaker>
+                  <l n="(760)" part="F">Spero item</l>
+                  <l>Ego hercle. Neque eo dico, quod quicquam illum senserim mali</l>
+                  <l>Dedisse, sed, si quid, ne quid. Quae eius sit aetas, peruides.</l>
+                  <l>In pessima sequax est et in malum propendet pectore</l>
+                  <l>Toto, idque maxime, dum consilijs suis relinquitur.</l>
+                  <l n="(765)">Quid enim ualet, quad in eo est optimum? Malum illud sonticum,</l>
+                  <l>Quod <foreign>πρωτόπλαστους</foreign> perdidit patres, uitiauit item istius</l>
+                  <l>Mentem, quo non potest non sollicitarier ad cupidines</l>
+                  <l>Malas, quas et pro consilio Philauti studeat exsequi,</l>
+                  <l>Nisi praesens adsit corrector, qui hunc ad meliora prouocet,</l>
+                  <l n="(770)">Si nescis, optimus ille corrector deus est, cuius manus</l>
+                  <l>Moderatur omnia et in quo, ut summatim dicam, omnes uiuimus,</l>
+                  <l>Mouemur, et sumus, cum sit solus rerum omnium arbiter.</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pel.</speaker>
+                  <l>Credo, Eubule, omnia haec tam uere quam studiose orarier.</l>
+                  <l>Quod de Pericle ferunt Suadela in labijs sessitat tuis.</l>
+                  <l n="(775)">Cuperem quidem in totum curam gnati exsulantis ponere,</l>
+                  <l part="I">Modo possem.</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Evbvl.</speaker>
+                  <l part="F">Fidenti sperata cedunt. Sed nunquid aliud</l>
+                  <l part="I">Me uis, Pelarge?</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pelar.</speaker>
+                  <l part="F">Vt ad nos diuortas, Eubule pijssime.</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Evbvlvs.</speaker>
+                  <l>Quando istuc uis, fiat. Nolo ullum in me tibi claudi commodum.</l>
+               </sp>
+            </div>
+            <div type="scene" n="4">
+               <head>Actus tertij. Scoena quarta.</head>
+               <stage>Bromia. Syrvs.</stage>
+               <stage>Trochaici Katalecticoi.</stage>
+               <sp who="#bromia">
+                  <l>Gaudeo me defunctam istius coenae laboribus.</l>
+                  <l n="(780)">Tam negociosa mihi fuit culina, postulem,</l>
+                  <l>Si liceret, me oppido lassam refocillare. Sed</l>
+                  <l>Quid Syrus petitum ueniat, miror, quom bellaria</l>
+                  <l>Intro illata sint. Ecquid fit in coenaculo, Syre?</l>
+               </sp>
+               <sp who="#syrus">
+                  <speaker>Sy.</speaker>
+                  <l>Quid fiat, rogas? Coena dubia sese explent atque item</l>
+                  <l n="(785)">Proluti uino sedent conuiuae. Solus Pamphagus</l>
+                  <l>Ieiunas praetendit fauces, quas uix tandem compleat.</l>
+                  <l part="I">Ventri auaro donat omnia.</l>
+               </sp>
+               <sp who="#bromia">
+                  <speaker>Bro.</speaker>
+                  <l part="F">Craedo, nil nouum facit.</l>
+                  <l>Nam <foreign>πολυφάγος</foreign> est, si quisquam alius. At hospes quid rei</l>
+                  <l>Gerit? An non in raram Laidis formam intentus stupet?</l>
+               </sp>
+               <sp who="#syrus">
+                  <speaker>Syr.</speaker>
+                  <l n="(790)">Imo ait nescire se, quo pacto amoris sumpserit</l>
+                  <l part="I">Satietatem.</l>
+               </sp>
+               <sp who="#bromia">
+                  <speaker>Bromia.</speaker>
+                  <l part="F">Amor nec consilium nec ullum habet modum.</l>
+               </sp>
+               <sp who="#syrus">
+                  <speaker>Syr.</speaker>
+                  <l part="I">Vin, tibi beneficium praestem, Bromia?</l>
+               </sp>
+               <sp who="#bromia">
+                  <speaker>Bro.</speaker>
+                  <l part="M">Maxime.</l>
+               </sp>
+               <sp who="#syrus">
+                  <speaker>Syr.</speaker>
+                  <l part="F">Vide,</l>
+                  <l part="I">Quid tibi hoc uilli sapiat.</l>
+               </sp>
+               <sp who="#bromia">
+                  <speaker>Bromia.</speaker>
+                  <l part="M">Hem, bromion est.</l>
+               </sp>
+               <sp who="#syrus">
+                  <speaker>Sy.</speaker>
+                  <l part="F">Bibe largius.</l>
+               </sp>
+               <sp who="#bromia">
+                  <speaker>Bro.</speaker>
+                  <l>Ha, ha. Nunquam, quod sciam, uinum bibi meracius.</l>
+                  <l n="(795)">Hem Syre, uicissim dabo me tibi, quando usus postulat.</l>
+               </sp>
+               <sp who="#syrus">
+                  <speaker>Syrv.</speaker>
+                  <l part="I">Postulat nunc et locus et res ipsa et usus.</l>
+               </sp>
+               <sp who="#bromia">
+                  <speaker>Bro.</speaker>
+                  <l part="F">Qui Syre?</l>
+               </sp>
+               <sp who="#syrus">
+                  <speaker>Syr.</speaker>
+                  <l>Non te clam est, quam parce hic obsonetur, dum quaestus iacet.</l>
+               </sp>
+               <sp who="#bromia">
+                  <speaker>Bro.</speaker>
+                  <l part="I">Scilicet.</l>
+               </sp>
+               <sp who="#syrus">
+                  <speaker>Syr.</speaker>
+                  <l part="F">Nunc contigit, cuius praesentia menstruum</l>
+                  <l part="I">Nobis commeatum commode reponat.</l>
+               </sp>
+               <sp who="#bromia">
+                  <speaker>Bro.</speaker>
+                  <l part="F">Edoce,</l>
+                  <l n="(800)" part="I">Vnde id fiat.</l>
+               </sp>
+               <sp who="#syrus">
+                  <speaker>Sy.</speaker>
+                  <l n="(800)" part="F">Si coniuncta opera penum nos clanculum</l>
+                  <l part="I">Egeramus.</l>
+               </sp>
+               <sp who="#bromia">
+                  <speaker>Bro.</speaker>
+                  <l part="F">Vah, consilium callidum, si uerbera</l>
+                  <l part="I">Lucri facere a Pamphago uelimus.</l>
+               </sp>
+               <sp who="#syrus">
+                  <speaker>Sy.</speaker>
+                  <l part="F">Abi sis stultula.</l>
+                  <l>Carptim singulas dapes truncabimus, ne sentiat.</l>
+               </sp>
+               <sp who="#bromia">
+                  <speaker>Bro.</speaker>
+                  <l>Vulpes annosa laqueis, ne erres, capi haud ullis potest.</l>
+                  <l n="(805)">Tum, quam iracundus, quam plagosus sit Pamphagus, scio,</l>
+                  <l>Praesertim, si eum tentes praeda fraudare escaria.</l>
+                  <l>Ob dapes surreptas ille caelum terrae misceat.</l>
+                  <l>Nec bolum cani famelico haud unquam tuto auferes.</l>
+                  <l>Proin caue, ne ullum tuo tibi iumento accersas malum,</l>
+                  <l n="(810)" part="I">Si sapis. Sed heus, tibi autem.</l>
+               </sp>
+               <sp who="#syrus">
+                  <speaker>Sy.</speaker>
+                  <l n="(810)" part="M">Nam quid est.</l>
+               </sp>
+               <sp who="#bromia">
+                  <speaker>Bro.</speaker>
+                  <l n="(810)" part="F">Quid? Respice.</l>
+                  <l part="I">Lais una cum hospite interuenit.</l>
+               </sp>
+               <sp who="#syrus">
+                  <speaker>Sy.</speaker>
+                  <l part="F">Enimuaero hercule</l>
+                  <l>Intempestiue heic subsisto, postquam cubitu hos conspicor</l>
+                  <l part="I">Surrexisse. Procurramus intro Bromia.</l>
+               </sp>
+               <sp who="#bromia">
+                  <speaker>Bromia.</speaker>
+                  <l part="F">I prae, sequar.</l>
+               </sp>
+            </div>
+            <div type="scene" n="5">
+               <head>Actus tertij. Scoena quinta.</head>
+               <stage>Acolastvs. Syrvs. Lais.</stage>
+               <stage>Senarij. Septenarij. et Octonarij.</stage>
+               <sp who="#acolastus">
+                  <l>Hem, seruule, quisquis es, adesdum, paucis te uolo.</l>
+               </sp>
+               <sp who="#syrus">
+                  <speaker>Sy.</speaker>
+                  <l n="(815)" part="I">Quid me uolt hospes magnificus?</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l n="(815)" part="F">Vt, dum siet tempus, uoces</l>
+                  <l>Nos ad repotia. Prodeambulabims istic interim.</l>
+               </sp>
+               <sp who="#syrus">
+                  <speaker>Sy.</speaker>
+                  <l part="I">Factum puta. Nihil aliud uis?</l>
+               </sp>
+               <sp who="#lais">
+                  <speaker>Lais.</speaker>
+                  <l part="F">Manda, lectum ut dapsilem</l>
+                  <l part="I">Concinnet.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l part="F">Heus, Genialem insterni lectulum</l>
+                  <l part="I">Dehinc curato sodes puer.</l>
+               </sp>
+               <sp who="#syrus">
+                  <speaker>Syrvs.</speaker>
+                  <l part="F">Curabitur promptissime.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l n="(820)">Non possum, quin te amplectar, mea uita, mea uoluptas unica.</l>
+               </sp>
+               <sp who="#lais">
+                  <speaker>Lais.</speaker>
+                  <l part="I">Amplectere lubens, animule mi Acolaste.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l part="F">Nunc iuuat</l>
+                  <l>Demum uiuere, nunc deleo ex animo omnes aegritudines,</l>
+                  <l>Postquam, o faciem pulchram, te contigit uidere et alloqui,</l>
+                  <l>Adesse in unis aedibus cibumque una capere.</l>
+                  <l n="(825)">Da mihi suauium, si amas me, delicium meum.</l>
+               </sp>
+               <sp who="#lais">
+                  <speaker>Lais.</speaker>
+                  <l part="I">Imo uel decem, ocelle mi.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Acola.</speaker>
+                  <l part="F">O lubentias uitae, o deum</l>
+                  <l>Voluptates. Quam uernant, quam lenocinantur omnia,</l>
+                  <l>Quae in te et quae circum te uideo. Digna es, cui bene faxim lubens.</l>
+                  <l part="I">Quicquid possideo, tuum est.</l>
+               </sp>
+               <sp who="#lais">
+                  <speaker>Lais.</speaker>
+                  <l part="F">Habeo pol gratiam tibi,</l>
+                  <l n="(830)" part="I">Passercule mi.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l n="(830)" part="F">Num quid poscis? Quicquid id est, dabo. Vis aureum</l>
+                  <l part="I">Spinter, uis flammeum, uis armillas? Dabo.</l>
+               </sp>
+               <sp who="#lais">
+                  <speaker>Lais.</speaker>
+                  <l part="F">Nihil</l>
+                  <l part="I">Horum uolo.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l part="M">Vis aurum?</l>
+               </sp>
+               <sp who="#lais">
+                  <speaker>Lais.</speaker>
+                  <l part="F">Torquem istum, mea mentula.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l>Et istuc et, si amplius optes quicquam dari, dabitur. Mihi</l>
+                  <l>Enim negare amicae quippiam religio est maxima.</l>
+                  <l n="(835)">En accipe torquem hunc, aptandum collo tuo tornatili.</l>
+               </sp>
+               <sp who="#lais">
+                  <speaker>La.</speaker>
+                  <l>Hem, mi dulcis pusio, quid iam? Satin placeo tibi?</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Ac.</speaker>
+                  <l>Tune? Etiam si nihil adiumenti ad pulchritudinem siet,</l>
+                  <l part="I">Forma Venerem exsuperas ipsam. Quid quod, Lais mea, rogo?</l>
+               </sp>
+               <sp who="#lais">
+                  <speaker>La.</speaker>
+                  <l part="F">Quid,</l>
+                  <l part="I">Acolaste?</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l part="M">Num me ames?</l>
+               </sp>
+               <sp who="#lais">
+                  <speaker>La.</speaker>
+                  <l part="F">Ludis? Potius me non amem,</l>
+                  <l n="(840)">Quam tibi desit amor. Hoc tam uaerum crede, quam te uiuere.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l>Age, craedo. <foreign>Ναὶ</foreign> felix ego sum, qui Laidi</l>
+                  <l>Placeam. Osculum, mea lux, hoc melle dulcius est. Meus, obsecro</l>
+                  <l part="I">Sis animus, quando ego sum tuus.</l>
+               </sp>
+               <sp who="#lais">
+                  <speaker>Lais.</speaker>
+                  <l part="F">Certe. Nullus mihi carior</l>
+                  <l part="I">Acolasto.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l part="F">Te uicissim amplector pro dimidio animae meae.</l>
+                  <l n="(845)">O molles dactyli, o genae lubentes, eia ut elegans</l>
+                  <l part="I">Es.</l>
+               </sp>
+               <sp who="#lais">
+                  <speaker>Lais.</speaker>
+                  <l part="M">Quis te quoque spernat, Veneris catellae?</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l part="F">At uror intime,</l>
+                  <l part="I">O mea festiuitas.</l>
+               </sp>
+               <sp who="#lais">
+                  <speaker>La.</speaker>
+                  <l part="F">Locus est, ubi ardorem hunc tuum</l>
+                  <l part="I">Extilles. Quid suspiras, corculum?</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l part="F">Te, faustitas mea.</l>
+                  <l>Tu pol meum mihi iecur ulceras amoribus.</l>
+               </sp>
+               <sp who="#syrus">
+                  <speaker>Syr.</speaker>
+                  <l n="(850)">Ita ut iussisti, hospes, toros instruximus.</l>
+                  <l>Quando uoles, commessatum intro concede, omnia</l>
+                  <l part="I">Sunt apparata.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l part="F">Ehodum ad me. Seruus tu quidem spectatus es</l>
+                  <l part="I">Satis, cui res mea curae sit. Cape hoc donarium.</l>
+               </sp>
+               <sp who="#syrus">
+                  <speaker>Syr.</speaker>
+                  <l part="F">Bonus</l>
+                  <l>Hercle es vir et perliberalis. Perpetuo me tibi facis</l>
+                  <l n="(855)">Deuinctum hoc beneficio tuo. Deos quaeso, ut saluus sies</l>
+                  <l>Nobis in multam aetatem. Quam saepe accidunt,</l>
+                  <l>Quae non ausis sperare. Furtum meditanti in sinus</l>
+                  <l part="I">Illabitur aurum praeter spem. Saluus sum.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Acola.</speaker>
+                  <l part="F">Iamne imus, meum</l>
+                  <l part="I">Nectar, meum mel?</l>
+               </sp>
+               <sp who="#lais">
+                  <speaker>La.</speaker>
+                  <l part="F">Quando uis. Nulla in me erit mora.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l n="(860)" part="I">Abeamus, hanc solidam noctem consecratum Veneri.</l>
+               </sp>
+               <sp who="#lais">
+                  <speaker>La.</speaker>
+                  <l n="(860)" part="F">Placet.</l>
+               </sp>
+            </div>
+         </div>
+         <div type="act" n="4">
+            <div type="scene" n="1">
+               <head>ACTVS QVARTVS. [Scaena prima]</head>
+               <stage>Pamphagvs solvs.</stage>
+               <stage>Octonarij.</stage>
+               <sp who="#pamphagus">
+                  <l>Itan ad clarum dormiui diem? Nox multa adhuc meis</l>
+                  <l>Est oculis. Eijciundus hercle est iste ueternus ab animo,</l>
+                  <l>Intendendi sunt nerui quaestui nostro. Sed nausea</l>
+                  <l>Quae tanta stomacho? Quidnam haec oscitatio uolt? Extendere</l>
+                  <l n="(865)">Hos neruos nunc demum iuuat, iuuat et oculis propellere</l>
+                  <l>Somnum. Quid? An ructas etiam Pamphage, crapulam hesternam? Insolens</l>
+                  <l>Istuc quidem facis. Valens stomachus, cui et cruda concoquit.</l>
+                  <l>Quid, an acidis opus erit inulis, quae mihi fastidia</l>
+                  <l>Extundant? Opinor latrare stomachum impranso, ut assolet.</l>
+                  <l n="(870)">Saburra enim uentris nunquam tantum memini grauarier,</l>
+                  <l>Vt eam egerere stomacho esset opus, ubi ipsam Aethnam circumfero.</l>
+                  <l>Sed heus, Pantolabumne tam mane, qui heri tantum biberit? Hem.</l>
+               </sp>
+            </div>
+            <div type="scene" n="2">
+               <head>Actus quarti. Scoena secunda.</head>
+               <stage>Pantolabvs. Pamphagvs.</stage>
+               <stage>Trimetroi.</stage>
+               <sp who="#pantolabus">
+                  <l>O salue, columen ordinis Parasitici.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l>Salue, o primum decus sectae Gnathonicae.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l n="(875)">Mutuum muli scabunt sane festiuiter,</l>
+                  <l>Mutuum dum testimonium inuicem damus.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l>Pantolabe, ecquid placuit hesterna epulatio?</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l>Nunquam quidem coenaui, quod xiam, unctius.</l>
+                  <l>Gulam oppleui meam usque ad summum dapsili</l>
+                  <l n="(880)" part="I">Luxu. Quid tu?</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l n="(880)" part="F">Genio ipse indulsi maxime.</l>
+                  <l>Non possum, summa quin circumlingam labra.</l>
+                  <l>Mel Atticum sapiunt hesterni iusculi</l>
+                  <l part="I">Reliquiae.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l part="F">Pol dentes et mihi uolupe est iugi</l>
+                  <l>Suctu macerare. Quin nidorem carnium</l>
+                  <l n="(885)">Vncti supreme digiti offundunt naribus.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l>I nunc et somnia irride posthac mea.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l>Non arbitrabar istuc, me Pamphage, fore.</l>
+                  <l>Foelices, qui tam propicium habuimus Comum.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l>Quid, agnoscis etiam, per quem huc promoueris?</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l n="(890)">Dis te patrono factus sum, mi Pamphage,</l>
+                  <l part="I">Ex mendico.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l part="M">Lubens foeci.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Panto.</speaker>
+                  <l part="F">Est, quod gestiam.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l part="I">Est, quod triumphem.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Panto.</speaker>
+                  <l part="M">Io, Liber pater.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l part="F">Io, io.</l>
+                  <l part="I">Ceres.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l part="F">Age ineamus, quaeso, cantiunculam,</l>
+                  <l part="I">Qualem sonant Euanti Thiades.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l part="F">Gaudia</l>
+                  <l n="(895)">Seruemus ista uespertinis horulis,</l>
+                  <l>Quibus uoluptabitur hospes cum Laide.</l>
+                  <l>Incoctus stomacho sic extundatur cibus</l>
+                  <l>In proximam coenam. Ieiunos haud decet</l>
+                  <l part="I">Stultescere tripudijs.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l part="F">Sapidissime mones.</l>
+                  <l n="(900)" part="I">Quid nunc fiet?</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l n="(900)" part="F">Quod somnij portenderat</l>
+                  <l part="I">Pars relliqua.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l part="M">Quid id est?</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l part="M">Num meministi?</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l part="F">Nihil.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l>Dolosa ut alea huius loculos atteram.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l>Communi num nam id fiet sorte, Pamphage?</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l part="I">Fiet.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l part="M">Merito te amo et colo.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l part="F">Fac interim</l>
+                  <l n="(905)">Curetur prandium et cella penuaria.</l>
+                  <l part="I">Faciam. Quid heic habes?</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l part="F">Lucrosas aleas.</l>
+                  <l part="I">Nostin?</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l part="F">Noui et sensi talos bene polypos,</l>
+                  <l>Quibus facultatum bona pars perijt mihi.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l>Nisi fallor, audio screantem Acolastum. Vale.</l>
+               </sp>
+            </div>
+            <div type="scene" n="3">
+               <head>Actus quarti. Scoena tertia.</head>
+               <stage>Pantolabvs solvs.</stage>
+               <stage xml:lang="grc">σκάζοντες.</stage>
+               <sp who="#pantolabus">
+                  <l n="(910)">Abijt homo, ut istius pecuniam emungat</l>
+                  <l>Omnem. Tot callet artes, tot dolos nouit.</l>
+                  <l>Principio, dum aleam ludit, satis fingit</l>
+                  <l>Se ludi indoctum, nonnunquam et manus blande</l>
+                  <l>Remittit, quare uelut hamo illicit pisces</l>
+                  <l n="(915)">Esca praetento. Mox ubi incalet lusor,</l>
+                  <l>Cupidini lucri auctioris incumbens,</l>
+                  <l>Pecuniae omneris grumos aleae in lusum</l>
+                  <l>Coniectos iactu uno facit suos. Quippe,</l>
+                  <l>Lucrosam presso pollice Venerem mittit,</l>
+                  <l n="(920)">Quoties uolt. Tum caniculae imperat, iactu</l>
+                  <l>Vt ne cadat damnosa, id quod meo dudum</l>
+                  <l>Didici malo, qui heic perdidi facultates</l>
+                  <l>Meas. Ictus piscator sapio. Vaerum hospes</l>
+                  <l>Amissa re protrudetur foras, duta</l>
+                  <l n="(925)">In quem fient exempla, timeo. Quid dixi</l>
+                  <l>Timere me? Imo gaudeo, quod minus laedant</l>
+                  <l>Communia mala. Quin adiutor accedam</l>
+                  <l>Miseriae illius, quando res feret. Cur non</l>
+                  <l>Mihi quoque liceat in alios, quod ipsorum</l>
+                  <l n="(930)">De me licuit licentiae? Sed heus exit</l>
+                  <l>A nobis nescio quis. Si Leno sit, miror.</l>
+                  <l>Certe, ipsus est. Quid, quod commotus apparet?</l>
+               </sp>
+            </div>
+            <div type="scene" n="4">
+               <head>Actus quarti. Scoena quarta.</head>
+               <stage>Sannio. Pantolabvs. Pamphagvs.</stage>
+               <stage>Tetrametroi omnes.</stage>
+               <sp who="#sannio">
+                  <l>Dii immortales, quod hoc proluuium est, quae istaec tanta largitas?</l>
+                  <l>Salus si cupiat ipsa, non possit seruare istunc uirum.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l n="(935)" part="I">Mi Sannio, cuius quaeso uiri casum miseraris?</l>
+               </sp>
+               <sp who="#sannio">
+                  <speaker>San.</speaker>
+                  <l n="(935)" part="F">Hospitis.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Panto.</speaker>
+                  <l part="I">Quid ille?</l>
+               </sp>
+               <sp who="#sannio">
+                  <speaker>Sannio.</speaker>
+                  <l part="M">Rem omnem amisit alea.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Panto.</speaker>
+                  <l part="F">Cuius captus dolis?</l>
+               </sp>
+               <sp who="#sannio">
+                  <speaker>San.</speaker>
+                  <l part="I">Cuius censes, nisi Pamphagi?</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Panto.</speaker>
+                  <l part="F">Dixin fore? O uersutias</l>
+                  <l part="I">Hominis uersipellis. Sed quid Acolastus?</l>
+               </sp>
+               <sp who="#sannio">
+                  <speaker>Sannio.</speaker>
+                  <l part="F">Perplexus iacet</l>
+                  <l part="I">In fermento.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Panto.</speaker>
+                  <l part="M">Censen uero hominem heic diu durate posse?</l>
+               </sp>
+               <sp who="#sannio">
+                  <speaker>San.</speaker>
+                  <l part="F">Non</l>
+                  <l n="(940)">Equidem arbitror. Nam proximum est, ut uel miser hospes prae
+                     inopia</l>
+                  <l>Fugiat aliquo uel finiat uitam laqueo, non uiuere</l>
+                  <l part="I">Malens, quam misere uiuere.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pampha.</speaker>
+                  <l part="F">Iamne erumpere hoc mihi gaudium</l>
+                  <l>Licet? Proh Mercuri, quam dextro me aspexisti sydere?</l>
+                  <l>Nonquam satis uos collaudem meos talos, uobis enim</l>
+                  <l n="(945)">Debeo, meam quod tuear uitam ab inaedia. Sic censeo</l>
+                  <l>Capiundos esse adulescentes istos pecunia ebrios.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pantola.</speaker>
+                  <l>Quis heic tam procaciter insultat dulci Fortuna ebrius?</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pamph.</speaker>
+                  <l part="I">Sed ubi mihi nunc Pantolabus est, cogito.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Panto.</speaker>
+                  <l part="F">Me nominat.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pampha.</speaker>
+                  <l part="I">Vt huius gaudij ille particeps fiat.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l part="F">Quid, Pamphage,</l>
+                  <l n="(950)" part="I">Quid gestis, obsecro?</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pampha.</speaker>
+                  <l n="(950)" part="F">Quid gestiam, rogas? Foeliciter</l>
+                  <l>Cecidit alea. Viden loculos, ut auro multo turgeant?</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Panto.</speaker>
+                  <l>Foestiuum caput. Amabo, num nam lucrum tecum partiar,</l>
+                  <l part="I">Vt conuenit?</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pampha.</speaker>
+                  <l part="M">Non pugnabimus istic.</l>
+               </sp>
+               <sp who="#sannio">
+                  <speaker>San.</speaker>
+                  <l part="F">Meis in aedibus</l>
+                  <l part="I">Tibi parta res est, quare, quod heic ius publicum est, redde.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pampha.</speaker>
+                  <l part="F">Accipe</l>
+                  <l n="(955)">Praedae partem, quo post queam integra uti amicitia tua.</l>
+               </sp>
+               <sp who="#sannio">
+                  <speaker>San.</speaker>
+                  <l part="I">Quis soluet ius hospicij?</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l part="M">Quid id autem mea?</l>
+               </sp>
+               <sp who="#sannio">
+                  <speaker>San.</speaker>
+                  <l part="F">In aedeis meas</l>
+                  <l part="I">Tu introduxti hominem.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pampha.</speaker>
+                  <l part="M">Sunt ei uestes.</l>
+               </sp>
+               <sp who="#sannio">
+                  <speaker>San.</speaker>
+                  <l part="M">Quid tum?</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pamph.</speaker>
+                  <l part="F">Illas exue</l>
+                  <l><foreign>Αχρήματον</foreign> nebulonem. Quod si illinc nihil resoluitur,</l>
+                  <l part="I">Redito ad me. Faciam ne quid querare.</l>
+               </sp>
+               <sp who="#sannio">
+                  <speaker>Sannio.</speaker>
+                  <l part="F">Vbi decoctor est?</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pampha.</speaker>
+                  <l n="(960)">Ab alueo intro proruit commotus Laidis, nisi</l>
+                  <l>Fallor, fruendae gratia, dolorem complexu ut leuet,</l>
+               </sp>
+               <sp who="#sannio">
+                  <speaker>San.</speaker>
+                  <l part="I">Abeo, ut meum ius postulem.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Panto.</speaker>
+                  <l part="F">Age Pamphage, sortem mihi face</l>
+                  <l part="I">Diuiduam.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pampha.</speaker>
+                  <l part="M">Ne nihil habeas, cape.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l part="M">Tantillum?</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pam.</speaker>
+                  <l part="F">Non amplius.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Pan.</speaker>
+                  <l part="I">An haec promissa fides est?</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pampha.</speaker>
+                  <l part="M">Irritor, ni desinas.</l>
+               </sp>
+               <sp who="#sannio">
+                  <speaker>San.</speaker>
+                  <l part="F">Pape,</l>
+                  <l n="(965)">Rixantes audio, quos animis rebar coniunctos bene.</l>
+               </sp>
+               <sp who="#pamphagus">
+                  <speaker>Pampha.</speaker>
+                  <l part="I">Quos?</l>
+               </sp>
+               <sp who="#sannio">
+                  <speaker>San.</speaker>
+                  <l part="F">Istos. Deplumis amator surde fit supplex Laidi.</l>
+                  <l>Vos adiutate me, precor, o boni, ut resoluat daebita.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Panto.</speaker>
+                  <l>Agedum, fores stipemus, ne effugiat hodie nostras manus.</l>
+               </sp>
+            </div>
+            <div type="scene" n="5">
+               <head>Actus quarti. Scoena quinta.</head>
+               <stage>Lais. Acolastvs. Syra. Pamphagvs. Pantolabvs.</stage>
+               <stage>Trochaici.</stage>
+               <sp who="#lais">
+                  <l part="I">Quin soluis noctem, sceleste?</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l part="F">Quaeso te, Lais mea.</l>
+               </sp>
+               <sp who="#lais">
+                  <speaker>Lais.</speaker>
+                  <l n="(970)"> Quid Lais mea? An tibi adeo digna uideor, quam dolis</l>
+                  <l part="I">Sic illudas, et spe uana producas.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l part="F">Numerabitur</l>
+                  <l part="I">Aurum tibi.</l>
+               </sp>
+               <sp who="#lais">
+                  <speaker>Lais.</speaker>
+                  <l part="M">Quando? Ad Graecas Kalendas?</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l part="M">Non, sed ad.</l>
+               </sp>
+               <sp who="#lais">
+                  <speaker>Lais.</speaker>
+                  <l part="F">Satis</l>
+                  <l part="I">Iam diu dedisti uerba nobis.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l part="F">Audi, obsecro te.</l>
+               </sp>
+               <sp who="#lais">
+                  <speaker>Lais.</speaker>
+                  <l part="I">Quem audiam? Quid audiam?</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l part="M">Quaeso paulisper.</l>
+               </sp>
+               <sp who="#lais">
+                  <speaker>La.</speaker>
+                  <l part="F">Hem Syra.</l>
+               </sp>
+               <sp who="#syra">
+                  <speaker>Syra.</speaker>
+                  <l n="(975)" part="I">Quid uis?</l>
+               </sp>
+               <sp who="#lais">
+                  <speaker>Lais.</speaker>
+                  <l n="(975)" part="M">Vestem huic detractam.</l>
+               </sp>
+               <sp who="#syra">
+                  <speaker>Syra.</speaker>
+                  <l n="(975)" part="M">Quid ita?</l>
+               </sp>
+               <sp who="#lais">
+                  <speaker>Lais.</speaker>
+                  <l n="(975)" part="F">Quia lubet. Cape</l>
+                  <l part="I">Vestem.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l part="M">Itan, Lais?</l>
+               </sp>
+               <sp who="#sannio">
+                  <speaker>Sannio.</speaker>
+                  <l part="F">Mea hic res agitur. Hem Lais, satis</l>
+                  <l>Hoc sit exuuium tibi, mihi cedant hae manubiae,</l>
+                  <l part="I">Ensis cum pileo.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Panto.</speaker>
+                  <l part="F">Quod reliquum est praedae, nostrum est. Exue.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Acola.</speaker>
+                  <l part="I">Vis quidem est haec, obsecro, o populares?</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Panto.</speaker>
+                  <l part="F">Quin os compromis?</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l n="(980)">Haeccine fieri flagicia in libera ciuitate? Vah,</l>
+                  <l>Totus deglubor miser. Num nam relinquetis mihi</l>
+                  <l part="I">Amiculum.</l>
+               </sp>
+               <sp who="#pantolabus">
+                  <speaker>Panto.</speaker>
+                  <l part="M">I sane iam, quo uis.</l>
+               </sp>
+               <sp who="#sannio">
+                  <speaker>Sannio.</speaker>
+                  <l part="M">Vapula.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l part="F">Hei hoi, uerbera</l>
+                  <l part="I">Insuper misero additis?</l>
+               </sp>
+               <sp who="#sannio">
+                  <speaker>Sannio.</speaker>
+                  <l part="F">Diuortite ad me omnes simul.</l>
+               </sp>
+               <sp who="#lais">
+                  <speaker>Lais.</speaker>
+                  <l>Heus tu nebulo, respice ad me. Vestitum hunc depexum habe.</l>
+               </sp>
+            </div>
+            <div type="scene" n="6">
+               <head>Actus quarti. Scoena sexta.</head>
+               <stage>Acolastvs solvs.</stage>
+               <stage>Senarij.</stage>
+               <sp who="#acolastus">
+                  <l n="(985)">Quid nunc agam? Quid clamem? Aut unde exordiar</l>
+                  <l>Telam quaerendi? O coelum, o terra. Iupiter,</l>
+                  <l>Aspicis haec, et patere, quem dicunt hospiti</l>
+                  <l>Dare iura? Tam multae res me circumsident,</l>
+                  <l>Quae me afflictent malae, ut, ubi sim, quo eam, rei</l>
+                  <l n="(990)">Quid coeptem, nesciam. Perij, interij miser.</l>
+                  <l>Ex rege nummato ampliter repente inops</l>
+                  <l>Mendicus? Quis ferat? Mirum, ni lumina</l>
+                  <l>Mihi exculpam. Vestitus ubi? Perijt. Meus</l>
+                  <l>Vbi torques aureus? Perijt. Pecuniae</l>
+                  <l n="(995)">Vbi tanta uis? Perijt. Valetudo nihil</l>
+                  <l>Ne attrita est? Haud lubet meminisse. Pauperem</l>
+                  <l>Quis me tecto dignabitur? Hem, tandem mihi</l>
+                  <l>Tellus fodienda, aut stips mendicanda est. Negant</l>
+                  <l>Illud uires exhaustae et hoc prohibet pudor.</l>
+                  <l n="(1000)">Accedit et malis meis, quod durior</l>
+                  <l>Fames totam regionem occupet, ut nesciam,</l>
+                  <l>Si quis me admissurus sit ad coenae suae</l>
+                  <l>Micas. Fame inteream oportet. Sed cui malum hoc</l>
+                  <l>Feram acceptum? Illis, qui me illexerunt nimis</l>
+                  <l n="(1005)">Dolose in fraudes, an mihi, qui auscultauerim?</l>
+                  <l>An irato meo genio, qui me his malis</l>
+                  <l>Conclusit? Quam nouercaris, Rhamnusia?</l>
+                  <l>Quam me deorum ira afflictat male? Hei mihi.</l>
+                  <l>Sed frustra quiritor heic, ubi nemo audiat.</l>
+                  <l n="(1010)">Id solum restat, fata ut quo me cunque agant</l>
+                  <l>Eo nunc errans subsequar. O dolor, dolor.</l>
+                  <l>Vt dij uos male perdant lupae obscoenissimae,</l>
+                  <l>Quibus seruiui turpiter. Sed commodum</l>
+                  <l>A uilla rusticus uenit. Istpunc adoriar,</l>
+                  <l n="(1015)">Pudore posito, ut qui mihi sit inutilis.</l>
+               </sp>
+            </div>
+            <div type="scene" n="7">
+               <head>Actus quarti. Scoena septima.</head>
+               <stage>Chremes. Acolastvs.</stage>
+               <stage xml:lang="grc">σκάζοντες.</stage>
+               <sp who="#chremes">
+                  <l>Ex uillula mea tantum reportare</l>
+                  <l>Solitus eram prouentuum, ut satis uitae</l>
+                  <l>Necessitati illinc reponeretur. Sed</l>
+                  <l>Quia nunc in partu ager est remissior, pingui</l>
+                  <l n="(1020)">Porca tellurem censeo piandam esse,</l>
+                  <l>Vt ruri cuncta prouenire det multo</l>
+                  <l>Foelicius, quam dudum, cum boues omnes</l>
+                  <l>Ad unum abortirent segesque constanti</l>
+                  <l>Robigine uitiata non daret messem,</l>
+                  <l n="(1025)">Quae res peperit nobis penuriam annonae.</l>
+                  <l>Omen sinistrum, hic magnus nebulo stat. Quid uolt?</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Acolastvs.</speaker>
+                  <l part="I">Colone, salue plurimum.</l>
+               </sp>
+               <sp who="#chremes">
+                  <speaker>CHRE.</speaker>
+                  <l part="F">Satis dudum</l>
+                  <l>Salueo, si non etiam tu mihi salutem des.</l>
+                  <l part="I">Quid uis?</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Acolastvs.</speaker>
+                  <l part="F">Precor, ut hoedi, boues, oues, caprae,</l>
+                  <l n="(1030)" part="I">Tibi foetus edant pro uoto tuo.</l>
+               </sp>
+               <sp who="#chremes">
+                  <speaker>Chremes.</speaker>
+                  <l n="(1030)" part="F">Faxit</l>
+                  <l part="I">Ita Pan noster. Vale.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Acolastvs.</speaker>
+                  <l part="F">Quaeso, audias pauca,</l>
+                  <l part="I">Prius, quam abis.</l>
+               </sp>
+               <sp who="#chremes">
+                  <speaker>Chremes.</speaker>
+                  <l part="M">Num quid te torquet autem?</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l part="F">Ingens</l>
+                  <l part="I">Fames.</l>
+               </sp>
+               <sp who="#chremes">
+                  <speaker>Chremes.</speaker>
+                  <l part="F">Craedo, grassatur illa multorum</l>
+                  <l part="I">In faucibus.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Acolastvs.</speaker>
+                  <l part="F">Nunc te oro, eam leues pane</l>
+                  <l n="(1035)" part="I">Atro uel furfure.</l>
+               </sp>
+               <sp who="#chremes">
+                  <speaker>Chremes.</speaker>
+                  <l n="(1035)" part="F">Ociosus es totus,</l>
+                  <l part="I">Proinde indignus, cui uictus detur.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Acolast.</speaker>
+                  <l part="F">At nullus</l>
+                  <l>Me uocat ad operas. Quod si ullo tuo ex usu</l>
+                  <l>Queam esse, non detrecto manus meas duro</l>
+                  <l>Operi locare pro tolerabili uictu.</l>
+               </sp>
+               <sp who="#chremes">
+                  <speaker>Chremes.</speaker>
+                  <l n="(1040)">Sequere me ablegandus mox ad meos porcos,</l>
+                  <l>Vt eos agas. Te dignum commeatum addam.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Acolastvs.</speaker>
+                  <l>Sequor. Vah, ab equis ad asinos? Non magis craedas</l>
+                  <l>Fortunae uoltui quam mobili uento.</l>
+               </sp>
+            </div>
+         </div>
+         <div type="act" n="5">
+            <div type="scene" n="1">
+               <head>Actus quintus. [Scaena prima]</head>
+               <stage>Pelargvs. Eubvlvs.</stage>
+               <stage>Septenarij et octonarij.</stage>
+               <sp who="#pelargus">
+                  <l>Praesagit animus, nescio quid mihi imminere tristius.</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Evb.</speaker>
+                  <l n="(1045)" part="I">De quo?</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pel.</speaker>
+                  <l n="(1045)" part="M">De filio, Eubule.</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Evb.</speaker>
+                  <l n="(1045)" part="F">Nimis suspiciosus es,</l>
+                  <l>Pelarge, quo quid aliud quam malum conduplicas tibi?</l>
+                  <l>Neque enim formidine ulla arcere potes malum foribus tuis.</l>
+                  <l part="I">Quid autem est, quod te sollicitat, cedo?</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pelar.</speaker>
+                  <l part="F">Ne ille algeat,</l>
+                  <l part="I">Neu uitam misere trahat in sordibus.</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Evbv.</speaker>
+                  <l part="F">Quaeso, unde has colligis</l>
+                  <l n="(1050)" part="I">Suspiciones?</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pelarg.</speaker>
+                  <l n="(1050)" part="F">Primum ominis tui nequeo obliuiscier.</l>
+                  <l>Hinc ante oculos meos subinde astare uisus filius,</l>
+                  <l>Pannosus, sentus, squalidus, <foreign>μονόγραμμος</foreign> floetibus</l>
+                  <l>Largis oppletus lumina, uoces unde hausi mestissimas.</l>
+                  <l>Postremo uereor, quid sit, quod de ipso nihil audiam,</l>
+                  <l n="(1055)" part="I">Nisi mortuus est. Quid censes?</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Evbv.</speaker>
+                  <l n="(1055)" part="F">Proximum esse nuncium,</l>
+                  <l>Statum gnati qui commemoret, quis sit, proin desinas metum.</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pe.</speaker>
+                  <l>Curae est mihi haud secus ac oculi pupilla. Quin pariter, cum hoc eo</l>
+                  <l>Me affligi interpretor, quoties illi quicquam est aegre, quia</l>
+                  <l>Hoc, inquam, patrium est, communia mala bonaque ducere.</l>
+                  <l n="(1060)">Hoc qui nescit, fateatur se indignum esse patris nomine.</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Evbv.</speaker>
+                  <l>Nempe, ut dicis. Sed modus est in re qualibet optimus.</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pelargvs.</speaker>
+                  <l part="I">Est, si queam assequi.</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Evbv.</speaker>
+                  <l part="F">Velis solum dolorem ponere.</l>
+                  <l part="I">Facile quieuerit.</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pe.</speaker>
+                  <l part="F">Alios nescio, sed euenit</l>
+                  <l>Mihi quidem, ut aegritudo cotidie magis de filio</l>
+                  <l n="(1065)">Augescat. Tantum abest, dies ut adimat aegritudinem.</l>
+                  <l>Nam quanto abest diutius, hoc magis cupio, tanto et magis</l>
+                  <l part="I">Desidero.</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Evbv.</speaker>
+                  <l part="F">Pelarge, quod animus iamdudum dictitat</l>
+                  <l>Haud longe abesse nun,cium, haud uanum puto. Abiero</l>
+                  <l>Igitur ad portitores, ex quibus forsan discam omnia.</l>
+                  <l n="(1070)">Tu me interea domi operitor, mox huc reuolauero.</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pelargvs.</speaker>
+                  <l>Faciam. Quam suspicioso nunc sum animo, omnia timeo neque</l>
+                  <l>Quicquam timeo. Sediciosus plane cordis mei</l>
+                  <l>Senatus est, in quo nihil consilij consistere queat.</l>
+                  <l>Ita ut fit, ubi, quod impense cupis, times ne non tibi</l>
+                  <l n="(1075)">Aduorsum eueniat. Inter spem et metum haereo, huc me conijcit</l>
+                  <l>Gnatus, cuius salutem, quam accuro, uereor nimis</l>
+                  <l>Deploratam esse. Vt omnia plaena sunt periculis, dolis,</l>
+                  <l>Labe, maculis et pestibus, quoquo uorsum respexeris.</l>
+                  <l>Domi nunc desidere certum est, dum Eubulus redeat meus.</l>
+               </sp>
+            </div>
+            <div type="scene" n="2">
+               <head>Actus quinti. Scoena secunda</head>
+               <stage>Acolastvs solvs.</stage>
+               <stage>Trimetroi.</stage>
+               <sp who="#acolastus">
+                  <l n="(1080)">Quis tam durae est mentis, quem non deiecerit</l>
+                  <l>In luctum et lachrymas Fortunae acerbior</l>
+                  <l>Casus. Argentum, quod rebar dudum mihi</l>
+                  <l>Fore immortale, uah, quam puncto temporis</l>
+                  <l>Perijt. Luxuria, Inopiae mater, quam mihi</l>
+                  <l n="(1085)">Amicam habui unice charam, omnia abstulit,</l>
+                  <l>Rem, nomen, amicos, gloriam, quid non? Quia</l>
+                  <l>Vaero nunc non est, unde ipsa alatur, suam</l>
+                  <l>Mihi reliquit gnatam Inopiam. Viuus, uidens</l>
+                  <l>Pereo. Vbi nunc tuceta sunt et splendidae</l>
+                  <l n="(1090)">Dapes? Vbi uinum mire fragrans? Vbi</l>
+                  <l>Tibicines et omne genus modulaminum?</l>
+                  <l>Vbi clientes? Profecto hoc uaere dicitur:</l>
+                  <l>Fortuna uitrea est, quae, quom splendet, frangitur.</l>
+                  <l>Canistellum hoc penum dedit parcissimum,</l>
+                  <l n="(1095)">Et eundum sordidissimum, quod quom siet</l>
+                  <l>Exhaustum, quid reliquom est, nisi ut aqualiculus</l>
+                  <l>Siliquas mihi det cum porcis communes, prius</l>
+                  <l>Quam totus inteream Sagontina fame?</l>
+                  <l>Itane subulcus heic regno Baeoticas</l>
+                  <l n="(1100)">Inter sues, rex pridem splendidissimus?</l>
+                  <l>Miser nemo est aeque atque ego. Nunc, nunc postulem</l>
+                  <l>Frugi esse, nisi nequicquam hoc postulem bonis</l>
+                  <l>Amissis omnibus. Quid faciam igitur? Quid? In</l>
+                  <l>Sordibus istis, oportet sordescam magis</l>
+                  <l n="(1105)">Ac magis, unde emergendi spes mihi nulla sit.</l>
+                  <l>Vtinam in matris nixu occubuissem infantulus,</l>
+                  <l>Vtinam inuisam hanc lucem licuisset rumpere,</l>
+                  <l>Potius, quam uitam in tantis aerumnis traham.</l>
+                  <l>Neque sciam, si meliora etiam instent mortuo.</l>
+                  <l n="(1110)">Ego mihi montis ardui casum imprecer,</l>
+                  <l>Qui me perdat, tam non suaue est uiuere.</l>
+                  <l>Mortis simulacrum qui uolet uidere, me</l>
+                  <l>Contempletur. Quid enim uiuum in me aduortitur?</l>
+                  <l>Quid sum praeter mutum pecus et sine pectore</l>
+                  <l n="(1115)">Corpus? Veh luci, veh natalibus meis.</l>
+                  <l>Taedet coeli conuexa contuerier amplius.</l>
+                  <l>Nam ut unda superuenit undam, ita alij fluctui</l>
+                  <l>Curarum insistit alius. Aestuans mare</l>
+                  <l>Pectus meum dicas ex uaero nomine.</l>
+                  <l n="(1120)">Num me deorum quisquam respicit,</l>
+                  <l>Quibus tam sum neglectui? Haud equidem arbitror.</l>
+               </sp>
+            </div>
+            <div type="scene" n="3">
+               <head>Actus quinti. Scoena tertia.</head>
+               <stage>Eubvlvs solvs.</stage>
+               <stage>Trochaici Katalecticoi.</stage>
+               <sp who="#eubulus">
+                  <l>Est istuc datum mihi, ut nusquam non recte consulam</l>
+                  <l>Atque uideam non solum quae sunt ante pedes obuia,</l>
+                  <l>Vaerum et quae procul uentura sint, prospiciam longius.</l>
+                  <l n="(1125)">Veni ad portitores, ut quae de Pelargi filio</l>
+                  <l>Fama narraret publica, cognoscerem, quando id patrem</l>
+                  <l>Mire sollicitum teneret. Quid multis ago? Comperi</l>
+                  <l>Neutiquam falsa esse, quae nuper de ipso dedi omina.</l>
+                  <l>Scilicet Acolastus ad paupertatem pertractus est</l>
+                  <l n="(1130)">Adeo poenitendam, ut ad fruges non possit corrigi.</l>
+                  <l>Taceo, quae de eo grauiora audiui. Quid restat, nisi</l>
+                  <l>Vt Pelargum repetam, qui curis se afflictat improbis.</l>
+                  <l>Nam me (scio), sollicitus expectat, dum ad se redeam domum.</l>
+               </sp>
+            </div>
+            <div type="scene" n="4">
+               <head>Actus quinti. Scoena quarta.</head>
+               <stage>Acolastvs solvs.</stage>
+               <stage>Senarij.</stage>
+               <sp who="#acolastus">
+                  <l>Scelerate mentis carnificina, uah, quibus</l>
+                  <l n="(1135)">Me excruciat modis, ut nusquam sit locus</l>
+                  <l>Quietae menti. Plumbum gestare uideor</l>
+                  <l>In pectore. Adeo graui intus pondere torqueor.</l>
+                  <l>An nonquam desinent oculis meis mala</l>
+                  <l>Mea, et quae admisi turpiter, obuersarier?</l>
+                  <l n="(1140)">Quae de inferis narrantur fabulosa sunt</l>
+                  <l>Omnia, si non uaeros experior inferos.</l>
+                  <l>Egomet me concoquo, exedo atque etiam execror.</l>
+                  <l>Dignus sum, quem ima tellus dehiscat, ob meam</l>
+                  <l>Iniusticiam, quae tanta est, ut non audeam</l>
+                  <l n="(1145)">Vnquam mihi sperare ueniam a patre. Nam</l>
+                  <l>Eius lene imperium reieci perfidus,</l>
+                  <l>Vnde abdicatus mox diuorti ad pessima</l>
+                  <l>Quaeque flagicia. Rem omnem confregi turpiter</l>
+                  <l>Luxu, infami alea. Quid, quod scortis dedi?</l>
+                  <l n="(1150)">Merito quidem meo hanc inopem uitam incolo,</l>
+                  <l>Inglorius uiuo, patria careo. Adde, quod</l>
+                  <l>Eam maculam incidi, quam, nescio si eluam</l>
+                  <l>Vnquam, ut taceam, quod aspersi genus meum</l>
+                  <l>Infamibus notis, quod fabula sum omnibus</l>
+                  <l n="(1155)">Notis, amicis. Tum quid dicam de patre,</l>
+                  <l>In quem tot nominibus iniurius fui?</l>
+                  <l>Bonis cum corporis, tum animae mihi datis</l>
+                  <l>Datorem contra, fateor, abusus sum impie.</l>
+                  <l>Vbi nunc, Philaute, consultor mihi es meus,</l>
+                  <l n="(1160)">Dum consilium simul cum re amisi miser?</l>
+                  <l>Vt iussa patris cum sacro uolumine</l>
+                  <l>Legis contemnerem, id ne auctor fueras mihi ?</l>
+                  <l>Deos mihi iratos scio, qui auscultauerim.</l>
+                  <l>Porro, super omnia intolerabilis est fames,</l>
+                  <l n="(1165)">Quam gesto in utero, ubi et dolores excitat</l>
+                  <l>Magnos, morte omni atrociorem. Nam neque</l>
+                  <l>Siliquis neque coeno quo immergor, sedare eam</l>
+                  <l>Datur. Dolor uteri manet, manet fames.</l>
+                  <l>Adeo nonquam nisi deterius habebo in hac</l>
+                  <l n="(1170)">Regione. Non uideo, quid restet consili.</l>
+                  <l>Heu me. Quot mercennarij in patris aedibus</l>
+                  <l>Abundant panibus, dum ego interim heic fame</l>
+                  <l>Pereo. Quiduis possem illic facere et perpeti,</l>
+                  <l>Vt ex calamitate hac tanta me extraham.</l>
+                  <l n="(1175)">Vel unus panis ibi hanc leuauerit famem.</l>
+                  <l>Age, age, quid si patrios postliminio petam</l>
+                  <l>Lares? Non ausim propterea, quod exulem</l>
+                  <l>Me illinc foeci. Quid si tentem tum. Nihil</l>
+                  <l>Egero. Qua fronte enim, quo ore, quibus uestibus</l>
+                  <l n="(1180)">Redeam ad patrem nudus, sceleratus, impudens?</l>
+               </sp>
+            </div>
+            <div type="scene" n="5">
+               <head>Actus quinti. Scoena quinta.</head>
+               <stage>Pelargvs. Eubvlvs. Acolastvs.</stage>
+               <stage>Senarij omnes.</stage>
+               <sp who="#pelargus">
+                  <l part="I">Ain tu?</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Evbv.</speaker>
+                  <l part="M">Sic est.</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pe.</speaker>
+                  <l part="F">Obsecro te, quid audio?</l>
+                  <l>Itane tandem famam, patriaque tibi bona</l>
+                  <l>Acolaste, tradidi, ut per flagitia perderes</l>
+                  <l>Mea uirtute partam gloriam? Viam</l>
+                  <l n="(1185)">Foeci facilem et planam ad uirtutis culmina.</l>
+                  <l>Tu foecisti, ut difficilior nepotibus</l>
+                  <l>Posthac tuis sit, qui libidinem malam</l>
+                  <l>Virtuti anteposueris. An non aequom fuit,</l>
+                  <l>Meo ex praescripto uiuere te? Philautus hoc</l>
+                  <l n="(1190)">Tibi adiutor fuit, ut huc corrueres mali.</l>
+                  <l>Vaerissima stat sententia, ubi animus semel</l>
+                  <l>Cupiditate se deuinxerit mala,</l>
+                  <l>Consilia consequi prorsus consimilia.</l>
+                  <l>O me bis miserum patrem tali filio.</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Ev.</speaker>
+                  <l n="(1195)">Pelarge mi, quin mittis has quaerimonias?</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pelargvs.</speaker>
+                  <l>Iustas parit quaerimonias iustus dolor.</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Evbvlvs.</speaker>
+                  <l>Craedo. Sed nunc res poscit et locus monet,</l>
+                  <l>Vt cogites de restituendo filio</l>
+                  <l>Pariterque affectum in eum induas pij patris</l>
+                  <l n="(1200)">Et re declares ipsa, quanti filium</l>
+                  <l>Facias. Aegrotus non nisi medica manu</l>
+                  <l part="I">Opus habet.</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pelargvs.</speaker>
+                  <l part="M">Habet, si spes sit uitae.</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Evb.</speaker>
+                  <l part="F">Est multa adhuc</l>
+                  <l part="I">In filio.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Acolast.</speaker>
+                  <l part="F">Nullus sum, si non quispiam</l>
+                  <l>Deus mihi ceu <foreign>ἀπὸ μηχανῆς</foreign> appareat,</l>
+                  <l n="(1205)">Nam male sibi consciae menti mors ingruit.</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pelarg.</speaker>
+                  <l>Age, quae ille designauit mala, non iam puto.</l>
+                  <l>Quin magis in hoc incumbam, uti honorem inglorio,</l>
+                  <l>Salutem perdito uitamque mortuo</l>
+                  <l part="I">Hinc, Eubule, apprecer.</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Evb.</speaker>
+                  <l part="F">Pol te dignum facis.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Acolas.</speaker>
+                  <l n="(1210)">Sed illud ecce subito aspiratur mihi,</l>
+                  <l>Bonum esse patrem, facilem, placabilem, pium.</l>
+                  <l>Vt attollam caput, illinc spem mihi veniae</l>
+                  <l>Affulgere. Hem, quid si insistam ad patrem meum</l>
+                  <l>Precatiunculam meditari supplicem?</l>
+                  <l n="(1215)">Pater, peccaui in caelum et coram te. Tuus</l>
+                  <l>Posthac indignus sum, qui dicar filius.</l>
+                  <l>Sodes, Pater, uelut unum e mercennarijs</l>
+                  <l>Tuis me habeas. Nihil operae quantumlibet</l>
+                  <l>Hinc sordidae recusem facere, ut in tuum</l>
+                  <l n="(1220)">Municipium asscribar. Quid hoc? Oratio</l>
+                  <l>Placet. Euge surgam et patris regiam mei</l>
+                  <l>Recta petam contemptis sordibus. Id agam.</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pel.</speaker>
+                  <l>Hem, quid? Quid cogitas? Num fata filij?</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Evb.</speaker>
+                  <l>Quin dicam, quod libenter audias? Tuum</l>
+                  <l n="(1225)" part="I">Videbis hodie filium.</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pe.</speaker>
+                  <l n="(1225)" part="M">Meumne?</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Evb.</speaker>
+                  <l n="(1225)" part="F">Ita.</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pel.</speaker>
+                  <l part="I">Meum, obsecro, filium?</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Ev.</speaker>
+                  <l part="M">Sic diuino.</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pe.</speaker>
+                  <l part="F">Deos</l>
+                  <l>Quaeso, ut ne uana sint, quae nuncias. Enim</l>
+                  <l>Vaero, cupio ipsum iam uidere, et alloqui.</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Ev.</speaker>
+                  <l>Non esse eum procul a portu nunc arbitror.</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pel.</speaker>
+                  <l n="(1230)">Age, uisamus, meus si redeat particeps.</l>
+                  <l>In quem affectum uaere patrium modo indui,</l>
+                  <l>Praeteritorum nihil reminiscens amplius.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l>Quid, quo molior iter? Ad patremne? Maximum</l>
+                  <l>Profecto facinus audeo. Nolo. Volo.</l>
+                  <l n="(1235)">Ecquo fraetus? Nihil referas pedem tamen.</l>
+                  <l>Quis ille sibilus? Quo me transuorsum rapit?</l>
+                  <l>Praeter spem in spem erigor mihi instantis boni.</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pel.</speaker>
+                  <l>Quando tandem uidebo te fili? Nihil</l>
+                  <l part="I">Ne te miseret huius patris?</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Ev.</speaker>
+                  <l part="F">Quid tam gemis,</l>
+                  <l n="(1240)" part="I">Pelarge? Noli te macerare.</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pel.</speaker>
+                  <l n="(1240)" part="F">Eubule mi,</l>
+                  <l>Quid quaeso est, quod mea commouentur uiscera</l>
+                  <l>Ad istius occursum, quem prospicio procul?</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Ev.</speaker>
+                  <l part="I">Pelarge, filius est.</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pe.</speaker>
+                  <l part="F">Est? Certe est. Proruam</l>
+                  <l part="I">In illius amplexus.</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Ev.</speaker>
+                  <l part="M">Sum uaerus.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l part="F">Sed patrem</l>
+                  <l n="(1245)">Video. Quid porro agam? Adeon ad eum? Scilicet.</l>
+                  <l>Pater, peccaui in caelum et coram te, neque</l>
+                  <l>Posthac sum dignus, dici filius tuus,</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pe.</speaker>
+                  <l part="I">Hem, mi fili, o fili mi!</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l part="F">Au, mi pater, fuge has</l>
+                  <l part="I">Meas sordes.</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pe.</speaker>
+                  <l part="F">Nihil quicquam offendunt, quia</l>
+                  <l n="(1250)" part="I">Te amo, gnate mi.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Acolast.</speaker>
+                  <l n="(1250)" part="M">Obsecro, pater.</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pe.</speaker>
+                  <l n="(1250)" part="F">Donata sunt</l>
+                  <l>Tibi omnia, bono animo es. Places, nunquam ut magis.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Acol.</speaker>
+                  <l part="I">O pietas patris.</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pel.</speaker>
+                  <l part="M">Nunc tollare humo.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l part="F">Hoccine</l>
+                  <l part="I">Est esse patrem? Hoccine esse filium?</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pel.</speaker>
+                  <l part="F">Heus, cito</l>
+                  <l>Proferte stolam primam, et induite filium.</l>
+                  <l n="(1255)">Deinde anulum ei in manum, tum calceos</l>
+                  <l>Pedibus ipsius submittite. Subinde uitulum</l>
+                  <l>Illum bene saginatum adducite atque item</l>
+                  <l>Mactate, quo sumptis epulis laetemur et</l>
+                  <l>Vno omnes imbuamur gaudio, quia</l>
+                  <l n="(1260)">Hic filius meus iamdudum mortuus</l>
+                  <l>Erat et reuixit, perierat et inuentus est.</l>
+               </sp>
+               <sp who="#acolastus">
+                  <speaker>Aco.</speaker>
+                  <l>Sed o</l>
+                  <l>Quid ego nunc te laudem, pater, qui laudibus</l>
+                  <l>Es omnibus superior? Hoc certo scio.</l>
+                  <l n="(1265)">Nunquam tam magnifice quicquam dicam, tua</l>
+                  <l>Quin id pietas longe superet. Itan</l>
+                  <l>Ex inferis et morte, ad uitam et gaudia,</l>
+                  <l>Reuocasti me? Prae gaudio, ubi sim, nescio.</l>
+                  <l>Res nulla potest mihi tanta interuenire iam,</l>
+                  <l n="(1270)">Vt aegritudinem adferat, tam gaudeo</l>
+                  <l>Me patrem habere te. Tibi me dedo libens,</l>
+                  <l>Tibi me totum permitto. Tu mihi pater,</l>
+                  <l part="I">Tu patronus, tu seruator, tu.</l>
+               </sp>
+               <sp who="#pelargus">
+                  <speaker>Pel.</speaker>
+                  <l part="F">Gnate mi,</l>
+                  <l>Exhinc eris mihi multo coniunctissimus,</l>
+                  <l n="(1275)">Vna salute foelix conuiues mihi.</l>
+               </sp>
+               <sp who="#eubulus">
+                  <speaker>Ev.</speaker>
+                  <l>Scilicet.</l>
+               </sp>
+            </div>
+         </div>
+         <div type="epilogue">
+            <head>PERORATIO</head>
+            <stage>Trimetroi.</stage>
+            <sp who="#epilogus">
+               <l>Nolo putes, spectator optime, heic nihil</l>
+               <l>Misterij latere tectum ludicra</l>
+               <l>Sub actione. Quippe, perdito salus</l>
+               <l n="(1280)">Vt parta sit homini, reteximus uelut</l>
+               <l>Imagine oculis prodita, unde discere</l>
+               <l>Facile potes, que hominis rebellio in deum</l>
+               <l>Et contumacia, quam meritam accersat sibi</l>
+               <l>Mortem. Sed ex aduorso habes, Dei patris</l>
+               <l n="(1285)">Sit quanta pietas, qui libenter redditum</l>
+               <l>Sibi filium recipit neque exprobat sua</l>
+               <l>Ipsi impius commissa, sed complexibus,</l>
+               <l>Sed osculis in filium totus ruit,</l>
+               <l>Nihil moratus illius sordes. Amor</l>
+               <l n="(1290)">Enim haud uidet maculam et prompte mali</l>
+               <l>Pridem patrati obliuia accipit. Cito</l>
+               <l>Qui laeditur, parum amet oportet. Iam pater</l>
+               <l>Caelestis omneis citra citrouersiam</l>
+               <l>Vt amore uincit, ita et reponit filio</l>
+               <l n="(1295)">Suo beneficia summa, pro maleficijs</l>
+               <l>Summis facitque, ut tota gaudijs domus</l>
+               <l>Nunc perstrepat, quae luctuosa dudum erat.</l>
+               <l>Quaeso, uicissitudinem rerum uide.</l>
+               <l>Huc gaudiorum omnes quidem uocamini,</l>
+               <l n="(1300)">Qui astatis istic, si modo agnito malo</l>
+               <l>Resipiscitis ueniaeque spem cum prodigo</l>
+               <l>Nepote uobis a patre pollicemini.</l>
+               <l>In hoc adeo Christus parabolam ipse adhibet,</l>
+               <l>Vt quam dolemus nos Deo aduersarios</l>
+               <l n="(1305)">Iraeque nasci filios, tam nos iuuet</l>
+               <l>Contra, in patris longe optimi quod gratiam</l>
+               <l>Rediuimus per Spiritus charismata.</l>
+               <l>Quae si tibi persuasa erunt, per nos satis,</l>
+               <l>Spectator optime, nihil est, quod amplius</l>
+               <l n="(1310)">Sperabis a nobis. Frui istis gaudijs</l>
+               <l>Tibi datur in omnes dies. Plaude et Vale.</l>
+            </sp>
+         </div>
+      </body>
+      <back>
+         <docImprint> GVLIELMVS FVLLONIVS CANEBAT APVD HAGIENSIS SVOS. <date when="1529">ANNO M.D.
+               XXIX</date>. EXCVSSVM <pubPlace>ANTVERpiae</pubPlace> in aedibus <name>Martini
+               Caesaris</name>, Expensis <publisher>Godfridi Dumaei</publisher>. <date
+               when="1529-07-23">Vicesima tertia Iulij</date>. </docImprint>
+      </back>
+   </text>
+</TEI>
