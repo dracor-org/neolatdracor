@@ -6,14 +6,19 @@
             <title>Acolastus</title>
             <title type="sub">De filio prodigo comoedia</title>
             <author>
-               <persName xml:lang="la">Gulielmus Gnapheus</persName>
+               <persName xml:lang="la">
+                  <forename>Gulielmus</forename>
+                  <surname>Gnapheus</surname>
+               </persName>
                <idno type="wikidata">Q777548</idno>
                <idno type="pnd">119861240</idno>
             </author>
-            <editor>Jan Bloemendal</editor>
+            <editor ref="https://orcid.org/0000-0002-5768-9932">Jan Bloemendal</editor>
             <respStmt>
                <resp>Converted to TEI by</resp>
-               <persName>Jan Bloemendal</persName>
+               <persName ref="https://orcid.org/0000-0002-5768-9932">Jan Bloemendal</persName>
+               <persName ref="https://orcid.org/0000-0001-8979-8706"> Julia Jennifer
+                  Beine</persName>
             </respStmt>
             <funder/>
          </titleStmt>
