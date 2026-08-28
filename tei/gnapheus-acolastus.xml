@@ -383,7 +383,7 @@
                   <l>Perpellit filium, quandoquidem malit</l>
                   <l>Errare quolibet ex sua libidine</l>
                   <l n="(105)">Paterno quam sinu fouerier amplius.</l>
-                  <l>Ναὶ ille haud scit, quam praesens sibi accersat malum.</l>
+                  <l><foreign>Ναὶ</foreign> ille haud scit, quam praesens sibi accersat malum.</l>
                   <l>Sed quid? Sinam uero a me abire filium,</l>
                   <l>Quem destinaueram heredem regno meo?</l>
                   <l>Id Eubulus forsan meus non suaserit,</l>
@@ -531,7 +531,7 @@
                   <l>Is frigidam suffudit, strennuus quidem</l>
                   <l>Ille et cordatus monitor, bene si quid monet,</l>
                   <l>Qui te ad scopulos e tranquillo inferat. Nocens</l>
-                  <l>Profecto pestis τῆς φιλαυτίας malum,</l>
+                  <l>Profecto pestis <foreign>τῆς φιλαυτίας</foreign> malum,</l>
                   <l n="(185)">Quod, quo magis fuco quodam suo tegit</l>
                   <l>Venenum, hoc est nocentius. Quam blandulus</l>
                   <l>Siren Philautus a fronte, at post senseris</l>
@@ -925,7 +925,7 @@
             <div type="scene" n="4">
                <head>Actus primi. Scaena quarta.</head>
                <stage>Acolastvs. Philavtvs.</stage>
-               <stage><foreign>Σκάζοντες.</foreign></stage>
+               <stage xml:lang="grc">Σκάζοντες.</stage>
                <sp who="#acolastus">
                   <l n="(350)">Num quis me uiuit fortunatior? Num quis</l>
                   <l>Fortunae filius dici magis debet</l>
@@ -1017,7 +1017,7 @@
                <stage>Pantolabvs. Pamphagvs.</stage>
                <stage>Octonarij omnes</stage>
                <sp who="#pantolabus">
-                  <l>Nαὶ miser ego sum, qui quod edam, quaero et id aegre inuenio. Gulam</l>
+                  <l><foreign>Nαὶ</foreign> miser ego sum, qui quod edam, quaero et id aegre inuenio. Gulam</l>
                   <l>Habeo extrema fame pene strangulatam, uenter inaedia</l>
                   <l>Exhaustus est, stomachus latrat, tum pendulae marcent genae.</l>
                   <l>Pol dentes pruriunt, me nullus est ieiuniosior</l>
@@ -1108,7 +1108,7 @@
                   <speaker>Pantol.</speaker>
                   <l>Hem, me uide, ut prolixe agis. Rape me sodes, collegio</l>
                   <l>Tuo inauctorandum, rape, postquam nullam plane artem calleo,</l>
-                  <l part="I">Qua possim uiuere οἰκόσιτος.</l>
+                  <l part="I">Qua possim uiuere <foreign>οἰκόσιτος</foreign>.</l>
                </sp>
                <sp who="#pamphagus">
                   <speaker>Pam.</speaker>
@@ -1836,7 +1836,7 @@
                   <l n="(590)">Causabor carem esse annonam, ut conueniant ratiunculae</l>
                   <l>Accepti et dati. In rationibus nullis tenerier</l>
                   <l>Vinculis possum. Ad suffugia mille mihi rimae patent.</l>
-                  <l>Nαὶ iste totus desipit, qui nobis auscultauerit,</l>
+                  <l><foreign>Nαὶ</foreign> iste totus desipit, qui nobis auscultauerit,</l>
                   <l>Per quos uelut in nassam illectus, ad uiuum usque eroditur.</l>
                   <l n="(595)">Intra casses nostros praeda est, quam usque uenati sumus.</l>
                   <l>Illa nostris unguibus frustillatim discerpitur,</l>
@@ -1857,7 +1857,7 @@
             <div type="scene" n="5">
                <head>Actus secundi. Scoena quinta.</head>
                <stage>Acolastvs. Pantolabvs. Sannio. Syrvs. Pamphagvs.</stage>
-               <stage><foreign>Σκάζοντες.</foreign></stage>
+               <stage xml:lang="grc">Σκάζοντες.</stage>
                <sp who="#acolastus">
                   <l>Vbinam aedes nostri sunt hospitis? Lassum</l>
                   <l n="(610)" part="I">Me longa reddidit profectio.</l>
@@ -1998,6 +1998,7 @@
                   <l>Audistis factam iniuriam, quam haec est mihi?</l>
                   <l>Venit ad me Pamphagus. Heus tu, inquit, Bromia, cito</l>
                   <l>Reuise, quid moretur Laidem. Annus est,</l>
+                  <!-- chek gynecαio -->
                   <l n="(640)">Prius quam prodeat e gynecαio. Pedes,</l>
                   <l>Inquam, foras efferre uetant negocia</l>
                   <l>Culinaria. Mox corripit fustem, fugam</l>
@@ -2008,6 +2009,7 @@
                   <l>Atque diei. Secundas res superbiae</l>
                   <l>Decent, sino. Vaerum dum coeperit suum</l>
                   <l>Mutare uoltum fortuna, atque hic indigus</l>
+                  <!-- check nαi -->
                   <l n="(650)">Opis nostrae factus fuerit, nαi mortuo</l>
                   <l>Canet, dum quid supplex petet. Pol gratiam</l>
                   <l>Habeo tibi, Pantolabe, qui intercesseris</l>
@@ -2251,7 +2253,7 @@
                   <l>Gnati statum, quin magis, eum fatis totum relinquito</l>
                   <l>Curandum, a quorum cura neutiquam exciderit. Nec audias</l>
                   <l>Epicureos, qui contendunt deos nihil mortalia</l>
-                  <l>Curare. Melius Homerus, qui τύχην uagam quom nesciat,</l>
+                  <l>Curare. Melius Homerus, qui <foreign>τύχην</foreign> uagam quom nesciat,</l>
                   <l n="(725)">Soli decreto numinis regenda craedit omnia.</l>
                   <l>Tu filium tractasti, dum tempus tulit, ut decuit patrem.</l>
                   <l>Nunc amandatus est, feras. Satis pro officio feceris,</l>
@@ -2265,7 +2267,7 @@
                   <l n="(735)">Facere Deum, nostri qui curam se suscipere perhibet,</l>
                   <l>Qui capitis nostri etiam pilos omneis in numerato tenet?</l>
                   <l>Ecquem te ipsum facis, ut ex aduerso deo responsites?</l>
-                  <l>An inuides ipsi μοναρχίαν rerum mortalium?</l>
+                  <l>An inuides ipsi <foreign>μοναρχίαν</foreign> rerum mortalium?</l>
                   <l part="I">Deos quaeso, ut tuam tibi dent mentem.</l>
                </sp>
                <sp who="#pelargus">
@@ -2338,7 +2340,7 @@
                   <l>In pessima sequax est et in malum propendet pectore</l>
                   <l>Toto, idque maxime, dum consilijs suis relinquitur.</l>
                   <l n="(765)">Quid enim ualet, quad in eo est optimum? Malum illud sonticum,</l>
-                  <l>Quod πρωτόπλαστους perdidit patres, uitiauit item istius</l>
+                  <l>Quod <foreign>πρωτόπλαστους</foreign> perdidit patres, uitiauit item istius</l>
                   <l>Mentem, quo non potest non sollicitarier ad cupidines</l>
                   <l>Malas, quas et pro consilio Philauti studeat exsequi,</l>
                   <l>Nisi praesens adsit corrector, qui hunc ad meliora prouocet,</l>
@@ -2388,7 +2390,7 @@
                <sp who="#bromia">
                   <speaker>Bro.</speaker>
                   <l part="F">Craedo, nil nouum facit.</l>
-                  <l>Nam πολυφάγος est, si quisquam alius. At hospes quid rei</l>
+                  <l>Nam <foreign>πολυφάγος</foreign> est, si quisquam alius. At hospes quid rei</l>
                   <l>Gerit? An non in raram Laidis formam intentus stupet?</l>
                </sp>
                <sp who="#syrus">
@@ -2612,7 +2614,7 @@
                </sp>
                <sp who="#acolastus">
                   <speaker>Aco.</speaker>
-                  <l>Age, craedo. Ναὶ felix ego sum, qui Laidi</l>
+                  <l>Age, craedo. <foreign>Ναὶ</foreign> felix ego sum, qui Laidi</l>
                   <l>Placeam. Osculum, mea lux, hoc melle dulcius est. Meus, obsecro</l>
                   <l part="I">Sis animus, quando ego sum tuus.</l>
                </sp>
@@ -2859,7 +2861,7 @@
             <div type="scene" n="3">
                <head>Actus quarti. Scoena tertia.</head>
                <stage>Pantolabvs solvs.</stage>
-               <stage><foreign>σκάζοντες.</foreign></stage>
+               <stage xml:lang="grc">σκάζοντες.</stage>
                <sp who="#pantolabus">
                   <l n="(910)">Abijt homo, ut istius pecuniam emungat</l>
                   <l>Omnem. Tot callet artes, tot dolos nouit.</l>
@@ -3017,7 +3019,7 @@
                <sp who="#pamphagus">
                   <speaker>Pamph.</speaker>
                   <l part="F">Illas exue</l>
-                  <l>Αχρήματον nebulonem. Quod si illinc nihil resoluitur,</l>
+                  <l><foreign>Αχρήματον</foreign> nebulonem. Quod si illinc nihil resoluitur,</l>
                   <l part="I">Redito ad me. Faciam ne quid querare.</l>
                </sp>
                <sp who="#sannio">
@@ -3235,7 +3237,7 @@
             <div type="scene" n="7">
                <head>Actus quarti. Scoena septima.</head>
                <stage>Chremes. Acolastvs.</stage>
-               <stage><foreign>σκάζοντες.</foreign></stage>
+               <stage xml:lang="grc">σκάζοντες.</stage>
                <sp who="#chremes">
                   <l>Ex uillula mea tantum reportare</l>
                   <l>Solitus eram prouentuum, ut satis uitae</l>
@@ -3354,7 +3356,7 @@
                   <speaker>Pelarg.</speaker>
                   <l n="(1050)" part="F">Primum ominis tui nequeo obliuiscier.</l>
                   <l>Hinc ante oculos meos subinde astare uisus filius,</l>
-                  <l>Pannosus, sentus, squalidus, μονόγραμμος floetibus</l>
+                  <l>Pannosus, sentus, squalidus, <foreign>μονόγραμμος</foreign> floetibus</l>
                   <l>Largis oppletus lumina, uoces unde hausi mestissimas.</l>
                   <l>Postremo uereor, quid sit, quod de ipso nihil audiam,</l>
                   <l n="(1055)" part="I">Nisi mortuus est. Quid censes?</l>
@@ -3591,7 +3593,7 @@
                <sp who="#acolastus">
                   <speaker>Acolast.</speaker>
                   <l part="F">Nullus sum, si non quispiam</l>
-                  <l>Deus mihi ceu ἀπὸ μηχανῆς appareat,</l>
+                  <l>Deus mihi ceu <foreign>ἀπὸ μηχανῆς</foreign> appareat,</l>
                   <l n="(1205)">Nam male sibi consciae menti mors ingruit.</l>
                </sp>
                <sp who="#pelargus">
