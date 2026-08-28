@@ -142,7 +142,7 @@
    <standOff>
       <listEvent>
          <event type="print" when="1529">
-            <desc/>
+            <desc>first print</desc>
          </event>
       </listEvent>
    </standOff>
@@ -3819,11 +3819,10 @@
          </div>
       </body>
       <back>
-         <stage>GVLIELMVS FVLLONIVS CANEBAT</stage>
-         <stage>APVD HAGIENSIS SVOS. ANNO M.D. XXIX.</stage>
-         <stage>EXCVSSVM ANTVER-piae in aedibus Martini Caesaris,</stage>
-         <stage>Expensis Godfridi dumaei.</stage>
-         <p>Vicesima tertia Iulij.</p>
+         <docImprint> GVLIELMVS FVLLONIVS CANEBAT APVD HAGIENSIS SVOS. <date when="1529">ANNO M.D.
+               XXIX</date>. EXCVSSVM <pubPlace>ANTVERpiae</pubPlace> in aedibus <name>Martini
+               Caesaris</name>, Expensis <publisher>Godfridi Dumaei</publisher>. <date
+               when="1529-07-23">Vicesima tertia Iulij</date>. </docImprint>
       </back>
    </text>
 </TEI>
