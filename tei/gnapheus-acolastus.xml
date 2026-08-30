@@ -53,7 +53,7 @@
          <particDesc>
             <listPerson>
                <person xml:id="acolastus" sex="MALE" role="filius">
-                  <persName>Acolastvs</persName>
+                  <persName>Acolastus</persName>
                   <persName type="variant">Aco.</persName>
                   <persName type="variant">Acol.</persName>
                   <persName type="variant">Acola.</persName>
@@ -69,22 +69,22 @@
                   <persName type="variant">Chre.</persName>
                </person>
                <person xml:id="epilogus" sex="UNKNOWN" role="epilogus">
-                  <persName>Epilogvs</persName>
+                  <persName>Epilogus</persName>
                </person>
                <person xml:id="eubulus" sex="MALE" role="amicus">
-                  <persName>Evbvlvs</persName>
-                  <persName type="variant">Ev.</persName>
-                  <persName type="variant">Evb.</persName>
-                  <persName type="variant">Evbv.</persName>
-                  <persName type="variant">Evbvl.</persName>
-                  <persName type="variant">Evbvlv.</persName>
+                  <persName>Eubulus</persName>
+                  <persName type="variant">Eu.</persName>
+                  <persName type="variant">Eub.</persName>
+                  <persName type="variant">Eubu.</persName>
+                  <persName type="variant">Eubul.</persName>
+                  <persName type="variant">Eubulu.</persName>
                </person>
                <person xml:id="lais" sex="FEMALE" role="meretrix">
                   <persName>Lais</persName>
                   <persName type="variant">La.</persName>
                </person>
                <person xml:id="pamphagus" sex="MALE" role="parasitus">
-                  <persName>Pamphagvs</persName>
+                  <persName>Pamphagus</persName>
                   <persName type="variant">Pampha</persName>
                   <persName type="variant">Pam.</persName>
                   <persName type="variant">Pamp.</persName>
@@ -92,7 +92,7 @@
                   <persName type="variant">Pamphag.</persName>
                </person>
                <person xml:id="pantolabus" sex="MALE">
-                  <persName>Pantolabvs</persName>
+                  <persName>Pantolabus</persName>
                   <persName type="variant">Pantola.</persName>
                   <persName type="variant">Pan.</persName>
                   <persName type="variant">Pant.</persName>
@@ -100,20 +100,20 @@
                   <persName type="variant">Pantol.</persName>
                </person>
                <person xml:id="pelargus" sex="MALE" role="pater">
-                  <persName>Pelargvs</persName>
+                  <persName>Pelargus</persName>
                   <persName type="variant">Pe.</persName>
                   <persName type="variant">Pel.</persName>
                   <persName type="variant">Pelar.</persName>
                   <persName type="variant">Pelarg.</persName>
                </person>
                <person xml:id="philautus" sex="MALE" role="amicus">
-                  <persName>Philavtvs</persName>
+                  <persName>Philautus</persName>
                   <persName type="variant">Phil.</persName>
                   <persName type="variant">Phi.</persName>
                   <persName type="variant">Ph.</persName>
                </person>
                <person xml:id="prologus" sex="UNKNOWN" role="prologus">
-                  <persName>Prologvs</persName>
+                  <persName>Prologus</persName>
                </person>
                <person xml:id="sannio" sex="MALE" role="leno">
                   <persName>Sannio</persName>
@@ -124,10 +124,10 @@
                   <persName>Syra</persName>
                </person>
                <person xml:id="syrus" sex="MALE" role="servus">
-                  <persName>Syrvs</persName>
+                  <persName>Syrus</persName>
                   <persName type="variant">Sy.</persName>
                   <persName type="variant">Syr.</persName>
-                  <persName type="variant">Syrv.</persName>
+                  <persName type="variant">Syru.</persName>
                </person>
             </listPerson>
          </particDesc>
@@ -143,6 +143,12 @@
             </region>
          </creation>
       </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2026-08-28">
+               <desc>Converted to DraCor TEI by Jan Bloemendal and Julia Jennifer Beine.</desc></change>
+         </listChange>
+      </revisionDesc>
    </teiHeader>
    <standOff>
       <listEvent>
@@ -355,7 +361,7 @@
          <div type="act" n="1">
             <div type="scene" n="1">
                <head>Actus primus. Scoena prima.</head>
-               <stage>Pelargvs. Evbvlvs.</stage>
+               <stage>Pelargus. Eubulus.</stage>
                <stage>Senarij omnes.</stage>
                <sp who="#pelargus">
                   <l>Nunc demum sentio, quanta sit foelicitas</l>
@@ -390,7 +396,7 @@
                   <l n="(110)">Quo consule semper usus sum foeliciter.</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Ev.</speaker>
+                  <speaker>Eu.</speaker>
                   <l>Non possum (quod meum ingenium est) quin sedulo</l>
                   <l>Agam, laborem, in officio sim pro meo</l>
                   <l>Pelargo, cui ceu Theseus quispiam Herculi</l>
@@ -409,7 +415,7 @@
                   <l part="I">Nunc expectate?</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Evb.</speaker>
+                  <speaker>Eub.</speaker>
                   <l part="F">Eho, quid tam quaeso tristis es?</l>
                </sp>
                <sp who="#pelargus">
@@ -417,7 +423,7 @@
                   <l>Haud simplex est malum, quod me sollicitum habet.</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Evb.</speaker>
+                  <speaker>Eub.</speaker>
                   <l part="I">Quidnam est?</l>
                </sp>
                <sp who="#pelargus">
@@ -425,7 +431,7 @@
                   <l part="M">Eubule mi, nihil.</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Ev.</speaker>
+                  <speaker>Eu.</speaker>
                   <l part="F">Quin dic, quid est?</l>
                </sp>
                <sp who="#pelargus">
@@ -433,7 +439,7 @@
                   <l n="(125)" part="I">De filio num nam audisti?</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Ev.</speaker>
+                  <speaker>Eu.</speaker>
                   <l n="(125)" part="F">Quid is studet?</l>
                </sp>
                <sp who="#pelargus">
@@ -441,7 +447,7 @@
                   <l>Alienum sese facere a patria domo.</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Evb.</speaker>
+                  <speaker>Eub.</speaker>
                   <l part="I">Tuusne filius?</l>
                </sp>
                <sp who="#pelargus">
@@ -449,7 +455,7 @@
                   <l part="M">Meus.</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Ev.</speaker>
+                  <speaker>Eu.</speaker>
                   <l part="F">Quid audio?</l>
                </sp>
                <sp who="#pelargus">
@@ -458,7 +464,7 @@
                   <l part="I">Qui utinam ex me natus non esset.</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Ev.</speaker>
+                  <speaker>Eu.</speaker>
                   <l part="F">Bona uerba. Sed</l>
                   <l n="(130)">Vnde istuc, quaeso, huic uenit in mentem, nisi</l>
                   <l>Indignis ille abs te sit tractatus modis?</l>
@@ -468,7 +474,7 @@
                   <l part="I">Immo, ne nimis dignis, uereor, Eubule.</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Ev.</speaker>
+                  <speaker>Eu.</speaker>
                   <l part="F">Qui?</l>
                </sp>
                <sp who="#pelargus">
@@ -507,7 +513,7 @@
                   <l>Haec illius erat luctuosa oratio.</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Ev.</speaker>
+                  <speaker>Eu.</speaker>
                   <l n="(165)" part="I">Satis superbe omnia. Quid tu ibi?</l>
                </sp>
                <sp who="#pelargus">
@@ -540,7 +546,7 @@
                   <l n="(190)" part="I">Sic dixi.</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Evb.</speaker>
+                  <speaker>Eub.</speaker>
                   <l n="(190)" part="F">Quid num his ille quietus redditur?</l>
                </sp>
                <sp who="#pelargus">
@@ -551,7 +557,7 @@
                   <l part="I">Transmissos solui iure patrio.</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Ev.</speaker>
+                  <speaker>Eu.</speaker>
                   <l part="F">Sed quibus</l>
                   <l n="(195)" part="I">Tandem uerbis conuenit inter vos?</l>
                </sp>
@@ -563,7 +569,7 @@
                   <l>Quid consulis faciundum esse, Eubule optime?</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Ev.</speaker>
+                  <speaker>Eu.</speaker>
                   <l>Dicam. Principio quando obstinate fugam</l>
                   <l n="(200)">Parat, memineris hoc uere dictum a Sophois:</l>
                   <l>Inuitum si retineas, exire incitas.</l>
@@ -585,7 +591,7 @@
                   <l part="I">Qua ablegetur?</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Ev.</speaker>
+                  <speaker>Eu.</speaker>
                   <l part="M">Scilicet.</l>
                </sp>
                <sp who="#pelargus">
@@ -593,7 +599,7 @@
                   <l part="M">Os durum.</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Ev.</speaker>
+                  <speaker>Eu.</speaker>
                   <l part="F">Postulat</l>
                   <l n="(215)">Istuc res ipsa, ratio iuraque publica.</l>
                   <l part="I">Faciundum est.</l>
@@ -604,7 +610,7 @@
                   <l part="I">Illius, obsecro, retundere?</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Ev.</speaker>
+                  <speaker>Eu.</speaker>
                   <l part="F">Non habes</l>
                   <l>Necesse pro imperio tuo omnia agere. Quin</l>
                   <l part="I">Sine, abeat.</l>
@@ -615,7 +621,7 @@
                   <l n="(220)" part="I">Credam quam animo meo.</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Ev.</speaker>
+                  <speaker>Eu.</speaker>
                   <l n="(220)" part="F">Sed heus, ne saeuius</l>
                   <l>Gnatum tractes, tantum obiurgato amantius</l>
                   <l>Pariterque moneas, quid cauere oporteat</l>
@@ -627,7 +633,7 @@
                   <l>Illum expectabo, dum redeat. Quid tu interim?</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Evb.</speaker>
+                  <speaker>Eub.</speaker>
                   <l n="(225)" part="I">Domum eo.</l>
                </sp>
                <sp who="#pelargus">
@@ -635,7 +641,7 @@
                   <l n="(225)" part="M">Quid quod te oro?</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Evb.</speaker>
+                  <speaker>Eub.</speaker>
                   <l n="(225)" part="M">Quid?</l>
                </sp>
                <sp who="#pelargus">
@@ -644,7 +650,7 @@
                   <l part="I">Te consultore diu carendum.</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Ev.</speaker>
+                  <speaker>Eu.</speaker>
                   <l part="F">Vah, quasi</l>
                   <l part="I">Vnquam diu carueris.</l>
                </sp>
@@ -662,7 +668,7 @@
             </div>
             <div type="scene" n="2">
                <head>Actus primi. Scoena secunda.</head>
-               <stage>Acolastvs. Philavtvs.</stage>
+               <stage>Acolastus. Philautus.</stage>
                <stage>Trochaici catalectici.</stage>
                <sp who="#acolastus">
                   <l n="(235)" part="I">Me nisi animus fallit, omnia succoedent bene.</l>
@@ -738,7 +744,7 @@
             <div type="scene" n="3">
                <head>Actus primi. Scoena tertia.</head>
                <stage>Trimetri.</stage>
-               <stage>Acolastvs. Pelargvs.</stage>
+               <stage>Acolastus. Pelargus.</stage>
                <sp who="#acolastus">
                   <l>Nunc quod futurum est, colligo. Nunquam dabit</l>
                   <l>Pecuniam pater, nisi moneat prius,</l>
@@ -924,7 +930,7 @@
             </div>
             <div type="scene" n="4">
                <head>Actus primi. Scaena quarta.</head>
-               <stage>Acolastvs. Philavtvs.</stage>
+               <stage>Acolastus. Philautus.</stage>
                <stage xml:lang="grc">Σκάζοντες.</stage>
                <sp who="#acolastus">
                   <l n="(350)">Num quis me uiuit fortunatior? Num quis</l>
@@ -1014,7 +1020,7 @@
          <div type="act" n="2">
             <div type="scene" n="1">
                <head>Actus Secundus. [Scaena prima]</head>
-               <stage>Pantolabvs. Pamphagvs.</stage>
+               <stage>Pantolabus. Pamphagus.</stage>
                <stage>Octonarij omnes</stage>
                <sp who="#pantolabus">
                   <l><foreign>Nαὶ</foreign> miser ego sum, qui quod edam, quaero et id aegre inuenio. Gulam</l>
@@ -1314,7 +1320,7 @@
             </div>
             <div type="scene" n="1">
                <head>Actus Secundi. Scaena secunda.</head>
-               <stage>Philavtvs. Acolastvs.</stage>
+               <stage>Philautus. Acolastus.</stage>
                <stage>Senarij.</stage>
                <sp who="#philautus">
                   <l>Quid haec Acolaste, prae ut illa, quae pater dedit?</l>
@@ -1353,7 +1359,7 @@
                </sp>
             </div>
             <div type="scene" n="2">
-               <head>Acolastvs canit.</head>
+               <head>Acolastus canit.</head>
                <sp who="#acolastus">
                   <l>O Dies foestus niueo lapillo</l>
                   <l>Dignus, o lucis facies serena,</l>
@@ -1379,7 +1385,7 @@
             </div>
             <div type="scene" n="3">
                <head>Actus secundi. Scoena tertia.</head>
-               <stage>Pamphagvs. Pantolabvs. Acolastvs.</stage>
+               <stage>Pamphagus. Pantolabus. Acolastus.</stage>
                <stage>Octonarij.</stage>
                <sp who="#pamphagus">
                   <l part="I">Quid haec tibi uidentur?</l>
@@ -1650,7 +1656,7 @@
                   <l part="F">A capite ad talos pulcher es.</l>
                </sp>
                <sp who="#pamphagus">
-                  <speaker>Pamphagvs.</speaker>
+                  <speaker>Pamphagus.</speaker>
                   <l>Immo, dum te contemplamur fixius, diuina elucet in</l>
                   <l part="I">Te quaedam maiestas.</l>
                </sp>
@@ -1789,7 +1795,7 @@
                   <l n="(580)">Bacchus, Ceres nostris uolo intersint epulationibus.</l>
                </sp>
                <sp who="#pamphagus">
-                  <speaker>Pamphagvs.</speaker>
+                  <speaker>Pamphagus.</speaker>
                   <l>Fiet. Tibicines num nam cupis deducier e foro?</l>
                </sp>
                <sp who="#acolastus">
@@ -1826,7 +1832,7 @@
             </div>
             <div type="scene" n="4">
                <head>Actus secundi. scaena quarta.</head>
-               <stage>Pamphagvs. solvs</stage>
+               <stage>Pamphagus. solvs</stage>
                <stage>Trochaici Katalecticoi.</stage>
                <sp who="#pamphagus">
                   <l>Ha ha he. Quam tutum hospitium confidentiae meae</l>
@@ -1856,7 +1862,7 @@
             </div>
             <div type="scene" n="5">
                <head>Actus secundi. Scoena quinta.</head>
-               <stage>Acolastvs. Pantolabvs. Sannio. Syrvs. Pamphagvs.</stage>
+               <stage>Acolastus. Pantolabus. Sannio. Syrus. Pamphagus.</stage>
                <stage xml:lang="grc">Σκάζοντες.</stage>
                <sp who="#acolastus">
                   <l>Vbinam aedes nostri sunt hospitis? Lassum</l>
@@ -2041,13 +2047,13 @@
             </div>
             <div type="scene" n="2">
                <head>Actus tertij. Scoena secunda.</head>
-               <stage>Lais. Syrvs. Bromia.</stage>
+               <stage>Lais. Syrus. Bromia.</stage>
                <stage>Septenarij et octonarij.</stage>
                <sp who="#lais">
                   <l part="I">Itan te misit Sannio?</l>
                </sp>
                <sp who="#syrus">
-                  <speaker>Syrvs.</speaker>
+                  <speaker>Syrus.</speaker>
                   <l part="M">Misit.</l>
                </sp>
                <sp who="#lais">
@@ -2055,7 +2061,7 @@
                   <l part="M">Me accersitum?</l>
                </sp>
                <sp who="#syrus">
-                  <speaker>Syrvs.</speaker>
+                  <speaker>Syrus.</speaker>
                   <l part="F">Ita.</l>
                </sp>
                <sp who="#lais">
@@ -2064,7 +2070,7 @@
                   <l part="I">Quae grandem demereo pecuniam?</l>
                </sp>
                <sp who="#syrus">
-                  <speaker>Syrvs.</speaker>
+                  <speaker>Syrus.</speaker>
                   <l part="F">Nescio, nisi quod uiri</l>
                   <l n="(680)">Aduentum herus meus excepit multo humanissime.</l>
                </sp>
@@ -2073,7 +2079,7 @@
                   <l part="I">Num quem coenae apparatum uidisti, Syre?</l>
                </sp>
                <sp who="#syrus">
-                  <speaker>Syrvs.</speaker>
+                  <speaker>Syrus.</speaker>
                   <l part="F">Non. Sed Pamphagus</l>
                   <l>Obsonatum concesserat. Hospes omnes sollicitos habet.</l>
                </sp>
@@ -2153,7 +2159,7 @@
             </div>
             <div type="scene" n="3">
                <head>Actus tertij. Scoena tertia.</head>
-               <stage>Eubvlvs. Pelargvs.</stage>
+               <stage>Eubvlvs. Pelargus.</stage>
                <stage>Octonarij.</stage>
                <sp who="#eubulus">
                   <l n="(695)">Prouiso, quid rerum gerat Pelargus, quo pacto ferat</l>
@@ -2176,7 +2182,7 @@
                   <l>Sed eccum in tempore ipso aduenit. Eubule, salue plurimum.</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Ev.</speaker>
+                  <speaker>Eu.</speaker>
                   <l n="(710)">O mi Pelarge, non praeuideram te. Si uales, bene est.</l>
                   <l>Nam hac gratia ad te ibam, quo, quid ualeret animus, discerem.</l>
                </sp>
@@ -2185,7 +2191,7 @@
                   <l part="I">Omnes mihi curae coeunt.</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Evbv.</speaker>
+                  <speaker>Eubu.</speaker>
                   <l part="M">In quo?</l>
                </sp>
                <sp who="#pelargus">
@@ -2194,7 +2200,7 @@
                   <l part="I">In gnato?</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Evb.</speaker>
+                  <speaker>Eub.</speaker>
                   <l part="F">Num quid audisti de eo, quod nolis, tam cito?</l>
                </sp>
                <sp who="#pelargus">
@@ -2202,7 +2208,7 @@
                   <l part="I">Nihil. Sed quid ualeat, miror.</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Evbv.</speaker>
+                  <speaker>Eubu.</speaker>
                   <l part="M">Bene equidem spero.</l>
                </sp>
                <sp who="#pelargus">
@@ -2210,7 +2216,7 @@
                   <l part="M">Vtinam.</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Evbv.</speaker>
+                  <speaker>Eubu.</speaker>
                   <l part="F">Quid est,</l>
                   <l n="(715)" part="I">Quod te sollicitat autem?</l>
                </sp>
@@ -2219,7 +2225,7 @@
                   <l n="(715)" part="M">Gnatus.</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Evbv.</speaker>
+                  <speaker>Eubu.</speaker>
                   <l n="(715)" part="F">Minue uaero hanc improbam</l>
                   <l part="I">Curam.</l>
                </sp>
@@ -2228,7 +2234,7 @@
                   <l part="M">Non possum, Eubule, gnatus est.</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Ev.</speaker>
+                  <speaker>Eu.</speaker>
                   <l part="F">Vt sit, quorsum attinet</l>
                   <l part="I">Te excruciare.</l>
                </sp>
@@ -2237,7 +2243,7 @@
                   <l part="M">Mihi sic est usus.</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Evbv.</speaker>
+                  <speaker>Eubu.</speaker>
                   <l part="F">Si istuc certum est tibi</l>
                   <l part="I">Sic facere, abiero.</l>
                </sp>
@@ -2247,7 +2253,7 @@
                   <l part="I">Faciam.</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Evbv.</speaker>
+                  <speaker>Eubu.</speaker>
                   <l part="F">Imprimis, quod, scio, tibi uidebitur durum, caue</l>
                   <l n="(720)">Nimium sis sollicitus, quando hinc nihilo meliorem feceris</l>
                   <l>Gnati statum, quin magis, eum fatis totum relinquito</l>
@@ -2278,7 +2284,7 @@
                   <l part="I">Homo sum, Eubule. Humani nihil a me est alienum.</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Evbv.</speaker>
+                  <speaker>Eubu.</speaker>
                   <l part="F">Quaeso, uide,</l>
                   <l>Ne stulto effectu exhinc gnatum prosequare, quem quidem putes</l>
                   <l>Zelum illi debitum, cum sint, nolo erres, affectus mali</l>
@@ -2290,7 +2296,7 @@
                   <l part="I">Duobus uerbis iussit me longum ualere.</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Evbv.</speaker>
+                  <speaker>Eubu.</speaker>
                   <l part="F">Quid amplius?</l>
                </sp>
                <sp who="#pelargus">
@@ -2298,7 +2304,7 @@
                   <l part="I">Nihil.</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Evb.</speaker>
+                  <speaker>Eub.</speaker>
                   <l part="M">Num tristis abijt?</l>
                </sp>
                <sp who="#pelargus">
@@ -2307,7 +2313,7 @@
                   <l>Lachrymas excussit ille, qui tam frigidus erat in patrem.</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Evbv.</speaker>
+                  <speaker>Eubu.</speaker>
                   <l n="(750)">Ita comparatum est natura, ut uirtutem praesentem minus</l>
                   <l>Animaduortamus, sublatam uero ex oculis mox inuidi</l>
                   <l>Queramus. Quod gnatus minus uidit, per adulescentiam</l>
@@ -2324,7 +2330,7 @@
                   <l part="I">Ab omine.</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Evbvlv.</speaker>
+                  <speaker>Eubulu.</speaker>
                   <l part="F">Nihil est, quod metuas. Si istuc eueniat, locus</l>
                   <l n="(760)" part="I">Esto misericordiae.</l>
                </sp>
@@ -2333,7 +2339,7 @@
                   <l n="(760)" part="M">Non usus ueniet, spero.</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Ev.</speaker>
+                  <speaker>Eu.</speaker>
                   <l n="(760)" part="F">Spero item</l>
                   <l>Ego hercle. Neque eo dico, quod quicquam illum senserim mali</l>
                   <l>Dedisse, sed, si quid, ne quid. Quae eius sit aetas, peruides.</l>
@@ -2356,7 +2362,7 @@
                   <l part="I">Modo possem.</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Evbvl.</speaker>
+                  <speaker>Eubul.</speaker>
                   <l part="F">Fidenti sperata cedunt. Sed nunquid aliud</l>
                   <l part="I">Me uis, Pelarge?</l>
                </sp>
@@ -2365,13 +2371,13 @@
                   <l part="F">Vt ad nos diuortas, Eubule pijssime.</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Evbvlvs.</speaker>
+                  <speaker>Eubulus.</speaker>
                   <l>Quando istuc uis, fiat. Nolo ullum in me tibi claudi commodum.</l>
                </sp>
             </div>
             <div type="scene" n="4">
                <head>Actus tertij. Scoena quarta.</head>
-               <stage>Bromia. Syrvs.</stage>
+               <stage>Bromia. Syrus.</stage>
                <stage>Trochaici Katalecticoi.</stage>
                <sp who="#bromia">
                   <l>Gaudeo me defunctam istius coenae laboribus.</l>
@@ -2429,7 +2435,7 @@
                   <l n="(795)">Hem Syre, uicissim dabo me tibi, quando usus postulat.</l>
                </sp>
                <sp who="#syrus">
-                  <speaker>Syrv.</speaker>
+                  <speaker>Syru.</speaker>
                   <l part="I">Postulat nunc et locus et res ipsa et usus.</l>
                </sp>
                <sp who="#bromia">
@@ -2501,7 +2507,7 @@
             </div>
             <div type="scene" n="5">
                <head>Actus tertij. Scoena quinta.</head>
-               <stage>Acolastvs. Syrvs. Lais.</stage>
+               <stage>Acolastus. Syrus. Lais.</stage>
                <stage>Senarij. Septenarij. et Octonarij.</stage>
                <sp who="#acolastus">
                   <l>Hem, seruule, quisquis es, adesdum, paucis te uolo.</l>
@@ -2530,7 +2536,7 @@
                   <l part="I">Dehinc curato sodes puer.</l>
                </sp>
                <sp who="#syrus">
-                  <speaker>Syrvs.</speaker>
+                  <speaker>Syrus.</speaker>
                   <l part="F">Curabitur promptissime.</l>
                </sp>
                <sp who="#acolastus">
@@ -2690,7 +2696,7 @@
          <div type="act" n="4">
             <div type="scene" n="1">
                <head>ACTVS QVARTVS. [Scaena prima]</head>
-               <stage>Pamphagvs solvs.</stage>
+               <stage>Pamphagus solvs.</stage>
                <stage>Octonarij.</stage>
                <sp who="#pamphagus">
                   <l>Itan ad clarum dormiui diem? Nox multa adhuc meis</l>
@@ -2709,7 +2715,7 @@
             </div>
             <div type="scene" n="2">
                <head>Actus quarti. Scoena secunda.</head>
-               <stage>Pantolabvs. Pamphagvs.</stage>
+               <stage>Pantolabus. Pamphagus.</stage>
                <stage>Trimetroi.</stage>
                <sp who="#pantolabus">
                   <l>O salue, columen ordinis Parasitici.</l>
@@ -2860,7 +2866,7 @@
             </div>
             <div type="scene" n="3">
                <head>Actus quarti. Scoena tertia.</head>
-               <stage>Pantolabvs solvs.</stage>
+               <stage>Pantolabus solvs.</stage>
                <stage xml:lang="grc">σκάζοντες.</stage>
                <sp who="#pantolabus">
                   <l n="(910)">Abijt homo, ut istius pecuniam emungat</l>
@@ -2890,7 +2896,7 @@
             </div>
             <div type="scene" n="4">
                <head>Actus quarti. Scoena quarta.</head>
-               <stage>Sannio. Pantolabvs. Pamphagvs.</stage>
+               <stage>Sannio. Pantolabus. Pamphagus.</stage>
                <stage>Tetrametroi omnes.</stage>
                <sp who="#sannio">
                   <l>Dii immortales, quod hoc proluuium est, quae istaec tanta largitas?</l>
@@ -3081,7 +3087,7 @@
             </div>
             <div type="scene" n="5">
                <head>Actus quarti. Scoena quinta.</head>
-               <stage>Lais. Acolastvs. Syra. Pamphagvs. Pantolabvs.</stage>
+               <stage>Lais. Acolastus. Syra. Pamphagus. Pantolabus.</stage>
                <stage>Trochaici.</stage>
                <sp who="#lais">
                   <l part="I">Quin soluis noctem, sceleste?</l>
@@ -3198,7 +3204,7 @@
             </div>
             <div type="scene" n="6">
                <head>Actus quarti. Scoena sexta.</head>
-               <stage>Acolastvs solvs.</stage>
+               <stage>Acolastus solvs.</stage>
                <stage>Senarij.</stage>
                <sp who="#acolastus">
                   <l n="(985)">Quid nunc agam? Quid clamem? Aut unde exordiar</l>
@@ -3236,7 +3242,7 @@
             </div>
             <div type="scene" n="7">
                <head>Actus quarti. Scoena septima.</head>
-               <stage>Chremes. Acolastvs.</stage>
+               <stage>Chremes. Acolastus.</stage>
                <stage xml:lang="grc">σκάζοντες.</stage>
                <sp who="#chremes">
                   <l>Ex uillula mea tantum reportare</l>
@@ -3252,7 +3258,7 @@
                   <l>Omen sinistrum, hic magnus nebulo stat. Quid uolt?</l>
                </sp>
                <sp who="#acolastus">
-                  <speaker>Acolastvs.</speaker>
+                  <speaker>Acolastus.</speaker>
                   <l part="I">Colone, salue plurimum.</l>
                </sp>
                <sp who="#chremes">
@@ -3262,7 +3268,7 @@
                   <l part="I">Quid uis?</l>
                </sp>
                <sp who="#acolastus">
-                  <speaker>Acolastvs.</speaker>
+                  <speaker>Acolastus.</speaker>
                   <l part="F">Precor, ut hoedi, boues, oues, caprae,</l>
                   <l n="(1030)" part="I">Tibi foetus edant pro uoto tuo.</l>
                </sp>
@@ -3272,7 +3278,7 @@
                   <l part="I">Ita Pan noster. Vale.</l>
                </sp>
                <sp who="#acolastus">
-                  <speaker>Acolastvs.</speaker>
+                  <speaker>Acolastus.</speaker>
                   <l part="F">Quaeso, audias pauca,</l>
                   <l part="I">Prius, quam abis.</l>
                </sp>
@@ -3291,7 +3297,7 @@
                   <l part="I">In faucibus.</l>
                </sp>
                <sp who="#acolastus">
-                  <speaker>Acolastvs.</speaker>
+                  <speaker>Acolastus.</speaker>
                   <l part="F">Nunc te oro, eam leues pane</l>
                   <l n="(1035)" part="I">Atro uel furfure.</l>
                </sp>
@@ -3313,7 +3319,7 @@
                   <l>Vt eos agas. Te dignum commeatum addam.</l>
                </sp>
                <sp who="#acolastus">
-                  <speaker>Acolastvs.</speaker>
+                  <speaker>Acolastus.</speaker>
                   <l>Sequor. Vah, ab equis ad asinos? Non magis craedas</l>
                   <l>Fortunae uoltui quam mobili uento.</l>
                </sp>
@@ -3322,13 +3328,13 @@
          <div type="act" n="5">
             <div type="scene" n="1">
                <head>Actus quintus. [Scaena prima]</head>
-               <stage>Pelargvs. Eubvlvs.</stage>
+               <stage>Pelargus. Eubvlvs.</stage>
                <stage>Septenarij et octonarij.</stage>
                <sp who="#pelargus">
                   <l>Praesagit animus, nescio quid mihi imminere tristius.</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Evb.</speaker>
+                  <speaker>Eub.</speaker>
                   <l n="(1045)" part="I">De quo?</l>
                </sp>
                <sp who="#pelargus">
@@ -3336,7 +3342,7 @@
                   <l n="(1045)" part="M">De filio, Eubule.</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Evb.</speaker>
+                  <speaker>Eub.</speaker>
                   <l n="(1045)" part="F">Nimis suspiciosus es,</l>
                   <l>Pelarge, quo quid aliud quam malum conduplicas tibi?</l>
                   <l>Neque enim formidine ulla arcere potes malum foribus tuis.</l>
@@ -3348,7 +3354,7 @@
                   <l part="I">Neu uitam misere trahat in sordibus.</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Evbv.</speaker>
+                  <speaker>Eubu.</speaker>
                   <l part="F">Quaeso, unde has colligis</l>
                   <l n="(1050)" part="I">Suspiciones?</l>
                </sp>
@@ -3362,7 +3368,7 @@
                   <l n="(1055)" part="I">Nisi mortuus est. Quid censes?</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Evbv.</speaker>
+                  <speaker>Eubu.</speaker>
                   <l n="(1055)" part="F">Proximum esse nuncium,</l>
                   <l>Statum gnati qui commemoret, quis sit, proin desinas metum.</l>
                </sp>
@@ -3374,15 +3380,15 @@
                   <l n="(1060)">Hoc qui nescit, fateatur se indignum esse patris nomine.</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Evbv.</speaker>
+                  <speaker>Eubu.</speaker>
                   <l>Nempe, ut dicis. Sed modus est in re qualibet optimus.</l>
                </sp>
                <sp who="#pelargus">
-                  <speaker>Pelargvs.</speaker>
+                  <speaker>Pelargus.</speaker>
                   <l part="I">Est, si queam assequi.</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Evbv.</speaker>
+                  <speaker>Eubu.</speaker>
                   <l part="F">Velis solum dolorem ponere.</l>
                   <l part="I">Facile quieuerit.</l>
                </sp>
@@ -3395,14 +3401,14 @@
                   <l part="I">Desidero.</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Evbv.</speaker>
+                  <speaker>Eubu.</speaker>
                   <l part="F">Pelarge, quod animus iamdudum dictitat</l>
                   <l>Haud longe abesse nun,cium, haud uanum puto. Abiero</l>
                   <l>Igitur ad portitores, ex quibus forsan discam omnia.</l>
                   <l n="(1070)">Tu me interea domi operitor, mox huc reuolauero.</l>
                </sp>
                <sp who="#pelargus">
-                  <speaker>Pelargvs.</speaker>
+                  <speaker>Pelargus.</speaker>
                   <l>Faciam. Quam suspicioso nunc sum animo, omnia timeo neque</l>
                   <l>Quicquam timeo. Sediciosus plane cordis mei</l>
                   <l>Senatus est, in quo nihil consilij consistere queat.</l>
@@ -3416,7 +3422,7 @@
             </div>
             <div type="scene" n="2">
                <head>Actus quinti. Scoena secunda</head>
-               <stage>Acolastvs solvs.</stage>
+               <stage>Acolastus solvs.</stage>
                <stage>Trimetroi.</stage>
                <sp who="#acolastus">
                   <l n="(1080)">Quis tam durae est mentis, quem non deiecerit</l>
@@ -3484,7 +3490,7 @@
             </div>
             <div type="scene" n="4">
                <head>Actus quinti. Scoena quarta.</head>
-               <stage>Acolastvs solvs.</stage>
+               <stage>Acolastus solvs.</stage>
                <stage>Senarij.</stage>
                <sp who="#acolastus">
                   <l>Scelerate mentis carnificina, uah, quibus</l>
@@ -3538,13 +3544,13 @@
             </div>
             <div type="scene" n="5">
                <head>Actus quinti. Scoena quinta.</head>
-               <stage>Pelargvs. Eubvlvs. Acolastvs.</stage>
+               <stage>Pelargus. Eubvlvs. Acolastus.</stage>
                <stage>Senarij omnes.</stage>
                <sp who="#pelargus">
                   <l part="I">Ain tu?</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Evbv.</speaker>
+                  <speaker>Eubu.</speaker>
                   <l part="M">Sic est.</l>
                </sp>
                <sp who="#pelargus">
@@ -3565,15 +3571,15 @@
                   <l>O me bis miserum patrem tali filio.</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Ev.</speaker>
+                  <speaker>Eu.</speaker>
                   <l n="(1195)">Pelarge mi, quin mittis has quaerimonias?</l>
                </sp>
                <sp who="#pelargus">
-                  <speaker>Pelargvs.</speaker>
+                  <speaker>Pelargus.</speaker>
                   <l>Iustas parit quaerimonias iustus dolor.</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Evbvlvs.</speaker>
+                  <speaker>Eubulus.</speaker>
                   <l>Craedo. Sed nunc res poscit et locus monet,</l>
                   <l>Vt cogites de restituendo filio</l>
                   <l>Pariterque affectum in eum induas pij patris</l>
@@ -3582,11 +3588,11 @@
                   <l part="I">Opus habet.</l>
                </sp>
                <sp who="#pelargus">
-                  <speaker>Pelargvs.</speaker>
+                  <speaker>Pelargus.</speaker>
                   <l part="M">Habet, si spes sit uitae.</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Evb.</speaker>
+                  <speaker>Eub.</speaker>
                   <l part="F">Est multa adhuc</l>
                   <l part="I">In filio.</l>
                </sp>
@@ -3604,7 +3610,7 @@
                   <l part="I">Hinc, Eubule, apprecer.</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Evb.</speaker>
+                  <speaker>Eub.</speaker>
                   <l part="F">Pol te dignum facis.</l>
                </sp>
                <sp who="#acolastus">
@@ -3628,7 +3634,7 @@
                   <l>Hem, quid? Quid cogitas? Num fata filij?</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Evb.</speaker>
+                  <speaker>Eub.</speaker>
                   <l>Quin dicam, quod libenter audias? Tuum</l>
                   <l n="(1225)" part="I">Videbis hodie filium.</l>
                </sp>
@@ -3637,7 +3643,7 @@
                   <l n="(1225)" part="M">Meumne?</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Evb.</speaker>
+                  <speaker>Eub.</speaker>
                   <l n="(1225)" part="F">Ita.</l>
                </sp>
                <sp who="#pelargus">
@@ -3645,7 +3651,7 @@
                   <l part="I">Meum, obsecro, filium?</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Ev.</speaker>
+                  <speaker>Eu.</speaker>
                   <l part="M">Sic diuino.</l>
                </sp>
                <sp who="#pelargus">
@@ -3655,7 +3661,7 @@
                   <l>Vaero, cupio ipsum iam uidere, et alloqui.</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Ev.</speaker>
+                  <speaker>Eu.</speaker>
                   <l>Non esse eum procul a portu nunc arbitror.</l>
                </sp>
                <sp who="#pelargus">
@@ -3678,7 +3684,7 @@
                   <l part="I">Ne te miseret huius patris?</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Ev.</speaker>
+                  <speaker>Eu.</speaker>
                   <l part="F">Quid tam gemis,</l>
                   <l n="(1240)" part="I">Pelarge? Noli te macerare.</l>
                </sp>
@@ -3689,7 +3695,7 @@
                   <l>Ad istius occursum, quem prospicio procul?</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Ev.</speaker>
+                  <speaker>Eu.</speaker>
                   <l part="I">Pelarge, filius est.</l>
                </sp>
                <sp who="#pelargus">
@@ -3698,7 +3704,7 @@
                   <l part="I">In illius amplexus.</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Ev.</speaker>
+                  <speaker>Eu.</speaker>
                   <l part="M">Sum uaerus.</l>
                </sp>
                <sp who="#acolastus">
@@ -3778,7 +3784,7 @@
                   <l n="(1275)">Vna salute foelix conuiues mihi.</l>
                </sp>
                <sp who="#eubulus">
-                  <speaker>Ev.</speaker>
+                  <speaker>Eu.</speaker>
                   <l>Scilicet.</l>
                </sp>
             </div>
