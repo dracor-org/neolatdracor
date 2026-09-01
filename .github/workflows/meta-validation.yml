@@ -19,11 +19,11 @@ jobs:
     name: Validate meta data file
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-      - uses: mikefarah/yq@1b9b4ac5187171d2e5e3129be0cfa827c7f9d53d # v4.53.3
+      - uses: mikefarah/yq@c14f446382944492701b16c1ddb48bb9dbe683e3 # v4.53.6
         with:
           cmd: yq -o=json '.' meta.yaml > meta.json
       - name: Validate meta data
-        uses: cardinalby/schema-validator-action@2166123eb256fa40baef7e22ab1379708425efc7 # v3
+        uses: cardinalby/schema-validator-action@95ce895b6846cc7d931785fcaa46c84816753612 # v3
         with:
           file: meta.json
           schema: meta.schema.json
