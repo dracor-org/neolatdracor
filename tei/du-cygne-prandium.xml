@@ -1,0 +1,2680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="dracor" xml:id="neolat000184" xml:lang="la">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Prandium</title>
+        <author>
+          <persName xml:lang="la">
+            <forename>Martinus</forename>
+            <surname>du Cygne</surname>
+          </persName>
+          <idno type="wikidata">Q21545079</idno>
+        </author>
+        <respStmt>
+          <resp>Transcribed by</resp>
+          <persName ref="https://orcid.org/0000-0002-9764-187X">Nicholas De Sutter</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Converted to TEI by</resp>
+          <persName ref="https://orcid.org/0000-0002-9764-187X">Nicholas De Sutter</persName>
+        </respStmt>
+        <funder>
+          <orgName>FWO</orgName>
+          <name>1291325N</name>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <ref target="https://books.google.com/books?id=vqAjcaQDLrgC">Google Books</ref>
+          <availability status="free">
+            <p>In the public domain.</p>
+          </availability>
+        </bibl>
+        <bibl type="originalSource">
+          <author>Martinus du Cygne</author>: <title>Prandium</title>. <title type="sub">Comoedia
+            IX</title>. In: <author>Martinus du Cygne</author>: <title>Comoediae XII</title>. <title type="sub">Pars posterior</title>. 
+          <pubPlace>Liège</pubPlace>: <publisher>Joannes Mathias Hovius</publisher>
+          <date>1679</date>. <biblScope>pp. 105–144</biblScope>. 
+        </bibl>
+        <listEvent>
+          <event type="print" when="1679">
+            <desc/>
+          </event>
+        </listEvent>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="prologus" sex="UNKNOWN">
+            <persName>Prologus</persName>
+          </person>
+          <person xml:id="bias" sex="MALE">
+            <persName>Bias</persName>
+          </person>
+          <person xml:id="felanthon" sex="MALE">
+            <persName>Felanthon</persName>
+          </person>
+          <person xml:id="gastrimargos" sex="MALE">
+            <persName>Gastrimargos</persName>
+          </person>
+          <person xml:id="frangipanus" sex="MALE">
+            <persName>Frangipanus</persName>
+          </person>
+          <person xml:id="magirotti" sex="MALE">
+            <persName>Magirotti</persName>
+          </person>
+          <person xml:id="saturio" sex="MALE">
+            <persName>Saturio</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">comedy</term>
+        </keywords>
+        <classCode scheme="https://www.wikidata.org/wiki/Q40831"/>
+      </textClass>
+      <creation>
+        <region>
+          <ref target="https://www.wikidata.org/wiki/Q622783">Spanish Netherlands</ref>
+        </region>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2026-09-13">
+          <desc>Converted to DraCor TEI by Nicholas De Sutter.</desc></change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart>Prandium</titlePart>
+        </docTitle>
+      </titlePage>
+      <argument>
+        <head>MATERIA</head>
+        <p>Sabaudus caminum haeretici cuiusdam versurus se coram eo cruce signat: sed dum verrit,
+          haereticus infra fumum excitat. Inde Sabaudo accidit lautum prandium. <ref>Gazaeus Tom.
+            2.</ref></p>
+      </argument>
+      <castList>
+        <head>PERSONAE</head>
+        <castItem>
+          <role>Bias</role>
+          <roleDesc>Sabaudus</roleDesc>
+        </castItem>
+        <castGroup rend="braced">
+          <castItem>
+            <role>Felanthon</role>
+          </castItem>
+          <castItem>
+            <role>Gastrimargos</role>
+          </castItem>
+          <roleDesc>Cives</roleDesc>
+        </castGroup>
+        <castItem>
+          <role>Frangipanus</role>
+          <roleDesc>Conviva</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Magirotti</role>
+          <roleDesc>Coquus</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Saturio</role>
+          <roleDesc>Parasitus</roleDesc>
+        </castItem>
+      </castList>
+      <div type="argument">
+        <head>Distributio</head>
+        <list type="argument">
+          <item>
+            <label>Actus I</label>
+            <list>
+              <milestone unit="dramaticPhase" n="protasis"/>
+              <item><label>Scena I</label> Bias suam narrat vitam.</item>
+              <item><label>Scena II</label> Magirotti cum Biante iocatur.</item>
+              <item><label>Scena III</label> Saturio a Biante et Magirotti eluditur.</item>
+              <item><label>Scena IV</label> Felanthon Biantem conducit.</item>
+            </list>
+          </item>
+          <item>
+            <label>Actus II</label>
+            <list>
+              <item><label>Scena I</label> Gastrimargos coquo praecipit prandium.</item>
+              <item><label>Scena II</label> Magirotti cum famulis apparat prandium.</item>
+              <item><label>Scena III</label> Saturio rogat operam Magirotti, ut recipiatur ad
+                prandium.</item>
+              <item><label>Scena IV</label> Gastrimargos Saturionem excludit prandio.</item>
+              <item><label>Scena V</label> Saturio frustra orat Frangipanum, ut illum secum ducat ad
+                prandium.</item>
+              <item><label>Scena VI</label> Magirotti Saturionem introducit.</item>
+            </list>
+          </item>
+          <item>
+            <label>Actus III</label>
+            <list>
+              <milestone unit="dramaticPhase" n="epitasis"/>
+              <item><label>Scena I</label> Bianti caminum verrenti Felanthon subdit fumum: ille in
+                contiguum caminum profugit.</item>
+              <item><label>Scena II</label> Coqui, convivae, Saturio, Gastrimargos audito strepitu
+                in camino fugiunt ab aedibus.</item>
+              <item><label>Scena III</label> Bias desertae mensae accubat.</item>
+            </list>
+          </item>
+          <item>
+            <label>Actus IV</label>
+            <list>
+              <milestone unit="dramaticPhase" n="catastasis"/>
+              <item><label>Scena I</label> Saturio armatus redire in aedes statuit.</item>
+              <item><label>Scena II</label> Saturio vacuas spectris aedes nactus indulget
+                genio.</item>
+              <item><label>Scena III</label> Gastrimargos, dum in domum irrumpit, iterum
+                terretur.</item>
+            </list>
+          </item>
+          <item>
+            <label>Actus V</label>
+            <list>
+              <milestone unit="dramaticPhase" n="catastrophe"/>
+              <item><label>Scena I</label> Felanthon, unde domus vicina terreatur, coniicit.</item>
+              <item><label>Scena II</label> Felanthon in domo Gastrimargos Biantem reperit.</item>
+              <item><label>Scena III</label> Biantis casus risu excipitur et coena.</item>
+            </list>
+          </item>
+        </list>
+      </div>
+    </front>
+    <body>
+      <div type="prologue">
+        <head>PROLOGUS.</head>
+        <sp who="#prologus">
+          <l>Genio Plauti Parasitus est huius</l>
+          <l>Fabulae, (non scurra tamen) pro Episodio:</l>
+          <l>Sabaudus primam ac legitimam partem exequitur,</l>
+          <l>Quem canit Gazeus stylo suo hilariter.</l>
+          <l>Nos illum cum Magirotti coquo, et Saturione hoc</l>
+          <l>Parasito primum inducimus: deinde epulas</l>
+          <l>postquam absumpto fumo, plusquam voluit,</l>
+          <l>In vicinas aedes per caminum desiliit.</l>
+          <l>Ibi convivis terrorem, mox risum attulit.</l>
+        </sp>
+      </div>
+      <div type="act" n="1">
+        <head>ACTUS PRIMUS.</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>BIAS suam narrat vitam.</p>
+          </argument>
+          <stage>BIAS.</stage>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l>Caminis, caminis, Allobrox, Allobrox,</l>
+            <l>Verrendis, verrendis, Allobrox, Allobrox,</l>
+            <l>Verrendis Allobrox caminis, Allobrox:</l>
+            <l>Praesto, praesto caminis verrendis Allobrox.</l>
+            <l>Veterem atque antiquum quaestum parvarum mercium</l>
+            <l>Servo atque obtineo, et cum magna cura colo.</l>
+            <l>Nam nunquam quisquam meum maiorum fuit,</l>
+            <l>Quin peregrinus mercator vixerit:</l>
+            <l>Pater, avus, proavus, abavus, atavus, tritavus,</l>
+            <l>Plures cum sole visere semper patrias,</l>
+            <l>Dorso onusti sarcina, atque pertica in manu.</l>
+            <l>Namque his cognomentum Sabaudis ambulonibus.</l>
+            <l>Unde ego quaestum hunc obtineo, et maiorum locum.</l>
+            <l>Neque otiari me volo; neque enim decet</l>
+            <l>Cum probro ire paterna perditum bona:</l>
+            <l>Neque illi qui faciunt, mihi placent. plane loquor,</l>
+            <l>Nam quietis causa qui patriam colit magis,</l>
+            <l>Quam sui quaesti, animus haud induci potest,</l>
+            <l>Eum esse Sabaudum, et fidelem, et bonum,</l>
+            <l>Qui impigre quieti praeponit lucrum.</l>
+            <l>Nimis homo nihil est, qui piger est;</l>
+            <l>Nimisque id genus odi ego male.</l>
+            <l>Vigilare, excurrere, laborare decet hominem,</l>
+            <l>Qui vult cum lucro sua conficere officia.</l>
+            <l>Igitur est haec mihi a maioribus haereditas,</l>
+            <l>Ambulatio, vox, cista, pertica.</l>
+            <l>Ita omnia mecum porto, alter Bias.</l>
+            <l>Ubi sunt nundinae, aut urbes opiparae.</l>
+            <l>Illuc me confero: reculas, seu taenias</l>
+            <l>Vittarum, specilla, inaures, auriscalpia,</l>
+            <l>Et quidquid est huiusmodi exiguarum mercium,</l>
+            <l>Expono venalia, si qui praesto sunt emere.</l>
+            <l>Cum nundinae cessant, veterem caminorum repeto</l>
+            <l>Cramben per plateas usque et usque et vicos:</l>
+            <l>Si fuligo est in furnis, et a flamma periculum.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>MAGIROTTI cum BIANTE iocatur.</p>
+          </argument>
+          <stage>MAGIROTTI, BIAS.</stage>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="I">Salve Sabaudule.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="M">salve coquule</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="F">quid ais</l>
+            <l part="I">Ut vivis?</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="M">quid agis? ut vales?</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="F">coquinor.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="I">Nundinor.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="F">quae tua merx? volo emere.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="I">Tu non es emptor, sed coctor.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="F">imo </l>
+            <l>Catarrho dentes pruriunt, dentiscalpio opus est.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="I">Abi, atque cavesis a pertica.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="F">tu malus es</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l>Tu peior, qui me rides. abi, Dii me ament.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="I">Et me. utrum magis?</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="F">videris. nescio:</l>
+            <l>Verum si ut dignus es faciant, odio habeant,</l>
+            <l part="I">Et faciant male.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="F">mitte male loqui.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l>Cum ut dignus es dico, bene, non male loquor.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l>Certe Sabaudum nequam te adstans contra contuor.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l>Certe equidem coquum peiorem, quam te, novi neminem.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l>Simul affines sumus Allobrox et coquus,</l>
+            <l>Uterque artem exercet culinariam.</l>
+            <l>Ego luculento igne cibos apparo:</l>
+            <l>Tu, ne conceptu camini triclinium deflagret,</l>
+            <l>Fuliginem tergis, et saepe pro ientaculo</l>
+            <l part="I">Nidorem aut fumum edis.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="F">pergis maledicere?</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="I">Quid mali facio? aut cui maledico?</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="F">cui pol</l>
+            <l part="I">Cumque occasio est.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="F">nemo homo unquam ita</l>
+            <l part="I">Arbitratus est.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="F">at pol ego esse ita scio.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="I">Eia.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="M">eia.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="F">tuo ex ingenio mores alienos probas.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l>Fateor profecto me esse, ut decet Allobrogem.</l>
+            <l>Satis iam dictum habeo. quid tu? confitere, ut te autumo,</l>
+            <l part="I">Mihi molestum.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="M">fatear, si ita sim.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="F">iam abi,</l>
+            <l part="I">Vicisti.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="F">iam abi. sed hoc mihi expedi, quo abis?</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="I">Quo tu?</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="M">dic tu, prior rogavi.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="F">at post scies.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l>Ego quidem haud longe coquinatum eo.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l>Et ego quidem haud longe, ubi poscetur opera.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l>Is ergo istuc, scelus, ubi hodie fit prandium.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l>Ni hoc sciero prius ex te, ex me non scies.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="I">Fors et conviva eris istic hodie.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="F">Apollo es</l>
+            <l part="I">Futurum coniice.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="F">ergo quando ita certa res,</l>
+            <l>Nihil facio scire. i prius caminum verrere,</l>
+            <l>Mox adero cum famulis, et vasis coquinariis.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA TERTIA.</head>
+          <argument>
+            <p>SATURIO a BIANTE et MAGIROTTI eluditur.</p>
+          </argument>
+          <stage>SATURIO, BIAS, MAGIROTTI.</stage>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="I">Quo tenditis viri?</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="F">hic olfacit prandium.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l>Amicus coqui est parasitus, et Allobrogis,</l>
+            <l>Qui expeditos fuligine caminos tenet</l>
+            <l>Ad coquendum. ego vos avere iubeo.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l>Non potuisti per tempus magis advenire, quam advenis.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l>Ita ego soleo: commoditatis articulos omnes scio.</l>
+            <l>O Magirotti! o mea commoditas! o mea opportunitas!</l>
+            <l>Cum te video, teneo dextra genium meum.</l>
+            <l>Ubi coquis prandium? ubi esuri sumus?</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l>Hunc roga. prius iter faciam. mox redeo.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l>Ave iterum, Allobrox, nomen non scio.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="I">Neque ego tuum scio.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="F">vocor Saturio.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="I">Salve igitur, Saturio.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="F">imo iam, Allobrox,</l>
+            <l>Mendacium aedepol dicis, atque haud te decet:</l>
+            <l>Nam Esurio sum, non adhuc Saturio.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l>Et hoc a te prius dictum oportuit.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l>Quod fers dorso prandium? haec te sarcina</l>
+            <l>Deprimit: levabo, si vis, et communicabo pariter.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="I">Non vales ferre.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="F">tantum illud oneris est,</l>
+            <l part="I">Quod fers?</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="F">aerumnae annos plures: et huc</l>
+            <l>Accedit circumforanea merx, sudor, sitis.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="I">Haec me non saturant.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="F">verum haec me alit</l>
+            <l part="I">Sarcina, et mater est.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="F">aliam ego, Allobrox,</l>
+            <l part="I">Non dorso, sed ventre gesto sarcinam.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="F">quam?</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l>Famem. hanc fuisse suspicor matrem mihi.</l>
+            <l>Nam postquam natus sum, satur nunquam fui.</l>
+            <l>Tu paucis annis gestas humeris matrem tuam,</l>
+            <l>Ego meam in stomacho gesto plus annis bis decem.</l>
+            <l>Tu matrem gestas viginti pondo parvulam,</l>
+            <l>Quo minus laboris te capere existimo:</l>
+            <l>At ego non pauxillam in ventre gesto famem,</l>
+            <l>Verum hercle multo maximam, et gravissimam.</l>
+            <l>Stomachi dolores mihi oboriuntur quotidie.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l>Haec, scio, est sors parasiti, acrius</l>
+            <l>Esse famelicum, et quasi murem semper edere</l>
+            <l>Alienum cibum. meus hic quaestus est felicior.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l>At mea ars, Allobrox, hoc antecellit tua,</l>
+            <l>Quod, quando ad coenam benignius ad vocor,</l>
+            <l>(Nulli negare soleo, si quis me esum vocat,</l>
+            <l>Patinas faciam nitidiores pumice:</l>
+            <l>Hinc multi aliud nomen fecere Peniculo mihi,</l>
+            <l>Ideo quia mensam, quando edo, detergeo.</l>
+            <l>Tu nunquam ita fuliginem radis, quin aliquid</l>
+            <l part="I">Restet.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="F">at si tam validus comestor es,</l>
+            <l>Multum ignis oportet inesse in tua</l>
+            <l>Coquinaria, in camino autem non parum</l>
+            <l part="I">Fumi.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="F">versore tamen nunquam opus.</l>
+            <l>Nam me ita exercet mater, ut quando semel</l>
+            <l>Me pavit, nihil edam multos dies;</l>
+            <l>Adhaereatque mihi ad infimum ventrem fames.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="I">Proh novercam!</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="F">ergo nullum ab igne periculum</l>
+            <l>In mea coquinaria totos dies frigida,</l>
+            <l>Ipsa fames fuliginis everriculum est.</l>
+            <l>Tua tamen mihi intus pertica opus</l>
+            <l part="I">Posset esse.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="M">qui?</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="F">munditias volo</l>
+            <l>Fieri in pectore; scopas desidero,</l>
+            <l>Simulque arundinem, ut omnem operam</l>
+            <l>Aranearum perdam, et texturam improbam,</l>
+            <l>Deiiciamque earum telas. namque in ventre meo</l>
+            <l>Inanitates ut vident araneae, et loca</l>
+            <l>Cibis deserta, suam elaborant operam.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="I">Ah, ah. ingenium.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="M">quid rides?</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="F">ridiculus es,</l>
+            <l>Uti parasiti omnes: iam te gelasinum voco.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="I">Redit Magirotti.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="F">prandium est in vicinia:</l>
+            <l part="I">Conductus sum coquus.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="F">optabilis nuntius.</l>
+            <l>Tecum simul ibo nunc ad istam domum.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l>Veni sane, si te istarum herus aedium</l>
+            <l part="I">Ad se accersi iusserit.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="F">vocatus, aut</l>
+            <l>Invocatus, soleo ego esse in convivio.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l>Sic tu, Sabaude, potes esse conviva, si</l>
+            <l part="I">Non vocatus adsis.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="F">abite: vobiscum enim</l>
+            <l>Horam perdidi. nunc pergo venditare operam.</l>
+            <l>Caminis, caminis etc.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA QUARTA.</head>
+          <argument>
+            <p>FELANTHON BIANTEM conducit.</p>
+          </argument>
+          <stage>FELANTHON, BIAS.</stage>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="I">In clamando bene es robustus.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="F">sic usus est.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="I">Nempe habes latera.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="F">his natura nihil mihi</l>
+            <l>Dedit validius: voce abutor ad lucrum.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l>Nec vociferanti toties raucescit tamen.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l>Sed nunc ambages mitte. vis uti opera?</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l>Volo equidem: nam domi caminus tibi</l>
+            <l part="I">Emundandus. quo pretio?</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="F">assibus decem.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="I">Iniquum petis.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="F">mihi tantumdem solvitur,</l>
+            <l>Ubivis verro. quod enim facias operae</l>
+            <l>Pretium meae, quando atrum fuligine locum</l>
+            <l>Scandere, genibusque et tergo obnitier,</l>
+            <l>Et rastro lateres scalpere debeo?</l>
+            <l>Tum mihi in os fumei flocci decidunt:</l>
+            <l>Ac nisi genibus et humeris fragmen corii</l>
+            <l>Obligarem, et cuculli sacco caput induerem,</l>
+            <l>Plus quinque assibus vestes detriverim.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l>Aiunt te, antequam inis caminum, cruce</l>
+            <l part="I">Frontem signare, et os, et pectus.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="F">scilicet</l>
+            <l>Christiano ritu, ut hac armatus casside,</l>
+            <l>Resistam contra assultum Cacodaemonis.</l>
+            <l part="I">Hoc me maiores docuere.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="F">ut isto crucis</l>
+            <l part="I">Flabro muscas agites?</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="F">imo, nigri nigras</l>
+            <l>Averni. nihil mea praesentius cruce.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="I">Etiam ut fumum arceas?</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="F">ita si excitat</l>
+            <l part="I">Infernus.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="F">age, age patrio more ut lubet,</l>
+            <l>Non impediam; nec iam paciscar tecum pecuniam,</l>
+            <l part="I">Sed pingui prandio.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="F">de prandio tu curaveris,</l>
+            <l>Quoniam non flagito: at mihi des pretium volo.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="I">Agedum, fiet utrumque.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="F">igitur prius domum</l>
+            <l>Refero sarcinam mercium, ac me accingo operi.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l>Vola curriculo. profecto si redis,</l>
+            <l>Novum hodie ac lautum apparabo tibi</l>
+            <l>E putridi straminis fumo prandium.</l>
+            <l>Promam ex equili vel suili salsas dapes.</l>
+            <l>Ita pol tu edes, Sabaude, hodie.</l>
+            <l>Rescies quid profuerit Christiana crux,</l>
+            <l>Quam ego odi peius hoc tuo prandio.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="2">
+        <head>ACTUS SECUNDUS.</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>GASTRIMARGOS coquo praecipit prandium.</p>
+          </argument>
+          <stage>GASTRIMARGOS, MAGIROTTI.</stage>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l>Forum coquinum qui vocant, stulte vocant:</l>
+            <l>Nam non coquinum est, verum furinum est forum.</l>
+            <l>Nam si ego iuratus peiorem hominem quaererem,</l>
+            <l>Coquum non potui, quam hunc, quem duco, discere,</l>
+            <l>Multiloquum, gloriosum, insulsum, inutilem.</l>
+            <l>Quin ob eam rem orcus recipere hunc ad se noluit,</l>
+            <l>Ut esset hic, qui mortuis coenam coquat.</l>
+            <l>Nam hic solus illis coquere quod placeat potest.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l>Si me arbitrabare isto pacto ut praedicas,</l>
+            <l part="I">Cur conducebas?</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="F">inopia, alius non erat.</l>
+            <l>Sed cur sedebas in foro, si eras coquus</l>
+            <l part="I">Tu solus praeter alios?</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="F">ego dicam tibi,</l>
+            <l>Hominum avaritia ego sum factus improbior coquus</l>
+            <l part="I">Non meopte ingenio.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="M">qua istuc ratione?</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="F">eloquar.</l>
+            <l>Quia enim cum extemplo veniunt conductum coquum,</l>
+            <l>Nemo illum quaerit qui optimus, et carissimus est;</l>
+            <l>Illum conducunt potius, qui vilissimus est.</l>
+            <l>Hoc ego fui hodie solus obsessor fori.</l>
+            <l>Illi issent drachmis miseri: me nemo potest</l>
+            <l>Minoris quisquam nummo, ut surgam, subigere.</l>
+            <l>Non itidem coenam condio, ut alii coqui,</l>
+            <l>Qui mihi condita prata in patinis proferunt,</l>
+            <l>Boves qui convivas faciunt, herbasque aggerunt,</l>
+            <l>Eas herbas herbis aliis porro condiunt,</l>
+            <l>Indunt coriandrum, foeniculum, allium, atrum olus:</l>
+            <l>Apponunt rumicem, brassicam, betam, blitum:</l>
+            <l>Eo laserpicii libram pondo diluunt.</l>
+            <l>Teritur sinapis scelerata cum illis: qui terunt,</l>
+            <l>Prius, quam triverunt, oculi ut extillent, facit.</l>
+            <l>Ei homines coenas sibi coquunt: cum condiunt,</l>
+            <l>Non condimentis condiunt, sed strygibus,</l>
+            <l>Vivis convivis intestina quae exedunt.</l>
+            <l>Hoc hic quidem homines tam brevem vitam colunt,</l>
+            <l>Cum hasce herbas huiusmodi in suum alvum congerunt,</l>
+            <l>Formidolosas dictu, non esu modo.</l>
+            <l>Quas herbas pecudes non edunt, homines edunt.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l>Quid? tu divinis condimentis utere,</l>
+            <l>Qui prorogare vitam possis hominibus,</l>
+            <l part="I">Qui ea culpes condimenta?</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="F">audacter dicito,</l>
+            <l>Nam vel ducentos annos poterunt vivere,</l>
+            <l>Meas qui esitabunt escas, quas condivero.</l>
+            <l>Nam ego cicilendrum quando in patinas indidi,</l>
+            <l>Eae ipsae sese patinae fervefaciunt illico.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l>Dii te perdant cum condimentis tuis,</l>
+            <l>Cumque tuis istis omnibus mendaciis.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="I">Sine sis loqui me.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="F">loquere, atque i in malam crucem.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l>Ubi omnes patinae fervent, omnes aperio:</l>
+            <l>Is odor dimissis pedibus in coelum volat:</l>
+            <l>Eum in odorem coenat Iuppiter quotidie.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="I">Odor dimissis pedibus?</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="F">peccavi insciens.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="I">Quid est?</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="F">quia dimissis manibus volui dicere.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l>Si nusquam is coctum, quidnam coenat Iuppiter?</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="I">It incoenatus cubitum.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="F">quae mihi loqueris?</l>
+            <l>Istaccine causa tibi hodie nummum dabo?</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l>Fateor equidem esse me coquum carissimum:</l>
+            <l>Verum pro pretio facio ut opera appareat.</l>
+            <l>Sorbitione faciam ego te hodie mea</l>
+            <l>Item, ut Medea Peliam concoxit senem,</l>
+            <l>Quem medicamento, et suis venenis dicitur</l>
+            <l>Fecisse rursus ex sene adolescentulum,</l>
+            <l part="I">Item te ego faciam.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="F">eho, an tu etiam veneficus!</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l>Imo aedepol vero hominum servator magis.</l>
+            <l>Sed utrum amicis hodie, an inimicis tuis</l>
+            <l part="I">Daturus prandium?</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="F">pol ego amicis scilicet.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l>Quin tu illos inimicos potius, quam amicos vocas?</l>
+            <l>Nam ego ita convivis prandium conditum dabo</l>
+            <l>Hodie, atque ita suaviter conditum,</l>
+            <l>Ut quisque quidquid conditum gustaverit,</l>
+            <l>Ipsos sibi faciam ut digitos praerodat suos.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l>Quaeso hercle prius, quam quidquam convivis dabis,</l>
+            <l>Gusta tute prius, et tuis discipulis dato,</l>
+            <l>It praerodatis vestras furtificas manus.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l>Fortasse haec tu nunc mihi non credis, quae loquor</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l>Molestus ne sis nimium, iam tu mihi non places,</l>
+            <l>luno abi sis, et prandium coque propere.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>MAGIROTTI cum famulis apparat prandium.</p>
+          </argument>
+          <stage>MAGIROTTI.</stage>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l>Bene obsonatum est. mihi adeste famuli.</l>
+            <l>Tu Congrio hunc agnum sume, atque abi</l>
+            <l>Intro illuc, et vos eum sequimini.</l>
+            <l>Vitulinam, cetum, porcinam, bubulam</l>
+            <l>Curate, ne quid mihi incoctum detis.</l>
+            <l>Dromo, desquamma pisces: tu Macherio,</l>
+            <l>Congrum, Muraenam exdorsua, quantum potes.</l>
+            <l>Tu istos pullos tam glabros redde, quam</l>
+            <l>Haec est manus. aulam maiorem e vicinia</l>
+            <l>Petam, haec parva est, capere nequit: item</l>
+            <l>Ego hic artoptam ex proximo utendam peto.</l>
+            <l>Commisce mulsum, struthea, coluthea: aquam appara,</l>
+            <l>Bene ut in scutris concaleat, et calamum iniice.</l>
+            <l>Collyrae facite ut madeant, et colliphia:</l>
+            <l>Nam illae nihil sunt crudae, nisi quas madidas glutias.</l>
+            <l>Tum nisi cremore crasso est ius collyricum,</l>
+            <l>Nihil est macrum illud, epicrocum, pellucidum,</l>
+            <l>Quasi iuream esse ius decet collyricum.</l>
+            <l>Sed ecquid meministis, qua de re mentionem feceram,</l>
+            <l>Ut muraena et conger ne calefierent?</l>
+            <l>Haec nimio melius appetuntur frigida:</l>
+            <l>Uti pernam ius est apponi frigidam.</l>
+            <l>Ne vobis morae sit quidquam, ubi convivae venerint</l>
+            <l>Mox intervisam qui vestrum officium facitis.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA TERTIA.</head>
+          <argument>
+            <p>SATURIO rogat operam MAGIROTTI, ut recipiatur ad prandium.</p>
+          </argument>
+          <stage>SATURIO, MAGIROTTI.</stage>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="I">Magirotti, Magirotti audi.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="F">audire non vacat.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="I">Verbulum.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="F">non possum. quaero arma e proximo.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l>Miser homo est, qui ipse quod edat, quaerit sibi,</l>
+            <l>Et id aegre invenit. sed ille est miserior,</l>
+            <l>Qui et aegre quaerit, et nihil invenit. miserrimus</l>
+            <l>Ille est, qui cum esse cupit, quod edat, non habet.</l>
+            <l>Nam hercle huic dici, si liceat, oculos effodiam lubens:</l>
+            <l>Ita malignitate oneravit omnes mortales mihi.</l>
+            <l>Neque ieiuniosiorem, neque magis effractum fame</l>
+            <l>Vidi, nec cui minus procedant, quidquid facere occoeperit:</l>
+            <l>Ita venter, gutturque resident esuriales ferias.</l>
+            <l>Illicet parasiticae arti in maximam malam crucem.</l>
+            <l>Ita multi iam parasitos ab sese segregant:</l>
+            <l>Nihil morantur iam Lacones imi subselli viros</l>
+            <l>Plagipatidas, quibus sunt verba sine penu et pecunia:</l>
+            <l>Eos requirunt, qui libenter, cum ederint, reddam domi:</l>
+            <l>Ipsi obsonant, quae parasitorum ante erat provincia:</l>
+            <l>Neque ridiculos iam teruntii faciunt: sese omnes amant.</l>
+            <l>Nam ut statim hinc abii, accessi ad quosdam in foro,</l>
+            <l>Salvete, inquam. quo imus una, inquam, ad prandium?</l>
+            <l>Atque illi tacent. quis agit, aut quis profitetur hoc,</l>
+            <l>Inquam? quasi muti silent, neque me rident. ubi</l>
+            <l>Coenamus, inquam? atque illi abnuunt.</l>
+            <l>Dico unum ridiculum dictum de dictis melioribus,</l>
+            <l>Quibus solebam menstruales epulas ante adipiscier,</l>
+            <l>Nemo ridet. scivi extemplo rem de compacto geri.</l>
+            <l>Abeo ab illis, postquam video me sic ludificarier,</l>
+            <l>Pergo ad alios, venio ad alios, deinde ad alios: una res.</l>
+            <l>Omnes compacto rem agunt, quasi in velabro olearii.</l>
+            <l>Nunc redeo inde, cum me ibi video ludificarier.</l>
+            <l>Item alii parasiti frustra obambulabant in foro.</l>
+            <l>Nunc data lege certum est ius meum omne persequi.</l>
+            <l>Qui consilium iniere, quo nos victu et vita prohibeant,</l>
+            <l>His diem dicam: irrogabo mulctam: ut mihi coenas decem</l>
+            <l>Meo arbitratu dent, cum cara annona sit, sic egero.</l>
+            <l>Nunc ibo ad domum hanc, unde repulsam prius</l>
+            <l>Passus sum. est illic mihi una spes prandii.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l>Nihil commodare vult vicinia neque aulae, neque artoptae.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l>Quaeso effice apud Gastrimargos hodie ut istic prandeam.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l>Qua confidentia rogare tu a me ausus es</l>
+            <l part="I">Prandium, impudens?</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="F">age sis benignus, subveni.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l>Quin si egomet adhiberi ad mensam peterem,</l>
+            <l part="I">Non reciperer.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="M">siccine hoc te mihi negare?</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="F">quid faciam?</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="I">Rogas? exora Gastrimargos.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="F">tu fac idem quod me rogas.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l>Feci, frustra. nunc evoca virum. me commenda prius:</l>
+            <l>Nullum meliorem esse parasitum: unctiones sudatorias,</l>
+            <l>Cavillationes, assentatiunculas, non periuratiunculas</l>
+            <l>Parasiticas habere me: tum me postridie coenam condicere.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="I">Polliceor, faciam.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="M">sed sedulo.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="M">faciam.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="F">obsecro.</l>
+            <l>I sane, face hanc rem cum cura geras. abiit.</l>
+            <l>Nunc quod coepi ante dicere, haec est oratio hominibus</l>
+            <l>Pessima, et meo animo vilissima, ne quis ad prandium</l>
+            <l>Te vocet, dicunt non esse amplius locum,</l>
+            <l>Aut se prandere foris: aut si hos invitas postridie,</l>
+            <l>Dicunt se gravari, non esse commodum, ne te revocent.</l>
+            <l>Audiam quid hic reperiet huic orationi vicarium.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA QUARTA.</head>
+          <argument>
+            <p>GASTRIMARGOS SATVRIONEM excludit prandio.</p>
+          </argument>
+          <stage>GASTRIMARGOS, SATURIO.</stage>
+          <sp who="#saturio">
+            <l>Bene atque amice exis. Dii dent, quae velis.</l>
+            <l>Propino tibi salutem plenis faucibus.</l>
+            <l>Cras coenabis apud me, quoniam mihi Iuppiter</l>
+            <l>Es terrestris, coëpulonus compellatitius.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="I">Vocata est opera.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="F">Num quidem hoc tibi tam grave est?</l>
+            <l part="I">Promitte.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="M">certum est.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="M">sic fac, inquam.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="F">certa res.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="I">Lubente hercle me facies.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="F">idem ego istuc scio,</l>
+            <l part="I">Quando usus veniet, fiet.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="F">nunc ergo usus est.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="I">Non aedepol possum.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="F">quid gravare? censeas</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l>I modo, alium convivam quaerito in istum diem.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="I">Quin tu promittis?</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="F">non graver, si possiem,</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l>Unum quidem hercle certum promitto tibi:</l>
+            <l>Libens accipiam, certo si promiseris.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="I">Valeas.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="M">certumne est?</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="F">certum: cras coenabo domi.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l>Quandoquidem operam tuam non vis promittere,</l>
+            <l part="I">Vin’ ad te ad prandium veniam hodie?</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="F">velim,</l>
+            <l>Si possim. verum hic apud me prandent alieni novem.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l>Haud postulo equidem summo in lecto accumbere:</l>
+            <l>Scis tu me dudum esse imi subselli virum.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l>At ii Oratores sunt populi summi viri.</l>
+            <l>Ab arce veniunt huc legati publice.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l>Ergo Oratores populi summates viri</l>
+            <l>Summi accumbent, ego infimatis infimus.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l>Haud aequum est te inter Oratores accipi.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l>Equidem hercle Orator sum, sed procedit parum.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l>Cras de reliquiis nos volo. multum vale.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l>Peri hercle vero plane, atque obnixe; nihil</l>
+            <l>Uno Saturione minus est, quam dudum fuit.</l>
+            <l>Certum est amicos convocare, ut consulam</l>
+            <l>Qua lege me nunc esurire oporteat.</l>
+            <l>Sed quid cum his deliberem, aut cum cognatis meis?</l>
+            <l>Ita mihi autores erunt, ut egomet me hodie iugulem fame.</l>
+            <l>Sed videone ego Frangipanum? atque is est: ad prandium</l>
+            <l>Est vocatus inter Oratores. aggrediar hominem.</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA QUINTA.</head>
+          <argument>
+            <p>SATURIO frustra orat FRANGIPANUM, ut illum secum ducat ad prandium.</p>
+          </argument>
+          <stage>SATURIO, FRANGIPANUS.</stage>
+          <sp who="#saturio">
+            <l>Sperate Frangipane, o spes mea! o mea vita! o </l>
+            <l>Mea voluptas salve! edacem te ad prandium</l>
+            <l part="I">Venire gaudeo.</l>
+          </sp>
+          <sp who="#frangipanus">
+            <speaker>FR.</speaker>
+            <l part="M">salve Saturio. vales?</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="F">Non bene,</l>
+            <l>Quia solus prandeo. animus mihi erat vocare te,</l>
+            <l>Gastrimargos nisi dixisset mihi te apud se hodie</l>
+            <l>Pransurum: cras apud me et tu, et ille, eritis;</l>
+            <l part="I">Ego apud vos perendie.</l>
+          </sp>
+          <sp who="#frangipanus">
+            <speaker>FR.</speaker>
+            <l part="F">cras ad coenam hercle alio </l>
+            <l part="I">Promisi foras.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="M">quid, foras?</l>
+          </sp>
+          <sp who="#frangipanus">
+            <speaker>FR.</speaker>
+            <l part="F">foras hercle vero ego</l>
+            <l part="I">Apud fratrem in proximo.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="F">quotidie vobis lubet</l>
+            <l part="I">Simul coenare?</l>
+          </sp>
+          <sp who="#frangipanus">
+            <speaker>FR.</speaker>
+            <l part="M">utrum tu censes?</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="F">iubedum</l>
+            <l part="I">Coenam coqui, atque ad illum renuntiari.</l>
+          </sp>
+          <sp who="#frangipanus">
+            <speaker>FR.</speaker>
+            <l part="F">Solus ego</l>
+            <l part="I">Coenabo domi.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="M">non enim solus, me vocato.</l>
+          </sp>
+          <sp who="#frangipanus">
+            <speaker>FR.</speaker>
+            <l part="F">at</l>
+            <l>Ne ille succenseat, mea qui causa sumptum facit.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l>At me iam duc tecum intro ad prandium.</l>
+          </sp>
+          <sp who="#frangipanus">
+            <speaker>FR.</speaker>
+            <l>Aedepol ducam te libenter, si superfiat locus,</l>
+            <l part="I">Et Gastrimargos te vocet.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="M">quid?</l>
+          </sp>
+          <sp who="#frangipanus">
+            <speaker>FR.</speaker>
+            <l part="F">aliud</l>
+            <l part="I">Non potest.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="M">siccine?</l>
+          </sp>
+          <sp who="#frangipanus">
+            <speaker>FR.</speaker>
+            <l part="F">ubi convivae abierint,</l>
+            <l>Tum venias: exorabo hospitem, ut sit benignus. vale.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l>iamne vides Saturio? quid es capturus consilii?</l>
+            <l>Egone? tune? mihine? tibine? vides ut annona est gravis:</l>
+            <l>Vides benignitates hominum perire, et prothymias?</l>
+            <l>Nunquam aedepol vivam in crastinum diem. fame enecor.</l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA SEXTA.</head>
+          <argument>
+            <p>MAGIROTTI SATURIONEM introducit.</p>
+          </argument>
+          <stage>MAGIROTTI, SATURIO.</stage>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l>Miseret me Saturionis, qui esuriens iacet</l>
+            <l>Ad fores mittam intus cum meis famulis</l>
+            <l part="I">Heus Saturio. te volo.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="F">quis vocat, quis nominat</l>
+            <l part="I">Me?</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="M">qui te introductum cupit.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="F">haud magis</l>
+            <l>Cupis, quam ego cupio. o Magirotti spes meae!</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="I">Quid tibi est?</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="F">tenebrae oboriuntur, genua mihi</l>
+            <l part="I">Succidunt.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="M">inedia hercle credo.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="F">retine,</l>
+            <l part="I">Retine me obsecro.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="F">viden’ ut expalluit?</l>
+            <l>Datin’ isti sellam, ubi assidat cito, et aqualem cum aqua?</l>
+            <l part="I">Properatin’ ocyus?</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="M">animo male est.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="F">vin’ aquam!</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l>Si frustulenta est, da obsecro hercle, absorbeam.</l>
+            <l>Os amarum habeo, lippiunt fauces fame.</l>
+            <l>Ita cibi vacuitate sum laxis lactibus.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l>iam edes aliquid.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l>volo hercle aliquid: ego</l>
+            <l part="I">Certum, quam aliquid mavolo.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="F">imo si scias,</l>
+            <l part="I">Reliquiae quae sint.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="F">scire nimis lubet,</l>
+            <l>Ubi sient. nam illis conventis sane opus est</l>
+            <l part="I">Meis dentibus.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="F">pernam, abdomen, suis glandim.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l>Ain tu? omnia haec? fortasse in carnario</l>
+            <l part="I">Dicis.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="F">imo in lancibus, quae tibi sunt</l>
+            <l part="I">Parata ante bellaria.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="F">ne me ludas, vide.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l>Ita me amabis, quem ego amo, ut haud mentior:</l>
+            <l>Sed tibi ante denuntio, vix tibi locum conspicor,</l>
+            <l part="I">Ubi accubes.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="F">id mea non multum interest.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="I">An arcte poteris accubare?</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="F">vel inter cuneos</l>
+            <l>Ferreos tantillum loci, ubi catellus cubet,</l>
+            <l part="I">Id mihi sat est loci.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="F">an istic genium tuum</l>
+            <l part="I">Facies?</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="M">nusquam meliorem.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="F">veni, sequere.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l>Deos salutabo modo, postea ad te continuo transeo:</l>
+            <l>Iam me respicit salus: aeternum sum adeptus cibum.</l>
+            <l>Quantum dapinabit hic victum, si vera autumo</l>
+            <l>Dii immortales, ut ego collos detruncabo tergoribus!</l>
+            <l>Quanta pernis pestis veniet! quanta labes larido!</l>
+            <l>Non ego nunc parasitus sum, sed regum rex regalior.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="3">
+        <head>ACTUS TERTIUS.</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>BIANTI caminum verrenti FELANTHON subdit fumum: ille in contiguum caminum
+              profugit.</p>
+          </argument>
+          <stage>BIAS, FELANTHON.</stage>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="I">Quis meas fores?</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="M">Sabaudus.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="F">a, a, a, quam lepide?</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l>Sic itur in caminos: sic in procinctu soleo</l>
+            <l part="I">Esse.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="F">quam bella veste contra iniuriam uteris.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l>Quantos hodie videbis acervos nigri</l>
+            <l>Excrementi ab alto deorsum mitti, quod tuo</l>
+            <l>In camino ex fumo adhaesit tamdiu?</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="I">Agedum, ascende.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="F">prius, ut occoepi narrare, a cruce</l>
+            <l part="I">Opus auspicor.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="F">crux te agat in crucem,</l>
+            <l>Furcifer, ita haec mihi bilem in nasum conciet.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="I">Quid ais?</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="M">perge.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="F">cantilena soleo</l>
+            <l part="I">Opus mulcere.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="F">canta. brevi tibi os et</l>
+            <l part="I">Nares obstruxero odore pessimo.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="F">ohe, ohe</l>
+            <l part="I">Felanthon!</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="M">quid clamas?</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="M">quid fumigas?</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="F">quid olet?</l>
+            <l part="I">Olfacta.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="F">suillum stercus aut equinum odoror.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="I">Quid fastidis?</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="F">spurcatur nasus odore illutibili.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="I">Tibi iubeo apparari prandium.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="F">non aedepol volo</l>
+            <l part="I">Istud profecto ante ientaculum.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="F">at pol profecto ingratiis.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="I">Tuam fidem obsecro.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="M">verre.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="F">abstine, fumo enecor.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="I">Muni os cruce.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="M">scelerate.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="F">contra fumum tessera.</l>
+            <l part="I">Utere.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="F">oculis captus sum: quo, qua fugiam?</l>
+            <l part="I">Perreptabo ad verticem.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="F">valide properat scandere:</l>
+            <l>Meo cibo iste factus est impensior: satur</l>
+            <l>Homo est, habet profecto in ventre confidentiam</l>
+            <l>Heus Bia, Bia inquam: avolavit miser Icarus.</l>
+            <l>Credo corruisse, et e lapsu crus Allobrogi</l>
+            <l>Uti Vulcano fractum. Christianae haec merces crucis.</l>
+            <l>Nunc camino foenum subtraho, cuius ipse foetido</l>
+            <l>Odore durare non possum in aedibus. nunc scio</l>
+            <l>Quam alieno naso sumi molestiam exhibui.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>Coqui, Convivae, SATURIO, GASTRIMARGOS audito strepitu in camino fugiunt ab
+              aedibus.</p>
+          </argument>
+          <stage>MAGIROTTI, FRANGIPANUS, SATURIO, GASTRIMARGOS.</stage>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l>Fugite famuli qua licet, sagae sunt quidem</l>
+            <l>In camino et daemones: in olla pestis est.</l>
+            <l>Numquid ego unquam, nisi hodie, veni ad striges</l>
+            <l>Coquinatum, ita me miserum et vos exigent foras?</l>
+            <l>Mihi vasa colligite. nae ego veni huc aedepol</l>
+            <l>Auspicio malo, nihil mihi negotii in his aedibus.</l>
+            <l>Utinam mea mihi modo, quae attuli, salva auferam.</l>
+          </sp>
+          <sp who="#frangipanus">
+            <speaker>FR.</speaker>
+            <l>Non istis ego epulis immoror, ubi sunt Harpyae,</l>
+            <l>Nullum tristius monstrum, nulla pestis saevior,</l>
+            <l>Quae ad mortales ex styge sese efferat.</l>
+            <l>Volucres uncis manibus, fame pallidae,</l>
+            <l>Foeda ventris ingluvies. his ego fugio.</l>
+            <l>Infestas domos, ne contra me, quasi Phineum,</l>
+            <l>Missae, cibos et mensam foedent turpissime.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l>Ah miser Saturio! vere nunc es Tantalus,</l>
+            <l>Qui longa fame torqueris, cibis tamen</l>
+            <l>Ori imminentibus, quos metu non corripis.</l>
+            <l>Vae camino, et nigello eius genio,</l>
+            <l>Per quem damna eveniunt maxima misero mihi:</l>
+            <l>Ita me terror et metus afficiunt male.</l>
+            <l>Potationes plurimae interim sunt demortuae.</l>
+            <l>Quot adeo boli, quos defleo, mortui!</l>
+            <l>Quot potiones mulsi! quale autem prandium,</l>
+            <l>Quae inter subitos misere metus perdidi!</l>
+            <l>Prae moerore adeo miser atque aegritudine</l>
+            <l>Consenesco, pene sum fame ipsa emortuus.</l>
+            <l>Cito exeundum est foras cum aliis,</l>
+            <l>Ne mihi uni incantatus caminus corruat.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l>Quid fugitis hospites? cur deseritis latus?</l>
+            <l>Siccine mea domus praestigiis patet?</l>
+            <l>Mihi, et amicis clausa est? quid nunc agam?</l>
+            <l>Nisi mihi propitius coeli cultor advenit.</l>
+            <l>Ego pol ulciscar hodie Thessalum veneficum,</l>
+            <l>Qui perverse adeo perturbavit caminum meum.</l>
+            <l>Certum est introrumpam in aedes, ubi quemque aspexero,</l>
+            <l>Sive sagam, sive furem, sive servum, sive liberum,</l>
+            <l>Sive spectrum, sive daemonem, obtruncabo in aedibus.</l>
+            <l>Neque me Superi omnes id prohibebunt, si volent,</l>
+            <l>Quin sic faciam, ut constitui. sed prius resciam.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA TERTIA.</head>
+          <argument>
+            <p>BIAS desertae mensae accubat.</p>
+          </argument>
+          <stage>BIAS.</stage>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l>Ubi sum? quo me ab alto immisi gentium?</l>
+            <l>Quae sunt aedes? nemo est? quid mensa haec?</l>
+            <l>An timuerunt omnes, ubi me huc dedi praecipitem?</l>
+            <l>Ita credo, me daemonem rati quisque per fores</l>
+            <l>Ac fenestras timidiores ipsi timidum fugiunt.</l>
+            <l>Quid nunc iam opus, ubi conviva nullus est?</l>
+            <l>Sumpsisti, Bia, in ventre fumum, quem non digeres,</l>
+            <l>Nisi valido haustu, et fortiore cibo superas.</l>
+            <l>His utere, quae bona sors offert: postliminio </l>
+            <l>Remigrabis ad caminum, sic olim fabulantur Deos</l>
+            <l>Se e tegulis insinuasse in domos, et bene</l>
+            <l>Pransos rediisse in caelum, nunc more regio,</l>
+            <l>Cum corona solus accubabo, et egomet mihi</l>
+            <l>Propinabo monotrophe. hoc convivium est</l>
+            <l>Sine meis opibus: satis commodule accipior:</l>
+            <l>Non nucibus, fabulis, ficulis, olea</l>
+            <l>Interrupto lupillo, comminuto crustulo:</l>
+            <l>Haec est coena pauperculi Allobrogis,</l>
+            <l>Qui modeste melius facit sumptum, quam ampliter</l>
+            <l>At mihi nunc, cui divitiae sunt domi,</l>
+            <l>Lepide scaphio, cantharis, batiocis bibam.</l>
+            <l>Age Bia, cadis te praeficio, et strategum te facio</l>
+            <l>Huic convivio. perna, pulli, bubula</l>
+            <l>Sunt apposita, comede. nimis vellem aliquid</l>
+            <l>Halecis, quod infimum ventrem detergeat,</l>
+            <l>Et plenas fumo fauces eluat: hoc saperet enim.</l>
+            <l>Sed interim, stratege noster, cur hic cessat cantharus?</l>
+            <l>Bibe Bia, age, bibendum hercle est, ne nega.</l>
+            <l>Quid hic fastidis? quod faciendum vides esse tibi,</l>
+            <l>Quin bibis? bibe Bia te, et quinquies bibe,</l>
+            <l>Et ter, et semiquater, haec graeca olim cantio est.</l>
+            <l>Bibe quot litteris constare scis nomen tuum:</l>
+            <l>Aut tot cyathos, Bia, bibe, quot digiti</l>
+            <l>Sunt in manibus. aedepol con vivi sat est.</l>
+            <l>Recipiam me ad caminum, ut ibi lateam,</l>
+            <l>Vel si occasio est, evadam vel ex his locis.</l>
+            <l>At quid hoc? siccine fit hoc pedes?</l>
+            <l>Statin’ an non? an id vultis ut me aliquis</l>
+            <l>Hinc iacentem tollat? nam hercle si cecidero,</l>
+            <l>Vestrum erit flagitium. pergitin’ pergere?</l>
+            <l>Ah! saeviendum mihi hodie est. vitium</l>
+            <l>Hoc magnum vino est, primum captat pedes,</l>
+            <l>Luctator dolosus est. quid ego nunc agam?</l>
+            <l>Praefestine nimis bibi: interea in angulum</l>
+            <l>Camini aliquo abeam, atque edormiscam hanc crapulam.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="4">
+        <head>ACTUS QUARTUS.</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>SATURIO armatus redire in aedes statuit.</p>
+          </argument>
+          <stage>SATURIO, GASTRIMARGOS.</stage>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l>Aude Saturio, venter stimulat, qualis lupus,</l>
+            <l>Quem improba fames exigit per pericula.</l>
+            <l>Tu sors me adiuva, meamque hodie confidentiam,</l>
+            <l>Atque offer opes opiparas, festivitatem, ferias,</l>
+            <l>Penum, potationes, saturitatem, gaudium.</l>
+            <l>Nec umbras timere nunc certum est mihi:</l>
+            <l>Nam prodesse ventri possum, vel inimicum perdere.</l>
+            <l>Nunc cursum ad Gastrimargos capessam, cui</l>
+            <l>Me offeram, hoc pacto ad omnia pericula,</l>
+            <l>Ut me semper communicet mensae suae.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l>Crescit aegritudo in animo, cum aedes meas</l>
+            <l>Esse desertas scio. Saturio estne hic, quem video?</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l>Move abs te moram, atque Saturio hanc rem age.</l>
+            <l>Sed prius te exerce ludicro certamine,</l>
+            <l>Ne imparatus contra hostes digladiere. sic ages:</l>
+            <l>Eminor, interminorque, ne quis mihi obstiterit obviam,</l>
+            <l>Nisi quis sat diu vixisse se homo arbitrabitur:</l>
+            <l part="I">Nam qui obstiterit, ore sistet.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="F">hic homo pugillatim incipit.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l>Facere certum est. proinde omnes itinera insistant sua,</l>
+            <l>Neu quis in hac platea negotii conferat quidquam sui:</l>
+            <l>Nam meus est Balista pugnus, cubitus catapulta est mihi,</l>
+            <l>Humerus aries: tum genu ut quemque iecero, ad terram dabo.</l>
+            <l>Dentilegos omnes mortales faciam, quemque offendero.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l>Quae illaec eminatio est? nam nequeo mirari satis.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l>Faciam huius diei, locique, meique semper meminerit,</l>
+            <l>Qui mihi in via obstiterit: faxo vitae is obstiterit suae.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l>Quid, hic homo tantum incipit facere cum tantis minis?</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l>Prius dico, ne quis propter culpam capiatur suam.</l>
+            <l>Continete vos domi, prohibete a vobis vim meam.</l>
+          </sp>   
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>            
+            <l>Basilicas edictiones, atque imperiosas habet.</l>
+            <l part="I">Perlubet hunc hominem colloqui: Saturio.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="F">quis hic?</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="I">Respice ad me.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="M">o Gastrimargos, cedo manum.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="F">manum?</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="I">Manum, inquam, cedo tuam actutum,</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="M">tene.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="F">metus</l>
+            <l part="I">Pone audacter.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="M">quid ego ponam?</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="F">quia ego impero,</l>
+            <l part="I">Age, ne time modo.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="F">a spectris timeo domui.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l>Ego hac machaera abigam, atque fidens intrabo domum:</l>
+            <l>Iam me exercui ad pugnam, et compressi obvios.</l>
+            <l>Vel occidar tua causa, vel quos in aedibus offendero,</l>
+            <l>Hos mactabo cum magna gloria, et sola mercede prandii.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l>Hoc si ausis, Saturio, hoc si feliciter feceris,</l>
+            <l>iubeo astitui aulas, patinas elui, laridum</l>
+            <l>Atque epulas foveri foculis ferventibus.</l>
+            <l>Verbo: si modo subis aedes, sume, posce quidlibet,</l>
+            <l>Te facio cellarium. ego ad convivas redeo,</l>
+            <l>Et coquos, ut tibi martios simul animos demus.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l>Sine me agere, facinus nescio quod spondeo.</l>
+            <l>Ambula cito ad tuos, accerse, reambula.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>SATURIO vacuas spectris aedes nactus, genio indulget.</p>
+          </argument>
+          <stage>SATURIO.</stage>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l>Abiit. mihi rem summam credidit cibariam.</l>
+            <l>Nunc ibo ad praefecturam, et sub camino ius dicam larido</l>
+            <l>Et quae pendent indemnatae, pernis auxilium feram.</l>
+            <l>Nam mihi istic in camino hodie est negotium.</l>
+            <l>Pultabo. heus, heus, ubi estis fures, venefici,</l>
+            <l>Praestigiatores, sagae, daemones, Harpyae?</l>
+            <l>Ecquis vestrum hoc mihi aperit ostium!</l>
+            <l>Aperite, inquam, hasce ambas fores prius,</l>
+            <l>Quam pultando assulatim foribus exitium affero.</l>
+            <l>Non respondetis? at ego vobis malum spondeo,</l>
+            <l>Si quem capite, aut cubito, aut pectore offendam, aut genu.</l>
+            <l>Fors nullus est, ubi vociferor. agite si cominus lubet</l>
+            <l>Pedes, manus, enses conserere, praesto ego sum</l>
+            <l>In mediis aedibus, adeo ad caminum, si quis est</l>
+            <l>Hostis. siccine aufugit? solus sum relictus hic</l>
+            <l>Potitor campi? certe equidem non sine spoliis.</l>
+            <l>Gaude Saturio, non omne vinum, non omnes cibos</l>
+            <l>Hostis absumpsit, praeda suo victori residua est.</l>
+            <l>Iterum totis aedibus clamo, insector, provoco</l>
+            <l>Si quis hostis. intelligo quam rem egerit profugus,</l>
+            <l>Metuit scilicet, ne Saturio, quasi lupus esuriens</l>
+            <l>In ipsos faceret impetum; nimisque hercle male </l>
+            <l>Illi me formidabant, ita frendebam dentibus.</l>
+            <l>Nunc antequam adveniat. cum convivis et coquis</l>
+            <l>Gastrimargos, totum devoravero, nihil erit</l>
+            <l>In patinis, et poculis. dicam sitivisse daemonas.</l>
+            <l>Dii boni! quantus ventri commeatus meo</l>
+            <l>Post pugnam adest cibus! porcina, non tibi</l>
+            <l>Parco: vos mei estis pulli iusto praelio:</l>
+            <l>Victrici dentium legioni sacrificabitur</l>
+            <l>Hic agnellus cum pulpamento, et mulsi poculo</l>
+            <l>Caetera palato servient, in eius palatio.</l>
+            <l>Perge, perge Saturio: si tibi hodie bene est,</l>
+            <l>Cras fortasse licebit esse famelico.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA TERTIA.</head>
+          <argument>
+            <p>GASTRIMARGOS, dum in aedes irrumpit, iterum terretur.</p>
+          </argument>
+          <stage>GASTRIMARGOS, MAGIROTTI, FRANGIPANUS, SATURIO, BIAS.</stage>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l>Venite, hospites, subsidio: praeivit huc</l>
+            <l>Armatus Saturio, ego bombardam subsequor</l>
+            <l>Tu Magirotti utere veru, alii torribus</l>
+            <l>Et fuscinis, hic pistillo, ille forcipe,</l>
+            <l>Quisque instructus telo coquinario.</l>
+            <l>Tua, Frangipane, hasta strenue rem gere.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l>Nostras veniet in manus, quisquis ille est.</l>
+          </sp>
+          <sp who="#frangipanus">
+            <speaker>FR.</speaker>
+            <l>Non retrocedam, utrimque armis certabitur.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l>Irrumpamus: assultus signum ac felix omen est</l>
+            <l part="I">Hic catapultae ictus.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="F">timeat hoc veru</l>
+            <l>Hostis, quem ego traiecto pectore ad focum</l>
+            <l part="I">Torrebo uti armum.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="F">Dii! quid conspicor!</l>
+            <l part="I">In mensa hostem. Saturio sic pugnas?</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="F">quantam modo</l>
+            <l>Carnificinam edidi! nulli impune fuit hostium.</l>
+            <l>Poculentis, esculentis sine discrimine</l>
+            <l part="I">Internecio lata est.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="M">quid agis?</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="F">hoc ago</l>
+            <l part="I">Ipsum, commesso.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="M">ubi hostis?</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="F">fugit turpiter.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="I">Quis? homo an daemon?</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="F">si daemones sitiunt,</l>
+            <l>Bibit ille liberaliter, atque cibo usus est:</l>
+            <l part="I">Postea evanuit.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="M">vidisti?</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="F">ne umbram quidem</l>
+            <l>Depoposci ad singulare certamen, nullus fuit.</l>
+            <l>Tum ego, quasi triumphans, epulas petii.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l>At at in camino quosdam ronchos audio</l>
+            <l part="I">Huc aurem admove.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="F">dormit aliquis ebrius.</l>
+            <l>Huc huc, Saturio, habes in ventre confidentiam,</l>
+            <l part="I">Iam provoca hostem. quid times?</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="F">venter ubi</l>
+            <l>Est plenus, sentio quam sit ad pugnam piger.</l>
+            <l>Tu aude, ego extra domum excubabo foris.</l>
+          </sp>
+          <sp who="#frangipanus">
+            <speaker>FR.</speaker>
+            <l>Praeter consuetudinem stertentis ille est sonus.</l>
+            <l>Vereor ne ebrius sit hic genius ab styge,</l>
+            <l>Qui nos maleficis probe ludat praestigiis.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l>Arma, arma famuli. quid vobis fuga consulitis?</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l>Iam nunc catapultae glande hostem deiiciam.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l>O, o, o. quis me sopitum somno excitat?</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="I">Daemon, Daemon, Daemon.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="F">niger Aethiops,</l>
+            <l part="I">Cum tridente, et cucullo.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="M">o, o, o.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="F">fugimus.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="I">Fugitis?</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="F">avernalis est hic camini accola.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l>Ergo me servarunt Dii, quominus cum daemone</l>
+            <l>Pugnaverim. salvus sum, et satur: iam me do in pedes.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="5">
+        <head>ACTUS QUINTUS.</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>FELANTHON, unde domus vicina terreatur, coniicit.</p>
+          </argument>
+          <stage>FELANTHON, GASTRIMARGOS</stage>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l>Nescio quid in vicina turbatum est domo:</l>
+            <l>Formidines video, et incertos cursus, et fugas.</l>
+            <l>ius viciniae postulat, ut auxilier; et ubi</l>
+            <l>Proximus dolet, ibi ego quoque doleam.</l>
+            <l>Illum adeo ante aedes moestum intueor.</l>
+            <l>Gastrimargos, anxius es, nescio quid, fac resciam</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="I">Daemon est domi.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="M">quid ais?</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="F">certe quidem.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l>Mihi terrorem affers, cum istud autumas.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l>Non fallor, prope me comprehendit modo,</l>
+            <l>Insiliens derepente ex loco, quem habitat.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l>Timeo meis aedibus: daemon est contagio,</l>
+            <l>Contactu, ut pestilens morbus, contrahitur.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l>Haud tu aegre, Felanthon, carebis isto hospite.</l>
+            <l>Sed quando domus accepit, quid consilii?</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l>Quando de daemonibus est sermo, continuo mihi</l>
+            <l>Rationes iacent, consilium silet: quid dicam nescio.</l>
+            <l>Tu inter domesticos istaec agas, abeo domum:</l>
+            <l>Neque unquam mihi cum orco negotium est.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l>Felanthon, quaeso te, ut advocatus adsis mihi,</l>
+            <l part="I">Neve abeas.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="F">vale, quid me ad vocato opus est?</l>
+            <l>Quin mihi istum daemonem advocaturus sim nescio,</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l>Imo coniunctis viribus, et callido consilio</l>
+            <l>Prohibeamus ab aedibus tale infortunium.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l>Callidior est daemon, quam ut se opprimi sinat.</l>
+            <l part="I">Quid commisisti?</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="F">epulabar cum amicis lepide,</l>
+            <l>Cum ex camino exaudiri fragor, et descensus stygis.</l>
+            <l>Proripere se domo coqui, et qui mecum erant viri.</l>
+            <l>Ubi post paulo recepti animi, confidentia fuit</l>
+            <l>Repetere aedes: ipse Saturio primus subiit:</l>
+            <l>At nemine reperto, etiam mensae accubuit:</l>
+            <l>Ipsi tamen cibi ex parte consumpti erant.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="I">A quo?</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="F">ab ipso, qui apparuit, daemone.</l>
+            <l>Nos armis instructi irrupimus in domum simul,</l>
+            <l>Impune: at edi ronchos in camino audiit coquus.</l>
+            <l>Ego bombardam exonero; tum tenebrionum aterrimus,</l>
+            <l>Veluti somno excitus, me insequi, et horribili</l>
+            <l>Clamore percellere. ipsi in manu rastrum fuit,</l>
+            <l part="I">In capite cuculio.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="F">miror ni meus Allobrox</l>
+            <l>Huius est autor comoediae: ita nunc mihi</l>
+            <l>Est mens esse hunc daemonem. adhuc reticebo tamen.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="I">Quid tu solus loquere?</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="F">rem miror magis.</l>
+            <l>Sed quid ais? unde prosiliit ater genius?</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="I">Ex camino.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="F">nempe qui est contiguus meo:</l>
+            <l>Hoc fuit asylum, cum vitaret fumum propere.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l>An cum impete, uti fere daemones solent,</l>
+            <l>Est volutus in focum genius? scire velim.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l>Sensim a vertice, quasi obluctans pedibus.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l>Arte Allobrogum. certus es ebibisse hunc daemonem?</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="I">Affirmas, Saturio.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="F">lautius prandium meo</l>
+            <l part="I">Est nactus. ronchos dedisse?</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="F">terribiles.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l>Dormiit ebrius a fumo, potu, et cibo.</l>
+            <l part="I">Tu vidisti daemonem?</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="F">enimvero nigra facie.</l>
+            <l part="I">Cui rastri ferrei ad manum.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="F">queis solet</l>
+            <l part="I">Caminum purgare.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="F">usus cuculli tegmine.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l>Ipse est graphice descriptus Bias.</l>
+            <l>Continere risum non queo. at huius comoediae</l>
+            <l>Iucundam catastrophen volupe est protrahere.</l>
+            <l>Audi Gastrimargos. pro vetere amicitia,</l>
+            <l>Quae est inter nos, liberabo te et aedes metu,</l>
+            <l>Si in coena hodie vesperi recipere me vis, et tuos</l>
+            <l>Convivas, Saturionem, coquos; tum autem praecipue </l>
+            <l>Ad caput mensae istum daemonem perfamiliariter.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l>Non pol profecto: istoc pacto nunquam coenabo hodie.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="I">Promitte.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="M">apage.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="M">nihil mali.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="F">quid boni a daemone?</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l>Ego assidebo illi, et primus propinabo cantharum:</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l>Qui modo timebas orcum, subito quam es ferox:</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l>Exinde pactus sum cum illo, inter nos convenit.</l>
+            <l>Ne dubita, age si quid agis, invitandus hercle est</l>
+            <l part="I">Ad coenam.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="M">me ludis.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="F">si facturum te negas,</l>
+            <l part="I">Ipsum ego commessatum volo vocare.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="F">voca ilicet</l>
+            <l>Tuo periculo: verum tu hodie non facies,</l>
+            <l>Ut cum isto, quem vidi, cacodaemone accubem.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l>Accubabis, inquam, hodie mecum cum ipso eo,</l>
+            <l part="I">Quem vidisti, cacodaemone.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="M">accuba dum.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="F">non mora</l>
+            <l>Erit apud me. testes quaere hospites tuos.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l>Quaero. tuo ioco, aut serio tentabis daemonem.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>FELANTHON in domo GASTRIMARGOS BIANTEM reperit.</p>
+          </argument>
+          <stage>FELANTHON, BIAS.</stage>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l>Bia, heus Bia, cacodaemon, Bia, ad fores.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l>Quis homo. quem larva mea non territo hodie?</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="I">Felanthon.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="F">sceleste, tibi omnes irati sunt Superi.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="I">Bia, etiamnum vivis?</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="F">non tuo munere vivo aedepol,</l>
+            <l>Qui fumo me pene extinxisti pessimo.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l>Te ad Aediles deferam, ut mulctam feras,</l>
+            <l>Quia non absolvisti caminum verrere.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l>Ego apud Praetorem, improbe, caput tuum,</l>
+            <l>Quia viro innocenti interclusisti spiritum</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l>Coxi tibi prandium, id ex condicto fuit.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="I">Id edisses tu.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="F">aliud ex hoc nactus es:</l>
+            <l>Id mihi debes: et quod iam de coena agitur.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l>Medice vivo. quo die prandi ampliter,</l>
+            <l part="I">Non coeno.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="F">oportet te quadrifariam hodie</l>
+            <l>Dispertiri epulas: ego ientaculum dedi,</l>
+            <l>Sors prandium, Gastrimargos coenam parat</l>
+            <l part="I">Et commessationem.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="F">nolo, inquam, coenare hodie.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l>Coena ergo apud inferos. nam nisi tibi, Bia,</l>
+            <l>Sum propitius, occidisti mortuus a domesticis,</l>
+            <l>Qui te aut daemonem, aut praestigiatorem habent.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l>Qua ratione tu mihi coenam praedicas?</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l>Si hac larvati imagine daemonis</l>
+            <l>Mihi a latere adstas, si morem geris,</l>
+            <l>Si te ad coenam recipis, si denique te Biam</l>
+            <l>Aperis: tum felici exitu histrionia probabitur,</l>
+            <l>Atque ego, ut spopondi, daemonem coenae adhibuero.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="I">Faciam.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="M">at memineris.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="F">memorem mones.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="I">Abi intro.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="M">num quid vis?</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="F">ut daemonem agas.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA TERTIA.</head>
+          <argument>
+            <p>BIANTIS casus risu excipitur, et coena.</p>
+          </argument>
+          <stage>GASTRIMARGOS, FELANTHON, MAGIROTTI, BIAS, SATURIO, FRANGIPANUS.</stage>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l>Adhuc stas promissis, Felanthon? ecce hospites,</l>
+            <l part="I">Quid tecum ipse cogitas?</l>
+          </sp>
+          <sp who="#frangipanus">
+            <speaker>FR.</speaker>
+            <l part="F">hominem poenitet consilii,</l>
+            <l>Qui daemonem vocare ad coenam voluit.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l>Verba et incantamina carminum invenio,</l>
+            <l>Quibus ego istud supra naturam moliar.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l>At vereor, ne quid tibi invenias mali.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l>Ars magica inanis, vetita, intestabilis.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l>Praevidi omnia, nunc qua vultis magiae specie</l>
+            <l>Daemonem invocem? quid vultum avertitis:</l>
+            <l>Neu timete. placet hydromantia? coram</l>
+            <l>Iam nunc daemon in pelvim illapsus, aqua</l>
+            <l>Edet sonum. si catoptromantia magis placet,</l>
+            <l>Respicietis in speculo coenantem daemonem.</l>
+            <l>Sed fors tibi, Magirotti, pyromantia probabitur;</l>
+            <l>Per ignem ex camino eliciam inferos.</l>
+            <l>Video, praestat necromantia; ut brevi carmine</l>
+            <l>Incantato, daemon inter nos conveniat,</l>
+            <l>Coenet, divinet, ad interrogata respondeat.</l>
+            <l>Hoc agam: state praesentes arrectis auribus.</l>
+            <l>Evoe, bax, Evie bombax, Bromie quaquax.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="I">Hei mihi, ad venientem audio.</l>
+          </sp>
+          <sp who="#frangipanus">
+            <speaker>FR.</speaker>
+            <l part="F">fugio ne hic peream.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l>Nihil praecavendum, constate singuli in loco.</l>
+            <l>Quaquax Bromie, Bombax Evie, bax Evoe.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="I">O, o, o.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="F">pro spectrum aspectu horribile!</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l>Adesdum. hic siste: nec te ad unguem moveris.</l>
+            <l>Ita impero. Videtis ut dicto est obediens?</l>
+            <l>Coenabis hodie nobiscum familiariter? annuit.</l>
+            <l>Nullus convivis erit metus? annuit.</l>
+            <l>Respondebis, nostra lege, poculis? annuit.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="I">Non est cacodaemon hic.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="F">sit, quisquis est,</l>
+            <l part="I">Nulla fides mendaci genio.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="F">veracem modo</l>
+            <l>Senties. responde, vera te loqui iubeo.</l>
+            <l part="I">Qui vocaris?</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="M">Bias.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="F">novi ego istoc nomine</l>
+            <l part="I">Sabaudum.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="F">personam, nomen, ementitus est.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="I">Cuias es?</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="M">Allobrox.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="F">ista fert terra daemones?</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l>Timere desino, cum istum contemplo hominem:</l>
+            <l>Namque vox non daemonem sonat; et forma est</l>
+            <l>Consimilis isti Bianti, quam noscito.</l>
+          </sp>
+          <sp who="#frangipanus">
+            <speaker>FR.</speaker>
+            <l>Nisi me animus fallit, haec est histrionia.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l>Hoc mihi certum. Gastrimargos, nondum vides</l>
+            <l>Ludos fieri? iocatur cum suo daemone</l>
+            <l>Felanthon, et mox nobis fabulam apparat.</l>
+            <l>Ego ipse interrogabo daemonem, ut pateat.</l>
+            <l part="I">Dic, iocose Bia, ubi tua sarcina?</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="F">est domi.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l>Nonne divinavi Apollo de tuo prandio?</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="I">Non pol de ientaculo.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="M">quomodo?</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="F">quod ego</l>
+            <l>Curavi ipsi conditum odore Arabico,</l>
+            <l part="I">Quando meum verrit caminum.</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="F">nisi pol contiguus,</l>
+            <l>Patuisset hic caminus, vivus non esset Bias.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l>Respiro, animus redit, cum haec colloqui audio.</l>
+          </sp>
+          <sp who="#frangipanus">
+            <speaker>FR.</speaker>
+            <l part="I">Tu igitur, Bia, huc descendisti?</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="F">hoc perfugium fuit.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="I">Tu nos terruisti?</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="F">terrore enim panico.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l part="I">Accubuisti ad mensam?</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="F">ubi appositi cibi.</l>
+          </sp>
+          <sp who="#magirotti">
+            <speaker>M.</speaker>
+            <l part="I">Dormivisti in camino?</l>
+          </sp>
+          <sp who="#bias">
+            <speaker>B.</speaker>
+            <l part="F">vinum me ceperat.</l>
+          </sp>
+          <sp who="#frangipanus">
+            <speaker>FR.</speaker>
+            <l>Illusi sumus. fabula in foro de daemone</l>
+            <l part="I">Sabaudo vagabitur.</l>
+          </sp>
+          <sp who="#felanthon">
+            <speaker>FE.</speaker>
+            <l part="F">res obtegetur, si hodie</l>
+            <l part="I">In coena riserimus.</l>
+          </sp>
+          <sp who="#gastrimargos">
+            <speaker>G.</speaker>
+            <l part="F">iuvat vino tradere</l>
+            <l>Quidquid terroris, aut ridiculi casus fuit.</l>
+            <l>Id vero praedixti, Felanthon, coenaturum apud me daemonem.</l>
+          </sp>
+          <sp who="#saturio">
+            <speaker>S.</speaker>
+            <l>Istos mihi quotidie eudaemonas velim. valete.</l>
+          </sp>
+          <closer>FINIS.</closer>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
