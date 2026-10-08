@@ -1,0 +1,3173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="dracor" xml:id="neolat000186" xml:lang="la">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Villicus</title>
+        <author>
+          <persName xml:lang="la">
+            <forename>Martinus</forename>
+            <surname>du Cygne</surname>
+          </persName>
+          <idno type="wikidata">Q21545079</idno>
+        </author>
+        <respStmt>
+          <resp>Transcribed by</resp>
+          <persName ref="https://orcid.org/0000-0002-9764-187X">Nicholas De Sutter</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Converted to TEI by</resp>
+          <persName ref="https://orcid.org/0000-0002-9764-187X">Nicholas De Sutter</persName>
+        </respStmt>
+        <funder>
+          <orgName>FWO</orgName>
+          <name>1291325N</name>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <ref target="https://books.google.com/books?id=vqAjcaQDLrgC">Google Books</ref>
+          <availability status="free">
+            <p>In the public domain.</p>
+          </availability>
+        </bibl>
+        <bibl type="originalSource">
+          <author>Martinus du Cygne</author>: <title>Villicus</title>. <title type="sub">Comoedia
+            VI</title>. In: <author>Martinus du Cygne</author>: <title>Comoediae XII</title>. <title
+            type="sub">Pars prior</title>. <pubPlace>Liège</pubPlace>: <publisher>Joannes Mathias
+            Hovius</publisher>
+          <date>1679</date>. <biblScope>pp. 243–287</biblScope>. </bibl>
+        <listEvent>
+          <event type="print" when="1679">
+            <desc/>
+          </event>
+        </listEvent>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="prologus" sex="UNKNOWN">
+            <persName>Prologus</persName>
+          </person>
+          <person xml:id="archiagrus" sex="MALE">
+            <persName>Archiagrus</persName>
+          </person>
+          <person xml:id="toxilus" sex="MALE">
+            <persName>Toxilus</persName>
+          </person>
+          <person xml:id="menalcas" sex="MALE">
+            <persName>Menalcas</persName>
+          </person>
+          <person xml:id="corydon" sex="MALE">
+            <persName>Corydon</persName>
+          </person>
+          <person xml:id="gazophylax" sex="MALE">
+            <persName>Gazophylax</persName>
+          </person>
+          <person xml:id="houplala" sex="MALE">
+            <persName>Houplala</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">comedy</term>
+        </keywords>
+        <classCode scheme="https://www.wikidata.org/wiki/Q40831"/>
+      </textClass>
+      <creation>
+        <region>
+          <ref target="https://www.wikidata.org/wiki/Q622783">Spanish Netherlands</ref>
+        </region>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2026-09-13">
+          <desc>Converted to DraCor TEI by Nicholas De Sutter.</desc></change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart>Villicus</titlePart>
+        </docTitle>
+      </titlePage>
+      <argument>
+        <head>MATERIA</head>
+        <p>Postremi belli tempore, Villicus dominum defraudabat, et pecunias ipsi debitas variis
+          dolis clam apud civem deponebat: cum dominus fraudem sentiens, servi opera, solerter ac
+          facete rusticum fefellit, et pecunias recepit. <ref>ex Relat. Belg.</ref></p>
+      </argument>
+      <castList>
+        <head>PERSONAE</head>
+        <castItem>
+          <role>Archiagrus</role>
+          <roleDesc>Dominus villae</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Toxilus</role>
+          <roleDesc>servus</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Menalcas</role>
+          <roleDesc>Villicus</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Corydon</role>
+          <roleDesc>famulus</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Gazophylax</role>
+          <roleDesc>Civis</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Houplala</role>
+          <roleDesc>Miles</roleDesc>
+        </castItem>
+      </castList>
+      <div type="argument">
+        <head>Distributio</head>
+        <list type="argument">
+          <item>
+            <label>Actus I</label>
+            <list>
+              <milestone unit="dramaticPhase" n="protasis"/>
+              <item><label>Scena I</label> Menalcas profecturus in urbem, defraudare Archiagrum
+                cogitat.</item>
+              <milestone unit="dramaticPhase" n="epitasis"/>
+              <item><label>Scena II</label> Menalcas sui consilii Corydonem admonet.</item>
+              <item><label>Scena III</label> Menalcas in via praedonem fallit.</item>
+            </list>
+          </item>
+          <item>
+            <label>Actus II</label>
+            <list>
+              <item><label>Scena I</label> Corydon Archiagro narrat spoliatum esse argento
+                Menalcam.</item>
+              <item><label>Scena II</label> Menalcas, deposito apud Gazophylacem argento, Corydoni
+                committit venales boves.</item>
+              <item><label>Scena III</label> Menalcas Archiagro imponit.</item>
+              <item><label>Scena IV</label> Corydon nuntiat bursam, in qua erat pretium venditorum
+                boum, esse a fure resectam.</item>
+            </list>
+          </item>
+          <item>
+            <label>Actus III</label>
+            <list>
+              <item><label>Scena I</label> Menalcas suspectus est Toxilo.</item>
+              <item><label>Scena II</label> Toxilus promittit Archiagro, recepturum se aurum, quod
+                Menalcas ficte perdidit.</item>
+              <item><label>Scena III</label> Toxilus vino Corydonem inducit, ut dicat ubi sit
+                aurum</item>
+            </list>
+          </item>
+          <item>
+            <label>Actus IV</label>
+            <list>
+              <item><label>Scena I</label> Toxilus narrat quomodo detraxerit annulum Rustico, et
+                Gazophylacem adierit.</item>
+              <item><label>Scena II</label> Gazophylax negat se daturum Archiagro aurum Villici,
+                nisi praeter annulum exhibeat syngraphum.</item>
+              <item><label>Scena III</label> Toxilus a Menalca aufert syngraphum.</item>
+              <item><label>Scena IV</label> Gazophylax reddit pecunias.</item>
+            </list>
+          </item>
+          <item>
+            <label>Actus V</label>
+            <list>
+              <milestone unit="dramaticPhase" n="catastasis"/>
+              <item><label>Scena I</label> Menalcas de annulo et syngrapho ablatis adversus
+                Corydonem expostulat.</item>
+              <item><label>Scena II</label> Menalcas ex Gazophylace cognoscit pecunias Archiagro
+                redditas.</item>
+              <item><label>Scena III</label> Menalcas iterum Corydonem excutit super annulo et
+                syngrapho.</item>
+              <milestone unit="dramaticPhase" n="catastrophe"/>
+              <item><label>Scena IV</label> Archiagrus insultat fraudulento Villico.</item>
+            </list>
+          </item>
+        </list>
+      </div>
+    </front>
+    <body>
+      <div type="prologue">
+        <head>PROLOGUS.</head>
+        <sp who="#prologus">
+          <l>Amoena est haec Comoedia, quae callidum</l>
+          <l>Ad fraudes ingenium Villici exhibet</l>
+          <l>Cum facetia: nam cum hic capere dolo herum</l>
+          <l>Cogitat, alio dolo ipse capitur.</l>
+          <l>Ludus ille est Divini Numinis:</l>
+          <l>Fraus in caput redit, magno suo malo.</l>
+          <l>Si quam rem accures sobrie, aut frugaliter,</l>
+          <l>Solet illa recte sub manus succedere:</l>
+          <l>Atque aedepol firme, ut quisque rem accurat suam,</l>
+          <l>Sic ei procedit post principia denique.</l>
+          <l>Si malus, aut nequam est, male res vertunt, quas agit.</l>
+          <l>Ita parturit sibi aurum furtim Villicus,</l>
+          <l>Et fictis dolis apud amicum obtegit:</l>
+          <l>Verum sagacior servus naso olfaciens</l>
+          <l>Fraudem, expiscatur e puero istius</l>
+          <l>Rustici, num sint, et ubi pecuniae?</l>
+          <l>Probe erat vinosus puer iste Villici,</l>
+          <l>Hac aggreditur alter, ut verum eliciat.</l>
+          <l>Ergo inter pocula rescit centum aureos</l>
+          <l>Esse apud quendam civem; et symbolum esse annulum</l>
+          <l>Cum syngrapho, queis redderet ipse pecunias.</l>
+          <l>Sine mora, propinatur vinum Villico,</l>
+          <l>Dormienti surripitur annulus et syngraphus,</l>
+          <l>Qui cum offeruntur civi, hic aurum redhibet.</l>
+          <l>Postquam edormiit somnum Rusticus, videt</l>
+          <l>Se emunctum pecuniis, quas fraus collegerat,</l>
+          <l>Edoctus male parta male dilabier.</l>
+        </sp>
+      </div>
+      <div type="act" n="1">
+        <head>ACTUS PRIMUS.</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>MENALCAS, profecturus in urbem, defraudare ARCHIAGRUM cogitat.</p>
+          </argument>
+          <stage>MENALCAS.</stage>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Beatus videor, subduxi ratiunculam,</l>
+            <l>Quantum aeris mihi sit, quantumque alieni siet.</l>
+            <l>Dives sum, si non reddo iis, quibus debeo:</l>
+            <l>Si reddo iis, quibus debeo, plus alieni est.</l>
+            <l>Verum hercle vero convellere illis cogito.</l>
+            <l>Si magis me instabunt ad Praetorem, sufferam.</l>
+            <l>Habent hunc morem plerique Villici,</l>
+            <l>Ut lucrum celent, pecunias non reddant dominis:</l>
+            <l>Fallaciis rem solvant, si quis poscat durius.</l>
+            <l>Qui homo mature reddit pecuniam,</l>
+            <l>Nisi ei mature parsit, mature esurit.</l>
+            <l>Et vero mihi obtenta causa est, ut dominum</l>
+            <l>Circumveniam, aspero belli tempore:</l>
+            <l>Agricultura deseritur, pecora miles abigit,</l>
+            <l>Ultro citroque commeant copiae, et irruptio fit:</l>
+            <l>Penduntur utrimque vectigalia, commercium et</l>
+            <l>Quaestus est nullus ita ruri non vivitur</l>
+            <l>Sine iniuria, nec cultum agricola</l>
+            <l>Noscit ullum; fructum autem eum exiguum,</l>
+            <l>Quem labore peperit. quin mea hoc anno ratio</l>
+            <l>Arandi, spe magis, ac retinendo domicilio,</l>
+            <l>Quam fructu atque emolumento nititur.</l>
+            <l>Ita ad incertum casum hostis, et eventum temporis</l>
+            <l>Certus labor, et certus mihi sumptus impenditur.</l>
+            <l>Denique totae res meae sunt huiusmodi,</l>
+            <l>Ut has non ratio, neque labor; sed res incertissimae;</l>
+            <l>Venti, tempestates, hostis, et plus aequo</l>
+            <l>Dominus exactor moderetur aegrius.</l>
+            <l>Ergo constitui in rem meam convertere</l>
+            <l>Non pauca, quae a me Archiagrus repetit:</l>
+            <l>Et cupio Gazophylacem convenire, qui meae</l>
+            <l>Sit custos pecuniae sine usura, qui cum fide</l>
+            <l>Mihi quaerenti redhibeat, ubi usus erit.</l>
+            <l>Propterea eo in urbem. novus autem metus</l>
+            <l>Calamitatem auget, si miles in via</l>
+            <l>Dispoliat, si vim affert, si inter tunicas</l>
+            <l>Crumenam reperit: novi ego istos itinerum</l>
+            <l>Obsessores, nebulones, laverniones, harpagos,</l>
+            <l>Qui ex occultis sepibus in viatores irruunt,</l>
+            <l>Qui meticulosius solent hostem fugere,</l>
+            <l>Rusticos inermes ferocius insequi.</l>
+            <l>His ego hodie latronibus fallaciam reperi,</l>
+            <l>Ut salvae in urbem deportentur pecuniae:</l>
+            <l>Sed prius omnia edocebo Corydonem puerum.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>MENALCAS sui consilii CORIDONEM admonet.</p>
+          </argument>
+          <stage>MENALCAS, CORYDON.</stage>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Corydon, Corydon, adhuc dormis? Corydon</l>
+            <l>Surge, Morphei frater, et somni puer,</l>
+            <l>Eia surge. ut stertit! ut ronchos edit!</l>
+            <l>Multa est dies, Corydon, surge e lectulo.</l>
+            <l>Surdior rupe est quidem, nec scuticam</l>
+            <l>Servorum sentit: vix sustinet caput</l>
+            <l>Grave somno; scabit, oscitat, tibias</l>
+            <l>Relaxat, pandit ulnas, oculos fricat.</l>
+            <l>Ohe senex glis hyberne exi, inquam, age</l>
+            <l>Exi e plumis, surgendum hercle tibi</l>
+            <l part="I">Hinc est e nidulo.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">nam quis molestus est?</l>
+            <l part="I">Quis meas aures vellit?</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">ego, ut adhuc</l>
+            <l part="I">Non dormias.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">nam quis me ante lucem excitat?</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Diu cecinit gallus: famulum decet impigre </l>
+            <l>Exurgere rusticum, qui vult tempori res exequi:</l>
+            <l>Non enim illum expectare oportet, dum herus</l>
+            <l>Se ad suum suscitet officium. nam qui dormiunt</l>
+            <l>Lubenter, sine lucro quiescunt, et cum malo.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l>Sic est, mi here. non soleo esse ignavus: sed labor</l>
+            <l>Hesternus me somniculosiorem reddidit.</l>
+            <l>Nunc mens est impigra: quid vis eloquere.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Tibi haec mando quinque: pecuniae, quas scis habere me,</l>
+            <l>Domi non sunt tutae, nec in via a milite.</l>
+            <l part="I">Volo illas astu ferre in urbem.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">bene provides.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Hoc consilio duplicem crumenam capio:</l>
+            <l>Hanc centum aureis gravidam in intima sarcina</l>
+            <l>Abscondo, quam tu inter merces rusticas feres.</l>
+            <l part="I">Cave sis des indicium.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="M">intelligo.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">alteram</l>
+            <l>Ego habeo in collo, monetae non legitimae,</l>
+            <l>In quam illico miles, si venerit obviam,</l>
+            <l>Felinos ungues iniiciet, nihil suspicatus de tua.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l>E rusticis fallaciam astutiorem nullus fecerit</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Hoc primum: confestim, ubi in urbem veneris,</l>
+            <l>Archiagro narrabis rem gestam misere:</l>
+            <l>Quomodo miles aggressus, ut me defenderim,</l>
+            <l>Tu fugeris, direptae ab collo pecuniae,</l>
+            <l>Centum nummi, quos ipsi cogitabam solvere.</l>
+            <l part="I">Hoc alterum.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">nam quid mea crumena faciam?</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Dicam: mens est nihil Archiagro reddere:</l>
+            <l>Quippe bellum vetat. ergo mecum has pecunias</l>
+            <l>Deportabis clam apud amicum Gazophylacem,</l>
+            <l>Ut custodiat, ut nemini aperiat, ut sit fidus.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l>Nae tu, here, ingenium geris versutum vetus;</l>
+            <l>Et ad Archiagri fraudationem callidum.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="I">Hoc tertium.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="M">quartum autem?</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">ut pretium</l>
+            <l>Horum duorum boum, quos ad forum ducimus</l>
+            <l>Eodem referas loci, nempe ad Gazophilacem.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l>Istud operosius: vereor ne, si istoc pretio</l>
+            <l>Frustretur Archiagrus, persentiscat fraudem fieri.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Ne time, excussi faecundum caput. atque hoc</l>
+            <l>Postremum: impones Archiagro, crumenam, in qua erant</l>
+            <l>Boves bini, esse resectam per furem in foro.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="I">Pro cautum Ulyssem!</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">tu Sinonem ages.</l>
+            <l>Satin’ haec tibi sunt plana et certa? satin’</l>
+            <l part="I">Haec meministi et tenes?</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">melius quam qui mihi</l>
+            <l part="I">Mandasti.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">ain’ vero istud, docilis puer!</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="I">Aio enimvero.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="M">quid ego mandavi?</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">ego in via</l>
+            <l part="I">Recte et in urbe exequar.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">non aedepol scis quae mandaverim.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l>Da hercle pignus, ni omnia memini et scio.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Equidem, si scis tute quot habeas hodie</l>
+            <l>Digitos in manu, ego dem pignus tecum, Corydon.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l>Audacter, tibi si lubido est perdere.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="I">Bona pax sit potius.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">tum tu igitur sine</l>
+            <l part="I">Me agere.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">et iubeo et sino; sed ita volo</l>
+            <l>Te curare, ut mecum praesens absens assimules</l>
+            <l part="I">Omnia quae dixi.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="M">faciam.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">quo ergo is</l>
+            <l part="I">Nunc?</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">in urbem, ut tecum praesens absens assimulem</l>
+            <l part="I">Omnia quae dixti.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">scelus es tu, puer:</l>
+            <l>Atque istanc ob rem ego tibi peculium conferam.</l>
+            <l>Dorso indue hanc sarcinam. mihi stimulus</l>
+            <l>In manu est, ut hos ante me agitem boves.</l>
+            <l>Sed quis hic est, qui nos ad versum incedit huc?</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA TERTIA.</head>
+          <argument>
+            <p>MENALCAS in via fallit praedonem.</p>
+          </argument>
+          <stage>MENALCAS, HOUPLALA, CORYDON</stage>
+          <sp who="#houplala">
+            <speaker>H.</speaker>
+            <l>Suavibus, iucundis, amicis rusticis</l>
+            <l>Salutem amicam dicit miles Houplala.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="I">Si salvere licet miseris.</l>
+          </sp>
+          <sp who="#houplala">
+            <speaker>H.</speaker>
+            <l part="F">scio, multa mala</l>
+            <l>Fert agricola: superat aerumnis suis</l>
+            <l>Aerumnas Herculis. nam cum leone, et cum excetra,</l>
+            <l>Cum cervo, cum apro Aetolico, cum avibus</l>
+            <l>Stymphalicis, cum Anteo deluctari mavelit,</l>
+            <l>Quam cum hoste, aut grassatore milite,</l>
+            <l>Aut domino cive qui poscit pecunias.</l>
+            <l>Ita fit miser agricola aut quaerendo mutuo</l>
+            <l>Argento, aut faciendo ex re qualibet.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Rem dicis: ab his sola pecunia quaeritur:</l>
+            <l>Nec quidquam, nisi non est, respondere sciunt</l>
+            <l>Illi, a quibus quaeritur. nam qui vult hodie</l>
+            <l>Rus colere, aedepol multa illum in pectore</l>
+            <l>Collocare oportet suo, quae placere domino</l>
+            <l>Praesenti atque absenti censeat. ego meo neque</l>
+            <l>Lubenter villicor, neque satis sum ex sententia:</l>
+            <l>Quia cum me scit hominem pauperum pauperrimum,</l>
+            <l>Instat tamen atque urget, ut, qui sunt mihi</l>
+            <l>Reliqui boves bini, venditum eam ad forum.</l>
+            <l>Ubi pretium persolvero, nemo me posthac roget</l>
+            <l>Quidquam: quin si egomet totus veneam,</l>
+            <l>Vix potis est medius recipi teruntius.</l>
+          </sp>
+          <sp who="#houplala">
+            <speaker>H.</speaker>
+            <l part="I">Haec tua tam magna pauperies?</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">haec est:</l>
+          </sp>
+          <sp who="#houplala">
+            <speaker>H.</speaker>
+            <l>Cogitabam domi tuae te aliquando invisere.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Domi esuritur, hospitibus frigent omnia.</l>
+          </sp>
+          <sp who="#houplala">
+            <speaker>H.</speaker>
+            <l>Apage frigus, et esuriales ferias; miles non his eget.</l>
+            <l>Sed quod nunc te comitor in via, mercede est opus.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Plus satis est comes hic puer: nullum ego</l>
+            <l part="I">Conduxi alium.</l>
+          </sp>
+          <sp who="#houplala">
+            <speaker>H.</speaker>
+            <l part="F">neu miles boves rapiat,</l>
+            <l>Tibi comes sum: mavis hercle mihi unum dare,</l>
+            <l part="I">Quam duos perdere.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">tu mihi auferas bovem?</l>
+          </sp>
+          <sp who="#houplala">
+            <speaker>H.</speaker>
+            <l part="I">Redime ergo.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">aquam a pumice nunc postulas,</l>
+            <l>Qui ipsus sitiat, cum speras a me pecuniam.</l>
+          </sp>
+          <sp who="#houplala">
+            <speaker>H.</speaker>
+            <l>Pende mihi aureos sex pro capite istius bovis.</l>
+            <l>Tum utrumque conducam in urbem salvum a milite.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Miles, haud decorum facinus tuis factis facis,</l>
+            <l>Ut inopem atque innoxium in via mulctes pecunia.</l>
+            <l>Nec mihi, inquam, a pecunia bene est, nec aedepol</l>
+            <l part="I">A tali sospite perbene.</l>
+          </sp>
+          <sp who="#houplala">
+            <speaker>H.</speaker>
+            <l part="F">quid tu, puer, vehis</l>
+            <l part="I">Hac sarcina?</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">hortensia, olera, caules, allia.</l>
+          </sp>
+          <sp who="#houplala">
+            <speaker>H.</speaker>
+            <l>Dii te perdant, ista suboluisti taedia narium.</l>
+            <l>At tibi, mi vir, nihil est marsupii in tunicis?</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>A, a, a, me rides, cum de marsupio rogas.</l>
+          </sp>
+          <sp who="#houplala">
+            <speaker>H.</speaker>
+            <l part="I">Quid hoc quod in collo tibi tumet?</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">vomica est,</l>
+            <l>Pressare parce: nam ubi quis mala tetigit</l>
+            <l part="I">Manu, dolores cooriuntur.</l>
+          </sp>
+          <sp who="#houplala">
+            <speaker>H.</speaker>
+            <l part="F">quando istaec tibi</l>
+            <l part="I">Innata est?</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="M">heri.</l>
+          </sp>
+          <sp who="#houplala">
+            <speaker>H.</speaker>
+            <l part="M">secari iubeas.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">metuo</l>
+            <l>Ne immaturam secem, ne exhibeat plus negotii.</l>
+          </sp>
+          <sp who="#houplala">
+            <speaker>H.</speaker>
+            <l part="I">Inspicere morbum tuum lubet.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">an tu es medicus?</l>
+          </sp>
+          <sp who="#houplala">
+            <speaker>H.</speaker>
+            <l part="I">Amica manu tangam.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">abstine. unguis est</l>
+            <l part="I">In ulcere.</l>
+          </sp>
+          <sp who="#houplala">
+            <speaker>H.</speaker>
+            <l part="M">ne clama.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="M">non patiar.</l>
+          </sp>
+          <sp who="#houplala">
+            <speaker>H.</speaker>
+            <l part="F">sine ut tibi</l>
+            <l part="I">Bene sit.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="M">mihi nimis male est.</l>
+          </sp>
+          <sp who="#houplala">
+            <speaker>H.</speaker>
+            <l part="F">Attamen ut mihi</l>
+            <l part="I">Sit bene.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">tibi male sit. perii hercle funditus.</l>
+            <l>Nihil mihi restat praeter animam, quam debeo etiam</l>
+            <l part="I">Cum istis bubus.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">o Laverna, o caelum, o Superi!</l>
+          </sp>
+          <sp who="#houplala">
+            <speaker>H.</speaker>
+            <l>Noli flere, puer: omnia reponam hero tuo,</l>
+            <l part="I">Cum dives fuero.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">nihil mihi potius nunc, quam mori.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l>Tecum, here mi, est certum humari in hac via:</l>
+            <l>Mortis inscribetur causa miles Houplala.</l>
+          </sp>
+          <sp who="#houplala">
+            <speaker>H.</speaker>
+            <l>At at mihi religio, ne quid extorserim:</l>
+            <l>Nam furtum authori nocebit suo, si admiseris.</l>
+            <l>Age, age, bone vir, redi: illud non faciendum est mihi,</l>
+            <l>Fieri quod non vis, si studeam factis esse non improbis,</l>
+            <l>Quando ego quod feci, factum id mihi oberit.</l>
+            <l>Redire tecum volo in gratiam, et Marsupium reddere.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Credimus, an gallinam stomacho vulpes regerit?</l>
+          </sp>
+          <sp who="#houplala">
+            <speaker>H.</speaker>
+            <l part="I">Quo te avertisti nunc?</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">ita ingenium meum est,</l>
+            <l>Nebulones osus sum semper obtuerier.</l>
+          </sp>
+          <sp who="#houplala">
+            <speaker>H.</speaker>
+            <l>Non aedepol quo sum fur, eo facio haec:</l>
+            <l>Verum periclitatus fui animum tuum,</l>
+            <l>Quid faceres, et quo pacto id ferre induceres.</l>
+            <l>Et quidem ioco illa feci dudum rusticis</l>
+            <l>Ridiculi causa, vel hos roga in tuo pago.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Praetorem times, ne fur ex arbore pendeas.</l>
+          </sp>
+          <sp who="#houplala">
+            <speaker>H.</speaker>
+            <l>Non sum malus miles, si quid factum est per iocum,</l>
+            <l>Non aequum est id te serio praevortier.</l>
+            <l>Da mihi hanc veniam, ignosce, iratus ne sies.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Ego tibi non credo: rapta praeda insultas magis.</l>
+          </sp>
+          <sp who="#houplala">
+            <speaker>H.</speaker>
+            <l>iam nunc arbitratu tuo iusiurandum dabo,</l>
+            <l>Me velle crumenam redhibere, et ex ea</l>
+            <l>Recipere, quae tu benigne voles cedere.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Id vero plus agis, cum sic honeste loqueris.</l>
+            <l>Nam in rusticorum aetate multa eveniunt huiusmodi:</l>
+            <l>Habent obviam milites molestos, furaces, impios:</l>
+            <l>Hos nemo fert, nemo alit, nemo amat:</l>
+            <l>Vivunt rapto, et sunt semper pauperes.</l>
+            <l>Qui sunt recti, quoniam scimus egere milites,</l>
+            <l>His nullus non studet et pabulo et pecunia.</l>
+          </sp>
+          <sp who="#houplala">
+            <speaker>H.</speaker>
+            <l>Sapis pro Villico. tanto magis me nunc piget</l>
+            <l part="I">Offendisse. restituo marsupium.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">Mars te amet.</l>
+            <l>Rustici non oderint. iuro tibi Panem, animus mihi</l>
+            <l>Est immutatus: age, modo crumenam non repeto.</l>
+            <l>Tibi habe, do ex animo, cum sic agis.</l>
+          </sp>
+          <sp who="#houplala">
+            <speaker>H.</speaker>
+            <l part="I">Serio, an ioco?</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="M">rustica fide.</l>
+          </sp>
+          <sp who="#houplala">
+            <speaker>H.</speaker>
+            <l part="F">nisi iterum</l>
+            <l part="I">Tu iuras, non credo.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">id ego si fallo te,</l>
+            <l>Tum te, summe Pan, quaeso, ut mihi</l>
+            <l part="I">Semper iratus sies.</l>
+          </sp>
+          <sp who="#houplala">
+            <speaker>H.</speaker>
+            <l part="F">O liberalem Villicum!</l>
+            <l>Nunc demum intelligo quomodo ex rusticis milites</l>
+            <l>Capiunt voluptates, mox rursum miserias.</l>
+            <l>Irae interveniunt, redeunt rursus in gratiam.</l>
+            <l>Verum irae si quae forte eveniunt huiusmodi</l>
+            <l>Inter eos, rursum si reventum in gratiam est,</l>
+            <l>Bis tanto amici sunt inter se, quam prius.</l>
+            <l>Habeo gratias pro crumena: semper tibi benefaciam.</l>
+            <l>Obstat dubium: an gaudeas dare haec mihi?</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="I">Gaudeo.</l>
+          </sp>
+          <sp who="#houplala">
+            <speaker>H.</speaker>
+            <l part="F">dic ergo: dare haec militi</l>
+            <l part="I">Gaudeo, et volupe est mihi.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">dare haec militi</l>
+            <l part="I">Gaudeo, et volupe est mihi.</l>
+          </sp>
+          <sp who="#houplala">
+            <speaker>H.</speaker>
+            <l part="F">at tu, mi puer,</l>
+            <l>Contracta fronte adhuc haud tranquillus es.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="I">Ut lubet.</l>
+          </sp>
+          <sp who="#houplala">
+            <speaker>H.</speaker>
+            <l part="F">ita servum par videtur sese instituere,</l>
+            <l>Perinde ut heri, ipse item sit: vultum e vultu comparet:</l>
+            <l>Tristis sit, si heri sint tristes: hilarus sit, si gaudeant.</l>
+            <l>Arride, qui scis iamdudum haec me fecisse per iocum.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l>An ioco fecisti? equidem serio, ac vero ratus.</l>
+          </sp>
+          <sp who="#houplala">
+            <speaker>H.</speaker>
+            <l part="I">Habui expurgationem: facta pax est.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">optime,</l>
+            <l part="I">Si hero lubet.</l>
+          </sp>
+          <sp who="#houplala">
+            <speaker>H.</speaker>
+            <l part="F">dic ergo, et iura: optime,</l>
+            <l part="I">Si hero lubet.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">dico ergo, et iuro: optime,</l>
+            <l part="I">Si hero lubet.</l>
+          </sp>
+          <sp who="#houplala">
+            <speaker>H.</speaker>
+            <l part="M">nunc valete.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">valeas.</l>
+            <l>Habes pol fallaciam, religiose fur, qui marsupia</l>
+            <l>revomis, cum devorasti: vulpes vulpi fui:</l>
+            <l>Istic sunt pecuniae falsae ex toto pago:</l>
+            <l>Nunc pergo in urbem. memor sis Corydon.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="2">
+        <head>ACTUS SECUNDUS.</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>CORIDON ARCHIAGRO narrat spoliatum esse argento MENALCA</p>
+          </argument>
+          <stage>ARCHIAGRUS, CORYDON.</stage>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l>Ibo ad portam: visam ecquis ad venerit</l>
+            <l>In urbem ex villa Epistates meus.</l>
+            <l>Nam meus formidat animus nostros domi</l>
+            <l>Desidere Villicos, neque velle afferre pecunias.</l>
+            <l>Ita me Dii ament, tardo debitore nihil est</l>
+            <l>Quidquam iniquius, praesertim homini non diviti,</l>
+            <l>Qui quidquid optat et agit, properat omnia</l>
+            <l>Sicut ego hos odi rusticos, homines spissigradissimos,</l>
+            <l>Tardiores multo, quam corbitae sunt in tranquillo mari.</l>
+            <l>At si ad prandium ego in aedem hos dixissem accersere,</l>
+            <l>Vincerent cervum cursu, vel gralatorem gradu.</l>
+            <l>Nunc quia pecunias repeto, et indixi diem,</l>
+            <l>Podagrosi sunt, ac vincunt cochleam tarditudine.</l>
+            <l part="I">Quis prodit?</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">salutat Archiagrum te Corydon.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l>Pro Dii immortales! ubi mihi est tuus herus!</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="I">Venit.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="F">quid hoc, qua ego causa illum accersii,</l>
+            <l part="I">Attulit ne aurum quod debet?</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">attulit: sed heu!</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="I">Quid gemis?</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="M">miles.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="F">quid miles? edissere.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l>Heu! cor meum et cerebrum, Archiagre, finditur,</l>
+            <l>Militis ubi debet fieri a me quaque mentio.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="I">Quid fecit?</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">quid non fecit? quin tu id me rogas?</l>
+            <l>Postquam constituit herus tibi aurum dare,</l>
+            <l>Se in viam dedit. forte non procul ab aedibus</l>
+            <l>Dum circumspecto, atque ego tum milites conspicor.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l>Timeo, ne rem isti labefactarint meam.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l>Haec erat nota multis praedonum manus,</l>
+            <l>Haec nostrae pecuniae insidias dabat.</l>
+            <l>Occoepit herus observare eos, quam rem gerant.</l>
+            <l>Ubi pago eximus, illi per anfractus sequi:</l>
+            <l>Tum delitescebant, tum rursum aperiebant se. herus,</l>
+            <l>Quoniam sentit quae res gereretur, extemplo gradum -</l>
+            <l>Statuit. quoniam vident nos stare, in sepibus</l>
+            <l part="I">Occulti sunt.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="F">aedepol insidiatores malos.</l>
+            <l part="I">Quid denique agitis?</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">rursum in pagum recipimus.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l>Sapienter factum a vobis. quid illi postea?</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l>Reversionem simul faciunt ad pagum.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l>Aurum hercle auferre voluere, ei rei operam dabant.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l>Non herum fefellit, sensit, eo exanimatus fuit.</l>
+            <l>Cum id vidit, cepit consilium continuo.</l>
+            <l>Domum refert omne aurum iis praesentibus</l>
+            <l>Palam atque aperte, ut illi id factum sciscerent.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="I">Scite hercle. cedo quid illi?</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">tristes illico,</l>
+            <l>Cum extemplo a via abire nos cum auro vident,</l>
+            <l>Subducunt se quoque capitibus casantibus.</l>
+            <l>Postridie summo mane me herus vocat.</l>
+            <l>Eamus, inquit, Corydon, iam securius: in via</l>
+            <l>Miles nullus; de nocte multa potavit heri.</l>
+            <l>Ego bursam in collo occultam habeo:</l>
+            <l>Hos simul boves duos, si quidem domi</l>
+            <l>Non sunt tuti, venales agam ad forum.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="I">Sapiens consilium.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">sapiens? sed porro etiam</l>
+            <l>Ausculta. devolat derepente ferocior</l>
+            <l>Miles, stricto ense petit iugulum heri mei:</l>
+            <l>Sine ambagibus, frustra se defendente hero,</l>
+            <l>Diripit argentum, vix a bobus abstinet.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="I">Peior occursus priore.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">lachrymas dedimus</l>
+            <l part="I">Uterque, aurum non revocaturas.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="F">ubi nunc est herus?</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l>Boves iit venditum ad forum. ubi me</l>
+            <l>Expectat, ut sim vicarius aut adiutor in negotio.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l>Sed vos multumne afferebatis auri mihi?</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l>Immo etiam: verum quantum afferebat nescio.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="I">Quid nescis?</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">quia herus noctu clanculum</l>
+            <l>Comparavit omnia: nec mihi famulo credere,</l>
+            <l>Nec cuiquam domi voluit: eo ego nescio</l>
+            <l>Quantum attulit; verum permultum attulit.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="I">Ducentos aureos censes?</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">non aedepol scio,</l>
+            <l part="I">Verum opinor.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="F">attulitne dimidium?</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l>Hercle opinor. verum, verum nescio.</l>
+            <l>Profecto de auro nihil scio, nisi nescio.</l>
+            <l part="I">Nae tibi interrogandus est herus.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="F">at ego hinc</l>
+            <l part="I">Ad illum recta, ut conveniam.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">quin opperire domi,</l>
+            <l>Ego illum mittam, ut soletis super pecunia.</l>
+            <l>Ille est oneratus recte, et plus iusto secum vehit.</l>
+            <l>Exorsa haec tela non omnino male est.</l>
+            <l>Nuntiabo haec hero meo: ipse hic adest.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>MENALCAS, deposito apud GAZOPHYLACEM argento, CORYDONI committit venales boves.</p>
+          </argument>
+          <stage>CORYDON, MENALCAS.</stage>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="I">Salve, here.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="M">salve Corydon.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">historicus fui,</l>
+            <l>Narravi adiuncta itineris, et facta militum</l>
+            <l>Compendio verba multa iam faciam tibi:</l>
+            <l>Ducentis te aureis spoliatum credit Archiagrus.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Istuc volebam ego ex te percunctatier.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l>Dixi equidem de hac summa me coniicere.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Et hoc bene factitasti mandatis super:</l>
+            <l>Nam quo maior iactura, hoc minor solutio est.</l>
+            <l>Ego apud Gazophylacem omne aurum deposui,</l>
+            <l>Qui hic in urbe est mihi civium charissimus.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l>Nae ille hercle tibi sit multo tanto charior,</l>
+            <l>Si te illoc auro tanto circumduxerit.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Quin suo in conclavi, ubi cubat, conditum est:</l>
+            <l>Ibi diligenter servat, perinde ut sit suum.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="I">Sed divesne est illic Gazophylax?</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">etiam rogas?</l>
+            <l>Qui soccis habeat auro suppactum solum.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="I">Cur ita fastidit?</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">tantas divitias habet,</l>
+            <l part="I">Nescit quid faciat auro.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">mihi dederit velim.</l>
+            <l>Sed qui praesente id aurum Gazophylaci datum est?</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Nullo praesente, nullus est in urbe qui sciat.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l>Istud sapienter saltem fecisti, here,</l>
+            <l>Cum aurum servandum dedisti homini diviti:</l>
+            <l>Ab eo licebit, quamvis subito, sumere.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Imo hem tantisper nunquam me morabitur,</l>
+            <l>Quin habeam illud, quo die illuc venerim,</l>
+            <l part="I">Vel cum annulo te miserim.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">quid opus est</l>
+            <l part="I">Annulo?</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">quia id signum est cum Gazophylace,</l>
+            <l part="I">Qui eum illi affert, ei aurum ut reddat.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">optime.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Restat venditio duorum boum hodie in foro:</l>
+            <l>Negotium hoc ad te nunc attinet boarium.</l>
+            <l>Grandem pecuniam fac efficias, quam Gazophylaci feres.</l>
+            <l part="I">Tum redibis huc cum fallacia.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">faciam ut iubes.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="I">Atque heus tu.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="M">quid vis?</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">alligavi boves</l>
+            <l part="I">Hic in vicinia.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="M">video.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">cito emptorem habe.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA TERTIA.</head>
+          <argument>
+            <p>MENALCAS ARCHIAGRO imponit.</p>
+          </argument>
+          <stage>MENALCAS, ARCHIAGRUS.</stage>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Nunc conveniam Archiagrum Ulysseis dolis.</l>
+            <l>Primum tristis ante aedes sic iaceo; ut audiat,</l>
+            <l>Quae ego conquerar, si ad me quispiam exeat.</l>
+            <l part="I">Heu me infelicem!</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="F">quis ad ostium queritur?</l>
+            <l part="I">Salve Menalca.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="M">salus periit.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="F">quid ita tristis es?</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Ita solent omnes, qui sunt spoliati rebus suis,</l>
+            <l>Domi, et foris quod aegre sit, satis semper est rusticis.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="I">Consolandus es: nam ego opperiebar te.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">ego aedepol</l>
+            <l>Huc ibam ad te, subito incidi in deliquium.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l>Sed quid est, quod tuo nunc animo aegre est:</l>
+            <l>Nam quod tibi aegre est, idem mihi dividi volo.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Credo ecastor: spoliato villico eget dominus.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l>Scio, ex te scire expeto quid perdideris.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Praedo miles ducentos aureos depeculatus est.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l>Periimus, accisae res nostrae ab isto milite.</l>
+            <l>Plura ne dixeris. demisisti gladium in gulam,</l>
+            <l>iam cadam tecum. non provideras esse praedones in via?</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Cavi semel: secundo captus sum misere.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l>Perdidisti me, Menalca, et pecunias mecum tuas.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="I">Dii sciunt me in culpa non esse.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="F">quis est?</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Urgebas tuo periculo tibi afferrem pecunias:</l>
+            <l part="I">Attuli.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="F">ut te excuses, de hac re argutus es:</l>
+            <l>Alias ad mandata claudus, mutus, mancus, debilis.</l>
+            <l>Promittebas te os sublinere militibus. egomet</l>
+            <l>Credidi, homini docto rem mandans, lapidi maximo.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="I">Quid ego facerem?</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="F">quid faceres? Mene rogas?</l>
+            <l part="I">Te defenderes, vitam obiiceres.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">non fui timidus:</l>
+            <l part="I">At vis potior.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="F">saltem praedonem nosses, requireres,</l>
+            <l>Rogitares quis esset, aut unde esset, sub quo duce,</l>
+            <l>Hostisne esset, an noster: num quid est aliud</l>
+            <l part="I">Quod dicas de illo?</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">non novi: tantum quod sciam.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l>Aedepol nae tu oblongis malis das mihi magnum malum.</l>
+            <l part="I">Pauper sum domi.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">quia enim me nunc eadem</l>
+            <l>Afflictat inopia, Villam tuam missam facio.</l>
+            <l>Loca alteri. rure ego abire cogito.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l>Quid ais? nimium sis insipiens, si ruri non manseris.</l>
+            <l>Ubi vives? quis meam Villam colendam accipiet?</l>
+            <l>Isto consilio, Menalca, et te, et me miseros enecas.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Certum est et Villam, et rus deserere: nam mihi</l>
+            <l>Nihil reliqui quidquam aliud iam esse intelligo.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="I">O passus es graviora.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">non aedepol unquam a pecunia.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="I">Alicunde exora mutuam.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">ita equidem si quis mihi</l>
+            <l part="I">Credat. vis tu credere?</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="F">qui egeo, et peto?</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="I">Nimirum haec ratio est deserendi agri.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="F">quomodo?</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Nudo detrahitis vestimenta agricolae</l>
+            <l>Domini, argentum ut habeatis, quod ille non habet.</l>
+            <l>Qui modus dandi est? nam nunquam tu quidem</l>
+            <l>Expleri potes pecuniarum accipiter avidus,</l>
+            <l>Rapax, trahax: modo cum accepisti, haud multo post</l>
+            <l part="I">Aliquid, quod poscas, paras.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="F">quod debitum est, peto.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Si aufert hostis, si miles rapit, tamen est debitum?</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l>Ex hoc patiar aliquid subduci: tu fac officium.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Mihi quidem te parcere aequum est tandem, Archiagre,</l>
+            <l part="I">Ut tibi durem diu.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="F">non tu scis, qui Villico</l>
+            <l>Parcit, idem sibi hodie parcet parum?</l>
+            <l>Si te audiam, semper miles, semper hostis est;</l>
+            <l>Arboribus et satis lues, et pecori lupus:</l>
+            <l>Interim scit quid det domino, quid sibi accedit lucri,</l>
+            <l>Nihil, Menalca, callidius Villico, qui rei</l>
+            <l part="I">Studet suae, non possessoris.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">ah quanto satius</l>
+            <l>Sortem defleres nostram, quam insimulares quaestum, Archiagre!</l>
+            <l>Ad suum quemque hominem quaestum esse aequum est callidum.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l>Perdidici istaec esse vera damno cum magno meo.</l>
+            <l>Denique utimini bello agricolae, sicut mari:</l>
+            <l>Quo turbulento vobis piscari est utilius.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Te hercle non intelligo: ego mea damna sentio.</l>
+            <l>Supersunt mihi boves duo, quos in foro</l>
+            <l>Venundat Corydon, tibi unum, mihi alterum:</l>
+            <l>Quid vis, quod hoc faciam amplius? en redux</l>
+            <l>Famulus affert pecunias: eamus obviam.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA QUARTA</head>
+          <argument>
+            <p>CORIDON nuntiat bursam, in qua erat pretium venditorum boum, esse a fure
+              resectam.</p>
+          </argument>
+          <stage>MENALCAS, CORYDON, ARCHIAGRUS.</stage>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Bene veniere boves, Corydon? quanto pretio?</l>
+            <l part="I">Quid obticuisti?</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="M">vae mihi!</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">annumera pecunias.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="I">Nullus sum.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="M">imo es.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">scio, iam me in crucem</l>
+            <l part="I">Mittes.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="M">quid istuc est mali?</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">ne rogites,</l>
+            <l part="I">Maximum infortunium est.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">cito dissolve iam</l>
+            <l part="I">Me, nimis animi pendeo.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">dicam, at enim placide </l>
+            <l part="I">Volo prius, quam vapulem.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">vapulabis vero nisi</l>
+            <l part="I">Iam loquere, aut apportas argentum.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">hoc sis vide,</l>
+            <l>Ut, quandoquidem mihi supplicandum servulo est,</l>
+            <l>Ignoscas: difficile est ad omnes casus sapere.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="I">Venundati boves?</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="M">venundati.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">recepta pecunia?</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="I">Recepta.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">quin igitur dic quid istuc mali est?</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l>Infortunium ex ore tu quidem mihi eripis: tace.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="I">Quid taceam?</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">credo si boni quid ad te nuntiem,</l>
+            <l>Instes acriter: qui nunc, cum est audiendum malum,</l>
+            <l part="I">Flagitas me, ut eloquar.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">mitte longos logos.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="I">Tua pecunia, here.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="M">quid mea pecunia:</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">quam ego</l>
+            <l>In bursa gerebam. pro Laverna furium Dea!</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="I">Quid exclamas?</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">tua pecunia, pretium boum,</l>
+            <l>Concessa, adnumerata, appensa, cum bursa simul</l>
+            <l>In sacculo, a nebulone in foro modo mihi</l>
+            <l part="I">Subrepta est.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">sceleste homo, sic me redigis</l>
+            <l>Ad incitas, culpa tua, stupore, incuria?</l>
+            <l>iam te perdam, furcifer, qui me miserum</l>
+            <l part="I">Perdidisti.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="F">Menalca, mea causa oro te,</l>
+            <l>Servulum ut mittas, si imprudens bursam perdidit.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Sine me, occidam, crura diffringam, latera conteram.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l>Nimis iracundus es: prius de fure interroga</l>
+            <l>Si potest reperiri, num adhuc salva est pecunia.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Non mihi impero ab istius servi iugulo.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l>Perii, Archiagre, extrahit cultrum, retine.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l>Profecto, nisi abstines tu homo, servulum</l>
+            <l>Occides: idque adeo miror, qui hoc tibi</l>
+            <l>Tam indignum potest venire in mentem facinus</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Oh pergin’ advocatus esse? ullumne tu</l>
+            <l>Posse homini consilium esse cogitas,</l>
+            <l>Qui omnia perdidit? qui spoliatus in via est?</l>
+            <l>Qui reliquis in foro eversus pecuniis?</l>
+            <l>Si rogitem iam te, qui ferres huiusmodi,</l>
+            <l>Aut quam leniter, aut quamobrem, tu nescias.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l>Imo scis potius, quam haec frustra pueri</l>
+            <l part="I">Verberatio est.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">oh iniquus es, qui ferre me</l>
+            <l part="I">Tantam iacturam postulas.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="F">non postulo: sed prius,</l>
+            <l part="I">Quod iam te monui, require istos sectores zonarios.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">ubi?</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="I">In urbe, in agro.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="M">quo auxilio?</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="F">meo.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="I">Mitigasti. praestabis hanc operam?</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="F">sedulo,</l>
+            <l part="I">Et e re mea, et tua.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">eamus, scrutemur angulos,</l>
+            <l>Reperiamus aurum: nihilominus ego hunc hodie</l>
+            <l part="I">Occidam famulum tamen.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="F">satis est, rem age.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="3">
+        <head>ACTUS TERTIUS.</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>MENALCAS suspectus est TOXILO.</p>
+          </argument>
+          <stage>TOXILUS.</stage>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l>Peiorem ego hominem, magisque versute malum,</l>
+            <l>Nunquam aedepol quemquam vidi, quam est Villicus</l>
+            <l>Menalcas: nimisque ego illum hominem metuo,</l>
+            <l>Et formido male, ne fraudi sit Archiagro.</l>
+            <l>Atque in metu hoc sum maximo, triplici</l>
+            <l>Causa: primum dum nihil solvit hero meo,</l>
+            <l>Decimus mensis transiit. sevit, messuit,</l>
+            <l>Multa vendidit: quid porro factum isti pecuniae?</l>
+            <l>Nam quod in via dispoliavit miles, haec mihi</l>
+            <l>Suspectior est fallacia, quod multa non congruunt;</l>
+            <l>Ut ducenti una in bursa nummi, et ea</l>
+            <l>E collo pendula, in solo comitatu pueri;</l>
+            <l>Ut nulla inquisitio et investigatio militis;</l>
+            <l>Ut multa alia, quae homo enarrat leviter.</l>
+            <l>Tum de resecta bursa Corydoni in foro,</l>
+            <l>Quis cito credat, nisi auris Boeotica?</l>
+            <l>Latet saepe in rustico etiam ingenio dolus,</l>
+            <l>Qui deinde fit palam, postquam solerter excutis.</l>
+            <l>Nam fraus diu latere non potest,</l>
+            <l>Quam ut detegam hodie prospere,</l>
+            <l>Et e re heri maxime, faxit Deus.</l>
+            <l>Hanc ego rem exordior facete et callide,</l>
+            <l>Igitur proventuram bene confido mihi.</l>
+            <l>Nunc ego Villicum ita hodie intricatum dabo,</l>
+            <l>Ut ipsus, sese qua se expediat, nesciat.</l>
+            <l>Opportune herus. dicam quod in animo est.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>TOXILUS promittit ARCHIAGRO recepturum se aurum, quod MENALCAS ficte perdidit.</p>
+          </argument>
+          <stage>TOXILUS, ARCHIAGRUS.</stage>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l>Here, omnem rem inveni, ut tua tibi pecunia</l>
+            <l>Reddatur, quam Menalcas inique possidet,</l>
+            <l>Mentiturque se perdidisse a latronibus.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l>Id si perficias, amabo te Toxile.</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l part="I">Ego enim faxo hodie: sine.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="F">quomodo?</l>
+            <l>Neque habes exordium, neque modum istius pecuniae</l>
+            <l>Reperiendae, quam caute Villicus obtegit.</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l>Nosti, poeta fabulas cum coepit, sibi</l>
+            <l>Quaerit quod difficile est repertu, reperit tamen:</l>
+            <l>Facit illud verisimile, quod mendacium est.</l>
+            <l>Nunc ego poeta fiam; illae pecuniae,</l>
+            <l>Quae sunt perditae ac repertu difficiles,</l>
+            <l>Inveniam tamen; mendacium autem, faciam verisimile</l>
+            <l>Esse alicubi per fraudem abstrusas apud aliquem.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l>Nimis formido, ne falsus poeta sis;</l>
+            <l>Ne, cum finxeris, urceolus exeat pro amphora.</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l part="I">Odiosus es.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="M">quid facturus?</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l part="F">iam scies.</l>
+            <l>Puer iste Corydon herilis est furti conscius:</l>
+            <l>Cognomen est illi Multibibus, atque Merobibus.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l>Quasi tu vinum dicas potare rusticos.</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l>Sic est. quid opus verbis? vinosissimus est</l>
+            <l>Puer, extemplo ubi lagenam conspicit,</l>
+            <l>De odore inesse vinum scit, accurrit illico.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l>Nolo hercle vinum profundas rusticulo.</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l>Sine, cum tuo foenore magno bibet Corydon.</l>
+            <l>Audiisti de puteo Democriti, ubi veritas</l>
+            <l>Latere dicitur? haec est penes me lagenula:</l>
+            <l>In fundo abdita latet quidem veritas,</l>
+            <l>Et arcani fides prodiga, vitro perlucidior.</l>
+            <l>Experiere istud, here, hodie, si mihi obsequeris.</l>
+            <l part="I">Tu domi fac me expectes.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="F">ita faciam.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA TERTIA.</head>
+          <argument>
+            <p>TOXILUS vino CORYDONEM adducit, ut dicat ubi sit aurum.</p>
+          </argument>
+          <stage>TOXILUS, CORYDON.</stage>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l part="I">Heus Corydon.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">cuia vox auribus sonat:</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l part="I">Sitis.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="M">rogas, qui siccus sum siti?</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l part="F">bibes:</l>
+            <l>Sicco potionem affero, itque sedatum sitim.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="I">Hanc olfacio.</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l part="F">nasum aedepol sagax habes.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l>Flos veteris vini. meis naribus obiicitur.</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l part="I">Prope te est.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">evax habes. commoda mihi</l>
+            <l>Salve lagena, Liberi lepos, odor Coelitum:</l>
+            <l>Omnium odor unguentum prae tuo nausea est.</l>
+            <l>Tu stacte, tu cinamum, tu rosa, tu crocum</l>
+            <l>Et casia es, tu petalium. nam ubi tu fueris,</l>
+            <l>Ibi ego me pervelim sepultum: sed cum adhuc</l>
+            <l>Naso odos meo est obsecutus, da gutturi</l>
+            <l>Vicissim meo gaudium. ipsam expeto, Toxile,</l>
+            <l>Gustare, et in me ductim liquores invergere.</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l>Haud illibenter sinam hac te lagena frui,</l>
+            <l part="I">Si velis mihi verum dicere.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">hercle faciam,</l>
+            <l>Si prius ingurgitavero in me hoc merum avariter</l>
+            <l part="I">Faucibus plenis.</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l part="F">age, effunde hoc cito </l>
+            <l>In os, propere ventrem prolue. sapit:</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l>Plusquam Iovis nectar. iterum tractim, iterum</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l part="I">iam ad id quod rogo.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">scio quid velis.</l>
+            <l>Pol nihil elicies, quin de mensa lautius</l>
+            <l part="I">Me tractes.</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l part="F">impetrasti. viden’ ut tibi</l>
+            <l>Aperiuntur aedes festivissimae? lectus struitur!</l>
+            <l part="I">Accumbe in somno. age, accumbe.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">hunc diem</l>
+            <l>Suavem tecum agitabo amoenum, Toxile.</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l>Do tibi aquam manibus, appono mensam: ede.</l>
+            <l>Visne olivas, aut pulpamentum, aut caparim?</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l>Tarde cyathos mihi das: uruntur mihi</l>
+            <l part="I">Fauces.</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l part="F">accipe cantharum, extingue ignem, si tibi</l>
+            <l part="I">Fauces uruntur, caput ne ardescat.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">basilice.</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l part="I">Resecta fuit tua bursa hodie?</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">non fuit.</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l part="I">Herus tuus in via spoliatus auro?</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">non fuit.</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l>O apertum pectus. perge ut coepisti lepide.</l>
+            <l>Age mulsum bibe usque plenis cantharis.</l>
+            <l>iamdiu factum est, postquam bibisti: nimis siccus es.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l>Bene mihi optatus hic dies datus hodie est</l>
+            <l>Abs te: scies opera mea, quidquid tu voles.</l>
+            <l>Nam improbus est homo, qui beneficium</l>
+            <l part="I">Scit sumere, et reddere nescit.</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l part="F">mi Corydon,</l>
+            <l part="I">Habetne herus tuus aurum?</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">centum aureos habet.</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l part="I">Ubi?</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="M">hic in urbe.</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l part="M">apud quem?</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">Gazophylacem.</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l>Est aliud quod paucis volo ex te percunctarier,</l>
+            <l part="I">Et ultimum.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="M">tuus sum.</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l part="F">sed praefestina impigre </l>
+            <l>Poculum haurire. bibe Corydon: non saepe haec occasio</l>
+            <l part="I">Rure tibi evenit.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">facetus es, mi Toxile:</l>
+            <l part="I">Et ego factus sum hilarior.</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l part="F">dic quo signo herus</l>
+            <l part="I">Recipere possit pecunias?</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">si eius mittitur annulus.</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l>Intelligo. curriculo herum convenio, ut data</l>
+            <l>Potione Menalcas sopiatur, ut e digito</l>
+            <l>Detrahi possit annulus, et mitti ad Gazophylacem.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l>Quo abiit Toxilus? Toxile, Toxile, tibi Toxile</l>
+            <l>Propino; responde, redi ut pareas legibus:</l>
+            <l>Vel discedo e mensa, ut victor e praelio.</l>
+            <l>Certe quis me edacior homo, aut alter bibacior?</l>
+            <l>Qui devicto Toxilo, et quolibet aemulo,</l>
+            <l>Imperator domum repeto: non superbus tamen,</l>
+            <l>Quia lecticam non postulo, qua satur efferar.</l>
+            <l>Quid sit futurum hero meo, et eius pecuniis,</l>
+            <l>Nescio: his praeposui voluptatem hanc convivii;</l>
+            <l>Et quod secreto esset actum, prodidi perfide.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="4">
+        <head>ACTUS QUARTUS.</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>TOXILUS narrat quomodo annulum detraxerit Rustico, et GAZOPHYLACEM adierit.</p>
+          </argument>
+          <stage>ARCHIAGRUS, TOXILUS.</stage>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l>Opperior, dum redit Toxilus. quod ego non magis</l>
+            <l>Somniabam, neque opinabar, neque censebam, esse Villici</l>
+            <l>Argentum in urbe apud Gazophylacem, id Toxilus</l>
+            <l>Ingenio reperit suo. nunc superest annulus,</l>
+            <l>Quem auferre rustico debet callide, ut ego</l>
+            <l>Feram ad Gazophylacem. haec mihi occasio</l>
+            <l>Quasi decidit de coelo: nam nisi prodidisset puer,</l>
+            <l>Herus nunquam indicasset. novi ingenium viri.</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l>Revertor, mi here, salvae sunt tuae pecuniae;</l>
+            <l>Res bene gesta est, rustico subduxi annulum.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l>Narra istuc, Toxile, laudabo operam tuam.</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l>Postquam mihi dixit Corydon esse pecunias</l>
+            <l>Villici in urbe apud Gazophylacem, abeo ad eius</l>
+            <l>Domum, adhuc formidans, ne me luserit puer.</l>
+            <l>Forte aspicio virum ante aedes suas, aggredior,</l>
+            <l>Saluto adveniens. salve, inquit mihi:</l>
+            <l>Quis sim rogat, unde, et quid veniam domum!</l>
+            <l>Dixi me Archiagri servum, venire me</l>
+            <l>Ab ipso, causa Villici, qui vocatur Menalcas. ibi</l>
+            <l>Me interrogat, an Menalcas noster sit Villicus.</l>
+            <l>Dico esse, et domi. quid domi vestrae? annuo</l>
+            <l>Esse. sed quid eius causa vis? quia herus</l>
+            <l>Ab illo reposcit aurum. quid ad me? imo </l>
+            <l>Inquam, quia apud te situm est. ille inficias</l>
+            <l>Primum ire coepit mihi, negare sese quidpiam</l>
+            <l>Habere a Menalca. dixi id mihi certum esse, et</l>
+            <l>Hero meo, quod fateretur Menalcas Villicus.</l>
+            <l>Postquam hoc ipsi narravi, abeo ego</l>
+            <l>Ab illo. revocat me illico: si habeo</l>
+            <l>Argentum rustici, quo, inquit, signo redhibeam:</l>
+            <l part="I">Eius annulo.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="F">quid, ubi hoc dixisti, Toxile?</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l>Mutus, domum intro se recipit continuo.</l>
+            <l>Tum certo intellexi Corydonem verum dicere.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="I">Perge de annulo.</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l part="F">Menalcam, uti iusseras,</l>
+            <l>Vocavi ad tabernam. nulla mora introiit.</l>
+            <l>Quid si, inquam, quando moestus es, quod pecuniae</l>
+            <l>Iacturam passus, tantisper te ludo recrees?</l>
+            <l>Consilium placet. talos poscit sibi in manum.</l>
+            <l>Provocat me in aleam, ut ego ludam.</l>
+            <l>Pono pallium; ille suum annulum opposuit,</l>
+            <l>Et invocat Fortunam Deam. iacit vulturios</l>
+            <l>Quatuor. talos arripio: invoco tacite </l>
+            <l>iustitiam: Herculem iacto basilicum.</l>
+            <l>Propino magnum poculum: ille ebibit:</l>
+            <l>Caput deponit, cum dormiscit, ei subduco annulum.</l>
+            <l>Deduco me de taberna clam, ne Villicus sentiat.</l>
+            <l>Rogat me dominus aedium, quo eam. dico ire quo </l>
+            <l>Vocat negotium, rediturum non multo post.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="I">Istud laudo.</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l part="F">laudato, quando id quod cupis</l>
+            <l>Effecero. extremus actus cum Gazophylace</l>
+            <l part="I">Tibi bene vertat.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="M">conveniamus ipsum.</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l part="F">non moror.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="I">Istic habitat: sequere me hac.</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l part="F">sequor, here.</l>
+            <l>En praesto est. videtur nos opperiri foris.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>GAZOPHYLAX negat se daturum ARCHIAGRO aurum Villici, nisi praeter annulum exhibeat
+              syngraphum.</p>
+          </argument>
+          <stage>ARCHIAGRUS, GAZOPHYLAX, CORYDON, TOXILUS.</stage>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l>Salvere iubeo te, mi Gazophylax, bene.</l>
+          </sp>
+          <sp who="#gazophylax">
+            <speaker>G.</speaker>
+            <l part="I">Salve et tu. quo nunc te agis?</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="F">huc venio,</l>
+            <l>Super quo servus antea de argento Villici.</l>
+          </sp>
+          <sp who="#gazophylax">
+            <speaker>G.</speaker>
+            <l>Frustra es homo, molestus ne sis, abi sis.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="I">Fatere depositum.</l>
+          </sp>
+          <sp who="#gazophylax">
+            <speaker>G.</speaker>
+            <l part="F">non pernego. sed abi</l>
+            <l>Domum, abi inquam, verum hercle dico, abi domum.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l>Abeam? quin mihi abs te argentum redditur?</l>
+          </sp>
+          <sp who="#gazophylax">
+            <speaker>G.</speaker>
+            <l>Reddam absente Villico? nunquam faciam.</l>
+            <l>Illum accerse huc, et redi circiter vesperum.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l>Quid ego huc recursem? aut operam sumam, aut conteram?</l>
+            <l>Si affero annulum, tamen hoc signo non reddideris?</l>
+          </sp>
+          <sp who="#gazophylax">
+            <speaker>G.</speaker>
+            <l part="I">Ostende.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="M">eccum.</l>
+          </sp>
+          <sp who="#gazophylax">
+            <speaker>G.</speaker>
+            <l part="F">nihilominus non accipies.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l>Quid est? quamobrem? quin mihi argentum redditur?</l>
+          </sp>
+          <sp who="#gazophylax">
+            <speaker>G.</speaker>
+            <l part="I">Scio te bona esse voce, ne clama.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="F">hercle ego</l>
+            <l part="I">Vero clamabo.</l>
+          </sp>
+          <sp who="#gazophylax">
+            <speaker>G.</speaker>
+            <l part="F">ah, ah, ah, morem mihi gere.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="I">Quid tibi ego morem vis geram?</l>
+          </sp>
+          <sp who="#gazophylax">
+            <speaker>G.</speaker>
+            <l part="F">abi domum.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l>Abeo ad Praetorem, istuc in ius te voco.</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l>Obsecro hercle te, optime Gazophylax, iube</l>
+            <l>Obtrudi argentum ob os clamosum heri mei.</l>
+          </sp>
+          <sp who="#gazophylax">
+            <speaker>G.</speaker>
+            <l part="I">Iubeam?</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l part="F">ne sit inter vos coram Praetore litigium.</l>
+          </sp>
+          <sp who="#gazophylax">
+            <speaker>G.</speaker>
+            <l>Non ego istuc curo quid futurum sit litigii.</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l>Debet hero meo istud argentum Villicus.</l>
+          </sp>
+          <sp who="#gazophylax">
+            <speaker>G.</speaker>
+            <l>Id non volo mihi dici, neque me scire expeto.</l>
+            <l>Datam rustico fidem nolo deserere.</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l part="I">Dic te daturum, ut herus abeat.</l>
+          </sp>
+          <sp who="#gazophylax">
+            <speaker>G.</speaker>
+            <l part="F">egon</l>
+            <l part="I">Dicam dare?</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l part="M">dic.</l>
+          </sp>
+          <sp who="#gazophylax">
+            <speaker>G.</speaker>
+            <l part="M">egone?</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l part="F">tu ipsus dic, modo </l>
+            <l>Ausculta mihi, promitte: age inquam, ego iubeo.</l>
+          </sp>
+          <sp who="#gazophylax">
+            <speaker>G.</speaker>
+            <l>Mihi responde, Archiagre: scis queis signis ego</l>
+            <l>Conveni cum rustico, ut redhibeam pecunias?</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="I">Solo annulo.</l>
+          </sp>
+          <sp who="#gazophylax">
+            <speaker>G.</speaker>
+            <l part="F">falleris. restat syngraphus,</l>
+            <l>Quem conscripsi: hunc exhibe, et refer pecunias.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l>Nescivi, neque me istud Villicus monuit.</l>
+          </sp>
+          <sp who="#gazophylax">
+            <speaker>G.</speaker>
+            <l part="I">Cur praesens non est hic tecum?</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="F">se domi meae</l>
+            <l>Occultat, et publico abstinet, quia praeter me alios</l>
+            <l>Habet creditores, qui ipsi collocant insidias,</l>
+            <l>Ut in carcerem compingant, ni confestim solverit;</l>
+            <l>Prius mavult mihi, quam istis satisdare.</l>
+            <l>Sed, si mitto servum, quoniam oblitus est dare</l>
+            <l part="I">Syngraphum, reddesne pecunias?</l>
+          </sp>
+          <sp who="#gazophylax">
+            <speaker>G.</speaker>
+            <l part="F">reddam steterit</l>
+            <l part="I">Omnis conditio.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="F">propera, Toxile, cura syngraphum.</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l part="I">Refero quam mox.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="F">hic manebo apud te potius</l>
+            <l part="I">Dum redierit.</l>
+          </sp>
+          <sp who="#gazophylax">
+            <speaker>G.</speaker>
+            <l part="M">quin veni intro.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="F">lubet.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA TERTIA.</head>
+          <argument>
+            <p>TOXILUS a MENALCA aufert syngraphum.</p>
+          </argument>
+          <stage>TOXILUS.</stage>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l>Di istum perdant custodem pecuniae,</l>
+            <l>Ita consilia subito perturbat mea.</l>
+            <l>Ecce autem nunc quid faciam nescio:</l>
+            <l>iam ad idem saxum me fluctus referunt.</l>
+            <l>Quid si Villicus caute abstrusit syngraphum,</l>
+            <l>Ubi reperiam? quid dicam hero, qui doli</l>
+            <l>Hanc telam sum exorsus temere? quid herus</l>
+            <l>Respondebit Gazophylaci, qui confidentior</l>
+            <l>Me quaesitum schedam mittit? vereor ne re</l>
+            <l>Infecta, cum probro etiam, cedat ab aedibus.</l>
+            <l>Tum iste nequam servus Corydon quo consilio</l>
+            <l>Celavit me de syngrapho istoc, nescio.</l>
+            <l>Hei mihi! quid nunc? non hercle. quid nunc faciam?</l>
+            <l>Si evigilavit rusticus e potione soporifera,</l>
+            <l>Quam ipsi praebui, actum est, perii funditus.</l>
+            <l>Videbit sibi detractum e digito annulum,</l>
+            <l>Tum multo magis tuto cavebit syngrapho.</l>
+            <l>Videndum est primum, utrum in taberna adhuc</l>
+            <l>Dormiat, vel non: deinde vestes excutiam,</l>
+            <l>Si forte in sinu, quod est tectum, inveniam.</l>
+            <l>Sic faciam: placide ingrediar, et sonitum</l>
+            <l>Prohibebo forium, et crepitum cardinum;</l>
+            <l>Ne quod hic agam, ullus percipiat fieri.</l>
+            <l>Optime eccum rusticus ipso eodem situ,</l>
+            <l>Quem obtinuit epoto poculo: adhuc</l>
+            <l>Ronchissat, dum dormit. contrectabo tunicas,</l>
+            <l>Praetentabo sacculos, et diventilabo omnia.</l>
+            <l>Malum! nihil invenio. at, at quid pendulum</l>
+            <l>In collo est? Deus! ipse est syngraphus</l>
+            <l>Parva crumena inclusus. nunc rex sum doli:</l>
+            <l>Nunc rem promovet Deus: nunc expergescere</l>
+            <l>Quando voles, Menalca, spoliatus es pecunia,</l>
+            <l>Quam debes Archiagro. nunquam fraus cuiquam profuit.</l>
+            <l>Iovi opulento, inclyto, ope gnato, valido,</l>
+            <l>Supremo, opes, spes bonas, optatas copias</l>
+            <l>Commodanti lubens grates ago, et merito,</l>
+            <l>Quia hero meo amiciter hanc auri copiam</l>
+            <l>Dedit, et mihi prosperavit hunc syngraphum,</l>
+            <l>Quem hero defero, ut ipsi gratus fiam.</l>
+            <l>Sentit me rediisse, obviam exit foras.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA QUARTA.</head>
+          <argument>
+            <p>GAZOPHYLAX reddit pecunias.</p>
+          </argument>
+          <stage>ARCHIAGRUS, GAZOPHYLAX, CORYDON, TOXILUS.</stage>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="I">Obtinuisti, Toxile?</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l part="F">nullo negotio.</l>
+            <l>Haud putavit rusticus esse opus syngrapho,</l>
+            <l>Quia annulus ex sese faceret fidem.</l>
+            <l>Multam simul mittit salutem Gazophylaci</l>
+            <l>Amico suo: dolet se captivum domi</l>
+            <l>Esse a creditoribus, alioqui venisset huc.</l>
+          </sp>
+          <sp who="#gazophylax">
+            <speaker>G.</speaker>
+            <l>Ipse est syngraphus, quo fateor habere me</l>
+            <l>E pecuniis rustici Menalcae centum aureos.</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l>Non legi: sancte, ut mihi dedit, ita refero</l>
+          </sp>
+          <sp who="#gazophylax">
+            <speaker>G.</speaker>
+            <l>Nunc haud dubia est res: ultra nihil postulo.</l>
+            <l>Mane istic, Archiagre, pecunias iam afferam</l>
+            <l>Obsignatas recte ipso annulo Villici.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l>Euge, Toxile, nostra certo praeda est.</l>
+            <l>Tua nunc opera fit, ut ego gaudeam.</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l>Gaude, sed in sinu, dum in manu habeas.</l>
+            <l>Revertitur: dissimula, ne quid persentiscat catus.</l>
+          </sp>
+          <sp who="#gazophylax">
+            <speaker>G.</speaker>
+            <l>Profero marsupium: salvum signum est, inspice:</l>
+            <l>Recte ita est, ut obsignavit Menalcas rusticus.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l>Scio te, Gazophylax, esse exemplum fidei:</l>
+            <l>Nemo te in urbe neque integrior, neque sanctior.</l>
+          </sp>
+          <sp who="#gazophylax">
+            <speaker>G.</speaker>
+            <l>Ita caste versor in his, quae aliena sunt,</l>
+            <l>Vel meae commissa fidei, ut pura sit conscientia.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l>Dii tibi semper sint benevoli pro continentia.</l>
+            <l>Non hinc eximam argentum, ni obsignatum prius,</l>
+            <l>Ut est, viderit Menalcas. vale Gazophylax.</l>
+          </sp>
+          <sp who="#gazophylax">
+            <speaker>G.</speaker>
+            <l part="I">Vale et tu, Toxile.</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l part="F">a te valeo lubens.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l>Gazophylace victo, receptis pecuniis,</l>
+            <l>Dolis bene gestis, spoliato belle Villico,</l>
+            <l>Pro iure et iustitia, cum bene me iuvisti Deus,</l>
+            <l>Aliique omnes Superi, eas vobis habeo</l>
+            <l>Grates, atque ago, quia probe accepi debitum.</l>
+            <l>Nunc ob eam rem, Toxile, tibi aliquid</l>
+            <l part="I">Dividam et participabo.</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l part="F">tua causa, here,</l>
+            <l>Gaudeo oppido, quia hoc belli tempore</l>
+            <l>In urbe pecuniis egebas acriter,</l>
+            <l>Cum interim studeret te fraudare Villicus.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l>Ut te complector, Toxile, tuo ingenio</l>
+            <l>Reperi hodie ex Villico centum aureos.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="5">
+        <head>ACTUS QUINTUS.</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>MENALCAS de annulo et syngrapho ablatis ad versus CORYDONEM expostulat.</p>
+          </argument>
+          <stage>CORYDON, MENALCAS.</stage>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l>Nimis stulte dudum feci, cum hero fidem</l>
+            <l>Fefelli. lagena id fecit, et vini odor.</l>
+            <l>Brevis voluptas, quam consequitur pudor.</l>
+            <l>Sed ubi reperiam herum? dicitur sese aliquo </l>
+            <l>Immersisse in tabernam cum Toxilo.</l>
+            <l>Demiror ubi nunc ambulet vesperi:</l>
+            <l>Si reverti in pagum cogitat, tempus est.</l>
+            <l part="I">Sed eccum video.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">ubi est flagitium hominis?</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="I">De quo loquitur?</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">quo, qua abiit? ego assequar.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="I">Quae res illum agitat?</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">o furtum impudens,</l>
+            <l part="I">Atque audax!</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="M">quid queritur?</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">vah poculum?</l>
+            <l>Quare ebibi! sensi herbis mistum soporiferis.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l>Malum, ut coniicio, et poculis istud est.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>At hoc agitur more morum pessimo</l>
+            <l>Omnium, atque uti quique fraudulenti sunt maximi,</l>
+            <l>Vino hominem sepeliunt, aut mortuum spoliant.</l>
+            <l>Ita me detinuit in taberna ludis plurimis,</l>
+            <l>Pessimisque poculis vafer Toxilus:</l>
+            <l>Nec magis ego manifesto teneri hominem</l>
+            <l>Unquam vidi omnibus malefactis. testis non erat.</l>
+            <l>Dii illum omnes perdant, ita mihi digito annulum</l>
+            <l>Ac syngraphum collo detraxit: meque adeo </l>
+            <l>Qui hodie tabernam oculis unquam inspexi meis.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l>Rem elocutus est, quam suspicabar continuo.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Sed malum! unde rescivit de syngrapho?</l>
+            <l>Aut quid abstulit annulum, nisi causa pecuniae,</l>
+            <l>Quam apud amicum condidi? hoc profecto est,</l>
+            <l>Video hanc rem agit, ut me defraudet catus.</l>
+            <l>Tum miror, ni eius adiutor sit Corydon,</l>
+            <l>Praeter quem solum nemo scit de pecuniis.</l>
+            <l>Adibo, atque servum accipiam quibus dictis meret.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l>Visus sum, ni advorsum eam cum astutia.</l>
+            <l>Here, te quaero dudum per domos et compita:</l>
+            <l>Si vis pagum, gradum profer, progredi, propera.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Non te pudet prodire in conspectum meum,</l>
+            <l part="I">Scelus servi, cum istac fraude?</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">quid illud est?</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Etiam mutire unum verbum audes, aut mecum loqui?</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l>Quid tandem admisi in te, ut loqui non audeam?</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Rogas me? o servi impudentem audaciam!</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l>Non istaec ego probra possum perpeti.</l>
+            <l>Nam me aetatem meam miseram esse mavelim,</l>
+            <l>Quam istaec flagitia pati, quae obiicis.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Quid id ad me, tute servum possis perpeti,</l>
+            <l part="I">An sis abiturus a me miser, an non?</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">quid est?</l>
+            <l>Frugi sum. non inquam patiar praeter hac,</l>
+            <l>Quin liber vivam, quam tuos mores perferam.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Mea quidem hercle causa liber victita,</l>
+            <l>Et miser, vel usque dum regnum obtinebit Iuppiter.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l>At mihi dudum meam probabas fidem,</l>
+            <l>Nunc eandem ante oculos negas. quid tibi est?</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Heu hercle puer multum et audax et malus es</l>
+            <l>Tene mihi frugi dicere audes, cum indicas</l>
+            <l>Recipiendi argenti symbolum esse annulum?</l>
+            <l>Clanculum te istaec flagitia posse censes facere?</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l>Per Deos omnes adiuro, here, male loqueris.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Nihil servo confidentius, qui quae fecit, ea pernegat.</l>
+            <l>De argento apud Gazophylacem sito,</l>
+            <l part="I">Omnia hercle dixisti Toxilo.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">quis hoc ait?</l>
+            <l>Toxilus? accersam, in os convincam mendacii.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Nihil eo opus. dic quare abstulit annulum?</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="I">Abstulit annulum? quis?</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">quasi tu nescias.</l>
+            <l part="I">Quis habet syngraphum?</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">perdidisti syngraphum</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="I">Men’ rogas?</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">pol haud rogem te, si sciam.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>O puerum astutum, ut dissimulat! non potes</l>
+            <l part="I">Celare: rem novi probe.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">quidquid id est,</l>
+            <l>Falli potes, mi here: absit haec a te suspicio.</l>
+            <l part="I">Ista nego hercle vero.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">quando nihil pudet,</l>
+            <l>Neque vis tua voluntate ipse profiteri, audi, atque ades</l>
+            <l>Et quid suspicer, et quid mihi factum sit, faxo scias.</l>
+            <l>Annulus est mihi subductus in taberna, cum bibi</l>
+            <l>Et qui collo pendebat syngraphus a tuo Toxilo.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l>Video ut me capias, addis a tuo Toxilo.</l>
+            <l part="I">Quid mihi cum Toxilo?</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">fuistis una simul</l>
+            <l part="I">Paulo ante.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">fateor, ante meridiem fui:</l>
+            <l>Quid tum? nam ut dudum diverti ab ipso, quaero te</l>
+            <l part="I">Tota urbe, nunc demum invenio.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">nihil</l>
+            <l part="I">De syngrapho dixisti?</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">quando enim, here,</l>
+            <l>De syngrapho mentionem fecisti, ut dicerem?</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="I">Non sciveras?</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">unde scissem, te interrogo,</l>
+            <l part="I">Qui ipsus me syngraphum celasti?</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">quis surripuit?</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l>Pol istuc ille scit, qui illum abstulit.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="I">Manifesto est Toxilus.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">factum nequiter.</l>
+            <l>Sed num est iam, here, periculum, dum mecum diu</l>
+            <l>Loqueris, ne ille fur abutatur syngrapho</l>
+            <l part="I">Apud custodem pecuniae?</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">hoc animum sollicitat.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l>Ergo propera ocyus, nisi libido est</l>
+            <l>Argentum perdere. mea utibilis est opera.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Sequere, ibo. istud ex Gazophylace intelligam.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l>Video aliquem huc venientem. num ipse est?</l>
+            <l>Expecta illum: si proficiscitur ad negotia.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>MENALCAS ex GAZOPHYLACE cognoscit pecunias ARCHIAGRO redditas.</p>
+          </argument>
+          <stage>MENALCAS, GAZOPHYLAX.</stage>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Non mediocri nunc sum sollicitudine, Gazophylax,</l>
+            <l>Et metu suspensus, ne male sit pecuniis,</l>
+            <l>Quas ego apud te deposui: non quod mihi</l>
+            <l>Veniat in dubium, Gazophylax, fides tua,</l>
+            <l>Aut non in tua custodia spem certam habeam;</l>
+            <l>Sed quia malevoli hominis astutia,</l>
+            <l>Et insidiae me perturbant, qui eo usque doli</l>
+            <l>Pervenit, ut, propinato vino soporifero,</l>
+            <l>Mihi dormienti annulum simul et syngraphum</l>
+            <l>Abstulerit: queis ubi, quando abusus, nescio.</l>
+          </sp>
+          <sp who="#gazophylax">
+            <speaker>G.</speaker>
+            <l>Scio, praediviti saepe sunt insidiae:</l>
+            <l>Comes pecuniae est sollicitudo et metus.</l>
+            <l>Verum ubi recta conscientia est, et excubans</l>
+            <l>Cura in his servandis, quid tu sis anxius?</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Etiam cum cavisti, saepe te auceps capit.</l>
+          </sp>
+          <sp who="#gazophylax">
+            <speaker>G.</speaker>
+            <l>Ego sine metu, Menalca, tuas pecunias</l>
+            <l>Esse domi apud me tantisper volui,</l>
+            <l>Dum quod tibi lubitum est et integrum faceres,</l>
+            <l>Ut misso syngrapho, et annulo repeteres tuo:</l>
+            <l>Nunc cum id fecisti, liber esse non destiti.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Nimirum, Gazophylax, si intelligis, hoc me angit et</l>
+            <l>Sollicitat, an tu alicui viro pecunias</l>
+            <l part="I">Reddideris?</l>
+          </sp>
+          <sp who="#gazophylax">
+            <speaker>G.</speaker>
+            <l part="M">reddidi Archiagro.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">hic est dolus.</l>
+            <l part="I">Heu me captum!</l>
+          </sp>
+          <sp who="#gazophylax">
+            <speaker>G.</speaker>
+            <l part="F">quid doles, si sponte syngraphum</l>
+            <l part="I">Misisti huc?</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">sponte? imo, inquam, surripuit</l>
+            <l part="I">Dormienti homo sagax.</l>
+          </sp>
+          <sp who="#gazophylax">
+            <speaker>G.</speaker>
+            <l part="F">id non potui coniicere.</l>
+            <l>Bona fide dedi, quod a te acceperam.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Ego hodie isti homini male velim,</l>
+            <l>Et maledicam, ut animo est; qui mihi pecuniam</l>
+            <l>Modo non ademit iusto et legitimo.</l>
+          </sp>
+          <sp who="#gazophylax">
+            <speaker>G.</speaker>
+            <l>Domi tuae te occultum dixit a creditoribus.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="I">Quos creditores praedicat?</l>
+          </sp>
+          <sp who="#gazophylax">
+            <speaker>G.</speaker>
+            <l part="F">quos metueres.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Nec mihi quidem creditor est ullus. finxit hoc.</l>
+          </sp>
+          <sp who="#gazophylax">
+            <speaker>G.</speaker>
+            <l>Ei marsupium reddidi, obsignatum annulo,</l>
+            <l>Quem ad te ferret, cum tuum signum ad me homo</l>
+            <l>Attulisset, ne illum spernerem. plura ne roges.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Non adeo rogo, Gazophylax, ne sim molestior.</l>
+            <l>Fecisti quod homo etiam sapiens facit,</l>
+            <l>Quando dolum nescit. habeo gratias pro officio.</l>
+            <l>Provisam apud Archiagrum, si spes reliqua. vale.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA TERTIA.</head>
+          <argument>
+            <p>MENALCAS iterum CORYDONEM excutit super annulo et syngrapho.</p>
+          </argument>
+          <stage>MENALCAS, CORYDON.</stage>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Iam nunc rursum in te meam bilem evomo,</l>
+            <l>Puer sceleste. nam certo fecisti hunc dolum</l>
+            <l part="I">Cum Archiagro.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">per tua obsecro genua, here,</l>
+            <l>Ut tu istuc non factum sapienter feras.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Non ego homo trioboli sum, nisi ego tibi</l>
+            <l>Exturbo oculos, atque dentes, et linguam malam.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l>Impie: siccine servulum verberas?</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Te pol ego in cruciatum atque in compedes</l>
+            <l>Cogam, dum fatearis quid communicasti Toxilo.</l>
+            <l>Bibisti hodie, veritas vino orta est.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l>Ergo si quid, here, vini vitio fecerim,</l>
+            <l part="I">Debes mihi magis ignoscere.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">non placet</l>
+            <l>In mutum quidpiam conferri, quod loqui non potest:</l>
+            <l>Nam vinum si fabulare possit, te argueret.</l>
+            <l>Non vinum moderari, sed vino solent, qui quidem</l>
+            <l>Probi sunt: verum qui improbus est,</l>
+            <l>Sive subbibit, sive adeo caret temeto,</l>
+            <l part="I">Tamen ab ingenio est improbus.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">non negat</l>
+            <l>Multa, quae nolumus, vino fieri; quorum adeo</l>
+            <l>Meminisse non possumus. quin tu fortasse bibens</l>
+            <l>In taberna dixisti Toxilo, quae mihi obiicis.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Postremum te rogo, mihi dicas velim, Corydon,</l>
+            <l part="I">Quis de syngrapho locutus?</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="M">tu.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">ego?</l>
+            <l part="I">Quis de annulo?</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">tu, tu inquam. vin’ afferri noctuam,</l>
+            <l>Quae, tu tu, usque dicat tibi, here? nam ego</l>
+            <l>Iam ego defessus sum semper idem dicere,</l>
+            <l>Me syngraphum ignorasse, et me verum dicere.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Video, obfirmati es ingenii, nihil faltebere.</l>
+            <l>Sed mihi etiamnum quid istud sit negotii,</l>
+            <l>Aut quo pacto misere spolier pecuniis,</l>
+            <l>Falsus incertusque sum: nisi quia iniquior</l>
+            <l>Tamen fui Archiagro, et fraus fere redit</l>
+            <l>In authorem, hoc evenisse mihi autumo.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l>Hoc est, here: occulte, sed iuste puniunt Dii.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Sed quid aperiuntur Archiagri fores?</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA QUARTA.</head>
+          <argument>
+            <p>ARCHIAGRUS insultat fraudulento Villico.</p>
+          </argument>
+          <stage>ARCHIAGRUS, TOXILUS, MENALCAS, CORYDON.</stage>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="I">Quem ego aspicio?</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l part="F">Menalcas hic quidem est.</l>
+            <l part="I">Quin iube intrare.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="F">Menalca, bone vir,</l>
+            <l part="I">Salveto.</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l part="F">et tu quoque, bone Corydon.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="I">Quin salutem redditis?</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l part="F">Menalca, homo</l>
+            <l part="I">Lepidissime, salve plurimum.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="F">domo fruere,</l>
+            <l>Huc accede: gratus hospes est Villicus,</l>
+            <l part="I">Qui attulit pecunias.</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l part="F">vis cogam, here?</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Nae si me attigeris, tibi oculum excutiam,</l>
+            <l part="I">Scelus.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="F">ne irascere. praebe vinum, Toxile.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Quomodo me tu hodie Toxili opera</l>
+            <l>Decepisti? ut me hic in tabernam coniecit? quomodo</l>
+            <l part="I">Annulum et syngraphum diripuit?</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l part="F">iurgium</l>
+            <l part="I">Auferas hinc, si sapias.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">ut Gazophylaci</l>
+            <l part="I">Imposuistis?</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="F">Menalca, stultitia est, si cui</l>
+            <l>Bene esse licet, eum praeverti litibus.</l>
+            <l>Posterius ista haec te magis par agere est.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Interim ablatae sunt mihi pecuniae.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="I">A nobis bene asservantur.</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l part="F">cape poculum, et</l>
+            <l part="I">Ebibe.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">poculum, perverse? sat poculo datum:</l>
+            <l part="I">Factum stultus cognoscit.</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l part="F">moerorem ut tuum</l>
+            <l>Abstergas illum, quem intulit miles in via.</l>
+            <l part="I">Certa illi crux est.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">ludos me facitis,</l>
+            <l part="I">Intelligo.</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l part="F">at furem tuorum boum in foro</l>
+            <l part="I">Reperisti, Corydon?</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">quid ais tu crux,</l>
+            <l>Stimulorum tritor? ego te affligam humi,</l>
+            <l>Avulso crine, et naso abrepto mordicus,</l>
+            <l>Si herus sinit: serve ne delude me.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l>Quin vos, Menalca et Corydon, nobiscum ludite</l>
+            <l>Ut soletis, quando invito? locus est.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>At hic lusus non omnibus horis placet.</l>
+            <l>Vide vero si tibi ac servo satis placet.</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l>Hui babae! quam basilice te infers huc,</l>
+            <l>Et facete, pro illo diviti marsupio,</l>
+            <l>Quod attulisti hero meo, ex asse ut solveres!</l>
+            <l>Quid mirum, si his dictis te herus excipit,</l>
+            <l>Et plenis cantharis, et magna laetitia?</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Malum ego dabo tibi, si pergis loqui.</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l>iam taceo, atque tu Villicus hercle festivus es.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Extra ludum, Archiagre, non reddes marsupium?</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l>Num ego tam bonus custos marsupii,</l>
+            <l part="I">Quam Gazophylax?</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="F">dicam, asservari modo </l>
+            <l>Non vult hic Plutus, sed cum lucro per manus</l>
+            <l>Currere: propterea maxime pallent pecuniae,</l>
+            <l>Quod observari se timent, et vinculis</l>
+            <l>Cistae situ carieque putrescere.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l>Philosopharis. hercle mihi non est periculum</l>
+            <l>Has infodere, aut strangulare arcis pecunias.</l>
+            <l>Pater familias qui eget, non hospites habet</l>
+            <l>Diu pecunias. nam nisi hae usui hodie</l>
+            <l>Obtigissent, foro hercle debebam cedere.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="I">Saltem redde mihi dimidium.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="F">plus eo</l>
+            <l>Si attulisses, non esset mihi satisdatum.</l>
+            <l>Nunc cum me fraudare sperasti iis,</l>
+            <l>Quae in villa mea multis annis comparas,</l>
+            <l>iam quidem hoc effecerunt Superi, ut tibi</l>
+            <l>Male parta pessime ruant, et fraus tua</l>
+            <l>Meliori fraude retundatur irrita.</l>
+            <l>Iam tu villam meam abdica: servias alteri:</l>
+            <l>Nolo epistatem ferre tam iniquum domino.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="I">Quid agam? quid consilii?</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l part="F">restim tibi</l>
+            <l part="I">Cape crassam, ac suspende te.</l>
+          </sp>
+          <sp who="#corydon">
+            <speaker>C.</speaker>
+            <l part="F">id tibi consule,</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l>Attamen, Archiagre, si fraudis poenitet,</l>
+            <l>Si tibi quot annis pendo cum foenore,</l>
+            <l>Si villam, si fruges, si pecunias cum fide</l>
+            <l>Dispenso, et hoc spondeo, non admittis in gratiam?</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l>Qui, semel peccavit, pronum est bis labier.</l>
+          </sp>
+          <sp who="#menalcas">
+            <speaker>M.</speaker>
+            <l part="I">Ita, si non edoctus suo malo est.</l>
+          </sp>
+          <sp who="#toxilus">
+            <speaker>T.</speaker>
+            <l part="F">here,</l>
+            <l>Peccanti semel Dii non faxint male:</l>
+            <l>At peccanti bis tum Dii faxint male.</l>
+            <l part="I">Venia primum sapienti.</l>
+          </sp>
+          <sp who="#archiagrus">
+            <speaker>A.</speaker>
+            <l part="F">age, mihi lubet;</l>
+            <l>Fraudem obliviscor: reliquas, quas mihi</l>
+            <l>Debes pecunias, condono: perge Villicus.</l>
+            <l>Et vos servi revertimini in amicitiam,</l>
+          </sp>
+          <closer>FINIS.</closer>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
