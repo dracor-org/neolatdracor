@@ -1,0 +1,3327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="dracor" xml:id="neolat000183" xml:lang="la">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Marsupium</title>
+        <author>
+          <persName xml:lang="la">
+            <forename>Martinus</forename>
+            <surname>du Cygne</surname>
+          </persName>
+          <idno type="wikidata">Q21545079</idno>
+        </author>
+        <respStmt>
+          <resp>Transcribed by</resp>
+          <persName ref="https://orcid.org/0000-0002-9764-187X">Nicholas De Sutter</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Converted to TEI by</resp>
+          <persName ref="https://orcid.org/0000-0002-9764-187X">Nicholas De Sutter</persName>
+        </respStmt>
+        <funder>
+          <orgName>FWO</orgName>
+          <name>1291325N</name>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <ref target="https://books.google.com/books?id=vqAjcaQDLrgC">Google Books</ref>
+          <availability status="free">
+            <p>In the public domain.</p>
+          </availability>
+        </bibl>
+        <bibl type="originalSource">
+          <author>Martinus du Cygne</author>: <title>Marsupium</title>. <title type="sub">Comoedia
+            III</title>. In: <author>Martinus du Cygne</author>: <title>Comoediae XII</title>. <title type="sub">Pars prior</title>. 
+          <pubPlace>Liège</pubPlace>: <publisher>Joannes Mathias Hovius</publisher>
+          <date>1679</date>. <biblScope>pp. 95–144</biblScope>.
+        </bibl>
+        <listEvent>
+          <event type="print" when="1679">
+            <desc/>
+          </event>
+        </listEvent>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="prologus" sex="UNKNOWN">
+            <persName>Prologus</persName>
+          </person>
+          <person xml:id="savata" sex="MALE">
+            <persName>Savata</persName>
+          </person>
+          <person xml:id="coriolus" sex="MALE">
+            <persName>Coriolus</persName>
+          </person>
+          <person xml:id="palaemon" sex="MALE">
+            <persName>Palaemon</persName>
+          </person>
+          <person xml:id="gripus" sex="MALE">
+            <persName>Gripus</persName>
+          </person>
+          <person xml:id="tranio" sex="MALE">
+            <persName>Tranio</persName>
+          </person>
+          <person xml:id="sulpicius" sex="MALE">
+            <persName>Sulpicius</persName>
+          </person>
+          <person xml:id="clito" sex="MALE">
+            <persName>Clito</persName>
+          </person>
+          <person xml:id="iustinus" sex="MALE">
+            <persName>Iustinus</persName>
+          </person>
+          <person xml:id="machaon" sex="MALE">
+            <persName>Machaon</persName>
+          </person>
+          <person xml:id="praeco" sex="MALE">
+            <persName>Praeco</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">comedy</term>
+        </keywords>
+        <classCode scheme="https://www.wikidata.org/wiki/Q40831"/>
+      </textClass>
+      <creation>
+        <region>
+          <ref target="https://www.wikidata.org/wiki/Q622783">Spanish Netherlands</ref>
+        </region>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2026-09-13">
+          <desc>Converted to DraCor TEI by Nicholas De Sutter.</desc></change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart>Marsupium</titlePart>
+        </docTitle>
+      </titlePage>
+      <argument>
+        <head>MATERIA</head>
+        <p>Cantabat quotidie in officina laetus sutor, cum vicini certarunt os occludendum, si
+          Marsupium (quod postea multis testibus, et jure repetierunt) ante eius aedes collocaretur.
+          id factum eo exitu, ut pauperculus sutor invento Marsupio, anxius et sollicitus ubi aurum
+          abstruderet, immemor omnis cantus, et expers gaudii esset; dum vesperi ad iudicem vocatus,
+          Marsupium reddidit, et simul ad consuetos cantus rediit.</p>
+      </argument>
+      <castList>
+        <head>PERSONAE</head>
+        <castItem>
+          <role>Savata</role>
+          <roleDesc>sutor</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Coriolus</role>
+          <roleDesc>servus</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Palaemon</role>
+          <roleDesc>rusticus</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Gripus</role>
+          <roleDesc>servus</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Tranio</role>
+          <roleDesc>venator</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Sulpicius</role>
+          <roleDesc>advocatus</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Clito</role>
+          <roleDesc>hospes</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Iustinus</role>
+          <roleDesc>senator</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Machaon</role>
+          <roleDesc>medicus</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Praeco</role>
+        </castItem>
+      </castList>
+      <div type="argument">
+        <head>Distributio</head>
+        <list type="argument">
+          <item>
+            <label>Actus I</label>
+            <list>
+              <milestone unit="dramaticPhase" n="protasis"/>
+              <item><label>Scena I</label> Cantanti Savatae Sulpicius Marsupium obiicit.</item>
+              <milestone unit="dramaticPhase" n="epitasis"/>
+              <item><label>Scena II</label> Savata inventum Marsupium domi, clam servo,
+                abscondit.</item>
+              <item><label>Scena III</label> Savata domum claudi mandat.</item>
+              <item><label>Scena IV</label> Sulpicius obvium Savatam frustra invitat ad
+                prandium.</item>
+              <item><label>Scena V</label> Savata sollicite huc illuc aurum transportat.</item>
+              <item><label>Scena VI</label> Coriolus accersit medicum insano hero.</item>
+            </list>
+          </item>
+          <item>
+            <label>Actus II</label>
+            <list>
+              <item><label>Scena I</label> Savata non tutus domi, aurum ruri in diruto Fidei templo
+                abdit.</item>
+              <item><label>Scena II</label> Savata Gripum quasi auri conscium excutit.</item>
+              <item><label>Scena III</label> Gripus insidiatur Savatae aurum suum in sylvam
+                transportanti.</item>
+              <item><label>Scena IV</label> Gripus observatur a Tranione, quaeritur a
+                Palaemone.</item>
+              <item><label>Scena V</label> Gripus exultat reperto auro.</item>
+              <item><label>Scena VI</label> Tranio reperti auri vult esse particeps.</item>
+              <item><label>Scena VII</label> Marsupii arbiter fit Palaemon, qui et ipse in eius
+                partem venire contendit.</item>
+            </list>
+          </item>
+          <item>
+            <label>Actus III</label>
+            <list>
+              <milestone unit="dramaticPhase" n="catastasis"/>
+              <item><label>Scena I</label> Savata ablatum dolet marsupium.</item>
+              <item><label>Scena II</label> Tranio promittit Savatae se indicaturum ubi sit
+                marsupium, si dimidiam partem auri velit dividere.</item>
+              <item><label>Scena III</label> Savata provocat in ius Palaemonem et Gripum.</item>
+              <item><label>Scena IV</label> Dum advocatus eligitur Sulpicius, hic marsupium esse
+                suum affirmat, et ad senatum appellat.</item>
+            </list>
+          </item>
+          <item>
+            <label>Actus IV</label>
+            <list>
+              <item><label>Scena I</label> Gripus clam cum marsupio fugam cogitat.</item>
+              <item><label>Scena II</label> Coriolus fugientem sistit Gripum.</item>
+              <item><label>Scena III</label> Savata a Gripo extorquet marsupium.</item>
+              <item><label>Scena IV</label> Tranio ubi audiit Savatam recepisse marsupium, exigit
+                promissum.</item>
+              <item><label>Scena V</label> Gripus simul et Palaemon recipiunt marsupium.</item>
+              <item><label>Scena VI</label> In senatum vocantur competitores marsupii.</item>
+            </list>
+          </item>
+          <item>
+            <label>Actus V</label>
+            <list>
+              <milestone unit="dramaticPhase" n="catastrophe"/>
+              <item><label>Scena I</label> Savata dicit causam suam in senatu.</item>
+              <item><label>Scena II</label> Gripus et Palaemon de marsupio contendunt.</item>
+              <item><label>Scena III</label> Tranio probat ius suum.</item>
+              <item><label>Scena IV</label> Sulpicius suum marsupium refert.</item>
+            </list>
+          </item>
+        </list>
+      </div>
+    </front>
+    <body>
+      <div type="prologue">
+        <head>PROLOGUS.</head>
+        <sp who="#prologus">
+          <l>Pessima est pestis aurum mortalibus:</l>
+          <l>Ut venefica Circe, quae mentes fascinat;</l>
+          <l>Nec dies noctesque sinit requiescere.</l>
+          <l>Velut noster hic sutor, qui alacrem</l>
+          <l>Pauper sustinens vitam, et hanc crebris</l>
+          <l>Cantibus recreans, Croeso erat beatior:</l>
+          <l>Ast ubi Marsupium multo auro grave</l>
+          <l>(Quod vicinia ioco in aedes iecerat)</l>
+          <l>Contigit; ipse mutari, atque alius esse, et</l>
+          <l>Ubi thesaurum foderet, miser requirere,</l>
+          <l>Sine cantu et quiete omnino coepit emori.</l>
+          <l>Documento erit haec hominibus Comoedia,</l>
+          <l>Quibus plerumque est auri sacra fames.</l>
+        </sp>
+      </div>
+      <div type="act" n="1">
+        <head>ACTUS PRIMUS.</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>Cantanti SAVATAE SULPICIUS Marsupium obiicit.</p>
+          </argument>
+          <stage>SULPICIUS, CLITO.</stage>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l>Audis importunum in vicina aede musicum:</l>
+            <l>Neque adeo, Clito, si duabus horis aut tribus</l>
+            <l>Durat hic Cantus, deinde cessat: sed aliae</l>
+            <l>Ex aliis cantilenae multae, quae obtundunt caput.</l>
+          </sp>
+          <sp who="#clito">
+            <speaker>CL.</speaker>
+            <l part="I">Audio: philomelam imitatur.</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l part="F">imo cantat hyeme</l>
+            <l>Avis hyberna, et aestate; tempestatum omnium est.</l>
+          </sp>
+          <sp who="#clito">
+            <speaker>CL.</speaker>
+            <l part="I">Et iam dixti horarum.</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l part="F">certe ante lucem canit,</l>
+            <l>Ut gallus: nisi noctis silentio faucibus</l>
+            <l>Faveret, brevi, Clito, raucus evaderet.</l>
+          </sp>
+          <sp who="#clito">
+            <speaker>CL.</speaker>
+            <l>Equidem raucida est ipsi vox, velut anseri,</l>
+            <l>Vel graculo, quae stridore aures lacerat.</l>
+            <l part="I">Sed age, ne vocem plus edat faxo.</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l part="F">quid facies?</l>
+          </sp>
+          <sp who="#clito">
+            <speaker>CL.</speaker>
+            <l part="I">Prior hunc lupus videat.</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l part="F">quid intelligis?</l>
+          </sp>
+          <sp who="#clito">
+            <speaker>CL.</speaker>
+            <l>Bolum seu offam cantanti in os obiice,</l>
+            <l part="I">Tacebit magis mutus quam piscis.</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l part="F">explica.</l>
+          </sp>
+          <sp who="#clito">
+            <speaker>CL.</speaker>
+            <l>Cantat curis vacuus: huic haud thesaurus est.</l>
+            <l>Sollicitae causam vitae pecuniam ingere,</l>
+            <l>Nunquam posthac gallum, aut hybernam avem audieris.</l>
+            <l part="I">Vis certare?</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l part="M">quo vis pignore?</l>
+          </sp>
+          <sp who="#clito">
+            <speaker>CL.</speaker>
+            <l part="F">hoc: si pecunia</l>
+            <l>Tua periclitabitur, me damno facturum satis.</l>
+            <l>Nihil time: erimus testes ego et domestici:</l>
+            <l>Si marsupium auro turgidum ante aedes obtuleris,</l>
+            <l>Quod iure reposces tuo post exacta fabula.</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l>Lepide consulis: verum etsi iacturam pecuniae</l>
+            <l>Facturus sum, non tanti est mihi, dum rei experiar</l>
+            <l>Eventum. heus, famuli, vos testes volo:</l>
+            <l>Hoc marsupium trecentis aureis grave, ante limen hic</l>
+            <l>Pauperculi sutoris colloco: dabitis fidem, ubi opus.</l>
+          </sp>
+          <sp who="#clito">
+            <speaker>CL.</speaker>
+            <l>Satis est, atque intro e speculis demus insidias viro.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>SAVATA inventum Marsupium domi, clam servo, abscondit.</p>
+          </argument>
+          <stage>SAVATA, CORIOLUS.</stage>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Porto, Coriole, hos calceos in viciniam:</l>
+            <l>Nam condixi horam. at at, st, nemo hic est?</l>
+            <l>Superi! vah lucrifer Mercuri, undenam</l>
+            <l>Marsupium? somnio? atqui aurum profecto est.</l>
+            <l>Quid hic moror? cito fero in aedes intime.</l>
+            <l>Exi, inquam, age exi, exeundum hercle tibi hinc est foras,</l>
+            <l>Circumspectator cum oculis emissitiis.</l>
+          </sp>
+          <sp who="#coriolus">
+            <speaker>CO.</speaker>
+            <l part="I">Nam cur me subito verberas?</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">ut sis miser,</l>
+            <l>Atque ut te dignam malus malam aetatem exigas.</l>
+          </sp>
+          <sp who="#coriolus">
+            <speaker>CO.</speaker>
+            <l>Nam qua nunc causa me extrusisti ex aedibus?</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>tibi ego rationem reddam, stimulorum seges:</l>
+            <l>Illuc regredere ab ostio, illuc sis. vide ut</l>
+            <l>Incedit. at scin’ quomodo tibi res se habet?</l>
+            <l>Si hodie hercle fustem cepero aut stimulum in manum,</l>
+            <l>Testudineum istum tibi ego grandibo gradum.</l>
+          </sp>
+          <sp who="#coriolus">
+            <speaker>CO.</speaker>
+            <l>Utinam me Dii adigant ad suspendium</l>
+            <l>Potius quidem, quam hoc pacto apud te serviam.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Ut scelestus solus secum murmurat!</l>
+            <l>Oculos hercle ego istos, improbe, effodiam tibi,</l>
+            <l>Ne me observare possis quid rerum geram.</l>
+            <l>Abscede hinc etiamnunc, etiamnunc, etiam, ohe</l>
+            <l>Istic adesto. si hercle tu ex istoc loco</l>
+            <l>Digitum transversum, aut unguem latum excesseris,</l>
+            <l>Aut si respexeris, donec ego te iussero,</l>
+            <l>Continuo hercle ego te dedam discipulum cruci.</l>
+            <l>Scelestiorem me hoc servo certe scio</l>
+            <l>Vidisse nunquam: nimisque ego hunc metuo male.</l>
+            <l>Ne mihi ex insidiis imprudenti verba det,</l>
+            <l>Neu persentiscat aurum ubi est absconditum,</l>
+            <l>Qui in occipitio quoque habet aures pessimus.</l>
+            <l>Nunc ibo ut visam, estne ita aurum, ut condidi:</l>
+            <l>Quod me sollicitat plurimis miserum modis.</l>
+          </sp>
+          <sp who="#coriolus">
+            <speaker>CO.</speaker>
+            <l>Nec nunc, mecastor, quid hero dicam meo</l>
+            <l>Malae rei evenisse, quamve insaniam</l>
+            <l>Queo comminisci, ita me miserum extrudit aedibus.</l>
+            <l>Nescio pol, quae illum hominem intemperiae tenent.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA TERTIA.</head>
+          <argument>
+            <p>SAVATA domum claudi mandat.</p>
+          </argument>
+          <stage>SAVATA, CORIOLUS.</stage>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Nunc defoecato demum animo egredior domo,</l>
+            <l>Postquam perspexi salva esse intus omnia.</l>
+            <l part="I">Redi nunc iam intro, atque intus serva.</l>
+          </sp>
+          <sp who="#coriolus">
+            <speaker>CO.</speaker>
+            <l part="F">quippe nil</l>
+            <l>Ego intus servem, anne quis aedes auferat?</l>
+            <l>Nam hic apud nos nihil est aliud quaesti furibus,</l>
+            <l>Ita inaniis sunt oppletae, atque araneis.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Araneas mihi ego illas servari volo.</l>
+            <l>Pauper sum, fateor: patior: quod Deus dat, fero.</l>
+            <l>Ab intro occlude ianuam, iam ego hic ero:</l>
+            <l>Cave quemquam alienum in aedes intromiseris.</l>
+          </sp>
+          <sp who="#coriolus">
+            <speaker>CO.</speaker>
+            <l part="I">Quid, si quispiam ignem quaerit?</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">extingui volo:</l>
+            <l>Ne causae quid sit, quo te quisquam quaeritet.</l>
+            <l>Nam si ignis vivet, tu extinguere extemplo;</l>
+            <l>Tum aquam aufugisse dicito, si quis petet.</l>
+            <l>Cultrum, securim, pistrillam, mortarium,</l>
+            <l>Quae utenda vasa semper vicini rogant,</l>
+            <l>Fures venisse atque abstulisse dicito.</l>
+            <l>Profecto in aedibus meis, me absente, neminem</l>
+            <l>Volo intromitti. atque etiam hoc praedico tibi,</l>
+            <l>Si bona fortuna veniat, ne intromiseris.</l>
+          </sp>
+          <sp who="#coriolus">
+            <speaker>CO.</speaker>
+            <l>Sol in ea ipsa, credo, ne intromittatur, cavet:</l>
+            <l>Nam ad aedes nostras nusquam adiit quanquam prope.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="I">Tace, atque abi intro.</l>
+          </sp>
+          <sp who="#coriolus">
+            <speaker>CO.</speaker>
+            <l part="M">taceo atque abeo.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">occlude sis</l>
+            <l>Fores ambobus pessulis, iam ego hic ero.</l>
+            <l>Discrucior animi, quia ab domo abeundum est mihi.</l>
+            <l>Nimis hercle invitus abeo, sed quid agam scio:</l>
+            <l>Nam noster nostrarum qui est vicinus aedium,</l>
+            <l>Expectat hos hodie suo calceos filiolo:</l>
+            <l>Id si relinquo, ac non fero, omnes illico </l>
+            <l>Me suspicentur, credo, habere aurum domi:</l>
+            <l>Nam verisimile non est hominem pauperem</l>
+            <l>Lucrum pauxillum parvifacere, quin nummum petat.</l>
+            <l>Nam nunc, cum celo sedulo omnes ne sciant,</l>
+            <l>Omnes videntur scire; et me benignius</l>
+            <l>Omnes salutant, quam salutabant prius:</l>
+            <l>Adeunt, consistunt, coniungunt dexteras:</l>
+            <l>Rogitant me ut valeam: quid agam: quid rerum geram.</l>
+            <l>Nunc quo profectus sum, ibo. post idem domum</l>
+            <l>Me rursum quantum potero, tantum recipiam:</l>
+            <l>Nam egomet sum hic, animus domi est. quis obviam?</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA QUARTA.</head>
+          <argument>
+            <p>SULPICIUS obvium SAVATAM frustra invitat ad prandium.</p>
+          </argument>
+          <stage>SULPICIUS, SAVATA.</stage>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l>Salvus atque fortunatus, Savata, semper sies.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="I">Deus te amet, Sulpici.</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l part="F">quid tu? recten’, atque ut vis vales?</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Non temerarium est, ubi dives blande appellat pauperem.</l>
+            <l>Iam illic aurum me scit habere, eo me salutat blandius.</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l part="I">Ain’ tu valere te?</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">pol ego haud a pecunia perbene.</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l>Pol si est animus aequus tibi, satis habes, qui bene vitam colas.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Servus hercle hoc indicium fecit de auro, perspicue palam est:</l>
+            <l>Cui ego iam linguam praecidam, atque oculos effodiam domi.</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l part="I">Quid tu solus tecum loquere?</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">pauperiem meam conqueror;</l>
+            <l part="I">Hoc est huius diei lucrum.</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l part="F">dabitur a me pretium.</l>
+            <l>Heus, famuli, recipite calceos. dic si quid opus est, dabo.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Nunc petit cum pollicetur, inhiat aurum ut devoret.</l>
+            <l>Altera manu fert lapidem, panem ostentat altera:</l>
+            <l>Nemini credo, qui large blandus est dives pauperi:</l>
+            <l>Ubi manum iniicit benigne, ibi onerat aliquam zamiam.</l>
+            <l>Ego istos novi polypos, qui ubi quid tetigerunt, tenent.</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l part="I">Nunc te voco ad prandium.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">hei misero mihi!</l>
+            <l>Aurum mihi intus harpagatum est! nunc hic aurum vult, scio.</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l part="I">Quo nunc abis?</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">iam ad te revertor, nam est quod visam domi.</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l>Scio quae cura hominem pupugit, non ante credidi,</l>
+            <l>Neque illo quisquam est alter hodie ex paupere miserior.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Salva res est: salvum est, si quid non perit:</l>
+            <l>Nimis male timui; priusquam intro redii, exanimatus fui.</l>
+            <l part="I">Redeo ad te, Sulpici, si quid me vis?</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l part="F">ut mecum hodie</l>
+            <l part="I">Accubes in prandio.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">meum, inquam, aurum huic olet.</l>
+            <l part="I">Quid nunc me vis?</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l part="F">invito ad prandium: venies?</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Ah! Sulpici, haud decorum facinus tuis factis facis,</l>
+            <l>Ut inopem atque innoxium abs te atque abs tuis me irrideas.</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l>Neque, aedepol, te ego derisum venio, neque derideo,</l>
+            <l part="I">Neque dignum arbitror.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">cur igitur poscis me ad prandium?</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l>Propter viciniam: ut mihi et tibi pariter laetis sit bene.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Venit hoc mihi in mentem, Sulpici, te esse hominem divitem.</l>
+            <l>Liberalem; me item esse hominem pauperem pauperrimum:</l>
+            <l>Quorum mensae et victus sunt longe inter se dispares.</l>
+            <l part="I">Sed proh Superi! num ego disperii!</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l part="F">quid tibi est?</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="I">Crepuit quasi ferrum modo.</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l part="F">hic apud me sunt opifices.</l>
+            <l>Sed ubi hic est homo? iterum abiit. iterum opperiam.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Si hercle ego te elinguandum dedero usque ab radicibus,</l>
+            <l>Impero, autorque sum, ut me cuivis captivum loces.</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l>Video hercle te meo, Savata, fastidire prandio.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Imo morbus est stomachi, qui male digerit.</l>
+            <l part="I">Sudo, palleo, nauseo, habeo gratiam.</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l part="F">venies alias.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Illic hinc abiit. Superi! aurum, obsecro, quid valet?</l>
+            <l>Credo ego iam illum inaudiisse, mihi esse thesaurum domi:</l>
+            <l>Id inhiat, ea me ad suum prandium vocavit gratia,</l>
+            <l>Qui me antehac nunquam. nunc domum properare propero.</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA QUINTA.</head>
+          <argument>
+            <p>SAVATA sollicite huc illuc aurum transportat.</p>
+          </argument>
+          <stage>SAVATA, CORIOLUS</stage>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Ubi tu es, qui deblaterasti iam vicinis omnibus,</l>
+            <l part="I">Me velle adire mensam divitum?</l>
+          </sp>
+          <sp who="#coriolus">
+            <speaker>CO.</speaker>
+            <l part="F">Quid ais? haud sanus es.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Egredere, proficiscere. mihi iam domi soli vaco.</l>
+          </sp>
+          <sp who="#coriolus">
+            <speaker>CO.</speaker>
+            <l>Ibo ad medicum, qui venam tibi pertundat mediam.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Non metuo, ne quisquam domi inveniat marsupium;</l>
+            <l>Si probe in latebris situm est. sed quo iam loco</l>
+            <l>Contegam? in officina? non est tutum. sub tegulas?</l>
+            <l>Mures strepitu indicabunt suo, et corrodent marsupium.</l>
+            <l>In cavea? facile descendent fures; quos Apollo quidem</l>
+            <l>Configat sagittis sacrilegos thesaurarios.</l>
+            <l>Quid si in horto? istic est gallus gallinaceus</l>
+            <l>Servo peculiaris, qui patefaciet aurum penissime:</l>
+            <l>Ubi erit hoc defossum, occipiet ibi sculpturire ungulis</l>
+            <l>Circum circa: nisi ergo iam fustem cepero,</l>
+            <l>Et uno ictu obtruncaro gallum furem manifestarium.</l>
+            <l>Venit in mentem illud sub cervical abscondere,</l>
+            <l>Et amico sopori sociare: ita fiat. ibi marsupium</l>
+            <l>Quiesce: mecum dormies, mecum loqueris dies</l>
+            <l>Noctesque: arcebo, si fures venerint. at quis ad fores:</l>
+            <l>Hei mihi, perii hercle, aurum capitur, marsupium quaeritur!</l>
+            <l>Nimirum occidor, nisi ego armatus occurrero.</l>
+            <l>Sed quid armis opus est? ego incubabo marsupio,</l>
+            <l>Uti gallina pullis adveniente milvio.</l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA SEXTA.</head>
+          <argument>
+            <p>CORIOLUS accersit medicum insano hero.</p>
+          </argument>
+          <stage>MACHAON, CORIOLUS, SAVATA.</stage>
+          <sp who="#machaon">
+            <speaker>MA.</speaker>
+            <l>Quid esse illi morbi dixeras? narra, Coriole.</l>
+            <l>Num larvatus erat, aut cerritus; fac sciam.</l>
+            <l>Num eum veternus, aut aqua intercus tenet?</l>
+          </sp>
+          <sp who="#coriolus">
+            <speaker>CO.</speaker>
+            <l>Quin ea causa duco te, ut id dicas mihi,</l>
+            <l part="I">Atque illum ut sanum facias.</l>
+          </sp>
+          <sp who="#machaon">
+            <speaker>MA.</speaker>
+            <l part="F">perfacile id quidem</l>
+            <l>Sanum futurum mea ego id promitto fide.</l>
+          </sp>
+          <sp who="#coriolus">
+            <speaker>CO.</speaker>
+            <l>Viden’ tu illi oculos urier? ut viridis exoritur color</l>
+            <l>Ex temporibus, atque fronte? ut oculi scintillant, vides?</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="I">Abi, quo venis nunc? tene, tene.</l>
+          </sp>
+          <sp who="#machaon">
+            <speaker>MA.</speaker>
+            <l part="F">Quid clamitas?</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Etiam rogas, sceleste homo, qui angulos aedium</l>
+            <l>Omnes, et conclavium mihi pervium facis?</l>
+            <l>Si ad lectum huc accesseris, nisi vocavero, propius,</l>
+            <l>Ego te faciam, miserrimus mortalium uti sies.</l>
+          </sp>
+          <sp who="#coriolus">
+            <speaker>CO.</speaker>
+            <l>Deliramenta quae loquitur! here, adduco tibi hunc,</l>
+            <l part="I">Ut ex stulto sapiens fias.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">an ego insanio?</l>
+          </sp>
+          <sp who="#machaon">
+            <speaker>MA.</speaker>
+            <l>Helleborum faxo potabis aliquos viginti dies.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="I">Te ipsum cura, medice.</l>
+          </sp>
+          <sp who="#machaon">
+            <speaker>MA.</speaker>
+            <l part="F">dic, obdormivisti paululum</l>
+            <l part="I">Hodie?</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">nulla sunt mihi debita, nihil</l>
+            <l>Argenti. abi percunctator, abi in pessimam crucem.</l>
+          </sp>
+          <sp who="#machaon">
+            <speaker>MA.</speaker>
+            <l>Dabo potionis aliquid prius, quam te percipit insania.</l>
+            <l>Praescribam unum recipe: da stylum, Coriole.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Quid illud est, quod me hi homines insanire praedicant,</l>
+            <l>Et marsupium obsident? quid? mihi melius est, quando ita putant,</l>
+            <l>Ego me assimulem insanire, ut illos a me absterream.</l>
+          </sp>
+          <sp who="#machaon">
+            <speaker>MA.</speaker>
+            <l part="I">Hoc sume, et vales.</l>
+          </sp>
+          <sp who="#coriolus">
+            <speaker>CO.</speaker>
+            <l part="F">vide quos gestus agit!</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Eu hoë atque heu, Bromie, quo me in sylvam venatum vocas?</l>
+            <l>Audio: sed non abire possum ab his aedibus.</l>
+            <l>Ita me ille ab laeva rapax observat leo.</l>
+            <l>Post autem illic catulus, qui perdit herum suum</l>
+          </sp>
+          <sp who="#coriolus">
+            <speaker>CO.</speaker>
+            <l part="I">Here, quiesce.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">ecce, Apollo mihi ex oraculo imperat,</l>
+            <l>Ut illi oculos exuram lampadibus ardentibus.</l>
+          </sp>
+          <sp who="#machaon">
+            <speaker>MA.</speaker>
+            <l>Perii, Coriole, minatur mihi oculos eruere.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="I">Faciam quod iubes, Apollo.</l>
+          </sp>
+          <sp who="#coriolus">
+            <speaker>CO.</speaker>
+            <l part="F">fuge domum quantum potes,</l>
+            <l part="I">Ne hic te obtundat.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">virum ego hunc perimam pessimum,</l>
+            <l>Comminuam illo scipione, quem gesto. dabitur malum.</l>
+          </sp>
+          <sp who="#machaon">
+            <speaker>MA.</speaker>
+            <l>Me quidem si attigeris, aut si propius ad me accesseris.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Faciam quod iubes, securim capiam ancipitem, atque hunc ego</l>
+            <l>Medicum exossem reddam, dedolabo assulatim viscera.</l>
+          </sp>
+          <sp who="#machaon">
+            <speaker>MA.</speaker>
+            <l>Enimvero illud praecavendum, atque accurandum mihi:</l>
+            <l>Sane ego illum metuo, ut minatur, ne quid mali faxit mihi.</l>
+          </sp>
+          <sp who="#coriolus">
+            <speaker>CO.</speaker>
+            <l>Abeamus: magis nunc insanire incoeptat, de illis etiam</l>
+            <l part="I">Verbis caveo mihi.</l>
+          </sp>
+          <sp who="#machaon">
+            <speaker>MA.</speaker>
+            <l part="F">sic est: furiosior nunc quidem est</l>
+            <l part="I">De verbis prae ut initio fuit.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">nunc insequor.</l>
+            <l>Comprehendo, macto sceleratos, inferno Iovi sacrifico.</l>
+            <l>Iamne isti abierunt, quaeso, ex conspectu meo, marsupii</l>
+            <l>Fures, qui me vi cogunt ut validus insipiam?</l>
+            <l>Quid cesso fores claudere, dum salvo licet?</l>
+            <l>Vos omnes, quaeso, si quis fur revenerit,</l>
+            <l>Non me indicetis, nec aurum qua parte sit aedium.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="2">
+        <head>ACTUS SECUNDUS.</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>SAVATA non tutus domi, aurum ruri in diruto Fidei templo abdit.</p>
+          </argument>
+          <stage>GRIPUS, SAVATA.</stage>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l>Misit me huc herus laboratum prope hoc</l>
+            <l>Fanum quod est dirutum: ait velle se inibi</l>
+            <l>Villam reparare cuiusmodi ante bellum fuit.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Aedepol nae tu, marsupium, multos inimicos habes,</l>
+            <l>Atque istuc aurum quod tibi concreditum est.</l>
+            <l>Nunc hoc mihi factu optimum est, ut te auferam,</l>
+            <l>Marsupium, in hoc Fidei Fanum: ibi abstrudam probe.</l>
+            <l>Fides, novisti me, et ego te: cave sis tibi,</l>
+            <l>Ne tu in me mutassis nomen, si hoc credidero.</l>
+            <l>Ibo ad te, fretus tua, Fides, fiducia.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l>Quid hic homo? non sine omni suspicione hinc</l>
+            <l>Ego, huc et illuc, potero, quid agat, arbitrarier.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Tu modo cave cuiquam indicassis aurum meum esse istic, Fides.</l>
+            <l>Aedepol nae illic pulchram praedam agat, si quis illud invenerit.</l>
+            <l>Marsupium onustum auri. verum id, te quaeso, ut prohibeas, Fides.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l>Dii immortales, quod ego hunc hominem facinus audio loqui,</l>
+            <l>Se marsupium onustum auri abstrusisse hic intus in templo? Fides,</l>
+            <l>Cave tu illi fidelis, quaeso, potius fueris, quam mihi.</l>
+            <l>Ibo hinc intro, perscrutabor Fanum, si inveniam uspiam</l>
+            <l>Aurum, dum hic est in via. o si reperero?</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>SAVATA GRIPUM quasi auri sui conscium excutit.</p>
+          </argument>
+          <stage>SAVATA, GRIPUS.</stage>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Non temere est, quod corvus cantet mihi nunc ab laeva manu:</l>
+            <l>Simul radebat pedibus terram, et voce crocitabat sua.</l>
+            <l>Continuo meum cor coepit artem facere ludicram;</l>
+            <l>Atque in pectus emicare. sed ego cesso currere:</l>
+            <l>I foras, lumbrice, qui sub terra erepsisti modo,</l>
+            <l>Qui modo nusquam comparebas: nunc cum com pares, peris:</l>
+            <l>Ego pol te, praestigiator, miseris iam accipiam modis.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l>Quae te mala crux agitat, quid tibi mecum est commercii, homo:</l>
+            <l>Quid me afflictas? quid me raptas? qua me causa verberas?</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Verberabilissime, etiam rogitas, non fur, sed trifur?</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="I">Quid tibi surripui?</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="M">redde huc sis.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="M">Quid vis reddam?</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">rogitas?</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="I">Nihil equidem tibi abstuli.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">at illud quod tibi abstuleras, cedo.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="I">Ecquid agis?</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="M">quid agam? aufferre non potes.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">quid vis tibi?</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Pone hoc sis: aufer cavillam, non ego nunc nugas ago.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l>Quid ego ponam? quin tu eloquere quidquid est suo nomine?</l>
+            <l part="I">Non hercle equidem quidquam sumpsi, nec tetigi.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">ostende huc manum.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="I">Hem tibi ostendi, eccas.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">age, ostende etiam tertiam.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l>Larvae hunc atque intemperiae, insaniaeque agitant hominem.</l>
+            <l part="I">Facisne iniuriam mihi an non?</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">fateor, qui non pendes, maximam.</l>
+            <l part="I">Atque id quoque iam fiet, nisi fatere.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">Quid fatear tibi?</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="I">Quid abstulisti hinc?</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">Dii me perdant, si ego quidquam abstuli:</l>
+            <l part="I">Nive adeo abstulisse vellem.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">agedum excutedum pallium.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="I">Tuo arbitratu.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="M">ne inter tunicas habeas.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">tenta qualubet.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Vah scelestum, quam benigne, ut ne abstulisse intelligam:</l>
+            <l>Novi sycophantias: age, rursum ostende huc manum</l>
+            <l part="I">Dextram.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="M">hem.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="M">nunc laevam ostende.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">quin equidem ambas praefero.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="I">iam scrutari mitto, redde huc.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="M">quid reddam?</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">ah nugas agis.</l>
+            <l part="I">Certe habes.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="M">habeo ego? quid habeo?</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">Non dico, audire expetes,</l>
+            <l part="I">Id meum quidquid habes, redde.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">insanis? perscrutatus es</l>
+            <l>Tuo arbitratu, neque tui me quidquam invenisti penes.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Mane, mane: quis ille intus alter erat tecum simul?</l>
+            <l>Perii hercle, ille nunc intus turbat: hunc si mitto, hic abierit:</l>
+            <l>Postremo iam hunc perscrutavi, hic nihil habet. abi quo lubet.</l>
+            <l part="I">Iupiter te Diique omnes perdant.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">haud male agit gratias.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Ibo intro, atque illi tuo socieno iam interstringam gulam.</l>
+            <l part="I">Fugin’ hinc ab oculis, abin, an non?</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="M">abeo.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">cavesis te videam.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA TERTIA.</head>
+          <argument>
+            <p>GRIPUS insidiatur SAVATAE aurum suum in sylvam transportanti.</p>
+          </argument>
+          <stage>GRIPUS, SAVATA.</stage>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l>Mortuum ego me mavelim leto malo,</l>
+            <l>Quam non ego illi dem hodie insidias viro:</l>
+            <l>Nam hic iam non audebit aurum abstrudere.</l>
+            <l>Credo referet iam secum, et mutabit locum.</l>
+            <l>At, at foris crepuit, eccum homo: aurum effert foras.</l>
+            <l>Tantisper hic ego ad ianuam concessero.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Fidei censebam maximam multo fidem</l>
+            <l>Esse, ea sublevit os mihi penissime.</l>
+            <l>Ni sub venisset corvus, periissem miser.</l>
+            <l>Nimis hercle ille corvus ad me veniat velim.</l>
+            <l>Nunc hoc ubi abstrudam, cogito solum locum</l>
+            <l>Sylvani lucus extra murum est avius,</l>
+            <l>Crebro salicto oppletus: ibi sumam locum.</l>
+            <l>Certum est Sylvano potius credam, quam Fidei.</l>
+            <l>Euge, fuge, fuge: Dii me salvum et servatum volunt.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l>iam ego illuc praecurram, atque inscendam aliquam in arborem:</l>
+            <l>Indeque observabo, aurum ubi abstrudat homo.</l>
+            <l>Quanquam me hic laborare herus iusserat:</l>
+            <l>Certum est, malam rem potius quaeram in lucro.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA QUARTA.</head>
+          <argument>
+            <p>GRIPUS observatur a TRANIONE, et quaeritur a PALAEMONE.</p>
+          </argument>
+          <stage>TRANIO, PALAEMON.</stage>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l>Quid homo istuc currit? et attentus est negotio?</l>
+            <l>Quid in sylvam se dat, et it venatum invita Delia?</l>
+            <l>Nam quam aget praedam sine armis et canibus?</l>
+            <l>Ibo cito; clam istius rei praestolabor exitum.</l>
+          </sp>
+          <sp who="#palaemon">
+            <speaker>P.</speaker>
+            <l>Num istuc servus qui properat? heus Gripe!</l>
+            <l>Gripe, siste; Gripe, te herus vocat.</l>
+            <l>Miror ubi sit, quem ego me iusseram</l>
+            <l>Illic opperiri: nunc ego mecum cogito:</l>
+            <l>Si mihi dat operam, me illi irasci iniurium est.</l>
+            <l>Ibo in vicinam domum, ibi fors e re mea fuerit.</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA QUINTA.</head>
+          <argument>
+            <p>GRIPUS exultat reperto auro.</p>
+          </argument>
+          <stage>GRIPUS, TRANIO.</stage>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l>Picos divitiis, qui aureos montes colunt,</l>
+            <l>Ego solus supero: nam istos reges caeteros</l>
+            <l>Memorare nolo, hominum mendicabula:</l>
+            <l>Ego sum ille Rex Philippus. o lepidum diem!</l>
+            <l>Nam ut modo hinc abii, ego illuc adveni prior,</l>
+            <l>Multoque celerius me collocavi in arborem:</l>
+            <l>Indeque exspectabam, aurum ubi abstrudebat homo.</l>
+            <l>Ubi ille abiit, ego me deorsum duco de arbore,</l>
+            <l>Effodio marsupium auri plenum: inde ex eo loco</l>
+            <l>Video recipere se virum, ille me non videt:</l>
+            <l>Nam ego modo declinavi paulum me extra viam.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l>At ego te vidi, et video, et videbo cum marsupio.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l>Nunc thesauro hoc utar, nec mihi conscius est ullus homo.</l>
+            <l>Nunc haec tibi occasio, Gripe, obtigit, ut liberet</l>
+            <l>Extemplo Praetor te. nunc sic faciam, sicut consilium est:</l>
+            <l>Ad herum ut veniam, docte atque astute illi ego</l>
+            <l>Pauxillatim pollicitabor argentum pro capite,</l>
+            <l>Ut sim liber, ac me emittat manu. iam ubi liber</l>
+            <l>Ero igitur, domum instruam, agrum, aedes, mancipia:</l>
+            <l>Dominus perhibebor. ubi nobilitas mea clara fuerit,</l>
+            <l>Pagum magnum comparabo, et ego pago Gripus</l>
+            <l>Indam nomen, monumentum meae famae et factis: ibique</l>
+            <l>Regnum parvum instituam. magnas res hic agito in mentem instruere.</l>
+            <l part="I">Nunc hoc marsupium condam.</l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA SEXTA.</head>
+          <argument>
+            <p>TRANIO reperti auri vult esse particeps.</p>
+          </argument>
+          <stage>TRANIO, GRIPUS.</stage>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="M">Heus mane.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">quid maneam!</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="I">Mane, inquam.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="M">herus me exspectat.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="F">sermonis tui sum indigens.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="I">Enecas iam me odio, quisquis es.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="F">non sinam ego abire te,</l>
+            <l part="I">Mane.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">cave sis malo, quid tu (malum!) nam me retrahis?</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="I">Audi.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="M">nihil audio.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="M">at pol quin audies post.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">quin loquere</l>
+            <l part="I">Quid vis?</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="F">eho modo est operae pretium, quod tibi ego volo</l>
+            <l part="I">Narrare.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="M">eloquere, quid id est?</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="F">vide nuspiam consequitur prope.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="I">Ecquid est quod mea referat?</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="F">scilicet: sed bonis consiliis ego</l>
+            <l part="I">Quid in te mihi est?</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="M">quid negotii est? modo dic.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="F">tace, si fidem</l>
+            <l part="I">Modo das, mihi te non fore infidum.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">do fidem, tibi fidus ero,</l>
+            <l part="I">Quisquis es.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="F">audin’? furtum ego vidi, qui faciebat: noveram</l>
+            <l>Dominum, id cui fiebat. porro ad furem egomet devenio</l>
+            <l>Feroque ei conditionem hoc pacto: ego istuc furtum scio</l>
+            <l>Quod factum est: nunc mihi si vis dare dimidium, indicium</l>
+            <l>Domino non faciam. is mihi nihil etiam respondit. quid inde,</l>
+            <l part="I">Aequum est dari mihi dimidium? volo ut dicas.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">imo etiam</l>
+            <l>Amplius: nam si non dat, domino dicendum censeo.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l>Tuo consilio faciam. nunc adverte animum, namque hoc omne attinet</l>
+            <l part="I">Ad te.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="M">quid est?</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="F">marsupium istud cuius est, novi ego hominem.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="I">Quid est?</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="M">et quo pacto fodit.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">at ego quo pacto effossum est scio.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l>Et qui effodit, hominem novi, et dominum, quinam est scio.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l>Nihilo pol pluris tua hoc, quam illud refert mea.</l>
+            <l>Ego illum novi cuius nunc est: tu illum cuius antehac fuit.</l>
+            <l>Hoc homo feret a me nemo, ne tute speres potius.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="I">Non ferat, si dominus veniat?</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">Dominus huic nemo, ne frustra es:</l>
+            <l>Nisi ego nemo nactus est hoc, qui cepi in venatu meo.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="I">Itane vero?</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">ecquam esse dices in sylva feram meam?</l>
+            <l>Quas capio, si quidem cepi, meae sunt, habeo pro meis,</l>
+            <l>Nec manu asseruntur, neque illinc partem quisquam postulat,</l>
+            <l>In urbe palam omnes vendo pro meis venalibus.</l>
+            <l part="I">Sylva quidem haec communis est omnibus.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="F">assentio.</l>
+            <l>Qui minus hoc commune, quaero, mihi esse oportet marsupium?</l>
+            <l part="I">In sylva inventum est, haec communis est.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">nae impudenter impudens.</l>
+            <l>Nam si istuc sit quod memoras, venatores perierint.</l>
+            <l>Quippe cum extemplo in forum ferae prolatae sient,</l>
+            <l>Nemo emat, suam quisque partem ferarum poscat sibi.</l>
+            <l part="I">Dicat in sylva communi captas.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="F">quid ais impudens?</l>
+            <l>Ausus etiam comparare marsupium cum feris?</l>
+            <l part="I">Eadem tandem res videtur?</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">in manu non est mea</l>
+            <l>Ubi retia fixi, quidquid his haeret, meum est.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l>Mitte Griphos. verba facimus, it dies.</l>
+            <l>Vide sis cuius arbitratu rem nos facere vis?</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="I">Quaeso, sanus es?</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="F">nisi das sequestrum aut arbitrum,</l>
+            <l>Cuius haec res arbitratu fiat, istuc hodie non feres.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l>Verbum adde etiam unum, iam in cerebro colaphos abstrudam tuo.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l>Vis pugnare: quid opus est? quin tu potius praedam divide.</l>
+            <l part="I">Nam sum te fortior.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">quid? egone partem dabo,</l>
+            <l part="I">Quod excepi in sylva?</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="F">at ego quod inspectavi ex loco.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="I">Mea opera, labore, et insidiis.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="F">num quid minus,</l>
+            <l>Si veniat nunc dominus, cuius est, ego, qui inspectavi procul</l>
+            <l>Te hoc habere, fur sum, quam tu nihilo minus.</l>
+            <l>Quo argumento socius non sum, et fur sum, fac dum ex te sciam.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l>Nescio, neque ego istas tuas urbanas leges scio,</l>
+            <l part="I">Nisi quia hoc meum esse dico.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="F">et ego item esse aio meum.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l>Iam reperi rem, quo pacto nec fur, nec socius sies.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="I">Quo pacto?</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">sine me hinc abire, tu abi tacitus tuam viam:</l>
+            <l>Nec tu me cuiquam indicassis, neque ego tibi quidquam dabo.</l>
+            <l>Tu taceto, ego mussitabo: hoc optimum atque aequissimum est.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="I">Eho quid conditionis audes ferre?</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">iam dudum fero,</l>
+            <l>Ut abeas, spem amittas, mihi molestus ne sies.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="I">Mane, dum refero conditionem.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">te obsecro, aufer modo.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="I">Ecquem in his locis novisti?</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">porro illic longe usque in campis ultimis.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l>Vin’, qui in hac villa habitat, eius arbitratu fiat hoc?</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l>Haec est villa heri mei, quam reparat, et forte me exspectat ibi.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l>Ad tuum herum arbitrum voco te hic intra praesepes tuas.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l>Fiat, sed nunquam hercle hodie abiudicabit tibi triobolum.</l>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCENA SEPTIMA.</head>
+          <argument>
+            <p>Marsupii arbiter fit PALAEMON, qui in eius partem venire contendit.</p>
+          </argument>
+          <stage>GRIPUS, PALAEMON, TRANIO.</stage>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="I">O Praeses salve.</l>
+          </sp>
+          <sp who="#palaemon">
+            <speaker>P.</speaker>
+            <l part="M">salve Gripe, quid fit?</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="F">tuusne servus hic est?</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="I">Haud pudet?</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="M">nihil ago tecum.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="M">ergo abi hinc sis.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="F">quaeso responde homo</l>
+            <l part="I">Tuus hic servus est?</l>
+          </sp>
+          <sp who="#palaemon">
+            <speaker>P.</speaker>
+            <l part="M">meus est.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="F">hem istuc optime, quando tuus est.</l>
+          </sp>
+          <sp who="#palaemon">
+            <speaker>P.</speaker>
+            <l part="I">Quid negotii est?</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="M">vir scelestus illic est.</l>
+          </sp>
+          <sp who="#palaemon">
+            <speaker>P.</speaker>
+            <l part="F">quid fecit tibi</l>
+            <l part="I">Vir scelestus?</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="F">servo isti talos infringi volo.</l>
+          </sp>
+          <sp who="#palaemon">
+            <speaker>P.</speaker>
+            <l part="I">Quid est? qua de re nunc litigatis inter vos?</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="F">eloquar.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="I">Imo ego eloquar.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="M">ego opinor rem facesso.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">siquidem</l>
+            <l part="I">Sis pudicus, hinc facessas.</l>
+          </sp>
+          <sp who="#palaemon">
+            <speaker>P.</speaker>
+            <l part="F">Gripe, animum adverte, ac tace,</l>
+            <l part="I">Ut istic prius dicat. audi, loquere tu.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">alienon’ prius</l>
+            <l part="I">Quam tuo dabis orationem?</l>
+          </sp>
+          <sp who="#palaemon">
+            <speaker>P.</speaker>
+            <l part="F">ut nequiter comprimitur.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l>Habet ille tuus servus multo auro grave marsupium.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="I">Non habeo.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="M">negas quod oculis video?</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">at ne videas velim.</l>
+            <l>Habeo, non habeo, quid tu me curas, quid rerum geram!</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l>Quo modo habeas, nihil id refert, iure anne iniuria?</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l>Si in sylva reperi, qui tuum potius est quam meum?</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l>Novi dominum pecuniae: mali furti te redarguam.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l>Ut tute es, item censes omnes esse, furti caput?</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l>Omnia istaec ego facile patior, dum meam partem dividas,</l>
+            <l part="I">Quia sum istius auri conscius.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">quid igitur a me postulas?</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l>Dixi equidem: sed si parum intellexti, dicam denuo:</l>
+            <l>Hocce ambobus commune oportet esse marsupium.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l>Nihil hercle sum tibi daturus, nec si herus iubeat.</l>
+          </sp>
+          <sp who="#palaemon">
+            <speaker>P.</speaker>
+            <l>Nunc novi qua de re controvertitur: tu dimidiam</l>
+            <l>Petis partem marsupii, quia istic aderas, quando hic reperit.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="I">Ita peto.</l>
+          </sp>
+          <sp who="#palaemon">
+            <speaker>P.</speaker>
+            <l part="F">et ego peto partem dimidiam, quia istius sum herus.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l>Vidi petere milvos, etiam cum nihil auferrent tamen.</l>
+          </sp>
+          <sp who="#palaemon">
+            <speaker>P.</speaker>
+            <l>Rerum ne temere quid fiat, aut in hac re minus placide.</l>
+            <l>Tantisper veni in villam hanc meam. tu, Gripe, sequere.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l>Certum est utrique resistere fortiter, et omnia perpeti,</l>
+            <l>Dum auro potiar. o marsupium quantos habes aemulos!</l>
+            <l>Seu, ut melius dicam, quam multi te sectantur canes venatici?</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="3">
+        <head>ACTUS TERTIUS.</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>SAVATA ablatum dolet marsupium.</p>
+          </argument>
+          <stage>SAVATA.</stage>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Perii! interii! occidi! quo curram? quo non curram? tene, tene</l>
+            <l>Quem? quis? nescio. nihil video, caecus eo: atque equidem</l>
+            <l>Quo eam, aut ubi sim, aut qui sim, nequeo</l>
+            <l>Cum animo certum investigare. obsecro vos ego, mihi auxilio,</l>
+            <l>Oro, obtestor, sitis, et hominem demonstretis, qui abstulerit:</l>
+            <l>Qui vestitu et creta occultant sese, atque sedent quasi sint frugi.</l>
+            <l>Quid ais tu? tibi credere certum est: nam bonum esse te</l>
+            <l>Vultu cognosco. quid est? quid ridetis? novi omnes, scio</l>
+            <l>Fures esse hic complures: hem, nemo habet horum?</l>
+            <l>Occidisti. dic igitur, quis habet. nescis? heu me miserum!</l>
+            <l>Miserum! perii male perditus. pessime ornatus eo,</l>
+            <l>Tantum gemitus et malae moestitiae hic dies mihi obtulit</l>
+            <l>Famem et pauperiem. perditissimus ego sum omnium</l>
+            <l>In terra. nam quid mihi opus vita est, qui tantum auri perdidi,</l>
+            <l>Quod custodivi sedulo? fraudavi me egomet,</l>
+            <l>Animumque meum, geniumque meum: nunc eo alii</l>
+            <l>Laetificantur meo malo et damno. pati nequeo.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>TRANIO promittit SAVATAE, se indicaturum ubi sit marsupium, si dimidiam partem velit
+              dividere.</p>
+          </argument>
+          <stage>TRANIO, SAVATA.</stage>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l>Quinam hic homo in sylva eiulans conqueritur moerens?</l>
+            <l>Atque hic quidem Savata est: simulabo non videre.</l>
+            <l part="I">Aedepol marsupium erat onustum.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">perii cum mentionem</l>
+            <l>Fieri audio usquam marsupii, quasi palo pectus tundat.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l>Istic scelestus debet continuo reddere, si dominum novit.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Proh Dii immortales! suo mihi hic sermone arrexit aures.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l>Cubitum hercle longis litteris signabo usquequaque in urbe,</l>
+            <l>Si quis perdiderit marsupium, cum auro atque argento multo,</l>
+            <l>Ad Gripum ut veniat, bona fide receptum iri.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Meum hercle illic homo marsupium scit, quis habet, ut ego opinor.</l>
+            <l>Adeundus mihi illic est homo. Dii, quaeso, subvenite.</l>
+            <l part="I">Vir salve.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="M">Dii te ament.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="M">ut vales?</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="F">Quid tu num, quaeso, es medicus?</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="I">Imo aedepol una littera plus sum quam medicus.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="F">tum tu</l>
+            <l part="I">Mendicus es?</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="M">tetigisti acu.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="F">videtur digna forma.</l>
+            <l part="I">Sed quid tibi est?</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">hodie perdidi quidquid erat mihi omne.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="I">Quid perdidisti?</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">marsupium cum auro atque argento multo.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="I">Ecquid meministi ubi et quale fuerit?</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">quid refert,</l>
+            <l part="I">Ubi periit?</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="F">nihil tamen, si non hoc, aliud fabulemur:</l>
+            <l>Qui si ego sciam qui invenerit, volo ex te scire signa.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Marsupium erat tectum olla, et turgidum nummis trecentis.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l>Magna hercle praeda est, largiter mercedis indipiscar,</l>
+            <l>Dii omnes homines respiciunt, bene ego hinc praedatus ibo.</l>
+            <l>Profecto est huius marsupium. perge alia tu expedire.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Alte in sylva infodi sub annosa quercu hunc thesaurum</l>
+            <l part="I">Quasi tuto loco.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="F">papae! divitias tu quidem habuisti luculentas.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Miserum istuc verbum et pessimum est, habuisse et nihil habere.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l>Quid dare velis, qui istuc tibi investiget, indicetque?</l>
+            <l part="I">Eloquere propere, celeriter.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="M">aureos viginti.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="F">tricas.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="I">Triginta.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="M">tramas putidas.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="M">quadraginta.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="F">cassam glandem.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="I">Quinquaginta.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="F">curculiunculos minutos fabulare.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="I">Dabo sexaginta.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="F">os calet tibi, linguam frigifactas.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="I">Septuaginta dabo aureos.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="M">somnias.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="M">Nihil addo igitur.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="M">abi, abi.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">audi.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="I">Si hercle abiero hinc, hic non ero.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="M">vin’ octoginta?</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="F">dormis.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="I">Eloquere quantum postules?</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="F">quo nihil invitus addas,</l>
+            <l>Centum aureos: non volo triobolum hic abesse.</l>
+            <l part="I">Proin tu vel aias vel neges.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">quid istuc est? necessum video:</l>
+            <l part="I">Dabuntur.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="F">accede dum huc: Sylvanus hoc volo arroget te.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="I">Quod tibi lubet, hoc mihi impera.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="M">tange hanc arborem.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">tango.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="I">Per Sylvanum iurandum est tibi.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="M">quid iurem tibi?</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="F">quod iubeo.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="I">Praei verbis, quid vis.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="F">deiura te mihi argentum daturum,</l>
+            <l part="I">Eodem ipso die, marsupii ubi sis potitus.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">fiat.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l>Sylvane Deus, te testor, mihi si marsupium, ego quod</l>
+            <l>In Sylva perdidi, cum auro atque argento salvum investigavero,</l>
+            <l>Idque in potestatem meam pervenerit, tum huic Tranioni dico:</l>
+            <l part="I">Inquito, et me tangito.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">tum ego huic Tranioni dico,</l>
+            <l>Sylvane, ut me audias, aureos centum continuo dabo.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l>Quod si fraudassis, dic ut te in quaestu tuo Sylvanus</l>
+            <l>Eradicet, caput atque aetatem tuam: tecum hoc habeto tamen,</l>
+            <l part="I">Ubi iuraveris.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">et illum ego adversum, si quid peccasso,</l>
+            <l part="I">Sylvane, veneror te ut sim miser.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="F">tu hic operire:</l>
+            <l>Iam ego faxo exibit rusticus, eum tu continuo marsupium reposce.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA TERTIA.</head>
+          <argument>
+            <p>SAVATA provocat in Ius PALAEMONEM et GRIPUM.</p>
+          </argument>
+          <stage>TRANIO, GRIPUS, SAVATA, PALAEMON.</stage>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l>Heus Gripe. hic simul cum hero suo habet tuum marsupium.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l>Habeo, et fateor esse apud me, et meum est.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Aequum videtur tibi ut tu alienum quod est</l>
+            <l part="I">Tuum dicas?</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">quodve ego in sylva reperi.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Tanto melius mihi obtigit, qui perdidi.</l>
+            <l>Tuum esse nihilo magis oportet marsupium.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l>Isto ego pauper sim, cum nimis sancte pius.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>O sceleste! in aetate hominum plurimae</l>
+            <l>Fiunt transennae, ubi decipiuntur dolis:</l>
+            <l>Atque aedepol in eas plerumque esca imponitur:</l>
+            <l>Quam si quis avidius poscit escam nequiter,</l>
+            <l>Decipitur in transenna nequitia sua.</l>
+            <l>Diutine uti non licet partum male:</l>
+            <l>Num scis meum esse? cum observabas in fano Fidei,</l>
+            <l>Versute, cum me in sylva vidisti fodere;</l>
+            <l part="I">Nega si audes.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">dic quidquid lubet: fueris,</l>
+            <l>Vel alius fossor auri, si quidem ego reperi,</l>
+            <l>Ego tibi daturus nihil sum, ne tu frustra sis.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="I">At reddes iubente hero.</l>
+          </sp>
+          <sp who="#palaemon">
+            <speaker>P.</speaker>
+            <l part="F">quod servus meus</l>
+            <l>Invenit, meum esse oportet; hoc iubeo.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Istuc est, quod vos nequam servis utimini,</l>
+            <l>Ut conscii sitis ipsi maleficii: quid moror?</l>
+            <l>iure agam, prodite coram causidico,</l>
+            <l>Qui mihi vel vobis sancte adiudicet marsupium.</l>
+          </sp>
+          <sp who="#palaemon">
+            <speaker>P.</speaker>
+            <l part="I">Aequum postulas.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="M">fiat. Dii boni!</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="F">quid est?</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Ultro ad nos recta properat Sulpicius.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA QUARTA.</head>
+          <argument>
+            <p>Dum advocatus eligitur SULPICIUS, hic marsupium esse suum affirmat, et ad senatum
+              appellat.</p>
+          </argument>
+          <stage>SAVATA, SULPICIUS, GRIPUS, TRANIO, PALAEMON.</stage>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Miror quid tu huc in agrum venis hodie.</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l part="I">De negotio, quod geritur inter vos.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">hoc est?</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l part="I">Marsupio.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="M">unde hoc scis?</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l part="M">scio.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">hic homo</l>
+            <l part="I">Non placet.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">omnes olfaciunt aurum, quod solus miser</l>
+            <l>Ego perdidi. dic bona fide, aurum scis surreptum mihi?</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l part="I">Quod nunc requiro.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">benefactum. si furem monstravero,</l>
+            <l part="I">Nempe ut me adiuves?</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l part="M">faciam.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">neque partem tibi ab eo,</l>
+            <l part="I">Cui est, ullam posces?</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l part="M">non.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="M">si fallis?</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l part="F">tum me faciat</l>
+            <l part="I">Quod vult magnus Iuppiter.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="M">bene est, respiro.</l>
+          </sp>
+          <sp who="#palaemon">
+            <speaker>P.</speaker>
+            <l part="F">quid ais</l>
+            <l>Te de nostra litigatione scire, quae orta est modo?</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l part="I">Quia autor sum fabulae:</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="M">apage fabulas.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">sed quid ais</l>
+            <l part="I">Te requirere?</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l part="M">quod meum est.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">ergo nihil tibi hic geritur:</l>
+            <l>Nam si captus es iudex, de alieno diiudica.</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l>Quod ad me attinet, nunquam ab meo abiudicabo hodie.</l>
+          </sp>
+          <sp who="#palaemon">
+            <speaker>P.</speaker>
+            <l part="I">An aurum ad te attinet?</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l part="M">ita dico.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">ah ah marsupium,</l>
+            <l>Quot dominos habes! at tu scis me solum esse, et fore.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Habeo gratiam, Sulpici, hoc pro amicitia facis</l>
+            <l>Et vicinia nostra, ut meum tueare pro tuo,</l>
+            <l>Et me defendas contra hos, salvae estis pecuniae.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l>Num ante dixti, te partem ab eo, cui est</l>
+            <l part="I">Aurum, non poscere?</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l part="F">quia reposco totum, et meum est.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="I">Vides te falli, Savata?</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">quaeso, Sulpici, ne verba des.</l>
+            <l part="I">Tuum est aurum hoc?</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l part="F">quod offendisti hodie domi tuae.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Superi! quid memoras? quod ego offendi solus, ac sine</l>
+            <l part="I">Teste, id rescis?</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l part="F">eram in speculis, et plures alii.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Divinas, tibi ficte id famulus retulit:</l>
+            <l>Huc non venis actor, aut coniector, Sulpici.</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l>Equidem dicam quidquid inest marsupio, si vultis ostendere.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="I">Ain’ ostendere!</l>
+          </sp>
+          <sp who="#palaemon">
+            <speaker>P.</speaker>
+            <l part="M">quid damni?</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">imo hercle inique, here, insigniter.</l>
+          </sp>
+          <sp who="#palaemon">
+            <speaker>P.</speaker>
+            <l part="I">Quidum?</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">quia si ostendero, continuo hoc novisse se</l>
+            <l part="I">Dicet scilicet.</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l part="F">ubi ego dicam quidquid inerit</l>
+            <l>Nominatim, tu mihi nullum ostenderis: frustra dixero,</l>
+            <l part="I">Si falsa dicam.</l>
+          </sp>
+          <sp who="#palaemon">
+            <speaker>P.</speaker>
+            <l part="F">Gripe, accede huc, tua res agitur.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="I">Mea autem multo magis.</l>
+          </sp>
+          <sp who="#palaemon">
+            <speaker>P.</speaker>
+            <l part="F">tu istinc procul</l>
+            <l>Dicito, quale sit marsupium, et qua facie omnia.</l>
+            <l>Si hercle tantillum peccassis, quod postea postules,</l>
+            <l>Te ad verum converti, nugas vir magnas egeris.</l>
+            <l>Loquere nunc iam. tu et Gripus, animum advertite.</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l>Marsupium constat tribus sacculis maioribus,</l>
+            <l part="I">Et minoribus totidem.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="M">ingressus est viam.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">perii in primo praelio.</l>
+          </sp>
+          <sp who="#palaemon">
+            <speaker>P.</speaker>
+            <l part="I">Quid est in singulis, responde ordine.</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l part="F">in maioribus</l>
+            <l>Sunt nummi ducenti, in minore altero centum aurei.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="I">Rem dicis.</l>
+          </sp>
+          <sp who="#palaemon">
+            <speaker>P.</speaker>
+            <l part="M">sic est, numeravi.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">here, hic est magus</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l part="I">Convinco meum esse marsupium?</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">tu negas esse meum?</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Tuum, improbe, quod hodie in sylva incautus credidi!</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l>Non hic video decidetur lis: quin in urbem propere </l>
+            <l>Ad senatum deferimus causam, antequam desit dies?</l>
+          </sp>
+          <sp who="#palaemon">
+            <speaker>P.</speaker>
+            <l part="I">Probo.</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l part="F">quanquam istuc esse ius meum certe scio,</l>
+            <l>Fiat istuc potius, quam nunc pugnemus hoc loco.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l>Macte, Gripe, salva res est, praeda perpetua est mea.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Numquam aedepol, Savatam, hodie ad vesperum</l>
+            <l>Inspicietis vivum, nisi mihi reddatur marsupium.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="4">
+        <head>ACTUS QUARTUS.</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>GRIPUS clam cum marsupio fugam cogitat.</p>
+          </argument>
+          <stage>GRIPUS.</stage>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l>Virtus an dolus quid interest, ubi hostis est?</l>
+            <l>Certe periisti, pecunia, nisi tibi prospiciam.</l>
+            <l>Nam si in senatum prodiero, si contra herum dixero,</l>
+            <l>Si ad versatus Sulpicio et Savatae fuero,</l>
+            <l>Partem autem Tranioni ex fide si dedero,</l>
+            <l>Erit mihi sudandum, ut unus contra tot Hercules</l>
+            <l>Propugnem marsupium: compendiosiore agam via,</l>
+            <l>Si clam delusis omnibus adorno fugam.</l>
+            <l>Nemo est igitur; citis quadrigis fugio. at, at!</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>CORIOLUS fugientem sistit GRIPUM.</p>
+          </argument>
+          <stage>CORIOLUS, GRIPUS.</stage>
+          <sp who="#coriolus">
+            <speaker>CO.</speaker>
+            <l>Ego te capio, vulpes, qui fugere vis cum marsupio.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l>Quid hic tibi debetur? aut quid negotii est?</l>
+          </sp>
+          <sp who="#coriolus">
+            <speaker>CO.</speaker>
+            <l>Sceleste hercle agis, qui dolo alienum rapis.</l>
+            <l part="I">Quid nunc taces? tecum loquor.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">imo tute aedepol.</l>
+            <l part="I">Tecum nam ego nihil respondeo.</l>
+          </sp>
+          <sp who="#coriolus">
+            <speaker>CO.</speaker>
+            <l part="F">te alloquor,</l>
+            <l>Vitii probrique plene, qui auro homines spolias.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="I">Quicum tu fabularis?</l>
+          </sp>
+          <sp who="#coriolus">
+            <speaker>CO.</speaker>
+            <l part="F">quicum nisi tecum, improbe?</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l>Quis tu homo es? aut mecum quid est negotii:</l>
+          </sp>
+          <sp who="#coriolus">
+            <speaker>CO.</speaker>
+            <l part="I">Men’ rogas, hem, qui siem?</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">qui? num hunc ego rogem,</l>
+            <l part="I">Quem ego nesciam?</l>
+          </sp>
+          <sp who="#coriolus">
+            <speaker>CO.</speaker>
+            <l part="F">num tu etiam ignoras herum meum?</l>
+            <l part="I">Et eius aurum, fugitive?</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">mihi odiosus, quisquis es.</l>
+            <l>Vis tu hodie quintus esse dominus nostrae pecuniae?</l>
+          </sp>
+          <sp who="#coriolus">
+            <speaker>CO.</speaker>
+            <l>Pecuniam non peto, sed redhibeatur haec hero meo.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="I">Quis tibi dixit me habere?</l>
+          </sp>
+          <sp who="#coriolus">
+            <speaker>CO.</speaker>
+            <l part="F">plures, atque his vidi oculis.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l>Carebis credo, qui plus ecastor vident, quam quod vident.</l>
+            <l part="I">Abeo.</l>
+          </sp>
+          <sp who="#coriolus">
+            <speaker>CO.</speaker>
+            <l part="F">abire non te sinam</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="I">Mitte.</l>
+          </sp>
+          <sp who="#coriolus">
+            <speaker>CO.</speaker>
+            <l part="M">non mitto.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">at iam increpabunt manus</l>
+            <l part="I">Malae tibi, nisi me omittis.</l>
+          </sp>
+          <sp who="#coriolus">
+            <speaker>CO.</speaker>
+            <l part="F">imo te vi in agros</l>
+            <l part="I">Volutatum rapiam. here, here.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA TERTIA.</head>
+          <argument>
+            <p>SAVATA a GRIPO extorquet marsupium.</p>
+          </argument>
+          <stage>GRIPUS, CORIOLUS, SAVATA, TRANIO.</stage>
+          <sp who="#coriolus">
+            <speaker>CO.</speaker>
+            <l part="F">hic aufert marsupium.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Fur, trifur, latro redde, redde marsupium.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="I">Quid vis?</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">adiuva me, Coriole, utibili opera.</l>
+          </sp>
+          <sp who="#coriolus">
+            <speaker>CO.</speaker>
+            <l>Animose, here, hic meticulosus est ubi fortiores videt.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="I">Quid? sic fugies?</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="M">ut lubet.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">at non lubet</l>
+            <l>Ut asportes aurum: fac tu reddas iam mihi.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l>Nec tibi nec mihi, priusquam ius deciderit.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Ubi meum reperio, ibi ius decido meum.</l>
+          </sp>
+          <sp who="#coriolus">
+            <speaker>CO.</speaker>
+            <l>Frustra, here; irruamus, vapulet latro hic.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="I">Scelerate.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">an me isto vocitabis nomine?</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Vocitabo, atque iam te ego cum meo servo in mediam viam</l>
+            <l>Pervolvam per crines contusum pugnis meis.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="I">Dii te eradicent.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">meum aurum habebo per Iovem.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="I">At tibi per Iovem iuro, non habebis.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">ergo vapula,</l>
+            <l part="I">Sacrilege.</l>
+          </sp>
+          <sp who="#coriolus">
+            <speaker>CO.</speaker>
+            <l part="F">Macta, here, Macta: Macta, Macta here.</l>
+            <l>Ego pugnis et calcibus, tu saxo pertunde victimam.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="I">Superi, inferique!</l>
+          </sp>
+          <sp who="#coriolus">
+            <speaker>CO.</speaker>
+            <l part="M">habes aurum?</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">habeo.</l>
+          </sp>
+          <sp who="#coriolus">
+            <speaker>CO.</speaker>
+            <l part="I">Hinc actutum abi.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="M">abi.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">ulciscar iniuriam.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Bene est, Marsupium recepi, atque ex mea sententia.</l>
+          </sp>
+          <sp who="#coriolus">
+            <speaker>CO.</speaker>
+            <l>Aedepol, here, ne tibi suppetias tempore adveni modo.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Tibi Dii semper, mi Coriole, faciant bene.</l>
+            <l>Nam si absque te fuissem hodie, nunquam ad solem occasum viverem.</l>
+            <l>O meae pecuniae! o magne Iuppiter! o Dii thesaurarii!</l>
+            <l>Quantum estis nunc me miserati hominem miserum.</l>
+            <l>O, o, marsupium te reviso: uti pulsa nebula,</l>
+            <l>Meum solem complector, et te dulci capio osculo</l>
+            <l>O spes! ubi te procul ab istis furibus collocem?</l>
+            <l>Redeunt curae et domi et foris: conscio</l>
+            <l>Solum Coriolo, suspensum te e collo geram.</l>
+            <l part="I">Nunc vivo.</l>
+          </sp>
+          <sp who="#coriolus">
+            <speaker>CO.</speaker>
+            <l part="F">here, tace, ad te accurrit quispiam.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA QUARTA.</head>
+          <argument>
+            <p>TRANIO ubi audiit SAVATAM recepisse Marsupium, exigit promissum.</p>
+          </argument>
+          <stage>TRANIO, SAVATA, CORIOLUS.</stage>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l>Heus tu: nam Gripus ait te habere marsupium.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="I">Habeo.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="M">propera.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="M">quid properabo?</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="F">mihi dare</l>
+            <l part="I">Centum aureos.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">neque aedepol tibi do, neque debeo</l>
+            <l part="I">Quidquam.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="M">quae haec factio est? non debes?</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">non ego</l>
+            <l part="I">Hercle vero.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="F">num tu hodie iuratus mihi es?</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Iuratus sum, et nunc iurabo, si quid voluptati est mihi.</l>
+            <l>Iusiurandum rei servandae, non perdendae conditum est.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l>Cedo sis mihi istos centum aureos, periurissime.</l>
+          </sp>
+          <sp who="#coriolus">
+            <speaker>CO.</speaker>
+            <l part="I">Quid tu meum herum aurum poscis?</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="F">iuratus est dare.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>libet iurare, tune Pontifex periurio es?</l>
+          </sp>
+          <sp who="#coriolus">
+            <speaker>CO.</speaker>
+            <l part="I">Qua pro re aurum promisit hic tibi?</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="F">si marsupium</l>
+            <l>Redegissem in potestatem eius, iuratus dare</l>
+            <l part="I">Mihi aureos centum.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">fateor: at dum me cogebas hodie</l>
+            <l>iurare, furem ut indicares marsupii,</l>
+            <l>Mente egomet mecum, si aurum recepero,</l>
+            <l>Non ego illi hodie debeo triobolum.</l>
+            <l>Meus arbitratus est, lingua quid iuret mea.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l>Haeccine est religio? Dii perdant fidem tuam</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Imo servent marsupium, vitam ac mea viscera.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l>At ego Deos quaeso, ut quidquid in illo marsupio est,</l>
+            <l>Si aurum, si argentum est, omne id ut fiat cinis.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Abi viam, ne sis molestus, linguae tempera.</l>
+            <l>Nam, mi Coriole, natio est haec ita hominum:</l>
+            <l>Insidiatores atque fures maximi,</l>
+            <l>Tum in urbe hac et agris habitant pessimi</l>
+            <l>Cum senis manibus, genere Geryonaceo.</l>
+          </sp>
+          <sp who="#coriolus">
+            <speaker>CO.</speaker>
+            <l part="I">Here, here, rursus Gripus.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">quo, qua fugiam?</l>
+            <l>Vae marsupio: a fronte praecipitium, a tergo lupus.</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA QUINTA.</head>
+          <argument>
+            <p>GRIPUS simul et PALAEMON marsupium recipiunt.</p>
+          </argument>
+          <stage>GRIPUS, SAVATA, PALAEMON.</stage>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l>Age, Palaemon, hunc fustibus oneremus probe.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="I">Quamobrem?</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">rogas, sceleste? habes marsupium.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="I">Recepi quod meum est.</l>
+          </sp>
+          <sp who="#palaemon">
+            <speaker>P.</speaker>
+            <l part="F">at iam recipe quod sit tuum.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="I">Non aedepol volo profecto.</l>
+          </sp>
+          <sp who="#palaemon">
+            <speaker>P.</speaker>
+            <l part="F">at pol profecto ingratiis.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Cives et accolae, populares, omnes advenae,</l>
+            <l>Date viam, qua fugere liceat: miser vapulo,</l>
+            <l>Atque oppido perii. Coriole, ubi es? quo fugis?</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="I">Nunc aurum regere.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">non possum, nisi vitam simul</l>
+            <l part="I">Extorques.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">morere: nam tibi in collo laqueus,</l>
+            <l>Quo iam te cum servo tuo suspendam ex arbore.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Optime, brevi omnis abscedet haec a me aegrimonia.</l>
+          </sp>
+          <sp who="#palaemon">
+            <speaker>P.</speaker>
+            <l>Sperasti, scelus, sine iure alienum rapere?</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Id inique faciebat servus tuus, cum me clam fugeret.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l>Fugit te ratio prae studio habendi marsupii:</l>
+            <l part="I">Non iam effugies nostras manus.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">sic est, duo</l>
+            <l part="I">Praevaletis contra unum fustibus,</l>
+          </sp>
+          <sp who="#palaemon">
+            <speaker>P.</speaker>
+            <l part="F">quid tu igitur</l>
+            <l part="I">Cunctaris aurum reddere?</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">quia mortuissimus occidi,</l>
+            <l part="I">Si me defraudas meo marsupio,</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">here, in mora</l>
+            <l>Periculum: conficiamus hunc hominem verberibus,</l>
+            <l part="I">Quippe toedet vivere.</l>
+          </sp>
+          <sp who="#palaemon">
+            <speaker>P.</speaker>
+            <l part="M">age.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">trifures impii,</l>
+            <l>iugulum petitis? adeste cives et incolae.</l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA SEXTA.</head>
+          <argument>
+            <p>In senatum citantur competitores Marsupii.</p>
+          </argument>
+          <stage>CORIOLUS, PRAECO, SAVATA, PALAEMON, GRIPUS.</stage>
+          <sp who="#coriolus">
+            <speaker>CO.</speaker>
+            <l>Subvenite cito, iugulant meum herum.</l>
+          </sp>
+          <sp who="#praeco">
+            <speaker>PR.</speaker>
+            <l part="I">Quid haec vociferatio?</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">pro Dii immortales obsecro!</l>
+            <l>Me fustibus et pugnis confecerunt pessime.</l>
+          </sp>
+          <sp who="#coriolus">
+            <speaker>CO.</speaker>
+            <l>O facinus indignum! sic accipitis hominem liberum?</l>
+            <l part="I">Vos scelesti, vos rapaces, vos praedones.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">here,</l>
+            <l>Quaerit a nobis iam nunc simile infortunium.</l>
+          </sp>
+          <sp who="#coriolus">
+            <speaker>CO.</speaker>
+            <l>Tu, Praeco, sinis in nos insigniter fieri tantam iniuriam?</l>
+          </sp>
+          <sp who="#praeco">
+            <speaker>PR.</speaker>
+            <l>Haec ut sunt facta dicam senatui: modo meum</l>
+            <l>Munus expleo. nam id mandat senatus, ut hodie</l>
+            <l>Coram se consistant competitores marsupii:</l>
+            <l>Ex aequo illi decernetur pecunia, ad quem attinet.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Bonum nuntium: commendo meam causam aequo iudici.</l>
+          </sp>
+          <sp who="#palaemon">
+            <speaker>P.</speaker>
+            <l part="I">Quid apportas tu?</l>
+          </sp>
+          <sp who="#praeco">
+            <speaker>PR.</speaker>
+            <l part="F">cum marsupio ad senatum hodie.</l>
+          </sp>
+          <sp who="#palaemon">
+            <speaker>P.</speaker>
+            <l part="I">Qua potestate id iubes?</l>
+          </sp>
+          <sp who="#praeco">
+            <speaker>PR.</speaker>
+            <l part="M">vides insignia?</l>
+          </sp>
+          <sp who="#palaemon">
+            <speaker>P.</speaker>
+            <l part="F">video.</l>
+          </sp>
+          <sp who="#praeco">
+            <speaker>PR.</speaker>
+            <l>Vae tibi, ac toti familiae, nisi veneris.</l>
+          </sp>
+          <sp who="#palaemon">
+            <speaker>P.</speaker>
+            <l>Enimvero non tergiversandum: at tibi male sit, Gripe,</l>
+            <l>Et tuae pecuniae, quae mihi tot molestias creat</l>
+            <l part="I">Hodie.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="M">here, vis te his expediam?</l>
+          </sp>
+          <sp who="#palaemon">
+            <speaker>P.</speaker>
+            <l part="F">quomodo?</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l>Sine me cum marsupio abire, nunquam amplius</l>
+            <l part="I">Posthac me videris.</l>
+          </sp>
+          <sp who="#palaemon">
+            <speaker>P.</speaker>
+            <l part="F">tibi sapis, non mihi,</l>
+            <l>Qui familiam gero: si clam te servum dimisero,</l>
+            <l>Cum exigetur causa, pro te solvendum est mihi.</l>
+            <l>Satius est periclitari, ac in senatu colloqui.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l>Male metuo, here, ne mihi et tibi praeda excidat.</l>
+            <l>Hoc si fit, designo arborem, ex qua pendeam.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="5">
+        <head>ACTUS QUINTUS.</head>
+        <div type="scene" n="1">
+          <head>SCENA PRIMA.</head>
+          <argument>
+            <p>SAVATA dicit causam suam in senatu.</p>
+          </argument>
+          <stage>IUSTINUS, SAVATA</stage>
+          <sp who="#iustinus">
+            <speaker>I.</speaker>
+            <l>Age si quid habes, Savata, pro marsupio loquere:</l>
+            <l>Ego, quod nostrae spectant leges, hoc volo,</l>
+            <l>Ut bona civium adversus fures sarta tecta sint.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Etsi vereor, iustine, ne huic causae noceat</l>
+            <l>Timorem ostendere, minimeque deceat</l>
+            <l>Ipsum marsupii dominum perturbari: tamen</l>
+            <l>In hoc iudicio me tam multa commovent,</l>
+            <l>Ut esse sine timore, iustine, non queam.</l>
+            <l>Primum dico pro re, fortunisque meis,</l>
+            <l>Quibus excidere mihi esset grave;</l>
+            <l>Quasi homini adhuc viventi funus fieret:</l>
+            <l>Non eo dico, iustine, quod mihi veniat in dubium</l>
+            <l>Aequitas tua: sed ita res se habet:</l>
+            <l>Magnitudo periculi me timore afficit,</l>
+            <l>Quod uno iudicio de fortunis omnibus,</l>
+            <l>Hoc est, de marsupio istoc meo, decernitur:</l>
+            <l>Idque dum cogito, non minus in mentem venit</l>
+            <l>Potestatis, quam aequitatis tuae, in qua spem colloco.</l>
+            <l>Deinde homo sum natus subulae et corio,</l>
+            <l>Qui calceos (pace dicam tua) interpolo;</l>
+            <l>Qua arte victum et vitam assidue quaerito.</l>
+            <l>Quare, quo minus commendationis in me est,</l>
+            <l>Tanto plus misericordiae in te erit.</l>
+            <l>Tum adversarii mei multo sunt improbissimi:</l>
+            <l>Nam hi insidiari, et fingere, et alienum rapere</l>
+            <l>didicerunt: quorum si fovetur cupiditas,</l>
+            <l>Actum est, satius est inter praedones vivere.</l>
+            <l>Id quo facilius, iustine, ex me intelligas,</l>
+            <l>Narrabo rem a principio, ut gesta est.</l>
+            <l>Fruebar optatissimo marsupio, tanquam solatio</l>
+            <l>Vitae relicto; quando senex decrepitus</l>
+            <l>Ut iners viverem. reponebam in collo, et sinu,</l>
+            <l>Super cervical, ut una mecum dormiret marsupium.</l>
+            <l>Tum scilicet domi fures sensi: illico </l>
+            <l>Territus, quaesivi foris locum in templo Fidei,</l>
+            <l>Ubi tutius foderem: sed, heu! Corycaeus adfuit.</l>
+            <l>Fugio in sylvam, et credo Sylvano: idem assequitur</l>
+            <l>Pirata, et clam me effossum aurum abstulit.</l>
+            <l>Quid tunc mihi fuisse animi cogitas,</l>
+            <l>iustine? primum stupui, tum flevi denique:</l>
+            <l>Et requirenti marsupium, o bone vir,</l>
+            <l>Occurrens aliquis, scio quis sit fur, ibi</l>
+            <l>Habitat. confestim advolo ad aedes: mihi</l>
+            <l>Negat se redditurum: provoco in ius: novos</l>
+            <l>Sum nactus miser competitores marsupii.</l>
+            <l>Quid agerem? vi sum conatus aurum recipere,</l>
+            <l>Verbera accepi, etiamnum tuber est caput.</l>
+            <l>En causa, iustine, quam non pluribus eloquor.</l>
+          </sp>
+          <sp who="#iustinus">
+            <speaker>I.</speaker>
+            <l>Intelligo: succedat alter ex ordine.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA SECUNDA.</head>
+          <argument>
+            <p>GRIPUS et PALAEMON de marsupio contendunt.</p>
+          </argument>
+          <stage>GRIPUS, SAVATA, IUSTINUS, PALAEMON.</stage>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l>Salvus sis, iudex, et iterum et iterum iubeo</l>
+            <l>Te salvere: nam quod ego in sylva reperi</l>
+            <l>iure puto esse meum. nec aufferre id</l>
+            <l>A me potest quisquam. dixi, iudex, omnia.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Non sciebas ad me pertinere, trifuri?</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l>Nesciebam, nec scio, nec scire etiam volo.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="I">Videras me in fano Fidei.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">nego.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="I">Tum rursus insidiator in sylva.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">nego.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="I">Post cum fugisti cum marsupio.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">nego.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="I">Dein fustibus me onerasti cum hero.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">id non nego.</l>
+          </sp>
+          <sp who="#iustinus">
+            <speaker>I.</speaker>
+            <l>Audi, Savata, habes qui testari queat</l>
+            <l>Aurum te fodisse in sylva, et observasse hunc?</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="I">Habeo, prodibit iam Tranio.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">et hoc nego.</l>
+            <l>Nam quod ego solus reperi, id si magus</l>
+            <l>Olfecerit, et accommode mendacio finxerit,</l>
+            <l>Is marsupium habebit? tecum argumentis puto.</l>
+          </sp>
+          <sp who="#iustinus">
+            <speaker>I.</speaker>
+            <l>Tranionem mox audiam: nunc cum hero</l>
+            <l part="I">Transigamus.</l>
+          </sp>
+          <sp who="#palaemon">
+            <speaker>P.</speaker>
+            <l part="F">ego ius dominorum scio:</l>
+            <l>Nempe si quid servus reperit, domino reperit.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l>Quid? si soli servo divitias dare vult</l>
+            <l part="I">Iuppiter; id non possit?</l>
+          </sp>
+          <sp who="#palaemon">
+            <speaker>P.</speaker>
+            <l part="F">sine me loqui</l>
+            <l part="I">Herum tuum.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">et sine me mea pro parte loqui.</l>
+          </sp>
+          <sp who="#palaemon">
+            <speaker>P.</speaker>
+            <l>iustine, appello leges patrias: mihi</l>
+            <l part="I">Nihil vendico, nisi quod est debitum.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">tibi</l>
+            <l>Etiam vendicas sylvam, in qua latuit pecunia?</l>
+          </sp>
+          <sp who="#palaemon">
+            <speaker>P.</speaker>
+            <l>Tace, ne pluribus tecum servo litigem.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l>Iustine, si tam misera est sors mea, quin cito </l>
+            <l>Praetor me manumittit? eo pecunias conferam,</l>
+            <l>Mox raso capite calvus capiam pileum.</l>
+            <l>Dum interim disceptatis inter vos, ego tacite </l>
+            <l>ius expendo. intret, qui proxime vult dicere.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA TERTIA.</head>
+          <argument>
+            <p>TRANIO probat ius suum.</p>
+          </argument>
+          <stage>TRANIO, GRIPUS, IUSTINUS, SAVATA.</stage>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l>Venabar, iudex, meo more in sylva proxima,</l>
+            <l>Cum procul hominem conspicio advenientem, anxium,</l>
+            <l>Sollicite circumspectantem huc atque illuc: pone </l>
+            <l>Sequebatur inter virgulta servus sagax</l>
+            <l>Investigator, qui ascendit arborem, unde speculans</l>
+            <l>Quid rei fieret, mox in praedam involat,</l>
+            <l>Quam sub arbore profunde viderat infodi:</l>
+            <l>Accucurri, partem poposci: ubi fur recusat dare,</l>
+            <l>Nomen detuli ad ipsum, quem noram marsupii</l>
+            <l>Dominum. porro hic, si indicarem furem,</l>
+            <l>Et ipse reciperet pecunias, iuravit se mihi</l>
+            <l>Daturum centum nummos: hoc vel illud repeto.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l>Duos hic sequitur lepores, neutrum capiet.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>iudex, est testis hic aurum infodisse me.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l>Immo testis improbus, qui furti particeps</l>
+            <l>Voluit esse. nam si ex praeda divisissem aliquid,</l>
+            <l>Nihil avidius fiebat, quam ut furti se adstringeret.</l>
+            <l>Huic testi fides neganda est, iudex optime.</l>
+            <l>iurasti te daturum indicanti aliquid?</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>iuravi verbis, mentem iniuratam gero.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l>Salve, Theologe: novus iurandi modus.</l>
+          </sp>
+          <sp who="#iustinus">
+            <speaker>I.</speaker>
+            <l>iam vestram omnium controversiam capio:</l>
+            <l>Facile est cuique stabilire ius suum.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l>Euge, Gripe, tua est pecunia, nec id quidem</l>
+            <l>Est dubium: omnes praeter te causa cadunt</l>
+          </sp>
+          <sp who="#iustinus">
+            <speaker>I.</speaker>
+            <l part="I">Unum superest quaerendum.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">nisi necesse est,</l>
+            <l>iudex, plura ne interroga: quis tibi scrupulus?</l>
+          </sp>
+          <sp who="#iustinus">
+            <speaker>I.</speaker>
+            <l>Impudentem hercle iam saepius servum, qui me coram</l>
+            <l part="I">Interpellat omnes.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="M">tacebo.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">tandem habes.</l>
+          </sp>
+          <sp who="#iustinus">
+            <speaker>I.</speaker>
+            <l part="I">Restat aliquis repetitor marsupii?</l>
+          </sp>
+          <sp who="#palaemon">
+            <speaker>P.</speaker>
+            <l part="F">Sulpicius.</l>
+          </sp>
+          <sp who="#iustinus">
+            <speaker>I.</speaker>
+            <l>Et hic audiendus est: postea ius dirimo.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA QUARTA.</head>
+          <argument>
+            <p>SULPICIUS suum marsupium refert.</p>
+          </argument>
+          <stage>IUSTINUS, SULPICIUS, SAVATA, GRIPUS, CLITO, PALAEMON, TRANIO.</stage>
+          <sp who="#iustinus">
+            <speaker>I.</speaker>
+            <l>Mirum quid hic tua etiam res agitur, Sulpici?</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l part="I">Lepide coepta est Comoedia.</l>
+          </sp>
+          <sp who="#iustinus">
+            <speaker>I.</speaker>
+            <l part="F">quae occasio?</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l>Importuna, quae auribus accidebat, musica:</l>
+            <l>Haec ut sileret, ioco inventus est modus:</l>
+            <l>Nam hospes meus Clito mecum certavit pignore,</l>
+            <l>Brevi os cantanti occlusum iri, si marsupium</l>
+            <l>Ante aedes offerretur, quod iure reposcerem.</l>
+            <l>Placuit iocus, ita etiamsi periclitaretur pecunia:</l>
+            <l>Quae ut primum venit in tuas manus, Savata,</l>
+            <l>Quantae tibi curae, et quam anxius timor</l>
+            <l>Ubi aurum lateret, ut iam sine tuo</l>
+            <l>Cantu, et solido gaudio miser viveres.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l>Sic est, iustine, aurum offendi ante aedes hodie:</l>
+            <l>Verum an ipse proiecerit, planum debet facere.</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l>Iam ante argumentis ostendi esse meum</l>
+            <l part="I">Cum illud descripsi.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">iudex, placet loquar?</l>
+          </sp>
+          <sp who="#iustinus">
+            <speaker>I.</speaker>
+            <l part="I">Non placet.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">habeo quod dicam probe.</l>
+          </sp>
+          <sp who="#iustinus">
+            <speaker>I.</speaker>
+            <l part="I">Servum oportet silere.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">quid, in hac re sua</l>
+            <l>Tu quamquam statim fidem facis, o Sulpici,</l>
+            <l>(Nam te novimus) tamen velim. testes huius rei.</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l>Praesto sunt omnes domestici, et hic Clito.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l>Certe hic homo obruet nos numero testium.</l>
+            <l>Incipio male habere, defluit sudor in humeros.</l>
+          </sp>
+          <sp who="#clito">
+            <speaker>CL.</speaker>
+            <l>Sic affirmo, iustine, nos ridere in re hac</l>
+            <l part="I">Voluisse.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l part="F">at nos ridere facis risu sardonio.</l>
+          </sp>
+          <sp who="#clito">
+            <speaker>CL.</speaker>
+            <l>Operae pretium fuit, experiri quid polleat</l>
+            <l>Aurum, et quot curas praestet hominibus.</l>
+          </sp>
+          <sp who="#iustinus">
+            <speaker>I.</speaker>
+            <l>Ergo ex his liquet, ad quem pertinet marsupium.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l>Heu me, quot corvi hiantes delusi! here,</l>
+            <l part="I">Contra nihil reponis?</l>
+          </sp>
+          <sp who="#palaemon">
+            <speaker>P.</speaker>
+            <l part="M">mutus sum.</l>
+          </sp>
+          <sp who="#tranio">
+            <speaker>T.</speaker>
+            <l part="F">et ego</l>
+            <l part="I">Sum mutus.</l>
+          </sp>
+          <sp who="#savata">
+            <speaker>SA.</speaker>
+            <l part="F">redeo domum ad cantus et calceos.</l>
+            <l>Miseris modis sunt divitiae mortalibus</l>
+            <l>Permolestae et infelices: iam usu didici.</l>
+          </sp>
+          <sp who="#gripus">
+            <speaker>G.</speaker>
+            <l>Ergo spes excidit? nihil habeo? perii,</l>
+            <l>Nisi me suspendo: sed quid tum? quid lucri?</l>
+            <l>Ah miser Gripe! quantus bolus e faucibus!</l>
+            <l>Nunquam hercle iterum defraudabor quidem post hunc diem.</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l part="I">Apud me coenabis, Iustine.</l>
+          </sp>
+          <sp who="#iustinus">
+            <speaker>I.</speaker>
+            <l part="F">ita fiat.</l>
+          </sp>
+          <sp who="#sulpicius">
+            <speaker>SU.</speaker>
+            <l>De marsupio colloqui licebit pluribus.</l>
+          </sp>
+          <closer>FINIS.</closer>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
