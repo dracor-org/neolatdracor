@@ -1,0 +1,54 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="neolat000154"
+     xml:lang="lat">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Drama comicum Pendularia</title>
+            <author>
+               <persName xml:lang="lat">
+                  <forename>Nicolaus</forename>
+                  <surname>Susius</surname>
+               </persName>
+               <idno type="wikidata">Q110215354</idno>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="dracor">DraCor</publisher>
+            <idno type="URL">https://dracor.org</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <name>TransLatin</name>
+               <idno type="URL">https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Susius-Pendularia.docx</idno>
+            </bibl>
+            <bibl type="originalSource">
+               <title>Nicolai Susii e Societate Iesu Opuscula litteraria: Lima Ciceroniana, siue De stylo liber singularis, De pulcritudine B. Mariae Virg. Disceptatio quodlibetica, Poemata: Elegiae Marianae, Lusus Anacreontei, Drama comicum. Antwerpen: Heirs of Martinus Nutius 1620.</title>
+               <idno type="URL">https://books.google.nl/books?id=Ad4TAAAAQAAJ</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="genreTitle">comedy</term>
+            </keywords>
+            <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <standOff>
+      <listEvent>
+         <event type="print" when="1620">
+            <desc/>
+         </event>
+      </listEvent>
+   </standOff>
+   <text>
+      <front/>
+      <body/>
+   </text>
+</TEI>

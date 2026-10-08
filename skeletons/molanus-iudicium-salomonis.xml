@@ -1,0 +1,54 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="neolat000111"
+     xml:lang="lat">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Iudicium Salomonis</title>
+            <author>
+               <persName xml:lang="lat">
+                  <forename>Johannes</forename>
+                  <surname>Molanus</surname>
+               </persName>
+               <idno type="wikidata">Q89381</idno>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="dracor">DraCor</publisher>
+            <idno type="URL">https://dracor.org</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <name>Census Nederlands Toneel (Ceneton)</name>
+               <idno type="URL">https://www.let.leidenuniv.nl/Dutch/Ceneton/Molanus69Salomon1550ca.html</idno>
+            </bibl>
+            <bibl type="originalSource">
+               <title>Johannes Molanus: Judicium Salomonis. Diest [1550].</title>
+               <idno type="URL">https://www.let.leidenuniv.nl/Dutch/Ceneton/Facsimiles/Molanus69Salomon1550ca/index.htm</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="genreTitle">INFORMATION NEEDED</term>
+            </keywords>
+            <classCode scheme="http://www.wikidata.org/entity/">INFORMATION NEEDED</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <standOff>
+      <listEvent>
+         <event type="print" when="1550">
+            <desc/>
+         </event>
+      </listEvent>
+   </standOff>
+   <text>
+      <front/>
+      <body/>
+   </text>
+</TEI>

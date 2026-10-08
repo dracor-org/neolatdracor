@@ -1,0 +1,53 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="neolat000060"
+     xml:lang="lat">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Grisellis</title>
+            <author>
+               <persName xml:lang="lat">
+                  <forename>Eligius</forename>
+                  <surname>Eucharius</surname>
+               </persName>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="dracor">DraCor</publisher>
+            <idno type="URL">https://dracor.org</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <name>TransLatin</name>
+               <idno type="URL">https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Houcharius-Grisellis.docx</idno>
+            </bibl>
+            <bibl type="originalSource">
+               <title>Elegius Eucharius: Grisellis. In: In hoc opere contenta Grisellis tribus actibus Scenicis per Eligium Eucharium Ludimagistrum Gandensem decorata, Montis arenosi incolarum lucubratiunculae Ad Magistrum Balduinum Hulleum Gaiopolitanum Almae Vniuersitatis Parrisiensis Rectorem dignissimum, missa Strena cum Epistola. [Antwerpen]: M[ichael] Hillenius [1519].</title>
+               <idno type="URL">https://books.google.be/books?vid=GENT900000083758</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="genreTitle">comedy</term>
+            </keywords>
+            <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <standOff>
+      <listEvent>
+         <event type="print" when="1519">
+            <desc/>
+         </event>
+      </listEvent>
+   </standOff>
+   <text>
+      <front/>
+      <body/>
+   </text>
+</TEI>

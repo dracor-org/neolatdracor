@@ -1,0 +1,53 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="neolat000127"
+     xml:lang="lat">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stuarta tragoedia</title>
+            <author>
+               <persName xml:lang="lat">
+                  <forename>Adrianus</forename>
+                  <surname>Roulerius</surname>
+               </persName>
+               <idno type="wikidata">Q134470779</idno>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="dracor">DraCor</publisher>
+            <idno type="URL">https://dracor.org</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <name>TransLatin</name>
+               <idno type="URL">https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Roulerius-Stuarta.docx</idno>
+            </bibl>
+            <bibl type="originalSource">
+               <title>Adrianus Roulerius: Stuarta tragoedia. Ed. by Roman Woerner. Berlin: Weidmann 1906 (Lateinische Litteraturdenkmäler des 15. und 16. Jahrhunderts 17).</title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="genreTitle">tragedy</term>
+            </keywords>
+            <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <standOff>
+      <listEvent>
+         <event type="print" when="1593">
+            <desc/>
+         </event>
+      </listEvent>
+   </standOff>
+   <text>
+      <front/>
+      <body/>
+   </text>
+</TEI>

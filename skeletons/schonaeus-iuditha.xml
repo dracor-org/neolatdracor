@@ -1,0 +1,54 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="neolat000138"
+     xml:lang="lat">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Iuditha</title>
+            <author>
+               <persName xml:lang="lat">
+                  <forename>Cornelius</forename>
+                  <surname>Schonaeus</surname>
+               </persName>
+               <idno type="wikidata">Q2707820</idno>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="dracor">DraCor</publisher>
+            <idno type="URL">https://dracor.org</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <name>TransLatin</name>
+               <idno type="URL">https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Schonaeus-Iuditha.docx</idno>
+            </bibl>
+            <bibl type="originalSource">
+               <title>Cornelius Schonaeus: Iuditha. In: Terentius Christianus. Comoediae sacrae sex. Terentiano stylo a Cornelio Schonaeo Goudano conscriptae &amp; nunc demum magna eiusdem diligentia &amp; labore emendatae, atque recognitae. [Prima pars]. Köln: Gerardus Greuenbruch 1614.</title>
+               <idno type="URL">https://books.google.nl/books?id=r-ZIAAAAcAAJ</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="genreTitle">comedy</term>
+            </keywords>
+            <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <standOff>
+      <listEvent>
+         <event type="print" when="1614">
+            <desc/>
+         </event>
+      </listEvent>
+   </standOff>
+   <text>
+      <front/>
+      <body/>
+   </text>
+</TEI>

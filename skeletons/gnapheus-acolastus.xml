@@ -1,0 +1,55 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="neolat000064"
+     xml:lang="lat">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Acolastus</title>
+            <title type="sub">De filio prodigo comoedia</title>
+            <author>
+               <persName xml:lang="lat">
+                  <forename>Gulielmus</forename>
+                  <surname>Gnapheus</surname>
+               </persName>
+               <idno type="wikidata">Q777548</idno>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="dracor">DraCor</publisher>
+            <idno type="URL">https://dracor.org</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <name>TransLatin</name>
+               <idno type="URL">https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Gnapheus-Acolastus.docx</idno>
+            </bibl>
+            <bibl type="originalSource">
+               <title>ed.  Minderaa</title>
+               <idno type="URL">https://www.dbnl.org/tekst/gnap001pmin01_01/gnap001pmin01_01_0005.php</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="genreTitle">comedy</term>
+            </keywords>
+            <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <standOff>
+      <listEvent>
+         <event type="print" when="1529">
+            <desc/>
+         </event>
+      </listEvent>
+   </standOff>
+   <text>
+      <front/>
+      <body/>
+   </text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="neolat000069"
+     xml:lang="lat">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Christus. Redivivus</title>
+            <title type="sub">Comoedia Tragica, Sacra et nova</title>
+            <author>
+               <persName xml:lang="lat">
+                  <forename>Nicolaus</forename>
+                  <surname>Grimoaldus</surname>
+               </persName>
+               <idno type="wikidata">Q1246878</idno>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:id="dracor">DraCor</publisher>
+            <idno type="URL">https://dracor.org</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <name>TransLatin</name>
+               <idno type="URL">https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Grimald-Christus.docx</idno>
+            </bibl>
+            <bibl type="originalSource">
+               <title>Christus. Rediuiuus Comoedia Tragica, Sacra &amp; noua. Autore Nicolao Grimoaldo. Augsburg: Philippus Ulhardus [1543].</title>
+               <idno type="URL">http://daten.digitale-sammlungen.de/0001/bsb00015084/images/index.html?id=00015084&amp;groesser=&amp;fip=qrsfsdrqrsxdsydeayaqrsyztsxdsydewqqrs&amp;no=118&amp;seite=1</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="genreTitle">tragicomedy</term>
+            </keywords>
+            <classCode scheme="http://www.wikidata.org/entity/">Q192881</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <standOff>
+      <listEvent>
+         <event type="print" when="1543">
+            <desc/>
+         </event>
+         <event type="print" when="1540">
+            <desc/>
+         </event>
+      </listEvent>
+   </standOff>
+   <text>
+      <front/>
+      <body/>
+   </text>
+</TEI>
