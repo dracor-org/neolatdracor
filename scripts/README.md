@@ -23,3 +23,11 @@ pnpm install
 ### `pnpm run overview`
 
 This command updates the overview table in the README.
+
+### `pnpm run check-filenames`
+
+This command checks that every file in the `tei/` and `docx/` directories is
+named after the `name` of an entry in [meta.yaml](../meta.yaml). It requires
+[yq](https://github.com/mikefarah/yq) to be installed. The same check runs as a
+GitHub workflow when `meta.yaml` or files in `tei/` or `docx/` change. Files
+listed in [check-filenames.ignore](check-filenames.ignore) are skipped.

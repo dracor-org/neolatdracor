@@ -6,6 +6,7 @@
   },
   "scripts": {
     "overview": "node scripts/update-overview.js",
+    "check-filenames": "./scripts/check-filenames.sh",
     "validate-yaml": "yq -o=json '.' meta.yaml  > meta.json && check-jsonschema --schemafile meta.schema.json meta.json"
   }
 }

@@ -1,0 +1,30 @@
+name: Check file names
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "meta.yaml"
+      - "tei/**"
+      - "docx/**"
+      - "scripts/check-filenames.*"
+  push:
+    branches: [main]
+    paths:
+      - "meta.yaml"
+      - "tei/**"
+      - "docx/**"
+      - "scripts/check-filenames.*"
+
+permissions:
+  contents: read
+
+jobs:
+  check-filenames:
+    runs-on: ubuntu-latest
+    name: Check file names against meta data
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      # yq is preinstalled on GitHub-hosted Ubuntu runners
+      - name: Check file names
+        run: ./scripts/check-filenames.sh
