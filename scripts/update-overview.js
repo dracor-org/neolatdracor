@@ -67,7 +67,9 @@ records.forEach(entry => {
 
   let source = '';
   if (entry.source?.url?.startsWith('http')) {
-    source = `[${entry.source.type || entry.source.title}](${entry.source.url})`;
+    // encode pipes, which would otherwise break the table columns
+    const url = entry.source.url.replaceAll('|', '%7C');
+    source = `[${entry.source.type || entry.source.title}](${url})`;
   }
 
   const row = `| ${authorCell} | ${entry.title} | ${entry.yearPrinted || ''} | ${entry.yearWritten || ''} | ${projectCell} | ${source} | ${statusCell} | ${teiLink} | ${entry.id} |`;
