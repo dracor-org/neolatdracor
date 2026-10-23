@@ -11,16 +11,16 @@ Edited by Julia Jennifer Beine (University of Würzburg), co-maintained by Carst
 
 ### Camerarius digital
 editor(s): Thomas Baier, Joachim Hamm, Ulrich Schlegelmilch (all University of Würzburg)  
-encoder(s): tba  
-text selection in alphabetical order: Aiax lora gestans (1556), Electra (1556)  
+encoder(s): see the relevant TEI files  
+text selection: see below  
 number of texts: 2  
 status: work in progress  
 website: [Camerarius digital](http://www.camerarius.de)
 
 ### From Stage to Page
 editor(s): Nicholas De Sutter  
-encoder(s): Nicholas De Sutter  
-text selection in alphabetical order: Codrillos (1679), Dos (1679), Dormientes (1679), Fernandes (1679), Franciscanus (1679), Gemma (1679), Gymnasium (1679), Lytrum (1679), Marsupium (1679), Prandium (1679), Sepultus (1679), Villicus (1679), ...   
+encoder(s): see the relevant TEI files  
+text selection: see below  
 number of texts: ca. 20  
 status: work in progress  
 website: work in progress  
@@ -28,7 +28,7 @@ website: work in progress
 ### Jesuit Drama Corpus
 editor(s): Alexander Winkler  
 encoder(s): tba  
-text selection in alphabetical order: tba  
+text selection: tba  
 number of texts: tba  
 status: dormant  
 website: [JesDraCor](https://github.com/alexander-winkler/jesdracor)
@@ -37,32 +37,32 @@ website: [JesDraCor](https://github.com/alexander-winkler/jesdracor)
 editor(s): Monika Deželak Trojar  
 transcriber(s): Monika Deželak Trojar, Ana Bembič, Kajetan Škraban  
 encoder(s): tba  
-text selection in alphabetical order: See the overview below.  
+text selection: see below  
 number of texts: 28  
 status: dormant  
 website: tba
 
 ### Macropedius Drama Corpus
 editor(s): Julia Jennifer Beine (University of Würzburg)  
-encoders: Timo Bremer, Christina Charalampidou, Carina Christensen, Leon Fabian Gleser, Miriam Göbel, Steffen Gutbier, Joshua Mährmann, Kassandra Marie Stangel, Nina Straub, Rabea Klara Sülz, Mareike Urbanek, Paula van Bonn (all Ruhr University Bochum); Daina-Sophia Münch (Freie Universität Berlin)  
-text selection in alphabetical order: Adamus (1552), Aluta (1553), Andrisca (1553), Asotus (1552), Bassarus (1553), Hecastus (1552), Hypomone seu patientia (1554), Iesus scholasticus (1556), Iosephus (1553), Lazarus mendicus (1552), Petriscus (1553), Rebelles (1553)  
+encoders: see the relevant TEI files  
+text selection: see below  
 number of texts: 12  
 status: work in progress  
 website: [Macropedius Drama Corpus (teaching project)](https://www.klassphil.uni-wuerzburg.de/forschung/forschung-der-latinistik/laufende-forschungsprojekte/macropedius-drama-corpus/)
 
 ### Theatrum Neolatinum
 editor(s): Kateřina Bobková-Valentová (Czech Academy of Science), Alena Bočková (Charles University), Martin Bažil (Charles University), Magdaléna Jacková (Czech Academy of Science), Markéta Klosová (Czech Academy of Science)  
-encoder(s): Boris Lehečka (freelancer), Jana Synovcová Borovičková (Czech Academy of Science)  
-text selection in alphabetical order: Aquila z Plavče, Jan: Toboeus (1569), Dingenauer, Georgius, SJ: Tobias Iunior (1616), Kolczawa, Carolus, SJ: Veritas prostrata et erecta (1716), Machek, Antonius, SJ: Angelus ad aras D. Joannes Nepomucenus (1729), Rochotius, Andreas: Gedeon (ca. 1606), Rochotius, Andreas: Iosephiados comoedia (ca. 1607)  
+encoder(s): see the relevant TEI files  
+text selection: see below  
 number of texts: 6  
 status: work in progress  
 website: [Theatrum Neolatinum](http://theatrum-neolatinum.cz/index.html)
 
 ### TransLatin
 editor(s): Jan Bloemendal (Huygens Institute, Royal Netherlands Academy of Arts and Sciences)  
-encoder(s): tba  
-team members: Jan Bloemendal, Dinah Wouters, Andrea Peverelli (all Huygens Institute, Royal Netherlands Academy of Arts and Sciences)  
-text selection in alphabetical order: See the overview below.   
+team members: Jan Bloemendal, Dinah Wouters, Andrea Peverelli (all Huygens Institute, Royal Netherlands Academy of Arts and Sciences)
+encoder(s): see the relevant TEI files    
+text selection: see below  
 number of texts: ca. 100  
 status: work in progress  
 website: [TransLatin](https://translatin.nl/)
