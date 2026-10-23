@@ -55,8 +55,8 @@ records.forEach(entry => {
   const docxFile = `docx/${entry.name}.docx`;
   if (existsSync(docxFile)) {
     const link = `[docx](${docxFile})`
-    if (statusCell.match(/\.docx/)) {
-      statusCell = statusCell.replace('.docx', link);
+    if (statusCell.match(/DOCX/)) {
+      statusCell = statusCell.replace('DOCX', link);
     } else {
       statusCell += `, ${link}`
     }
