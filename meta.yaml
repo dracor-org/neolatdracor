@@ -1589,13 +1589,13 @@
   _includeInOverview: true
   _includeDocx: false
 - id: neolat000034
-  name: aquila-z-plavce-toboeus
+  name: aquila-a-plavce-toboeus
   title: Toboeus
   subtitle: Comoedia sacra et nova
   qid: null
   authors:
-    - forename: Jan
-      surname: Aquila z Plavče
+    - forename: Joannes
+      surname: Aquila a Plavce
       qid: Q112488229
       gnd: null
   yearPrinted: "1587"
@@ -1612,31 +1612,29 @@
     with publisher - Licence CC0 1.0
   acknowledgements: Permission for this publication under CC0 1.0 granted by the Theatrum Neolatinum team in consultation
     with the publisher (https://creativecommons.org/publicdomain/zero/1.0/deed.de).
-  transcription:
-    by: Zuzana Adamaitis
-    supervisor: Markéta Klosová
   source:
     title: Theatrum Neolatinum
+    url: https://www.theatrum-neolatinum.cz/en/hry/Toboeus/toboeus.html
     source:
       title: "Magdaléna Jacková, Markéta Klosová, Martin Bažil, Alena Bočková, Kateřina
-        Bobková-Valentová, Eva Popelková (eds): Latinské biblické drama v
-        českých zemích. Prague 2026. In print (Theatrum Neolatinum. Latinské
-        divadlo v českých zemích  3)."
+        Bobková-Valentová, Eva Popelková (eds.): Latinské biblické drama v
+        českých zemích. Prague: Academia 2026 (Theatrum Neolatinum. Latinské
+        divadlo v českých zemích  3). pp. 97-231."
       editor: Markéta Klosová; Eva Popelková
       year: "2026"
-      copyright: INFORMATION NEEDED
+      copyright: Ústav pro českou literaturu Akademie věd České republiky, v. v. i.; Nakladatelství Academia
       url: https://www.theatrum-neolatinum.cz/en/biblicke.html
       type: critical edition
       source:
         title: Toboeus, comoedia sacra et nova. Scripta ad Decanum et Magistros
           Facultatis philosophicae in Academia Pragensi a M. Joanne Aquila a
-          Plavcze Anno Domini 1569.Excusa Pragae typis M. Danielis Adami a
+          Plavcze Anno Domini 1569. Excusa Pragae typis M. Danielis Adami a
           Veleslavino M. D. LXXXVII [1587]; Národní knihovna České republiky,
           Praha, sign. 52 G 6, adl. 14.
         date: "1587"
-        copyright: INFORMATION NEEDED
+        copyright: Národní knihovna České republiky
         type: print
-  complete: false
+  complete: true
   _includeInOverview: true
   _includeDocx: false
 - id: neolat000037
@@ -1662,9 +1660,6 @@
     with publisher - Licence CC0 1.0
   acknowledgements: Permission for this publication under CC0 1.0 granted by the Theatrum Neolatinum team in consultation
     with the publisher (https://creativecommons.org/publicdomain/zero/1.0/deed.de).
-  transcription:
-    by: null
-    supervisor: Magdaléna Jacková
   source:
     title: Theatrum Neolatinum
     url: https://www.theatrum-neolatinum.cz/pdf/pallas/Amicitia/Amicitia_textPDF
@@ -1675,7 +1670,7 @@
         Latinské divadlo v českých zemích 2). pp. 340-393."
       editor: Magdaléna Jacková
       year: "2016"
-      copyright: INFORMATION NEEDED
+      copyright: Ústav pro českou literaturu Akademie věd České republiky, v. v. i.; Nakladatelství Academia
       url: https://www.theatrum-neolatinum.cz/en/hry/Amicitia/amicitia.html
       type: critical edition
       source:
@@ -1709,16 +1704,17 @@
   region: Czech lands
   regionQid: Q185573
   project: Theatrum Neolatinum
-  status: text, tei
+  status: tei, published
   licenceNotes: Permission granted by Theatrum Neolatinum team in consultation
     with publisher - Licence CC0 1.0
   acknowledgements: Permission for this publication under CC0 1.0 granted by the Theatrum Neolatinum team in consultation
     with the publisher (https://creativecommons.org/publicdomain/zero/1.0/deed.de).
-  transcription:
-    by: Martin Bažil, Alena Bočková
-    supervisor: null
   source:
     title: Theatrum Neolatinum
+    url: https://www.theatrum-neolatinum.cz/en/hry/Tobias_Junior/tobias_junior.html
+    availability:
+      licence: CC BY-NC-SA 4.0
+      licenceUrl: https://creativecommons.org/licenses/by-nc-sa/4.0/
     source:
       title: "Magdaléna Jacková, Markéta Klosová, Martin Bažil, Alena Bočková, Kateřina
         Bobková-Valentová, Eva Popelková (eds.): Latinské biblické drama v
@@ -1727,7 +1723,7 @@
       editor: Martin Bažil, Alena Bočková
       year: "2026"
       copyright: Ústav pro českou literaturu Akademie věd České republiky, v. v. i., Nakladatelství Academia
-      url: https://www.theatrum-neolatinum.cz/en/biblicke.html
+      url: https://www.theatrum-neolatinum.cz/en/digi_edice.html
       type: critical edition
       source:
         title: "Tobias Junior, illustrissimis sponsis, Wenceslao Guilielmo Poppelio,
@@ -1745,7 +1741,7 @@
         date: "1616"
         copyright: National archives CR
         type: print
-  complete: false
+  complete: true
   _includeInOverview: true
   _includeDocx: false
 - id: neolat000083
@@ -1771,9 +1767,6 @@
     with publisher - Licence CC0 1.0
   acknowledgements: Permission for this publication under CC0 1.0 granted by the Theatrum Neolatinum team in consultation
     with the publisher (https://creativecommons.org/publicdomain/zero/1.0/deed.de).
-  transcription:
-    by: null
-    supervisor: Kateřina Bobková-Valentová
   source:
     title: Theatrum Neolatinum
     type: PDF
