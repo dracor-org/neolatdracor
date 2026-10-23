@@ -19,7 +19,7 @@ website: [Camerarius digital](http://www.camerarius.de)
 
 ### From Stage to Page
 editor(s): Nicholas De Sutter  
-encoder(s): see the relevant TEI files  
+encoder(s): Nicholas De Sutter   
 text selection: see below  
 number of texts: ca. 20  
 status: work in progress  
@@ -52,7 +52,7 @@ website: [Macropedius Drama Corpus (teaching project)](https://www.klassphil.uni
 
 ### Theatrum Neolatinum
 editor(s): Kateřina Bobková-Valentová (Czech Academy of Science), Alena Bočková (Charles University), Martin Bažil (Charles University), Magdaléna Jacková (Czech Academy of Science), Markéta Klosová (Czech Academy of Science)  
-encoder(s): see the relevant TEI files  
+encoder(s): Boris Lehečka (freelancer), Jana Synovcová Borovičková (Czech Academy of Science)   
 text selection: see below  
 number of texts: 6  
 status: work in progress  
