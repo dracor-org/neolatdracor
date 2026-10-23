@@ -10,6 +10,9 @@ const readme = readFileSync(readmeFile, 'utf8');
 const yaml = readFileSync('meta.yaml', 'utf8')
 const records = parse(yaml).filter(r => r._includeInOverview);
 
+// sort rows by name, which starts with the (translating) author
+records.sort((a, b) => a.name.localeCompare(b.name));
+
 // console.log(records);
 
 const rows = [];
