@@ -2455,7 +2455,7 @@
     editor: Jan Bloemendal
     url: https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Aler-Innocentia.docx
     type: DOCX
-    note: Commit 2d6539882656911527ebb75a7f2cc9dded5209bd, older version used, needs checking
+    note: Commit 2d6539882656911527ebb75a7f2cc9dded5209bd
     availability:
       status: free
     source:
@@ -2492,7 +2492,7 @@
   regionQid: Q12548
   project: TransLatin
   status: DOCX, TEI (basic)
-  licenceNotes: possible licence conflict
+  licenceNotes: No inclusion of this version due to licence conflicts
   source:
     title: TransLatin
     editor: Jan Bloemendal
@@ -2664,7 +2664,7 @@
   region: Low Countries
   regionQid: Q476033
   project: TransLatin
-  status: DOCX, TEI (basic)
+  status: tei, published
   licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   source:
     title: TransLatin
@@ -2719,7 +2719,7 @@
     editor: Jan Bloemendal
     url: https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Caussin-Felicitas.docx
     type: DOCX
-    note: Commit 2d6539882656911527ebb75a7f2cc9dded5209bd, older verson used, needs checking
+    note: Commit 2d6539882656911527ebb75a7f2cc9dded5209bd, older version used, needs checking
     availability:
       status: free
     source:
@@ -3106,7 +3106,7 @@
     editor: Jan Bloemendal
     url: https://gitlab.huc.knaw.nl/eDITem/translatin-dramas/-/blob/main/datasource/transcriptions/docx/Celtis-Ludus.docx
     type: DOCX
-    note: Commit 2d6539882656911527ebb75a7f2cc9dded5209bd. This file collates Pindter's edition and the 1501 print.
+    note: Commit 2d6539882656911527ebb75a7f2cc9dded5209bd. This file collates Pindter’s edition and the 1501 print.
     availability:
       status: free
     source:
@@ -3236,7 +3236,7 @@
   regionQid: Q476033
   project: TransLatin
   status: DOCX, TEI (basic)
-  licenceNotes: Permission by journal needed
+  licenceNotes: The protection period of critical editions published in the EU ends after 30 years the latest, hence, an inclusion under CC0 1.0 is possible
   source:
     title: TransLatin
     editor: Jan Bloemendal
@@ -3250,15 +3250,16 @@
         Lovaniensia 33 (1984). pp. 145-197."
       editor: Chris L. Heesakkers
       year: "1984"
-      copyright: editor/journal
+      availability:
+        status: free
       type: critical edition
       note: "[quote:] As far as possible the edition offers the text as it is preserved in the Manuscript.
         This holds even good for the spelling (u/v, e/j), the capitalisation and the
         punctuation which generally offers no problems to the modern reader. A few
         usual abbreviations (for -que, -us, and the like) are completed."
-  complete: false
-  _includeInOverview: false
-  _includeDocx: false
+  complete: true
+  _includeInOverview: true
+  _includeDocx: true
 - id: neolat000055
   name: dalanthus-dido
   title: Dido
@@ -3323,7 +3324,7 @@
   regionQid: Q12548
   project: TransLatin
   status: DOCX, TEI (basic)
-  licenceNotes: possible licence conflict
+  licenceNotes: No inclusion of this version due to licence conflicts
   source:
     title: TransLatin
     editor: Jan Bloemendal
@@ -3362,7 +3363,7 @@
   regionQid: Q476033
   project: TransLatin
   status: DOCX, TEI (basic)
-  licenceNotes: Permission granted by TransLatin chief, CC0 1.0 possible
+  licenceNotes: Permission granted by TransLatin chief and editor Jan Bloemendal, CC0 1.0 possible
   source:
     title: TransLatin
     editor: Jan Bloemendal
@@ -3380,6 +3381,7 @@
       source:
         title: Münchener DigitalisierungsZentrum (MDZ)
         url: https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb10181680-1
+        type: PDF
         availability:
           licence: Non-Commercial Use Only
           licenceUrl: https://rightsstatements.org/vocab/NoC-NC/1.0/
@@ -3497,7 +3499,7 @@
   regionQid: Q179876
   project: TransLatin
   status: DOCX, TEI (basic)
-  licenceNotes: Permission by the editor and University of Birmingham needed
+  licenceNotes: No inclusion of this version due to licence conflicts
   acknowledgements: Copyright of the online critical edition (c) University of Birmingham
   source:
     title: TransLatin
@@ -3580,10 +3582,10 @@
   form: verse
   genre: comedy
   genreQid: Q40831
-  region: INFORMATION NEEDED
-  regionQid: null
+  region: Low Countries
+  regionQid: Q476033
   project: TransLatin
-  status: DOCX, TEI (basic)
+  status: tei, published
   licenceNotes: Public domain, permission granted by TransLatin chief, CC0 1.0 possible
   source:
     title: TransLatin
@@ -3591,16 +3593,21 @@
     url: https://github.com/HuygensING/translatin/blob/main/datasource/transcriptions/docx/Gnapheus-Acolastus.docx
     type: DOCX
     source:
-      title: "Gnapheus, Guilielmus: Acolastus. Latijnse tekst met Nederlandse vertaling. Ed. by P. Minderaa. Zwolle: Tjeenk Willink 1956."
+      title: Digitale Bibliotheek voor de Nederlandse Letteren (DBNL)
       url: https://www.dbnl.org/tekst/gnap001pmin01_01/gnap001pmin01_01_0005.php
-      type: print
-  complete: false
-  _includeInOverview: false
+      type: HTML
+      availability:
+        status: free
+      source:
+        title: "Gnapheus, Guilielmus: Acolastus. Latijnse tekst met Nederlandse vertaling. Ed. by P. Minderaa. Zwolle: Tjeenk Willink 1956."
+        type: print
+  complete: true
+  _includeInOverview: true
   _includeDocx: false
 - id: neolat000066
   name: gnapheus-morosophus
   title: Morosophus
-  subtitle: de vera ac personata sapientia
+  subtitle: De vera ac personata sapientia
   qid: null
   authors:
     - forename: Gulielmus
@@ -3613,8 +3620,8 @@
   form: verse
   genre: comedy
   genreQid: Q40831
-  region: INFORMATION NEEDED
-  regionQid: null
+  region: Low Countries
+  regionQid: Q476033
   project: TransLatin
   status: DOCX, TEI (basic)
   licenceNotes: null
@@ -4118,9 +4125,10 @@
     source:
       title: Münchener DigitalisierungsZentrum (MDZ)
       url: https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00004866-9
+      type: PDF
       availability:
         licence: PDM 1.0
-        licenceUrl: https://creativecommons.org/publicdomain/mark/1.0/
+        licenceUrl: https://creativecommons.org/publicdomain/mark/1.0/      
       source:
         title: "Iacobi Philomusi Locher oratoris et poetae praeclari, Iudicium Paridis
           ludi cuiusdam instar carmine lucule[n]ter descriptum, ac nuper exactiori
@@ -4927,7 +4935,7 @@
   regionQid: Q179876
   project: TransLatin
   status: DOCX, TEI (basic)
-  licenceNotes: Permission by the editor and University of Birmingham needed
+  licenceNotes: No inclusion of this version due to licence conflicts
   acknowledgements: Copyright of the online critical edition (c) University of Birmingham
   source:
     title: TransLatin
