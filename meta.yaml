@@ -6288,9 +6288,6 @@
   project: null
   status: text
   licenceNotes: Public domain, permission granted by Ceneton editor
-  transcription:
-    by: null
-    supervisor: null
   acknowledgements: Copyright of the online edition in the Ceneton project edited
     by Ton Harmsen (c) Leiden University. Thanks to Ton Harmsen for the
     authorisation of this digitisation.
@@ -6316,7 +6313,7 @@
 - id: neolat000065
   name: gnapheus-hypocrisis
   title: Hypocrisis
-  subtitle: de hypocrisis falsa religione, ficta disciplina
+  subtitle: De hypocrisis falsa religione, ficta disciplina
   qid: null
   authors:
     - forename: Gulielmus
@@ -6333,29 +6330,33 @@
   regionQid: Q476033
   project: null
   status: text
-  licenceNotes: Public domain
-  transcription:
-    by: null
-    supervisor: null
+  licenceNotes: Public domain, permission granted by Ceneton editor
   acknowledgements: Copyright of the online edition in the Ceneton project edited
     by Ton Harmsen (c) Leiden University. Thanks to Ton Harmsen for the
     authorisation of this digitisation.
   source:
     title: Census Nederlands Toneel (Ceneton)
+    editor:  V. Demoed; Ton Harmsen
     url: https://www.hum2.leidenuniv.nl/Dutch/Ceneton/GnapheusHypocrisis1544.html
     type: HTML
     availability:
       status: free
       note: In the public domain.
     source:
-      title: Hypocrisis. De Hypocrisis falsa religione, ficta disciplina et supplicio,
-        deque Psyches calamitate, et restituta illi per veram poenitentiam
-        salute Tragicomedia, Hypocrisis titulo inscripta. Autore Gulielmo
-        Gnapheo Hagiense, illustrissimi Principis D. Alberti Marchionis
-        Brandenburgensis, et primi Borussiorum Ducis consiliario. Basel 1544.
-      year: "1544"
+      title: Münchener DigitalisierungsZentrum (MDZ)
       url: https://www.digitale-sammlungen.de/de/view/bsb10926445?page=,1
-      type: print
+      type: PDF
+      availability:
+        licence: No Copyright - Non-Commercial Use Only
+        licenceUrl: https://rightsstatements.org/page/NoC-NC/1.0/?language=en
+      source:
+        title: Hypocrisis. De Hypocrisis falsa religione, ficta disciplina et supplicio,
+          deque Psyches calamitate, et restituta illi per veram poenitentiam
+          salute Tragicomedia, Hypocrisis titulo inscripta. Autore Gulielmo
+          Gnapheo Hagiense, illustrissimi Principis D. Alberti Marchionis
+          Brandenburgensis, et primi Borussiorum Ducis consiliario. Basel 1544.
+        year: "1544"
+        type: print 
   complete: true
   _includeInOverview: true
   _includeDocx: false
@@ -6380,9 +6381,6 @@
   project: null
   status: text
   licenceNotes: Public domain, permission granted by Ceneton editor
-  transcription:
-    by: null
-    supervisor: null
   acknowledgements: Copyright of the online edition in the Ceneton project edited
     by Ton Harmsen (c) Leiden University. Thanks to Ton Harmsen for the
     authorisation of this digitisation.
@@ -6395,11 +6393,17 @@
       status: free
       note: In the public domain.
     source:
-      title: "Hugonis Grotii Sacra; in quibus Adamus exul. Tragoedia,aliorumque
-        eiusdem generis carminum Cumulus. Hagen: Albertus Henricus 1601."
-      year: "1601"
+      title: Census Nederlands Toneel (Ceneton)
       url: https://www.hum2.leidenuniv.nl/Dutch/Ceneton/Facsimiles/GrotiusAdamusExul1601/index.htm
-      type: print
+      type: PDF
+      availability:
+        status: free
+        note: In the public domain.
+      source:
+        title: "Hugonis Grotii Sacra; in quibus Adamus exul. Tragoedia,aliorumque
+          eiusdem generis carminum Cumulus. Hagen: Albertus Henricus 1601."
+        year: "1601"
+        type: print
   complete: true
   _includeInOverview: true
   _includeDocx: false
@@ -6423,9 +6427,6 @@
   project: null
   status: text
   licenceNotes: Public domain, permission granted by Ceneton editor
-  transcription:
-    by: null
-    supervisor: null
   acknowledgements: Copyright of the online edition in the Ceneton project edited
     by Ton Harmsen (c) Leiden University. Thanks to Ton Harmsen for the
     authorisation of this digitisation.
@@ -6438,11 +6439,17 @@
       status: free
       note: In the public domain.
     source:
-      title: "Euripidis tragoedia Phoenissae, Emendata ex manuscriptis, Latina facta
-        ab Hugone Grotio. Paris: Jacobus Ruart 1630."
-      year: "1630"
+      title: Census Nederlands Toneel (Ceneton)
       url: https://www.hum2.leidenuniv.nl/Dutch/Ceneton/Facsimiles/GrotiusEuripidesPhoenissae1630/index.htm
-      type: print
+      type: PDF
+      availability:
+        status: free
+        note: In the public domain.
+      source:
+        title: "Euripidis tragoedia Phoenissae, Emendata ex manuscriptis, Latina facta
+          ab Hugone Grotio. Paris: Jacobus Ruart 1630."
+        year: "1630"
+        type: print
   complete: true
   _includeInOverview: true
   _includeDocx: false
@@ -6466,9 +6473,6 @@
   project: null
   status: text
   licenceNotes: Public domain, permission granted by Ceneton editor
-  transcription:
-    by: null
-    supervisor: null
   acknowledgements: Copyright of the online edition in the Ceneton project edited
     by Ton Harmsen (c) Leiden University. Thanks to Ton Harmsen for the
     authorisation of this digitisation.
@@ -6481,10 +6485,16 @@
       status: free
       note: In the public domain.
     source:
-      title: "Hugonis Grotii Tragoedia Christus patiens. Leiden: Thomas Basson 1608."
-      year: "1608"
+      title: Census Nederlands Toneel (Ceneton)
       url: https://www.hum2.leidenuniv.nl/Dutch/Ceneton/Facsimiles/GrotiusChristusPatiens1608/index.htm
-      type: print
+      type: PDF
+      availability:
+        status: free
+        note: In the public domain.
+      source:
+        title: "Hugonis Grotii Tragoedia Christus patiens. Leiden: Thomas Basson 1608."
+        year: "1608"
+        type: print
   complete: true
   _includeInOverview: true
   _includeDocx: false
@@ -6508,9 +6518,6 @@
   project: null
   status: text
   licenceNotes: Public domain, permission granted by Ceneton editor
-  transcription:
-    by: null
-    supervisor: null
   acknowledgements: Copyright of the online edition in the Ceneton project edited
     by Ton Harmsen (c) Leiden University. Thanks to Ton Harmsen for the
     authorisation of this digitisation.
@@ -6523,12 +6530,18 @@
       status: free
       note: In the public domain.
     source:
-      title: "Hugonis Grotii tragoedia Sophompaneas. Accesserunt, Tragoedia ejusdem
-        Christus Patiens, et sacri argumenti alia, Ex editione anni M D CXVII
-        recusa emendatiora. Amsterdam: Guilielmus Blaeu 1635."
-      year: "1635"
+      title: Census Nederlands Toneel (Ceneton)
       url: https://www.hum2.leidenuniv.nl/Dutch/Ceneton/LijstCeneton.html#032650
-      type: print
+      type: PDF
+      availability:
+        status: free
+        note: In the public domain.
+      source:
+        title: "Hugonis Grotii tragoedia Sophompaneas. Accesserunt, Tragoedia ejusdem
+          Christus Patiens, et sacri argumenti alia, Ex editione anni M D CXVII
+          recusa emendatiora. Amsterdam: Guilielmus Blaeu 1635."
+        year: "1635"
+        type: print
   complete: true
   _includeInOverview: true
   _includeDocx: false
@@ -6552,26 +6565,30 @@
   project: null
   status: text
   licenceNotes: Public domain, permission granted by Ceneton editor
-  transcription:
-    by: null
-    supervisor: null
   acknowledgements: Copyright of the online edition in the Ceneton project edited
     by Ton Harmsen (c) Leiden University. Thanks to Ton Harmsen for the
     authorisation of this digitisation.
   source:
     title: Census Nederlands Toneel (Ceneton)
+    editor: Ton Harmsen
     url: https://www.hum2.leidenuniv.nl/Dutch/Ceneton/HeinsiusAuriacus1602.html
     type: HTML
     availability:
       status: free
       note: In the public domain.
     source:
-      title: "Danielis Heinsii Auriacus Sive libertas saucia. Accedunt eiusdem Iambi.
-        Partim morales, partim ad amicos, partim amicorum causâ scripti. Leiden:
-        Andreas Cloucquium 1602."
-      year: "1602"
+      title: Census Nederlands Toneel (Ceneton)
       url: https://www.hum2.leidenuniv.nl/Dutch/Ceneton/Facsimiles/HeinsiusAuriacus1602/index.htm
-      type: print
+      type: PDF
+      availability:
+        status: free
+        note: In the public domain.
+      source:
+        title: "Danielis Heinsii Auriacus Sive libertas saucia. Accedunt eiusdem Iambi.
+          Partim morales, partim ad amicos, partim amicorum causâ scripti. Leiden:
+          Andreas Cloucquium 1602."
+        year: "1602"
+        type: print
   complete: true
   _includeInOverview: true
   _includeDocx: false
@@ -6596,25 +6613,29 @@
   project: null
   status: text
   licenceNotes: Public domain, permission granted by Ceneton editor
-  transcription:
-    by: null
-    supervisor: null
   acknowledgements: Copyright of the online edition in the Ceneton project edited
     by Ton Harmsen (c) Leiden University. Thanks to Ton Harmsen for the
     authorisation of this digitisation.
   source:
     title: Census Nederlands Toneel (Ceneton)
+    editor: Ton Harmsen
     url: https://www.hum2.leidenuniv.nl/Dutch/Ceneton/HeinsiusHerodes1632.html
     type: HTML
     availability:
       status: free
       note: In the public domain.
     source:
-      title: "Danielis Heinsii Herodes infanticida. Tragoedia. Leiden: Ex Officinâ
-        Elzeviriana 1632."
-      year: "1632"
-      url: https://books.google.com/books?id=mzw8AAAAcAAJ&printsec=frontcover&dq=herodes+infanticida&hl=nl&sa=X&ei=UsX2UcPCEo3VPK30gJgJ&ved=0CDQQ6AEwAA#v=onepage&q=herodes%20infanticida&f=false
-      type: print
+      title: Google Books
+      url: https://books.google.com/books?id=mzw8AAAAcAAJ
+      type: PDF
+      availability:
+        status: free
+        note: In the public domain.
+      source:
+        title: "Danielis Heinsii Herodes infanticida. Tragoedia. Leiden: Ex Officinâ
+          Elzeviriana 1632."
+        year: "1632"
+        type: print
   complete: true
   _includeInOverview: true
   _includeDocx: false
@@ -6635,7 +6656,7 @@
   genreQid: Q80930
   region: Low Countries
   regionQid: Q476033
-  project: null
+  project: TransLatin
   status: .docx
   availability:
     status: free
@@ -6669,31 +6690,35 @@
   yearWritten: null
   premiered: null
   form: verse
-  genre: INFORMATION NEEDED
-  genreQid: INFORMATION NEEDED
+  genre: Bible play
+  genreQid: Q856327
   region: Low Countries
   regionQid: Q476033
   project: null
   status: text
   licenceNotes: Public domain, permission granted by Ceneton editor
-  transcription:
-    by: null
-    supervisor: null
   acknowledgements: Copyright of the online edition in the Ceneton project edited
     by Ton Harmsen (c) Leiden University. Thanks to Ton Harmsen for the
     authorisation of this digitisation.
   source:
     title: Census Nederlands Toneel (Ceneton)
+    editor: G.C. van Uitert; Ton Harmsen
     url: https://www.let.leidenuniv.nl/Dutch/Ceneton/Molanus69Salomon1550ca.html
     type: HTML
     availability:
       status: free
       note: In the public domain.
     source:
-      title: "Johannes Molanus: Judicium Salomonis. Diest [1550]."
-      date: "1550"
+      title: Census Nederlands Toneel (Ceneton)
       url: https://www.let.leidenuniv.nl/Dutch/Ceneton/Facsimiles/Molanus69Salomon1550ca/index.htm
-      type: manuscript
+      type: PDF
+      availability:
+        status: free
+        note: In the public domain.
+      source:
+        title: "Johannes Molanus: Judicium Salomonis. Diest [1550]."
+        date: "1550"      
+        type: manuscript
   complete: true
   _includeInOverview: true
   _includeDocx: false
@@ -6725,6 +6750,7 @@
     authorisation of this digitisation.
   source:
     title: Census Nederlands Toneel (Ceneton)
+    editor: Paula Koning; Ton Harmsen
     url: https://www.hum2.leidenuniv.nl/Dutch/Ceneton/ErasmusIphigenia1506.html
     type: HTML
     availability:
@@ -6734,7 +6760,7 @@
     source:
       title: Census Nederlands Toneel (Ceneton)
       url: https://www.hum2.leidenuniv.nl/Dutch/Ceneton/Facsimiles/ErasmusEuripides1506/index.htm
-      type: HTML
+      type: PDF
       availability:
         status: free
         note: The editions on the website edited by Antonius Harmsen (Leiden University) are
@@ -6771,9 +6797,6 @@
   project: null
   status: text
   licenceNotes: Public domain, permission granted by Ceneton editor
-  transcription:
-    by: null
-    supervisor: null
   acknowledgements: Copyright of the online edition in the Ceneton project edited
     by Ton Harmsen (c) Leiden University. Thanks to Ton Harmsen for the
     authorisation of this digitisation.
@@ -6786,11 +6809,17 @@
       status: free
       note: In the public domain.
     source:
-      title: "Aran & Titus. Mutua vindicatio, interprete schola Thielana. Thiela:
-        Gosuinus à Duyn 1658."
-      year: "1658"
+      title: Census Nederlands Toneel (Ceneton)
       url: https://www.hum2.leidenuniv.nl/Dutch/Ceneton/Facsimiles/AelhuisenAranEtTitusJanVos1658/index.htm
-      type: print
+      type: PDF
+      availability:
+        status: free
+        note: In the public domain.
+      source:
+        title: "Aran & Titus. Mutua vindicatio, interprete schola Thielana. Thiela:
+          Gosuinus à Duyn 1658."
+        year: "1658"     
+        type: print
   complete: true
   _includeInOverview: true
   _includeDocx: false
@@ -6868,9 +6897,6 @@
   project: null
   status: text
   licenceNotes: Public domain, permission granted by Ceneton editor
-  transcription:
-    by: null
-    supervisor: null
   acknowledgements: Copyright of the online edition in the Ceneton project edited
     by Ton Harmsen (c) Leiden University. Thanks to Ton Harmsen for the
     authorisation of this digitisation.
@@ -6883,11 +6909,17 @@
       status: free
       note: In the public domain.
     source:
-      title: "Ovis perdita autore Iacobo Zovitio apud Braedanos Ludimagistro.
-        Antwerpen: Martinus Caesar 1539."
-      year: "1539"
+      title: Census Nederlands Toneel (Ceneton)
       url: https://www.let.leidenuniv.nl/Dutch/Ceneton/Facsimiles/ZovitiusOvisPerdita1539/index.htm
-      type: print
+      type: PDF
+      availability:
+        status: free
+        note: In the public domain.
+      source:
+        title: "Ovis perdita autore Iacobo Zovitio apud Braedanos Ludimagistro.
+          Antwerpen: Martinus Caesar 1539."
+        year: "1539"  
+        type: print
   complete: true
   _includeInOverview: true
   _includeDocx: false
@@ -6911,9 +6943,6 @@
   project: null
   status: text
   licenceNotes: Public domain, permission granted by Ceneton editor
-  transcription:
-    by: null
-    supervisor: null
   acknowledgements: Copyright of the online edition in the Ceneton project edited
     by Ton Harmsen (c) Leiden University. Thanks to Ton Harmsen for the
     authorisation of this digitisation.
@@ -6926,12 +6955,18 @@
       status: free
       note: In the public domain.
     source:
-      title: "Ruth. Authore Iacobo Zovitio Driescharo. Ludi Hoochstratani
-        hypodidascalo. Zocitij Distichon ad invidium. Antwerpen: Michael
-        Hillenius 1533."
-      year: "1533"
+      title: Google Books
       url: https://books.google.com/books?id=3LdbAAAAQAAJ
-      type: print
+      type: PDF
+      availability:
+        status: free
+        note: In the public domain.
+      source:
+        title: "Ruth. Authore Iacobo Zovitio Driescharo. Ludi Hoochstratani
+          hypodidascalo. Zocitij Distichon ad invidium. Antwerpen: Michael
+          Hillenius 1533."
+        year: "1533"      
+        type: print
   complete: true
   _includeInOverview: true
   _includeDocx: false
